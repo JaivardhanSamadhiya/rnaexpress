@@ -42,3 +42,10 @@ All timestamps use ISO 8601 with the local offset where available. Entries are l
 - The mutagenesis outcome sheet omits the source tile identifier and contains two distinct `Cflar_2` parents under the same gene-level identity. Row-order assignment would recover all 4,695 designed SNVs but is not independently verifiable from the workbook.
 - The central benchmark therefore excludes the duplicated identity entirely. Its truth-safe benchmark contains 4,395 exhaustive SNVs across 15 unambiguous parents (1,465 positions, three alternate alleles each); 300 SNVs are quarantined.
 - This correction supersedes any implication above that all 16 design parents are safely usable as outcome-linked intervention tuples.
+
+## 2026-08-26 — Model-development preregistration — PRE-SPECIFIED
+
+- Retained the frozen 12-development/3-locked-parent N-zip split rather than replacing it after outcomes had already been reconstructed.
+- Prespecified nested leave-one-parent-out model selection on the 12 development parents and one-time evaluation on the three locked parents.
+- Fixed continuous inverse metrics, the exact random expectation, a development-only binary threshold rule, model families, Mikl ablations, parent-level inference and internal GO criteria in `reports/preregistration.md`.
+- Astrocyte outcome files remain sealed. Only the frozen outcome-free feature artifact may be used to create candidate inputs.
