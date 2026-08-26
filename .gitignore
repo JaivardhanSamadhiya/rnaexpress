@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.Rhistory
+
+# Public source data are reproducibly downloaded and checksum-inventoried, not committed.
+data/raw/**
+!data/raw/.gitkeep
+data/interim/**
+!data/interim/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+data/frozen/outcomes/**
+results/**
+!results/**/.gitkeep
+

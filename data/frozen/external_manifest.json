@@ -1,0 +1,47 @@
+{
+  "dataset": "GSE330741 astrocyte SN-MPRA",
+  "frozen_at_utc": "2026-08-26T11:52:44.760703+00:00",
+  "role": "locked external validation only",
+  "files": [
+    {
+      "path": "data/raw/astrocyte_gse330741/supplementary/media-1.xlsx",
+      "size_bytes": 5579342,
+      "sha256": "1d17c0631fc962b762dddf3f27f76494dadf882f28a0154b5af76dbedd57c3f6"
+    },
+    {
+      "path": "data/raw/astrocyte_gse330741/GSE330741_RAW.tar",
+      "size_bytes": 5304320,
+      "sha256": "88c883f41530b485ccacd98b276e90c8955138e64d7d02babf1a7738bee25f1f"
+    },
+    {
+      "path": "data/frozen/astrocyte_external_features.csv.gz",
+      "size_bytes": 75672,
+      "sha256": "43d4e7dd2d96f603afd4a4e2af51a784923a5eb5f53e99dc8b3e14bbf3071827"
+    },
+    {
+      "path": "data/frozen/astrocyte_pairing_audit.json",
+      "size_bytes": 883,
+      "sha256": "260eaef408804a86c64d1254a225fbb8db6386774a455267b5f1aaf6378062e8"
+    }
+  ],
+  "design": {
+    "parents": 8,
+    "parent_length_nt": 190,
+    "snv_constructs": 4553,
+    "positions": 1520,
+    "missing_substitutions_from_full_saturation": 7,
+    "feature_artifact_contains_outcome_values": false
+  },
+  "sealed_outcome_fields": [
+    "snin_ctxin_logFC (localization)",
+    "ctxtrap_ctxin_logFC (ribosome occupancy)",
+    "paptrap_ctxtrap_logFC (local translation)",
+    "replicate count columns used to derive expression contrasts"
+  ],
+  "policy": [
+    "No external outcome values may be used for feature design, threshold selection, model selection, hyperparameter selection or stopping rules.",
+    "Outcome unsealing requires a committed model, immutable prediction artifact and prespecified evaluation configuration.",
+    "All eight parents are evaluated as an external group; no mutation-level splitting is permitted."
+  ],
+  "known_deviation": "Three result-sheet rows were printed during schema discovery before this manifest was created. No aggregate distribution, ranking, threshold or model result was inspected. This benchmark is outcome-blinded from freeze onward but must not be called perfectly never-seen."
+}

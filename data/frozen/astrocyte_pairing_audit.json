@@ -1,0 +1,29 @@
+{
+  "source": "data/raw/astrocyte_gse330741/supplementary/media-1.xlsx",
+  "total_library_constructs": 4769,
+  "control_constructs": 7,
+  "biological_element_groups": 8,
+  "wt_constructs_in_biological_groups": 209,
+  "selected_190nt_parent_constructs": 8,
+  "reconstructed_snv_pairs": 4553,
+  "complete_three_alternates_per_position": false,
+  "snv_positions": 1520,
+  "positions_by_number_of_assayed_alternates": {
+    "2": 7,
+    "3": 1513
+  },
+  "missing_alternate_substitutions_from_full_saturation": 7,
+  "snvs_missing_result_row": 0,
+  "complete_held_out_labels_by_field": {
+    "snin_ctxin_logFC": 4553,
+    "ctxtrap_ctxin_logFC": 4553,
+    "paptrap_ctxtrap_logFC": 4553
+  },
+  "held_out_outcome_columns": [
+    "snin_ctxin_logFC",
+    "ctxtrap_ctxin_logFC",
+    "paptrap_ctxtrap_logFC"
+  ],
+  "outcome_values_exported": false,
+  "failures": []
+}
