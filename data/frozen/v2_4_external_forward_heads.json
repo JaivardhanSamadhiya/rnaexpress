@@ -1,0 +1,42 @@
+{
+  "purpose": "External-only assay heads frozen before v2.4 N-zip model definition or fit.",
+  "locks": "TDP-43 locked outcomes and astrocyte outcomes were not read.",
+  "protocol": "reports/v2_4_external_pretraining_protocol.md",
+  "audit_sha256": "1509f291fd89242dfa369185670b735af34991c7aff784a30e6f4662b731d4af",
+  "cohort_rows": {
+    "mikl": 13309,
+    "arora": 7115
+  },
+  "row_fingerprint_sha256": {
+    "mikl": "24f574c0865ab5ed3328eff2ca468e33eb3089066e59c9ec64f57eebac8dac4e",
+    "arora": "429f8133e9b0fe22144cac86499418e041f6a50a65014e39fdd46c0590f509b9"
+  },
+  "embedding_sha256": {
+    "mikl": "0924680c2f2d54557a8800b39a571ec5be0c984c23b1ac5de3dacac0f0d2b8af",
+    "arora": "a928afff9eb4a5de81e368e158b91c614753aab88b60dbb86979688e043c87aa"
+  },
+  "cv_results_sha256": "924facdbb6e6a78add8dbcfc782ee330ef924091af02ee9444446751e4f3150b",
+  "model_npz_sha256": "a727474e6e5c613b499da7c58638cb797b9428cfa4a43256a6308fc7e8074b2a",
+  "selected": {
+    "mikl": {
+      "representation": "cls_mean_handcrafted",
+      "alpha": 10000.0,
+      "dataset_macro_spearman": 0.20031086779884746,
+      "outcomes": [
+        "logFC(neurite/soma) - CAD",
+        "logFC(neurite/soma) - Neuro-2a"
+      ]
+    },
+    "arora": {
+      "representation": "cls_mean",
+      "alpha": 10000.0,
+      "dataset_macro_spearman": 0.14039373995888924,
+      "outcomes": [
+        "GFP_CAD",
+        "firefly_CAD",
+        "GFP_N2A",
+        "firefly_N2A"
+      ]
+    }
+  }
+}
