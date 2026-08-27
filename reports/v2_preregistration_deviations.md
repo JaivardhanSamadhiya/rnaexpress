@@ -29,3 +29,7 @@ The auxiliary model has shared parent and edit encoders and separate additive ed
 ## V2.1 checkpoint column-name correction
 
 After all 105 frozen real-label seed fits had completed and been checkpointed, the evaluator stopped before computing any metric because one shuffled-edit line still referenced the pre-rename ensemble column `pred_factorized_context_ensemble`. It was corrected to `pred_factorized_context_seed_ensemble`. No model was retrained, no prediction changed, no gate metric had been computed, and both outcome locks remained sealed. The evaluator then resumed from the complete source-row-validated checkpoint.
+
+## 2026-08-27 — v2.2 deterministic solver implementation
+
+Recorded after the v2.2 method was frozen and before embedding any project sequence or fitting the model. The deterministic ridge implementation uses scikit-learn's `lsqr` solver with tolerance `1e-6` and at most 10,000 iterations. SpliceBERT inference batches 32 sequences at a time. These are compute/solver specifications; the representation, regularization rule, labels, folds and gate are unchanged.
