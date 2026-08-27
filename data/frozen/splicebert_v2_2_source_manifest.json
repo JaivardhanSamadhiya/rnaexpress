@@ -1,0 +1,25 @@
+{
+  "source": "https://zenodo.org/records/7995778/files/models.tar.gz",
+  "source_record": "https://doi.org/10.5281/zenodo.7995778",
+  "downloaded_utc_date": "2026-08-27",
+  "archive_bytes": 217605407,
+  "archive_md5_published_and_verified": "a51911d7d59fa6f0b07db4abaa820d84",
+  "archive_sha256": "2d07fb041c3784a538559c368805ae84ca3daeb888772aa3bbe82f48dd576662",
+  "selected_model": "SpliceBERT.1024nt",
+  "selection_reason": "Multi-species vertebrate model explicitly pretrained on variable-length 64-1024 nt RNA, covering the approximately 260-nt project sequences without fine-tuning.",
+  "selected_files": {
+    "config.json": "51ea51e42951f18cc1d3455d7111fe0a41cebad476ba8314afc161a0e956303e",
+    "pytorch_model.bin": "2ad91428c318e6c49233154073ca7a35f5f7899c9f4be3444775bae3dba0149d",
+    "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+    "tokenizer_config.json": "a8f9a3828553689c1cb215689fc82af7551c1bb6ba642606612e834fda0c607c",
+    "tokenizer.json": "b380c8c93ba20313c0c0239b8c70f0c67253028ca76cfda4f55b46049abe4fa3",
+    "vocab.txt": "ba67bacb61d3de7d57e11e04ba59020a2cc67dbedbd9ae65715117b9fd4f30bc"
+  },
+  "runtime": {
+    "transformers": "4.40.2",
+    "transformers_wheel_sha256": "71cb94301ec211a2e1d4b8c8d18dcfaa902dfa00a089dceca167a8aa265d6f2d",
+    "torch_compatibility_check": "2.1.0+cpu",
+    "checkpoint_hidden_shape_check": [1, 102, 512],
+    "checkpoint_check_finite": true
+  }
+}
