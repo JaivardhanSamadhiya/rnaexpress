@@ -133,6 +133,7 @@ def fit_factorized_context_ranker(
     learning_rate: float = 1e-3,
     weight_decay: float = 1e-3,
     epochs: int = 200,
+    pairs_per_parent: int = 600,
 ) -> np.ndarray:
     random.seed(SEED)
     np.random.seed(SEED)
@@ -144,7 +145,7 @@ def fit_factorized_context_ranker(
         p_scaler.transform(features.parent[train_indices]), dtype=torch.float32
     )
     edit_train = torch.tensor(e_scaler.transform(features.edit[train_indices]), dtype=torch.float32)
-    high, low = _pair_indices(train)
+    high, low = _pair_indices(train, pairs_per_parent=pairs_per_parent)
     model = FactorizedContextRanker(parent_train.shape[1], edit_train.shape[1], rank, hidden)
     optimizer = torch.optim.AdamW(
         model.parameters(), lr=learning_rate, weight_decay=weight_decay
