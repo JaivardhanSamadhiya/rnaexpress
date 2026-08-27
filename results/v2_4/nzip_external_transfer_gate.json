@@ -1,0 +1,29 @@
+{
+  "selected_custom": "external_localization_pca_ridge",
+  "strongest_forward": "forward_lightgbm",
+  "context_feature_sha256": "eeaca4d2c7362877755e850a8bc08fa3e3088c64ffd69fadff72ef409c165e74",
+  "absolute_feature_sha256": "506414ce034a143c7dd8205203673518295011219ad6946c7f35c7f0c75827a7",
+  "absolute_sequence_sha256": "293164536165b63f9c8c3727765836e11867d1114ee1c781df2a5f127d210b68",
+  "external_head_labels": [
+    "mikl:logFC(neurite/soma) - CAD",
+    "mikl:logFC(neurite/soma) - Neuro-2a",
+    "arora:GFP_CAD",
+    "arora:firefly_CAD",
+    "arora:GFP_N2A",
+    "arora:firefly_N2A"
+  ],
+  "pca_components": 64,
+  "ridge_alpha": 88,
+  "gate_checks": {
+    "rank_percentile_at_least_0_630": false,
+    "gain_over_strongest_forward_at_least_0_030": false,
+    "gain_over_metadata_at_least_0_020": false,
+    "improves_at_least_9_of_15_parents": false,
+    "positive_after_removing_two_best_parents": false,
+    "shuffled_edit_at_most_0_540": true
+  },
+  "primary_gate_pass": false,
+  "development_gate_pass": false,
+  "shuffled_label_control_run": false,
+  "note": "TDP-43 locked outcomes and astrocyte outcomes remained sealed."
+}
