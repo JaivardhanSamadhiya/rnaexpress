@@ -1,0 +1,55 @@
+{
+  "frozen_role": "locked internal N-zip evaluation",
+  "code_commit": "6585544e8ce1433c757bb46b69088f68bd59e2eb",
+  "selected_model": "pairwise_rank",
+  "training_parents": 12,
+  "training_snvs": 3540,
+  "locked_parents": 3,
+  "locked_candidates": 855,
+  "locked_outcomes_accessed": false,
+  "astrocyte_outcomes_accessed": false,
+  "seed": 20260826,
+  "hyperparameters": {
+    "local_ridge": {
+      "radius": 10,
+      "alpha": 10.0
+    },
+    "motif_delta": {
+      "k": 4,
+      "minimum_support": 10
+    },
+    "retrieval": {
+      "radius": 10,
+      "neighbors": 15
+    },
+    "forward_extratrees": {
+      "leaf_size": 5,
+      "max_features": 0.5
+    },
+    "intervention_extratrees": {
+      "leaf_size": 5,
+      "max_features": 0.5
+    },
+    "pairwise_rank": {
+      "c_value": 1.0
+    },
+    "intervention_plus_mikl_prior": {
+      "leaf_size": 5,
+      "max_features": 0.5
+    }
+  },
+  "binary_threshold_log2": 0.6758642587586807,
+  "model_sha256": "fbe9a46c6f8ca722382a6f35d2b0804d4e2ef47f49d869609ff70e1a17f5d337",
+  "predictions_sha256": "3b1fb0d494052fa6001615c3cbc257ff627e3464454457c846ab6cb153d37ad8",
+  "code_sha256": {
+    "src/modeling/features.py": "510fd040de801ab0059e25be682ae24e6afa6fa2800665a8cdab16206d617625",
+    "src/modeling/models.py": "e2d8a04663e464d0c88a137939aaf26c24262b29b45e5852a57d57db60254b2f",
+    "src/modeling/metrics.py": "1ce9f270e20b1ed494778616e78407895a34f22950cfdab1d7625dfe56b6efe6",
+    "src/modeling/freeze_internal.py": "b8419d54e5da095054498af69a0bf51a30512b75470ee8a16a2f6ce42d4b37d9"
+  },
+  "calibration": {
+    "method": "isotonic on 12-parent cross-fitted development predictions",
+    "rmse_log2": 1.2017601263652784,
+    "ranking_unchanged_by_monotonic_calibration": true
+  }
+}
