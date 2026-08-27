@@ -1,0 +1,21 @@
+{
+  "selected_custom": "splicebert_extreme_contrast_ridge",
+  "strongest_forward": "forward_lightgbm",
+  "feature_sha256": "eeaca4d2c7362877755e850a8bc08fa3e3088c64ffd69fadff72ef409c165e74",
+  "feature_shape": [
+    4395,
+    2638
+  ],
+  "gate_checks": {
+    "rank_percentile_at_least_0_630": false,
+    "gain_over_strongest_forward_at_least_0_030": false,
+    "gain_over_metadata_at_least_0_020": false,
+    "improves_at_least_9_of_15_parents": true,
+    "positive_after_removing_two_best_parents": false,
+    "shuffled_edit_at_most_0_540": true
+  },
+  "primary_gate_pass": false,
+  "development_gate_pass": false,
+  "shuffled_label_control_run": false,
+  "note": "TDP-43 locked outcomes and Astrocyte outcomes remained sealed."
+}
