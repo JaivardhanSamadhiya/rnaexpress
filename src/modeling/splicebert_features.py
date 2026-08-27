@@ -139,3 +139,39 @@ def build_splicebert_delta_features(
         )
     edit = build_v2_features(frame).edit
     return np.column_stack([contextual, edit]).astype(np.float32)
+
+
+def build_splicebert_paired_delta_features(
+    frame: pd.DataFrame,
+    batch_size: int = 32,
+) -> np.ndarray:
+    """Build the same frozen delta vector for one parent/mutant pair per row.
+
+    Unlike ``build_splicebert_delta_features``, this batches distinct parent
+    sequences together. It is intended for assays such as the TDP-43 MPRA in
+    which every oligo is its own parent context. The pooling operation and the
+    appended v2 edit vector are otherwise identical.
+    """
+    tokenizer, model = load_splicebert()
+    contextual = np.empty((len(frame), HIDDEN_SIZE * 4), dtype=np.float32)
+    for first in range(0, len(frame), batch_size):
+        last = min(len(frame), first + batch_size)
+        batch = frame.iloc[first:last]
+        parents = batch["parent_sequence"].map(normalize_sequence).tolist()
+        mutants = batch["mutant_sequence"].map(normalize_sequence).tolist()
+        if any(len(parent) != len(mutant) for parent, mutant in zip(parents, mutants)):
+            raise ValueError("SpliceBERT contextual deltas require length-preserving edits")
+        parent_hidden = _token_hidden(tokenizer, model, parents)
+        mutant_hidden = _token_hidden(tokenizer, model, mutants)
+        for offset, (parent, mutant) in enumerate(zip(parents, mutants)):
+            tokens = len(parent) + 2
+            contextual[first + offset] = pool_contextual_delta(
+                parent_hidden[offset : offset + 1, :tokens],
+                mutant_hidden[offset : offset + 1, :tokens],
+                parent,
+                [mutant],
+            )[0]
+        if last % (batch_size * 10) == 0 or last == len(frame):
+            print(f"embedded SpliceBERT pairs {last}/{len(frame)}", flush=True)
+    edit = build_v2_features(frame).edit
+    return np.column_stack([contextual, edit]).astype(np.float32)
