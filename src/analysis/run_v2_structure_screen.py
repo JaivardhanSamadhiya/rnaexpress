@@ -9,8 +9,8 @@ import pandas as pd
 
 from src.modeling.metrics import evaluate_predictions, parent_macro
 from src.modeling.v2_features import build_v2_features
-from src.modeling.v2_models import fit_factorized_context_ranker
 from src.modeling.v2_structure import build_structure_augmented_features
+from src.modeling.v2_models import fit_factorized_context_ranker
 
 
 ROOT = Path(__file__).resolve().parents[2]
