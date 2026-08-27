@@ -1,0 +1,41 @@
+{
+  "seed": 20260826,
+  "threshold": 0.6758642587586807,
+  "development_parents": 12,
+  "development_snvs": 3540,
+  "locked_parent_outcomes_accessed": false,
+  "astrocyte_outcomes_accessed": false,
+  "selected_rnaddress_model": "pairwise_rank",
+  "strongest_development_baseline": "retrieval",
+  "final_hyperparameters": {
+    "local_ridge": {
+      "radius": 10,
+      "alpha": 10.0
+    },
+    "motif_delta": {
+      "k": 4,
+      "minimum_support": 10
+    },
+    "retrieval": {
+      "radius": 10,
+      "neighbors": 15
+    },
+    "forward_extratrees": {
+      "leaf_size": 5,
+      "max_features": 0.5
+    },
+    "intervention_extratrees": {
+      "leaf_size": 5,
+      "max_features": 0.5
+    },
+    "pairwise_rank": {
+      "c_value": 1.0
+    },
+    "intervention_plus_mikl_prior": {
+      "leaf_size": 5,
+      "max_features": 0.5
+    }
+  },
+  "final_inner_cv_scores": {},
+  "selection_rule": "method selection by outer-parent macro rank percentile and Spearman; hyperparameters fixed at preregistered grid centers for compute safety"
+}

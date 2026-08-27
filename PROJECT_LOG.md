@@ -49,3 +49,12 @@ All timestamps use ISO 8601 with the local offset where available. Entries are l
 - Prespecified nested leave-one-parent-out model selection on the 12 development parents and one-time evaluation on the three locked parents.
 - Fixed continuous inverse metrics, the exact random expectation, a development-only binary threshold rule, model families, Mikl ablations, parent-level inference and internal GO criteria in `reports/preregistration.md`.
 - Astrocyte outcome files remain sealed. Only the frozen outcome-free feature artifact may be used to create candidate inputs.
+
+## 2026-08-26 — Nested-tree runtime amendment — POST-HOC
+
+- Stopped the first formal benchmark before it wrote any complete outer-parent result because 300-tree models in every inner grid fold projected beyond the stated CPU budget.
+- Inner tree hyperparameter screening was reduced from an initially attempted 60-tree surrogate to 20 trees after the former still exceeded budget before a formal fold completed; selected outer-fold and final models retain 300 trees. No folds, feature sets, candidate hyperparameters, labels, metrics or selection rules changed.
+- Full disclosure and timing rationale are recorded in `reports/preregistration_deviations.md`.
+- A second pre-result stop capped only the exploratory joint N-zip+Mikl ablation at 100 trees with leaf size 10 and feature fraction 0.25; primary outer models remain at 300 trees.
+- A third pre-result stop changed only compute-heavy inner selection to deterministic three-fold grouped validation and reduced the fixed diagnostic local boosting iterations to 100. Outer evaluation remains leave-one-parent-out.
+- After timing one complete fold but before computing aggregate metrics, discarded that checkpoint and fixed all hyperparameters at preregistered grid centers. This removes inner tuning while preserving strict outer leave-one-parent-out evaluation; details are in `reports/preregistration_deviations.md`.

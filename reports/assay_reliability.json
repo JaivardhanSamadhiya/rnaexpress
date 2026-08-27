@@ -1,0 +1,105 @@
+{
+  "policy": {
+    "nzip_parents_used": "12 development parents only",
+    "locked_nzip_parents_inspected": false,
+    "astrocyte_outcomes_inspected": false,
+    "binary_success_threshold_log2": 0.6758642587586807,
+    "threshold_rule": "max(0.25, 1.96 * robust_sigma(WT-shScramble) / sqrt(2))"
+  },
+  "nzip_development": {
+    "parents": 12,
+    "snvs": 3540,
+    "wt_vs_shscramble_agreement": {
+      "n": 2301,
+      "pearson": 0.21233741364261294,
+      "spearman": 0.16328020392589807,
+      "mae": 0.5153460265097015
+    },
+    "wt_minus_shscramble_robust_sigma": 0.4876614291121252,
+    "delta_mean": -0.908358002320748,
+    "delta_sd": 1.2115934328614173,
+    "delta_min": -13.06726585784848,
+    "delta_max": 4.60002980636361,
+    "fraction_effectively_null": 0.17259887005649718,
+    "fraction_beneficial_increase": 0.10367231638418078,
+    "fraction_beneficial_decrease": 0.7237288135593221,
+    "between_parent_variance_of_mean_delta": 0.904822565932874,
+    "median_within_parent_effect_sd": 0.4245872040670643,
+    "median_parent_effect_range": 3.6023731320193724,
+    "interpretation": "WT-versus-shScramble is a negative-control cross-condition agreement, not a true technical replicate; it supports a practical threshold but not a strict measurement-error ceiling."
+  },
+  "mikl": {
+    "safe_pairs": 11926,
+    "parents": 6104,
+    "cad_vs_neuro2a_delta_agreement": {
+      "n": 11926,
+      "pearson": 0.13258467709477662,
+      "spearman": 0.10506131327120057,
+      "mae": 0.759475518476369
+    },
+    "mean_delta_sd": 0.6612504325899576,
+    "mean_delta_min": -6.211678710947622,
+    "mean_delta_max": 5.64501954702822,
+    "parents_with_multiple_interventions": 2945,
+    "median_within_parent_delta_sd": 0.2662913988665705,
+    "replicate_count_based_agreement": {
+      "CAD": {
+        "valid_constructs_total_pair_count_ge_20_by_replicate": [
+          44247,
+          44286,
+          44253
+        ],
+        "pairwise_localization_agreement": [
+          {
+            "replicates": "1-2",
+            "n": 44154,
+            "spearman": 0.10981615316426603,
+            "pearson": 0.14104757693652945
+          },
+          {
+            "replicates": "1-3",
+            "n": 44135,
+            "spearman": 0.10409709593364531,
+            "pearson": 0.12661031557069766
+          },
+          {
+            "replicates": "2-3",
+            "n": 44151,
+            "spearman": 0.18654436225483004,
+            "pearson": 0.21115863257057274
+          }
+        ],
+        "median_spearman": 0.10981615316426603
+      },
+      "Neuro-2a": {
+        "valid_constructs_total_pair_count_ge_20_by_replicate": [
+          44268,
+          44288,
+          44206
+        ],
+        "pairwise_localization_agreement": [
+          {
+            "replicates": "1-2",
+            "n": 44154,
+            "spearman": 0.11662424569544193,
+            "pearson": 0.14132256478779837
+          },
+          {
+            "replicates": "1-3",
+            "n": 44115,
+            "spearman": 0.1269212467754812,
+            "pearson": 0.13849081743814634
+          },
+          {
+            "replicates": "2-3",
+            "n": 44126,
+            "spearman": 0.12001130564446291,
+            "pearson": 0.14222772179629137
+          }
+        ],
+        "median_spearman": 0.12001130564446291
+      }
+    },
+    "interpretation": "CAD/Neuro-2a agreement measures cross-cell-context portability. Raw count replicate agreement is a closer reliability indicator but uses a simple library-size-normalized log-ratio rather than the authors' full model."
+  }
+}

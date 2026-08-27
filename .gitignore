@@ -15,4 +15,14 @@ data/processed/**
 data/frozen/outcomes/**
 results/**
 !results/**/.gitkeep
-
+!results/internal/
+!results/internal/development_predictions.csv.gz
+!results/internal/development_parent_direction_metrics.csv
+!results/internal/development_macro_metrics.csv
+!results/internal/development_nested_hyperparameters.csv
+!results/internal/development_model_selection.json
+!results/internal/development_parent_bootstrap.csv
+!results/internal/development_per_parent_comparison.csv
+!results/internal/frozen_locked_predictions.csv.gz
+!results/internal/final_pairwise_rank_model.joblib
+!results/internal/internal_freeze_manifest.json
