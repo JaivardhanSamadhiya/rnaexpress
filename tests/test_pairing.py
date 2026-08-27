@@ -3,7 +3,10 @@ import pytest
 from src.pairing.audit_astrocyte import audit as audit_astrocyte
 from src.pairing.reconstruct_mikl import reconstruct as reconstruct_mikl
 from src.pairing.reconstruct_nzip import reconstruct as reconstruct_nzip
+from src.pairing.reconstruct_tdp43 import motif_suffix, mutate_by_suffix
+from src.pairing.freeze_tdp43_v2 import choose_locked_genes
 from src.modeling.metrics import exact_random_success, expected_random_best
+import pandas as pd
 
 
 def test_nzip_reconstruction_is_exhaustive() -> None:
@@ -39,3 +42,22 @@ def test_exact_random_metrics() -> None:
     assert exact_random_success(10, 2, 10) == 1.0
     assert expected_random_best([1.0, 2.0, 3.0], 1) == 2.0
     assert expected_random_best([1.0, 2.0, 3.0], 3) == 3.0
+
+
+def test_tdp43_overlapping_motifs_and_complement_mutation() -> None:
+    sequence = "AACGTGTGTAA"
+    assert motif_suffix(sequence) == "4:9"
+    mutant = mutate_by_suffix(sequence, "4:9")
+    assert mutant == "AACCACACAAA"
+    assert sum(left != right for left, right in zip(sequence, mutant)) == 6
+
+
+def test_tdp43_lock_selection_is_deterministic_and_quartile_balanced() -> None:
+    rows = []
+    for index, count in enumerate(range(10, 170, 10)):
+        rows.extend({"gene_id": f"gene{index:02d}"} for _ in range(count))
+    pairs = pd.DataFrame(rows)
+    first = choose_locked_genes(pairs)
+    second = choose_locked_genes(pairs.sample(frac=1, random_state=7))
+    assert first == second
+    assert len(first) == 4

@@ -1,0 +1,46 @@
+{
+  "frozen_date": "2026-08-26",
+  "split_seed": "rnaddress-v2-lock-2026-08-26",
+  "selection_rule": "Within each outcome-blind construct-count quartile, lock the gene with the lexicographically smallest SHA256(seed|gene_id).",
+  "development_genes": 12,
+  "development_pairs": 3560,
+  "locked_genes": [
+    {
+      "gene_id": "ENSMUSG00000022095",
+      "gene_name": "Fam160b2"
+    },
+    {
+      "gene_id": "ENSMUSG00000035202",
+      "gene_name": "Lars2"
+    },
+    {
+      "gene_id": "ENSMUSG00000043670",
+      "gene_name": "Diras1"
+    },
+    {
+      "gene_id": "ENSMUSG00000090935",
+      "gene_name": "Synj2bp"
+    }
+  ],
+  "locked_pairs": 1006,
+  "outcome_columns": [
+    "parent_localization_log2_neurite_soma",
+    "mutant_localization_log2_neurite_soma",
+    "delta_localization"
+  ],
+  "prohibited_until_v2_freeze": "Do not read the locked outcome file during model or feature development.",
+  "artifacts": {
+    "development": {
+      "path": "data/processed/tdp43_v2_development_pairs.csv.gz",
+      "sha256": "a150d5f665a11522ff89c29f2739ace206dad8521cc023385596de3f99bc9ac8"
+    },
+    "locked_features": {
+      "path": "data/frozen/tdp43_v2_locked_features.csv.gz",
+      "sha256": "2678052892e47459363130f645d784287fb418931bec3c677d9bcee92420ae53"
+    },
+    "locked_outcomes": {
+      "path": "data/frozen/outcomes/tdp43_v2_locked_outcomes.csv.gz",
+      "sha256": "69842a7174e81d3d6adf87a075c66817ce5c2cb59f0bb58bb627eecf741d7a2e"
+    }
+  }
+}
