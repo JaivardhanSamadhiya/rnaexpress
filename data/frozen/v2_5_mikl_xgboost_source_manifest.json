@@ -1,0 +1,59 @@
+{
+  "purpose": "Frozen source, cohort, label, and leakage audit for the v2.5 Mikl published-model reconstruction.",
+  "locks": "TDP-43 locked outcomes and astrocyte outcomes were not read.",
+  "paper": {
+    "title": "A massively parallel reporter assay reveals focused and broadly encoded RNA localization signals in neurons",
+    "doi": "10.1093/nar/gkac806",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9561380/",
+    "local_html": "data/raw/mikl_gse173098/PMC9561380.html",
+    "local_html_sha256": "1d0b3a02d7097b1af0c215eb02073a3e12e97f53da559f7c46d84065f251c05c"
+  },
+  "official_repository": {
+    "url": "https://github.com/martinmikl/RNAloc_MPRA",
+    "commit": "62e1ca41b7e10309ffd5f36574c265da02077f71",
+    "note": "The repository supplies the official library-design and mapping code but not the paper's machine-learning fit. Model semantics are reconstructed from the peer-reviewed Methods."
+  },
+  "source_table": {
+    "path": "data/raw/mikl_gse173098/supplementary/files/SupplementaryData_NAR_Final/SupplementaryTables/TableS2.csv",
+    "sha256": "c3b3257976af7cd2253aa5503a8a53f374e5730fe012f2320f449eee06d67ee3",
+    "rows": 47347,
+    "test_insert_slice_0based_half_open": [30, 180],
+    "insert_length": 150
+  },
+  "paper_cohort_reproduction": {
+    "filter": "number of reads - CAD > 500 and number of reads - Neuro-2a > 500; one deterministic first source row per 150-nt insert",
+    "unique_sequences": 36731,
+    "paper_reported_sequences": 36731,
+    "exact_count_match": true
+  },
+  "globally_decontaminated_cohort": {
+    "excluded_normalized_nzip_genes": [
+      "bdnf",
+      "cald1",
+      "camk2n1",
+      "cdc42",
+      "cflar",
+      "cox5b",
+      "golim4",
+      "kif1c",
+      "map2",
+      "mcf2l",
+      "msn",
+      "ndufa2",
+      "rassf3",
+      "rps23",
+      "utrn"
+    ],
+    "rows": 35428,
+    "genes": 304,
+    "neurite_positive": 679,
+    "soma_positive": 177,
+    "both_positive": 0,
+    "nzip_full_parent_containment_rows": 0,
+    "nzip_shared_exact_31mer_rows": 0
+  },
+  "labels": {
+    "neurite_positive": "CAD logFC > 0 and CAD p < 0.05 and Neuro-2a logFC > 0 and Neuro-2a p < 0.05",
+    "soma_positive": "CAD logFC < 0 and CAD p < 0.05 and Neuro-2a logFC < 0 and Neuro-2a p < 0.05"
+  }
+}
