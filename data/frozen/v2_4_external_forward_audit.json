@@ -1,0 +1,449 @@
+{
+  "purpose": "Outcome-blind source, construct, reliability, and leakage audit before v2.4 preregistration.",
+  "locks": "TDP-43 locked outcomes and astrocyte outcomes were not read.",
+  "nzip": {
+    "source_sha256": "0a9bd52f089694f6431ae9cb44782499f2249913ac17781b38052cf3a0319a10",
+    "parents": 15,
+    "base_genes": [
+      "bdnf",
+      "cald1",
+      "camk2n1",
+      "cdc42",
+      "cflar",
+      "cox5b",
+      "golim4",
+      "kif1c",
+      "map2",
+      "mcf2l",
+      "msn",
+      "ndufa2",
+      "rassf3",
+      "rps23",
+      "utrn"
+    ],
+    "parent_length_counts": {
+      "85": 1,
+      "90": 2,
+      "100": 12
+    }
+  },
+  "mikl": {
+    "source_sha256": "c3b3257976af7cd2253aa5503a8a53f374e5730fe012f2320f449eee06d67ee3",
+    "constructs": 47347,
+    "insert_length": 150,
+    "wt_scanning_50_rows": 13753,
+    "nzip_gene_overlap": [
+      "bdnf",
+      "cdc42",
+      "cox5b",
+      "map2",
+      "mcf2l",
+      "ndufa2",
+      "rps23"
+    ],
+    "nzip_sequence_overlap_all_constructs": [
+      {
+        "parent_id": "ENSMUSG00000006699|Cdc42_2|31",
+        "gene_name": "Cdc42_2",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 7,
+        "external_rows_sharing_any_exact_31mer": 26
+      },
+      {
+        "parent_id": "ENSMUSG00000014294|Ndufa2|11+12",
+        "gene_name": "Ndufa2",
+        "parent_length": 85,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 3
+      },
+      {
+        "parent_id": "ENSMUSG00000015222|Map2|5",
+        "gene_name": "Map2",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 8,
+        "external_rows_sharing_any_exact_31mer": 102
+      },
+      {
+        "parent_id": "ENSMUSG00000019820|Utrn|61",
+        "gene_name": "Utrn",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000020821|Kif1c|80",
+        "gene_name": "Kif1c",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000025795|Rassf3|91",
+        "gene_name": "Rassf3",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000026031|Cflar_1|14",
+        "gene_name": "Cflar_1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000029761|Cald1|58",
+        "gene_name": "Cald1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000031207|Msn|48",
+        "gene_name": "Msn",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000031442|Mcf2l|7",
+        "gene_name": "Mcf2l",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 2,
+        "external_rows_sharing_any_exact_31mer": 5
+      },
+      {
+        "parent_id": "ENSMUSG00000034109|Golim4|56",
+        "gene_name": "Golim4",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000046447|Camk2n1|12",
+        "gene_name": "Camk2n1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000048482|Bdnf|56",
+        "gene_name": "Bdnf",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 3,
+        "external_rows_sharing_any_exact_31mer": 43
+      },
+      {
+        "parent_id": "ENSMUSG00000049517|Rps23|11+12",
+        "gene_name": "Rps23",
+        "parent_length": 90,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 1
+      },
+      {
+        "parent_id": "ENSMUSG00000061518|Cox5b|6+7",
+        "gene_name": "Cox5b",
+        "parent_length": 90,
+        "external_rows_containing_full_parent": 1,
+        "external_rows_sharing_any_exact_31mer": 3
+      }
+    ],
+    "wt_rows_after_global_nzip_gene_exclusion": 13309,
+    "nzip_sequence_overlap_after_wt_and_gene_exclusion": [
+      {
+        "parent_id": "ENSMUSG00000006699|Cdc42_2|31",
+        "gene_name": "Cdc42_2",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000014294|Ndufa2|11+12",
+        "gene_name": "Ndufa2",
+        "parent_length": 85,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000015222|Map2|5",
+        "gene_name": "Map2",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000019820|Utrn|61",
+        "gene_name": "Utrn",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000020821|Kif1c|80",
+        "gene_name": "Kif1c",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000025795|Rassf3|91",
+        "gene_name": "Rassf3",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000026031|Cflar_1|14",
+        "gene_name": "Cflar_1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000029761|Cald1|58",
+        "gene_name": "Cald1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000031207|Msn|48",
+        "gene_name": "Msn",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000031442|Mcf2l|7",
+        "gene_name": "Mcf2l",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000034109|Golim4|56",
+        "gene_name": "Golim4",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000046447|Camk2n1|12",
+        "gene_name": "Camk2n1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000048482|Bdnf|56",
+        "gene_name": "Bdnf",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000049517|Rps23|11+12",
+        "gene_name": "Rps23",
+        "parent_length": 90,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000061518|Cox5b|6+7",
+        "gene_name": "Cox5b",
+        "parent_length": 90,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      }
+    ]
+  },
+  "arora": {
+    "source_sha256": {
+      "SupplementaryFile1.txt": "26c95c7be05b9450f4798415cc4f4fa7d7d2941a41e9536dd29ee23df03d318f",
+      "TableS1.xlsx": "6f6b51412968c75beca0b107a062a844bd81da57681644f726e4aa6d0f9bb48f",
+      "TableS2.xlsx": "54b71ac6800ebcb13b8504e1eba4eca0956f520d7af11783f54f634d60cca084",
+      "TableS3.xlsx": "731a42615fe11089fd4657716919a889f29e3601f52d00e58d23fd5f4467e9cd",
+      "TableS4.xlsx": "da718819f520bd59aeef9b927ef8b61e84629e1627c29afec058d2472709f8ea"
+    },
+    "result_rows": 7360,
+    "fasta_records": 7374,
+    "unlabeled_260nt_control_sequences": 750,
+    "fasta_length_counts": {
+      "260": 7374
+    },
+    "fasta_controls_without_result": [
+      "ENSMUSG00000006740.289",
+      "ENSMUSG00000006740.590",
+      "ENSMUSG00000006740.591",
+      "ENSMUSG00000006740.592",
+      "ENSMUSG00000006740.593",
+      "ENSMUSG00000006740.594",
+      "ENSMUSG00000006740.596",
+      "ENSMUSG00000006740.597",
+      "ENSMUSG00000006740.598",
+      "ENSMUSG00000006740.599",
+      "ENSMUSG00000006740.600",
+      "ENSMUSG00000006740.601",
+      "ENSMUSG00000006740.602",
+      "ENSMUSG00000006740.603"
+    ],
+    "results_missing_from_fasta": [],
+    "complete_outcome_rows": 7115,
+    "assay_nonmissing_rows": {
+      "GFP_CAD": 7217,
+      "firefly_CAD": 7239,
+      "GFP_N2A": 7293,
+      "firefly_N2A": 7326
+    },
+    "assay_spearman": {
+      "GFP_CAD": {
+        "GFP_CAD": 1.0,
+        "firefly_CAD": 0.07305846915497603,
+        "GFP_N2A": 0.17372976556513156,
+        "firefly_N2A": 0.041205750830751696
+      },
+      "firefly_CAD": {
+        "GFP_CAD": 0.07305846915497603,
+        "firefly_CAD": 1.0,
+        "GFP_N2A": 0.05316427850090476,
+        "firefly_N2A": 0.20410104990805164
+      },
+      "GFP_N2A": {
+        "GFP_CAD": 0.17372976556513156,
+        "firefly_CAD": 0.05316427850090476,
+        "GFP_N2A": 1.0,
+        "firefly_N2A": 0.043703342267477525
+      },
+      "firefly_N2A": {
+        "GFP_CAD": 0.041205750830751696,
+        "firefly_CAD": 0.20410104990805164,
+        "GFP_N2A": 0.043703342267477525,
+        "firefly_N2A": 1.0
+      }
+    },
+    "genes": [
+      "Afap1l1",
+      "Akap12",
+      "BC1",
+      "Cdc42bpg",
+      "Cplx2",
+      "Fnbp4",
+      "Gdf11",
+      "Kif5b",
+      "Malat1",
+      "Net1",
+      "Ogt",
+      "Paxbp1",
+      "Rab13",
+      "Trak2"
+    ],
+    "nzip_gene_overlap": [],
+    "nzip_sequence_overlap": [
+      {
+        "parent_id": "ENSMUSG00000006699|Cdc42_2|31",
+        "gene_name": "Cdc42_2",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000014294|Ndufa2|11+12",
+        "gene_name": "Ndufa2",
+        "parent_length": 85,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000015222|Map2|5",
+        "gene_name": "Map2",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000019820|Utrn|61",
+        "gene_name": "Utrn",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000020821|Kif1c|80",
+        "gene_name": "Kif1c",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000025795|Rassf3|91",
+        "gene_name": "Rassf3",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000026031|Cflar_1|14",
+        "gene_name": "Cflar_1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000029761|Cald1|58",
+        "gene_name": "Cald1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000031207|Msn|48",
+        "gene_name": "Msn",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000031442|Mcf2l|7",
+        "gene_name": "Mcf2l",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000034109|Golim4|56",
+        "gene_name": "Golim4",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000046447|Camk2n1|12",
+        "gene_name": "Camk2n1",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000048482|Bdnf|56",
+        "gene_name": "Bdnf",
+        "parent_length": 100,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000049517|Rps23|11+12",
+        "gene_name": "Rps23",
+        "parent_length": 90,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      },
+      {
+        "parent_id": "ENSMUSG00000061518|Cox5b|6+7",
+        "gene_name": "Cox5b",
+        "parent_length": 90,
+        "external_rows_containing_full_parent": 0,
+        "external_rows_sharing_any_exact_31mer": 0
+      }
+    ]
+  }
+}
