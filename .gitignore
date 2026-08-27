@@ -34,3 +34,15 @@ results/**
 !results/internal/hostile_combined_parent_metrics.csv
 !results/internal/hostile_sensitivity.csv
 !results/internal/parent_similarity.csv
+!results/v2/
+!results/v2/nzip_development_predictions.csv.gz
+!results/v2/nzip_parent_direction_metrics.csv
+!results/v2/nzip_macro_metrics.csv
+!results/v2/nzip_development_gate.json
+!results/v2/nzip_hostile_control_metrics.csv
+!results/v2/nzip_hostile_control_summary.json
+!results/v2/nzip_nested_predictions.csv.gz
+!results/v2/nzip_nested_hyperparameters.csv
+!results/v2/nzip_nested_parent_direction_metrics.csv
+!results/v2/nzip_nested_macro_metrics.csv
+!results/v2/nzip_nested_gate.json

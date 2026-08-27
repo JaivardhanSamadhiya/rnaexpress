@@ -1,0 +1,14 @@
+{
+  "selected_custom": "factorized_context_ranker",
+  "strongest_forward": "forward_lightgbm",
+  "gate_checks": {
+    "rank_percentile_at_least_0_630": true,
+    "gain_over_strongest_forward_at_least_0_030": true,
+    "gain_over_metadata_at_least_0_020": true,
+    "improves_at_least_9_of_15_parents": true,
+    "positive_after_removing_two_best_parents": true,
+    "shuffled_edit_at_most_0_540": true
+  },
+  "partial_gate_pass": true,
+  "note": "The preregistered shuffled-label check is run in the hostile-control stage if all other checks pass."
+}

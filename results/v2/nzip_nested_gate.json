@@ -1,0 +1,15 @@
+{
+  "selected_custom": "factorized_context_nested",
+  "strongest_forward": "forward_lightgbm",
+  "shuffled_label_rank_percentile": 0.4530601799472011,
+  "gate_checks": {
+    "rank_percentile_at_least_0_630": false,
+    "gain_over_strongest_forward_at_least_0_030": false,
+    "gain_over_metadata_at_least_0_020": false,
+    "improves_at_least_9_of_15_parents": true,
+    "positive_after_removing_two_best_parents": false,
+    "shuffled_edit_at_most_0_540": true,
+    "shuffled_labels_at_most_0_530": true
+  },
+  "development_gate_pass": false
+}
