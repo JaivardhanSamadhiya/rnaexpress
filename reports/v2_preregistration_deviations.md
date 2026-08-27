@@ -19,3 +19,9 @@ The full 36-configuration factorized-ranker grid is retained. For each outer par
 Recorded after the sequence-only nested candidate failed and before fitting the preregistered structure-aware candidate. No locked outcome has been accessed.
 
 ViennaRNA 2.7.2 computes, per parent and mutant: MFE per nucleotide, ensemble free energy per nucleotide, ensemble diversity per nucleotide and mean unpaired probability. Edit features add parent/mutant/delta mean unpaired probability at changed bases and within a radius-10 window, plus deltas of the global structure summaries. The fixed-center screening architecture is unchanged (rank 8, hidden width 32, learning rate `1e-3`, L2 `1e-3`, 200 epochs, 600 pairs per parent). Structure calculations are cached by exact sequence SHA-256 and never use outcomes.
+
+## 2026-08-27 — TDP-43 development-only auxiliary candidate
+
+Recorded after the structure candidate failed and before auxiliary model fitting. The four TDP-43 locked-gene outcomes remain unopened.
+
+The auxiliary model has shared parent and edit encoders and separate additive edit heads for N-zip and TDP-43. TDP-43 ranking groups are genes, because each 260-nt oligo has one motif-complement intervention; N-zip groups remain parent sequences. Training uses equal aggregate pairwise loss from N-zip and TDP-43 development per epoch, with 600 high-versus-low pairs sampled per group, rank 8, hidden width 32, learning rate `1e-3`, L2 `1e-3`, and 200 epochs. Feature scaling is fitted to each outer fold's N-zip training parents plus the fixed 12-gene TDP-43 development set. No gene identifier is a feature.
