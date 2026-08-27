@@ -1,6 +1,6 @@
 # RNAddress v2.2 SpliceBERT contextual-delta results
 
-The official frozen `SpliceBERT.1024nt` checkpoint generated an outcome-blind 4,395 × 2,638 feature matrix (SHA-256 `eeaca4d2c7362877755e850a8bc08fa3e3088c64ffd69fadff72ef409c1165e74`). The deterministic percentile-ridge candidate was evaluated by strict leave-one-parent-out prediction over all 15 N-zip parents. TDP-43 locked outcomes and Astrocyte outcomes remained sealed.
+The official frozen `SpliceBERT.1024nt` checkpoint generated an outcome-blind 4,395 × 2,638 feature matrix (SHA-256 `eeaca4d2c7362877755e850a8bc08fa3e3088c64ffd69fadff72ef409c165e74`). The deterministic percentile-ridge candidate was evaluated by strict leave-one-parent-out prediction over all 15 N-zip parents. TDP-43 locked outcomes and Astrocyte outcomes remained sealed.
 
 | Model | Rank percentile | Normalized regret | Spearman |
 |---|---:|---:|---:|

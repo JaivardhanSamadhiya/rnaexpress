@@ -33,3 +33,7 @@ After all 105 frozen real-label seed fits had completed and been checkpointed, t
 ## 2026-08-27 — v2.2 deterministic solver implementation
 
 Recorded after the v2.2 method was frozen and before embedding any project sequence or fitting the model. The deterministic ridge implementation uses scikit-learn's `lsqr` solver with tolerance `1e-6` and at most 10,000 iterations. SpliceBERT inference batches 32 sequences at a time. These are compute/solver specifications; the representation, regularization rule, labels, folds and gate are unchanged.
+
+## 2026-08-27 — v2.3 copied feature-hash correction
+
+The first v2.3 invocation stopped at its pre-fit integrity check because the v2.2 feature hash had been transcribed with an extra `1` in the v2.3 report and code (`...409c1165e74` rather than the immutable gate/cache value `...409c165e74`). The actual feature file matched the committed v2.2 gate, retained its original creation/modification timestamps, and matched the frozen source rows. The copied hash was corrected before any v2.3 model fit or metric computation; both outcome locks remained sealed.

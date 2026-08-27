@@ -10,7 +10,7 @@ Learning-to-rank research distinguishes pointwise regression from ranking losses
 
 ## Frozen model
 
-- Reuse without modification the cached v2.2 feature matrix with shape 4,395 × 2,638 and SHA-256 `eeaca4d2c7362877755e850a8bc08fa3e3088c64ffd69fadff72ef409c1165e74`.
+- Reuse without modification the cached v2.2 feature matrix with shape 4,395 × 2,638 and SHA-256 `eeaca4d2c7362877755e850a8bc08fa3e3088c64ffd69fadff72ef409c165e74`.
 - Strict leave-one-parent-out evaluation over all 15 N-zip parents.
 - In every training parent, order candidates by measured delta localization and then `source_row` for deterministic tie-breaking. Let `q = floor(n / 4)`.
 - Assign the lowest `q` candidates target -1 and the highest `q` candidates target +1. Exclude all middle candidates from model fitting.
