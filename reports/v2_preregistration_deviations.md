@@ -25,3 +25,7 @@ ViennaRNA 2.7.2 computes, per parent and mutant: MFE per nucleotide, ensemble fr
 Recorded after the structure candidate failed and before auxiliary model fitting. The four TDP-43 locked-gene outcomes remain unopened.
 
 The auxiliary model has shared parent and edit encoders and separate additive edit heads for N-zip and TDP-43. TDP-43 ranking groups are genes, because each 260-nt oligo has one motif-complement intervention; N-zip groups remain parent sequences. Training uses equal aggregate pairwise loss from N-zip and TDP-43 development per epoch, with 600 high-versus-low pairs sampled per group, rank 8, hidden width 32, learning rate `1e-3`, L2 `1e-3`, and 200 epochs. Feature scaling is fitted to each outer fold's N-zip training parents plus the fixed 12-gene TDP-43 development set. No gene identifier is a feature.
+
+## V2.1 checkpoint column-name correction
+
+After all 105 frozen real-label seed fits had completed and been checkpointed, the evaluator stopped before computing any metric because one shuffled-edit line still referenced the pre-rename ensemble column `pred_factorized_context_ensemble`. It was corrected to `pred_factorized_context_seed_ensemble`. No model was retrained, no prediction changed, no gate metric had been computed, and both outcome locks remained sealed. The evaluator then resumed from the complete source-row-validated checkpoint.

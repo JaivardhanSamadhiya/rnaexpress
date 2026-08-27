@@ -186,7 +186,7 @@ def main() -> None:
     )
     rng = np.random.default_rng(SHUFFLE_SEED)
     frame["pred_seed_ensemble_shuffled_edit"] = frame.groupby("parent_id")[
-        "pred_factorized_context_ensemble"
+        "pred_factorized_context_seed_ensemble"
     ].transform(lambda values: rng.permutation(values.to_numpy()))
     metrics, macro, gate = gate_summary(frame, include_control=False)
     save(frame, metrics, macro, gate)
