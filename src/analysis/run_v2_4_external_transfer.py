@@ -22,6 +22,7 @@ from src.modeling.v2_features import absolute_sequence_features
 
 ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "results" / "v2" / "nzip_development_predictions.csv.gz"
+V2_2_PREDICTIONS = ROOT / "results" / "v2_2" / "nzip_splicebert_predictions.csv.gz"
 CONTEXT = ROOT / "data" / "interim" / "splicebert_v2_2_features.npy"
 CONTEXT_ROWS = ROOT / "data" / "interim" / "splicebert_v2_2_source_rows.npy"
 ABSOLUTE = ROOT / "data" / "interim" / "splicebert_v2_4_nzip_absolute.npy"
@@ -235,6 +236,13 @@ def main() -> None:
     frame = pd.read_csv(SOURCE)
     if len(frame) != 4_395 or frame["parent_id"].nunique() != 15:
         raise ValueError("N-zip v2.4 candidate set changed")
+    v2_2 = pd.read_csv(
+        V2_2_PREDICTIONS,
+        usecols=["source_row", "pred_splicebert_contextual_delta_ridge"],
+    )
+    frame = frame.merge(v2_2, on="source_row", how="left", validate="one_to_one")
+    if frame["pred_splicebert_contextual_delta_ridge"].isna().any():
+        raise ValueError("Frozen v2.2 descriptive predictions are incomplete")
     context = load_context(frame)
     external, labels = external_delta_features(frame)
     frame["pred_external_localization_pca_ridge"] = lopo_transfer(frame, context, external)

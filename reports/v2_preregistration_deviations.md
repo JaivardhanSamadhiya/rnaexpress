@@ -37,3 +37,7 @@ Recorded after the v2.2 method was frozen and before embedding any project seque
 ## 2026-08-27 — v2.3 copied feature-hash correction
 
 The first v2.3 invocation stopped at its pre-fit integrity check because the v2.2 feature hash had been transcribed with an extra `1` in the v2.3 report and code (`...409c1165e74` rather than the immutable gate/cache value `...409c165e74`). The actual feature file matched the committed v2.2 gate, retained its original creation/modification timestamps, and matched the frozen source rows. The copied hash was corrected before any v2.3 model fit or metric computation; both outcome locks remained sealed.
+
+## 2026-08-27 — v2.4 descriptive v2.2-column merge
+
+The first v2.4 invocation completed all 15 frozen candidate folds but stopped before metric computation because the v2 base source table did not contain `pred_splicebert_contextual_delta_ridge`, a prior prediction column requested only for descriptive comparison in the v2.4 metric table. No v2.4 aggregate or parent metric was computed, printed or saved. The implementation now merges that already-frozen v2.2 column from `results/v2_2/nzip_splicebert_predictions.csv.gz` by unique `source_row` with a complete one-to-one guard. The v2.4 representation, folds, targets, candidate predictions, gate baselines, checks and thresholds are unchanged. Both outcome locks remained sealed.
