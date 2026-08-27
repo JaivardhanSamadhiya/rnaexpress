@@ -125,8 +125,12 @@ class MultiTaskFactorizedContextRanker(nn.Module):
         return interaction + head(edit).squeeze(1)
 
 
-def _pair_indices(frame: pd.DataFrame, pairs_per_parent: int = 600) -> tuple[np.ndarray, np.ndarray]:
-    rng = np.random.default_rng(SEED)
+def _pair_indices(
+    frame: pd.DataFrame,
+    pairs_per_parent: int = 600,
+    seed: int = SEED,
+) -> tuple[np.ndarray, np.ndarray]:
+    rng = np.random.default_rng(seed)
     high_indices: list[int] = []
     low_indices: list[int] = []
     for _, indices in frame.groupby("parent_id", sort=True).indices.items():
@@ -152,10 +156,11 @@ def fit_factorized_context_ranker(
     weight_decay: float = 1e-3,
     epochs: int = 200,
     pairs_per_parent: int = 600,
+    seed: int = SEED,
 ) -> np.ndarray:
-    random.seed(SEED)
-    np.random.seed(SEED)
-    torch.manual_seed(SEED)
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
     train = frame.iloc[train_indices].reset_index(drop=True)
     p_scaler = StandardScaler().fit(features.parent[train_indices])
     e_scaler = StandardScaler().fit(features.edit[train_indices])
@@ -163,13 +168,13 @@ def fit_factorized_context_ranker(
         p_scaler.transform(features.parent[train_indices]), dtype=torch.float32
     )
     edit_train = torch.tensor(e_scaler.transform(features.edit[train_indices]), dtype=torch.float32)
-    high, low = _pair_indices(train, pairs_per_parent=pairs_per_parent)
+    high, low = _pair_indices(train, pairs_per_parent=pairs_per_parent, seed=seed)
     model = FactorizedContextRanker(parent_train.shape[1], edit_train.shape[1], rank, hidden)
     optimizer = torch.optim.AdamW(
         model.parameters(), lr=learning_rate, weight_decay=weight_decay
     )
     batch_size = 2048
-    generator = torch.Generator().manual_seed(SEED)
+    generator = torch.Generator().manual_seed(seed)
     for _ in range(epochs):
         order = torch.randperm(len(high), generator=generator)
         for first in range(0, len(high), batch_size):
