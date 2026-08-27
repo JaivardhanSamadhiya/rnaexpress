@@ -1,0 +1,13 @@
+analysis,parents,pairwise_minus_forward_rank_percentile,success_at_3,success_at_5
+all_parents,15,0.08025037991678102,,
+remove_ENSMUSG00000048482|Bdnf|56,14,0.049312698023593615,,
+remove_ENSMUSG00000020821|Kif1c|80,14,0.1179940167049123,,
+threshold_0.250000_forward_extratrees,15,,0.5666666666666667,0.6
+threshold_0.250000_pairwise_rank,15,,0.5666666666666667,0.6
+threshold_0.250000_retrieval,15,,0.5333333333333333,0.6
+threshold_0.675864_forward_extratrees,15,,0.4666666666666667,0.5
+threshold_0.675864_pairwise_rank,15,,0.4666666666666667,0.5333333333333333
+threshold_0.675864_retrieval,15,,0.5,0.5333333333333333
+threshold_1.000000_forward_extratrees,15,,0.4666666666666667,0.5
+threshold_1.000000_pairwise_rank,15,,0.4666666666666667,0.5333333333333333
+threshold_1.000000_retrieval,15,,0.5,0.5333333333333333

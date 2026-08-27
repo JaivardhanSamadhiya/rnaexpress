@@ -26,3 +26,11 @@ results/**
 !results/internal/frozen_locked_predictions.csv.gz
 !results/internal/final_pairwise_rank_model.joblib
 !results/internal/internal_freeze_manifest.json
+!results/internal/locked_parent_direction_metrics.csv
+!results/internal/locked_macro_metrics.csv
+!results/internal/locked_per_parent_results.csv
+!results/internal/locked_parent_bootstrap.csv
+!results/internal/hostile_combined_macro.csv
+!results/internal/hostile_combined_parent_metrics.csv
+!results/internal/hostile_sensitivity.csv
+!results/internal/parent_similarity.csv

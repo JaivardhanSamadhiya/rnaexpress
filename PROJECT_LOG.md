@@ -58,3 +58,33 @@ All timestamps use ISO 8601 with the local offset where available. Entries are l
 - A second pre-result stop capped only the exploratory joint N-zip+Mikl ablation at 100 trees with leaf size 10 and feature fraction 0.25; primary outer models remain at 300 trees.
 - A third pre-result stop changed only compute-heavy inner selection to deterministic three-fold grouped validation and reduced the fixed diagnostic local boosting iterations to 100. Outer evaluation remains leave-one-parent-out.
 - After timing one complete fold but before computing aggregate metrics, discarded that checkpoint and fixed all hyperparameters at preregistered grid centers. This removes inner tuning while preserving strict outer leave-one-parent-out evaluation; details are in `reports/preregistration_deviations.md`.
+
+## 2026-08-26 — Development benchmark — PRE-SPECIFIED ANALYSIS
+
+- Computed the development-only assay threshold as 0.675864 log2 localization units and retained continuous rank percentile and normalized regret as primary metrics.
+- Completed strict outer leave-one-parent-out prediction for all 12 development parents. Pairwise ranking led development with macro rank percentile 0.636, versus 0.561 for retrieval and 0.521 for strong forward-model exhaustive search.
+- Parent-bootstrap 95% intervals for the pairwise rank-percentile gain crossed zero versus both retrieval and forward search. Development was classified as promising, not confirmed.
+- Mikl-only transfer was below random (0.456). Joint N-zip+Mikl training reached 0.572 but did not beat N-zip pairwise ranking, while a Mikl prior reduced the intervention forest result. Mikl was excluded from the selected primary model.
+- No Astrocyte outcome was accessed.
+
+## 2026-08-26 — Locked internal prediction freeze — PRE-SPECIFIED
+
+- Fit the selected pairwise model using the 12 development parents and generated outcome-free predictions for 855 SNVs across the three untouched N-zip parents.
+- Committed the prediction freeze before reveal at commit `46a78dec1a4f654c6b0ea3bcbcf11d301bd8e046`.
+- Frozen prediction SHA-256: `3b1fb0d494052fa6001615c3cbc257ff627e3464454457c846ab6cb153d37ad8`.
+- Frozen model SHA-256: `fbe9a46c6f8ca722382a6f35d2b0804d4e2ef47f49d869609ff70e1a17f5d337`.
+- The calibrator used only cross-fitted development predictions and could not alter within-parent ranking.
+
+## 2026-08-26 — One-time locked internal reveal — PRE-SPECIFIED ANALYSIS
+
+- Verified the committed frozen-prediction hash before joining any locked N-zip outcome.
+- Pairwise ranking achieved macro rank percentile 0.566 and normalized regret 0.480. It beat exact random rank percentile 0.500 and retrieval 0.279, but lost to strong forward-model exhaustive search at 0.624 with normalized regret 0.421.
+- The preregistered internal gate therefore **FAILED**. The model was not changed after reveal.
+- The external prediction freeze and external outcome reveal were not authorized. Astrocyte localization, expression, translation, and ribosome-occupancy outcomes remain sealed.
+
+## 2026-08-26 — Post-lock hostile internal audit — POST-HOC
+
+- Combined only truth-safe cross-fitted predictions across the 15 N-zip parents for descriptive diagnostics; this analysis cannot rescue the failed gate.
+- Pairwise ranking had descriptive rank percentile 0.622, versus 0.542 for forward search, 0.612 for metadata-only, 0.594 for GC-only, and 0.528 after shuffling edit identities within parent.
+- Sequence-cluster-held-out pairwise ranking scored 0.619. Closest-parent 3-mer cosine similarity ranged from 0.501 to 0.919, with no exact duplicate parent sequences.
+- The custom pairwise objective is not established as necessary because it failed to beat the strong forward baseline on the untouched lock. No external or software-build phase was started.
