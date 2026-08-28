@@ -15,7 +15,7 @@ The governing principle is **truth over desired result**. A rigorous NO-GO is pr
 - Name: **RNAddress — A Computational Compiler for Sequence-Level RNA Localization**.
 - Repository: `D:\rnaexpress`.
 - Current branch: `rnaddress-v2-rescue`.
-- Current HEAD at this handoff: `cf98954` (`record failed TDP-43 locked gate`).
+- Latest scientific-results commit: `cf98954` (`record failed TDP-43 locked gate`).
 - Handoff date: 2026-08-27.
 - Competition deadline in the original specification: 2026-09-15.
 - Target: determine whether RNAddress can credibly approach the 2025 PV-Care project’s overall level for the 2026 S.-T. Yau High School Science Award, Computer Science category.
