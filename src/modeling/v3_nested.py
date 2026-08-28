@@ -11,7 +11,7 @@ from joblib import Parallel, delayed
 import numpy as np
 import pandas as pd
 from scipy.stats import rankdata, spearmanr
-from sklearn.linear_model import LogisticRegression, Ridge
+from sklearn.linear_model import LogisticRegression, Ridge, SGDRegressor
 from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
 
@@ -151,6 +151,7 @@ def _ridge_predict(
 class NestedResult:
     prediction: np.ndarray
     tuning: pd.DataFrame
+    inner_prediction: np.ndarray | None = None
 
 
 def _pair_prediction_job(
@@ -207,6 +208,7 @@ def nested_ridge(
     parents = frame["parent_id"].to_numpy()
     parent_ids = tuple(sorted(frame["parent_id"].unique()))
     prediction = np.full(len(frame), np.nan, dtype=float)
+    inner_prediction = np.full((len(parent_ids), len(frame)), np.nan, dtype=float)
     tuning_records = []
     pair_predictions = {}
     for factor in ALPHA_FACTORS:
@@ -221,6 +223,7 @@ def nested_ridge(
         outer_test = np.flatnonzero(parents == outer_parent)
         outer_train = np.flatnonzero(parents != outer_parent)
         scores = []
+        crossfit_by_factor = {}
         for factor in ALPHA_FACTORS:
             crossfit = np.full(len(frame), np.nan, dtype=float)
             for inner_parent in parent_ids:
@@ -230,10 +233,12 @@ def nested_ridge(
                 pair = tuple(sorted((outer_parent, inner_parent)))
                 crossfit[inner_test] = pair_predictions[factor][pair][inner_test]
             inner_frame = frame.iloc[outer_train].reset_index(drop=True)
-            inner_prediction = crossfit[outer_train]
-            metrics = directional_metrics(inner_frame, inner_prediction, model="inner")
+            inner_values = crossfit[outer_train]
+            metrics = directional_metrics(inner_frame, inner_values, model="inner")
             scores.append((selection_score(metrics), factor))
+            crossfit_by_factor[factor] = crossfit
         best_score, best_factor = max(scores, key=lambda item: (item[0], item[1]))
+        inner_prediction[outer_fold - 1, outer_train] = crossfit_by_factor[best_factor][outer_train]
         prediction[outer_test] = _ridge_predict(
             features, target, outer_train, outer_test, best_factor
         )
@@ -251,7 +256,133 @@ def nested_ridge(
         )
     if not np.isfinite(prediction).all():
         raise ValueError("Nested Ridge predictions are incomplete")
-    return NestedResult(prediction, pd.DataFrame(tuning_records))
+    return NestedResult(prediction, pd.DataFrame(tuning_records), inner_prediction)
+
+
+MAGNITUDE_MODELS = (
+    ("ridge", 0.1),
+    ("ridge", 1.0),
+    ("ridge", 10.0),
+    ("huber", 1e-5),
+    ("huber", 1e-4),
+    ("huber", 1e-3),
+)
+
+
+def _magnitude_predict(
+    features: np.ndarray,
+    target: np.ndarray,
+    train: np.ndarray,
+    test: np.ndarray,
+    family: str,
+    parameter: float,
+    seed: int,
+) -> np.ndarray:
+    scaler = StandardScaler().fit(features[train])
+    train_features = scaler.transform(features[train])
+    test_features = scaler.transform(features[test])
+    if family == "ridge":
+        model = Ridge(
+            alpha=float(parameter * features.shape[1]),
+            solver="lsqr",
+            tol=1e-6,
+            max_iter=10_000,
+        )
+    elif family == "huber":
+        model = SGDRegressor(
+            loss="huber",
+            epsilon=1.35,
+            alpha=parameter,
+            max_iter=5_000,
+            random_state=seed,
+        )
+    else:
+        raise ValueError(f"Unknown magnitude family: {family}")
+    model.fit(train_features, target[train])
+    return model.predict(test_features)
+
+
+def nested_magnitude(
+    frame: pd.DataFrame,
+    features: np.ndarray,
+    seed: int = 20260828,
+) -> NestedResult:
+    """Nested direct-magnitude selection over the frozen Ridge/Huber family."""
+    target = frame["delta_localization"].to_numpy(float)
+    parents = frame["parent_id"].to_numpy()
+    parent_ids = tuple(sorted(frame["parent_id"].unique()))
+    prediction = np.full(len(frame), np.nan, dtype=float)
+    inner_prediction = np.full((len(parent_ids), len(frame)), np.nan, dtype=float)
+    pair_predictions = {}
+    for family, parameter in MAGNITUDE_MODELS:
+        print(
+            f"precomputing magnitude inner fits: family={family} parameter={parameter}",
+            flush=True,
+        )
+        pair_predictions[(family, parameter)] = unordered_pair_crossfits(
+            parents,
+            lambda train, test, family=family, parameter=parameter: _magnitude_predict(
+                features, target, train, test, family, parameter, seed
+            ),
+        )
+    tuning_records = []
+    for outer_fold, outer_parent in enumerate(parent_ids, start=1):
+        outer_test = np.flatnonzero(parents == outer_parent)
+        outer_train = np.flatnonzero(parents != outer_parent)
+        scores = []
+        crossfit_by_model = {}
+        for family, parameter in MAGNITUDE_MODELS:
+            crossfit = np.full(len(frame), np.nan, dtype=float)
+            for inner_parent in parent_ids:
+                if inner_parent == outer_parent:
+                    continue
+                inner_test = np.flatnonzero(parents == inner_parent)
+                pair = tuple(sorted((outer_parent, inner_parent)))
+                crossfit[inner_test] = pair_predictions[(family, parameter)][pair][inner_test]
+            metrics = directional_metrics(
+                frame.iloc[outer_train].reset_index(drop=True),
+                crossfit[outer_train],
+                model="inner_magnitude",
+            )
+            scores.append((selection_score(metrics), family, parameter))
+            crossfit_by_model[(family, parameter)] = crossfit
+        best_score, best_family, best_parameter = max(
+            scores,
+            key=lambda item: (
+                item[0],
+                item[1] == "ridge",
+                item[2],
+            ),
+        )
+        selected_crossfit = crossfit_by_model[(best_family, best_parameter)]
+        inner_prediction[outer_fold - 1, outer_train] = selected_crossfit[outer_train]
+        prediction[outer_test] = _magnitude_predict(
+            features,
+            target,
+            outer_train,
+            outer_test,
+            best_family,
+            best_parameter,
+            seed,
+        )
+        tuning_records.append(
+            {
+                "target": "magnitude",
+                "outer_parent": outer_parent,
+                "model_family": best_family,
+                "parameter": best_parameter,
+                "inner_selection_score": best_score,
+                "seed": seed,
+            }
+        )
+        print(
+            f"nested magnitude fold {outer_fold}/15: {outer_parent} "
+            f"{best_family}={best_parameter}",
+            flush=True,
+        )
+    if not np.isfinite(prediction).all():
+        raise ValueError("Nested magnitude predictions are incomplete")
+    return NestedResult(prediction, pd.DataFrame(tuning_records), inner_prediction)
 
 
 def _logistic_predict(
@@ -277,10 +408,20 @@ def _logistic_predict(
     return model.predict_proba(scaler.transform(features[test]))[:, 1]
 
 
-def nested_extreme(frame: pd.DataFrame, features: np.ndarray) -> tuple[np.ndarray, np.ndarray, pd.DataFrame]:
+def nested_extreme(
+    frame: pd.DataFrame,
+    features: np.ndarray,
+    *,
+    return_inner: bool = False,
+) -> tuple[np.ndarray, np.ndarray, pd.DataFrame] | tuple[
+    np.ndarray, np.ndarray, pd.DataFrame, np.ndarray, np.ndarray
+]:
     parents = frame["parent_id"].to_numpy()
     parent_ids = tuple(sorted(frame["parent_id"].unique()))
     predictions = {direction: np.full(len(frame), np.nan) for direction in DIRECTIONS}
+    inner_predictions = {
+        direction: np.full((len(parent_ids), len(frame)), np.nan) for direction in DIRECTIONS
+    }
     tuning_records = []
     pair_predictions = {}
     for direction in DIRECTIONS:
@@ -300,6 +441,7 @@ def nested_extreme(frame: pd.DataFrame, features: np.ndarray) -> tuple[np.ndarra
         outer_train = np.flatnonzero(parents != outer_parent)
         for direction in DIRECTIONS:
             scores = []
+            crossfit_by_c = {}
             for c_value in LOGISTIC_C:
                 crossfit = np.full(len(frame), np.nan)
                 for inner_parent in parent_ids:
@@ -321,7 +463,11 @@ def nested_extreme(frame: pd.DataFrame, features: np.ndarray) -> tuple[np.ndarra
                     )
                     metrics = metrics[metrics["direction"] == "decrease"]
                 scores.append((selection_score(metrics), c_value))
+                crossfit_by_c[c_value] = crossfit
             best_score, best_c = max(scores, key=lambda item: (item[0], -item[1]))
+            inner_predictions[direction][outer_fold - 1, outer_train] = crossfit_by_c[best_c][
+                outer_train
+            ]
             predictions[direction][outer_test] = _logistic_predict(
                 frame, features, outer_train, outer_test, direction, best_c
             )
@@ -336,4 +482,11 @@ def nested_extreme(frame: pd.DataFrame, features: np.ndarray) -> tuple[np.ndarra
         print(f"nested extreme fold {outer_fold}/15: {outer_parent}", flush=True)
     if not all(np.isfinite(values).all() for values in predictions.values()):
         raise ValueError("Nested extreme predictions are incomplete")
-    return predictions["increase"], predictions["decrease"], pd.DataFrame(tuning_records)
+    base = (
+        predictions["increase"],
+        predictions["decrease"],
+        pd.DataFrame(tuning_records),
+    )
+    if return_inner:
+        return (*base, inner_predictions["increase"], inner_predictions["decrease"])
+    return base

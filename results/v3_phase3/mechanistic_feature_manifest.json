@@ -1,0 +1,25 @@
+{
+  "phase": "v3_phase3_mechanistic_feature_audit",
+  "analysis_class": "DEVELOPMENT_OUTCOME_FREE_FEATURE_BUILD",
+  "rows": 4395,
+  "parents": 15,
+  "feature_count_without_stability": 93,
+  "source_sha256": "46bd3d8508e9ef559810ad681ef9536ae92ea195adcfb8732ad5a4976a62f51a",
+  "feature_cache": "data/interim/v3_nzip_mechanistic_features.npy",
+  "feature_cache_sha256": "e377869fbb69e4952c5bd7bc73f10339c26db2e4d18f63f9f23a6c65df0ea977",
+  "structure_cache": "data/interim/v3_nzip_structure_cache.json",
+  "structure_cache_sha256": "a9b16cd3cf26b428244949c2517dfe4be62df3553567b72e7bdb41afc7ced068",
+  "structure_sequence_count": 4410,
+  "fixed_radii": [
+    5,
+    10,
+    20
+  ],
+  "motif_family_count": 5,
+  "measurement_aware_target_feasible": false,
+  "stability_auxiliary_pending": true,
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}

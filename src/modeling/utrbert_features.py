@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import sys
 from pathlib import Path
 
@@ -131,6 +132,108 @@ def pool_contextual_delta(
     if output.shape != (len(mutants), HIDDEN_SIZE * 4) or not np.isfinite(output).all():
         raise ValueError("Invalid pooled 3UTRBERT contextual features")
     return output
+
+
+def pool_paired_contextual_delta(
+    parent_hidden: torch.Tensor,
+    mutant_hidden: torch.Tensor,
+    parent_sequences: list[str],
+    mutant_sequences: list[str],
+    radius: int = 10,
+) -> np.ndarray:
+    """Pool aligned row-wise parent/mutant pairs from padded hidden-state batches."""
+    if len(parent_sequences) != len(mutant_sequences):
+        raise ValueError("Paired 3UTRBERT sequence counts differ")
+    rows = []
+    for index, (parent, mutant) in enumerate(zip(parent_sequences, mutant_sequences)):
+        length = len(normalize_sequence(parent))
+        rows.append(
+            pool_contextual_delta(
+                parent_hidden[index : index + 1, :length],
+                mutant_hidden[index : index + 1, :length],
+                parent,
+                [mutant],
+                radius=radius,
+            )[0]
+        )
+    return np.vstack(rows).astype(np.float32)
+
+
+def build_paired_utrbert_delta_features_resumable(
+    frame: pd.DataFrame,
+    partial_path: Path,
+    progress_path: Path,
+    batch_size: int = 32,
+) -> np.ndarray:
+    """Build contextual+v2 edit features for arbitrary paired rows with checkpoints."""
+    row_hash = hashlib.sha256(
+        "\n".join(
+            f"{normalize_sequence(parent)}>{normalize_sequence(mutant)}"
+            for parent, mutant in zip(frame["parent_sequence"], frame["mutant_sequence"])
+        ).encode("ascii")
+    ).hexdigest()
+    start = 0
+    if partial_path.exists() and progress_path.exists():
+        progress = json.loads(progress_path.read_text(encoding="utf-8"))
+        if (
+            progress.get("row_hash") != row_hash
+            or progress.get("rows") != len(frame)
+            or progress.get("feature_count") != HIDDEN_SIZE * 4
+        ):
+            raise ValueError("3UTRBERT partial cache does not match requested pairs")
+        contextual = np.lib.format.open_memmap(partial_path, mode="r+")
+        start = int(progress["completed_rows"])
+        print(f"resuming paired 3UTRBERT extraction at row {start}/{len(frame)}", flush=True)
+    else:
+        partial_path.parent.mkdir(parents=True, exist_ok=True)
+        contextual = np.lib.format.open_memmap(
+            partial_path,
+            mode="w+",
+            dtype=np.float32,
+            shape=(len(frame), HIDDEN_SIZE * 4),
+        )
+        progress_path.write_text(
+            json.dumps(
+                {
+                    "row_hash": row_hash,
+                    "rows": len(frame),
+                    "feature_count": HIDDEN_SIZE * 4,
+                    "completed_rows": 0,
+                },
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+    tokenizer, model = load_utrbert()
+    for first in range(start, len(frame), batch_size):
+        last = min(len(frame), first + batch_size)
+        parents = frame.iloc[first:last]["parent_sequence"].map(normalize_sequence).tolist()
+        mutants = frame.iloc[first:last]["mutant_sequence"].map(normalize_sequence).tolist()
+        parent_hidden, _ = _token_hidden(tokenizer, model, parents)
+        mutant_hidden, _ = _token_hidden(tokenizer, model, mutants)
+        contextual[first:last] = pool_paired_contextual_delta(
+            parent_hidden, mutant_hidden, parents, mutants
+        )
+        contextual.flush()
+        progress_path.write_text(
+            json.dumps(
+                {
+                    "row_hash": row_hash,
+                    "rows": len(frame),
+                    "feature_count": HIDDEN_SIZE * 4,
+                    "completed_rows": last,
+                },
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        print(f"embedded paired 3UTRBERT rows {last}/{len(frame)}", flush=True)
+    if not np.isfinite(contextual).all():
+        raise ValueError("Paired 3UTRBERT contextual cache contains non-finite values")
+    edit = build_v2_features(frame).edit
+    return np.column_stack([np.asarray(contextual), edit]).astype(np.float32)
 
 
 def build_utrbert_delta_features(
