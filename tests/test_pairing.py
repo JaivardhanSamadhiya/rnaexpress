@@ -6,6 +6,7 @@ from src.pairing.audit_astrocyte import (
     validate_outcome_free_features,
 )
 from src.pairing.audit_moffatt_candidate import audit as audit_moffatt_candidate
+from src.pairing.audit_tdp43_v3_sources import audit as audit_tdp43_v3_sources
 from src.pairing.reconstruct_mikl import reconstruct as reconstruct_mikl
 from src.pairing.reconstruct_nzip import reconstruct as reconstruct_nzip
 from src.pairing.reconstruct_tdp43 import motif_suffix, mutate_by_suffix
@@ -102,3 +103,16 @@ def test_tdp43_lock_selection_is_deterministic_and_quartile_balanced() -> None:
     second = choose_locked_genes(pairs.sample(frac=1, random_state=7))
     assert first == second
     assert len(first) == 4
+
+
+def test_tdp43_v3_source_audit_confirms_historical_reconstruction() -> None:
+    audit = audit_tdp43_v3_sources()
+    assert audit["historical_pairing_error_found"] is False
+    assert audit["historical_pairs"] == 4566
+    assert audit["ev8_parent_sequence_exact_matches"] == 4566
+    assert audit["ev8_mutant_sequence_exact_matches"] == 4566
+    assert audit["slam_raw_duplicate_sample_oligo_keys"] == 10935
+    assert audit["protected_data_access"] == {
+        "astrocyte_outcomes_opened": False,
+        "moffatt_archive_opened": False,
+    }
