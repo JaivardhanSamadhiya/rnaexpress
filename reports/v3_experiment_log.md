@@ -65,3 +65,14 @@ Decision: **CONDITIONAL GO** to Phase 2 using only spent TDP outcomes for diagno
 ### Pre-analysis Phase 3 protocol correction
 
 Before any new representation score was computed, a cache-shape consistency check showed that the historical SpliceBERT construction appends the 590-dimensional v2 edit vector, not the 18-dimensional low-level metadata vector. The two mentions of “18-element edit vector” in the protocol were corrected to “590-element v2 edit vector.” Both SpliceBERT and 3UTRBERT therefore receive the same exact outcome-free edit block. Candidate families, targets, grids, metrics and gates were unchanged.
+
+## 2026-08-28 — Phase 3 representation benchmark — DEVELOPMENT
+
+- Compared only the two frozen representation families using identical downstream Ridge/logistic learners and strict nested parent-held-out evaluation.
+- Generated and hash-validated the official author-hosted 3UTRBERT 3-mer feature cache at revision `220d80829deb077d1d640463a4267a96e9e70b1d` for all 4,395 N-zip SNVs and 4,410 unique absolute sequences.
+- Selected 3UTRBERT with frozen score `0.482005`, versus SpliceBERT `0.447238`; the margin exceeds the `0.002` simplicity tie rule.
+- 3UTRBERT's rank head reached directional rank percentile `0.678263` and normalized regret `0.390439`. Its direct magnitude head remained weak at rank percentile `0.530753` and regret `0.494896`, so representation selection alone did not resolve the Phase 2 magnitude failure.
+- Both explicit extreme heads recovered 0/30 exact oracles in their top five. This preserves the need for the frozen stack/extreme candidate test rather than claiming early success.
+- Used `newton-cg` as the numerical solver for the same frozen balanced L2 logistic objective after a preliminary timing check found `liblinear` impractical and `saga` both slower and nonconvergent at the fixed iteration limit. The protocol did not prescribe a solver; C values, labels, class weights, nesting and metrics were unchanged.
+- Removed exact duplicate inner fits by evaluating each unordered excluded-parent pair once and reusing its predictions in both nesting orders. A new equivalence test passes exactly, and all previously observed Ridge outer-fold selections were reproduced.
+- Astrocyte outcomes were not inspected, analyzed, recorded or used. The Moffatt archive was not listed, opened, extracted or used.

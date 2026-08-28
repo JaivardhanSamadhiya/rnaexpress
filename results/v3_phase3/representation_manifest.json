@@ -1,0 +1,41 @@
+{
+  "phase": "v3_phase3_representation_benchmark",
+  "nzip_rows": 4395,
+  "nzip_parents": 15,
+  "source_sha256": "46bd3d8508e9ef559810ad681ef9536ae92ea195adcfb8732ad5a4976a62f51a",
+  "feature_cache_hashes": {
+    "data/interim/splicebert_v2_2_features.npy": "eeaca4d2c7362877755e850a8bc08fa3e3088c64ffd69fadff72ef409c165e74",
+    "data/interim/splicebert_v2_2_source_rows.npy": "134b1c3ad360df29031424c6d6ca3f073a06e0e1c662d5dceb277034dc795f51",
+    "data/interim/v3_3utrbert_delta_features.npy": "2628868f0e6fb701abdb176376a8023c34b8fcb03def5a034902cd72c11c24bb",
+    "data/interim/v3_3utrbert_source_rows.npy": "134b1c3ad360df29031424c6d6ca3f073a06e0e1c662d5dceb277034dc795f51",
+    "data/interim/v3_3utrbert_pair_sequence_hashes.npy": "5b97caf8a5593bb06375fa245af6f602e5865ee4b4877036d74e2b468ffbcf29",
+    "data/interim/v3_3utrbert_absolute_features.npy": "f165d10e21784d49c138b44cc78c0f8da30cb52406cea7383dd99ee386fe68d2",
+    "data/interim/v3_3utrbert_absolute_sequence_hashes.npy": "f8c9f3b12073cb9bcebad2b281a6a9ba5cdc60260f8055fd25ed956260aca7a6",
+    "data/interim/v3_3utrbert_absolute_sequences.npy": "43423121b1ee6070e66172f16c23e804436ec03bb927bd46163977774bb4c59a"
+  },
+  "output_hashes": {
+    "representation_outer_predictions.csv.gz": "b65d38ca5f10624ae44230877b055f0292d9d380848a6eb406c0f189dd688457",
+    "representation_parent_direction_metrics.csv": "e55d0da613b6dfdddd8c3d8ab833b7587e6515144cdf5d594660f8b3c08f28a3",
+    "representation_inner_selections.csv": "f2d2b312be9c0d4ec17c198438e2d2bc1f3bc9270e5f9ab2c4a032f458603f6f",
+    "representation_comparison.csv": "5caae1209a859ca2248c20b09ac5583cbd995f7d877d1ce05a3b8f7dc231678d",
+    "representation_selection.json": "a5cd537e228f2b535a57bb6929275ba1d521a22429fdebb56199e4c0b52d7324"
+  },
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "scikit_learn": "1.4.2"
+  },
+  "selection": {
+    "selected_representation": "3utrbert_3mer",
+    "selection_reason": "highest prespecified representation selection score",
+    "tie_margin": 0.002,
+    "candidate_count": 2,
+    "hydrarna_excluded_without_performance_test": true,
+    "protected_data_access": {
+      "astrocyte_outcomes_opened": false,
+      "moffatt_archive_opened": false
+    }
+  }
+}
