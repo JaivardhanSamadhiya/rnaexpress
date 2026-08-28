@@ -46,7 +46,7 @@ The frozen official multi-species checkpoint and exact v2.2 construction are ret
 3. edited-position delta;
 4. radius-10 edited-window delta.
 
-The established outcome-free 18-element edit vector is appended for historical continuity.
+The established outcome-free 590-element v2 edit vector is appended for historical continuity.
 
 ### R2 — 3UTRBERT 3-mer
 
@@ -59,7 +59,7 @@ For aligned SNVs, final-layer mutant-minus-parent hidden states are pooled as:
 3. affected-3-mer delta, where an SNV at zero-based position `p` affects 3-mers beginning at `p-2`, `p-1` and `p` when in range;
 4. radius-10 local delta, including 3-mers overlapping the nucleotide interval `[p-10, p+10]`.
 
-The same 18-element edit vector is appended. No layer choice, fine-tuning, alternative k-mer checkpoint or additional radius is allowed.
+The same 590-element v2 edit vector is appended. No layer choice, fine-tuning, alternative k-mer checkpoint or additional radius is allowed.
 
 ### HydraRNA exclusion
 

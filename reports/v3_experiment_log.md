@@ -61,3 +61,7 @@ Decision: **CONDITIONAL GO** to Phase 2 using only spent TDP outcomes for diagno
 - Audited the N-zip supplement schema. The 4,395 exact SNVs have aggregate localization fields but no deterministically linked technical-replicate measurements; WT versus shScramble remains a cross-condition control, so no standard error or measurement weighting will be invented.
 - Froze exactly two representation families, five candidate architectures, controlled mechanism interactions, nested grids, oracle and near-oracle definitions, robustness criteria, negative controls, uncertainty signals and numerical GO/CONDITIONAL GO/NO-GO rules before any new Phase 3 model comparison.
 - Astrocyte outcomes were not inspected, analyzed, recorded or used. The Moffatt archive was not listed, opened, extracted or used.
+
+### Pre-analysis Phase 3 protocol correction
+
+Before any new representation score was computed, a cache-shape consistency check showed that the historical SpliceBERT construction appends the 590-dimensional v2 edit vector, not the 18-dimensional low-level metadata vector. The two mentions of “18-element edit vector” in the protocol were corrected to “590-element v2 edit vector.” Both SpliceBERT and 3UTRBERT therefore receive the same exact outcome-free edit block. Candidate families, targets, grids, metrics and gates were unchanged.
