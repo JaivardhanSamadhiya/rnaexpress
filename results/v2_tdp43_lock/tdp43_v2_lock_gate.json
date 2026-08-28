@@ -1,0 +1,34 @@
+{
+  "selected_custom": "nested_context_external_stack",
+  "strongest_comparator": "forward_lightgbm",
+  "gate_checks": {
+    "macro_directional_rank_percentile_above_0_550": true,
+    "positive_gain_over_forward_lightgbm": true,
+    "positive_gain_over_motif_accessibility_ridge": true,
+    "positive_spearman_in_at_least_3_of_4_genes": true,
+    "positive_gain_after_removing_most_favorable_gene": false
+  },
+  "tdp43_locked_gate_pass": false,
+  "custom_macro": {
+    "rank_percentile": 0.6749232498491137,
+    "normalized_regret": 0.3765739119624934,
+    "spearman": 0.292211300647574
+  },
+  "rank_percentile_gain": {
+    "forward_lightgbm": 0.055241736230647986,
+    "motif_accessibility_ridge": 0.13087095165163753
+  },
+  "custom_within_gene_spearman": {
+    "ENSMUSG00000022095": 0.6978834112888761,
+    "ENSMUSG00000035202": -0.16918116083642762,
+    "ENSMUSG00000043670": 0.6037465590587969,
+    "ENSMUSG00000090935": 0.03639639307905071
+  },
+  "custom_minus_strongest_rank_gain_by_gene": {
+    "ENSMUSG00000022095": -0.061224489795918435,
+    "ENSMUSG00000035202": -0.13690476190476186,
+    "ENSMUSG00000043670": 0.11732851985559567,
+    "ENSMUSG00000090935": 0.3017676767676767
+  },
+  "astrocyte_reveal_authorized": false
+}
