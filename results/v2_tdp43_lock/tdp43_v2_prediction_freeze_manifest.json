@@ -1,0 +1,39 @@
+{
+  "freeze_date": "2026-08-27",
+  "locked_outcomes_read": false,
+  "locked_outcome_path_prohibited": "data\\frozen\\outcomes\\tdp43_v2_locked_outcomes.csv.gz",
+  "selected_custom": "nested_context_external_stack",
+  "comparators": [
+    "forward_lightgbm",
+    "motif_accessibility_ridge"
+  ],
+  "seed": 20260826,
+  "development_rows": 3560,
+  "development_genes": 12,
+  "locked_rows": 1006,
+  "locked_genes": 4,
+  "context_dim": 2638,
+  "meta_dim": 21,
+  "heuristic_dim": 22,
+  "development_sha256": "a150d5f665a11522ff89c29f2739ace206dad8521cc023385596de3f99bc9ac8",
+  "locked_features_sha256": "2678052892e47459363130f645d784287fb418931bec3c677d9bcee92420ae53",
+  "locked_outcomes_expected_sha256_unread": "69842a7174e81d3d6adf87a075c66817ce5c2cb59f0bb58bb627eecf741d7a2e",
+  "prefreeze_git_commit": "e5f055fbcd3dafc1afaf6971af87ba154ff2e761",
+  "source_sha256": {
+    "src\\analysis\\freeze_tdp43_v2_predictions.py": "8bc23b001e30ea8274baa13c609dd2dc1562b7709c1f00ede72e60899e0c6b12",
+    "src\\modeling\\splicebert_features.py": "7a34892923f4efde9b8c3376549e91ec09ee68648057698dc69915ca24f2e526",
+    "src\\modeling\\v2_features.py": "f47401e5a517417f059db2e1a706eab7366625b2f15408aa80af3b5fdc9f5805",
+    "src\\modeling\\v2_structure.py": "b27eddc209d762b4f6f98ae2a62ad8230cb18c720b6cea7d312021ecf039162c",
+    "src\\modeling\\mikl_xgboost_heads.py": "2b96ebb5edf8b890f3927e87daec96dc4edad9a93a918d5313376655ad3c5e24"
+  },
+  "artifact_sha256": {
+    "results\\v2_tdp43_lock\\tdp43_v2_frozen_predictions.csv.gz": "96d6cba1e0da27c108f7962007a5d02971f13008cc35d22e4934dc7b093ab7e2",
+    "results\\v2_tdp43_lock\\tdp43_v2_custom_stack.npz": "2aeabff816597da8ec6abb9989ceed9dee4ebb745505a007d5293ff6c29cbd6e",
+    "results\\v2_tdp43_lock\\tdp43_v2_forward_lightgbm.txt": "b526316507e85a082d71337af4ff4ec317e01fb0a3d909f1c899b1f97bcef2dd",
+    "results\\v2_tdp43_lock\\tdp43_v2_motif_accessibility_ridge.npz": "1e19fa8d8354d963e3ba8f5bccd6cbe4666f3652e6c256beb1a69381bf59154f",
+    "results\\v2_tdp43_lock\\environment_pip_freeze.txt": "0331cedade27b08290ab8b14a4415cd598e55035ea3b16f0d08986165df4ddd8",
+    "data\\interim\\tdp43_v2_splicebert_features.npy": "3600ea38fdced6de8ed913790b7342e2d8045439f6689f542aec71f4e5476c99",
+    "data\\interim\\tdp43_v2_splicebert_rows.csv.gz": "859e347003add66f5bd51ccbeeb82a3b87004ae5ceacd066be581c368ebaca04",
+    "data\\interim\\tdp43_v2_structure_cache.json": "b3e95c74e5a8e0d14b2b46525ac7d9be16b6bd603e6249379b9b0a253f087b54"
+  }
+}
