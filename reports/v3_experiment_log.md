@@ -52,3 +52,12 @@ Decision: **CONDITIONAL GO** to Phase 2 using only spent TDP outcomes for diagno
 - Rejected OOD-only failure, disagreement-only abstention, motif-count-only logic, CLIP-only logic, universal stability mediation and generic global structure as sufficient v3 directions.
 - Decision: **GO** to a later Phase 3, with magnitude-aware dual objectives, explicit motif-by-occupancy/binding-by-local-accessibility interactions, optional stability supervision, task separation and multi-signal uncertainty. Phase 3 was not started.
 - Astrocyte outcomes were not inspected, analyzed, recorded, or used. The inherited full-worksheet programmatic load remains disclosed. The Moffatt archive was not listed, opened, extracted or used.
+
+## 2026-08-28 — Phase 3 protocol freeze — DEVELOPMENT
+
+- Verified the branch started cleanly at Phase 2 commit `54fa859ff48b03ddca1d9b15c1f3a46b9b0bfd79`.
+- Performed outcome-free feasibility checks for contextual representations. The author-hosted 3UTRBERT 3-mer checkpoint was pinned at revision `220d80829deb077d1d640463a4267a96e9e70b1d`, hashed and loaded with finite hidden states.
+- Excluded HydraRNA from the definitive benchmark because its official Linux/CUDA/Mamba/FlashAttention/custom-fairseq extraction stack is not reproducible on this Windows CPU-only host. This is not a performance result.
+- Audited the N-zip supplement schema. The 4,395 exact SNVs have aggregate localization fields but no deterministically linked technical-replicate measurements; WT versus shScramble remains a cross-condition control, so no standard error or measurement weighting will be invented.
+- Froze exactly two representation families, five candidate architectures, controlled mechanism interactions, nested grids, oracle and near-oracle definitions, robustness criteria, negative controls, uncertainty signals and numerical GO/CONDITIONAL GO/NO-GO rules before any new Phase 3 model comparison.
+- Astrocyte outcomes were not inspected, analyzed, recorded or used. The Moffatt archive was not listed, opened, extracted or used.

@@ -1,0 +1,33 @@
+{
+  "model_id": "yangheng/3utrbert",
+  "source": "https://huggingface.co/yangheng/3utrbert",
+  "official_repository": "https://github.com/yangyn533/3UTRBERT",
+  "official_figshare_3mer": "https://doi.org/10.6084/m9.figshare.22847354",
+  "pinned_revision": "220d80829deb077d1d640463a4267a96e9e70b1d",
+  "selected_variant": "3-mer",
+  "selection_reason": "Author-hosted checkpoint from a model pretrained specifically on 3'UTRs; the 3-mer vocabulary gives deterministic aligned SNV-to-token mapping.",
+  "license": "MIT as declared by the author repository and author-hosted model record",
+  "selected_files": {
+    "config.json": "0c97fdab625e5de0b5c9dc4ca8c60272dba85e5169fd62367667c1043dc5d035",
+    "pytorch_model.bin": "7aca71823ab74771006be1030d9e7239220bba40a16858575929a02e6d2a7471",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "tokenizer_config.json": "ec70da9a619641c3b56e62cb949b8a07f2fdafdb8389b2c72649fb235a5580b3",
+    "vocab.txt": "ad559eeecdffde808141184b9ea77f9f71597e11224fc33355d0ca380dd90bb0"
+  },
+  "architecture_check": {
+    "model_type": "bert",
+    "layers": 12,
+    "hidden_size": 768,
+    "attention_heads": 12,
+    "vocabulary_size": 69,
+    "max_position_embeddings": 512,
+    "finite_inference_check": true
+  },
+  "runtime_check": {
+    "python": "3.11.9",
+    "torch": "2.1.0+cpu",
+    "transformers": "4.40.2",
+    "cuda_available": false
+  },
+  "hydrarna_exclusion": "Official extraction requires a Linux/CUDA 11.8/Mamba/FlashAttention/custom-fairseq stack that is not reproducible on this Windows CPU host."
+}
