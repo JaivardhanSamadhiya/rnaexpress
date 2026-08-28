@@ -40,3 +40,15 @@ This incident cannot inform v3 model design because no values or summaries beyon
 Classification: **DIAGNOSTIC**. No outcome-bearing development experiment and no v3 model training occurred.
 
 Decision: **CONDITIONAL GO** to Phase 2 using only spent TDP outcomes for diagnosis. Astrocyte and Moffatt outcomes remain sealed.
+
+## 2026-08-28 — Phase 2 TDP-43 failure diagnosis — DIAGNOSTIC
+
+- Wrote and committed the prespecified protocol before broad association testing at commit `a38e13c`.
+- Audited the complete public TDP-43 source package and validated all 4,566 historical parent/mutant sequences exactly against EV8 after deterministic removal of 20-nt handles. No historical pairing error was found.
+- Quarantined raw EV5 stability reconstruction because 10,935 `sample+oligo` keys duplicate `WT_t0_1` and no `WT_t0_3` label exists. Used the exact-paired processed Figure 6C source and excluded 71 non-finite source log values without clipping or pseudocounts, leaving 3,117 finite stability intervention pairs.
+- Built a 4,566-row diagnostic table with frozen predictions, localization truth, exact edits, motif architecture, reporter CLIP, source and independent motif accessibility, RBNS, stability, ranking errors, model disagreement and outcome-free support metrics.
+- Ran 2,000 seed-fixed clustered bootstrap resamples and generated six publication-quality figures plus machine-readable metric tables.
+- Diagnosed the strongest failure as percentile/magnitude objective mismatch combined with multi-base motif-complement versus exact-SNV task mismatch. Conditional binding/CLIP/accessibility/stability biology is important but varies by gene.
+- Rejected OOD-only failure, disagreement-only abstention, motif-count-only logic, CLIP-only logic, universal stability mediation and generic global structure as sufficient v3 directions.
+- Decision: **GO** to a later Phase 3, with magnitude-aware dual objectives, explicit motif-by-occupancy/binding-by-local-accessibility interactions, optional stability supervision, task separation and multi-signal uncertainty. Phase 3 was not started.
+- Astrocyte outcomes were not inspected, analyzed, recorded, or used. The inherited full-worksheet programmatic load remains disclosed. The Moffatt archive was not listed, opened, extracted or used.

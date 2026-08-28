@@ -41,7 +41,7 @@ ambiguity.
 | Dataset EV9, `44318_2025_653_MOESM10_ESM.txt` | 12,081 GFF records | `ID`, `oligo_id` | coordinates | no | no | no | no | no | all natural constructs by exact ID | 0 / 0 |
 | Dataset EV4, `44318_2025_653_MOESM5_ESM.xlsx` | 9,937 oligos | `oligo` | no | no | no | RBNS raw and normalized counts | no | no | 3,600 pairs have both exact parent and mutant records | 0 / 966 pairs |
 | Dataset EV5, `44318_2025_653_MOESM6_ESM.xlsx` | 133,144 rows | `sample + oligo` | no | no | T-to-C counts | no | no | no | raw reconstruction quarantined | 10,935 duplicate keys / all pairs |
-| Figure 6C source, `paired_mut_clip_vs_stab_6c.tsv` | 7,200 rows | `name + oligotype` | no | no | aggregated KO-WT stability | no | yes | no | 3,600 pairs, explicit WT/mutant labels | 0 / 966 pairs; 3,151 have both finite values |
+| Figure 6C source, `paired_mut_clip_vs_stab_6c.tsv` | 7,200 rows | `name + oligotype` | no | no | aggregated KO-WT stability | no | yes | no | 3,600 pairs, explicit WT/mutant labels | 0 / 966 pairs; 3,117 have both finite values |
 | Figure 4D source, `Fig4Dsource.txt` | 7,389 natural oligos | `oligo` | no | processed MPRA effect | no | no | reporter overlap | no | all 4,566 parents by exact ID | 0 / 0 |
 | Figure 4E source, `Fig4Esource.txt` | 9,132 long rows | `oligo + name` | no | paired WT/mutant effects | no | no | reporter overlap | no | all 4,566 pairs by exact ID and label | 0 / 0 |
 | Figure 4F source, `Fig4Fsource.txt` | 39,388 motif records | `oligo + kmerpos + motifid` | no | processed MPRA effect | no | no | reporter overlap | per-base pairing probability | 4,260 intervention parents | 0 / 306 pairs |

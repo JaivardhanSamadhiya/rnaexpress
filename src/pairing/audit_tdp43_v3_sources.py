@@ -12,6 +12,7 @@ import json
 import zipfile
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 
@@ -176,7 +177,9 @@ def audit() -> dict[str, object]:
     stability_pivot = stability.pivot(
         index="name", columns="oligotype", values="log_ko_wt_stb_delta"
     )
-    stability_both_finite = int(stability_pivot.notna().all(axis=1).sum())
+    stability_both_finite = int(
+        np.isfinite(stability_pivot.to_numpy(float)).all(axis=1).sum()
+    )
 
     predictions = pd.read_csv(PREDICTIONS)
     outcomes = pd.read_csv(LOCK_OUTCOMES)

@@ -1,0 +1,80 @@
+{
+  "phase": "v3_phase2_post_lock_diagnostic",
+  "decision": "GO",
+  "protocol_commit": "a38e13c",
+  "seed": 20260828,
+  "bootstrap_replicates": 2000,
+  "strongest_explanation": "RNAddress v2.6's within-gene percentile objective transfers broad ranking in some genes but does not reliably resolve extreme effect magnitude, especially for multi-base multi-motif complement interventions; conditional TDP-43 binding, occupancy, accessibility, and stability coupling vary by gene.",
+  "evidence_rank": [
+    {
+      "rank": 1,
+      "support": "strong",
+      "explanation": "percentile and magnitude objective mismatch combined with intervention-task mismatch",
+      "evidence": {
+        "custom_aggregate_rank_percentile": 0.674923,
+        "forward_aggregate_rank_percentile": 0.619682,
+        "custom_aggregate_normalized_regret": 0.376574,
+        "forward_aggregate_normalized_regret": 0.293838,
+        "custom_top5_oracle_coverage_directions": 0,
+        "directions_evaluated": 8,
+        "fam160b2_decrease_custom_regret": 0.7844703032777748,
+        "fam160b2_decrease_forward_regret": 0.0342383947796575
+      }
+    },
+    {
+      "rank": 2,
+      "support": "strong",
+      "explanation": "TDP-43 mechanism is conditional and gene-specific rather than motif-intrinsic",
+      "evidence": {
+        "parent_rbns_localization_spearman_all": 0.39466093897864424,
+        "mutant_rbns_localization_spearman_all": 0.12293085079311906,
+        "clip_median_abs_localization_delta": 0.14444350446603949,
+        "no_clip_median_abs_localization_delta": 0.06546057816921255,
+        "diras1_stability_localization_spearman": 0.2745006374840629,
+        "fam160b2_stability_localization_spearman": 0.0072076391793595256,
+        "lars2_stability_localization_spearman": -0.01522048364153627,
+        "synj2bp_stability_localization_spearman": -0.05737036795411991
+      }
+    },
+    {
+      "rank": 3,
+      "support": "moderate",
+      "explanation": "motif-local accessibility is biologically useful, while generic structure deltas are weak",
+      "evidence": {
+        "source_vs_independent_accessibility_spearman": 0.6384453461622774,
+        "source_accessibility_vs_localization_all_spearman": -0.2716,
+        "source_accessibility_vs_localization_lock_spearman": -0.4396
+      }
+    }
+  ],
+  "not_supported_as_general_explanations": [
+    "out-of-distribution distance alone",
+    "model disagreement alone",
+    "motif count alone",
+    "CLIP overlap alone",
+    "universal stability mediation",
+    "generic whole-sequence structure change"
+  ],
+  "v3_changes": {
+    "magnitude_aware_learning": "justified",
+    "explicit_mechanistic_features": "justified as motif by occupancy or binding by local-accessibility interactions",
+    "stability": "justified as optional auxiliary supervision, not a universal required mediator",
+    "uncertainty_abstention": "justified for multi-signal development, but no Phase 2 threshold is justified",
+    "task_separation": "separate multi-base motif-complement interventions from exact-SNV design"
+  },
+  "data_integrity": {
+    "historical_pairs_preserved": 4566,
+    "historical_pairing_error_found": false,
+    "finite_stability_pairs": 3117,
+    "rbns_pairs": 3600,
+    "raw_ev5_quarantined": true,
+    "raw_ev5_reason": "10,935 duplicate sample+oligo keys under WT_t0_1 and no WT_t0_3 label; processed Figure 6C source used instead",
+    "processed_stability_infinite_pairs_excluded": 71
+  },
+  "protected_data": {
+    "astrocyte_outcomes_inspected_analyzed_recorded_or_used": false,
+    "astrocyte_inherited_full_worksheet_load_deviation_disclosed": true,
+    "moffatt_archive_listed_opened_extracted_or_used": false
+  },
+  "phase3_started": false
+}
