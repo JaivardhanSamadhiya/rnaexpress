@@ -1,6 +1,10 @@
 import pytest
 
-from src.pairing.audit_astrocyte import audit as audit_astrocyte
+from src.pairing.audit_astrocyte import (
+    audit as audit_astrocyte,
+    reconstruct_from_source as reconstruct_astrocyte_from_source,
+    validate_outcome_free_features,
+)
 from src.pairing.reconstruct_mikl import reconstruct as reconstruct_mikl
 from src.pairing.reconstruct_nzip import reconstruct as reconstruct_nzip
 from src.pairing.reconstruct_tdp43 import motif_suffix, mutate_by_suffix
@@ -18,7 +22,14 @@ def test_nzip_reconstruction_is_exhaustive() -> None:
     assert not audit["failures"]
 
 
-def test_astrocyte_reconstruction_is_near_saturation_and_blinded() -> None:
+def test_astrocyte_frozen_features_are_near_saturation_and_blinded(monkeypatch) -> None:
+    monkeypatch.setattr(
+        pd,
+        "read_excel",
+        lambda *args, **kwargs: (_ for _ in ()).throw(
+            AssertionError("Ordinary tests must not open the Astrocyte source workbook")
+        ),
+    )
     features, audit = audit_astrocyte()
     assert audit["biological_element_groups"] == 8
     assert len(features) == 4553
@@ -27,6 +38,18 @@ def test_astrocyte_reconstruction_is_near_saturation_and_blinded() -> None:
     assert audit["outcome_values_exported"] is False
     assert not any("logFC" in column for column in features.columns)
     assert not audit["failures"]
+
+
+def test_astrocyte_source_reconstruction_is_fail_closed() -> None:
+    with pytest.raises(PermissionError, match="sealed during v3 development"):
+        reconstruct_astrocyte_from_source()
+
+
+def test_astrocyte_feature_allowlist_rejects_outcomes() -> None:
+    features, _ = audit_astrocyte()
+    features["snin_ctxin_logFC"] = 0.0
+    with pytest.raises(ValueError, match="outcome-free allowlist"):
+        validate_outcome_free_features(features)
 
 
 def test_mikl_reconstruction_excludes_unsafe_parent_assignments() -> None:

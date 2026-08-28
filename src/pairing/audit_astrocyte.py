@@ -1,8 +1,15 @@
-"""Audit astrocyte SN-MPRA pairing without exporting held-out outcomes."""
+"""Fail-closed access to the frozen, outcome-free Astrocyte SN-MPRA inputs.
+
+The historical source-workbook reconstruction is retained for provenance but
+requires an explicit reveal-stage environment token. Ordinary tests and v3
+development must use :func:`audit`, which reads only committed frozen files.
+"""
 
 from __future__ import annotations
 
+import hashlib
 import json
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -12,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "data" / "raw" / "astrocyte_gse330741" / "supplementary" / "media-1.xlsx"
 OUT_FEATURES = ROOT / "data" / "frozen" / "astrocyte_external_features.csv.gz"
 OUT_AUDIT = ROOT / "data" / "frozen" / "astrocyte_pairing_audit.json"
+MANIFEST = ROOT / "data" / "frozen" / "external_manifest.json"
 
 OUTCOME_COLUMNS = [
     "snin_ctxin_logFC",       # localization
@@ -19,8 +27,92 @@ OUTCOME_COLUMNS = [
     "paptrap_ctxtrap_logFC",  # local translation
 ]
 
+SAFE_COLUMNS = [
+    "dataset",
+    "element",
+    "parent_id",
+    "gene",
+    "parent_sequence",
+    "edit_position_0based",
+    "edit_position_1based",
+    "genomic_or_utr_position",
+    "reference_nt",
+    "alternate_nt",
+    "mutant_sequence",
+    "delta_g_kcal_per_mol",
+    "rg4_prediction",
+]
+SOURCE_RECONSTRUCTION_TOKEN = "RNADDRESS_V3_REVEAL_STAGE_ONLY"
+
+
+def _sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def validate_outcome_free_features(features: pd.DataFrame) -> None:
+    if features.columns.tolist() != SAFE_COLUMNS:
+        unexpected = sorted(set(features.columns) - set(SAFE_COLUMNS))
+        missing = sorted(set(SAFE_COLUMNS) - set(features.columns))
+        raise ValueError(
+            "Astrocyte feature schema is not the frozen outcome-free allowlist: "
+            f"unexpected={unexpected}, missing={missing}"
+        )
+    protected_tokens = (
+        "logfc",
+        "localization",
+        "translation",
+        "ribosome",
+        "expression",
+        "rna_count",
+        "dna_count",
+    )
+    normalized = [column.lower() for column in features.columns]
+    leaked = [
+        column
+        for column, lowered in zip(features.columns, normalized)
+        if any(token in lowered for token in protected_tokens)
+    ]
+    if leaked:
+        raise ValueError(f"Protected Astrocyte outcome-like columns detected: {leaked}")
+
 
 def audit() -> tuple[pd.DataFrame, dict[str, object]]:
+    """Validate and load only the frozen outcome-free v3 feature artifact."""
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    expected_hashes = {
+        entry["path"]: entry["sha256"] for entry in manifest["files"]
+    }
+    for path in (OUT_FEATURES, OUT_AUDIT):
+        relative = path.relative_to(ROOT).as_posix()
+        if _sha256(path) != expected_hashes.get(relative):
+            raise ValueError(f"Frozen Astrocyte artifact hash changed: {relative}")
+    features = pd.read_csv(OUT_FEATURES)
+    audit_record = json.loads(OUT_AUDIT.read_text(encoding="utf-8"))
+    validate_outcome_free_features(features)
+    if len(features) != 4_553 or features["parent_id"].nunique() != 8:
+        raise ValueError("Frozen Astrocyte feature boundary changed")
+    if features["element"].duplicated().any():
+        raise ValueError("Frozen Astrocyte element identifiers must be unique")
+    differences = [
+        sum(left != right for left, right in zip(parent, mutant))
+        for parent, mutant in zip(features["parent_sequence"], features["mutant_sequence"])
+    ]
+    if set(differences) != {1}:
+        raise ValueError("Frozen Astrocyte artifact contains a non-SNV intervention")
+    return features, audit_record
+
+
+def reconstruct_from_source() -> tuple[pd.DataFrame, dict[str, object]]:
+    """Historical reconstruction; prohibited during v3 development by default."""
+    if os.environ.get("RNADDRESS_ASTROCYTE_SOURCE_ACCESS") != SOURCE_RECONSTRUCTION_TOKEN:
+        raise PermissionError(
+            "Raw Astrocyte workbook access is sealed during v3 development. "
+            "Use audit() to read the frozen outcome-free feature artifact."
+        )
     design = pd.read_excel(SOURCE, sheet_name="S6_mutagenesis_lib_seq_info")
     outcomes = pd.read_excel(SOURCE, sheet_name="S8_lib2_results_summary")
     if design["element"].duplicated().any() or outcomes["element"].duplicated().any():
@@ -117,10 +209,19 @@ def audit() -> tuple[pd.DataFrame, dict[str, object]]:
 
 def main() -> None:
     features, audit_record = audit()
-    OUT_FEATURES.parent.mkdir(parents=True, exist_ok=True)
-    features.to_csv(OUT_FEATURES, index=False, compression="gzip")
-    OUT_AUDIT.write_text(json.dumps(audit_record, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps(audit_record, indent=2))
+    print(
+        json.dumps(
+            {
+                "outcome_free_rows": len(features),
+                "parents": int(features["parent_id"].nunique()),
+                "feature_columns": features.columns.tolist(),
+                "frozen_audit_sha256": _sha256(OUT_AUDIT),
+                "source_workbook_opened": False,
+                "historical_audit": audit_record,
+            },
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":
