@@ -5,6 +5,7 @@ from src.pairing.audit_astrocyte import (
     reconstruct_from_source as reconstruct_astrocyte_from_source,
     validate_outcome_free_features,
 )
+from src.pairing.audit_moffatt_candidate import audit as audit_moffatt_candidate
 from src.pairing.reconstruct_mikl import reconstruct as reconstruct_mikl
 from src.pairing.reconstruct_nzip import reconstruct as reconstruct_nzip
 from src.pairing.reconstruct_tdp43 import motif_suffix, mutate_by_suffix
@@ -50,6 +51,23 @@ def test_astrocyte_feature_allowlist_rejects_outcomes() -> None:
     features["snin_ctxin_logFC"] = 0.0
     with pytest.raises(ValueError, match="outcome-free allowlist"):
         validate_outcome_free_features(features)
+
+
+def test_moffatt_candidate_audit_does_not_open_archive(monkeypatch) -> None:
+    import tarfile
+
+    monkeypatch.setattr(
+        tarfile,
+        "open",
+        lambda *args, **kwargs: (_ for _ in ()).throw(
+            AssertionError("The untouched GSE334718 archive must remain opaque")
+        ),
+    )
+    audit = audit_moffatt_candidate()
+    assert audit["archive_opened"] is False
+    assert audit["outcomes_inspected"] is False
+    assert audit["processed_files"] == 80
+    assert set(audit["files_by_library_family"].values()) == {16}
 
 
 def test_mikl_reconstruction_excludes_unsafe_parent_assignments() -> None:

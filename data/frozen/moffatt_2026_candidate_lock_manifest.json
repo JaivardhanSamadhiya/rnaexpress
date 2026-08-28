@@ -1,0 +1,86 @@
+{
+  "dataset": "GSE334718 / Moffatt et al. 2026",
+  "paper": "Robust mammalian RNA localization elements are complex and multipartite",
+  "doi": "10.64898/2026.06.09.731215",
+  "pmid": "42327238",
+  "pmcid": "PMC13277945",
+  "geo_accession": "GSE334718",
+  "bioproject": "PRJNA1476227",
+  "frozen_at_utc": "2026-08-28T04:07:52.0609174Z",
+  "frozen_role": "candidate untouched secondary intervention lock; no use for development or model selection is authorized",
+  "discovery_context": "RNAddress v3 Phase 1 literature and public-data audit",
+  "public_sources": {
+    "paper": "https://doi.org/10.64898/2026.06.09.731215",
+    "geo": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334718",
+    "archive": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE334nnn/GSE334718/suppl/GSE334718_RAW.tar",
+    "file_list": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE334nnn/GSE334718/suppl/filelist.txt"
+  },
+  "files": [
+    {
+      "path": "data/raw/moffatt_gse334718/GSE334718_RAW.tar",
+      "size_bytes": 12697600,
+      "sha256": "abc6e571ed68833e3fb0c0028209303a0f468347ac5f6efbeffd788c35c7ade1",
+      "content_class": "sealed processed per-sample oligo-count archive"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/filelist.txt",
+      "size_bytes": 6076,
+      "sha256": "249d48f5389792db0024307dabea5782d76e6ee8af69f5da50b8e4c6ace77c6b",
+      "content_class": "outcome-free public file names, sizes, and timestamps"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/GSE334718_series_brief.soft",
+      "size_bytes": 5288,
+      "sha256": "a1492329336e26c1007488bf5207352abe40af4da0f571a431c35c79f448b430",
+      "content_class": "GEO series-level metadata only"
+    }
+  ],
+  "metadata_verified_without_opening_archive": {
+    "organism": "Mus musculus",
+    "cell_line": "CAD neuronal cells",
+    "sample_count": 80,
+    "library_families": [
+      "mutation",
+      "necessity",
+      "SHAPE",
+      "shuffle",
+      "sufficiency"
+    ],
+    "processed_files_per_library_family": 16,
+    "reporter_backbones": [
+      "firefly luciferase",
+      "GFP"
+    ],
+    "fractions": [
+      "neurite",
+      "soma"
+    ],
+    "replicates_per_reporter_fraction_combination": 4,
+    "processed_file_description": "For each oligo, GEO reports the number of reads and unique UMIs in each sample."
+  },
+  "outcome_boundary": {
+    "archive_downloaded": true,
+    "archive_opened": false,
+    "archive_members_extracted": false,
+    "processed_file_headers_read": false,
+    "processed_file_rows_read": false,
+    "oligo_counts_read": false,
+    "outcome_distributions_inspected": false,
+    "paper_abstract_read": true,
+    "series_and_sample_metadata_read": true,
+    "public_file_list_read": true
+  },
+  "eligibility_unknowns": [
+    "The exact number of independent natural parent elements has not yet been recovered from an outcome-free design artifact.",
+    "The exact construct count and intervention count per parent have not been inspected.",
+    "The public location of the known-oligo sequence dictionary has not yet been established.",
+    "It is not yet known whether processed-file row identifiers are exact sequences or opaque oligo identifiers.",
+    "No exact parent-mutant reconstruction audit has been performed."
+  ],
+  "prohibitions": [
+    "Do not extract or open GSE334718_RAW.tar during v3 development.",
+    "Do not read any .umis.txt.gz member before a prospective lock protocol is written and committed.",
+    "Do not use GSE334718 outcomes for architecture, feature, threshold, hyperparameter, seed, stopping-rule, or comparator selection.",
+    "Do not call GSE334718 a valid exact-intervention benchmark until the sequence dictionary and parent-mutant reconstruction are verified outcome-blind."
+  ]
+}
