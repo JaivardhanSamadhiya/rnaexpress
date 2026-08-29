@@ -1,5 +1,14 @@
 # RNAddress v3 experiment log
 
+## 2026-08-29 — Phase 3.5 immediate-stop integrity incident
+
+* Created branch `rnaddress-v3-5-oracle-audit` from completed Phase 3 commit `cbce9e50d326c3482e0bbd5e155877c672c9911b`.
+* Began the authorized POST-PHASE-3 DIAGNOSTIC / NEW-PROTOCOL DEVELOPMENT raw N-zip audit.
+* Identified the six primary untreated mutagenized runs (`ERR7337821`–`ERR7337826`) and pinned the authors’ MPRNA code at `0e7118f1d4880884e6e99e4ba48a26d67f00338a`.
+* Triggered the required immediate stop after discovering that all 491 source rows with missing WT-PCN DESeq2 adjusted P values have localization ratio exactly `0.0`, and historical RNAddress treated those values as measured effects. This affects 406 retained mutant SNVs; two unresolved WT parents propagate to 570 retained rows; 951/4,395 rows have an unresolved mutant or parent state.
+* Created `reports/v3_5_historical_outcome_integrity_incident.md` and `results/v3_5/historical_outcome_integrity_incident.json`. No corrected outcome, metric, oracle analysis, model, Astrocyte access, or Moffatt archive access was performed.
+* Phase 3 and its NO-GO remain frozen. Phase 3.5 is paused pending a committed correction/raw-reconstruction protocol.
+
 All entries must be labeled **DIAGNOSTIC**, **DEVELOPMENT**, or **FROZEN VALIDATION**. TDP-43 outcomes are post-lock development data. Astrocyte outcomes remain sealed.
 
 ## 2026-08-27 — Phase 0 repository audit — DIAGNOSTIC

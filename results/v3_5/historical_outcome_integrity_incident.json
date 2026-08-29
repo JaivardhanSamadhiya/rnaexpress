@@ -1,0 +1,66 @@
+{
+  "phase": "v3_5",
+  "analysis_class": "POST-PHASE-3 DIAGNOSTIC / NEW-PROTOCOL DEVELOPMENT",
+  "status": "IMMEDIATE_STOP_TRIGGERED",
+  "incident": "filtered_or_unresolved_nzip_outcomes_mapped_to_numeric_zero",
+  "source": {
+    "doi": "10.1038/s41593-022-01243-x",
+    "accession": "E-MTAB-10902",
+    "ena_study": "ERP133202",
+    "workbook": "data/raw/nzip/supplementary/41593_2022_1243_MOESM2_ESM.xlsx",
+    "workbook_sha256": "15560b562c86c3d8fea8611154c4b0504a9528051b6038c19ff96bb47cd9fec9",
+    "sheet": "Supp_Table_2b"
+  },
+  "all_secondary_library_rows": 6266,
+  "source_zero_missingness_cross_tab": {
+    "ratio_zero_and_padj_missing": 491,
+    "ratio_zero_and_padj_finite": 0,
+    "ratio_nonzero_and_padj_missing": 0
+  },
+  "historical_retained_snv_rows": 4395,
+  "historical_retained_impact": {
+    "mutant_unresolved_as_zero": 406,
+    "parent_unresolved_as_zero": 570,
+    "mutant_or_parent_unresolved": 951,
+    "both_unresolved": 25,
+    "mutant_only_unresolved": 381,
+    "parent_only_unresolved": 545,
+    "unresolved_parent_count": 2,
+    "unresolved_parents": [
+      "ENSMUSG00000015222|Map2|5",
+      "ENSMUSG00000061518|Cox5b|6+7"
+    ]
+  },
+  "nominal_oracle_diagnostic": {
+    "decisions": 30,
+    "oracle_mutant_unresolved": 0,
+    "oracle_parent_unresolved": 4
+  },
+  "frozen_selected_decisions_with_unresolved_mutant_or_parent": {
+    "v2_6": 6,
+    "v3_phase3_development_best": 5,
+    "strongest_forward_3utrbert_absolute_ridge": 5,
+    "metadata": 13
+  },
+  "primary_raw_runs": [
+    "ERR7337821",
+    "ERR7337822",
+    "ERR7337823",
+    "ERR7337824",
+    "ERR7337825",
+    "ERR7337826"
+  ],
+  "raw_fastq_total_compressed_bytes": 7452065966,
+  "raw_read_count": 164832486,
+  "author_code_revision": "0e7118f1d4880884e6e99e4ba48a26d67f00338a",
+  "raw_fastqs_downloaded": false,
+  "historical_outputs_modified": false,
+  "phase3_no_go_modified": false,
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_listed": false,
+    "moffatt_archive_opened": false,
+    "moffatt_outcomes_opened": false
+  },
+  "required_next_action": "commit a correction and raw-reconstruction protocol before resuming Phase 3.5"
+}
