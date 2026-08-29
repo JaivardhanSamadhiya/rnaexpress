@@ -1,14 +1,14 @@
 # RNAddress v3.5R N-zip truth-reconstruction protocol
 
 **Analysis class:** SOURCE-OF-TRUTH RECONSTRUCTION / HISTORICAL IMPACT CLASSIFICATION  
-**Protocol status:** PROSPECTIVE FREEZE — no raw N-zip outcome processing under this protocol has occurred  
+**Protocol status:** PROSPECTIVE FREEZE WITH SOURCE-EVIDENCE AMENDMENT 1 — no full raw N-zip outcome counting has occurred  
 **Frozen from repository commit:** `3de3770b1c7b6d262e77540afa238a6f6934e0ea`  
 **Branch:** `rnaddress-v3-5-oracle-audit`  
 **Date:** 2026-08-29
 
 ## Purpose and boundaries
 
-This protocol governs a source-faithful reconstruction of the mutagenized N-zip experimental truth layer after the Phase 3.5 integrity incident. It is designed to determine what the supplementary-workbook zeros mean, reconcile the reported 5,679 of 6,266 coverage result, recover six sample-level count and ratio measurements, construct a separately versioned exact-SNV benchmark, and classify historical exposure.
+This protocol governs a source-faithful reconstruction of the mutagenized N-zip experimental truth layer after the Phase 3.5 integrity incident. It is designed to determine what the supplementary-workbook zeros mean, reconcile the reported 5,679 of 6,266 coverage result, recover six sample-level count and ratio measurements, construct a separately versioned exact-SNV benchmark, and classify historical exposure. “Exact SNV” refers to design identity; raw-read matching follows the source-proven substitution-tolerant, indel-free rule in Amendment 1.
 
 The historical Phase 3 NO-GO and every historical data, prediction, recommendation, and report artifact remain immutable. This phase will not train or evaluate a predictive model, recompute an RNAddress gate, inspect Astrocyte outcomes, or list/open/extract the Moffatt result archive. Oracle-identifiability and direction-asymmetry analyses remain paused until a corrected truth layer is committed.
 
@@ -81,7 +81,7 @@ Only the six untreated mutagenized WT-condition runs are in scope. The SDRF must
 
 The paper states that R1 reads containing `TTCGATATCCGCATGCTAGC` were considered, the UMI precedes that adapter, and reads were matched to library sequences without insertions or deletions. The public MPRNA default adapter is longer (`TTGATTCGATATCCGCATGCTAGC`). Both motifs and read orientation will be audited on a small deterministic read sample before full counting. The chosen source-faithful extraction rule must be justified by observed read structure and finite-value reproduction; adapter alternatives are reported, not silently pooled.
 
-Matching is exact and indel-free. The implementation will build a deterministic exact-sequence index over canonical `sequence_id` values. A read matching exactly one canonical sequence is assigned once. A sequence shared by multiple design IDs is still one canonical match. Reads matching zero sequences are unmapped. Reads compatible with more than one distinct canonical sequence under the selected extraction rule are `ambiguous` and are not fractionally or multiply assigned. Reverse-complement and offset alternatives are diagnostic candidates; exactly one preregistered primary orientation is selected from adapter/read-structure evidence before outcome comparisons.
+Matching is substitution-tolerant and indel-free, as established by decompilation of the pinned author bytecode in Amendment 1 below. The implementation will build a deterministic sequence index over canonical `sequence_id` values. A read with one uniquely best canonical sequence under the author mismatch rule is assigned once. A sequence shared by multiple design IDs is still one canonical match. Reads matching zero sequences are unmapped. Reads tied at the best mismatch distance across distinct canonical sequences are `ambiguous` and are not fractionally or multiply assigned. Reverse-complement and offset alternatives are diagnostic candidates; exactly one preregistered primary orientation is selected from adapter/read-structure evidence before outcome comparisons.
 
 The pinned authors' Java counter will be run where its packaged dependencies and invocation are compatible. An independent parser will reproduce the selected exact-match rule. Aggregate and per-sequence disagreements are audited. If the JAR is opaque or incompatible, the independent source-faithful implementation is primary and the limitation is documented.
 
@@ -93,7 +93,24 @@ UMIs are extracted only from the exact read segment established by adapter struc
 
 ### 4.3 Mapping validation
 
-For each sample the audit records total FASTQ reads, adapter-positive reads, uniquely mapped reads, ambiguous reads, unmapped reads, and mapping percentage. Publication scale is approximately 1.9 million mapped reads per mutagenized sample. A major unexplained disagreement in scale, systematic failure of one sample, lack of a stable adapter/orientation, or irreconcilable disagreement between author and independent counters triggers STOP before outcome reconstruction.
+For each sample the audit records total FASTQ reads, adapter-positive reads, uniquely mapped reads, ambiguous reads, unmapped reads, mismatch-distance distribution, and mapping percentage. Publication scale is approximately 1.9 million mapped reads per mutagenized sample. A major unexplained disagreement in scale, systematic failure of one sample, lack of a stable adapter/orientation, or irreconcilable disagreement between author and independent counters triggers STOP before outcome reconstruction.
+
+### 4.4 Source-evidence Amendment 1: author mismatch policy
+
+**Frozen:** 2026-08-29, after a read-structure sample from the first completed FASTQ and bytecode audit, but before full raw counting.
+
+The initial protocol used “exact” to interpret the paper's statement that matching allowed no insertions/deletions. A deterministic 100,000-read inspection of `ERR7337822` showed the declared adapter and orientation but only 331 zero-mismatch insert matches, far below publication scale. Decompilation of `scripts.lincs.patch.AnalyzeConservedPatches` from pinned `compbio.jar` then established the actual rule:
+
+1. `findMatch` locates the adapter with at most two substitutions and no gaps;
+2. the post-adapter read suffix is seeded against 5-nt words from the first 15 nt of each library sequence;
+3. `matchesStart` compares the read and library sequence positionally without indels;
+4. at most two mismatches are allowed in the first 15 nt;
+5. candidates with total mismatch count strictly below five (zero through four) are retained;
+6. the unique lowest-mismatch canonical sequence is counted;
+7. a best-distance tie across distinct exact sequences is ambiguous and not counted;
+8. multiple design IDs carrying the same exact sequence all receive the same author-counter read, demonstrating why design-ID-level output can pseudoreplicate one physical sequence.
+
+The independent primary counter will implement these frozen rules at canonical-sequence level. Zero-mismatch exact counts remain a diagnostic column. The author JAR is run on deterministic slices and, resources permitting, full runs. Any difference capable of changing coverage or outcomes triggers STOP. This amendment changes no outcome after inspection; it corrects the counting algorithm from direct source evidence.
 
 ## 5. Coverage rule
 
@@ -212,4 +229,3 @@ The final truth-layer decision is:
 - **NO-GO — N-ZIP CANNOT BE RECOVERED RELIABLY** if quantitative outcomes or identities cannot be reproduced or too few parent landscapes remain.
 
 After reports, tests, corrected data, and manifest are committed, work stops. No corrected performance, oracle-identifiability, direction-asymmetry, Astrocyte, or Moffatt analysis is permitted in this phase.
-
