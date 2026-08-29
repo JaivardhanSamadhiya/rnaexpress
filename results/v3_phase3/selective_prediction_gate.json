@@ -1,0 +1,23 @@
+{
+  "candidate": "remove_motif_interactions_plus_extreme",
+  "signals": [
+    "rank_magnitude_disagreement",
+    "base_extreme_disagreement",
+    "nearest_parent_contextual_distance",
+    "top1_top2_margin",
+    "seed_prediction_std"
+  ],
+  "confidence_construction": "outer-training empirical support percentiles, unweighted mean",
+  "gate_J": {
+    "confidence_regret_spearman": -0.1179612847783042,
+    "rho_at_most_minus_0_20": false,
+    "regret_improvement_at_60_percent": 0.004969860755979827,
+    "sixty_percent_improves_regret_by_0_030": false,
+    "regret_nonworsening_100_to_80_to_60": false,
+    "pass": false
+  },
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}
