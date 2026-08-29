@@ -1,0 +1,90 @@
+{
+  "phase": "v3_phase3",
+  "decision": "NO-GO",
+  "development_best_candidate": "remove_motif_interactions_plus_extreme",
+  "criteria": {
+    "A_rank_preservation": {
+      "rank_at_least_0_630": true,
+      "within_0_005_of_v2_6": true,
+      "pass": true
+    },
+    "B_material_regret_improvement": {
+      "regret_at_most_0_397": false,
+      "improvement_at_least_0_030": false,
+      "pass": false
+    },
+    "C_strongest_forward": {
+      "rank_gain_at_least_0_030": true,
+      "regret_improvement_at_least_0_020": true,
+      "utility_gain_at_least_0_020": true,
+      "pass": true
+    },
+    "D_metadata": {
+      "rank_gain_at_least_0_020": true,
+      "regret_improvement_at_least_0_020": true,
+      "pass": true
+    },
+    "E_extreme_recovery": {
+      "top5_at_least_0_10": false,
+      "near_oracle_at_least_0_20": false,
+      "mean_oracle_rank_at_most_90": false,
+      "pass": false
+    },
+    "F_distribution": {
+      "median_gain_positive": true,
+      "at_least_9_of_15_improve": true,
+      "leave_best_one_positive": false,
+      "leave_best_two_positive": false,
+      "pass": false
+    },
+    "G_controls": {
+      "within_parent_shuffled_edit_scores": true,
+      "within_parent_shuffled_labels_complete_pipeline": false,
+      "pass": false
+    },
+    "H_seed_stability": {
+      "rank_range": 0.009030100334448177,
+      "normalized_regret_range": 0.005256762068114762,
+      "rank_range_at_most_0_015": true,
+      "regret_range_at_most_0_025": true,
+      "every_seed_rank_at_least_0_625": true,
+      "every_seed_regret_improvement_at_least_0_020": false,
+      "pass": false
+    },
+    "I_complexity": {
+      "pruned_mechanism_vs_contextual_stack": {
+        "selection_score_gain": 0.024361871980934202,
+        "rank_gain": 0.03794318770354377,
+        "regret_improvement": 0.03986886908858911,
+        "top5_gain": -0.0333333333333333,
+        "pass": true
+      },
+      "extreme_head_vs_pruned_mechanism": {
+        "selection_score_gain": 0.013825579276406541,
+        "rank_gain": 0.029169409843836314,
+        "regret_improvement": 0.001998128133372079,
+        "top5_gain": 0.0,
+        "pass": true
+      },
+      "pass": true
+    },
+    "J_uncertainty": {
+      "confidence_regret_spearman": -0.1179612847783042,
+      "rho_at_most_minus_0_20": false,
+      "regret_improvement_at_60_percent": 0.004969860755979827,
+      "sixty_percent_improves_regret_by_0_030": false,
+      "regret_nonworsening_100_to_80_to_60": false,
+      "pass": false
+    }
+  },
+  "failed_criteria": [
+    "B_material_regret_improvement",
+    "E_extreme_recovery",
+    "F_distribution",
+    "G_controls",
+    "H_seed_stability",
+    "J_uncertainty"
+  ],
+  "astrocyte_spend_authorized": false,
+  "stop_rule": "Phase 3 complete; do not begin prospective validation"
+}

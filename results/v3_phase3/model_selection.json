@@ -1,0 +1,65 @@
+{
+  "decision": "NO-GO",
+  "development_best_candidate": "remove_motif_interactions_plus_extreme",
+  "selected_for_external_lock": false,
+  "architecture": {
+    "contextual_representation": "3UTRBERT 3-mer final-layer CLS/global/affected-3-mer/radius-10 mutant-minus-parent deltas plus frozen 590-element edit vector",
+    "feature_count": 3742,
+    "mechanism": "prespecified mechanism block with motif-interaction family removed after grouped ablation",
+    "rank_head": "nested StandardScaler + Ridge percentile regression",
+    "magnitude_head": "nested raw-delta Ridge/Huber selection",
+    "stack": "outer-training-cross-fitted rank+magnitude weights in {0.25,0.50,0.75}",
+    "extreme_head": "direction-specific balanced logistic top-decile probability with C in {0.1,1,10} and stack weight in {0.10,0.20}",
+    "evaluation": "outer LOPO over 15 N-zip parents; inner LOPO over 14 training parents"
+  },
+  "metrics": {
+    "rank_percentile": 0.6589658304467358,
+    "normalized_regret": 0.409813743066551,
+    "selected_utility": 0.4707294041127117,
+    "oracle_top1": 0.0,
+    "oracle_top3": 0.0,
+    "oracle_top5": 0.0,
+    "oracle_top10": 0.0,
+    "near_oracle": 0.1,
+    "mean_oracle_rank": 98.66666666666669,
+    "spearman_utility": 0.1545433473586968,
+    "selection_score": 0.5030998136277383
+  },
+  "comparators": {
+    "v2_6_historical": {
+      "rank_percentile": 0.6357523432402943,
+      "normalized_regret": 0.4272520361458629,
+      "selected_utility": 0.3131643791266346,
+      "oracle_top5": 0.0333333333333333
+    },
+    "forward_3utrbert_absolute_ridge": {
+      "rank_percentile": 0.6218579514088323,
+      "normalized_regret": 0.445757467671611,
+      "selected_utility": 0.2689522914297687,
+      "oracle_top5": 0.0333333333333333
+    },
+    "metadata_only": {
+      "rank_percentile": 0.6123689136587658,
+      "normalized_regret": 0.4376381048231692,
+      "selected_utility": 0.1945673687298749,
+      "oracle_top5": 0.0333333333333333
+    }
+  },
+  "failed_gate_sections": [
+    "B_material_regret_improvement",
+    "E_extreme_recovery",
+    "F_distribution",
+    "G_controls",
+    "H_seed_stability",
+    "J_uncertainty"
+  ],
+  "verification": {
+    "test_files_passed": 9,
+    "tests_passed": 30,
+    "monolithic_pytest_status": "not usable on this Windows host because ViennaRNA DLL initialization fails under combined import order; every file passed in a clean process"
+  },
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}
