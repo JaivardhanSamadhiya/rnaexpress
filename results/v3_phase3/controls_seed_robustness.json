@@ -1,0 +1,42 @@
+{
+  "candidate": "remove_motif_interactions_plus_extreme",
+  "seeds": [
+    20260828,
+    20260829,
+    20260830
+  ],
+  "feature_count": 3742,
+  "parent_robustness": {
+    "mean_parent_gain": 0.020325890142876713,
+    "median_parent_gain": 0.029345258513175043,
+    "improved_parent_count": 9,
+    "parent_count": 15,
+    "leave_best_one_mean_gain": -0.011667286466172029,
+    "leave_best_two_mean_gain": -0.03632295478224041
+  },
+  "control_gate": {
+    "within_parent_shuffled_edit_scores": {
+      "rank_at_most_threshold": true,
+      "regret_not_more_than_0_020_better_than_random": true,
+      "pass": true
+    },
+    "within_parent_shuffled_labels_complete_pipeline": {
+      "rank_at_most_threshold": false,
+      "regret_not_more_than_0_020_better_than_random": true,
+      "pass": false
+    }
+  },
+  "seed_gate": {
+    "rank_range": 0.009030100334448177,
+    "normalized_regret_range": 0.005256762068114762,
+    "rank_range_at_most_0_015": true,
+    "regret_range_at_most_0_025": true,
+    "every_seed_rank_at_least_0_625": true,
+    "every_seed_regret_improvement_at_least_0_020": false,
+    "pass": false
+  },
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}

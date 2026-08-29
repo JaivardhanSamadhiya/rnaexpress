@@ -1,0 +1,21 @@
+{
+  "phase": "v3_phase3_forward_comparators",
+  "rows": 4395,
+  "parents": 15,
+  "source_sha256": "9e782f0d9c76ae628ec395a300a0c09b75815a21a7ac16278561a89891045643",
+  "absolute_cache_hashes": {
+    "splicebert_v2_4_nzip_absolute.npy": "506414ce034a143c7dd8205203673518295011219ad6946c7f35c7f0c75827a7",
+    "splicebert_v2_4_nzip_sequences.npy": "293164536165b63f9c8c3727765836e11867d1114ee1c781df2a5f127d210b68",
+    "v3_3utrbert_absolute_features.npy": "f165d10e21784d49c138b44cc78c0f8da30cb52406cea7383dd99ee386fe68d2",
+    "v3_3utrbert_absolute_sequences.npy": "43423121b1ee6070e66172f16c23e804436ec03bb927bd46163977774bb4c59a"
+  },
+  "selection": {
+    "strongest_fair_forward": "forward_3utrbert_absolute_ridge",
+    "selection_rule": "highest frozen selection score; ties within 0.002 prefer simpler then historical",
+    "candidate_count": 3,
+    "protected_data_access": {
+      "astrocyte_outcomes_opened": false,
+      "moffatt_archive_opened": false
+    }
+  }
+}

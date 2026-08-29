@@ -43,7 +43,7 @@ def main() -> None:
         print(f"loaded cached TDP 3UTRBERT features {tdp_features.shape}", flush=True)
     else:
         tdp_features = build_paired_utrbert_delta_features_resumable(
-            tdp, PARTIAL, PROGRESS, batch_size=64
+            tdp, PARTIAL, PROGRESS, batch_size=128
         )
         np.save(TDP_FEATURES, tdp_features, allow_pickle=False)
     nzip_features = np.load(NZIP_FEATURES, allow_pickle=False)

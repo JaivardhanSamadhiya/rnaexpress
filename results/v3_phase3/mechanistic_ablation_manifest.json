@@ -1,0 +1,13 @@
+{
+  "phase": "v3_phase3_mechanistic_ablations",
+  "ablation_count_including_endpoints": 6,
+  "stability_survival_rule": {
+    "selection_score_gain_at_least": 0.002,
+    "maximum_regret_worsening": 0.005
+  },
+  "selection_use": "prespecified_component_removal_only",
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}

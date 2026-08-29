@@ -1,0 +1,25 @@
+{
+  "phase": "v3_phase3_definitive_candidates",
+  "seed": 20260828,
+  "rows": 4395,
+  "parents": 15,
+  "candidate_count": 5,
+  "selected_representation": "3utrbert_3mer",
+  "contextual_feature_count": 3662,
+  "mechanistic_feature_count_with_stability": 95,
+  "complete_feature_count": 3757,
+  "source_sha256": "9e782f0d9c76ae628ec395a300a0c09b75815a21a7ac16278561a89891045643",
+  "context_sha256": "2628868f0e6fb701abdb176376a8023c34b8fcb03def5a034902cd72c11c24bb",
+  "mechanism_sha256": "bfc4ae1a1dae61fa745cbba69dcc91c70a4d312a34ced255db7cd669ef613c37",
+  "stability_prediction_sha256": "e1fda766cb0604170a49da505e555380c3af798fa9c669e15046e076eca1497f",
+  "output_hashes": {
+    "candidate_outer_predictions.csv.gz": "be638dd2f1db30fc3bb84f4586a93f1ae15857e5dcb109d4e9abe206e5681937",
+    "candidate_parent_direction_metrics.csv": "8ee6797daf64a1ba3caf52cc03c09ede743db62fc0940419474aa8a1c271b941",
+    "candidate_macro_metrics.csv": "9ad05952db13e62c667eae15ec1ffc800795586664370691f794c5ac2a9c0360",
+    "candidate_inner_selections.csv": "c5940a2b2f4c95899580041e5195707f5f5238f3cedcb12c7194a4ecb428288e"
+  },
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}

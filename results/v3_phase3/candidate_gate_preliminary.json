@@ -1,0 +1,232 @@
+{
+  "strongest_fair_forward": "forward_3utrbert_absolute_ridge",
+  "meaningful_effect_threshold": 0.6758642587586807,
+  "candidates": {
+    "v2_6_historical": {
+      "criteria": {
+        "A_rank_preservation": {
+          "rank_at_least_0_630": true,
+          "within_0_005_of_v2_6": true,
+          "pass": true
+        },
+        "B_regret_improvement": {
+          "regret_at_most_0_397": false,
+          "improvement_at_least_0_030": false,
+          "pass": false
+        },
+        "C_strongest_forward": {
+          "rank_gain_at_least_0_030": false,
+          "regret_improvement_at_least_0_020": false,
+          "utility_gain_at_least_0_020": true,
+          "pass": false
+        },
+        "D_metadata": {
+          "rank_gain_at_least_0_020": true,
+          "regret_improvement_at_least_0_020": false,
+          "pass": false
+        },
+        "E_extreme_recovery": {
+          "top5_at_least_0_10": false,
+          "near_oracle_at_least_0_20": false,
+          "mean_oracle_rank_at_most_90": false,
+          "pass": false
+        },
+        "F_distribution": {
+          "median_gain_positive": false,
+          "at_least_9_of_15_improve": false,
+          "leave_best_one_positive": false,
+          "leave_best_two_positive": false,
+          "pass": false
+        },
+        "I_complexity": {
+          "applicable": false,
+          "pass": true
+        }
+      },
+      "core_A_to_F_pass": false
+    },
+    "mechanistic_rank_magnitude_extreme": {
+      "criteria": {
+        "A_rank_preservation": {
+          "rank_at_least_0_630": false,
+          "within_0_005_of_v2_6": false,
+          "pass": false
+        },
+        "B_regret_improvement": {
+          "regret_at_most_0_397": false,
+          "improvement_at_least_0_030": false,
+          "pass": false
+        },
+        "C_strongest_forward": {
+          "rank_gain_at_least_0_030": false,
+          "regret_improvement_at_least_0_020": false,
+          "utility_gain_at_least_0_020": true,
+          "pass": false
+        },
+        "D_metadata": {
+          "rank_gain_at_least_0_020": false,
+          "regret_improvement_at_least_0_020": false,
+          "pass": false
+        },
+        "E_extreme_recovery": {
+          "top5_at_least_0_10": false,
+          "near_oracle_at_least_0_20": false,
+          "mean_oracle_rank_at_most_90": false,
+          "pass": false
+        },
+        "F_distribution": {
+          "median_gain_positive": true,
+          "at_least_9_of_15_improve": false,
+          "leave_best_one_positive": false,
+          "leave_best_two_positive": false,
+          "pass": false
+        },
+        "I_complexity": {
+          "applicable": true,
+          "reference": "mechanistic_rank_magnitude",
+          "selection_score_gain": 0.012576850628577996,
+          "rank_gain": 0.02419175027870679,
+          "regret_improvement": 0.004830180009028628,
+          "top5_gain": 0.0,
+          "pass": true
+        }
+      },
+      "core_A_to_F_pass": false
+    },
+    "rank_magnitude_stack": {
+      "criteria": {
+        "A_rank_preservation": {
+          "rank_at_least_0_630": false,
+          "within_0_005_of_v2_6": false,
+          "pass": false
+        },
+        "B_regret_improvement": {
+          "regret_at_most_0_397": false,
+          "improvement_at_least_0_030": false,
+          "pass": false
+        },
+        "C_strongest_forward": {
+          "rank_gain_at_least_0_030": false,
+          "regret_improvement_at_least_0_020": false,
+          "utility_gain_at_least_0_020": true,
+          "pass": false
+        },
+        "D_metadata": {
+          "rank_gain_at_least_0_020": false,
+          "regret_improvement_at_least_0_020": false,
+          "pass": false
+        },
+        "E_extreme_recovery": {
+          "top5_at_least_0_10": false,
+          "near_oracle_at_least_0_20": false,
+          "mean_oracle_rank_at_most_90": false,
+          "pass": false
+        },
+        "F_distribution": {
+          "median_gain_positive": true,
+          "at_least_9_of_15_improve": false,
+          "leave_best_one_positive": false,
+          "leave_best_two_positive": false,
+          "pass": false
+        },
+        "I_complexity": {
+          "applicable": false,
+          "pass": true
+        }
+      },
+      "core_A_to_F_pass": false
+    },
+    "mechanistic_rank_magnitude": {
+      "criteria": {
+        "A_rank_preservation": {
+          "rank_at_least_0_630": false,
+          "within_0_005_of_v2_6": false,
+          "pass": false
+        },
+        "B_regret_improvement": {
+          "regret_at_most_0_397": false,
+          "improvement_at_least_0_030": false,
+          "pass": false
+        },
+        "C_strongest_forward": {
+          "rank_gain_at_least_0_030": false,
+          "regret_improvement_at_least_0_020": false,
+          "utility_gain_at_least_0_020": true,
+          "pass": false
+        },
+        "D_metadata": {
+          "rank_gain_at_least_0_020": false,
+          "regret_improvement_at_least_0_020": false,
+          "pass": false
+        },
+        "E_extreme_recovery": {
+          "top5_at_least_0_10": false,
+          "near_oracle_at_least_0_20": false,
+          "mean_oracle_rank_at_most_90": false,
+          "pass": false
+        },
+        "F_distribution": {
+          "median_gain_positive": true,
+          "at_least_9_of_15_improve": false,
+          "leave_best_one_positive": false,
+          "leave_best_two_positive": false,
+          "pass": false
+        },
+        "I_complexity": {
+          "applicable": true,
+          "reference": "rank_magnitude_stack",
+          "selection_score_gain": -0.0012415700495820303,
+          "rank_gain": 0.0007803790412486133,
+          "regret_improvement": 0.014496931567207882,
+          "top5_gain": -0.0333333333333333,
+          "pass": false
+        }
+      },
+      "core_A_to_F_pass": false
+    },
+    "contextual_magnitude": {
+      "criteria": {
+        "A_rank_preservation": {
+          "rank_at_least_0_630": false,
+          "within_0_005_of_v2_6": false,
+          "pass": false
+        },
+        "B_regret_improvement": {
+          "regret_at_most_0_397": false,
+          "improvement_at_least_0_030": false,
+          "pass": false
+        },
+        "C_strongest_forward": {
+          "rank_gain_at_least_0_030": false,
+          "regret_improvement_at_least_0_020": false,
+          "utility_gain_at_least_0_020": false,
+          "pass": false
+        },
+        "D_metadata": {
+          "rank_gain_at_least_0_020": false,
+          "regret_improvement_at_least_0_020": false,
+          "pass": false
+        },
+        "E_extreme_recovery": {
+          "top5_at_least_0_10": false,
+          "near_oracle_at_least_0_20": false,
+          "mean_oracle_rank_at_most_90": false,
+          "pass": false
+        },
+        "F_distribution": {
+          "median_gain_positive": true,
+          "at_least_9_of_15_improve": false,
+          "leave_best_one_positive": false,
+          "leave_best_two_positive": false,
+          "pass": false
+        },
+        "I_complexity": {
+          "applicable": false,
+          "pass": true
+        }
+      },
+      "core_A_to_F_pass": false
+    }
+  },
+  "controls_seeds_uncertainty_pending": true
+}

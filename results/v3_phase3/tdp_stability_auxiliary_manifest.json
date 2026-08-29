@@ -1,0 +1,20 @@
+{
+  "phase": "v3_phase3_tdp_stability_auxiliary",
+  "analysis_class": "DEVELOPMENT_AUXILIARY_NOT_VALIDATION",
+  "strategy": "C_TDP_supervision_never_enters_final_SNV_output_head",
+  "representation": "yangheng/3utrbert revision 220d80829deb077d1d640463a4267a96e9e70b1d",
+  "tdp_rows": 4566,
+  "finite_tdp_stability_rows": 3117,
+  "nzip_prediction_rows": 4395,
+  "feature_count": 3662,
+  "ridge_alpha": 3662.0,
+  "tdp_source_sha256": "c6599928b53a26b21cb593c910e24d0d9a8b22f4195aa151ab16487c664d0e49",
+  "tdp_feature_cache_sha256": "5916be5867caf6bb02faa4f874446b6b90974a59a8f2962c409bfca15853e900",
+  "nzip_feature_cache_sha256": "2628868f0e6fb701abdb176376a8023c34b8fcb03def5a034902cd72c11c24bb",
+  "nzip_prediction_cache_sha256": "e1fda766cb0604170a49da505e555380c3af798fa9c669e15046e076eca1497f",
+  "no_measured_stability_required_at_inference": true,
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}

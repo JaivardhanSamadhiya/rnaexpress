@@ -1,0 +1,9 @@
+{
+  "strongest_fair_forward": "forward_3utrbert_absolute_ridge",
+  "selection_rule": "highest frozen selection score; ties within 0.002 prefer simpler then historical",
+  "candidate_count": 3,
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}

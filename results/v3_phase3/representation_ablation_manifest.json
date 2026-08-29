@@ -1,0 +1,14 @@
+{
+  "phase": "v3_phase3_representation_ablations",
+  "representation": "3utrbert_3mer",
+  "ablation_count": 5,
+  "targets": [
+    "rank",
+    "magnitude"
+  ],
+  "selection_use": "explanatory_only_not_a_sixth_candidate",
+  "protected_data_access": {
+    "astrocyte_outcomes_opened": false,
+    "moffatt_archive_opened": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "v2_6_historical": {
+    "mean_parent_gain": 0.0,
+    "median_parent_gain": 0.0,
+    "improved_parent_count": 0,
+    "parent_count": 15,
+    "leave_best_one_mean_gain": 0.0,
+    "leave_best_two_mean_gain": 0.0
+  },
+  "mechanistic_rank_magnitude_extreme": {
+    "mean_parent_gain": -0.012014286793697966,
+    "median_parent_gain": 0.0034436045139584204,
+    "improved_parent_count": 8,
+    "parent_count": 15,
+    "leave_best_one_mean_gain": -0.044590529896415446,
+    "leave_best_two_mean_gain": -0.0796232685835966
+  },
+  "rank_magnitude_stack": {
+    "mean_parent_gain": -0.03416390724179394,
+    "median_parent_gain": 0.014533825215341523,
+    "improved_parent_count": 8,
+    "parent_count": 15,
+    "leave_best_one_mean_gain": -0.05866535787640187,
+    "leave_best_two_mean_gain": -0.07725654965092572
+  },
+  "mechanistic_rank_magnitude": {
+    "mean_parent_gain": -0.026525251937565705,
+    "median_parent_gain": 0.0034436045139584204,
+    "improved_parent_count": 8,
+    "parent_count": 15,
+    "leave_best_one_mean_gain": -0.05776527515003035,
+    "leave_best_two_mean_gain": -0.08060016508995475
+  },
+  "contextual_magnitude": {
+    "mean_parent_gain": -0.0863216815308039,
+    "median_parent_gain": 0.001796167406118765,
+    "improved_parent_count": 8,
+    "parent_count": 15,
+    "leave_best_one_mean_gain": -0.11419419259005939,
+    "leave_best_two_mean_gain": -0.14214965461174878
+  }
+}
