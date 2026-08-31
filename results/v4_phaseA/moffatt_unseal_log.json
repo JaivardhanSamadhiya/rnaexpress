@@ -1,0 +1,16 @@
+{
+  "event": "moffatt_v4_development_unseal_authorization",
+  "status_transition": "SEALED CANDIDATE -> V4 DEVELOPMENT DATA",
+  "independent_validation_after_event": false,
+  "local_time": "2026-08-31T00:19:02.0677454-07:00",
+  "utc_time": "2026-08-31T07:19:02.0735799Z",
+  "protocol_commit": "bdbd9f1fbf30ea0094ea7bf7f029c4f828ec82ed",
+  "protocol": "reports/v4_moffatt_preunseal_protocol.md",
+  "purpose": "V4 DEVELOPMENT DATA SOURCE-TRUTH RECONSTRUCTION",
+  "archive": "data/raw/moffatt_gse334718/GSE334718_RAW.tar",
+  "expected_sha256": "abc6e571ed68833e3fb0c0028209303a0f468347ac5f6efbeffd788c35c7ade1",
+  "observed_sha256": "abc6e571ed68833e3fb0c0028209303a0f468347ac5f6efbeffd788c35c7ade1",
+  "hash_match": true,
+  "archive_contents_opened_before_this_log": false,
+  "astrocyte_outcomes_opened": false
+}
