@@ -1,0 +1,43 @@
+{
+  "phase": "v4_phaseB_decision_set_construction",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "pandas": "2.2.2",
+  "numpy": "1.26.4",
+  "inputs": {
+    "results/v4_phaseA/common_intervention_outcomes.csv.gz": {
+      "bytes": 5267720,
+      "sha256": "d95829f1693f9e407071a15ec4a823ef0437e46f566eed8a6c912c59eebd0aa3"
+    },
+    "results/v4_phaseA/mikl_interventions.csv.gz": {
+      "bytes": 1958040,
+      "sha256": "daf5c035afb16e9dbbf90714c595c0e733f4eec70f2191d475b78c20e9f29bcc"
+    },
+    "results/v4_phaseA/tdp_interventions.csv.gz": {
+      "bytes": 232835,
+      "sha256": "0dc4e5aff8b93fa74f2685d6a74c84f07db8c369e59165993957442a7f5a34c2"
+    },
+    "results/v4_phaseA/moffatt_interventions.csv.gz": {
+      "bytes": 8835280,
+      "sha256": "54e1ed30702f878ef5894b35dd7e9b184355f051f25e5571243d7764e434272b"
+    },
+    "src/analysis/build_v4_phaseB_decision_sets.py": {
+      "bytes": 10927,
+      "sha256": "5249ca3602bcbce983ed46d5a7b9e2c4d604574520d695fead3749c2e13b15ee"
+    }
+  },
+  "outputs": {
+    "decision_set_audit.json": {
+      "bytes": 1672,
+      "sha256": "dcf853d19cd178e0874c72ca71fcb19e6dc83eedf6a022ffb102d8babc228c95"
+    },
+    "decision_set_summary.csv": {
+      "bytes": 107084,
+      "sha256": "7fac8d3362daf35ce5d4cf2672dd43bd0526f97aee46bac29f647b29f26b05e7"
+    },
+    "phaseB_candidates.csv.gz": {
+      "bytes": 8659511,
+      "sha256": "55664e35931706d1d855d6d89b490ec659281bf75b4777aea33caaced0c072b0"
+    }
+  }
+}

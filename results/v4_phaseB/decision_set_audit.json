@@ -1,0 +1,51 @@
+{
+  "phase": "v4_phaseB_decision_set_audit",
+  "git_commit_at_run": "36e836ea1dfd0d20b688cb0b77f914aa9964955c",
+  "minimum_candidate_count": 5,
+  "good_normalized_regret_tolerance": 0.1,
+  "eligible_base_decision_sets": 445,
+  "eligible_directional_decision_tasks": 890,
+  "all_base_decision_sets": 517,
+  "independent_gene_labels": 248,
+  "independent_parent_contexts": 10406,
+  "by_source": {
+    "mikl_gse173098": {
+      "all_decision_sets": 448,
+      "eligible_decision_sets": 378,
+      "eligible_candidate_rows": 23616,
+      "minimum_candidates": 5,
+      "median_candidates": 36.0,
+      "mean_candidates": 62.476190476190474,
+      "maximum_candidates": 661,
+      "sets_with_increase_candidate": 376,
+      "sets_with_decrease_candidate": 378
+    },
+    "moffatt_gse334718": {
+      "all_decision_sets": 53,
+      "eligible_decision_sets": 51,
+      "eligible_candidate_rows": 65026,
+      "minimum_candidates": 26,
+      "median_candidates": 1160.0,
+      "mean_candidates": 1275.0196078431372,
+      "maximum_candidates": 3485,
+      "sets_with_increase_candidate": 51,
+      "sets_with_decrease_candidate": 50
+    },
+    "tdp43_gse288185": {
+      "all_decision_sets": 16,
+      "eligible_decision_sets": 16,
+      "eligible_candidate_rows": 4566,
+      "minimum_candidates": 6,
+      "median_candidates": 274.5,
+      "mean_candidates": 285.375,
+      "maximum_candidates": 788,
+      "sets_with_increase_candidate": 16,
+      "sets_with_decrease_candidate": 16
+    }
+  },
+  "scope_guards": {
+    "nzip_outcomes_used": false,
+    "astrocyte_outcomes_opened": false,
+    "model_fit_performed": false
+  }
+}
