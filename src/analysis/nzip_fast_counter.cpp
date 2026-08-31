@@ -160,6 +160,10 @@ int main(int argc, char** argv) {
 
         std::vector<std::uint64_t> read_counts(library.size(), 0);
         std::vector<std::unordered_set<std::string>> umi_sets(library.size());
+        // Audit-only strict channel.  The primary columns retain the exact
+        // source-equivalent <=4-mismatch behavior validated against the jar.
+        std::vector<std::uint64_t> exact_read_counts(library.size(), 0);
+        std::vector<std::unordered_set<std::string>> exact_umi_sets(library.size());
         std::vector<std::uint32_t> marks(library.size(), 0);
         std::uint32_t generation = 0;
         Metrics metrics;
@@ -171,8 +175,14 @@ int main(int argc, char** argv) {
         while ((max_records == 0 || metrics.fastq_reads < max_records) &&
                gz_readline(fastq, header)) {
             if (!gz_readline(fastq, read) || !gz_readline(fastq, plus) || !gz_readline(fastq, quality)) {
+                int zlib_error = Z_OK;
+                const char* zlib_message = gzerror(fastq, &zlib_error);
                 gzclose(fastq);
-                throw std::runtime_error("Truncated FASTQ record");
+                throw std::runtime_error(
+                    "Truncated FASTQ record after " + std::to_string(metrics.fastq_reads) +
+                    " complete records; zlib=" + std::to_string(zlib_error) + " " +
+                    (zlib_message == nullptr ? std::string("") : std::string(zlib_message))
+                );
             }
             ++metrics.fastq_reads;
             const int adapter_offset = find_adapter(read);
@@ -229,16 +239,22 @@ int main(int argc, char** argv) {
                 ++metrics.mismatch_counts[best_score];
                 ++read_counts[best_index];
                 umi_sets[best_index].insert(umi);
+                if (best_score == 0) {
+                    ++exact_read_counts[best_index];
+                    exact_umi_sets[best_index].insert(umi);
+                }
             }
         }
         gzclose(fastq);
 
         std::ofstream output(output_path);
         if (!output) throw std::runtime_error("Cannot write counts: " + output_path);
-        output << "sequence_id\tread_count\tdistinct_umi_count\n";
+        output << "sequence_id\tread_count\tdistinct_umi_count"
+                  "\texact_read_count\texact_distinct_umi_count\n";
         for (int index = 0; index < static_cast<int>(library.size()); ++index) {
             output << library[index].id << '\t' << read_counts[index] << '\t'
-                   << umi_sets[index].size() << '\n';
+                   << umi_sets[index].size() << '\t' << exact_read_counts[index] << '\t'
+                   << exact_umi_sets[index].size() << '\n';
         }
         write_json_metrics(metrics_path, metrics);
         std::cout << "reads=" << metrics.fastq_reads << " single=" << metrics.single_match

@@ -1,7 +1,7 @@
 # RNAddress v3.5R N-zip truth-reconstruction protocol
 
 **Analysis class:** SOURCE-OF-TRUTH RECONSTRUCTION / HISTORICAL IMPACT CLASSIFICATION  
-**Protocol status:** PROSPECTIVE FREEZE WITH SOURCE-EVIDENCE AMENDMENT 1 — no full raw N-zip outcome counting has occurred  
+**Protocol status:** EXECUTED; STOP THRESHOLDS 3–6 TRIGGERED; see Source-evidence Amendment 3
 **Frozen from repository commit:** `3de3770b1c7b6d262e77540afa238a6f6934e0ea`  
 **Branch:** `rnaddress-v3-5-oracle-audit`  
 **Date:** 2026-08-29
@@ -235,3 +235,20 @@ The final truth-layer decision is:
 - **NO-GO — N-ZIP CANNOT BE RECOVERED RELIABLY** if quantitative outcomes or identities cannot be reproduced or too few parent landscapes remain.
 
 After reports, tests, corrected data, and manifest are committed, work stops. No corrected performance, oracle-identifiability, direction-asymmetry, Astrocyte, or Moffatt analysis is permitted in this phase.
+
+## 15. Source-evidence Amendment 3: completed reconstruction and mandatory NO-GO
+
+**Frozen:** 2026-08-30, after all six FASTQs were counted, before any corrected predictive analysis.
+
+This amendment supersedes the provisional “read counts primary” statements in sections 4–7 only where full-data evidence established a different quantitative layer. It does not weaken any stop threshold.
+
+1. The independent compiled counter reproduced the pinned author JAR exactly by sequence for both permissive read counts and distinct UMI counts on the frozen 100,000-read slice.
+2. All six ENA FASTQs passed size, MD5, SHA-256, gzip, and record-count validation and were counted completely.
+3. The supplementary `Mean_log2ratio_NeuriteSoma_WT` field most closely matched the arithmetic mean of the three source-defined, total-normalized, pseudocount-0.5 **distinct-UMI** ratios (Spearman `0.985309`, Pearson `0.931179`, MAE `0.143845`). Read-count and DESeq2 candidates were worse. Distinct UMIs are therefore the reconstructed quantitative layer; read counts remain an audit sensitivity.
+4. Applying the literal at-least-20 in at-least-three-samples rule to distinct UMIs produced 5,787 design-level passes (5,782 canonical sequences), 108 more than the publication's 5,679. Applying it to permissive reads produced 5,934 passes.
+5. A predeclared exact-only UMI sensitivity produced 5,670 passes, but worsened global outcome agreement and still missed the publication total by nine. It was rejected rather than selected by numerical proximity.
+6. Implementing the intended low-pair-count assignment implied by the apparent `processTwist.R` no-assignment bug also worsened agreement and was rejected.
+7. The workbook itself stores 491 literal numeric zeros paired with missing adjusted P values. Cross-tabulation against reconstructed UMI coverage shows 443 of those rows fail and 48 pass; another 36 nonzero/finite-workbook rows fail. Thus the 491 pattern is a source workbook/export-processing sentinel pattern and is not the 587-row publication coverage set. RNAddress imported pre-existing zeros; it did not create them.
+8. Finite historical values do not meet the prospectively frozen validation thresholds. The best ratio semantics have material tails (maximum absolute discrepancy `9.001`), and among 3,418 historically finite, corrected-valid SNV deltas the MAE is `0.406972` with maximum absolute change `9.349905`; 3,332 exceed `0.05`.
+
+Consequently, the protocol's mandatory STOP conditions are triggered. The reconstructed tables are frozen as an auditable **partial/research reconstruction**, not as a validated replacement benchmark. The final decision is **NO-GO — N-ZIP CANNOT BE RECOVERED RELIABLY FROM THE PUBLIC HISTORICAL MATERIALS**. Phase 3.5, oracle-identifiability, direction-asymmetry, and corrected model evaluation remain blocked pending an author-supplied historical count matrix, exact experiment configuration, or equivalent provenance-complete artifact.

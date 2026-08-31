@@ -37,6 +37,8 @@ COUNTS_OUT = ROOT / "data" / "processed" / "nzip_mutagenesis_raw_counts_v1.csv.g
 RESULTS_DIR = ROOT / "results" / "v3_5r"
 IDENTITY_OUT = RESULTS_DIR / "sequence_identity_groups.csv"
 AUTHOR_FASTA = ROOT / "data" / "interim" / "nzip_v3_5r_canonical_library.fa"
+CPP_COUNT_DIR = ROOT / "data" / "interim" / "nzip_cpp_full"
+CPP_EXACT_AUDIT_DIR = ROOT / "data" / "interim" / "nzip_cpp_exact"
 
 WORKBOOK_SHA256 = "15560b562c86c3d8fea8611154c4b0504a9528051b6038c19ff96bb47cd9fec9"
 PAPER_ADAPTER = "TTCGATATCCGCATGCTAGC"
@@ -661,18 +663,27 @@ def count_raw_reads(max_workers: int = 6) -> tuple[pd.DataFrame, dict[str, objec
         canonical[f"{stem}_distinct_umi_count"] = canonical["sequence_id"].map(umis).fillna(0).astype(int)
     count_columns = [column for column in canonical if column.endswith("_read_count")]
     canonical["samples_with_at_least_20_reads"] = canonical[count_columns].ge(20).sum(axis=1)
-    canonical["coverage_state"] = canonical["samples_with_at_least_20_reads"].map(
+    canonical["read_coverage_state"] = canonical["samples_with_at_least_20_reads"].map(
         lambda value: "coverage_pass" if value >= 3 else "coverage_fail"
     )
+    umi_columns = [column for column in canonical if column.endswith("_distinct_umi_count")]
+    canonical["samples_with_at_least_20_umis"] = canonical[umi_columns].ge(20).sum(axis=1)
+    canonical["coverage_state"] = canonical["samples_with_at_least_20_umis"].map(
+        lambda value: "coverage_pass" if value >= 3 else "coverage_fail"
+    )
+    canonical["umi_coverage_state"] = canonical["coverage_state"]
     stable_gzip_csv(canonical, COUNTS_OUT)
     audit = {
         "counting_rule": (
             "paper adapter <=2 substitutions; insert <=4 substitutions and <=2 in first 15 nt; "
-            "unique best canonical sequence; indel-free; read counts primary"
+            "unique best canonical sequence; indel-free; distinct UMIs are the quantitative layer"
         ),
-        "coverage_rule": "at least three of six samples each have at least 20 mapped reads",
+        "coverage_rule": "at least three of six samples each have at least 20 distinct mapped UMIs",
         "canonical_sequences": len(canonical),
         "canonical_coverage_pass": int(canonical["coverage_state"].eq("coverage_pass").sum()),
+        "canonical_read_coverage_pass_sensitivity": int(
+            canonical["read_coverage_state"].eq("coverage_pass").sum()
+        ),
         "design_level_coverage_pass": int(
             design.merge(canonical[["sequence_id", "coverage_state"]], on="sequence_id")[
                 "coverage_state"
@@ -680,6 +691,119 @@ def count_raw_reads(max_workers: int = 6) -> tuple[pd.DataFrame, dict[str, objec
         ),
         "runs": {run: outputs[run][2] for run in RUNS},
     }
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    (RESULTS_DIR / "raw_count_audit.json").write_text(
+        json.dumps(audit, indent=2) + "\n", encoding="utf-8"
+    )
+    return canonical, audit
+
+
+def merge_compiled_counts() -> tuple[pd.DataFrame, dict[str, object]]:
+    """Merge six outputs from the slice-validated compiled streaming counter."""
+
+    design = pd.read_csv(DESIGN_OUT)
+    canonical = (
+        design[["sequence_id", "sequence_sha256", "normalized_sequence"]]
+        .drop_duplicates()
+        .sort_values("sequence_id")
+        .reset_index(drop=True)
+    )
+    audits: dict[str, object] = {}
+    for run, (replicate, compartment) in RUNS.items():
+        path = CPP_COUNT_DIR / f"{run}.tsv"
+        metrics_path = CPP_COUNT_DIR / f"{run}.metrics.json"
+        counts = pd.read_csv(path, sep="\t")
+        if len(counts) != len(canonical) or counts["sequence_id"].duplicated().any():
+            raise ValueError(f"Invalid compiled count output for {run}")
+        merged = canonical[["sequence_id"]].merge(
+            counts, on="sequence_id", how="left", validate="one_to_one"
+        )
+        if merged[["read_count", "distinct_umi_count"]].isna().any().any():
+            raise ValueError(f"Compiled count IDs do not cover the canonical library for {run}")
+        stem = f"replicate{replicate}_{compartment}"
+        canonical[f"{stem}_read_count"] = merged["read_count"].astype(int)
+        canonical[f"{stem}_distinct_umi_count"] = merged["distinct_umi_count"].astype(int)
+        exact_path = CPP_EXACT_AUDIT_DIR / f"{run}.tsv"
+        if exact_path.exists():
+            exact = pd.read_csv(exact_path, sep="\t")
+            exact = canonical[["sequence_id"]].merge(
+                exact[["sequence_id", "exact_read_count", "exact_distinct_umi_count"]],
+                on="sequence_id", how="left", validate="one_to_one",
+            )
+            if exact.isna().any().any():
+                raise ValueError(f"Exact-match sensitivity IDs do not cover the library for {run}")
+            canonical[f"{stem}_exact_read_count"] = exact["exact_read_count"].astype(int)
+            canonical[f"{stem}_exact_distinct_umi_count"] = exact[
+                "exact_distinct_umi_count"
+            ].astype(int)
+        audits[run] = json.loads(metrics_path.read_text(encoding="utf-8"))
+
+    count_columns = [
+        column for column in canonical
+        if column.endswith("_read_count") and "_exact_" not in column
+    ]
+    canonical["samples_with_at_least_20_reads"] = canonical[count_columns].ge(20).sum(axis=1)
+    canonical["read_coverage_state"] = canonical["samples_with_at_least_20_reads"].map(
+        lambda value: "coverage_pass" if value >= 3 else "coverage_fail"
+    )
+    umi_columns = [
+        column for column in canonical
+        if column.endswith("_distinct_umi_count") and "_exact_" not in column
+    ]
+    canonical["samples_with_at_least_20_umis"] = canonical[umi_columns].ge(20).sum(axis=1)
+    canonical["coverage_state"] = canonical["samples_with_at_least_20_umis"].map(
+        lambda value: "coverage_pass" if value >= 3 else "coverage_fail"
+    )
+    canonical["umi_coverage_state"] = canonical["coverage_state"]
+    exact_umi_columns = [
+        column for column in canonical if column.endswith("_exact_distinct_umi_count")
+    ]
+    if exact_umi_columns:
+        canonical["exact_samples_with_at_least_20_umis"] = canonical[exact_umi_columns].ge(20).sum(axis=1)
+        canonical["exact_umi_coverage_state_sensitivity"] = canonical[
+            "exact_samples_with_at_least_20_umis"
+        ].map(lambda value: "coverage_pass" if value >= 3 else "coverage_fail")
+    stable_gzip_csv(canonical, COUNTS_OUT)
+    design_states = design.merge(
+        canonical[["sequence_id", "coverage_state"]], on="sequence_id", validate="many_to_one"
+    )
+    audit = {
+        "implementation": "compiled source-equivalent counter",
+        "validation": "exact per-sequence read and UMI agreement on pinned 100000-read author slice",
+        "counting_rule": (
+            "paper adapter <=2 substitutions; source 5-mer candidate seeding for truncated reads; "
+            "insert <=4 substitutions and <=2 in first 15 nt; unique best exact sequence; "
+            "indel-free; N-containing UMI skipped; distinct UMIs are the quantitative layer"
+        ),
+        "coverage_rule": "at least three of six samples each have at least 20 distinct mapped UMIs",
+        "coverage_interpretation_evidence": (
+            "the workbook mean localization ratio independently matches UMI-derived simple "
+            "replicate ratios better than read-count or DESeq2 candidates"
+        ),
+        "canonical_sequences": len(canonical),
+        "canonical_coverage_pass": int(canonical["coverage_state"].eq("coverage_pass").sum()),
+        "canonical_read_coverage_pass_sensitivity": int(
+            canonical["read_coverage_state"].eq("coverage_pass").sum()
+        ),
+        "design_level_coverage_pass": int(design_states["coverage_state"].eq("coverage_pass").sum()),
+        "publication_reported_design_level_coverage_pass": 5_679,
+        "publication_pass_count_difference": int(
+            design_states["coverage_state"].eq("coverage_pass").sum() - 5_679
+        ),
+        "publication_pass_identity_reproduced": False,
+        "historical_processing_state": (
+            "aggregate mismatch unresolved; do not tune threshold or choose exact-only sensitivity"
+        ),
+        "runs": audits,
+    }
+    if exact_umi_columns:
+        exact_states = design.merge(
+            canonical[["sequence_id", "exact_umi_coverage_state_sensitivity"]],
+            on="sequence_id", validate="many_to_one",
+        )
+        audit["exact_only_design_level_pass_rejected_sensitivity"] = int(
+            exact_states["exact_umi_coverage_state_sensitivity"].eq("coverage_pass").sum()
+        )
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     (RESULTS_DIR / "raw_count_audit.json").write_text(
         json.dumps(audit, indent=2) + "\n", encoding="utf-8"
@@ -698,6 +822,7 @@ def main() -> None:
             "validate-fastq",
             "inspect-reads",
             "count",
+            "merge-compiled",
         ),
     )
     parser.add_argument("--limit-per-run", type=int, default=100_000)
@@ -724,8 +849,11 @@ def main() -> None:
         print(json.dumps(validate_fastq_sources(), indent=2))
     elif args.command == "inspect-reads":
         print(json.dumps(inspect_read_structure(args.limit_per_run), indent=2))
-    else:
+    elif args.command == "count":
         _, audit = count_raw_reads(args.max_workers)
+        print(json.dumps(audit, indent=2))
+    else:
+        _, audit = merge_compiled_counts()
         print(json.dumps(audit, indent=2))
 
 

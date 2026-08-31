@@ -1,0 +1,301 @@
+{
+  "schema": "rnaddress.nzip_v4_truth_manifest.v1",
+  "frozen_date": "2026-08-30",
+  "decision": "NO-GO \u2014 N-ZIP CANNOT BE RECOVERED RELIABLY FROM PUBLIC HISTORICAL MATERIALS",
+  "dataset_status": "deterministic partial reconstruction; not a validated development benchmark",
+  "phase_3_5_may_resume": false,
+  "no_model_training_or_evaluation_performed": true,
+  "source": {
+    "publication_doi": "10.1038/s41593-022-01243-x",
+    "pmcid": "PMC9991926",
+    "experiment": "E-MTAB-10902",
+    "ena_study": "ERP133202",
+    "workbook_sha256": "15560b562c86c3d8fea8611154c4b0504a9528051b6038c19ff96bb47cd9fec9",
+    "mprna_git_commit": "0e7118f1d4880884e6e99e4ba48a26d67f00338a",
+    "mprna_processTwist": {
+      "path": "data/raw/nzip/MPRNA_v3_5/processTwist.R",
+      "bytes": 8006,
+      "sha256": "95d207e26e1b36b7aa514b71ed19fca3d27b8b6f4f531faef0826d9039803814"
+    },
+    "mprna_compbio_jar": {
+      "path": "data/raw/nzip/MPRNA_v3_5/jar/compbio.jar",
+      "bytes": 5037475,
+      "sha256": "7a34f3e763cb071af15f0f54910e6f62f0af491312f37d39693e21249f6adced"
+    },
+    "fastqs": {
+      "ERR7337821": {
+        "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR733/821/ERR7337821/ERR7337821.fastq.gz",
+        "file": "data/raw/nzip/fastq_v3_5r/ERR7337821.fastq.gz",
+        "expected_bytes": 1400843603,
+        "observed_bytes": 1400843603,
+        "ena_md5": "fd80b90536363964701995c679a04df0",
+        "observed_md5": "fd80b90536363964701995c679a04df0",
+        "local_sha256": "31d6af944c10777527759c5192fc51db935958c23f14b8cc3a15a25b8beb3928",
+        "expected_reads": 31033728,
+        "observed_reads": 31033728,
+        "gzip_integrity": true,
+        "valid": true
+      },
+      "ERR7337822": {
+        "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR733/822/ERR7337822/ERR7337822.fastq.gz",
+        "file": "data/raw/nzip/fastq_v3_5r/ERR7337822.fastq.gz",
+        "expected_bytes": 964822552,
+        "observed_bytes": 964822552,
+        "ena_md5": "6b3edb97bb7890f058f057552cf3801d",
+        "observed_md5": "6b3edb97bb7890f058f057552cf3801d",
+        "local_sha256": "7a4df36522fe55fa3ddb11012f74cb1d3c402dff00b069b125ce39215493dd42",
+        "expected_reads": 21444343,
+        "observed_reads": 21444343,
+        "gzip_integrity": true,
+        "valid": true
+      },
+      "ERR7337823": {
+        "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR733/823/ERR7337823/ERR7337823.fastq.gz",
+        "file": "data/raw/nzip/fastq_v3_5r/ERR7337823.fastq.gz",
+        "expected_bytes": 1274894586,
+        "observed_bytes": 1274894586,
+        "ena_md5": "0f33bdb125acedfa826b846cd9b97f6b",
+        "observed_md5": "0f33bdb125acedfa826b846cd9b97f6b",
+        "local_sha256": "5029c3537f535533dbb50ae5bad70892bbadc1867ce1ae0a2b67eb732fc67ea1",
+        "expected_reads": 28271727,
+        "observed_reads": 28271727,
+        "gzip_integrity": true,
+        "valid": true
+      },
+      "ERR7337824": {
+        "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR733/824/ERR7337824/ERR7337824.fastq.gz",
+        "file": "data/raw/nzip/fastq_v3_5r/ERR7337824.fastq.gz",
+        "expected_bytes": 1417520067,
+        "observed_bytes": 1417520067,
+        "ena_md5": "edb6203f498f761cee58ba3ef4b6be0d",
+        "observed_md5": "edb6203f498f761cee58ba3ef4b6be0d",
+        "local_sha256": "a1ead529c993a90b82aceca6f00d54c0511294e150d981bb6c86e9771e95cc8c",
+        "expected_reads": 31333875,
+        "observed_reads": 31333875,
+        "gzip_integrity": true,
+        "valid": true
+      },
+      "ERR7337825": {
+        "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR733/825/ERR7337825/ERR7337825.fastq.gz",
+        "file": "data/raw/nzip/fastq_v3_5r/ERR7337825.fastq.gz",
+        "expected_bytes": 1121848198,
+        "observed_bytes": 1121848198,
+        "ena_md5": "a9123739f929ecacad57571d2e6aeb8e",
+        "observed_md5": "a9123739f929ecacad57571d2e6aeb8e",
+        "local_sha256": "0670c664bae70a954c44ff383a93150f535987da765134a1fb465b2a6f92a1b9",
+        "expected_reads": 24605069,
+        "observed_reads": 24605069,
+        "gzip_integrity": true,
+        "valid": true
+      },
+      "ERR7337826": {
+        "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR733/826/ERR7337826/ERR7337826.fastq.gz",
+        "file": "data/raw/nzip/fastq_v3_5r/ERR7337826.fastq.gz",
+        "expected_bytes": 1272136960,
+        "observed_bytes": 1272136960,
+        "ena_md5": "55b24196cc0418c1e804f889f7d1b695",
+        "observed_md5": "55b24196cc0418c1e804f889f7d1b695",
+        "local_sha256": "a764d3cf0f9f06f07dfa5005c842045882c715cd037865bac8aaed0ebe5dc389",
+        "expected_reads": 28143744,
+        "observed_reads": 28143744,
+        "gzip_integrity": true,
+        "valid": true
+      }
+    }
+  },
+  "counts": {
+    "design_rows": 6266,
+    "canonical_sequences": 6260,
+    "reconstructed_umi_coverage_pass_design_rows": 5787,
+    "reconstructed_umi_coverage_fail_design_rows": 479,
+    "publication_reported_pass_design_rows": 5679,
+    "unresolved_aggregate_pass_difference": 108,
+    "exact_only_rejected_sensitivity_pass": 5670,
+    "workbook_zero_missing_padj_rows": 491,
+    "partial_valid_exact_snvs": 3453,
+    "excluded_exact_snvs": 1242,
+    "retained_parents": 13,
+    "excluded_or_quarantined_parents": 3,
+    "historical_rows_removed": 942,
+    "state_counts": {
+      "measured_valid": 5383,
+      "coverage_filtered": 473,
+      "sequence_ambiguous": 404,
+      "duplicate_sequence_collapsed": 6
+    }
+  },
+  "partial_cohort_parent_ids": [
+    "ENSMUSG00000006699|Cdc42_2|31",
+    "ENSMUSG00000014294|Ndufa2|11+12",
+    "ENSMUSG00000019820|Utrn|61",
+    "ENSMUSG00000020821|Kif1c|80",
+    "ENSMUSG00000025795|Rassf3|91",
+    "ENSMUSG00000026031|Cflar_1|14",
+    "ENSMUSG00000029761|Cald1|58",
+    "ENSMUSG00000031207|Msn|48",
+    "ENSMUSG00000031442|Mcf2l|7",
+    "ENSMUSG00000034109|Golim4|56",
+    "ENSMUSG00000046447|Camk2n1|12",
+    "ENSMUSG00000048482|Bdnf|56",
+    "ENSMUSG00000049517|Rps23|11+12"
+  ],
+  "replicate_columns": [
+    "replicate1_neurite_read_count",
+    "replicate1_neurite_distinct_umi_count",
+    "replicate1_neurite_exact_read_count",
+    "replicate1_neurite_exact_distinct_umi_count",
+    "replicate2_neurite_read_count",
+    "replicate2_neurite_distinct_umi_count",
+    "replicate2_neurite_exact_read_count",
+    "replicate2_neurite_exact_distinct_umi_count",
+    "replicate3_neurite_read_count",
+    "replicate3_neurite_distinct_umi_count",
+    "replicate3_neurite_exact_read_count",
+    "replicate3_neurite_exact_distinct_umi_count",
+    "replicate1_soma_read_count",
+    "replicate1_soma_distinct_umi_count",
+    "replicate1_soma_exact_read_count",
+    "replicate1_soma_exact_distinct_umi_count",
+    "replicate2_soma_read_count",
+    "replicate2_soma_distinct_umi_count",
+    "replicate2_soma_exact_read_count",
+    "replicate2_soma_exact_distinct_umi_count",
+    "replicate3_soma_read_count",
+    "replicate3_soma_distinct_umi_count",
+    "replicate3_soma_exact_read_count",
+    "replicate3_soma_exact_distinct_umi_count"
+  ],
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "r": "4.5.1",
+    "deseq2": "1.48.1",
+    "deseq2_session_info": [
+      "data/processed/nzip_mutagenesis_deseq2_umi_v1.csv.gz.sessionInfo.txt",
+      "data/processed/nzip_mutagenesis_deseq2_read_sensitivity_v1.csv.gz.sessionInfo.txt"
+    ]
+  },
+  "unresolved_state_definitions": {
+    "coverage_filtered": "fewer than three samples have at least 20 distinct mapped UMIs",
+    "sequence_ambiguous": "Cflar_2 workbook identity cannot be assigned safely between source tiles",
+    "duplicate_sequence_collapsed": "secondary design ID shares one physical sequence measurement",
+    "publication_coverage_identity_unresolved": "public raw data/current source counter yield 5,787 passes versus reported 5,679; the 108 historical identities cannot be inferred without tuning",
+    "finite_value_reproduction_failed": "published finite values and deltas exceed prospectively frozen agreement tolerances"
+  },
+  "artifacts": [
+    {
+      "path": "data/processed/nzip_mutagenesis_design_v1.csv.gz",
+      "bytes": 450109,
+      "sha256": "fdafe92f31124f255a222fa22e1bb9e1d8f4b7f4140b1a031c18bfd66e31d2c2"
+    },
+    {
+      "path": "data/processed/nzip_mutagenesis_raw_counts_v1.csv.gz",
+      "bytes": 593697,
+      "sha256": "08f51e5b65a944baf05de61d961bad9942e4ead2732fd8a6a5f12afb2ad1de72"
+    },
+    {
+      "path": "data/processed/nzip_mutagenesis_outcomes_v4_truth.csv.gz",
+      "bytes": 3304692,
+      "sha256": "75ab3bfc41ec3b8fa30273ae3fda0fb31018935db35bc5df2a33bd73c125df65"
+    },
+    {
+      "path": "data/processed/nzip_mutagenesis_deseq2_umi_v1.csv.gz",
+      "bytes": 574965,
+      "sha256": "ceac240c55fc9ba11cc20557c1687485cec97faad517d881544cadad1e5e27d9"
+    },
+    {
+      "path": "data/processed/nzip_mutagenesis_deseq2_read_sensitivity_v1.csv.gz",
+      "bytes": 554418,
+      "sha256": "ddfd23c1efecdff74ef74f6809cac2172d42fed5835532b4de5949c0497c9ec4"
+    },
+    {
+      "path": "data/processed/nzip_snv_intervention_pairs_v4_truth_corrected.csv.gz",
+      "bytes": 2073866,
+      "sha256": "d43cd99482855763170156cbef03771f793d0e90c66d58c6c26280ebb6a0d053"
+    },
+    {
+      "path": "results/v3_5r/nzip_6266_outcome_state_reconciliation.csv.gz",
+      "bytes": 3554083,
+      "sha256": "63a49c8e0b61156dee5aff89f747b0bde3209bc861d43128dba63b0e522d209e"
+    },
+    {
+      "path": "results/v3_5r/corrected_snv_exclusions.csv.gz",
+      "bytes": 636220,
+      "sha256": "3b01cab0a3430158973634829666d3376a7c9ad03cfd2b2173dac102f1d7200b"
+    },
+    {
+      "path": "results/v3_5r/historical_to_corrected_snv_map.csv.gz",
+      "bytes": 385115,
+      "sha256": "22ab24d34cc5d962460e7d01cf481387d8e87ce30177ea9150e2093203ddfe1f"
+    },
+    {
+      "path": "results/v3_5r/sequence_identity_groups.csv",
+      "bytes": 2466,
+      "sha256": "7968a7465101f80d96e98b94ef86e2b40ea9be9fcf2a4c546a9bf3140adc4d04"
+    },
+    {
+      "path": "results/v3_5r/raw_count_audit.json",
+      "bytes": 3957,
+      "sha256": "326535429d63ec653d1feacbd0148fdb627ec82258c3c776d53ac53b99f2a26c"
+    },
+    {
+      "path": "results/v3_5r/localization_ratio_semantics_audit.json",
+      "bytes": 2829,
+      "sha256": "b8415d23e968c0c8ed7f9d541e3f3aec99912e8efb241d6147464a1f02516c02"
+    },
+    {
+      "path": "results/v3_5r/truth_reconstruction_summary.json",
+      "bytes": 4003,
+      "sha256": "e96ec5e56f185e8ef2aba8eb0c22b23274ab7b65c431322bb0c2521947c5ceee"
+    },
+    {
+      "path": "results/v3_5r/source_acquisition_manifest.json",
+      "bytes": 3736,
+      "sha256": "f1a6eb1f69362a1fcca756e274be1654cd80d502537462a5767277c2653c53a0"
+    },
+    {
+      "path": "results/v3_5r/author_independent_slice_concordance.json",
+      "bytes": 220,
+      "sha256": "a3dc11c5e8184e977b5cd26c2dfde5cc35a599c0c7916142dff4dbb0c1fd7f2c"
+    }
+  ],
+  "processing": [
+    {
+      "path": "src/analysis/reconstruct_nzip_v4_truth.py",
+      "bytes": 37647,
+      "sha256": "2197404745dc682428e965d8519ec02354e51781e192d5aa931d2db93db2d793"
+    },
+    {
+      "path": "src/analysis/nzip_fast_counter.cpp",
+      "bytes": 10875,
+      "sha256": "7e7f89dfc42adc1a827a9aba3588e05f9518f5de9b1ac0cbb62159bf019caae4"
+    },
+    {
+      "path": "src/analysis/reconstruct_nzip_deseq2.R",
+      "bytes": 3124,
+      "sha256": "76689d4db84e06915b0247f0c9d4361e9ec06ede00570b0d8769cbe034934d01"
+    },
+    {
+      "path": "src/analysis/finalize_nzip_v4_truth.py",
+      "bytes": 15363,
+      "sha256": "05448163783540d5aba25bc43b663b919de62a849989fd9d26e7a403bb7de2c0"
+    },
+    {
+      "path": "src/analysis/freeze_nzip_v4_truth.py",
+      "bytes": 7067,
+      "sha256": "f4703c75b144d32d5ee3246e95e51543d975529432ca27d9b4b24063d299bc65"
+    },
+    {
+      "path": "tests/test_nzip_v4_truth.py",
+      "bytes": 5624,
+      "sha256": "886010d9fbf786636a37989cc0191e82c2f11cb9713d4cdb3a0d5afa65e3e022"
+    }
+  ],
+  "protected_boundaries": {
+    "astrocyte_outcomes_inspected": false,
+    "moffatt_archive_listed_opened_or_extracted": false,
+    "historical_nzip_pairs_sha256": "0a9bd52f089694f6431ae9cb44782499f2249913ac17781b38052cf3a0319a10",
+    "astrocyte_loader_sha256": "78fd563f4e51866bc6d0e18aac9bfbbedf20ad0986e6bd087caf9b0b11901a78",
+    "moffatt_guard_sha256": "b6a22b19f71a3800043fdbab29decf6fdfccb5ec0d0e9edeaa23617a577c4bb3"
+  }
+}

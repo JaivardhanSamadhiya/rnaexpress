@@ -1,0 +1,101 @@
+{
+  "design_rows": 6266,
+  "canonical_sequences": 6260,
+  "state_counts": {
+    "measured_valid": 5383,
+    "coverage_filtered": 473,
+    "sequence_ambiguous": 404,
+    "duplicate_sequence_collapsed": 6
+  },
+  "design_coverage_pass": 5787,
+  "design_coverage_fail": 479,
+  "workbook_zero_missing_padj": 491,
+  "workbook_zero_by_reconstructed_coverage": {
+    "coverage_fail": {
+      "false": 36,
+      "true": 443
+    },
+    "coverage_pass": {
+      "false": 5739,
+      "true": 48
+    }
+  },
+  "corrected_valid_snvs": 3453,
+  "excluded_snvs": 1242,
+  "retained_parents": 13,
+  "candidate_parents": 16,
+  "map2_valid_snvs": 0,
+  "cox5b_valid_snvs": 0,
+  "historical_rows_mapped": 4395,
+  "historical_rows_removed": 942,
+  "historical_numeric_delta_changes_gt_1e_6": 3453,
+  "historical_numeric_delta_changes_gt_0_05": 3332,
+  "finite_source_valid_delta_comparison_n": 3418,
+  "finite_source_valid_delta_mae": 0.406971714380375,
+  "finite_source_valid_delta_max_abs": 9.349904627331243,
+  "ratio_semantics": {
+    "comparison_scope": "unique workbook identities with finite workbook ratio and padj",
+    "candidate_agreement": {
+      "read_deseq2_log2FoldChange": {
+        "n": 5758,
+        "pearson_r": 0.8916120394679428,
+        "spearman_r": 0.9126110110674245,
+        "mean_absolute_error": 0.23850732357607712,
+        "root_mean_squared_error": 0.4872782924021794,
+        "maximum_absolute_error": 5.68966944940321
+      },
+      "umi_deseq2_log2FoldChange": {
+        "n": 5725,
+        "pearson_r": 0.9312587173599949,
+        "spearman_r": 0.9844926838291097,
+        "mean_absolute_error": 0.1457227057489484,
+        "root_mean_squared_error": 0.4097968935534985,
+        "maximum_absolute_error": 8.24214377640974
+      },
+      "mean_replicate_read_simple_ratio": {
+        "n": 5761,
+        "pearson_r": 0.8689195023720515,
+        "spearman_r": 0.9126395730264582,
+        "mean_absolute_error": 0.26914924014071606,
+        "root_mean_squared_error": 0.5435715118150313,
+        "maximum_absolute_error": 9.538193607833556
+      },
+      "averaged_read_cpm_ratio": {
+        "n": 5761,
+        "pearson_r": 0.8180171218916237,
+        "spearman_r": 0.886298112777687,
+        "mean_absolute_error": 0.3164823191057309,
+        "root_mean_squared_error": 0.6302402791217119,
+        "maximum_absolute_error": 10.34598075679661
+      },
+      "mean_replicate_umi_simple_ratio": {
+        "n": 5761,
+        "pearson_r": 0.9311786501345751,
+        "spearman_r": 0.9853092316170131,
+        "mean_absolute_error": 0.14384485863956376,
+        "root_mean_squared_error": 0.4265552114294503,
+        "maximum_absolute_error": 9.000999780591295
+      },
+      "averaged_umi_cpm_ratio": {
+        "n": 5761,
+        "pearson_r": 0.8767558177454555,
+        "spearman_r": 0.9530787404798338,
+        "mean_absolute_error": 0.21998591812330112,
+        "root_mean_squared_error": 0.5414514143825155,
+        "maximum_absolute_error": 9.994025766082505
+      },
+      "exact_only_mean_replicate_umi_ratio_rejected_sensitivity": {
+        "n": 5761,
+        "pearson_r": 0.9105821758161867,
+        "spearman_r": 0.9728804294011926,
+        "mean_absolute_error": 0.1617220245770214,
+        "root_mean_squared_error": 0.4528202385539057,
+        "maximum_absolute_error": 8.900363599533502
+      }
+    },
+    "closest_numeric_semantics": "mean_replicate_umi_simple_ratio",
+    "primary_truth_outcome": "mean_replicate_umi_simple_ratio",
+    "primary_reason": "the workbook column is labelled Mean_log2ratio and independently matches the source-defined UMI CPM replicate-ratio calculation best; DESeq2 statistics remain a separate inferential layer",
+    "rejected_sensitivity_reason": "exact-only matching produced 5,670 design-level coverage passes, not 5,679, and worsened global agreement; it is retained only to demonstrate that the publication count was not reverse-engineered"
+  }
+}

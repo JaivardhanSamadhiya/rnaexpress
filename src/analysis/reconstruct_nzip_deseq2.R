@@ -4,28 +4,33 @@
 suppressPackageStartupMessages(library(DESeq2))
 
 args <- commandArgs(trailingOnly = TRUE)
-if (length(args) != 3) {
-  stop("Usage: Rscript reconstruct_nzip_deseq2.R COUNTS.csv.gz OUT.csv.gz MODE")
+if (!(length(args) %in% c(3, 4))) {
+  stop("Usage: Rscript reconstruct_nzip_deseq2.R COUNTS.csv.gz OUT.csv.gz MODE [read|umi]")
 }
 
 counts_file <- args[[1]]
 out_file <- args[[2]]
 mode <- args[[3]]
+count_kind <- if (length(args) == 4) args[[4]] else "read"
 if (!(mode %in% c("published_coverage", "all_sequences_sensitivity"))) {
   stop("MODE must be published_coverage or all_sequences_sensitivity")
 }
+if (!(count_kind %in% c("read", "umi"))) stop("COUNT_KIND must be read or umi")
 
 tab <- read.csv(counts_file, stringsAsFactors = FALSE, check.names = FALSE)
-count_names <- c(
-  "replicate1_neurite_read_count", "replicate1_soma_read_count",
-  "replicate2_neurite_read_count", "replicate2_soma_read_count",
-  "replicate3_neurite_read_count", "replicate3_soma_read_count"
+suffix <- if (count_kind == "read") "read_count" else "distinct_umi_count"
+count_names <- paste0(
+  c("replicate1_neurite_", "replicate1_soma_",
+    "replicate2_neurite_", "replicate2_soma_",
+    "replicate3_neurite_", "replicate3_soma_"),
+  suffix
 )
 if (!all(count_names %in% names(tab))) stop("Expected count columns are missing")
 if (anyDuplicated(tab$sequence_id)) stop("DESeq2 input has duplicate sequence IDs")
 
 eligible <- if (mode == "published_coverage") {
-  tab$coverage_state == "coverage_pass"
+  coverage_column <- if (count_kind == "read") "read_coverage_state" else "umi_coverage_state"
+  tab[[coverage_column]] == "coverage_pass"
 } else {
   rowSums(tab[, count_names, drop = FALSE]) > 0
 }
@@ -56,6 +61,7 @@ res <- results(
 out <- data.frame(
   sequence_id = tab$sequence_id,
   deseq_mode = mode,
+  count_kind = count_kind,
   deseq_included = eligible,
   baseMean = NA_real_,
   log2FoldChange = NA_real_,
@@ -83,6 +89,6 @@ print(sessionInfo())
 sink()
 
 cat(sprintf(
-  "mode=%s sequences=%d included=%d finite_lfc=%d finite_padj=%d\n",
-  mode, nrow(out), sum(eligible), sum(is.finite(out$log2FoldChange)), sum(is.finite(out$padj))
+  "mode=%s count_kind=%s sequences=%d included=%d finite_lfc=%d finite_padj=%d\n",
+  mode, count_kind, nrow(out), sum(eligible), sum(is.finite(out$log2FoldChange)), sum(is.finite(out$padj))
 ))

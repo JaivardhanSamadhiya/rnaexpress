@@ -1,0 +1,10 @@
+{
+  "workbook_sha256": "15560b562c86c3d8fea8611154c4b0504a9528051b6038c19ff96bb47cd9fec9",
+  "sheet": "Supp_Table_2b",
+  "data_rows": 6266,
+  "literal_numeric_zero_ratio_with_literal_text_NA_padj": 491,
+  "numeric_zero_ratio_with_blank_padj": 0,
+  "ratio_formula_cells": 0,
+  "padj_formula_cells": 0,
+  "interpretation": "The supplement stores numeric zero in the ratio cell and literal text NA in the adjusted-P cell; pandas parses the text NA as missing by default."
+}
