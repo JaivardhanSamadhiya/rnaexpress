@@ -1,0 +1,32 @@
+{
+  "phase": "v4_phaseA_preunseal",
+  "outcome_blind": true,
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE334nnn/GSE334718/miniml/GSE334718_family.xml.tgz",
+  "miniml_tgz_sha256": "ae8e0fcada1f2df2ad5f118387d88aa2a146b618c8e185bd6e5f026e54225c7f",
+  "miniml_xml_sha256": "871bc472a74660cb687b97963e1cd7baec0410d4407e7fbaf96ede098d5462c6",
+  "sample_count": 80,
+  "assay_families": [
+    "mutation",
+    "necessity",
+    "shape",
+    "shuffle",
+    "sufficiency"
+  ],
+  "reporters": [
+    "firefly",
+    "gfp"
+  ],
+  "compartments": [
+    "neurite",
+    "soma"
+  ],
+  "replicates": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "csv_sha256": "adb4389c5f2a88aa78617b4e58f395c85483c3fb838180e190dc6ca7f00aaf64",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0"
+}
