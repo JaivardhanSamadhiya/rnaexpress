@@ -1,0 +1,172 @@
+{
+  "phase": "v4_phaseA",
+  "generated_from_git_commit": "e5cec4985cdc841673b95f5e9b63b5662b5ffb9d",
+  "nzip_outcomes_used": false,
+  "astrocyte_outcomes_opened": false,
+  "historical_models_rerun": false,
+  "mikl": {
+    "raw_geo_constructs": 47989,
+    "analyzed_constructs": 47347,
+    "wt_scanning_constructs": 13753,
+    "mutant_scanning_constructs": 12909,
+    "certified_interventions": 11900,
+    "certified_genes": 224,
+    "independent_parent_contexts": 5830,
+    "exact_snv_interventions": 13,
+    "exclusions": {
+      "missing_parent_gene_position_key": 770,
+      "no_semantic_parent": 239
+    },
+    "direction_cad": {
+      "increase": 4555,
+      "decrease": 7308,
+      "zero": 37
+    },
+    "direction_n2a": {
+      "increase": 4443,
+      "decrease": 7428,
+      "zero": 29
+    },
+    "replicates": {
+      "CAD": 3,
+      "Neuro-2a": 3
+    },
+    "test_sequence_definition": "bases 31-180 of 198-nt source oligo (18-nt primer + 12-nt barcode removed; 18-nt reverse primer removed)"
+  },
+  "tdp": {
+    "certified_interventions": 4566,
+    "certified_genes": 16,
+    "independent_parent_contexts": 4566,
+    "replicate_design": "four biological replicates in EV3",
+    "pair_level_uncertainty": "not available in Figure 4E processed source",
+    "direction": {
+      "increase": 1899,
+      "decrease": 2667
+    },
+    "slamseq_quarantine_duplicate_keys": 10935,
+    "rbns_exact_pairs": 3600,
+    "stability_exact_pairs": 3600
+  },
+  "moffatt": {
+    "source_outcome_rows": 47955,
+    "certified_interventions": 46292,
+    "certified_parent_elements": 10,
+    "certified_gene_labels": 10,
+    "intervention_classes": {
+      "sufficiency_background_replacement": 9462,
+      "necessity_deletion_with_inactive_padding": 3328,
+      "random_substitution": 14235,
+      "regional_shuffle": 10539,
+      "shape_structure_perturbation": 8728
+    },
+    "source_fasta": {
+      "records": 64697,
+      "unique_sequences": 64697,
+      "malformed_sequences": 35,
+      "ends_with_newline": true,
+      "last_identifier": "trp53_1|260_1+suff",
+      "last_sequence_length": 260
+    },
+    "parent_reconstruction": {
+      "sufficiency_parent_genes": [
+        "cdc42",
+        "gdf11",
+        "net1",
+        "rab13",
+        "trak2",
+        "trp53"
+      ],
+      "necessity_parent_genes": [
+        "cdc42bpg",
+        "cplx2",
+        "gdf11",
+        "malat1",
+        "net1",
+        "rab13",
+        "trak2",
+        "trp53inp2"
+      ],
+      "mutation_parent_genes": [
+        "cdc42",
+        "gdf11",
+        "net1",
+        "rab13",
+        "trak2",
+        "trp53"
+      ],
+      "unique_parent_sequences": 8,
+      "parent_genes": [
+        "cdc42",
+        "cdc42bpg",
+        "cplx2",
+        "gdf11",
+        "malat1",
+        "net1",
+        "rab13",
+        "trak2",
+        "trp53",
+        "trp53inp2"
+      ],
+      "shared_parent_exact_matches": [
+        "gdf11",
+        "net1",
+        "rab13",
+        "trak2"
+      ]
+    },
+    "count_files": {
+      "sample_files": 80,
+      "duplicate_sample_oligo_keys": 0,
+      "minimum_rows_per_sample": 14570,
+      "maximum_rows_per_sample": 24164
+    },
+    "exclusions": {
+      "missing_sequence_dictionary_entry": 1658,
+      "design_operation_mismatch": 5
+    },
+    "replicate_design": "four biological replicates per assay family \u00d7 reporter \u00d7 compartment",
+    "reporter_finite_outcomes": {
+      "gfp": 44248,
+      "firefly": 20783
+    },
+    "raw_ratio_diagnostics_with_at_least_two_paired_replicates": {
+      "gfp": 46186,
+      "firefly": 44535
+    },
+    "direction_gfp": {
+      "increase": 27007,
+      "decrease": 17241,
+      "missing": 2044
+    },
+    "direction_firefly": {
+      "decrease": 7557,
+      "increase": 13226,
+      "missing": 25509
+    }
+  },
+  "arora_representation_support": {
+    "accession": "GSE183192",
+    "processed_constructs": 7360,
+    "complete_four_assay_constructs": 7115,
+    "biological_insert_length": 260,
+    "independent_gene_groups": 14,
+    "per_assay_nonmissing_range": [
+      7217,
+      7326
+    ],
+    "role": "forward representation support only; not a parent-mutant intervention source",
+    "pooling_constraint": "retain GFP/Firefly and CAD/Neuro-2a assay-specific heads"
+  },
+  "development_totals": {
+    "certified_interventions": 62758,
+    "unique_gene_labels_casefolded": 248,
+    "independent_parent_contexts": 10406,
+    "exact_snv": 19,
+    "small_local_edit": 15993,
+    "motif_scale_edit": 14719,
+    "regional_edit": 17641,
+    "large_element_edit": 14386,
+    "common_outcome_rows": 93397,
+    "exclusion_rows": 2672
+  }
+}

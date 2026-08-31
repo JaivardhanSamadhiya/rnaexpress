@@ -1,0 +1,622 @@
+{
+  "phase": "v4_phaseA",
+  "git_commit_at_run": "e5cec4985cdc841673b95f5e9b63b5662b5ffb9d",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "pandas": "2.2.2",
+  "numpy": "1.26.4",
+  "dataset_records": {
+    "mikl_gse173098": {
+      "accession": "GSE173098",
+      "doi": "10.1093/nar/gkac806",
+      "mapping": "unique exact 198-nt construct join, biological bases 31-180, then gene+position and source-declared motif semantic parent reconstruction",
+      "replicates": "three paired soma/neurite replicates in each of CAD and Neuro-2a",
+      "duplicate_policy": "complete construct sequences must be unique in both analyzed table and GEO count matrix",
+      "outcome_semantics": "mutant minus parent author logFC(neurite/soma), with raw-count paired-delta SE retained separately"
+    },
+    "tdp43_gse288185": {
+      "accession": "GSE288185;S-SCDT-10_1038-S44318-025-00653-4",
+      "doi": "10.64898/2025.05.30.656993",
+      "mapping": "exact parent_id and mutant_id to exact 260-nt EV8 sequences",
+      "replicates": "four biological replicates in EV3",
+      "duplicate_policy": "SLAM-seq raw stability table remains quarantined because sample+oligo keys are non-unique",
+      "outcome_semantics": "mutant minus WT processed Figure 4E log2(neurite/soma); pair-level uncertainty unavailable"
+    },
+    "moffatt_gse334718": {
+      "accession": "GSE334718;PRJNA1476227",
+      "doi": "10.64898/2026.06.09.731215",
+      "mapping": "exact outcome oligo ID to sequence dictionary; outcome-blind parent reconstruction and operation validation",
+      "replicates": "four biological replicates per assay family, reporter, and compartment",
+      "duplicate_policy": "outcome IDs and each sample's oligo keys must be unique; unmapped or operation-inconsistent rows are excluded",
+      "outcome_semantics": "author WT-normalized log2 neurite enrichment; raw UMI ratio SE is diagnostic and is not the author-effect SE"
+    },
+    "arora_gse183192": {
+      "accession": "GSE183192",
+      "doi": "10.1093/nar/gkac763",
+      "mapping": "7,360 result IDs map one-to-one to labeled 260-nt inserts",
+      "replicates": "quadruplicate soma/neurite fractions across reporter and cell-line assays",
+      "duplicate_policy": "forward tiles only; no parent-mutant conversion attempted",
+      "outcome_semantics": "forward localization activity; representation support only"
+    }
+  },
+  "source_repositories": {
+    "charliemoffatt/sufficiency-mpra-analysis": {
+      "url": "https://github.com/charliemoffatt/sufficiency-mpra-analysis",
+      "commit": "cb05e45d608b9ef51f22a25df8b14ebcbfec9c22"
+    },
+    "charliemoffatt/LE_SHAPE_Summary": {
+      "url": "https://github.com/charliemoffatt/LE_SHAPE_Summary",
+      "commit": "329ad93801587ed8c29053c2c36500fb9dd9cbec"
+    },
+    "TaliaferroLab/peak-oligo": {
+      "url": "https://github.com/TaliaferroLab/peak-oligo",
+      "status": "declared by manuscript but not publicly resolvable during the 2026-08-31 audit"
+    }
+  },
+  "scope_guards": {
+    "nzip_outcomes_used": false,
+    "astrocyte_outcomes_opened": false,
+    "historical_models_rerun": false,
+    "model_fit_or_tuning_performed": false
+  },
+  "sources": [
+    {
+      "path": "data/raw/mikl_gse173098/supplementary/files/SupplementaryData_NAR_Final/SupplementaryTables/TableS2.csv",
+      "bytes": 17990007,
+      "sha256": "c3b3257976af7cd2253aa5503a8a53f374e5730fe012f2320f449eee06d67ee3"
+    },
+    {
+      "path": "data/raw/mikl_gse173098/supplementary/files/SupplementaryData_NAR_Final/SupplementaryTables/TableS1.csv",
+      "bytes": 20659,
+      "sha256": "089137d72f9a203f1ba254ef712aa9ba2c171aa113de87df34244c2d2c75c2c5"
+    },
+    {
+      "path": "data/raw/mikl_gse173098/GSE173098_RNAloc_MPRA_counts.csv.gz",
+      "bytes": 2327697,
+      "sha256": "809e4d3f286edd3373ebf2dfb3b93a658179a83eac85007a04ad381612f44d99"
+    },
+    {
+      "path": "data/processed/tdp43_motif_intervention_pairs.csv.gz",
+      "bytes": 387005,
+      "sha256": "39590d9609a4376d39b1e48886576fdad2ef10764bbebb0130ecd86e27ba8e6f"
+    },
+    {
+      "path": "reports/v3_tdp_source_data_audit.json",
+      "bytes": 9136,
+      "sha256": "212fd3d43a7960b97ff1f40fd5a60612d1475ffa065abc74ed6c592476d470f4"
+    },
+    {
+      "path": "data/frozen/v2_4_external_forward_audit.json",
+      "bytes": 14441,
+      "sha256": "1509f291fd89242dfa369185670b735af34991c7aff784a30e6f4662b731d4af"
+    },
+    {
+      "path": "data/raw/arora_gse183192/supplementary/files/SupplementaryFile1.txt",
+      "bytes": 2358207,
+      "sha256": "26c95c7be05b9450f4798415cc4f4fa7d7d2941a41e9536dd29ee23df03d318f"
+    },
+    {
+      "path": "data/raw/arora_gse183192/supplementary/files/TableS1.xlsx",
+      "bytes": 251673,
+      "sha256": "6f6b51412968c75beca0b107a062a844bd81da57681644f726e4aa6d0f9bb48f"
+    },
+    {
+      "path": "data/raw/arora_gse183192/supplementary/files/TableS2.xlsx",
+      "bytes": 241369,
+      "sha256": "54b71ac6800ebcb13b8504e1eba4eca0956f520d7af11783f54f634d60cca084"
+    },
+    {
+      "path": "data/raw/arora_gse183192/supplementary/files/TableS3.xlsx",
+      "bytes": 253704,
+      "sha256": "731a42615fe11089fd4657716919a889f29e3601f52d00e58d23fd5f4467e9cd"
+    },
+    {
+      "path": "data/raw/arora_gse183192/supplementary/files/TableS4.xlsx",
+      "bytes": 218363,
+      "sha256": "da718819f520bd59aeef9b927ef8b61e84629e1627c29afec058d2472709f8ea"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/GSE334718_RAW.tar",
+      "bytes": 12697600,
+      "sha256": "abc6e571ed68833e3fb0c0028209303a0f468347ac5f6efbeffd788c35c7ade1"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/supplementary/supplementary_file_1.txt",
+      "bytes": 20971564,
+      "sha256": "202c019bfbd91e0a5d4f94da2b2b340e4f76ceda10d7c73f75f08090d346195e"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/supplementary/supplementary_table_1.csv",
+      "bytes": 462825,
+      "sha256": "3adabe4ef2b0ecb21f37e316195a8c14f8acf954af66c39dee107436088737af"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/supplementary/supplementary_table_2.csv",
+      "bytes": 195023,
+      "sha256": "419accb4f1656f2da5f6e2d971240c892ad95edff71bcfc9274f25eb2e40b9e2"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/supplementary/supplementary_table_3.csv",
+      "bytes": 711575,
+      "sha256": "a752bc9f3deeb5e42a64a812dcb5fbf18d543115ca350ba5a4ea4a87415bf8bf"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/supplementary/supplementary_table_4.csv",
+      "bytes": 569557,
+      "sha256": "8bcec57abe41fb21d5be9ce19841551599989e076371a53272fdcff8ac69b832"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/supplementary/supplementary_table_5.csv",
+      "bytes": 513412,
+      "sha256": "c504d63852f41bce8b8e015df15ec29c5b8349bf26659c2a38a6dbea06c8dc93"
+    },
+    {
+      "path": "results/v4_phaseA/moffatt_geo_sample_manifest.csv",
+      "bytes": 17527,
+      "sha256": "adb4389c5f2a88aa78617b4e58f395c85483c3fb838180e190dc6ca7f00aaf64"
+    },
+    {
+      "path": "src/audit/reconstruct_v4_phaseA.py",
+      "bytes": 48444,
+      "sha256": "37ac532fac51e613674b6af74098173b2b57acafed38b78712955389de3a7808"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/code/sufficiency-mpra-analysis/by_position_l2fc.py",
+      "bytes": 2865,
+      "sha256": "2dbf86866cff8c801bfd232dda6bd2abdc0a0f5c584f64031dc1dcd9801fd898"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/code/sufficiency-mpra-analysis/suff_fract_analysis.qmd",
+      "bytes": 5610,
+      "sha256": "4d7d4b1ac6b4f75ceb5216ca7266593e22df070aea594c9f252a515efe573af6"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/code/LE_SHAPE_Summary/shaped_based_oligo_design.qmd",
+      "bytes": 25764,
+      "sha256": "2ceefb26924820a6559856567e148bc596a040d30292ff1b6a6208aa0bc4ebc0"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795683_mutation_FFN1.umis.txt.gz",
+      "bytes": 161872,
+      "sha256": "2c3019807f8da03cfb8d1faa36feef0c19901518add82898c1b6da279c201e64"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795684_mutation_FFN2.umis.txt.gz",
+      "bytes": 182928,
+      "sha256": "262b9b42f80ac6a5334afcb3d21dd3600c9015c1a381e15294a97345771807ff"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795685_mutation_FFN3.umis.txt.gz",
+      "bytes": 167443,
+      "sha256": "6f2d97db747ad9312ed647d61c6ce8f6c52bf9b8d2fe5f11b004db33cdba804a"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795686_mutation_FFN4.umis.txt.gz",
+      "bytes": 168343,
+      "sha256": "12f0d5d7676ab094ff7b8ea0e779f71673706a6223912037e4759cfbeeb8a623"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795687_mutation_FFS1.umis.txt.gz",
+      "bytes": 193020,
+      "sha256": "6b8c44fedba96ee82764bbcb7500aab4866a2676c998a8786a2af5c97844cbbf"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795688_mutation_FFS2.umis.txt.gz",
+      "bytes": 195680,
+      "sha256": "c70b88cb89a6e0653a3c53c9e5f7df9dc35c0d9b8f42ab60668638e01d449cc9"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795689_mutation_FFS3.umis.txt.gz",
+      "bytes": 184270,
+      "sha256": "894dcb357c2f529edddcc120a64dc2fb29d3392d332dee939ceab2cb9d4e62d9"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795690_mutation_FFS4.umis.txt.gz",
+      "bytes": 189930,
+      "sha256": "fd9d2e9a754956ecd9aa408270c50fff779c479e5eeb9577a6d6a7e1321e4029"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795691_mutation_GFPN3.umis.txt.gz",
+      "bytes": 182414,
+      "sha256": "8e592f7c06f00d5c80ec9313fdda4837977f49c502a936cf7e8ec87be1342cdf"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795692_mutation_GFPN4.umis.txt.gz",
+      "bytes": 169694,
+      "sha256": "5f57bf257485b85b67a719d419d8764a0fbd7a954114a697dcd31598187493e2"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795693_mutation_GFPN5.umis.txt.gz",
+      "bytes": 177284,
+      "sha256": "68b7ea41f8e372bcbbca1624407bd2d6853eaaca44d6c6c07609a0983c13d020"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795694_mutation_GFPN6.umis.txt.gz",
+      "bytes": 178997,
+      "sha256": "172541bfc043395ce18643319318142c4f719ba7234035223f664950465938f2"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795695_mutation_GFPS3.umis.txt.gz",
+      "bytes": 191786,
+      "sha256": "c4271ecfe6c2d5e6d1d72052f156473b6d488f44ee009f9fab24bc58479f311c"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795696_mutation_GFPS4.umis.txt.gz",
+      "bytes": 192401,
+      "sha256": "900bf0523785291298a1730aa3ff430268906816c29f88f25f774e97f8ca7c9f"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795697_mutation_GFPS5.umis.txt.gz",
+      "bytes": 194977,
+      "sha256": "5f538afef45ccc768f83e48550441c71678a5d1f333c6d401e896b1f42c3cc6a"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795698_mutation_GFPS6.umis.txt.gz",
+      "bytes": 192388,
+      "sha256": "f6be0ec4ed3cf5e6a2e117417e22896faafa0f2beb64c9eca4041904f5807306"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795699_necessity_N1_FF.umis.txt.gz",
+      "bytes": 129971,
+      "sha256": "f62f75b02209e1ac17a4432555f90bf191cc9fb1eba1fc8d73ffa639a3bf8b28"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795700_necessity_N2_FF.umis.txt.gz",
+      "bytes": 134882,
+      "sha256": "b7c431d6c37deb6f5dba3da94d7fbbb26cd4bd52ef0368b86fbc3f2f5221ce50"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795701_necessity_N3_FF.umis.txt.gz",
+      "bytes": 110724,
+      "sha256": "1b65b246ffeb5e93e06592b177d6bc2fe02f6f685992e57b5653e29862856384"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795702_necessity_N4_FF.umis.txt.gz",
+      "bytes": 126350,
+      "sha256": "6e60f98085f3e2287f32ed20ffaee797317b7af1191fc6a06cec0856135244b6"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795703_necessity_S1_FF.umis.txt.gz",
+      "bytes": 142795,
+      "sha256": "2576cf0fbf188fbb6fec86a93eda1c29a1b6aceed70355518b594e998c5a5de6"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795704_necessity_S2_FF.umis.txt.gz",
+      "bytes": 134907,
+      "sha256": "d5184c003b5e46a9f068a47c68bc28bbbbdbd698c54dadee0f5cbfb63d62b099"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795705_necessity_S3_FF.umis.txt.gz",
+      "bytes": 134639,
+      "sha256": "ac2cfce6b1af849d7fe437476097b7f9602b553972bfcf607bb1f92e8ded7aff"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795706_necessity_S4_FF.umis.txt.gz",
+      "bytes": 116755,
+      "sha256": "c9b4b52989aa1145f74b3f268120ad4de1cb7562fd674652af19a8b3a5bfd637"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795707_necessity_N1_GFP.umis.txt.gz",
+      "bytes": 156017,
+      "sha256": "1e0c03ee76405209674a19e8df0dbb8216a61a8f59231982557ab6c0372dd482"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795708_necessity_N2_GFP.umis.txt.gz",
+      "bytes": 155233,
+      "sha256": "f47be423c34d5c406737d81a31381686aef0a414bbff51a2dd5543afabb19c54"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795709_necessity_N3_GFP.umis.txt.gz",
+      "bytes": 153518,
+      "sha256": "1f9ace6d69e010d6263691e60ee331cdb2f9ac6b8183eecea982d48feb32d71b"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795710_necessity_N4_GFP.umis.txt.gz",
+      "bytes": 148634,
+      "sha256": "548ec3a140fdad245df9e884a7fc226f1d52beba8c1e7b184e4b86f9797d09d9"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795711_necessity_S1_GFP.umis.txt.gz",
+      "bytes": 146766,
+      "sha256": "0f5450ed3efdfa7080ba51259197525b36ecd2155eff3b2e1a671c69d2d8c8fb"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795712_necessity_S2_GFP.umis.txt.gz",
+      "bytes": 159115,
+      "sha256": "acc0be33e14162c36d937bb352e0d37309ca58b09aaa2c65dbf970c3e3a06cb8"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795713_necessity_S3_GFP.umis.txt.gz",
+      "bytes": 159764,
+      "sha256": "42080193da193644ef98bbcab8d3180e55e2858343b8a73a4f59794547f7f31f"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795714_necessity_S4_GFP.umis.txt.gz",
+      "bytes": 157615,
+      "sha256": "3a22952cc33491aada4fd3468cfcac9a594b00194b897417876bad5c1defb7d3"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795715_SHAPE_FF_N1_S13.umis.txt.gz",
+      "bytes": 115188,
+      "sha256": "6bdfb83cf1aa4dcb4a9f37ff9d14afbf85ee736756ca6a8ede56da4649ca0be9"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795716_SHAPE_FF_N2_S14.umis.txt.gz",
+      "bytes": 102737,
+      "sha256": "36bb3af9a6c0544bb2f87c1964cd498a5179f968db4c0e78a3c0fc994ecbe58b"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795717_SHAPE_FF_N3_S15.umis.txt.gz",
+      "bytes": 106619,
+      "sha256": "460436c072fb8d9710898b8232597cbe494dec7e25ed4fe75ce409722f77a6ce"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795718_SHAPE_FF_N4_S16.umis.txt.gz",
+      "bytes": 111592,
+      "sha256": "dbb173d00deb95039d293c79957917589db2ef43ea372cbd5ecb3e20f59079a8"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795719_SHAPE_FF_S1_S9.umis.txt.gz",
+      "bytes": 133357,
+      "sha256": "85852cc7cc8ae2de47177f816a0e5c20c14f0c23a8e8db0e74d3937af511ea07"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795720_SHAPE_FF_S2_S10.umis.txt.gz",
+      "bytes": 121264,
+      "sha256": "08f50bcdc82d460129a892b8e9e8f558029ad5ae752a6990d7f39b028230ac34"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795721_SHAPE_FF_S3_S11.umis.txt.gz",
+      "bytes": 119440,
+      "sha256": "1cb4fe79df50c87a053c2fe5a569aa77cd933f2a3a433e515f07a319b8f07057"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795722_SHAPE_FF_S4_S12.umis.txt.gz",
+      "bytes": 114482,
+      "sha256": "11f576f79aa0c7f9879be284562f04f0ff8a9c50e7da014de258f77df4551e86"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795723_SHAPE_GFP_N1_S5.umis.txt.gz",
+      "bytes": 150513,
+      "sha256": "266f52e0069d08570b746ba3f59b0d3ab8824fa1ace1fe317053aa98c366d398"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795724_SHAPE_GFP_N2_S6.umis.txt.gz",
+      "bytes": 151682,
+      "sha256": "6e662d6d29275c01ec60bb948f378c13638961a6727ea7f8b2f7faa70df2b17c"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795725_SHAPE_GFP_N3_S7.umis.txt.gz",
+      "bytes": 146557,
+      "sha256": "55374cff54ef3e4cd618e3e3445cfcb007585a0f1fc5a7207ee29e978fb29656"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795726_SHAPE_GFP_N4_S8.umis.txt.gz",
+      "bytes": 144358,
+      "sha256": "7ef8ebaf39614f1a649a77dc71bf60d273e79779367f6c7528b40b2e8647c83f"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795727_SHAPE_GFP_S1_S1.umis.txt.gz",
+      "bytes": 151378,
+      "sha256": "508f417688aae6736152d94b4802961b1a05e8bde82048043dc167caf6d4d9f8"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795728_SHAPE_GFP_S2_S2.umis.txt.gz",
+      "bytes": 152120,
+      "sha256": "5a557de92d59d9768554ee63304ccc1465fda3b55f206f94527ddfc84df6a289"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795729_SHAPE_GFP_S3_S3.umis.txt.gz",
+      "bytes": 147938,
+      "sha256": "0cc57d8ecc2a0bcc57fb72840db9787b1d3eb028514ab8190fc931e49f523802"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795730_SHAPE_GFP_S4_S4.umis.txt.gz",
+      "bytes": 144501,
+      "sha256": "60a1eb9fdb1049efcf3ac1e3be2b3e50045073407f0908b0a60cf571c1949045"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795731_shuffle_FFN1.umis.txt.gz",
+      "bytes": 167713,
+      "sha256": "a0a3d058e19f6845d44661250f893b5a620aa2da57f1005ab5cbc86f044cbaf8"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795732_shuffle_FFN2.umis.txt.gz",
+      "bytes": 160020,
+      "sha256": "cbd622452911dabf0883df84e9ad5bb73a827440ef5c230a986123bd3dfda606"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795733_shuffle_FFN3.umis.txt.gz",
+      "bytes": 157884,
+      "sha256": "7ff796972e6c40ba4eaec2456165b3c258a89e6262a15c42c1f0e1533e099c80"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795734_shuffle_FFN4.umis.txt.gz",
+      "bytes": 143886,
+      "sha256": "d09dd925563328f26fa4d7093ac09da34796ffb7b3ca0f20624cb579a7cbdb97"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795735_shuffle_FFS1.umis.txt.gz",
+      "bytes": 182430,
+      "sha256": "28e5a8ecc6a0f01d8b836197e5ef69165087bcb96b79600da9ed4d54bc349fdc"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795736_shuffle_FFS2.umis.txt.gz",
+      "bytes": 187849,
+      "sha256": "f158627e5c4ea313654ed9bf6d50d5cd4dc99ce5ae9d66ee0ac26204ce43a228"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795737_shuffle_FFS3.umis.txt.gz",
+      "bytes": 181835,
+      "sha256": "24804fdf498255037b66c39ba136a947f4763d5cac3628d26aa27cb8d51e8b25"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795738_shuffle_FFS4.umis.txt.gz",
+      "bytes": 180527,
+      "sha256": "a8d52c20b3522d242297188f39e114318352876856d663f2741a38fc0683a3ea"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795739_shuffle_GFPN1.umis.txt.gz",
+      "bytes": 206623,
+      "sha256": "8f17d4295ad188321f98749bb4bc604312e3b4b86e7c12bbb7bb585ab9eec7a6"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795740_shuffle_GFPN2.umis.txt.gz",
+      "bytes": 214783,
+      "sha256": "0f98f7fa175640f5083952dde178f88fb02caa13a1a0fa448295942483c7ffa1"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795741_shuffle_GFPN3.umis.txt.gz",
+      "bytes": 193562,
+      "sha256": "4f9820535b15806a3662c32effa1047e9719e6cb17e126747764011ad13732a4"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795742_shuffle_GFPN4.umis.txt.gz",
+      "bytes": 180575,
+      "sha256": "320dd67e0282fd55731f5361151f7916e2a4138eb9b100b6bd444d4a41f718d1"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795743_shuffle_GFPS1.umis.txt.gz",
+      "bytes": 206559,
+      "sha256": "e50060a9adcf064f248a9923c5e5b9ca1ea8ca66663150055148f11a731b7f8f"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795744_shuffle_GFPS2.umis.txt.gz",
+      "bytes": 218712,
+      "sha256": "5598806f63411a8b34bc302ef5fdf28fff56b4804f53dd710b3ad43bf3c5addb"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795745_shuffle_GFPS3.umis.txt.gz",
+      "bytes": 204592,
+      "sha256": "80d711be21984bdc8178061117769b19fce71e2b654a51c049b36a3517dfd533"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795746_shuffle_GFPS4.umis.txt.gz",
+      "bytes": 207046,
+      "sha256": "90326b6fa9b3b52735c0dd788b35370b63f477584a72df18989ac9fa03d3ac3d"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795747_sufficiency_FF_N1.umis.txt.gz",
+      "bytes": 130779,
+      "sha256": "61378a7806597dbb5e9989df61cecbb7a2119e08894db67e6c1a8bd65bbfa31f"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795748_sufficiency_FF_N2.umis.txt.gz",
+      "bytes": 136694,
+      "sha256": "2c93d1841dfb76fbda80765e480cb46393acaa4a1445acd43cf0469f5dfd1e47"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795749_sufficiency_FF_N3.umis.txt.gz",
+      "bytes": 128742,
+      "sha256": "4db1dbb4567ba801f47c223bcf441249d7e88d7f07f79e94b651b8b4f60a4faf"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795750_sufficiency_FF_N4.umis.txt.gz",
+      "bytes": 134444,
+      "sha256": "417670641acc433ec0f90e9f2d53c06d3f14377af81ffc7b085ed6870c6208c1"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795751_sufficiency_FF_S1.umis.txt.gz",
+      "bytes": 143628,
+      "sha256": "b8b91644969870df33a0a8217cec1abe8f4cfc2c3dde1bfe7bb3637c83e26b30"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795752_sufficiency_FF_S2.umis.txt.gz",
+      "bytes": 146217,
+      "sha256": "7b784eee5f2cafbc602e26c5be6e3e63b619cdb08f9201c4f79ab69dc7d553a8"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795753_sufficiency_FF_S3.umis.txt.gz",
+      "bytes": 145391,
+      "sha256": "634f9fee18cd0d200fc3832bd341d9e41a50efbbed65ea32bba138535d8832e6"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795754_sufficiency_FF_S4.umis.txt.gz",
+      "bytes": 140983,
+      "sha256": "6139f1dfcb455c4fa0c66c8ae95aef9d6a9067ed3816ec8f0bb1ba9d5b1f832a"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795755_sufficiency_GFP_N1.umis.txt.gz",
+      "bytes": 144884,
+      "sha256": "124d8bcc376f66ad7cf8ef8613a8e845f9f6e97f5953c6d3700e6b5f1bca14e9"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795756_sufficiency_GFP_N2.umis.txt.gz",
+      "bytes": 146609,
+      "sha256": "c2a0594be1e82f82dd70320aef6244465902982409ec090d074f88836424df25"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795757_sufficiency_GFP_N3.umis.txt.gz",
+      "bytes": 157629,
+      "sha256": "8ee5cf00dc203b1b560025af9036a84ab65c8b15241383a1567c6c7f6197a4ca"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795758_sufficiency_GFP_N4.umis.txt.gz",
+      "bytes": 154385,
+      "sha256": "feed22373af8ec630a9a9e50fa246d6cca88acaea2d451746304f3ee07230d5a"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795759_sufficiency_GFP_S1.umis.txt.gz",
+      "bytes": 149671,
+      "sha256": "aaf879b56d34916fd0b6d6175b9a408d506133244da9aa633c78f6c9d42eb581"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795760_sufficiency_GFP_S2.umis.txt.gz",
+      "bytes": 149350,
+      "sha256": "59780a24cdf77b0035571f3aea52a52699613bbc2cd58bb6ad0f22633fa80546"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795761_sufficiency_GFP_S3.umis.txt.gz",
+      "bytes": 160886,
+      "sha256": "67a9642c0a52e1f3fa0a729688571619305bf6748ae440b26369e2379a56459c"
+    },
+    {
+      "path": "data/raw/moffatt_gse334718/processed_counts/GSM9795762_sufficiency_GFP_S4.umis.txt.gz",
+      "bytes": 162452,
+      "sha256": "dcc0d53cbb31992505f5314b4d5fa6e3c7d0dbfceeb222f6360aa196ee1a17e1"
+    }
+  ],
+  "outputs": {
+    "common_intervention_outcomes.csv.gz": {
+      "bytes": 5267720,
+      "sha256": "d95829f1693f9e407071a15ec4a823ef0437e46f566eed8a6c912c59eebd0aa3"
+    },
+    "edit_distribution.csv": {
+      "bytes": 970,
+      "sha256": "6aee1e0340853108bab603cc0c33461b2488cc5d302c3d838663ed604cb86174"
+    },
+    "exclusion_audit.csv": {
+      "bytes": 241122,
+      "sha256": "54eb82aea50df94051a75a2107142ff8610b71bf71d40b97ac2000512f84c514"
+    },
+    "mikl_interventions.csv.gz": {
+      "bytes": 1958040,
+      "sha256": "daf5c035afb16e9dbbf90714c595c0e733f4eec70f2191d475b78c20e9f29bcc"
+    },
+    "moffatt_geo_sample_manifest.csv": {
+      "bytes": 17527,
+      "sha256": "adb4389c5f2a88aa78617b4e58f395c85483c3fb838180e190dc6ca7f00aaf64"
+    },
+    "moffatt_interventions.csv.gz": {
+      "bytes": 8835280,
+      "sha256": "54e1ed30702f878ef5894b35dd7e9b184355f051f25e5571243d7764e434272b"
+    },
+    "moffatt_preunseal_metadata_audit.json": {
+      "bytes": 812,
+      "sha256": "0f038feb70aac0ed8ccd94cb5cea4110805093fef27d7930f17f3b8fdccbd2f6"
+    },
+    "moffatt_unseal_log.json": {
+      "bytes": 811,
+      "sha256": "754f4a82eaf0ff66665706e98a8acfcdc5a621dd659fc5fc318d6ea6c687a3e5"
+    },
+    "phaseA_summary.json": {
+      "bytes": 4765,
+      "sha256": "e3a6a552413a40664db11887e575f33ea1c1ea26076a97fa7d5e8d614dc6c0b7"
+    },
+    "tdp_interventions.csv.gz": {
+      "bytes": 232835,
+      "sha256": "0dc4e5aff8b93fa74f2685d6a74c84f07db8c369e59165993957442a7f5a34c2"
+    }
+  },
+  "missing_values": "Preserved as blank/NaN with explicit semantics; no sentinel interpreted as an outcome."
+}

@@ -1,0 +1,14 @@
+dataset,edit_tier,intervention_count,parent_contexts,minimum_edit_distance,median_edit_distance,maximum_edit_distance,minimum_edit_cost,median_edit_cost,maximum_edit_cost
+mikl_gse173098,exact_snv,13,13,1,1.0,1,1,1.0,1
+mikl_gse173098,motif_scale_edit,5252,3547,6,6.0,12,6,6.0,12
+mikl_gse173098,regional_edit,221,159,13,16.0,40,13,16.0,40
+mikl_gse173098,small_local_edit,6414,4150,2,5.0,5,2,5.0,5
+moffatt_gse334718,exact_snv,6,1,1,1.0,1,1,1.0,1
+moffatt_gse334718,large_element_edit,14245,10,39,191.0,249,100,270.0,510
+moffatt_gse334718,motif_scale_edit,7912,10,1,10.0,185,6,10.0,12
+moffatt_gse334718,regional_edit,16266,10,5,49.0,205,13,40.0,99
+moffatt_gse334718,small_local_edit,7863,6,2,5.0,5,2,5.0,5
+tdp43_gse288185,large_element_edit,141,141,100,116.0,179,100,116.0,179
+tdp43_gse288185,motif_scale_edit,1555,1555,6,10.0,12,6,10.0,12
+tdp43_gse288185,regional_edit,1154,1154,13,25.0,99,13,25.0,99
+tdp43_gse288185,small_local_edit,1716,1716,5,5.0,5,5,5.0,5
