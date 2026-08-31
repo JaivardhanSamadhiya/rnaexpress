@@ -28,8 +28,8 @@ Direction is evaluated separately for requested increase and decrease. Raw assay
 ## Biological splits
 
 - Mikl primary: five deterministic hash folds by gene. Secondary: parent-held-out sensitivity within training genes.
-- TDP primary: leave-one-gene-out over all 16 genes.
-- Moffatt primary: leave-one-biological-parent-out over all 10 labels, reporting every parent. Exact-sequence-equivalent labels are co-held in a strict sensitivity analysis.
+- TDP primary: five deterministic hash folds by gene. Every gene is held out exactly once and reported individually.
+- Moffatt primary: five deterministic biological-parent folds, reporting every parent individually. Exact-sequence-equivalent labels are co-held in the same fold.
 - All outcomes, reporters, intervention families, and variants for a held biological unit remain held out.
 - No outcome statistic, scaler, residual, hyperparameter, or calibration component is fit on an outer test fold.
 
@@ -66,21 +66,23 @@ Source identity is absent from the global head. Source/assay identity may select
 
 ### Model 0 — predict then rank
 
-Regularized global Ridge effect model plus optional assay residual Ridge. Alpha grid `[1, 10, 100, 1000]` is selected by three-fold inner biological-group normalized regret. Residual alpha is fixed at 100.
+Regularized global Ridge effect model plus optional assay residual Ridge. Global and residual alpha are fixed at 100, matching the representation comparator.
 
 ### Model 1 — pairwise ranker
 
-Regularized linear pairwise logistic ranker, separately optimized by direction. Candidate C grid `[0.01, 0.1, 1.0]`, selected by inner normalized regret. At most 2,048 deterministic utility-stratified pairs per training decision set.
+Regularized linear pairwise logistic ranker, separately optimized by direction, with fixed `C=0.1`. At most 2,048 deterministic utility-stratified pairs per training decision set.
 
 ### Model 2 — decision-focused regret model
 
-Linear softmax pick-one model using all candidates in each training set. Temperatures `[0.10, 0.25, 0.50]`, L2 coefficients `[1e-4, 1e-3, 1e-2]`, Adam learning rate `1e-3`, maximum 150 epochs, early stopping patience 15 on inner grouped normalized regret. Gradient norm is clipped at 5. Direction-specific heads are trained separately.
+Linear softmax pick-one model using all candidates in each training set. Temperature is fixed at `0.25`, L2 coefficient at `1e-3`, Adam learning rate at `1e-3`, maximum 75 epochs, and training-only convergence patience at 10. Gradient norm is clipped at 5. Direction-specific heads are trained separately.
 
 ### Model 3 — robust DFL
 
 Excluded from model selection because comparable outcome uncertainty does not exist across enough sources. A Mikl-only uncertainty-weighting sensitivity may be reported; no TDP uncertainty is fabricated and Moffatt diagnostic SE is not treated as author-effect SE.
 
 Prespecified seeds are `[17, 41, 89]`. No full encoder fine-tuning is allowed.
+
+The fixed hyperparameters and five-fold group design are a prospective compute amendment made after timing frozen-encoder inference but before any representation metric or model result was calculated. They narrow the search space and guarantee that every biological unit receives exactly one held-out prediction without outcome-driven stopping.
 
 ## Baselines and ablations
 
