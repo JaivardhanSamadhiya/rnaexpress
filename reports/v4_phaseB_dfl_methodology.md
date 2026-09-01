@@ -16,7 +16,7 @@ All definitive models use the same frozen candidate features and outer biologica
 
 ### Model 0: predict then rank
 
-A regularized global effect model minimizes weighted squared error on training effects after training-set-only assay centering/scaling. Candidate scores are the predicted signed effect. Assay-specific residual models may be added only for seen-assay evaluation. They are absent for unseen-source, reporter-held-out, and cell-held-out transfer.
+A regularized global effect model minimizes weighted squared error on training-decision-set normalized directional utility after training-feature-only scaling. Candidate scores are the predicted directional utility. Assay-specific residual models may be added only for seen-assay evaluation. They are absent for unseen-source, reporter-held-out, and cell-held-out transfer.
 
 ### Model 1: pairwise ranker
 
