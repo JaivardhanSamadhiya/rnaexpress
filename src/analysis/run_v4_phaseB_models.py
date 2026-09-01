@@ -238,6 +238,13 @@ def _nearest_neighbor_scores_both_directions(
         train = rows["biological_fold"].ne(fold).to_numpy()
         test = ~train
         train_rows = rows.loc[train].reset_index(drop=True)
+        # Normalize while every eligible decision set is still intact.  The
+        # deterministic retrieval cap is a computational index subsample, not
+        # a new decision-set cohort; normalizing after that row subsample can
+        # leave singleton sets and incorrectly create a zero-range failure.
+        train_targets = {
+            sign: normalized_utility(train_rows, sign) for sign in (1, -1)
+        }
         train_indices = np.flatnonzero(train)
         if len(train_indices) > 10_000:
             ordering = np.argsort(
@@ -245,6 +252,9 @@ def _nearest_neighbor_scores_both_directions(
             )[:10_000]
             train_indices = train_indices[ordering]
             train_rows = rows.iloc[train_indices].reset_index(drop=True)
+            train_targets = {
+                sign: target[ordering] for sign, target in train_targets.items()
+            }
         scaler = StandardScaler().fit(reduced[train_indices])
         model = NearestNeighbors(n_neighbors=25, metric="cosine", n_jobs=-1)
         model.fit(scaler.transform(reduced[train_indices]))
@@ -252,7 +262,7 @@ def _nearest_neighbor_scores_both_directions(
         weights = 1.0 / np.maximum(distances, 1e-8)
         weights /= weights.sum(axis=1, keepdims=True)
         for sign in (1, -1):
-            target = normalized_utility(train_rows, sign)
+            target = train_targets[sign]
             scores[sign][test] = np.sum(target[neighbors] * weights, axis=1)
     return scores
 
