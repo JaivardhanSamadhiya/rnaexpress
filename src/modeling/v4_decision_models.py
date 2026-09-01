@@ -280,6 +280,7 @@ def fit_dfl(
     set_sources = [str(frame.iloc[int(indices[0])]["dataset"]) for indices in set_indices]
     source_counts = pd.Series(set_sources).value_counts().to_dict()
     best = math.inf
+    best_state: dict[str, torch.Tensor] | None = None
     stale = 0
     for _ in range(maximum_epochs):
         optimizer.zero_grad()
@@ -300,11 +301,17 @@ def fit_dfl(
         observed = float(loss.detach())
         if observed < best - 1e-6:
             best = observed
+            best_state = {
+                name: value.detach().clone() for name, value in linear.state_dict().items()
+            }
             stale = 0
         else:
             stale += 1
         if stale >= 10:
             break
+    if best_state is None:
+        raise ValueError("DFL optimization did not produce a finite training state")
+    linear.load_state_dict(best_state)
     weight = linear.weight.detach().numpy()[0].astype(float)
     bias = float(linear.bias.detach().numpy()[0])
     global_scores = transformed @ weight + bias
