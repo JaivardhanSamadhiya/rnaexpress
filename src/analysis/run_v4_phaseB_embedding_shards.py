@@ -66,16 +66,17 @@ def prepare() -> None:
     print(json.dumps(audit, indent=2))
 
 
-def embed(device: str) -> None:
+def embed(device: str, inference_device: str | None = None) -> None:
     frame = pd.read_csv(SHARD_ROWS[device])
     feature_path, metadata_path = shard_paths(device)
+    backend_device = inference_device or device
     embed_pairs_resumable(
         frame,
         "3utrbert",
         feature_path,
         metadata_path,
         batch_size=64,
-        backend=f"openvino_{device}",
+        backend=f"openvino_{backend_device}",
     )
     print(f"{device} shard sha256={sha256(feature_path)}", flush=True)
 
@@ -118,13 +119,14 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("stage", choices=["prepare", "embed", "merge"])
     parser.add_argument("--device", choices=["gpu", "cpu"])
+    parser.add_argument("--inference-device", choices=["gpu", "cpu"])
     args = parser.parse_args()
     if args.stage == "prepare":
         prepare()
     elif args.stage == "embed":
         if args.device is None:
             parser.error("--device is required for embed")
-        embed(args.device)
+        embed(args.device, args.inference_device)
     else:
         merge()
 
