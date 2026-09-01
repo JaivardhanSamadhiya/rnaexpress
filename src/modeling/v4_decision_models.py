@@ -211,6 +211,7 @@ def _pairwise_training_data(
             continue
         pair_count = min(maximum_pairs_per_set, len(indices) * (len(indices) - 1))
         dataset = str(frame.iloc[indices[0]]["dataset"])
+        set_weight_start = len(weights)
         ordered = indices[np.lexsort((indices, utility[indices]))]
         offset = (
             seed + int(hashlib.sha256(decision_id.encode()).hexdigest()[:8], 16)
@@ -229,8 +230,12 @@ def _pairwise_training_data(
                 left, right = right, left
             rows.append(transformed[left] - transformed[right])
             labels.append(int(utility[left] > utility[right]))
-            weights.append(1.0 / (source_set_counts[dataset] * pair_count))
+            weights.append(1.0)
             created += 1
+        if created:
+            weights[set_weight_start:] = [
+                1.0 / (source_set_counts[dataset] * created)
+            ] * created
     x = np.asarray(rows, dtype=np.float32)
     y = np.asarray(labels, dtype=int)
     weight = np.asarray(weights, dtype=float)
