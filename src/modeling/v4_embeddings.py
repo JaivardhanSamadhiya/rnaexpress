@@ -95,8 +95,11 @@ class FrozenEncoder:
             if device not in core.available_devices:
                 raise RuntimeError(f"OpenVINO {device} backend is not available")
             ov_model = core.read_model(ir_path)
+            compile_properties = {"INFERENCE_PRECISION_HINT": "f32"}
+            if device == "CPU":
+                compile_properties["INFERENCE_NUM_THREADS"] = 2
             self.compiled_model = core.compile_model(
-                ov_model, device, {"INFERENCE_PRECISION_HINT": "f32"}
+                ov_model, device, compile_properties
             )
             self.model = None
         elif name == "3utrbert":
