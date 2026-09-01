@@ -67,13 +67,38 @@ def _projection(input_size: int, block: str) -> np.ndarray:
 
 
 class FrozenEncoder:
-    def __init__(self, name: str):
+    def __init__(self, name: str, backend: str = "torch"):
         if name not in MODEL_SPECS:
             raise ValueError(f"Unknown frozen representation: {name}")
         self.name = name
+        self.backend = backend
         self.spec = MODEL_SPECS[name]
         self.hidden_size = int(self.spec["hidden_size"])
-        if name == "3utrbert":
+        if backend == "openvino_gpu":
+            if name != "3utrbert":
+                raise ValueError("The audited OpenVINO backend is only available for 3UTRBERT")
+            import sys
+            from .utrbert_features import MODEL_DIR
+
+            local_runtime = ROOT / ".tf_runtime"
+            if local_runtime.exists() and str(local_runtime) not in sys.path:
+                sys.path.insert(0, str(local_runtime))
+            from transformers import AutoTokenizer
+            import openvino as ov
+
+            self.tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR, local_files_only=True)
+            ir_path = ROOT / "data/interim/v4_phaseB_3utrbert_openvino.xml"
+            if not ir_path.exists():
+                raise FileNotFoundError("Missing audited 3UTRBERT OpenVINO IR")
+            core = ov.Core()
+            if "GPU" not in core.available_devices:
+                raise RuntimeError("OpenVINO GPU backend is not available")
+            ov_model = core.read_model(ir_path)
+            self.compiled_model = core.compile_model(
+                ov_model, "GPU", {"INFERENCE_PRECISION_HINT": "f32"}
+            )
+            self.model = None
+        elif name == "3utrbert":
             from .utrbert_features import load_utrbert
 
             self.tokenizer, self.model = load_utrbert()
@@ -98,8 +123,16 @@ class FrozenEncoder:
         observed = encoded["attention_mask"].sum(dim=1).tolist()
         if observed != expected:
             raise ValueError(f"{self.name} token alignment failed: {observed} != {expected}")
-        with torch.inference_mode():
-            hidden = self.model.bert(**encoded, return_dict=True).last_hidden_state
+        if self.backend == "openvino_gpu":
+            ordered = [
+                encoded["input_ids"].numpy(),
+                encoded["attention_mask"].numpy(),
+                encoded["token_type_ids"].numpy(),
+            ]
+            hidden = torch.from_numpy(np.asarray(self.compiled_model(ordered)[0]))
+        else:
+            with torch.inference_mode():
+                hidden = self.model.bert(**encoded, return_dict=True).last_hidden_state
         if not bool(torch.isfinite(hidden).all()):
             raise ValueError(f"{self.name} generated non-finite hidden states")
         return hidden, encoded["attention_mask"]
@@ -204,6 +237,7 @@ def embed_pairs_resumable(
     output_path: Path,
     metadata_path: Path,
     batch_size: int = 32,
+    backend: str = "torch",
 ) -> np.ndarray:
     """Embed exact pair rows with restart-safe NaN sentinels.
 
@@ -247,7 +281,13 @@ def embed_pairs_resumable(
         return np.asarray(output)
 
     torch.set_num_threads(4)
-    encoder = FrozenEncoder(model_name)
+    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    backends = list(metadata.get("inference_backends", []))
+    if backend not in backends:
+        backends.append(backend)
+    metadata["inference_backends"] = backends
+    metadata_path.write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
+    encoder = FrozenEncoder(model_name, backend=backend)
     groups = frame.groupby("parent_id", sort=True).indices
     singleton_indices: list[int] = []
     processed_groups = 0

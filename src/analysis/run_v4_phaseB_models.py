@@ -141,7 +141,14 @@ def embed() -> None:
                 encoding="utf-8",
             )
             print(f"seeded {int(copied.sum())} full-cache rows from benchmark", flush=True)
-    embed_pairs_resumable(frame, model_name, feature_path, metadata_path, batch_size=64)
+    embed_pairs_resumable(
+        frame,
+        model_name,
+        feature_path,
+        metadata_path,
+        batch_size=64,
+        backend="openvino_gpu" if model_name == "3utrbert" else "torch",
+    )
     print(f"{model_name} full feature cache sha256={sha256(feature_path)}")
 
 

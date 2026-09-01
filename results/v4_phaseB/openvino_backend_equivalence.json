@@ -1,0 +1,37 @@
+{
+  "backend": "OpenVINO 2026.3.1 GPU FP32",
+  "device": "Intel Iris Xe integrated GPU",
+  "sample_pairs": 12,
+  "sample_pair_row_indices": [
+    0,
+    1135,
+    2271,
+    3407,
+    4543,
+    5679,
+    6814,
+    7950,
+    9086,
+    10222,
+    11358,
+    12494
+  ],
+  "maximum_projected_feature_absolute_difference": 1.5497207641601562e-05,
+  "mean_projected_feature_absolute_difference": 2.8903959901072085e-06,
+  "minimum_pair_feature_cosine_similarity": 0.9999998211860657,
+  "torch_seconds": 10.351557400019374,
+  "openvino_seconds_including_compile": 5.202473000041209,
+  "acceptance_thresholds": {
+    "maximum_absolute_difference_lte": 0.001,
+    "mean_absolute_difference_lte": 0.0001,
+    "minimum_cosine_similarity_gte": 0.999999
+  },
+  "accepted": true,
+  "ir_xml_sha256": "a7783057679ab1f4259e043c3c36e22bf8a9100dd20cd0ab2a0acc6809d29d34",
+  "ir_bin_sha256": "63e177acf4dd90bff703cb67b719eae8f3ed2afb130f3399d46ead32980b4680",
+  "scope_guards": {
+    "outcomes_opened": false,
+    "nzip_outcomes_used": false,
+    "astrocyte_outcomes_opened": false
+  }
+}
