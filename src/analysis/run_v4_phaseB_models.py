@@ -13,7 +13,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import Ridge
-from sklearn.neighbors import KNeighborsRegressor
+from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
 
@@ -228,30 +228,32 @@ def _ridge_ablation_scores(
     return scores
 
 
-def _nearest_neighbor_scores(
+def _nearest_neighbor_scores_both_directions(
     rows: pd.DataFrame,
     features: np.ndarray,
-    sign: int,
-) -> np.ndarray:
-    scores = np.full(len(rows), np.nan)
+) -> dict[int, np.ndarray]:
+    scores = {1: np.full(len(rows), np.nan), -1: np.full(len(rows), np.nan)}
     reduced = features[:, : min(features.shape[1], 64)]
     for fold in range(5):
         train = rows["biological_fold"].ne(fold).to_numpy()
         test = ~train
         train_rows = rows.loc[train].reset_index(drop=True)
         train_indices = np.flatnonzero(train)
-        if len(train_indices) > 20_000:
+        if len(train_indices) > 10_000:
             ordering = np.argsort(
                 [hashlib.sha256(str(value).encode()).hexdigest() for value in rows.loc[train, "candidate_id"]]
-            )[:20_000]
+            )[:10_000]
             train_indices = train_indices[ordering]
             train_rows = rows.iloc[train_indices].reset_index(drop=True)
         scaler = StandardScaler().fit(reduced[train_indices])
-        model = KNeighborsRegressor(n_neighbors=25, weights="distance", metric="cosine", n_jobs=-1)
-        model.fit(
-            scaler.transform(reduced[train_indices]), normalized_utility(train_rows, sign)
-        )
-        scores[test] = model.predict(scaler.transform(reduced[test]))
+        model = NearestNeighbors(n_neighbors=25, metric="cosine", n_jobs=-1)
+        model.fit(scaler.transform(reduced[train_indices]))
+        distances, neighbors = model.kneighbors(scaler.transform(reduced[test]))
+        weights = 1.0 / np.maximum(distances, 1e-8)
+        weights /= weights.sum(axis=1, keepdims=True)
+        for sign in (1, -1):
+            target = normalized_utility(train_rows, sign)
+            scores[sign][test] = np.sum(target[neighbors] * weights, axis=1)
     return scores
 
 
@@ -324,6 +326,7 @@ def evaluate() -> None:
     primary = blocks["parent_plus_delta"]
     metrics: list[pd.DataFrame] = []
     score_arrays: dict[str, np.ndarray] = {}
+    nearest_scores = _nearest_neighbor_scores_both_directions(rows, blocks["delta_only"])
     for sign in (1, -1):
         ptr_global, ptr_hierarchical = _outer_scores(rows, primary, "ptr", sign, 17)
         direction = "increase" if sign == 1 else "decrease"
@@ -363,8 +366,9 @@ def evaluate() -> None:
             _append_metrics(metrics, rows, score, f"ridge_{name}", sign, 17, "ablation")
         size_score = rows["edit_cost"].to_numpy(float)
         _append_metrics(metrics, rows, size_score, "edit_size_heuristic", sign, 17, "baseline")
-        nearest = _nearest_neighbor_scores(rows, blocks["delta_only"], sign)
-        _append_metrics(metrics, rows, nearest, "nearest_neighbor", sign, 17, "baseline")
+        _append_metrics(
+            metrics, rows, nearest_scores[sign], "nearest_neighbor", sign, 17, "baseline"
+        )
         absolute_forward = _absolute_forward_scores(
             rows, blocks["parent_only"], blocks["mutant_only"], sign
         )
