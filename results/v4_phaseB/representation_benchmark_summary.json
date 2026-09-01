@@ -1,0 +1,60 @@
+{
+  "phase": "v4_phaseB_representation_benchmark",
+  "git_commit_at_run": "040d6d17c0c738dd817606e4371b5cc3bb7e7eda",
+  "models": {
+    "3utrbert": {
+      "model_id": "yangheng/3utrbert",
+      "revision": "220d80829deb077d1d640463a4267a96e9e70b1d",
+      "checkpoint_sha256": "7aca71823ab74771006be1030d9e7239220bba40a16858575929a02e6d2a7471",
+      "hidden_size": 768
+    },
+    "splicebert": {
+      "model_id": "SpliceBERT.1024nt",
+      "revision": "official Zenodo 7995778 archive",
+      "checkpoint_sha256": "2ad91428c318e6c49233154073ca7a35f5f7899c9f4be3444775bae3dba0149d",
+      "hidden_size": 512
+    }
+  },
+  "rinalmo": {
+    "evaluated": false,
+    "reason_frozen_before_results": "650M model, no local pinned checkpoint, and no CUDA/GPU on this host"
+  },
+  "ridge_alpha": 100.0,
+  "selection": [
+    {
+      "model": "3utrbert",
+      "directional_rank_percentile": 0.6236735382599744,
+      "selected_normalized_utility": 0.6135012288453668,
+      "selection_score": 0.6185873835526706
+    },
+    {
+      "model": "splicebert",
+      "directional_rank_percentile": 0.5808881077259259,
+      "selected_normalized_utility": 0.5949495518161336,
+      "selection_score": 0.5879188297710298
+    }
+  ],
+  "tie_margin": 0.01,
+  "selected_representation": "3utrbert",
+  "scope_guards": {
+    "nzip_outcomes_used": false,
+    "astrocyte_outcomes_opened": false
+  },
+  "runtime": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2"
+  },
+  "embedding_caches": {
+    "3utrbert": {
+      "path": "data/interim/v4_phaseB_3utrbert_benchmark_features.npy",
+      "sha256": "a44e52f6c666454f3804d605db0dda0f71f9d42f23ccef042e2f0ed9397b2396",
+      "metadata_sha256": "89f4ad90ff42a50fc7e6671831c63cba2d88a4f3eac1ce8444fcb1f2834d4b2a"
+    },
+    "splicebert": {
+      "path": "data/interim/v4_phaseB_splicebert_benchmark_features.npy",
+      "sha256": "bd154827420d5b36fa19108839b794cd27edcbae006023db257da1ce3ab56880",
+      "metadata_sha256": "7df7e22aa45438b925ba20ab1754bc64e577ad4f63bd60d469b68de6d3072ec4"
+    }
+  }
+}

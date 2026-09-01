@@ -1,0 +1,29 @@
+{
+  "candidate_cap_per_decision_set": 64,
+  "eligible_decision_sets": 445,
+  "benchmark_candidate_rows": 18393,
+  "unique_intervention_pairs": 12495,
+  "by_source": {
+    "mikl_gse173098": {
+      "decision_sets": 378,
+      "candidate_rows": 14242
+    },
+    "moffatt_gse334718": {
+      "decision_sets": 51,
+      "candidate_rows": 3195
+    },
+    "tdp43_gse288185": {
+      "decision_sets": 16,
+      "candidate_rows": 956
+    }
+  },
+  "edit_bands": {
+    "exact_1": 39,
+    "large_gt50": 1527,
+    "medium_11_25": 1269,
+    "regional_26_50": 732,
+    "short_6_10": 6971,
+    "small_2_5": 7855
+  },
+  "outcome_blind_selection": true
+}
