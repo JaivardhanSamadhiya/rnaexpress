@@ -1,0 +1,5 @@
+control,rank,regret,random_regret,rank_distance_from_chance,regret_distance_from_random,within_frozen_0_02_tolerance
+intervention_permutation_within_set,0.506464702462079,0.5049017997825722,0.5,0.006464702462079086,0.004901799782572214,True
+outcome_permutation_within_source,0.489290144060574,0.5026417501968856,0.5,0.010709855939426027,0.002641750196885617,True
+parent_context_permutation,0.5978165082650295,0.4288046002475704,0.5,0.09781650826502941,0.07119539975242961,False
+source_only_exact_expectation,0.5,0.5,0.5,0.0,0.0,True

@@ -1,0 +1,301 @@
+{
+  "selected_model_kind": "ptr",
+  "seeds": [
+    17,
+    41,
+    89
+  ],
+  "target_residual_used": false,
+  "scenarios": [
+    {
+      "scenario_family": "leave_source_out",
+      "scenario": "leave_mikl_gse173098_out",
+      "status": "evaluated",
+      "train_rows": 69592,
+      "train_decision_sets": 67,
+      "train_biological_units": 24,
+      "test_rows": 23616,
+      "test_decision_sets": 378,
+      "test_biological_units": 189
+    },
+    {
+      "scenario_family": "leave_source_out",
+      "scenario": "leave_moffatt_gse334718_out",
+      "status": "evaluated",
+      "train_rows": 28182,
+      "train_decision_sets": 394,
+      "train_biological_units": 205,
+      "test_rows": 65026,
+      "test_decision_sets": 51,
+      "test_biological_units": 8
+    },
+    {
+      "scenario_family": "leave_source_out",
+      "scenario": "leave_tdp43_gse288185_out",
+      "status": "evaluated",
+      "train_rows": 88642,
+      "train_decision_sets": 429,
+      "train_biological_units": 197,
+      "test_rows": 4566,
+      "test_decision_sets": 16,
+      "test_biological_units": 16
+    },
+    {
+      "scenario_family": "cell_transfer",
+      "scenario": "CAD_to_Neuro-2a",
+      "status": "evaluated",
+      "train_rows": 11808,
+      "train_decision_sets": 189,
+      "train_biological_units": 189,
+      "test_rows": 11808,
+      "test_decision_sets": 189,
+      "test_biological_units": 189
+    },
+    {
+      "scenario_family": "cell_transfer",
+      "scenario": "Neuro-2a_to_CAD",
+      "status": "evaluated",
+      "train_rows": 11808,
+      "train_decision_sets": 189,
+      "train_biological_units": 189,
+      "test_rows": 11808,
+      "test_decision_sets": 189,
+      "test_biological_units": 189
+    },
+    {
+      "scenario_family": "reporter_transfer",
+      "scenario": "Firefly_to_GFP",
+      "status": "evaluated",
+      "train_rows": 20778,
+      "train_decision_sets": 22,
+      "train_biological_units": 6,
+      "test_rows": 43625,
+      "test_decision_sets": 27,
+      "test_biological_units": 6
+    },
+    {
+      "scenario_family": "reporter_transfer",
+      "scenario": "GFP_to_Firefly",
+      "status": "evaluated",
+      "train_rows": 43625,
+      "train_decision_sets": 27,
+      "train_biological_units": 6,
+      "test_rows": 20778,
+      "test_decision_sets": 22,
+      "test_biological_units": 6
+    },
+    {
+      "scenario_family": "leave_operation_out",
+      "scenario": "leave_motif_random_replacement_out",
+      "status": "evaluated",
+      "train_rows": 69592,
+      "train_decision_sets": 67,
+      "train_biological_units": 24,
+      "test_rows": 23616,
+      "test_decision_sets": 378,
+      "test_biological_units": 189
+    },
+    {
+      "scenario_family": "leave_operation_out",
+      "scenario": "leave_necessity_deletion_with_inactive_padding_out",
+      "status": "evaluated",
+      "train_rows": 89719,
+      "train_decision_sets": 436,
+      "train_biological_units": 211,
+      "test_rows": 3489,
+      "test_decision_sets": 9,
+      "test_biological_units": 8
+    },
+    {
+      "scenario_family": "leave_operation_out",
+      "scenario": "leave_random_substitution_out",
+      "status": "evaluated",
+      "train_rows": 71818,
+      "train_decision_sets": 433,
+      "train_biological_units": 213,
+      "test_rows": 21390,
+      "test_decision_sets": 12,
+      "test_biological_units": 6
+    },
+    {
+      "scenario_family": "leave_operation_out",
+      "scenario": "leave_regional_shuffle_out",
+      "status": "evaluated",
+      "train_rows": 78681,
+      "train_decision_sets": 433,
+      "train_biological_units": 213,
+      "test_rows": 14527,
+      "test_decision_sets": 12,
+      "test_biological_units": 6
+    },
+    {
+      "scenario_family": "leave_operation_out",
+      "scenario": "leave_shape_structure_perturbation_out",
+      "status": "evaluated",
+      "train_rows": 81618,
+      "train_decision_sets": 439,
+      "train_biological_units": 213,
+      "test_rows": 11590,
+      "test_decision_sets": 6,
+      "test_biological_units": 3
+    },
+    {
+      "scenario_family": "leave_operation_out",
+      "scenario": "leave_sufficiency_background_replacement_out",
+      "status": "evaluated",
+      "train_rows": 79178,
+      "train_decision_sets": 433,
+      "train_biological_units": 213,
+      "test_rows": 14030,
+      "test_decision_sets": 12,
+      "test_biological_units": 6
+    },
+    {
+      "scenario_family": "leave_operation_out",
+      "scenario": "leave_tdp43_motif_complement_replacement_out",
+      "status": "evaluated",
+      "train_rows": 88642,
+      "train_decision_sets": 429,
+      "train_biological_units": 197,
+      "test_rows": 4566,
+      "test_decision_sets": 16,
+      "test_biological_units": 16
+    },
+    {
+      "scenario_family": "leave_edit_tier_out",
+      "scenario": "leave_small_local_edit_out",
+      "status": "evaluated",
+      "train_rows": 66374,
+      "train_decision_sets": 438,
+      "train_biological_units": 209,
+      "test_rows": 26738,
+      "test_decision_sets": 393,
+      "test_biological_units": 195
+    },
+    {
+      "scenario_family": "leave_edit_tier_out",
+      "scenario": "leave_motif_scale_edit_out",
+      "status": "evaluated",
+      "train_rows": 69665,
+      "train_decision_sets": 443,
+      "train_biological_units": 212,
+      "test_rows": 23382,
+      "test_decision_sets": 375,
+      "test_biological_units": 183
+    },
+    {
+      "scenario_family": "leave_edit_tier_out",
+      "scenario": "leave_regional_edit_out",
+      "status": "evaluated",
+      "train_rows": 70796,
+      "train_decision_sets": 445,
+      "train_biological_units": 213,
+      "test_rows": 22277,
+      "test_decision_sets": 99,
+      "test_biological_units": 40
+    },
+    {
+      "scenario_family": "leave_edit_tier_out",
+      "scenario": "leave_large_element_edit_out",
+      "status": "evaluated",
+      "train_rows": 72821,
+      "train_decision_sets": 443,
+      "train_biological_units": 213,
+      "test_rows": 20380,
+      "test_decision_sets": 51,
+      "test_biological_units": 12
+    },
+    {
+      "scenario_family": "edit_band_holdout",
+      "scenario": "leave_edit_1_out",
+      "status": "evaluated",
+      "train_rows": 93170,
+      "train_decision_sets": 445,
+      "train_biological_units": 213,
+      "test_rows": 12,
+      "test_decision_sets": 2,
+      "test_biological_units": 1
+    },
+    {
+      "scenario_family": "edit_band_holdout",
+      "scenario": "leave_edit_2-5_out",
+      "status": "evaluated",
+      "train_rows": 66374,
+      "train_decision_sets": 438,
+      "train_biological_units": 209,
+      "test_rows": 26738,
+      "test_decision_sets": 393,
+      "test_biological_units": 195
+    },
+    {
+      "scenario_family": "edit_band_holdout",
+      "scenario": "leave_edit_6-10_out",
+      "status": "evaluated",
+      "train_rows": 70762,
+      "train_decision_sets": 443,
+      "train_biological_units": 212,
+      "test_rows": 22283,
+      "test_decision_sets": 373,
+      "test_biological_units": 182
+    },
+    {
+      "scenario_family": "edit_band_holdout",
+      "scenario": "leave_edit_11-25_out",
+      "status": "evaluated",
+      "train_rows": 87730,
+      "train_decision_sets": 445,
+      "train_biological_units": 213,
+      "test_rows": 5211,
+      "test_decision_sets": 102,
+      "test_biological_units": 50
+    },
+    {
+      "scenario_family": "edit_band_holdout",
+      "scenario": "leave_edit_26-50_out",
+      "status": "evaluated",
+      "train_rows": 79929,
+      "train_decision_sets": 445,
+      "train_biological_units": 213,
+      "test_rows": 13251,
+      "test_decision_sets": 48,
+      "test_biological_units": 17
+    },
+    {
+      "scenario_family": "edit_band_holdout",
+      "scenario": "leave_edit_>50_out",
+      "status": "evaluated",
+      "train_rows": 68069,
+      "train_decision_sets": 442,
+      "train_biological_units": 213,
+      "test_rows": 25139,
+      "test_decision_sets": 58,
+      "test_biological_units": 15
+    },
+    {
+      "scenario_family": "small_edit_bridge",
+      "scenario": "train_excluding_1-5_test_1-5",
+      "status": "evaluated",
+      "train_rows": 66336,
+      "train_decision_sets": 438,
+      "train_biological_units": 209,
+      "test_rows": 26784,
+      "test_decision_sets": 395,
+      "test_biological_units": 196
+    },
+    {
+      "scenario_family": "small_edit_bridge",
+      "scenario": "train_excluding_1-10_test_1-10",
+      "status": "evaluated",
+      "train_rows": 43843,
+      "train_decision_sets": 195,
+      "train_biological_units": 87,
+      "test_rows": 49310,
+      "test_decision_sets": 432,
+      "test_biological_units": 212
+    }
+  ],
+  "scope_guards": {
+    "nzip_outcomes_used": false,
+    "astrocyte_outcomes_opened": false
+  }
+}

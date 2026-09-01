@@ -1,0 +1,63 @@
+{
+  "phase": "v4_phaseB_definitive_models",
+  "git_commit_at_run": "858c2167098631310339594ec72e4affb93102ae",
+  "selected_representation": "3utrbert",
+  "selected_model_kind": "ptr",
+  "model_means": [
+    {
+      "model": "dfl_hierarchical",
+      "rank": 0.5877624381028652,
+      "regret": 0.43111181175170393,
+      "good3": 0.19660126396237507
+    },
+    {
+      "model": "pairwise_hierarchical",
+      "rank": 0.5991130559658894,
+      "regret": 0.43155240531224104,
+      "good3": 0.21335978835978833
+    },
+    {
+      "model": "predict_then_rank_hierarchical",
+      "rank": 0.5908310451800588,
+      "regret": 0.4265339753997681,
+      "good3": 0.2090828924162257
+    }
+  ],
+  "dfl_gate": {
+    "per_source_gains": [
+      {
+        "dataset": "mikl_gse173098",
+        "regret_gain": -0.0003405564728313215,
+        "good3_gain": 0.01146384479717813
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "regret_gain": 0.010078491185396332,
+        "good3_gain": -0.007242063492063466
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "regret_gain": -0.023471443768372624,
+        "good3_gain": -0.04166666666666666
+      }
+    ],
+    "passing_sources": 0,
+    "no_source_regret_degradation_below_minus_0_03": true,
+    "passed": false
+  },
+  "seeds": [
+    17,
+    41,
+    89
+  ],
+  "scope_guards": {
+    "nzip_outcomes_used": false,
+    "astrocyte_outcomes_opened": false
+  },
+  "runtime": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2"
+  },
+  "score_archive_sha256": "cc5f695823da48ea3f7bbd5cd1759e6379b3ef192244914e3f6c7a74fead5c16"
+}

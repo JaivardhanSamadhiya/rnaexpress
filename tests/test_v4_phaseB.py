@@ -238,3 +238,20 @@ def test_phaseB_scope_manifests_keep_protected_data_false() -> None:
         text = (OUT / name).read_text(encoding="utf-8").lower()
         assert '"nzip_outcomes_used": false' in text
         assert '"astrocyte_outcomes_opened": false' in text
+
+
+def test_reproducibility_manifest_records_missing_optional_packages(monkeypatch) -> None:
+    from importlib.metadata import PackageNotFoundError
+
+    from src.analysis.build_v4_phaseB_manifest import package_versions
+
+    def fake_version(package: str) -> str:
+        if package == "optional-model-runtime":
+            raise PackageNotFoundError(package)
+        return "1.2.3"
+
+    monkeypatch.setattr("importlib.metadata.version", fake_version)
+    assert package_versions(["core", "optional-model-runtime"]) == {
+        "core": "1.2.3",
+        "optional-model-runtime": "not-installed",
+    }

@@ -31,6 +31,17 @@ def file_record(path: Path) -> dict[str, object]:
     }
 
 
+def package_versions(packages: list[str]) -> dict[str, str]:
+    """Record optional runtime dependencies without making them mandatory."""
+    versions: dict[str, str] = {}
+    for package in packages:
+        try:
+            versions[package] = importlib.metadata.version(package)
+        except importlib.metadata.PackageNotFoundError:
+            versions[package] = "not-installed"
+    return versions
+
+
 def main() -> None:
     rows = pd.read_csv(OUT / "model_candidate_rows.csv.gz")
     splits = (
@@ -90,9 +101,7 @@ def main() -> None:
         "runtime": {
             "python": platform.python_version(),
             "platform": platform.platform(),
-            "packages": {
-                package: importlib.metadata.version(package) for package in packages
-            },
+            "packages": package_versions(packages),
         },
         "data_inputs": [file_record(path) for path in data_inputs],
         "representation_caches": [file_record(path) for path in representation_caches],

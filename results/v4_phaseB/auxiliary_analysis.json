@@ -1,0 +1,135 @@
+{
+  "uncertainty": {
+    "scope": "Mikl only",
+    "method": "inverse 1/(SE^2+0.25^2), median normalized, clipped to [0.1,10]",
+    "gains": [
+      {
+        "direction": "decrease",
+        "rank_gain": -0.020827844737973722,
+        "regret_gain": -0.010985820739449759,
+        "good3_gain": -0.03439153439153439
+      },
+      {
+        "direction": "increase",
+        "rank_gain": -0.009738068620183338,
+        "regret_gain": -0.005261165133101098,
+        "good3_gain": 0.0
+      }
+    ],
+    "retention_rule": "regret gain >=0.01 without worse transfer; sensitivity cannot select global model"
+  },
+  "robust_dfl": {
+    "implemented": false,
+    "reason": "Mikl SE is valid, TDP pair-level uncertainty is absent, and Moffatt diagnostic raw-ratio SE is not author-effect uncertainty"
+  },
+  "stability_auxiliary": {
+    "tested": false,
+    "reason": "certified Mikl stability effects are all missing and TDP EV5 remains quarantined for duplicate keys"
+  },
+  "structural_auxiliary": {
+    "tested": false,
+    "reason": "Moffatt SHAPE is an intervention-design family, not a certified sequence-level structural target"
+  },
+  "exact_snv": {
+    "selection_gate_allowed": false,
+    "reason": "19 distinct interventions and no exact-SNV-only decision set has >=5 candidates",
+    "rows": [
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "decrease",
+        "assay_rows": 26,
+        "unique_interventions": 13,
+        "rank_percentile_spearman": -0.3992839155291369,
+        "mean_absolute_rank_percentile_error": 0.3701362625438194
+      },
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "increase",
+        "assay_rows": 26,
+        "unique_interventions": 13,
+        "rank_percentile_spearman": -0.3992839155291369,
+        "mean_absolute_rank_percentile_error": 0.3701362625438194
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "decrease",
+        "assay_rows": 12,
+        "unique_interventions": 6,
+        "rank_percentile_spearman": 0.003502632341691731,
+        "mean_absolute_rank_percentile_error": 0.1555609567156658
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "increase",
+        "assay_rows": 12,
+        "unique_interventions": 6,
+        "rank_percentile_spearman": 0.003502632341691731,
+        "mean_absolute_rank_percentile_error": 0.15556095671566583
+      }
+    ]
+  },
+  "minimum_budget": {
+    "decision_direction_tasks": 890,
+    "tasks_with_multiple_edit_costs": 888,
+    "fraction_with_multiple_edit_costs": 0.9977528089887641,
+    "minimum_cost_distribution": {
+      "1": 4,
+      "2": 19,
+      "3": 90,
+      "4": 202,
+      "5": 236,
+      "6": 165,
+      "7": 55,
+      "8": 3,
+      "9": 4,
+      "10": 22,
+      "11": 9,
+      "12": 6,
+      "13": 5,
+      "14": 1,
+      "15": 2,
+      "16": 1,
+      "17": 4,
+      "18": 2,
+      "20": 5,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "25": 1,
+      "27": 1,
+      "29": 1,
+      "30": 2,
+      "33": 2,
+      "39": 1,
+      "40": 3,
+      "45": 1,
+      "49": 1,
+      "50": 5,
+      "54": 1,
+      "70": 3,
+      "72": 1,
+      "75": 1,
+      "100": 2,
+      "103": 1,
+      "119": 1,
+      "120": 1,
+      "132": 1,
+      "159": 1,
+      "170": 2,
+      "200": 2,
+      "270": 1,
+      "300": 2,
+      "320": 4,
+      "370": 5,
+      "420": 2,
+      "450": 1,
+      "500": 1,
+      "510": 1
+    },
+    "future_claim": "feasibility analysis only; no generative minimum-budget model was trained"
+  },
+  "scope_guards": {
+    "nzip_outcomes_used": false,
+    "astrocyte_outcomes_opened": false
+  }
+}

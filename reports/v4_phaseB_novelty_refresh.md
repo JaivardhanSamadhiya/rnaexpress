@@ -32,3 +32,14 @@ Do not claim that RNAddress invented decision-focused learning, regret optimizat
 ## PV-Care implication
 
 Novel positioning alone cannot establish PV-Care-level readiness. The path remains credible only if the definitive Phase B gates demonstrate real held-context and small-edit transfer and a later Phase C freeze produces a genuinely positive untouched Astrocyte result. If Phase B transfer fails, the integration remains technically interesting but does not support a high-impact prospective intervention claim.
+
+## Post-result path refresh
+
+A final primary-source search after gate evaluation did not identify evidence that could legitimately change the frozen Phase B verdict. It did reinforce the next-cycle experimental design:
+
+- the paired neuronal localization MPRAs show that localization is often distributed across many small contributions and that short motif introduction need not reverse motif disruption, supporting direction-specific modeling and denser matched small-edit experiments: https://academic.oup.com/nar/article/50/18/10643/6717835;
+- the complementary reporter study measures the same long oligonucleotides in GFP and firefly contexts and in CAD and N2A cells, illustrating the value of crossed reporter/cell designs for separating sequence effects from assay context: https://academic.oup.com/nar/article/50/18/10626/6701598;
+- a 2025 benchmark of foundation models on 3′UTR tasks reports that frozen language-model embeddings do not uniformly dominate task-specific alternatives, reinforcing the need to require contextual embeddings to beat metadata rather than assume scale equals mechanism: https://academic.oup.com/nar/article/53/17/gkaf871/8252024;
+- 2025 work on cryptic splicing in 3′UTR MPRAs shows that assay artifacts can be sequence-dependent, supporting explicit splice/artifact controls in any new intervention library: https://www.nature.com/articles/s41467-025-62000-9.
+
+These findings support a new matched-data acquisition cycle; they do not authorize candidate-family expansion after definitive Phase B results.
