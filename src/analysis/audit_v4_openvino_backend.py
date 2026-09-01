@@ -91,36 +91,43 @@ def main() -> None:
     torch_seconds = time.perf_counter() - start
     del torch_encoder
     gc.collect()
-    start = time.perf_counter()
-    openvino_encoder = FrozenEncoder("3utrbert", backend="openvino_gpu")
-    openvino_features = np.row_stack(
-        [pair_feature(openvino_encoder, row) for _, row in sample.iterrows()]
-    )
-    openvino_seconds = time.perf_counter() - start
-    difference = np.abs(torch_features - openvino_features)
-    cosine = np.sum(torch_features * openvino_features, axis=1) / (
-        np.linalg.norm(torch_features, axis=1) * np.linalg.norm(openvino_features, axis=1)
-    )
+    backend_results = {}
+    accepted = True
+    for backend in ("openvino_gpu", "openvino_cpu"):
+        start = time.perf_counter()
+        encoder = FrozenEncoder("3utrbert", backend=backend)
+        features = np.row_stack([pair_feature(encoder, row) for _, row in sample.iterrows()])
+        seconds = time.perf_counter() - start
+        difference = np.abs(torch_features - features)
+        cosine = np.sum(torch_features * features, axis=1) / (
+            np.linalg.norm(torch_features, axis=1) * np.linalg.norm(features, axis=1)
+        )
+        backend_accepted = bool(
+            difference.max() <= 0.001
+            and difference.mean() <= 0.0001
+            and cosine.min() >= 0.999999
+        )
+        accepted = accepted and backend_accepted
+        backend_results[backend] = {
+            "maximum_projected_feature_absolute_difference": float(difference.max()),
+            "mean_projected_feature_absolute_difference": float(difference.mean()),
+            "minimum_pair_feature_cosine_similarity": float(cosine.min()),
+            "seconds_including_compile": seconds,
+            "accepted": backend_accepted,
+        }
     audit = {
-        "backend": "OpenVINO 2026.3.1 GPU FP32",
-        "device": "Intel Iris Xe integrated GPU",
+        "backend": "OpenVINO 2026.3.1 FP32",
+        "devices": ["Intel Iris Xe integrated GPU", "Intel CPU"],
         "sample_pairs": len(sample),
         "sample_pair_row_indices": sample_indices.tolist(),
-        "maximum_projected_feature_absolute_difference": float(difference.max()),
-        "mean_projected_feature_absolute_difference": float(difference.mean()),
-        "minimum_pair_feature_cosine_similarity": float(cosine.min()),
         "torch_seconds": torch_seconds,
-        "openvino_seconds_including_compile": openvino_seconds,
+        "backend_results": backend_results,
         "acceptance_thresholds": {
             "maximum_absolute_difference_lte": 0.001,
             "mean_absolute_difference_lte": 0.0001,
             "minimum_cosine_similarity_gte": 0.999999,
         },
-        "accepted": bool(
-            difference.max() <= 0.001
-            and difference.mean() <= 0.0001
-            and cosine.min() >= 0.999999
-        ),
+        "accepted": accepted,
         "ir_xml_sha256": sha256(IR),
         "ir_bin_sha256": sha256(IR.with_suffix(".bin")),
         "scope_guards": {"outcomes_opened": False, "nzip_outcomes_used": False, "astrocyte_outcomes_opened": False},

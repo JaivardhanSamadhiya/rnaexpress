@@ -74,7 +74,7 @@ class FrozenEncoder:
         self.backend = backend
         self.spec = MODEL_SPECS[name]
         self.hidden_size = int(self.spec["hidden_size"])
-        if backend == "openvino_gpu":
+        if backend in {"openvino_gpu", "openvino_cpu"}:
             if name != "3utrbert":
                 raise ValueError("The audited OpenVINO backend is only available for 3UTRBERT")
             import sys
@@ -91,11 +91,12 @@ class FrozenEncoder:
             if not ir_path.exists():
                 raise FileNotFoundError("Missing audited 3UTRBERT OpenVINO IR")
             core = ov.Core()
-            if "GPU" not in core.available_devices:
-                raise RuntimeError("OpenVINO GPU backend is not available")
+            device = "GPU" if backend == "openvino_gpu" else "CPU"
+            if device not in core.available_devices:
+                raise RuntimeError(f"OpenVINO {device} backend is not available")
             ov_model = core.read_model(ir_path)
             self.compiled_model = core.compile_model(
-                ov_model, "GPU", {"INFERENCE_PRECISION_HINT": "f32"}
+                ov_model, device, {"INFERENCE_PRECISION_HINT": "f32"}
             )
             self.model = None
         elif name == "3utrbert":
@@ -123,7 +124,7 @@ class FrozenEncoder:
         observed = encoded["attention_mask"].sum(dim=1).tolist()
         if observed != expected:
             raise ValueError(f"{self.name} token alignment failed: {observed} != {expected}")
-        if self.backend == "openvino_gpu":
+        if self.backend in {"openvino_gpu", "openvino_cpu"}:
             ordered = [
                 encoded["input_ids"].numpy(),
                 encoded["attention_mask"].numpy(),

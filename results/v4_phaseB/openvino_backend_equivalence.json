@@ -1,6 +1,9 @@
 {
-  "backend": "OpenVINO 2026.3.1 GPU FP32",
-  "device": "Intel Iris Xe integrated GPU",
+  "backend": "OpenVINO 2026.3.1 FP32",
+  "devices": [
+    "Intel Iris Xe integrated GPU",
+    "Intel CPU"
+  ],
   "sample_pairs": 12,
   "sample_pair_row_indices": [
     0,
@@ -16,11 +19,23 @@
     11358,
     12494
   ],
-  "maximum_projected_feature_absolute_difference": 1.5497207641601562e-05,
-  "mean_projected_feature_absolute_difference": 2.8903959901072085e-06,
-  "minimum_pair_feature_cosine_similarity": 0.9999998211860657,
-  "torch_seconds": 10.351557400019374,
-  "openvino_seconds_including_compile": 5.202473000041209,
+  "torch_seconds": 11.83238400000846,
+  "backend_results": {
+    "openvino_gpu": {
+      "maximum_projected_feature_absolute_difference": 1.5497207641601562e-05,
+      "mean_projected_feature_absolute_difference": 2.8903959901072085e-06,
+      "minimum_pair_feature_cosine_similarity": 0.9999998211860657,
+      "seconds_including_compile": 5.22772280004574,
+      "accepted": true
+    },
+    "openvino_cpu": {
+      "maximum_projected_feature_absolute_difference": 2.5033950805664062e-05,
+      "mean_projected_feature_absolute_difference": 3.8452481021522544e-06,
+      "minimum_pair_feature_cosine_similarity": 0.9999998807907104,
+      "seconds_including_compile": 7.440535700006876,
+      "accepted": true
+    }
+  },
   "acceptance_thresholds": {
     "maximum_absolute_difference_lte": 0.001,
     "mean_absolute_difference_lte": 0.0001,
