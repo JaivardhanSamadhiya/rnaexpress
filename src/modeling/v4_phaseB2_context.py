@@ -305,7 +305,7 @@ def cross_fitted_nuisance(
 @dataclass
 class ContextModel:
     scaler: StandardScaler
-    model: Ridge
+    model: object
     family: str
     rank: int
     alpha: float
@@ -319,6 +319,17 @@ class ContextModel:
             values = values.copy()
             values[:, self.interaction_slice] = 0.0
         return np.asarray(self.model.predict(self.scaler.transform(values)), dtype=float)
+
+
+@dataclass
+class _LinearRidgePredictor:
+    """Small prediction-compatible container for a weighted closed-form Ridge."""
+
+    coef_: np.ndarray
+    intercept_: float
+
+    def predict(self, features: np.ndarray) -> np.ndarray:
+        return np.asarray(features @ self.coef_ + self.intercept_, dtype=float)
 
 
 def _augment_contrasts(
@@ -382,6 +393,54 @@ def fit_context(
     )
 
 
+def fit_context_alpha_grid(
+    features: np.ndarray,
+    target: np.ndarray,
+    frame: pd.DataFrame,
+    family: str,
+    rank: int,
+    alphas: tuple[float, ...],
+    interaction_slice: slice | None,
+    pairs: tuple[np.ndarray, np.ndarray] | None = None,
+) -> dict[float, ContextModel]:
+    """Fit the frozen Ridge penalties while sharing one weighted Gram matrix.
+
+    This is algebraically the same weighted, intercept-bearing L2 objective as
+    ``sklearn.linear_model.Ridge``.  Sharing X'WX across the three prespecified
+    penalties avoids three complete passes over 70k+ rows in every inner fold.
+    """
+    scaler = StandardScaler().fit(features)
+    transformed = scaler.transform(features)
+    ordinary_weights = source_set_weights(frame)
+    x_fit, y_fit, contrast_weights = _augment_contrasts(transformed, target, pairs)
+    weights = ordinary_weights
+    if len(contrast_weights):
+        weights = np.concatenate([ordinary_weights, contrast_weights])
+    total_weight = float(weights.sum())
+    x_mean = np.sum(x_fit * weights[:, None], axis=0) / total_weight
+    y_mean = float(np.sum(y_fit * weights) / total_weight)
+    centered_x = x_fit - x_mean
+    centered_y = y_fit - y_mean
+    gram = centered_x.T @ (centered_x * weights[:, None])
+    rhs = centered_x.T @ (centered_y * weights)
+    identity = np.eye(gram.shape[0], dtype=float)
+    result: dict[float, ContextModel] = {}
+    for alpha in alphas:
+        coefficient = np.linalg.solve(gram + float(alpha) * identity, rhs)
+        intercept = y_mean - float(x_mean @ coefficient)
+        result[float(alpha)] = ContextModel(
+            scaler=scaler,
+            model=_LinearRidgePredictor(coefficient, intercept),
+            family=family,
+            rank=rank,
+            alpha=float(alpha),
+            interaction_slice=interaction_slice,
+            training_units=frozenset(frame["biological_unit"].astype(str)),
+            group_factors={},
+        )
+    return result
+
+
 def control_donor_indices(frame: pd.DataFrame, seed: int = SEED) -> tuple[np.ndarray, np.ndarray]:
     """Map each eligible row to a geometry-matched row from another unit."""
     keyed = add_matching_keys(frame.reset_index(drop=True))
@@ -412,4 +471,3 @@ def assert_held_out(train: pd.DataFrame, test: pd.DataFrame, column: str) -> Non
     overlap = set(train[column].astype(str)) & set(test[column].astype(str))
     if overlap:
         raise ValueError(f"Held-out {column} leaked into training: {sorted(overlap)[:3]}")
-

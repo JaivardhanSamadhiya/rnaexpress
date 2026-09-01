@@ -42,6 +42,7 @@ from src.modeling.v4_phaseB2_context import (
     cross_fitted_nuisance,
     edit_band,
     fit_context,
+    fit_context_alpha_grid,
     fit_nuisance,
     matched_pairs,
 )
@@ -218,34 +219,53 @@ def _inner_select(
         audit["nuisance_level"] = level
         nuisance_audits.append(audit)
 
+    fold_values = frame["biological_fold"].to_numpy()
+    pair_cache: dict[object, tuple[np.ndarray, np.ndarray]] = {}
+    for fold in sorted(pd.unique(fold_values)):
+        training = fold_values != fold
+        cross, within, _ = matched_pairs(frame.loc[training].reset_index(drop=True))
+        pair_cache[fold] = (cross, within)
+
     option_predictions: dict[str, np.ndarray] = {}
     option_lookup: dict[str, ModelOption] = {}
-    fold_values = frame["biological_fold"].to_numpy()
     for level in ("global", "source"):
         residual = frame["localization_effect"].to_numpy(float) - nuisance_predictions[level]
         for raw_option in _options():
             option = replace(raw_option, nuisance_level=level)
             option_lookup[option.name] = option
-            features, interaction_slice = _option_features(blocks, option)
-            predictions = np.full(len(frame), np.nan, dtype=float)
-            for fold in sorted(pd.unique(fold_values)):
-                validation = fold_values == fold
-                training = ~validation
-                train_rows = frame.loc[training].reset_index(drop=True)
-                pairs = _pairs_for(train_rows, option)
-                model = fit_context(
+            option_predictions[option.name] = np.full(len(frame), np.nan, dtype=float)
+        configurations = (("M1", 0, False),) + tuple(
+            (family, rank, family == "M3")
+            for family in ("M2", "M3")
+            for rank in RANKS
+        )
+        for fold in sorted(pd.unique(fold_values)):
+            validation = fold_values == fold
+            training = ~validation
+            train_rows = frame.loc[training].reset_index(drop=True)
+            assert_held_out(train_rows, frame.loc[validation], "biological_unit")
+            for family, rank, contrastive in configurations:
+                template = ModelOption(
+                    family,
+                    ALPHAS[0],
+                    rank,
+                    nuisance_level=level,
+                    contrastive=contrastive,
+                )
+                features, interaction_slice = _option_features(blocks, template)
+                models = fit_context_alpha_grid(
                     features[training],
                     residual[training],
                     train_rows,
-                    option.family,
-                    option.rank,
-                    option.alpha,
+                    family,
+                    rank,
+                    ALPHAS,
                     interaction_slice,
-                    pairs=pairs,
+                    pairs=pair_cache[fold] if contrastive else None,
                 )
-                assert_held_out(train_rows, frame.loc[validation], "biological_unit")
-                predictions[validation] = model.predict(features[validation])
-            option_predictions[option.name] = predictions
+                for alpha, model in models.items():
+                    option = replace(template, alpha=alpha)
+                    option_predictions[option.name][validation] = model.predict(features[validation])
 
     records: list[dict[str, object]] = []
     for name, prediction in option_predictions.items():

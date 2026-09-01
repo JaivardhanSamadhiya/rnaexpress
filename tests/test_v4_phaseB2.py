@@ -23,6 +23,7 @@ from src.modeling.v4_phaseB2_context import (
     control_donor_indices,
     cross_fitted_nuisance,
     fit_context,
+    fit_context_alpha_grid,
     fit_nuisance,
     matched_pairs,
 )
@@ -269,3 +270,16 @@ def test_matched_pair_membership_is_outcome_blind() -> None:
     second_cross, second_within, _ = matched_pairs(changed)
     assert np.array_equal(first_cross, second_cross)
     assert np.array_equal(first_within, second_within)
+
+
+def test_shared_gram_ridge_matches_individual_ridge() -> None:
+    frame = _synthetic()
+    rng = np.random.default_rng(19)
+    features = rng.normal(size=(len(frame), 9))
+    target = frame["localization_effect"].to_numpy() + rng.normal(size=len(frame))
+    individual = fit_context(features, target, frame, "M1", 0, 100.0, None)
+    shared = fit_context_alpha_grid(
+        features, target, frame, "M1", 0, (10.0, 100.0, 1_000.0), None
+    )[100.0]
+    probe = rng.normal(size=(11, 9))
+    assert np.allclose(individual.predict(probe), shared.predict(probe), atol=1e-8)
