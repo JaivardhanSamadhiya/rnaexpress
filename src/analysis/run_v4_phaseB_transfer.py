@@ -33,7 +33,7 @@ from src.modeling.v4_decision_models import (
 
 
 OUT = ROOT / "results" / "v4_phaseB"
-SEED = 17
+SEEDS = (17, 41, 89)
 GZIP_OPTIONS = {"method": "gzip", "mtime": 0}
 
 
@@ -169,13 +169,13 @@ def scenarios(rows: pd.DataFrame) -> list[Scenario]:
     return result
 
 
-def _fit(kind: str, features: np.ndarray, rows: pd.DataFrame, sign: int):
+def _fit(kind: str, features: np.ndarray, rows: pd.DataFrame, sign: int, seed: int):
     if kind == "ptr":
         return fit_predict_then_rank(features, rows, sign)
     if kind == "pairwise":
-        return fit_pairwise(features, rows, sign, SEED)
+        return fit_pairwise(features, rows, sign, seed)
     if kind == "dfl":
-        return fit_dfl(features, rows, sign, SEED)
+        return fit_dfl(features, rows, sign, seed)
     raise ValueError(kind)
 
 
@@ -212,7 +212,7 @@ def _random_exact(template: pd.DataFrame) -> pd.DataFrame:
 def _aggregate(set_metrics: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     unit = (
         set_metrics.groupby(
-            ["scenario_family", "scenario", "model", "requested_direction", "dataset", "biological_unit"]
+            ["scenario_family", "scenario", "model", "seed", "requested_direction", "dataset", "biological_unit"]
         )
         .agg(
             decision_sets=("decision_set_id", "size"),
@@ -230,7 +230,7 @@ def _aggregate(set_metrics: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
         .reset_index()
     )
     aggregate = (
-        unit.groupby(["scenario_family", "scenario", "model", "requested_direction", "dataset"])
+        unit.groupby(["scenario_family", "scenario", "model", "seed", "requested_direction", "dataset"])
         .agg(
             biological_units=("biological_unit", "size"),
             decision_sets=("decision_sets", "sum"),
@@ -281,15 +281,26 @@ def main() -> None:
         for sign, direction in ((1, "increase"), (-1, "decrease")):
             template = None
             for kind in model_kinds:
-                model = _fit(kind, train_features, train_rows, sign)
-                score = model.predict(test_features, test_rows["assay_context"], use_residual=False)
-                metric = decision_set_metrics(
-                    test_rows, score, f"{kind}_global", direction, SEED, scenario.name
-                )
-                template = metric
-                metric["scenario_family"] = scenario.family
-                metric["scenario"] = scenario.name
-                all_metrics.append(metric)
+                core_family = scenario.family in {
+                    "leave_source_out",
+                    "cell_transfer",
+                    "reporter_transfer",
+                    "small_edit_bridge",
+                } or scenario.name == "leave_edit_2-5_out"
+                seeds = SEEDS if kind == selected_kind and kind != "ptr" and core_family else (17,)
+                for seed in seeds:
+                    model = _fit(kind, train_features, train_rows, sign, seed)
+                    score = model.predict(
+                        test_features, test_rows["assay_context"], use_residual=False
+                    )
+                    metric = decision_set_metrics(
+                        test_rows, score, f"{kind}_global", direction, seed, scenario.name
+                    )
+                    if template is None:
+                        template = metric
+                    metric["scenario_family"] = scenario.family
+                    metric["scenario"] = scenario.name
+                    all_metrics.append(metric)
             metadata_score = _ridge_score(
                 blocks["metadata_only"][train_mask],
                 train_rows,
@@ -297,7 +308,7 @@ def main() -> None:
                 sign,
             )
             metric = decision_set_metrics(
-                test_rows, metadata_score, "metadata_ridge", direction, SEED, scenario.name
+                test_rows, metadata_score, "metadata_ridge", direction, 17, scenario.name
             )
             metric["scenario_family"] = scenario.family
             metric["scenario"] = scenario.name
@@ -307,7 +318,7 @@ def main() -> None:
                 test_rows["edit_cost"].to_numpy(float),
                 "edit_size_heuristic",
                 direction,
-                SEED,
+                17,
                 scenario.name,
             )
             size_metric["scenario_family"] = scenario.family
@@ -341,7 +352,7 @@ def main() -> None:
         json.dumps(
             {
                 "selected_model_kind": selected_kind,
-                "seed": SEED,
+                "seeds": list(SEEDS),
                 "target_residual_used": False,
                 "scenarios": audit,
                 "scope_guards": {"nzip_outcomes_used": False, "astrocyte_outcomes_opened": False},
