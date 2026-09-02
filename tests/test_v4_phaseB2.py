@@ -283,3 +283,37 @@ def test_shared_gram_ridge_matches_individual_ridge() -> None:
     )[100.0]
     probe = rng.normal(size=(11, 9))
     assert np.allclose(individual.predict(probe), shared.predict(probe), atol=1e-8)
+
+
+def test_final_phaseB2_scope_and_transfer_guards_are_sealed() -> None:
+    result = ROOT / "results" / "v4_phaseB2"
+    if not (result / "primary_run.json").exists():
+        return
+    import json
+
+    primary = json.loads((result / "primary_run.json").read_text(encoding="utf-8"))
+    transfer = json.loads((result / "transfer_audit.json").read_text(encoding="utf-8"))
+    assert not any(primary["scope_guards"].values())
+    assert transfer["target_source_residual_used"] is False
+    assert all(
+        scenario.get("target_source_residual_used", False) is False
+        for scenario in transfer["scenarios"]
+    )
+
+
+def test_final_phaseB2_gate_file_has_all_frozen_domains() -> None:
+    path = ROOT / "results" / "v4_phaseB2" / "development_gates.json"
+    if not path.exists():
+        return
+    import json
+
+    result = json.loads(path.read_text(encoding="utf-8"))
+    assert result["verdict"] in {
+        "GO — CONTEXTUAL DISRUPTION COMPILER",
+        "GO — CONTEXTUAL BIDIRECTIONAL COMPILER",
+        "GO — SOURCE-SPECIFIC COMPILER",
+        "CONDITIONAL GO — SMALL-EDIT GAP",
+        "NO-GO",
+    }
+    assert len(result["gates"]) == 10
+    assert set(result["gate_passes"]) == set(result["gates"])
