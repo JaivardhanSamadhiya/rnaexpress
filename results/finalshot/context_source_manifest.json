@@ -1,0 +1,118 @@
+{
+  "accession": "GSE67828",
+  "paper_doi": "10.1016/j.molcel.2016.01.020",
+  "organism": "Mus musculus",
+  "genome_build": "mm9 supplemented with alternative isoforms",
+  "processing": "TopHat 2.0.12 or STAR 2.0.4d; Cufflinks 2.1.1",
+  "archive": {
+    "bytes": 74485760,
+    "sha256": "e2bce64320274f7a81b87598235934f6c6af0636126d6deca14ecc5b42a488c2"
+  },
+  "mm9_refgene": {
+    "source": "UCSC refGene table",
+    "sha256": "7eb239607afa72581e1eebb9c90156e8d83d871953118357b93d39df88208ac4"
+  },
+  "samples": [
+    {
+      "file": "GSM1656708_N2ASoma1_fpkm.txt.gz",
+      "cell_line": "N2A",
+      "compartment": "soma",
+      "replicate": 1,
+      "sha256": "0de28d55d8b84d441de6aba27faeaf24f8ed5f27f1f41528f4f3e9f7dbee76ed"
+    },
+    {
+      "file": "GSM1656709_N2ASoma2_fpkm.txt.gz",
+      "cell_line": "N2A",
+      "compartment": "soma",
+      "replicate": 2,
+      "sha256": "93ba3fde19a588ea3f7c73c58fd4145e8703e7929102734e036a5c4cb8ab012e"
+    },
+    {
+      "file": "GSM1656710_N2ASoma3_fpkm.txt.gz",
+      "cell_line": "N2A",
+      "compartment": "soma",
+      "replicate": 3,
+      "sha256": "210c8cf77d0ac9febe8d9980ba512f3b0f271921a6837b97b39fe7a8a65c1e73"
+    },
+    {
+      "file": "GSM1656711_N2AAxon1_fpkm.txt.gz",
+      "cell_line": "N2A",
+      "compartment": "neurite",
+      "replicate": 1,
+      "sha256": "382206ec05800bff47e319cf20269dbd0df3465539111849032a0282c797709e"
+    },
+    {
+      "file": "GSM1656712_N2AAxon2_fpkm.txt.gz",
+      "cell_line": "N2A",
+      "compartment": "neurite",
+      "replicate": 2,
+      "sha256": "fdf04bbe7253c7911f06bedf64c6d668c839ef1d84cbd8f79e4fdab8474d62f1"
+    },
+    {
+      "file": "GSM1656713_N2AAxon3_fpkm.txt.gz",
+      "cell_line": "N2A",
+      "compartment": "neurite",
+      "replicate": 3,
+      "sha256": "d0ae05df2cd87f4cd576915f4dcbeadfb6f4eee45a0e69a0d1bacbb2ce82fba9"
+    },
+    {
+      "file": "GSM1656714_CADSoma1_fpkm.txt.gz",
+      "cell_line": "CAD",
+      "compartment": "soma",
+      "replicate": 1,
+      "sha256": "304c5839009b6e038467636d836b8fc6555e219788fee7356e347d6e82323985"
+    },
+    {
+      "file": "GSM1656715_CADSoma2_fpkm.txt.gz",
+      "cell_line": "CAD",
+      "compartment": "soma",
+      "replicate": 2,
+      "sha256": "5d11944dd1ae25eb7166fe5c77b858ed0fd91716c8b816d7733ecd9ea2e98feb"
+    },
+    {
+      "file": "GSM1656716_CADSoma3_fpkm.txt.gz",
+      "cell_line": "CAD",
+      "compartment": "soma",
+      "replicate": 3,
+      "sha256": "4d0255ef7ddd42ff96482391709b06a31c5e726eb74e3aa586dfe4be029ef85f"
+    },
+    {
+      "file": "GSM1656717_CADAxon1_fpkm.txt.gz",
+      "cell_line": "CAD",
+      "compartment": "neurite",
+      "replicate": 1,
+      "sha256": "0c379a472f5040c5afde39e1a9876fc9b0b8359fc9e2b246131a09bb864ac7f5"
+    },
+    {
+      "file": "GSM1656718_CADAxon2_fpkm.txt.gz",
+      "cell_line": "CAD",
+      "compartment": "neurite",
+      "replicate": 2,
+      "sha256": "f098e0536284399018139a1daff68f39fd5520a223f81952b7d2e626cb6b4390"
+    },
+    {
+      "file": "GSM1656719_CADAxon3_fpkm.txt.gz",
+      "cell_line": "CAD",
+      "compartment": "neurite",
+      "replicate": 3,
+      "sha256": "5aa769553da5e8624c8d004623e678b3bed4d00e5db479dd376ec01699965f3b"
+    }
+  ],
+  "proxy_definition": "mean of the soma and neurite medians of log1p(FPKM), three replicates per compartment",
+  "eligible_rbp_channels": 98,
+  "ineligible_rbp_channels": {
+    "HNRNPA1": "no unique canonical MGI mapping (non_one_to_one)",
+    "HNRNPC": "no unique canonical MGI mapping (non_one_to_one)",
+    "NCBP2": "no unique canonical MGI mapping (non_one_to_one)",
+    "TROVE2": "no unique canonical MGI mapping (missing)",
+    "ZC3H11A": "no unique canonical MGI mapping (non_one_to_one)"
+  },
+  "limitations": [
+    "RNA abundance is an imperfect proxy for active RBP protein abundance.",
+    "RBPNet is human HepG2-trained whereas the context proxy and development assays are mouse neural cell lines.",
+    "GSE67828 is the closest public matching CAD/N2A state, not an exact batch match to every development assay.",
+    "Gene identities absent from Cufflinks symbols are recovered outcome-blind by overlap with the experiment's mm9 RefGene coordinates."
+  ],
+  "protected_data_accessed": false,
+  "localization_outcomes_accessed": false
+}
