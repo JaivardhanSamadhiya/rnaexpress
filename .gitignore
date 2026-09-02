@@ -6,6 +6,7 @@ venv/
 .python_packages/
 .transformers_runtime/
 .tf_runtime/
+tmp/
 .Rhistory
 kernel.errors.txt
 
@@ -19,6 +20,8 @@ data/processed/**
 !data/processed/.gitkeep
 data/frozen/outcomes/**
 results/**
+!results/finalshot/
+!results/finalshot/**
 !results/**/.gitkeep
 !results/internal/
 !results/internal/development_predictions.csv.gz
