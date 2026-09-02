@@ -139,6 +139,14 @@ the direct Hamming mismatch set. The edit span is first through last mismatch.
 Radius `q` means the edit span expanded by `q` positions on both sides and
 clipped to sequence boundaries.
 
+Technical clarification recorded before any successful checkpoint cache or
+localization evaluation: the serialized mixing head emits an unconstrained
+logit. Consistent with the official `rbpnet.prediction._to_probs` implementation,
+`a_r` is the sigmoid-transformed value, not the raw head logit. A full-scale QKI
+pilot detected the ambiguity by correctly rejecting raw values outside `[0,1]`;
+the failed pilot wrote no profile or feature shard. This clarification changes
+no representation family, summary, radius, model, fold, metric, or gate.
+
 Exactly nine modeled summaries are frozen per RBP:
 
 1. signed `sum(d_r)` in radius 10;
@@ -460,4 +468,3 @@ controlling prompt and prioritize primary papers/repositories. Any novelty
 claim must be narrow and qualified. The final report must answer all 60 required
 return items, including explicit not-evaluated/not-applicable entries, exact
 tests and commits, Astrocyte status, and whether a PV-CARE-level path remains.
-

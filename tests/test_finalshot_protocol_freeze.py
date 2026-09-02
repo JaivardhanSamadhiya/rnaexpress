@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 import json
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 
@@ -14,10 +16,11 @@ OUT = ROOT / "results" / "finalshot"
 BUILDER = ROOT / "src" / "audit" / "build_finalshot_trans_context.py"
 PROTOCOL = ROOT / "reports" / "finalshot_protocol.md"
 PROTECTED = ROOT / "src" / "pairing" / "audit_astrocyte.py"
+SIGNATURE_BUILDER = ROOT / "src" / "features" / "build_finalshot_rbpnet_signatures.py"
 
 
 def test_context_builder_respects_protected_boundaries() -> None:
-    code = BUILDER.read_text(encoding="utf-8").lower()
+    code = (BUILDER.read_text(encoding="utf-8") + SIGNATURE_BUILDER.read_text(encoding="utf-8")).lower()
     assert "data/raw/astrocyte" not in code
     assert "data/processed/nzip" not in code
     assert "localization_effect" not in code
@@ -63,6 +66,8 @@ def test_protocol_freezes_small_family_features_controls_and_gates() -> None:
     for token in ("R0 — geometry", "R1 — 3UTRBERT", "R2 — RBPNet", "M0 —", "M1 —", "M2 —", "M3 —"):
         assert token in protocol
     assert "Exactly nine modeled summaries" in protocol
+    assert "official `rbpnet.prediction._to_probs`" in protocol
+    assert "sigmoid-transformed value" in protocol
     assert "RBP identity permutation" in protocol
     assert "Delta-RBP intervention permutation" in protocol
     assert "Cell-context permutation" in protocol
@@ -74,3 +79,23 @@ def test_protocol_freezes_small_family_features_controls_and_gates() -> None:
     assert "normalized-regret ContextValue at least `+0.010`" in compact
     assert "Astrocyte remains sealed" in protocol
     assert "NO-GO — END ZERO-SHOT RNADDRESS" in protocol
+
+
+def test_rbp_signature_summary_obeys_conservation_and_feature_order() -> None:
+    spec = importlib.util.spec_from_file_location("finalshot_signatures", SIGNATURE_BUILDER)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    profiles = np.asarray([[0.1, 0.2, 0.3, 0.4], [0.2, 0.1, 0.25, 0.45]], dtype=np.float32)
+    mixing = np.asarray([0.3, 0.4], dtype=np.float32)
+    lengths = np.asarray([4, 4], dtype=np.int16)
+    pairs = np.asarray([[0, 1, 0, 2]], dtype=np.int32)
+    values, diagnostics = module.summarize_interventions(profiles, mixing, lengths, pairs)
+    assert module.FEATURE_NAMES.tolist() == [
+        "delta_mass_radius10", "delta_mass_radius25", "delta_mass_radius50",
+        "max_abs_delta_radius25", "binding_gained_global", "binding_lost_global",
+        "parent_mass_radius25", "parent_mixing_coefficient", "delta_mixing_coefficient",
+    ]
+    np.testing.assert_allclose(values[0], [0, 0, 0, 0.1, 0.15, 0.15, 1, 0.3, 0.1], atol=1e-6)
+    assert diagnostics["max_abs_global_signed_delta"] < 1e-6
+    assert diagnostics["max_abs_gain_loss_difference"] < 1e-6
