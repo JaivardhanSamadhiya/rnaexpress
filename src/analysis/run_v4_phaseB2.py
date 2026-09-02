@@ -367,6 +367,23 @@ def evaluate_primary() -> None:
         for outer_fold in range(5):
             test = fold_values == outer_fold
             train = ~test
+            checkpoint = OUT / f"checkpoint_{direction}_fold{outer_fold}.npz"
+            checkpoint_metadata = OUT / f"checkpoint_{direction}_fold{outer_fold}.json"
+            if checkpoint.exists() and checkpoint_metadata.exists():
+                stored = np.load(checkpoint)
+                test_indices = np.flatnonzero(test)
+                if not np.array_equal(stored["test_indices"], test_indices):
+                    raise ValueError(f"Checkpoint row mismatch for {direction} fold {outer_fold}")
+                for name in output:
+                    output[name][test_indices] = stored[name]
+                metadata = json.loads(checkpoint_metadata.read_text(encoding="utf-8"))
+                selection_records.extend(metadata["selection_records"])
+                nuisance_audit_records.append(pd.DataFrame(metadata["nuisance_audits"]))
+                print(
+                    f"resumed primary {direction} outer fold {outer_fold}: {metadata['selected_name']}",
+                    flush=True,
+                )
+                continue
             train_rows = rows.loc[train].reset_index(drop=True)
             test_rows = rows.loc[test].reset_index(drop=True)
             assert_held_out(train_rows, test_rows, "biological_unit")
@@ -458,6 +475,35 @@ def evaluate_primary() -> None:
             )
             output["context_control_eligible"][test_indices] = eligible
             output["delta_control_eligible"][test_indices] = eligible
+            fold_selection = [
+                {"outer_fold": outer_fold, "direction": direction, **record, "selected": record["name"] == selected.name}
+                for record in records
+            ]
+            # The in-memory records were appended above for the final archive;
+            # the same exact records make interruption recovery deterministic.
+            fold_audits = []
+            for audit in audits:
+                restored = audit.copy()
+                restored["outer_fold"] = outer_fold
+                restored["direction"] = direction
+                fold_audits.extend(restored.to_dict("records"))
+            np.savez_compressed(
+                checkpoint,
+                test_indices=test_indices,
+                **{name: values[test_indices] for name, values in output.items()},
+            )
+            checkpoint_metadata.write_text(
+                json.dumps(
+                    {
+                        "selected_name": selected.name,
+                        "selection_records": fold_selection,
+                        "nuisance_audits": fold_audits,
+                    },
+                    indent=2,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
             print(
                 f"completed primary {direction} outer fold {outer_fold}: {selected.name}",
                 flush=True,
