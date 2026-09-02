@@ -642,15 +642,31 @@ def _transfer_scenarios(rows: pd.DataFrame) -> list[TransferScenario]:
 
 def _consensus_options() -> dict[str, ModelOption]:
     selection = pd.read_csv(OUT / "inner_model_selection.csv.gz")
-    selected = selection[selection["selected"]].copy()
     result: dict[str, ModelOption] = {}
     columns = ["family", "alpha", "rank", "nuisance_level", "contrastive", "group_robust"]
-    for direction, group in selected.groupby("direction"):
-        counts = group.groupby(columns, dropna=False).size().rename("count").reset_index()
-        counts["complexity"] = counts["family"].map({"M1": 1, "M2": 2, "M3": 3, "M4": 4})
-        row = counts.sort_values(
-            ["count", "complexity", "rank", "alpha"],
-            ascending=[False, True, True, False],
+    # A deployable transfer configuration must be chosen from candidates that
+    # were evaluated in every outer-training cohort.  Aggregate their inner
+    # ContextValue, then apply the same frozen 0.002/simplicity tie rule.  M4 is
+    # fold-conditionally eligible and therefore cannot be a global consensus.
+    eligible = selection[selection["family"].isin(["M1", "M2", "M3"])]
+    for direction, group in eligible.groupby("direction"):
+        summary = (
+            group.groupby(columns, dropna=False)
+            .agg(
+                outer_folds=("outer_fold", "nunique"),
+                regret_cv=("regret_cv", "mean"),
+                rank_cv=("rank_cv", "mean"),
+                good3_cv=("good3_cv", "mean"),
+            )
+            .reset_index()
+        )
+        summary = summary[summary["outer_folds"].eq(5)].copy()
+        best = float(summary["regret_cv"].max())
+        summary = summary[summary["regret_cv"].ge(best - 0.002)].copy()
+        summary["complexity"] = summary["family"].map({"M1": 1, "M2": 2, "M3": 3})
+        row = summary.sort_values(
+            ["complexity", "rank", "alpha", "rank_cv", "good3_cv"],
+            ascending=[True, True, False, False, False],
         ).iloc[0]
         result[str(direction)] = ModelOption(
             family=str(row["family"]),
