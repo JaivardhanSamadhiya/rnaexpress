@@ -1,0 +1,34 @@
+{
+  "phase": "FinalShot frozen matched-head representation benchmark",
+  "protocol_commit": "30c89a3",
+  "rows": 93208,
+  "decision_sets": 445,
+  "biological_units": 213,
+  "target": "within-training-decision-set empirical effect midrank",
+  "head": "training-fold StandardScaler + weighted Ridge(alpha=100, solver=lsqr, tol=1e-6)",
+  "summary": [
+    {
+      "representation": "R1_3utrbert",
+      "equal_source_direction_rank_context_value": 0.03316468245674977,
+      "equal_source_direction_regret_context_value": 0.0311405100154652,
+      "positive_rank_tasks": 5,
+      "positive_regret_tasks": 6,
+      "source_direction_tasks": 6
+    },
+    {
+      "representation": "R2_rbpnet_output",
+      "equal_source_direction_rank_context_value": 0.043792139834289624,
+      "equal_source_direction_regret_context_value": 0.025140064916284354,
+      "positive_rank_tasks": 6,
+      "positive_regret_tasks": 6,
+      "source_direction_tasks": 6
+    }
+  ],
+  "input_hashes": {
+    "results/v4_phaseB/model_candidate_rows.csv.gz": "4e2339e1845147a14076bd8db9105a60ac91c59607c718212b59199f3ec0fd4c",
+    "data/interim/finalshot_rbpnet_features.npy": "3857bc47510828ff6e45134e0429d760f424b20fed4dcae3675fb40abbf77abc",
+    "data/interim/v4_phaseB_3utrbert_full_features.npy": "51912767e74dc19a06dadf6bab9f3022f11939f1cc537f024af148cc18f948d9"
+  },
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}

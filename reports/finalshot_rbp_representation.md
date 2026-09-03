@@ -103,3 +103,36 @@ No localization outcome was read by the reconstruction script. N-zip outcomes
 and all Astrocyte data remained untouched. This report establishes a valid
 mechanistic feature layer; it makes no performance or GO claim.
 
+## Frozen matched-head representation result
+
+After the representation and benchmark implementation were committed, all
+three preregistered representations were evaluated with identical five-fold
+biological holdouts, hierarchical weights, within-training-set effect midranks,
+and `StandardScaler + Ridge(alpha=100)` heads. There was no unit overlap in any
+fold and every one of 93,208 rows received one held-out score.
+
+Equal-weighted over three sources and two directions, relative to R0 geometry:
+
+| representation | rank ContextValue | regret ContextValue | positive rank tasks | positive regret tasks |
+|---|---:|---:|---:|---:|
+| R1 3UTRBERT | +0.03316 | +0.03114 | 5/6 | 6/6 |
+| R2 RBPNet output space | **+0.04379** | +0.02514 | **6/6** | **6/6** |
+
+R2's rank increment is larger than R1's, while R1's regret increment is larger.
+This is the first evidence in the project that the frozen RBP output space has
+broad incremental held-unit value: R2's rank and regret gains are positive in
+every source×direction task. The smallest R2 gains are still positive (Mikl
+decrease rank `+0.01513`; Mikl decrease regret `+0.01297`). The largest rank
+gain is Moffatt increase (`+0.12953`).
+
+This benchmark passes the numerical magnitude of Gate A, but it is **not a
+FinalShot verdict**. It is within-source biological holdout using a matched
+Ridge head. The required sparse M1/M2/M3 evaluation, distributed-unit checks,
+Mikl matching, leave-source-out, cell/reporter transfer, 2-10-nt bridge, and
+mechanism-breaking controls can still invalidate the hypothesis.
+
+Machine outputs are `representation_benchmark.json`,
+`representation_predictions.csv.gz`, `representation_set_metrics.csv.gz`,
+`representation_unit_metrics.csv`, `representation_source_metrics.csv`,
+`representation_context_values.csv`, and `representation_fold_audit.csv` under
+`results/finalshot/`.

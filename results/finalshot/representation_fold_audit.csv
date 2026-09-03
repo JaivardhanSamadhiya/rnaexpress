@@ -1,0 +1,16 @@
+representation,feature_count,fold,train_rows,test_rows,train_units,test_units,unit_overlap,solver,iterations
+R0_geometry,28,0,72190,21018,171,42,0,lsqr,43
+R0_geometry,28,1,66475,26733,175,38,0,lsqr,47
+R0_geometry,28,2,68180,25028,167,46,0,lsqr,48
+R0_geometry,28,3,87495,5713,172,41,0,lsqr,48
+R0_geometry,28,4,78492,14716,167,46,0,lsqr,47
+R1_3utrbert,284,0,72190,21018,171,42,0,lsqr,181
+R1_3utrbert,284,1,66475,26733,175,38,0,lsqr,161
+R1_3utrbert,284,2,68180,25028,167,46,0,lsqr,220
+R1_3utrbert,284,3,87495,5713,172,41,0,lsqr,211
+R1_3utrbert,284,4,78492,14716,167,46,0,lsqr,181
+R2_rbpnet_output,955,0,72190,21018,171,42,0,lsqr,412
+R2_rbpnet_output,955,1,66475,26733,175,38,0,lsqr,445
+R2_rbpnet_output,955,2,68180,25028,167,46,0,lsqr,409
+R2_rbpnet_output,955,3,87495,5713,172,41,0,lsqr,429
+R2_rbpnet_output,955,4,78492,14716,167,46,0,lsqr,441

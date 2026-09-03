@@ -144,3 +144,24 @@ def test_assembled_rbp_matrix_and_dictionary_are_frozen() -> None:
     assert metadata["localization_outcomes_accessed"] is False
     assert metadata["nzip_outcomes_accessed"] is False
     assert metadata["astrocyte_data_accessed"] is False
+
+
+def test_representation_benchmark_is_complete_grouped_and_finite() -> None:
+    summary = json.loads((OUT / "representation_benchmark.json").read_text(encoding="utf-8"))
+    predictions = pd.read_csv(OUT / "representation_predictions.csv.gz")
+    folds = pd.read_csv(OUT / "representation_fold_audit.csv")
+    context = pd.read_csv(OUT / "representation_context_values.csv")
+    assert summary["rows"] == len(predictions) == 93_208
+    assert summary["decision_sets"] == 445
+    assert summary["biological_units"] == 213
+    assert summary["nzip_outcomes_accessed"] is False
+    assert summary["astrocyte_data_accessed"] is False
+    score_columns = ["R0_geometry", "R1_3utrbert", "R2_rbpnet_output"]
+    assert np.isfinite(predictions[score_columns].to_numpy()).all()
+    assert len(folds) == 15
+    assert folds["unit_overlap"].eq(0).all()
+    assert set(context["representation"]) == {"R1_3utrbert", "R2_rbpnet_output"}
+    assert context.groupby("representation").size().eq(6).all()
+    rbp = context[context["representation"] == "R2_rbpnet_output"]
+    assert rbp["rank_context_value"].gt(0).all()
+    assert rbp["regret_context_value"].gt(0).all()
