@@ -18,10 +18,15 @@ PROTOCOL = ROOT / "reports" / "finalshot_protocol.md"
 PROTECTED = ROOT / "src" / "pairing" / "audit_astrocyte.py"
 SIGNATURE_BUILDER = ROOT / "src" / "features" / "build_finalshot_rbpnet_signatures.py"
 SIGNATURE_MANIFEST = OUT / "rbp_signature_manifest.json"
+ASSEMBLER = ROOT / "src" / "features" / "assemble_finalshot_features.py"
 
 
 def test_context_builder_respects_protected_boundaries() -> None:
-    code = (BUILDER.read_text(encoding="utf-8") + SIGNATURE_BUILDER.read_text(encoding="utf-8")).lower()
+    code = (
+        BUILDER.read_text(encoding="utf-8")
+        + SIGNATURE_BUILDER.read_text(encoding="utf-8")
+        + ASSEMBLER.read_text(encoding="utf-8")
+    ).lower()
     assert "data/raw/astrocyte" not in code
     assert "data/processed/nzip" not in code
     assert "localization_effect" not in code
@@ -122,3 +127,18 @@ def test_completed_rbp_cache_manifest_is_consistent() -> None:
         features = ROOT / entry["feature_file"]
         assert profile.is_file() and profile.stat().st_size > 80_000_000
         assert features.is_file() and features.stat().st_size > 2_000_000
+
+
+def test_assembled_rbp_matrix_and_dictionary_are_frozen() -> None:
+    metadata = json.loads((OUT / "rbp_feature_matrix_manifest.json").read_text(encoding="utf-8"))
+    dictionary = pd.read_csv(OUT / "rbp_feature_dictionary.csv")
+    matrix = np.load(ROOT / metadata["matrix_path"], mmap_mode="r")
+    assert matrix.shape == (62_665, 927)
+    assert matrix.dtype == np.float32
+    assert np.isfinite(matrix[[0, 10_000, 62_664]]).all()
+    assert len(dictionary) == 927
+    assert dictionary["group_index"].nunique() == 103
+    assert dictionary.groupby("group_index").size().eq(9).all()
+    assert metadata["localization_outcomes_accessed"] is False
+    assert metadata["nzip_outcomes_accessed"] is False
+    assert metadata["astrocyte_data_accessed"] is False

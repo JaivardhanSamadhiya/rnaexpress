@@ -1,0 +1,19 @@
+{
+  "phase": "FinalShot assembled RBPNet feature matrix",
+  "signature_manifest_sha256": "48e079afbf74b1b9809912b4e27323a7add07d8bb209c5e752ac8db5b9b481a8",
+  "matrix_path": "data/interim/finalshot_rbpnet_features.npy",
+  "matrix_shape": [
+    62665,
+    927
+  ],
+  "matrix_dtype": "float32",
+  "matrix_sha256": "3857bc47510828ff6e45134e0429d760f424b20fed4dcae3675fb40abbf77abc",
+  "dictionary_path": "results/finalshot/rbp_feature_dictionary.csv",
+  "dictionary_sha256": "459ee42d96000d2ff1b8c36fc062e721b2fc43172000aff22a2b927fb44d60b1",
+  "rbp_groups": 103,
+  "features_per_group": 9,
+  "feature_order": "alphabetical task, then frozen nine-summary order",
+  "localization_outcomes_accessed": false,
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}
