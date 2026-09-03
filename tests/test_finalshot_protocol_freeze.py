@@ -19,17 +19,19 @@ PROTECTED = ROOT / "src" / "pairing" / "audit_astrocyte.py"
 SIGNATURE_BUILDER = ROOT / "src" / "features" / "build_finalshot_rbpnet_signatures.py"
 SIGNATURE_MANIFEST = OUT / "rbp_signature_manifest.json"
 ASSEMBLER = ROOT / "src" / "features" / "assemble_finalshot_features.py"
+REPRESENTATION_RUNNER = ROOT / "src" / "analysis" / "run_finalshot_representation_benchmark.py"
 
 
 def test_context_builder_respects_protected_boundaries() -> None:
-    code = (
+    outcome_blind_code = (
         BUILDER.read_text(encoding="utf-8")
         + SIGNATURE_BUILDER.read_text(encoding="utf-8")
         + ASSEMBLER.read_text(encoding="utf-8")
     ).lower()
-    assert "data/raw/astrocyte" not in code
-    assert "data/processed/nzip" not in code
-    assert "localization_effect" not in code
+    all_code = outcome_blind_code + REPRESENTATION_RUNNER.read_text(encoding="utf-8").lower()
+    assert "data/raw/astrocyte" not in all_code
+    assert "data/processed/nzip" not in all_code
+    assert "localization_effect" not in outcome_blind_code
     assert hashlib.sha256(PROTECTED.read_bytes()).hexdigest() == (
         "78fd563f4e51866bc6d0e18aac9bfbbedf20ad0986e6bd087caf9b0b11901a78"
     )
