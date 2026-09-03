@@ -17,6 +17,7 @@ BUILDER = ROOT / "src" / "audit" / "build_finalshot_trans_context.py"
 PROTOCOL = ROOT / "reports" / "finalshot_protocol.md"
 PROTECTED = ROOT / "src" / "pairing" / "audit_astrocyte.py"
 SIGNATURE_BUILDER = ROOT / "src" / "features" / "build_finalshot_rbpnet_signatures.py"
+SIGNATURE_MANIFEST = OUT / "rbp_signature_manifest.json"
 
 
 def test_context_builder_respects_protected_boundaries() -> None:
@@ -99,3 +100,25 @@ def test_rbp_signature_summary_obeys_conservation_and_feature_order() -> None:
     np.testing.assert_allclose(values[0], [0, 0, 0, 0.1, 0.15, 0.15, 1, 0.3, 0.1], atol=1e-6)
     assert diagnostics["max_abs_global_signed_delta"] < 1e-6
     assert diagnostics["max_abs_gain_loss_difference"] < 1e-6
+
+
+def test_completed_rbp_cache_manifest_is_consistent() -> None:
+    manifest = json.loads(SIGNATURE_MANIFEST.read_text(encoding="utf-8"))
+    entries = manifest["checkpoint_caches"]
+    assert manifest["protocol_commit"] == "30c89a3"
+    assert manifest["checkpoint_count"] == len(entries) == 103
+    assert manifest["sequence_index"]["unique_sequences"] == 72_998
+    assert manifest["source_interventions"]["interventions"] == 62_665
+    assert manifest["sequence_index"]["length_counts"] == {"150": 17_567, "260": 55_431}
+    assert manifest["localization_outcomes_accessed"] is False
+    assert manifest["nzip_outcomes_accessed"] is False
+    assert manifest["astrocyte_data_accessed"] is False
+    assert len({entry["task"] for entry in entries}) == 103
+    assert max(entry["inference"]["profile_sum_max_abs_error"] for entry in entries) < 1e-6
+    assert max(entry["signature"]["max_abs_global_signed_delta"] for entry in entries) < 1e-6
+    assert max(entry["signature"]["max_abs_gain_loss_difference"] for entry in entries) < 1e-6
+    for entry in entries:
+        profile = ROOT / entry["profile_file"]
+        features = ROOT / entry["feature_file"]
+        assert profile.is_file() and profile.stat().st_size > 80_000_000
+        assert features.is_file() and features.stat().st_size > 2_000_000
