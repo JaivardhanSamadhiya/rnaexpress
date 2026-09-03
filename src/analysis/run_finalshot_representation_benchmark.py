@@ -10,6 +10,7 @@ from __future__ import annotations
 import hashlib
 import json
 import platform
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -18,10 +19,14 @@ from scipy.stats import rankdata
 from sklearn.linear_model import Ridge
 from sklearn.preprocessing import StandardScaler
 
+
+ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from src.modeling.v4_decision_models import decision_set_metrics, geometry_features, source_set_weights
 
 
-ROOT = Path(__file__).resolve().parents[2]
 ROWS = ROOT / "results" / "v4_phaseB" / "model_candidate_rows.csv.gz"
 RBP_MATRIX = ROOT / "data" / "interim" / "finalshot_rbpnet_features.npy"
 RBP_MANIFEST = ROOT / "results" / "finalshot" / "rbp_feature_matrix_manifest.json"
