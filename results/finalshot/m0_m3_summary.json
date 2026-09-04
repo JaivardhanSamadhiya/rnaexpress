@@ -1,0 +1,107 @@
+{
+  "phase": "FinalShot M0-M3 nested biological-fold evaluation",
+  "outer_fold_selected_family": [
+    "M1",
+    "M2",
+    "M3",
+    "M1",
+    "M1"
+  ],
+  "m3_recipes": [
+    {
+      "outer_fold": 0,
+      "penalty": 0.1,
+      "group_fraction": 0.75,
+      "head_form": "affine"
+    },
+    {
+      "outer_fold": 1,
+      "penalty": 0.001,
+      "group_fraction": 0.25,
+      "head_form": "affine"
+    },
+    {
+      "outer_fold": 2,
+      "penalty": 0.001,
+      "group_fraction": 0.25,
+      "head_form": "two_knot"
+    },
+    {
+      "outer_fold": 3,
+      "penalty": 0.001,
+      "group_fraction": 0.25,
+      "head_form": "two_knot"
+    },
+    {
+      "outer_fold": 4,
+      "penalty": 0.001,
+      "group_fraction": 0.75,
+      "head_form": "affine"
+    }
+  ],
+  "summary": [
+    {
+      "model": "M1",
+      "rank_context_value": 0.011063311490132233,
+      "regret_context_value": 0.03234877043886436,
+      "positive_rank_tasks": 4,
+      "positive_regret_tasks": 5,
+      "gate_A": false
+    },
+    {
+      "model": "M1_M2_M3_nested_selected",
+      "rank_context_value": 0.042294417606986635,
+      "regret_context_value": 0.04009444321442557,
+      "positive_rank_tasks": 6,
+      "positive_regret_tasks": 6,
+      "gate_A": true
+    },
+    {
+      "model": "M2",
+      "rank_context_value": 0.02023821123635237,
+      "regret_context_value": 0.033873376597092934,
+      "positive_rank_tasks": 4,
+      "positive_regret_tasks": 5,
+      "gate_A": true
+    },
+    {
+      "model": "M3",
+      "rank_context_value": 0.05516709110369147,
+      "regret_context_value": 0.02389789707846054,
+      "positive_rank_tasks": 5,
+      "positive_regret_tasks": 6,
+      "gate_A": true
+    },
+    {
+      "model": "M3_seed17",
+      "rank_context_value": 0.05575968873825856,
+      "regret_context_value": 0.02477034556788738,
+      "positive_rank_tasks": 5,
+      "positive_regret_tasks": 5,
+      "gate_A": true
+    },
+    {
+      "model": "M3_seed41",
+      "rank_context_value": 0.0686269207017865,
+      "regret_context_value": 0.032129406553842665,
+      "positive_rank_tasks": 6,
+      "positive_regret_tasks": 6,
+      "gate_A": true
+    },
+    {
+      "model": "M3_seed89",
+      "rank_context_value": 0.045672044066313755,
+      "regret_context_value": 0.021630253882955416,
+      "positive_rank_tasks": 5,
+      "positive_regret_tasks": 5,
+      "gate_A": true
+    }
+  ],
+  "seed_stability": {
+    "rank_context_value_std": 0.009394162459151747,
+    "regret_context_value_std": 0.004400103044139193,
+    "all_seed_gate_A_agree": true
+  },
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}
