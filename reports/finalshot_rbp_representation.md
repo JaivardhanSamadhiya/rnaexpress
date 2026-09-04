@@ -136,3 +136,37 @@ Machine outputs are `representation_benchmark.json`,
 `representation_unit_metrics.csv`, `representation_source_metrics.csv`,
 `representation_context_values.csv`, and `representation_fold_audit.csv` under
 `results/finalshot/`.
+
+## Frozen sparse-group direct models (M1/M2)
+
+The definitive five-outer-fold direct-model sweep completed after the matched-
+head benchmark. It comprised 240 inner fits and ten outer refits. Every fit met
+the frozen FISTA convergence rule; no grid point or fold was discarded. Exact
+numerical semantics are recorded in `reports/finalshot_model_implementation.md`.
+
+Equal-weight source × requested-direction ContextValue over M0 was:
+
+| Model | Rank ContextValue | Regret ContextValue | Positive rank tasks | Positive regret tasks | Gate A |
+|---|---:|---:|---:|---:|---|
+| M1 | +0.01106 | +0.03235 | 4/6 | 5/6 | fail (rank) |
+| M2 | +0.02024 | +0.03387 | 4/6 | 5/6 | pass |
+| foldwise M1/M2 inner-selected | +0.01389 | +0.03196 | 4/6 | 5/6 | fail (rank) |
+
+M2 therefore clears the two frozen Gate A thresholds, but its rank margin is
+only `+0.00024` above the cutoff and this is not a final verdict. Source-
+direction M2 ContextValues were:
+
+| Source | Direction | Rank ContextValue | Regret ContextValue |
+|---|---|---:|---:|
+| Mikl | decrease | +0.04982 | +0.03305 |
+| Mikl | increase | +0.04595 | +0.03801 |
+| Moffatt | decrease | +0.01601 | +0.03304 |
+| Moffatt | increase | -0.03278 | -0.01449 |
+| TDP-43 | decrease | -0.01306 | +0.06019 |
+| TDP-43 | increase | +0.05548 | +0.05344 |
+
+Selected M2 penalties were `lambda=0.001` in four outer folds and `0.01` in
+one. Selected group counts were 89, 86, 11, 96, and 81. This variability is
+retained for the preregistered group-stability report. M2 passing Gate A does
+not override the mandatory distributed-unit, matched-mechanism, transfer,
+small-edit, RBP-necessity, trans-context, optimization, or integrity gates.

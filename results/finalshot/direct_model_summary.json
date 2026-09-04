@@ -1,0 +1,114 @@
+{
+  "phase": "FinalShot M0-M2 nested direct evaluation",
+  "outer_fold_selected_family": [
+    "M1",
+    "M2",
+    "M2",
+    "M1",
+    "M1"
+  ],
+  "summary": [
+    {
+      "model": "M1",
+      "equal_source_direction_rank_context_value": 0.011063311490132233,
+      "equal_source_direction_regret_context_value": 0.03234877043886436,
+      "positive_rank_tasks": 4,
+      "positive_regret_tasks": 5,
+      "gate_A": false
+    },
+    {
+      "model": "M1_M2_nested_selected",
+      "equal_source_direction_rank_context_value": 0.013892902909620622,
+      "equal_source_direction_regret_context_value": 0.03196079517732333,
+      "positive_rank_tasks": 4,
+      "positive_regret_tasks": 5,
+      "gate_A": false
+    },
+    {
+      "model": "M2",
+      "equal_source_direction_rank_context_value": 0.02023821123635237,
+      "equal_source_direction_regret_context_value": 0.033873376597092934,
+      "positive_rank_tasks": 4,
+      "positive_regret_tasks": 5,
+      "gate_A": true
+    }
+  ],
+  "fit_recipes": {
+    "M1": [
+      {
+        "outer_fold": 0,
+        "penalty": 0.001,
+        "group_fraction": 0.75,
+        "selected_groups": 90,
+        "converged": true
+      },
+      {
+        "outer_fold": 1,
+        "penalty": 0.001,
+        "group_fraction": 0.75,
+        "selected_groups": 87,
+        "converged": true
+      },
+      {
+        "outer_fold": 2,
+        "penalty": 0.01,
+        "group_fraction": 0.25,
+        "selected_groups": 10,
+        "converged": true
+      },
+      {
+        "outer_fold": 3,
+        "penalty": 0.001,
+        "group_fraction": 0.25,
+        "selected_groups": 97,
+        "converged": true
+      },
+      {
+        "outer_fold": 4,
+        "penalty": 0.001,
+        "group_fraction": 0.75,
+        "selected_groups": 80,
+        "converged": true
+      }
+    ],
+    "M2": [
+      {
+        "outer_fold": 0,
+        "penalty": 0.001,
+        "group_fraction": 0.75,
+        "selected_groups": 89,
+        "converged": true
+      },
+      {
+        "outer_fold": 1,
+        "penalty": 0.001,
+        "group_fraction": 0.75,
+        "selected_groups": 86,
+        "converged": true
+      },
+      {
+        "outer_fold": 2,
+        "penalty": 0.01,
+        "group_fraction": 0.25,
+        "selected_groups": 11,
+        "converged": true
+      },
+      {
+        "outer_fold": 3,
+        "penalty": 0.001,
+        "group_fraction": 0.25,
+        "selected_groups": 96,
+        "converged": true
+      },
+      {
+        "outer_fold": 4,
+        "penalty": 0.001,
+        "group_fraction": 0.75,
+        "selected_groups": 81,
+        "converged": true
+      }
+    ]
+  },
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}
