@@ -10,6 +10,7 @@ from src.modeling.finalshot_models import (
 )
 from src.analysis.run_finalshot_direct_models import select_recipe
 from src.analysis.summarize_finalshot_direct_models import choose_direct_family
+from src.analysis.run_finalshot_m3 import choose_m3_recipe
 
 
 def _layout() -> FeatureLayout:
@@ -93,3 +94,17 @@ def test_latent_heads_are_monotone_and_unit_scaled():
     order = np.argsort(phi[heads == 0])
     calibrated = model.calibrated_prediction(x[heads == 0], np.zeros(64, dtype=int))
     assert np.all(np.diff(calibrated[order]) >= 0)
+
+
+def test_m3_recipe_tie_uses_frozen_head_and_regularization_order():
+    grid = [
+        {"normalized_regret": 0.100, "directional_rank_percentile": 0.51,
+         "good_selection_at_3": 0.4, "head_form": "two_knot", "penalty": 0.001,
+         "group_fraction": 0.25},
+        {"normalized_regret": 0.101, "directional_rank_percentile": 0.51,
+         "good_selection_at_3": 0.4, "head_form": "affine", "penalty": 0.1,
+         "group_fraction": 0.75},
+    ]
+    selected = choose_m3_recipe(grid)
+    assert selected["head_form"] == "affine"
+    assert selected["penalty"] == 0.1
