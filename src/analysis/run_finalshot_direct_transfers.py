@@ -91,21 +91,21 @@ def run(task: str, family: str) -> None:
             test_indices = archive["test_indices"].astype(np.int32)
             prediction = archive["prediction"].astype(np.float32)
             metadata = json.loads(str(archive["metadata_json"].item()))
-            if np.isfinite(prediction).all():
-                if "target_test_outcomes_used_for_fitting" not in metadata:
-                    metadata.pop("target_outcomes_used_for_fitting", None)
-                    metadata["training_outcomes_used_for_fitting"] = True
-                    metadata["target_test_outcomes_used_for_fitting"] = False
-                    temporary = destination.with_suffix(".tmp.npz")
-                    np.savez_compressed(
-                        temporary,
-                        test_indices=test_indices,
-                        prediction=prediction,
-                        metadata_json=np.asarray(json.dumps(metadata, sort_keys=True)),
-                    )
-                    os.replace(temporary, destination)
-                print(f"validated existing {destination.relative_to(ROOT)}", flush=True)
-                return
+        if np.isfinite(prediction).all():
+            if "target_test_outcomes_used_for_fitting" not in metadata:
+                metadata.pop("target_outcomes_used_for_fitting", None)
+                metadata["training_outcomes_used_for_fitting"] = True
+                metadata["target_test_outcomes_used_for_fitting"] = False
+                temporary = destination.with_suffix(".tmp.npz")
+                np.savez_compressed(
+                    temporary,
+                    test_indices=test_indices,
+                    prediction=prediction,
+                    metadata_json=np.asarray(json.dumps(metadata, sort_keys=True)),
+                )
+                os.replace(temporary, destination)
+            print(f"validated existing {destination.relative_to(ROOT)}", flush=True)
+            return
     rows = pd.read_csv(ROWS)
     train_mask, test_mask = transfer_masks(rows, task)
     train_indices = np.flatnonzero(train_mask)
