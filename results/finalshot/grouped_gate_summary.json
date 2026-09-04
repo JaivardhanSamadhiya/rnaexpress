@@ -1,0 +1,42 @@
+{
+  "model": "M1_M2_M3_nested_selected",
+  "gate_B_distributed_units": {
+    "biological_units": 213,
+    "all_units_have_both_directions": true,
+    "positive_median_unit_regret_context_value": 0.009947503999552396,
+    "unit_improvement_fraction": 0.5446009389671361,
+    "equal_source_mean_regret_context_value": 0.040094443214425554,
+    "leave_best_one_out_equal_source_mean": 0.039030961234055216,
+    "bootstrap_95_interval": [
+      0.0067933295626856965,
+      0.07385565670470746
+    ],
+    "source_unit_counts": {
+      "mikl_gse173098": 189,
+      "tdp43_gse288185": 16,
+      "moffatt_gse334718": 8
+    },
+    "gate_B": false
+  },
+  "gate_C_mikl_matched": {
+    "eligible_cross_strata": 284,
+    "matched_rows": 9834,
+    "matched_decision_subsets": 1600,
+    "matched_genes": 120,
+    "motif_direction_tasks": 146,
+    "motif_macro_rank_context_value": 0.015817878192330218,
+    "motif_macro_regret_context_value": 0.017845274129079762,
+    "positive_rank_motif_tasks": 76,
+    "positive_regret_motif_tasks": 80,
+    "gate_C": true
+  },
+  "gate_F_small_edit": {
+    "combined_2_10_rank_context_value": -0.02129314076423004,
+    "combined_2_10_regret_context_value": -0.00572259976649105,
+    "two_to_five_regret_context_value": 0.012901874555081877,
+    "six_to_ten_regret_context_value": -0.030535199186132112,
+    "gate_F": false
+  },
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}
