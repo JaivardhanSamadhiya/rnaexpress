@@ -1,0 +1,106 @@
+{
+  "phase": "FinalShot frozen zero-shot transfers",
+  "task_family_selection": [
+    {
+      "task": "CAD_to_N2A",
+      "selected_family": "M3",
+      "test_rows": 11808
+    },
+    {
+      "task": "N2A_to_CAD",
+      "selected_family": "M3",
+      "test_rows": 11808
+    },
+    {
+      "task": "Firefly_to_GFP",
+      "selected_family": "M3",
+      "test_rows": 44248
+    },
+    {
+      "task": "GFP_to_Firefly",
+      "selected_family": "M3",
+      "test_rows": 20778
+    },
+    {
+      "task": "leave_Mikl",
+      "selected_family": "M2",
+      "test_rows": 23616
+    },
+    {
+      "task": "leave_TDP",
+      "selected_family": "M2",
+      "test_rows": 4566
+    },
+    {
+      "task": "leave_Moffatt",
+      "selected_family": "M3",
+      "test_rows": 65026
+    }
+  ],
+  "gate_D_leave_source": {
+    "positive_regret_tasks": 6,
+    "task_count": 6,
+    "mean_rank_context_value": 0.09396426456856229,
+    "mean_regret_context_value": 0.06921494960657812,
+    "maximum_source_share_of_positive_regret": 0.6811362645445113,
+    "source_positive_regret_contributions": {
+      "mikl_gse173098": 0.062338810505882025,
+      "moffatt_gse334718": 0.28286887335396727,
+      "tdp43_gse288185": 0.07008201377961942
+    },
+    "pass": true
+  },
+  "gate_E_cell": {
+    "positive_rank_and_regret_tasks": 1,
+    "task_count": 4,
+    "mean_rank_context_value": -0.00468022526625092,
+    "mean_regret_context_value": -0.001294412837616471,
+    "pass": false
+  },
+  "gate_E_reporter": {
+    "positive_rank_and_regret_tasks": 2,
+    "task_count": 4,
+    "mean_rank_context_value": 0.005105472493576374,
+    "mean_regret_context_value": -0.021905827817757267,
+    "pass": false
+  },
+  "gate_E_pass": false,
+  "gate_J_measurement_process": {
+    "model": "M3",
+    "mean_rank_improvement": 0.03313524119974453,
+    "mean_regret_improvement": 0.02238152471689937,
+    "regret_worsened_by_more_than_0_020": 2,
+    "task_count": 6,
+    "pass": false
+  },
+  "gate_K_transfer_seed_conclusions": [
+    {
+      "model": "M3_seed17",
+      "mean_rank_improvement": 0.030802196222612238,
+      "mean_regret_improvement": 0.021695216051297723,
+      "regret_worsened_by_more_than_0_020": 2,
+      "task_count": 6,
+      "pass": false
+    },
+    {
+      "model": "M3_seed41",
+      "mean_rank_improvement": 0.044022668170292455,
+      "mean_regret_improvement": 0.028853460051415276,
+      "regret_worsened_by_more_than_0_020": 2,
+      "task_count": 6,
+      "pass": false
+    },
+    {
+      "model": "M3_seed89",
+      "mean_rank_improvement": 0.025136926845796576,
+      "mean_regret_improvement": 0.02303663658195611,
+      "regret_worsened_by_more_than_0_020": 2,
+      "task_count": 6,
+      "pass": false
+    }
+  ],
+  "gate_K_all_seed_gate_J_agree": true,
+  "target_test_outcomes_used_for_fitting": false,
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}
