@@ -92,6 +92,7 @@ def test_control_code_has_no_protected_data_path() -> None:
     paths = (
         ROOT / "src" / "modeling" / "finalshot_controls.py",
         ROOT / "src" / "analysis" / "run_finalshot_direct_controls.py",
+        ROOT / "src" / "analysis" / "run_finalshot_m3_controls.py",
     )
     source = "\n".join(path.read_text(encoding="utf-8").lower() for path in paths)
     assert "data/processed/nzip" not in source
