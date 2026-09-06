@@ -1,0 +1,58 @@
+{
+  "phase": "FinalShot Gate G mechanism-breaking controls",
+  "controls": [
+    {
+      "control": "rbp_identity_permutation",
+      "eligible_rows": 93208,
+      "excluded_rows": 0,
+      "outer_fold_selected_family": [
+        "M3",
+        "M3",
+        "M3",
+        "M3",
+        "M3"
+      ],
+      "observed_rank_context_value": 0.042294417606986635,
+      "observed_regret_context_value": 0.04009444321442557,
+      "control_rank_context_value": 0.04566368714562785,
+      "control_regret_context_value": 0.03161055277790719,
+      "rank_retained_fraction": 1.0796622752900762,
+      "regret_retained_fraction": 0.7884023381707428,
+      "rank_eliminated_fraction": -0.07966227529007619,
+      "regret_eliminated_fraction": 0.2115976618292572,
+      "mean_retained_fraction": 0.9340323067304095,
+      "eliminates_at_least_half_one_metric": false,
+      "mean_retained_at_most_half": false,
+      "control_meets_gate_A": true,
+      "individual_pass": false
+    },
+    {
+      "control": "delta_rbp_shuffle",
+      "eligible_rows": 92846,
+      "excluded_rows": 362,
+      "outer_fold_selected_family": [
+        "M3",
+        "M3",
+        "M2",
+        "M3",
+        "M2"
+      ],
+      "observed_rank_context_value": 0.03977471529411936,
+      "observed_regret_context_value": 0.0389655149051635,
+      "control_rank_context_value": 0.05175803260622285,
+      "control_regret_context_value": 0.03907477056872854,
+      "rank_retained_fraction": 1.3012797759453782,
+      "regret_retained_fraction": 1.002803906578187,
+      "rank_eliminated_fraction": -0.30127977594537825,
+      "regret_eliminated_fraction": -0.0028039065781870764,
+      "mean_retained_fraction": 1.1520418412617826,
+      "eliminates_at_least_half_one_metric": false,
+      "mean_retained_at_most_half": false,
+      "control_meets_gate_A": true,
+      "individual_pass": false
+    }
+  ],
+  "gate_G_pass": false,
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}

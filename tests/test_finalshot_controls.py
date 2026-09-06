@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import numpy as np
@@ -19,6 +20,8 @@ ROWS = ROOT / "results" / "v4_phaseB" / "model_candidate_rows.csv.gz"
 RBP = ROOT / "data" / "interim" / "finalshot_rbpnet_features.npy"
 DICTIONARY = ROOT / "results" / "finalshot" / "rbp_feature_dictionary.csv"
 EXPRESSION = ROOT / "results" / "finalshot" / "rbp_expression_proxy.csv"
+GATE_G = ROOT / "results" / "finalshot" / "gate_g_summary.json"
+CONTROL_CONTEXT = ROOT / "results" / "finalshot" / "mechanism_control_context_values.csv"
 
 
 def test_delta_shuffle_is_deterministic_cross_unit_and_fail_closed() -> None:
@@ -98,3 +101,33 @@ def test_control_code_has_no_protected_data_path() -> None:
     assert "data/processed/nzip" not in source
     assert "data/raw/astrocyte" not in source
     assert "astrocyte_gse330741" not in source
+
+
+def test_gate_g_summary_matches_frozen_context_values() -> None:
+    summary = json.loads(GATE_G.read_text(encoding="utf-8"))
+    context = pd.read_csv(CONTROL_CONTEXT)
+    assert len(summary["controls"]) == 2
+    assert set(context["control"]) == {"rbp_identity_permutation", "delta_rbp_shuffle"}
+    assert set(context["model"]) == {"observed_nested", "broken_nested"}
+    assert context.groupby(["control", "model"]).size().eq(6).all()
+    for item in summary["controls"]:
+        control = item["control"]
+        observed = context[(context["control"] == control) & (context["model"] == "observed_nested")]
+        broken = context[(context["control"] == control) & (context["model"] == "broken_nested")]
+        assert np.isclose(observed["rank_context_value"].mean(), item["observed_rank_context_value"])
+        assert np.isclose(observed["regret_context_value"].mean(), item["observed_regret_context_value"])
+        assert np.isclose(broken["rank_context_value"].mean(), item["control_rank_context_value"])
+        assert np.isclose(broken["regret_context_value"].mean(), item["control_regret_context_value"])
+        assert np.isclose(
+            item["mean_retained_fraction"],
+            np.mean([item["rank_retained_fraction"], item["regret_retained_fraction"]]),
+        )
+        expected_pass = (
+            item["eliminates_at_least_half_one_metric"]
+            and item["mean_retained_at_most_half"]
+            and not item["control_meets_gate_A"]
+        )
+        assert item["individual_pass"] is expected_pass
+    assert summary["gate_G_pass"] is all(item["individual_pass"] for item in summary["controls"])
+    assert summary["nzip_outcomes_accessed"] is False
+    assert summary["astrocyte_data_accessed"] is False
