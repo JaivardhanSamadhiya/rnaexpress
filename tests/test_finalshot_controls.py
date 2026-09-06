@@ -96,11 +96,24 @@ def test_control_code_has_no_protected_data_path() -> None:
         ROOT / "src" / "modeling" / "finalshot_controls.py",
         ROOT / "src" / "analysis" / "run_finalshot_direct_controls.py",
         ROOT / "src" / "analysis" / "run_finalshot_m3_controls.py",
+        ROOT / "src" / "analysis" / "run_finalshot_m3_trans_control.py",
     )
     source = "\n".join(path.read_text(encoding="utf-8").lower() for path in paths)
     assert "data/processed/nzip" not in source
     assert "data/raw/astrocyte" not in source
     assert "astrocyte_gse330741" not in source
+
+
+def test_trans_control_wrapper_isolated_from_primary_transfer_outputs() -> None:
+    from src.analysis import run_finalshot_m3_trans_control as control
+    from src.analysis import run_finalshot_m3_transfers as primary
+
+    assert control.CACHE != primary.CACHE
+    assert control.OUT != primary.OUT
+    assert control.IMPLEMENTATION != primary.IMPLEMENTATION
+    rows = pd.read_csv(ROWS, nrows=10)
+    store = control.TransKnockoutStore(rows, RBP, DICTIONARY, EXPRESSION)
+    assert store.control == "trans_interaction_knockout"
 
 
 def test_gate_g_summary_matches_frozen_context_values() -> None:
