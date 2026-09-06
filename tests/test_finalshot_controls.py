@@ -23,6 +23,7 @@ EXPRESSION = ROOT / "results" / "finalshot" / "rbp_expression_proxy.csv"
 GATE_G = ROOT / "results" / "finalshot" / "gate_g_summary.json"
 CONTROL_CONTEXT = ROOT / "results" / "finalshot" / "mechanism_control_context_values.csv"
 GATE_H = ROOT / "results" / "finalshot" / "gate_h_summary.json"
+HEAD_RANDOMIZATION = ROOT / "results" / "finalshot" / "measurement_head_randomization_summary.json"
 
 
 def test_delta_shuffle_is_deterministic_cross_unit_and_fail_closed() -> None:
@@ -98,6 +99,7 @@ def test_control_code_has_no_protected_data_path() -> None:
         ROOT / "src" / "analysis" / "run_finalshot_direct_controls.py",
         ROOT / "src" / "analysis" / "run_finalshot_m3_controls.py",
         ROOT / "src" / "analysis" / "run_finalshot_m3_trans_control.py",
+        ROOT / "src" / "analysis" / "run_finalshot_head_randomization.py",
     )
     source = "\n".join(path.read_text(encoding="utf-8").lower() for path in paths)
     assert "data/processed/nzip" not in source
@@ -162,5 +164,25 @@ def test_gate_h_uses_primary_m3_and_frozen_thresholds() -> None:
     assert len(summary["control_archive_audit"]) == 2
     assert all(len(item["sha256"]) == 64 for item in summary["control_archive_audit"])
     assert summary["target_test_outcomes_used_for_fitting"] is False
+    assert summary["nzip_outcomes_accessed"] is False
+    assert summary["astrocyte_data_accessed"] is False
+
+
+def test_measurement_head_randomization_preserves_latent_score() -> None:
+    summary = json.loads(HEAD_RANDOMIZATION.read_text(encoding="utf-8"))
+    calibration = summary["calibration"]
+    assert summary["complete_derangement"] is True
+    assert summary["baseline_calibration_reproduced"] is True
+    assert summary["latent_ranking_bitwise_unchanged"] is True
+    assert len(summary["head_block_permutation"]) == 5
+    assert all(source != target for source, target in summary["head_block_permutation"].items())
+    assert calibration["pooled_mse_degraded"] is True
+    assert calibration["pooled_spearman_degraded"] is True
+    assert summary["control_pass"] is (
+        calibration["pooled_mse_degraded"]
+        and calibration["pooled_spearman_degraded"]
+        and calibration["equal_head_mse_degraded"]
+        and calibration["equal_head_spearman_degraded"]
+    )
     assert summary["nzip_outcomes_accessed"] is False
     assert summary["astrocyte_data_accessed"] is False

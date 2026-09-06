@@ -1,0 +1,80 @@
+{
+  "phase": "FinalShot measurement-head randomization",
+  "control_seed": 42017,
+  "head_names": [
+    "Mikl-CAD",
+    "Mikl-N2A",
+    "TDP-CAD",
+    "Moffatt-GFP-CAD",
+    "Moffatt-Firefly-CAD"
+  ],
+  "head_block_permutation": {
+    "Mikl-CAD": "Moffatt-GFP-CAD",
+    "Mikl-N2A": "Moffatt-Firefly-CAD",
+    "TDP-CAD": "Mikl-CAD",
+    "Moffatt-GFP-CAD": "TDP-CAD",
+    "Moffatt-Firefly-CAD": "Mikl-N2A"
+  },
+  "complete_derangement": true,
+  "baseline_calibration_reproduced": true,
+  "latent_ranking_bitwise_unchanged": true,
+  "calibration": {
+    "pooled_baseline_mse": 1.2327230482593643,
+    "pooled_randomized_mse": 1.7893776549451008,
+    "pooled_mse_degraded": true,
+    "pooled_baseline_spearman": 0.31723512024831535,
+    "pooled_randomized_spearman": 0.06887894780182792,
+    "pooled_spearman_degraded": true,
+    "equal_head_baseline_mse": 0.8717278002179428,
+    "equal_head_randomized_mse": 1.337701823427349,
+    "equal_head_mse_degraded": true,
+    "equal_head_baseline_spearman": 0.15503606423981792,
+    "equal_head_randomized_spearman": 0.20489839762891168,
+    "equal_head_spearman_degraded": false,
+    "by_head": [
+      {
+        "head": "Mikl-CAD",
+        "rows": 11808,
+        "baseline_mse": 0.8311283726674795,
+        "randomized_mse": 2.0542514505011633,
+        "baseline_spearman": 0.06363419794553862,
+        "randomized_spearman": 0.05114658064452066
+      },
+      {
+        "head": "Mikl-N2A",
+        "rows": 11808,
+        "baseline_mse": 0.661188554754646,
+        "randomized_mse": 0.9325237354653015,
+        "baseline_spearman": 0.062020090706746876,
+        "randomized_spearman": 0.04323654142205097
+      },
+      {
+        "head": "Moffatt-Firefly-CAD",
+        "rows": 20778,
+        "baseline_mse": 0.8379348587769431,
+        "randomized_mse": 0.9395333168324318,
+        "baseline_spearman": 0.1036614237062898,
+        "randomized_spearman": 0.2292443430062019
+      },
+      {
+        "head": "Moffatt-GFP-CAD",
+        "rows": 44248,
+        "baseline_mse": 1.779299054591512,
+        "randomized_mse": 2.504476583942847,
+        "baseline_spearman": 0.23908077305641678,
+        "randomized_spearman": 0.38913615330004153
+      },
+      {
+        "head": "TDP-CAD",
+        "rows": 4566,
+        "baseline_mse": 0.24908816029913317,
+        "randomized_mse": 0.257724030395002,
+        "baseline_spearman": 0.3067838357840975,
+        "randomized_spearman": 0.3117283697717434
+      }
+    ]
+  },
+  "control_pass": false,
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}
