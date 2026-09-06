@@ -22,6 +22,7 @@ DICTIONARY = ROOT / "results" / "finalshot" / "rbp_feature_dictionary.csv"
 EXPRESSION = ROOT / "results" / "finalshot" / "rbp_expression_proxy.csv"
 GATE_G = ROOT / "results" / "finalshot" / "gate_g_summary.json"
 CONTROL_CONTEXT = ROOT / "results" / "finalshot" / "mechanism_control_context_values.csv"
+GATE_H = ROOT / "results" / "finalshot" / "gate_h_summary.json"
 
 
 def test_delta_shuffle_is_deterministic_cross_unit_and_fail_closed() -> None:
@@ -142,5 +143,24 @@ def test_gate_g_summary_matches_frozen_context_values() -> None:
         )
         assert item["individual_pass"] is expected_pass
     assert summary["gate_G_pass"] is all(item["individual_pass"] for item in summary["controls"])
+    assert summary["nzip_outcomes_accessed"] is False
+    assert summary["astrocyte_data_accessed"] is False
+
+
+def test_gate_h_uses_primary_m3_and_frozen_thresholds() -> None:
+    summary = json.loads(GATE_H.read_text(encoding="utf-8"))
+    assert summary["crossed_cell_primary_family"] == "M3"
+    for key in ("M2_comparison", "M3_comparison"):
+        item = summary[key]
+        rank = item["mean_rank_improvement_over_knockout"]
+        regret = item["mean_regret_improvement_over_knockout"]
+        expected = (regret >= 0.005 or rank >= 0.010) and regret >= -0.002 and rank >= -0.002
+        assert item["pass"] is expected
+        assert item["directional_tasks"] == 4
+    assert summary["gate_H_pass"] is summary["M3_comparison"]["pass"]
+    assert summary["trans_context_retained"] is summary["gate_H_pass"]
+    assert len(summary["control_archive_audit"]) == 2
+    assert all(len(item["sha256"]) == 64 for item in summary["control_archive_audit"])
+    assert summary["target_test_outcomes_used_for_fitting"] is False
     assert summary["nzip_outcomes_accessed"] is False
     assert summary["astrocyte_data_accessed"] is False

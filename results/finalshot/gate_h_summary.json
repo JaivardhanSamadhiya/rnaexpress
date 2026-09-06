@@ -1,0 +1,49 @@
+{
+  "phase": "FinalShot Gate H trans context",
+  "crossed_cell_primary_family": "M3",
+  "M2_comparison": {
+    "full_model": "M2",
+    "knockout_model": "M1_trans_knockout",
+    "directional_tasks": 4,
+    "mean_rank_improvement_over_knockout": 0.003568385338723584,
+    "mean_regret_improvement_over_knockout": -0.001687516017357199,
+    "rank_threshold_met": false,
+    "regret_threshold_met": false,
+    "companion_floor_met": true,
+    "pass": false
+  },
+  "M3_comparison": {
+    "full_model": "M3",
+    "knockout_model": "M3_trans_knockout",
+    "directional_tasks": 4,
+    "mean_rank_improvement_over_knockout": 0.0038882363358779537,
+    "mean_regret_improvement_over_knockout": 0.001198948733401567,
+    "rank_threshold_met": false,
+    "regret_threshold_met": false,
+    "companion_floor_met": true,
+    "pass": false
+  },
+  "gate_H_pass": false,
+  "trans_context_retained": false,
+  "control_archive_audit": [
+    {
+      "task": "CAD_to_N2A",
+      "rows": 11808,
+      "sha256": "244894d7521d0c0ad0828a049df3fb34621d7f455ed6e5f31dd6dbd6496d5652",
+      "selected_penalty": 0.001,
+      "selected_group_fraction": 0.75,
+      "selected_head_form": "affine"
+    },
+    {
+      "task": "N2A_to_CAD",
+      "rows": 11808,
+      "sha256": "75174cc689bc43d2a47aa2bcb30dc5f0a3034a918a17ac68c58d8bb0c1f27b89",
+      "selected_penalty": 0.001,
+      "selected_group_fraction": 0.75,
+      "selected_head_form": "affine"
+    }
+  ],
+  "target_test_outcomes_used_for_fitting": false,
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}

@@ -115,3 +115,28 @@ The context block must earn retention through crossed CAD/N2A transfer. A null
 or harmful ablation result removes it; biological plausibility alone is not a
 reason to keep it.
 
+## Frozen Gate H result
+
+The trans-interaction knockout removes every `E × binding` term, reducing M2
+to the corresponding M1 feature space. M3 was independently retrained with its
+frozen nested recipe search and measurement heads on that same knockout feature
+space. All comparisons use the same four held-out task×direction evaluations
+and never fit to target-cell outcomes.
+
+| Full family | Knockout | Mean rank improvement | Mean regret improvement | Companion floor | Gate H pass |
+|---|---|---:|---:|:---:|:---:|
+| M2 | M1 feature space | +0.00357 | -0.00169 | Yes | No |
+| M3 | M3 retrained on M1 feature space | +0.00389 | +0.00120 | Yes | No |
+
+Neither family reaches the frozen +0.010 rank or +0.005 regret threshold. The
+companion metrics remain above the -0.002 harm floor, but that alone cannot
+pass the gate. **Gate H fails and trans-context interactions are dropped.**
+
+The two M3 control archives contain 11,808 target rows each, have matching test
+indices, and were selected only from source-cell inner folds. Their SHA-256
+digests and selected recipes are recorded in
+`results/finalshot/gate_h_summary.json`.
+
+No N-zip outcome was accessed and no Astrocyte outcome or sequence data was
+accessed. Frozen features, folds, model grids, seeds, selection rules, and gate
+thresholds were not changed after results.
