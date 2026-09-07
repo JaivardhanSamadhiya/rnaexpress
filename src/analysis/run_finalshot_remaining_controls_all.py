@@ -15,7 +15,8 @@ def invoke(module: str, *arguments: str) -> None:
 
 def main() -> None:
     for control in CONTROLS:
-        for family in ("M1", "M2"):
+        families = ("M2",) if control == "cell_context_permutation" else ("M1", "M2")
+        for family in families:
             for outer_fold in range(5):
                 invoke(
                     "src.analysis.run_finalshot_direct_controls",
