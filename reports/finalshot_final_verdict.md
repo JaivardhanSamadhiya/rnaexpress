@@ -1,6 +1,6 @@
 # RNAddress FinalShot — required final return
 
-DRAFT — COMPUTATIONAL RELEASE INCOMPLETE
+FINAL RESULT CONSOLIDATION — WITH INTEGRITY QUALIFICATIONS
 
 Scientific conclusion: **NO-GO — END ZERO-SHOT RNADDRESS**. This is not a claim that RNA localization cannot be engineered; it is a rejection of this tested universal zero-shot path under its own standards.
 
@@ -25,7 +25,7 @@ Novelty and primary-source comparisons: [fresh literature audit](finalshot_novel
 
 ## 1. FinalShot verdict
 
-NO-GO — END ZERO-SHOT RNADDRESS. Release preparation remains incomplete: Complete remaining M3 cell-context outer folds, validate archives, and summarize the control.
+NO-GO — END ZERO-SHOT RNADDRESS. Required result consolidation is complete, with the integrity qualifications below.
 
 ## 2. Exact resource-audit findings
 
@@ -238,7 +238,14 @@ Retained rank gain 130.13%, regret gain 100.28%; control still meets both Gate A
 
 ## 43. Cell-context-shuffle control
 
-PENDING; no partial result is treated as final.
+| model | rank_context_value | regret_context_value |
+| --- | --- | --- |
+| cell_swap_M1 | 0.011063 | 0.032349 |
+| cell_swap_M2 | 0.017619 | 0.031393 |
+| cell_swap_M3 | 0.054011 | 0.031748 |
+| cell_swap_nested | 0.034666 | 0.037565 |
+
+M1 is reused unchanged because it contains no expression features.
 
 ## 44. Parent-binding ablation
 
@@ -283,7 +290,7 @@ See finalshot_integrity_review.md: Mikl cap contradiction/omission, selection ti
 
 ## 53. Tests passed
 
-{'tests': 36, 'failures': 0, 'errors': 0, 'skipped': 0}; recorded in submission_tests.xml. Software tests are not substitutes for scientific protocol fidelity.
+{'tests': 40, 'failures': 0, 'errors': 0, 'skipped': 0}; recorded in submission_tests.xml. Software tests are not substitutes for scientific protocol fidelity.
 
 ## 54. Files created
 
@@ -294,6 +301,8 @@ Required reports: finalshot_resource_audit.md, finalshot_protocol.md, finalshot_
 Key earlier checkpoints: 30c89a3 (protocol freeze), cbfc964 (completed RBP reconstruction). Recent checkpoint history at report generation (the report commit itself follows this snapshot):
 
 ```text
+8d38fb5 Add FinalShot submission overview and release checklist
+1455c59 Audit FinalShot integrity and prepare submission diagnostics
 5910dd7 Complete parent-binding knockout models
 f4e002e Evaluate FinalShot measurement-head randomization
 11fbd42 Add resume-safe remaining control orchestration
@@ -307,8 +316,6 @@ f4e002e Evaluate FinalShot measurement-head randomization
 cdff394 Complete direct delta-RBP controls
 766332c Complete direct RBP identity controls
 49ea3c9 Implement frozen FinalShot feature controls
-ba3e0d5 Complete FinalShot transfer gates
-6338696 Add leave-TDP M3 transfer
 ```
 
 ## 56. Astrocyte status

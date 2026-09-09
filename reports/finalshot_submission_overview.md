@@ -1,8 +1,10 @@
 # RNAddress FinalShot: can RBP-informed models choose transferable RNA-localization edits?
 
-Submission preparation snapshot: 9 September 2026. Target deadline: 13 September
-2026. The last cell-context control fold is still running; the computational
-release is not yet complete. See `results/finalshot/submission_status.json`.
+Completed result consolidation: 9 September 2026, ahead of the 13 September
+target deadline. All five cell-context control folds have finished. The release
+preserves the scientific integrity qualifications below; completion does not
+mean the original compiler passed its gates. See
+`results/finalshot/submission_status.json` and the release verification manifest.
 
 ## Research question
 
@@ -54,6 +56,11 @@ direction satisfies all reported directional conditions. Favorable descriptive
 subgroups, including the exact-geometry TDP increase comparison, are not
 independently validated discoveries and do not rescue the original claim.
 
+The completed cell-expression swap control still yields rank gain +0.034666
+and regret gain +0.037565, versus +0.042294 and +0.040094 before the swap.
+Its nested family choices remain M1, M2, M3, M1, M1. This is a descriptive
+control, not a replacement for the failed crossed-cell trans-knockout Gate H.
+
 ## Integrity and interpretation
 
 An audit found a written Mikl matching cap that was omitted in the implementation
@@ -64,7 +71,7 @@ reproduction also require explicit disclosure. None was silently repaired by
 changing the frozen experiment after results.
 
 All 103 checkpoint and profile/feature cache hashes, sequence mappings, profile
-invariants, and assembled feature blocks passed re-verification. All 36 scoped
+invariants, and assembled feature blocks passed re-verification. All 40 scoped
 software tests passed. These checks support technical auditability; they do not
 erase scientific protocol limitations.
 
@@ -77,25 +84,26 @@ That contribution should be judged on its actual evidence, not relabeled as a
 validated intervention compiler. Novelty of the exact benchmark combination is
 qualified, not a proven first.
 
-## Submission map and remaining work
+## Submission map and reproducibility
 
-The complete 60-item return is drafted in `finalshot_final_verdict.md`; the
+The complete 60-item return is in `finalshot_final_verdict.md`; the
 literature comparison is in `finalshot_novelty_audit.md`; limitations are in
 `finalshot_integrity_review.md`. Predictions, metrics, confidence intervals,
 control results, and provenance are under `results/finalshot/`.
 
-After the final cell-context fold finishes:
+Completed release workflow:
 
-1. Run `python -m src.analysis.summarize_finalshot_cell_control`; it rejects
+1. `python -m src.analysis.summarize_finalshot_cell_control` rejects
    missing folds and validates row hashes/indices and nested seed metadata.
-2. Inspect the new control summary and compare archived prediction/seed means;
-   do not alter models or selection rules.
-3. Rerun scoped FinalShot tests, recording
+2. Inspect the control summary and verify archived prediction/seed means;
+   models and selection rules remain unchanged.
+3. Run scoped FinalShot tests, recording
    `results/finalshot/submission_tests.xml`.
-4. Run `python -m src.analysis.build_finalshot_submission`, review all 60 items,
-   and verify the final release's artifact inventory/hashes.
-5. Update this overview's completion status, commit the final control and
-   reports, deliver the verdict, and end the scheduled follow-up.
+4. `python -m src.analysis.build_finalshot_submission` assembles all 60 items.
+5. `python -m src.audit.verify_finalshot_release` verifies and inventories the
+   release; `--check-only` rechecks its stored artifact hashes. The manifest
+   excludes itself and external large caches, whose separate September 9
+   re-verification is retained. This is not a training replay or Gate L pass.
 
 No N-zip outcome or Astrocyte data is accessed. Phase C is not justified.
 RNAddress-Adapt would be a separate few-shot hypothesis, not an additional

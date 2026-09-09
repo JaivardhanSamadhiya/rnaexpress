@@ -1,0 +1,145 @@
+{
+  "control": "cell_context_permutation",
+  "rows": 93208,
+  "selected_families": [
+    "M1",
+    "M2",
+    "M3",
+    "M1",
+    "M1"
+  ],
+  "M1_reused_unchanged": true,
+  "reason": "M1 has no expression features, so this control is the identity transformation for M1.",
+  "metrics": [
+    {
+      "model": "cell_swap_M1",
+      "rank_context_value": 0.011063311490132233,
+      "regret_context_value": 0.03234877043886436
+    },
+    {
+      "model": "cell_swap_M2",
+      "rank_context_value": 0.017618603026842667,
+      "regret_context_value": 0.03139306574411974
+    },
+    {
+      "model": "cell_swap_M3",
+      "rank_context_value": 0.05401139082465034,
+      "regret_context_value": 0.03174806836966516
+    },
+    {
+      "model": "cell_swap_nested",
+      "rank_context_value": 0.03466645137111418,
+      "regret_context_value": 0.037564918803571413
+    }
+  ],
+  "archive_audit": [
+    {
+      "family": "M1",
+      "fold": 0,
+      "path": "results/finalshot/nested_direct/M1_outer_fold_0.npz",
+      "sha256": "73f675ccd858fae67dfecbb406ad8d7a122f0dbc68b5bb9a7632a75daadf0e8a",
+      "rows": 21018
+    },
+    {
+      "family": "M2",
+      "fold": 0,
+      "path": "results/finalshot/nested_controls_direct/cell_context_permutation/M2_outer_fold_0.npz",
+      "sha256": "7874c23fd1f569009225f8aa7cb0fbc0a98f88c0703dd0fe4fb4b672faf231fd",
+      "rows": 21018
+    },
+    {
+      "family": "M3",
+      "fold": 0,
+      "path": "results/finalshot/nested_controls_m3/cell_context_permutation/M3_outer_fold_0.npz",
+      "sha256": "160e43311a5a7453b02080121e29346d1790874dd00d8ce0e2b81cf5d31806cb",
+      "rows": 21018
+    },
+    {
+      "family": "M1",
+      "fold": 1,
+      "path": "results/finalshot/nested_direct/M1_outer_fold_1.npz",
+      "sha256": "088e3b9a432c9a32d3e4267b91a64c92d8da9a572db7629c4b53e1101a59c531",
+      "rows": 26733
+    },
+    {
+      "family": "M2",
+      "fold": 1,
+      "path": "results/finalshot/nested_controls_direct/cell_context_permutation/M2_outer_fold_1.npz",
+      "sha256": "084bd57693559cc8fbc66c4295ef1bd3b67efdce2b76c635e8434475bc6677ec",
+      "rows": 26733
+    },
+    {
+      "family": "M3",
+      "fold": 1,
+      "path": "results/finalshot/nested_controls_m3/cell_context_permutation/M3_outer_fold_1.npz",
+      "sha256": "cf1e8a4b03a0ce25551bcaf72ef1e245a737e0b5dd341f6dd4fdf912bc68bd11",
+      "rows": 26733
+    },
+    {
+      "family": "M1",
+      "fold": 2,
+      "path": "results/finalshot/nested_direct/M1_outer_fold_2.npz",
+      "sha256": "0d944547ce99e6e8bbddd1e4245ce9a4d8b2c402da72fbdbdc26dec47e547aa5",
+      "rows": 25028
+    },
+    {
+      "family": "M2",
+      "fold": 2,
+      "path": "results/finalshot/nested_controls_direct/cell_context_permutation/M2_outer_fold_2.npz",
+      "sha256": "83828cb00fa558f64d1fa209892f80da03236a4b04d63c40f09ebc205e88361f",
+      "rows": 25028
+    },
+    {
+      "family": "M3",
+      "fold": 2,
+      "path": "results/finalshot/nested_controls_m3/cell_context_permutation/M3_outer_fold_2.npz",
+      "sha256": "d8415c59d859e82399edd7b194a128e0e0b800c9e671319f3dc61765bf50f786",
+      "rows": 25028
+    },
+    {
+      "family": "M1",
+      "fold": 3,
+      "path": "results/finalshot/nested_direct/M1_outer_fold_3.npz",
+      "sha256": "0521e2b37816e4b679efd370a61e4c65213d7533d1d8414b61942d596f648322",
+      "rows": 5713
+    },
+    {
+      "family": "M2",
+      "fold": 3,
+      "path": "results/finalshot/nested_controls_direct/cell_context_permutation/M2_outer_fold_3.npz",
+      "sha256": "a5d30fb3d09bc66474bce6b186f2164f0f0be3cb3e03ea7d4821a4e9a64c6c2a",
+      "rows": 5713
+    },
+    {
+      "family": "M3",
+      "fold": 3,
+      "path": "results/finalshot/nested_controls_m3/cell_context_permutation/M3_outer_fold_3.npz",
+      "sha256": "6cc70673b865974bba9aec196a27d15325e31395acfced9745780a557ea81514",
+      "rows": 5713
+    },
+    {
+      "family": "M1",
+      "fold": 4,
+      "path": "results/finalshot/nested_direct/M1_outer_fold_4.npz",
+      "sha256": "80075c27d542c8d797a1c43f5a49e87af6bd0f1889648fea962d54d54ad574eb",
+      "rows": 14716
+    },
+    {
+      "family": "M2",
+      "fold": 4,
+      "path": "results/finalshot/nested_controls_direct/cell_context_permutation/M2_outer_fold_4.npz",
+      "sha256": "7da6377de54f67b545d030f73e3856a2f22c0a70727255042ea58c18f62761e7",
+      "rows": 14716
+    },
+    {
+      "family": "M3",
+      "fold": 4,
+      "path": "results/finalshot/nested_controls_m3/cell_context_permutation/M3_outer_fold_4.npz",
+      "sha256": "0279c01b2a274ac98c7390befec46ed76758ae22a87b09902f4b5de69113e4f2",
+      "rows": 14716
+    }
+  ],
+  "note": "Descriptive required control; Gate H is assessed by the separate trans-knockout transfer test.",
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}

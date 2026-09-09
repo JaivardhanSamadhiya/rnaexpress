@@ -1,6 +1,6 @@
 # FinalShot controls — consolidated status
 
-DRAFT — COMPUTATIONAL RELEASE INCOMPLETE
+FINAL RESULT CONSOLIDATION — WITH INTEGRITY QUALIFICATIONS
 
 ## RBP-permutation control
 
@@ -12,7 +12,14 @@ Retained rank gain 130.13%, regret gain 100.28%; control still meets both Gate A
 
 ## Cell-context-shuffle control
 
-PENDING; no partial result is treated as final.
+| model | rank_context_value | regret_context_value |
+| --- | --- | --- |
+| cell_swap_M1 | 0.011063 | 0.032349 |
+| cell_swap_M2 | 0.017619 | 0.031393 |
+| cell_swap_M3 | 0.054011 | 0.031748 |
+| cell_swap_nested | 0.034666 | 0.037565 |
+
+M1 is reused unchanged because it contains no expression features.
 
 ## Parent-binding ablation
 
