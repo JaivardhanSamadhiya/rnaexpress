@@ -1,0 +1,15 @@
+{
+  "scientific_verdict": "NO-GO \u2014 END ZERO-SHOT RNADDRESS",
+  "release_complete": false,
+  "pending": [
+    "Complete remaining M3 cell-context outer folds, validate archives, and summarize the control."
+  ],
+  "integrity_gate_unqualified_pass": false,
+  "required_return_items": 60,
+  "tests": {
+    "tests": 36,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

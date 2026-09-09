@@ -1,5 +1,11 @@
 # FinalShot Mikl matched-mechanism result
 
+**September 9 integrity qualification:** the implemented analysis below omits
+the written two-candidates-per-gene cap, which also conflicts with the written
+minimum of four candidates per within-gene matched subset. The archived numeric
+Gate C pass is not an unqualified protocol-compliant pass. See
+`reports/finalshot_integrity_review.md`; no archived predictions were changed.
+
 The primary matched test used the fully nested M1/M2/M3 held-fold predictor.
 Candidate eligibility was determined without outcomes from cell line, motif
 family, intervention class, operation signature, and frozen edit-size band. A
@@ -14,8 +20,9 @@ so Gate C passes. Positive signs occurred in 76/146 motif-direction rank tasks
 and 80/146 motif-direction regret tasks; the effect is positive in aggregate,
 not universal across motif strata.
 
-This supports genuine parent-dependent value in repeated Mikl motif
-perturbations after generic edit/motif matching. It does not override failures
+This records predictive value in the implemented repeated-Mikl motif
+stratification, subject to the integrity qualification above. It does not
+establish genuine RBP-specific mechanism or override failures
 in distributed-unit or small-edit gates and does not establish direct TDP-43
 binding, because RBPNet lacks a TARDBP checkpoint.
 

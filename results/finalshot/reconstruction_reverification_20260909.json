@@ -1,0 +1,838 @@
+{
+  "status": "pass",
+  "checkpoints": 103,
+  "unique_sequences": 72998,
+  "matrix_shape": [
+    62665,
+    927
+  ],
+  "records": [
+    {
+      "task": "AGGF1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.868473529815674e-07
+    },
+    {
+      "task": "AKAP1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "AQR_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 3.5762786865234375e-07,
+      "gain_loss_max_error": 5.364418029785156e-07
+    },
+    {
+      "task": "BCCIP_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "BCLAF1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.8312206268310547e-07
+    },
+    {
+      "task": "BUD13_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "CDC40_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "CSTF2T_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "CSTF2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.8312206268310547e-07
+    },
+    {
+      "task": "DDX3X_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "DDX52_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.384185791015625e-07
+    },
+    {
+      "task": "DDX55_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "DDX59_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "DDX6_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "DGCR8_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "DHX30_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.942979335784912e-07
+    },
+    {
+      "task": "DKC1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 3.5762786865234375e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "DROSHA_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "EFTUD2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "EIF3D_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "EIF3H_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "EXOSC5_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 3.5762786865234375e-07,
+      "gain_loss_max_error": 4.5634806156158447e-07
+    },
+    {
+      "task": "FAM120A_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.0547380447387695e-07
+    },
+    {
+      "task": "FASTKD2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "FKBP4_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "FTO_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "FUBP3_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "FUS_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "FXR2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "G3BP1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "GRSF1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "GRWD1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "GTF2F1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "HLTF_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.5331974029541016e-07
+    },
+    {
+      "task": "HNRNPA1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.60770320892334e-07
+    },
+    {
+      "task": "HNRNPC_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "HNRNPK_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "HNRNPL_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "HNRNPM_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "HNRNPUL1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "HNRNPU_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "IGF2BP1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "IGF2BP3_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "ILF3_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "KHSRP_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.5331974029541016e-07
+    },
+    {
+      "task": "LARP4_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.8312206268310547e-07
+    },
+    {
+      "task": "LARP7_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 4.023313522338867e-07
+    },
+    {
+      "task": "LIN28B_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "LSM11_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "MATR3_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.8312206268310547e-07
+    },
+    {
+      "task": "NCBP2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "NIP7_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "NKRF_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "NOL12_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "NOLC1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.0547380447387695e-07
+    },
+    {
+      "task": "PABPN1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "PCBP1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "PCBP2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "POLR2G_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "PPIG_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "PRPF4_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "PRPF8_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "PTBP1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "QKI_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "RBFOX2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "RBM15_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.5331974029541016e-07
+    },
+    {
+      "task": "RBM22_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "RBM5_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "RPS3_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "SAFB_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.5331974029541016e-07
+    },
+    {
+      "task": "SDAD1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "SF3A3_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "SF3B4_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "SFPQ_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.8312206268310547e-07
+    },
+    {
+      "task": "SLTM_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "SMNDC1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "SND1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "SRSF1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.5331974029541016e-07
+    },
+    {
+      "task": "SRSF7_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.0547380447387695e-07
+    },
+    {
+      "task": "SRSF9_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.0174851417541504e-07
+    },
+    {
+      "task": "SSB_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "STAU2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "SUB1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "SUGP2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.8312206268310547e-07
+    },
+    {
+      "task": "SUPV3L1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "TAF15_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "TBRG4_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 3.5762786865234375e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "TIA1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.0547380447387695e-07
+    },
+    {
+      "task": "TIAL1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "TRA2A_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "TROVE2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "U2AF1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "U2AF2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "UCHL5_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.905726432800293e-07
+    },
+    {
+      "task": "UPF1_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.5331974029541016e-07
+    },
+    {
+      "task": "UTP18_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "WDR43_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "XPO5_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "XRCC6_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "XRN2_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.980232238769531e-07
+    },
+    {
+      "task": "YBX3_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 3.5762786865234375e-07,
+      "gain_loss_max_error": 3.5762786865234375e-07
+    },
+    {
+      "task": "ZC3H11A_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 2.682209014892578e-07
+    },
+    {
+      "task": "ZNF800_HepG2",
+      "checkpoint_profile_feature_hashes_verified": true,
+      "sequence_order_lengths_verified": true,
+      "matrix_block_bitwise_verified": true,
+      "profile_sum_max_error": 2.384185791015625e-07,
+      "gain_loss_max_error": 3.129243850708008e-07
+    }
+  ],
+  "scope": "Checkpoint/cache bytes, sequence hashes/order/native lengths, profile/mixing invariants, feature/matrix equality. No new inference or intervention-summary reconstruction.",
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false
+}

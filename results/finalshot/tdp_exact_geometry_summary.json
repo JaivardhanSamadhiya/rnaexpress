@@ -1,0 +1,34 @@
+{
+  "status": "descriptive; exact matching convention implemented September 9, not a new gate",
+  "source_rows": 4566,
+  "geometry_columns": 28,
+  "matching": "Bitwise equality of all 28 frozen geometry features within existing decision sets; minimum two candidates for ranking.",
+  "eligible_rows_before_outcome_variation_check": 300,
+  "eligible_sets_before_outcome_variation_check": 150,
+  "eligible_units_before_outcome_variation_check": 6,
+  "motif_labels": [
+    "TDP-43 UG-rich motif"
+  ],
+  "TARDBP_checkpoint_available": false,
+  "nzip_outcomes_accessed": false,
+  "astrocyte_data_accessed": false,
+  "usable_rows": 300,
+  "metrics": [
+    {
+      "dataset": "tdp43_gse288185",
+      "requested_direction": "decrease",
+      "biological_units_full": 6,
+      "decision_sets_full": 150,
+      "rank_context_value": -0.023421685741569442,
+      "regret_context_value": -0.023421685741569498
+    },
+    {
+      "dataset": "tdp43_gse288185",
+      "requested_direction": "increase",
+      "biological_units_full": 6,
+      "decision_sets_full": 150,
+      "rank_context_value": 0.15551604336983949,
+      "regret_context_value": 0.15551604336983943
+    }
+  ]
+}
