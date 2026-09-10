@@ -1,0 +1,17 @@
+{
+  "purpose": "outcome-blind external gene-group sensitivity; never change the frozen primary folds",
+  "hgnc": {"path": "data/external/mechanism_v2/resource_audit/hgnc_complete_20260910_69cd3e1e8b5e1253.bin", "sha256": "6a1423507780773fbcb373eaef84dba5f9357b36e7219db2aeaae13d8a42d62b", "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt"},
+  "hcop": {"path": "data/external/mechanism_v2/resource_audit/hcop_mouse_20260910_171632c712168be8.bin", "sha256": "0cfb78e4eb273751e0557e8230445a60e844bfaf958e32740d4a266fb41cdb35", "url": "https://storage.googleapis.com/public-download-files/hcop/human_mouse_hcop_fifteen_column.txt.gz"},
+  "minimum_distinct_orthology_sources": 3,
+  "mapping": "exact mouse Ensembl ID or case-insensitive approved mouse symbol; no fuzzy names or guessed uppercase human orthologs",
+  "multiple_supported_orthologs": "union all supported HGNC group memberships conservatively; do not choose a favorable mapping",
+  "groups": "all directly recorded HGNC gene_group_id memberships, including broad structural/functional groups; merge transitively with the existing all-allele95 components",
+  "missing_groups": "not evidence of singleton family; exclude incomplete components from both train and test in the annotated-only sensitivity and report coverage",
+  "interpretation": "curated human gene-group sensitivity projected through mouse orthology, not an exhaustive mouse paralog phylogeny",
+  "seed": 20260912,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "outcomes_used": false,
+  "documentation": ["https://www.genenames.org/help/hcop/", "https://www.genenames.org/download/", "https://www.genenames.org/download/gene-groups/"],
+  "license": "HGNC data CC0; fetched snapshot identifiers, not live updates, define this sensitivity"
+}

@@ -1,7 +1,7 @@
 # Processing nuisance and motif-accessibility design
 
-Status: prospective sequence-feature implementation; no localization selection
-or processing-based exclusion has occurred.
+Status: full sequence-feature extraction complete. Inner localization fitting
+is running; no processing-based outcome exclusion has occurred.
 
 ## Processing: nuisance indicators, not a validated splice model
 
@@ -45,5 +45,11 @@ These are site-specific **marginal** accessibility proxies, not the probability
 that an entire binding site is simultaneously unpaired, calibrated RBP occupancy,
 or an in-cell structural measurement. Structure/model/configuration/sequence
 hashes identify the cache. Both count and exposure blocks need separate knockout
-tests before any mechanistic interpretation. Full extraction and biological
-necessity testing remain pending at this design checkpoint.
+tests before any mechanistic interpretation. Full extraction completed all
+72,998 unique fragments and produced a 62,665 × 8 float32 matrix, SHA-256
+`a11c53563bd3c6fd7e4b645fba8c86bf217214615bfdd3c5b0c72ea3ebc54d0e`.
+The processing matrix is independently hashed as
+`40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39`.
+Biological necessity remains untested. Covariate versus flag/abstention evaluation
+is prospectively specified in the localization design; it may not replace the
+full-cohort primary result with a selected favorable subset.

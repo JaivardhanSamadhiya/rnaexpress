@@ -25,8 +25,9 @@ allele window length. Window length and geometry are not appended to the block.
 The probability summaries use a symmetric base-pair matrix and include the
 unpaired state in entropy. Marginal unpaired probability is **not** the joint
 probability that an entire motif is accessible. These features describe an
-equilibrium local folding prior, not measured intracellular structure. A full
-motif-accessibility block would require additional justified calculations.
+equilibrium local folding prior, not measured intracellular structure. The
+separate motif/exposure block has now completed all 72,998 full-fragment folds;
+its site-marginal definition is documented in `processing_splicing_model.md`.
 
 Tests cover known hairpin behavior, a non-pairing homopolymer, exact repeated
 inference, finite probabilities, paired delta arithmetic and insertion/deletion
@@ -35,4 +36,6 @@ This proves the extraction path runs, not that structure improves localization.
 The full extraction completed all 212,979 unique windows and produced a finite
 62,665 × 18 float32 array, SHA-256
 `d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90`.
-Window/model selection and biological necessity remain untested.
+All three local radii are included prospectively under downstream regularization.
+Inner-only model fitting is running; outer utility and biological necessity
+remain untested.

@@ -1,7 +1,7 @@
 # Mechanism-v2 external resource audit
 
-Status: resources under validation; no external outcome admitted to a fitted
-Mechanism-v2 predictor yet. Reviewed 9 September 2026.
+Status: resource audit updated 10 September 2026. Independent stability fitting
+completed and failed admission; no stability predictor enters localization.
 
 ## Independent stability candidate
 
@@ -37,9 +37,29 @@ settings and local coordinate windows; they are equilibrium in-silico priors,
 not measurements of intracellular structure. Window settings, normalization and
 cache identities must be fixed before the localization model comparison.
 
-## Remaining admission checks
+## Completed admissions and exclusions
 
-Fresh BRIDGE/motif/trans-context audits, full stability data retrieval and Parnet
-resolution remain underway. No branch is filled with zeros simply because an
-external resource is missing. The final admitted feature manifest does not yet
-exist, and there is no final evaluation freeze.
+The bounded Parnet re-audit did not recover a reproducibly identified paper-
+matching 21M checkpoint. The official 0.3.0 source and supporting workflows were
+inspected; unresolved Zenodo retrieval is a limitation, not proof of absence.
+The modern BRIDGE weight inventory exists, but compatibility with its required
+modalities was not established for these certified fragments. These two resources
+remain excluded under the dedicated reports, not silently replaced by newly
+trained models. RBPNet and 3UTRBERT are distinctly named external priors.
+
+Full local structure, motif accessibility, processing and compact external trans
+features are hash-verified. A training-input freeze exists for **inner development
+only**, not final outer or holdout evaluation. Neither N-zip outcomes nor
+Astrocyte data were accessed. Newly found papers inform novelty qualification;
+they do not expand the committed model grid after training starts.
+
+Independent stability reconstruction retained 1,022 observed reference/mutant
+pairs, with development gene/sequence exclusions applied before external fitting.
+Both SH and HEK out-of-fold tests failed their precommitted predictive thresholds.
+See `stability_external_model.md` for all point estimates and intervals. Failed
+models were not exported, applied, or rescued by changing their thresholds.
+
+Official HGNC/HCOP external annotations now support a separate outcome-blind
+gene-group sensitivity. Snapshot hashes, orthology consensus rules and incomplete
+annotation coverage are reported in `gene_family_sensitivity.md`. It does not
+replace the primary connected-component folds.

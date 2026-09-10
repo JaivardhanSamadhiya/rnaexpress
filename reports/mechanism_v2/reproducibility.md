@@ -111,3 +111,50 @@ Commands completing this checkpoint use the same bundled executable above with
 `motifs --workers 3`, `processing`, `sequence-audit`, `allele-summaries`,
 `trans-context`, and `test`. The paired evaluation module also rejects comparisons
 whose candidate/outcome cohort hashes differ, even if candidate counts match.
+
+## Inner-development launch and parallel diagnostics
+
+Reconstruction checkpoint `4717c7a` contains the completed allele, motif, trans,
+all-allele split and failed independent-stability evidence. Commit `51dab0c`
+contains the 48-recipe localization design, prospective gate design and tested
+inner-only runner. Commit `7575d36` records the training freeze (SHA-256
+`1a59c2e6013e97e881c5550f760c730ceee77dcad767fe49779c3341131b7c43`).
+
+The initial prepare command failed closed when the Git add command rejected an
+ignored test-report path and the new code was not yet committed. No fitting
+occurred. After explicitly staging that report and committing, preparation
+verified every dependency and succeeded. This was an operational barrier check,
+not an invalid scientific model run.
+
+On 10 September at 11:12:52 America/Los_Angeles, hidden Python PID 20256 launched
+`-u -m src.mechanism_v2.run_pipeline train` from the repository. OpenBLAS, OMP and
+MKL thread limits were two. Stdout and stderr are retained as
+`results/mechanism_v2/training/inner_20260910.stdout.log` and
+`inner_20260910.stderr.log`. The exclusive `inner_training.lock` records PID and
+freeze hash. PID values are historical identifiers, not sufficient alone to prove
+continued liveness. Always inspect logs, process command and checkpoints before
+resuming. The job fits only inner partitions and stops after five inner-selection
+records; it does not automatically run outer evaluation or open any holdout.
+
+While it runs, external gene-group mapping produced 96 eligible family components
+from 183 annotated units; primary folds were unchanged. Negative-control kernels
+now test unique-intervention bijections, consistent replicated contexts and
+intervention-specific RBP identity perturbations. A 540-dimensional frozen random
+kmer-delta null completed without outcomes. These added modules do not modify the
+frozen primary training dependencies. The expanded safe suite has 72 passing tests.
+
+Additional commands (same bundled executable):
+
+```powershell
+python -u -m src.mechanism_v2.run_pipeline prepare-development
+python -u -m src.mechanism_v2.run_pipeline train
+python -c "import src.mechanism_v2.run_pipeline; from src.mechanism_v2.gene_families import build_gene_family_sensitivity; build_gene_family_sensitivity()"
+python -c "import src.mechanism_v2.run_pipeline; from src.mechanism_v2.control_kernels import build_random_sequence_null; build_random_sequence_null()"
+```
+
+The `python` above denotes the full bundled executable at the beginning of this
+report, not the MSYS interpreter on PATH. Remaining work includes null fitting,
+broken-reference reconstruction, transfer/uncertainty evaluation, formal outer
+protocol/code freeze, outer fits, required verdict reports and only subsequently
+any authorized one-time holdout evaluation. No completion is implied by the
+presence of a design document.

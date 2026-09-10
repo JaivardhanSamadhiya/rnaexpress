@@ -13,7 +13,7 @@ if runtime.exists():
 def main():
     parser=argparse.ArgumentParser(__doc__)
     parser.add_argument('stage', choices=['audit','resources','features','external_stability',
-        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits','motifs','processing','stability-validate','sequence-audit','allele-summaries','trans-context','prepare-development'])
+        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits','motifs','processing','stability-validate','sequence-audit','allele-summaries','trans-context','prepare-development','transfer-inventory','sequence-sensitivity'])
     parser.add_argument('--limit',type=int)
     parser.add_argument('--workers',type=int,default=3)
     args=parser.parse_args()
@@ -70,6 +70,12 @@ def main():
     elif args.stage=='train':
         from .development_training import run_inner_training
         run_inner_training()
+    elif args.stage=='transfer-inventory':
+        from .transfer_inventory import build_transfer_inventory
+        build_transfer_inventory()
+    elif args.stage=='sequence-sensitivity':
+        from .sequence_sensitivity import build_all_allele90
+        build_all_allele90()
     elif args.stage=='test':
         import pytest
         raise SystemExit(pytest.main(['-q','tests/mechanism_v2','--junitxml=results/mechanism_v2/tests.xml']))

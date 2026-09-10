@@ -1,0 +1,28 @@
+{
+  "code_sha256": "f9864ff025c03508b1a98570f7cf20fef9be900b70046f37ea77678a2e02b49b",
+  "configuration": "1-4mer counts per 100 nt, fixed Gaussian N(0,1/340) projection; mutant minus reference",
+  "dtype": "float32",
+  "input_dimensions": 340,
+  "interpretation": "matched-dimensional random sequence-feature null for M1, not an independent pretrained encoder",
+  "intervention_sha256": "a7e651e4a2a1ccf6d16ea43c6da8de384901df9a15cdf82208c2235315989835",
+  "kmer_code_sha256": "714d0d3ba7d03950ae08d04226fa0a171e0cc67755061ff875af188d263b2056",
+  "learned_from_localization": false,
+  "maximum_information_rank": 340,
+  "output_dimensions": 540,
+  "path": "data/interim/mechanism_v2/random_kmer_delta.npy",
+  "projection": {
+    "dtype": "float64",
+    "path": "data/interim/mechanism_v2/random_kmer_projection.npy",
+    "sha256": "ef1acff4964281022431d664dd41212ed8d7cd90b2d4ea4edf0cef64126d95ee",
+    "shape": [
+      340,
+      540
+    ]
+  },
+  "seed": 20260909,
+  "sha256": "2a77e8f3a8647e47a9afc0a248886c651d4a73c8f4c8bd5d87a1bc12228a4ef0",
+  "shape": [
+    62665,
+    540
+  ]
+}
