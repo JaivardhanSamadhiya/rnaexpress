@@ -1,0 +1,460 @@
+{
+  "astrocyte_data_accessed": false,
+  "errors": [
+    {
+      "error": "HTTP Error 422: Unprocessable Entity",
+      "label": "parnet_package_commit",
+      "url": "https://api.github.com/repos/marsico-lab/parnet-marsico-lab/commits/0.3.0"
+    },
+    {
+      "error": "The read operation timed out",
+      "label": "ir_ipscs_zenodo",
+      "url": "https://zenodo.org/api/records/21135982"
+    }
+  ],
+  "nzip_outcomes_accessed": false,
+  "records": [
+    {
+      "bytes": 8229,
+      "label": "ir_ipscs_commit",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_commit_3ae2ae4e6157ec60.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/commits/6587f57dbe9a11c8e62336f808175c66258537bb",
+      "retrieved_utc": "2026-09-10T00:08:52.047200+00:00",
+      "sha256": "84763546c3870da655a9262bed2c567b0e07be6cf26ec7e07a52995a8bf02ef5",
+      "url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/commits/6587f57dbe9a11c8e62336f808175c66258537bb"
+    },
+    {
+      "bytes": 49322,
+      "label": "ir_ipscs_tree",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_tree_5d578beb50193242.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/git/trees/6587f57dbe9a11c8e62336f808175c66258537bb?recursive=1",
+      "retrieved_utc": "2026-09-10T00:08:52.430465+00:00",
+      "sha256": "f1b7d8c2fcf5d925fc9178136296fff64b6cbc34b58bc7bc2f06b67f499c794b",
+      "url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/git/trees/6587f57dbe9a11c8e62336f808175c66258537bb?recursive=1"
+    },
+    {
+      "bytes": 2,
+      "label": "ir_ipscs_releases",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_releases_0e2107cc3f195af2.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/releases",
+      "retrieved_utc": "2026-09-10T00:08:52.661804+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/releases"
+    },
+    {
+      "bytes": 2,
+      "label": "ir_ipscs_tags",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_tags_dc28dea6ac27a4dd.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/tags",
+      "retrieved_utc": "2026-09-10T00:08:52.949108+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/marsico-lab/IR_iPSCs/tags"
+    },
+    {
+      "bytes": 6238,
+      "label": "ir_ipscs_README.md",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_README.md_cc41e41ebc2bb68c.bin",
+      "resolved_url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/README.md",
+      "retrieved_utc": "2026-09-10T00:08:53.386059+00:00",
+      "sha256": "bfd626fe0a7d27b366dba9d09131489a8f513b64fe42576e381017048135572a",
+      "url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/README.md"
+    },
+    {
+      "bytes": 5022,
+      "label": "ir_ipscs_configs_hl_revision_runs_10PIR.json",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_configs_hl_revision_runs_10PIR.json_6ca9acd5cad8946c.bin",
+      "resolved_url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/configs/hl_revision_runs_10PIR.json",
+      "retrieved_utc": "2026-09-10T00:08:53.365978+00:00",
+      "sha256": "b1c9734effdc68fd0b10bc77340ddec680770337621199f19c0fb0c78c89b091",
+      "url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/configs/hl_revision_runs_10PIR.json"
+    },
+    {
+      "bytes": 3802,
+      "label": "ir_ipscs_configs_hl_revision_runs_20PIR.json",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_configs_hl_revision_runs_20PIR.json_1cf5a3745c5a27c3.bin",
+      "resolved_url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/configs/hl_revision_runs_20PIR.json",
+      "retrieved_utc": "2026-09-10T00:08:53.264505+00:00",
+      "sha256": "9cd02c35f983e249fdd670a03a60e1e74c11c184530f7ac3d364438a46923cbf",
+      "url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/configs/hl_revision_runs_20PIR.json"
+    },
+    {
+      "bytes": 1783,
+      "label": "ir_ipscs_configs_ir_revision_runs.json",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_configs_ir_revision_runs.json_e49d5a0dc5c7d6c8.bin",
+      "resolved_url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/configs/ir_revision_runs.json",
+      "retrieved_utc": "2026-09-10T00:08:53.379782+00:00",
+      "sha256": "a4f41a5a3b3522dd5b86c97ab4f33a4164e6d7b08aae938947e2f1bf48ed4af6",
+      "url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/configs/ir_revision_runs.json"
+    },
+    {
+      "bytes": 5186,
+      "label": "ir_ipscs_requirements.txt",
+      "path": "data/external/mechanism_v2/resource_audit/ir_ipscs_requirements.txt_c6d02c840bea65e3.bin",
+      "resolved_url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/requirements.txt",
+      "retrieved_utc": "2026-09-10T00:08:53.736719+00:00",
+      "sha256": "27ca683729bdfa7cf49e3b653c75bc0de3457509e93127a514a164d5af7169fa",
+      "url": "https://raw.githubusercontent.com/marsico-lab/IR_iPSCs/6587f57dbe9a11c8e62336f808175c66258537bb/requirements.txt"
+    },
+    {
+      "bytes": 6084,
+      "label": "parnet_author_commit",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_commit_139aeb823648fb82.bin",
+      "resolved_url": "https://api.github.com/repos/lambosaur/parnet/commits/2e142786ffcec7ea5e23a28e1ec916c7524e6069",
+      "retrieved_utc": "2026-09-10T00:08:54.163635+00:00",
+      "sha256": "c8a4337f455b42a28f599031618b42c4f92469b2dca655f53a04456aa076a130",
+      "url": "https://api.github.com/repos/lambosaur/parnet/commits/2e142786ffcec7ea5e23a28e1ec916c7524e6069"
+    },
+    {
+      "bytes": 20137,
+      "label": "parnet_author_tree",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_tree_c00db5df2e7abb16.bin",
+      "resolved_url": "https://api.github.com/repos/lambosaur/parnet/git/trees/2e142786ffcec7ea5e23a28e1ec916c7524e6069?recursive=1",
+      "retrieved_utc": "2026-09-10T00:08:54.613523+00:00",
+      "sha256": "73e6c7635439dbf537f5f738a136e78a24047af7bbbee442df8324cbeb4a2c4d",
+      "url": "https://api.github.com/repos/lambosaur/parnet/git/trees/2e142786ffcec7ea5e23a28e1ec916c7524e6069?recursive=1"
+    },
+    {
+      "bytes": 2,
+      "label": "parnet_author_releases",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_releases_3eeaec91598ed148.bin",
+      "resolved_url": "https://api.github.com/repos/lambosaur/parnet/releases",
+      "retrieved_utc": "2026-09-10T00:08:55.015292+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/lambosaur/parnet/releases"
+    },
+    {
+      "bytes": 2862,
+      "label": "parnet_author_tags",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_tags_52386b3391d7b371.bin",
+      "resolved_url": "https://api.github.com/repos/lambosaur/parnet/tags",
+      "retrieved_utc": "2026-09-10T00:08:55.399734+00:00",
+      "sha256": "a555f8756961061963dcf5d6a42e8a1144bf8e4a35b862a126b6c53a9dedbd05",
+      "url": "https://api.github.com/repos/lambosaur/parnet/tags"
+    },
+    {
+      "bytes": 11343,
+      "label": "parnet_author_LICENSE",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_LICENSE_74aca90620b16ee6.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/LICENSE",
+      "retrieved_utc": "2026-09-10T00:08:55.890017+00:00",
+      "sha256": "badec4a00a5df491f7d1cf77f13c05bea5e21bc0f8813f65ad22f26836033b93",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/LICENSE"
+    },
+    {
+      "bytes": 1849,
+      "label": "parnet_author_README.md",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_README.md_edeca24627e78283.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/README.md",
+      "retrieved_utc": "2026-09-10T00:08:55.812846+00:00",
+      "sha256": "06ecaad2f023f377c82e99f14d7a3a3d25401dd7383f91f10a090fb1b8b193f3",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/README.md"
+    },
+    {
+      "bytes": 1567,
+      "label": "parnet_author_configs_RBPNet-11M.config.gin",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_configs_RBPNet-11M.config.gin_b39d4b160a59b83a.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/configs/RBPNet-11M.config.gin",
+      "retrieved_utc": "2026-09-10T00:08:55.887658+00:00",
+      "sha256": "d7747b266ed9d3dd11fa43e935d0d657f0c05c006a223eb88ef2d8ca09ddf093",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/configs/RBPNet-11M.config.gin"
+    },
+    {
+      "bytes": 457,
+      "label": "parnet_author_environment.yml",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_environment.yml_29e3e7dd6999edfa.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/environment.yml",
+      "retrieved_utc": "2026-09-10T00:08:55.797721+00:00",
+      "sha256": "ab653f77d75af0bdce6710fe2bfc8ba38d645383baf52a6989af509ba81841db",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/environment.yml"
+    },
+    {
+      "bytes": 798,
+      "label": "parnet_author_examples_datasets_encode.head-100.tfds_parnet_dataset_0.0.1_dataset_info.json",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_examples_datasets_encode.head-100.tfds_parnet_dataset_0.0.1_dataset_info.json_c83d01876a2e7b1f.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/examples/datasets/encode.head-100.tfds/parnet_dataset/0.0.1/dataset_info.json",
+      "retrieved_utc": "2026-09-10T00:08:56.148117+00:00",
+      "sha256": "0e8d5f8db064d2b6d8d4ef5f0e41c7739375724f0624b4c5c3a51de23f890da1",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/examples/datasets/encode.head-100.tfds/parnet_dataset/0.0.1/dataset_info.json"
+    },
+    {
+      "bytes": 3069,
+      "label": "parnet_author_examples_datasets_encode.head-100.tfds_parnet_dataset_0.0.1_features.json",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_examples_datasets_encode.head-100.tfds_parnet_dataset_0.0.1_features.json_a84761109afb0b94.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/examples/datasets/encode.head-100.tfds/parnet_dataset/0.0.1/features.json",
+      "retrieved_utc": "2026-09-10T00:08:56.148117+00:00",
+      "sha256": "8b3e5e7c10b26d15bdd320be70665dcfa22d99cd88089584fa760e03416cf81e",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/examples/datasets/encode.head-100.tfds/parnet_dataset/0.0.1/features.json"
+    },
+    {
+      "bytes": 441,
+      "label": "parnet_author_parnet___init__.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet___init__.py_3ce1aa304da6f35c.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/__init__.py",
+      "retrieved_utc": "2026-09-10T00:08:56.208759+00:00",
+      "sha256": "6c90bcd0a5865f0043dae0e01c44331ecf5816dfac15079679935b788d4070e5",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/__init__.py"
+    },
+    {
+      "bytes": 215,
+      "label": "parnet_author_parnet___main__.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet___main__.py_b848278a6fc6dd86.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/__main__.py",
+      "retrieved_utc": "2026-09-10T00:08:56.186255+00:00",
+      "sha256": "9eaf2e5418469cb475fd4de0421a56f44b1c70f3078f09c8596bb0e60d92c346",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/__main__.py"
+    },
+    {
+      "bytes": 1170,
+      "label": "parnet_author_parnet__gin_external_configurables.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet__gin_external_configurables.py_7a74a683c8ea4826.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/_gin_external_configurables.py",
+      "retrieved_utc": "2026-09-10T00:08:56.674209+00:00",
+      "sha256": "57ff16425b458d67eb9268638d071543e3d2a6a5e38809b7d33b343b2915eb8e",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/_gin_external_configurables.py"
+    },
+    {
+      "bytes": 0,
+      "label": "parnet_author_parnet_bin___init__.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_bin___init__.py_aa25a4460a6da2f7.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/__init__.py",
+      "retrieved_utc": "2026-09-10T00:08:56.674209+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/__init__.py"
+    },
+    {
+      "bytes": 2002,
+      "label": "parnet_author_parnet_bin_build_dataset.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_bin_build_dataset.py_98d065ef4cc8dbf3.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/build_dataset.py",
+      "retrieved_utc": "2026-09-10T00:08:56.582802+00:00",
+      "sha256": "3d23f959e8afe05b1d2a6bb05256f66389e14add975618497c69e95fa6763d8f",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/build_dataset.py"
+    },
+    {
+      "bytes": 755,
+      "label": "parnet_author_parnet_bin_predict.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_bin_predict.py_3f0d97c353d9ee1a.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/predict.py",
+      "retrieved_utc": "2026-09-10T00:08:56.590074+00:00",
+      "sha256": "9f03bd00390eeb480f795685abc73909852a178e9fe156ad059f049e5f855eff",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/predict.py"
+    },
+    {
+      "bytes": 12857,
+      "label": "parnet_author_parnet_bin_train.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_bin_train.py_3e34332cfe150f9b.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/train.py",
+      "retrieved_utc": "2026-09-10T00:08:56.933815+00:00",
+      "sha256": "44b8f3ac37e1e663e4c33f6fe040c0eb9f58dccb33b8f5374926c8213dcf632c",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/train.py"
+    },
+    {
+      "bytes": 3866,
+      "label": "parnet_author_parnet_bin_train_hf.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_bin_train_hf.py_1e5248e365cd646e.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/train_hf.py",
+      "retrieved_utc": "2026-09-10T00:08:56.958177+00:00",
+      "sha256": "c8ac747caf7662702186b2348f2a4bc5bdc9baa730d905b51be5a5675e6b431c",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/bin/train_hf.py"
+    },
+    {
+      "bytes": 206,
+      "label": "parnet_author_parnet_constants.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_constants.py_4db43d1ae0ce51cb.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/constants.py",
+      "retrieved_utc": "2026-09-10T00:08:56.953277+00:00",
+      "sha256": "4d504c3aebe166f0f85e07960aa7b10a59224375cda9bc4471f1c810a207fe8c",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/constants.py"
+    },
+    {
+      "bytes": 0,
+      "label": "parnet_author_parnet_data___init__.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_data___init__.py_433d4cca4809a6c6.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/data/__init__.py",
+      "retrieved_utc": "2026-09-10T00:08:56.958177+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/data/__init__.py"
+    },
+    {
+      "bytes": 13857,
+      "label": "parnet_author_parnet_data_bioIO.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_data_bioIO.py_d2bb8580fd936e28.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/data/bioIO.py",
+      "retrieved_utc": "2026-09-10T00:08:57.923023+00:00",
+      "sha256": "dcb1831955f8ac3c8fc99c0149d0a00fc61fbcdafd066ae23e98f49215948ca0",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/data/bioIO.py"
+    },
+    {
+      "bytes": 12529,
+      "label": "parnet_author_parnet_data_datasets.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_data_datasets.py_503c700b14559abe.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/data/datasets.py",
+      "retrieved_utc": "2026-09-10T00:08:57.333165+00:00",
+      "sha256": "c53cacfc4e0f509905b37c4059a2d81a055e00cea57856195aae704fb28a035a",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/data/datasets.py"
+    },
+    {
+      "bytes": 13167,
+      "label": "parnet_author_parnet_layers.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_layers.py_0291c477d0db55ec.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/layers.py",
+      "retrieved_utc": "2026-09-10T00:08:57.333165+00:00",
+      "sha256": "4641ed0f9448dedcae477e7698cb7a3d198ff874112e195af0e6849d782d8030",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/layers.py"
+    },
+    {
+      "bytes": 3743,
+      "label": "parnet_author_parnet_losses.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_losses.py_fedc960c6e57be36.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/losses.py",
+      "retrieved_utc": "2026-09-10T00:08:57.333165+00:00",
+      "sha256": "3b8a57e057733b550e97963d8451a54503c85e286715d44c84f40935aad344ca",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/losses.py"
+    },
+    {
+      "bytes": 3492,
+      "label": "parnet_author_parnet_metrics.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_metrics.py_b89a116474092388.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/metrics.py",
+      "retrieved_utc": "2026-09-10T00:08:57.665966+00:00",
+      "sha256": "37451b6893c42a7269446fca2105bfea82c9e4184d963ecc05cf4041788292f8",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/metrics.py"
+    },
+    {
+      "bytes": 6062,
+      "label": "parnet_author_parnet_models.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_models.py_df55e12af0dfaaca.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/models.py",
+      "retrieved_utc": "2026-09-10T00:08:57.734601+00:00",
+      "sha256": "7572e59c2f88ac03047806fd0b3553e364f21fd1ea90f8c6525e30ab7c178d0a",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/models.py"
+    },
+    {
+      "bytes": 1784,
+      "label": "parnet_author_parnet_utils.py",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_parnet_utils.py_277a8fd216d53a98.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/utils.py",
+      "retrieved_utc": "2026-09-10T00:08:57.734601+00:00",
+      "sha256": "7d77e9ebcf1d65be907fa376d916cf8e4917e91fb07f6d52f1b476cb11a01567",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/parnet/utils.py"
+    },
+    {
+      "bytes": 1922,
+      "label": "parnet_author_pyproject.toml",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_pyproject.toml_d382a6957f26f3e9.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/pyproject.toml",
+      "retrieved_utc": "2026-09-10T00:08:57.933641+00:00",
+      "sha256": "35b7d13fd4645c539e3ea3de1165024521ef74fe614c18ce3064f7df2f48e2d7",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/pyproject.toml"
+    },
+    {
+      "bytes": 131,
+      "label": "parnet_author_requirements.txt",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_author_requirements.txt_d0eacd6c26d94be7.bin",
+      "resolved_url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/requirements.txt",
+      "retrieved_utc": "2026-09-10T00:08:58.018576+00:00",
+      "sha256": "1b2ea9d4b1221c76e4e2d4fac002b762249daded5a51320ef40f19ce9dfaacce",
+      "url": "https://raw.githubusercontent.com/lambosaur/parnet/2e142786ffcec7ea5e23a28e1ec916c7524e6069/requirements.txt"
+    },
+    {
+      "bytes": 16585,
+      "label": "parnet_paper_commit",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_paper_commit_c4c620d900823087.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/parnet--paper/commits/main",
+      "retrieved_utc": "2026-09-10T00:08:58.576699+00:00",
+      "sha256": "1f04d32b117e9673cf78b0aecdf465096deb0b5691ec79fcc1e07784659b3960",
+      "url": "https://api.github.com/repos/marsico-lab/parnet--paper/commits/main"
+    },
+    {
+      "bytes": 641,
+      "label": "parnet_paper_tree",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_paper_tree_49f404133b1101d6.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/parnet--paper/git/trees/0f3dd29a9e3a3add7db175555721cbf001372199?recursive=1",
+      "retrieved_utc": "2026-09-10T00:08:59.227338+00:00",
+      "sha256": "8568b7da12de0aa19579f10ce20d28384b381ffd79c8a5c1ebab9f5ff0dfc0f9",
+      "url": "https://api.github.com/repos/marsico-lab/parnet--paper/git/trees/0f3dd29a9e3a3add7db175555721cbf001372199?recursive=1"
+    },
+    {
+      "bytes": 2,
+      "label": "parnet_paper_releases",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_paper_releases_9c63a4d925cc6938.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/parnet--paper/releases",
+      "retrieved_utc": "2026-09-10T00:08:59.490051+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/marsico-lab/parnet--paper/releases"
+    },
+    {
+      "bytes": 2,
+      "label": "parnet_paper_tags",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_paper_tags_15c57b02289b2e20.bin",
+      "resolved_url": "https://api.github.com/repos/marsico-lab/parnet--paper/tags",
+      "retrieved_utc": "2026-09-10T00:08:59.729156+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/marsico-lab/parnet--paper/tags"
+    },
+    {
+      "bytes": 11340,
+      "label": "parnet_paper_LICENSE",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_paper_LICENSE_57c227e50411ee6b.bin",
+      "resolved_url": "https://raw.githubusercontent.com/marsico-lab/parnet--paper/0f3dd29a9e3a3add7db175555721cbf001372199/LICENSE",
+      "retrieved_utc": "2026-09-10T00:08:59.962282+00:00",
+      "sha256": "672b1da8ad7aa4cb6ceeb21a1f4a6553944987e0883a52671f2f1e3dd833a872",
+      "url": "https://raw.githubusercontent.com/marsico-lab/parnet--paper/0f3dd29a9e3a3add7db175555721cbf001372199/LICENSE"
+    },
+    {
+      "bytes": 558,
+      "label": "parnet_paper_README.md",
+      "path": "data/external/mechanism_v2/resource_audit/parnet_paper_README.md_1f1186bdeda7c06b.bin",
+      "resolved_url": "https://raw.githubusercontent.com/marsico-lab/parnet--paper/0f3dd29a9e3a3add7db175555721cbf001372199/README.md",
+      "retrieved_utc": "2026-09-10T00:08:59.982604+00:00",
+      "sha256": "32a2129c13a46edc698e1fc1f61048b11d439c74ac97942814d35294690bf3dc",
+      "url": "https://raw.githubusercontent.com/marsico-lab/parnet--paper/0f3dd29a9e3a3add7db175555721cbf001372199/README.md"
+    },
+    {
+      "bytes": 6729,
+      "label": "stability_utr_commit",
+      "path": "data/external/mechanism_v2/resource_audit/stability_utr_commit_d65d9e41aa1ad559.bin",
+      "resolved_url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/commits/main",
+      "retrieved_utc": "2026-09-10T00:09:00.351782+00:00",
+      "sha256": "aba3ed6a037689747bb397d41e0798c3358303b973dab1c9aa453ff926d2af67",
+      "url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/commits/main"
+    },
+    {
+      "bytes": 15772,
+      "label": "stability_utr_tree",
+      "path": "data/external/mechanism_v2/resource_audit/stability_utr_tree_d8fe1b3317340a30.bin",
+      "resolved_url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/git/trees/30b9983b77a5673a090316d0068a28ec1c0ef510?recursive=1",
+      "retrieved_utc": "2026-09-10T00:09:00.718164+00:00",
+      "sha256": "82c42163d69d98ff095b10ed26f6a8d070eaadbd110a1596d8172f86be5ee5a2",
+      "url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/git/trees/30b9983b77a5673a090316d0068a28ec1c0ef510?recursive=1"
+    },
+    {
+      "bytes": 2,
+      "label": "stability_utr_releases",
+      "path": "data/external/mechanism_v2/resource_audit/stability_utr_releases_1e1d17d470d39394.bin",
+      "resolved_url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/releases",
+      "retrieved_utc": "2026-09-10T00:09:00.984357+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/releases"
+    },
+    {
+      "bytes": 2,
+      "label": "stability_utr_tags",
+      "path": "data/external/mechanism_v2/resource_audit/stability_utr_tags_62feaac01d3a383e.bin",
+      "resolved_url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/tags",
+      "retrieved_utc": "2026-09-10T00:09:01.207562+00:00",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/chienlinglin/modeling-UTR-variants-stability/tags"
+    },
+    {
+      "bytes": 34,
+      "label": "stability_utr_README.md",
+      "path": "data/external/mechanism_v2/resource_audit/stability_utr_README.md_f47e9098f5e65673.bin",
+      "resolved_url": "https://raw.githubusercontent.com/chienlinglin/modeling-UTR-variants-stability/30b9983b77a5673a090316d0068a28ec1c0ef510/README.md",
+      "retrieved_utc": "2026-09-10T00:09:01.536249+00:00",
+      "sha256": "25ad9cdfd6a3b9abab761d0314d251b7e802e8ff5b533765cf23375c35749268",
+      "url": "https://raw.githubusercontent.com/chienlinglin/modeling-UTR-variants-stability/30b9983b77a5673a090316d0068a28ec1c0ef510/README.md"
+    }
+  ],
+  "scope": "Source and metadata only; no model admission yet"
+}

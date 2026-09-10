@@ -1,0 +1,11 @@
+{
+  "cap_superseded": false,
+  "head_history": "f4e002e 2026-09-06T14:32:46-07:00 Evaluate FinalShot measurement-head randomization",
+  "interpretation": "Only sigmoid clarification changed protocol after initial freeze; cap not superseded. Literal cap yields an empty evaluable set, not a zero effect. Uncapped results remain qualified.",
+  "literal_cap_eligible_subsets": 0,
+  "literal_cap_maximum_per_gene_stratum": 2,
+  "protocol_diff_since_freeze": "diff --git a/reports/finalshot_protocol.md b/reports/finalshot_protocol.md\nindex 2cea26c..ed720b0 100644\n--- a/reports/finalshot_protocol.md\n+++ b/reports/finalshot_protocol.md\n@@ -139,6 +139,14 @@ the direct Hamming mismatch set. The edit span is first through last mismatch.\n Radius `q` means the edit span expanded by `q` positions on both sides and\n clipped to sequence boundaries.\n \n+Technical clarification recorded before any successful checkpoint cache or\n+localization evaluation: the serialized mixing head emits an unconstrained\n+logit. Consistent with the official `rbpnet.prediction._to_probs` implementation,\n+`a_r` is the sigmoid-transformed value, not the raw head logit. A full-scale QKI\n+pilot detected the ambiguity by correctly rejecting raw values outside `[0,1]`;\n+the failed pilot wrote no profile or feature shard. This clarification changes\n+no representation family, summary, radius, model, fold, metric, or gate.\n+\n Exactly nine modeled summaries are frozen per RBP:\n \n 1. signed `sum(d_r)` in radius 10;\n@@ -460,4 +468,3 @@ controlling prompt and prioritize primary papers/repositories. Any novelty\n claim must be narrow and qualified. The final report must answer all 60 required\n return items, including explicit not-evaluated/not-applicable entries, exact\n tests and commits, Astrocyte status, and whether a PV-CARE-level path remains.\n-",
+  "protocol_history": "ac0443e 2026-09-02T09:44:05-07:00 Implement frozen RBPNet signature cache\n30c89a3 2026-09-02T09:33:47-07:00 Freeze FinalShot mechanistic protocol",
+  "required_within_gene_minimum": 4,
+  "uncapped_reference": "results/finalshot/grouped_gate_summary.json"
+}
