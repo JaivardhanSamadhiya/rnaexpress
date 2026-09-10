@@ -1,0 +1,37 @@
+{
+  "version": "mechanism_v2_localization_v1",
+  "status": "prospective inner-development design; does not authorize outer evaluation or holdout access",
+  "seed": 20260909,
+  "replication_seeds": [20260910, 20260911],
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "split_manifest": "results/mechanism_v2/manifests/splits_all_alleles95.json",
+  "families": {
+    "M0": ["geometry"],
+    "M1": ["rbp_delta", "bert_pooled_delta"],
+    "M2": ["structure_delta"],
+    "M3": ["processing_delta"],
+    "M4": ["rbp_delta", "bert_pooled_delta", "structure_delta"],
+    "M5": ["rbp_delta", "bert_pooled_delta", "processing_delta"],
+    "M6": ["rbp_delta", "bert_pooled_delta", "structure_delta", "processing_delta", "motif_delta"],
+    "M7": ["rbp_delta", "bert_pooled_delta", "structure_delta", "processing_delta", "motif_delta", "trans_aligned"]
+  },
+  "recipes_per_family": [
+    {"id": "A", "ridge": 0.01, "nuisance": "none", "ranking_heads": false},
+    {"id": "B", "ridge": 0.01, "nuisance": "source", "ranking_heads": false},
+    {"id": "C", "ridge": 0.01, "nuisance": "size", "ranking_heads": false},
+    {"id": "D", "ridge": 0.01, "nuisance": "source_size", "ranking_heads": false},
+    {"id": "E", "ridge": 0.1, "nuisance": "none", "ranking_heads": false},
+    {"id": "F", "ridge": 0.01, "nuisance": "none", "ranking_heads": true}
+  ],
+  "ranker_constants": {"nuisance_strength": 0.1, "head_shrinkage": 0.1, "pairs_per_set": 128, "max_iterations": 400, "tolerance": 1e-8},
+  "selection": {"regret_tolerance": 0.002, "order": "minimum regret window, maximum rank, fewer columns plus nuisance/head parameters, lexical recipe ID", "aggregation": "mean decisions within component/source/direction, then equal source/direction means over concatenated inner out-of-fold predictions", "primary_pool": ["M1", "M2", "M3", "M4", "M5", "M6", "M7"]},
+  "stability": "excluded: both independent frozen validation tests failed; no zero-filled block",
+  "bert_choice": "pooled fixed-projection CLS+mean mutant minus reference; identical frozen allele function, 128 columns. Contextual edit-window delta is a separately named comparator, never an outer-selected replacement.",
+  "structure_windows": [20, 50, 100],
+  "processing": {"interpretation": "nuisance proxies, not validated splice or stability predictions", "primary": "covariates in M3/M5/M6/M7", "flag_rule": "any nonzero donor, acceptor, canonical PAS or common PAS variant delta", "flag_policy": "inner-only compare keeping all decisions versus abstaining when the top-ranked edit has this flag; report coverage and common-cohort regret; never delete labeled rows or use selective results to replace the full-cohort primary gate"},
+  "uncertainty": {"method": "three group-bootstrap refits of the selected recipe; within-decision percentile-rank standard deviation", "coverage_candidates": [1.0, 0.9, 0.75], "selection": "inner-only, minimum covered regret within 0.002 tolerance then greater coverage", "primary_gate": "always full coverage; selective utility is secondary"},
+  "controls": {"seed": 20260909, "permutation_seeds": [20260909, 20260910, 20260911], "donor_unit": "unique feature_row intervention, not replicated candidate rows", "partition_local": true, "strata": [[], ["dataset"], ["edit_band"], ["biological_unit"], ["dataset", "edit_band"]], "singletons": "ineligible for matched null comparison; never cycle donors", "N10": "not applicable: independently trained stability block excluded"},
+  "inference": "shared source-free latent score only; reverse its sign for decrease. Optional source temperatures are training heads, not assay-value calibration.",
+  "holdout": "sealed; no authorization in this design"
+}
