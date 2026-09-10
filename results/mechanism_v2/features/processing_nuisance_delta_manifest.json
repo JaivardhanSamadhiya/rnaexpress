@@ -1,0 +1,24 @@
+{
+  "code_sha256": "d0f88423bbce11d8c3e87af374d2d5d0a09231e335de1a278a8e0179c6b5794c",
+  "configuration_sha256": "0516e7aedd7c8d19c00955fadfbfd0a66220c2a87cc5df6c8fa758bb2aa5f596",
+  "dtype": "float32",
+  "features": [
+    "delta_strict_donor_consensus",
+    "delta_strict_acceptor_consensus",
+    "delta_canonical_pas",
+    "delta_common_pas_variant",
+    "delta_au_rich_element",
+    "delta_max_CU_fraction_in_12nt",
+    "delta_max_U_fraction_in_8nt",
+    "delta_U_fraction"
+  ],
+  "interpretation": "Local motif-based nuisance summaries only; not splice/PAS probabilities; absent full reporter architecture precludes a validated splice-site inference claim",
+  "intervention_sha256": "a7e651e4a2a1ccf6d16ea43c6da8de384901df9a15cdf82208c2235315989835",
+  "observations_excluded": 0,
+  "path": "data/interim/mechanism_v2/processing_nuisance_delta.npy",
+  "sha256": "40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39",
+  "shape": [
+    62665,
+    8
+  ]
+}

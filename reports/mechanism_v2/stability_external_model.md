@@ -45,6 +45,31 @@ half-life) target. No localization label may train or select this predictor.
 No credible performance estimate exists yet, and M3/M5/M6 stability inclusion
 remains conditional on successful reconstruction and independent validation.
 
+## Prospective external-only validation design
+
+Before any real external predictor fit, the versioned design specifies three
+recipes: Ridge with alpha 10 or 100 and a fixed shallow histogram-boosted model.
+Inputs are paired 1–4-mer density differences; the nonlinear model can also use
+symmetric pair-average mono/dinucleotide composition. Training includes reverse
+pairs within the same group; antisymmetrized inference enforces a zero prediction
+for identical alleles and sign reversal when reference and mutant are exchanged.
+This is an independently trained paired-effect model, not a pretrained RNA LM.
+
+Use five outer and three inner folds, joining genes and sequence pairs with
+at least 95% global identity. Exclude development genes, exact containment in
+development reporter sequences, and at least 90% global sequence identity.
+Selection uses inner gene-macro MSE only. SH and HEK are evaluated independently.
+Admission requires at least 200 independent groups, OOF Spearman at least 0.15
+with a positive group-bootstrap 95% lower bound, and at least 2% gene-macro MSE
+improvement over **both** the zero-delta and training-mean baselines. These are
+new external-resource admission criteria, not changes to FinalShot gates. A
+failed model is excluded without a subsequent architecture or threshold search.
+
+The validation runner refuses real fitting until predictor code and design
+match committed Git bytes. External inputs and exclusions are hashed into a
+separate training freeze before any model fit. No successful external score has
+yet been observed at this design checkpoint.
+
 The spreadsheet was not edited. All extraction, raw-read validation and mapping
 work occurs in the isolated Mechanism-v2 namespace. N-zip and Astrocyte remain
 unopened.

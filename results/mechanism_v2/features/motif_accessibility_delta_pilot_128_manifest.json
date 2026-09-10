@@ -1,0 +1,70 @@
+{
+  "code_sha256": "d0f88423bbce11d8c3e87af374d2d5d0a09231e335de1a278a8e0179c6b5794c",
+  "configuration": {
+    "accessibility": "Mean marginal unpaired probability at each matched site's bases, summed across overlapping sites, normalized per 100 input nucleotides; not joint accessibility",
+    "branchpoint_model": "excluded: short degenerate motif without full intron/donor context would not identify a functional branchpoint",
+    "motif_interpretation": "Curated consensus proxies, not RBP-specific measured binding or calibrated occupancy; UG repeat length 3 is an engineering summary, not a binding threshold",
+    "motifs": [
+      {
+        "name": "PUM_family_consensus",
+        "regex": "TGTA[ACGT]ATA",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3196106/"
+      },
+      {
+        "name": "QKI_core_consensus",
+        "regex": "ACTAA[CT]",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983035/"
+      },
+      {
+        "name": "MBNL_family_minimal",
+        "regex": "[CT]GC[CT]",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2853123/"
+      },
+      {
+        "name": "UG_repeat_3_proxy",
+        "regex": "TGTGTG",
+        "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3643599/"
+      }
+    ],
+    "outcome_exclusion": "No observations are deleted by this feature extraction; treatment/flag strategy requires prospective inner-only selection",
+    "processing_additional_summaries": [
+      "max_CU_fraction_in_12nt",
+      "max_U_fraction_in_8nt",
+      "U_fraction"
+    ],
+    "processing_interpretation": "Local motif-based nuisance summaries only; not splice/PAS probabilities; absent full reporter architecture precludes a validated splice-site inference claim",
+    "processing_patterns": {
+      "au_rich_element": "ATTTA",
+      "canonical_pas": "AATAAA",
+      "common_pas_variant": "ATTAAA",
+      "strict_acceptor_consensus": "[CT]{10}[ACGT]CAGG",
+      "strict_donor_consensus": "[AC]AGGT[AG]AGT"
+    },
+    "processing_sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC86117/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC307082/",
+      "https://doi.org/10.1038/s41467-025-62000-9"
+    ],
+    "status": "prospective sequence-feature design; not outcome-selected",
+    "structure": {
+      "dangles": 2,
+      "noLP": false,
+      "parameters": "RNA_Turner2004",
+      "temperature_c": 37.0,
+      "version": "2.7.2",
+      "window": "entire supplied certified reporter fragment"
+    }
+  },
+  "configuration_sha256": "0516e7aedd7c8d19c00955fadfbfd0a66220c2a87cc5df6c8fa758bb2aa5f596",
+  "dtype": "float32",
+  "feature_order": "four motif density deltas, followed by four site-marginal exposure density deltas",
+  "intervention_sha256": "a7e651e4a2a1ccf6d16ea43c6da8de384901df9a15cdf82208c2235315989835",
+  "native_binary_sha256": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+  "path": "data/interim/mechanism_v2/motif_accessibility_delta_pilot_128.npy",
+  "sha256": "d230779f4ae526446c52bae13b98e5a67aaf340cab001cb4c4a193fea1d5414f",
+  "shape": [
+    128,
+    8
+  ],
+  "unique_sequences": 189
+}

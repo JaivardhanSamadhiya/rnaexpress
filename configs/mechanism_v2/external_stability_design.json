@@ -1,0 +1,21 @@
+{
+  "status":"prospective independent-stability validation design; no external predictor evaluated when written",
+  "cells":["SH","HEK"],
+  "target":"log2(mutant half-life / reference half-life)",
+  "eligibility":"Unique exact observed ref/mut sequence mapping, finite positive paired half-lives, no p-value filter; exclude localization development genes, exact sequence containment and at least 90 percent global sequence identity",
+  "features":"Counts per 100 nt for every 1-, 2-, 3-, 4-mer; mutant minus reference. HGB additionally receives symmetric mean mono/dinucleotide composition. No localization outcome features.",
+  "models":[
+    {"id":"ridge_10","kind":"ridge","alpha":10},
+    {"id":"ridge_100","kind":"ridge","alpha":100},
+    {"id":"hgb_7","kind":"hgb","max_leaf_nodes":7,"max_iter":100,"learning_rate":0.05,"l2_regularization":1.0,"min_samples_leaf":20}
+  ],
+  "pair_orientation":"Augment training with reverse pairs inside the same biological group; report antisymmetrized predictions, giving zero for identical sequences and opposite signs on reversal",
+  "splits":"5 outer and 3 inner GroupKFold partitions by connected gene and ref/mut sequence identity of at least 95 percent; each cell independently; all transformations train-only",
+  "selection":"minimum inner gene-macro squared error; ties within 1e-10 select model order ridge_10, ridge_100, hgb_7",
+  "weights":"equal biological groups, then equal paired variants; orientations each get half the variant weight",
+  "baselines":["zero delta","training-group-weighted mean delta"],
+  "admission":{"minimum_independent_groups":200,"minimum_oof_spearman":0.15,"minimum_spearman_bootstrap_lower95":0.0,"minimum_relative_mse_improvement_over_training_mean":0.02,"minimum_relative_mse_improvement_over_zero":0.02},
+  "bootstrap":{"resamples":2000,"unit":"connected biological group; keep both alleles together","seed":20260910},
+  "failed_admission":"Retain all results, exclude the predictor from primary localization features; no threshold relaxation or further architecture search",
+  "scope":"External stability validation only; never opens Astrocyte, N-zip or quarantined TDP stability data"
+}

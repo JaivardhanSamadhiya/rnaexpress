@@ -13,7 +13,7 @@ if runtime.exists():
 def main():
     parser=argparse.ArgumentParser(__doc__)
     parser.add_argument('stage', choices=['audit','resources','features','external_stability',
-        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits'])
+        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits','motifs','processing','stability-validate'])
     parser.add_argument('--limit',type=int)
     parser.add_argument('--workers',type=int,default=3)
     args=parser.parse_args()
@@ -46,6 +46,15 @@ def main():
     elif args.stage=='splits':
         from .splits import build_splits
         build_splits()
+    elif args.stage=='processing':
+        from .motif_processing import build_processing
+        build_processing()
+    elif args.stage=='motifs':
+        from .motif_processing import build_motif_accessibility
+        build_motif_accessibility(args.limit,args.workers)
+    elif args.stage=='stability-validate':
+        from .stability_validation import validate_external_stability
+        validate_external_stability()
     elif args.stage=='test':
         import pytest
         raise SystemExit(pytest.main(['-q','tests/mechanism_v2','--junitxml=results/mechanism_v2/tests.xml']))

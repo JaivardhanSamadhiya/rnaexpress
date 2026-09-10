@@ -1,0 +1,28 @@
+{
+  "status": "prospective sequence-feature design; not outcome-selected",
+  "motifs": [
+    {"name":"PUM_family_consensus","regex":"TGTA[ACGT]ATA","source":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3196106/"},
+    {"name":"QKI_core_consensus","regex":"ACTAA[CT]","source":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3983035/"},
+    {"name":"MBNL_family_minimal","regex":"[CT]GC[CT]","source":"https://pmc.ncbi.nlm.nih.gov/articles/PMC2853123/"},
+    {"name":"UG_repeat_3_proxy","regex":"TGTGTG","source":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3643599/"}
+  ],
+  "motif_interpretation": "Curated consensus proxies, not RBP-specific measured binding or calibrated occupancy; UG repeat length 3 is an engineering summary, not a binding threshold",
+  "accessibility": "Mean marginal unpaired probability at each matched site's bases, summed across overlapping sites, normalized per 100 input nucleotides; not joint accessibility",
+  "structure": {"version":"2.7.2","parameters":"RNA_Turner2004","temperature_c":37.0,"dangles":2,"noLP":false,"window":"entire supplied certified reporter fragment"},
+  "processing_patterns": {
+    "strict_donor_consensus":"[AC]AGGT[AG]AGT",
+    "strict_acceptor_consensus":"[CT]{10}[ACGT]CAGG",
+    "canonical_pas":"AATAAA",
+    "common_pas_variant":"ATTAAA",
+    "au_rich_element":"ATTTA"
+  },
+  "processing_sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC86117/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC307082/",
+    "https://doi.org/10.1038/s41467-025-62000-9"
+  ],
+  "processing_interpretation": "Local motif-based nuisance summaries only; not splice/PAS probabilities; absent full reporter architecture precludes a validated splice-site inference claim",
+  "processing_additional_summaries": ["max_CU_fraction_in_12nt","max_U_fraction_in_8nt","U_fraction"],
+  "branchpoint_model": "excluded: short degenerate motif without full intron/donor context would not identify a functional branchpoint",
+  "outcome_exclusion": "No observations are deleted by this feature extraction; treatment/flag strategy requires prospective inner-only selection"
+}
