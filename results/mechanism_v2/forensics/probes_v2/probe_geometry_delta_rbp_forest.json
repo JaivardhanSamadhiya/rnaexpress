@@ -1,0 +1,151 @@
+{
+  "feature_source_sha256": "3857bc47510828ff6e45134e0429d760f424b20fed4dcae3675fb40abbf77abc",
+  "metrics": [
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": 0.4237769072255363
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": -0.02233093070261405
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": 0.18792466036844246
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": 0.6523193197979953
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": 0.42884054595360244
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": -0.01417938498467386
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": 0.18716604958465854
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": 0.6616663843529271
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": 0.2504115526924009
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": -0.15943751112276416
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": 0.1166105146297517
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": 0.6002408909933445
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": -0.04533788573322406
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": -0.2617066175960898
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": -0.03857726498777403
+    },
+    {
+      "block": "geometry_delta_rbp",
+      "estimator": "forest",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": 0.16079944699479087
+    }
+  ],
+  "old_fold_components_requiring_purge": 2,
+  "probe_target": "Archived fold-dependent score, not a single fitted teacher function"
+}

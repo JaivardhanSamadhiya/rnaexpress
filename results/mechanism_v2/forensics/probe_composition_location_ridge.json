@@ -1,0 +1,151 @@
+{
+  "feature_source_sha256": "3857bc47510828ff6e45134e0429d760f424b20fed4dcae3675fb40abbf77abc",
+  "metrics": [
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": 0.48724955274323256
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": -0.44497637921537136
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": 0.26015630231238873
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1",
+      "weighted_oof_r2": 0.768863596081655
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": 0.48940913068653213
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": -0.4407652078216282
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": 0.26259590910308594
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M2",
+      "weighted_oof_r2": 0.7703924051316369
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": 0.14204165499248933
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": -0.2890599624459289
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": 0.13324896486968996
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M3",
+      "weighted_oof_r2": 0.3328266555641737
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 93208,
+      "source": "equal_source_pooled",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": -0.1680628482252151
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 23616,
+      "source": "mikl_gse173098",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": -0.2393511784139848
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 65026,
+      "source": "moffatt_gse334718",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": -0.25797760342913456
+    },
+    {
+      "block": "composition_location",
+      "estimator": "ridge",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "status": "exploratory prediction reconstruction, not causal attribution",
+      "target": "M1_M2_M3_nested_selected",
+      "weighted_oof_r2": 0.024720199896071104
+    }
+  ],
+  "old_fold_components_requiring_purge": 1,
+  "probe_target": "Archived fold-dependent score, not a single fitted teacher function"
+}

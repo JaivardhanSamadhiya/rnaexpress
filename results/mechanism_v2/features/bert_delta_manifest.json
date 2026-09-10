@@ -1,0 +1,19 @@
+{
+  "dtype": "float32",
+  "interpretation": "128-dimensional fixed projected contextual token deltas, not mutant absolute block",
+  "metadata_sha256": "dd918c7ac07095bed2eb3377dab0471f18493b96eae1472ac65ff98267710251",
+  "path": "data/interim/mechanism_v2/bert_contextual_delta.npy",
+  "sha256": "bc05a8a50fd8a6ce8b474e03bce909bd443f7e7104a33dac0c26db273a2dc920",
+  "shape": [
+    62665,
+    128
+  ],
+  "source_code": "src/modeling/v4_embeddings.py",
+  "source_code_sha256": "ded06e9b9c5eca22f085e589e0f4bc0b61575ff4a92bc3533b85f4528517f86f",
+  "source_columns": [
+    256,
+    384
+  ],
+  "source_sha256": "51912767e74dc19a06dadf6bab9f3022f11939f1cc537f024af148cc18f948d9",
+  "status": "separate sequence-prior comparator; admission/configuration not yet frozen"
+}

@@ -1,0 +1,46 @@
+{
+  "code_sha256": "0cfa2176f1cc870e1f7a436f87b29982a8fbf0f3f8ef64817a0e3bba4e0769d7",
+  "configuration": {
+    "maximum_leading_random_bases": 3,
+    "maximum_variable_length": 200,
+    "minimum_covered_phred": 20,
+    "minimum_exact_overlap": 35,
+    "minimum_read_pair_support": 10,
+    "minimum_variable_length": 50,
+    "primers_source": "https://elifesciences.org/articles/97682#s4"
+  },
+  "inputs": [
+    {
+      "bytes": 456245944,
+      "md5": "c8f8c3e65063062f90e4b6bae9c83398",
+      "path": "data/external/mechanism_v2/stability_reads/SRR22227655_1.fastq.gz",
+      "sha256": "f5e3ad1503167b0011d935c25b795f382121e55f33c7bc0a95583b7970b96181",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR222/055/SRR22227655/SRR22227655_1.fastq.gz"
+    },
+    {
+      "bytes": 380473775,
+      "md5": "2c77af3769f0c4833b5f4857344d31ee",
+      "path": "data/external/mechanism_v2/stability_reads/SRR22227655_2.fastq.gz",
+      "sha256": "b0adc1c9d7650c757a2d8dc1d60f8c58eb46ddbe94292e616665c2877641ae01",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR222/055/SRR22227655/SRR22227655_2.fastq.gz"
+    }
+  ],
+  "limit": 10000,
+  "outcomes_used": false,
+  "output": "data/interim/mechanism_v2/stability_sequence_discovery_pilot_10000.csv",
+  "output_sha256": "9370be1745be9322a27ef718129fbef567b0c76ceb49e65728d8368918d17c7d",
+  "reasons": {
+    "accepted": 4984,
+    "forward_primer": 571,
+    "no_exact_high_quality_overlap": 2669,
+    "reverse_primer": 1665,
+    "short_read": 111
+  },
+  "status": "Sequence discovery only; exact allele/variant identity unresolved; not model-admitted",
+  "supported_length_counts": {
+    "115": 1
+  },
+  "supported_sequences": 1,
+  "total_pairs": 10000,
+  "unique_variable_sequences": 4463
+}

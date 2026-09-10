@@ -1,0 +1,10 @@
+{
+  "status": "withdrawn implementation diagnostic; preserve but do not interpret",
+  "affected": "forensics/probe_*.json, prediction_reconstruction_probes.csv, exact_component_audit.json",
+  "unaffected": "Archived prediction recomputation, original FinalShot outputs, biological-unit bootstrap and subset results",
+  "cause": "New component builder treated the literal gene_id value 'missing' as a shared gene, incorrectly connecting all Moffatt parents and purging too much training data.",
+  "detected_by": "Inspection of full-data component members before any new localization training",
+  "fix": "Explicit missing-gene sentinel exclusion; five regression tests; rerun into forensics/probes_v2",
+  "scientific_gates_changed": false,
+  "astrocyte_data_accessed": false
+}

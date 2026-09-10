@@ -16,6 +16,14 @@ def test_derived_sequence_connects_units():
     assert groups[2]!=groups[3]
 
 
+@pytest.mark.parametrize('sentinel',['missing','unknown','-','n/a','not_available'])
+def test_missing_gene_ids_are_not_shared_genes(sentinel):
+    f=fixture();f.gene_id=sentinel
+    groups,audit=component_groups(f)
+    assert audit['components']==3
+    assert groups[2]!=groups[3]
+
+
 def test_near_parent_sensitive_grouping():
     _,audit=component_groups(fixture(),near_identity=.75)
     assert audit['components']==2

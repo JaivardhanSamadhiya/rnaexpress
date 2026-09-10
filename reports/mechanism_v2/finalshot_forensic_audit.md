@@ -1,7 +1,7 @@
 # FinalShot forensic audit for Mechanism-v2
 
-Status: first checkpoint, 9 September 2026. Archived prediction recomputation has
-matched all four model-family summaries; additional diagnostics are in progress.
+Status: updated checkpoint, 9 September 2026. Archived prediction recomputation
+matched all four model-family summaries; corrected score probes have completed.
 This is an exploratory retrospective audit, not a revision of FinalShot's gates.
 
 ## What failed, and what can actually be concluded
@@ -78,8 +78,38 @@ system write lock. Per-checkpoint caches need individual rehashing before reuse.
 | Unit uncertainty/distribution | Paired-direction source-stratified bootstrap |
 | Cell/reporter/source transfers | Archived results reviewed; prediction replay remains |
 | Identity, delta, parent, trans, head controls | Archived implementation/results reviewed; new corrected nulls tested on synthetic cases |
-| Prediction shortcut reconstruction | Fixed grouped Ridge/forest probes specified; results pending |
+| Prediction shortcut reconstruction | Corrected fixed grouped Ridge/forest probes completed; see below |
 | Latent nuisance decoding, partial R² | Pending; exploratory, not mechanistic proof |
 | Near-sequence/gene-family sensitivity | New grouping checks pending on full development table |
 
 No N-zip outcome or Astrocyte data has been accessed. Astrocyte remains sealed.
+
+## Corrected prediction-reconstruction results
+
+The first diagnostic run was withdrawn because the literal missing-gene sentinel
+`missing` incorrectly joined unrelated biological parents. Its outputs remain
+preserved alongside an explicit withdrawal record. The corrected grouping has
+211 components from 213 original units; two true cross-source gene components
+are purged from the opposite side of each archived fold. Five missing-sentinel
+regression tests prevent recurrence.
+
+For the archived nested-selected score, equal-source weighted out-of-fold R² is:
+
+| Probe features | Ridge | Shallow forest |
+|---|---:|---:|
+| Geometry | −0.26691 | −0.09037 |
+| Size and mutation class | −0.30302 | −0.19963 |
+| Composition and edit location | −0.05277 | −0.08277 |
+| Absolute parent RBP summaries | −0.18811 | −0.04289 |
+| RBP deltas | −0.19107 | −0.03262 |
+| Geometry plus RBP deltas | −0.20086 | −0.04534 |
+
+These probes did **not** establish reliable held-parent reconstruction of the
+selected raw score. They therefore do not justify declaring any one feature
+block the proven dominant shortcut. Nor do negative R² values establish absence
+of shortcuts: the teacher scores come from different archived fold-specific
+models and model families, so offsets, scales and functions differ across folds.
+The full machine-readable results include each source and M1/M2/M3 separately.
+These are diagnostics of raw-score predictability, not causal mediation or a
+new optimization target. Matched-size outcome comparisons and new representation
+nuisance decoding remain separate required analyses.

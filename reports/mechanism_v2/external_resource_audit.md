@@ -5,7 +5,7 @@ Mechanism-v2 predictor yet. Reviewed 9 September 2026.
 
 ## Independent stability candidate
 
-[Lin et al., eLife 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11835390/)
+[Su, Wang et al., eLife 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11835390/)
 report 6,555 designed pairs of 155-nt UTR reference/mutant fragments and time-course
 RNA-decay assays in HEK293T and SH-SY5Y. The experiment transfects in-vitro-
 transcribed RNA rather than DNA reporters, a relevant distinction for potential

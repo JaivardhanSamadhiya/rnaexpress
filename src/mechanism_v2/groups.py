@@ -28,7 +28,9 @@ def component_groups(rows, near_identity=None):
             else:seen[key]=unit
         parent_sequences.setdefault(str(row.parent_sequence).upper().replace('U','T'),unit)
         for column,value in [('id',row.gene_id),('name',row.gene_name)]:
-            if pd.isna(value) or str(value).strip().lower() in {'','none','nan','unknown','na','n/a'}:
+            if pd.isna(value) or str(value).strip().lower() in {
+                '', 'none', 'nan', 'unknown', 'na', 'n/a', 'missing', 'not_available', '-', '.', 'null'
+            }:
                 continue
             key=f'gene_{column}:'+str(value).strip().lower()
             if key in seen:union(unit,seen[key])

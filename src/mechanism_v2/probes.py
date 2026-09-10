@@ -9,8 +9,11 @@ from sklearn.preprocessing import StandardScaler,OneHotEncoder
 from sklearn.metrics import r2_score
 from threadpoolctl import threadpool_limits
 from .io import ROOT,load_development,write_json,sha256
-from .forensics import archived_functions,csv,DEST,FULL
+from .forensics import archived_functions,csv,FULL
 from .groups import component_groups
+
+# v1 is preserved, but withdrawn: literal gene_id='missing' merged unrelated genes.
+DEST='results/mechanism_v2/forensics/probes_v2'
 
 
 def run_probes():

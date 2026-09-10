@@ -1,0 +1,37 @@
+{
+  "caveat": "marginal unpaired probability, not joint motif accessibility; equilibrium local folding, not in-cell measurement",
+  "code_sha256": "3518bd7a4e80da5c003679ff48c856b21316ec499fdfd75d2ca7af6ef4767371",
+  "config": {
+    "dangles": 2,
+    "features": [
+      "mfe_per_nt",
+      "ensemble_free_energy_per_nt",
+      "mean_unpaired_probability",
+      "mean_partner_entropy",
+      "mean_bp_distance_per_nt",
+      "mfe_paired_fraction"
+    ],
+    "noLP": false,
+    "parameters": "RNA_Turner2004",
+    "radii": [
+      20,
+      50,
+      100
+    ],
+    "temperature_c": 37.0,
+    "version": "2.7.2"
+  },
+  "config_sha256": "7185232e58d4339bdc93f773774703e9524774b571c26970c3e1b9fb534e3166",
+  "dtype": "float32",
+  "feature_order": "radius-major, summary-minor; all mutant minus reference",
+  "input_scope": "outcome-free certified intervention table; no outcome columns",
+  "intervention_sha256": "a7e651e4a2a1ccf6d16ea43c6da8de384901df9a15cdf82208c2235315989835",
+  "native_binary_sha256": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+  "path": "data/interim/mechanism_v2/structure_delta_full.npy",
+  "sha256": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90",
+  "shape": [
+    62665,
+    18
+  ],
+  "unique_windows": 212979
+}

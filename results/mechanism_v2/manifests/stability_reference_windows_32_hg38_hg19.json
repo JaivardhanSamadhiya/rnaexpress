@@ -1,0 +1,970 @@
+{
+  "limit": 32,
+  "records": [
+    {
+      "assembly": "hg38",
+      "chromosome": "chr10",
+      "end": 100363046,
+      "receipt": {
+        "bytes": 562,
+        "label": "stability_reference_hg38_chr10_100362645_100363046",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr10_100362645_100363046_bbfa4a9674519a6a.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr10;start=100362645;end=100363046",
+        "retrieved_utc": "2026-09-10T01:44:23.074218+00:00",
+        "sha256": "ff90f07657314be8948421a0cf65bd312dddbaf2f9a1d21e9481a4ca1e29c7f6",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr10;start=100362645;end=100363046"
+      },
+      "start": 100362645
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr10",
+      "end": 86924665,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr10_86924264_86924665",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr10_86924264_86924665_31b15ccbe11a2894.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr10;start=86924264;end=86924665",
+        "retrieved_utc": "2026-09-10T01:44:23.188108+00:00",
+        "sha256": "1b462c521d86a437b2fea2364daeced7b77b846ec44bd5bf04ebc5eaf62ccfbb",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr10;start=86924264;end=86924665"
+      },
+      "start": 86924264
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr11",
+      "end": 22281932,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr11_22281531_22281932",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr11_22281531_22281932_46230ccd0e2270ee.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr11;start=22281531;end=22281932",
+        "retrieved_utc": "2026-09-10T01:44:23.464234+00:00",
+        "sha256": "7c3733801d6364f85c0cc512d0d4390f0e39b0122e0d09d1ae7616bb9904db84",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr11;start=22281531;end=22281932"
+      },
+      "start": 22281531
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr11",
+      "end": 88293953,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr11_88293552_88293953",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr11_88293552_88293953_38043e4d8cd36e78.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr11;start=88293552;end=88293953",
+        "retrieved_utc": "2026-09-10T01:44:23.755083+00:00",
+        "sha256": "80334a78bfb0f43d30d7881d74cd9cbeb21718bf4edcdb6157c690481d327b18",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr11;start=88293552;end=88293953"
+      },
+      "start": 88293552
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr12",
+      "end": 2695839,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg38_chr12_2695438_2695839",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr12_2695438_2695839_1539132c250ddd51.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr12;start=2695438;end=2695839",
+        "retrieved_utc": "2026-09-10T01:44:24.036876+00:00",
+        "sha256": "d4f1216e5b531663a44c59f7677294a1ad896fea5f2b2d90f0027748b0cf8346",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr12;start=2695438;end=2695839"
+      },
+      "start": 2695438
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr13",
+      "end": 20189100,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr13_20188699_20189100",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr13_20188699_20189100_1debd39e30ee8dbf.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr13;start=20188699;end=20189100",
+        "retrieved_utc": "2026-09-10T01:44:24.370439+00:00",
+        "sha256": "afe58bc391e465e6a0eb8e49f7cdfde4059d83fc8c4da9302fb375a13951cf08",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr13;start=20188699;end=20189100"
+      },
+      "start": 20188699
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr14",
+      "end": 73700368,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr14_73699967_73700368",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr14_73699967_73700368_b0269935a37c308d.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr14;start=73699967;end=73700368",
+        "retrieved_utc": "2026-09-10T01:44:24.670721+00:00",
+        "sha256": "4281ad55991d11ceb0acde6fa46900fa16516bfcced8580aeaa59330cd8536d1",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr14;start=73699967;end=73700368"
+      },
+      "start": 73699967
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr15",
+      "end": 68207808,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr15_68207407_68207808",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr15_68207407_68207808_f55a42135557ff7e.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr15;start=68207407;end=68207808",
+        "retrieved_utc": "2026-09-10T01:44:24.952704+00:00",
+        "sha256": "ac932403a73c78b7e1ad7488a74c67b7cd3af64b3eaa3ba426336093f14597d4",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr15;start=68207407;end=68207808"
+      },
+      "start": 68207407
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr16",
+      "end": 2503087,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg38_chr16_2502686_2503087",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr16_2502686_2503087_2a75ad2f914f9e55.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr16;start=2502686;end=2503087",
+        "retrieved_utc": "2026-09-10T01:44:25.299873+00:00",
+        "sha256": "38aa18d1f9bb0b54e7254096ced842db3fd5f98e8250fc79758412593e43e6ec",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr16;start=2502686;end=2503087"
+      },
+      "start": 2502686
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr16",
+      "end": 81378612,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr16_81378211_81378612",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr16_81378211_81378612_5042b8fcd483c018.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr16;start=81378211;end=81378612",
+        "retrieved_utc": "2026-09-10T01:44:25.571869+00:00",
+        "sha256": "b3ca4a2f6f137ae89cde3f805f7709aeaf287ed11bc9fa6da167a39ed45d257b",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr16;start=81378211;end=81378612"
+      },
+      "start": 81378211
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr17",
+      "end": 42913937,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr17_42913536_42913937",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr17_42913536_42913937_da94ec57ce4b4a0d.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr17;start=42913536;end=42913937",
+        "retrieved_utc": "2026-09-10T01:44:25.889681+00:00",
+        "sha256": "8cc96472dd2f907cbd3ee86343d06986590552fb9720c0c7afd27285d83061e6",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr17;start=42913536;end=42913937"
+      },
+      "start": 42913536
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr17",
+      "end": 7668649,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg38_chr17_7668248_7668649",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr17_7668248_7668649_a86b3080d722f56a.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr17;start=7668248;end=7668649",
+        "retrieved_utc": "2026-09-10T01:44:26.187748+00:00",
+        "sha256": "6acb6912b4d8d789cf839e231b4a8d1ec97fa63725fa715605df233822049ee5",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr17;start=7668248;end=7668649"
+      },
+      "start": 7668248
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr18",
+      "end": 63126461,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr18_63126060_63126461",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr18_63126060_63126461_d2fb67f5e225d36a.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr18;start=63126060;end=63126461",
+        "retrieved_utc": "2026-09-10T01:44:26.504810+00:00",
+        "sha256": "9d39c2088995f5285c037b66a6358a5936ea7408046c371233ba796b25cb6520",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr18;start=63126060;end=63126461"
+      },
+      "start": 63126060
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr1",
+      "end": 100194341,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg38_chr1_100193940_100194341",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr1_100193940_100194341_d60877b847351bae.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr1;start=100193940;end=100194341",
+        "retrieved_utc": "2026-09-10T01:44:26.792407+00:00",
+        "sha256": "579bb0def20d3f8bab12be964a0f2cbdd33f589c926c9906c361282b30638fe9",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr1;start=100193940;end=100194341"
+      },
+      "start": 100193940
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr1",
+      "end": 171636052,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg38_chr1_171635651_171636052",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr1_171635651_171636052_b9cfddb1bfc39640.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr1;start=171635651;end=171636052",
+        "retrieved_utc": "2026-09-10T01:44:27.094335+00:00",
+        "sha256": "97b2746b6d85d6b6c658d5a23b352d045a29dd608216edee1bf0056596968d4e",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr1;start=171635651;end=171636052"
+      },
+      "start": 171635651
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr1",
+      "end": 26427651,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr1_26427250_26427651",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr1_26427250_26427651_50fd1525b19ab400.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr1;start=26427250;end=26427651",
+        "retrieved_utc": "2026-09-10T01:44:27.432934+00:00",
+        "sha256": "fcd096d1c0c124e2f1e7327740e0c5db9c76cb46569784e839ef52b24c3c63d8",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr1;start=26427250;end=26427651"
+      },
+      "start": 26427250
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr20",
+      "end": 46129917,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr20_46129516_46129917",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr20_46129516_46129917_78ad8b57f8e387f8.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr20;start=46129516;end=46129917",
+        "retrieved_utc": "2026-09-10T01:44:27.660636+00:00",
+        "sha256": "7e632890144276f0302f952673ab7eb57717f7946b1a1ee36f16d037552a364c",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr20;start=46129516;end=46129917"
+      },
+      "start": 46129516
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr22",
+      "end": 28688092,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg38_chr22_28687691_28688092",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr22_28687691_28688092_a9c1634e4c56e72e.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr22;start=28687691;end=28688092",
+        "retrieved_utc": "2026-09-10T01:44:28.001808+00:00",
+        "sha256": "588785ae146df5c5617e19b5fa2b325a6ae980d74251940750c69a3a68e53e96",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr22;start=28687691;end=28688092"
+      },
+      "start": 28687691
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr2",
+      "end": 171483061,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg38_chr2_171482660_171483061",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr2_171482660_171483061_3ab48e8c26b255cc.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr2;start=171482660;end=171483061",
+        "retrieved_utc": "2026-09-10T01:44:28.301057+00:00",
+        "sha256": "4e50ae6967408dfdc99f29c55c5b79029d4a36269b57d12a6decff9f3d74ed7c",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr2;start=171482660;end=171483061"
+      },
+      "start": 171482660
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr2",
+      "end": 224471679,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg38_chr2_224471278_224471679",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr2_224471278_224471679_f6f34a50e2f2d4e0.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr2;start=224471278;end=224471679",
+        "retrieved_utc": "2026-09-10T01:44:28.571672+00:00",
+        "sha256": "f58a9e6a0e8bec309f5abbb1bf01f21454a4d568d3b31f86ad6cf6bf623840ff",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr2;start=224471278;end=224471679"
+      },
+      "start": 224471278
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr2",
+      "end": 85547850,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr2_85547449_85547850",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr2_85547449_85547850_f76f512529601e26.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr2;start=85547449;end=85547850",
+        "retrieved_utc": "2026-09-10T01:44:28.872127+00:00",
+        "sha256": "8c4e8c0eb5a492a0290efc010ae7126dabd274ab48d2915de23e8fa3fa95a603",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr2;start=85547449;end=85547850"
+      },
+      "start": 85547449
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr3",
+      "end": 169765203,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg38_chr3_169764802_169765203",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr3_169764802_169765203_a894a28979586e08.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr3;start=169764802;end=169765203",
+        "retrieved_utc": "2026-09-10T01:44:29.197564+00:00",
+        "sha256": "d0b8a1c80b7afdc1992db9e9e1f7c356fb189fb779b99b20ea40c5d81cff2dd7",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr3;start=169764802;end=169765203"
+      },
+      "start": 169764802
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr3",
+      "end": 64094796,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr3_64094395_64094796",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr3_64094395_64094796_9f913c18491ad035.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr3;start=64094395;end=64094796",
+        "retrieved_utc": "2026-09-10T01:44:29.511960+00:00",
+        "sha256": "fb0f77b1d368c55772290cde5dae3d0816e5d034439cc9dec28b7b114d8481be",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr3;start=64094395;end=64094796"
+      },
+      "start": 64094395
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr4",
+      "end": 52021346,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr4_52020945_52021346",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr4_52020945_52021346_c093807d23ca9a24.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr4;start=52020945;end=52021346",
+        "retrieved_utc": "2026-09-10T01:44:29.778599+00:00",
+        "sha256": "7d9e2459ddaa67eb279ed1dd0239166e53dd3f3ce8b85557fb65443f7ed3b7d8",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr4;start=52020945;end=52021346"
+      },
+      "start": 52020945
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr5",
+      "end": 141516518,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg38_chr5_141516117_141516518",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr5_141516117_141516518_7a52f5e4f9511895.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr5;start=141516117;end=141516518",
+        "retrieved_utc": "2026-09-10T01:44:30.067959+00:00",
+        "sha256": "135d6327b9653f32a4958072853c637bdddecd0764a77742fb5d14593d764f07",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr5;start=141516117;end=141516518"
+      },
+      "start": 141516117
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr5",
+      "end": 53094036,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr5_53093635_53094036",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr5_53093635_53094036_3b55f6b18e84e8cc.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr5;start=53093635;end=53094036",
+        "retrieved_utc": "2026-09-10T01:44:30.385505+00:00",
+        "sha256": "2aefb7c52088094724d16cde0ab0f72068c2c2da74a15c2bf784198e1e0e0310",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr5;start=53093635;end=53094036"
+      },
+      "start": 53093635
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr6",
+      "end": 18130354,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr6_18129953_18130354",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr6_18129953_18130354_617fb539b58454a3.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr6;start=18129953;end=18130354",
+        "retrieved_utc": "2026-09-10T01:44:30.688309+00:00",
+        "sha256": "b467a8b06560dd3a0e5dce81fb7f49b1a3fa996cd8e1c3a91c6d74fcfd1a2ade",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr6;start=18129953;end=18130354"
+      },
+      "start": 18129953
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr6",
+      "end": 79486731,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr6_79486330_79486731",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr6_79486330_79486731_5e666d313b862ce1.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr6;start=79486330;end=79486731",
+        "retrieved_utc": "2026-09-10T01:44:30.977250+00:00",
+        "sha256": "5944eae44273ac151f7d3433831ea7d8bd731ac16efa7968496b4ed258d4804a",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr6;start=79486330;end=79486731"
+      },
+      "start": 79486330
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr7",
+      "end": 55206591,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr7_55206190_55206591",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr7_55206190_55206591_e8ad9abc611dc207.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr7;start=55206190;end=55206591",
+        "retrieved_utc": "2026-09-10T01:44:31.279325+00:00",
+        "sha256": "b591d4e34471e80bd7d294bfe2bca9ef16c52eb7277c0d436492bf29befd537d",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr7;start=55206190;end=55206591"
+      },
+      "start": 55206190
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr8",
+      "end": 95247434,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chr8_95247033_95247434",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr8_95247033_95247434_a4bc9a3f43f45f4f.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr8;start=95247033;end=95247434",
+        "retrieved_utc": "2026-09-10T01:44:31.608892+00:00",
+        "sha256": "4afce9fab91e1b3019c44e0978c7574703c10fdc6375a5d4d26132973a92a60e",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr8;start=95247033;end=95247434"
+      },
+      "start": 95247033
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chr9",
+      "end": 3826471,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg38_chr9_3826069_3826471",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chr9_3826069_3826471_2a219a7907f85c00.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr9;start=3826069;end=3826471",
+        "retrieved_utc": "2026-09-10T01:44:31.878878+00:00",
+        "sha256": "55c47edaff2fdf99157838d6e0e246a2bd3697e419984fffef3ff9cb3ea6abe4",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr9;start=3826069;end=3826471"
+      },
+      "start": 3826069
+    },
+    {
+      "assembly": "hg38",
+      "chromosome": "chrX",
+      "end": 80671295,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg38_chrX_80670894_80671295",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg38_chrX_80670894_80671295_448b990d0d78ac4d.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chrX;start=80670894;end=80671295",
+        "retrieved_utc": "2026-09-10T01:44:32.247309+00:00",
+        "sha256": "b73a41e0196259741d85ba985a661d82382ab54eab7bc87973c5329c193c944c",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chrX;start=80670894;end=80671295"
+      },
+      "start": 80670894
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr10",
+      "end": 100363046,
+      "receipt": {
+        "bytes": 562,
+        "label": "stability_reference_hg19_chr10_100362645_100363046",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr10_100362645_100363046_49836c5ff6cdc7cf.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr10;start=100362645;end=100363046",
+        "retrieved_utc": "2026-09-10T01:44:32.521191+00:00",
+        "sha256": "831cd82c8299cd058867a0ce5a323d502aa2e91dd547ecd462bc682d7860a62c",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr10;start=100362645;end=100363046"
+      },
+      "start": 100362645
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr10",
+      "end": 86924665,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr10_86924264_86924665",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr10_86924264_86924665_5205257afa7aadea.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr10;start=86924264;end=86924665",
+        "retrieved_utc": "2026-09-10T01:44:32.837873+00:00",
+        "sha256": "b5178f8d0489457c861333a78d659098190b1b73427a040c8fcaaccbcdb35c9f",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr10;start=86924264;end=86924665"
+      },
+      "start": 86924264
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr11",
+      "end": 22281932,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr11_22281531_22281932",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr11_22281531_22281932_d2fe4a50bd321047.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr11;start=22281531;end=22281932",
+        "retrieved_utc": "2026-09-10T01:44:33.113110+00:00",
+        "sha256": "319ff559c4405649a20123ab6664e9d96b08ac1a143584e15a649cd308ca3ce5",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr11;start=22281531;end=22281932"
+      },
+      "start": 22281531
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr11",
+      "end": 88293953,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr11_88293552_88293953",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr11_88293552_88293953_ee8cdeafc2ac5240.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr11;start=88293552;end=88293953",
+        "retrieved_utc": "2026-09-10T01:44:33.431941+00:00",
+        "sha256": "2dcd9ab47ce5df9171bb428d24b24ac685ecdf28f2a2c5e6748e9134618b1bb9",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr11;start=88293552;end=88293953"
+      },
+      "start": 88293552
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr12",
+      "end": 2695839,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg19_chr12_2695438_2695839",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr12_2695438_2695839_e483f4b3a5b6b53b.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr12;start=2695438;end=2695839",
+        "retrieved_utc": "2026-09-10T01:44:33.724753+00:00",
+        "sha256": "3518da25c3615ff1b766b3e914e5f5b96edba8c2090766593de3b50ac1b5139e",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr12;start=2695438;end=2695839"
+      },
+      "start": 2695438
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr13",
+      "end": 20189100,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr13_20188699_20189100",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr13_20188699_20189100_df492e85bfb76dd3.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr13;start=20188699;end=20189100",
+        "retrieved_utc": "2026-09-10T01:44:34.261413+00:00",
+        "sha256": "44f1d0ea0f773bd207d18121a35945a39df1af80c0592c2cf9ca47ee84e5070a",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr13;start=20188699;end=20189100"
+      },
+      "start": 20188699
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr14",
+      "end": 73700368,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr14_73699967_73700368",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr14_73699967_73700368_c53aa77ba9628eb9.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr14;start=73699967;end=73700368",
+        "retrieved_utc": "2026-09-10T01:44:34.469824+00:00",
+        "sha256": "b3a2ca2887e76fa39106b96d24296fb10f30e514d7065aa37417e03dca21aa64",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr14;start=73699967;end=73700368"
+      },
+      "start": 73699967
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr15",
+      "end": 68207808,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr15_68207407_68207808",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr15_68207407_68207808_54c5b43d12c11d5b.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr15;start=68207407;end=68207808",
+        "retrieved_utc": "2026-09-10T01:44:34.755588+00:00",
+        "sha256": "a98dac749614af3f466bb0a626cf263ace5d9e910c158bd9ba2228f339e0546e",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr15;start=68207407;end=68207808"
+      },
+      "start": 68207407
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr16",
+      "end": 2503087,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg19_chr16_2502686_2503087",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr16_2502686_2503087_fd8313d3cb9400b3.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr16;start=2502686;end=2503087",
+        "retrieved_utc": "2026-09-10T01:44:34.995765+00:00",
+        "sha256": "889e84a25cb5169d8409417eb1ae34ba2fd8d011121ae19c467a3b1c7f9c3a8e",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr16;start=2502686;end=2503087"
+      },
+      "start": 2502686
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr16",
+      "end": 81378612,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr16_81378211_81378612",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr16_81378211_81378612_12ecf4a615949be5.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr16;start=81378211;end=81378612",
+        "retrieved_utc": "2026-09-10T01:44:35.636336+00:00",
+        "sha256": "e452165897957d618fedd455ec37897d82671703e25f7e118a14253227ef14f5",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr16;start=81378211;end=81378612"
+      },
+      "start": 81378211
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr17",
+      "end": 42913937,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr17_42913536_42913937",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr17_42913536_42913937_a5f4869c086c2296.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr17;start=42913536;end=42913937",
+        "retrieved_utc": "2026-09-10T01:44:35.739029+00:00",
+        "sha256": "1c1669d1fb0aa5703c633cb1ab6f7b2a25c051d8fd13ebd8ced6337c27257bd5",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr17;start=42913536;end=42913937"
+      },
+      "start": 42913536
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr17",
+      "end": 7668649,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg19_chr17_7668248_7668649",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr17_7668248_7668649_1b90a5d114feeb83.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr17;start=7668248;end=7668649",
+        "retrieved_utc": "2026-09-10T01:44:35.998458+00:00",
+        "sha256": "a36c7affe12804f6019b8934066b3ad1681596bc59633b94ebd51fff2ace092f",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr17;start=7668248;end=7668649"
+      },
+      "start": 7668248
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr18",
+      "end": 63126461,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr18_63126060_63126461",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr18_63126060_63126461_a8fe57f01d4a7e19.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr18;start=63126060;end=63126461",
+        "retrieved_utc": "2026-09-10T01:44:36.249541+00:00",
+        "sha256": "43da52e732fdb961e2e007b61f455500967c1d2c852d05486805bc6e8b048692",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr18;start=63126060;end=63126461"
+      },
+      "start": 63126060
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr1",
+      "end": 100194341,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg19_chr1_100193940_100194341",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr1_100193940_100194341_97558442d12c1a63.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr1;start=100193940;end=100194341",
+        "retrieved_utc": "2026-09-10T01:44:36.947022+00:00",
+        "sha256": "20dd9e8cdec9a25e3daccea36fd0ac57afcd2da92406e018389bc4ef44d12fc8",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr1;start=100193940;end=100194341"
+      },
+      "start": 100193940
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr1",
+      "end": 171636052,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg19_chr1_171635651_171636052",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr1_171635651_171636052_b06f95462c650ec5.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr1;start=171635651;end=171636052",
+        "retrieved_utc": "2026-09-10T01:44:37.110941+00:00",
+        "sha256": "bce193a88cc8048348a5c10b004ca1be2b5d2e3cefa653c1caf63a4e5272a7c6",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr1;start=171635651;end=171636052"
+      },
+      "start": 171635651
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr1",
+      "end": 26427651,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr1_26427250_26427651",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr1_26427250_26427651_b804a055ddc66bac.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr1;start=26427250;end=26427651",
+        "retrieved_utc": "2026-09-10T01:44:37.172203+00:00",
+        "sha256": "db27fdd24b4398a7fc792eaa7fa377163bb21e89cbd4c4bebf7181bd457382a9",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr1;start=26427250;end=26427651"
+      },
+      "start": 26427250
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr20",
+      "end": 46129917,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr20_46129516_46129917",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr20_46129516_46129917_e7933fc385231d36.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr20;start=46129516;end=46129917",
+        "retrieved_utc": "2026-09-10T01:44:37.566442+00:00",
+        "sha256": "1f19d06a8f202df6338cab08eff6c435d15893068d8b3393db8c955bb879b4d7",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr20;start=46129516;end=46129917"
+      },
+      "start": 46129516
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr22",
+      "end": 28688092,
+      "receipt": {
+        "bytes": 560,
+        "label": "stability_reference_hg19_chr22_28687691_28688092",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr22_28687691_28688092_388e93b9f535a22b.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr22;start=28687691;end=28688092",
+        "retrieved_utc": "2026-09-10T01:44:38.202748+00:00",
+        "sha256": "51a6c85f9d945a6b1b3829a93f79c99b72f357651cc1be897e1c920fa69a8b4b",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr22;start=28687691;end=28688092"
+      },
+      "start": 28687691
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr2",
+      "end": 171483061,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg19_chr2_171482660_171483061",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr2_171482660_171483061_abff3d5e45fcf522.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr2;start=171482660;end=171483061",
+        "retrieved_utc": "2026-09-10T01:44:38.135857+00:00",
+        "sha256": "642950b25957083085e8c7bec737b5428e98d5564b3cb857b6e89fbc1bc24fdd",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr2;start=171482660;end=171483061"
+      },
+      "start": 171482660
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr2",
+      "end": 224471679,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg19_chr2_224471278_224471679",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr2_224471278_224471679_a78c21246f86ba0c.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr2;start=224471278;end=224471679",
+        "retrieved_utc": "2026-09-10T01:44:39.418453+00:00",
+        "sha256": "44bb1b8fb67898a6f3d3f143cd5cf503072807c3752b1b89f4a9437e0ee1b3fd",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr2;start=224471278;end=224471679"
+      },
+      "start": 224471278
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr2",
+      "end": 85547850,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr2_85547449_85547850",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr2_85547449_85547850_d2b2ae23d2cfd5ff.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr2;start=85547449;end=85547850",
+        "retrieved_utc": "2026-09-10T01:44:39.184503+00:00",
+        "sha256": "bf1ca5d9804b8e9a747e2390241dda8e5df6e9dd71b6c0f1c3aeed372b2ed84e",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr2;start=85547449;end=85547850"
+      },
+      "start": 85547449
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr3",
+      "end": 169765203,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg19_chr3_169764802_169765203",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr3_169764802_169765203_d23729b3711eb4b7.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr3;start=169764802;end=169765203",
+        "retrieved_utc": "2026-09-10T01:44:39.217088+00:00",
+        "sha256": "0015b9b1bc5dbbf8946b3a862bd8c887b2f020805968ed4deb2c19353fb22791",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr3;start=169764802;end=169765203"
+      },
+      "start": 169764802
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr3",
+      "end": 64094796,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr3_64094395_64094796",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr3_64094395_64094796_7d600bd810ed6c71.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr3;start=64094395;end=64094796",
+        "retrieved_utc": "2026-09-10T01:44:40.027370+00:00",
+        "sha256": "1b614338e6fcecc9264b79abeaaad8495b71935216a921113a189cd099d2b7e4",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr3;start=64094395;end=64094796"
+      },
+      "start": 64094395
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr4",
+      "end": 52021346,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr4_52020945_52021346",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr4_52020945_52021346_7ff3fc43d50f42da.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr4;start=52020945;end=52021346",
+        "retrieved_utc": "2026-09-10T01:44:39.796079+00:00",
+        "sha256": "5b27f9226011d2aefb0b6f3ce93e193fad998bb82dc7388a4993d45399712426",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr4;start=52020945;end=52021346"
+      },
+      "start": 52020945
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr5",
+      "end": 141516518,
+      "receipt": {
+        "bytes": 561,
+        "label": "stability_reference_hg19_chr5_141516117_141516518",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr5_141516117_141516518_d6348d423d9c22c2.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr5;start=141516117;end=141516518",
+        "retrieved_utc": "2026-09-10T01:44:40.159420+00:00",
+        "sha256": "cc4fb068b6b4f43188c0d1fd91805226122ef92870320d78190011af98b22c32",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr5;start=141516117;end=141516518"
+      },
+      "start": 141516117
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr5",
+      "end": 53094036,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr5_53093635_53094036",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr5_53093635_53094036_a5f64858b8cb7da9.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr5;start=53093635;end=53094036",
+        "retrieved_utc": "2026-09-10T01:44:40.477547+00:00",
+        "sha256": "c19d88314792515dca15d7865a46501c5f14e4d6ea2c0419c453d45daf0b8076",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr5;start=53093635;end=53094036"
+      },
+      "start": 53093635
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr6",
+      "end": 18130354,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr6_18129953_18130354",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr6_18129953_18130354_945cca18264f84aa.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr6;start=18129953;end=18130354",
+        "retrieved_utc": "2026-09-10T01:44:40.820797+00:00",
+        "sha256": "a55bab43b34b4a7bbdb6ed3ae0e8db6af4295c511b6d6423cff3289b940c5227",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr6;start=18129953;end=18130354"
+      },
+      "start": 18129953
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr6",
+      "end": 79486731,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr6_79486330_79486731",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr6_79486330_79486731_c3d12d80d57ffe79.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr6;start=79486330;end=79486731",
+        "retrieved_utc": "2026-09-10T01:44:41.232015+00:00",
+        "sha256": "1fc8273f76137f5b8b2258a7b4e56b76aae2629245f15b2e42c7daacd76e8b93",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr6;start=79486330;end=79486731"
+      },
+      "start": 79486330
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr7",
+      "end": 55206591,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr7_55206190_55206591",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr7_55206190_55206591_97d4a0d18b2152d4.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr7;start=55206190;end=55206591",
+        "retrieved_utc": "2026-09-10T01:44:41.402485+00:00",
+        "sha256": "5671504d51cdd56146e94ea28980968937f5e68eb6c9b9890c73147f8b3d931e",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr7;start=55206190;end=55206591"
+      },
+      "start": 55206190
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr8",
+      "end": 95247434,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chr8_95247033_95247434",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr8_95247033_95247434_7c9bc558be3cf059.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr8;start=95247033;end=95247434",
+        "retrieved_utc": "2026-09-10T01:44:41.597641+00:00",
+        "sha256": "74d7504805fcd365ba1086474f3a3b77226eced028697adde9da545f9ed107b8",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr8;start=95247033;end=95247434"
+      },
+      "start": 95247033
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chr9",
+      "end": 3826471,
+      "receipt": {
+        "bytes": 558,
+        "label": "stability_reference_hg19_chr9_3826069_3826471",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chr9_3826069_3826471_69b3d973e7f8df3c.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr9;start=3826069;end=3826471",
+        "retrieved_utc": "2026-09-10T01:44:41.884959+00:00",
+        "sha256": "3b3b18adc100a33e998c128483afefc4425b5eb01d75099959e835a7cf2c9fe2",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr9;start=3826069;end=3826471"
+      },
+      "start": 3826069
+    },
+    {
+      "assembly": "hg19",
+      "chromosome": "chrX",
+      "end": 80671295,
+      "receipt": {
+        "bytes": 559,
+        "label": "stability_reference_hg19_chrX_80670894_80671295",
+        "path": "data/external/mechanism_v2/resource_audit/stability_reference_hg19_chrX_80670894_80671295_37ccaae87a777039.bin",
+        "resolved_url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chrX;start=80670894;end=80671295",
+        "retrieved_utc": "2026-09-10T01:44:42.266297+00:00",
+        "sha256": "8b5c958a638ece4015fbb64eee9c0fb3e4e0fca82c9ecb0d9a5425ebbf11513f",
+        "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chrX;start=80670894;end=80671295"
+      },
+      "start": 80670894
+    }
+  ],
+  "requested_assemblies": [
+    "hg38",
+    "hg19"
+  ],
+  "selection": "Outcome-blind unique variant positions, evenly spaced for pilot"
+}
