@@ -1,6 +1,7 @@
 # Parnet 0.3.0 resource re-audit
 
-Status: ongoing, 9 September 2026. **No paper-matching checkpoint admitted.**
+Status: bounded fresh audit completed, 9 September 2026.
+**No paper-matching checkpoint recovered or admitted to this experiment.**
 
 The [Nature Cell Biology paper published 9 September 2026](https://doi.org/10.1038/s41556-026-02040-5)
 names release 0.3.0 and 21M parameters and links the IR_iPSCs supporting repository
@@ -34,6 +35,26 @@ not justify saying that changing to 0.3.0 recovers the published model. Continue
 with the exact tagged history, author-linked assets, support notebooks and Zenodo
 alternative endpoints. A usable non-paper-matching artifact must receive its own
 name, provenance, license and smoke test, rather than inherit the 21M claim.
+
+## Author-workflow follow-up
+
+The exact upstream 0.3.0 tree was retrieved and checked in addition to the local
+Git tree. It contains example masks and a 1,961,643-byte example model, but no
+identified paper-matching 21M weight file. This example is not admitted based on
+its filename. The supporting half-life workflow notebook and its Python pipeline
+were also retrieved at the pinned IR_iPSCs commit. The notebook selects a local
+fine-tuned `best_model_epoch=27_val_auroc=0.864.ckpt`; its pipeline loads the
+configured `parnet_weights` from the private HPC path. Neither provides a new
+public 21M model URL. The later fine-tuned task checkpoint must not be confused
+with the original pretrained encoder.
+
+Zenodo's record API timed out on repeated bounded attempts. The alternate
+`/records/21135982/export/json` endpoint also timed out. These are unresolved
+retrieval failures, not proof that the record has no weights. The operational
+decision is **not reproducibly recovered for this run**, with available RBPNet
+and separately identified 3UTRBERT features used as alternatives. No RNAddress-
+trained model is substituted under the Parnet name, and no new claim is made that
+tag 0.3.0 has 21M parameters without the actual checkpoint.
 
 Downloaded source/metadata are untrusted evidence and are not automatically
 executed. Each successful retrieval has its exact URL, source commit where

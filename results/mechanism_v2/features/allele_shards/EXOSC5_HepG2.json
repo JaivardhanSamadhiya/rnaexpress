@@ -1,0 +1,29 @@
+{
+  "max_delta_reconstruction_error": 2.384185791015625e-07,
+  "mutant": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/EXOSC5_HepG2_mutant.npy",
+    "sha256": "997bd66562d8b8426d9b4e3c3e935a917b199df7b089b8593a0f6867a5f9500b",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "reference": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/EXOSC5_HepG2_reference.npy",
+    "sha256": "810b2e53356e74effc7db15b8df3b4e4833d9acd5c44790c48945f8b05553c25",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "roles": [
+    "mass_radius10",
+    "mass_radius25",
+    "mass_radius50",
+    "mixing_coefficient"
+  ],
+  "source_profile_sha256": "96b012b2d886ceec745d94314d9cd04b5b7141bc6824ef1a7a4caca035da05ef",
+  "task": "EXOSC5_HepG2"
+}

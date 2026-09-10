@@ -1,0 +1,13 @@
+{
+  "status":"prospective low-dimensional trans-context design; no localization result used",
+  "source":"GSE67828 external CAD and N2A expression, retained FinalShot extraction",
+  "cell_aliases":{"CAD":"CAD","Neuro-2a":"N2A"},
+  "eligible_channels":"Only RBP channels marked context_eligible with finite nonnegative proxies in both cell lines; all others omitted explicitly",
+  "proxy":"compartment_balanced_expression_proxy: average of soma/neurite median log1p FPKM",
+  "normalization":"For each cell, divide each eligible protein proxy by the sum across eligible proteins",
+  "interaction":"Four weighted sums across proteins, one for each signed RBP summary: sum_r delta_rj * normalized_external_availability_rc",
+  "additional_trainable_dimensions":4,
+  "comparison":"M6 versus M6 plus the four aligned interactions; necessity judged on cross-cell transfer, with both knockout and protein-identity/context permutations",
+  "limitations":"Transcript abundance is not measured protein availability; normalized profile mass is not absolute occupancy. Aggregate alignment cannot identify an individual causal RBP.",
+  "unsupported_cells":"Fail closed; no invented expression or zero-filled predictions"
+}

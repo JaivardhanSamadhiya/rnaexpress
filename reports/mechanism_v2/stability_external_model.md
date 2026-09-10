@@ -1,6 +1,7 @@
 # Independent stability model: reconstruction checkpoint
 
-Status: external sequence identity reconstruction, **not a trained model**.
+Status: independent grouped validation completed; **both cell predictors failed
+admission and are excluded from primary localization features**.
 
 The [Su, Wang et al. eLife study](https://elifesciences.org/articles/97682)
 provides a genuine independent RNA-decay assay in HEK293T and SH-SY5Y. The
@@ -35,7 +36,7 @@ positions; coordinates alone are not treated as evidence for a genome build.
 Ambiguous identities are retained as unresolved, not assigned using half-life.
 The pilot evaluated 65 variant IDs in the 32 windows: 21 uniquely matched pairs
 in hg38 and zero in hg19. This supports proceeding with hg38, but is not blanket
-validation of every variant. Full hg38 retrieval/mapping is now underway, still
+validation of every variant. Full hg38 retrieval/mapping subsequently completed,
 requiring each pair to pass the same allele, sequence and GC checks.
 
 Before training, exclude overlap with localization development genes/sequences;
@@ -68,7 +69,33 @@ failed model is excluded without a subsequent architecture or threshold search.
 The validation runner refuses real fitting until predictor code and design
 match committed Git bytes. External inputs and exclusions are hashed into a
 separate training freeze before any model fit. No successful external score has
-yet been observed at this design checkpoint.
+yet been observed when the design was committed at `ccc50ca`.
+
+## Completed independent validation — negative result
+
+The full mapping recovered 1,022 unique observed reference/mutant pairs.
+After excluding 22 development-overlapping/missing-gene pairs, 1,000 pairs in
+651 connected external groups remained before cell-specific half-life QC.
+
+| External cell | Eligible pairs / groups | OOF Spearman (group-bootstrap 95% CI) | MSE improvement vs training mean | Admission |
+|---|---:|---:|---:|---|
+| SH-SY5Y | 682 / 480 | 0.03672 (−0.04454, 0.11936) | −3.295% | Failed |
+| HEK293T | 990 / 648 | −0.02707 (−0.09265, 0.03977) | −4.754% | Failed |
+
+The boosted recipe was chosen independently in every outer fold by inner
+gene-macro MSE. Error was also worse than the zero-delta baseline: −3.458% and
+−4.595% relative improvements for SH and HEK, respectively. All ten outer
+prediction checkpoints, inner recipe scores, 2,000 group bootstrap values per
+cell, exclusions and training-input hashes are preserved. No final stability
+model was exported or applied to localization data because admission failed.
+
+This is failure of the declared compact external-prediction attempt, **not proof
+that RNA stability is irrelevant**. Exact-sequence recovery covers only part
+of the source library; the external assay and engineered representations also
+limit transportability. Those qualifications do not turn the failed validation
+into a pass. No post-result threshold or architecture search will be performed
+under this frozen external design. Remaining Mechanism-v2 blocks proceed without
+an independently validated stability prediction.
 
 The spreadsheet was not edited. All extraction, raw-read validation and mapping
 work occurs in the isolated Mechanism-v2 namespace. N-zip and Astrocyte remain

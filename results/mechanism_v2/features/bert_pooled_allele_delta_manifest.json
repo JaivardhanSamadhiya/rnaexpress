@@ -1,0 +1,23 @@
+{
+  "absolute_blocks": {
+    "mutant": [
+      128,
+      256
+    ],
+    "reference": [
+      0,
+      128
+    ]
+  },
+  "code_sha256": "159346db6d9feda177ddb338fcca72c0ad3e6de8dd12004dc2749105251614e5",
+  "definition": "fixed-projection CLS+mean mutant embedding minus reference embedding; distinct from contextual delta",
+  "dtype": "float32",
+  "path": "data/interim/mechanism_v2/bert_pooled_allele_delta.npy",
+  "primary_or_comparator": "prospective model grid must explicitly identify this block",
+  "sha256": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+  "shape": [
+    62665,
+    128
+  ],
+  "source_sha256": "51912767e74dc19a06dadf6bab9f3022f11939f1cc537f024af148cc18f948d9"
+}

@@ -1,0 +1,125 @@
+{
+  "admitted": false,
+  "bootstrap_valid": 2000,
+  "cell": "SH",
+  "group_macro_mse": 1.982368994999338,
+  "groups": 480,
+  "oof_spearman": 0.03671883040218474,
+  "pairs": 682,
+  "relative_mse_improvement": -0.03294701292939761,
+  "relative_mse_improvement_over_zero": -0.03457590012296108,
+  "scope": "independent external stability only",
+  "selections": [
+    {
+      "inner": [
+        {
+          "gene_macro_mse": 4.445095162537328,
+          "order": 0,
+          "recipe": "ridge_10"
+        },
+        {
+          "gene_macro_mse": 3.144643377722558,
+          "order": 1,
+          "recipe": "ridge_100"
+        },
+        {
+          "gene_macro_mse": 2.141312548758088,
+          "order": 2,
+          "recipe": "hgb_7"
+        }
+      ],
+      "outer_fold": 0,
+      "selected": "hgb_7"
+    },
+    {
+      "inner": [
+        {
+          "gene_macro_mse": 842.4462507743175,
+          "order": 0,
+          "recipe": "ridge_10"
+        },
+        {
+          "gene_macro_mse": 479.1724306181336,
+          "order": 1,
+          "recipe": "ridge_100"
+        },
+        {
+          "gene_macro_mse": 2.0756162503649582,
+          "order": 2,
+          "recipe": "hgb_7"
+        }
+      ],
+      "outer_fold": 1,
+      "selected": "hgb_7"
+    },
+    {
+      "inner": [
+        {
+          "gene_macro_mse": 4.513554474607847,
+          "order": 0,
+          "recipe": "ridge_10"
+        },
+        {
+          "gene_macro_mse": 3.0062903555832974,
+          "order": 1,
+          "recipe": "ridge_100"
+        },
+        {
+          "gene_macro_mse": 2.1137974033148965,
+          "order": 2,
+          "recipe": "hgb_7"
+        }
+      ],
+      "outer_fold": 2,
+      "selected": "hgb_7"
+    },
+    {
+      "inner": [
+        {
+          "gene_macro_mse": 17.094548407828224,
+          "order": 0,
+          "recipe": "ridge_10"
+        },
+        {
+          "gene_macro_mse": 10.592142862358406,
+          "order": 1,
+          "recipe": "ridge_100"
+        },
+        {
+          "gene_macro_mse": 2.0144905494964775,
+          "order": 2,
+          "recipe": "hgb_7"
+        }
+      ],
+      "outer_fold": 3,
+      "selected": "hgb_7"
+    },
+    {
+      "inner": [
+        {
+          "gene_macro_mse": 4.375489100177221,
+          "order": 0,
+          "recipe": "ridge_10"
+        },
+        {
+          "gene_macro_mse": 2.8458877518215626,
+          "order": 1,
+          "recipe": "ridge_100"
+        },
+        {
+          "gene_macro_mse": 1.9472112821377054,
+          "order": 2,
+          "recipe": "hgb_7"
+        }
+      ],
+      "outer_fold": 4,
+      "selected": "hgb_7"
+    }
+  ],
+  "spearman_bootstrap95": [
+    -0.044538533811781446,
+    0.11935783367980701
+  ],
+  "training_mean_baseline_mse": 1.9191390944414626,
+  "zero_delta_baseline_mse": 1.9161175074382943
+}

@@ -13,7 +13,7 @@ if runtime.exists():
 def main():
     parser=argparse.ArgumentParser(__doc__)
     parser.add_argument('stage', choices=['audit','resources','features','external_stability',
-        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits','motifs','processing','stability-validate'])
+        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits','motifs','processing','stability-validate','sequence-audit','allele-summaries','trans-context'])
     parser.add_argument('--limit',type=int)
     parser.add_argument('--workers',type=int,default=3)
     args=parser.parse_args()
@@ -55,6 +55,15 @@ def main():
     elif args.stage=='stability-validate':
         from .stability_validation import validate_external_stability
         validate_external_stability()
+    elif args.stage=='sequence-audit':
+        from .sequence_leakage import audit_all_alleles
+        audit_all_alleles()
+    elif args.stage=='allele-summaries':
+        from .allele_summaries import build_allele_summaries
+        build_allele_summaries()
+    elif args.stage=='trans-context':
+        from .trans_context import build_trans_context
+        build_trans_context()
     elif args.stage=='test':
         import pytest
         raise SystemExit(pytest.main(['-q','tests/mechanism_v2','--junitxml=results/mechanism_v2/tests.xml']))

@@ -1,0 +1,3118 @@
+{
+  "code_sha256": "159346db6d9feda177ddb338fcca72c0ad3e6de8dd12004dc2749105251614e5",
+  "interpretation": "Absolute output-profile pooling at each intervention edit window; comparators only, not primary deltas",
+  "max_delta_reconstruction_error": 2.980232238769531e-07,
+  "mutant": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/rbp_mutant_absolute.npy",
+    "sha256": "0630a502de7b5e57cb2fc642597974996fb9da09c3f17095ff0828c188d8c67a",
+    "shape": [
+      62665,
+      412
+    ]
+  },
+  "reference": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/rbp_reference_absolute.npy",
+    "sha256": "3edc5f4a13e2c6b0d82da775ea71e6bb90ea77ebaa1b45c0d05adbaa3ee3ac93",
+    "shape": [
+      62665,
+      412
+    ]
+  },
+  "shards": [
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/AGGF1_HepG2_mutant.npy",
+        "sha256": "70e54a388ef2537d53e359432e6500c2cdc046088669a4b5aafb561ea5a560a0",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/AGGF1_HepG2_reference.npy",
+        "sha256": "b87a298990e5c2d612b9b246b7a59d19d3cd96d4cd111c608c6a0fb55c80c534",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "00b57448b1563b49959e8eb0e6c0d30a46af685437ec5af32a361340d8d0923c",
+      "task": "AGGF1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/AKAP1_HepG2_mutant.npy",
+        "sha256": "abd743e435f78f60e170f0e7e1cad863df37f062b25585e71cdfc297e18dc70a",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/AKAP1_HepG2_reference.npy",
+        "sha256": "d7c840159293f565638d98cc442950e88c667917aeba56f470283d06fcd333f3",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "8c5289779e802f2148de1aee61352607497323dcf99c3b0d431cdd32f5f97bad",
+      "task": "AKAP1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.980232238769531e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/AQR_HepG2_mutant.npy",
+        "sha256": "b738ebcbd385c92d98cd18cd20ab7c43bcf290c827a0dba44f80743ae4b0e7d5",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/AQR_HepG2_reference.npy",
+        "sha256": "bf8dfe4c8e5511a44a7399950dca86f6b2dd602c6a418ea0d8a8f0ec150f4e86",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "7aff8287cbc9ea15b18aa7b180e6ad38cd0dd6a5a861125ef3dd483f89611220",
+      "task": "AQR_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/BCCIP_HepG2_mutant.npy",
+        "sha256": "3567e513e8c9620242ab6fccce4d8d7ce5af3f1bbfa788a6301b775701c2808b",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/BCCIP_HepG2_reference.npy",
+        "sha256": "2f2ac79f212e6c614000edcaf732efea95f150a61a9b486c6449d290d4cc6cd0",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "457904dfe68df56e90b8a9364ffae286341b20fce5562ab0394d36265db7f0f0",
+      "task": "BCCIP_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/BCLAF1_HepG2_mutant.npy",
+        "sha256": "17e97700f87fd434366aa80b285870c8812c68676cb8552097cf9cf65f53de61",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/BCLAF1_HepG2_reference.npy",
+        "sha256": "1172b94400fbdd6b602eb53a8a24cc1c0e6211214a9d7d174932128b2ae37342",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e670e08d8c5d297f41b1e6c77f025e902960837541a9288bf61147dd4e734425",
+      "task": "BCLAF1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4156103134155273e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/BUD13_HepG2_mutant.npy",
+        "sha256": "ed82d2112d838d1b5f61ed1ae9cc54566c24f0ad2ff4cebd1deaae8f0ee0471f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/BUD13_HepG2_reference.npy",
+        "sha256": "c4bda5b654b07c3e531a217b2be8e19a4b863c459b91ad8d2b15eecff5006380",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "249f30bfd1e1622a6c1d1085633f9ae1e0025a320b24add881ef2cfaf569cc38",
+      "task": "BUD13_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/CDC40_HepG2_mutant.npy",
+        "sha256": "b834598f53814055e2d5d697bdc93033fcdd175fcbead1fb1ea576d5de797214",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/CDC40_HepG2_reference.npy",
+        "sha256": "d86659d412728597192db9179bb58902015a47938bf9fce8ebf5f6bc412a48fe",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "89852195993f2f3b23a4065db2db6407939108da5bdd1414ff8d5bd8800033be",
+      "task": "CDC40_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/CSTF2T_HepG2_mutant.npy",
+        "sha256": "c786227b767f2c5be3e384cd0ddadbb99e79543bd5cfd451d69476c6d3d86e45",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/CSTF2T_HepG2_reference.npy",
+        "sha256": "956ff0095869946c1f6e33d278bf2db73d9c1ada76a76516e9c794e37a294cbb",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "58a52e0a8b07ceb88b424a88204bc76377d701cf4943b107bec7335f023297eb",
+      "task": "CSTF2T_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/CSTF2_HepG2_mutant.npy",
+        "sha256": "a44ef38378ead5f3d29c24e827ba988a662d9a28dc7b6ab336364e9a7a2855b6",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/CSTF2_HepG2_reference.npy",
+        "sha256": "d1cc428f665af30222578b976a0b1adf8517c62510b28d8fc851556ee514310d",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e728d733dafb9351966bc45de866f764e0330c1e1246296df6f6f4ebcd80173b",
+      "task": "CSTF2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX3X_HepG2_mutant.npy",
+        "sha256": "92dd0545a061c95317969c022c5e5eea22e0de17263376e77245ba16b05484f9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX3X_HepG2_reference.npy",
+        "sha256": "11ab36a1c241c7ba3bcc7dc10bbeebd4dfe2c09914bab987c529edca982a439a",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "bdf20fff25820aae31705ed96aa599533709202af90717935c5e762400241d17",
+      "task": "DDX3X_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX52_HepG2_mutant.npy",
+        "sha256": "5859f04efc150bbf0ba2a9ace60c809e64d9d4aacc6971d0ea2d3f738d6673f9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX52_HepG2_reference.npy",
+        "sha256": "caa40fb38e37be8a3d1504c9cd26c2f6b39e656d45c95328c155bdde2250e45f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "419f1d9e3da3d9220b8c3af0016d3718edc03a892265ad35b024d4aa5a892aa2",
+      "task": "DDX52_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX55_HepG2_mutant.npy",
+        "sha256": "e20eab2d2a01d5fe80bcf8e3ee52631018af13e49c0af32e27e108d9dba0959e",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX55_HepG2_reference.npy",
+        "sha256": "fd691ff8e0abf9197f9e10b3a9b2643e3e226c2f2ee86fcd07d1b750d0906e98",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "59c7be30a547984de324a8df0647c221a468602ae042392a1f1c10a4f9261b81",
+      "task": "DDX55_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX59_HepG2_mutant.npy",
+        "sha256": "dbcfa438f9826a11fd7694ab992e8411c1db052653b4e7b24478d47bec08a017",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX59_HepG2_reference.npy",
+        "sha256": "fa523f73f0d3151fb67c3299ea87aa3c2eaa310b88220956c730e2ae4cde2826",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "daa86c0529986aadb091cb698339d578331db45b0c705829f2a1746ae830e198",
+      "task": "DDX59_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.5273690223693848e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX6_HepG2_mutant.npy",
+        "sha256": "5f1d95377164dba3d8a109db09a840b8f8c972e23cd061d50d4119ff21b15a58",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DDX6_HepG2_reference.npy",
+        "sha256": "23da7656e53b00faf039d1a71747c88e644ea266731ef33b54b2f0cf82493c58",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "0c39beedb6f3b3255d51a883b5c41846aea6a87291dd4dc3170a57015c74e212",
+      "task": "DDX6_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DGCR8_HepG2_mutant.npy",
+        "sha256": "b32f213e0c58d7511deabdaf60c8f094b3a56a7677c4231f2d0c11a5a205718e",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DGCR8_HepG2_reference.npy",
+        "sha256": "e596d20de9bad46ffab4c1296002762578f8436c8f7fb995afdd65b17b95d560",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "fbbf3849db492ec7f5d6f5ca0af3646d41dd29dc6a77d82c17e2991433ef2872",
+      "task": "DGCR8_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.1920928955078125e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DHX30_HepG2_mutant.npy",
+        "sha256": "c61201667e7cc54531d9df1b26179191ebd6508169b1c7e70e29e8be58ff51ba",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DHX30_HepG2_reference.npy",
+        "sha256": "103491dbd5283c6ffd20172d218fcbf708348ed1eb3da892cdb42298ce20451e",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "fd91ea540af5855a28b8cee26778ca953be7292abc8950ec7e92cfc228322d9e",
+      "task": "DHX30_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DKC1_HepG2_mutant.npy",
+        "sha256": "cd2d2f1ff8d3295304b466b80f710d7733fc6f213a89a31ec005fdc27c9546a2",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DKC1_HepG2_reference.npy",
+        "sha256": "7dd059f15be7007f65f9bfec59162ff547e3d7cb40d8de715463b433ecd03bbf",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "3f8e9d2b0c67b3f736c192dbc4cecc321d743b528e3652918105ccce9dd1ec4c",
+      "task": "DKC1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DROSHA_HepG2_mutant.npy",
+        "sha256": "85b7ebdba5648531d8a82493a9307280fdd9c8a39635a78c403372de0ec5c654",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/DROSHA_HepG2_reference.npy",
+        "sha256": "6fb7cab96bb4fc19680e25ea0d28f2e8f33e808656114ee8846169a5adaa458e",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "d81fcab187cb9e4cf641c1264e533319a0cb1ab9b392967cf3e4eabaa5700e02",
+      "task": "DROSHA_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EFTUD2_HepG2_mutant.npy",
+        "sha256": "3105afc8bcec61832d67697f73bdeedb014895edfc2dc9c0d3180cdd6d444e91",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EFTUD2_HepG2_reference.npy",
+        "sha256": "0b501fcdfcc0d40da598c60d1c626dee434edcb97c59a7487d0fb33744216d91",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "a43981473e7886e3b9ad02ec2b712bd86de8ba7a38e3774f811d73ffebcc98b1",
+      "task": "EFTUD2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EIF3D_HepG2_mutant.npy",
+        "sha256": "c1776e7aacd9f67534d161d00323c4cea8e20e4ca0e6afe10a9df37ba09b4e63",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EIF3D_HepG2_reference.npy",
+        "sha256": "721a594c6dc37b1363de79aed18685365c2a10b7e48a72442f19f8bd657ee7d9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "338602c6d44fcd51ceeac76748fe5682e450a8f7f375b40b12aaa2c21a5f65e6",
+      "task": "EIF3D_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EIF3H_HepG2_mutant.npy",
+        "sha256": "92428bff84e1a1b9741c9e2cf7ce786d0dbf4ad1d60c789249301ce71b83ee49",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EIF3H_HepG2_reference.npy",
+        "sha256": "4e1e78c2a6236035bc2db088354a054d2b45d7b7e3d0761e56af84b4f076087a",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "fbb27d53ba91b6624243172a7943534eb3e160575cf280e64e7de78b31f0b34f",
+      "task": "EIF3H_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EXOSC5_HepG2_mutant.npy",
+        "sha256": "997bd66562d8b8426d9b4e3c3e935a917b199df7b089b8593a0f6867a5f9500b",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/EXOSC5_HepG2_reference.npy",
+        "sha256": "810b2e53356e74effc7db15b8df3b4e4833d9acd5c44790c48945f8b05553c25",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "96b012b2d886ceec745d94314d9cd04b5b7141bc6824ef1a7a4caca035da05ef",
+      "task": "EXOSC5_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FAM120A_HepG2_mutant.npy",
+        "sha256": "6eca529d49d0f5cf5aaeac5706a08c3b373ceb409f5275db834cb40912dba163",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FAM120A_HepG2_reference.npy",
+        "sha256": "e91916e2b9877cb0343f2dcdf1d405722ff68a9c672064b07144d215779a1249",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "c47f70c50a805650ad86a0bcec54a6d99d48855c78b2da81c480889f31d70ab4",
+      "task": "FAM120A_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.2665987014770508e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FASTKD2_HepG2_mutant.npy",
+        "sha256": "38ae240a22e74a81d99f4785f002f0650d5b5a79ebb03d89e4bde83d78f194af",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FASTKD2_HepG2_reference.npy",
+        "sha256": "0fac844a0ddfbd658c5b038039840a0f0cc1d4700dc69eb1f41e98ba5cb2eb18",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "de8a740fdc8745e6617075506c37f4185fb8a7a139f9bdfe4da89c0bc5fa8b7c",
+      "task": "FASTKD2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FKBP4_HepG2_mutant.npy",
+        "sha256": "43802645973e579d17a281fd17d14fa903d74608119c11d8e20d3075357344f0",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FKBP4_HepG2_reference.npy",
+        "sha256": "1b2e9d8fecf7f15cfe458bebb384a61d6718bcc702c5992a7607919001d69924",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "7ccaadebe2fcb726b87e97c0281a73e1b28f02eadb8292c509882260949b31d0",
+      "task": "FKBP4_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FTO_HepG2_mutant.npy",
+        "sha256": "41e3ef59812e99cd4b97ff3a4b0880cc95b794164a7553ba28c088633c6116a1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FTO_HepG2_reference.npy",
+        "sha256": "86a383f34524bc4c5f7b9fab2795ea0f572a414f273778a0cd4d4f9c2dea3394",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e81bf02aff548dc932198d302d55aa73888027bd9063a34d05067e8fa0ea000b",
+      "task": "FTO_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FUBP3_HepG2_mutant.npy",
+        "sha256": "03e4b3eca26e68f4ddc79fae68a8e2431c60fe2953fb274e91541757ec288f85",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FUBP3_HepG2_reference.npy",
+        "sha256": "5dbc17cc233f62624126779604bacb608d9b0c2173a48833a0fe707cf8c89a60",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "07b6e456c7db964457c2574fbf2cc0bafb45636a5f87e8424194f3d46bfbbd0b",
+      "task": "FUBP3_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FUS_HepG2_mutant.npy",
+        "sha256": "99479e71a4d586f42d43a3265d1be13d777e2858292d89b115a06826e59136e3",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FUS_HepG2_reference.npy",
+        "sha256": "71bfb8b98f1331ce24479eac642bc7b2978a56b35b74d42e824f967aa9dc4966",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "48809023bc0ec47d84489a06486e366dde1249cd8db3551ef102fb72d1689d28",
+      "task": "FUS_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FXR2_HepG2_mutant.npy",
+        "sha256": "0290300e9a63775f56e52380f15b82e46a2f3a5d69c776a61d862689d63e2440",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/FXR2_HepG2_reference.npy",
+        "sha256": "967f6523fbb855cce4322b4a9b638238d0a0197b83142eaf601a20da04448603",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "9a288f15ef65d4390cc2b03d708a900de8c59764730bb2cfc78254822037e887",
+      "task": "FXR2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/G3BP1_HepG2_mutant.npy",
+        "sha256": "3d650d457fc22daba4edbc78d33c55dd13999c24c2d39eff3fa6b57b47b22539",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/G3BP1_HepG2_reference.npy",
+        "sha256": "2ae840f87f15a111302a66ee3f8a8d198b08f9aff3b7b124632aa28b2f3fe9f7",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "39105e520dc0a8835fcb20b71a6b6a95b3a3668c313381106b624e6e6050cb34",
+      "task": "G3BP1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/GRSF1_HepG2_mutant.npy",
+        "sha256": "64173c0c2dab73b1b5d3527c01df177132e93159d449ea1a3fb407e7cb36c4d9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/GRSF1_HepG2_reference.npy",
+        "sha256": "a9d10b19c7ca0dadacf2c58a406165c68593ca3ea5c908d3f6251ea5aeed5c31",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "b046612f362a0860b19de765632c95fa76f3abb59494a1256d7d2eece9998dea",
+      "task": "GRSF1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/GRWD1_HepG2_mutant.npy",
+        "sha256": "59a657e7b731dab8a2961431888ac04a41cfea165555c013db4e595209005fa1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/GRWD1_HepG2_reference.npy",
+        "sha256": "9963380f3ffa1da582950441c3dcc1feedc79fa2c0c6db1d5df1b3c9c4a73171",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "885febab57d9605afe3fe1e91489bf8f2e7b8b0215935ba457f5d645f12e8097",
+      "task": "GRWD1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/GTF2F1_HepG2_mutant.npy",
+        "sha256": "25d62cd7f37a024975d9e8df6e6026d688613f07c17d7cad94a1fa6553458639",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/GTF2F1_HepG2_reference.npy",
+        "sha256": "68185a52c2ad722f14ea43a2248b7d42890e0f595acceccde7a73a1c8c36edf1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "617ea6dbc71e5e4ecd06e65f30b461f39c920cb69f2d36c08f6f53587c4eb9c4",
+      "task": "GTF2F1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.1920928955078125e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HLTF_HepG2_mutant.npy",
+        "sha256": "8502a26234c7c2a4c4553e1b775dcf44a17221ac1757670d3841d3fe67934054",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HLTF_HepG2_reference.npy",
+        "sha256": "95925a8f5b0a170c2db0d828685e9d32c33f4a2ce467a080394647c37814821f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "6d6109adb5c1b62dca7f518679da0def8db13a059a3015a4be227382cb37e70e",
+      "task": "HLTF_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPA1_HepG2_mutant.npy",
+        "sha256": "8e13df177fd02d7159c28d77e7ecb988bd0d9bc9c41a2ad10d658fe3b2634afb",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPA1_HepG2_reference.npy",
+        "sha256": "b02d09e1051582c90e7cf91c61d9d76912a6c8bb12e4607bcd1a09fe52f580a6",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "56abbe58c533db3375c268600cfeee91b0d6d482ef9825f80125181b53da5744",
+      "task": "HNRNPA1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPC_HepG2_mutant.npy",
+        "sha256": "1163cbc9f5329d9b6963f3b3727bf28e4b8f1d334e16febd69dd3339d97b45c3",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPC_HepG2_reference.npy",
+        "sha256": "f8f2bf8ec8011ea703c9754be484eaaaea1d85d81e4d505f9b30d71d0077e28d",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "3b79475099892a38293b983c2ebc5809cb59a93518e5463e22ad35b9f7b7e200",
+      "task": "HNRNPC_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPK_HepG2_mutant.npy",
+        "sha256": "fadf8736cf3819447a2140198e163f4ccc9ad052eed3714b3d1121771b749494",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPK_HepG2_reference.npy",
+        "sha256": "15061ea8ab9286b9d9d902a888adc88d9a76f8e446100aeb1e8c4fa5dc6d6272",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "107337e569b9f55784b8719e165e69211ad3ceb89c2b68336e0d10b7c8013944",
+      "task": "HNRNPK_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPL_HepG2_mutant.npy",
+        "sha256": "11b7d8965366aef57890b3472395a199b5e86a03cc61eebbeaa1c0a01e4609ee",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPL_HepG2_reference.npy",
+        "sha256": "f7ac785b6994eacd9aca8483c2de3dd9eca98520d8cf11639d1bd8bfbeb74db4",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "a972cfa02c6862e697af5f674719ca757939184c0ecf8d2fcf2b46514eb2545e",
+      "task": "HNRNPL_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPM_HepG2_mutant.npy",
+        "sha256": "98570fadaf484f645eccc22774102b074b8a1e4c0842fc926ba51b93238d309b",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPM_HepG2_reference.npy",
+        "sha256": "c998ce1a5b9fd69f03e4e8e5db03da76fd4ab40d89e8a5436b37e550ddc7a81f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "c653061894a4de318ffad976dfd555eb6b39ee641aab59294be71b39a1d37514",
+      "task": "HNRNPM_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPUL1_HepG2_mutant.npy",
+        "sha256": "1abf4977d20198c46f1dcd26fa779a268b3c97017a5c2e12d146a17d249a0361",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPUL1_HepG2_reference.npy",
+        "sha256": "bb71d4cb5f17192e862f431c79a92ed29e4d7389effbcc22eda19d1cb0f4cd8a",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "edc21604b955568984f26915730b03e71c25c1db8c597713085fc5a4d0c5294a",
+      "task": "HNRNPUL1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPU_HepG2_mutant.npy",
+        "sha256": "bbd0e5ae5f700d4a2fae17429a8db3962400fd265ed8fa2562e0198c88899af9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/HNRNPU_HepG2_reference.npy",
+        "sha256": "677d6ed697b5a9937bc30a3ebe0c3aa0832020e9318846c26e18c962a60e1608",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "5d77c4a3ce99cdd9177a56491ecddab07dd22693149f7f0c7edcdcc78bd2a533",
+      "task": "HNRNPU_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/IGF2BP1_HepG2_mutant.npy",
+        "sha256": "732125623b1f1cf4955b22596475e95a5cfba45a99162cb6efcc9af41b654f36",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/IGF2BP1_HepG2_reference.npy",
+        "sha256": "ac631c95bab8e67f0d973d8e20e6bbe4c8e882e9fbad6c399bf92da2622e8d4b",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "d9ed0f206302ec0602d520df92c34a074c57302716fb0753c8a5ba746b65ed6f",
+      "task": "IGF2BP1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/IGF2BP3_HepG2_mutant.npy",
+        "sha256": "7805c9541b4cded92e90b4b9bae6a160b6884407251fba3eebae499b75bc95dc",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/IGF2BP3_HepG2_reference.npy",
+        "sha256": "aeca5f609d20567b8a7e22476188e8043d38328594d065b3f63833e7b15b10d1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "c0a9f3c071b6e8df9a7b52135e6914287c4bb7d5f77e0c1db112428de4ed6c9e",
+      "task": "IGF2BP3_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/ILF3_HepG2_mutant.npy",
+        "sha256": "ec637b0f8c361f786d2f665dd90d8b85d8e5bfc94e0ee45bebd474cc5bb66df7",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/ILF3_HepG2_reference.npy",
+        "sha256": "5f2f9ac120f953c6372afd95d7055c73172a93959b58cd5a9f81cea86e5d9ab8",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "cec2120f9e80c35047ca69c369d60720deaf65382c86edd7403b24de2a3fc155",
+      "task": "ILF3_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/KHSRP_HepG2_mutant.npy",
+        "sha256": "bfdf59b7706a9491f07bf32a4671bb0e015d3496948487d65f451d1067493f86",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/KHSRP_HepG2_reference.npy",
+        "sha256": "c34274649795d5f3eb72f6df3adbaf9e8200803693c57fe03519ace70e22d26f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "91de1ab23fc18e1f8a53ff39c285ddac06518a1fb8e2ad79adcb9dec93ea0158",
+      "task": "KHSRP_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LARP4_HepG2_mutant.npy",
+        "sha256": "d55b57c0205ef917fbc3c46a379310fbbd8d853dfdc0d8124f674f2f3166b998",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LARP4_HepG2_reference.npy",
+        "sha256": "20ff9607be70336bd7a23668b343e265d799696f5bb727a4a471558519b5d301",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "58b2bca5d82762af4e79e412ca00f30f768b7a9662e20fb77a1f6b6a51fe93e9",
+      "task": "LARP4_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LARP7_HepG2_mutant.npy",
+        "sha256": "6ec840236b0662c82a4c72f8e1527c1525b1afaff0f14ed310feb24e0e47a204",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LARP7_HepG2_reference.npy",
+        "sha256": "6fe851db9595596ba4cbdfd7bcbd9b8802210158c747aade8931b8da73a6fd19",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "7d7be9eff9465bf57d8e690919a9f8d3b2ac936bbdbf08427496fe3371f89078",
+      "task": "LARP7_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LIN28B_HepG2_mutant.npy",
+        "sha256": "b116eeb13ad57c90a6eca4e95a5c35a6b89fbca0bc0abda3a6b262a42427b226",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LIN28B_HepG2_reference.npy",
+        "sha256": "68b9c11b599bd006cf776c5a8644853eecedd39675be672fcf4db84e2b3b7c51",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "8f55b22c36c6eb97b1fee5251319f6125b660ace258171e7a753af12a14d9f3d",
+      "task": "LIN28B_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LSM11_HepG2_mutant.npy",
+        "sha256": "0972a4094bafcc28b510a2e283d382ec6823416301724bd45757e7c3a9d5291a",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/LSM11_HepG2_reference.npy",
+        "sha256": "e71877fcea73c653450616b9aa124a2f2638cbb39d6cae1a7c7f6c2b00a83808",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "18e23306edf4e994a6991d628e778f26fba95234bdcd2d7d756ff0f4403c65f7",
+      "task": "LSM11_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/MATR3_HepG2_mutant.npy",
+        "sha256": "5f4c1b0e82f610e47c54c9d74af980cdf7c27366fa4b9c3b90d14dbac2c3ecce",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/MATR3_HepG2_reference.npy",
+        "sha256": "882fb300d57d56d0b66b98c76deb5380a7eee968cf6f31bebc193aed349769a5",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "ed76a22d1a09334f24ff6a1ec1616dc8d6a18c78871057d70defd263eb54b9d0",
+      "task": "MATR3_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NCBP2_HepG2_mutant.npy",
+        "sha256": "f04446020e109770086dbe3f99b8d1fc9e33c127cd85031b2a96b19d24cca80f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NCBP2_HepG2_reference.npy",
+        "sha256": "f4b49aecc09de9e27a07919ad40efff76f3f03d604e348db6206a7f597c9ad26",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "4fcefdc31e18b587e9af684cda5199e5838f88d0294da8fc13081f04ee737e3f",
+      "task": "NCBP2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NIP7_HepG2_mutant.npy",
+        "sha256": "6ad9b61618a4510bedcd9f6caed5430070f5c15f2c269556e95e951895f7afc7",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NIP7_HepG2_reference.npy",
+        "sha256": "bff7fa19af3b430f2dcc2acdc15e4b441a2351945826357362a1a0c5824b3788",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "fad1b41084d713cacdfdebb29f208fa27e59ffd6a85cc0a35ef94dc6f21dadf9",
+      "task": "NIP7_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NKRF_HepG2_mutant.npy",
+        "sha256": "32e00ad4aaaedebb462114f0d64e60ecd938defef007b712dd9fdd4b8aeac56b",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NKRF_HepG2_reference.npy",
+        "sha256": "643af676b7d983e68f9269d4d952b9d0027bd7b90e08a2f3bbe4198e09eee354",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "559d633a71178fe5f5c7e736ce0fa96ce676ef9cdfbf8b3a7e8e4d2a489e9ee1",
+      "task": "NKRF_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NOL12_HepG2_mutant.npy",
+        "sha256": "e783457b53fdc44414e07a67998357e93a303a24b08e8468462e31b1950dac8f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NOL12_HepG2_reference.npy",
+        "sha256": "3798c1dbaf3a3fe99bddcd7cd901b12b51f2a9af85f2cfb2cfcee1b8a304c443",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "57012b888542220521c8b6e3af2bf19b001724b42f53039e352f0ec8fa1395ea",
+      "task": "NOL12_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NOLC1_HepG2_mutant.npy",
+        "sha256": "57dbeff3278e22501fa831b738410afebe36cff174dc8eaccc9fc1f7c2ee4f59",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/NOLC1_HepG2_reference.npy",
+        "sha256": "36b87c3c43cedecf4cdb680b680933bca87da63c336a2a63c79a117fa138f615",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "ccbdb0fa117a38635975c7cd1121f02887173e7777fc578253400a7ff7565cb2",
+      "task": "NOLC1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PABPN1_HepG2_mutant.npy",
+        "sha256": "495f1a69f34db60129b345ae5d52e626aa3557f7d220e470988df24840848661",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PABPN1_HepG2_reference.npy",
+        "sha256": "608419f0f543a597da3269a6c5d6afabc1f76480ff5b0451cb8a28219fef3979",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "a14dc6433f1019f545736cc6cf531a5851d5f35cb2d82c4dd693e8a0510f0193",
+      "task": "PABPN1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PCBP1_HepG2_mutant.npy",
+        "sha256": "7d3734a4727fd663140924f86c22101dadb0f1873f1ebf99a2678a66660f19ac",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PCBP1_HepG2_reference.npy",
+        "sha256": "35c7531aa58fe60030258d66d2189361f7b950971933fd0e912ae1caf85cb337",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "8be4fcdea0f5afeed5f66edd98bf242eb3a786c6361c2d52470b2d4c34e4fb24",
+      "task": "PCBP1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PCBP2_HepG2_mutant.npy",
+        "sha256": "24af90ba7dfa0112f279983762f57b0bfa0acf74732fec14955b56114e1fe4e9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PCBP2_HepG2_reference.npy",
+        "sha256": "93b4aa613d7d1b6bfddc6f5423abb293cf259e83a03be5d64b05412fddb9546c",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "1c46add1720a625a3bd273be90735cce8c42042d4c3fef4d55a46cfa1c71109c",
+      "task": "PCBP2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/POLR2G_HepG2_mutant.npy",
+        "sha256": "0e1e5d9178d40ac76131f725244b24b69afe3e04216d347cac182d917ace26e5",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/POLR2G_HepG2_reference.npy",
+        "sha256": "2273cef512907bd53da6bd6504393e41dc70a3e3a394cb1b8763828fcf15b201",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e1fff469ec567303b43cd7b6994d2324a91fc193f2cb140ccbad275af0b54980",
+      "task": "POLR2G_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PPIG_HepG2_mutant.npy",
+        "sha256": "392dd8b9e722ee0561e49fc5d398042c7187d77ec20a69d3d253826ec0262af6",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PPIG_HepG2_reference.npy",
+        "sha256": "72e2d8b7dc26222d050445fb50267e7683302f782edf43eb9c8c2ba935752f0e",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "55c296017b0f7252c8d9488586e81c9242a97f90eeae2ce125ff4b358fb21fd2",
+      "task": "PPIG_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PRPF4_HepG2_mutant.npy",
+        "sha256": "5caf1afb4984b8872122f76dfb418b5446049dfccb5045420289b6a956d7472d",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PRPF4_HepG2_reference.npy",
+        "sha256": "d3910a2bf4a840ac57dafc9bead2dcbbb8dc7266d0ba219b96f3f59d83d7659a",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "1b8da41615102715362059f0e9e85b642cc299e3d1fc262a0773f420d4bf168b",
+      "task": "PRPF4_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PRPF8_HepG2_mutant.npy",
+        "sha256": "885a83b18f0c1db99702358f6b126ecf935bc090c4ec2befc04f9e772a7385fb",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PRPF8_HepG2_reference.npy",
+        "sha256": "702fed001bf63fea5810f38c6f3c189d32a70b734565716f1c3ffd8d9dbf20d7",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "c678f02c135d2e435de4686652d274713b8e04a9c261c6eb8447e9e5d0d1143d",
+      "task": "PRPF8_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PTBP1_HepG2_mutant.npy",
+        "sha256": "2062a80028a264042d4e6e101b8617c487bf547bd5af8715c70c2bb5469dfbd9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/PTBP1_HepG2_reference.npy",
+        "sha256": "7d4867be017fb9efbba97c764560461d40370a051ea2952b7dea6f0971fd1b02",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "3c071fa2549cd28e4ead9077ccba71fe01bb1bfb7c61f7ca5fd4a1bb160d8f14",
+      "task": "PTBP1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/QKI_HepG2_mutant.npy",
+        "sha256": "a5bf04ad9a8fa9c14dda6933950b60934fc5e3fea833cd679cc55687d43fb7db",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/QKI_HepG2_reference.npy",
+        "sha256": "d4bdb03fed6c2a08bd3ad2087b8240344530fe37788032637c79f88d67c63771",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e4ab09e54e506ef656721d8803e201dc7f956d65b0c27bf1c0e2405d4c16e881",
+      "task": "QKI_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBFOX2_HepG2_mutant.npy",
+        "sha256": "ec886a8f05704bc281459c6fc353baa5a32d443096fd8866ad1201b4324f8fe1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBFOX2_HepG2_reference.npy",
+        "sha256": "4c17d76cbd93b54c6695ffe59f161f14087d496a08605b24cc3dadfcbd85a2d2",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "f3f6025a5df3ffdc4055e5d8585fda4ef4f1ec7838099e87d43c0fb196d53187",
+      "task": "RBFOX2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBM15_HepG2_mutant.npy",
+        "sha256": "d6855963e1a18ad7c801402efcdc7bd229a7d37652f484fff6049c231bd87e60",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBM15_HepG2_reference.npy",
+        "sha256": "cc97b7be2a52ae537808cf777d3db5148a3c293d4bf8f0ad9f40816b5c1a345a",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "ff98aad39f5c1a0c7e3264b1986b0ad6b7eaf9e40490c242049861cd20275508",
+      "task": "RBM15_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.3783574104309082e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBM22_HepG2_mutant.npy",
+        "sha256": "0120e2a7d47ef85d448c48c7b9ff2f4a7793205a6e0125aa49bbcadc68c32c17",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBM22_HepG2_reference.npy",
+        "sha256": "2abf124e9dd1188d7dc3bc35304dd7368568b4e043e9f3cf266d897dabfe4c28",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "4b9de59e1f3fe78b24da3fbee076f862c93c4eaaa95253d808350e25438308ef",
+      "task": "RBM22_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBM5_HepG2_mutant.npy",
+        "sha256": "fa9b24f45f624aa245f8085491bc4c695ad70219f00a6c2899e13373eb927c39",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RBM5_HepG2_reference.npy",
+        "sha256": "fb635f7b8447c0f15e4cc1a5478ebb4bff86be87155a10956c04a466168f649b",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "535b31a8f53d178e8e9e5b39881badd5063c35e4afc36cca4fe97806205bf8aa",
+      "task": "RBM5_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.9371509552001953e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RPS3_HepG2_mutant.npy",
+        "sha256": "743a8bbc170cc5d1927e8ff90976d84c9ae6a27bda8c1976cf7b3d7926f2b6e4",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/RPS3_HepG2_reference.npy",
+        "sha256": "f8a2abf26cb5b15e44c520ec6e20e8a964744dc074a2383bdc96c40d0f697727",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "68a5aa063fdaed702b506584daeac10d7c8cf6ea9ee677ec2eb8cd2de2cb5a76",
+      "task": "RPS3_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SAFB_HepG2_mutant.npy",
+        "sha256": "c5fed91c15b4e680512845496b137659fcee257fe3f2a0730259d704159c6536",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SAFB_HepG2_reference.npy",
+        "sha256": "6db913c0a55e11270c2c037f9de4f59a999c66f8e3542eade308ab93924db72e",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "c9969ae52a3c6e5221995b6b84cf4e917bde7b6cf3ce1881dfb64b1839fa4979",
+      "task": "SAFB_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SDAD1_HepG2_mutant.npy",
+        "sha256": "3c552722a6e135e24c88d586cd4f40e4ec23b0e4059df16ab7678bbbdaa828c3",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SDAD1_HepG2_reference.npy",
+        "sha256": "f50047a5a99e8af3e9bd73fa14ab01afc0ed9909f3e76f301b88db6839edd172",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "6c54d8e1a26439ffd057340ae907282c33128cdf91aa41edc870556a4f5c2662",
+      "task": "SDAD1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SF3A3_HepG2_mutant.npy",
+        "sha256": "6622791c5f7298ea6fa4180b89380c5ef11e89cfd9d5de3aee4590652acb9a70",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SF3A3_HepG2_reference.npy",
+        "sha256": "634c6bdc4b75cb490c9ba3c90083753a89166f1d71a3c5b7b777d9cc36588b18",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "1b83bdc438f28d7bfa90c43f3f742123722ba4de9e36e0a8b2feac516051d622",
+      "task": "SF3A3_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SF3B4_HepG2_mutant.npy",
+        "sha256": "4772acc6877688c906ef8b42e7aa7a4aeb8860a1d297b03423976c6eb869db1f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SF3B4_HepG2_reference.npy",
+        "sha256": "d51f525f04bed501be17cfbe619a15688fb748e46fa98367188bf97db1a5064f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "70308cd81d4a329ea2c8cdcb211af435d88e41ca8824c784a5f016505c51e7ae",
+      "task": "SF3B4_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SFPQ_HepG2_mutant.npy",
+        "sha256": "cd0b80f1650762a46226054d2d58a9eefb7cd1d64e4179ce222bac4f21d4df61",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SFPQ_HepG2_reference.npy",
+        "sha256": "ae723c4b35d1e5801abb67666b74e0b038bc6ac80bd0a7d95c56e0a7e73def53",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e1dca33446384a061b4d4aca52203a58cba57361ff7c58e978b9b4d114d978ab",
+      "task": "SFPQ_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SLTM_HepG2_mutant.npy",
+        "sha256": "99cb2599f3e5c65030d3b824bedaa19193e1a135c156989aac7a13eb1595df69",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SLTM_HepG2_reference.npy",
+        "sha256": "9454518244262804625022ee6da735e8055c901a914f51045c033a889e74f678",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "82ac16d22304232b838189e6a1918ac9eace7628c08066fe627351d08fee1155",
+      "task": "SLTM_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.1920928955078125e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SMNDC1_HepG2_mutant.npy",
+        "sha256": "48d5e1d0953085ed5f0137ecf8a2b1a047c1ea42f59210373e04822e60bf30bd",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SMNDC1_HepG2_reference.npy",
+        "sha256": "0ced476f193c1ae5eecbb34a61df5b0ba63b4c269b05b40cc3075a260301ee4d",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "6cbc877acaf7e5afa4eae5caa7856164bb72d78a9098e445e831ee760c1a7305",
+      "task": "SMNDC1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SND1_HepG2_mutant.npy",
+        "sha256": "617de452827ab32a1b5d83824a374d697686bb3593492c319a1a86d93d5bfc1e",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SND1_HepG2_reference.npy",
+        "sha256": "5788c6e26ac9ab77652572ac2dbde4120fd539c408c1eacbc4ed6ec57d929065",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "0e2efbae2441df459b08c5e0a0d5b64cc5c08a15b964832c593072c333b2614d",
+      "task": "SND1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SRSF1_HepG2_mutant.npy",
+        "sha256": "09c97ec1f5931987df456f27ae5fb47e655448d4ccf33cdcb4983c1290c1a2ba",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SRSF1_HepG2_reference.npy",
+        "sha256": "a58f5c2a16f967a6a7cb80ed039e1b7a2dc7c3f87892e4206ccc544a51553a2f",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "0f38f70574eed57015cd6b2215849227d73cea100e2b022b979d20c8f796cd93",
+      "task": "SRSF1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SRSF7_HepG2_mutant.npy",
+        "sha256": "311c217217edb304d862436261b1c77e7bf1e4c8af9ebc66922600a1be2440b1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SRSF7_HepG2_reference.npy",
+        "sha256": "5d44dbd0d89822770401c257e0047affb7028a3c222015d72ef2f38a31999abb",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "0458ce731ecc7aba2033800ef2d71af50c12bee1aea956c9a6a5871c0ec7dc2c",
+      "task": "SRSF7_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SRSF9_HepG2_mutant.npy",
+        "sha256": "130e261ff37aabe19f917620ff59685b8fba988cf068047de7514310929d0c56",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SRSF9_HepG2_reference.npy",
+        "sha256": "4db7d367a5be2ad43029c19d548be538c3107bef7f190752e0b1c5d5647059c4",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "058d90063a6bb4e607d1568650db449f07b0c858fd1918a6c0f2258051bc3a0a",
+      "task": "SRSF9_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SSB_HepG2_mutant.npy",
+        "sha256": "540ad81b46e307248e947047c2c9c446d571ace3dba856a0352f49c437b0b024",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SSB_HepG2_reference.npy",
+        "sha256": "ac97ad451c78ae5df6521eaa411fbb5bc955a10d1917b793c881dc795b923cc7",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "3e66c9a69f04e60bda659bc3ce4898e96c0a229e59ed246759b9aa0cedb1ac48",
+      "task": "SSB_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/STAU2_HepG2_mutant.npy",
+        "sha256": "7e693bfa8086fbe8b69a92780d1aa3dfb4074d2cfeb5ac88497fa6df3c02c73d",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/STAU2_HepG2_reference.npy",
+        "sha256": "f38226cc40503ab652a77dec8edbe19965bc7b0901414359f1870b4df3ac7db2",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "ea5453857fb91cb074a6473ace445947d27eefe53b3f8c6240ae3d0e71104a4d",
+      "task": "STAU2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SUB1_HepG2_mutant.npy",
+        "sha256": "a08d69dbc971707cad1a2b4324c5a6804f84ac78ba74a6ba499c26268387c78c",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SUB1_HepG2_reference.npy",
+        "sha256": "a7c7c9e784b20c3869b4dcafa132c6fed659fdcf31a33ffe797a58536563c488",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "a5d1f77704bad225e9f19bfc876e738ee186c756170dfd7fcc3241de3a9f9865",
+      "task": "SUB1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SUGP2_HepG2_mutant.npy",
+        "sha256": "20635832565cc9afc0d5862bb3fac44d5340b1b57cf1fe5e4808b1a614dba6ae",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SUGP2_HepG2_reference.npy",
+        "sha256": "ea6bbc942d5dceceecdb7cafe317981492927bcd19d01ba23301e820a86c5896",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "6638ee11eb26c455f116b2b13c3ca2b1aca828f1125bc7b80276dcc1b2f1c5fd",
+      "task": "SUGP2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SUPV3L1_HepG2_mutant.npy",
+        "sha256": "d71fd7fe0e12ea6eb67b5634d40b7cd54ac3cc8afe3f878dd5f8699e05b04746",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/SUPV3L1_HepG2_reference.npy",
+        "sha256": "e0f757e5efe806c383c24c8036a065662f7abbb0345bb1bc21042a1d6547d325",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "82305510f64854fd2967e79c22a23092089670c43ab60eff141b980420aaafab",
+      "task": "SUPV3L1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TAF15_HepG2_mutant.npy",
+        "sha256": "4e90bc5abf69d685be73e80b31e2411e87fde1cab57ae2a00cc0f9ed22959a83",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TAF15_HepG2_reference.npy",
+        "sha256": "f1dc695081bc114688193c020ded843aba4ddfadac36b6a64152e1e4b67a2b64",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "034f4a298b501eabba022743da6fb4c870cbaa1dad52a7cbabda05df5bb8bd5f",
+      "task": "TAF15_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TBRG4_HepG2_mutant.npy",
+        "sha256": "52c6477275ae0aef1861f438d9be3ab29cf379978b0d1c89fb7c6edb5145c9bf",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TBRG4_HepG2_reference.npy",
+        "sha256": "e8917be6fc92210022d524dc72f85e7cbde18e1db890799dd13fa9b8422ade48",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e3017e62c97d9a1dd7c253996bf95d7b55527be29135fa7ad62e14013a07cfff",
+      "task": "TBRG4_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TIA1_HepG2_mutant.npy",
+        "sha256": "23c0bc46a649667cb848cedd641d29719db87d50df0041dbfcc29be26cd64405",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TIA1_HepG2_reference.npy",
+        "sha256": "8c63ee8171118621fd53e2f097ebaa1211be963831fe37cec6b20f0d26ac71d9",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "d3a5f6e06cf216b3e0a29153751177d1c410997959b836f29ca9502764dff98b",
+      "task": "TIA1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TIAL1_HepG2_mutant.npy",
+        "sha256": "d9e9321d53b82657a163f86e4b18f6fd6b530891fd932c72a8a10d91711099cf",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TIAL1_HepG2_reference.npy",
+        "sha256": "6b8ffc9ec87aae6ee100353d0d382fb92175127d6ca82b38f43a2b84c0753842",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "a475edd4c2f26594fd4a2e4ca05d0e602f82b8cfb6abad8186349a99a3fa0c38",
+      "task": "TIAL1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TRA2A_HepG2_mutant.npy",
+        "sha256": "66e40fa0ef46708a6967d9489a3c2102152215c464736a2555b282fbad520aba",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TRA2A_HepG2_reference.npy",
+        "sha256": "ea01f0345c4ded2e982bf30a9a04047914764c906e7f0a141fe0971293da88f7",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "af5dfbe6b5a14ebe6f1077a88766112ba615de5ad13920368c0daa81e971a329",
+      "task": "TRA2A_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TROVE2_HepG2_mutant.npy",
+        "sha256": "b89a348975f85f412f2565f78834e2ff88b362f5b75b18385e8a789ef791d5aa",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/TROVE2_HepG2_reference.npy",
+        "sha256": "0aad182186eb09773331259c747c6aab0c5f7609cc90515e843cccf25c43dc44",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "0241ac34f817bb734680f856edfd098c5f19ec8b77a1e6e07c605745e1727882",
+      "task": "TROVE2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/U2AF1_HepG2_mutant.npy",
+        "sha256": "d3f4a727e090a6498ca8281b1c3188be3ca2aaed95b6406cdc0003d984a1ac94",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/U2AF1_HepG2_reference.npy",
+        "sha256": "909644dce41b65b014c9c072d6854ad18283f23651c3b4b96e64ae602426b192",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "5e59565efd750cf08a7d68bbb751caf451ace94271056c026a27ee242d50bc28",
+      "task": "U2AF1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.086162567138672e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/U2AF2_HepG2_mutant.npy",
+        "sha256": "c495ae02e2eda8038aff3832541f80da9cd9d058657a3625dc3bcafec79b4ebf",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/U2AF2_HepG2_reference.npy",
+        "sha256": "509578818cdcb2468b59ef67f6edf07afe160403205cb8c51b101dca81b01672",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "cc2753af19ad12155363ba57960e9de554228d178678961f4810c4b8df3fd826",
+      "task": "U2AF2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/UCHL5_HepG2_mutant.npy",
+        "sha256": "114cfff19d83320c4e6bce6416414b2e317774412d4d1f3f3ac580ba5457106d",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/UCHL5_HepG2_reference.npy",
+        "sha256": "67f4301d8e50e0bc2372b0f167125c38b53bf3a608e9bd5c22d3a32fa9cf13e7",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "e456ad506faa7e490019605385710fa901ca4cd23025df10d4c458de3554c468",
+      "task": "UCHL5_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/UPF1_HepG2_mutant.npy",
+        "sha256": "1700236bdb1d57c5e7895d1e90b574eeda0f145063f36a4b0eb2b5bdb5a2ee80",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/UPF1_HepG2_reference.npy",
+        "sha256": "bbea6c3ecbdbaeda6899ffe65375c53bb80f8474f6cbd0597a3f72db95eb512c",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "57b5de85918ca8f4652bbdc5b514cb314be2eaba7c76e438372f39c9a3695caa",
+      "task": "UPF1_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/UTP18_HepG2_mutant.npy",
+        "sha256": "21d0b6cb7c1518cc1b8d66cdde51729d36c9f6a30b35059a4acfe93a8f307ec1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/UTP18_HepG2_reference.npy",
+        "sha256": "48dfe12b13a1d6c5ac67804f66b338af9d15c1adc2803ce4cebc11ddc676a4b2",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "8275250cd0eb81d196281affbdab6d71fb07fff325a42fa155ee1dc71d11980d",
+      "task": "UTP18_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/WDR43_HepG2_mutant.npy",
+        "sha256": "a707191f40ba6229ded963c267a1f5c9e361c042e61b10e945f7aeea57fbda38",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/WDR43_HepG2_reference.npy",
+        "sha256": "0f3914a6b0748b8cf456a1764133f1797ad6bfc84ac186a98a04d11de2d1e1fa",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "595146be662c5c4106e4f6950ccf98869cd5443f737b6d72b60e4fec0a8400c4",
+      "task": "WDR43_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/XPO5_HepG2_mutant.npy",
+        "sha256": "c59c21576a85581464aa037008514aba5065bb065639c0546de2fc269914fa52",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/XPO5_HepG2_reference.npy",
+        "sha256": "6f242ea53ccbb482cb0b4758f46b7cc32fbedef0734a2ceac86e3cca6facb2f6",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "d1a13292f5958feb53f9f22dbd726b627ede13dbe21529e789621f4718327994",
+      "task": "XPO5_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.4901161193847656e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/XRCC6_HepG2_mutant.npy",
+        "sha256": "1a60559411678f6c39fb330789038878036289fb7152fbd425e70991f7a6e203",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/XRCC6_HepG2_reference.npy",
+        "sha256": "e08f41fbe4ecd2046a24bbbc531f0c7de5d2cf9fca08554f5cba1e58a0d7fc92",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "76de793b47fe247ad7f34620fd2855fc5f092e394270a535f1e043dc53f4bf1b",
+      "task": "XRCC6_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/XRN2_HepG2_mutant.npy",
+        "sha256": "083f7caaae0251720fc7b5449ec004f2e8fda4f4f0a92167b522e373b21b97cd",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/XRN2_HepG2_reference.npy",
+        "sha256": "4e3cde7e0e187b61a041d6eeba8606f8da77b173b7a23933f494cf7b62ed1719",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "f1373faa2e6fcef25f10daba6978c057e7a0538d440489c6b03310bd2d017ee8",
+      "task": "XRN2_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 2.384185791015625e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/YBX3_HepG2_mutant.npy",
+        "sha256": "acb5f5ab46dcbe2ba753d83e44991e9e8673f5ce837bff38e3cbcbd7a959e8d8",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/YBX3_HepG2_reference.npy",
+        "sha256": "a03893433aa9022fbe2a57f902b652ec672207d7a5cfcee882c36e0da9c566ff",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "46a004403544047f9fb61cfc71499dafe68388d752d40a12414e17ad8b059f19",
+      "task": "YBX3_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.341104507446289e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/ZC3H11A_HepG2_mutant.npy",
+        "sha256": "b5e5351f5aec6ba6dc83cfe4b80cd33db4a3aab33250f7b7b9232e47cd230c22",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/ZC3H11A_HepG2_reference.npy",
+        "sha256": "7f34a02a9d388a07f075b9744aa43bdf0c7af08b220c2b771e20f29627f06ff8",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "2e1ca8f182cf0fc8892536fd3d8aee824093dfff08f08470d0626e722e1e20d7",
+      "task": "ZC3H11A_HepG2"
+    },
+    {
+      "max_delta_reconstruction_error": 1.7881393432617188e-07,
+      "mutant": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/ZNF800_HepG2_mutant.npy",
+        "sha256": "c359bf3b6e84b782bbf917de77e6c6eea089d2fdadc45f7368dcc433c463f721",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "reference": {
+        "dtype": "float32",
+        "path": "data/interim/mechanism_v2/allele_shards/ZNF800_HepG2_reference.npy",
+        "sha256": "98eb2139ee5c46740f345b97be231ba92e3eb6b5d9b651b9268d156c946aa1b1",
+        "shape": [
+          62665,
+          4
+        ]
+      },
+      "roles": [
+        "mass_radius10",
+        "mass_radius25",
+        "mass_radius50",
+        "mixing_coefficient"
+      ],
+      "source_profile_sha256": "bc958528fdc54e7d199a731a5efc85250b04c0eb732c4ae594f7310ca5913bf6",
+      "task": "ZNF800_HepG2"
+    }
+  ],
+  "source_signature_manifest_sha256": "48e079afbf74b1b9809912b4e27323a7add07d8bb209c5e752ac8db5b9b481a8",
+  "task_order": [
+    "AGGF1_HepG2",
+    "AKAP1_HepG2",
+    "AQR_HepG2",
+    "BCCIP_HepG2",
+    "BCLAF1_HepG2",
+    "BUD13_HepG2",
+    "CDC40_HepG2",
+    "CSTF2T_HepG2",
+    "CSTF2_HepG2",
+    "DDX3X_HepG2",
+    "DDX52_HepG2",
+    "DDX55_HepG2",
+    "DDX59_HepG2",
+    "DDX6_HepG2",
+    "DGCR8_HepG2",
+    "DHX30_HepG2",
+    "DKC1_HepG2",
+    "DROSHA_HepG2",
+    "EFTUD2_HepG2",
+    "EIF3D_HepG2",
+    "EIF3H_HepG2",
+    "EXOSC5_HepG2",
+    "FAM120A_HepG2",
+    "FASTKD2_HepG2",
+    "FKBP4_HepG2",
+    "FTO_HepG2",
+    "FUBP3_HepG2",
+    "FUS_HepG2",
+    "FXR2_HepG2",
+    "G3BP1_HepG2",
+    "GRSF1_HepG2",
+    "GRWD1_HepG2",
+    "GTF2F1_HepG2",
+    "HLTF_HepG2",
+    "HNRNPA1_HepG2",
+    "HNRNPC_HepG2",
+    "HNRNPK_HepG2",
+    "HNRNPL_HepG2",
+    "HNRNPM_HepG2",
+    "HNRNPUL1_HepG2",
+    "HNRNPU_HepG2",
+    "IGF2BP1_HepG2",
+    "IGF2BP3_HepG2",
+    "ILF3_HepG2",
+    "KHSRP_HepG2",
+    "LARP4_HepG2",
+    "LARP7_HepG2",
+    "LIN28B_HepG2",
+    "LSM11_HepG2",
+    "MATR3_HepG2",
+    "NCBP2_HepG2",
+    "NIP7_HepG2",
+    "NKRF_HepG2",
+    "NOL12_HepG2",
+    "NOLC1_HepG2",
+    "PABPN1_HepG2",
+    "PCBP1_HepG2",
+    "PCBP2_HepG2",
+    "POLR2G_HepG2",
+    "PPIG_HepG2",
+    "PRPF4_HepG2",
+    "PRPF8_HepG2",
+    "PTBP1_HepG2",
+    "QKI_HepG2",
+    "RBFOX2_HepG2",
+    "RBM15_HepG2",
+    "RBM22_HepG2",
+    "RBM5_HepG2",
+    "RPS3_HepG2",
+    "SAFB_HepG2",
+    "SDAD1_HepG2",
+    "SF3A3_HepG2",
+    "SF3B4_HepG2",
+    "SFPQ_HepG2",
+    "SLTM_HepG2",
+    "SMNDC1_HepG2",
+    "SND1_HepG2",
+    "SRSF1_HepG2",
+    "SRSF7_HepG2",
+    "SRSF9_HepG2",
+    "SSB_HepG2",
+    "STAU2_HepG2",
+    "SUB1_HepG2",
+    "SUGP2_HepG2",
+    "SUPV3L1_HepG2",
+    "TAF15_HepG2",
+    "TBRG4_HepG2",
+    "TIA1_HepG2",
+    "TIAL1_HepG2",
+    "TRA2A_HepG2",
+    "TROVE2_HepG2",
+    "U2AF1_HepG2",
+    "U2AF2_HepG2",
+    "UCHL5_HepG2",
+    "UPF1_HepG2",
+    "UTP18_HepG2",
+    "WDR43_HepG2",
+    "XPO5_HepG2",
+    "XRCC6_HepG2",
+    "XRN2_HepG2",
+    "YBX3_HepG2",
+    "ZC3H11A_HepG2",
+    "ZNF800_HepG2"
+  ]
+}

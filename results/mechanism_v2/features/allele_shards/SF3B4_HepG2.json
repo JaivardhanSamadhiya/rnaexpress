@@ -1,0 +1,29 @@
+{
+  "max_delta_reconstruction_error": 2.384185791015625e-07,
+  "mutant": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/SF3B4_HepG2_mutant.npy",
+    "sha256": "4772acc6877688c906ef8b42e7aa7a4aeb8860a1d297b03423976c6eb869db1f",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "reference": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/SF3B4_HepG2_reference.npy",
+    "sha256": "d51f525f04bed501be17cfbe619a15688fb748e46fa98367188bf97db1a5064f",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "roles": [
+    "mass_radius10",
+    "mass_radius25",
+    "mass_radius50",
+    "mixing_coefficient"
+  ],
+  "source_profile_sha256": "70308cd81d4a329ea2c8cdcb211af435d88e41ca8824c784a5f016505c51e7ae",
+  "task": "SF3B4_HepG2"
+}

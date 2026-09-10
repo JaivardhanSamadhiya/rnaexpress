@@ -1,0 +1,29 @@
+{
+  "max_delta_reconstruction_error": 1.7881393432617188e-07,
+  "mutant": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/TROVE2_HepG2_mutant.npy",
+    "sha256": "b89a348975f85f412f2565f78834e2ff88b362f5b75b18385e8a789ef791d5aa",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "reference": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/TROVE2_HepG2_reference.npy",
+    "sha256": "0aad182186eb09773331259c747c6aab0c5f7609cc90515e843cccf25c43dc44",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "roles": [
+    "mass_radius10",
+    "mass_radius25",
+    "mass_radius50",
+    "mixing_coefficient"
+  ],
+  "source_profile_sha256": "0241ac34f817bb734680f856edfd098c5f19ec8b77a1e6e07c605745e1727882",
+  "task": "TROVE2_HepG2"
+}

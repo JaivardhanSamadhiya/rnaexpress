@@ -1,0 +1,29 @@
+{
+  "max_delta_reconstruction_error": 2.086162567138672e-07,
+  "mutant": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/NOLC1_HepG2_mutant.npy",
+    "sha256": "57dbeff3278e22501fa831b738410afebe36cff174dc8eaccc9fc1f7c2ee4f59",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "reference": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/NOLC1_HepG2_reference.npy",
+    "sha256": "36b87c3c43cedecf4cdb680b680933bca87da63c336a2a63c79a117fa138f615",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "roles": [
+    "mass_radius10",
+    "mass_radius25",
+    "mass_radius50",
+    "mixing_coefficient"
+  ],
+  "source_profile_sha256": "ccbdb0fa117a38635975c7cd1121f02887173e7777fc578253400a7ff7565cb2",
+  "task": "NOLC1_HepG2"
+}

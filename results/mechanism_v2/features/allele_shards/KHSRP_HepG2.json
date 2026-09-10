@@ -1,0 +1,29 @@
+{
+  "max_delta_reconstruction_error": 1.7881393432617188e-07,
+  "mutant": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/KHSRP_HepG2_mutant.npy",
+    "sha256": "bfdf59b7706a9491f07bf32a4671bb0e015d3496948487d65f451d1067493f86",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "reference": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/allele_shards/KHSRP_HepG2_reference.npy",
+    "sha256": "c34274649795d5f3eb72f6df3adbaf9e8200803693c57fe03519ace70e22d26f",
+    "shape": [
+      62665,
+      4
+    ]
+  },
+  "roles": [
+    "mass_radius10",
+    "mass_radius25",
+    "mass_radius50",
+    "mixing_coefficient"
+  ],
+  "source_profile_sha256": "91de1ab23fc18e1f8a53ff39c285ddac06518a1fb8e2ad79adcb9dec93ea0158",
+  "task": "KHSRP_HepG2"
+}

@@ -22,8 +22,9 @@ available; the failure did not install a substitute model. Local alignment uses
 a tested dynamic-programming convention; RapidFuzz provides a Windows wheel for
 distance-only grouping sensitivity. Exact versions are recorded in the lock file.
 
-Current tests: 41 passed. Legacy whole-repository tests have not been run because
-they must first be audited for protected-data access. The new holdout test checks
+At the completed extraction checkpoint, 60 new tests passed. Fifteen audited
+legacy resource/protocol tests also passed. Whole-repository tests are not run:
+some explicitly load protected N-zip outcomes or Astrocyte features. The new holdout test checks
 that the reader is never reached for unauthorized paths; passing an `authorized`
 flag cannot open the holdout. Unimplemented training/evaluation/freeze/holdout
 stages fail explicitly rather than reporting fabricated completion.
@@ -82,3 +83,31 @@ New namespace-local `.gitattributes` disable Git text conversion for recorded
 byte hashes. They do not alter FinalShot attributes or files. Generated feature
 arrays/raw FASTQ remain local cache artifacts with recorded hashes and retrieval
 provenance rather than being added as gigabyte Git blobs.
+
+## Completed overnight extraction and independent validation (10 September)
+
+All 103 absolute RBP allele shards completed. Their mutant-minus-reference
+arithmetic reconstructs the signed delta block within the locked 1e-6 tolerance.
+Both absolute matrices, the separate pooled BERT allele delta, all 72,998 motif
+sequence folds, and the compact CAD/N2A trans interactions completed. A fresh
+recursive verification checked 215 feature arrays (including all allele shards)
+against their recorded SHA-256, shapes and finite values. All 244 preservation
+checks passed again. No duplicate extraction processes were started.
+
+The exact all-allele 95% global-Levenshtein audit performed 117,515 candidate
+comparisons over 72,998 unique sequences and found no additional cross-component
+edges. There remain 211 connected groups. Its five outer and three inner fold
+inventories supersede the parent-only primary inventory before localization
+modeling. The 90% parent-only sensitivity does not establish gene-family isolation.
+
+Independent external stability validation was frozen in commit `ccc50ca` before
+fitting. Both SH and HEK models failed admission; all out-of-fold predictions,
+bootstrap samples and failed summaries are retained. No stability predictor was
+exported or applied to localization. This negative result is not a failed download
+or an invitation to retune its admission thresholds.
+
+Commands completing this checkpoint use the same bundled executable above with
+`-u -m src.mechanism_v2.run_pipeline` and stages `stability-validate`,
+`motifs --workers 3`, `processing`, `sequence-audit`, `allele-summaries`,
+`trans-context`, and `test`. The paired evaluation module also rejects comparisons
+whose candidate/outcome cohort hashes differ, even if candidate counts match.

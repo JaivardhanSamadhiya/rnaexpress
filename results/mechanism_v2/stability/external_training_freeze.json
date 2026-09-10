@@ -1,0 +1,89 @@
+{
+  "astrocyte_accessed": false,
+  "design": {
+    "admission": {
+      "minimum_independent_groups": 200,
+      "minimum_oof_spearman": 0.15,
+      "minimum_relative_mse_improvement_over_training_mean": 0.02,
+      "minimum_relative_mse_improvement_over_zero": 0.02,
+      "minimum_spearman_bootstrap_lower95": 0.0
+    },
+    "baselines": [
+      "zero delta",
+      "training-group-weighted mean delta"
+    ],
+    "bootstrap": {
+      "resamples": 2000,
+      "seed": 20260910,
+      "unit": "connected biological group; keep both alleles together"
+    },
+    "cells": [
+      "SH",
+      "HEK"
+    ],
+    "eligibility": "Unique exact observed ref/mut sequence mapping, finite positive paired half-lives, no p-value filter; exclude localization development genes, exact sequence containment and at least 90 percent global sequence identity",
+    "failed_admission": "Retain all results, exclude the predictor from primary localization features; no threshold relaxation or further architecture search",
+    "features": "Counts per 100 nt for every 1-, 2-, 3-, 4-mer; mutant minus reference. HGB additionally receives symmetric mean mono/dinucleotide composition. No localization outcome features.",
+    "models": [
+      {
+        "alpha": 10,
+        "id": "ridge_10",
+        "kind": "ridge"
+      },
+      {
+        "alpha": 100,
+        "id": "ridge_100",
+        "kind": "ridge"
+      },
+      {
+        "id": "hgb_7",
+        "kind": "hgb",
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05,
+        "max_iter": 100,
+        "max_leaf_nodes": 7,
+        "min_samples_leaf": 20
+      }
+    ],
+    "pair_orientation": "Augment training with reverse pairs inside the same biological group; report antisymmetrized predictions, giving zero for identical sequences and opposite signs on reversal",
+    "scope": "External stability validation only; never opens Astrocyte, N-zip or quarantined TDP stability data",
+    "selection": "minimum inner gene-macro squared error; ties within 1e-10 select model order ridge_10, ridge_100, hgb_7",
+    "splits": "5 outer and 3 inner GroupKFold partitions by connected gene and ref/mut sequence identity of at least 95 percent; each cell independently; all transformations train-only",
+    "status": "prospective independent-stability validation design; no external predictor evaluated when written",
+    "target": "log2(mutant half-life / reference half-life)",
+    "weights": "equal biological groups, then equal paired variants; orientations each get half the variant weight"
+  },
+  "git_commit": "ccc50caba44c2def5dafe1fb454156a9ea2e4020",
+  "input": {
+    "development_genes_excluded": true,
+    "development_global_sequence_similarity_exclusion": 0.9,
+    "exact_containment_excluded": true,
+    "exclusions": {
+      "missing_or_development_gene": 22,
+      "no_verified_pair": 1558
+    },
+    "external_gene_sequence_component_identity": 0.95,
+    "independent_groups_before_cell_qc": 651,
+    "mapping_sha256": "9b6c5c41ca28e45cdfcb56783fe125e6e0ad0c5dd88b14527c39d39b4c0ceff8",
+    "retained_pairs_before_cell_qc": 1000,
+    "supplement": {
+      "bytes": 914485,
+      "label": "stability_supp1",
+      "path": "data/external/mechanism_v2/resource_audit/stability_supp1_c66f50a9c4908d8a.bin",
+      "resolved_url": "https://cdn.elifesciences.org/articles/97682/elife-97682-supp1-v1.xlsx",
+      "retrieved_utc": "2026-09-10T01:05:32.107862+00:00",
+      "sha256": "7339f268a965a31a903821db29607a5b30b8ea10174e83ccb453143bb32df264",
+      "url": "https://cdn.elifesciences.org/articles/97682/elife-97682-supp1-v1.xlsx"
+    },
+    "training_pair_path": "data/interim/mechanism_v2/stability_verified_training_pairs.csv",
+    "training_pair_sha256": "5236b2a76e5e38cd633e639c3450a71af142dd81233eb86d8d565c21f91805b7"
+  },
+  "localization_model_fit": false,
+  "nzip_accessed": false,
+  "sources": {
+    "configs/mechanism_v2/external_stability_design.json": "71aa2c78fdef1aa2fa475b648406360cda6c69068602f31ba898f70180a6eaf7",
+    "src/mechanism_v2/external_stability.py": "714d0d3ba7d03950ae08d04226fa0a171e0cc67755061ff875af188d263b2056",
+    "src/mechanism_v2/stability_mapping.py": "afb4bad558152526c8ba9d1a5daf5eafc644f5f3528891e31e6f1a17418e9aa5",
+    "src/mechanism_v2/stability_validation.py": "db7c1b9d6a8007ac865ac9b4f2146554c0ba1d6b7b436342cc333eceb3b3804e"
+  }
+}
