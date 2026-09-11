@@ -1,0 +1,142 @@
+{
+  "version": "mechanism_v2_frozen_gates_v1",
+  "status": "machine-readable transcription of reports/mechanism_v2/prospective_gate_design.md; written and committed before any outer score exists",
+  "source_document": "reports/mechanism_v2/prospective_gate_design.md",
+  "amendment_rule": "These numbers may not be changed after any outer-fold outcome has been scored. A genuine pre-result software or integrity defect must be preserved and documented, not silently repaired into a pass.",
+  "estimand": {
+    "primary_metrics": ["rank_gain", "regret_gain"],
+    "baseline": "inner-selected M0",
+    "aggregation": "mean decisions within source/component/direction, then equal means over source x direction contexts",
+    "coverage": "full candidate coverage is primary; selective coverage is secondary only",
+    "unit": "connected biological component, both directions and cross-source remeasurements together"
+  },
+  "bootstrap": {"resamples": 10000, "seed": 20260909, "maximum_missing_context_fraction": 0.01},
+  "eligibility": {
+    "minimum_candidates_per_decision": 2,
+    "require_nonzero_outcome_range": true,
+    "require_matching_candidate_outcome_hash": true,
+    "restricted_subanalysis_minimum_components": 20,
+    "transfer_minimum_components": 3,
+    "transfer_minimum_decisions": 3,
+    "mikl_motif_subanalysis_minimum_candidates": 4,
+    "unavailable_required_evidence": "ineligible, never an automatic pass"
+  },
+  "gates": {
+    "g1_useful_selection": {"rank_gain_minimum": 0.020, "regret_gain_minimum": 0.010, "combine": "and"},
+    "g2_distributed_benefit": {
+      "median_component_regret_gain_minimum_exclusive": 0.0,
+      "fraction_components_improved_minimum": 0.55,
+      "leave_best_component_out_mean_minimum_exclusive": 0.0,
+      "paired_lower_bound_minimum": -0.005
+    },
+    "g3_matched_edits": {
+      "strata": ["decision_set_id", "edit_band", "intervention_class"],
+      "rank_gain_minimum": 0.010,
+      "regret_gain_minimum": 0.005,
+      "minimum_components": 20,
+      "additional_reported_strata": [
+        ["decision_set_id", "edit_band", "intervention_class", "dataset"],
+        ["decision_set_id", "edit_band", "intervention_class", "biological_unit"]
+      ],
+      "mikl_motif_family_macro": true,
+      "cap_sensitivities": ["uncapped", "literal_two_per_gene_cap"],
+      "cap_plus_four_candidate_minimum": "unevaluable"
+    },
+    "g4_leave_source": {
+      "tasks": "three sources withheld separately with connected-group purging, both directions",
+      "minimum_tasks_improving_both": 4,
+      "total_tasks": 6,
+      "macro_regret_gain_minimum": 0.010,
+      "macro_rank_gain_minimum_exclusive": 0.0,
+      "maximum_single_source_share_of_positive_regret_gain": 0.75
+    },
+    "g5_cross_context": {
+      "cell_tasks_total": 4,
+      "cell_tasks_improving_both_minimum": 3,
+      "reporter_tasks_total": 4,
+      "reporter_tasks_improving_both_minimum": 3,
+      "macro_regret_gain_minimum": 0.005,
+      "purging": "connected groups held out across contexts; a measured mutant may never serve as its own transfer",
+      "paired_context_diagnostic": "labelled diagnostic only, never the zero-shot gate"
+    },
+    "g6_small_edits": {
+      "primary_band": "2-10",
+      "rank_gain_minimum": 0.020,
+      "regret_gain_minimum": 0.010,
+      "combine": "or",
+      "companion_gain_minimum": -0.002,
+      "subband_regret_gain_minimum": -0.005,
+      "required_subbands": ["2-5", "6-10"],
+      "reported_bands": ["0", "1", "2-5", "6-10", "11-25", "26-50", ">50"],
+      "exact_snv_note": "requires independent adequate evidence; absence is not generalization"
+    },
+    "g7_mechanistic_necessity": {
+      "primary_nulls": ["n5_bijection_global", "n8_bijection_source_edit_band"],
+      "reported_nulls": ["n0_geometry", "n1_edit_descriptors", "n4_random_kmer_delta",
+                          "n5_bijection_source", "n5_bijection_edit_band", "n5_bijection_parent",
+                          "n6_absolute_mutant", "n6_absolute_reference", "n7_broken_reference",
+                          "n9_structure_bijection"],
+      "minimum_destroyed_fraction_of_one_metric": 0.50,
+      "maximum_mean_retained_gain_fraction": 0.50,
+      "null_may_meet_both_useful_selection_thresholds": false,
+      "retention_undefined_when_full_gain_nonpositive": true,
+      "block_removal_family": ["rbp_delta", "bert_pooled_delta", "structure_delta",
+                                "processing_delta", "motif_delta", "trans_aligned", "ranking_heads"],
+      "block_removal_regret_harm_minimum": 0.005,
+      "block_removal_rank_harm_minimum": 0.010,
+      "block_removal_companion_minimum": -0.002,
+      "block_removal_multiplicity": "Holm over all seven enumerated hypotheses; absent components get p=1 and no claim",
+      "block_removal_alpha": 0.05,
+      "n10_stability": "not applicable: independent stability admission failed; never zero-filled or reported as passed"
+    },
+    "g8_shortcut_resistance": {
+      "forbidden_in_primary_latent_score": ["source label", "absolute parent channel", "reporter label",
+                                             "gene label", "outcome", "requested direction"],
+      "permutations": ["matched_stratum", "partition_local"],
+      "permutation_seeds": [20260909, 20260910, 20260911],
+      "probes": ["dataset", "reporter", "edit_band", "intervention_class", "direction", "biological_unit"],
+      "unseen_parent_or_gene_label_classification": "ineligible, not a zero-accuracy success",
+      "interpretation": "strong decodability alone neither proves nor disproves a shortcut"
+    },
+    "g9_stability_and_integrity": {
+      "replication_seeds": [20260910, 20260911],
+      "reselection_against_outer_outcomes": false,
+      "primary_gain_standard_deviation_maximum": 0.010,
+      "require_gate_category_agreement": true,
+      "same_seed_replay_tolerance": 1e-8,
+      "require_all_safe_tests_pass": true
+    },
+    "g10_hard_harm": {
+      "task_regret_gain_minimum": -0.020,
+      "worst_decile_component_mean_regret_gain_minimum": -0.200,
+      "scope": ["leave_source", "cross_cell", "cross_reporter", "small_edit_band"]
+    }
+  },
+  "trans_clause": {
+    "applies_when": "the primary selected family is M7 and its trans block is retained",
+    "versus": "M6",
+    "cross_cell_regret_gain_minimum": 0.005,
+    "cross_cell_rank_gain_minimum": 0.010,
+    "combine": "or",
+    "companion_gain_minimum": -0.002,
+    "additional": "paired context-identity necessity test must also hold; otherwise no trans claim is made and a failing selector is not excused"
+  },
+  "restricted_domain": {
+    "only_prospective_domain": "2-10-nt interventions in the covered neuronal/neuron-like reporter contexts",
+    "requirements": "same useful-selection, distributed-benefit, matched, transfer, necessity and harm criteria on that domain",
+    "post_hoc_domains": "forbidden; no favorable outer subgroup may become a restricted domain"
+  },
+  "verdicts": {
+    "allowed": ["STRONG GO - UNIVERSAL ZERO-SHOT RNADDRESS SUPPORTED",
+                 "PARTIAL GO - RESTRICTED ZERO-SHOT DOMAIN SUPPORTED",
+                 "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS"],
+    "strong_go_requires_holdout": {
+      "rank_gain_minimum": 0.020, "regret_gain_minimum": 0.010,
+      "fraction_units_improved_minimum": 0.55,
+      "median_minimum_exclusive": 0.0, "paired_lower_bound_minimum": -0.005,
+      "require_eligible_small_edit_evidence": true
+    },
+    "development_only_result_cannot_be_a_go": true,
+    "preserve_finalshot": "NO-GO - END ZERO-SHOT RNADDRESS remains the permanent historical FinalShot result in every outcome"
+  }
+}

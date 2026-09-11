@@ -1,0 +1,479 @@
+{
+  "code_sha256": "2ba5d59dea029ec227bdeb6d857fd1f890626fa6d1c65f9ea70838e2410d1907",
+  "cross_component_derangement_requested": true,
+  "definition": "donor intervention REFERENCE profile pooled at the RECIPIENT's edit window; radii 10/25/50 mass plus the mixing coefficient, identical pooling code as the primary block",
+  "index": {
+    "path": "data/interim/mechanism_v2/broken_reference_index.csv",
+    "rows": 727655,
+    "sha256": "f71c6fd18d0eac2fe54c4b30d080036b78f765a43111ab69ae35fb6b6bf79b66"
+  },
+  "interpretation": "pairing perturbation for necessity testing, not a biologically plausible alternative model",
+  "outcomes_used": false,
+  "partition_audits": {
+    "inner_0_0": {
+      "cross_component": true,
+      "eligible_interventions": 36366,
+      "fixed_interventions": 18853,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 19,
+      "strata_total": 30,
+      "unique_interventions": 55219
+    },
+    "inner_0_1": {
+      "cross_component": true,
+      "eligible_interventions": 38484,
+      "fixed_interventions": 16735,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 19,
+      "strata_total": 31,
+      "unique_interventions": 55219
+    },
+    "inner_0_2": {
+      "cross_component": true,
+      "eligible_interventions": 42711,
+      "fixed_interventions": 12508,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 20,
+      "strata_total": 31,
+      "unique_interventions": 55219
+    },
+    "inner_1_0": {
+      "cross_component": true,
+      "eligible_interventions": 15398,
+      "fixed_interventions": 27051,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 18,
+      "strata_total": 30,
+      "unique_interventions": 42449
+    },
+    "inner_1_1": {
+      "cross_component": true,
+      "eligible_interventions": 15159,
+      "fixed_interventions": 27290,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 15,
+      "strata_total": 30,
+      "unique_interventions": 42449
+    },
+    "inner_1_2": {
+      "cross_component": true,
+      "eligible_interventions": 39523,
+      "fixed_interventions": 2926,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 21,
+      "strata_total": 29,
+      "unique_interventions": 42449
+    },
+    "inner_2_0": {
+      "cross_component": true,
+      "eligible_interventions": 44911,
+      "fixed_interventions": 13536,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 19,
+      "strata_total": 31,
+      "unique_interventions": 58447
+    },
+    "inner_2_1": {
+      "cross_component": true,
+      "eligible_interventions": 42811,
+      "fixed_interventions": 15636,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 20,
+      "strata_total": 30,
+      "unique_interventions": 58447
+    },
+    "inner_2_2": {
+      "cross_component": true,
+      "eligible_interventions": 49668,
+      "fixed_interventions": 8779,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 21,
+      "strata_total": 31,
+      "unique_interventions": 58447
+    },
+    "inner_3_0": {
+      "cross_component": true,
+      "eligible_interventions": 11879,
+      "fixed_interventions": 26438,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 15,
+      "strata_total": 30,
+      "unique_interventions": 38317
+    },
+    "inner_3_1": {
+      "cross_component": true,
+      "eligible_interventions": 31471,
+      "fixed_interventions": 6846,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible",
+        "singleton"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 16,
+      "strata_total": 30,
+      "unique_interventions": 38317
+    },
+    "inner_3_2": {
+      "cross_component": true,
+      "eligible_interventions": 11856,
+      "fixed_interventions": 26461,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 17,
+      "strata_total": 31,
+      "unique_interventions": 38317
+    },
+    "inner_4_0": {
+      "cross_component": true,
+      "eligible_interventions": 44200,
+      "fixed_interventions": 12028,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible",
+        "singleton"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 19,
+      "strata_total": 31,
+      "unique_interventions": 56228
+    },
+    "inner_4_1": {
+      "cross_component": true,
+      "eligible_interventions": 39139,
+      "fixed_interventions": 17089,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 18,
+      "strata_total": 30,
+      "unique_interventions": 56228
+    },
+    "inner_4_2": {
+      "cross_component": true,
+      "eligible_interventions": 30948,
+      "fixed_interventions": 25280,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 17,
+      "strata_total": 31,
+      "unique_interventions": 56228
+    },
+    "outer_0": {
+      "cross_component": true,
+      "eligible_interventions": 57185,
+      "fixed_interventions": 5480,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible",
+        "singleton"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 19,
+      "strata_total": 31,
+      "unique_interventions": 62665
+    },
+    "outer_1": {
+      "cross_component": true,
+      "eligible_interventions": 43217,
+      "fixed_interventions": 19448,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 18,
+      "strata_total": 31,
+      "unique_interventions": 62665
+    },
+    "outer_2": {
+      "cross_component": true,
+      "eligible_interventions": 61602,
+      "fixed_interventions": 1063,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible",
+        "singleton"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 21,
+      "strata_total": 30,
+      "unique_interventions": 62665
+    },
+    "outer_3": {
+      "cross_component": true,
+      "eligible_interventions": 35235,
+      "fixed_interventions": 27430,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 17,
+      "strata_total": 30,
+      "unique_interventions": 62665
+    },
+    "outer_4": {
+      "cross_component": true,
+      "eligible_interventions": 58893,
+      "fixed_interventions": 3772,
+      "ineligible_strata": [
+        "cross_unit_derangement_impossible"
+      ],
+      "seed": 20260909,
+      "strata": [
+        "dataset",
+        "native_length",
+        "edit_band"
+      ],
+      "strata_eligible": 21,
+      "strata_total": 31,
+      "unique_interventions": 62665
+    }
+  },
+  "pooled": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/broken_reference_rbp_pooled.npy",
+    "sha256": "e48a6517ba0112b1a98dfc98b35050999e4f680452b9c32c6b8dbd8aa08b37dc",
+    "shape": [
+      727655,
+      412
+    ]
+  },
+  "seed": 20260909,
+  "source_signature_manifest_sha256": "48e079afbf74b1b9809912b4e27323a7add07d8bb209c5e752ac8db5b9b481a8",
+  "strata": [
+    "dataset",
+    "native_length",
+    "edit_band"
+  ],
+  "task_order": [
+    "AGGF1_HepG2",
+    "AKAP1_HepG2",
+    "AQR_HepG2",
+    "BCCIP_HepG2",
+    "BCLAF1_HepG2",
+    "BUD13_HepG2",
+    "CDC40_HepG2",
+    "CSTF2T_HepG2",
+    "CSTF2_HepG2",
+    "DDX3X_HepG2",
+    "DDX52_HepG2",
+    "DDX55_HepG2",
+    "DDX59_HepG2",
+    "DDX6_HepG2",
+    "DGCR8_HepG2",
+    "DHX30_HepG2",
+    "DKC1_HepG2",
+    "DROSHA_HepG2",
+    "EFTUD2_HepG2",
+    "EIF3D_HepG2",
+    "EIF3H_HepG2",
+    "EXOSC5_HepG2",
+    "FAM120A_HepG2",
+    "FASTKD2_HepG2",
+    "FKBP4_HepG2",
+    "FTO_HepG2",
+    "FUBP3_HepG2",
+    "FUS_HepG2",
+    "FXR2_HepG2",
+    "G3BP1_HepG2",
+    "GRSF1_HepG2",
+    "GRWD1_HepG2",
+    "GTF2F1_HepG2",
+    "HLTF_HepG2",
+    "HNRNPA1_HepG2",
+    "HNRNPC_HepG2",
+    "HNRNPK_HepG2",
+    "HNRNPL_HepG2",
+    "HNRNPM_HepG2",
+    "HNRNPUL1_HepG2",
+    "HNRNPU_HepG2",
+    "IGF2BP1_HepG2",
+    "IGF2BP3_HepG2",
+    "ILF3_HepG2",
+    "KHSRP_HepG2",
+    "LARP4_HepG2",
+    "LARP7_HepG2",
+    "LIN28B_HepG2",
+    "LSM11_HepG2",
+    "MATR3_HepG2",
+    "NCBP2_HepG2",
+    "NIP7_HepG2",
+    "NKRF_HepG2",
+    "NOL12_HepG2",
+    "NOLC1_HepG2",
+    "PABPN1_HepG2",
+    "PCBP1_HepG2",
+    "PCBP2_HepG2",
+    "POLR2G_HepG2",
+    "PPIG_HepG2",
+    "PRPF4_HepG2",
+    "PRPF8_HepG2",
+    "PTBP1_HepG2",
+    "QKI_HepG2",
+    "RBFOX2_HepG2",
+    "RBM15_HepG2",
+    "RBM22_HepG2",
+    "RBM5_HepG2",
+    "RPS3_HepG2",
+    "SAFB_HepG2",
+    "SDAD1_HepG2",
+    "SF3A3_HepG2",
+    "SF3B4_HepG2",
+    "SFPQ_HepG2",
+    "SLTM_HepG2",
+    "SMNDC1_HepG2",
+    "SND1_HepG2",
+    "SRSF1_HepG2",
+    "SRSF7_HepG2",
+    "SRSF9_HepG2",
+    "SSB_HepG2",
+    "STAU2_HepG2",
+    "SUB1_HepG2",
+    "SUGP2_HepG2",
+    "SUPV3L1_HepG2",
+    "TAF15_HepG2",
+    "TBRG4_HepG2",
+    "TIA1_HepG2",
+    "TIAL1_HepG2",
+    "TRA2A_HepG2",
+    "TROVE2_HepG2",
+    "U2AF1_HepG2",
+    "U2AF2_HepG2",
+    "UCHL5_HepG2",
+    "UPF1_HepG2",
+    "UTP18_HepG2",
+    "WDR43_HepG2",
+    "XPO5_HepG2",
+    "XRCC6_HepG2",
+    "XRN2_HepG2",
+    "YBX3_HepG2",
+    "ZC3H11A_HepG2",
+    "ZNF800_HepG2"
+  ]
+}

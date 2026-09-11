@@ -1,0 +1,34 @@
+{
+  "code_sha256": "2ba5d59dea029ec227bdeb6d857fd1f890626fa6d1c65f9ea70838e2410d1907",
+  "interpretation": "absolute pooled allele embeddings; N6/N7 comparators only, never a primary block",
+  "mutant": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/bert_pooled_mutant_absolute.npy",
+    "sha256": "4e66a6118571b5ac3f8be428c8cc0e3c0228ed9615e355f147a65a5ac80d7c5b",
+    "shape": [
+      62665,
+      128
+    ]
+  },
+  "reference": {
+    "dtype": "float32",
+    "path": "data/interim/mechanism_v2/bert_pooled_reference_absolute.npy",
+    "sha256": "09ba26382af7efa0e0c50d9133de8d35c7e6a27bbc71a4b57cf9ce54f84ed217",
+    "shape": [
+      62665,
+      128
+    ]
+  },
+  "reproduces_frozen_delta": true,
+  "source_columns": {
+    "mutant": [
+      128,
+      256
+    ],
+    "reference": [
+      0,
+      128
+    ]
+  },
+  "source_sha256": "51912767e74dc19a06dadf6bab9f3022f11939f1cc537f024af148cc18f948d9"
+}

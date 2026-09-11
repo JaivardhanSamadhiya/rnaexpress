@@ -19,6 +19,9 @@ data/interim/**
 data/processed/**
 !data/processed/.gitkeep
 data/frozen/outcomes/**
+# Mechanism-v2 fitted-model caches are large, reproducible and hash-recorded in
+# committed receipts. They are never added to ordinary Git history.
+models/mechanism_v2/**
 results/**
 !results/finalshot/
 !results/finalshot/**

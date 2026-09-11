@@ -13,7 +13,8 @@ if runtime.exists():
 def main():
     parser=argparse.ArgumentParser(__doc__)
     parser.add_argument('stage', choices=['audit','resources','features','external_stability',
-        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits','motifs','processing','stability-validate','sequence-audit','allele-summaries','trans-context','prepare-development','transfer-inventory','sequence-sensitivity'])
+        'train','evaluate','controls','freeze','holdout','test','audit-probes','stability-reads','stability-recover','splits','motifs','processing','stability-validate','sequence-audit','allele-summaries','trans-context','prepare-development','transfer-inventory','sequence-sensitivity',
+        'control-features','prepare-outer','analyze','transfer','uncertainty','probes','replication','report'])
     parser.add_argument('--limit',type=int)
     parser.add_argument('--workers',type=int,default=3)
     args=parser.parse_args()
@@ -76,6 +77,36 @@ def main():
     elif args.stage=='sequence-sensitivity':
         from .sequence_sensitivity import build_all_allele90
         build_all_allele90()
+    elif args.stage=='control-features':
+        from .control_features import build_control_features
+        build_control_features()
+    elif args.stage=='prepare-outer':
+        from .outer_evaluation import prepare_outer_evaluation
+        prepare_outer_evaluation()
+    elif args.stage=='evaluate':
+        from .outer_evaluation import evaluate_families
+        evaluate_families()
+    elif args.stage=='analyze':
+        from .development_analysis import analyze_development
+        analyze_development()
+    elif args.stage=='controls':
+        from .controls import run_controls
+        run_controls()
+    elif args.stage=='replication':
+        from .controls import run_seed_replication
+        run_seed_replication()
+    elif args.stage=='transfer':
+        from .transfer_evaluation import evaluate_transfer
+        evaluate_transfer()
+    elif args.stage=='uncertainty':
+        from .uncertainty import run_uncertainty
+        run_uncertainty()
+    elif args.stage=='probes':
+        from .shortcut_probes import run_shortcut_probes
+        run_shortcut_probes()
+    elif args.stage=='report':
+        from .reporting import finalize
+        finalize()
     elif args.stage=='test':
         import pytest
         raise SystemExit(pytest.main(['-q','tests/mechanism_v2','--junitxml=results/mechanism_v2/tests.xml']))
