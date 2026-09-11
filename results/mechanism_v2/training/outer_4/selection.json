@@ -1,0 +1,881 @@
+{
+  "family_selections": {
+    "M0": "M0_D",
+    "M1": "M1_E",
+    "M2": "M2_E",
+    "M3": "M3_D",
+    "M4": "M4_E",
+    "M5": "M5_E",
+    "M6": "M6_E",
+    "M7": "M7_E"
+  },
+  "freeze_sha256": "1a59c2e6013e97e881c5550f760c730ceee77dcad767fe49779c3341131b7c43",
+  "inner_summaries": [
+    {
+      "complexity": 28,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M0",
+      "rank": 0.6176472457307184,
+      "recipe_id": "M0_A",
+      "regret": 0.4235242130158096
+    },
+    {
+      "complexity": 31,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M0",
+      "rank": 0.619538962993252,
+      "recipe_id": "M0_B",
+      "regret": 0.42304384311643245
+    },
+    {
+      "complexity": 35,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M0",
+      "rank": 0.6237186976101581,
+      "recipe_id": "M0_C",
+      "regret": 0.427566656251207
+    },
+    {
+      "complexity": 38,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M0",
+      "rank": 0.6419661289003568,
+      "recipe_id": "M0_D",
+      "regret": 0.41627559258012714
+    },
+    {
+      "complexity": 28,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M0",
+      "rank": 0.600211260078063,
+      "recipe_id": "M0_E",
+      "regret": 0.43686746957545936
+    },
+    {
+      "complexity": 31,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M0",
+      "rank": 0.6146218947875365,
+      "recipe_id": "M0_F",
+      "regret": 0.4242853365953371
+    },
+    {
+      "complexity": 540,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M1",
+      "rank": 0.5936710165318969,
+      "recipe_id": "M1_A",
+      "regret": 0.42591914495944727
+    },
+    {
+      "complexity": 543,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M1",
+      "rank": 0.5809889265779998,
+      "recipe_id": "M1_B",
+      "regret": 0.4351129035814869
+    },
+    {
+      "complexity": 547,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M1",
+      "rank": 0.5651351049587816,
+      "recipe_id": "M1_C",
+      "regret": 0.43968323176258955
+    },
+    {
+      "complexity": 550,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M1",
+      "rank": 0.5645528623566437,
+      "recipe_id": "M1_D",
+      "regret": 0.4431186522343425
+    },
+    {
+      "complexity": 540,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M1",
+      "rank": 0.6197022107785274,
+      "recipe_id": "M1_E",
+      "regret": 0.4025458476555734
+    },
+    {
+      "complexity": 543,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M1",
+      "rank": 0.5790839183298545,
+      "recipe_id": "M1_F",
+      "regret": 0.4305030797870737
+    },
+    {
+      "complexity": 18,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M2",
+      "rank": 0.5486485912308477,
+      "recipe_id": "M2_A",
+      "regret": 0.47929159547532896
+    },
+    {
+      "complexity": 21,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M2",
+      "rank": 0.5494951315340114,
+      "recipe_id": "M2_B",
+      "regret": 0.48179899579765834
+    },
+    {
+      "complexity": 25,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M2",
+      "rank": 0.5471780165956983,
+      "recipe_id": "M2_C",
+      "regret": 0.481817315940741
+    },
+    {
+      "complexity": 28,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M2",
+      "rank": 0.5507271078778525,
+      "recipe_id": "M2_D",
+      "regret": 0.48098105729995
+    },
+    {
+      "complexity": 18,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M2",
+      "rank": 0.554353591898097,
+      "recipe_id": "M2_E",
+      "regret": 0.46027394481108913
+    },
+    {
+      "complexity": 21,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M2",
+      "rank": 0.5502606434358458,
+      "recipe_id": "M2_F",
+      "regret": 0.48150717032177887
+    },
+    {
+      "complexity": 8,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M3",
+      "rank": 0.5743698886044453,
+      "recipe_id": "M3_A",
+      "regret": 0.4587806071453442
+    },
+    {
+      "complexity": 11,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M3",
+      "rank": 0.5692423233406995,
+      "recipe_id": "M3_B",
+      "regret": 0.4597181847558008
+    },
+    {
+      "complexity": 15,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M3",
+      "rank": 0.5789323855576877,
+      "recipe_id": "M3_C",
+      "regret": 0.4580271524630492
+    },
+    {
+      "complexity": 18,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M3",
+      "rank": 0.578279180665326,
+      "recipe_id": "M3_D",
+      "regret": 0.4555583707323583
+    },
+    {
+      "complexity": 8,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M3",
+      "rank": 0.5762013635895269,
+      "recipe_id": "M3_E",
+      "regret": 0.4580038805372573
+    },
+    {
+      "complexity": 11,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M3",
+      "rank": 0.5728922666291466,
+      "recipe_id": "M3_F",
+      "regret": 0.46107994943617614
+    },
+    {
+      "complexity": 558,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "rank": 0.576989602155541,
+      "recipe_id": "M4_A",
+      "regret": 0.4296341369893982
+    },
+    {
+      "complexity": 561,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "rank": 0.5825257444226274,
+      "recipe_id": "M4_B",
+      "regret": 0.4333470041808347
+    },
+    {
+      "complexity": 565,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "rank": 0.5776259254056001,
+      "recipe_id": "M4_C",
+      "regret": 0.43362440859765045
+    },
+    {
+      "complexity": 568,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "rank": 0.5706578537465911,
+      "recipe_id": "M4_D",
+      "regret": 0.43976012479472354
+    },
+    {
+      "complexity": 558,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "rank": 0.6217662867703178,
+      "recipe_id": "M4_E",
+      "regret": 0.39725276369085655
+    },
+    {
+      "complexity": 561,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "rank": 0.5802441798726486,
+      "recipe_id": "M4_F",
+      "regret": 0.4318100581491168
+    },
+    {
+      "complexity": 548,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M5",
+      "rank": 0.5791054882343577,
+      "recipe_id": "M5_A",
+      "regret": 0.4275550911977228
+    },
+    {
+      "complexity": 551,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M5",
+      "rank": 0.5753671201135769,
+      "recipe_id": "M5_B",
+      "regret": 0.43722936500330484
+    },
+    {
+      "complexity": 555,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M5",
+      "rank": 0.5623350184318041,
+      "recipe_id": "M5_C",
+      "regret": 0.4410630719398407
+    },
+    {
+      "complexity": 558,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M5",
+      "rank": 0.5747285716207711,
+      "recipe_id": "M5_D",
+      "regret": 0.43788545038097637
+    },
+    {
+      "complexity": 548,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M5",
+      "rank": 0.6063025854683953,
+      "recipe_id": "M5_E",
+      "regret": 0.40868667644367757
+    },
+    {
+      "complexity": 551,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M5",
+      "rank": 0.5733842424746008,
+      "recipe_id": "M5_F",
+      "regret": 0.4333615572040417
+    },
+    {
+      "complexity": 574,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M6",
+      "rank": 0.5712972286035848,
+      "recipe_id": "M6_A",
+      "regret": 0.4275001381726917
+    },
+    {
+      "complexity": 577,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M6",
+      "rank": 0.5713509570961692,
+      "recipe_id": "M6_B",
+      "regret": 0.4369483134083063
+    },
+    {
+      "complexity": 581,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M6",
+      "rank": 0.5714971643480742,
+      "recipe_id": "M6_C",
+      "regret": 0.43607557345747594
+    },
+    {
+      "complexity": 584,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M6",
+      "rank": 0.5545609250196887,
+      "recipe_id": "M6_D",
+      "regret": 0.44537628680411245
+    },
+    {
+      "complexity": 574,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M6",
+      "rank": 0.6220803939800431,
+      "recipe_id": "M6_E",
+      "regret": 0.39740171920144807
+    },
+    {
+      "complexity": 577,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M6",
+      "rank": 0.5613034949735092,
+      "recipe_id": "M6_F",
+      "regret": 0.43514445653234973
+    },
+    {
+      "complexity": 578,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M7",
+      "rank": 0.5706658319595171,
+      "recipe_id": "M7_A",
+      "regret": 0.4273240309604816
+    },
+    {
+      "complexity": 581,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M7",
+      "rank": 0.5713509570961692,
+      "recipe_id": "M7_B",
+      "regret": 0.4369483134083063
+    },
+    {
+      "complexity": 585,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M7",
+      "rank": 0.5717179148999506,
+      "recipe_id": "M7_C",
+      "regret": 0.43575696565447153
+    },
+    {
+      "complexity": 588,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "source_size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M7",
+      "rank": 0.5439216475003911,
+      "recipe_id": "M7_D",
+      "regret": 0.4501187369557149
+    },
+    {
+      "complexity": 578,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M7",
+      "rank": 0.6190986707964318,
+      "recipe_id": "M7_E",
+      "regret": 0.3988400488188744
+    },
+    {
+      "complexity": 581,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M7",
+      "rank": 0.559150462820477,
+      "recipe_id": "M7_F",
+      "regret": 0.43600220023619435
+    }
+  ],
+  "outer_outcomes_used": false,
+  "primary_selection": "M6_E"
+}
