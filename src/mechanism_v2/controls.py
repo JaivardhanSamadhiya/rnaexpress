@@ -25,7 +25,7 @@ from .gates import metric_frame
 from .io import ROOT, sha256, write_json
 from .outer_evaluation import (inner_selection, load_scores, outer_scores, score_record,
                                selected_recipes, verify_outer_freeze)
-from .providers import BlockRemovalProvider, FamilyProvider, control_providers
+from .providers import FamilyProvider, block_removal_providers, control_providers
 
 CONTROL_EVIDENCE = 'results/mechanism_v2/controls/control_evidence.json'
 CONTROL_SELECTIONS = 'results/mechanism_v2/controls/control_selections.json'
@@ -55,9 +55,20 @@ class HeadRemovalProvider(FamilyProvider):
         return record
 
 
+def family_by_fold(store, frozen):
+    """The family each outer fold's committed inner selection actually chose."""
+    selections = selected_recipes(store, frozen)
+    return ({outer: record['family'] for outer, record in selections['primary'].items()},
+            selections)
+
+
 def _headless(recipe_by_fold):
+    """Per-fold head removal, only where the selected recipe actually has a head."""
     out = {}
     for outer, recipe in recipe_by_fold.items():
+        if not recipe['config'].get('ranking_heads'):
+            out[outer] = None
+            continue
         config = dict(recipe['config'])
         config['ranking_heads'] = False
         out[outer] = {**recipe, 'config': config,
@@ -71,19 +82,25 @@ def run_control_selections():
     frozen = verify_freeze()
     store = FeatureStore()
     digest = freeze['inner_training_freeze_sha256']
-    providers = control_providers(store, freeze['primary_family'])
+    families, _ = family_by_fold(store, frozen)
+    providers = control_providers(store, families)
     providers.pop('n0_geometry', None)
     selections = {}
     for name, provider in sorted(providers.items()):
-        record = inner_selection(store, provider, 'controls', freeze_sha256=digest)
+        record = inner_selection(store, provider, 'controls', freeze_sha256=digest, name=name)
         selections[name] = record
         status = ('ineligible: ' + str(record['ineligible_reason'])) if not record['eligible'] \
             else 'selected ' + json.dumps(record['selected_per_outer_fold'])
         print(f'Control inner selection {name}: {status}', flush=True)
+        for candidate in (provider.values() if isinstance(provider, dict) else [provider]):
+            if candidate is not None:
+                candidate.release()
     write_json(CONTROL_SELECTIONS, {
         'format': 'mechanism_v2_control_selection_v1',
         'outer_freeze_git_commit': freeze['git_commit'],
-        'primary_family': freeze['primary_family'],
+        'selected_family_by_outer_fold': {str(k): v for k, v in families.items()},
+        'note': ('the inner-selected family is not identical in every outer fold, so every '
+                 'family-dependent null is anchored on that fold\'s own selected family'),
         'selections': {k: {kk: vv for kk, vv in v.items() if kk != 'selected'}
                         for k, v in selections.items()},
         'outer_outcomes_used': False})
@@ -137,17 +154,21 @@ def run_controls():
     rows = with_strata(store.rows)
     baseline = scores['M0'][0]
     primary = scores['primary'][0]
-    primary_family = freeze['primary_family']
+    families, selection_records = family_by_fold(store, frozen)
     selections = run_control_selections()
+    all_providers = control_providers(store, families)
     nulls, null_records, arrays = {}, {}, {}
     for name, record in sorted(selections.items()):
         if not record['eligible']:
             null_records[name] = {'status': 'ineligible', 'reason': record['ineligible_reason']}
             nulls[name] = {'eligible': False, 'reason': record['ineligible_reason']}
             continue
-        provider = control_providers(store, primary_family)[name]
+        provider = all_providers[name]
         score, eligible, audit = outer_scores(store, provider, record['selected'], 'controls',
-                                              freeze_sha256=digest)
+                                              freeze_sha256=digest, name=name)
+        for candidate in (provider.values() if isinstance(provider, dict) else [provider]):
+            if candidate is not None:
+                candidate.release()
         arrays[name] = score_record(f'data/interim/mechanism_v2/control_scores/{name}.npy',
                                     score, eligible, audit)
         null_evidence, full_evidence = _null_comparison(rows, primary, score, baseline, eligible, name)
@@ -155,6 +176,7 @@ def run_controls():
         null_records[name] = {
             'status': 'evaluated' if null_evidence.get('eligible') else 'ineligible',
             'selected_per_outer_fold': record['selected_per_outer_fold'],
+            'outer_folds_without_this_component': record.get('outer_folds_without_this_component', []),
             'provider_audit': record['static_audit'],
             'coverage': float(eligible.mean()),
             'null_evidence': null_evidence,
@@ -177,45 +199,46 @@ def run_controls():
                           'selected': n0['selected'], 'baseline': n0['baseline']}}
     comparison['n0_geometry'] = null_records['n0_geometry']['null_evidence']
     removals = {}
-    selection_by_fold = selected_recipes(store, frozen)['primary']
+    selection_by_fold = selection_records['primary']
     for block in gates['gates']['g7_mechanistic_necessity']['block_removal_family']:
-        family_blocks = list(store.design['families'][primary_family])
         if block == 'ranking_heads':
-            if not any(selection_by_fold[o]['config']['ranking_heads']
-                       for o in selection_by_fold):
-                removals[block] = {'eligible': False,
-                                   'reason': 'the selected recipe uses no ranking head, so there is '
-                                             'no head component to remove'}
-                continue
-            provider = HeadRemovalProvider(primary_family)
             recipe_by_fold = _headless(selection_by_fold)
-        elif block not in family_blocks:
-            removals[block] = {'eligible': False,
-                               'reason': f'{block} is not part of the selected family {primary_family}'}
-            continue
-        elif len(family_blocks) < 2:
-            removals[block] = {'eligible': False,
-                               'reason': 'removing the only block would leave no features'}
-            continue
+            providers = {outer: (HeadRemovalProvider(families[outer])
+                                 if recipe_by_fold.get(outer) is not None else None)
+                         for outer in selection_by_fold}
         else:
-            provider = BlockRemovalProvider(primary_family, block)
-            recipe_by_fold = selection_by_fold
-        score, eligible, audit = outer_scores(store, provider, recipe_by_fold, 'controls',
-                                              freeze_sha256=digest)
+            providers = block_removal_providers(store, families, block)
+            recipe_by_fold = {outer: (selection_by_fold[outer] if providers.get(outer) else None)
+                              for outer in selection_by_fold}
+        usable = sorted(o for o in providers if providers[o] is not None
+                        and recipe_by_fold.get(o) is not None)
+        if not usable:
+            removals[block] = {
+                'eligible': False,
+                'reason': (f'no outer fold\'s inner-selected model contains a removable {block} '
+                           f'component; selected families were '
+                           f'{ {str(k): v for k, v in families.items()} }')}
+            print(f'Block removal {block}: absent from every selected model', flush=True)
+            continue
+        score, eligible, audit = outer_scores(store, providers, recipe_by_fold, 'controls',
+                                              freeze_sha256=digest, name=f'removal_{block}')
         arrays[f'removal_{block}'] = score_record(
             f'data/interim/mechanism_v2/control_scores/removal_{block}.npy', score, eligible, audit)
         mask = decision_complete_mask(rows, eligible)
         removals[block] = _removal_harm(rows, primary, score, baseline, mask, gates)
-        removals[block]['provider'] = provider.name
+        removals[block]['provider'] = f'removal_{block}'
+        removals[block]['outer_folds_evaluated'] = usable
+        removals[block]['outer_folds_skipped'] = audit['outer_folds_skipped']
         removals[block]['coverage'] = float(mask.mean())
-        print(f'Block removal {block}: {json.dumps(removals[block].get("harm", {}))}', flush=True)
+        print(f'Block removal {block}: folds {usable}, '
+              f'{json.dumps(removals[block].get("harm", {}))}', flush=True)
     headline = paired_evidence(rows, primary, baseline, label='primary_vs_M0')
     necessity = gate_necessity(headline, comparison, removals, gates)
     record = {
         'format': 'mechanism_v2_control_evidence_v1',
         'outer_freeze_git_commit': freeze['git_commit'],
         'gate_config_sha256': freeze['gate_config_sha256'],
-        'primary_family': primary_family,
+        'selected_family_by_outer_fold': {str(k): v for k, v in families.items()},
         'control_score_arrays': arrays,
         'nulls': null_records,
         'block_removals': removals,
@@ -228,7 +251,10 @@ def run_controls():
             'These are predictive necessity tests; none of them demonstrates experimentally that an '
             'RBP mediates localization.',
             'N10 is not applicable: independent stability admission failed and no stability block '
-            'exists. It is never zero-filled or reported as a passed necessity control.'],
+            'exists. It is never zero-filled or reported as a passed necessity control.',
+            'The inner-selected family differs across outer folds, so a block present in only some '
+            'selected models is evaluated on the folds that contain it, with the comparison cohort '
+            'restricted identically on both sides and the coverage stated.'],
         'outer_outcomes_used_for_selection': False,
     }
     write_json(CONTROL_EVIDENCE, record)

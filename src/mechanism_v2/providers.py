@@ -452,36 +452,63 @@ def primary_family_providers(store):
     return {family: FamilyProvider(family) for family in store.design['families']}
 
 
-def control_providers(store, primary_family):
-    """Every prospectively enumerated control, keyed by its registry name."""
+def _per_fold_bijection(store, family_by_fold, *, name, strata, blocks=None, seed=20260909,
+                        cross_component=False):
+    """One bijection provider per outer fold, anchored on that fold's own selected family.
+
+    The inner-selected family is not the same in every outer fold, so a null that
+    perturbs 'the selected model' has to be built against each fold's own model.
+    A fold whose selected family lacks the named block cannot host the null; it is
+    recorded as skipped rather than silently replaced by a different family.
+    """
+    providers = {}
+    for outer, family in family_by_fold.items():
+        available = [b for b in store.design['families'][family] if b not in ROW_INDEXED]
+        if blocks and not set(blocks) <= set(available):
+            providers[outer] = None
+            continue
+        providers[outer] = BijectionProvider(family, strata=strata, blocks=blocks, seed=seed,
+                                             cross_component=cross_component, name=name)
+    return providers
+
+
+def control_providers(store, family_by_fold):
+    """Every prospectively enumerated control, keyed by its registry name.
+
+    `family_by_fold` maps each outer fold to the family its committed inner
+    selection chose, so family-dependent nulls perturb the actual selector.
+    """
     providers = {
         'n0_geometry': FamilyProvider('M0'),
         'n1_edit_descriptors': EditDescriptorProvider(),
         'n2_geometry_source_slopes': SourceSlopeProvider(),
         'n3_parent_identity': ParentIdentityProvider(),
         'n4_random_kmer_delta': RandomKmerProvider(),
-        'n5_bijection_global': BijectionProvider(primary_family, strata=(), name='n5_bijection_global'),
-        'n5_bijection_source': BijectionProvider(primary_family, strata=('dataset',), name='n5_bijection_source'),
-        'n5_bijection_edit_band': BijectionProvider(primary_family, strata=('edit_band',), name='n5_bijection_edit_band'),
-        'n5_bijection_parent': BijectionProvider(primary_family, strata=('biological_unit',), name='n5_bijection_parent'),
-        'n8_bijection_source_edit_band': BijectionProvider(
-            primary_family, strata=('dataset', 'edit_band'), name='n8_bijection_source_edit_band'),
         'n6_absolute_mutant': AbsoluteAlleleProvider('mutant'),
         'n6_absolute_reference': AbsoluteAlleleProvider('reference'),
         'm1_parent_aware_comparator': ParentAwareProvider(),
         'n7_broken_reference': BrokenReferenceProvider(),
-        'n9_structure_bijection': BijectionProvider(
-            primary_family, strata=('dataset', 'edit_band'), blocks=('structure_delta',),
-            name='n9_structure_bijection'),
     }
-    if 'structure_delta' not in store.design['families'][primary_family]:
-        providers.pop('n9_structure_bijection')
+    for name, strata in [('n5_bijection_global', ()),
+                         ('n5_bijection_source', ('dataset',)),
+                         ('n5_bijection_edit_band', ('edit_band',)),
+                         ('n5_bijection_parent', ('biological_unit',)),
+                         ('n8_bijection_source_edit_band', ('dataset', 'edit_band'))]:
+        providers[name] = _per_fold_bijection(store, family_by_fold, name=name, strata=strata)
+    providers['n9_structure_bijection'] = _per_fold_bijection(
+        store, family_by_fold, name='n9_structure_bijection', strata=('dataset', 'edit_band'),
+        blocks=('structure_delta',))
     return providers
 
 
-def block_removal_providers(store, primary_family):
-    blocks = list(store.design['families'][primary_family])
-    return {f'removal_{b}': BlockRemovalProvider(primary_family, b) for b in blocks if len(blocks) > 1}
+def block_removal_providers(store, family_by_fold, block):
+    """Per-fold removal of one named block from that fold's own selected family."""
+    providers = {}
+    for outer, family in family_by_fold.items():
+        blocks = list(store.design['families'][family])
+        providers[outer] = (BlockRemovalProvider(family, block)
+                            if block in blocks and len(blocks) > 1 else None)
+    return providers
 
 
 BLOCK_REMOVAL_FAMILY = ('rbp_delta', 'bert_pooled_delta', 'structure_delta', 'processing_delta',

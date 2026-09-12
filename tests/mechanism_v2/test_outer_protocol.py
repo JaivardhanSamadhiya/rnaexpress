@@ -25,6 +25,17 @@ def test_recipe_variant_complexity_counts_nuisance_and_head_parameters():
     assert variants['A']['config']['pairs_per_set'] == 8
 
 
+def test_outer_scores_skips_none_providers_without_inventing_a_family():
+    from src.mechanism_v2.outer_evaluation import _provider_name, _resolve
+
+    providers = {0: object(), 1: None, 2: object()}
+    assert _resolve(providers, 1) is None
+    assert _resolve(providers, 0) is providers[0]
+    assert _provider_name({0: type('P', (), {'name': 'a'})(), 1: None}, 'fallback') == 'a'
+    assert _provider_name({0: type('P', (), {'name': 'a'})(),
+                           1: type('P', (), {'name': 'b'})()}, 'fallback') == 'fallback'
+
+
 def test_percentile_rank_is_within_decision_and_bounded():
     rows = pd.DataFrame({'decision_set_id': ['d0', 'd0', 'd0', 'd1', 'd1']})
     values = percentile_rank(rows, [1.0, 2.0, 3.0, 5.0, -5.0])

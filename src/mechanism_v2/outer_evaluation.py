@@ -151,33 +151,45 @@ def recipe_variants(store, columns):
     return records
 
 
-def inner_selection(store, provider, namespace, *, freeze_sha256, seed=None):
+def inner_selection(store, provider, namespace, *, freeze_sha256, seed=None, name=None):
     """Inner-only selection of one of the six recipes for an arbitrary provider.
 
     This is the same nested procedure, tie order and tolerance as the committed
     primary inner runner. It reads no outer-fold row and no outer-fold outcome.
     """
-    if not provider.eligible:
-        return {'provider': provider.name, 'eligible': False,
-                'ineligible_reason': provider.ineligible_reason}
+    mixed = isinstance(provider, dict)
+    label_name = name or _provider_name(provider, 'mixed_provider')
+    representative = next((p for p in provider.values() if p is not None), None) if mixed else provider
+    if representative is None:
+        return {'provider': label_name, 'eligible': False,
+                'ineligible_reason': 'no outer fold retains this component in its selected model'}
+    if not representative.eligible:
+        return {'provider': label_name, 'eligible': False,
+                'ineligible_reason': representative.ineligible_reason}
     tolerance = store.design['selection']['regret_tolerance']
-    static_audit = provider.audit(store)
-    chosen, summaries = {}, {}
+    static_audit = ({str(k): v.audit(store) for k, v in sorted(provider.items()) if v is not None}
+                    if mixed else provider.audit(store))
+    chosen, summaries, skipped = {}, {}, []
     for outer in range(store.design['outer_folds']):
+        active = _resolve(provider, outer)
+        if active is None:
+            skipped.append(int(outer))
+            continue
         predictions, variants = {}, None
         for inner in range(store.design['inner_folds']):
-            label = f'inner_{outer}_{inner}'
+            label = f'{label_name}_inner_{outer}_{inner}'
             train_all, valid_all = inner_partition(store, outer, inner)
             boundary = partition_audit(store.rows, train_all, valid_all)
-            x, columns, provenance = provider.build(store, train_all, valid_all, label)
-            keep = provider.eligibility(store, train_all, valid_all, label)
+            x, columns, provenance = active.build(store, train_all, valid_all,
+                                                  f'inner_{outer}_{inner}')
+            keep = active.eligibility(store, train_all, valid_all, f'inner_{outer}_{inner}')
             train = train_all[keep[train_all]]
             valid = valid_all[keep[valid_all]]
             if not train.size or not valid.size:
-                raise ValueError(f'{provider.name}: empty eligible inner partition {label}')
+                raise ValueError(f'{label_name}: empty eligible inner partition {label}')
             partition = partition_audit(store.rows, train, valid)
-            _finite_slice(x, train, f'{provider.name} inner training')
-            _finite_slice(x, valid, f'{provider.name} inner validation')
+            _finite_slice(x, train, f'{label_name} inner training')
+            _finite_slice(x, valid, f'{label_name} inner validation')
             variants = variants or recipe_variants(store, len(columns))
             frame = store.train_frame(train)
             for variant in variants:
@@ -187,14 +199,14 @@ def inner_selection(store, provider, namespace, *, freeze_sha256, seed=None):
                 predictions.setdefault(variant['variant'], np.full(len(store.rows), np.nan))
                 identity = fit_identity(
                     freeze_sha256=freeze_sha256,
-                    recipe={'provider': provider.name, 'variant': variant['variant'], 'config': config},
-                    provider={'name': provider.name,
+                    recipe={'provider': active.name, 'variant': variant['variant'], 'config': config},
+                    provider={'name': active.name,
                               'static_digest': provider_digest(static_audit),
                               'partition_digest': provider_digest(provenance),
                               'columns': len(columns)},
                     partition=partition,
                     extra={'boundary': boundary, 'stage': 'inner_selection'})
-                _, prediction = run_fit(f'{namespace}/{provider.name}/{label}_{variant["variant"]}',
+                _, prediction = run_fit(f'{namespace}/{label_name}/{label}_{variant["variant"]}',
                                         identity, x, columns, config, frame, train, valid)
                 predictions[variant['variant']][valid] = prediction
             del x
@@ -203,34 +215,38 @@ def inner_selection(store, provider, namespace, *, freeze_sha256, seed=None):
             value = predictions[variant['variant']]
             mask = np.isfinite(value)
             metrics, _ = decision_metrics(store.rows.loc[mask], value[mask])
-            records.append({'recipe_id': f'{provider.name}_{variant["variant"]}',
+            records.append({'recipe_id': f'{active.name}_{variant["variant"]}',
                             'variant': variant['variant'], 'config': variant['config'],
                             'complexity': variant['complexity'],
                             'scored_rows': int(mask.sum()), **metric_summary(metrics)})
         selected = choose_recipe(records, tolerance)
         chosen[outer] = next(r for r in records if r['recipe_id'] == selected)
         summaries[str(outer)] = records
-    return {'provider': provider.name, 'eligible': True, 'static_audit': static_audit,
+    return {'provider': label_name, 'eligible': True, 'static_audit': static_audit,
             'selection_tolerance': tolerance, 'inner_summaries': summaries,
+            'outer_folds_without_this_component': skipped,
             'selected_per_outer_fold': {str(k): v['recipe_id'] for k, v in chosen.items()},
             'selected': chosen, 'outer_outcomes_used': False}
 
 
 def outer_scores(store, provider, recipe_by_fold, namespace, *, freeze_sha256, seed=None,
-                 suffix=''):
+                 suffix='', name=None):
     """Fit each outer training partition once and score its untouched fold once."""
     score = np.full(len(store.rows), np.nan)
     eligible = np.zeros(len(store.rows), bool)
     mixed = isinstance(provider, dict)
-    name = 'primary_selector' if mixed else provider.name
-    static_audit = ({str(k): v.audit(store) for k, v in sorted(provider.items())} if mixed
-                    else provider.audit(store))
-    audits = []
+    name = name or _provider_name(provider, 'primary_selector')
+    static_audit = ({str(k): v.audit(store) for k, v in sorted(provider.items()) if v is not None}
+                    if mixed else provider.audit(store))
+    audits, skipped = [], []
     for outer in range(store.design['outer_folds']):
         label = f'outer_{outer}'
+        active = _resolve(provider, outer)
+        if active is None or recipe_by_fold.get(outer) is None:
+            skipped.append(int(outer))
+            continue
         train_all, held_all = outer_partition(store, outer)
         boundary = assert_outer_boundary(store.rows, outer, train_all, held_all)
-        active = _resolve(provider, outer)
         x, columns, provenance = active.build(store, train_all, held_all, label)
         keep = active.eligibility(store, train_all, held_all, label)
         train = train_all[keep[train_all]]
@@ -268,8 +284,11 @@ def outer_scores(store, provider, recipe_by_fold, namespace, *, freeze_sha256, s
         raise ValueError('Non-finite outer score')
     if eligible.all() and np.isfinite(score).sum() != len(store.rows):
         raise ValueError('Full-coverage provider did not score every candidate exactly once')
+    if not audits:
+        raise ValueError(f'{name}: no outer fold retained this component, so nothing was scored')
     return score, eligible, {'provider': name, 'static_audit': static_audit,
                              'seed': seed, 'folds': audits,
+                             'outer_folds_skipped': skipped,
                              'scored_rows': int(eligible.sum()),
                              'coverage': float(eligible.mean())}
 
@@ -285,7 +304,15 @@ EVIDENCE = 'results/mechanism_v2/outer/development_evidence.json'
 
 
 def _resolve(provider, outer):
-    return provider[outer] if isinstance(provider, dict) else provider
+    """A per-fold provider may be None: that fold is then not scored at all."""
+    return provider.get(outer) if isinstance(provider, dict) else provider
+
+
+def _provider_name(provider, fallback):
+    if not isinstance(provider, dict):
+        return provider.name
+    names = sorted({p.name for p in provider.values() if p is not None})
+    return names[0] if len(names) == 1 else fallback
 
 
 def load_scores(names=None):

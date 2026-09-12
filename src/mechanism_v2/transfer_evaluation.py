@@ -66,56 +66,69 @@ def _task_inner_folds(store, task):
     return train, np.array([int(mapping[str(c)]) for c in components], int)
 
 
-def select_for_task(store, provider, task, *, freeze_sha256, namespace='transfer'):
-    """Inner-only selection of one of the six recipes inside a task's training domain."""
+def select_for_task(store, providers, task, *, freeze_sha256, namespace='transfer'):
+    """Full nested selection inside a task's own training domain.
+
+    `providers` is the candidate pool for this comparison: the seven mechanistic
+    families for the selector, or M0 alone for the baseline. Both the family and
+    the recipe are re-chosen from the task's own training rows with the same tie
+    order, because borrowing the primary-fold choice for a different training
+    domain would not be a valid nested selection.
+    """
     train, assignment = _task_inner_folds(store, task)
     tolerance = store.design['selection']['regret_tolerance']
-    static_audit = provider.audit(store)
-    predictions, variants = {}, None
-    for inner in sorted(set(assignment.tolist())):
-        inner_train = train[assignment != inner]
-        inner_valid = train[assignment == inner]
-        if not inner_train.size or not inner_valid.size:
-            continue
-        label = f'{task["name"]}_inner_{inner}'
-        boundary = partition_audit(store.rows, inner_train, inner_valid)
-        x, columns, provenance = provider.build(store, inner_train, inner_valid, label)
-        variants = variants or recipe_variants(store, len(columns))
-        frame = store.train_frame(inner_train)
-        for variant in variants:
-            predictions.setdefault(variant['variant'], np.full(len(store.rows), np.nan))
-            identity = fit_identity(
-                freeze_sha256=freeze_sha256,
-                recipe={'provider': provider.name, 'variant': variant['variant'],
-                        'config': variant['config']},
-                provider={'name': provider.name, 'static_digest': provider_digest(static_audit),
-                          'partition_digest': provider_digest(provenance), 'columns': len(columns)},
-                partition=boundary,
-                extra={'stage': 'transfer_inner_selection', 'task': task['name'], 'inner_fold': int(inner)})
-            _, prediction = run_fit(f'{namespace}/{provider.name}/{label}_{variant["variant"]}',
-                                    identity, x, columns, variant['config'], frame,
-                                    inner_train, inner_valid)
-            predictions[variant['variant']][inner_valid] = prediction
-    if variants is None:
+    predictions, variant_lookup = {}, {}
+    folds = [inner for inner in sorted(set(assignment.tolist()))
+             if (assignment != inner).any() and (assignment == inner).any()]
+    if not folds:
         return None
+    for name, provider in sorted(providers.items()):
+        static_audit = provider.audit(store)
+        for inner in folds:
+            inner_train = train[assignment != inner]
+            inner_valid = train[assignment == inner]
+            label = f'{task["name"]}_inner_{inner}'
+            boundary = partition_audit(store.rows, inner_train, inner_valid)
+            x, columns, provenance = provider.build(store, inner_train, inner_valid, label)
+            variants = recipe_variants(store, len(columns))
+            variant_lookup[name] = variants
+            frame = store.train_frame(inner_train)
+            for variant in variants:
+                key = (name, variant['variant'])
+                predictions.setdefault(key, np.full(len(store.rows), np.nan))
+                identity = fit_identity(
+                    freeze_sha256=freeze_sha256,
+                    recipe={'provider': provider.name, 'variant': variant['variant'],
+                            'config': variant['config']},
+                    provider={'name': provider.name, 'static_digest': provider_digest(static_audit),
+                              'partition_digest': provider_digest(provenance), 'columns': len(columns)},
+                    partition=boundary,
+                    extra={'stage': 'transfer_inner_selection', 'task': task['name'],
+                           'inner_fold': int(inner)})
+                _, prediction = run_fit(
+                    f'{namespace}/{provider.name}/{label}_{variant["variant"]}',
+                    identity, x, columns, variant['config'], frame, inner_train, inner_valid)
+                predictions[key][inner_valid] = prediction
     records = []
-    for variant in variants:
-        value = predictions[variant['variant']]
+    for (name, variant_id), value in predictions.items():
+        variant = next(v for v in variant_lookup[name] if v['variant'] == variant_id)
         mask = np.isfinite(value)
         if not mask.any():
             return None
         metrics, _ = decision_metrics(store.rows.loc[mask], value[mask])
         if metrics.empty:
             return None
-        records.append({'recipe_id': f'{provider.name}_{variant["variant"]}',
-                        'variant': variant['variant'], 'config': variant['config'],
+        records.append({'recipe_id': f'{name}_{variant_id}', 'family': name,
+                        'variant': variant_id, 'config': variant['config'],
                         'complexity': variant['complexity'], **metric_summary(metrics)})
     selected = choose_recipe(records, tolerance)
     return {'selected': next(r for r in records if r['recipe_id'] == selected),
-            'inner_summaries': records, 'outer_outcomes_used': False}
+            'inner_summaries': records, 'candidate_pool': sorted(providers),
+            'outer_outcomes_used': False}
 
 
-def score_task(store, provider, task, selection, *, freeze_sha256, namespace='transfer'):
+def score_task(store, providers, task, selection, *, freeze_sha256, namespace='transfer'):
+    provider = providers[selection['selected']['family']]
     train = np.asarray(task['train_row_ids'], int)
     test = np.asarray(task['test_row_ids'], int)
     boundary = partition_audit(store.rows, train, test)
@@ -132,6 +145,7 @@ def score_task(store, provider, task, selection, *, freeze_sha256, namespace='tr
     record, prediction = run_fit(f'{namespace}/{provider.name}/{task["name"]}', identity, x, columns,
                                  recipe['config'], store.train_frame(train), train, test)
     return prediction, test, {'task': task['name'], 'recipe_id': recipe['recipe_id'],
+                              'selected_family': recipe['family'],
                               'boundary': boundary, 'purged_train_rows': task['purged_train_rows'],
                               'model': record['model'], 'fit_audit': record['fit_audit']}
 
@@ -144,8 +158,9 @@ def evaluate_transfer():
     digest = freeze['inner_training_freeze_sha256']
     inventory = load_inventory()
     rows = with_strata(store.rows)
-    primary = FamilyProvider(freeze['primary_family'])
-    baseline = FamilyProvider('M0')
+    pool = {'primary': {family: FamilyProvider(family)
+                        for family in store.design['selection']['primary_pool']},
+            'M0': {'M0': FamilyProvider('M0')}}
     groups = task_groups(inventory)
     minimum_components = gates['eligibility']['transfer_minimum_components']
     minimum_decisions = gates['eligibility']['transfer_minimum_decisions']
@@ -163,8 +178,8 @@ def evaluate_transfer():
                                    'test_decisions': task['test_decisions']})
                 continue
             selections = {}
-            for name, provider in (('primary', primary), ('M0', baseline)):
-                selection = select_for_task(store, provider, task, freeze_sha256=digest)
+            for name in ('primary', 'M0'):
+                selection = select_for_task(store, pool[name], task, freeze_sha256=digest)
                 if selection is None:
                     ineligible.append({'task': task['name'],
                                        'reason': f'{name}: no eligible inner decision set in the task domain'})
@@ -173,13 +188,15 @@ def evaluate_transfer():
                 selections[name] = selection
             if not selections:
                 continue
-            for name, provider in (('primary', primary), ('M0', baseline)):
-                prediction, test, audit = score_task(store, provider, task, selections[name],
+            for name in ('primary', 'M0'):
+                prediction, test, audit = score_task(store, pool[name], task, selections[name],
                                                      freeze_sha256=digest)
                 scores[name][test] = prediction
                 covered[test] = True
-                fold_audit.append({'model': name, **audit})
-            print(f'Transfer task fitted and scored once: {task["name"]}', flush=True)
+                fold_audit.append({'model': name, **audit,
+                                   'candidate_pool': selections[name]['candidate_pool']})
+            print(f'Transfer task fitted and scored once: {task["name"]} '
+                  f'(selector {selections["primary"]["selected"]["recipe_id"]})', flush=True)
         if not covered.any():
             results[key] = {'kind': group['kind'], 'eligible': False,
                             'reason': 'no eligible fold in this directed transfer',
@@ -215,7 +232,7 @@ def evaluate_transfer():
         'format': 'mechanism_v2_transfer_evidence_v1',
         'outer_freeze_git_commit': freeze['git_commit'],
         'gate_config_sha256': freeze['gate_config_sha256'],
-        'primary_family': freeze['primary_family'],
+        'selector_candidate_pool': list(store.design['selection']['primary_pool']),
         'inventory_sha256': sha256(ROOT / TRANSFER_INVENTORY),
         'inventory_scope': inventory['scope'],
         'tasks': results,
@@ -225,8 +242,9 @@ def evaluate_transfer():
         'notes': [
             'Held connected groups are purged from the training side of every task, so a measured '
             'mutant never serves as its own transfer.',
-            'Recipes are re-selected inside each task training domain; the primary-fold choice is '
-            'never borrowed for a different training domain.',
+            'Both the mechanistic family and the recipe are re-selected inside each task training '
+            'domain from the full M1-M7 pool; no primary-fold choice is borrowed for a different '
+            'training domain.',
             'A directed transfer with no eligible fold is reported as ineligible, never passed.'],
     }
     write_json(TRANSFER_EVIDENCE, record)

@@ -81,6 +81,21 @@ def test_block_removal_keeps_the_other_blocks_only():
             store, np.arange(8), np.arange(8, 12), 'outer_0')
 
 
+def test_control_providers_anchor_bijections_on_each_fold_family():
+    store = StubStore()
+    store.design['families']['M1'] = ['rbp_delta']
+    store.design['families']['M7'] = ['rbp_delta', 'structure_delta', 'trans_aligned']
+    family_by_fold = {0: 'M4', 1: 'M1'}
+    registry = providers.control_providers(store, family_by_fold)
+    assert registry['n5_bijection_global'][0].family == 'M4'
+    assert registry['n5_bijection_global'][1].family == 'M1'
+    assert registry['n9_structure_bijection'][0].family == 'M4'
+    assert registry['n9_structure_bijection'][1] is None
+    removals = providers.block_removal_providers(store, {0: 'M4', 1: 'M1'}, 'structure_delta')
+    assert removals[0].removed == 'structure_delta'
+    assert removals[1] is None
+
+
 def test_bijection_permutes_only_named_blocks_and_stays_inside_the_partition():
     store = StubStore()
     provider = providers.BijectionProvider('M4', blocks=('structure_delta',), strata=())
