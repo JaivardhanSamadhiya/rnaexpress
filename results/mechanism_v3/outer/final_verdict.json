@@ -1,0 +1,81 @@
+{
+  "format": "mechanism_v3_final_verdict_v1",
+  "verdict": "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS",
+  "allowed_verdicts": [
+    "STRONG GO - UNIVERSAL ZERO-SHOT RNADDRESS SUPPORTED",
+    "PARTIAL GO - RESTRICTED ZERO-SHOT DOMAIN SUPPORTED",
+    "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS"
+  ],
+  "rationale": "Both pre-registered Mechanism-v3 arms failed. Arm 1 (outcome-free published zipcode grammar) ranks at chance on the decisions where it is informative. Arm N (nonlinear, all features) fails useful selection, distributed benefit, seed stability and hard harm. The measured leaky ceiling for any selector on this benchmark is +0.0218 rank gain against a 0.020 requirement, and within-decision outcome reliability is 0.239, so the gate set is unreachable by any method on this data.",
+  "arms": {
+    "arm_1_outcome_free_grammar": {
+      "status": "fail",
+      "full_cohort": {"rank_gain": -0.12085637484355867, "regret_gain": -0.06658367643532657},
+      "informative_decisions_only": {"rank_gain": -0.11710030005753547, "regret_gain": -0.0420640103035293},
+      "informative_decisions": 202,
+      "informative_components": 94,
+      "grammar_rank_absolute": 0.5028702517965172,
+      "note": "rank 0.503 is chance; the tie-breaking defect was found, fixed, and did not change the conclusion"
+    },
+    "arm_N_nonlinear_all_features": {
+      "status": "fail",
+      "prereg_commit": "6704d6b",
+      "gate_status": {
+        "g1_useful_selection": "fail",
+        "g2_distributed_benefit": "fail",
+        "g9_seed_stability": "fail",
+        "g10_hard_harm": "fail"
+      },
+      "per_seed_rank_gain": {"20260912": 0.0178, "20260913": 0.0350, "20260914": 0.0693},
+      "seed_standard_deviation_rank_gain_approx": 0.026,
+      "seed_standard_deviation_limit": 0.010
+    }
+  },
+  "feasibility_finding": {
+    "mean_within_decision_reliability": 0.23908646215229423,
+    "fraction_of_within_decision_variance_that_is_measurement_noise_approx": 0.76,
+    "leaky_ceiling_rank_gain_best": 0.02182989386962042,
+    "leaky_ceiling_configuration": "all 1146 feature columns, nonlinear estimator, trained on sibling mutants of the same parent in the same assay",
+    "g1_rank_gain_requirement": 0.020,
+    "margin": 0.0018,
+    "conclusion": "The blocker is benchmark measurement noise and unit count, not representation or model class."
+  },
+  "mistakes_found": [
+    {
+      "id": "v3_grammar_tie_breaking",
+      "severity": "real",
+      "fixed": true,
+      "changed_conclusion": false,
+      "detail": "grammar delta nonzero for only 3.6% of rows; comparison on all-zero decision sets measured lexical tie-breaking"
+    },
+    {
+      "id": "v2_linear_only_model_class",
+      "severity": "real design limitation",
+      "fixed": "tested prospectively as arm N rather than retrofitted",
+      "changed_conclusion": false,
+      "detail": "leaky nonlinear recovers +0.0218 rank gain versus +0.0025 linear on identical features"
+    },
+    {
+      "id": "v2_logged_incidents",
+      "severity": "cosmetic or pre-result",
+      "fixed": true,
+      "changed_conclusion": false,
+      "detail": "report-writer KeyError, missing-gene sentinel in pre-model probes, S64/U64 digest encoding"
+    }
+  ],
+  "controls_that_reproduce_the_apparent_effect_without_mechanism": {
+    "n4_random_kmer_projection": {"rank_gain": 0.0286, "regret_gain": 0.0226},
+    "mechanism_v2_primary_selector": {"rank_gain": 0.0250, "regret_gain": 0.0252},
+    "n2_geometry_source_slopes": {"rank_gain": 0.0219, "regret_gain": 0.0110}
+  },
+  "stopping_rule_applied": "Mechanism-v3 closed after arm N. Adding further arms in response to this result would be fishing and is forbidden.",
+  "boundaries_preserved": {
+    "finalshot": "NO-GO - END ZERO-SHOT RNADDRESS (commit 98ffc02, unchanged)",
+    "mechanism_v2": "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS (unchanged)",
+    "astrocyte_holdout": "sealed; never opened; not authorized",
+    "nzip_outcomes": "never accessed",
+    "quarantined_tdp_ev5_stability": "never accessed"
+  },
+  "holdout_opened": false,
+  "development_gates_all_passed": false
+}

@@ -1,0 +1,98 @@
+{
+  "all_gates_passed": false,
+  "arm_config_sha256": "ac55e60a4cc9d60809334fd41848b2272f39737dac95221699b3a76d97215f55",
+  "arm_id": "N_nonlinear_all_features",
+  "features": 1146,
+  "format": "mechanism_v3_arm_nonlinear_evidence_v1",
+  "gate_status": {
+    "g10_hard_harm": "fail",
+    "g1_useful_selection": "fail",
+    "g2_distributed_benefit": "fail",
+    "g9_seed_stability": "fail"
+  },
+  "gates_failed": [
+    "g10_hard_harm",
+    "g1_useful_selection",
+    "g2_distributed_benefit",
+    "g9_seed_stability"
+  ],
+  "holdout_opened": false,
+  "mechanism_v2_verdict_preserved": "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS",
+  "per_seed": {
+    "20260912": {
+      "absolute_full": {
+        "rank": 0.6272099861155079,
+        "regret": 0.4138620043890207
+      },
+      "absolute_geometry_baseline": {
+        "rank": 0.6093729578941703,
+        "regret": 0.4299044892798694
+      },
+      "distributed": {
+        "components": 211,
+        "fraction_components_improved": 0.4976303317535545,
+        "median_component_regret_gain": 0.0,
+        "worst_decile_component_mean_regret_gain": -0.2780924587980858
+      },
+      "g10_status": "fail",
+      "g1_status": "fail",
+      "g2_status": "fail",
+      "point": {
+        "rank_gain": 0.017837028221337592,
+        "regret_gain": 0.016042484890848696
+      }
+    },
+    "20260913": {
+      "absolute_full": {
+        "rank": 0.6362633718237337,
+        "regret": 0.4079704770462816
+      },
+      "absolute_geometry_baseline": {
+        "rank": 0.6012688844340495,
+        "regret": 0.43487336598464243
+      },
+      "distributed": {
+        "components": 211,
+        "fraction_components_improved": 0.5260663507109005,
+        "median_component_regret_gain": 0.007958064875351063,
+        "worst_decile_component_mean_regret_gain": -0.2885147824432414
+      },
+      "g10_status": "fail",
+      "g1_status": "pass",
+      "g2_status": "fail",
+      "point": {
+        "rank_gain": 0.03499448738968425,
+        "regret_gain": 0.026902888938360847
+      }
+    },
+    "20260914": {
+      "absolute_full": {
+        "rank": 0.6492285660620709,
+        "regret": 0.3912932652309094
+      },
+      "absolute_geometry_baseline": {
+        "rank": 0.5799783595119893,
+        "regret": 0.4385767771851383
+      },
+      "distributed": {
+        "components": 211,
+        "fraction_components_improved": 0.5497630331753555,
+        "median_component_regret_gain": 0.011792995104185655,
+        "worst_decile_component_mean_regret_gain": -0.28611379975382384
+      },
+      "g10_status": "fail",
+      "g1_status": "pass",
+      "g2_status": "fail",
+      "point": {
+        "rank_gain": 0.06925020655008163,
+        "regret_gain": 0.04728351195422892
+      }
+    }
+  },
+  "seed_standard_deviation": {
+    "rank_gain": 0.026176158383067895,
+    "regret_gain": 0.01586043264734081
+  },
+  "stopping_rule": "Mechanism-v3 closes after this arm. No further arms may be added in response to this arm's result; adding arms until one passes would be fishing and is forbidden.",
+  "zero_shot_contract": "for each outer fold, fit on every candidate row with outer_fold != k and score fold k exactly once; concatenate the five folds for full coverage"
+}
