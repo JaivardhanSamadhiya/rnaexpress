@@ -1,0 +1,821 @@
+{
+  "candidate_rows": 93208,
+  "components": 211,
+  "contract": "for each outer fold, fit the inner-selected recipe on that fold's whole development partition and score the untouched fold exactly once",
+  "dependencies": {
+    "configs/mechanism_v2/environment.lock.txt": "b60aa29622c036dd1aef06bcd3ab909dfb11adaac94a26d9dd3464d4be50a126",
+    "configs/mechanism_v2/frozen_gates.json": "a57dd77f6b13dc2e36a40cc874f8d447f54174f1f3c863caeef187b915eca1e5",
+    "configs/mechanism_v2/localization_design.json": "b1b39601b3cd2074f313cf1b65fcf2d81a2a975007ec6bc983af333e3a4183ee",
+    "reports/mechanism_v2/frozen_protocol.md": "52f5b244a6891523d223d089bdb2eae753fb52fa3eec11ea4a17d31634e721de",
+    "reports/mechanism_v2/model_selection.md": "c2894cd3e16b6dacad6ff814b890b3a8e506e35e76008478f9d413dc132d8a24",
+    "reports/mechanism_v2/prospective_gate_design.md": "11f6e2be9ad96107a7a63960ff4f8bcd3d80f931865eae140a2c5bace7ec5f09",
+    "reports/mechanism_v2/protocol_design.md": "58373d5ce5eed1cfa7b4c3f4d584ccc018946dfc59177381b4671d847c9cb2f3",
+    "results/mechanism_v2/features/bert_pooled_absolute_manifest.json": "e1138f3f3510b5b6a35279925439695fefd36680916571fc3199bc92fb896626",
+    "results/mechanism_v2/features/bert_pooled_allele_delta_manifest.json": "48257969454458eeeb9c91069f569b0e573d7b01b0fd189f5677758e59cd8040",
+    "results/mechanism_v2/features/broken_reference_manifest.json": "ceebef486226a466470854950452fb2b3bdf751fc331d7ca05612f59a4001be8",
+    "results/mechanism_v2/features/motif_accessibility_delta_full_manifest.json": "f2b915a6870c094c7126005e7a9383607a6a23187e73e6223effdfb8d65028c8",
+    "results/mechanism_v2/features/processing_nuisance_delta_manifest.json": "4fe9add72a04ec066c3c47882b69fb36836df06f4402f2fe69d8c1e1c4b6fb95",
+    "results/mechanism_v2/features/random_kmer_delta_manifest.json": "a9e36013cb8246724b2019f913c7112e6e45b2e9a00bb22d09443a48a0721936",
+    "results/mechanism_v2/features/rbp_absolute_allele_manifest.json": "4ea1a734d04ff4086219bb3e46e3ab165e720fe885fef6ca050529438dd2775a",
+    "results/mechanism_v2/features/rbp_signed_delta_manifest.json": "35866f42bb991d22be456b8eb3d003440cdddcf321394b806a09e8073b1e63a8",
+    "results/mechanism_v2/features/structure_delta_full_manifest.json": "f41d386db49d83ffe3e37b1ea42a7fa441dabeb63d9d40315eb2cbf1af6e7763",
+    "results/mechanism_v2/features/trans_aligned_interactions_manifest.json": "d2afef0d135b1dc238e25a7f5320c941ac6bc5f3380be6ddcdb595ef4ddaafee",
+    "results/mechanism_v2/manifests/development_training_freeze.json": "1a59c2e6013e97e881c5550f760c730ceee77dcad767fe49779c3341131b7c43",
+    "results/mechanism_v2/manifests/splits_all_alleles90.json": "6c8a1ca9c9fab5af7ad62fccdf34fcb33cc27d39966a89c5974adc980dc18b1d",
+    "results/mechanism_v2/manifests/splits_all_alleles95.json": "e1cbc1ed81d8ce454b7f7f45f774f780e75ec24490940644cc1eda568c801db9",
+    "results/mechanism_v2/manifests/splits_gene_group_sensitivity.json": "6e5dca1bb32b08e9f6df181f66df06af7a18ee6e5c5d9690285b20e6d8fd56bc",
+    "results/mechanism_v2/manifests/transfer_inventory.json": "ff98767ec477b4b01b3c4bcd8c3a8734a37c792140eaa03217582f83f71238a5",
+    "results/mechanism_v2/splits/all_alleles95.csv": "b4a92102085c593f47b88a76df516523c15fc805273076d133e07c215d99d9a0",
+    "results/mechanism_v2/training/inner_complete.json": "a92101685515c4f6efd3e1dc7222582dfd7ca167f6ccbdb29129aa16d6065e4e",
+    "results/mechanism_v2/training/outer_0/selection.json": "e265cbe043a6af0a831f1a4bc104057eb1a560c46f2c2a2c707f29f79677fda9",
+    "results/mechanism_v2/training/outer_1/selection.json": "5c9b93594578b94e6ff320cb21afc4ca4e1dd0cb25fca25f240a352c1a1851b7",
+    "results/mechanism_v2/training/outer_2/selection.json": "8a6d496c4838aed657c008a98e82820a8ba34085a5746b882bdd8e80b5b0d35a",
+    "results/mechanism_v2/training/outer_3/selection.json": "cb4357153692e5f262303d4880f1bee71e7b9fe30bbb81b1f0fd4b2823657be1",
+    "results/mechanism_v2/training/outer_4/selection.json": "38f5cf3a6ba05d1f557b795f41417e456c4bfa7449aad4266502c076be7b4788",
+    "results/mechanism_v2/training/status/verified_0720_fits.json": "86fab1aee317b0afdaee681be66d30ea5b5dc35f12a22f2a3a6bd66874fad669",
+    "src/mechanism_v2/allele_summaries.py": "159346db6d9feda177ddb338fcca72c0ad3e6de8dd12004dc2749105251614e5",
+    "src/mechanism_v2/control_features.py": "2ba5d59dea029ec227bdeb6d857fd1f890626fa6d1c65f9ea70838e2410d1907",
+    "src/mechanism_v2/control_kernels.py": "f9864ff025c03508b1a98570f7cf20fef9be900b70046f37ea77678a2e02b49b",
+    "src/mechanism_v2/controls.py": "85b832d9f7138c88a4b69d174be57e49337d953e58676a09d5a7c9361f61b492",
+    "src/mechanism_v2/development_analysis.py": "362b91cc8c57a671b9043fc80cb625d6f1014618a3aa373752903218c3474eba",
+    "src/mechanism_v2/development_training.py": "402e19aab8485f8f42cf20f640604e20e7855f48065bf5d183f88e4c7fb2dc59",
+    "src/mechanism_v2/evaluation.py": "4e3b8d99e1b66775e00195e45cc7eaa2743ff375aa2d2fb8e44600f499ddf10e",
+    "src/mechanism_v2/feature_store.py": "686aced3bd38d8182e31ac603ed4330cf5516109cc6df4628aa339a28988bba0",
+    "src/mechanism_v2/features.py": "3518bd7a4e80da5c003679ff48c856b21316ec499fdfd75d2ca7af6ef4767371",
+    "src/mechanism_v2/fitting.py": "1a516281812175a9f76513093fb6b225f661e8cd4fa58e5302b10ed38877c4f9",
+    "src/mechanism_v2/forensics.py": "e3f9e243e6d6c7a10d1832476d592832cf47a702ed90a8acbc8111a1b66b49f7",
+    "src/mechanism_v2/gates.py": "1d16cf9a2fd9100af59430f81c4f1ae04a2de96e644bc00f3f06ecb514ce17e6",
+    "src/mechanism_v2/groups.py": "6f4b9094fdc04916d8b60166232c6b8b9567cb8a52bbec24ea250ab85a0945b0",
+    "src/mechanism_v2/io.py": "ee9c879dbad0e7be0f8910f1f1693292a875159973d478224e65e63c8b034031",
+    "src/mechanism_v2/motif_processing.py": "d0f88423bbce11d8c3e87af374d2d5d0a09231e335de1a278a8e0179c6b5794c",
+    "src/mechanism_v2/outer_evaluation.py": "f5e5069da2c1386a8654e26892e2cae91baf0865249c6c3e9b61a57e2bb8bc70",
+    "src/mechanism_v2/primitives.py": "76583d7916c6f0d54d40a844218c75f59249674dbbab5db4ea059e0917e2696f",
+    "src/mechanism_v2/providers.py": "4143f9a83f9d5a4a63a574ba5896b28c21711691561c53cdf6602e1bb9f1e842",
+    "src/mechanism_v2/ranking.py": "3b7a13855bef59ca0e9174cbdb2f415a3fc45b5d49e3e58c13b051f23416f53e",
+    "src/mechanism_v2/reporting.py": "ef5116972c35bbbfb7a062d122b712d65b9cb69eaa360ff4806d12c338b86535",
+    "src/mechanism_v2/shortcut_probes.py": "4c8af03c7fcc1015e4eaf70d7675eb457361d2c6bb31a8d8ee526297f7ed2d3a",
+    "src/mechanism_v2/splits.py": "5f7ab0f0637ab17a94f22341e96fe5035744a0ccbbef3d390ee30202d229f4a1",
+    "src/mechanism_v2/training_status.py": "637106d0057f6abfca22ccf47294af5c5febbcca08180680dc1bb101c03529f2",
+    "src/mechanism_v2/transfer_evaluation.py": "d0c9c8b3bed6b0c853472da14da93fcd6dbfc93bcbd2897c641d3be4a4999f71",
+    "src/mechanism_v2/transfer_inventory.py": "8242d1a9079caef3f126f1d5836000b91272d459837c6c8edb2e0e6acc16f3ba",
+    "src/mechanism_v2/uncertainty.py": "c5e3b2cbc01fccb1bf378c598ec70fc546028f7c2b730a29416add304fa7ae37"
+  },
+  "family_selections": {
+    "0": {
+      "M0": {
+        "complexity": 28,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M0",
+        "recipe_id": "M0_E"
+      },
+      "M1": {
+        "complexity": 547,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M1",
+        "recipe_id": "M1_C"
+      },
+      "M2": {
+        "complexity": 18,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M2",
+        "recipe_id": "M2_E"
+      },
+      "M3": {
+        "complexity": 8,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M3",
+        "recipe_id": "M3_E"
+      },
+      "M4": {
+        "complexity": 565,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M4",
+        "recipe_id": "M4_C"
+      },
+      "M5": {
+        "complexity": 548,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M5",
+        "recipe_id": "M5_E"
+      },
+      "M6": {
+        "complexity": 574,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M6",
+        "recipe_id": "M6_E"
+      },
+      "M7": {
+        "complexity": 578,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M7",
+        "recipe_id": "M7_E"
+      }
+    },
+    "1": {
+      "M0": {
+        "complexity": 31,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "source",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M0",
+        "recipe_id": "M0_B"
+      },
+      "M1": {
+        "complexity": 540,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M1",
+        "recipe_id": "M1_E"
+      },
+      "M2": {
+        "complexity": 21,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": true,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M2",
+        "recipe_id": "M2_F"
+      },
+      "M3": {
+        "complexity": 18,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "source_size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M3",
+        "recipe_id": "M3_D"
+      },
+      "M4": {
+        "complexity": 558,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M4",
+        "recipe_id": "M4_E"
+      },
+      "M5": {
+        "complexity": 551,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": true,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M5",
+        "recipe_id": "M5_F"
+      },
+      "M6": {
+        "complexity": 577,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": true,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M6",
+        "recipe_id": "M6_F"
+      },
+      "M7": {
+        "complexity": 581,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": true,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M7",
+        "recipe_id": "M7_F"
+      }
+    },
+    "2": {
+      "M0": {
+        "complexity": 35,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M0",
+        "recipe_id": "M0_C"
+      },
+      "M1": {
+        "complexity": 543,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "source",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M1",
+        "recipe_id": "M1_B"
+      },
+      "M2": {
+        "complexity": 18,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M2",
+        "recipe_id": "M2_A"
+      },
+      "M3": {
+        "complexity": 8,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M3",
+        "recipe_id": "M3_E"
+      },
+      "M4": {
+        "complexity": 558,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M4",
+        "recipe_id": "M4_E"
+      },
+      "M5": {
+        "complexity": 548,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M5",
+        "recipe_id": "M5_A"
+      },
+      "M6": {
+        "complexity": 577,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "source",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M6",
+        "recipe_id": "M6_B"
+      },
+      "M7": {
+        "complexity": 578,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M7",
+        "recipe_id": "M7_E"
+      }
+    },
+    "3": {
+      "M0": {
+        "complexity": 28,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M0",
+        "recipe_id": "M0_A"
+      },
+      "M1": {
+        "complexity": 543,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": true,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M1",
+        "recipe_id": "M1_F"
+      },
+      "M2": {
+        "complexity": 18,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M2",
+        "recipe_id": "M2_E"
+      },
+      "M3": {
+        "complexity": 18,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "source_size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M3",
+        "recipe_id": "M3_D"
+      },
+      "M4": {
+        "complexity": 565,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M4",
+        "recipe_id": "M4_C"
+      },
+      "M5": {
+        "complexity": 548,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M5",
+        "recipe_id": "M5_E"
+      },
+      "M6": {
+        "complexity": 577,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": true,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M6",
+        "recipe_id": "M6_F"
+      },
+      "M7": {
+        "complexity": 581,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": true,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M7",
+        "recipe_id": "M7_F"
+      }
+    },
+    "4": {
+      "M0": {
+        "complexity": 38,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "source_size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M0",
+        "recipe_id": "M0_D"
+      },
+      "M1": {
+        "complexity": 540,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M1",
+        "recipe_id": "M1_E"
+      },
+      "M2": {
+        "complexity": 18,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M2",
+        "recipe_id": "M2_E"
+      },
+      "M3": {
+        "complexity": 18,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "source_size",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.01,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M3",
+        "recipe_id": "M3_D"
+      },
+      "M4": {
+        "complexity": 558,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M4",
+        "recipe_id": "M4_E"
+      },
+      "M5": {
+        "complexity": 548,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M5",
+        "recipe_id": "M5_E"
+      },
+      "M6": {
+        "complexity": 574,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M6",
+        "recipe_id": "M6_E"
+      },
+      "M7": {
+        "complexity": 578,
+        "config": {
+          "head_shrinkage": 0.1,
+          "max_iterations": 400,
+          "nuisance": "none",
+          "nuisance_strength": 0.1,
+          "pairs_per_set": 128,
+          "ranking_heads": false,
+          "ridge": 0.1,
+          "seed": 20260909,
+          "tolerance": 1e-08
+        },
+        "family": "M7",
+        "recipe_id": "M7_E"
+      }
+    }
+  },
+  "format": "mechanism_v2_outer_evaluation_freeze_v1",
+  "gate_config_sha256": "a57dd77f6b13dc2e36a40cc874f8d447f54174f1f3c863caeef187b915eca1e5",
+  "git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "holdout_authorized": false,
+  "inner_training_freeze_sha256": "1a59c2e6013e97e881c5550f760c730ceee77dcad767fe49779c3341131b7c43",
+  "outer_evaluation_authorized": true,
+  "outer_folds": 5,
+  "primary_family": "M4",
+  "primary_family_agreement": {
+    "counts": {
+      "M1": 1,
+      "M4": 2,
+      "M6": 1,
+      "M7": 1
+    },
+    "per_fold": [
+      "M4",
+      "M4",
+      "M7",
+      "M1",
+      "M6"
+    ],
+    "unanimous": false
+  },
+  "primary_selections": {
+    "0": {
+      "complexity": 565,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "size",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "recipe_id": "M4_C"
+    },
+    "1": {
+      "complexity": 558,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M4",
+      "recipe_id": "M4_E"
+    },
+    "2": {
+      "complexity": 578,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M7",
+      "recipe_id": "M7_E"
+    },
+    "3": {
+      "complexity": 543,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": true,
+        "ridge": 0.01,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M1",
+      "recipe_id": "M1_F"
+    },
+    "4": {
+      "complexity": 574,
+      "config": {
+        "head_shrinkage": 0.1,
+        "max_iterations": 400,
+        "nuisance": "none",
+        "nuisance_strength": 0.1,
+        "pairs_per_set": 128,
+        "ranking_heads": false,
+        "ridge": 0.1,
+        "seed": 20260909,
+        "tolerance": 1e-08
+      },
+      "family": "M6",
+      "recipe_id": "M6_E"
+    }
+  }
+}
