@@ -1,0 +1,103 @@
+{
+  "assay_reliability": {
+    "candidates_with_finite_uncertainty": 0.9510127886018368,
+    "decisions_analysed": 445,
+    "headroom_rank_ceiling_minus_baseline": 0.32776593133835497,
+    "headroom_regret_baseline_minus_ceiling": 0.34098573584660474,
+    "interpretation": "The noisy oracle is the best any predictor could do if it knew the true effect exactly and the benchmark were re-measured once with its own reported uncertainty. It is an upper bound on achievable rank and a lower bound on achievable regret.",
+    "mean_within_decision_reliability": 0.23908646215229423,
+    "mechanism_v2_geometry_baseline": {
+      "rank": 0.6020600089358199,
+      "regret": 0.4325822025549311
+    },
+    "mechanism_v2_selector": {
+      "rank": 0.6270668284700763,
+      "regret": 0.4073787434663261
+    },
+    "median_replicate_count": 4.0,
+    "noisy_oracle_ceiling": {
+      "rank": 0.9298259402741749,
+      "regret": 0.09159646670832636,
+      "replicates": 200,
+      "seed": 20260912
+    },
+    "outcome_semantics": [
+      "author WT-normalized log2 neurite enrichment",
+      "mutant minus WT author processed log2(neurite/soma)",
+      "mutant minus matched-WT author log2(neurite/soma)"
+    ],
+    "perfect_oracle": {
+      "rank": 0.99996897974346,
+      "regret": 0.0
+    },
+    "uncertainty_semantics": [
+      "SE of three paired raw-count log2-ratio deltas; pseudocount=0.5",
+      "SE/range of >=2 available unnormalized raw UMI log2(neurite/soma) ratios; pseudocount=0.5; diagnostic only because author effect is WT-normalized",
+      "missing at pair level in processed Figure 4E; EV3 contains four biological replicates"
+    ]
+  },
+  "capacity_ceiling_all_features": {
+    "features": 1146,
+    "gate_g1_requires": {
+      "rank_gain_minimum": 0.02,
+      "regret_gain_minimum": 0.01
+    },
+    "geometry_baseline": {
+      "rank": 0.6283331080357485,
+      "regret": 0.42311651079706464
+    },
+    "held_rows": 46495,
+    "interpretation": "These are leaky upper bounds, not zero-shot results. A zero-shot selector cannot reasonably be expected to exceed the leaky ceiling on the same benchmark.",
+    "linear_all_features": {
+      "rank": 0.6308483947243922,
+      "regret": 0.39856058703182834
+    },
+    "linear_all_features_rank_gain": 0.0025152866886437586,
+    "linear_all_features_regret_gain": 0.0245559237652363,
+    "nonlinear_all_features": {
+      "rank": 0.6501630019053689,
+      "regret": 0.37814670103176834
+    },
+    "nonlinear_all_features_rank_gain": 0.02182989386962042,
+    "nonlinear_all_features_regret_gain": 0.0449698097652963,
+    "train_rows": 46713
+  },
+  "format": "mechanism_v3_ceiling_diagnostics_v1",
+  "grammar_informativeness": {
+    "candidate_rows_in_informative_decisions": 70476,
+    "components_in_informative_decisions": 94,
+    "decisions_total": 445,
+    "decisions_with_at_least_two_distinct_grammar_values": 202,
+    "defect": "In the first Mechanism-v3 run the grammar was compared on every decision set, including the majority in which every candidate scores exactly zero and the winner is therefore chosen by lexical candidate_id. That comparison measures tie-breaking, not grammar.",
+    "informative_subset": {
+      "grammar": {
+        "rank": 0.5028702517965172,
+        "regret": 0.49572232941024685
+      },
+      "rank_gain": -0.11710030005753547,
+      "regret_gain": -0.0420640103035293,
+      "size_baseline": {
+        "rank": 0.6199705518540527,
+        "regret": 0.45365831910671756
+      }
+    },
+    "nonzero_grammar_delta_fraction": 0.03623079563985924
+  },
+  "leaky_within_parent_ceiling": {
+    "M0": {
+      "rank": 0.6283331080357485,
+      "regret": 0.42311651079706464
+    },
+    "M4": {
+      "rank": 0.6425543183929417,
+      "regret": 0.4091955432317838
+    },
+    "design": "half the candidates of each decision set are held out; the other half of the SAME parent and SAME assay is used for training. This is deliberately leaky and is a ceiling diagnostic only.",
+    "held_rows": 46495,
+    "rank_gain_M4_vs_M0": 0.014221210357193259,
+    "regret_gain_M4_vs_M0": 0.013920967565280828,
+    "train_rows": 46713
+  },
+  "mechanism_v2_verdict_preserved": "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS",
+  "status": "diagnostic only; cannot produce any verdict"
+}

@@ -1,0 +1,37 @@
+{
+  "version": "mechanism_v3_arm_nonlinear_v1",
+  "status": "PRE-REGISTERED BEFORE ANY ZERO-SHOT SCORE OF THIS ARM EXISTS",
+  "committed_before_scoring": true,
+  "motivation": "The Mechanism-v2 grid froze a LINEAR paired ranker. The leaky capacity diagnostic (results/mechanism_v3/diagnostics/ceiling_analysis.json) shows a nonlinear model on the same features recovers +0.0218 rank gain versus +0.0025 for the linear model in the same leaky setting. Model class, not feature choice, is the largest untested lever.",
+  "arm_id": "N_nonlinear_all_features",
+  "estimator": {
+    "family": "sklearn.ensemble.HistGradientBoostingRegressor",
+    "max_iter": 300,
+    "learning_rate": 0.06,
+    "max_depth": 6,
+    "target": "localization_effect",
+    "note": "regression on the training partition's outcomes only; scored fold never seen"
+  },
+  "features": "all available blocks: geometry, rbp_delta, bert_pooled_delta, structure_delta, processing_delta, motif_delta, trans_aligned, plus the frozen random_kmer control block (1146 columns)",
+  "baseline": "geometry-only model of the identical estimator family and hyperparameters, so the comparison isolates features and not model class",
+  "splits": "the committed all-allele 95% connected components and five outer folds from results/mechanism_v2/manifests/splits_all_alleles95.json; whole components are held out, so no evaluation parent is ever in training",
+  "zero_shot_contract": "for each outer fold, fit on every candidate row with outer_fold != k and score fold k exactly once; concatenate the five folds for full coverage",
+  "replication_seeds": [20260912, 20260913, 20260914],
+  "gates": {
+    "g1_useful_selection": {"rank_gain_minimum": 0.020, "regret_gain_minimum": 0.010, "combine": "and"},
+    "g2_distributed_benefit": {
+      "median_component_regret_gain_minimum_exclusive": 0.0,
+      "fraction_components_improved_minimum": 0.55
+    },
+    "g9_seed_stability": {"primary_gain_standard_deviation_maximum": 0.010, "require_category_agreement": true},
+    "g10_hard_harm": {"worst_decile_component_mean_regret_gain_minimum": -0.2}
+  },
+  "multiplicity": "This is arm 2 of the Mechanism-v3 family (arm 1 = outcome-free zipcode grammar). Holm correction is applied across the family when any positive claim is made.",
+  "stopping_rule": "Mechanism-v3 closes after this arm. No further arms may be added in response to this arm's result; adding arms until one passes would be fishing and is forbidden.",
+  "honest_prior": "The leaky ceiling for this exact estimator is +0.0218 rank gain, only 0.0018 above the g1 minimum, and that ceiling is measured WITH same-parent leakage that the zero-shot contract forbids. The pre-registered expectation is therefore failure.",
+  "allowed_verdicts": [
+    "STRONG GO - UNIVERSAL ZERO-SHOT RNADDRESS SUPPORTED",
+    "PARTIAL GO - RESTRICTED ZERO-SHOT DOMAIN SUPPORTED",
+    "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS"
+  ]
+}
