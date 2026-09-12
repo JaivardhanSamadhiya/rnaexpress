@@ -1,0 +1,518 @@
+{
+  "finalshot_preserved": "NO-GO - END ZERO-SHOT RNADDRESS (commit 98ffc02)",
+  "format": "mechanism_v3_development_evidence_v1",
+  "gate_config_sha256": "30a69ad5d1669066c4ffcf61ba950976c79b2c4b80ec7bbc6089a6126d369fd7",
+  "gates": {
+    "g1_useful_selection": {
+      "point": {
+        "rank_gain": -0.12085637484355867,
+        "regret_gain": -0.06658367643532657
+      },
+      "status": "fail",
+      "thresholds": {
+        "combine": "and",
+        "rank_gain_minimum": 0.02,
+        "regret_gain_minimum": 0.01
+      }
+    },
+    "g7_grammar_necessity": {
+      "retained_regret_fraction": null,
+      "scrambled_g1": {
+        "point": {
+          "rank_gain": -0.1039676668942245,
+          "regret_gain": -0.06483210086414426
+        },
+        "status": "fail",
+        "thresholds": {
+          "combine": "and",
+          "rank_gain_minimum": 0.02,
+          "regret_gain_minimum": 0.01
+        }
+      },
+      "status": "pass",
+      "thresholds": {
+        "mean_retained_gain_fraction_maximum": 0.5,
+        "scrambled_may_not_meet_both_useful_selection_thresholds": true,
+        "scrambled_null_must_fail_g1": true
+      }
+    },
+    "g8_outcome_free_integrity": {
+      "checks": {
+        "dictionary_path": "configs/mechanism_v3/grammar_design.json",
+        "dictionary_sha256": "e3dece9e6f6362d107204087859075d1437dc98d01daec611d194bb81ee12222",
+        "primary_must_not_fit_localization_effect": true
+      },
+      "status": "pass"
+    }
+  },
+  "grammar_config_sha256": "e3dece9e6f6362d107204087859075d1437dc98d01daec611d194bb81ee12222",
+  "grammar_vs_scrambled": {
+    "baseline": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.15932539682539681,
+      "good_at_5": 0.2637676366843033,
+      "random_expected_regret": 0.5,
+      "rank": 0.5161240508910039,
+      "regret": 0.49649151136136566
+    },
+    "bootstrap": {
+      "components": 211,
+      "confidence95": {
+        "rank_gain": [
+          -0.07185831846101808,
+          0.03643557116309536
+        ],
+        "regret_gain": [
+          -0.01432319380552637,
+          0.011013114411143539
+        ]
+      },
+      "eligible": true,
+      "missing_context_replicates": 2,
+      "point": {
+        "rank_gain": -0.01688870794933419,
+        "regret_gain": -0.0017515755711823265
+      },
+      "resamples_requested": 10000,
+      "resamples_valid": 9998,
+      "seed": 20260909,
+      "unit": "connected biological component; all directions and cross-source occurrences together"
+    },
+    "components": 211,
+    "contexts": [
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "decrease",
+        "rank_gain": 0.009566049252407212,
+        "regret_gain": 0.012040712420766361
+      },
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "increase",
+        "rank_gain": 0.0006063461222275619,
+        "regret_gain": 0.004985547141193613
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "decrease",
+        "rank_gain": 0.020676294944612483,
+        "regret_gain": 0.017971394103261772
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "increase",
+        "rank_gain": -0.036104816755807054,
+        "regret_gain": -0.0204796409320512
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "decrease",
+        "rank_gain": -0.07272090057282343,
+        "regret_gain": -0.0203889299723488
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "increase",
+        "rank_gain": -0.023355220686621922,
+        "regret_gain": -0.0046385361879157025
+      }
+    ],
+    "decisions": 445,
+    "direction": null,
+    "distributed": {
+      "components": 211,
+      "direction_fractions": {
+        "decrease": 0.24644549763033174,
+        "increase": 0.23696682464454977
+      },
+      "fraction_improved": 0.33649289099526064,
+      "leave_best_one_out_mean": 0.0048344228023752345,
+      "median": 0.0,
+      "quartiles": [
+        -0.026930216013814706,
+        0.027642477638077444
+      ],
+      "source_fractions": {
+        "mikl_gse173098": 0.3544973544973545,
+        "moffatt_gse334718": 0.125,
+        "tdp43_gse288185": 0.1875
+      },
+      "worst_decile_mean": -0.1557629408720757,
+      "worst_decile_quantile": -0.09186792132787777
+    },
+    "eligible": true,
+    "excluded_decisions": 0,
+    "label": "grammar_vs_scrambled",
+    "paired_rows": 890,
+    "point": {
+      "rank_gain": -0.01688870794933419,
+      "regret_gain": -0.0017515755711823265
+    },
+    "selected": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.1620701058201058,
+      "good_at_5": 0.27078924162257495,
+      "random_expected_regret": 0.5,
+      "rank": 0.49923534294166966,
+      "regret": 0.4982430869325479
+    },
+    "strata": []
+  },
+  "headline": {
+    "baseline": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.20108024691358026,
+      "good_at_5": 0.270679012345679,
+      "random_expected_regret": 0.5,
+      "rank": 0.6200917177852283,
+      "regret": 0.43165941049722134
+    },
+    "bootstrap": {
+      "components": 211,
+      "confidence95": {
+        "rank_gain": [
+          -0.17846067486520284,
+          -0.06294109875783496
+        ],
+        "regret_gain": [
+          -0.10034061761183888,
+          -0.034978309429311925
+        ]
+      },
+      "eligible": true,
+      "missing_context_replicates": 2,
+      "point": {
+        "rank_gain": -0.12085637484355867,
+        "regret_gain": -0.06658367643532657
+      },
+      "resamples_requested": 10000,
+      "resamples_valid": 9998,
+      "seed": 20260909,
+      "unit": "connected biological component; all directions and cross-source occurrences together"
+    },
+    "components": 211,
+    "contexts": [
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "decrease",
+        "rank_gain": 0.06187809439634042,
+        "regret_gain": 0.035017818066330676
+      },
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "increase",
+        "rank_gain": 0.001386340747385058,
+        "regret_gain": 0.0038745606158996425
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "decrease",
+        "rank_gain": -0.20440400558557512,
+        "regret_gain": -0.21238326033329094
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "increase",
+        "rank_gain": -0.13789538785733932,
+        "regret_gain": -0.03800436518351305
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "decrease",
+        "rank_gain": -0.3554860152151648,
+        "regret_gain": -0.15961975108620186
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "increase",
+        "rank_gain": -0.09061727554699832,
+        "regret_gain": -0.02838706069118397
+      }
+    ],
+    "decisions": 445,
+    "direction": null,
+    "distributed": {
+      "components": 211,
+      "direction_fractions": {
+        "decrease": 0.5213270142180095,
+        "increase": 0.4881516587677725
+      },
+      "fraction_improved": 0.5213270142180095,
+      "leave_best_one_out_mean": 0.004317944892510199,
+      "median": 0.004712350276859581,
+      "quartiles": [
+        -0.062410709866286856,
+        0.08212240841611229
+      ],
+      "source_fractions": {
+        "mikl_gse173098": 0.582010582010582,
+        "moffatt_gse334718": 0.125,
+        "tdp43_gse288185": 0.0
+      },
+      "worst_decile_mean": -0.24964023468071758,
+      "worst_decile_quantile": -0.17001173376224443
+    },
+    "eligible": true,
+    "excluded_decisions": 0,
+    "label": "grammar_vs_size",
+    "paired_rows": 890,
+    "point": {
+      "rank_gain": -0.12085637484355867,
+      "regret_gain": -0.06658367643532657
+    },
+    "selected": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.1620701058201058,
+      "good_at_5": 0.27078924162257495,
+      "random_expected_regret": 0.5,
+      "rank": 0.49923534294166966,
+      "regret": 0.4982430869325479
+    },
+    "strata": []
+  },
+  "holdout_opened": false,
+  "learned_from_localization_effect": false,
+  "mechanism_v2_verdict_preserved": "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS",
+  "note": "Transfer, matched-edit, small-edit, hard-harm and full distributed-benefit gates require the completed transfer/uncertainty modules; this first executable checkpoint evaluates the outcome-free core and necessity against the size baseline. A GO claim is forbidden until every Mechanism-v3 gate is implemented and passed.",
+  "restricted_domain": {
+    "baseline": {
+      "components": 53,
+      "decisions": 210,
+      "eligible": true,
+      "good_at_3": 0.5510912698412699,
+      "good_at_5": 0.6905753968253968,
+      "random_expected_regret": 0.5,
+      "rank": 0.47608864225242026,
+      "regret": 0.5136294036701124
+    },
+    "bootstrap": {
+      "components": 53,
+      "confidence95": {
+        "rank_gain": [
+          -0.03194212502950845,
+          0.10215006023412666
+        ],
+        "regret_gain": [
+          -0.03814002355279497,
+          0.10014593426109085
+        ]
+      },
+      "eligible": true,
+      "missing_context_replicates": 26,
+      "point": {
+        "rank_gain": 0.03402384861287173,
+        "regret_gain": 0.026083007735627693
+      },
+      "resamples_requested": 10000,
+      "resamples_valid": 9974,
+      "seed": 20260909,
+      "unit": "connected biological component; all directions and cross-source occurrences together"
+    },
+    "components": 53,
+    "components_in_domain": 53,
+    "contexts": [
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "decrease",
+        "rank_gain": 0.11635553580406521,
+        "regret_gain": 0.11887700181330449
+      },
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "increase",
+        "rank_gain": 0.11270202632334984,
+        "regret_gain": 0.101141438383861
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "decrease",
+        "rank_gain": -0.17832977207977208,
+        "regret_gain": -0.18508395546191983
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "increase",
+        "rank_gain": -0.018136955636955627,
+        "regret_gain": -0.045592805273430126
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "decrease",
+        "rank_gain": 0.16611008039579467,
+        "regret_gain": 0.16328208137689865
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "increase",
+        "rank_gain": 0.005442176870748312,
+        "regret_gain": 0.003874285575051991
+      }
+    ],
+    "decisions": 105,
+    "direction": null,
+    "distributed": {
+      "components": 53,
+      "direction_fractions": {
+        "decrease": 0.41509433962264153,
+        "increase": 0.3584905660377358
+      },
+      "fraction_improved": 0.41509433962264153,
+      "leave_best_one_out_mean": 0.06333434242440553,
+      "median": 0.0,
+      "quartiles": [
+        0.0,
+        0.1979164074604354
+      ],
+      "source_fractions": {
+        "mikl_gse173098": 0.425,
+        "moffatt_gse334718": 0.16666666666666666,
+        "tdp43_gse288185": 0.5714285714285714
+      },
+      "worst_decile_mean": -0.35175156881006714,
+      "worst_decile_quantile": -0.18082860127147324
+    },
+    "eligible": true,
+    "excluded_decisions": 86,
+    "label": "restricted_grammar_2_10",
+    "paired_rows": 210,
+    "point": {
+      "rank_gain": 0.03402384861287173,
+      "regret_gain": 0.026083007735627693
+    },
+    "selected": {
+      "components": 53,
+      "decisions": 210,
+      "eligible": true,
+      "good_at_3": 0.5306547619047618,
+      "good_at_5": 0.7129960317460317,
+      "random_expected_regret": 0.5,
+      "rank": 0.510112490865292,
+      "regret": 0.4875463959344846
+    },
+    "strata": []
+  },
+  "scrambled_vs_size": {
+    "baseline": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.20108024691358026,
+      "good_at_5": 0.270679012345679,
+      "random_expected_regret": 0.5,
+      "rank": 0.6200917177852283,
+      "regret": 0.43165941049722134
+    },
+    "bootstrap": {
+      "components": 211,
+      "confidence95": {
+        "rank_gain": [
+          -0.16054055207151754,
+          -0.0438660252592622
+        ],
+        "regret_gain": [
+          -0.10134639366571563,
+          -0.030911358485872537
+        ]
+      },
+      "eligible": true,
+      "missing_context_replicates": 2,
+      "point": {
+        "rank_gain": -0.1039676668942245,
+        "regret_gain": -0.06483210086414426
+      },
+      "resamples_requested": 10000,
+      "resamples_valid": 9998,
+      "seed": 20260909,
+      "unit": "connected biological component; all directions and cross-source occurrences together"
+    },
+    "components": 211,
+    "contexts": [
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "decrease",
+        "rank_gain": 0.0523120451439332,
+        "regret_gain": 0.02297710564556432
+      },
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "increase",
+        "rank_gain": 0.0007799946251574962,
+        "regret_gain": -0.0011109865252939691
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "decrease",
+        "rank_gain": -0.2250803005301876,
+        "regret_gain": -0.23035465443655273
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "increase",
+        "rank_gain": -0.10179057110153225,
+        "regret_gain": -0.017524724251461843
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "decrease",
+        "rank_gain": -0.2827651146423414,
+        "regret_gain": -0.13923082111385307
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "increase",
+        "rank_gain": -0.0672620548603764,
+        "regret_gain": -0.023748524503268267
+      }
+    ],
+    "decisions": 445,
+    "direction": null,
+    "distributed": {
+      "components": 211,
+      "direction_fractions": {
+        "decrease": 0.5071090047393365,
+        "increase": 0.5165876777251185
+      },
+      "fraction_improved": 0.5118483412322274,
+      "leave_best_one_out_mean": -0.0028615767195156526,
+      "median": 0.0062491178071670955,
+      "quartiles": [
+        -0.08222005679184927,
+        0.08289418334103925
+      ],
+      "source_fractions": {
+        "mikl_gse173098": 0.5555555555555556,
+        "moffatt_gse334718": 0.125,
+        "tdp43_gse288185": 0.1875
+      },
+      "worst_decile_mean": -0.2778987996500629,
+      "worst_decile_quantile": -0.19632389087496063
+    },
+    "eligible": true,
+    "excluded_decisions": 0,
+    "label": "scrambled_vs_size",
+    "paired_rows": 890,
+    "point": {
+      "rank_gain": -0.1039676668942245,
+      "regret_gain": -0.06483210086414426
+    },
+    "selected": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.15932539682539681,
+      "good_at_5": 0.2637676366843033,
+      "random_expected_regret": 0.5,
+      "rank": 0.5161240508910039,
+      "regret": 0.49649151136136566
+    },
+    "strata": []
+  }
+}

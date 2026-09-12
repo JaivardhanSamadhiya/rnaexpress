@@ -1,0 +1,73 @@
+{
+  "version": "mechanism_v3_zipcode_grammar_v1",
+  "status": "prospective frozen dictionary; motif strings and polarities are literature-derived, never fit on this project's localization_effect labels",
+  "seed": 20260912,
+  "split_manifest": "results/mechanism_v2/manifests/splits_all_alleles95.json",
+  "primary_estimator": "outcome_free_grammar_finite_difference",
+  "score_definition": "sum_i polarity_i * (count(motif_i, mutant) - count(motif_i, reference))",
+  "notes": [
+    "Motifs are DNA alphabet ACGT; U in RNA inputs is mapped to T before matching.",
+    "Overlapping occurrences count with a non-overlapping left-to-right scan per motif.",
+    "Polarity +1 favors neurite/peripheral localization hypotheses from the cited sources; -1 favors nuclear retention / soma-biased hypotheses.",
+    "N-zip assay outcomes are not used; only published element definitions are encoded."
+  ],
+  "elements": [
+    {
+      "id": "let7_seed_uacucaca",
+      "motif": "TACTCACA",
+      "polarity": 1,
+      "rationale": "let-7 seed / binding related element identified as a neuronal zipcode-associated sequence element in Mendonsa et al., Nat Neurosci 2023 (N-zip); presence hypothesized to favor neurite localization",
+      "citation": "10.1038/s41593-022-01243-x"
+    },
+    {
+      "id": "let7_seed_compact",
+      "motif": "CTACCTC",
+      "polarity": 1,
+      "rationale": "compact let-7 family seed core used as a secondary published seed pattern; same polarity hypothesis",
+      "citation": "10.1038/s41593-022-01243-x"
+    },
+    {
+      "id": "au_zipcode_auauau",
+      "motif": "ATATAT",
+      "polarity": 1,
+      "rationale": "(AU)n / AU-rich zipcode-associated motif class reported in N-zip analyses",
+      "citation": "10.1038/s41593-022-01243-x"
+    },
+    {
+      "id": "au_zipcode_auauauau",
+      "motif": "ATATATAT",
+      "polarity": 1,
+      "rationale": "longer (AU)n tract; counted separately so lengthening an AU tract changes score",
+      "citation": "10.1038/s41593-022-01243-x"
+    },
+    {
+      "id": "beta_actin_zipcode_core",
+      "motif": "ACACCC",
+      "polarity": 1,
+      "rationale": "core fragment associated with the classical beta-actin zipcode literature (Kislauskis / Singer line); coarse proxy, not a full secondary-structure zipcode model",
+      "citation": "10.1083/jcb.123.1.165"
+    },
+    {
+      "id": "nuclear_retention_gc_rich",
+      "motif": "GCGCGC",
+      "polarity": -1,
+      "rationale": "GC-rich repetitive pattern used as a published-class proxy for nuclear-retention / non-neurite bias in sequence-element screens; polarity opposite to neurite-favoring elements",
+      "citation": "literature proxy; see SRLE-seq / nuclear-retention score discussions in 2026 localization screens"
+    },
+    {
+      "id": "cua_rich_transport",
+      "motif": "CTACTA",
+      "polarity": 1,
+      "rationale": "CTA-rich transport-associated hexamer class recurring in neuronal localization motif summaries",
+      "citation": "composite published motif class; treated as a frozen hypothesis, not re-estimated here"
+    }
+  ],
+  "scrambled_null_rule": "reverse each motif string and flip polarity signs; same counting procedure",
+  "size_baseline_score": "-log1p(edit_cost)",
+  "restricted_domain": {
+    "edit_cost_min": 2,
+    "edit_cost_max": 10,
+    "require_nonzero_grammar_delta": true,
+    "minimum_components": 20
+  }
+}

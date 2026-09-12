@@ -1,0 +1,82 @@
+{
+  "version": "mechanism_v3_frozen_gates_v1",
+  "status": "prospective gates for outcome-free zipcode-grammar RNAddress; committed before Mechanism-v3 outer scores",
+  "source_document": "reports/mechanism_v3/protocol_design.md",
+  "amendment_rule": "Do not change after any Mechanism-v3 outer score exists. Mechanism-v2 NO-GO is immutable and out of scope.",
+  "estimand": {
+    "primary": "outcome-free grammar finite difference versus size baseline",
+    "primary_metrics": ["rank_gain", "regret_gain"],
+    "baseline": "size heuristic -log1p(edit_cost)",
+    "aggregation": "mean decisions within source/component/direction, then equal means over source x direction contexts",
+    "coverage": "full coverage primary; grammar-changing 2-10nt neuronal restricted domain is the only PARTIAL GO path"
+  },
+  "bootstrap": {"resamples": 10000, "seed": 20260912, "maximum_missing_context_fraction": 0.01},
+  "eligibility": {
+    "minimum_candidates_per_decision": 2,
+    "require_nonzero_outcome_range": true,
+    "restricted_subanalysis_minimum_components": 20,
+    "transfer_minimum_components": 3,
+    "transfer_minimum_decisions": 3,
+    "unavailable_required_evidence": "ineligible, never an automatic pass"
+  },
+  "gates": {
+    "g1_useful_selection": {"rank_gain_minimum": 0.020, "regret_gain_minimum": 0.010, "combine": "and"},
+    "g2_distributed_benefit": {
+      "median_component_regret_gain_minimum_exclusive": 0.0,
+      "fraction_components_improved_minimum": 0.55,
+      "leave_best_component_out_mean_minimum_exclusive": 0.0,
+      "paired_lower_bound_minimum": -0.005
+    },
+    "g3_matched_edits": {
+      "rank_gain_minimum": 0.010,
+      "regret_gain_minimum": 0.005,
+      "minimum_components": 20
+    },
+    "g4_leave_source": {
+      "minimum_tasks_improving_both": 4,
+      "total_tasks": 6,
+      "macro_regret_gain_minimum": 0.010,
+      "macro_rank_gain_minimum_exclusive": 0.0
+    },
+    "g5_cross_context": {
+      "cross_cell_minimum_tasks_improving_both": 3,
+      "cross_reporter_minimum_tasks_improving_both": 3,
+      "macro_regret_gain_minimum": 0.005
+    },
+    "g6_small_edits": {
+      "band_2_10_rank_or_regret": {"rank_gain_minimum": 0.020, "regret_gain_minimum": 0.010, "companion_minimum": -0.002},
+      "bands_2_5_and_6_10_regret_minimum": -0.005
+    },
+    "g7_grammar_necessity": {
+      "scrambled_null_must_fail_g1": true,
+      "scrambled_may_not_meet_both_useful_selection_thresholds": true,
+      "mean_retained_gain_fraction_maximum": 0.5
+    },
+    "g8_outcome_free_integrity": {
+      "primary_must_not_fit_localization_effect": true,
+      "dictionary_must_match_committed_sha256": true
+    },
+    "g9_replay_stability": {"same_seed_replay_tolerance": 1e-12},
+    "g10_hard_harm": {
+      "task_regret_gain_minimum": -0.02,
+      "worst_decile_component_mean_regret_gain_minimum": -0.2
+    }
+  },
+  "restricted_domain": {
+    "name": "grammar_changing_2_10nt_neuronal_reporter",
+    "edit_cost_min": 2,
+    "edit_cost_max": 10,
+    "require_nonzero_grammar_delta": true,
+    "minimum_components": 20,
+    "post_hoc_domains_forbidden": true
+  },
+  "allowed_verdicts": [
+    "STRONG GO - UNIVERSAL ZERO-SHOT RNADDRESS SUPPORTED",
+    "PARTIAL GO - RESTRICTED ZERO-SHOT DOMAIN SUPPORTED",
+    "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS"
+  ],
+  "historical": {
+    "finalshot": "NO-GO - END ZERO-SHOT RNADDRESS (commit 98ffc02, unchanged)",
+    "mechanism_v2": "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS (immutable prior experiment)"
+  }
+}
