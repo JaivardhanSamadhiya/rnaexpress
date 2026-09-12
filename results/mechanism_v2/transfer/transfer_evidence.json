@@ -1,0 +1,5435 @@
+{
+  "fold_audits": {
+    "cross_cell_CAD_to_Neuro-2a": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1973,
+            "sha256": "ebf7c2660e5a0b35c9e7b649607c261752d8943135b5d4b6f54541fa27355435"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9835,
+            "sha256": "ed5b15cc488e9ac79a2374fa4f8dbc06ad03bd5682f400687ba285954916eb42"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 8.338357670186316e-06,
+          "iterations": 7,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6907655307477027,
+          "pairs": 16289,
+          "rows": 9835,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_CAD_to_Neuro-2a_0.json",
+          "sha256": "c89f5ee84e5499a7c46dc9c7526df8f4fcd25f9e74ec0284215752e76e4bbf6b"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_A",
+        "selected_family": "M3",
+        "task": "cross_cell_CAD_to_Neuro-2a_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1973,
+            "sha256": "ebf7c2660e5a0b35c9e7b649607c261752d8943135b5d4b6f54541fa27355435"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9835,
+            "sha256": "ed5b15cc488e9ac79a2374fa4f8dbc06ad03bd5682f400687ba285954916eb42"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.1169463989919512e-05,
+          "iterations": 19,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6900783287435031,
+          "pairs": 16289,
+          "rows": 9835,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_CAD_to_Neuro-2a_0.json",
+          "sha256": "0c08104f83d9bb5c14d77b89c8920473e30b78f4de4294d33d9d1da62b55bd58"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_cell_CAD_to_Neuro-2a_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2721,
+            "sha256": "1da94afb12fff054ebdb32d7cadbe2d349928eac859024b1e280acdfc3ca77e2"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9087,
+            "sha256": "38a6ba195239fadf8250ae1c6aef97a5352194068210965d7f37281e68f69f2e"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.6629050058048194e-06,
+          "iterations": 8,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.691054603815124,
+          "pairs": 16559,
+          "rows": 9087,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_CAD_to_Neuro-2a_1.json",
+          "sha256": "33ff33b52513fbd22a5412739a0e464545cbe2743f257cd9df0a06ad48de6f99"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_C",
+        "selected_family": "M3",
+        "task": "cross_cell_CAD_to_Neuro-2a_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2721,
+            "sha256": "1da94afb12fff054ebdb32d7cadbe2d349928eac859024b1e280acdfc3ca77e2"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9087,
+            "sha256": "38a6ba195239fadf8250ae1c6aef97a5352194068210965d7f37281e68f69f2e"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.2761725819573303e-05,
+          "iterations": 13,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.690783966028961,
+          "pairs": 16559,
+          "rows": 9087,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_CAD_to_Neuro-2a_1.json",
+          "sha256": "a2b06b933d27692c7ae607015f86929e04b543c5aec331873d114b90f26b7e68"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "cross_cell_CAD_to_Neuro-2a_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2311,
+            "sha256": "8f22bedf4b3f694485be9c452cf69f9352a6eafe152fcb6d3b1ed8536d30dec3"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9497,
+            "sha256": "7428bb02c070d94405fdbe65c12e6f28b4aa91f7026b9200267bca3f4b92e6b9"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.211244581058324e-06,
+          "iterations": 8,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6908880821725677,
+          "pairs": 16281,
+          "rows": 9497,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_CAD_to_Neuro-2a_2.json",
+          "sha256": "d27a7055f8a96acd477b1593a780ad333ce275844cbca3319958c7fb79f40c19"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_A",
+        "selected_family": "M3",
+        "task": "cross_cell_CAD_to_Neuro-2a_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2311,
+            "sha256": "8f22bedf4b3f694485be9c452cf69f9352a6eafe152fcb6d3b1ed8536d30dec3"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9497,
+            "sha256": "7428bb02c070d94405fdbe65c12e6f28b4aa91f7026b9200267bca3f4b92e6b9"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.298876538920136e-05,
+          "iterations": 23,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6902688735292218,
+          "pairs": 16281,
+          "rows": 9497,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_CAD_to_Neuro-2a_2.json",
+          "sha256": "fee379b27a72564f6e99cd62803c85e805a703b4c80ee9eca84a6fd76f548898"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_cell_CAD_to_Neuro-2a_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2581,
+            "sha256": "074541287b3a508c0c6787e26f7fcd54534ea15e5f2afe38217d469026fec915"
+          },
+          "evaluation_components": 37,
+          "evaluation_decisions": 37,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9227,
+            "sha256": "7093ee9ae6cad6fa34f677bfa7e7d9d897e434d42ce975fc2bcca44200ad7e83"
+          },
+          "train_components": 152
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.725255373119039e-05,
+          "iterations": 107,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6316198125968744,
+          "pairs": 16909,
+          "rows": 9227,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M4/cross_cell_CAD_to_Neuro-2a_3.json",
+          "sha256": "5ec5e42198d45482c52cd998d54ff2c18763a58bf1215911f4777efa4fae8e05"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M4_A",
+        "selected_family": "M4",
+        "task": "cross_cell_CAD_to_Neuro-2a_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2581,
+            "sha256": "074541287b3a508c0c6787e26f7fcd54534ea15e5f2afe38217d469026fec915"
+          },
+          "evaluation_components": 37,
+          "evaluation_decisions": 37,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9227,
+            "sha256": "7093ee9ae6cad6fa34f677bfa7e7d9d897e434d42ce975fc2bcca44200ad7e83"
+          },
+          "train_components": 152
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.010191495444183e-05,
+          "iterations": 16,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6901984180246614,
+          "pairs": 16909,
+          "rows": 9227,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_CAD_to_Neuro-2a_3.json",
+          "sha256": "836b267aace06d879765d1eb7b0352a2c318ade2ac87ab8e5a6ae51dc5864f3c"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_cell_CAD_to_Neuro-2a_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2222,
+            "sha256": "551542fc0ace441f042e4b7fbda13f49b2307bb4715351466ec64300ea29dcd3"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9586,
+            "sha256": "3128523c1e48e0bb5cfd98dc53d66ccd51b9caf2d94132802e2db0853fa61e4f"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.731089639435622e-05,
+          "iterations": 7,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6909281890404131,
+          "pairs": 16118,
+          "rows": 9586,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_CAD_to_Neuro-2a_4.json",
+          "sha256": "a7aec61a83393a066540cc212bd446534f200acec91d2c0fd042e75a41e43640"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_F",
+        "selected_family": "M3",
+        "task": "cross_cell_CAD_to_Neuro-2a_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2222,
+            "sha256": "551542fc0ace441f042e4b7fbda13f49b2307bb4715351466ec64300ea29dcd3"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9586,
+            "sha256": "3128523c1e48e0bb5cfd98dc53d66ccd51b9caf2d94132802e2db0853fa61e4f"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.3783947444157566e-05,
+          "iterations": 14,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6893505755550432,
+          "pairs": 16118,
+          "rows": 9586,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_CAD_to_Neuro-2a_4.json",
+          "sha256": "755919761574b51d73fe46f1060079466705527712c69d84861d6251210103e7"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "cross_cell_CAD_to_Neuro-2a_4"
+      }
+    ],
+    "cross_cell_Neuro-2a_to_CAD": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1973,
+            "sha256": "5a6e9f97c670b3f3004cd1a3ee167543f8bf5dd66ca284719d4ae6eb11b1f66b"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9835,
+            "sha256": "74b97c629a03077b93dcde96f57ae005eb970b9cad91d9e959068621bb2fba23"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.566150979627305e-05,
+          "iterations": 14,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6899424032033088,
+          "pairs": 16289,
+          "rows": 9835,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M2/cross_cell_Neuro-2a_to_CAD_0.json",
+          "sha256": "c54b27ef37f790b969b632fddefb6e20a80471f7317791c78f0d00b5ef9fd011"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M2_E",
+        "selected_family": "M2",
+        "task": "cross_cell_Neuro-2a_to_CAD_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1973,
+            "sha256": "5a6e9f97c670b3f3004cd1a3ee167543f8bf5dd66ca284719d4ae6eb11b1f66b"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9835,
+            "sha256": "74b97c629a03077b93dcde96f57ae005eb970b9cad91d9e959068621bb2fba23"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.508836955846521e-05,
+          "iterations": 17,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6879288170784882,
+          "pairs": 16289,
+          "rows": 9835,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_Neuro-2a_to_CAD_0.json",
+          "sha256": "cc85d1267bde5447af61cc063a50221ed9ec479da61849ab9d48192c4a900036"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_cell_Neuro-2a_to_CAD_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2721,
+            "sha256": "a9235ba428bba3bd8e1ad0e8d66d3d3b1ec102ef1d355c234a8a2a7d36abab01"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9087,
+            "sha256": "40fb53c42cfbdf3e22c8d14e5dacc5dfd25a85c06cb41deee69213c7ca35e447"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.292668054151985e-07,
+          "iterations": 5,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6909630113523972,
+          "pairs": 16559,
+          "rows": 9087,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_Neuro-2a_to_CAD_1.json",
+          "sha256": "4fbf13acca2f048e7a2bf4af949ba6bf860771e79be2d0c9109adeabf070cb43"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_A",
+        "selected_family": "M3",
+        "task": "cross_cell_Neuro-2a_to_CAD_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2721,
+            "sha256": "a9235ba428bba3bd8e1ad0e8d66d3d3b1ec102ef1d355c234a8a2a7d36abab01"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9087,
+            "sha256": "40fb53c42cfbdf3e22c8d14e5dacc5dfd25a85c06cb41deee69213c7ca35e447"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.4767103984000829e-05,
+          "iterations": 12,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6887728172034041,
+          "pairs": 16559,
+          "rows": 9087,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_Neuro-2a_to_CAD_1.json",
+          "sha256": "fe948ed7d55f295aafead15e22eab6cc2dc4c3d17998835d3d15f3cbc1456496"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "cross_cell_Neuro-2a_to_CAD_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2311,
+            "sha256": "450de4e0748004cd4a01c5e3ff802a5a259690f3cd0507a4414cbbe44efa9efa"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9497,
+            "sha256": "aff635837b7e0f530441c75034d5dae0f0a1d9b05abc3a085ba1b44b20489c83"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.707763545540376e-06,
+          "iterations": 5,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6917868681149525,
+          "pairs": 16281,
+          "rows": 9497,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_Neuro-2a_to_CAD_2.json",
+          "sha256": "33448d285dbf000368dfa2dfcd7470e8805305dc6c6212cfab9c57d6f688a585"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_E",
+        "selected_family": "M3",
+        "task": "cross_cell_Neuro-2a_to_CAD_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2311,
+            "sha256": "450de4e0748004cd4a01c5e3ff802a5a259690f3cd0507a4414cbbe44efa9efa"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9497,
+            "sha256": "aff635837b7e0f530441c75034d5dae0f0a1d9b05abc3a085ba1b44b20489c83"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.280202429455113e-05,
+          "iterations": 17,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6879588036853553,
+          "pairs": 16281,
+          "rows": 9497,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_Neuro-2a_to_CAD_2.json",
+          "sha256": "622e6a4331f77b04ab55d94cd749cdfd2af7fd63c9775a7b1ca2c560243a33f6"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "cross_cell_Neuro-2a_to_CAD_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2581,
+            "sha256": "ad8dee444d19e77005571b72922f67b11a0a62db8b8f4f89493ac5449b19a413"
+          },
+          "evaluation_components": 37,
+          "evaluation_decisions": 37,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9227,
+            "sha256": "d4a8f9ce05822b064841ed923d421f52143abed19d00cb91ddbcfdfd9d04585c"
+          },
+          "train_components": 152
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.7466034710737375e-06,
+          "iterations": 6,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6900662153218263,
+          "pairs": 16910,
+          "rows": 9227,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_Neuro-2a_to_CAD_3.json",
+          "sha256": "16fac26cd5ad00079ae5173a79e59f044420c53483281ed18f28fa8842477926"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_C",
+        "selected_family": "M3",
+        "task": "cross_cell_Neuro-2a_to_CAD_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2581,
+            "sha256": "ad8dee444d19e77005571b72922f67b11a0a62db8b8f4f89493ac5449b19a413"
+          },
+          "evaluation_components": 37,
+          "evaluation_decisions": 37,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9227,
+            "sha256": "d4a8f9ce05822b064841ed923d421f52143abed19d00cb91ddbcfdfd9d04585c"
+          },
+          "train_components": 152
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.133477576617113e-05,
+          "iterations": 16,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6867834791938838,
+          "pairs": 16910,
+          "rows": 9227,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_Neuro-2a_to_CAD_3.json",
+          "sha256": "a29174b8650073ddac3a8ed58cfc48867e60a2c21afb708549d70a9a7e577eaf"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "cross_cell_Neuro-2a_to_CAD_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2222,
+            "sha256": "0e2f6833cf3186c34ac8fd4b0fe35bf5dd831eecaf45174ba38d0f39d091dd5c"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9586,
+            "sha256": "59c3ce71eacc941c7e018bc395cfcf4ea3b38ffeae71e2b88cc5a51c85fc282e"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 7.944972553237289e-06,
+          "iterations": 10,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6900588859409897,
+          "pairs": 16117,
+          "rows": 9586,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_cell_Neuro-2a_to_CAD_4.json",
+          "sha256": "fb37f3c77f17398c6438fed4cfe07cc76ed302daf3f558fde1d4a0c23344443c"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_F",
+        "selected_family": "M3",
+        "task": "cross_cell_Neuro-2a_to_CAD_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2222,
+            "sha256": "0e2f6833cf3186c34ac8fd4b0fe35bf5dd831eecaf45174ba38d0f39d091dd5c"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 38,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 9586,
+            "sha256": "59c3ce71eacc941c7e018bc395cfcf4ea3b38ffeae71e2b88cc5a51c85fc282e"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.5996700047043663e-05,
+          "iterations": 16,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6861763448811659,
+          "pairs": 16117,
+          "rows": 9586,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_cell_Neuro-2a_to_CAD_4.json",
+          "sha256": "d9d1c59552adc4ab46f967b709eae83ab58fe9a852d3fb0e7b5a9b2a8c601d7d"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_cell_Neuro-2a_to_CAD_4"
+      }
+    ],
+    "cross_reporter_Firefly_to_GFP": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4662,
+            "sha256": "cc3b76d801db66afc2e1d63ff85aa023242f28fb9b0a0967ab48d6583bdb76ac"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 4,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18274,
+            "sha256": "bac6131822ac0abab4d92f6b52efa4eb095eed33d1c3b465123f16c67acbb839"
+          },
+          "train_components": 5
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 0.00014572834043186707,
+          "iterations": 38,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5516718209361702,
+          "pairs": 2432,
+          "rows": 18274,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/cross_reporter_Firefly_to_GFP_0.json",
+          "sha256": "b5216e92467e1d9d7a8d6c3496f9785f28498d4b0eb31ac07ea88632d14faa94"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_E",
+        "selected_family": "M6",
+        "task": "cross_reporter_Firefly_to_GFP_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4662,
+            "sha256": "cc3b76d801db66afc2e1d63ff85aa023242f28fb9b0a0967ab48d6583bdb76ac"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 4,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18274,
+            "sha256": "bac6131822ac0abab4d92f6b52efa4eb095eed33d1c3b465123f16c67acbb839"
+          },
+          "train_components": 5
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.3226721819496694e-05,
+          "iterations": 25,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6270024051014212,
+          "pairs": 2432,
+          "rows": 18274,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_Firefly_to_GFP_0.json",
+          "sha256": "1091fb78e2acaf1f7090fea477839fb123a4099867f6a8d179c6740fde4370d2"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "cross_reporter_Firefly_to_GFP_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 16131,
+            "sha256": "d15ef9854c9b4db1c83d2efc79378154600aa0bcd546bf710b1d5ef3f5f73c39"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 9,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 12452,
+            "sha256": "f1317be68abfc77d82a9bfe50a8de8c0d9731a7a4b9c370f809d569490531c0f"
+          },
+          "train_components": 4
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.5834675399431773e-05,
+          "iterations": 12,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6742273046418643,
+          "pairs": 1920,
+          "rows": 12452,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M2/cross_reporter_Firefly_to_GFP_1.json",
+          "sha256": "1c5b8a0a10197e89b570ebd4024c69cbece2833616e5ac18423caa4134e4a7eb"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M2_E",
+        "selected_family": "M2",
+        "task": "cross_reporter_Firefly_to_GFP_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 16131,
+            "sha256": "d15ef9854c9b4db1c83d2efc79378154600aa0bcd546bf710b1d5ef3f5f73c39"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 9,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 12452,
+            "sha256": "f1317be68abfc77d82a9bfe50a8de8c0d9731a7a4b9c370f809d569490531c0f"
+          },
+          "train_components": 4
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 8.644767516878559e-05,
+          "iterations": 23,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6150012604651346,
+          "pairs": 1920,
+          "rows": 12452,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_Firefly_to_GFP_1.json",
+          "sha256": "bc658db8f46d3726c7a73239faceb3b11861d3ff8961b172cab95cfd752a9764"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "cross_reporter_Firefly_to_GFP_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 590,
+            "sha256": "fe9057e1ff52829e20353f4aac61fd295b42024a4d7ef461ee00306a212fe535"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 1,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 20778,
+            "sha256": "f439b81d4ff18cfe96622116cc0106a9f0a8f51eb5038deed2c3b64960abd5d3"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.982974719294669e-05,
+          "iterations": 36,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6794779403348425,
+          "pairs": 2816,
+          "rows": 20778,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M2/cross_reporter_Firefly_to_GFP_2.json",
+          "sha256": "dc40abc1bd7db27e8ca3daea24716364d184d473478171a8af79c20b06376f82"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M2_C",
+        "selected_family": "M2",
+        "task": "cross_reporter_Firefly_to_GFP_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 590,
+            "sha256": "fe9057e1ff52829e20353f4aac61fd295b42024a4d7ef461ee00306a212fe535"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 1,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 20778,
+            "sha256": "f439b81d4ff18cfe96622116cc0106a9f0a8f51eb5038deed2c3b64960abd5d3"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.3945632331371686e-05,
+          "iterations": 25,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6326256207696883,
+          "pairs": 2816,
+          "rows": 20778,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_Firefly_to_GFP_2.json",
+          "sha256": "9284c5af5a4c4099f0791f45ce3c4398388296c20afb1cf6d640e3d8e83bf1c5"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_F",
+        "selected_family": "M0",
+        "task": "cross_reporter_Firefly_to_GFP_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 19369,
+            "sha256": "e4d31c4dc9f7d07e8e72711b7a49b321cfac744aac8fc2e6cfb4736804fba825"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 10,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 11664,
+            "sha256": "896387ec6e359fd1a24548bd38fb601387950f5c6aacb6338e09ec4524a27130"
+          },
+          "train_components": 4
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.668107008055415e-05,
+          "iterations": 14,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6811300005028357,
+          "pairs": 1664,
+          "rows": 11664,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M2/cross_reporter_Firefly_to_GFP_3.json",
+          "sha256": "5a837b8f29a3dc3a972922399acbf8a73a52c72f13a6114142dcf9d7801c2978"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M2_E",
+        "selected_family": "M2",
+        "task": "cross_reporter_Firefly_to_GFP_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 19369,
+            "sha256": "e4d31c4dc9f7d07e8e72711b7a49b321cfac744aac8fc2e6cfb4736804fba825"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 10,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 11664,
+            "sha256": "896387ec6e359fd1a24548bd38fb601387950f5c6aacb6338e09ec4524a27130"
+          },
+          "train_components": 4
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.0310817241375673e-05,
+          "iterations": 38,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6467488919992201,
+          "pairs": 1664,
+          "rows": 11664,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_Firefly_to_GFP_3.json",
+          "sha256": "2f2149cf090811e7db803a82f186e965f79cb39847970fe07833a3f80822e706"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_reporter_Firefly_to_GFP_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 3496,
+            "sha256": "1e5b245c9df9b8fa1a4c955e767c34be6dba6f6bb73a156beef37e6a32145a5f"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 5,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 19944,
+            "sha256": "31d5720509ca9cafe76894c24ba3e102ed6d729d13611ffe0f5b3fc2b357707e"
+          },
+          "train_components": 5
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.377113344833489e-05,
+          "iterations": 46,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5659947407882597,
+          "pairs": 2432,
+          "rows": 19944,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M7/cross_reporter_Firefly_to_GFP_4.json",
+          "sha256": "3d72e677f9d9df39bcc36a41bff1552950c3c82be424caf9a464684efcd3fff9"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M7_E",
+        "selected_family": "M7",
+        "task": "cross_reporter_Firefly_to_GFP_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 3496,
+            "sha256": "1e5b245c9df9b8fa1a4c955e767c34be6dba6f6bb73a156beef37e6a32145a5f"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 5,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 19944,
+            "sha256": "31d5720509ca9cafe76894c24ba3e102ed6d729d13611ffe0f5b3fc2b357707e"
+          },
+          "train_components": 5
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.7663916746953855e-05,
+          "iterations": 36,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6408543773879721,
+          "pairs": 2432,
+          "rows": 19944,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_Firefly_to_GFP_4.json",
+          "sha256": "2dbfe48f3891692f43de95f10a0f6d31e350a87d472f6e13db4480a8cea6cab2"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_reporter_Firefly_to_GFP_4"
+      }
+    ],
+    "cross_reporter_GFP_to_Firefly": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2504,
+            "sha256": "ebd8fd4ee0e9ea26e8181d9348b3fb91e5177270d971dc7f0b33f128bdc99e2f"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 39586,
+            "sha256": "014f90492adfb5a793e938f00f7fe3732614b629a9126a9d25df3af6718d60d3"
+          },
+          "train_components": 7
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.180604163264498e-05,
+          "iterations": 40,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5006879177459985,
+          "pairs": 3200,
+          "rows": 39586,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M5/cross_reporter_GFP_to_Firefly_0.json",
+          "sha256": "5e96df36d5bb0398606c7ccc6c9f99402762f38c7afcacd62e7b19415a8c2628"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M5_E",
+        "selected_family": "M5",
+        "task": "cross_reporter_GFP_to_Firefly_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 2504,
+            "sha256": "ebd8fd4ee0e9ea26e8181d9348b3fb91e5177270d971dc7f0b33f128bdc99e2f"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 39586,
+            "sha256": "014f90492adfb5a793e938f00f7fe3732614b629a9126a9d25df3af6718d60d3"
+          },
+          "train_components": 7
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.2848495872678622e-05,
+          "iterations": 28,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5760702850144744,
+          "pairs": 3200,
+          "rows": 39586,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_GFP_to_Firefly_0.json",
+          "sha256": "ec1c498a801381489c90b85a235e8ef24e10d34961fe26e01cb53e85d7e4027c"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "cross_reporter_GFP_to_Firefly_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 8326,
+            "sha256": "11d01b70e3bc2dee2c50703fa4625105c7afeec1c2eb3847a74a6d7d591a76f1"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 7,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 28117,
+            "sha256": "d1d4dc66f54af10d80ccde3581a6a3826b288b1b1b452c23f69df7f20a0b5d22"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.0876394703281203e-05,
+          "iterations": 32,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6251376212754963,
+          "pairs": 2560,
+          "rows": 28117,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M2/cross_reporter_GFP_to_Firefly_1.json",
+          "sha256": "ffa5a0df6169bb4e3034f1c8c269845ca576e251b4555ccc97521b4e607f3b6f"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M2_A",
+        "selected_family": "M2",
+        "task": "cross_reporter_GFP_to_Firefly_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 8326,
+            "sha256": "11d01b70e3bc2dee2c50703fa4625105c7afeec1c2eb3847a74a6d7d591a76f1"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 7,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 28117,
+            "sha256": "d1d4dc66f54af10d80ccde3581a6a3826b288b1b1b452c23f69df7f20a0b5d22"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.4077980056231054e-05,
+          "iterations": 23,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5943730894352829,
+          "pairs": 2560,
+          "rows": 28117,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_GFP_to_Firefly_1.json",
+          "sha256": "b0177ed5cf521b96e2be3963553cc81e8befce6a2a319e08b04a8e0a673095c5"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "cross_reporter_GFP_to_Firefly_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 9114,
+            "sha256": "ad057793c0881f289c7ee525c52a997b0c9369fcd11bab698f78b2393ea39bc7"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 9,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 24879,
+            "sha256": "3cc350b6367feef9126e30a16c4b2925071877341a289b0dc9923e01ff19ca4e"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.207472037613073e-05,
+          "iterations": 8,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6509412731733527,
+          "pairs": 2432,
+          "rows": 24879,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/cross_reporter_GFP_to_Firefly_3.json",
+          "sha256": "6f880345d51afd637b5dbec96bd6ac490539c9794fd71f37ea0c6bfc9fe541ba"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_E",
+        "selected_family": "M3",
+        "task": "cross_reporter_GFP_to_Firefly_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 9114,
+            "sha256": "ad057793c0881f289c7ee525c52a997b0c9369fcd11bab698f78b2393ea39bc7"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 9,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 24879,
+            "sha256": "3cc350b6367feef9126e30a16c4b2925071877341a289b0dc9923e01ff19ca4e"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.618866744948315e-05,
+          "iterations": 34,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.597381531658506,
+          "pairs": 2432,
+          "rows": 24879,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_GFP_to_Firefly_3.json",
+          "sha256": "9946cdb4ab060c0a36e5f2b9701784503acf199aabfe414696d758686a136639"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "cross_reporter_GFP_to_Firefly_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 834,
+            "sha256": "5e11737f7217934c2549a967be0ec156b205ce7e6552ad6dcba87119a4eec88b"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 40752,
+            "sha256": "ee321c93c46da8d927bb28695a0db05733c69628112af571cd96ccabd88a7986"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.3339702352927812e-05,
+          "iterations": 39,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5159710953679852,
+          "pairs": 3072,
+          "rows": 40752,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M5/cross_reporter_GFP_to_Firefly_4.json",
+          "sha256": "bdc0d00571c5c39ceeeb9c21256e54990fc2e07b9cfb54fcc4797b07021ad3f9"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M5_E",
+        "selected_family": "M5",
+        "task": "cross_reporter_GFP_to_Firefly_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 834,
+            "sha256": "5e11737f7217934c2549a967be0ec156b205ce7e6552ad6dcba87119a4eec88b"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 40752,
+            "sha256": "ee321c93c46da8d927bb28695a0db05733c69628112af571cd96ccabd88a7986"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.149372862973037e-06,
+          "iterations": 12,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5820560124598322,
+          "pairs": 3072,
+          "rows": 40752,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/cross_reporter_GFP_to_Firefly_4.json",
+          "sha256": "25775bdad7269f7e56323c074750707e70e6947d5563bd9cd7cc89f8f29889ed"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "cross_reporter_GFP_to_Firefly_4"
+      }
+    ],
+    "large_to_small": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 6543,
+            "sha256": "3f4c726a9c46df3bf5bdd376ef9d48992323f97bc8b7bfe75602826a3c3d76a4"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 84,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 38810,
+            "sha256": "cdb3de898af28859045ae8293fa8c54323ae1cb59ee8d0864966b8dfb7be17a0"
+          },
+          "train_components": 93
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 8.025076984022935e-05,
+          "iterations": 106,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5384995816814949,
+          "pairs": 9478,
+          "rows": 38810,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M5/large_to_small_0.json",
+          "sha256": "56954da1f87255497b3ad076810c54a5d2bcfd3360376733c4989e11ff41ef29"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M5_B",
+        "selected_family": "M5",
+        "task": "large_to_small_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 6543,
+            "sha256": "3f4c726a9c46df3bf5bdd376ef9d48992323f97bc8b7bfe75602826a3c3d76a4"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 84,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 38810,
+            "sha256": "cdb3de898af28859045ae8293fa8c54323ae1cb59ee8d0864966b8dfb7be17a0"
+          },
+          "train_components": 93
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.953664975138576e-05,
+          "iterations": 31,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6462469237054472,
+          "pairs": 9478,
+          "rows": 38810,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/large_to_small_0.json",
+          "sha256": "a1e0492e5a3fc22fc53bf39530fa9ce1a43ae300746482a1080b417d5a378cc3"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_B",
+        "selected_family": "M0",
+        "task": "large_to_small_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 14145,
+            "sha256": "39e3f4206aec9ad3ca91b06c89fcc8db5e42d8beb76f948944ec6224dae440c5"
+          },
+          "evaluation_components": 43,
+          "evaluation_decisions": 91,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 27434,
+            "sha256": "85388f58f92329768d8fca4363746bdf6f60505605c608dc4857fe246d254828"
+          },
+          "train_components": 86
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.3258067226429489e-05,
+          "iterations": 33,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.578695850134211,
+          "pairs": 8061,
+          "rows": 27434,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M5/large_to_small_1.json",
+          "sha256": "4ea3ca0cd6291b1dd4636ae7bf8e78f4c538fc08bdbcd476ce844eb53b58f824"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M5_E",
+        "selected_family": "M5",
+        "task": "large_to_small_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 14145,
+            "sha256": "39e3f4206aec9ad3ca91b06c89fcc8db5e42d8beb76f948944ec6224dae440c5"
+          },
+          "evaluation_components": 43,
+          "evaluation_decisions": 91,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 27434,
+            "sha256": "85388f58f92329768d8fca4363746bdf6f60505605c608dc4857fe246d254828"
+          },
+          "train_components": 86
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.1184589818307523e-05,
+          "iterations": 11,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6529769496030954,
+          "pairs": 8061,
+          "rows": 27434,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/large_to_small_1.json",
+          "sha256": "295d345943921ca5455345a3971607e07bb61b002be77727fbc744c0cd7dd7d8"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "large_to_small_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 5480,
+            "sha256": "5022ef5223ad2e55b11fca240d9e27a2dc2f6911429f5956800c2fbbe9256054"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 81,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 42851,
+            "sha256": "05be87a36196956c35ad4f686e842fe43392771be1c909bb03981fd1f0bff865"
+          },
+          "train_components": 88
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.448598762256322e-05,
+          "iterations": 36,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5813337479227132,
+          "pairs": 10187,
+          "rows": 42851,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/large_to_small_2.json",
+          "sha256": "949d69367e478f2b8a5bbc1ed0c0b5188b20e9b366d2a02f12b888367a13008c"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_E",
+        "selected_family": "M6",
+        "task": "large_to_small_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 5480,
+            "sha256": "5022ef5223ad2e55b11fca240d9e27a2dc2f6911429f5956800c2fbbe9256054"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 81,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 42851,
+            "sha256": "05be87a36196956c35ad4f686e842fe43392771be1c909bb03981fd1f0bff865"
+          },
+          "train_components": 88
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.976589177171746e-06,
+          "iterations": 11,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6505830167764405,
+          "pairs": 10187,
+          "rows": 42851,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/large_to_small_2.json",
+          "sha256": "96ed9eda55286a1d31cb05ccfa1adbb32ebe460fe26309333f500ded3bcfe2fa"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "large_to_small_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 16517,
+            "sha256": "913da2c1b70ef9f8de435d251523f7444ad70f78c44b5351a44dc59390a16fd0"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 92,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 25391,
+            "sha256": "797fd46f2b6d561d0d6e51412b3f0c6e4b2e09cf064697c9210ace2291a1ba2a"
+          },
+          "train_components": 94
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.562187243452258e-05,
+          "iterations": 33,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5789422353558202,
+          "pairs": 7551,
+          "rows": 25391,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M4/large_to_small_3.json",
+          "sha256": "dad50bc5e3b11f4ee78b35d7dee3c88e03073cdd4b6646441c98b975791bc474"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M4_E",
+        "selected_family": "M4",
+        "task": "large_to_small_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 16517,
+            "sha256": "913da2c1b70ef9f8de435d251523f7444ad70f78c44b5351a44dc59390a16fd0"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 92,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 25391,
+            "sha256": "797fd46f2b6d561d0d6e51412b3f0c6e4b2e09cf064697c9210ace2291a1ba2a"
+          },
+          "train_components": 94
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.98962068731356e-06,
+          "iterations": 11,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6562458225222663,
+          "pairs": 7551,
+          "rows": 25391,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/large_to_small_3.json",
+          "sha256": "5fb6decb47c9e03769ed6613f7194e8f7e57a96c50874a9d2e40943df41348f5"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "large_to_small_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 6589,
+            "sha256": "396cf0b63be414223d6d110e71f674ee494777ee8862d0dbd99a28d692d86018"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 85,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 41098,
+            "sha256": "78ccd27b67d5c1c0bd63583fc39f250affd53bcd5514a9d1ea5823f278beef7f"
+          },
+          "train_components": 87
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 9.978167709779988e-06,
+          "iterations": 35,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.576928112648685,
+          "pairs": 9575,
+          "rows": 41098,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/large_to_small_4.json",
+          "sha256": "3a67b26a3c5ec94f84ce42b1fc15339cdaaee25a231219c8cb25def85f11ea57"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_E",
+        "selected_family": "M6",
+        "task": "large_to_small_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 6589,
+            "sha256": "396cf0b63be414223d6d110e71f674ee494777ee8862d0dbd99a28d692d86018"
+          },
+          "evaluation_components": 42,
+          "evaluation_decisions": 85,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 41098,
+            "sha256": "78ccd27b67d5c1c0bd63583fc39f250affd53bcd5514a9d1ea5823f278beef7f"
+          },
+          "train_components": 87
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.610050786562367e-05,
+          "iterations": 24,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6406130122382108,
+          "pairs": 9575,
+          "rows": 41098,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/large_to_small_4.json",
+          "sha256": "88bbda928bd7b3a705db021cb49604b8786c8e7f63db0813c2e2a738a946380c"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "large_to_small_4"
+      }
+    ],
+    "leave_source_mikl_gse173098": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 23616,
+            "sha256": "d605fdea021ebe110832025f7621dc6ecb144b4ef626d38496bb638eee3b8dd2"
+          },
+          "evaluation_components": 189,
+          "evaluation_decisions": 378,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 64705,
+            "sha256": "2ad8a4dae64fd42dd0a48c093f962b374fb36d450bed48352548b1695e455ca4"
+          },
+          "train_components": 22
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.1768994650604827e-05,
+          "iterations": 38,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5665264517931689,
+          "pairs": 7439,
+          "rows": 64705,
+          "source_names": [
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/leave_source_mikl_gse173098.json",
+          "sha256": "ec658c8674a007300d4c5f405eca765879227ca8ac0b543d560f46e3ed989c20"
+        },
+        "purged_train_rows": 4887,
+        "recipe_id": "M6_E",
+        "selected_family": "M6",
+        "task": "leave_source_mikl_gse173098"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 23616,
+            "sha256": "d605fdea021ebe110832025f7621dc6ecb144b4ef626d38496bb638eee3b8dd2"
+          },
+          "evaluation_components": 189,
+          "evaluation_decisions": 378,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 64705,
+            "sha256": "2ad8a4dae64fd42dd0a48c093f962b374fb36d450bed48352548b1695e455ca4"
+          },
+          "train_components": 22
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.3874753975039286e-05,
+          "iterations": 21,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.615247708213001,
+          "pairs": 7439,
+          "rows": 64705,
+          "source_names": [
+            "moffatt_gse334718",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/leave_source_mikl_gse173098.json",
+          "sha256": "911f4af850b9789ba3be1d888ab47af5a8687d30e37b919e674bcaf7b2ab3a27"
+        },
+        "purged_train_rows": 4887,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "leave_source_mikl_gse173098"
+      }
+    ],
+    "leave_source_moffatt_gse334718": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 65026,
+            "sha256": "480536527e4458c09e961148247cfcf6069bb3f7b9392ffd9a193453535a2168"
+          },
+          "evaluation_components": 8,
+          "evaluation_decisions": 51,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 27712,
+            "sha256": "f489edd118216e0c7ceae1b806a2445a06b7a524ef88759496d91b3695b1ea53"
+          },
+          "train_components": 203
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.091225333672504e-05,
+          "iterations": 122,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6274731200759024,
+          "pairs": 42501,
+          "rows": 27712,
+          "source_names": [
+            "mikl_gse173098",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/leave_source_moffatt_gse334718.json",
+          "sha256": "1c1cf7ab35c40a8ee518ff65827fae94b6b1304966442ce8f404a0a7ff2b229a"
+        },
+        "purged_train_rows": 470,
+        "recipe_id": "M6_D",
+        "selected_family": "M6",
+        "task": "leave_source_moffatt_gse334718"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 65026,
+            "sha256": "480536527e4458c09e961148247cfcf6069bb3f7b9392ffd9a193453535a2168"
+          },
+          "evaluation_components": 8,
+          "evaluation_decisions": 51,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 27712,
+            "sha256": "f489edd118216e0c7ceae1b806a2445a06b7a524ef88759496d91b3695b1ea53"
+          },
+          "train_components": 203
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.4144131645190197e-05,
+          "iterations": 31,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6703332503673431,
+          "pairs": 42501,
+          "rows": 27712,
+          "source_names": [
+            "mikl_gse173098",
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/leave_source_moffatt_gse334718.json",
+          "sha256": "1b28c9f6fe4e35e8bb5cfe5909e420a455a5a9d9e8a9d2433dfd558ca0aad685"
+        },
+        "purged_train_rows": 470,
+        "recipe_id": "M0_D",
+        "selected_family": "M0",
+        "task": "leave_source_moffatt_gse334718"
+      }
+    ],
+    "leave_source_tdp43_gse288185": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4566,
+            "sha256": "64a2f6aefc5ddd36d9cffe770791f4eee58986352e78c4ac85bb190d62fa987f"
+          },
+          "evaluation_components": 16,
+          "evaluation_decisions": 16,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 88642,
+            "sha256": "68342203cd0730a9d318ed0a062b2b4bbdbea79b738da36a4e763f876161136d"
+          },
+          "train_components": 195
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.1318728955799166e-05,
+          "iterations": 101,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.623707745330791,
+          "pairs": 47606,
+          "rows": 88642,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/leave_source_tdp43_gse288185.json",
+          "sha256": "7c848ced73e34ec384681eecf21bd8287e4f055e3299c0ddd742a9b72c0263e5"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_D",
+        "selected_family": "M6",
+        "task": "leave_source_tdp43_gse288185"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4566,
+            "sha256": "64a2f6aefc5ddd36d9cffe770791f4eee58986352e78c4ac85bb190d62fa987f"
+          },
+          "evaluation_components": 16,
+          "evaluation_decisions": 16,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 88642,
+            "sha256": "68342203cd0730a9d318ed0a062b2b4bbdbea79b738da36a4e763f876161136d"
+          },
+          "train_components": 195
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.7781719655936973e-05,
+          "iterations": 10,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6597664490410271,
+          "pairs": 47606,
+          "rows": 88642,
+          "source_names": [
+            "mikl_gse173098",
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/leave_source_tdp43_gse288185.json",
+          "sha256": "d8eff4036a26fc62f1522544189095a526865991455726b93ac36dd297ec3f99"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "leave_source_tdp43_gse288185"
+      }
+    ],
+    "within_mikl_gse173098": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 3946,
+            "sha256": "6e94f97f5f12bf89986478d5f116ae5ea222dee0a189136a1ebcc810bd9fb786"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 19670,
+            "sha256": "9abf11a851a0534f1d5f8e58d641481f4fab37e46b3c59783c1f69f9b48ab69b"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.438253250349915e-05,
+          "iterations": 37,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.668742541583232,
+          "pairs": 32578,
+          "rows": 19670,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/within_mikl_gse173098_0.json",
+          "sha256": "c01f35fc3fa2c9254f94a3b87524f920c69a236197e71823f8eeeb2a431a6cf3"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_E",
+        "selected_family": "M6",
+        "task": "within_mikl_gse173098_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 3946,
+            "sha256": "6e94f97f5f12bf89986478d5f116ae5ea222dee0a189136a1ebcc810bd9fb786"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 19670,
+            "sha256": "9abf11a851a0534f1d5f8e58d641481f4fab37e46b3c59783c1f69f9b48ab69b"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.228230554695217e-05,
+          "iterations": 9,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6901174256637139,
+          "pairs": 32578,
+          "rows": 19670,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_mikl_gse173098_0.json",
+          "sha256": "39ab74dad240bd62e25b56038a6f6e48a98ed733cd5773393c5bd4d85b7c0a7b"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "within_mikl_gse173098_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 5442,
+            "sha256": "0c4f49f65a3e9585c590243138f7f86fafb3dcfff1e8e05b084627dbabcb196a"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18174,
+            "sha256": "c768745421f341125208f103d3d60411003b04a96afdfda4206f1670c2221161"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.55924540049044e-07,
+          "iterations": 6,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6915344610135341,
+          "pairs": 33118,
+          "rows": 18174,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/within_mikl_gse173098_1.json",
+          "sha256": "979974853dc9dbfb645cb520e0ef6804b141e272bfb97a6d8819929cf5b8349b"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_A",
+        "selected_family": "M3",
+        "task": "within_mikl_gse173098_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 5442,
+            "sha256": "0c4f49f65a3e9585c590243138f7f86fafb3dcfff1e8e05b084627dbabcb196a"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18174,
+            "sha256": "c768745421f341125208f103d3d60411003b04a96afdfda4206f1670c2221161"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.983617579769435e-05,
+          "iterations": 15,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6897508962762434,
+          "pairs": 33118,
+          "rows": 18174,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_mikl_gse173098_1.json",
+          "sha256": "8168136e860484b1475dbd532c6cb02b09c23eb02ff3ca137d9889a720221d62"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "within_mikl_gse173098_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4622,
+            "sha256": "57dd422aa6a4fe17f6857d9cf1400e3a1599699b66e889c3c5aa3e8eba365b58"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18994,
+            "sha256": "fc8c683d3a13ea35472e89b8a0b765d7596890a0374b9ec71915df19d6b80679"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.4574908835910012e-06,
+          "iterations": 5,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.691884026618018,
+          "pairs": 32562,
+          "rows": 18994,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/within_mikl_gse173098_2.json",
+          "sha256": "9d0b6804f5cc041289916532045d3e70ab40052b7bbc56202abc21d39f55d683"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_E",
+        "selected_family": "M3",
+        "task": "within_mikl_gse173098_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4622,
+            "sha256": "57dd422aa6a4fe17f6857d9cf1400e3a1599699b66e889c3c5aa3e8eba365b58"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18994,
+            "sha256": "fc8c683d3a13ea35472e89b8a0b765d7596890a0374b9ec71915df19d6b80679"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.836033973214682e-05,
+          "iterations": 17,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6897885737723458,
+          "pairs": 32562,
+          "rows": 18994,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_mikl_gse173098_2.json",
+          "sha256": "bbce35eb41fb6abad2b1f0ce83d229a957c79233510b9308bb82501b24f816b7"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "within_mikl_gse173098_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 5162,
+            "sha256": "d63ef45c796e2b15783cac1622d59a3829921454730bfa9928d3799ae49304bd"
+          },
+          "evaluation_components": 37,
+          "evaluation_decisions": 74,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18454,
+            "sha256": "95ac885468ae3cc4cf35b232b092b9693b66eb84853a9f99de52a06874eb078c"
+          },
+          "train_components": 152
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 9.598164800249699e-08,
+          "iterations": 6,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6909522320371017,
+          "pairs": 33819,
+          "rows": 18454,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/within_mikl_gse173098_3.json",
+          "sha256": "79c3a94267e55f7494c005a6a039ed33051e8084f9f8de32b7ad82646461f481"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_A",
+        "selected_family": "M3",
+        "task": "within_mikl_gse173098_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 5162,
+            "sha256": "d63ef45c796e2b15783cac1622d59a3829921454730bfa9928d3799ae49304bd"
+          },
+          "evaluation_components": 37,
+          "evaluation_decisions": 74,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 18454,
+            "sha256": "95ac885468ae3cc4cf35b232b092b9693b66eb84853a9f99de52a06874eb078c"
+          },
+          "train_components": 152
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.4011313057516629e-05,
+          "iterations": 14,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6890256482477431,
+          "pairs": 33819,
+          "rows": 18454,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_mikl_gse173098_3.json",
+          "sha256": "f752cf604d5ba4a8065a370ae43bb785fe7f5e5aa12ce007ef8d9a0d63afcab7"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "within_mikl_gse173098_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4444,
+            "sha256": "11df210019b53c7538b9d74ff5e333f65b6fd03cfa6ccf17b88a2032a022729a"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 19172,
+            "sha256": "f900611b08bc817928d050680e1b40d6d0df7e371eaf0f1a1a695d004ad43a19"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.910109620927177e-06,
+          "iterations": 5,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6913970337684515,
+          "pairs": 32235,
+          "rows": 19172,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/within_mikl_gse173098_4.json",
+          "sha256": "b8ce692f39edbf6584a11a635b606bab03878b0ae7e975ca0b33b2505e69a8dd"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_E",
+        "selected_family": "M3",
+        "task": "within_mikl_gse173098_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4444,
+            "sha256": "11df210019b53c7538b9d74ff5e333f65b6fd03cfa6ccf17b88a2032a022729a"
+          },
+          "evaluation_components": 38,
+          "evaluation_decisions": 76,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 19172,
+            "sha256": "f900611b08bc817928d050680e1b40d6d0df7e371eaf0f1a1a695d004ad43a19"
+          },
+          "train_components": 151
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.723715742129385e-05,
+          "iterations": 18,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6880506042957926,
+          "pairs": 32235,
+          "rows": 19172,
+          "source_names": [
+            "mikl_gse173098"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_mikl_gse173098_4.json",
+          "sha256": "b28f463b9651a7139473ff2d6b1c541c928aa09524d274f6304b94f56979a0a8"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "within_mikl_gse173098_4"
+      }
+    ],
+    "within_moffatt_gse334718": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 7166,
+            "sha256": "2b0199da2691cc899795ff5da9683920ce5d8a041a2f09d38e24735be1ca2abd"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 7,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 57860,
+            "sha256": "8209fcfca407ec69f67d2e89b73101334133bf3b9aa3f232e0c5a76d81635627"
+          },
+          "train_components": 7
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.269807002182691e-05,
+          "iterations": 39,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.537217783688801,
+          "pairs": 5632,
+          "rows": 57860,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/within_moffatt_gse334718_0.json",
+          "sha256": "c9814ec85e48b8e49ba4886d3aef81125fd2ca261b73d6e29d79a73d1f8efeb3"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_E",
+        "selected_family": "M6",
+        "task": "within_moffatt_gse334718_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 7166,
+            "sha256": "2b0199da2691cc899795ff5da9683920ce5d8a041a2f09d38e24735be1ca2abd"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 7,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 57860,
+            "sha256": "8209fcfca407ec69f67d2e89b73101334133bf3b9aa3f232e0c5a76d81635627"
+          },
+          "train_components": 7
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.0977419330057263e-05,
+          "iterations": 24,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6014587433292335,
+          "pairs": 5632,
+          "rows": 57860,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_moffatt_gse334718_0.json",
+          "sha256": "10697f4dcb69a75f9a8065a8c961f68a00341c5b30f7beef4550355efbf9d151"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "within_moffatt_gse334718_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 24457,
+            "sha256": "3090be27c3c36d427024d2ddcd893053ef63211405545fe4e0124e4409024802"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 16,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 40569,
+            "sha256": "de08d0110488e18654d82c92496f2af8eaeb1372205760ed3256778692f13c5b"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 5.6696888470348684e-05,
+          "iterations": 34,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6387967119688637,
+          "pairs": 4480,
+          "rows": 40569,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M2/within_moffatt_gse334718_1.json",
+          "sha256": "df671376b2aa740086b7c07f434c92bf7d4f8274d064adf5cd578110b4537467"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M2_F",
+        "selected_family": "M2",
+        "task": "within_moffatt_gse334718_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 24457,
+            "sha256": "3090be27c3c36d427024d2ddcd893053ef63211405545fe4e0124e4409024802"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 16,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 40569,
+            "sha256": "de08d0110488e18654d82c92496f2af8eaeb1372205760ed3256778692f13c5b"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 9.476798702539614e-06,
+          "iterations": 11,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6187429768810293,
+          "pairs": 4480,
+          "rows": 40569,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_moffatt_gse334718_1.json",
+          "sha256": "bcb53cdb6c8812710e96c532fdfdeae3f8975cb161aba4a80ac228d1a2abfb72"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "within_moffatt_gse334718_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 590,
+            "sha256": "fe9057e1ff52829e20353f4aac61fd295b42024a4d7ef461ee00306a212fe535"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 1,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 64436,
+            "sha256": "471d300811543d9b0517a7d6072054360121188cb8e30e8dc98c8581534b9c61"
+          },
+          "train_components": 7
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 6.8696591898535e-05,
+          "iterations": 114,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5208266691627831,
+          "pairs": 6400,
+          "rows": 64436,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/within_moffatt_gse334718_2.json",
+          "sha256": "dcc891e395fa600c1f5fbd281fc75080168a95c13b9bb80486608aee6457dfdd"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_C",
+        "selected_family": "M6",
+        "task": "within_moffatt_gse334718_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 590,
+            "sha256": "fe9057e1ff52829e20353f4aac61fd295b42024a4d7ef461ee00306a212fe535"
+          },
+          "evaluation_components": 1,
+          "evaluation_decisions": 1,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 64436,
+            "sha256": "471d300811543d9b0517a7d6072054360121188cb8e30e8dc98c8581534b9c61"
+          },
+          "train_components": 7
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.7051538870049843e-05,
+          "iterations": 11,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6229108886319863,
+          "pairs": 6400,
+          "rows": 64436,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_moffatt_gse334718_2.json",
+          "sha256": "9e5278edee9c357987e4924f943a735fce22e52b55a8061b8d134fdf30d63ae0"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_E",
+        "selected_family": "M0",
+        "task": "within_moffatt_gse334718_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 28483,
+            "sha256": "2cdfa7f51d2898143816645a62537f3666c6510c0ad9e74dabf09e84502e7835"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 19,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 36543,
+            "sha256": "3fc91e9e884219e9a93caf09e01de88a3c866564dea0b0cdef19ed053b32e8e8"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.75123635587234e-05,
+          "iterations": 15,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6607611931208495,
+          "pairs": 4096,
+          "rows": 36543,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/within_moffatt_gse334718_3.json",
+          "sha256": "0ed1015bc29e4e93664c71a51bfa546048335898b8e046796908c560705237e4"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_C",
+        "selected_family": "M3",
+        "task": "within_moffatt_gse334718_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 28483,
+            "sha256": "2cdfa7f51d2898143816645a62537f3666c6510c0ad9e74dabf09e84502e7835"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 19,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 36543,
+            "sha256": "3fc91e9e884219e9a93caf09e01de88a3c866564dea0b0cdef19ed053b32e8e8"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.6638494198473863e-05,
+          "iterations": 24,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6090701893878147,
+          "pairs": 4096,
+          "rows": 36543,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_moffatt_gse334718_3.json",
+          "sha256": "d9741d86d81872db3df67d219a2fab4255efa88dba0ef7d65347a32276ba16ad"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_A",
+        "selected_family": "M0",
+        "task": "within_moffatt_gse334718_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4330,
+            "sha256": "2657e95caeb617f12cace748a346302e204640de369118f731f12215951108db"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 8,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 60696,
+            "sha256": "8af43990dd8987cc82f432d7d43f214e47573842ea5a4999823fdbfb0d407fb9"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.043303601126454e-05,
+          "iterations": 41,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5648909894741531,
+          "pairs": 5504,
+          "rows": 60696,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M1/within_moffatt_gse334718_4.json",
+          "sha256": "1d2e7254f0bc8ce4b948ccba0aa04f61fc4cf74908526ee3b9628a8c0c1d6396"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M1_E",
+        "selected_family": "M1",
+        "task": "within_moffatt_gse334718_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 4330,
+            "sha256": "2657e95caeb617f12cace748a346302e204640de369118f731f12215951108db"
+          },
+          "evaluation_components": 2,
+          "evaluation_decisions": 8,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 60696,
+            "sha256": "8af43990dd8987cc82f432d7d43f214e47573842ea5a4999823fdbfb0d407fb9"
+          },
+          "train_components": 6
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.4343672465685561e-05,
+          "iterations": 35,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6104795603306148,
+          "pairs": 5504,
+          "rows": 60696,
+          "source_names": [
+            "moffatt_gse334718"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_moffatt_gse334718_4.json",
+          "sha256": "62a7898e12882ae2d50b413db17ecf77946fcca77a2325a345dd22d13e017479"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "within_moffatt_gse334718_4"
+      }
+    ],
+    "within_tdp43_gse288185": [
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 519,
+            "sha256": "b5ebeff512e5e87189789f4ef93dbd8acdcd8669b881c706a86c26f38f22d2bd"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 4047,
+            "sha256": "afb6aa0bcfab1afad52116c8248ea714a39518cd50d850c79c333a40fb522afb"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.4882366246546974e-05,
+          "iterations": 39,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.522658880771157,
+          "pairs": 1551,
+          "rows": 4047,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/within_tdp43_gse288185_0.json",
+          "sha256": "d23b8e6a3117537bd8c2d00a7f72c643a6628a2d80b54ebf545adde0ff210363"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_E",
+        "selected_family": "M6",
+        "task": "within_tdp43_gse288185_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 519,
+            "sha256": "b5ebeff512e5e87189789f4ef93dbd8acdcd8669b881c706a86c26f38f22d2bd"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 4047,
+            "sha256": "afb6aa0bcfab1afad52116c8248ea714a39518cd50d850c79c333a40fb522afb"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.40289144631503e-05,
+          "iterations": 31,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.663334572229316,
+          "pairs": 1551,
+          "rows": 4047,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_tdp43_gse288185_0.json",
+          "sha256": "692b786c62fd53c0a5aa1aaa7e54fd7aafcf8d10b7c73f660fec268aa4423893"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "within_tdp43_gse288185_0"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 724,
+            "sha256": "c3bda52ccc8f08c94cc737d3d8336ddc2ad3938d4492198542cd6ccbb7449a8f"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3842,
+            "sha256": "e0fb46075f33d8c80522fc9d179706b239bffed96ea1d53a3b372425ddf500fc"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 8.734426525658368e-07,
+          "iterations": 6,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6444714724253435,
+          "pairs": 1664,
+          "rows": 3842,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/within_tdp43_gse288185_1.json",
+          "sha256": "292690ad61803a224f6f7acde7c083fdc0190a80bd5bd68690768d95bc2dc5be"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_C",
+        "selected_family": "M3",
+        "task": "within_tdp43_gse288185_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 724,
+            "sha256": "c3bda52ccc8f08c94cc737d3d8336ddc2ad3938d4492198542cd6ccbb7449a8f"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3842,
+            "sha256": "e0fb46075f33d8c80522fc9d179706b239bffed96ea1d53a3b372425ddf500fc"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 4.404468279030349e-05,
+          "iterations": 34,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6435710910836094,
+          "pairs": 1664,
+          "rows": 3842,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_tdp43_gse288185_1.json",
+          "sha256": "ee4ad9b79b4603235e71135744859bdb48d0c0585704a5ec8bf5f358f77a02e2"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "within_tdp43_gse288185_1"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1317,
+            "sha256": "1b94bc4d2c52dc486c920a0f3ec24c6b3d2f3feb89ac4a9163f98db56e82e0b0"
+          },
+          "evaluation_components": 4,
+          "evaluation_decisions": 4,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3249,
+            "sha256": "a1ba92ebac6956bf465b6a7d609f750dc6e4761596cfb8aac4ba447cead6784e"
+          },
+          "train_components": 12
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 6.973084192090566e-05,
+          "iterations": 182,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.3520801191124471,
+          "pairs": 1423,
+          "rows": 3249,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M6/within_tdp43_gse288185_2.json",
+          "sha256": "d42a6de9be59d27e934a3d688723e906b4a8585f404c4e909876f91dae0093fa"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M6_F",
+        "selected_family": "M6",
+        "task": "within_tdp43_gse288185_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1317,
+            "sha256": "1b94bc4d2c52dc486c920a0f3ec24c6b3d2f3feb89ac4a9163f98db56e82e0b0"
+          },
+          "evaluation_components": 4,
+          "evaluation_decisions": 4,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3249,
+            "sha256": "a1ba92ebac6956bf465b6a7d609f750dc6e4761596cfb8aac4ba447cead6784e"
+          },
+          "train_components": 12
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 3.8779107529002266e-05,
+          "iterations": 31,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6445144628155195,
+          "pairs": 1423,
+          "rows": 3249,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_tdp43_gse288185_2.json",
+          "sha256": "0330f93539719dc0362dbd40b139e91116cf4e533040b66e8a40cebb7ce873a1"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "within_tdp43_gse288185_2"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1383,
+            "sha256": "f00180c7d6037dec239dd483e9d2f0f5ddd900ce06f06709f135c48c61a38e1f"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3183,
+            "sha256": "c8ac800751f80ae6da603b4d4b5e8f6b5b60c1191400ecaf1e20fa86064d09bc"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 1.3462090027460422e-07,
+          "iterations": 8,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.616442952174841,
+          "pairs": 1551,
+          "rows": 3183,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M3/within_tdp43_gse288185_3.json",
+          "sha256": "3c0ddde1550d5f7781b0e6e99d248f8d446dd0ca9bb57b8fb13daea92d582b0e"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M3_A",
+        "selected_family": "M3",
+        "task": "within_tdp43_gse288185_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 1383,
+            "sha256": "f00180c7d6037dec239dd483e9d2f0f5ddd900ce06f06709f135c48c61a38e1f"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3183,
+            "sha256": "c8ac800751f80ae6da603b4d4b5e8f6b5b60c1191400ecaf1e20fa86064d09bc"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 6.630115723341157e-05,
+          "iterations": 33,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6490886595847144,
+          "pairs": 1551,
+          "rows": 3183,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_tdp43_gse288185_3.json",
+          "sha256": "f9aa1352bd87ca40582e4b35f07fa2f8998344f3a9325cf5cd1cecd2a18b6790"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "within_tdp43_gse288185_3"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 623,
+            "sha256": "422a50459060775465dc06eda366dc8f952f026e46148ea6bd54325580b3a766"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3943,
+            "sha256": "09641083a939cd1d6c26d97ddb5ddbb8b3a321d58d171ddb25ae8543a254a7fe"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M7"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.4951882005977855e-05,
+          "iterations": 38,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.5034989260979857,
+          "pairs": 1551,
+          "rows": 3943,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M5/within_tdp43_gse288185_4.json",
+          "sha256": "dd89e443a56183200b5b1e0a345d3c6e2aeee49e851774680b01f0010998ba16"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M5_E",
+        "selected_family": "M5",
+        "task": "within_tdp43_gse288185_4"
+      },
+      {
+        "boundary": {
+          "evaluation": {
+            "count": 623,
+            "sha256": "422a50459060775465dc06eda366dc8f952f026e46148ea6bd54325580b3a766"
+          },
+          "evaluation_components": 3,
+          "evaluation_decisions": 3,
+          "group_purged": true,
+          "shared_components": [],
+          "shared_interventions": [],
+          "train": {
+            "count": 3943,
+            "sha256": "09641083a939cd1d6c26d97ddb5ddbb8b3a321d58d171ddb25ae8543a254a7fe"
+          },
+          "train_components": 13
+        },
+        "candidate_pool": [
+          "M0"
+        ],
+        "fit_audit": {
+          "converged": true,
+          "gradient_max_abs": 2.3535252579240384e-05,
+          "iterations": 32,
+          "latent_receives_source_identity": false,
+          "nuisance_penalty": "linear predictability only",
+          "objective": 0.6433304830572442,
+          "pairs": 1551,
+          "rows": 3943,
+          "source_names": [
+            "tdp43_gse288185"
+          ]
+        },
+        "model": {
+          "path": "models/mechanism_v2/fits/transfer/M0/within_tdp43_gse288185_4.json",
+          "sha256": "1dc9f8c068d2a36209aba745b240689bbf6139bf12c2b8cc1913a307d3e9a441"
+        },
+        "purged_train_rows": 0,
+        "recipe_id": "M0_C",
+        "selected_family": "M0",
+        "task": "within_tdp43_gse288185_4"
+      }
+    ]
+  },
+  "format": "mechanism_v2_transfer_evidence_v1",
+  "gate_config_sha256": "a57dd77f6b13dc2e36a40cc874f8d447f54174f1f3c863caeef187b915eca1e5",
+  "gates": {
+    "g4_leave_source": {
+      "checks": {
+        "all_six_tasks_eligible": true,
+        "macro_rank_gain": true,
+        "macro_regret_gain": true,
+        "no_single_source_dominates": true,
+        "tasks_improving_both": false
+      },
+      "eligible_tasks": [
+        "leave_source_mikl_gse173098|decrease",
+        "leave_source_mikl_gse173098|increase",
+        "leave_source_moffatt_gse334718|decrease",
+        "leave_source_moffatt_gse334718|increase",
+        "leave_source_tdp43_gse288185|decrease",
+        "leave_source_tdp43_gse288185|increase"
+      ],
+      "gate": "g4_leave_source",
+      "largest_source_share_of_positive_regret_gain": 0.7240134283559464,
+      "macro_rank_gain": 0.013277432002245702,
+      "macro_regret_gain": 0.018702748762608738,
+      "per_task_rank_gain": {
+        "leave_source_mikl_gse173098|decrease": -0.000683379538841286,
+        "leave_source_mikl_gse173098|increase": 0.007991153585093107,
+        "leave_source_moffatt_gse334718|decrease": 0.01565420573682811,
+        "leave_source_moffatt_gse334718|increase": -0.16759536644043987,
+        "leave_source_tdp43_gse288185|decrease": 0.034735129228299064,
+        "leave_source_tdp43_gse288185|increase": 0.1895628494425351
+      },
+      "per_task_regret_gain": {
+        "leave_source_mikl_gse173098|decrease": 0.006429967200574744,
+        "leave_source_mikl_gse173098|increase": -0.0010049674879598987,
+        "leave_source_moffatt_gse334718|decrease": 0.04768536639581257,
+        "leave_source_moffatt_gse334718|increase": -0.08285812914981192,
+        "leave_source_tdp43_gse288185|decrease": 0.08036580588590503,
+        "leave_source_tdp43_gse288185|increase": 0.061598449731131905
+      },
+      "status": "fail",
+      "tasks_improving_both": [
+        "leave_source_moffatt_gse334718|decrease",
+        "leave_source_tdp43_gse288185|decrease",
+        "leave_source_tdp43_gse288185|increase"
+      ],
+      "thresholds": {
+        "macro_rank_gain_minimum_exclusive": 0.0,
+        "macro_regret_gain_minimum": 0.01,
+        "maximum_single_source_share_of_positive_regret_gain": 0.75,
+        "minimum_tasks_improving_both": 4,
+        "tasks": "three sources withheld separately with connected-group purging, both directions",
+        "total_tasks": 6
+      }
+    },
+    "g5_cross_context": {
+      "cross_cell": {
+        "checks": {
+          "all_tasks_eligible": true,
+          "macro_regret_gain": false,
+          "tasks_improving_both": false
+        },
+        "eligible_tasks": [
+          "cross_cell_CAD_to_Neuro-2a|decrease",
+          "cross_cell_CAD_to_Neuro-2a|increase",
+          "cross_cell_Neuro-2a_to_CAD|decrease",
+          "cross_cell_Neuro-2a_to_CAD|increase"
+        ],
+        "macro_rank_gain": -0.009493570054172855,
+        "macro_regret_gain": -0.00291165354515074,
+        "per_task_rank_gain": {
+          "cross_cell_CAD_to_Neuro-2a|decrease": -0.008327655141857158,
+          "cross_cell_CAD_to_Neuro-2a|increase": 0.01712610310366782,
+          "cross_cell_Neuro-2a_to_CAD|decrease": -0.008821599874733448,
+          "cross_cell_Neuro-2a_to_CAD|increase": -0.037951128303768636
+        },
+        "per_task_regret_gain": {
+          "cross_cell_CAD_to_Neuro-2a|decrease": -0.012617805242451692,
+          "cross_cell_CAD_to_Neuro-2a|increase": 0.009449762211141171,
+          "cross_cell_Neuro-2a_to_CAD|decrease": -0.003527293183617472,
+          "cross_cell_Neuro-2a_to_CAD|increase": -0.0049512779656749675
+        },
+        "status": "fail",
+        "tasks_improving_both": [
+          "cross_cell_CAD_to_Neuro-2a|increase"
+        ]
+      },
+      "cross_reporter": {
+        "checks": {
+          "all_tasks_eligible": true,
+          "macro_regret_gain": false,
+          "tasks_improving_both": false
+        },
+        "eligible_tasks": [
+          "cross_reporter_Firefly_to_GFP|decrease",
+          "cross_reporter_Firefly_to_GFP|increase",
+          "cross_reporter_GFP_to_Firefly|decrease",
+          "cross_reporter_GFP_to_Firefly|increase"
+        ],
+        "macro_rank_gain": -0.059055324369897556,
+        "macro_regret_gain": -0.0205636978917561,
+        "per_task_rank_gain": {
+          "cross_reporter_Firefly_to_GFP|decrease": -0.06066358233702899,
+          "cross_reporter_Firefly_to_GFP|increase": -0.06185007232792572,
+          "cross_reporter_GFP_to_Firefly|decrease": 0.027840112895137787,
+          "cross_reporter_GFP_to_Firefly|increase": -0.14154775570977332
+        },
+        "per_task_regret_gain": {
+          "cross_reporter_Firefly_to_GFP|decrease": -0.003972056462339382,
+          "cross_reporter_Firefly_to_GFP|increase": -0.038691258566593924,
+          "cross_reporter_GFP_to_Firefly|decrease": 0.05499479383776979,
+          "cross_reporter_GFP_to_Firefly|increase": -0.09458627037586087
+        },
+        "status": "fail",
+        "tasks_improving_both": [
+          "cross_reporter_GFP_to_Firefly|decrease"
+        ]
+      },
+      "gate": "g5_cross_context",
+      "status": "fail",
+      "thresholds": {
+        "cell_tasks_improving_both_minimum": 3,
+        "cell_tasks_total": 4,
+        "macro_regret_gain_minimum": 0.005,
+        "paired_context_diagnostic": "labelled diagnostic only, never the zero-shot gate",
+        "purging": "connected groups held out across contexts; a measured mutant may never serve as its own transfer",
+        "reporter_tasks_improving_both_minimum": 3,
+        "reporter_tasks_total": 4
+      }
+    }
+  },
+  "inventory_scope": "3 leave-source, 15 within-source, 10 cell, 10 reporter and 5 large-to-small held-group tasks",
+  "inventory_sha256": "ff98767ec477b4b01b3c4bcd8c3a8734a37c792140eaa03217582f83f71238a5",
+  "notes": [
+    "Held connected groups are purged from the training side of every task, so a measured mutant never serves as its own transfer.",
+    "Both the mechanistic family and the recipe are re-selected inside each task training domain from the full M1-M7 pool; no primary-fold choice is borrowed for a different training domain.",
+    "A directed transfer with no eligible fold is reported as ineligible, never passed."
+  ],
+  "outer_freeze_git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "selector_candidate_pool": [
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "M7"
+  ],
+  "tasks": {
+    "cross_cell_CAD_to_Neuro-2a": {
+      "coverage_rows": 11808,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.19576719576719576,
+            "good_at_5": 0.2804232804232804,
+            "random_expected_regret": 0.5253293617417619,
+            "rank": 0.5251442590215786,
+            "regret": 0.5036920057494059
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "decrease",
+              "rank_gain": -0.008327655141857158,
+              "regret_gain": -0.012617805242451692
+            }
+          ],
+          "decisions": 189,
+          "direction": "decrease",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "decrease": 0.4126984126984127
+            },
+            "fraction_improved": 0.4126984126984127,
+            "leave_best_one_out_mean": -0.017592167750485,
+            "median": 0.0,
+            "quartiles": [
+              -0.08955644926289502,
+              0.09267523820524651
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.4126984126984127
+            },
+            "worst_decile_mean": -0.5777663537071994,
+            "worst_decile_quantile": -0.34914485178437105
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_cell_CAD_to_Neuro-2a|decrease",
+          "paired_rows": 189,
+          "point": {
+            "rank_gain": -0.008327655141857158,
+            "regret_gain": -0.012617805242451692
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.19047619047619047,
+            "good_at_5": 0.2857142857142857,
+            "random_expected_regret": 0.5253293617417619,
+            "rank": 0.5168166038797214,
+            "regret": 0.5163098109918576
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.3333333333333333,
+            "good_at_5": 0.4708994708994709,
+            "random_expected_regret": 0.4746706382582381,
+            "rank": 0.5608510607244426,
+            "regret": 0.4371164124026053
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "increase",
+              "rank_gain": 0.01712610310366782,
+              "regret_gain": 0.009449762211141171
+            }
+          ],
+          "decisions": 189,
+          "direction": "increase",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "increase": 0.43386243386243384
+            },
+            "fraction_improved": 0.43386243386243384,
+            "leave_best_one_out_mean": 0.004180877967583412,
+            "median": 0.0,
+            "quartiles": [
+              -0.06769992190057716,
+              0.16029737411118627
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.43386243386243384
+            },
+            "worst_decile_mean": -0.6581932754692102,
+            "worst_decile_quantile": -0.39871475342627277
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_cell_CAD_to_Neuro-2a|increase",
+          "paired_rows": 189,
+          "point": {
+            "rank_gain": 0.01712610310366782,
+            "regret_gain": 0.009449762211141171
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.32275132275132273,
+            "good_at_5": 0.42328042328042326,
+            "random_expected_regret": 0.4746706382582381,
+            "rank": 0.5779771638281104,
+            "regret": 0.4276666501914641
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 5,
+      "ineligible_folds": [],
+      "kind": "cross_cell"
+    },
+    "cross_cell_Neuro-2a_to_CAD": {
+      "coverage_rows": 11808,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.17989417989417988,
+            "good_at_5": 0.30158730158730157,
+            "random_expected_regret": 0.5223868366247488,
+            "rank": 0.5432898412019588,
+            "regret": 0.5006552703453835
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "decrease",
+              "rank_gain": -0.008821599874733448,
+              "regret_gain": -0.003527293183617472
+            }
+          ],
+          "decisions": 189,
+          "direction": "decrease",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "decrease": 0.4444444444444444
+            },
+            "fraction_improved": 0.4444444444444444,
+            "leave_best_one_out_mean": -0.00856053863543149,
+            "median": 0.0,
+            "quartiles": [
+              -0.14710371056971766,
+              0.10324953783555968
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.4444444444444444
+            },
+            "worst_decile_mean": -0.5069970951893469,
+            "worst_decile_quantile": -0.3571319233493774
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_cell_Neuro-2a_to_CAD|decrease",
+          "paired_rows": 189,
+          "point": {
+            "rank_gain": -0.008821599874733448,
+            "regret_gain": -0.003527293183617472
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.19576719576719576,
+            "good_at_5": 0.2857142857142857,
+            "random_expected_regret": 0.5223868366247488,
+            "rank": 0.5344682413272254,
+            "regret": 0.5041825635290009
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.2857142857142857,
+            "good_at_5": 0.37566137566137564,
+            "random_expected_regret": 0.4776131633752512,
+            "rank": 0.5586626738776166,
+            "regret": 0.45262037934707133
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "increase",
+              "rank_gain": -0.037951128303768636,
+              "regret_gain": -0.0049512779656749675
+            }
+          ],
+          "decisions": 189,
+          "direction": "increase",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "increase": 0.4021164021164021
+            },
+            "fraction_improved": 0.4021164021164021,
+            "leave_best_one_out_mean": -0.010296763486768987,
+            "median": -0.007977476025030572,
+            "quartiles": [
+              -0.19001865663907008,
+              0.14995526022282535
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.4021164021164021
+            },
+            "worst_decile_mean": -0.5473955827804527,
+            "worst_decile_quantile": -0.31808177370670077
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_cell_Neuro-2a_to_CAD|increase",
+          "paired_rows": 189,
+          "point": {
+            "rank_gain": -0.037951128303768636,
+            "regret_gain": -0.0049512779656749675
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 189,
+            "eligible": true,
+            "good_at_3": 0.2804232804232804,
+            "good_at_5": 0.3915343915343915,
+            "random_expected_regret": 0.4776131633752512,
+            "rank": 0.520711545573848,
+            "regret": 0.45757165731274635
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 5,
+      "ineligible_folds": [],
+      "kind": "cross_cell"
+    },
+    "cross_reporter_Firefly_to_GFP": {
+      "coverage_rows": 44248,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 8,
+            "decisions": 29,
+            "eligible": true,
+            "good_at_3": 0.1625,
+            "good_at_5": 0.1875,
+            "random_expected_regret": 0.4239311241763042,
+            "rank": 0.703122987062831,
+            "regret": 0.3152094552547798
+          },
+          "components": 8,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "decrease",
+              "rank_gain": -0.06066358233702899,
+              "regret_gain": -0.003972056462339382
+            }
+          ],
+          "decisions": 29,
+          "direction": "decrease",
+          "distributed": {
+            "components": 8,
+            "direction_fractions": {
+              "decrease": 0.5
+            },
+            "fraction_improved": 0.5,
+            "leave_best_one_out_mean": -0.021208272284036996,
+            "median": 0.014420294095002777,
+            "quartiles": [
+              -0.04688853635384405,
+              0.08687258292246958
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.5
+            },
+            "worst_decile_mean": -0.17447735014455903,
+            "worst_decile_quantile": -0.17405807192882206
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_reporter_Firefly_to_GFP|decrease",
+          "paired_rows": 29,
+          "point": {
+            "rank_gain": -0.06066358233702899,
+            "regret_gain": -0.003972056462339382
+          },
+          "selected": {
+            "components": 8,
+            "decisions": 29,
+            "eligible": true,
+            "good_at_3": 0.3625,
+            "good_at_5": 0.39375,
+            "random_expected_regret": 0.4239311241763042,
+            "rank": 0.642459404725802,
+            "regret": 0.31918151171711917
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 8,
+            "decisions": 29,
+            "eligible": true,
+            "good_at_3": 0.0,
+            "good_at_5": 0.05625,
+            "random_expected_regret": 0.5760688758236958,
+            "rank": 0.6024380163110855,
+            "regret": 0.5073628304537932
+          },
+          "components": 8,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "increase",
+              "rank_gain": -0.06185007232792572,
+              "regret_gain": -0.038691258566593924
+            }
+          ],
+          "decisions": 29,
+          "direction": "increase",
+          "distributed": {
+            "components": 8,
+            "direction_fractions": {
+              "increase": 0.25
+            },
+            "fraction_improved": 0.25,
+            "leave_best_one_out_mean": -0.05605109913267917,
+            "median": -0.0312224997896921,
+            "quartiles": [
+              -0.10845063482231969,
+              0.011241705288066787
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.25
+            },
+            "worst_decile_mean": -0.16313868028037065,
+            "worst_decile_quantile": -0.13086989548785888
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_reporter_Firefly_to_GFP|increase",
+          "paired_rows": 29,
+          "point": {
+            "rank_gain": -0.06185007232792572,
+            "regret_gain": -0.038691258566593924
+          },
+          "selected": {
+            "components": 8,
+            "decisions": 29,
+            "eligible": true,
+            "good_at_3": 0.0,
+            "good_at_5": 0.03125,
+            "random_expected_regret": 0.5760688758236958,
+            "rank": 0.5405879439831598,
+            "regret": 0.5460540890203871
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 5,
+      "ineligible_folds": [],
+      "kind": "cross_reporter"
+    },
+    "cross_reporter_GFP_to_Firefly": {
+      "coverage_rows": 20778,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 6,
+            "decisions": 22,
+            "eligible": true,
+            "good_at_3": 0.2833333333333333,
+            "good_at_5": 0.49166666666666664,
+            "random_expected_regret": 0.37444704055535905,
+            "rank": 0.6367749138561205,
+            "regret": 0.36328046808082215
+          },
+          "components": 6,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "decrease",
+              "rank_gain": 0.027840112895137787,
+              "regret_gain": 0.05499479383776979
+            }
+          ],
+          "decisions": 22,
+          "direction": "decrease",
+          "distributed": {
+            "components": 6,
+            "direction_fractions": {
+              "decrease": 0.5
+            },
+            "fraction_improved": 0.5,
+            "leave_best_one_out_mean": -0.0460542978688714,
+            "median": -0.013680769782162556,
+            "quartiles": [
+              -0.07668427870391481,
+              0.06860505862984831
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.5
+            },
+            "worst_decile_mean": -0.20125816953605158,
+            "worst_decile_quantile": -0.1425572311919899
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_reporter_GFP_to_Firefly|decrease",
+          "paired_rows": 22,
+          "point": {
+            "rank_gain": 0.027840112895137787,
+            "regret_gain": 0.05499479383776979
+          },
+          "selected": {
+            "components": 6,
+            "decisions": 22,
+            "eligible": true,
+            "good_at_3": 0.16666666666666666,
+            "good_at_5": 0.25555555555555554,
+            "random_expected_regret": 0.37444704055535905,
+            "rank": 0.6646150267512584,
+            "regret": 0.3082856742430523
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 6,
+            "decisions": 22,
+            "eligible": true,
+            "good_at_3": 0.05555555555555555,
+            "good_at_5": 0.05555555555555555,
+            "random_expected_regret": 0.6255529594446411,
+            "rank": 0.5968055455057594,
+            "regret": 0.5506361991605991
+          },
+          "components": 6,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "increase",
+              "rank_gain": -0.14154775570977332,
+              "regret_gain": -0.09458627037586087
+            }
+          ],
+          "decisions": 22,
+          "direction": "increase",
+          "distributed": {
+            "components": 6,
+            "direction_fractions": {
+              "increase": 0.16666666666666666
+            },
+            "fraction_improved": 0.16666666666666666,
+            "leave_best_one_out_mean": -0.1218946751661586,
+            "median": -0.04472089759310764,
+            "quartiles": [
+              -0.18840111548851624,
+              -0.029706715506943464
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.16666666666666666
+            },
+            "worst_decile_mean": -0.2590350710460365,
+            "worst_decile_quantile": -0.24738180975059001
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "cross_reporter_GFP_to_Firefly|increase",
+          "paired_rows": 22,
+          "point": {
+            "rank_gain": -0.14154775570977332,
+            "regret_gain": -0.09458627037586087
+          },
+          "selected": {
+            "components": 6,
+            "decisions": 22,
+            "eligible": true,
+            "good_at_3": 0.0,
+            "good_at_5": 0.0,
+            "random_expected_regret": 0.6255529594446411,
+            "rank": 0.45525778979598613,
+            "regret": 0.64522246953646
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 4,
+      "ineligible_folds": [
+        {
+          "reason": "fewer_than_three_training_components_or_empty_test",
+          "task": "cross_reporter_GFP_to_Firefly_2",
+          "test_decisions": 0,
+          "train_components": 7
+        }
+      ],
+      "kind": "cross_reporter"
+    },
+    "large_to_small": {
+      "coverage_rows": 49274,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 211,
+            "decisions": 433,
+            "eligible": true,
+            "good_at_3": 0.2089726631393298,
+            "good_at_5": 0.31990740740740736,
+            "random_expected_regret": 0.4782645360523426,
+            "rank": 0.5706472046772896,
+            "regret": 0.4249873375693361
+          },
+          "components": 211,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "decrease",
+              "rank_gain": -0.018490079235903928,
+              "regret_gain": -0.01948984519662482
+            },
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "decrease",
+              "rank_gain": -0.27519549970807,
+              "regret_gain": -0.1748429286676101
+            },
+            {
+              "dataset": "tdp43_gse288185",
+              "direction": "decrease",
+              "rank_gain": -0.1172821322354925,
+              "regret_gain": -0.09816071430431673
+            }
+          ],
+          "decisions": 433,
+          "direction": "decrease",
+          "distributed": {
+            "components": 211,
+            "direction_fractions": {
+              "decrease": 0.41232227488151657
+            },
+            "fraction_improved": 0.41232227488151657,
+            "leave_best_one_out_mean": -0.035300262457641125,
+            "median": 0.0,
+            "quartiles": [
+              -0.12643142008666614,
+              0.06586953062106536
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.42328042328042326,
+              "moffatt_gse334718": 0.25,
+              "tdp43_gse288185": 0.3125
+            },
+            "worst_decile_mean": -0.45223027081071526,
+            "worst_decile_quantile": -0.2908857209852477
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "large_to_small|decrease",
+          "paired_rows": 433,
+          "point": {
+            "rank_gain": -0.13698923705982216,
+            "regret_gain": -0.09749782938951722
+          },
+          "selected": {
+            "components": 211,
+            "decisions": 433,
+            "eligible": true,
+            "good_at_3": 0.174647266313933,
+            "good_at_5": 0.24045414462081127,
+            "random_expected_regret": 0.4782645360523426,
+            "rank": 0.43365796761746744,
+            "regret": 0.5224851669588534
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 211,
+            "decisions": 433,
+            "eligible": true,
+            "good_at_3": 0.14522707231040563,
+            "good_at_5": 0.21544312169312171,
+            "random_expected_regret": 0.5217354639476574,
+            "rank": 0.46799145214142296,
+            "regret": 0.5325723450737222
+          },
+          "components": 211,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "increase",
+              "rank_gain": -0.012397617097663505,
+              "regret_gain": 0.00016510124326551203
+            },
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "increase",
+              "rank_gain": -0.032860221517311744,
+              "regret_gain": -0.07561863691243961
+            },
+            {
+              "dataset": "tdp43_gse288185",
+              "direction": "increase",
+              "rank_gain": 0.07748130385782692,
+              "regret_gain": 0.03103013096609987
+            }
+          ],
+          "decisions": 433,
+          "direction": "increase",
+          "distributed": {
+            "components": 211,
+            "direction_fractions": {
+              "increase": 0.4928909952606635
+            },
+            "fraction_improved": 0.4928909952606635,
+            "leave_best_one_out_mean": -0.004378089449508366,
+            "median": 0.0,
+            "quartiles": [
+              -0.10690649792631209,
+              0.13013896642650863
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.49206349206349204,
+              "moffatt_gse334718": 0.625,
+              "tdp43_gse288185": 0.5
+            },
+            "worst_decile_mean": -0.46426257776860386,
+            "worst_decile_quantile": -0.27957786887661
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "large_to_small|increase",
+          "paired_rows": 433,
+          "point": {
+            "rank_gain": 0.01074115508095056,
+            "regret_gain": -0.014807801567691412
+          },
+          "selected": {
+            "components": 211,
+            "decisions": 433,
+            "eligible": true,
+            "good_at_3": 0.18424823633156964,
+            "good_at_5": 0.2768959435626102,
+            "random_expected_regret": 0.5217354639476574,
+            "rank": 0.4787326072223735,
+            "regret": 0.5473801466414137
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 5,
+      "ineligible_folds": [],
+      "kind": "large_to_small"
+    },
+    "leave_source_mikl_gse173098": {
+      "coverage_rows": 23616,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.1984126984126984,
+            "good_at_5": 0.30952380952380953,
+            "random_expected_regret": 0.5238580991832553,
+            "rank": 0.48134156240187237,
+            "regret": 0.5453084725192884
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "decrease",
+              "rank_gain": -0.000683379538841286,
+              "regret_gain": 0.006429967200574744
+            }
+          ],
+          "decisions": 378,
+          "direction": "decrease",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "decrease": 0.4444444444444444
+            },
+            "fraction_improved": 0.4444444444444444,
+            "leave_best_one_out_mean": 0.003118012801740104,
+            "median": 0.0,
+            "quartiles": [
+              -0.1290906286433368,
+              0.1425456066058577
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.4444444444444444
+            },
+            "worst_decile_mean": -0.42978186703140003,
+            "worst_decile_quantile": -0.2783308727974446
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "leave_source_mikl_gse173098|decrease",
+          "paired_rows": 378,
+          "point": {
+            "rank_gain": -0.000683379538841286,
+            "regret_gain": 0.006429967200574744
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.20899470899470898,
+            "good_at_5": 0.32275132275132273,
+            "random_expected_regret": 0.5238580991832553,
+            "rank": 0.48065818286303114,
+            "regret": 0.5388785053187136
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.19576719576719576,
+            "good_at_5": 0.291005291005291,
+            "random_expected_regret": 0.4761419008167446,
+            "rank": 0.510554960588533,
+            "regret": 0.4729454958493813
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "increase",
+              "rank_gain": 0.007991153585093107,
+              "regret_gain": -0.0010049674879598987
+            }
+          ],
+          "decisions": 378,
+          "direction": "increase",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "increase": 0.5132275132275133
+            },
+            "fraction_improved": 0.5132275132275133,
+            "leave_best_one_out_mean": -0.004682976527925881,
+            "median": 0.008683161859030147,
+            "quartiles": [
+              -0.09595957683053691,
+              0.10510062855329469
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.5132275132275133
+            },
+            "worst_decile_mean": -0.478348279120949,
+            "worst_decile_quantile": -0.27963263069999106
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "leave_source_mikl_gse173098|increase",
+          "paired_rows": 378,
+          "point": {
+            "rank_gain": 0.007991153585093107,
+            "regret_gain": -0.0010049674879598987
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.24074074074074073,
+            "good_at_5": 0.3333333333333333,
+            "random_expected_regret": 0.4761419008167446,
+            "rank": 0.5185461141736261,
+            "regret": 0.4739504633373412
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 1,
+      "ineligible_folds": [],
+      "kind": "leave_source"
+    },
+    "leave_source_moffatt_gse334718": {
+      "coverage_rows": 65026,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.15912698412698412,
+            "good_at_5": 0.25436507936507935,
+            "random_expected_regret": 0.40927164530370963,
+            "rank": 0.6823729543154775,
+            "regret": 0.30360797609018686
+          },
+          "components": 8,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "decrease",
+              "rank_gain": 0.01565420573682811,
+              "regret_gain": 0.04768536639581257
+            }
+          ],
+          "decisions": 51,
+          "direction": "decrease",
+          "distributed": {
+            "components": 8,
+            "direction_fractions": {
+              "decrease": 0.375
+            },
+            "fraction_improved": 0.375,
+            "leave_best_one_out_mean": -0.031014141587232702,
+            "median": -0.027962293067632624,
+            "quartiles": [
+              -0.06904450898645743,
+              0.07543587376026334
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.375
+            },
+            "worst_decile_mean": -0.1751878130680816,
+            "worst_decile_quantile": -0.1238163413875452
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "leave_source_moffatt_gse334718|decrease",
+          "paired_rows": 51,
+          "point": {
+            "rank_gain": 0.01565420573682811,
+            "regret_gain": 0.04768536639581257
+          },
+          "selected": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.264484126984127,
+            "good_at_5": 0.276984126984127,
+            "random_expected_regret": 0.40927164530370963,
+            "rank": 0.6980271600523057,
+            "regret": 0.2559226096943743
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.04821428571428571,
+            "good_at_5": 0.062103174603174605,
+            "random_expected_regret": 0.5907283546962904,
+            "rank": 0.6000679764968859,
+            "regret": 0.5421515814514591
+          },
+          "components": 8,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "increase",
+              "rank_gain": -0.16759536644043987,
+              "regret_gain": -0.08285812914981192
+            }
+          ],
+          "decisions": 51,
+          "direction": "increase",
+          "distributed": {
+            "components": 8,
+            "direction_fractions": {
+              "increase": 0.125
+            },
+            "fraction_improved": 0.125,
+            "leave_best_one_out_mean": -0.09800731869038039,
+            "median": -0.09527757330940147,
+            "quartiles": [
+              -0.15147793504526036,
+              -0.012392579838174609
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.125
+            },
+            "worst_decile_mean": -0.16802579687015995,
+            "worst_decile_quantile": -0.15996601003155742
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "leave_source_moffatt_gse334718|increase",
+          "paired_rows": 51,
+          "point": {
+            "rank_gain": -0.16759536644043987,
+            "regret_gain": -0.08285812914981192
+          },
+          "selected": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.06349206349206349,
+            "good_at_5": 0.06349206349206349,
+            "random_expected_regret": 0.5907283546962904,
+            "rank": 0.4324726100564461,
+            "regret": 0.6250097106012711
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 1,
+      "ineligible_folds": [],
+      "kind": "leave_source"
+    },
+    "leave_source_tdp43_gse288185": {
+      "coverage_rows": 4566,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.0625,
+            "good_at_5": 0.0625,
+            "random_expected_regret": 0.6172471817965034,
+            "rank": 0.6340724670722112,
+            "regret": 0.5674703905840801
+          },
+          "components": 16,
+          "contexts": [
+            {
+              "dataset": "tdp43_gse288185",
+              "direction": "decrease",
+              "rank_gain": 0.034735129228299064,
+              "regret_gain": 0.08036580588590503
+            }
+          ],
+          "decisions": 16,
+          "direction": "decrease",
+          "distributed": {
+            "components": 16,
+            "direction_fractions": {
+              "decrease": 0.625
+            },
+            "fraction_improved": 0.625,
+            "leave_best_one_out_mean": 0.030578472307964125,
+            "median": 0.03820673957901086,
+            "quartiles": [
+              -0.03864254662419407,
+              0.14182290744496123
+            ],
+            "source_fractions": {
+              "tdp43_gse288185": 0.625
+            },
+            "worst_decile_mean": -0.21458073123672855,
+            "worst_decile_quantile": -0.12781824065962394
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "leave_source_tdp43_gse288185|decrease",
+          "paired_rows": 16,
+          "point": {
+            "rank_gain": 0.034735129228299064,
+            "regret_gain": 0.08036580588590503
+          },
+          "selected": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.1875,
+            "good_at_5": 0.25,
+            "random_expected_regret": 0.6172471817965034,
+            "rank": 0.6688075963005102,
+            "regret": 0.487104584698175
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.1875,
+            "good_at_5": 0.25,
+            "random_expected_regret": 0.38275281820349666,
+            "rank": 0.4602715760125802,
+            "regret": 0.3702756507334735
+          },
+          "components": 16,
+          "contexts": [
+            {
+              "dataset": "tdp43_gse288185",
+              "direction": "increase",
+              "rank_gain": 0.1895628494425351,
+              "regret_gain": 0.061598449731131905
+            }
+          ],
+          "decisions": 16,
+          "direction": "increase",
+          "distributed": {
+            "components": 16,
+            "direction_fractions": {
+              "increase": 0.6875
+            },
+            "fraction_improved": 0.6875,
+            "leave_best_one_out_mean": 0.02633805913348162,
+            "median": 0.03227622865957552,
+            "quartiles": [
+              -0.009121318956406069,
+              0.08458409565238924
+            ],
+            "source_fractions": {
+              "tdp43_gse288185": 0.6875
+            },
+            "worst_decile_mean": -0.14290221672125833,
+            "worst_decile_quantile": -0.07747708500891504
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "leave_source_tdp43_gse288185|increase",
+          "paired_rows": 16,
+          "point": {
+            "rank_gain": 0.1895628494425351,
+            "regret_gain": 0.061598449731131905
+          },
+          "selected": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.1875,
+            "good_at_5": 0.25,
+            "random_expected_regret": 0.38275281820349666,
+            "rank": 0.6498344254551153,
+            "regret": 0.30867720100234164
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 1,
+      "ineligible_folds": [],
+      "kind": "leave_source"
+    },
+    "within_mikl_gse173098": {
+      "coverage_rows": 23616,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.1931216931216931,
+            "good_at_5": 0.3201058201058201,
+            "random_expected_regret": 0.5238580991832553,
+            "rank": 0.5294428024745873,
+            "regret": 0.5062990577112436
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "decrease",
+              "rank_gain": 0.009020844217078517,
+              "regret_gain": -0.00197942391152867
+            }
+          ],
+          "decisions": 378,
+          "direction": "decrease",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "decrease": 0.4497354497354497
+            },
+            "fraction_improved": 0.4497354497354497,
+            "leave_best_one_out_mean": -0.0051108303045366114,
+            "median": 0.0,
+            "quartiles": [
+              -0.09522431175162276,
+              0.08979772325299958
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.4497354497354497
+            },
+            "worst_decile_mean": -0.4145925817136699,
+            "worst_decile_quantile": -0.24722455151006908
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "within_mikl_gse173098|decrease",
+          "paired_rows": 378,
+          "point": {
+            "rank_gain": 0.009020844217078517,
+            "regret_gain": -0.00197942391152867
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.21164021164021163,
+            "good_at_5": 0.29365079365079366,
+            "random_expected_regret": 0.5238580991832553,
+            "rank": 0.5384636466916659,
+            "regret": 0.5082784816227723
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.2857142857142857,
+            "good_at_5": 0.42063492063492064,
+            "random_expected_regret": 0.4761419008167446,
+            "rank": 0.5501875563781321,
+            "regret": 0.44729580670484587
+          },
+          "components": 189,
+          "contexts": [
+            {
+              "dataset": "mikl_gse173098",
+              "direction": "increase",
+              "rank_gain": -0.004935665446773142,
+              "regret_gain": 0.001643035722929697
+            }
+          ],
+          "decisions": 378,
+          "direction": "increase",
+          "distributed": {
+            "components": 189,
+            "direction_fractions": {
+              "increase": 0.38095238095238093
+            },
+            "fraction_improved": 0.38095238095238093,
+            "leave_best_one_out_mean": -0.003051776901138365,
+            "median": 0.0,
+            "quartiles": [
+              -0.14065216824781035,
+              0.11986124723198188
+            ],
+            "source_fractions": {
+              "mikl_gse173098": 0.38095238095238093
+            },
+            "worst_decile_mean": -0.41682989786818575,
+            "worst_decile_quantile": -0.304768496299863
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "within_mikl_gse173098|increase",
+          "paired_rows": 378,
+          "point": {
+            "rank_gain": -0.004935665446773142,
+            "regret_gain": 0.001643035722929697
+          },
+          "selected": {
+            "components": 189,
+            "decisions": 378,
+            "eligible": true,
+            "good_at_3": 0.28835978835978837,
+            "good_at_5": 0.3968253968253968,
+            "random_expected_regret": 0.4761419008167446,
+            "rank": 0.545251890931359,
+            "regret": 0.44565277098191614
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 5,
+      "ineligible_folds": [],
+      "kind": "within_source"
+    },
+    "within_moffatt_gse334718": {
+      "coverage_rows": 65026,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.35694444444444445,
+            "good_at_5": 0.4011904761904762,
+            "random_expected_regret": 0.40927164530370963,
+            "rank": 0.7251811141443668,
+            "regret": 0.22505444781871545
+          },
+          "components": 8,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "decrease",
+              "rank_gain": -0.1626500882728764,
+              "regret_gain": -0.11812389092386277
+            }
+          ],
+          "decisions": 51,
+          "direction": "decrease",
+          "distributed": {
+            "components": 8,
+            "direction_fractions": {
+              "decrease": 0.125
+            },
+            "fraction_improved": 0.125,
+            "leave_best_one_out_mean": -0.15304528535797907,
+            "median": -0.0940288716958656,
+            "quartiles": [
+              -0.133325761234082,
+              -0.055820589088112604
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.125
+            },
+            "worst_decile_mean": -0.5268877984610965,
+            "worst_decile_quantile": -0.2642604658878306
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "within_moffatt_gse334718|decrease",
+          "paired_rows": 51,
+          "point": {
+            "rank_gain": -0.1626500882728764,
+            "regret_gain": -0.11812389092386277
+          },
+          "selected": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.12956349206349205,
+            "good_at_5": 0.2988095238095238,
+            "random_expected_regret": 0.40927164530370963,
+            "rank": 0.5625310258714904,
+            "regret": 0.3431783387425782
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.030357142857142857,
+            "good_at_5": 0.030357142857142857,
+            "random_expected_regret": 0.5907283546962904,
+            "rank": 0.6122514967084635,
+            "regret": 0.5024180246903431
+          },
+          "components": 8,
+          "contexts": [
+            {
+              "dataset": "moffatt_gse334718",
+              "direction": "increase",
+              "rank_gain": -0.2438067109040495,
+              "regret_gain": -0.12940129690677787
+            }
+          ],
+          "decisions": 51,
+          "direction": "increase",
+          "distributed": {
+            "components": 8,
+            "direction_fractions": {
+              "increase": 0.125
+            },
+            "fraction_improved": 0.125,
+            "leave_best_one_out_mean": -0.15013915295621016,
+            "median": -0.1425158143918058,
+            "quartiles": [
+              -0.185973664124102,
+              -0.050311868878987434
+            ],
+            "source_fractions": {
+              "moffatt_gse334718": 0.125
+            },
+            "worst_decile_mean": -0.2709408479328381,
+            "worst_decile_quantile": -0.2354095250700579
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "within_moffatt_gse334718|increase",
+          "paired_rows": 51,
+          "point": {
+            "rank_gain": -0.2438067109040495,
+            "regret_gain": -0.12940129690677787
+          },
+          "selected": {
+            "components": 8,
+            "decisions": 51,
+            "eligible": true,
+            "good_at_3": 0.017857142857142856,
+            "good_at_5": 0.03571428571428571,
+            "random_expected_regret": 0.5907283546962904,
+            "rank": 0.368444785804414,
+            "regret": 0.6318193215971211
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 5,
+      "ineligible_folds": [],
+      "kind": "within_source"
+    },
+    "within_tdp43_gse288185": {
+      "coverage_rows": 4566,
+      "directions": {
+        "decrease": {
+          "baseline": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.125,
+            "good_at_5": 0.125,
+            "random_expected_regret": 0.6172471817965034,
+            "rank": 0.7678857354402813,
+            "regret": 0.4804945597738713
+          },
+          "components": 16,
+          "contexts": [
+            {
+              "dataset": "tdp43_gse288185",
+              "direction": "decrease",
+              "rank_gain": -0.03718887801528112,
+              "regret_gain": 0.003798978600178766
+            }
+          ],
+          "decisions": 16,
+          "direction": "decrease",
+          "distributed": {
+            "components": 16,
+            "direction_fractions": {
+              "decrease": 0.4375
+            },
+            "fraction_improved": 0.4375,
+            "leave_best_one_out_mean": -0.05440667095865503,
+            "median": -0.034481417947060916,
+            "quartiles": [
+              -0.08318689441737098,
+              0.038854685601426436
+            ],
+            "source_fractions": {
+              "tdp43_gse288185": 0.4375
+            },
+            "worst_decile_mean": -0.24639188391173733,
+            "worst_decile_quantile": -0.2038557411514639
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "within_tdp43_gse288185|decrease",
+          "paired_rows": 16,
+          "point": {
+            "rank_gain": -0.03718887801528112,
+            "regret_gain": 0.003798978600178766
+          },
+          "selected": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.125,
+            "good_at_5": 0.25,
+            "random_expected_regret": 0.6172471817965034,
+            "rank": 0.7306968574250001,
+            "regret": 0.4766955811736925
+          },
+          "strata": []
+        },
+        "increase": {
+          "baseline": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.1875,
+            "good_at_5": 0.25,
+            "random_expected_regret": 0.38275281820349666,
+            "rank": 0.5852900838827628,
+            "regret": 0.3372094614090238
+          },
+          "components": 16,
+          "contexts": [
+            {
+              "dataset": "tdp43_gse288185",
+              "direction": "increase",
+              "rank_gain": -0.030830790783300845,
+              "regret_gain": -0.02295067005962887
+            }
+          ],
+          "decisions": 16,
+          "direction": "increase",
+          "distributed": {
+            "components": 16,
+            "direction_fractions": {
+              "increase": 0.5
+            },
+            "fraction_improved": 0.5,
+            "leave_best_one_out_mean": -0.05396966480562546,
+            "median": -0.001522968844993148,
+            "quartiles": [
+              -0.05208213404152418,
+              0.044628982033171505
+            ],
+            "source_fractions": {
+              "tdp43_gse288185": 0.5
+            },
+            "worst_decile_mean": -0.4545889225719908,
+            "worst_decile_quantile": -0.27132300041996377
+          },
+          "eligible": true,
+          "excluded_decisions": 0,
+          "label": "within_tdp43_gse288185|increase",
+          "paired_rows": 16,
+          "point": {
+            "rank_gain": -0.030830790783300845,
+            "regret_gain": -0.02295067005962887
+          },
+          "selected": {
+            "components": 16,
+            "decisions": 16,
+            "eligible": true,
+            "good_at_3": 0.3125,
+            "good_at_5": 0.3125,
+            "random_expected_regret": 0.38275281820349666,
+            "rank": 0.554459293099462,
+            "regret": 0.36016013146865267
+          },
+          "strata": []
+        }
+      },
+      "eligible": true,
+      "folds_scored": 5,
+      "ineligible_folds": [],
+      "kind": "within_source"
+    }
+  }
+}

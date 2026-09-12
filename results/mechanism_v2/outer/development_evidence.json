@@ -1,0 +1,3106 @@
+{
+  "abstention_policy": {
+    "coverage": 0.9561797752808989,
+    "covered_cohort_point": {
+      "rank_gain": 0.022266736014887406,
+      "regret_gain": 0.024852791030664345
+    },
+    "eligible": true,
+    "flag_rule": "any nonzero strict donor, strict acceptor, canonical PAS or common PAS variant delta in the top-ranked edit",
+    "flagged_decision_directions": 39,
+    "full_cohort_point": {
+      "rank_gain": 0.025006819534256496,
+      "regret_gain": 0.02520345908860507
+    },
+    "policy": "reported only; the pre-registered primary gate always uses full coverage"
+  },
+  "edit_bands": {
+    "0": {
+      "eligible": false,
+      "reason": "no candidate rows in this band",
+      "rows": 0
+    },
+    "1": {
+      "baseline": {
+        "components": 2,
+        "decisions": 8,
+        "eligible": true,
+        "good_at_3": 0.625,
+        "good_at_5": 0.75,
+        "random_expected_regret": 0.5,
+        "rank": 0.3625,
+        "regret": 0.6333000940251636
+      },
+      "bootstrap": {
+        "components": 2,
+        "confidence95": {
+          "rank_gain": [
+            0.024999999999999994,
+            0.024999999999999994
+          ],
+          "regret_gain": [
+            0.08199579189793271,
+            0.08199579189793271
+          ]
+        },
+        "eligible": false,
+        "missing_context_replicates": 5009,
+        "point": {
+          "rank_gain": 0.024999999999999994,
+          "regret_gain": 0.08199579189793271
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 4991,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 2,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.0,
+          "regret_gain": 0.0
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.5,
+          "regret_gain": -0.30291558560195675
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.0,
+          "regret_gain": 0.0
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.6,
+          "regret_gain": 0.6308987531936876
+        }
+      ],
+      "decisions": 4,
+      "direction": null,
+      "distributed": {
+        "components": 2,
+        "direction_fractions": {
+          "decrease": 0.0,
+          "increase": 0.5
+        },
+        "fraction_improved": 0.5,
+        "leave_best_one_out_mean": -0.15145779280097837,
+        "median": 0.08199579189793271,
+        "quartiles": [
+          -0.03473100045152283,
+          0.19872258424738826
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.0,
+          "moffatt_gse334718": 1.0
+        },
+        "worst_decile_mean": -0.15145779280097837,
+        "worst_decile_quantile": -0.10476707586119616
+      },
+      "eligible": true,
+      "excluded_decisions": 20,
+      "label": "band_1",
+      "paired_rows": 8,
+      "point": {
+        "rank_gain": 0.024999999999999994,
+        "regret_gain": 0.08199579189793271
+      },
+      "rows": 38,
+      "selected": {
+        "components": 2,
+        "decisions": 8,
+        "eligible": true,
+        "good_at_3": 0.75,
+        "good_at_5": 1.0,
+        "random_expected_regret": 0.5,
+        "rank": 0.38749999999999996,
+        "regret": 0.5513043021272309
+      },
+      "strata": []
+    },
+    "11-25": {
+      "baseline": {
+        "components": 85,
+        "decisions": 354,
+        "eligible": true,
+        "good_at_3": 0.47875744047619045,
+        "good_at_5": 0.572767857142857,
+        "random_expected_regret": 0.5,
+        "rank": 0.5030062261915766,
+        "regret": 0.5090486786263836
+      },
+      "bootstrap": {
+        "components": 85,
+        "confidence95": {
+          "rank_gain": [
+            -0.031975636126049194,
+            0.1775866048004048
+          ],
+          "regret_gain": [
+            -0.029456805400840325,
+            0.14757633746520366
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 3,
+        "point": {
+          "rank_gain": 0.0699242908139759,
+          "regret_gain": 0.05465569950335298
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9997,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 85,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.03135617637570763,
+          "regret_gain": 0.012620652542230625
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.026308197011322015,
+          "regret_gain": -0.026599982530929992
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.2857810724837558,
+          "regret_gain": 0.20086378102036204
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.14439054347066266,
+          "regret_gain": 0.13861948627155168
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.0309717899080229,
+          "regret_gain": 0.027345551358584463
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.04664564034297159,
+          "regret_gain": -0.02491529164168094
+        }
+      ],
+      "decisions": 177,
+      "direction": null,
+      "distributed": {
+        "components": 85,
+        "direction_fractions": {
+          "decrease": 0.3176470588235294,
+          "increase": 0.35294117647058826
+        },
+        "fraction_improved": 0.4235294117647059,
+        "leave_best_one_out_mean": 0.0015083454352888377,
+        "median": 0.0,
+        "quartiles": [
+          -0.12946064671089175,
+          0.13056031907084847
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.359375,
+          "moffatt_gse334718": 0.75,
+          "tdp43_gse288185": 0.5714285714285714
+        },
+        "worst_decile_mean": -0.6773367450221967,
+        "worst_decile_quantile": -0.2851645642392303
+      },
+      "eligible": true,
+      "excluded_decisions": 63,
+      "label": "band_11-25",
+      "paired_rows": 354,
+      "point": {
+        "rank_gain": 0.0699242908139759,
+        "regret_gain": 0.05465569950335298
+      },
+      "rows": 5478,
+      "selected": {
+        "components": 85,
+        "decisions": 354,
+        "eligible": true,
+        "good_at_3": 0.4902901785714286,
+        "good_at_5": 0.5533482142857143,
+        "random_expected_regret": 0.5,
+        "rank": 0.5729305170055524,
+        "regret": 0.4543929791230306
+      },
+      "strata": []
+    },
+    "2-10": {
+      "baseline": {
+        "components": 211,
+        "decisions": 866,
+        "eligible": true,
+        "good_at_3": 0.14989252645502646,
+        "good_at_5": 0.21722056878306875,
+        "random_expected_regret": 0.5,
+        "rank": 0.5548203825655623,
+        "regret": 0.46741916574383935
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.048485348433512536,
+            0.07637721301925683
+          ],
+          "regret_gain": [
+            -0.017100262276281714,
+            0.05140421383626782
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.01370358423336926,
+          "regret_gain": 0.016563842718227615
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.02494295161252225,
+          "regret_gain": 0.022837533148426025
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.016004860526676636,
+          "regret_gain": 0.017850829350267428
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.008230553533589143,
+          "regret_gain": 0.01426572657511756
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.020185676115097192,
+          "regret_gain": 0.022476053265762876
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.03525225070710978,
+          "regret_gain": 0.03137254131604879
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.017976565135414936,
+          "regret_gain": -0.009419627346256992
+        }
+      ],
+      "decisions": 433,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.4928909952606635,
+          "increase": 0.5023696682464455
+        },
+        "fraction_improved": 0.5165876777251185,
+        "leave_best_one_out_mean": 0.016799688095431538,
+        "median": 0.008981322478181758,
+        "quartiles": [
+          -0.08152961413392894,
+          0.10381471779122795
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5185185185185185,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.5625
+        },
+        "worst_decile_mean": -0.2512777776620399,
+        "worst_decile_quantile": -0.18766245514021462
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "band_2-10",
+      "paired_rows": 866,
+      "point": {
+        "rank_gain": 0.01370358423336926,
+        "regret_gain": 0.016563842718227615
+      },
+      "rows": 49274,
+      "selected": {
+        "components": 211,
+        "decisions": 866,
+        "eligible": true,
+        "good_at_3": 0.2071897045855379,
+        "good_at_5": 0.2762593694885362,
+        "random_expected_regret": 0.5,
+        "rank": 0.5685239667989316,
+        "regret": 0.45085532302561165
+      },
+      "strata": []
+    },
+    "2-5": {
+      "baseline": {
+        "components": 208,
+        "decisions": 842,
+        "eligible": true,
+        "good_at_3": 0.17361111111111113,
+        "good_at_5": 0.27803388494877856,
+        "random_expected_regret": 0.5,
+        "rank": 0.5415746755049123,
+        "regret": 0.4782885025788455
+      },
+      "bootstrap": {
+        "components": 208,
+        "confidence95": {
+          "rank_gain": [
+            -0.07067489419150105,
+            0.07657827021978861
+          ],
+          "regret_gain": [
+            -0.049281726525730374,
+            0.052339269759550014
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 20,
+        "point": {
+          "rank_gain": 0.005730228821556958,
+          "regret_gain": 0.003912306788424321
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9980,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 208,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.0052648791653163544,
+          "regret_gain": 0.010871273277951723
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.02229023810921808,
+          "regret_gain": 0.02565171151076679
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.04780126958398107,
+          "regret_gain": 0.028477984355444453
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.10357208577989112,
+          "regret_gain": -0.009679715374120329
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.05231157120513822,
+          "regret_gain": -0.012362671637387293
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.010285500645579145,
+          "regret_gain": -0.01948474140210941
+        }
+      ],
+      "decisions": 421,
+      "direction": null,
+      "distributed": {
+        "components": 208,
+        "direction_fractions": {
+          "decrease": 0.46634615384615385,
+          "increase": 0.49038461538461536
+        },
+        "fraction_improved": 0.5096153846153846,
+        "leave_best_one_out_mean": 0.010790114520181523,
+        "median": 0.005651528117890721,
+        "quartiles": [
+          -0.11835660963263095,
+          0.13808261558382068
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.4946808510638298,
+          "moffatt_gse334718": 0.6666666666666666,
+          "tdp43_gse288185": 0.6
+        },
+        "worst_decile_mean": -0.3770420141423154,
+        "worst_decile_quantile": -0.23602754454031133
+      },
+      "eligible": true,
+      "excluded_decisions": 2,
+      "label": "band_2-5",
+      "paired_rows": 842,
+      "point": {
+        "rank_gain": 0.005730228821556958,
+        "regret_gain": 0.003912306788424321
+      },
+      "rows": 26830,
+      "selected": {
+        "components": 208,
+        "decisions": 842,
+        "eligible": true,
+        "good_at_3": 0.22172970843183606,
+        "good_at_5": 0.3070429472025216,
+        "random_expected_regret": 0.5,
+        "rank": 0.5473049043264694,
+        "regret": 0.4743761957904212
+      },
+      "strata": []
+    },
+    "26-50": {
+      "baseline": {
+        "components": 22,
+        "decisions": 116,
+        "eligible": true,
+        "good_at_3": 0.5206183862433863,
+        "good_at_5": 0.6217923280423281,
+        "random_expected_regret": 0.5,
+        "rank": 0.5705399118702604,
+        "regret": 0.43240812825970226
+      },
+      "bootstrap": {
+        "components": 22,
+        "confidence95": {
+          "rank_gain": [
+            -0.24156360652270506,
+            0.05556501449731158
+          ],
+          "regret_gain": [
+            -0.26975236539581204,
+            0.02473757472610128
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 30,
+        "point": {
+          "rank_gain": -0.07305369849941937,
+          "regret_gain": -0.0997703336073349
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9970,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 22,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": -0.2,
+          "regret_gain": -0.2
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.2333333333333333,
+          "regret_gain": -0.2469217245872084
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.004814046159264229,
+          "regret_gain": -0.043529135278640205
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.045437250183765016,
+          "regret_gain": 0.005887376185100764
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": -0.08457396664702038,
+          "regret_gain": -0.12373771707074588
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.02933381264080827,
+          "regret_gain": 0.009679199107484366
+        }
+      ],
+      "decisions": 58,
+      "direction": null,
+      "distributed": {
+        "components": 22,
+        "direction_fractions": {
+          "decrease": 0.36363636363636365,
+          "increase": 0.36363636363636365
+        },
+        "fraction_improved": 0.36363636363636365,
+        "leave_best_one_out_mean": -0.10648588093948322,
+        "median": -0.0011535592393800628,
+        "quartiles": [
+          -0.22343792357979245,
+          0.06553700806746524
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.2,
+          "moffatt_gse334718": 0.375,
+          "tdp43_gse288185": 0.4444444444444444
+        },
+        "worst_decile_mean": -0.5918184013016731,
+        "worst_decile_quantile": -0.32529642441749
+      },
+      "eligible": true,
+      "excluded_decisions": 2,
+      "label": "band_26-50",
+      "paired_rows": 116,
+      "point": {
+        "rank_gain": -0.07305369849941937,
+        "regret_gain": -0.0997703336073349
+      },
+      "rows": 13279,
+      "selected": {
+        "components": 22,
+        "decisions": 116,
+        "eligible": true,
+        "good_at_3": 0.5028521825396827,
+        "good_at_5": 0.5817791005291005,
+        "random_expected_regret": 0.5,
+        "rank": 0.4974862133708411,
+        "regret": 0.5321784618670371
+      },
+      "strata": []
+    },
+    "6-10": {
+      "baseline": {
+        "components": 205,
+        "decisions": 846,
+        "eligible": true,
+        "good_at_3": 0.23497224903474903,
+        "good_at_5": 0.36275538931788937,
+        "random_expected_regret": 0.5,
+        "rank": 0.5444300607565135,
+        "regret": 0.46210961804494183
+      },
+      "bootstrap": {
+        "components": 205,
+        "confidence95": {
+          "rank_gain": [
+            -0.0779684272460092,
+            0.06679541844535607
+          ],
+          "regret_gain": [
+            -0.04657506609017464,
+            0.03559158571222054
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 3,
+        "point": {
+          "rank_gain": -0.006119751475279171,
+          "regret_gain": -0.004940137973354935
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9997,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 205,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.04664619349327729,
+          "regret_gain": 0.03851937103326144
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.03817683113318807,
+          "regret_gain": -0.040211022930204225
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.0017632855378536551,
+          "regret_gain": 0.012215940221482537
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.08310149337798987,
+          "regret_gain": 0.03982819543162222
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": -0.05895152540174423,
+          "regret_gain": 0.001968404916643161
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.07110112472586354,
+          "regret_gain": -0.08196171651293474
+        }
+      ],
+      "decisions": 423,
+      "direction": null,
+      "distributed": {
+        "components": 205,
+        "direction_fractions": {
+          "decrease": 0.4926829268292683,
+          "increase": 0.375609756097561
+        },
+        "fraction_improved": 0.48292682926829267,
+        "leave_best_one_out_mean": -0.007368996351418395,
+        "median": 0.0,
+        "quartiles": [
+          -0.11966028598825929,
+          0.09054136724812685
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.4810810810810811,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.5
+        },
+        "worst_decile_mean": -0.38397003687995135,
+        "worst_decile_quantile": -0.2572835589033254
+      },
+      "eligible": true,
+      "excluded_decisions": 7,
+      "label": "band_6-10",
+      "paired_rows": 846,
+      "point": {
+        "rank_gain": -0.006119751475279171,
+        "regret_gain": -0.004940137973354935
+      },
+      "rows": 22444,
+      "selected": {
+        "components": 205,
+        "decisions": 846,
+        "eligible": true,
+        "good_at_3": 0.23597168597168597,
+        "good_at_5": 0.31375482625482626,
+        "random_expected_regret": 0.5,
+        "rank": 0.5383103092812344,
+        "regret": 0.46704975601829685
+      },
+      "strata": []
+    },
+    ">50": {
+      "baseline": {
+        "components": 15,
+        "decisions": 116,
+        "eligible": true,
+        "good_at_3": 0.23700396825396824,
+        "good_at_5": 0.35520833333333335,
+        "random_expected_regret": 0.5,
+        "rank": 0.6234143979904571,
+        "regret": 0.4029128758532803
+      },
+      "bootstrap": {
+        "components": 15,
+        "confidence95": {
+          "rank_gain": [
+            -0.025976916698433394,
+            0.12147416379227881
+          ],
+          "regret_gain": [
+            -0.029386010660864003,
+            0.10158712303827289
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.04420478139492544,
+          "regret_gain": 0.028910672001846098
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 15,
+      "contexts": [
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.13168533614335165,
+          "regret_gain": 0.05885308503607682
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.13608708674857925,
+          "regret_gain": 0.1102441153787445
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.03768853004013401,
+          "regret_gain": 0.02459459085113683
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.12864182735236318,
+          "regret_gain": -0.07804910325857375
+        }
+      ],
+      "decisions": 58,
+      "direction": null,
+      "distributed": {
+        "components": 15,
+        "direction_fractions": {
+          "decrease": 0.6666666666666666,
+          "increase": 0.4666666666666667
+        },
+        "fraction_improved": 0.5333333333333333,
+        "leave_best_one_out_mean": 0.002574721801007009,
+        "median": 0.014954987896878796,
+        "quartiles": [
+          -0.042609130349701055,
+          0.05960740893915435
+        ],
+        "source_fractions": {
+          "moffatt_gse334718": 0.75,
+          "tdp43_gse288185": 0.2857142857142857
+        },
+        "worst_decile_mean": -0.13509485750039302,
+        "worst_decile_quantile": -0.09053732854789828
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "band_>50",
+      "paired_rows": 116,
+      "point": {
+        "rank_gain": 0.04420478139492544,
+        "regret_gain": 0.028910672001846098
+      },
+      "rows": 25139,
+      "selected": {
+        "components": 15,
+        "decisions": 116,
+        "eligible": true,
+        "good_at_3": 0.224156746031746,
+        "good_at_5": 0.32842261904761905,
+        "random_expected_regret": 0.5,
+        "rank": 0.6676191793853825,
+        "regret": 0.37400220385143423
+      },
+      "strata": []
+    }
+  },
+  "families_versus_M0": {
+    "M0_absolute": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.1763558201058201,
+      "good_at_5": 0.23779761904761906,
+      "random_expected_regret": 0.5,
+      "rank": 0.6020600089358199,
+      "regret": 0.4325822025549311
+    },
+    "M1": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.03178870090498776,
+            0.07326720754701462
+          ],
+          "regret_gain": [
+            -0.011083490504545391,
+            0.05024223500314376
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.02001659516906786,
+          "regret_gain": 0.018971338480462837
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.018975311000078408,
+          "regret_gain": 0.019728834767751897
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.014000974894257874,
+          "regret_gain": 0.017736471736638733
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.08650027797166814,
+          "regret_gain": 0.045485617426122615
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.017458216247380726,
+          "regret_gain": -0.0005086785997585573
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.03831102960461496,
+          "regret_gain": 0.046594864006291425
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.02022980620883151,
+          "regret_gain": -0.01520907845426908
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5165876777251185,
+          "increase": 0.5213270142180095
+        },
+        "fraction_improved": 0.5545023696682464,
+        "leave_best_one_out_mean": 0.016214025484051223,
+        "median": 0.015507687749558546,
+        "quartiles": [
+          -0.09142014320641373,
+          0.09660954672640758
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5502645502645502,
+          "moffatt_gse334718": 0.625,
+          "tdp43_gse288185": 0.625
+        },
+        "worst_decile_mean": -0.2722017225486674,
+        "worst_decile_quantile": -0.18912558699719784
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "M1_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.02001659516906786,
+        "regret_gain": 0.018971338480462837
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.21628086419753087,
+        "good_at_5": 0.32019400352733685,
+        "random_expected_regret": 0.5,
+        "rank": 0.6220766041048877,
+        "regret": 0.41361086407446823
+      },
+      "strata": []
+    },
+    "M2": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.1322781336971474,
+            0.020229880118994736
+          ],
+          "regret_gain": [
+            -0.09513675476474473,
+            0.006842998671633951
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": -0.055312533714632996,
+          "regret_gain": -0.04214386727065344
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": -0.02028228863086823,
+          "regret_gain": -0.021305513715347505
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.0390175662021328,
+          "regret_gain": -0.012356841151937312
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": -0.10204624407790784,
+          "regret_gain": -0.08964441022732222
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.0029347838747935534,
+          "regret_gain": -0.011816568757125959
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": -0.20550304609223968,
+          "regret_gain": -0.10924439595850374
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.03203915884055705,
+          "regret_gain": -0.008495473813683877
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.4028436018957346,
+          "increase": 0.4549763033175355
+        },
+        "fraction_improved": 0.43601895734597157,
+        "leave_best_one_out_mean": -0.024766683559382115,
+        "median": -0.023495744609338856,
+        "quartiles": [
+          -0.12696628479577104,
+          0.06864401018166569
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.4497354497354497,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.3125
+        },
+        "worst_decile_mean": -0.3305859843191324,
+        "worst_decile_quantile": -0.23647129053120286
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "M2_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": -0.055312533714632996,
+        "regret_gain": -0.04214386727065344
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.14768518518518517,
+        "good_at_5": 0.21921296296296297,
+        "random_expected_regret": 0.5,
+        "rank": 0.5467474752211868,
+        "regret": 0.4747260698255846
+      },
+      "strata": []
+    },
+    "M3": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.09343228241037708,
+            0.01152941847211833
+          ],
+          "regret_gain": [
+            -0.0626839936045067,
+            0.010243860672086507
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": -0.04153178347414239,
+          "regret_gain": -0.026570094406736845
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.014396055311828674,
+          "regret_gain": 0.007851035947206332
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.006811783782461687,
+          "regret_gain": 0.017343540591402987
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": -0.15321299594816107,
+          "regret_gain": -0.13455567137146535
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.19216676797849222,
+          "regret_gain": -0.11937353668764972
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": -0.002123371856223029,
+          "regret_gain": 0.032518275318179614
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.07710459584373161,
+          "regret_gain": 0.03679578976190507
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.4218009478672986,
+          "increase": 0.4834123222748815
+        },
+        "fraction_improved": 0.4976303317535545,
+        "leave_best_one_out_mean": 0.006935266447086452,
+        "median": 0.0,
+        "quartiles": [
+          -0.09605262205122474,
+          0.08752017793092629
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.4973544973544973,
+          "moffatt_gse334718": 0.125,
+          "tdp43_gse288185": 0.625
+        },
+        "worst_decile_mean": -0.2737604279778985,
+        "worst_decile_quantile": -0.15818528356742018
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "M3_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": -0.04153178347414239,
+        "regret_gain": -0.026570094406736845
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1683752204585538,
+        "good_at_5": 0.237147266313933,
+        "random_expected_regret": 0.5,
+        "rank": 0.5605282254616775,
+        "regret": 0.4591522969616679
+      },
+      "strata": []
+    },
+    "M4": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.04236035574099496,
+            0.07663969359412978
+          ],
+          "regret_gain": [
+            -0.013563648891019141,
+            0.053908507349136554
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.013980872130431218,
+          "regret_gain": 0.01927206891726538
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.028927765128260088,
+          "regret_gain": 0.020629465890988744
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.025301234096356803,
+          "regret_gain": 0.02087555543792945
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.09067508774479638,
+          "regret_gain": 0.03909048871154929
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.04047230826677789,
+          "regret_gain": -0.029460193273875997
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": -0.030231902211517815,
+          "regret_gain": 0.02113163082100932
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.009685356291469743,
+          "regret_gain": 0.043365465915991504
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5118483412322274,
+          "increase": 0.5023696682464455
+        },
+        "fraction_improved": 0.5213270142180095,
+        "leave_best_one_out_mean": 0.018719606949076824,
+        "median": 0.009616656408109436,
+        "quartiles": [
+          -0.08540259277555809,
+          0.09439223101473328
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5291005291005291,
+          "moffatt_gse334718": 0.375,
+          "tdp43_gse288185": 0.5625
+        },
+        "worst_decile_mean": -0.2596169454111879,
+        "worst_decile_quantile": -0.20163211378527413
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "M4_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.013980872130431218,
+        "regret_gain": 0.01927206891726538
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.24488536155202822,
+        "good_at_5": 0.3047398589065256,
+        "random_expected_regret": 0.5,
+        "rank": 0.6160408810662511,
+        "regret": 0.4133101336376657
+      },
+      "strata": []
+    },
+    "M5": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.04212833242738285,
+            0.056855216609986665
+          ],
+          "regret_gain": [
+            -0.017860218849246743,
+            0.041266357676326346
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.00450811676735095,
+          "regret_gain": 0.010888071961593282
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.028551930508712495,
+          "regret_gain": 0.019799572695563258
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.02291796809706705,
+          "regret_gain": 0.023072738518808533
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.0059835047696281726,
+          "regret_gain": 0.00774261986215727
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.040402201127771875,
+          "regret_gain": -0.0318838546887273
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.021565081312349403,
+          "regret_gain": 0.05796900202259474
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.011567582955879549,
+          "regret_gain": -0.011371646640836808
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5023696682464455,
+          "increase": 0.5023696682464455
+        },
+        "fraction_improved": 0.5071090047393365,
+        "leave_best_one_out_mean": 0.01815437965380321,
+        "median": 0.003142126733430811,
+        "quartiles": [
+          -0.08800526421022944,
+          0.10224702320840712
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5132275132275133,
+          "moffatt_gse334718": 0.375,
+          "tdp43_gse288185": 0.5625
+        },
+        "worst_decile_mean": -0.2572015766371123,
+        "worst_decile_quantile": -0.1799851564277759
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "M5_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.00450811676735095,
+        "regret_gain": 0.010888071961593282
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.21963183421516755,
+        "good_at_5": 0.3313932980599647,
+        "random_expected_regret": 0.5,
+        "rank": 0.6065681257031709,
+        "regret": 0.42169413059333777
+      },
+      "strata": []
+    },
+    "M6": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.04807189351240282,
+            0.06807186378920843
+          ],
+          "regret_gain": [
+            -0.01581871696976328,
+            0.04504479328549741
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.006484682946162917,
+          "regret_gain": 0.013624023989684332
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.018592896965713947,
+          "regret_gain": 0.010453015715455288
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.024130150241649856,
+          "regret_gain": 0.019955733740323278
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.016528227324132533,
+          "regret_gain": 0.0038565394937289926
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.05076822123236846,
+          "regret_gain": -0.04111394253764893
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.07311011391281402,
+          "regret_gain": 0.07537565786338152
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.0426850695349644,
+          "regret_gain": 0.013217139662865848
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5023696682464455,
+          "increase": 0.5023696682464455
+        },
+        "fraction_improved": 0.5165876777251185,
+        "leave_best_one_out_mean": 0.01434870306366205,
+        "median": 0.002568381254363594,
+        "quartiles": [
+          -0.08800526421022944,
+          0.0974920740112695
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5291005291005291,
+          "moffatt_gse334718": 0.25,
+          "tdp43_gse288185": 0.5625
+        },
+        "worst_decile_mean": -0.24947544339411704,
+        "worst_decile_quantile": -0.1846413707473474
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "M6_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.006484682946162917,
+        "regret_gain": 0.013624023989684332
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.23628747795414462,
+        "good_at_5": 0.31690917107583777,
+        "random_expected_regret": 0.5,
+        "rank": 0.6085446918819828,
+        "regret": 0.41895817856524675
+      },
+      "strata": []
+    },
+    "M7": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.035792141798653185,
+            0.07717245502129999
+          ],
+          "regret_gain": [
+            -0.012172453859838343,
+            0.050016058305748706
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.017411199969754536,
+          "regret_gain": 0.018354396215780003
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.03429261698223878,
+          "regret_gain": 0.019820764491609296
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.02952909451887327,
+          "regret_gain": 0.020205101131559128
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.016528227324132533,
+          "regret_gain": 0.0038565394937289926
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.05076822123236846,
+          "regret_gain": -0.04111394253764893
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.050458996713552105,
+          "regret_gain": 0.0608742797111566
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.024426485512098986,
+          "regret_gain": 0.04648363500427492
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5165876777251185,
+          "increase": 0.5023696682464455
+        },
+        "fraction_improved": 0.5450236966824644,
+        "leave_best_one_out_mean": 0.019393605307587453,
+        "median": 0.013243512640488425,
+        "quartiles": [
+          -0.0823713388885481,
+          0.09995206330334466
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5555555555555556,
+          "moffatt_gse334718": 0.25,
+          "tdp43_gse288185": 0.625
+        },
+        "worst_decile_mean": -0.2346696087080612,
+        "worst_decile_quantile": -0.1846413707473474
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "M7_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.017411199969754536,
+        "regret_gain": 0.018354396215780003
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.23540564373897707,
+        "good_at_5": 0.3056106701940035,
+        "random_expected_regret": 0.5,
+        "rank": 0.6194712089055744,
+        "regret": 0.4142278063391511
+      },
+      "strata": []
+    },
+    "primary": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.029521678194969248,
+            0.08460035338947829
+          ],
+          "regret_gain": [
+            -0.007569182554345502,
+            0.05922753917990739
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.025006819534256496,
+          "regret_gain": 0.02520345908860507
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.03817384028231668,
+          "regret_gain": 0.028906616601141768
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.03090539840671863,
+          "regret_gain": 0.023052253061038454
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.08998879995283823,
+          "regret_gain": 0.03925438198958979
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.03203887577346973,
+          "regret_gain": -0.018542876960779102
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.03671420533464597,
+          "regret_gain": 0.04234808262924874
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.013702450997510829,
+          "regret_gain": 0.03620229721139075
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5355450236966824,
+          "increase": 0.5213270142180095
+        },
+        "fraction_improved": 0.5687203791469194,
+        "leave_best_one_out_mean": 0.024167585950473955,
+        "median": 0.01754597225673414,
+        "quartiles": [
+          -0.07392874498816474,
+          0.09995206330334466
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5661375661375662,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.6875
+        },
+        "worst_decile_mean": -0.25150612017023344,
+        "worst_decile_quantile": -0.18912558699719784
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "label": "primary_vs_M0",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.025006819534256496,
+        "regret_gain": 0.02520345908860507
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.24168871252204585,
+        "good_at_5": 0.30823412698412694,
+        "random_expected_regret": 0.5,
+        "rank": 0.6270668284700763,
+        "regret": 0.4073787434663261
+      },
+      "strata": []
+    }
+  },
+  "family_selections": {
+    "0": {
+      "M0": "M0_E",
+      "M1": "M1_C",
+      "M2": "M2_E",
+      "M3": "M3_E",
+      "M4": "M4_C",
+      "M5": "M5_E",
+      "M6": "M6_E",
+      "M7": "M7_E"
+    },
+    "1": {
+      "M0": "M0_B",
+      "M1": "M1_E",
+      "M2": "M2_F",
+      "M3": "M3_D",
+      "M4": "M4_E",
+      "M5": "M5_F",
+      "M6": "M6_F",
+      "M7": "M7_F"
+    },
+    "2": {
+      "M0": "M0_C",
+      "M1": "M1_B",
+      "M2": "M2_A",
+      "M3": "M3_E",
+      "M4": "M4_E",
+      "M5": "M5_A",
+      "M6": "M6_B",
+      "M7": "M7_E"
+    },
+    "3": {
+      "M0": "M0_A",
+      "M1": "M1_F",
+      "M2": "M2_E",
+      "M3": "M3_D",
+      "M4": "M4_C",
+      "M5": "M5_E",
+      "M6": "M6_F",
+      "M7": "M7_F"
+    },
+    "4": {
+      "M0": "M0_D",
+      "M1": "M1_E",
+      "M2": "M2_E",
+      "M3": "M3_D",
+      "M4": "M4_E",
+      "M5": "M5_E",
+      "M6": "M6_E",
+      "M7": "M7_E"
+    }
+  },
+  "format": "mechanism_v2_development_evidence_v1",
+  "gate_config_sha256": "a57dd77f6b13dc2e36a40cc874f8d447f54174f1f3c863caeef187b915eca1e5",
+  "gates": {
+    "g1_useful_selection": {
+      "baseline_absolute": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "gate": "g1_useful_selection",
+      "rank_gain": 0.025006819534256496,
+      "regret_gain": 0.02520345908860507,
+      "selected_absolute": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.24168871252204585,
+        "good_at_5": 0.30823412698412694,
+        "random_expected_regret": 0.5,
+        "rank": 0.6270668284700763,
+        "regret": 0.4073787434663261
+      },
+      "status": "pass",
+      "thresholds": {
+        "combine": "and",
+        "rank_gain_minimum": 0.02,
+        "regret_gain_minimum": 0.01
+      }
+    },
+    "g2_distributed_benefit": {
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.029521678194969248,
+            0.08460035338947829
+          ],
+          "regret_gain": [
+            -0.007569182554345502,
+            0.05922753917990739
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.025006819534256496,
+          "regret_gain": 0.02520345908860507
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "checks": {
+        "fraction_improved": true,
+        "leave_best_out_above_zero": true,
+        "lower_bounds": false,
+        "median_above_zero": true
+      },
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5355450236966824,
+          "increase": 0.5213270142180095
+        },
+        "fraction_improved": 0.5687203791469194,
+        "leave_best_one_out_mean": 0.024167585950473955,
+        "median": 0.01754597225673414,
+        "quartiles": [
+          -0.07392874498816474,
+          0.09995206330334466
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5661375661375662,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.6875
+        },
+        "worst_decile_mean": -0.25150612017023344,
+        "worst_decile_quantile": -0.18912558699719784
+      },
+      "gate": "g2_distributed_benefit",
+      "status": "fail",
+      "thresholds": {
+        "fraction_components_improved_minimum": 0.55,
+        "leave_best_component_out_mean_minimum_exclusive": 0.0,
+        "median_component_regret_gain_minimum_exclusive": 0.0,
+        "paired_lower_bound_minimum": -0.005
+      }
+    },
+    "g3_matched_edits": {
+      "components": 211,
+      "gate": "g3_matched_edits",
+      "point": {
+        "rank_gain": 0.031971500775994734,
+        "regret_gain": 0.020971854772071506
+      },
+      "status": "pass",
+      "thresholds": {
+        "additional_reported_strata": [
+          [
+            "decision_set_id",
+            "edit_band",
+            "intervention_class",
+            "dataset"
+          ],
+          [
+            "decision_set_id",
+            "edit_band",
+            "intervention_class",
+            "biological_unit"
+          ]
+        ],
+        "cap_plus_four_candidate_minimum": "unevaluable",
+        "cap_sensitivities": [
+          "uncapped",
+          "literal_two_per_gene_cap"
+        ],
+        "mikl_motif_family_macro": true,
+        "minimum_components": 20,
+        "rank_gain_minimum": 0.01,
+        "regret_gain_minimum": 0.005,
+        "strata": [
+          "decision_set_id",
+          "edit_band",
+          "intervention_class"
+        ]
+      }
+    },
+    "g6_small_edits": {
+      "checks": {
+        "companion_not_harmful": true,
+        "primary_threshold": true,
+        "subbands": true
+      },
+      "components": 211,
+      "gate": "g6_small_edits",
+      "point": {
+        "rank_gain": 0.01370358423336926,
+        "regret_gain": 0.016563842718227615
+      },
+      "reported_bands": {
+        "0": {
+          "eligible": false,
+          "reason": "no candidate rows in this band"
+        },
+        "1": {
+          "rank_gain": 0.024999999999999994,
+          "regret_gain": 0.08199579189793271
+        },
+        "11-25": {
+          "rank_gain": 0.0699242908139759,
+          "regret_gain": 0.05465569950335298
+        },
+        "2-10": {
+          "rank_gain": 0.01370358423336926,
+          "regret_gain": 0.016563842718227615
+        },
+        "2-5": {
+          "rank_gain": 0.005730228821556958,
+          "regret_gain": 0.003912306788424321
+        },
+        "26-50": {
+          "rank_gain": -0.07305369849941937,
+          "regret_gain": -0.0997703336073349
+        },
+        "6-10": {
+          "rank_gain": -0.006119751475279171,
+          "regret_gain": -0.004940137973354935
+        },
+        ">50": {
+          "rank_gain": 0.04420478139492544,
+          "regret_gain": 0.028910672001846098
+        }
+      },
+      "status": "pass",
+      "subbands": {
+        "2-5": {
+          "rank_gain": 0.005730228821556958,
+          "regret_gain": 0.003912306788424321,
+          "status": "pass"
+        },
+        "6-10": {
+          "rank_gain": -0.006119751475279171,
+          "regret_gain": -0.004940137973354935,
+          "status": "pass"
+        }
+      },
+      "thresholds": {
+        "combine": "or",
+        "companion_gain_minimum": -0.002,
+        "exact_snv_note": "requires independent adequate evidence; absence is not generalization",
+        "primary_band": "2-10",
+        "rank_gain_minimum": 0.02,
+        "regret_gain_minimum": 0.01,
+        "reported_bands": [
+          "0",
+          "1",
+          "2-5",
+          "6-10",
+          "11-25",
+          "26-50",
+          ">50"
+        ],
+        "required_subbands": [
+          "2-5",
+          "6-10"
+        ],
+        "subband_regret_gain_minimum": -0.005
+      }
+    }
+  },
+  "headline": {
+    "baseline": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.1763558201058201,
+      "good_at_5": 0.23779761904761906,
+      "random_expected_regret": 0.5,
+      "rank": 0.6020600089358199,
+      "regret": 0.4325822025549311
+    },
+    "bootstrap": {
+      "components": 211,
+      "confidence95": {
+        "rank_gain": [
+          -0.029521678194969248,
+          0.08460035338947829
+        ],
+        "regret_gain": [
+          -0.007569182554345502,
+          0.05922753917990739
+        ]
+      },
+      "eligible": true,
+      "missing_context_replicates": 2,
+      "point": {
+        "rank_gain": 0.025006819534256496,
+        "regret_gain": 0.02520345908860507
+      },
+      "resamples_requested": 10000,
+      "resamples_valid": 9998,
+      "seed": 20260909,
+      "unit": "connected biological component; all directions and cross-source occurrences together"
+    },
+    "components": 211,
+    "contexts": [
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "decrease",
+        "rank_gain": 0.03817384028231668,
+        "regret_gain": 0.028906616601141768
+      },
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "increase",
+        "rank_gain": 0.03090539840671863,
+        "regret_gain": 0.023052253061038454
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "decrease",
+        "rank_gain": 0.08998879995283823,
+        "regret_gain": 0.03925438198958979
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "increase",
+        "rank_gain": -0.03203887577346973,
+        "regret_gain": -0.018542876960779102
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "decrease",
+        "rank_gain": 0.03671420533464597,
+        "regret_gain": 0.04234808262924874
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "increase",
+        "rank_gain": -0.013702450997510829,
+        "regret_gain": 0.03620229721139075
+      }
+    ],
+    "decisions": 445,
+    "direction": null,
+    "distributed": {
+      "components": 211,
+      "direction_fractions": {
+        "decrease": 0.5355450236966824,
+        "increase": 0.5213270142180095
+      },
+      "fraction_improved": 0.5687203791469194,
+      "leave_best_one_out_mean": 0.024167585950473955,
+      "median": 0.01754597225673414,
+      "quartiles": [
+        -0.07392874498816474,
+        0.09995206330334466
+      ],
+      "source_fractions": {
+        "mikl_gse173098": 0.5661375661375662,
+        "moffatt_gse334718": 0.5,
+        "tdp43_gse288185": 0.6875
+      },
+      "worst_decile_mean": -0.25150612017023344,
+      "worst_decile_quantile": -0.18912558699719784
+    },
+    "eligible": true,
+    "excluded_decisions": 0,
+    "label": "primary_vs_M0",
+    "paired_rows": 890,
+    "point": {
+      "rank_gain": 0.025006819534256496,
+      "regret_gain": 0.02520345908860507
+    },
+    "selected": {
+      "components": 211,
+      "decisions": 890,
+      "eligible": true,
+      "good_at_3": 0.24168871252204585,
+      "good_at_5": 0.30823412698412694,
+      "random_expected_regret": 0.5,
+      "rank": 0.6270668284700763,
+      "regret": 0.4073787434663261
+    },
+    "strata": []
+  },
+  "holdout_opened": false,
+  "matched_edits": {
+    "cap_plus_four_candidate_minimum": {
+      "eligible": false,
+      "reason": "a two-per-gene cap leaves at most two candidates in a single-parent decision set, so a four-candidate minimum is arithmetically unevaluable",
+      "status": "unevaluable"
+    },
+    "edit_band|intervention_class|biological_unit": {
+      "baseline": {
+        "components": 211,
+        "decisions": 2282,
+        "eligible": true,
+        "good_at_3": 0.29530433256874594,
+        "good_at_5": 0.4167217095134715,
+        "random_expected_regret": 0.5,
+        "rank": 0.544306448048168,
+        "regret": 0.46585253812682287
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.01818087195438486,
+            0.08204059940146372
+          ],
+          "regret_gain": [
+            -0.01680844799277682,
+            0.05880778404266076
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.031971500775994734,
+          "regret_gain": 0.020971854772071506
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.02824557975518451,
+          "regret_gain": 0.026361436352304354
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.0049746775616134244,
+          "regret_gain": -0.005772601210846296
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.10004673176041196,
+          "regret_gain": 0.054081589023316334
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.08050568760093887,
+          "regret_gain": 0.06782362322124151
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.0015320031732364708,
+          "regret_gain": -0.009281250579638993
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.01352632007218999,
+          "regret_gain": -0.007381668173947859
+        }
+      ],
+      "decisions": 1141,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5260663507109005,
+          "increase": 0.4597156398104265
+        },
+        "fraction_improved": 0.5260663507109005,
+        "leave_best_one_out_mean": 0.008263039961819325,
+        "median": 0.013428094220838146,
+        "quartiles": [
+          -0.09209285758755811,
+          0.10089528572193912
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5185185185185185,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.5625
+        },
+        "worst_decile_mean": -0.2905418185786371,
+        "worst_decile_quantile": -0.1914929474634532
+      },
+      "eligible": true,
+      "excluded_decisions": 94,
+      "label": "matched_edit_band_intervention_class_biological_unit",
+      "paired_rows": 2282,
+      "point": {
+        "rank_gain": 0.031971500775994734,
+        "regret_gain": 0.020971854772071506
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 2282,
+        "eligible": true,
+        "good_at_3": 0.31589064608960365,
+        "good_at_5": 0.40445935239953795,
+        "random_expected_regret": 0.5,
+        "rank": 0.5762779488241626,
+        "regret": 0.4448806833547514
+      },
+      "strata": [
+        "edit_band",
+        "intervention_class",
+        "biological_unit"
+      ]
+    },
+    "edit_band|intervention_class|dataset": {
+      "baseline": {
+        "components": 211,
+        "decisions": 2282,
+        "eligible": true,
+        "good_at_3": 0.29530433256874594,
+        "good_at_5": 0.4167217095134715,
+        "random_expected_regret": 0.5,
+        "rank": 0.544306448048168,
+        "regret": 0.46585253812682287
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.01818087195438486,
+            0.08204059940146372
+          ],
+          "regret_gain": [
+            -0.01680844799277682,
+            0.05880778404266076
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.031971500775994734,
+          "regret_gain": 0.020971854772071506
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.02824557975518451,
+          "regret_gain": 0.026361436352304354
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.0049746775616134244,
+          "regret_gain": -0.005772601210846296
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.10004673176041196,
+          "regret_gain": 0.054081589023316334
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.08050568760093887,
+          "regret_gain": 0.06782362322124151
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.0015320031732364708,
+          "regret_gain": -0.009281250579638993
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.01352632007218999,
+          "regret_gain": -0.007381668173947859
+        }
+      ],
+      "decisions": 1141,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5260663507109005,
+          "increase": 0.4597156398104265
+        },
+        "fraction_improved": 0.5260663507109005,
+        "leave_best_one_out_mean": 0.008263039961819325,
+        "median": 0.013428094220838146,
+        "quartiles": [
+          -0.09209285758755811,
+          0.10089528572193912
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5185185185185185,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.5625
+        },
+        "worst_decile_mean": -0.2905418185786371,
+        "worst_decile_quantile": -0.1914929474634532
+      },
+      "eligible": true,
+      "excluded_decisions": 94,
+      "label": "matched_edit_band_intervention_class_dataset",
+      "paired_rows": 2282,
+      "point": {
+        "rank_gain": 0.031971500775994734,
+        "regret_gain": 0.020971854772071506
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 2282,
+        "eligible": true,
+        "good_at_3": 0.31589064608960365,
+        "good_at_5": 0.40445935239953795,
+        "random_expected_regret": 0.5,
+        "rank": 0.5762779488241626,
+        "regret": 0.4448806833547514
+      },
+      "strata": [
+        "edit_band",
+        "intervention_class",
+        "dataset"
+      ]
+    },
+    "literal_two_per_gene_cap": {
+      "baseline": {
+        "components": 156,
+        "decisions": 422,
+        "eligible": true,
+        "good_at_3": 1.0,
+        "good_at_5": 1.0,
+        "random_expected_regret": 0.5,
+        "rank": 0.40021743857360303,
+        "regret": 0.5997825614263971
+      },
+      "bootstrap": {
+        "components": 156,
+        "confidence95": {
+          "rank_gain": [
+            -0.24192697485150041,
+            0.2957527028679117
+          ],
+          "regret_gain": [
+            -0.24192697485150041,
+            0.2957527028679117
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 62,
+        "point": {
+          "rank_gain": 0.06739508588823657,
+          "regret_gain": 0.06739508588823657
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9938,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 156,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": -0.07876712328767123,
+          "regret_gain": -0.07876712328767123
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.07876712328767123,
+          "regret_gain": -0.07876712328767123
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": -0.11904761904761904,
+          "regret_gain": -0.11904761904761904
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.11904761904761904,
+          "regret_gain": -0.11904761904761904
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.4,
+          "regret_gain": 0.4
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": 0.4,
+          "regret_gain": 0.4
+        }
+      ],
+      "decisions": 211,
+      "direction": null,
+      "distributed": {
+        "components": 156,
+        "direction_fractions": {
+          "decrease": 0.23717948717948717,
+          "increase": 0.23717948717948717
+        },
+        "fraction_improved": 0.23717948717948717,
+        "leave_best_one_out_mean": -0.07311827956989247,
+        "median": 0.0,
+        "quartiles": [
+          -0.5,
+          0.0
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.2328767123287671,
+          "moffatt_gse334718": 0.0,
+          "tdp43_gse288185": 0.6
+        },
+        "worst_decile_mean": -1.0,
+        "worst_decile_quantile": -1.0
+      },
+      "eligible": true,
+      "excluded_decisions": 468,
+      "label": "literal_two_per_gene_cap",
+      "paired_rows": 422,
+      "point": {
+        "rank_gain": 0.06739508588823657,
+        "regret_gain": 0.06739508588823657
+      },
+      "selected": {
+        "components": 156,
+        "decisions": 422,
+        "eligible": true,
+        "good_at_3": 1.0,
+        "good_at_5": 1.0,
+        "random_expected_regret": 0.5,
+        "rank": 0.4676125244618395,
+        "regret": 0.5323874755381605
+      },
+      "strata": [
+        "edit_band",
+        "intervention_class"
+      ]
+    },
+    "mikl_motif_family_macro": {
+      "baseline": {
+        "components": 142,
+        "decisions": 3804,
+        "eligible": true,
+        "good_at_3": 0.5924701491352549,
+        "good_at_5": 0.8514738831567352,
+        "random_expected_regret": 0.5,
+        "rank": 0.48677010022376116,
+        "regret": 0.5128622098939901
+      },
+      "bootstrap": {
+        "components": 142,
+        "confidence95": {
+          "rank_gain": [
+            -0.013672561685102707,
+            0.04327841800227664
+          ],
+          "regret_gain": [
+            -0.014482063790656951,
+            0.041431648451291686
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 0,
+        "point": {
+          "rank_gain": 0.015362730881389418,
+          "regret_gain": 0.013793616094664852
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 10000,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 142,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.023431789124083023,
+          "regret_gain": 0.02295240438652848
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.0072936726386958126,
+          "regret_gain": 0.004634827802801227
+        }
+      ],
+      "decisions": 1902,
+      "direction": null,
+      "distributed": {
+        "components": 142,
+        "direction_fractions": {
+          "decrease": 0.4788732394366197,
+          "increase": 0.49295774647887325
+        },
+        "fraction_improved": 0.5140845070422535,
+        "leave_best_one_out_mean": 0.009635247693825554,
+        "median": 0.0018304052897850226,
+        "quartiles": [
+          -0.06688640365389627,
+          0.10577730338731846
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5140845070422535
+        },
+        "worst_decile_mean": -0.30374800947526276,
+        "worst_decile_quantile": -0.16569632469239817
+      },
+      "eligible": true,
+      "excluded_decisions": 3274,
+      "label": "mikl_motif_family_macro",
+      "paired_rows": 3804,
+      "point": {
+        "rank_gain": 0.015362730881389418,
+        "regret_gain": 0.013793616094664852
+      },
+      "selected": {
+        "components": 142,
+        "decisions": 3804,
+        "eligible": true,
+        "good_at_3": 0.5958779046041658,
+        "good_at_5": 0.8534873189397317,
+        "random_expected_regret": 0.5,
+        "rank": 0.5021328311051505,
+        "regret": 0.4990685937993252
+      },
+      "strata": [
+        "motif_family"
+      ]
+    },
+    "primary": {
+      "baseline": {
+        "components": 211,
+        "decisions": 2282,
+        "eligible": true,
+        "good_at_3": 0.29530433256874594,
+        "good_at_5": 0.4167217095134715,
+        "random_expected_regret": 0.5,
+        "rank": 0.544306448048168,
+        "regret": 0.46585253812682287
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.01818087195438486,
+            0.08204059940146372
+          ],
+          "regret_gain": [
+            -0.01680844799277682,
+            0.05880778404266076
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.031971500775994734,
+          "regret_gain": 0.020971854772071506
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.02824557975518451,
+          "regret_gain": 0.026361436352304354
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": -0.0049746775616134244,
+          "regret_gain": -0.005772601210846296
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.10004673176041196,
+          "regret_gain": 0.054081589023316334
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": 0.08050568760093887,
+          "regret_gain": 0.06782362322124151
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.0015320031732364708,
+          "regret_gain": -0.009281250579638993
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.01352632007218999,
+          "regret_gain": -0.007381668173947859
+        }
+      ],
+      "decisions": 1141,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5260663507109005,
+          "increase": 0.4597156398104265
+        },
+        "fraction_improved": 0.5260663507109005,
+        "leave_best_one_out_mean": 0.008263039961819325,
+        "median": 0.013428094220838146,
+        "quartiles": [
+          -0.09209285758755811,
+          0.10089528572193912
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5185185185185185,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.5625
+        },
+        "worst_decile_mean": -0.2905418185786371,
+        "worst_decile_quantile": -0.1914929474634532
+      },
+      "eligible": true,
+      "excluded_decisions": 94,
+      "label": "matched_edit_band_and_class",
+      "paired_rows": 2282,
+      "point": {
+        "rank_gain": 0.031971500775994734,
+        "regret_gain": 0.020971854772071506
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 2282,
+        "eligible": true,
+        "good_at_3": 0.31589064608960365,
+        "good_at_5": 0.40445935239953795,
+        "random_expected_regret": 0.5,
+        "rank": 0.5762779488241626,
+        "regret": 0.4448806833547514
+      },
+      "strata": [
+        "edit_band",
+        "intervention_class"
+      ]
+    }
+  },
+  "outer_freeze_git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "primary_family": "M4",
+  "primary_family_agreement": {
+    "counts": {
+      "M1": 1,
+      "M4": 2,
+      "M6": 1,
+      "M7": 1
+    },
+    "per_fold": [
+      "M4",
+      "M4",
+      "M7",
+      "M1",
+      "M6"
+    ],
+    "unanimous": false
+  },
+  "primary_selections": {
+    "0": "M4_C",
+    "1": "M4_E",
+    "2": "M7_E",
+    "3": "M1_F",
+    "4": "M6_E"
+  },
+  "restricted_domain_2_10nt": {
+    "baseline": {
+      "components": 211,
+      "decisions": 866,
+      "eligible": true,
+      "good_at_3": 0.14989252645502646,
+      "good_at_5": 0.21722056878306875,
+      "random_expected_regret": 0.5,
+      "rank": 0.5548203825655623,
+      "regret": 0.46741916574383935
+    },
+    "bootstrap": {
+      "components": 211,
+      "confidence95": {
+        "rank_gain": [
+          -0.048485348433512536,
+          0.07637721301925683
+        ],
+        "regret_gain": [
+          -0.017100262276281714,
+          0.05140421383626782
+        ]
+      },
+      "eligible": true,
+      "missing_context_replicates": 2,
+      "point": {
+        "rank_gain": 0.01370358423336926,
+        "regret_gain": 0.016563842718227615
+      },
+      "resamples_requested": 10000,
+      "resamples_valid": 9998,
+      "seed": 20260909,
+      "unit": "connected biological component; all directions and cross-source occurrences together"
+    },
+    "components": 211,
+    "contexts": [
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "decrease",
+        "rank_gain": 0.02494295161252225,
+        "regret_gain": 0.022837533148426025
+      },
+      {
+        "dataset": "mikl_gse173098",
+        "direction": "increase",
+        "rank_gain": 0.016004860526676636,
+        "regret_gain": 0.017850829350267428
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "decrease",
+        "rank_gain": 0.008230553533589143,
+        "regret_gain": 0.01426572657511756
+      },
+      {
+        "dataset": "moffatt_gse334718",
+        "direction": "increase",
+        "rank_gain": -0.020185676115097192,
+        "regret_gain": 0.022476053265762876
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "decrease",
+        "rank_gain": 0.03525225070710978,
+        "regret_gain": 0.03137254131604879
+      },
+      {
+        "dataset": "tdp43_gse288185",
+        "direction": "increase",
+        "rank_gain": 0.017976565135414936,
+        "regret_gain": -0.009419627346256992
+      }
+    ],
+    "decisions": 433,
+    "direction": null,
+    "distributed": {
+      "components": 211,
+      "direction_fractions": {
+        "decrease": 0.4928909952606635,
+        "increase": 0.5023696682464455
+      },
+      "fraction_improved": 0.5165876777251185,
+      "leave_best_one_out_mean": 0.016799688095431538,
+      "median": 0.008981322478181758,
+      "quartiles": [
+        -0.08152961413392894,
+        0.10381471779122795
+      ],
+      "source_fractions": {
+        "mikl_gse173098": 0.5185185185185185,
+        "moffatt_gse334718": 0.5,
+        "tdp43_gse288185": 0.5625
+      },
+      "worst_decile_mean": -0.2512777776620399,
+      "worst_decile_quantile": -0.18766245514021462
+    },
+    "eligible": true,
+    "excluded_decisions": 0,
+    "label": "restricted_domain_2_10nt",
+    "paired_rows": 866,
+    "point": {
+      "rank_gain": 0.01370358423336926,
+      "regret_gain": 0.016563842718227615
+    },
+    "selected": {
+      "components": 211,
+      "decisions": 866,
+      "eligible": true,
+      "good_at_3": 0.2071897045855379,
+      "good_at_5": 0.2762593694885362,
+      "random_expected_regret": 0.5,
+      "rank": 0.5685239667989316,
+      "regret": 0.45085532302561165
+    },
+    "strata": []
+  },
+  "reused_benchmark_caveat": "these development datasets have been examined repeatedly in earlier RNAddress experiments; nested estimates on a reused benchmark are not fresh independent confirmation",
+  "score_manifest_sha256": "aad5446e63e835a78fb853e48c3305ecb2416593f99d4b4486edb97201ec7234",
+  "sensitivities": {
+    "annotated_gene_groups": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.029521678194969248,
+            0.08460035338947829
+          ],
+          "regret_gain": [
+            -0.007569182554345502,
+            0.05922753917990739
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.025006819534256496,
+          "regret_gain": 0.02520345908860507
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.03817384028231668,
+          "regret_gain": 0.028906616601141768
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.03090539840671863,
+          "regret_gain": 0.023052253061038454
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.08998879995283823,
+          "regret_gain": 0.03925438198958979
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.03203887577346973,
+          "regret_gain": -0.018542876960779102
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.03671420533464597,
+          "regret_gain": 0.04234808262924874
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.013702450997510829,
+          "regret_gain": 0.03620229721139075
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5355450236966824,
+          "increase": 0.5213270142180095
+        },
+        "fraction_improved": 0.5687203791469194,
+        "leave_best_one_out_mean": 0.024167585950473955,
+        "median": 0.01754597225673414,
+        "quartiles": [
+          -0.07392874498816474,
+          0.09995206330334466
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5661375661375662,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.6875
+        },
+        "worst_decile_mean": -0.25150612017023344,
+        "worst_decile_quantile": -0.18912558699719784
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "grouping": {
+        "eligible": true,
+        "groups": 211,
+        "manifest": "results/mechanism_v2/manifests/splits_gene_group_sensitivity.json"
+      },
+      "label": "sensitivity_annotated_gene_groups",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.025006819534256496,
+        "regret_gain": 0.02520345908860507
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.24168871252204585,
+        "good_at_5": 0.30823412698412694,
+        "random_expected_regret": 0.5,
+        "rank": 0.6270668284700763,
+        "regret": 0.4073787434663261
+      },
+      "strata": []
+    },
+    "sequence90": {
+      "baseline": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.029521678194969248,
+            0.08460035338947829
+          ],
+          "regret_gain": [
+            -0.007569182554345502,
+            0.05922753917990739
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.025006819534256496,
+          "regret_gain": 0.02520345908860507
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "components": 211,
+      "contexts": [
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "decrease",
+          "rank_gain": 0.03817384028231668,
+          "regret_gain": 0.028906616601141768
+        },
+        {
+          "dataset": "mikl_gse173098",
+          "direction": "increase",
+          "rank_gain": 0.03090539840671863,
+          "regret_gain": 0.023052253061038454
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "decrease",
+          "rank_gain": 0.08998879995283823,
+          "regret_gain": 0.03925438198958979
+        },
+        {
+          "dataset": "moffatt_gse334718",
+          "direction": "increase",
+          "rank_gain": -0.03203887577346973,
+          "regret_gain": -0.018542876960779102
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "decrease",
+          "rank_gain": 0.03671420533464597,
+          "regret_gain": 0.04234808262924874
+        },
+        {
+          "dataset": "tdp43_gse288185",
+          "direction": "increase",
+          "rank_gain": -0.013702450997510829,
+          "regret_gain": 0.03620229721139075
+        }
+      ],
+      "decisions": 445,
+      "direction": null,
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5355450236966824,
+          "increase": 0.5213270142180095
+        },
+        "fraction_improved": 0.5687203791469194,
+        "leave_best_one_out_mean": 0.024167585950473955,
+        "median": 0.01754597225673414,
+        "quartiles": [
+          -0.07392874498816474,
+          0.09995206330334466
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5661375661375662,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.6875
+        },
+        "worst_decile_mean": -0.25150612017023344,
+        "worst_decile_quantile": -0.18912558699719784
+      },
+      "eligible": true,
+      "excluded_decisions": 0,
+      "grouping": {
+        "eligible": true,
+        "groups": 211,
+        "manifest": "results/mechanism_v2/manifests/splits_all_alleles90.json"
+      },
+      "label": "sensitivity_sequence90",
+      "paired_rows": 890,
+      "point": {
+        "rank_gain": 0.025006819534256496,
+        "regret_gain": 0.02520345908860507
+      },
+      "selected": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.24168871252204585,
+        "good_at_5": 0.30823412698412694,
+        "random_expected_regret": 0.5,
+        "rank": 0.6270668284700763,
+        "regret": 0.4073787434663261
+      },
+      "strata": []
+    }
+  }
+}

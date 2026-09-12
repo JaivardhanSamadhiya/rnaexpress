@@ -1,0 +1,938 @@
+{
+  "allowed_verdicts": [
+    "STRONG GO - UNIVERSAL ZERO-SHOT RNADDRESS SUPPORTED",
+    "PARTIAL GO - RESTRICTED ZERO-SHOT DOMAIN SUPPORTED",
+    "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS"
+  ],
+  "astrocyte_holdout": "sealed; the pre-holdout freeze conditions are not satisfied",
+  "development_gates_all_passed": false,
+  "evidence_sha256": {
+    "results/mechanism_v2/controls/control_evidence.json": "7beec2785f4dc8da1ec7245d5544311c4dc30890d5ad8a8a514d79b7a5bca52d",
+    "results/mechanism_v2/controls/seed_replication.json": "096ca3fcdf251c8e59222aa99e98f50b3cdf8e3d2f458b5ac995b145ca8856bc",
+    "results/mechanism_v2/outer/development_evidence.json": "c16a9c1a939bb398d85486ed891c5847b38014401e8a555f29e76553886b5a0c",
+    "results/mechanism_v2/outer/shortcut_probes.json": "f2b45734288c8eb272cf8fe62a5f30ffa0ad5532d780128491f0db48c46925b3",
+    "results/mechanism_v2/outer/uncertainty.json": "240fed6b5821dc76807ad467b1322b0d50a609668c12349f8f47bda046f2192c",
+    "results/mechanism_v2/transfer/transfer_evidence.json": "0518db6a9f0e884826f7241a309658b85705b78d8a2308769f60b6bd8c7c4c36"
+  },
+  "finalshot_historical_result": "NO-GO - END ZERO-SHOT RNADDRESS (commit 98ffc02, unchanged)",
+  "format": "mechanism_v2_final_verdict_v1",
+  "gate_config_sha256": "a57dd77f6b13dc2e36a40cc874f8d447f54174f1f3c863caeef187b915eca1e5",
+  "gate_status": {
+    "g10_hard_harm": "fail",
+    "g1_useful_selection": "pass",
+    "g2_distributed_benefit": "fail",
+    "g3_matched_edits": "pass",
+    "g4_leave_source": "fail",
+    "g5_cross_context": "fail",
+    "g6_small_edits": "pass",
+    "g7_mechanistic_necessity": "fail",
+    "g8_shortcut_resistance": "pass",
+    "g9_stability_and_integrity": "fail"
+  },
+  "gates": {
+    "g10_hard_harm": {
+      "checks": {
+        "no_task_below_limit": false,
+        "worst_decile_within_limit": false
+      },
+      "gate": "g10_hard_harm",
+      "status": "fail",
+      "tasks_considered": 17,
+      "thresholds": {
+        "scope": [
+          "leave_source",
+          "cross_cell",
+          "cross_reporter",
+          "small_edit_band"
+        ],
+        "task_regret_gain_minimum": -0.02,
+        "worst_decile_component_mean_regret_gain_minimum": -0.2
+      },
+      "violations": {
+        "cross_reporter_Firefly_to_GFP|increase": -0.038691258566593924,
+        "cross_reporter_GFP_to_Firefly|increase": -0.09458627037586087,
+        "leave_source_moffatt_gse334718|increase": -0.08285812914981192
+      },
+      "worst_decile_component_mean_regret_gain": -0.25150612017023344
+    },
+    "g1_useful_selection": {
+      "baseline_absolute": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.1763558201058201,
+        "good_at_5": 0.23779761904761906,
+        "random_expected_regret": 0.5,
+        "rank": 0.6020600089358199,
+        "regret": 0.4325822025549311
+      },
+      "gate": "g1_useful_selection",
+      "rank_gain": 0.025006819534256496,
+      "regret_gain": 0.02520345908860507,
+      "selected_absolute": {
+        "components": 211,
+        "decisions": 890,
+        "eligible": true,
+        "good_at_3": 0.24168871252204585,
+        "good_at_5": 0.30823412698412694,
+        "random_expected_regret": 0.5,
+        "rank": 0.6270668284700763,
+        "regret": 0.4073787434663261
+      },
+      "status": "pass",
+      "thresholds": {
+        "combine": "and",
+        "rank_gain_minimum": 0.02,
+        "regret_gain_minimum": 0.01
+      }
+    },
+    "g2_distributed_benefit": {
+      "bootstrap": {
+        "components": 211,
+        "confidence95": {
+          "rank_gain": [
+            -0.029521678194969248,
+            0.08460035338947829
+          ],
+          "regret_gain": [
+            -0.007569182554345502,
+            0.05922753917990739
+          ]
+        },
+        "eligible": true,
+        "missing_context_replicates": 2,
+        "point": {
+          "rank_gain": 0.025006819534256496,
+          "regret_gain": 0.02520345908860507
+        },
+        "resamples_requested": 10000,
+        "resamples_valid": 9998,
+        "seed": 20260909,
+        "unit": "connected biological component; all directions and cross-source occurrences together"
+      },
+      "checks": {
+        "fraction_improved": true,
+        "leave_best_out_above_zero": true,
+        "lower_bounds": false,
+        "median_above_zero": true
+      },
+      "distributed": {
+        "components": 211,
+        "direction_fractions": {
+          "decrease": 0.5355450236966824,
+          "increase": 0.5213270142180095
+        },
+        "fraction_improved": 0.5687203791469194,
+        "leave_best_one_out_mean": 0.024167585950473955,
+        "median": 0.01754597225673414,
+        "quartiles": [
+          -0.07392874498816474,
+          0.09995206330334466
+        ],
+        "source_fractions": {
+          "mikl_gse173098": 0.5661375661375662,
+          "moffatt_gse334718": 0.5,
+          "tdp43_gse288185": 0.6875
+        },
+        "worst_decile_mean": -0.25150612017023344,
+        "worst_decile_quantile": -0.18912558699719784
+      },
+      "gate": "g2_distributed_benefit",
+      "status": "fail",
+      "thresholds": {
+        "fraction_components_improved_minimum": 0.55,
+        "leave_best_component_out_mean_minimum_exclusive": 0.0,
+        "median_component_regret_gain_minimum_exclusive": 0.0,
+        "paired_lower_bound_minimum": -0.005
+      }
+    },
+    "g3_matched_edits": {
+      "components": 211,
+      "gate": "g3_matched_edits",
+      "point": {
+        "rank_gain": 0.031971500775994734,
+        "regret_gain": 0.020971854772071506
+      },
+      "status": "pass",
+      "thresholds": {
+        "additional_reported_strata": [
+          [
+            "decision_set_id",
+            "edit_band",
+            "intervention_class",
+            "dataset"
+          ],
+          [
+            "decision_set_id",
+            "edit_band",
+            "intervention_class",
+            "biological_unit"
+          ]
+        ],
+        "cap_plus_four_candidate_minimum": "unevaluable",
+        "cap_sensitivities": [
+          "uncapped",
+          "literal_two_per_gene_cap"
+        ],
+        "mikl_motif_family_macro": true,
+        "minimum_components": 20,
+        "rank_gain_minimum": 0.01,
+        "regret_gain_minimum": 0.005,
+        "strata": [
+          "decision_set_id",
+          "edit_band",
+          "intervention_class"
+        ]
+      }
+    },
+    "g4_leave_source": {
+      "checks": {
+        "all_six_tasks_eligible": true,
+        "macro_rank_gain": true,
+        "macro_regret_gain": true,
+        "no_single_source_dominates": true,
+        "tasks_improving_both": false
+      },
+      "eligible_tasks": [
+        "leave_source_mikl_gse173098|decrease",
+        "leave_source_mikl_gse173098|increase",
+        "leave_source_moffatt_gse334718|decrease",
+        "leave_source_moffatt_gse334718|increase",
+        "leave_source_tdp43_gse288185|decrease",
+        "leave_source_tdp43_gse288185|increase"
+      ],
+      "gate": "g4_leave_source",
+      "largest_source_share_of_positive_regret_gain": 0.7240134283559464,
+      "macro_rank_gain": 0.013277432002245702,
+      "macro_regret_gain": 0.018702748762608738,
+      "per_task_rank_gain": {
+        "leave_source_mikl_gse173098|decrease": -0.000683379538841286,
+        "leave_source_mikl_gse173098|increase": 0.007991153585093107,
+        "leave_source_moffatt_gse334718|decrease": 0.01565420573682811,
+        "leave_source_moffatt_gse334718|increase": -0.16759536644043987,
+        "leave_source_tdp43_gse288185|decrease": 0.034735129228299064,
+        "leave_source_tdp43_gse288185|increase": 0.1895628494425351
+      },
+      "per_task_regret_gain": {
+        "leave_source_mikl_gse173098|decrease": 0.006429967200574744,
+        "leave_source_mikl_gse173098|increase": -0.0010049674879598987,
+        "leave_source_moffatt_gse334718|decrease": 0.04768536639581257,
+        "leave_source_moffatt_gse334718|increase": -0.08285812914981192,
+        "leave_source_tdp43_gse288185|decrease": 0.08036580588590503,
+        "leave_source_tdp43_gse288185|increase": 0.061598449731131905
+      },
+      "status": "fail",
+      "tasks_improving_both": [
+        "leave_source_moffatt_gse334718|decrease",
+        "leave_source_tdp43_gse288185|decrease",
+        "leave_source_tdp43_gse288185|increase"
+      ],
+      "thresholds": {
+        "macro_rank_gain_minimum_exclusive": 0.0,
+        "macro_regret_gain_minimum": 0.01,
+        "maximum_single_source_share_of_positive_regret_gain": 0.75,
+        "minimum_tasks_improving_both": 4,
+        "tasks": "three sources withheld separately with connected-group purging, both directions",
+        "total_tasks": 6
+      }
+    },
+    "g5_cross_context": {
+      "cross_cell": {
+        "checks": {
+          "all_tasks_eligible": true,
+          "macro_regret_gain": false,
+          "tasks_improving_both": false
+        },
+        "eligible_tasks": [
+          "cross_cell_CAD_to_Neuro-2a|decrease",
+          "cross_cell_CAD_to_Neuro-2a|increase",
+          "cross_cell_Neuro-2a_to_CAD|decrease",
+          "cross_cell_Neuro-2a_to_CAD|increase"
+        ],
+        "macro_rank_gain": -0.009493570054172855,
+        "macro_regret_gain": -0.00291165354515074,
+        "per_task_rank_gain": {
+          "cross_cell_CAD_to_Neuro-2a|decrease": -0.008327655141857158,
+          "cross_cell_CAD_to_Neuro-2a|increase": 0.01712610310366782,
+          "cross_cell_Neuro-2a_to_CAD|decrease": -0.008821599874733448,
+          "cross_cell_Neuro-2a_to_CAD|increase": -0.037951128303768636
+        },
+        "per_task_regret_gain": {
+          "cross_cell_CAD_to_Neuro-2a|decrease": -0.012617805242451692,
+          "cross_cell_CAD_to_Neuro-2a|increase": 0.009449762211141171,
+          "cross_cell_Neuro-2a_to_CAD|decrease": -0.003527293183617472,
+          "cross_cell_Neuro-2a_to_CAD|increase": -0.0049512779656749675
+        },
+        "status": "fail",
+        "tasks_improving_both": [
+          "cross_cell_CAD_to_Neuro-2a|increase"
+        ]
+      },
+      "cross_reporter": {
+        "checks": {
+          "all_tasks_eligible": true,
+          "macro_regret_gain": false,
+          "tasks_improving_both": false
+        },
+        "eligible_tasks": [
+          "cross_reporter_Firefly_to_GFP|decrease",
+          "cross_reporter_Firefly_to_GFP|increase",
+          "cross_reporter_GFP_to_Firefly|decrease",
+          "cross_reporter_GFP_to_Firefly|increase"
+        ],
+        "macro_rank_gain": -0.059055324369897556,
+        "macro_regret_gain": -0.0205636978917561,
+        "per_task_rank_gain": {
+          "cross_reporter_Firefly_to_GFP|decrease": -0.06066358233702899,
+          "cross_reporter_Firefly_to_GFP|increase": -0.06185007232792572,
+          "cross_reporter_GFP_to_Firefly|decrease": 0.027840112895137787,
+          "cross_reporter_GFP_to_Firefly|increase": -0.14154775570977332
+        },
+        "per_task_regret_gain": {
+          "cross_reporter_Firefly_to_GFP|decrease": -0.003972056462339382,
+          "cross_reporter_Firefly_to_GFP|increase": -0.038691258566593924,
+          "cross_reporter_GFP_to_Firefly|decrease": 0.05499479383776979,
+          "cross_reporter_GFP_to_Firefly|increase": -0.09458627037586087
+        },
+        "status": "fail",
+        "tasks_improving_both": [
+          "cross_reporter_GFP_to_Firefly|decrease"
+        ]
+      },
+      "gate": "g5_cross_context",
+      "status": "fail",
+      "thresholds": {
+        "cell_tasks_improving_both_minimum": 3,
+        "cell_tasks_total": 4,
+        "macro_regret_gain_minimum": 0.005,
+        "paired_context_diagnostic": "labelled diagnostic only, never the zero-shot gate",
+        "purging": "connected groups held out across contexts; a measured mutant may never serve as its own transfer",
+        "reporter_tasks_improving_both_minimum": 3,
+        "reporter_tasks_total": 4
+      }
+    },
+    "g6_small_edits": {
+      "checks": {
+        "companion_not_harmful": true,
+        "primary_threshold": true,
+        "subbands": true
+      },
+      "components": 211,
+      "gate": "g6_small_edits",
+      "point": {
+        "rank_gain": 0.01370358423336926,
+        "regret_gain": 0.016563842718227615
+      },
+      "reported_bands": {
+        "0": {
+          "eligible": false,
+          "reason": "no candidate rows in this band"
+        },
+        "1": {
+          "rank_gain": 0.024999999999999994,
+          "regret_gain": 0.08199579189793271
+        },
+        "11-25": {
+          "rank_gain": 0.0699242908139759,
+          "regret_gain": 0.05465569950335298
+        },
+        "2-10": {
+          "rank_gain": 0.01370358423336926,
+          "regret_gain": 0.016563842718227615
+        },
+        "2-5": {
+          "rank_gain": 0.005730228821556958,
+          "regret_gain": 0.003912306788424321
+        },
+        "26-50": {
+          "rank_gain": -0.07305369849941937,
+          "regret_gain": -0.0997703336073349
+        },
+        "6-10": {
+          "rank_gain": -0.006119751475279171,
+          "regret_gain": -0.004940137973354935
+        },
+        ">50": {
+          "rank_gain": 0.04420478139492544,
+          "regret_gain": 0.028910672001846098
+        }
+      },
+      "status": "pass",
+      "subbands": {
+        "2-5": {
+          "rank_gain": 0.005730228821556958,
+          "regret_gain": 0.003912306788424321,
+          "status": "pass"
+        },
+        "6-10": {
+          "rank_gain": -0.006119751475279171,
+          "regret_gain": -0.004940137973354935,
+          "status": "pass"
+        }
+      },
+      "thresholds": {
+        "combine": "or",
+        "companion_gain_minimum": -0.002,
+        "exact_snv_note": "requires independent adequate evidence; absence is not generalization",
+        "primary_band": "2-10",
+        "rank_gain_minimum": 0.02,
+        "regret_gain_minimum": 0.01,
+        "reported_bands": [
+          "0",
+          "1",
+          "2-5",
+          "6-10",
+          "11-25",
+          "26-50",
+          ">50"
+        ],
+        "required_subbands": [
+          "2-5",
+          "6-10"
+        ],
+        "subband_regret_gain_minimum": -0.005
+      }
+    },
+    "g7_mechanistic_necessity": {
+      "block_removals": {
+        "bert_pooled_delta": {
+          "claim": false,
+          "companion_not_harmful": true,
+          "components": 211,
+          "effect_threshold_met": true,
+          "harm": {
+            "rank_gain": 0.005492337856418296,
+            "regret_gain": 0.009700710439871368
+          },
+          "holm_adjusted_p_value": 0.36846315368463156,
+          "p_value": 0.0736926307369263,
+          "status": "evaluated",
+          "test": {
+            "alternative": "greater",
+            "observed_mean": 0.009700710439871368,
+            "p_value": 0.0736926307369263,
+            "resamples": 10000,
+            "seed": 20260909,
+            "test": "paired component sign-flip randomization",
+            "units": 211
+          }
+        },
+        "motif_delta": {
+          "claim": false,
+          "companion_not_harmful": true,
+          "components": 84,
+          "effect_threshold_met": true,
+          "harm": {
+            "rank_gain": 0.0067466572785188535,
+            "regret_gain": 0.006210265989402489
+          },
+          "holm_adjusted_p_value": 0.3734626537346265,
+          "p_value": 0.12448755124487551,
+          "status": "evaluated",
+          "test": {
+            "alternative": "greater",
+            "observed_mean": 0.006210265989402489,
+            "p_value": 0.12448755124487551,
+            "resamples": 10000,
+            "seed": 20260909,
+            "test": "paired component sign-flip randomization",
+            "units": 84
+          }
+        },
+        "processing_delta": {
+          "claim": false,
+          "companion_not_harmful": true,
+          "components": 84,
+          "effect_threshold_met": true,
+          "harm": {
+            "rank_gain": 0.014666355900366978,
+            "regret_gain": 0.00809054127264134
+          },
+          "holm_adjusted_p_value": 0.33056694330566944,
+          "p_value": 0.055094490550944904,
+          "status": "evaluated",
+          "test": {
+            "alternative": "greater",
+            "observed_mean": 0.00809054127264134,
+            "p_value": 0.055094490550944904,
+            "resamples": 10000,
+            "seed": 20260909,
+            "test": "paired component sign-flip randomization",
+            "units": 84
+          }
+        },
+        "ranking_heads": {
+          "claim": false,
+          "companion_not_harmful": false,
+          "components": 42,
+          "effect_threshold_met": false,
+          "harm": {
+            "rank_gain": -0.018107640506205978,
+            "regret_gain": -0.008348568907942453
+          },
+          "holm_adjusted_p_value": 0.9909009099090091,
+          "p_value": 0.8397160283971603,
+          "status": "evaluated",
+          "test": {
+            "alternative": "greater",
+            "observed_mean": -0.008348568907942453,
+            "p_value": 0.8397160283971603,
+            "resamples": 10000,
+            "seed": 20260909,
+            "test": "paired component sign-flip randomization",
+            "units": 42
+          }
+        },
+        "rbp_delta": {
+          "claim": false,
+          "companion_not_harmful": true,
+          "components": 211,
+          "effect_threshold_met": true,
+          "harm": {
+            "rank_gain": 0.02413672925775077,
+            "regret_gain": 0.01563600233820781
+          },
+          "holm_adjusted_p_value": 0.36846315368463156,
+          "p_value": 0.0775922407759224,
+          "status": "evaluated",
+          "test": {
+            "alternative": "greater",
+            "observed_mean": 0.01563600233820781,
+            "p_value": 0.0775922407759224,
+            "resamples": 10000,
+            "seed": 20260909,
+            "test": "paired component sign-flip randomization",
+            "units": 211
+          }
+        },
+        "structure_delta": {
+          "claim": false,
+          "companion_not_harmful": true,
+          "components": 169,
+          "effect_threshold_met": true,
+          "harm": {
+            "rank_gain": 0.011309228150049032,
+            "regret_gain": 0.008586473081396788
+          },
+          "holm_adjusted_p_value": 0.2470752924707529,
+          "p_value": 0.0352964703529647,
+          "status": "evaluated",
+          "test": {
+            "alternative": "greater",
+            "observed_mean": 0.008586473081396788,
+            "p_value": 0.0352964703529647,
+            "resamples": 10000,
+            "seed": 20260909,
+            "test": "paired component sign-flip randomization",
+            "units": 169
+          }
+        },
+        "trans_aligned": {
+          "claim": false,
+          "companion_not_harmful": true,
+          "components": 42,
+          "effect_threshold_met": false,
+          "harm": {
+            "rank_gain": 0.004095238095238095,
+            "regret_gain": 0.0027274685847896605
+          },
+          "holm_adjusted_p_value": 0.9909009099090091,
+          "p_value": 0.49545045495450457,
+          "status": "evaluated",
+          "test": {
+            "alternative": "greater",
+            "observed_mean": 0.004095238095238095,
+            "p_value": 0.49545045495450457,
+            "resamples": 10000,
+            "seed": 20260909,
+            "test": "paired component sign-flip randomization",
+            "units": 42
+          }
+        }
+      },
+      "checks": {
+        "at_least_one_interpretable_block_necessary": false,
+        "primary_nulls": true
+      },
+      "gate": "g7_mechanistic_necessity",
+      "n10_stability": "not applicable: independent stability admission failed; never zero-filled or reported as passed",
+      "nulls": {
+        "m1_parent_aware_comparator": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -0.009902639148524323,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.006894672877781911,
+            "regret_gain": 0.006449727183498874
+          },
+          "retained_fraction": {
+            "rank_gain": -0.27571170609429135,
+            "regret_gain": 0.2559064277972427
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n0_geometry": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": 0.0,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": 0.0,
+            "regret_gain": 0.0
+          },
+          "retained_fraction": {
+            "rank_gain": 0.0,
+            "regret_gain": 0.0
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n1_edit_descriptors": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": 0.3343114960959642,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": 0.015216502428248938,
+            "regret_gain": 0.0015154557902966844
+          },
+          "retained_fraction": {
+            "rank_gain": 0.6084941112724895,
+            "regret_gain": 0.06012888091943891
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n2_geometry_source_slopes": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": 0.654897165483834,
+          "mean_retained_within_limit": false,
+          "null_meets_both_useful_selection_thresholds": true,
+          "point": {
+            "rank_gain": 0.021870339149495214,
+            "regret_gain": 0.010969032647642167
+          },
+          "retained_fraction": {
+            "rank_gain": 0.8745749982134009,
+            "regret_gain": 0.4352193327542671
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n3_parent_identity": {
+          "reason": "held-out components leave every evaluation parent unseen, and constant parent intercepts are rank-invariant inside a single-parent decision set",
+          "status": "ineligible"
+        },
+        "n4_random_kmer_delta": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": false,
+          "mean_retained_fraction": 1.0203679159015873,
+          "mean_retained_within_limit": false,
+          "null_meets_both_useful_selection_thresholds": true,
+          "point": {
+            "rank_gain": 0.028604542297587198,
+            "regret_gain": 0.022604129728644267
+          },
+          "retained_fraction": {
+            "rank_gain": 1.1438696655687155,
+            "regret_gain": 0.8968661662344593
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n5_bijection_edit_band": {
+          "components": 210,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -1.0548633922175574,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.02536147458473424,
+            "regret_gain": -0.027611509752853782
+          },
+          "retained_fraction": {
+            "rank_gain": -1.014182333342787,
+            "regret_gain": -1.0955444510923278
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n5_bijection_global": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -3.7019006436102124,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.11417546112447645,
+            "regret_gain": -0.07152813015269176
+          },
+          "retained_fraction": {
+            "rank_gain": -4.565772987167323,
+            "regret_gain": -2.8380283000531024
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n5_bijection_parent": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -1.8697108518075987,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.06830397702334916,
+            "regret_gain": -0.025405280866647933
+          },
+          "retained_fraction": {
+            "rank_gain": -2.731414002079732,
+            "regret_gain": -1.0080077015354654
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n5_bijection_source": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -2.8694338627041445,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.08511081100541333,
+            "regret_gain": -0.05885924341159524
+          },
+          "retained_fraction": {
+            "rank_gain": -3.403504027724166,
+            "regret_gain": -2.3353636976841226
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n6_absolute_mutant": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -0.6688670102561822,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.0210572796570834,
+            "regret_gain": -0.01249266240468
+          },
+          "retained_fraction": {
+            "rank_gain": -0.8420614875969062,
+            "regret_gain": -0.49567253291545815
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n6_absolute_reference": {
+          "components": 211,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": 0.1874022455222711,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": 0.006217339556382081,
+            "regret_gain": 0.003180140440888627
+          },
+          "retained_fraction": {
+            "rank_gain": 0.24862576177930318,
+            "regret_gain": 0.12617872926523904
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n7_broken_reference": {
+          "components": 183,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -0.5688882953048702,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.022900864243461383,
+            "regret_gain": -0.005594962002717248
+          },
+          "retained_fraction": {
+            "rank_gain": -0.915784760716564,
+            "regret_gain": -0.22199182989317642
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n8_bijection_source_edit_band": {
+          "components": 209,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -1.724493612967097,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.05263581716996727,
+            "regret_gain": -0.03387669283452767
+          },
+          "retained_fraction": {
+            "rank_gain": -2.1048585206072365,
+            "regret_gain": -1.3441287053269575
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        },
+        "n9_structure_bijection": {
+          "components": 167,
+          "destroys_at_least_one_metric_by_half": true,
+          "mean_retained_fraction": -0.39060278599890697,
+          "mean_retained_within_limit": true,
+          "null_meets_both_useful_selection_thresholds": false,
+          "point": {
+            "rank_gain": -0.011307187410883345,
+            "regret_gain": -0.008292981904924989
+          },
+          "retained_fraction": {
+            "rank_gain": -0.452164154477693,
+            "regret_gain": -0.329041417520121
+          },
+          "retention_defined": true,
+          "status": "evaluated"
+        }
+      },
+      "primary_nulls": {
+        "n5_bijection_global": {
+          "detail": {
+            "components": 211,
+            "destroys_at_least_one_metric_by_half": true,
+            "mean_retained_fraction": -3.7019006436102124,
+            "mean_retained_within_limit": true,
+            "null_meets_both_useful_selection_thresholds": false,
+            "point": {
+              "rank_gain": -0.11417546112447645,
+              "regret_gain": -0.07152813015269176
+            },
+            "retained_fraction": {
+              "rank_gain": -4.565772987167323,
+              "regret_gain": -2.8380283000531024
+            },
+            "retention_defined": true,
+            "status": "evaluated"
+          },
+          "status": "pass"
+        },
+        "n8_bijection_source_edit_band": {
+          "detail": {
+            "components": 209,
+            "destroys_at_least_one_metric_by_half": true,
+            "mean_retained_fraction": -1.724493612967097,
+            "mean_retained_within_limit": true,
+            "null_meets_both_useful_selection_thresholds": false,
+            "point": {
+              "rank_gain": -0.05263581716996727,
+              "regret_gain": -0.03387669283452767
+            },
+            "retained_fraction": {
+              "rank_gain": -2.1048585206072365,
+              "regret_gain": -1.3441287053269575
+            },
+            "retention_defined": true,
+            "status": "evaluated"
+          },
+          "status": "pass"
+        }
+      },
+      "status": "fail",
+      "thresholds": {
+        "block_removal_alpha": 0.05,
+        "block_removal_companion_minimum": -0.002,
+        "block_removal_family": [
+          "rbp_delta",
+          "bert_pooled_delta",
+          "structure_delta",
+          "processing_delta",
+          "motif_delta",
+          "trans_aligned",
+          "ranking_heads"
+        ],
+        "block_removal_multiplicity": "Holm over all seven enumerated hypotheses; absent components get p=1 and no claim",
+        "block_removal_rank_harm_minimum": 0.01,
+        "block_removal_regret_harm_minimum": 0.005,
+        "maximum_mean_retained_gain_fraction": 0.5,
+        "minimum_destroyed_fraction_of_one_metric": 0.5,
+        "n10_stability": "not applicable: independent stability admission failed; never zero-filled or reported as passed",
+        "null_may_meet_both_useful_selection_thresholds": false,
+        "primary_nulls": [
+          "n5_bijection_global",
+          "n8_bijection_source_edit_band"
+        ],
+        "reported_nulls": [
+          "n0_geometry",
+          "n1_edit_descriptors",
+          "n4_random_kmer_delta",
+          "n5_bijection_source",
+          "n5_bijection_edit_band",
+          "n5_bijection_parent",
+          "n6_absolute_mutant",
+          "n6_absolute_reference",
+          "n7_broken_reference",
+          "n9_structure_bijection"
+        ],
+        "retention_undefined_when_full_gain_nonpositive": true
+      }
+    },
+    "g8_shortcut_resistance": {
+      "checks": {
+        "no_identity_channel_in_any_primary_model": true
+      },
+      "gate": "g8_shortcut_resistance",
+      "note": "the numeric permutation falsification requirement is evaluated by gate 7; this record supplies the structural guarantee and the descriptive probe table",
+      "status": "pass"
+    },
+    "g9_stability_and_integrity": {
+      "checks": {
+        "gate_category_agreement": false,
+        "standard_deviation_within_limit": false
+      },
+      "gate": "g9_stability_and_integrity",
+      "note": "recipe selection was never repeated against outer outcomes; only the already-selected recipes were refit at the replication seeds",
+      "status": "fail",
+      "thresholds": {
+        "primary_gain_standard_deviation_maximum": 0.01,
+        "replication_seeds": [
+          20260910,
+          20260911
+        ],
+        "require_all_safe_tests_pass": true,
+        "require_gate_category_agreement": true,
+        "reselection_against_outer_outcomes": false,
+        "same_seed_replay_tolerance": 1e-08
+      }
+    }
+  },
+  "gates_failed": [
+    "g10_hard_harm",
+    "g2_distributed_benefit",
+    "g4_leave_source",
+    "g5_cross_context",
+    "g7_mechanistic_necessity",
+    "g9_stability_and_integrity"
+  ],
+  "gates_ineligible": [],
+  "gates_passed": [
+    "g1_useful_selection",
+    "g3_matched_edits",
+    "g6_small_edits",
+    "g8_shortcut_resistance"
+  ],
+  "holdout_opened": false,
+  "outer_freeze_git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "rationale": "At least one pre-registered development gate did not pass, so universal zero-shot intervention selection is not supported. A post-hoc restricted domain is forbidden by the frozen protocol, so PARTIAL GO is unavailable unless the single prospectively named restricted domain passes every gate on its own, which it does not when the shared gates fail.",
+  "restricted_domain_rule": "forbidden; no favorable outer subgroup may become a restricted domain",
+  "trans_clause": {
+    "applies": false,
+    "primary_family": "M4",
+    "reason": "the primary selected family does not retain the trans block, so no trans claim is made"
+  },
+  "verdict": "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS"
+}

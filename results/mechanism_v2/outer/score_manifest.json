@@ -1,0 +1,3641 @@
+{
+  "evaluated_once": true,
+  "family_selections": {
+    "0": {
+      "M0": "M0_E",
+      "M1": "M1_C",
+      "M2": "M2_E",
+      "M3": "M3_E",
+      "M4": "M4_C",
+      "M5": "M5_E",
+      "M6": "M6_E",
+      "M7": "M7_E"
+    },
+    "1": {
+      "M0": "M0_B",
+      "M1": "M1_E",
+      "M2": "M2_F",
+      "M3": "M3_D",
+      "M4": "M4_E",
+      "M5": "M5_F",
+      "M6": "M6_F",
+      "M7": "M7_F"
+    },
+    "2": {
+      "M0": "M0_C",
+      "M1": "M1_B",
+      "M2": "M2_A",
+      "M3": "M3_E",
+      "M4": "M4_E",
+      "M5": "M5_A",
+      "M6": "M6_B",
+      "M7": "M7_E"
+    },
+    "3": {
+      "M0": "M0_A",
+      "M1": "M1_F",
+      "M2": "M2_E",
+      "M3": "M3_D",
+      "M4": "M4_C",
+      "M5": "M5_E",
+      "M6": "M6_F",
+      "M7": "M7_F"
+    },
+    "4": {
+      "M0": "M0_D",
+      "M1": "M1_E",
+      "M2": "M2_E",
+      "M3": "M3_D",
+      "M4": "M4_E",
+      "M5": "M5_E",
+      "M6": "M6_E",
+      "M7": "M7_E"
+    }
+  },
+  "format": "mechanism_v2_outer_score_manifest_v1",
+  "gate_config_sha256": "a57dd77f6b13dc2e36a40cc874f8d447f54174f1f3c863caeef187b915eca1e5",
+  "holdout_opened": false,
+  "inner_training_freeze_sha256": "1a59c2e6013e97e881c5550f760c730ceee77dcad767fe49779c3341131b7c43",
+  "outer_freeze_git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "primary_family": "M4",
+  "primary_family_agreement": {
+    "counts": {
+      "M1": 1,
+      "M4": 2,
+      "M6": 1,
+      "M7": 1
+    },
+    "per_fold": [
+      "M4",
+      "M4",
+      "M7",
+      "M1",
+      "M6"
+    ],
+    "unanimous": false
+  },
+  "primary_selections": {
+    "0": "M4_C",
+    "1": "M4_E",
+    "2": "M7_E",
+    "3": "M1_F",
+    "4": "M6_E"
+  },
+  "scores": {
+    "M0": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M0.npy",
+        "sha256": "a1235d38dd07bb61b2dbe538e111f09e844fa43984b433af17e564a5ddb911c5",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 28,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.2049964562128174e-05,
+              "iterations": 12,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.65613720690652,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M0/outer_0.json",
+              "sha256": "8982ff60d498b1e10e944db71c4973e0d72ccc64bd17ea47642c2e46046ea4e2"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M0/outer_0.npy",
+              "sha256": "c1b9a012b74ee1d6a434cce5927830925800d4d3cb128d36464336848149ea00",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M0",
+            "provider_partition_audit": {
+              "columns": 28
+            },
+            "recipe_id": "M0_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 28,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 6.481368267919133e-05,
+              "iterations": 27,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6409180965578318,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M0/outer_1.json",
+              "sha256": "35d8450edba5342f118b4fc20dea673f2e22ed8e699d0903e0ddd856f0ccceef"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M0/outer_1.npy",
+              "sha256": "bebe73d6cd0055816bebff7350869c1576b67f55334230d0a4186003a907d940",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M0",
+            "provider_partition_audit": {
+              "columns": 28
+            },
+            "recipe_id": "M0_B",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 28,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 4.959174065611693e-05,
+              "iterations": 34,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6458111148741783,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M0/outer_2.json",
+              "sha256": "3929b95e7ebe01a1b3197c0b0b9f1c59f64f0ad196912bef047e889c5fb8a19d"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M0/outer_2.npy",
+              "sha256": "7f39fd61dbaea81ffec51b481b4f5d99e0271d94337313fcd3c8ca60ac8e5427",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M0",
+            "provider_partition_audit": {
+              "columns": 28
+            },
+            "recipe_id": "M0_C",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 28,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.2721105498466776e-05,
+              "iterations": 23,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6429512732368817,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M0/outer_3.json",
+              "sha256": "cdfea5e4001154d0f346e403a30c1a1f180b685f669dbbc5e9cf3dbe54c767f9"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M0/outer_3.npy",
+              "sha256": "23ac217d38633604f14145fc2d16e06e1e9562d66849457d3bc9bf3ca359e4ba",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M0",
+            "provider_partition_audit": {
+              "columns": 28
+            },
+            "recipe_id": "M0_A",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 28,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 0.00014727590064622632,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6446807945445655,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M0/outer_4.json",
+              "sha256": "e9714c1f09364ba7e3c9ac9806b7dafa263e09f6299634dfc5d6f26e883517d2"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M0/outer_4.npy",
+              "sha256": "b7dc38219fecd00133f424ce9ecce4a1c82625922b733f402c1d7c64bde04ac7",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M0",
+            "provider_partition_audit": {
+              "columns": 28
+            },
+            "recipe_id": "M0_D",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M0",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {},
+          "blocks": [
+            "geometry"
+          ],
+          "diagnostic_only": false,
+          "family": "M0",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M0"
+        }
+      }
+    },
+    "M1": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M1.npy",
+        "sha256": "b730d89831da0f39e78bd0c6d507efcc9112c28c4c5df95d486ca4518cfb9296",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 540,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 5.950483088536934e-05,
+              "iterations": 102,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6108377816438998,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M1/outer_0.json",
+              "sha256": "4d548f452f2915d5d8e9687e852805403c187156878651989cd6a830cc08d1ba"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M1/outer_0.npy",
+              "sha256": "f4f69fd9c57f825bf31ba40bb7e2f2dd792a2bc10ec0fcd49dd528a92710056e",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M1",
+            "provider_partition_audit": {
+              "columns": 540
+            },
+            "recipe_id": "M1_C",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 540,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.0311017184885556e-05,
+              "iterations": 39,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6126916817988762,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M1/outer_1.json",
+              "sha256": "1ee279a09d9c7b3682303709a270ae9705d4558e8a275c50032be1ddfa7515c1"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M1/outer_1.npy",
+              "sha256": "9102f2ebea7cbc9181f44f9ef51d0d42fcaffb64b291be16ac99a699f4f44e9a",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M1",
+            "provider_partition_audit": {
+              "columns": 540
+            },
+            "recipe_id": "M1_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 540,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.5027852387637852e-05,
+              "iterations": 110,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5979341373271171,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M1/outer_2.json",
+              "sha256": "bfecb0b596e9dd091a688764eb717ce2331261fe909f808e54b70fd594f2123f"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M1/outer_2.npy",
+              "sha256": "3af93fd553416354ba14ac7604ce358b46f537fecc438c8933b8fb72b1f954bf",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M1",
+            "provider_partition_audit": {
+              "columns": 540
+            },
+            "recipe_id": "M1_B",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 540,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.9420211693110495e-05,
+              "iterations": 86,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5949734948398091,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M1/outer_3.json",
+              "sha256": "627e7e879e434bd8646f6cf8192a89649a8979186724ef294fd4a6d7daaa1cc1"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M1/outer_3.npy",
+              "sha256": "e07e1aae9864641c7b73bcb8fbb06df9237e7dd29076bd19602ad685a91e9f2a",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M1",
+            "provider_partition_audit": {
+              "columns": 540
+            },
+            "recipe_id": "M1_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 540,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.489520809657991e-05,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.617287836083873,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M1/outer_4.json",
+              "sha256": "6646a1efed527f9419d060d3a7c95ac4e82876e7942ba6946d30348ada9b06c4"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M1/outer_4.npy",
+              "sha256": "24c3ea821be3843d260566f9ed19266fa9c0d5297cb3a6c5176ca3d40b65057b",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M1",
+            "provider_partition_audit": {
+              "columns": 540
+            },
+            "recipe_id": "M1_E",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M1",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {
+            "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+            "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702"
+          },
+          "blocks": [
+            "rbp_delta",
+            "bert_pooled_delta"
+          ],
+          "diagnostic_only": false,
+          "family": "M1",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M1"
+        }
+      }
+    },
+    "M2": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M2.npy",
+        "sha256": "a181d3a1b49e04df50ec1c5cff3848e6d9b6e887b2f068ec50d360f3980c992f",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 18,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.792799639289489e-05,
+              "iterations": 12,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6895388867289963,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M2/outer_0.json",
+              "sha256": "8075751c83b67602e12e36b344c8a5661d4cef2bf30219c930ee9704c4f6faa7"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M2/outer_0.npy",
+              "sha256": "5f0f2da3b8777299b8c493bbd0fc5a0f5ff7a6b858d0fdc8bf3a787cf4b6a9d3",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M2",
+            "provider_partition_audit": {
+              "columns": 18
+            },
+            "recipe_id": "M2_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 18,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.1610950421762916e-05,
+              "iterations": 30,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6843343778009701,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M2/outer_1.json",
+              "sha256": "f4a13dff90fb28f9689a52e95316fc67bc153ffbf1d91bb080efdb473ecc4b37"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M2/outer_1.npy",
+              "sha256": "aff38c685b04a3ebe6ae4e63c5ac4fb99af7f05dac018a40a80c0589d67f57a7",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M2",
+            "provider_partition_audit": {
+              "columns": 18
+            },
+            "recipe_id": "M2_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 18,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 8.219837929637198e-05,
+              "iterations": 26,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6837189453391438,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M2/outer_2.json",
+              "sha256": "3934b09b62580ead754051dbfe0d90f1ae8e93e4d060d051bf557eda68bf5df0"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M2/outer_2.npy",
+              "sha256": "98b1f67da6ba055e24335cd30e7146ee4af8fe933319a58f6517deb6c0571cdb",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M2",
+            "provider_partition_audit": {
+              "columns": 18
+            },
+            "recipe_id": "M2_A",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 18,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.4797128870909725e-05,
+              "iterations": 13,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6863588560553483,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M2/outer_3.json",
+              "sha256": "b52a6ada0f4d7b6d589f506fd17b36913f88e2fb79cc625ac788e45396e9587a"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M2/outer_3.npy",
+              "sha256": "3ca7d070916fd60d2edef41e5ac9d1903ac1ea28052c0355c91f3206224dea3e",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M2",
+            "provider_partition_audit": {
+              "columns": 18
+            },
+            "recipe_id": "M2_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 18,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 5.5248696703758416e-05,
+              "iterations": 13,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6869498606795003,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M2/outer_4.json",
+              "sha256": "a9a1aa04036a35dc19f5fec3b51736ac9f86963baec46d736c173e562f704a0a"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M2/outer_4.npy",
+              "sha256": "3cba0ff650de945f545053b5f7f8bd0462fa7cbba593cf7cbfce4128215c8bbf",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M2",
+            "provider_partition_audit": {
+              "columns": 18
+            },
+            "recipe_id": "M2_E",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M2",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {
+            "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90"
+          },
+          "blocks": [
+            "structure_delta"
+          ],
+          "diagnostic_only": false,
+          "family": "M2",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M2"
+        }
+      }
+    },
+    "M3": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M3.npy",
+        "sha256": "7180631dea34239c99bd377bb3303bdcda9a359b2277aa3251122b4010d845e9",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 8,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.1584562882847105e-05,
+              "iterations": 6,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6885886952595711,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M3/outer_0.json",
+              "sha256": "5c336bc6869da57d594c0c91f5e45c5cfd4c269e5dd9fcbc6a556fa728ee9c1f"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M3/outer_0.npy",
+              "sha256": "fae8553e0f783974048b03a87e5513b783bedb67a4993bb26869f3359e885dfb",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M3",
+            "provider_partition_audit": {
+              "columns": 8
+            },
+            "recipe_id": "M3_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 8,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 8.345861325936453e-07,
+              "iterations": 8,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6823279729885451,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M3/outer_1.json",
+              "sha256": "cf5109a808368b406235ada0386039e2a0b39e35a4a278645320f946ea1f715d"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M3/outer_1.npy",
+              "sha256": "8f2f7a647bd0360d5803a7019af914e38fd91b4310422fe526ae190774ccba52",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M3",
+            "provider_partition_audit": {
+              "columns": 8
+            },
+            "recipe_id": "M3_D",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 8,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 5.0219156471013854e-06,
+              "iterations": 6,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6847403828157531,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M3/outer_2.json",
+              "sha256": "977cec54ca7841e92cc654d46fe27c1afc9dde97c327826e087d71753b0c201b"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M3/outer_2.npy",
+              "sha256": "7feaae40dac2b8ff143e0050f443b4b7cb830111af334913ff1c776b7d936338",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M3",
+            "provider_partition_audit": {
+              "columns": 8
+            },
+            "recipe_id": "M3_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 8,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.4595852440537054e-05,
+              "iterations": 8,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6833540736988902,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M3/outer_3.json",
+              "sha256": "8aed597a8a0fd356abd4d17a72a2ac8713c09d7d17871797229c15d3b3b4ff8a"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M3/outer_3.npy",
+              "sha256": "b335a39a3be4348cd188a8ea7fd4ae4f655970a2c1c4fecb53ea74d661115e11",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M3",
+            "provider_partition_audit": {
+              "columns": 8
+            },
+            "recipe_id": "M3_D",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 8,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.5362788404315458e-06,
+              "iterations": 9,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6839485856518189,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M3/outer_4.json",
+              "sha256": "a83faa5890dde456090290843811e2ef6f4e042f98006529d040d95e48355397"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M3/outer_4.npy",
+              "sha256": "3738de951932be8c8676ffc4cc9603fd3fc1d1b263a9331c4392eb08852c520c",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M3",
+            "provider_partition_audit": {
+              "columns": 8
+            },
+            "recipe_id": "M3_D",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M3",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {
+            "processing_delta": "40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39"
+          },
+          "blocks": [
+            "processing_delta"
+          ],
+          "diagnostic_only": false,
+          "family": "M3",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M3"
+        }
+      }
+    },
+    "M4": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M4.npy",
+        "sha256": "fa51caa90fd48285ecdd31654bf5de7a1602bf9dfdbfc71dd7a25e4437eae963",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 558,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.4500868200869053e-05,
+              "iterations": 104,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6099890593149128,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M4/outer_0.json",
+              "sha256": "22177c05f2d452b2dfa7b83e83af8c5aadd413bf8bdc578bd911ef94dbdc3a99"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M4/outer_0.npy",
+              "sha256": "ad2c7614d87e65e2c8072e76e5a278333e049f75ce147fb7ef323668c4a1b3b7",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M4",
+            "provider_partition_audit": {
+              "columns": 558
+            },
+            "recipe_id": "M4_C",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 558,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 4.6124621829424575e-05,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6115781485011299,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M4/outer_1.json",
+              "sha256": "d64d1ec8b3b592a16722257a8648e1f779087f3ec4e620d9f5afd6660275ec69"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M4/outer_1.npy",
+              "sha256": "3625b5bbf88a46d02f333ddb9e5d1117c5f39af263078442b80e499a64592885",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M4",
+            "provider_partition_audit": {
+              "columns": 558
+            },
+            "recipe_id": "M4_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 558,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 5.887778615716252e-05,
+              "iterations": 37,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6150397371043065,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M4/outer_2.json",
+              "sha256": "30dc2e8f2e0a87bbac1ac43e986eff3dd4a59c88fe0556f80aa2ac964b9b5960"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M4/outer_2.npy",
+              "sha256": "5bc70473a616b7c8c167841bbbcc3d59eda89f617394d670798e4ac0b1b22051",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M4",
+            "provider_partition_audit": {
+              "columns": 558
+            },
+            "recipe_id": "M4_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 558,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 7.039433705927078e-05,
+              "iterations": 102,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.606404294384751,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M4/outer_3.json",
+              "sha256": "4ec38bea7cdbe92de8132162103fc8d163d68566aedb360cdd13aa989e212442"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M4/outer_3.npy",
+              "sha256": "e777be48c3eee73d9956e2b5b7871c56ba2a203282c0ecd0f19f934c34c3d59c",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M4",
+            "provider_partition_audit": {
+              "columns": 558
+            },
+            "recipe_id": "M4_C",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 558,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 5.168698957420148e-05,
+              "iterations": 35,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6163578041800939,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M4/outer_4.json",
+              "sha256": "10e13d47753ab12294f374c8a1fd150ee0d419c1bc1ee414ed1342e3ed0edc8a"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M4/outer_4.npy",
+              "sha256": "3b26a72aef9d0d10570b33e3c2629ecfb0ee54cbf5557432a1302bebb63b706a",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M4",
+            "provider_partition_audit": {
+              "columns": 558
+            },
+            "recipe_id": "M4_E",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M4",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {
+            "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+            "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702",
+            "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90"
+          },
+          "blocks": [
+            "rbp_delta",
+            "bert_pooled_delta",
+            "structure_delta"
+          ],
+          "diagnostic_only": false,
+          "family": "M4",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M4"
+        }
+      }
+    },
+    "M5": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M5.npy",
+        "sha256": "d05054a9fdeecd29e0b966fae29481b412641dd97c8ecfb9c63871359f567327",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 548,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.1636089134867056e-05,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6227377978581891,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M5/outer_0.json",
+              "sha256": "fb40fb60dfda856054131de137419ea79e7ba30c1dc03f2e52846c222b14242e"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M5/outer_0.npy",
+              "sha256": "f1315fc0d7f73744a1eb88a8d046d205c34121e38dd21ce8e9524942c880a458",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M5",
+            "provider_partition_audit": {
+              "columns": 548
+            },
+            "recipe_id": "M5_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 548,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 7.257097304724108e-05,
+              "iterations": 97,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5869252533091203,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M5/outer_1.json",
+              "sha256": "56e567b5ca143af345a7f6d4deb3208945dbcc1a7fd9e806a9dd4e2e89747620"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M5/outer_1.npy",
+              "sha256": "765231924bfc54c78f1033fe1fca6db1b466f8bced56163f276812697c94c59e",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M5",
+            "provider_partition_audit": {
+              "columns": 548
+            },
+            "recipe_id": "M5_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 548,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.765514265701743e-05,
+              "iterations": 96,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5944776995782919,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M5/outer_2.json",
+              "sha256": "3a339dff183b0036827ce1dd03437f523ab18b2b30203efc1112fc530d721a48"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M5/outer_2.npy",
+              "sha256": "ee7db29e3cfa113354ebdeffbabc59bb90201629a1c9512fc0e7b8d84fc228bb",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M5",
+            "provider_partition_audit": {
+              "columns": 548
+            },
+            "recipe_id": "M5_A",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 548,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.3640806072078887e-05,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.616645308003652,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M5/outer_3.json",
+              "sha256": "2657900fffb7e12601d60fe4eb0e3807155c4262cf554f070b0b2d9762eac3e9"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M5/outer_3.npy",
+              "sha256": "9ee3a5b25bc560c60d6113cdba69d47f7657b6013aa3e11515b0e9804f7f9277",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M5",
+            "provider_partition_audit": {
+              "columns": 548
+            },
+            "recipe_id": "M5_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 548,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.0730738262256098e-05,
+              "iterations": 37,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6169589864984515,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M5/outer_4.json",
+              "sha256": "a86a7392749532c15d58b27bb2864c6a86533ee48bf187cf4222201b7f39e88b"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M5/outer_4.npy",
+              "sha256": "8440b1c494cc62d5203b9f1a56250adaed754eebf50c52ceb6be70d5ab90a4e7",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M5",
+            "provider_partition_audit": {
+              "columns": 548
+            },
+            "recipe_id": "M5_E",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M5",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {
+            "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+            "processing_delta": "40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39",
+            "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702"
+          },
+          "blocks": [
+            "rbp_delta",
+            "bert_pooled_delta",
+            "processing_delta"
+          ],
+          "diagnostic_only": false,
+          "family": "M5",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M5"
+        }
+      }
+    },
+    "M6": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M6.npy",
+        "sha256": "e9d5aa23cfd141b5e4a5d330f7833f31a167ae24c93c1307e04b82360079ad55",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 574,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.625209229082783e-05,
+              "iterations": 37,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6212854917391047,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M6/outer_0.json",
+              "sha256": "a5806d3208878fc64d6b746bab2a898073c10879351856089d3e5c1aab2938f6"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M6/outer_0.npy",
+              "sha256": "4e5d343657140d993012c56ac85f0e81bb074a0165f0b48e0d03df220027c995",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M6",
+            "provider_partition_audit": {
+              "columns": 574
+            },
+            "recipe_id": "M6_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 574,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.5629225709701142e-05,
+              "iterations": 106,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5852982889893392,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M6/outer_1.json",
+              "sha256": "384af927361909370eb4e19981b5096e8ac0f244fa11b12b4f57c6e94a83242f"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M6/outer_1.npy",
+              "sha256": "18897653c120aebef50c4ecaa2238c16b252eb89f8ef1fb720773db1e00d02bd",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M6",
+            "provider_partition_audit": {
+              "columns": 574
+            },
+            "recipe_id": "M6_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 574,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.637639018945439e-05,
+              "iterations": 99,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5959832125509078,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M6/outer_2.json",
+              "sha256": "f74cb9efd14a87be263f7372be4b957d935603c676da960664ffa81fcb8e260a"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M6/outer_2.npy",
+              "sha256": "40c9a4086f6c111eb87359d8159dcdbd49039bd0dafe77fe861583af2e91b780",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M6",
+            "provider_partition_audit": {
+              "columns": 574
+            },
+            "recipe_id": "M6_B",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 574,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.1923202132582726e-05,
+              "iterations": 101,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5938782374055677,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M6/outer_3.json",
+              "sha256": "add29596e28fc4217f4aa5cf3acc5acc852b36f282051cab9dbc3e14ad96d095"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M6/outer_3.npy",
+              "sha256": "6480d6edab51c05c1ce0840babf6e1a03ba91007ae15f376b37aaa02c675d71d",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M6",
+            "provider_partition_audit": {
+              "columns": 574
+            },
+            "recipe_id": "M6_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 574,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.745642404607224e-05,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.615827589985592,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M6/outer_4.json",
+              "sha256": "66bf89ea756beb6d70200dbb08be1b1e5346bef151020ff554f17d4afa46df41"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M6/outer_4.npy",
+              "sha256": "6c891c30211f6f568f972cd78952af57269dfbea94b8f51242de5644fe7a3225",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M6",
+            "provider_partition_audit": {
+              "columns": 574
+            },
+            "recipe_id": "M6_E",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M6",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {
+            "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+            "motif_delta": "a11c53563bd3c6fd7e4b645fba8c86bf217214615bfdd3c5b0c72ea3ebc54d0e",
+            "processing_delta": "40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39",
+            "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702",
+            "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90"
+          },
+          "blocks": [
+            "rbp_delta",
+            "bert_pooled_delta",
+            "structure_delta",
+            "processing_delta",
+            "motif_delta"
+          ],
+          "diagnostic_only": false,
+          "family": "M6",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M6"
+        }
+      }
+    },
+    "M7": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/M7.npy",
+        "sha256": "e8e4e2cca86e1531b0cccda31871470646729db0b2852be5f9b9e2e2dc4bd852",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 578,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 5.3270723881877844e-05,
+              "iterations": 37,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.621257227559794,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M7/outer_0.json",
+              "sha256": "8fe51193c05aab1d397f0eacf36870e2a5f6c5a7b39b5667076be80345d67fd0"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M7/outer_0.npy",
+              "sha256": "ae7c7c704481f5c7ea2d5461b812d298a89ec438e7127167c582fe19c05025b2",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M7",
+            "provider_partition_audit": {
+              "columns": 578
+            },
+            "recipe_id": "M7_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 578,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.8210941110499565e-05,
+              "iterations": 103,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5852936319246548,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M7/outer_1.json",
+              "sha256": "151d852d70cf0ae12026a427e234947c4b914ee2f384d4ee4d969d75d8bed08d"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M7/outer_1.npy",
+              "sha256": "d5cb96c8dfbb27fb5fbcac20e78258393eb5d801ceae2765227c2ccdfcedcd88",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M7",
+            "provider_partition_audit": {
+              "columns": 578
+            },
+            "recipe_id": "M7_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 578,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.605335641417319e-05,
+              "iterations": 38,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.614444320488891,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M7/outer_2.json",
+              "sha256": "269e2a4345e564a06cdd52f6583144d6fbd8e78f9f3a224083e3a78298a2e5bd"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M7/outer_2.npy",
+              "sha256": "fb61bfe9e435e676717b313fa93e74e9a8895946d2571c1ba6d6edf9dda4fa75",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M7",
+            "provider_partition_audit": {
+              "columns": 578
+            },
+            "recipe_id": "M7_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 578,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.7525724525481634e-05,
+              "iterations": 98,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5938741546325665,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M7/outer_3.json",
+              "sha256": "a2be91644478dd95ba5d20a347946abfb9adb1670974176b8a22c311b159b237"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M7/outer_3.npy",
+              "sha256": "b2c6fcfae6bfcd2d07da73022a83af37ea90ce5de1acd4d935463eb99c7abd30",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M7",
+            "provider_partition_audit": {
+              "columns": 578
+            },
+            "recipe_id": "M7_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 578,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.8585568152092646e-05,
+              "iterations": 35,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6157613550566011,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/M7/outer_4.json",
+              "sha256": "3fd870acad107e5e35f1a20481d9cbff22e3e36637a5eaff1675ad49dc09acb0"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/M7/outer_4.npy",
+              "sha256": "cd0713a3db9b08eff837433bcba96922109f64c9e7bd205272b6b96f7d794e75",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M7",
+            "provider_partition_audit": {
+              "columns": 578
+            },
+            "recipe_id": "M7_E",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "M7",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "block_manifests": {
+            "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+            "motif_delta": "a11c53563bd3c6fd7e4b645fba8c86bf217214615bfdd3c5b0c72ea3ebc54d0e",
+            "processing_delta": "40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39",
+            "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702",
+            "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90",
+            "trans_aligned": "9efe543400c4180dfd007f71368368d620e72c1d352d7c95c1fab13ed7e30cab"
+          },
+          "blocks": [
+            "rbp_delta",
+            "bert_pooled_delta",
+            "structure_delta",
+            "processing_delta",
+            "motif_delta",
+            "trans_aligned"
+          ],
+          "diagnostic_only": false,
+          "family": "M7",
+          "kind": "FamilyProvider",
+          "partition_dependent": false,
+          "provider": "M7"
+        }
+      }
+    },
+    "primary": {
+      "array": {
+        "dtype": "float64",
+        "path": "data/interim/mechanism_v2/outer_scores/primary.npy",
+        "sha256": "6adb433c864893b1d0914fb968c6d19dc4f7c48c5de0b171ff224b0ba2ad1354",
+        "shape": [
+          93208,
+          2
+        ]
+      },
+      "audit": {
+        "coverage": 1.0,
+        "folds": [
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "columns": 558,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 11631,
+                "sha256": "a3b9d174fb585c62edde37058cd0625bf05c49cbdbef0cc1e9ca2b89ed1136e3"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 86,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 81577,
+                "sha256": "8e9ab36b51b5f6beb73b401cdbfa4707b987d993e16d5b999897722e20addd98"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.4500868200869053e-05,
+              "iterations": 104,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6099890593149128,
+              "pairs": 39761,
+              "rows": 81577,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/primary_selector/outer_0.json",
+              "sha256": "22177c05f2d452b2dfa7b83e83af8c5aadd413bf8bdc578bd911ef94dbdc3a99"
+            },
+            "outer_fold": 0,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/primary_selector/outer_0.npy",
+              "sha256": "ad2c7614d87e65e2c8072e76e5a278333e049f75ce147fb7ef323668c4a1b3b7",
+              "shape": [
+                11631,
+                2
+              ]
+            },
+            "provider": "M4",
+            "provider_partition_audit": {
+              "columns": 558
+            },
+            "recipe_id": "M4_C",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "columns": 558,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 30623,
+                "sha256": "76e18c0cc3743efcf9ad818ac7e8a7029f3a1f61f88c03b475963014025770ae"
+              },
+              "evaluation_components": 43,
+              "evaluation_decisions": 95,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 62585,
+                "sha256": "b5398f565e2774932e7111402bed100bfb4d28763aef2e3516cff283919b665b"
+              },
+              "train_components": 168
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 4.6124621829424575e-05,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.6115781485011299,
+              "pairs": 39262,
+              "rows": 62585,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/primary_selector/outer_1.json",
+              "sha256": "d64d1ec8b3b592a16722257a8648e1f779087f3ec4e620d9f5afd6660275ec69"
+            },
+            "outer_fold": 1,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/primary_selector/outer_1.npy",
+              "sha256": "3625b5bbf88a46d02f333ddb9e5d1117c5f39af263078442b80e499a64592885",
+              "shape": [
+                30623,
+                2
+              ]
+            },
+            "provider": "M4",
+            "provider_partition_audit": {
+              "columns": 558
+            },
+            "recipe_id": "M4_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "columns": 578,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 6529,
+                "sha256": "0b9a73b7cf9e88fcb1d0de40ada5b46aba008ece7a9bf572d87bace08f9f7c27"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 81,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 86679,
+                "sha256": "e3bf4015b26ddd7c383a655022670f954f44001bc22feb7c4c6eea76ec8558bc"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 2.605335641417319e-05,
+              "iterations": 38,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.614444320488891,
+              "pairs": 40385,
+              "rows": 86679,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/primary_selector/outer_2.json",
+              "sha256": "269e2a4345e564a06cdd52f6583144d6fbd8e78f9f3a224083e3a78298a2e5bd"
+            },
+            "outer_fold": 2,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/primary_selector/outer_2.npy",
+              "sha256": "fb61bfe9e435e676717b313fa93e74e9a8895946d2571c1ba6d6edf9dda4fa75",
+              "shape": [
+                6529,
+                2
+              ]
+            },
+            "provider": "M7",
+            "provider_partition_audit": {
+              "columns": 578
+            },
+            "recipe_id": "M7_E",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "columns": 540,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 35028,
+                "sha256": "97e118b565352d6eecc99c80b06d1484b1a25456175f2360d5c761709219f497"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 96,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 58180,
+                "sha256": "d869ba3bf1e557dd8c43ddb8f5af468a7f275d2c838b9a11797b6f81c52f47ae"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 3.9420211693110495e-05,
+              "iterations": 86,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.5949734948398091,
+              "pairs": 39466,
+              "rows": 58180,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/primary_selector/outer_3.json",
+              "sha256": "627e7e879e434bd8646f6cf8192a89649a8979186724ef294fd4a6d7daaa1cc1"
+            },
+            "outer_fold": 3,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/primary_selector/outer_3.npy",
+              "sha256": "e07e1aae9864641c7b73bcb8fbb06df9237e7dd29076bd19602ad685a91e9f2a",
+              "shape": [
+                35028,
+                2
+              ]
+            },
+            "provider": "M1",
+            "provider_partition_audit": {
+              "columns": 540
+            },
+            "recipe_id": "M1_F",
+            "variant": null
+          },
+          {
+            "boundary": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "columns": 574,
+            "eligible_partition": {
+              "evaluation": {
+                "count": 9397,
+                "sha256": "2948b7f921ad0dfa83e0653ae7b60ff1d3e60b5df54ddb080d6c92540ce065c0"
+              },
+              "evaluation_components": 42,
+              "evaluation_decisions": 87,
+              "group_purged": true,
+              "shared_components": [],
+              "shared_interventions": [],
+              "train": {
+                "count": 83811,
+                "sha256": "a67fa630777fa3cf19bee0b200c1b0a640e3ebd89e9c50bb101f9a3e6ae005b4"
+              },
+              "train_components": 169
+            },
+            "fit_audit": {
+              "converged": true,
+              "gradient_max_abs": 1.745642404607224e-05,
+              "iterations": 36,
+              "latent_receives_source_identity": false,
+              "nuisance_penalty": "linear predictability only",
+              "objective": 0.615827589985592,
+              "pairs": 39290,
+              "rows": 83811,
+              "source_names": [
+                "mikl_gse173098",
+                "moffatt_gse334718",
+                "tdp43_gse288185"
+              ]
+            },
+            "model": {
+              "path": "models/mechanism_v2/fits/outer/primary_selector/outer_4.json",
+              "sha256": "66bf89ea756beb6d70200dbb08be1b1e5346bef151020ff554f17d4afa46df41"
+            },
+            "outer_fold": 4,
+            "predictions": {
+              "dtype": "float64",
+              "path": "data/interim/mechanism_v2/fit_predictions/outer/primary_selector/outer_4.npy",
+              "sha256": "6c891c30211f6f568f972cd78952af57269dfbea94b8f51242de5644fe7a3225",
+              "shape": [
+                9397,
+                2
+              ]
+            },
+            "provider": "M6",
+            "provider_partition_audit": {
+              "columns": 574
+            },
+            "recipe_id": "M6_E",
+            "variant": null
+          }
+        ],
+        "outer_folds_skipped": [],
+        "provider": "primary_selector",
+        "scored_rows": 93208,
+        "seed": null,
+        "static_audit": {
+          "0": {
+            "block_manifests": {
+              "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+              "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702",
+              "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90"
+            },
+            "blocks": [
+              "rbp_delta",
+              "bert_pooled_delta",
+              "structure_delta"
+            ],
+            "diagnostic_only": false,
+            "family": "M4",
+            "kind": "FamilyProvider",
+            "partition_dependent": false,
+            "provider": "M4"
+          },
+          "1": {
+            "block_manifests": {
+              "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+              "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702",
+              "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90"
+            },
+            "blocks": [
+              "rbp_delta",
+              "bert_pooled_delta",
+              "structure_delta"
+            ],
+            "diagnostic_only": false,
+            "family": "M4",
+            "kind": "FamilyProvider",
+            "partition_dependent": false,
+            "provider": "M4"
+          },
+          "2": {
+            "block_manifests": {
+              "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+              "motif_delta": "a11c53563bd3c6fd7e4b645fba8c86bf217214615bfdd3c5b0c72ea3ebc54d0e",
+              "processing_delta": "40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39",
+              "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702",
+              "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90",
+              "trans_aligned": "9efe543400c4180dfd007f71368368d620e72c1d352d7c95c1fab13ed7e30cab"
+            },
+            "blocks": [
+              "rbp_delta",
+              "bert_pooled_delta",
+              "structure_delta",
+              "processing_delta",
+              "motif_delta",
+              "trans_aligned"
+            ],
+            "diagnostic_only": false,
+            "family": "M7",
+            "kind": "FamilyProvider",
+            "partition_dependent": false,
+            "provider": "M7"
+          },
+          "3": {
+            "block_manifests": {
+              "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+              "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702"
+            },
+            "blocks": [
+              "rbp_delta",
+              "bert_pooled_delta"
+            ],
+            "diagnostic_only": false,
+            "family": "M1",
+            "kind": "FamilyProvider",
+            "partition_dependent": false,
+            "provider": "M1"
+          },
+          "4": {
+            "block_manifests": {
+              "bert_pooled_delta": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+              "motif_delta": "a11c53563bd3c6fd7e4b645fba8c86bf217214615bfdd3c5b0c72ea3ebc54d0e",
+              "processing_delta": "40a7ccbff17ab6f5b2af70e5cbe84931d4681d7e26828bdf4728eb91e3a0fc39",
+              "rbp_delta": "1e3314adf68163fb25b28940abf974520f26dc576e28fd8bb5cb05ac98e29702",
+              "structure_delta": "d8a33188a89dbfd7adb9c236323cc242bbf699d4121e9ddf2c30be2edbc19f90"
+            },
+            "blocks": [
+              "rbp_delta",
+              "bert_pooled_delta",
+              "structure_delta",
+              "processing_delta",
+              "motif_delta"
+            ],
+            "diagnostic_only": false,
+            "family": "M6",
+            "kind": "FamilyProvider",
+            "partition_dependent": false,
+            "provider": "M6"
+          }
+        }
+      }
+    }
+  }
+}

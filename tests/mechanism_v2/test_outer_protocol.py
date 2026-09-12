@@ -36,6 +36,18 @@ def test_outer_scores_skips_none_providers_without_inventing_a_family():
                            1: type('P', (), {'name': 'b'})()}, 'fallback') == 'fallback'
 
 
+def test_report_row_tolerates_compact_null_evidence_without_decisions():
+    from src.mechanism_v2.reporting import _row
+
+    compact = {'eligible': True, 'point': {'rank_gain': 0.0, 'regret_gain': 0.0},
+               'components': 211, 'note': 'identically zero by construction'}
+    line = _row('n0_geometry', compact)
+    assert '+0.0000' in line and '211' in line and 'identically zero' in line
+    full = {'eligible': True, 'point': {'rank_gain': 0.01, 'regret_gain': 0.02},
+            'components': 50, 'decisions': 100}
+    assert '100 decisions' in _row('primary', full)
+
+
 def test_percentile_rank_is_within_decision_and_bounded():
     rows = pd.DataFrame({'decision_set_id': ['d0', 'd0', 'd0', 'd1', 'd1']})
     values = percentile_rank(rows, [1.0, 2.0, 3.0, 5.0, -5.0])

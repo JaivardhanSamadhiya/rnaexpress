@@ -1,0 +1,822 @@
+{
+  "falsification_tests": {
+    "matched_stratum_permutations": "results/mechanism_v2/controls/control_evidence.json (n5_bijection_source, n5_bijection_edit_band, n5_bijection_parent, n8_bijection_source_edit_band)",
+    "partition_local": "every bijection is constructed separately inside the training rows and inside the evaluation rows of each partition",
+    "permutation_seeds": [
+      20260909,
+      20260910,
+      20260911
+    ]
+  },
+  "format": "mechanism_v2_shortcut_probes_v1",
+  "gate": {
+    "checks": {
+      "no_identity_channel_in_any_primary_model": true
+    },
+    "gate": "g8_shortcut_resistance",
+    "note": "the numeric permutation falsification requirement is evaluated by gate 7; this record supplies the structural guarantee and the descriptive probe table",
+    "status": "pass"
+  },
+  "interpretation": "decodability is descriptive. Edit size and mutation class are genuinely correlated with mechanism, so a decodable score is not by itself a shortcut, and an undecodable score is not by itself a mechanism.",
+  "outer_freeze_git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "probes": {
+    "biological_unit": {
+      "eligible": false,
+      "reason": "every evaluation label is unseen because whole connected components are held out, so this classification task is ineligible rather than a zero-accuracy success"
+    },
+    "cell_type": {
+      "accuracy": 0.5339777701484851,
+      "balanced_accuracy": 0.6087990318478124,
+      "classes": 2,
+      "decoder": "grouped out-of-fold nearest-class-mean on the single frozen score",
+      "eligible": true,
+      "folds": 5,
+      "groups": 211,
+      "labels_absent_from_some_training_fold": 0,
+      "majority_class_accuracy": 0.8733155952278774
+    },
+    "dataset": {
+      "accuracy": 0.36834821045403826,
+      "balanced_accuracy": 0.39952172618641174,
+      "classes": 3,
+      "decoder": "grouped out-of-fold nearest-class-mean on the single frozen score",
+      "eligible": true,
+      "folds": 5,
+      "groups": 211,
+      "labels_absent_from_some_training_fold": 0,
+      "majority_class_accuracy": 0.6976439790575916
+    },
+    "direction": {
+      "accuracy": 0.32577675735988326,
+      "balanced_accuracy": 0.42356985004869047,
+      "classes": 3,
+      "decoder": "grouped out-of-fold nearest-class-mean on the single frozen score",
+      "eligible": true,
+      "folds": 5,
+      "groups": 211,
+      "labels_absent_from_some_training_fold": 0,
+      "majority_class_accuracy": 0.5477426830314994
+    },
+    "direction_identifiability": {
+      "note": "the two directional decisions on a set share identical covariates and differ only by the sign applied to the shared latent score, so direction decodability is not separately identifiable from the representation"
+    },
+    "edit_band": {
+      "accuracy": 0.24043000600806796,
+      "balanced_accuracy": 0.29390184425768406,
+      "classes": 6,
+      "decoder": "grouped out-of-fold nearest-class-mean on the single frozen score",
+      "eligible": true,
+      "folds": 5,
+      "groups": 211,
+      "labels_absent_from_some_training_fold": 0,
+      "majority_class_accuracy": 0.2878508282550854
+    },
+    "gene_label": {
+      "eligible": false,
+      "reason": "every evaluation label is unseen because whole connected components are held out, so this classification task is ineligible rather than a zero-accuracy success"
+    },
+    "intervention_class": {
+      "accuracy": 0.2726911853059823,
+      "balanced_accuracy": 0.21526801709924934,
+      "classes": 7,
+      "decoder": "grouped out-of-fold nearest-class-mean on the single frozen score",
+      "eligible": true,
+      "folds": 5,
+      "groups": 211,
+      "labels_absent_from_some_training_fold": 0,
+      "majority_class_accuracy": 0.2533688095442451
+    },
+    "reporter": {
+      "accuracy": 0.29211011930306413,
+      "balanced_accuracy": 0.29686299819959144,
+      "classes": 4,
+      "decoder": "grouped out-of-fold nearest-class-mean on the single frozen score",
+      "eligible": true,
+      "folds": 5,
+      "groups": 211,
+      "labels_absent_from_some_training_fold": 0,
+      "majority_class_accuracy": 0.4747231997253455
+    }
+  },
+  "structural_identity_check": {
+    "clean": true,
+    "models_inspected": 45,
+    "per_model": [
+      {
+        "blocks": [
+          "geometry"
+        ],
+        "columns": 28,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M0"
+      },
+      {
+        "blocks": [
+          "geometry"
+        ],
+        "columns": 28,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M0"
+      },
+      {
+        "blocks": [
+          "geometry"
+        ],
+        "columns": 28,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M0"
+      },
+      {
+        "blocks": [
+          "geometry"
+        ],
+        "columns": 28,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M0"
+      },
+      {
+        "blocks": [
+          "geometry"
+        ],
+        "columns": 28,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M0"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta"
+        ],
+        "columns": 540,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M1"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta"
+        ],
+        "columns": 540,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M1"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta"
+        ],
+        "columns": 540,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M1"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta"
+        ],
+        "columns": 540,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.8743666984420935,
+          "moffatt_gse334718": 1.1020616537250825,
+          "tdp43_gse288185": 1.1871357297805532
+        },
+        "score": "M1"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta"
+        ],
+        "columns": 540,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M1"
+      },
+      {
+        "blocks": [
+          "structure_delta"
+        ],
+        "columns": 18,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M2"
+      },
+      {
+        "blocks": [
+          "structure_delta"
+        ],
+        "columns": 18,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.9360422469042682,
+          "moffatt_gse334718": 1.045859501243074,
+          "tdp43_gse288185": 1.0339302845219647
+        },
+        "score": "M2"
+      },
+      {
+        "blocks": [
+          "structure_delta"
+        ],
+        "columns": 18,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M2"
+      },
+      {
+        "blocks": [
+          "structure_delta"
+        ],
+        "columns": 18,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M2"
+      },
+      {
+        "blocks": [
+          "structure_delta"
+        ],
+        "columns": 18,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M2"
+      },
+      {
+        "blocks": [
+          "processing_delta"
+        ],
+        "columns": 8,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M3"
+      },
+      {
+        "blocks": [
+          "processing_delta"
+        ],
+        "columns": 8,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M3"
+      },
+      {
+        "blocks": [
+          "processing_delta"
+        ],
+        "columns": 8,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M3"
+      },
+      {
+        "blocks": [
+          "processing_delta"
+        ],
+        "columns": 8,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M3"
+      },
+      {
+        "blocks": [
+          "processing_delta"
+        ],
+        "columns": 8,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M3"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 558,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M4"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 558,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M4"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 558,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M4"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 558,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M4"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 558,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M4"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "processing_delta",
+          "rbp_delta"
+        ],
+        "columns": 548,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M5"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "processing_delta",
+          "rbp_delta"
+        ],
+        "columns": 548,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.8542004264558085,
+          "moffatt_gse334718": 1.1344716289970391,
+          "tdp43_gse288185": 1.205018447079475
+        },
+        "score": "M5"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "processing_delta",
+          "rbp_delta"
+        ],
+        "columns": 548,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M5"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "processing_delta",
+          "rbp_delta"
+        ],
+        "columns": 548,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M5"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "processing_delta",
+          "rbp_delta"
+        ],
+        "columns": 548,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M5"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 574,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M6"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 574,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.8524612824383423,
+          "moffatt_gse334718": 1.1392027661637592,
+          "tdp43_gse288185": 1.2060326051134689
+        },
+        "score": "M6"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 574,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M6"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 574,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.8733232798384111,
+          "moffatt_gse334718": 1.1072019578968761,
+          "tdp43_gse288185": 1.187186926529767
+        },
+        "score": "M6"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 574,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M6"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta",
+          "trans_aligned"
+        ],
+        "columns": 578,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M7"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta",
+          "trans_aligned"
+        ],
+        "columns": 578,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.8524303581561945,
+          "moffatt_gse334718": 1.1392100387704924,
+          "tdp43_gse288185": 1.2060685352046854
+        },
+        "score": "M7"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta",
+          "trans_aligned"
+        ],
+        "columns": 578,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M7"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta",
+          "trans_aligned"
+        ],
+        "columns": 578,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.8734433294212596,
+          "moffatt_gse334718": 1.107269615774701,
+          "tdp43_gse288185": 1.1869144817238384
+        },
+        "score": "M7"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta",
+          "trans_aligned"
+        ],
+        "columns": 578,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "M7"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 558,
+        "identity_columns": [],
+        "outer_fold": 0,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "primary"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 558,
+        "identity_columns": [],
+        "outer_fold": 1,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "primary"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta",
+          "trans_aligned"
+        ],
+        "columns": 578,
+        "identity_columns": [],
+        "outer_fold": 2,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "primary"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "rbp_delta"
+        ],
+        "columns": 540,
+        "identity_columns": [],
+        "outer_fold": 3,
+        "ranking_temperatures": {
+          "mikl_gse173098": 0.8743666984420935,
+          "moffatt_gse334718": 1.1020616537250825,
+          "tdp43_gse288185": 1.1871357297805532
+        },
+        "score": "primary"
+      },
+      {
+        "blocks": [
+          "bert_pooled_delta",
+          "motif_delta",
+          "processing_delta",
+          "rbp_delta",
+          "structure_delta"
+        ],
+        "columns": 574,
+        "identity_columns": [],
+        "outer_fold": 4,
+        "ranking_temperatures": {
+          "mikl_gse173098": 1.0,
+          "moffatt_gse334718": 1.0,
+          "tdp43_gse288185": 1.0
+        },
+        "score": "primary"
+      }
+    ],
+    "violations": []
+  }
+}

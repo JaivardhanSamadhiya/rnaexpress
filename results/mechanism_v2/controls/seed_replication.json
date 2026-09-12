@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "gate_category_agreement": false,
+    "standard_deviation_within_limit": false
+  },
+  "format": "mechanism_v2_seed_replication_v1",
+  "gate": {
+    "checks": {
+      "gate_category_agreement": false,
+      "standard_deviation_within_limit": false
+    },
+    "gate": "g9_stability_and_integrity",
+    "note": "recipe selection was never repeated against outer outcomes; only the already-selected recipes were refit at the replication seeds",
+    "status": "fail",
+    "thresholds": {
+      "primary_gain_standard_deviation_maximum": 0.01,
+      "replication_seeds": [
+        20260910,
+        20260911
+      ],
+      "require_all_safe_tests_pass": true,
+      "require_gate_category_agreement": true,
+      "reselection_against_outer_outcomes": false,
+      "same_seed_replay_tolerance": 1e-08
+    }
+  },
+  "outer_freeze_git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "per_seed": {
+    "20260909": {
+      "categories": {
+        "g1_useful_selection": "pass",
+        "g3_matched_edits": "pass",
+        "g6_small_edits": "pass"
+      },
+      "components": 211,
+      "point": {
+        "rank_gain": 0.025006819534256496,
+        "regret_gain": 0.02520345908860507
+      }
+    },
+    "20260910": {
+      "categories": {
+        "g1_useful_selection": "pass",
+        "g3_matched_edits": "fail",
+        "g6_small_edits": "fail"
+      },
+      "components": 211,
+      "point": {
+        "rank_gain": 0.02665048386181471,
+        "regret_gain": 0.01551587456614042
+      }
+    },
+    "20260911": {
+      "categories": {
+        "g1_useful_selection": "fail",
+        "g3_matched_edits": "fail",
+        "g6_small_edits": "fail"
+      },
+      "components": 211,
+      "point": {
+        "rank_gain": -0.00947226729791256,
+        "regret_gain": -0.004399722814807195
+      }
+    }
+  },
+  "primary_gain_standard_deviation": {
+    "rank_gain": 0.020397557911628863,
+    "regret_gain": 0.015093203170778668
+  },
+  "replay": {},
+  "seeds": [
+    20260909,
+    20260910,
+    20260911
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "coverage_candidates": [
+    1.0,
+    0.9,
+    0.75
+  ],
+  "format": "mechanism_v2_uncertainty_v1",
+  "inner_coverage_policy": {
+    "0": {
+      "options": [
+        {
+          "coverage_achieved": 1.0,
+          "coverage_requested": 1.0,
+          "decisions": 718,
+          "rank": 0.6497153954885562,
+          "regret": 0.40267425251837935
+        },
+        {
+          "coverage_achieved": 0.8997214484679665,
+          "coverage_requested": 0.9,
+          "decisions": 646,
+          "rank": 0.6558407030311277,
+          "regret": 0.40091211940417687
+        },
+        {
+          "coverage_achieved": 0.7493036211699164,
+          "coverage_requested": 0.75,
+          "decisions": 538,
+          "rank": 0.6819599887243561,
+          "regret": 0.3851425938569173
+        }
+      ],
+      "recipe_id": "M4_C",
+      "selected_coverage": 0.75,
+      "selection_rule": "inner-only minimum covered regret within the 0.002 tolerance, then greater coverage"
+    },
+    "1": {
+      "options": [
+        {
+          "coverage_achieved": 1.0,
+          "coverage_requested": 1.0,
+          "decisions": 700,
+          "rank": 0.6146121513162683,
+          "regret": 0.41757233499338714
+        },
+        {
+          "coverage_achieved": 0.9028571428571428,
+          "coverage_requested": 0.9,
+          "decisions": 632,
+          "rank": 0.6281382164828974,
+          "regret": 0.4097383249444238
+        },
+        {
+          "coverage_achieved": 0.7542857142857143,
+          "coverage_requested": 0.75,
+          "decisions": 528,
+          "rank": 0.6433769307931645,
+          "regret": 0.3991756997730507
+        }
+      ],
+      "recipe_id": "M4_E",
+      "selected_coverage": 0.75,
+      "selection_rule": "inner-only minimum covered regret within the 0.002 tolerance, then greater coverage"
+    },
+    "2": {
+      "options": [
+        {
+          "coverage_achieved": 1.0,
+          "coverage_requested": 1.0,
+          "decisions": 728,
+          "rank": 0.6233796914824971,
+          "regret": 0.4229005875971868
+        },
+        {
+          "coverage_achieved": 0.9010989010989011,
+          "coverage_requested": 0.9,
+          "decisions": 656,
+          "rank": 0.6273983243613026,
+          "regret": 0.4147339546060527
+        },
+        {
+          "coverage_achieved": 0.7527472527472527,
+          "coverage_requested": 0.75,
+          "decisions": 548,
+          "rank": 0.6348981396538694,
+          "regret": 0.40160178369274147
+        }
+      ],
+      "recipe_id": "M7_E",
+      "selected_coverage": 0.75,
+      "selection_rule": "inner-only minimum covered regret within the 0.002 tolerance, then greater coverage"
+    },
+    "3": {
+      "options": [
+        {
+          "coverage_achieved": 1.0,
+          "coverage_requested": 1.0,
+          "decisions": 698,
+          "rank": 0.5962031300553132,
+          "regret": 0.4229692120472697
+        },
+        {
+          "coverage_achieved": 0.9025787965616046,
+          "coverage_requested": 0.9,
+          "decisions": 630,
+          "rank": 0.577303164337862,
+          "regret": 0.44172219551294695
+        },
+        {
+          "coverage_achieved": 0.7535816618911175,
+          "coverage_requested": 0.75,
+          "decisions": 526,
+          "rank": 0.5821364858021058,
+          "regret": 0.4213703566981652
+        }
+      ],
+      "recipe_id": "M1_F",
+      "selected_coverage": 1.0,
+      "selection_rule": "inner-only minimum covered regret within the 0.002 tolerance, then greater coverage"
+    },
+    "4": {
+      "options": [
+        {
+          "coverage_achieved": 1.0,
+          "coverage_requested": 1.0,
+          "decisions": 716,
+          "rank": 0.6220803939800431,
+          "regret": 0.39740171920144807
+        },
+        {
+          "coverage_achieved": 0.8994413407821229,
+          "coverage_requested": 0.9,
+          "decisions": 644,
+          "rank": 0.6275217404286481,
+          "regret": 0.3935942494814813
+        },
+        {
+          "coverage_achieved": 0.7513966480446927,
+          "coverage_requested": 0.75,
+          "decisions": 538,
+          "rank": 0.6380029559534458,
+          "regret": 0.38326392596604036
+        }
+      ],
+      "recipe_id": "M6_E",
+      "selected_coverage": 0.75,
+      "selection_rule": "inner-only minimum covered regret within the 0.002 tolerance, then greater coverage"
+    }
+  },
+  "note": "three group-bootstrap refits give a coarse rank-stability summary, not a calibrated predictive interval",
+  "outer_freeze_git_commit": "04155604d201a313c7d28fd94ee6e10d1927a40b",
+  "outer_uncertainty": {
+    "0": {
+      "decision_rank_spread": {
+        "decisions": 86,
+        "maximum": 0.569889536061836,
+        "mean": 0.4470081707709759,
+        "median": 0.45007767869072457
+      },
+      "recipe_id": "M4_C",
+      "replicate_draws": [
+        {
+          "components_drawn": 169,
+          "distinct_components": 107,
+          "draw_sha256": "574ad3f16e87325aa504e601c7a22daa0cb65d46cbb4c799561108dcc7479cfd",
+          "rows": 137332,
+          "seed": 20261909
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 113,
+          "draw_sha256": "b8a9d4c19c987246b046f7b4d61427e2644c792f9cb82e09021e84f85c5fc185",
+          "rows": 36395,
+          "seed": 20261910
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 103,
+          "draw_sha256": "434ae7b89300f53f9fec64956929ddec6dd09636c529797fd76953c6355b6c01",
+          "rows": 54467,
+          "seed": 20261911
+        }
+      ],
+      "selected_coverage": 0.75
+    },
+    "1": {
+      "decision_rank_spread": {
+        "decisions": 95,
+        "maximum": 0.5362940338445649,
+        "mean": 0.43526214700038546,
+        "median": 0.4603004643887251
+      },
+      "recipe_id": "M4_E",
+      "replicate_draws": [
+        {
+          "components_drawn": 168,
+          "distinct_components": 110,
+          "draw_sha256": "822b000f8c5eff777739e2efd94d6d93ac695f74c39e983133bdbc166bb22e28",
+          "rows": 68014,
+          "seed": 20261909
+        },
+        {
+          "components_drawn": 168,
+          "distinct_components": 116,
+          "draw_sha256": "a14fb9199772fe4befc073af83591bdced790e057c541fdde2dd3f928a8d0aeb",
+          "rows": 31956,
+          "seed": 20261910
+        },
+        {
+          "components_drawn": 168,
+          "distinct_components": 107,
+          "draw_sha256": "8cdb3d87c0d80aac3cdce84de8d202f98b8facdb4675cc5f737d436233dfee26",
+          "rows": 50525,
+          "seed": 20261911
+        }
+      ],
+      "selected_coverage": 0.75
+    },
+    "2": {
+      "decision_rank_spread": {
+        "decisions": 81,
+        "maximum": 0.5433884886490595,
+        "mean": 0.426721507414515,
+        "median": 0.4337634960578017
+      },
+      "recipe_id": "M7_E",
+      "replicate_draws": [
+        {
+          "components_drawn": 169,
+          "distinct_components": 107,
+          "draw_sha256": "6c9d92a770c7b9387ff205232f38cb4779f0e6f15c05c68b45ee7ace254d261a",
+          "rows": 116317,
+          "seed": 20261909
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 113,
+          "draw_sha256": "3cfc4e756f9ed8c1e25bd204421300a4366d52cab157b09c8595228abcbe2a9f",
+          "rows": 56061,
+          "seed": 20261910
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 103,
+          "draw_sha256": "7dc421a48709b18d4fbad410a93ee47ff93d432d6fc84b03a71c094cdc90ba5b",
+          "rows": 55334,
+          "seed": 20261911
+        }
+      ],
+      "selected_coverage": 0.75
+    },
+    "3": {
+      "decision_rank_spread": {
+        "decisions": 96,
+        "maximum": 0.5773502691896258,
+        "mean": 0.483290090193615,
+        "median": 0.4948716593053935
+      },
+      "recipe_id": "M1_F",
+      "replicate_draws": [
+        {
+          "components_drawn": 169,
+          "distinct_components": 107,
+          "draw_sha256": "1ed80c9423f1054ca9f46dd98568e338a807d6046bbf6bfb6a47fea275e4a4a5",
+          "rows": 72832,
+          "seed": 20261909
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 113,
+          "draw_sha256": "feffdb1edddd5e68a4e21e6aff230a41426b1514a250487063f32dda626b15d6",
+          "rows": 20625,
+          "seed": 20261910
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 103,
+          "draw_sha256": "181cd1d001662a6598c494068627be41cf58f4d04b3c49ece98aedab15a9c675",
+          "rows": 44464,
+          "seed": 20261911
+        }
+      ],
+      "selected_coverage": 1.0
+    },
+    "4": {
+      "decision_rank_spread": {
+        "decisions": 87,
+        "maximum": 0.5301081635678255,
+        "mean": 0.4387154105793707,
+        "median": 0.45222428364815664
+      },
+      "recipe_id": "M6_E",
+      "replicate_draws": [
+        {
+          "components_drawn": 169,
+          "distinct_components": 107,
+          "draw_sha256": "387f7264a6465ee10f5490870b64c136702383fd3225f7fce6dbd1822e568f58",
+          "rows": 110371,
+          "seed": 20261909
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 113,
+          "draw_sha256": "3f26640602cd8611c05b8cec53ed2eebc0283d5c2914c07e8bbd9ebbf3a18984",
+          "rows": 54204,
+          "seed": 20261910
+        },
+        {
+          "components_drawn": 169,
+          "distinct_components": 103,
+          "draw_sha256": "2a6a574d68c811ed5382e90b4684a4734dd24d7ac56e266e645459c3f888f8d2",
+          "rows": 60973,
+          "seed": 20261911
+        }
+      ],
+      "selected_coverage": 0.75
+    }
+  },
+  "primary_gate_coverage": "full coverage always remains the pre-registered gate",
+  "replicates_per_partition": 3
+}

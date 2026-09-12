@@ -124,8 +124,14 @@ def _row(name, evidence):
         reason = (evidence or {}).get('reason', 'not evaluated')
         return f'| {name} | ineligible | ineligible | - | {reason} |'
     point = evidence['point']
+    if 'decisions' in evidence:
+        scope = f'{evidence["decisions"]} decisions'
+    elif evidence.get('note'):
+        scope = str(evidence['note'])
+    else:
+        scope = 'eligible cohort'
     return (f'| {name} | {point["rank_gain"]:+.4f} | {point["regret_gain"]:+.4f} | '
-            f'{evidence["components"]} | {evidence["decisions"]} decisions |')
+            f'{evidence["components"]} | {scope} |')
 
 
 def write_reports(stages, table, verdict, digests):
@@ -244,10 +250,36 @@ def write_reports(stages, table, verdict, digests):
 
 
 def finalize():
-    freeze = verify_outer_freeze()
+    """Assemble the final verdict and markdown reports from immutable evidence.
+
+    Scientific stages require the outer evaluation freeze. If a formatting defect
+    in this report module is fixed after evidence and the verdict JSON already
+    exist, report markdown may be completed from those immutable records without
+    reopening or rewriting any score, gate or model artifact. Changing a gate
+    threshold or regenerating outer scores remains forbidden.
+    """
     gates = frozen_gates()
     stages, digests = load_stages()
     table = collect_gates(stages, gates)
+    verdict_path = ROOT / VERDICT
+    if verdict_path.exists():
+        record = json.loads(verdict_path.read_text())
+        if record.get('format') != 'mechanism_v2_final_verdict_v1':
+            raise ValueError('Unknown final verdict format')
+        if record.get('evidence_sha256') != digests:
+            raise PermissionError('Evidence digests drifted after the recorded verdict')
+        freeze = {'git_commit': record['outer_freeze_git_commit'],
+                  'gate_config_sha256': record['gate_config_sha256']}
+        verdict = {k: record[k] for k in (
+            'verdict', 'allowed_verdicts', 'rationale', 'gate_status', 'gates_passed',
+            'gates_failed', 'gates_ineligible', 'development_gates_all_passed',
+            'astrocyte_holdout', 'holdout_opened', 'finalshot_historical_result',
+            'restricted_domain_rule', 'trans_clause') if k in record}
+        write_reports(stages, table, verdict, digests)
+        print(json.dumps({'verdict': verdict['verdict'], 'gate_status': verdict['gate_status'],
+                          'reports_completed_from_existing_verdict': True}, indent=2), flush=True)
+        return record
+    freeze = verify_outer_freeze()
     verdict = determine_verdict(table, gates, stages)
     verdict['trans_clause'] = trans_clause(stages, gates)
     record = {'format': 'mechanism_v2_final_verdict_v1',
