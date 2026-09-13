@@ -1,0 +1,98 @@
+{
+  "protocol": "RNAddress-Mechanism-v4",
+  "committed_before_scoring": true,
+  "created": "2026-09-12",
+  "rationale": "Mechanism-v2 and v3 returned NO-GO on the within-parent intervention-ranking estimand. Measured cause: within-decision outcome reliability 0.239 against a leaky ceiling of +0.0218 rank gain. Mechanism-v4 changes the estimand, not the gates' strictness: it asks whether absolute subcellular localization is predictable from sequence, which is the estimand whose measurement reliability is adequate.",
+
+  "measured_reliability_justification": {
+    "method": "var(effect) / (var(effect) + mean(effect_uncertainty^2)) over unique sequences",
+    "paired_within_decision_v3": 0.239,
+    "sequence_level_moffatt_gse334718": 0.8818,
+    "sequence_level_mikl_gse173098": 0.4527,
+    "sequence_level_tdp43_gse288185": null,
+    "note": "tdp43 carries no usable effect_uncertainty and is therefore excluded from v4 scoring."
+  },
+
+  "primary_source": "moffatt_gse334718",
+  "primary_source_reason": "Only source whose outcome_semantics is an absolute per-sequence measure ('author WT-normalized log2 neurite enrichment') with usable uncertainty. Mikl and TDP43 outcomes in the certified table are already mutant-minus-WT differences and therefore re-pose the failed estimand.",
+
+  "data": {
+    "table": "results/v4_phaseB/model_candidate_rows.csv.gz",
+    "table_sha256": "4e2339e1845147a14076bd8db9105a60ac91c59607c718212b59199f3ec0fd4c",
+    "row_filter": "outcome_valid == True",
+    "unit_of_analysis": "unique mutant_sequence, outcomes averaged",
+    "expected_unique_sequences": 46291,
+    "expected_components": 10,
+    "expected_genes": 10,
+    "sequence_length_nt": 260
+  },
+
+  "label_definition": {
+    "continuous": "mean localization_effect per unique mutant_sequence",
+    "binary": "significant neurite enrichment: localization_effect > 0 AND (localization_effect / effect_uncertainty) >= 1.96, versus all others",
+    "binary_reason": "Matches the published definition used by the Mikl source paper (significant enrichment versus all others), so reported auROC is comparable to its 0.81-0.83.",
+    "expected_positive_rate": 0.386
+  },
+
+  "estimands": {
+    "T1_within_parent_design": {
+      "question": "Given deep mutagenesis of a 3'UTR, can sequence features predict the absolute localization of unseen variants of that same 3'UTR?",
+      "split": "stratified 5-fold over sequences, within each gene, seeded",
+      "zero_shot": false,
+      "practical_meaning": "supports sequence-level design of localization elements in a known context"
+    },
+    "T2_cross_parent_zero_shot": {
+      "question": "Does a model trained on some genes predict localization for sequences from entirely unseen genes?",
+      "split": "frozen biological_fold, grouped by group_id; no component may straddle train and test",
+      "zero_shot": true,
+      "practical_meaning": "this is the actual universal RNAddress claim",
+      "acknowledged_weakness": "only 10 independent genes exist in this source, so T2 has 5 grouped folds over few units and low power. A T2 failure here is therefore weaker evidence than the v2 failure was, and must be reported as inconclusive-or-negative, never as proof of impossibility."
+    }
+  },
+
+  "features": {
+    "primary": "counts of all k-mers for k in [1,2,3,4,5], 1364 columns, on ACGT-normalized sequence",
+    "composition_control": "counts of all k-mers for k in [1,2] only, 20 columns",
+    "estimator": "HistGradientBoostingClassifier / HistGradientBoostingRegressor",
+    "estimator_params": {"max_iter": 300, "learning_rate": 0.06, "max_depth": 6},
+    "no_outcome_derived_features": true,
+    "no_parent_identity_features": true
+  },
+
+  "gates": {
+    "g1_t1_predictive": "T1 mean auROC >= 0.80 AND T1 mean Spearman >= 0.50",
+    "g2_t1_beats_composition": "T1 mean auROC exceeds composition_control mean auROC by >= 0.030",
+    "g3_null_inert": "shuffled-label null mean auROC <= 0.550",
+    "g4_t2_zero_shot": "T2 mean grouped auROC >= 0.700",
+    "g5_t2_worst_fold": "T2 worst-fold auROC >= 0.600",
+    "g6_t2_beats_composition": "T2 mean auROC exceeds composition_control mean auROC by >= 0.030",
+    "g7_seed_stability": "standard deviation of T2 mean auROC across seeds <= 0.020",
+    "g8_split_integrity": "no group_id appears in both train and test for any scored split",
+    "g9_holdout_sealed": "Astrocyte never opened during development"
+  },
+
+  "seeds": {"primary": 20260912, "replication": [20260913, 20260914]},
+
+  "verdict_rules": {
+    "STRONG GO - UNIVERSAL ZERO-SHOT RNADDRESS SUPPORTED": "g1-g9 all pass AND the one-time Astrocyte confirmation passes after a committed pre-holdout freeze",
+    "PARTIAL GO - RESTRICTED ZERO-SHOT DOMAIN SUPPORTED": "g1, g2, g3, g8, g9 pass but T2 gates fail; claim is restricted to within-parent sequence design and must say so explicitly",
+    "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS": "g1, g2 or g3 fails"
+  },
+
+  "prior_exposure_disclosure": "Moffatt absolute outcomes contributed to the paired regret and rank metrics examined during Mechanism-v2 and v3. They are therefore not pristine, although they were never examined under a sequence-level classification estimand. Development results alone can never be a STRONG GO. The sealed Astrocyte holdout remains the only uncontaminated confirmation.",
+
+  "stopping_rule": "Mechanism-v4 is scored exactly once per seed. No gate, threshold, feature set, split, label definition or estimator may change after any score is observed. If the gates fail, v4 closes.",
+
+  "preserved_conclusions": [
+    "FinalShot 98ffc02: NO-GO - END ZERO-SHOT RNADDRESS, unchanged",
+    "Mechanism-v2: NO-GO, unchanged",
+    "Mechanism-v3: NO-GO, unchanged"
+  ],
+
+  "boundaries_unchanged": [
+    "N-zip outcomes never accessed",
+    "quarantined TDP EV5 stability data never accessed",
+    "Astrocyte sealed; open_holdout refuses unconditionally during development",
+    "only tests/mechanism_v4 and tests/mechanism_v2 are run"
+  ]
+}
