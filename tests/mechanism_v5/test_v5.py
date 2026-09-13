@@ -132,6 +132,26 @@ def test_confident_subset_keeps_only_significant_rows_and_labels_by_sign():
     assert conf.set_index('mutant_sequence').label.to_dict() == {'A': 1, 'B': 0, 'D': 1}
 
 
+def test_confident_subset_is_empty_without_usable_uncertainty():
+    """tdp43_gse288185 carries no uncertainty, so its confident subset must be empty."""
+    table = pd.DataFrame({
+        'mutant_sequence': ['A', 'B'], 'effect': [1.0, -1.0],
+        'uncertainty': [np.nan, np.nan], 'parent': ['A', 'B'],
+        'gene': ['g1', 'g2'], 'component': ['c1', 'c2'], 'fold': [0, 1],
+    })
+    assert len(evaluate.confident(table)) == 0
+
+
+def test_undefined_statistics_are_recorded_as_null_not_as_a_number():
+    cleaned = evaluate._finite({'a': float('nan'), 'b': [1.0, float('inf')], 'c': 0.5})
+    assert cleaned == {'a': None, 'b': [1.0, None], 'c': 0.5}
+
+
+def test_spearman_reports_undefined_for_constant_input():
+    result = evaluate._spearman([1.0, 1.0, 1.0, 1.0], [1.0, 2.0, 3.0, 4.0])
+    assert not np.isfinite(result.statistic)
+
+
 def test_group_integrity_detects_a_gene_straddling_folds():
     """Arm A must refuse to report integrity when a gene spans train and test."""
     rng = np.random.default_rng(0)

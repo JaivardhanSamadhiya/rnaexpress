@@ -36,6 +36,33 @@ def _sequence_table(rows: pd.DataFrame, source: str) -> pd.DataFrame:
     return table.sort_values('mutant_sequence').reset_index(drop=True)
 
 
+def _finite(value):
+    """Evidence records are canonical JSON with allow_nan=False.
+
+    An undefined statistic is recorded as null rather than coerced to a number,
+    so a missing measurement can never be mistaken for a real one.
+    """
+    if isinstance(value, dict):
+        return {k: _finite(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [_finite(v) for v in value]
+    if isinstance(value, float) and not np.isfinite(value):
+        return None
+    return value
+
+
+def _spearman(a, b):
+    """Spearman that reports an undefined correlation instead of warning on it."""
+    a, b = np.asarray(a, dtype=float), np.asarray(b, dtype=float)
+    ok = np.isfinite(a) & np.isfinite(b)
+    if ok.sum() < 3 or np.ptp(a[ok]) == 0 or np.ptp(b[ok]) == 0:
+        class _Undefined:
+            statistic = float('nan')
+            pvalue = float('nan')
+        return _Undefined()
+    return spearmanr(a[ok], b[ok])
+
+
 def confident(table: pd.DataFrame) -> pd.DataFrame:
     z = table.effect / table.uncertainty
     keep = table[z.abs() >= CONFIDENT_Z].copy()
@@ -99,21 +126,29 @@ def run_arm_b(train_table: pd.DataFrame, test_table: pd.DataFrame, seed: int) ->
                  - model.predict(kmer_frequency(test_table.parent, KS)))
     measured = test_table.effect.to_numpy()
 
-    rho = spearmanr(predicted, measured)
+    rho = _spearman(predicted, measured)
     control = au_delta(test_table.mutant_sequence, test_table.parent).ravel()
-    control_rho = spearmanr(control, measured)
+    control_rho = _spearman(control, measured)
 
+    # A source without usable effect_uncertainty has an empty confident subset.
+    # The diagnostics established this for tdp43_gse288185, and gates b1-b4 are
+    # defined on mikl_gse173098 alone, so this is reported, never silently
+    # substituted.
     conf = confident(test_table)
-    conf_predicted = (model.predict(kmer_frequency(conf.mutant_sequence, KS))
-                      - model.predict(kmer_frequency(conf.parent, KS)))
-    auroc = (float(roc_auc_score(conf.label.to_numpy(), conf_predicted))
-             if conf.label.nunique() > 1 else float('nan'))
+    if len(conf) == 0 or conf.label.nunique() < 2:
+        auroc = float('nan')
+    else:
+        conf_predicted = (model.predict(kmer_frequency(conf.mutant_sequence, KS))
+                          - model.predict(kmer_frequency(conf.parent, KS)))
+        auroc = float(roc_auc_score(conf.label.to_numpy(), conf_predicted))
 
     per_fold = []
     for f in sorted(test_table.fold.unique()):
         mask = (test_table.fold == f).to_numpy()
         if mask.sum() > 10:
-            per_fold.append(float(spearmanr(predicted[mask], measured[mask]).statistic))
+            value = float(_spearman(predicted[mask], measured[mask]).statistic)
+            if np.isfinite(value):
+                per_fold.append(value)
 
     return {
         'spearman': float(rho.statistic), 'p_value': float(rho.pvalue),
@@ -121,7 +156,8 @@ def run_arm_b(train_table: pd.DataFrame, test_table: pd.DataFrame, seed: int) ->
         'confident_auroc': auroc, 'confident_n': int(len(conf)),
         'per_fold_spearman': per_fold,
         'same_sign_folds': int(sum(1 for v in per_fold
-                                   if np.sign(v) == np.sign(rho.statistic))),
+                                   if np.isfinite(rho.statistic)
+                                   and np.sign(v) == np.sign(rho.statistic))),
         'n_test': int(len(test_table)),
     }
 
@@ -213,6 +249,7 @@ def main() -> dict:
         **summary,
         'holdout': 'Astrocyte sealed and unopened',
     }
+    evidence = _finite(evidence)
     io.write_json('results/mechanism_v5/outer/development_evidence.json', evidence)
     return evidence
 
