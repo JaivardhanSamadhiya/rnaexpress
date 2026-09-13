@@ -1,0 +1,107 @@
+{
+  "protocol": "RNAddress-Mechanism-v5",
+  "committed_before_scoring": true,
+  "created": "2026-09-12",
+
+  "rationale": "Four prior eras closed NO-GO. Mechanism-v4 produced the project's first real positive (within-parent absolute localization, auROC 0.9503) but failed because the signal was bulk composition and did not transfer across genes, with rich features transferring WORSE than composition. v5 acts on that specific evidence: it tests edit direction where real parent breadth exists, and it deliberately uses LOW-capacity representations because high capacity was measured to hurt transfer.",
+
+  "diagnostics_that_shaped_this_design": {
+    "note": "Measurement-only. No model score was produced before this file was committed.",
+    "refuted_hypothesis": "I predicted v4's cross-gene failure was driven by gene baseline offsets. Mikl between-gene variance is only 2.0 percent, so that hypothesis is REFUTED and gene-centering is not used as the fix.",
+    "between_gene_variance_share": {"mikl_gse173098": 0.020, "moffatt_gse334718": 0.198, "tdp43_gse288185": 0.152},
+    "gene_centered_reliability": {"mikl_gse173098": 0.4477, "moffatt_gse334718": 0.8568},
+    "breadth": {"mikl_genes": 189, "mikl_parents": 5759, "moffatt_genes": 10, "pooled_genes": 215},
+    "sequence_length_nt": {"mikl_gse173098": 150, "moffatt_gse334718": 260, "tdp43_gse288185": 260},
+    "pooling_rejected_because": "The pooled confident set is 24328 rows of which 22986 (94 percent) are Moffatt's 10 genes at positive rate 0.778, against Mikl's 1342 rows at 0.251. Pooling would be dominated by one source with an incompatible label distribution, so the sources are kept separate.",
+    "length_consequence": "Because sequence length differs across sources, every feature in v5 is a k-mer FREQUENCY, never a raw count as in v4."
+  },
+
+  "data": {
+    "table": "results/v4_phaseB/model_candidate_rows.csv.gz",
+    "table_sha256": "4e2339e1845147a14076bd8db9105a60ac91c59607c718212b59199f3ec0fd4c",
+    "row_filter": "outcome_valid == True",
+    "parent_sequence_available": "100 percent in all three sources"
+  },
+
+  "arms": {
+    "A_cross_gene_edit_direction": {
+      "question": "With real parent breadth, can the DIRECTION of an edit's effect on localization be predicted for sequences from entirely unseen genes?",
+      "why_new": "Mechanism-v2 tested paired ranking within decision sets (reliability 0.239). Mechanism-v4 tested transfer on only 10 genes. Nothing has yet tested edit direction across 166 genes with grouped folds and composition controls.",
+      "source": "mikl_gse173098",
+      "unit": "unique mutant_sequence",
+      "label": "sign of localization_effect, restricted to confident sequences with |effect / effect_uncertainty| >= 1.96; 1 means shift toward neurite",
+      "expected_rows": 1342,
+      "expected_genes": 166,
+      "expected_positive_rate": 0.251,
+      "split": "frozen biological_fold, grouped so no gene or group_id straddles train and test",
+      "expected_genes_per_fold": [31, 31, 33, 35, 36],
+      "fold_positive_rates": [0.245, 0.268, 0.212, 0.211, 0.286],
+      "fold_balance_note": "Unlike Moffatt in v4 (0.077 to 0.859), Mikl fold positive rates span only 0.211 to 0.286, so cross-fold auROC is interpretable here.",
+      "features": "DELTA k-mer frequencies, mutant minus parent, k in [1,2,3], 84 columns",
+      "estimator": "LogisticRegression, L2, C=1.0, max_iter=2000",
+      "capacity_justification": "v4 measured that 1364 features transferred 0.055 auROC WORSE across genes than 20 composition features. Low capacity is therefore a pre-registered prediction, not a convenience."
+    },
+    "B_cross_source_finite_difference": {
+      "question": "Does an absolute-localization model trained on the high-reliability source predict edit effects in a different source, assay and cell type, by finite difference?",
+      "why_new": "This is the RNAddress construction itself and has never been run. Mechanism-v2 used frozen mechanism features, not a supervised absolute-localization model applied as f(mutant) - f(parent). It trains where reliability is 0.88 and tests where breadth is 166 genes.",
+      "train_source": "moffatt_gse334718",
+      "train_target": "mean localization_effect per unique sequence",
+      "test_sources": ["mikl_gse173098", "tdp43_gse288185"],
+      "predicted_effect": "f(mutant_sequence) - f(parent_sequence)",
+      "features": "k-mer FREQUENCIES, k in [1,2,3], 84 columns, length-invariant so a 260 nt training source can score 150 nt test sequences",
+      "estimator": "Ridge, alpha=1.0",
+      "zero_shot": "no test-source outcome is ever used for fitting or tuning",
+      "mechanistic_basis": "Mendonsa et al. report that mutations ADDING (AU) or (UA) repeats induce neurite localization, so a composition-sensitive absolute model has a real reason to carry edit-direction information.",
+      "edit_delta_check": "87.8 percent of Mikl edits change AU fraction; AU delta sd 0.0197"
+    }
+  },
+
+  "controls": {
+    "au_delta_only": "single feature, AU fraction of mutant minus AU fraction of parent; both arms must beat it",
+    "shuffled_label_null": "labels permuted, must stay near chance",
+    "random_kmer_projection": "84 random projections of the delta k-mer frequencies, seeded; reproduces the v2/N4 null that previously beat the real feature stack"
+  },
+
+  "gates": {
+    "a1_cross_gene_direction": "arm A mean grouped auROC >= 0.650",
+    "a2_worst_fold": "arm A worst-fold auROC >= 0.580",
+    "a3_beats_au_delta": "arm A mean auROC exceeds au_delta_only by >= 0.030",
+    "a4_null_inert": "arm A shuffled-label mean auROC <= 0.550",
+    "a5_seed_stability": "standard deviation of arm A mean auROC across seeds <= 0.030",
+    "a6_beats_random_kmer": "arm A mean auROC exceeds random_kmer_projection by >= 0.020",
+    "b1_transfer_correlation": "arm B Spearman between predicted and measured effect on mikl_gse173098 >= 0.100 with p < 0.001",
+    "b2_transfer_direction": "arm B auROC on the Mikl confident subset >= 0.600",
+    "b3_beats_au_delta": "arm B Spearman exceeds au_delta_only Spearman by >= 0.020",
+    "b4_consistent_across_folds": "arm B Spearman has the same sign in at least 4 of 5 gene folds",
+    "i1_split_integrity": "no gene and no group_id appears in both train and test for any scored split",
+    "i2_holdout_sealed": "Astrocyte never opened"
+  },
+
+  "multiplicity": "Two primary hypotheses, a1 and b1. Holm correction is applied across them for any reported p-value. No additional arm may be added after scoring.",
+
+  "seeds": {"primary": 20260912, "replication": [20260913, 20260914]},
+
+  "verdict_rules": {
+    "development support, STRONG GO still requires the one-time Astrocyte confirmation": "all a-gates, all b-gates and both i-gates pass",
+    "PARTIAL GO - RESTRICTED ZERO-SHOT DOMAIN SUPPORTED": "exactly one arm passes all of its gates, with the restriction named explicitly",
+    "NO-GO - END UNIVERSAL ZERO-SHOT RNADDRESS": "neither arm passes all of its gates"
+  },
+
+  "honest_prior": "Arm A has only 1342 labels and Mikl sequence-level reliability is 0.4527, so it is modestly powered. Arm B is a genuine long shot: it asks a composition-sensitive model trained on 10 genes in one assay to carry edit-direction information into another assay and cell type. Both are nevertheless well posed, previously untried, and pre-registered. Failure is an acceptable outcome and must be reported as such.",
+
+  "stopping_rule": "v5 is scored exactly once per seed. No gate, threshold, feature set, split, label definition or estimator may change after any score is observed. If both arms fail, v5 closes and no v6 is opened on this data.",
+
+  "preserved_conclusions": [
+    "FinalShot 98ffc02: NO-GO - END ZERO-SHOT RNADDRESS, unchanged",
+    "Mechanism-v2: NO-GO, unchanged",
+    "Mechanism-v3: NO-GO, unchanged",
+    "Mechanism-v4: NO-GO, unchanged"
+  ],
+
+  "boundaries_unchanged": [
+    "N-zip outcomes never accessed",
+    "quarantined TDP EV5 stability data never accessed",
+    "Astrocyte sealed; open_holdout refuses unconditionally",
+    "only tests/mechanism_v5, tests/mechanism_v4 and tests/mechanism_v2 are run"
+  ]
+}
