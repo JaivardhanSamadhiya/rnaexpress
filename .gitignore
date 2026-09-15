@@ -83,3 +83,16 @@ results/**
 !data/processed/tdp43_v3_diagnostic_pairs.csv.gz
 !results/v3_phase3/
 !results/v3_phase3/**
+!results/v4_phaseB/
+!results/v4_phaseB/**
+# Compact mechanism evidence only; large training caches stay ignored.
+!results/mechanism_v3/outer/
+!results/mechanism_v3/outer/**
+!results/mechanism_v4/outer/
+!results/mechanism_v4/outer/**
+!results/mechanism_v5/outer/
+!results/mechanism_v5/outer/**
+
+# Local-only competition report drafts (not part of the scientific repo)
+reports/st_yau_research_report_draft.*
+reports/~$*
