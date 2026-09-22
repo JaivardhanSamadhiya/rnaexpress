@@ -1,0 +1,154 @@
+[
+  {
+    "all_flanked_insert_lengths": {
+      "6": 468,
+      "7": 2,
+      "17": 19
+    },
+    "file": "HRR3059162_f1.fq.gz",
+    "first_header": "@FP180000948BLL1C001R00200000258/1",
+    "ordered_read_header_sha256": "c14e037a3d7bc932f37bda5a4fa8ee180047b851b35788873776a7ccf4b4110f",
+    "ordered_read_sequence_sha256": "cfef5e01d4c72bd277d8ff20ee2738163311710f6c0528c389f08e8a9367e7c1",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059162",
+    "sample": "6mer_Cyto_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 468
+  },
+  {
+    "all_flanked_insert_lengths": {
+      "3": 1,
+      "5": 2,
+      "6": 443,
+      "7": 2,
+      "9": 1,
+      "17": 20
+    },
+    "file": "HRR3059162_r2.fq.gz",
+    "first_header": "@FP180000948BLL1C001R00200000258/2",
+    "ordered_read_header_sha256": "a9c825b24ccd275bb27829ee8097792a81b544a93be64d2ade91a5cd5be155ec",
+    "ordered_read_sequence_sha256": "a9ab26d63938a5ed38c5f8431808a24b11852171856a47ebc86cd398273f9ada",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059162",
+    "sample": "6mer_Cyto_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 443
+  },
+  {
+    "all_flanked_insert_lengths": {
+      "3": 1,
+      "5": 1,
+      "6": 408,
+      "7": 2,
+      "8": 1,
+      "17": 25
+    },
+    "file": "HRR3059165_f1.fq.gz",
+    "first_header": "@FP180000985TLL1C001R00200051766/1",
+    "ordered_read_header_sha256": "5bb5e7607b74387c60741781ff046a4a96d2d5f589e3514327a510cc04a8025a",
+    "ordered_read_sequence_sha256": "b01042ead6c19bfbf4c67f58b1ddae73922933ac482cee814c199121bf883810",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059165",
+    "sample": "6mer_Nuc_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 408
+  },
+  {
+    "all_flanked_insert_lengths": {
+      "5": 1,
+      "6": 491,
+      "8": 1,
+      "9": 1,
+      "17": 27
+    },
+    "file": "HRR3059165_r2.fq.gz",
+    "first_header": "@FP180000985TLL1C001R00200051766/2",
+    "ordered_read_header_sha256": "b69919b2eca87b0ad60acc4f039acb2a1928eca72aae37d31eaf781a15e21cc6",
+    "ordered_read_sequence_sha256": "9928b944e2cb1b2bb94e91a3f5522afd310c5fffd0ac93c7554aebc6dc216f96",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059165",
+    "sample": "6mer_Nuc_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 491
+  },
+  {
+    "all_flanked_insert_lengths": {
+      "6": 468,
+      "7": 2,
+      "17": 19
+    },
+    "file": "HRR3059175_f1.fq.gz",
+    "first_header": "@FP180000948BLL1C001R00200000258/1",
+    "ordered_read_header_sha256": "c14e037a3d7bc932f37bda5a4fa8ee180047b851b35788873776a7ccf4b4110f",
+    "ordered_read_sequence_sha256": "cfef5e01d4c72bd277d8ff20ee2738163311710f6c0528c389f08e8a9367e7c1",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059175",
+    "sample": "MALAT1_Cyto_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 468
+  },
+  {
+    "all_flanked_insert_lengths": {
+      "3": 1,
+      "5": 2,
+      "6": 443,
+      "7": 2,
+      "9": 1,
+      "17": 20
+    },
+    "file": "HRR3059175_r2.fq.gz",
+    "first_header": "@FP180000948BLL1C001R00200000258/2",
+    "ordered_read_header_sha256": "a9c825b24ccd275bb27829ee8097792a81b544a93be64d2ade91a5cd5be155ec",
+    "ordered_read_sequence_sha256": "a9ab26d63938a5ed38c5f8431808a24b11852171856a47ebc86cd398273f9ada",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059175",
+    "sample": "MALAT1_Cyto_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 443
+  },
+  {
+    "all_flanked_insert_lengths": {
+      "3": 1,
+      "5": 1,
+      "6": 408,
+      "7": 2,
+      "8": 1,
+      "17": 25
+    },
+    "file": "HRR3059176_f1.fq.gz",
+    "first_header": "@FP180000985TLL1C001R00200051766/1",
+    "ordered_read_header_sha256": "5bb5e7607b74387c60741781ff046a4a96d2d5f589e3514327a510cc04a8025a",
+    "ordered_read_sequence_sha256": "b01042ead6c19bfbf4c67f58b1ddae73922933ac482cee814c199121bf883810",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059176",
+    "sample": "MALAT1_Nuc_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 408
+  },
+  {
+    "all_flanked_insert_lengths": {
+      "5": 1,
+      "6": 491,
+      "8": 1,
+      "9": 1,
+      "17": 27
+    },
+    "file": "HRR3059176_r2.fq.gz",
+    "first_header": "@FP180000985TLL1C001R00200051766/2",
+    "ordered_read_header_sha256": "b69919b2eca87b0ad60acc4f039acb2a1928eca72aae37d31eaf781a15e21cc6",
+    "ordered_read_sequence_sha256": "9928b944e2cb1b2bb94e91a3f5522afd310c5fffd0ac93c7554aebc6dc216f96",
+    "prefix_bytes": 524288,
+    "reads_inspected": 1000,
+    "run": "HRR3059176",
+    "sample": "MALAT1_Nuc_Sample3",
+    "scope": "Technical prefix QC only; not complete-file validation or outcome scoring",
+    "six_base_flanked_hits": 491
+  }
+]

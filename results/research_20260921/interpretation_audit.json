@@ -1,0 +1,152 @@
+{
+  "base_commit": "3a05d0e38d4570447f9cb02c0ea2d753cb97e928",
+  "certified_input_sha256": "4e2339e1845147a14076bd8db9105a60ac91c59607c718212b59199f3ec0fd4c",
+  "conclusions": [
+    "Finite-model performance does not upper-bound every possible model.",
+    "Averaged per-decision reliability is not the fraction of all benchmark variance that is noise.",
+    "Raw-ratio diagnostic SE is not necessarily the SE of WT-normalized author outcomes.",
+    "Adding noise to observed outcomes and using zero noise when missing does not simulate an established latent-truth oracle.",
+    "An information-preserving kmer basis change cannot show that higher-order sequence information is absent.",
+    "Sequence-only aggregation may merge contexts and parents; inspect the inventory before interpreting variant-level direction.",
+    "These limitations do not reverse any frozen failed gate."
+  ],
+  "context_inventory": [
+    {
+      "cell": "CAD",
+      "decisions": 189,
+      "finite_uncertainty_fraction": 1.0,
+      "genes": 189,
+      "nonpositive_finite_uncertainty_rows": 37,
+      "outcome_semantics": [
+        "mutant minus matched-WT author log2(neurite/soma)"
+      ],
+      "parents": 5759,
+      "reporter": "GFP 3UTR MPRA",
+      "rows": 11808,
+      "source": "mikl_gse173098",
+      "uncertainty_semantics": [
+        "SE of three paired raw-count log2-ratio deltas; pseudocount=0.5"
+      ]
+    },
+    {
+      "cell": "Neuro-2a",
+      "decisions": 189,
+      "finite_uncertainty_fraction": 1.0,
+      "genes": 189,
+      "nonpositive_finite_uncertainty_rows": 33,
+      "outcome_semantics": [
+        "mutant minus matched-WT author log2(neurite/soma)"
+      ],
+      "parents": 5759,
+      "reporter": "GFP 3UTR MPRA",
+      "rows": 11808,
+      "source": "mikl_gse173098",
+      "uncertainty_semantics": [
+        "SE of three paired raw-count log2-ratio deltas; pseudocount=0.5"
+      ]
+    },
+    {
+      "cell": "CAD",
+      "decisions": 22,
+      "finite_uncertainty_fraction": 1.0,
+      "genes": 6,
+      "nonpositive_finite_uncertainty_rows": 0,
+      "outcome_semantics": [
+        "author WT-normalized log2 neurite enrichment"
+      ],
+      "parents": 6,
+      "reporter": "Firefly",
+      "rows": 20778,
+      "source": "moffatt_gse334718",
+      "uncertainty_semantics": [
+        "SE/range of >=2 available unnormalized raw UMI log2(neurite/soma) ratios; pseudocount=0.5; diagnostic only because author effect is WT-normalized"
+      ]
+    },
+    {
+      "cell": "CAD",
+      "decisions": 29,
+      "finite_uncertainty_fraction": 1.0,
+      "genes": 10,
+      "nonpositive_finite_uncertainty_rows": 0,
+      "outcome_semantics": [
+        "author WT-normalized log2 neurite enrichment"
+      ],
+      "parents": 10,
+      "reporter": "GFP",
+      "rows": 44248,
+      "source": "moffatt_gse334718",
+      "uncertainty_semantics": [
+        "SE/range of >=2 available unnormalized raw UMI log2(neurite/soma) ratios; pseudocount=0.5; diagnostic only because author effect is WT-normalized"
+      ]
+    },
+    {
+      "cell": "CAD",
+      "decisions": 16,
+      "finite_uncertainty_fraction": 0.0,
+      "genes": 16,
+      "nonpositive_finite_uncertainty_rows": 0,
+      "outcome_semantics": [
+        "mutant minus WT author processed log2(neurite/soma)"
+      ],
+      "parents": 4566,
+      "reporter": "MPRA reporter",
+      "rows": 4566,
+      "source": "tdp43_gse288185",
+      "uncertainty_semantics": [
+        "missing at pair level in processed Figure 4E; EV3 contains four biological replicates"
+      ]
+    }
+  ],
+  "existing_v3_diagnostics": {
+    "headroom_rank_ceiling_minus_baseline": 0.32776593133835497,
+    "headroom_regret_baseline_minus_ceiling": 0.34098573584660474,
+    "mean_within_decision_reliability": 0.23908646215229423,
+    "noisy_oracle_ceiling": {
+      "rank": 0.9298259402741749,
+      "regret": 0.09159646670832636,
+      "replicates": 200,
+      "seed": 20260912
+    }
+  },
+  "missing_uncertainty_synthetic_prediction_equals_observed": true,
+  "projection_check": {
+    "condition_number": 406.2133201967161,
+    "interpretation": "A square full-rank random projection retains all input information. A nonorthogonal projection changes the L2 penalty geometry; it is not a mechanism-destroying null and does not isolate AU composition.",
+    "max_feature_reconstruction_error": 1.7785772854495008e-13,
+    "max_linear_score_reparameterization_error": 7.16537940093076e-13,
+    "orthogonal_ridge_prediction_max_error": 3.885780586188048e-14,
+    "rank": 84,
+    "width": 84
+  },
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "script_sha256": "55c2d52ca953bcd753f6130c12cc30290204309909fd148e1bf53f12ad24eeff",
+  "sealed_data_accessed": false,
+  "selector_fits": 0,
+  "sequence_aggregation_inventory": [
+    {
+      "mutants_multiple_cells": 11808,
+      "mutants_multiple_folds": 0,
+      "mutants_multiple_parents": 0,
+      "mutants_multiple_reporters": 0,
+      "source": "mikl_gse173098",
+      "unique_mutants": 11808
+    },
+    {
+      "mutants_multiple_cells": 0,
+      "mutants_multiple_folds": 0,
+      "mutants_multiple_parents": 0,
+      "mutants_multiple_reporters": 18735,
+      "source": "moffatt_gse334718",
+      "unique_mutants": 46291
+    },
+    {
+      "mutants_multiple_cells": 0,
+      "mutants_multiple_folds": 0,
+      "mutants_multiple_parents": 0,
+      "mutants_multiple_reporters": 0,
+      "source": "tdp43_gse288185",
+      "unique_mutants": 4566
+    }
+  ],
+  "status": "interpretation audit, not biological discovery or new verdict"
+}

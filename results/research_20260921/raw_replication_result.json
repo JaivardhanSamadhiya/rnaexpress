@@ -1,0 +1,111 @@
+{
+  "eligible_sequences": 4069,
+  "orientations": {
+    "forward": {
+      "rep1": {
+        "heldout_prediction_correlations": {
+          "kmer123": {
+            "pearson": 0.6511173084588937,
+            "spearman": 0.6535001835645007
+          },
+          "position_additive": {
+            "pearson": 0.37807081334168513,
+            "spearman": 0.38831197522978145
+          },
+          "position_pair": {
+            "pearson": 0.6272723231090462,
+            "spearman": 0.642686316520518
+          }
+        },
+        "published_composition_centered": {
+          "pearson": 0.6552363178859982,
+          "spearman": 0.6589286321323999
+        },
+        "published_raw": {
+          "pearson": 0.7199794084058272,
+          "spearman": 0.7254542672017426
+        }
+      },
+      "rep2": {
+        "heldout_prediction_correlations": {
+          "kmer123": {
+            "pearson": 0.646412257428297,
+            "spearman": 0.654115172591645
+          },
+          "position_additive": {
+            "pearson": 0.3532902585712834,
+            "spearman": 0.37212742016987793
+          },
+          "position_pair": {
+            "pearson": 0.6336452267849065,
+            "spearman": 0.6565610061334847
+          }
+        },
+        "published_composition_centered": {
+          "pearson": 0.6696689563172766,
+          "spearman": 0.6626791839937362
+        },
+        "published_raw": {
+          "pearson": 0.7299540726012612,
+          "spearman": 0.7312532005294807
+        }
+      }
+    },
+    "reverse": {
+      "rep1": {
+        "heldout_prediction_correlations": {
+          "kmer123": {
+            "pearson": 0.060115855869178746,
+            "spearman": 0.07145471686824315
+          },
+          "position_additive": {
+            "pearson": -0.04505530937750987,
+            "spearman": -0.03451798571739769
+          },
+          "position_pair": {
+            "pearson": 0.13014499570185598,
+            "spearman": 0.12883908281025933
+          }
+        },
+        "published_composition_centered": {
+          "pearson": 0.09598792289445413,
+          "spearman": 0.10118051411688622
+        },
+        "published_raw": {
+          "pearson": 0.1404316440441032,
+          "spearman": 0.15437271555116466
+        }
+      },
+      "rep2": {
+        "heldout_prediction_correlations": {
+          "kmer123": {
+            "pearson": 0.07511126372648785,
+            "spearman": 0.08467506752141418
+          },
+          "position_additive": {
+            "pearson": -0.03760422366760566,
+            "spearman": -0.0329385161450937
+          },
+          "position_pair": {
+            "pearson": 0.13506980742488411,
+            "spearman": 0.13302656653102335
+          }
+        },
+        "published_composition_centered": {
+          "pearson": 0.08087277504192736,
+          "spearman": 0.08605969261941668
+        },
+        "published_raw": {
+          "pearson": 0.13436696454857583,
+          "spearman": 0.14783341167813202
+        }
+      }
+    }
+  },
+  "replicate_correlation": {
+    "pearson": 0.8201357871466208,
+    "spearman": 0.8279274438671175
+  },
+  "scope": "same experimental replicates as published table; technical reconstruction only",
+  "total_sequences": 4096
+}

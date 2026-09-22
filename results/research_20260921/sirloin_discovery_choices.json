@@ -1,0 +1,4742 @@
+[
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:55:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:92:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:55:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:92:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:75:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:69:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->C",
+      "Jpx_9:Mut:104:A->C",
+      "Jpx_9:Mut:55:A->C",
+      "Jpx_9:Mut:69:A->C",
+      "Jpx_9:Mut:74:A->C",
+      "Jpx_9:Mut:75:A->C",
+      "Jpx_9:Mut:92:A->C"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "A>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:69:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:55:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:69:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:55:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:74:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:55:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->G",
+      "Jpx_9:Mut:104:A->G",
+      "Jpx_9:Mut:55:A->G",
+      "Jpx_9:Mut:69:A->G",
+      "Jpx_9:Mut:74:A->G",
+      "Jpx_9:Mut:75:A->G",
+      "Jpx_9:Mut:92:A->G"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "A>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:69:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:74:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:75:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:74:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:69:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:101:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:101:A->T",
+      "Jpx_9:Mut:104:A->T",
+      "Jpx_9:Mut:55:A->T",
+      "Jpx_9:Mut:69:A->T",
+      "Jpx_9:Mut:74:A->T",
+      "Jpx_9:Mut:75:A->T",
+      "Jpx_9:Mut:92:A->T"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "A>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:104:A->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:94:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:99:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:67:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:59:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:95:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:73:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:56:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:66:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:56:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:62:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:56:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->A",
+      "Jpx_9:Mut:56:C->A",
+      "Jpx_9:Mut:57:C->A",
+      "Jpx_9:Mut:59:C->A",
+      "Jpx_9:Mut:62:C->A",
+      "Jpx_9:Mut:63:C->A",
+      "Jpx_9:Mut:65:C->A",
+      "Jpx_9:Mut:66:C->A",
+      "Jpx_9:Mut:67:C->A",
+      "Jpx_9:Mut:68:C->A",
+      "Jpx_9:Mut:73:C->A",
+      "Jpx_9:Mut:82:C->A",
+      "Jpx_9:Mut:84:C->A",
+      "Jpx_9:Mut:85:C->A",
+      "Jpx_9:Mut:88:C->A",
+      "Jpx_9:Mut:89:C->A",
+      "Jpx_9:Mut:91:C->A",
+      "Jpx_9:Mut:94:C->A",
+      "Jpx_9:Mut:95:C->A",
+      "Jpx_9:Mut:97:C->A",
+      "Jpx_9:Mut:98:C->A",
+      "Jpx_9:Mut:99:C->A"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "C>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:56:C->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:68:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:59:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:67:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:59:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:67:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:97:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:67:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:99:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->G",
+      "Jpx_9:Mut:56:C->G",
+      "Jpx_9:Mut:57:C->G",
+      "Jpx_9:Mut:59:C->G",
+      "Jpx_9:Mut:62:C->G",
+      "Jpx_9:Mut:63:C->G",
+      "Jpx_9:Mut:65:C->G",
+      "Jpx_9:Mut:66:C->G",
+      "Jpx_9:Mut:67:C->G",
+      "Jpx_9:Mut:68:C->G",
+      "Jpx_9:Mut:73:C->G",
+      "Jpx_9:Mut:82:C->G",
+      "Jpx_9:Mut:84:C->G",
+      "Jpx_9:Mut:85:C->G",
+      "Jpx_9:Mut:88:C->G",
+      "Jpx_9:Mut:89:C->G",
+      "Jpx_9:Mut:91:C->G",
+      "Jpx_9:Mut:94:C->G",
+      "Jpx_9:Mut:95:C->G",
+      "Jpx_9:Mut:97:C->G",
+      "Jpx_9:Mut:98:C->G",
+      "Jpx_9:Mut:99:C->G"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "C>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:88:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:91:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:84:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:91:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:67:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:91:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:67:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:99:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:106:C->T",
+      "Jpx_9:Mut:56:C->T",
+      "Jpx_9:Mut:57:C->T",
+      "Jpx_9:Mut:59:C->T",
+      "Jpx_9:Mut:62:C->T",
+      "Jpx_9:Mut:63:C->T",
+      "Jpx_9:Mut:65:C->T",
+      "Jpx_9:Mut:66:C->T",
+      "Jpx_9:Mut:67:C->T",
+      "Jpx_9:Mut:68:C->T",
+      "Jpx_9:Mut:73:C->T",
+      "Jpx_9:Mut:82:C->T",
+      "Jpx_9:Mut:84:C->T",
+      "Jpx_9:Mut:85:C->T",
+      "Jpx_9:Mut:88:C->T",
+      "Jpx_9:Mut:89:C->T",
+      "Jpx_9:Mut:91:C->T",
+      "Jpx_9:Mut:94:C->T",
+      "Jpx_9:Mut:95:C->T",
+      "Jpx_9:Mut:97:C->T",
+      "Jpx_9:Mut:98:C->T",
+      "Jpx_9:Mut:99:C->T"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "C>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:106:C->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:93:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:78:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:93:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:100:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:76:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:100:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->A",
+      "Jpx_9:Mut:102:G->A",
+      "Jpx_9:Mut:105:G->A",
+      "Jpx_9:Mut:108:G->A",
+      "Jpx_9:Mut:61:G->A",
+      "Jpx_9:Mut:70:G->A",
+      "Jpx_9:Mut:76:G->A",
+      "Jpx_9:Mut:78:G->A",
+      "Jpx_9:Mut:79:G->A",
+      "Jpx_9:Mut:87:G->A",
+      "Jpx_9:Mut:93:G->A"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "G>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:105:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:100:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:70:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:78:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:100:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:70:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:87:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->C",
+      "Jpx_9:Mut:102:G->C",
+      "Jpx_9:Mut:105:G->C",
+      "Jpx_9:Mut:108:G->C",
+      "Jpx_9:Mut:61:G->C",
+      "Jpx_9:Mut:70:G->C",
+      "Jpx_9:Mut:76:G->C",
+      "Jpx_9:Mut:78:G->C",
+      "Jpx_9:Mut:79:G->C",
+      "Jpx_9:Mut:87:G->C",
+      "Jpx_9:Mut:93:G->C"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "G>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:61:G->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:105:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:100:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:93:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:100:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:93:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:100:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:108:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:108:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:108:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:108:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:108:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:100:G->T",
+      "Jpx_9:Mut:102:G->T",
+      "Jpx_9:Mut:105:G->T",
+      "Jpx_9:Mut:108:G->T",
+      "Jpx_9:Mut:61:G->T",
+      "Jpx_9:Mut:70:G->T",
+      "Jpx_9:Mut:76:G->T",
+      "Jpx_9:Mut:78:G->T",
+      "Jpx_9:Mut:79:G->T",
+      "Jpx_9:Mut:87:G->T",
+      "Jpx_9:Mut:93:G->T"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "G>T",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:108:G->T"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:103:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:90:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:103:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:96:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:80:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:96:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:64:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->A",
+      "Jpx_9:Mut:107:T->A",
+      "Jpx_9:Mut:58:T->A",
+      "Jpx_9:Mut:60:T->A",
+      "Jpx_9:Mut:64:T->A",
+      "Jpx_9:Mut:71:T->A",
+      "Jpx_9:Mut:72:T->A",
+      "Jpx_9:Mut:77:T->A",
+      "Jpx_9:Mut:80:T->A",
+      "Jpx_9:Mut:81:T->A",
+      "Jpx_9:Mut:83:T->A",
+      "Jpx_9:Mut:86:T->A",
+      "Jpx_9:Mut:90:T->A",
+      "Jpx_9:Mut:96:T->A"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "T>A",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->A"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:77:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:96:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:60:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:96:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:103:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:96:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:64:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:60:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:64:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->C",
+      "Jpx_9:Mut:107:T->C",
+      "Jpx_9:Mut:58:T->C",
+      "Jpx_9:Mut:60:T->C",
+      "Jpx_9:Mut:64:T->C",
+      "Jpx_9:Mut:71:T->C",
+      "Jpx_9:Mut:72:T->C",
+      "Jpx_9:Mut:77:T->C",
+      "Jpx_9:Mut:80:T->C",
+      "Jpx_9:Mut:81:T->C",
+      "Jpx_9:Mut:83:T->C",
+      "Jpx_9:Mut:86:T->C",
+      "Jpx_9:Mut:90:T->C",
+      "Jpx_9:Mut:96:T->C"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "T>C",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->C"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:103:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:96:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:103:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:96:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:77:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:90:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:64:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->G"
+  },
+  {
+    "candidate_ids": [
+      "Jpx_9:Mut:103:T->G",
+      "Jpx_9:Mut:107:T->G",
+      "Jpx_9:Mut:58:T->G",
+      "Jpx_9:Mut:60:T->G",
+      "Jpx_9:Mut:64:T->G",
+      "Jpx_9:Mut:71:T->G",
+      "Jpx_9:Mut:72:T->G",
+      "Jpx_9:Mut:77:T->G",
+      "Jpx_9:Mut:80:T->G",
+      "Jpx_9:Mut:81:T->G",
+      "Jpx_9:Mut:83:T->G",
+      "Jpx_9:Mut:86:T->G",
+      "Jpx_9:Mut:90:T->G",
+      "Jpx_9:Mut:96:T->G"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "T>G",
+    "parent": "Jpx_9",
+    "selected_id": "Jpx_9:Mut:58:T->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:65:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:76:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:65:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:67:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:79:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:88:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:89:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->C",
+      "NICN_53:Mut:65:A->C",
+      "NICN_53:Mut:67:A->C",
+      "NICN_53:Mut:76:A->C",
+      "NICN_53:Mut:79:A->C",
+      "NICN_53:Mut:86:A->C",
+      "NICN_53:Mut:88:A->C",
+      "NICN_53:Mut:89:A->C",
+      "NICN_53:Mut:90:A->C"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "A>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:56:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:67:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:56:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:56:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:67:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:56:A->G",
+      "NICN_53:Mut:59:A->G",
+      "NICN_53:Mut:64:A->G",
+      "NICN_53:Mut:67:A->G",
+      "NICN_53:Mut:80:A->G",
+      "NICN_53:Mut:88:A->G",
+      "NICN_53:Mut:89:A->G",
+      "NICN_53:Mut:90:A->G"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "A>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:90:A->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:70:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:88:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:70:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:88:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:79:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:88:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:89:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:89:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:89:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:89:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:89:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:59:A->T",
+      "NICN_53:Mut:65:A->T",
+      "NICN_53:Mut:67:A->T",
+      "NICN_53:Mut:70:A->T",
+      "NICN_53:Mut:76:A->T",
+      "NICN_53:Mut:79:A->T",
+      "NICN_53:Mut:80:A->T",
+      "NICN_53:Mut:86:A->T",
+      "NICN_53:Mut:88:A->T",
+      "NICN_53:Mut:89:A->T"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "A>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:89:A->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:69:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:77:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:82:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:91:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->A",
+      "NICN_53:Mut:69:C->A",
+      "NICN_53:Mut:77:C->A",
+      "NICN_53:Mut:82:C->A",
+      "NICN_53:Mut:91:C->A"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "C>A",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->A"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:69:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:55:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:78:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:81:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:78:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:81:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:82:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:82:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:82:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:82:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:82:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:55:C->G",
+      "NICN_53:Mut:69:C->G",
+      "NICN_53:Mut:78:C->G",
+      "NICN_53:Mut:81:C->G",
+      "NICN_53:Mut:82:C->G"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "C>G",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:82:C->G"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:72:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:69:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:72:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:69:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:72:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:69:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:77:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:77:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:77:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:77:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:77:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:68:C->T",
+      "NICN_53:Mut:69:C->T",
+      "NICN_53:Mut:72:C->T",
+      "NICN_53:Mut:73:C->T",
+      "NICN_53:Mut:77:C->T"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "C>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:77:C->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:85:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:66:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:58:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:85:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:71:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:57:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:57:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:57:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:57:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:57:G->C",
+      "NICN_53:Mut:58:G->C",
+      "NICN_53:Mut:66:G->C",
+      "NICN_53:Mut:71:G->C",
+      "NICN_53:Mut:85:G->C",
+      "NICN_53:Mut:87:G->C"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "G>C",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:57:G->C"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": 1,
+    "model": "srle_kmer123",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:71:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": -1,
+    "model": "srle_kmer123",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:85:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": 1,
+    "model": "srle_pair",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:71:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": -1,
+    "model": "srle_pair",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:58:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": 1,
+    "model": "srle_measured",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:75:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": -1,
+    "model": "srle_measured",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:85:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": 1,
+    "model": "ccc",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": -1,
+    "model": "ccc",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": 1,
+    "model": "cctccc",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": -1,
+    "model": "cctccc",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": 1,
+    "model": "composition",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->T"
+  },
+  {
+    "candidate_ids": [
+      "NICN_53:Mut:58:G->T",
+      "NICN_53:Mut:71:G->T",
+      "NICN_53:Mut:75:G->T",
+      "NICN_53:Mut:85:G->T",
+      "NICN_53:Mut:87:G->T"
+    ],
+    "direction": -1,
+    "model": "composition",
+    "mutation": "G>T",
+    "parent": "NICN1_53",
+    "selected_id": "NICN_53:Mut:87:G->T"
+  }
+]

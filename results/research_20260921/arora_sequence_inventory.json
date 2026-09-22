@@ -1,0 +1,45 @@
+{
+  "exact_sequences_overlapping_old_benchmark": 14,
+  "gene_counts": {
+    "Afap1l1": 223,
+    "Akap12": 273,
+    "BC1": 3,
+    "Cdc42bpg": 245,
+    "Cplx2": 1038,
+    "Fnbp4": 326,
+    "Gdf11": 688,
+    "Kif5b": 701,
+    "Malat1": 1668,
+    "Net1": 548,
+    "Ogt": 491,
+    "Paxbp1": 241,
+    "Rab13": 180,
+    "Trak2": 749
+  },
+  "genes_not_in_old_benchmark": [
+    "Afap1l1",
+    "Akap12",
+    "BC1",
+    "Fnbp4",
+    "Kif5b",
+    "Paxbp1"
+  ],
+  "genes_overlapping_old_benchmark": [
+    "Cdc42bpg",
+    "Cplx2",
+    "Gdf11",
+    "Malat1",
+    "Net1",
+    "Ogt",
+    "Rab13",
+    "Trak2"
+  ],
+  "length_counts": {
+    "195260": 1,
+    "260": 7373
+  },
+  "non_ACGT_rows": 0,
+  "rows": 7374,
+  "scope": "New assay does not imply independent genes. No outcome values inspected.",
+  "unique_sequences": 7374
+}

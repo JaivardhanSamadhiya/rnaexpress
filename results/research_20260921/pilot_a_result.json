@@ -1,0 +1,20 @@
+{
+  "conditional_test_permutation_p": 0.001,
+  "eligible_composition_classes": 70,
+  "eligible_heldout_sequences": 855,
+  "heldout_sequences": 862,
+  "promising": true,
+  "regret_gain": 0.25516974002571463,
+  "regret_gain_ci": [
+    0.2030922890737727,
+    0.3020765228073474
+  ],
+  "residual_pearson": 0.516675893794283,
+  "residual_squared_error_reduction": 0.270428705752478,
+  "residual_squared_error_reduction_ci": [
+    0.2063095561327519,
+    0.33778935124210635
+  ],
+  "scope": "One reporter context; held-out sequences; no biological replicate validation or unseen-parent claim.",
+  "train_sequences": 3234
+}

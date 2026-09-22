@@ -1,0 +1,145 @@
+{
+  "context2022_data1.xlsx": {
+    "active_content": [],
+    "archive_crc_valid": true,
+    "sha256": "4c9de69153fc9593a97f9c75cb5b03b7dd7006677b17fb5606216b104396d8b8",
+    "sheets": [
+      {
+        "columns": 6,
+        "first_row": [
+          [
+            "Name",
+            "Patch name",
+            "Patch sequence",
+            "Forward primer",
+            "Reverse primer",
+            "Final sequence for ordering"
+          ]
+        ],
+        "rows": 2649,
+        "sheet": "CircLibA"
+      },
+      {
+        "columns": 6,
+        "first_row": [
+          [
+            "Name",
+            "Selection reason",
+            "Name",
+            "Symbol",
+            "Total length",
+            "Included patches"
+          ]
+        ],
+        "rows": 83,
+        "sheet": "Summary"
+      }
+    ],
+    "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-30183-0/MediaObjects/41467_2022_30183_MOESM4_ESM.xlsx"
+  },
+  "context2022_data3.xlsx": {
+    "active_content": [],
+    "archive_crc_valid": true,
+    "sha256": "c440eb07ed641cc172e23d9051b2ecf659e320b2de3caed9978a073f8c30aafd",
+    "sheets": [
+      {
+        "columns": 88,
+        "first_row": [
+          [
+            null,
+            "Library",
+            "Index",
+            "SegmentName",
+            "GeneName",
+            "String",
+            "GC",
+            "DeltaG",
+            "Spliced_Nuc/Cyto",
+            "Unspliced_Nuc/Cyto",
+            "Circular_Nuc/Cyto",
+            "SCRCircular_Nuc/Cyto",
+            "Spliced_Expression",
+            "Unspliced_Expression",
+            "Circular_Expression",
+            "SCRCircular_Expression",
+            "Spliced_Nuc/Cyto_p.value",
+            "Unspliced_Nuc/Cyto_p.value",
+            "Circular_Nuc/Cyto_p.value",
+            "SCR_Nuc/Cyto_p.value",
+            "Spliced_Expression_p.value",
+            "Unspliced_Expression_p.value",
+            "Circular_Expression_p.value",
+            "SCR_Expression_p.value",
+            "NT_Spliced_median",
+            "SRSF_Spliced_median",
+            "SAFB_Spliced_median",
+            "IGF2BP1_Spliced_median",
+            "IGF2BP2_Spliced_median",
+            "SRSFminusNT_Spliced_median",
+            "SAFBminusNT_Spliced_median",
+            "IGF2BP1minusNT_Spliced_median",
+            "IGF2BP2minusNT_Spliced_median",
+            "NT_Unspliced_median",
+            "SRSF_Unspliced_median",
+            "SAFB_Unspliced_median",
+            "IGF2BP1_Unspliced_median",
+            "IGF2BP2_Unspliced_median",
+            "SRSFminusNT_Unspliced_median",
+            "SAFBminusNT_Unspliced_median",
+            "IGF2BP1minusNT_Unspliced_median",
+            "IGF2BP2minusNT_Unspliced_median",
+            "NT_Circular_median",
+            "SRSF_Circular_median",
+            "SAFB_Circular_median",
+            "IGF2BP1_Circular_median",
+            "IGF2BP2_Circular_median",
+            "SRSFminusNT_Circular_median",
+            "SAFBminusNT_Circular_median",
+            "IGF2BP1minusNT_Circular_median",
+            "IGF2BP2minusNT_Circular_median",
+            "Expression_NT_Spliced_median",
+            "Expression_SRSF_Spliced_median",
+            "Expression_SAFB_Spliced_median",
+            "Expression_IGF2BP1_Spliced_median",
+            "Expression_IGF2BP2_Spliced_median",
+            "Expression_NT_Unspliced_median",
+            "Expression_SRSF_Unspliced_median",
+            "Expression_SAFB_Unspliced_median",
+            "Expression_IGF2BP1_Unspliced_median",
+            "Expression_IGF2BP2_Unspliced_median",
+            "Expression_NT_Circular_median",
+            "Expression_SRSF_Circular_median",
+            "Expression_SAFB_Circular_median",
+            "Expression_IGF2BP1_Circular_median",
+            "Expression_IGF2BP2_Circular_median",
+            "Spliced_R",
+            "Circular_R",
+            "Unspliced_R",
+            "Spliced_halfLife",
+            "Circular_halfLife",
+            "Unspliced_halfLife",
+            "SRSF_CTGGA",
+            "SAFB_GAAAA",
+            "IGF2BP1_CCACC",
+            "IGF2BP2_CCACC",
+            "SRSF_ENCFF708IPL",
+            "SRSF_ENCFF282DBV",
+            "SRSF_ENCFF759OGT",
+            "SRSF_ENCFF135SKU",
+            "SAFB_ENCFF432SVT",
+            "SAFB_ENCFF024XIO",
+            "IGF2BP1_ENCFF068FVA",
+            "IGF2BP1_ENCFF047WLR",
+            "IGF2BP1_ENCFF228PAK",
+            "IGF2BP1_ENCFF324ISpliced",
+            "IGF2BP2_ENCFF205TRW",
+            "IGF2BP2_ENCFF922ZNQ"
+          ]
+        ],
+        "rows": 8163,
+        "sheet": "finalTab_230221"
+      }
+    ],
+    "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-30183-0/MediaObjects/41467_2022_30183_MOESM6_ESM.xlsx"
+  }
+}

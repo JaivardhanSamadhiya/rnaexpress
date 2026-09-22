@@ -1,0 +1,77 @@
+{
+  "context_regret_gain_vs_ag": {
+    "CAD_FF": -0.13092017043896634,
+    "CAD_GFP": -0.2252111945768617,
+    "N2A_FF": -0.12192786161435364,
+    "N2A_GFP": -0.10612166595745819
+  },
+  "contexts": 4,
+  "count_eligibility": [
+    {
+      "after": 4201,
+      "before": 7373,
+      "cell": "CAD",
+      "reporter": "FF"
+    },
+    {
+      "after": 5442,
+      "before": 7373,
+      "cell": "CAD",
+      "reporter": "GFP"
+    },
+    {
+      "after": 5915,
+      "before": 7373,
+      "cell": "N2A",
+      "reporter": "FF"
+    },
+    {
+      "after": 6856,
+      "before": 7373,
+      "cell": "N2A",
+      "reporter": "GFP"
+    }
+  ],
+  "excluded_fasta_records": [
+    {
+      "id": "ENSMUSG00000008200.326|Fnbp4",
+      "length": 195260
+    }
+  ],
+  "gene_bootstrap_ci": [
+    -0.231535031908126,
+    -0.05984118953378993
+  ],
+  "genes": 13,
+  "invalid_bootstrap_fraction": 0.0,
+  "new_gene_macro_regret_gain_vs_ag": 0.000564026328648725,
+  "new_genes": [
+    "Afap1l1",
+    "Akap12",
+    "Fnbp4",
+    "Kif5b",
+    "Paxbp1"
+  ],
+  "opened_samples": [
+    "GSM5552964_CAD_Soma_FF_Rep1.umis.txt.gz",
+    "GSM5552965_CAD_Soma_FF_Rep2.umis.txt.gz",
+    "GSM5552968_CAD_Soma_GFP_Rep1.umis.txt.gz",
+    "GSM5552969_CAD_Soma_GFP_Rep2.umis.txt.gz",
+    "GSM5552972_CAD_Neurite_FF_Rep1.umis.txt.gz",
+    "GSM5552973_CAD_Neurite_FF_Rep2.umis.txt.gz",
+    "GSM5552976_CAD_Neurite_GFP_Rep1.umis.txt.gz",
+    "GSM5552977_CAD_Neurite_GFP_Rep2.umis.txt.gz",
+    "GSM5552980_N2A_Soma_FF_Rep1.umis.txt.gz",
+    "GSM5552981_N2A_Soma_FF_Rep2.umis.txt.gz",
+    "GSM5552984_N2A_Soma_GFP_Rep1.umis.txt.gz",
+    "GSM5552985_N2A_Soma_GFP_Rep2.umis.txt.gz",
+    "GSM5552988_N2A_Neurite_FF_Rep1.umis.txt.gz",
+    "GSM5552989_N2A_Neurite_FF_Rep2.umis.txt.gz",
+    "GSM5552992_N2A_Neurite_GFP_Rep1.umis.txt.gz",
+    "GSM5552993_N2A_Neurite_GFP_Rep2.umis.txt.gz"
+  ],
+  "promising": false,
+  "regret_gain_vs_ag": -0.14604522314690996,
+  "replicate_3_or_4_opened": false,
+  "scope": "External assay transfer pilot; tiled fragments, not point edits. Overlapping old genes are reported."
+}

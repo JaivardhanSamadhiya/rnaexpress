@@ -1,0 +1,391 @@
+{
+  "all_analysis_freezes_verified": true,
+  "code_commit_before_sirloin_scoring": "bf7e1eb",
+  "created_utc": "2026-09-22T03:26:11.540767+00:00",
+  "data_receipts": {
+    "data/external/research_20260921/arora_article.receipt.json": {
+      "bytes": 150730,
+      "content_type": "application/xml",
+      "name": "arora_article",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9561290/fullTextXML",
+      "retrieved_utc": "2026-09-21T06:40:37.155506+00:00",
+      "sha256": "9f293b3072363ef9116f44c799611c2021919179ec6d9b04a25889f874dc229c",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9561290/fullTextXML"
+    },
+    "data/external/research_20260921/arora_counts.receipt.json": {
+      "bytes": 2201600,
+      "content_type": "application/x-tar",
+      "name": "arora_counts",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183192/suppl/GSE183192_RAW.tar",
+      "retrieved_utc": "2026-09-21T06:42:31.496967+00:00",
+      "sha256": "831d6e441a5de5e121157185a4f1d11e8c9dfd39460897720ecf87147d8bfb05",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE183nnn/GSE183192/suppl/GSE183192_RAW.tar"
+    },
+    "data/external/research_20260921/arora_epmc_supplement.receipt.json": {
+      "bytes": 15639278,
+      "content_type": "application/zip",
+      "name": "arora_epmc_supplement",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9561290/supplementaryFiles",
+      "retrieved_utc": "2026-09-21T06:42:30.446605+00:00",
+      "sha256": "ada57c43653d6ac945fc4b431cff28f4b00f630645ea9ca4007b46e9b2dcb9f8",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9561290/supplementaryFiles"
+    },
+    "data/external/research_20260921/arora_geo.receipt.json": {
+      "bytes": 3734,
+      "content_type": "geo/text",
+      "name": "arora_geo",
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183192&targ=self&form=text&view=full",
+      "retrieved_utc": "2026-09-21T06:40:37.562149+00:00",
+      "sha256": "30d3ac814eeeddbef238f8a3ebf89ea898cf8df7c3b6e09166f87728fef41548",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE183192&targ=self&form=text&view=full"
+    },
+    "data/external/research_20260921/context2022_data1.xlsx.receipt.json": {
+      "bytes": 176176,
+      "content_type": "application/octet-stream",
+      "name": "context2022_data1.xlsx",
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-30183-0/MediaObjects/41467_2022_30183_MOESM4_ESM.xlsx",
+      "retrieved_utc": "2026-09-22T03:22:28.810155+00:00",
+      "sha256": "4c9de69153fc9593a97f9c75cb5b03b7dd7006677b17fb5606216b104396d8b8",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-30183-0/MediaObjects/41467_2022_30183_MOESM4_ESM.xlsx"
+    },
+    "data/external/research_20260921/context2022_data3.xlsx.receipt.json": {
+      "bytes": 4732622,
+      "content_type": "application/octet-stream",
+      "name": "context2022_data3.xlsx",
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-30183-0/MediaObjects/41467_2022_30183_MOESM6_ESM.xlsx",
+      "retrieved_utc": "2026-09-22T03:22:29.334821+00:00",
+      "sha256": "c440eb07ed641cc172e23d9051b2ecf659e320b2de3caed9978a073f8c30aafd",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-022-30183-0/MediaObjects/41467_2022_30183_MOESM6_ESM.xlsx"
+    },
+    "data/external/research_20260921/context2022_publisher_html.receipt.json": {
+      "bytes": 585638,
+      "content_type": "text/html; charset=utf-8",
+      "name": "context2022_publisher_html",
+      "resolved_url": "https://link.springer.com/article/10.1038/s41467-022-30183-0?error=cookies_not_supported&code=ccbb709a-5a23-443f-93db-79d325940289",
+      "retrieved_utc": "2026-09-22T03:21:26.535551+00:00",
+      "sha256": "493aa7be186ba29a6bf3852cc08cb8204e9f571fdc83368dcd08b24231c4f658",
+      "url": "https://link.springer.com/article/10.1038/s41467-022-30183-0"
+    },
+    "data/external/research_20260921/mprna_tree.receipt.json": {
+      "bytes": 4866,
+      "content_type": "application/json; charset=utf-8",
+      "name": "mprna_tree",
+      "resolved_url": "https://api.github.com/repos/IgorUlitsky/MPRNA/git/trees/main?recursive=1",
+      "retrieved_utc": "2026-09-22T03:09:54.080119+00:00",
+      "sha256": "1387533396db350399541c6e055082a1c75a898cb64d9eb79587ffe8092a31a9",
+      "url": "https://api.github.com/repos/IgorUlitsky/MPRNA/git/trees/main?recursive=1"
+    },
+    "data/external/research_20260921/nuclibc_fasta.receipt.json": {
+      "bytes": 714636,
+      "content_type": "text/plain; charset=utf-8",
+      "name": "nuclibc_fasta",
+      "resolved_url": "https://raw.githubusercontent.com/IgorUlitsky/MPRNA/main/fasta/NucLibC.fa",
+      "retrieved_utc": "2026-09-22T03:10:33.771000+00:00",
+      "sha256": "a9629b6fd4663658e6936941baa0755d0c06c54603fbb53ed09ff764fbe703d9",
+      "url": "https://raw.githubusercontent.com/IgorUlitsky/MPRNA/main/fasta/NucLibC.fa"
+    },
+    "data/external/research_20260921/seers_tree.receipt.json": {
+      "bytes": 18324,
+      "content_type": "application/json; charset=utf-8",
+      "name": "seers_tree",
+      "resolved_url": "https://api.github.com/repos/gao-lab/SEERS/git/trees/main?recursive=1",
+      "retrieved_utc": "2026-09-21T06:40:18.205420+00:00",
+      "sha256": "f45051fac19421adf5312e85874bff2a875be33b60337d651b7083ebbd544712",
+      "url": "https://api.github.com/repos/gao-lab/SEERS/git/trees/main?recursive=1"
+    },
+    "data/external/research_20260921/sirloin_dataset_ev1.xlsx.receipt.json": {
+      "bytes": 2317579,
+      "content_type": "application/octet-stream",
+      "name": "sirloin_dataset_ev1.xlsx",
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.15252%2Fembj.2020106357/MediaObjects/44318_2021_BFEMBJ2020106357_MOESM5_ESM.xlsx",
+      "retrieved_utc": "2026-09-22T03:11:57.312859+00:00",
+      "sha256": "ad478cbaff86d527fb74de61235f1225fed67a1598522c1b8cb5f002cff2ccd2",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.15252%2Fembj.2020106357/MediaObjects/44318_2021_BFEMBJ2020106357_MOESM5_ESM.xlsx"
+    },
+    "data/external/research_20260921/sirloin_epmc_metadata.receipt.json": {
+      "bytes": 17,
+      "content_type": "application/json;charset=UTF-8",
+      "name": "sirloin_epmc_metadata",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33811363&format=json",
+      "retrieved_utc": "2026-09-22T03:10:36.035050+00:00",
+      "sha256": "6417c45aae878ff7fe9b70ad452ac5020cc93d25347839763dd9a6efe69e0f76",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33811363&format=json"
+    },
+    "data/external/research_20260921/sirloin_publisher_html.receipt.json": {
+      "bytes": 427526,
+      "content_type": "text/html; charset=utf-8",
+      "name": "sirloin_publisher_html",
+      "resolved_url": "https://link.springer.com/article/10.15252/embj.2020106357?error=cookies_not_supported&code=66c34d39-bb4b-42fd-a793-f14e29cadf98",
+      "retrieved_utc": "2026-09-22T03:10:51.270064+00:00",
+      "sha256": "7b74826fecb6db1aca2b060a61101b29647fdee79dad0ff0aac69d2f98b4a2c9",
+      "url": "https://link.springer.com/article/10.15252/embj.2020106357"
+    },
+    "data/external/research_20260921/sirloin_table_ev2.xlsx.receipt.json": {
+      "bytes": 11002,
+      "content_type": "application/octet-stream",
+      "name": "sirloin_table_ev2.xlsx",
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.15252%2Fembj.2020106357/MediaObjects/44318_2021_BFEMBJ2020106357_MOESM3_ESM.xlsx",
+      "retrieved_utc": "2026-09-22T03:11:56.700399+00:00",
+      "sha256": "dcab7b35a7e8ad549b31e4e321fef2aaeca04f7976952fd18fd69f1df41a8e56",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.15252%2Fembj.2020106357/MediaObjects/44318_2021_BFEMBJ2020106357_MOESM3_ESM.xlsx"
+    },
+    "data/external/research_20260921/srle_article.receipt.json": {
+      "bytes": 118867,
+      "content_type": "application/xml",
+      "name": "srle_article",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13191086/fullTextXML",
+      "retrieved_utc": "2026-09-21T06:40:27.112609+00:00",
+      "sha256": "12401286a3de1fa15a2910aaea8806a97ce993521ff09b7c772f4121c67ecb3c",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13191086/fullTextXML"
+    },
+    "data/external/research_20260921/srle_author_count_code.receipt.json": {
+      "bytes": 7979,
+      "content_type": "text/plain; charset=utf-8",
+      "name": "srle_author_count_code",
+      "resolved_url": "https://raw.githubusercontent.com/lysovosyl/SRLE-seq/main/kmer_location_analysis.py",
+      "retrieved_utc": "2026-09-21T20:19:12.407239+00:00",
+      "sha256": "5446a47b70d741ac78b9a06f4f06a98f3bfa2dd7e12ffd03974c7ac039c4911c",
+      "url": "https://raw.githubusercontent.com/lysovosyl/SRLE-seq/main/kmer_location_analysis.py"
+    },
+    "data/external/research_20260921/srle_epmc_supplement.receipt.json": {
+      "bytes": 6214566,
+      "content_type": "application/zip",
+      "name": "srle_epmc_supplement",
+      "resolved_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13191086/supplementaryFiles",
+      "retrieved_utc": "2026-09-21T06:41:58.449950+00:00",
+      "sha256": "ff42cc9b5d7f0bb703369370cfc29c1d51614bca677294a2ffbb3bbec61344a9",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13191086/supplementaryFiles"
+    },
+    "data/external/research_20260921/srle_gsa_directory.receipt.json": {
+      "bytes": 17506,
+      "content_type": "text/html; charset=utf-8",
+      "name": "srle_gsa_directory",
+      "resolved_url": "https://download.cncb.ac.cn/gsa-human/HRA016642/",
+      "retrieved_utc": "2026-09-21T06:53:04.317031+00:00",
+      "sha256": "1feca40e412749d13b3a9d2f8908938ae2f285aa65e32bc045d9415d6dba34ab",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/"
+    },
+    "data/external/research_20260921/srle_gsa_metadata.receipt.json": {
+      "bytes": 36728,
+      "content_type": "text/html;charset=UTF-8",
+      "name": "srle_gsa_metadata",
+      "resolved_url": "https://ngdc.cncb.ac.cn/gsa-human/browse/HRA016642",
+      "retrieved_utc": "2026-09-21T06:53:05.727971+00:00",
+      "sha256": "a713529d09e91003fb6d0913cc5daff830f03ec9f372a9be4fc37de09b644914",
+      "url": "https://ngdc.cncb.ac.cn/gsa-human/browse/HRA016642"
+    },
+    "data/external/research_20260921/srle_gsa_runs.receipt.json": {
+      "bytes": 3974,
+      "content_type": "application/json;charset=UTF-8",
+      "name": "srle_gsa_runs",
+      "resolved_url": "https://ngdc.cncb.ac.cn/gsa-human/ajaxb/runinstudy?accession=HRA016642",
+      "retrieved_utc": "2026-09-21T06:53:48.417783+00:00",
+      "sha256": "ac6ff5cb19934187f1c7b5c80989394484c5545e472ccb33ab79c517609daf9d",
+      "url": "https://ngdc.cncb.ac.cn/gsa-human/ajaxb/runinstudy?accession=HRA016642"
+    },
+    "data/external/research_20260921/srle_gsa_runs_all.receipt.json": {
+      "bytes": 18836,
+      "content_type": "application/json;charset=UTF-8",
+      "name": "srle_gsa_runs_all",
+      "resolved_url": "https://ngdc.cncb.ac.cn/gsa-human/ajaxb/runinstudy?accession=HRA016642&pageNo=1&pageSize=200",
+      "retrieved_utc": "2026-09-21T20:19:13.645071+00:00",
+      "sha256": "c102edb0bac484c019b828f9c216e75419f9c78e723d3587571af7e3f9ff27de",
+      "url": "https://ngdc.cncb.ac.cn/gsa-human/ajaxb/runinstudy?accession=HRA016642&pageNo=1&pageSize=200"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059162_f1.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/5017986035",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:36.963287+00:00",
+      "sha256": "737aee4bc90678170fa00c388ca63126ccc8f2ad4aabf3444c8f33abe1972873",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059162/HRR3059162_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059162_r2.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/6763770566",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:36.963287+00:00",
+      "sha256": "3066b999b09452201672f96a5032cb623ccbf0e72668f0504abd26fdadd33890",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059162/HRR3059162_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059165_f1.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/5643489531",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:38.869819+00:00",
+      "sha256": "682841b009e41d5052d4e30d1bf4e4f8d1c294908a544924157b48d805308822",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059165/HRR3059165_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059165_r2.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/5595356653",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:38.911104+00:00",
+      "sha256": "183acb2144236436cf4ac693c2c1fc6de5a62abf900ef2add0b7963a9581e111",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059165/HRR3059165_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059175_f1.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/5017986050",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:40.891561+00:00",
+      "sha256": "8a983fe3b1984aefcaf438a4fbd2a9837d8ffbcd67df92511c6e6c02f2be9c56",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059175/HRR3059175_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059175_r2.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/6763770581",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:40.856442+00:00",
+      "sha256": "dc09856fd9295cc1e2d763aa2949a11aeb0a17498bebdebce8c4a95e0183e962",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059175/HRR3059175_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059176_f1.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/5643489547",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:43.078925+00:00",
+      "sha256": "a419bb96923022ce571ca52800553c27826ae3e23365239d91670cf61437933c",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059176/HRR3059176_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_prefix_qc/HRR3059176_r2.fq.gz.prefix.bin.receipt.json": {
+      "bytes": 524288,
+      "content_range": "bytes 0-524287/5595356669",
+      "full_archive_checksum_verified": false,
+      "partial_only": true,
+      "retrieved_utc": "2026-09-22T03:20:42.980377+00:00",
+      "sha256": "e1658803633a71df4d5f2398dbe67272dd7bafa5ba59b99678f9f058f0f523cd",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059176/HRR3059176_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_raw_checksums.receipt.json": {
+      "bytes": 4500,
+      "content_type": "text/plain; charset=utf-8",
+      "name": "srle_raw_checksums",
+      "resolved_url": "https://download.cncb.ac.cn/gsa-human/HRA016642/md5sum.txt",
+      "retrieved_utc": "2026-09-21T20:19:13.438107+00:00",
+      "sha256": "5020ececf7d0d55b763542664b46ac5fb1bdb6579782da4ef72fdb14521461e7",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/md5sum.txt"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059160_f1.fq.gz.receipt.json": {
+      "bytes": 93531573,
+      "md5": "0c41aa2b50f4d2cee16c6cb5148526ca",
+      "retrieved_utc": "2026-09-21T20:26:05.538945+00:00",
+      "sample": "6mer_Cyto_Sample1",
+      "sample_accession": "HRS2256202",
+      "sha256": "5f9d513431f11944a41e67ad0eee5bc72df068d59a47ee815d6cf8b0189700da",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059160/HRR3059160_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059160_r2.fq.gz.receipt.json": {
+      "bytes": 124951194,
+      "md5": "f7c3076879fbcca41b501bdd1baa698d",
+      "retrieved_utc": "2026-09-21T20:24:08.011922+00:00",
+      "sample": "6mer_Cyto_Sample1",
+      "sample_accession": "HRS2256202",
+      "sha256": "da2c6bcaed7a46c187d8dd3751b006515edc6c05d378903e213603aa1530d7de",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059160/HRR3059160_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059161_f1.fq.gz.receipt.json": {
+      "bytes": 98058696,
+      "md5": "70599249059ecf9b558c774c31becaf8",
+      "retrieved_utc": "2026-09-21T20:23:54.685750+00:00",
+      "sample": "6mer_Cyto_Sample2",
+      "sample_accession": "HRS2256203",
+      "sha256": "b9e05146061868be9e4b976afd2b21de487b67ded76ccfa24304c4d034665559",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059161/HRR3059161_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059161_r2.fq.gz.receipt.json": {
+      "bytes": 128961231,
+      "md5": "0fe38b136f17afce430cb8bf7fd635b0",
+      "retrieved_utc": "2026-09-21T20:26:46.033214+00:00",
+      "sample": "6mer_Cyto_Sample2",
+      "sample_accession": "HRS2256203",
+      "sha256": "489da0ec15e4bbb11d005a2d3411ea71660e1cf55dd2179c41d9ce8d7d1f574b",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059161/HRR3059161_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059163_f1.fq.gz.receipt.json": {
+      "bytes": 100310238,
+      "md5": "df4deee0559641f3b76e3d17252140ee",
+      "resumed_with_verified_ranges": true,
+      "retrieved_utc": "2026-09-21T20:30:55.646073+00:00",
+      "sample": "6mer_Nuc_Sample1",
+      "sample_accession": "HRS2256205",
+      "sha256": "71fcf3e4cddfd03a1da5e712c0cbbf799e547f0f4a01db46a7fad836333b4047",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059163/HRR3059163_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059163_r2.fq.gz.receipt.json": {
+      "bytes": 136587116,
+      "md5": "ec44cf0c1b97b78caf088340106822de",
+      "resumed_with_verified_ranges": true,
+      "retrieved_utc": "2026-09-21T20:32:34.887241+00:00",
+      "sample": "6mer_Nuc_Sample1",
+      "sample_accession": "HRS2256205",
+      "sha256": "d7a514c9bc57df32c8df9ddbbbf3bb1240448d2c87e16ac77069c4e87dd1a96a",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059163/HRR3059163_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059164_f1.fq.gz.receipt.json": {
+      "bytes": 95601956,
+      "md5": "99cbc77e5a1cc53d44844e55ed4cbf16",
+      "retrieved_utc": "2026-09-21T20:29:56.795023+00:00",
+      "sample": "6mer_Nuc_Sample2",
+      "sample_accession": "HRS2256206",
+      "sha256": "1857f5031d3bcf452d986624b7738734df2957b1494f1cd9e33a2acd0d5e68df",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059164/HRR3059164_f1.fq.gz"
+    },
+    "data/external/research_20260921/srle_reads/HRR3059164_r2.fq.gz.receipt.json": {
+      "bytes": 127297681,
+      "md5": "57b2e6af09f8eb3d71ea229a69c5c56f",
+      "resumed_with_verified_ranges": true,
+      "retrieved_utc": "2026-09-21T20:34:01.385781+00:00",
+      "sample": "6mer_Nuc_Sample2",
+      "sample_accession": "HRS2256206",
+      "sha256": "fb347f10ba34d07470d7042bbc77bd6b3f368d17ff1d241cd111756dc5a3a690",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA016642/HRR3059164/HRR3059164_r2.fq.gz"
+    },
+    "data/external/research_20260921/srle_tree.receipt.json": {
+      "bytes": 4354,
+      "content_type": "application/json; charset=utf-8",
+      "name": "srle_tree",
+      "resolved_url": "https://api.github.com/repos/lysovosyl/SRLE-seq/git/trees/main?recursive=1",
+      "retrieved_utc": "2026-09-21T06:40:17.799350+00:00",
+      "sha256": "8007a47932d41c5d756c220f1048492920778d2e0e7269c093a70163a9afde81",
+      "url": "https://api.github.com/repos/lysovosyl/SRLE-seq/git/trees/main?recursive=1"
+    }
+  },
+  "historical_source_files_unchanged": 228,
+  "result_hashes": {
+    "arora_sequence_inventory.json": "e0733fb5533b2da118977f56f73067c8e31d776086d7b3bf49f4c62557403e88",
+    "checkpoint_bundle_receipt.json": "5611acf43ca8d10049bf969e2d90748ffa4cb8b74b81b3adc202c8955fdbac37",
+    "checkpoint_receipt.json": "bc35263bda2d97cf27d7e2eca0f2902fbb76d7afba0d531a85a25335124c4e12",
+    "context2022_schema.json": "82c9524d934a01b9a7efd7aa8c8e9e17d8b0b830cd21811604e36866f5dd1b2a",
+    "context2022_sequence_inventory.json": "b4496cd7274a0cdc35927eacbd4a2d415fe11a0e32698edc615898ab077fd360",
+    "external_asset_schema.json": "a3ab532119b03fb9ce05213b7859798d81845eb72d1291933165cf078f56b515",
+    "interpretation_audit.json": "c92f857846733d59a2d5b57a276c506b7cab35fd26674126a86d43ade7db2e9d",
+    "pilot_a_result.json": "24674ee056efcca792b826b0720bf0d7423b1444a176d7a8c76a35ccc1308c33",
+    "pilot_b_result.json": "7db071ced73452443e66cb42628e381d8929704ac38e92118ea9e729807c012e",
+    "pilot_freeze.json": "842455b2fe23697c15581e949c0373a7573dd7893774c7104e3c3b83f383047d",
+    "raw_counts_freeze.json": "ac697cff3e70363561ae338d087e902ad0f3355106cb6d8126b50c0c594cd5f7",
+    "raw_counts_qc.json": "f88bfaadd6734f72ac8425831b725fcb06f5519490947de0ee8fc900c3bb07f4",
+    "raw_replication_result.json": "d1928eae4ed8437160e678a2b9ddc58eeb28b92ce0be114b5293489e778e6526",
+    "raw_swap_freeze.json": "e180b077248f95b409fe581e25db1f3e9e06d5cf1234b609de9190e7c568c5e4",
+    "raw_swap_result.json": "fb1fab6b5bb60a439ac5f43ec5ac0a0e264a76c7e6cf466dd6ff91e49c13de19",
+    "robustness_freeze.json": "41d71a49abe504c0b0bcbde70282cedd5fe0d14f6e3d93ff2481c16820d0f3f8",
+    "robustness_result.json": "c63b53583d642092092f95e1b858af5d93e8299aafdcb496465d4f8d069968c2",
+    "sirloin_discovery_choices.json": "f4f3222ff95627edb438328e5cd09f6899d8384a3b7ae099d033c4a3eb8ec041",
+    "sirloin_discovery_result.json": "951a1e5ac6b9ee87a3fb63f35fbf7df8913478c4988e43b53ecfba82ab1e5102",
+    "sirloin_schema.json": "64718d9585c350cfc18a06aac6e997815598aa5b049b63304c05365d8dbf505d",
+    "sirloin_sequence_inventory.json": "743279d51d6c73bbcc9a24c465794dc8f3329bbfffcba51e6be6415202d3f0e0",
+    "sirloin_transfer_freeze.json": "22c780c7ae825b613871e433cc0f4068af468a6a8dcdb1661020d9e8f87ee447",
+    "srle_replicate3_prefix_qc.json": "74ffdbcf8b58851db3fed2926c54865d892d7c4ebb3fc09b41b14d13cf80e415",
+    "tracked_source_snapshot.json": "700c448f664b3a8677a42403abdfda475b6b2629423cccf136338023fec5c56c"
+  },
+  "scheduled_tasks_created": 0,
+  "scoped_tests_passed": 13,
+  "spending": 0
+}

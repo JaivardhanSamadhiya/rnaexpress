@@ -1,0 +1,80 @@
+{
+  "NucLibB_outcomes_opened": false,
+  "adequate": true,
+  "decision_classes_by_parent": {
+    "Jpx_9": 12,
+    "NICN1_53": 8
+  },
+  "discovery_pass": false,
+  "excluded_classes": [
+    {
+      "finite_candidates": 2,
+      "mutation": "G>A",
+      "parent": "NICN1_53"
+    },
+    {
+      "finite_candidates": 3,
+      "mutation": "T>A",
+      "parent": "NICN1_53"
+    },
+    {
+      "finite_candidates": 1,
+      "mutation": "T>C",
+      "parent": "NICN1_53"
+    },
+    {
+      "finite_candidates": 2,
+      "mutation": "T>G",
+      "parent": "NICN1_53"
+    }
+  ],
+  "models": {
+    "ccc": {
+      "mean_regret": 0.5252078360814273,
+      "oriented_change_from_wt": -0.007385449912841754
+    },
+    "cctccc": {
+      "mean_regret": 0.49092387913302926,
+      "oriented_change_from_wt": 0.00974824007356011
+    },
+    "composition": {
+      "mean_regret": 0.5,
+      "oriented_change_from_wt": 0.0
+    },
+    "srle_kmer123": {
+      "mean_regret": 0.4473274142832473,
+      "oriented_change_from_wt": 0.04691833331760402
+    },
+    "srle_measured": {
+      "mean_regret": 0.475894258654744,
+      "oriented_change_from_wt": 0.006789732809186745
+    },
+    "srle_pair": {
+      "mean_regret": 0.4764810956429642,
+      "oriented_change_from_wt": 0.02513089777127865
+    }
+  },
+  "primary": "srle_kmer123",
+  "primary_comparisons": {
+    "ccc": {
+      "mean_regret_advantage": 0.07788042179817993,
+      "parent_replicate_advantages": {
+        "Jpx_9/rep1": 0.08877507939686896,
+        "Jpx_9/rep2": 0.11405584845099553,
+        "NICN1_53/rep1": 0.022018283148744877,
+        "NICN1_53/rep2": 0.08667247619611035
+      }
+    },
+    "cctccc": {
+      "mean_regret_advantage": 0.043596464849781955,
+      "parent_replicate_advantages": {
+        "Jpx_9/rep1": 0.0631453489944987,
+        "Jpx_9/rep2": 0.04757428863548635,
+        "NICN1_53/rep1": 0.012740363243588626,
+        "NICN1_53/rep2": 0.050925858525554146
+      }
+    }
+  },
+  "replicate_3_or_4_opened": false,
+  "scope": "Independent assay discovery pilot; only two parent sequence contexts"
+}

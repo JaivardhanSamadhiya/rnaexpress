@@ -1,0 +1,538 @@
+{
+  "arora_epmc_supplement": [
+    {
+      "bytes": 2358207,
+      "member": "SupplementaryFile1.txt"
+    },
+    {
+      "bytes": 1532556,
+      "member": "SupplementaryFile2.txt"
+    },
+    {
+      "bytes": 14332414,
+      "member": "Supplement_NAR_Revision.pdf"
+    },
+    {
+      "bytes": 251673,
+      "member": "TableS1.xlsx",
+      "sheets": [
+        {
+          "columns": 4,
+          "first_two_rows": [
+            [
+              "oligoid",
+              "genename",
+              "neuritelog2FC",
+              "padj"
+            ],
+            [
+              "ENSMUSG00000033032.1",
+              "Afap1l1",
+              "<number>",
+              "<number>"
+            ]
+          ],
+          "name": "TableS1",
+          "rows": 7361
+        }
+      ]
+    },
+    {
+      "bytes": 241369,
+      "member": "TableS2.xlsx",
+      "sheets": [
+        {
+          "columns": 4,
+          "first_two_rows": [
+            [
+              "oligoid",
+              "genename",
+              "neuritelog2FC",
+              "padj"
+            ],
+            [
+              "ENSMUSG00000033032.1",
+              "Afap1l1",
+              "<number>",
+              "      NA"
+            ]
+          ],
+          "name": "TableS2",
+          "rows": 7361
+        }
+      ]
+    },
+    {
+      "bytes": 253704,
+      "member": "TableS3.xlsx",
+      "sheets": [
+        {
+          "columns": 4,
+          "first_two_rows": [
+            [
+              "oligoid",
+              "genename",
+              "neuritelog2FC",
+              "padj"
+            ],
+            [
+              "ENSMUSG00000033032.1",
+              "Afap1l1",
+              "<number>",
+              "<number>"
+            ]
+          ],
+          "name": "TableS3",
+          "rows": 7361
+        }
+      ]
+    },
+    {
+      "bytes": 218363,
+      "member": "TableS4.xlsx",
+      "sheets": [
+        {
+          "columns": 4,
+          "first_two_rows": [
+            [
+              "oligoid",
+              "genename",
+              "neuritelog2FC",
+              "padj"
+            ],
+            [
+              "ENSMUSG00000033032.1",
+              "Afap1l1",
+              "<number>",
+              "<number>"
+            ]
+          ],
+          "name": "TableS4",
+          "rows": 7361
+        }
+      ]
+    },
+    {
+      "bytes": 110745,
+      "member": "TableS5.xlsx",
+      "sheets": [
+        {
+          "columns": 3,
+          "first_two_rows": [
+            [
+              "ProteinName",
+              "log2FC",
+              "adj.P.Val"
+            ],
+            [
+              "REV__sp|Q60675|LAMA2_MOUSE",
+              "<number>",
+              "<number>"
+            ]
+          ],
+          "name": "TableS5",
+          "rows": 2394
+        }
+      ]
+    },
+    {
+      "bytes": 103129,
+      "member": "TableS6.xlsx",
+      "sheets": [
+        {
+          "columns": 3,
+          "first_two_rows": [
+            [
+              "ProteinName",
+              "log2FC",
+              "adj.P.Val"
+            ],
+            [
+              "sp|O88569|ROA2_MOUSE",
+              "<number>",
+              "<number>"
+            ]
+          ],
+          "name": "TableS6",
+          "rows": 2389
+        }
+      ]
+    },
+    {
+      "bytes": 118700,
+      "member": "TableS7.xlsx",
+      "sheets": [
+        {
+          "columns": 3,
+          "first_two_rows": [
+            [
+              "ProteinName",
+              "log2FC",
+              "adj.P.Val"
+            ],
+            [
+              "sp|O35737|HNRH1_MOUSE",
+              "<number>",
+              "<number>"
+            ]
+          ],
+          "name": "TableS7",
+          "rows": 2566
+        }
+      ]
+    },
+    {
+      "bytes": 112887,
+      "member": "TableS8.xlsx",
+      "sheets": [
+        {
+          "columns": 3,
+          "first_two_rows": [
+            [
+              "ProteinName",
+              "log2FC",
+              "adj.P.Val"
+            ],
+            [
+              "REV__sp|Q6ZPR4|KCNT1_MOUSE",
+              "<number>",
+              "<number>"
+            ]
+          ],
+          "name": "TableS8",
+          "rows": 2568
+        }
+      ]
+    }
+  ],
+  "srle_epmc_supplement": [
+    {
+      "bytes": 538034,
+      "member": "Suppl.figures.v4.2.pdf"
+    },
+    {
+      "bytes": 13588,
+      "member": "Supplement Table1.xlsx",
+      "sheets": [
+        {
+          "columns": 4,
+          "first_two_rows": [
+            [
+              "Table S1. List of oligo used in this study",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Process",
+              "Oligo Description",
+              "Sequence (5\u2019-3\u2019)",
+              "details"
+            ]
+          ],
+          "name": "Table S1",
+          "rows": 64
+        }
+      ]
+    },
+    {
+      "bytes": 10497,
+      "member": "Supplement Table2.xlsx",
+      "sheets": [
+        {
+          "columns": 3,
+          "first_two_rows": [
+            [
+              "Table S2. List of RT-qPCR primers used in this study",
+              "",
+              ""
+            ],
+            [
+              "Oligo Description",
+              "Sequence (5\u2019-3\u2019)",
+              ""
+            ]
+          ],
+          "name": "Table S2",
+          "rows": 13
+        }
+      ]
+    },
+    {
+      "bytes": 152359,
+      "member": "Supplement Table3.xlsx",
+      "sheets": [
+        {
+          "columns": 4,
+          "first_two_rows": [
+            [
+              "Table S3. The datasets used in this study",
+              "",
+              "",
+              ""
+            ],
+            [
+              "GSM_id",
+              "library type",
+              "Desc.",
+              "Reference"
+            ]
+          ],
+          "name": "Table S3",
+          "rows": 12193
+        }
+      ]
+    },
+    {
+      "bytes": 10286,
+      "member": "Supplement Table4.xlsx",
+      "sheets": [
+        {
+          "columns": 2,
+          "first_two_rows": [
+            [
+              "Table S4. The fragments associated subcellular localization in MALAT1",
+              ""
+            ],
+            [
+              "Seq name",
+              "Seq"
+            ]
+          ],
+          "name": "Table S4",
+          "rows": 7
+        }
+      ]
+    },
+    {
+      "bytes": 465847,
+      "member": "Supplement Table5.xlsx",
+      "sheets": [
+        {
+          "columns": 9,
+          "first_two_rows": [
+            [
+              "Table S5. The list of nuclear or cytoplasmic-enriched 6mers.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "kmer",
+              "pvalue",
+              "FoldChange",
+              "MaxBaseMean",
+              "BaseMean",
+              "log2(BaseMean)",
+              "NRS(log2FC)",
+              "abs(NRS(log2FC))",
+              "nuc.or cyto."
+            ]
+          ],
+          "name": "Table S5",
+          "rows": 4098
+        }
+      ]
+    },
+    {
+      "bytes": 15995,
+      "member": "Supplement Table6.xlsx",
+      "sheets": [
+        {
+          "columns": 7,
+          "first_two_rows": [
+            [
+              "Table S6. The reported elements and the discoveried elements associated with RNA localization",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Author",
+              "Motif/Element Name",
+              "Sequence Features",
+              "Function",
+              "This study",
+              "Pubmed ID",
+              "Reference"
+            ]
+          ],
+          "name": "Table S6",
+          "rows": 38
+        }
+      ]
+    },
+    {
+      "bytes": 962642,
+      "member": "Supplement Table7.xlsx",
+      "sheets": [
+        {
+          "columns": 15,
+          "first_two_rows": [
+            [
+              "Table S7. The log2(Nuc./Cyto.) profile of the nuclear- or cytoplasmic-enrich genes across 12 cell types.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Ensemblid",
+              "Geneid",
+              "A549",
+              "endo",
+              "GM12878",
+              "H1",
+              "HEK293T",
+              "HeLa-S3",
+              "HepG2",
+              "IMR-90",
+              "K562",
+              "keratinocyte",
+              "MCF-7",
+              "SK-N-SH",
+              "Nuc. or Cyto. Enriched"
+            ]
+          ],
+          "name": "Table S7",
+          "rows": 4934
+        }
+      ]
+    },
+    {
+      "bytes": 3457817,
+      "member": "Supplement Table8.xlsx",
+      "sheets": [
+        {
+          "columns": 13,
+          "first_two_rows": [
+            [
+              "Table S8-1. The change of RNA subcellular localization upon UPF1 knockdown.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Gene Symbol",
+              "si-UPF1_1(log2FC(Nuc./Cyto.))",
+              "si-UPF1_2(log2FC(Nuc./Cyto.))",
+              "si-UPF1_2(log2FC(Nuc./Cyto.))",
+              "si-UPF1_mean(log2FC(Nuc./Cyto.))",
+              "siNC_1(log2FC(Nuc./Cyto.))",
+              "siNC_2(log2FC(Nuc./Cyto.))",
+              "siNC_3(log2FC(Nuc./Cyto.))",
+              "siNC_mean(log2FC(Nuc./Cyto.))",
+              "P value",
+              "\u25b3log2FC",
+              "direction",
+              ""
+            ]
+          ],
+          "name": "Table S8-1 si-UPF1",
+          "rows": 65435
+        },
+        {
+          "columns": 13,
+          "first_two_rows": [
+            [
+              "Table S8-2. The change of RNA subcellular localization upon YBX3 knockdown.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Gene Symbol",
+              "sh-YBX3_1(log2FC(Nuc./Cyto.))",
+              "sh-YBX3_2(log2FC(Nuc./Cyto.))",
+              "sh-YBX3_2(log2FC(Nuc./Cyto.))",
+              "sh-YBX3_mean(log2FC(Nuc./Cyto.))",
+              "shNC_1(log2FC(Nuc./Cyto.))",
+              "shNC_2(log2FC(Nuc./Cyto.))",
+              "shNC_3(log2FC(Nuc./Cyto.))",
+              "shNC_mean(log2FC(Nuc./Cyto.))",
+              "P value",
+              "\u25b3log2FC",
+              "direction",
+              ""
+            ]
+          ],
+          "name": "Table S8-2 sh-YBX3",
+          "rows": 65135
+        },
+        {
+          "columns": 13,
+          "first_two_rows": [
+            [
+              "Table S8-3. The change of RNA subcellular localization upon DDX3X knockdown.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Gene Symbol",
+              "sh-DDX3X_1(log2FC(Nuc./Cyto.))",
+              "sh-DDX3X_2(log2FC(Nuc./Cyto.))",
+              "sh-DDX3X_2(log2FC(Nuc./Cyto.))",
+              "sh-DDX3X_mean(log2FC(Nuc./Cyto.))",
+              "shNC_1(log2FC(Nuc./Cyto.))",
+              "shNC_2(log2FC(Nuc./Cyto.))",
+              "shNC_3(log2FC(Nuc./Cyto.))",
+              "shNC_mean(log2FC(Nuc./Cyto.))",
+              "P value",
+              "\u25b3log2FC",
+              "direction",
+              ""
+            ]
+          ],
+          "name": "Table S8-3 sh-DDX3X",
+          "rows": 65061
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "models": {
+    "composition": {
+      "error_reduction_ci": [
+        0.0,
+        0.0
+      ],
+      "error_reduction_vs_composition": 0.0,
+      "regret_gain": 0.0
+    },
+    "kmer123": {
+      "error_reduction_ci": [
+        0.21501424208552242,
+        0.3292549983854898
+      ],
+      "error_reduction_vs_composition": 0.2736629108837828,
+      "regret_gain": 0.2686183021441415
+    },
+    "position_additive": {
+      "error_reduction_ci": [
+        0.045544846921876186,
+        0.11057058144987865
+      ],
+      "error_reduction_vs_composition": 0.07617704900002831,
+      "regret_gain": 0.17625918599404694
+    },
+    "position_pair": {
+      "error_reduction_ci": [
+        0.20450599534555075,
+        0.3402062272618836
+      ],
+      "error_reduction_vs_composition": 0.270428705752478,
+      "regret_gain": 0.25516974002571463
+    }
+  },
+  "pair_vs_baselines": {
+    "kmer123": {
+      "ci": [
+        -0.05538442243305551,
+        0.04676405267742417
+      ],
+      "relative_error_reduction": -0.0044527605429594
+    },
+    "position_additive": {
+      "ci": [
+        0.14469552736740673,
+        0.2775634033472141
+      ],
+      "relative_error_reduction": 0.21026935577015737
+    }
+  },
+  "scope": "post-pilot within-assay robustness, not independent validation",
+  "swap_task": {
+    "models": {
+      "composition": {
+        "composition_classes": 61,
+        "gain_ci": [
+          -4.160556975991664e-18,
+          3.701153695916626e-18
+        ],
+        "mean_oriented_nrs_change": 0.0,
+        "regret_gain_over_uniform": 6.29111321386053e-20
+      },
+      "kmer123": {
+        "composition_classes": 61,
+        "gain_ci": [
+          0.14346878630297227,
+          0.2578320050859834
+        ],
+        "mean_oriented_nrs_change": 0.12020606069714651,
+        "regret_gain_over_uniform": 0.20214787642639404
+      },
+      "position_additive": {
+        "composition_classes": 61,
+        "gain_ci": [
+          0.035164206935744215,
+          0.16425497460464403
+        ],
+        "mean_oriented_nrs_change": 0.07320273714068609,
+        "regret_gain_over_uniform": 0.10095029157694733
+      },
+      "position_pair": {
+        "composition_classes": 61,
+        "gain_ci": [
+          0.16745866444862836,
+          0.27800896893802224
+        ],
+        "mean_oriented_nrs_change": 0.13435837020533614,
+        "regret_gain_over_uniform": 0.226289205515963
+      }
+    },
+    "parents": 609
+  }
+}
