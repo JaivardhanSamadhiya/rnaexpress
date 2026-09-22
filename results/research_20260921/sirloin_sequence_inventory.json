@@ -1,0 +1,53 @@
+{
+  "NucLibB_opened": false,
+  "exact_sequence_overlap_certified_old": 0,
+  "fasta_id_matches": 4205,
+  "fasta_sequence_mismatches": [],
+  "note": "GitHub FASTA contains additional library members; published workbook is authoritative for this analysis.",
+  "outcome_cells_read": false,
+  "parents": {
+    "Jpx_9": {
+      "invalid_ids": [],
+      "mutation_class_sizes": {
+        "A>C": 7,
+        "A>G": 7,
+        "A>T": 7,
+        "C>A": 22,
+        "C>G": 22,
+        "C>T": 22,
+        "G>A": 11,
+        "G>C": 11,
+        "G>T": 11,
+        "T>A": 14,
+        "T>C": 14,
+        "T>G": 14
+      },
+      "reference_length": 109,
+      "single_substitutions": 162
+    },
+    "NICN1_53": {
+      "invalid_ids": [],
+      "mutation_class_sizes": {
+        "A>C": 9,
+        "A>G": 8,
+        "A>T": 10,
+        "C>A": 5,
+        "C>G": 5,
+        "C>T": 7,
+        "G>A": 2,
+        "G>C": 6,
+        "G>T": 6,
+        "T>A": 3,
+        "T>C": 2,
+        "T>G": 2
+      },
+      "reference_length": 109,
+      "single_substitutions": 65
+    }
+  },
+  "rows": 4205,
+  "sequence_lengths": {
+    "109": 4205
+  },
+  "sheet": "NucLibC"
+}

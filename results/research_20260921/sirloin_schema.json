@@ -1,0 +1,131 @@
+{
+  "sirloin_dataset_ev1.xlsx": {
+    "active_content_members": [],
+    "archive_crc_valid": true,
+    "sha256": "ad478cbaff86d527fb74de61235f1225fed67a1598522c1b8cb5f002cff2ccd2",
+    "sheets": [
+      {
+        "columns": 39,
+        "first_row": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Nuc/Cyto ratios",
+            null,
+            null,
+            "IP/Input ratios",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Effect of siRNA knockdowns on Nuc/Cyto ratios",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ],
+        "name": "NucLibB",
+        "rows": 1890
+      },
+      {
+        "columns": 23,
+        "first_row": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Nuc/Cyto ratios",
+            null,
+            null,
+            null,
+            null,
+            "IP/Input (log2) ratios",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ],
+        "name": "NucLibC",
+        "rows": 4207
+      },
+      {
+        "columns": 1,
+        "first_row": [
+          [
+            "Dataset EV1: Nuc\u00a0/Cyto and IP/Input ratios and additional information for the tiles in the NucLibB and NucLibC libraries."
+          ]
+        ],
+        "name": "Legend",
+        "rows": 1
+      }
+    ],
+    "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.15252%2Fembj.2020106357/MediaObjects/44318_2021_BFEMBJ2020106357_MOESM5_ESM.xlsx"
+  },
+  "sirloin_table_ev2.xlsx": {
+    "active_content_members": [],
+    "archive_crc_valid": true,
+    "sha256": "dcab7b35a7e8ad549b31e4e321fef2aaeca04f7976952fd18fd69f1df41a8e56",
+    "sheets": [
+      {
+        "columns": 4,
+        "first_row": [
+          [
+            "Group",
+            "Description",
+            "Region",
+            "Total designed oligos"
+          ]
+        ],
+        "name": "Table EV2",
+        "rows": 35
+      },
+      {
+        "columns": 1,
+        "first_row": [
+          [
+            "Table EV2: Design \u00a0of the NucLibC library."
+          ]
+        ],
+        "name": "Legend",
+        "rows": 8
+      }
+    ],
+    "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.15252%2Fembj.2020106357/MediaObjects/44318_2021_BFEMBJ2020106357_MOESM3_ESM.xlsx"
+  }
+}
