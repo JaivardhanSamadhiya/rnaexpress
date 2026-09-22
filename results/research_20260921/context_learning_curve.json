@@ -1,0 +1,275 @@
+{
+  "budgets": {
+    "16": {
+      "comparisons": {
+        "composition": {
+          "by_context": {
+            "Circular": 0.00035470879408414297,
+            "SCRCircular": 0.1291150978189277,
+            "Spliced": -0.003105951813330473,
+            "Unspliced": 0.06324431360022047
+          },
+          "descriptive_component_ci95": [
+            0.025333889858794263,
+            0.0678827426865201
+          ],
+          "gain": 0.04740204209997546
+        },
+        "sibling_calibrated": {
+          "by_context": {
+            "Circular": -0.005191823909223235,
+            "SCRCircular": -0.02478395201796319,
+            "Spliced": 0.00423652266196246,
+            "Unspliced": 0.060392763849459276
+          },
+          "descriptive_component_ci95": [
+            -0.0055785993103221266,
+            0.02377639398742931
+          ],
+          "gain": 0.008663377646058826
+        },
+        "sibling_uncalibrated": {
+          "by_context": {
+            "Circular": -0.05215566723080608,
+            "SCRCircular": -0.02478395201796319,
+            "Spliced": 0.00423652266196246,
+            "Unspliced": -0.018438170531382636
+          },
+          "descriptive_component_ci95": [
+            -0.04103581387365848,
+            -0.004078534972782233
+          ],
+          "gain": -0.022785316779547364
+        },
+        "target_kmer": {
+          "by_context": {
+            "Circular": 0.019080361436666422,
+            "SCRCircular": 0.05044560508857856,
+            "Spliced": 0.010347137742214418,
+            "Unspliced": 0.07219989920977442
+          },
+          "descriptive_component_ci95": [
+            0.014529260096331946,
+            0.059744308748862024
+          ],
+          "gain": 0.038018250869308455
+        }
+      },
+      "components": 58,
+      "regret": {
+        "composition": {
+          "Circular": 0.4614527128644262,
+          "SCRCircular": 0.5100879235931929,
+          "Spliced": 0.4613071088971176,
+          "Unspliced": 0.4661720290654031
+        },
+        "sibling_calibrated": {
+          "Circular": 0.45590618016111883,
+          "SCRCircular": 0.356188873756302,
+          "Spliced": 0.4686495833724105,
+          "Unspliced": 0.4633204793146419
+        },
+        "sibling_uncalibrated": {
+          "Circular": 0.4089423368395359,
+          "SCRCircular": 0.356188873756302,
+          "Spliced": 0.4686495833724105,
+          "Unspliced": 0.3844895449338
+        },
+        "stack": {
+          "Circular": 0.461098004070342,
+          "SCRCircular": 0.3809728257742652,
+          "Spliced": 0.4644130607104481,
+          "Unspliced": 0.40292771546518263
+        },
+        "target_kmer": {
+          "Circular": 0.4801783655070085,
+          "SCRCircular": 0.43141843086284376,
+          "Spliced": 0.4747601984526625,
+          "Unspliced": 0.47512761467495707
+        }
+      }
+    },
+    "256": {
+      "comparisons": {
+        "composition": {
+          "by_context": {
+            "Circular": 0.06680300358160435,
+            "SCRCircular": 0.11689934708904011,
+            "Spliced": -0.018658265799644264,
+            "Unspliced": 0.047066212285548865
+          },
+          "descriptive_component_ci95": [
+            0.028797137191151838,
+            0.07624865010503418
+          ],
+          "gain": 0.053027574289137264
+        },
+        "sibling_calibrated": {
+          "by_context": {
+            "Circular": -0.005050199365854375,
+            "SCRCircular": 0.008897620949148883,
+            "Spliced": 0.04549247234883233,
+            "Unspliced": 0.0028438444499229143
+          },
+          "descriptive_component_ci95": [
+            -0.00295912992123753,
+            0.028463851454191984
+          ],
+          "gain": 0.01304593459551244
+        },
+        "sibling_uncalibrated": {
+          "by_context": {
+            "Circular": -0.005050199365854375,
+            "SCRCircular": 0.008897620949148883,
+            "Spliced": 0.04549247234883233,
+            "Unspliced": 0.0028438444499229143
+          },
+          "descriptive_component_ci95": [
+            -0.00295912992123753,
+            0.028463851454191984
+          ],
+          "gain": 0.01304593459551244
+        },
+        "target_kmer": {
+          "by_context": {
+            "Circular": 0.02976080786537743,
+            "SCRCircular": 0.04104841906618239,
+            "Spliced": 0.002337321487482066,
+            "Unspliced": 0.07025575386325403
+          },
+          "descriptive_component_ci95": [
+            0.011340972126115163,
+            0.05974595440376713
+          ],
+          "gain": 0.03585057557057398
+        }
+      },
+      "components": 58,
+      "regret": {
+        "composition": {
+          "Circular": 0.4807955397869947,
+          "SCRCircular": 0.46419059989619327,
+          "Spliced": 0.4044988452239339,
+          "Unspliced": 0.42871191276942594
+        },
+        "sibling_calibrated": {
+          "Circular": 0.4089423368395359,
+          "SCRCircular": 0.356188873756302,
+          "Spliced": 0.4686495833724105,
+          "Unspliced": 0.3844895449338
+        },
+        "sibling_uncalibrated": {
+          "Circular": 0.4089423368395359,
+          "SCRCircular": 0.356188873756302,
+          "Spliced": 0.4686495833724105,
+          "Unspliced": 0.3844895449338
+        },
+        "stack": {
+          "Circular": 0.4139925362053903,
+          "SCRCircular": 0.3472912528071531,
+          "Spliced": 0.42315711102357817,
+          "Unspliced": 0.381645700483877
+        },
+        "target_kmer": {
+          "Circular": 0.4437533440707678,
+          "SCRCircular": 0.3883396718733355,
+          "Spliced": 0.4254944325110602,
+          "Unspliced": 0.4519014543471311
+        }
+      }
+    },
+    "64": {
+      "comparisons": {
+        "composition": {
+          "by_context": {
+            "Circular": 0.07198117511323303,
+            "SCRCircular": 0.13796893102237928,
+            "Spliced": -0.003378550359046673,
+            "Unspliced": 0.03507251864313632
+          },
+          "descriptive_component_ci95": [
+            0.03673199055916027,
+            0.08244541238696002
+          ],
+          "gain": 0.06041101860492549
+        },
+        "sibling_calibrated": {
+          "by_context": {
+            "Circular": -0.0061710096768311015,
+            "SCRCircular": 0.009341093758792284,
+            "Spliced": 0.042067196901118896,
+            "Unspliced": -0.01578184051508642
+          },
+          "descriptive_component_ci95": [
+            -0.005485204706032714,
+            0.02033874645252302
+          ],
+          "gain": 0.007363860116998415
+        },
+        "sibling_uncalibrated": {
+          "by_context": {
+            "Circular": -0.0061710096768311015,
+            "SCRCircular": 0.009341093758792284,
+            "Spliced": 0.042067196901118896,
+            "Unspliced": -0.01578184051508642
+          },
+          "descriptive_component_ci95": [
+            -0.005485204706032714,
+            0.02033874645252302
+          ],
+          "gain": 0.007363860116998415
+        },
+        "target_kmer": {
+          "by_context": {
+            "Circular": 0.04627168382954167,
+            "SCRCircular": 0.06536332596575382,
+            "Spliced": 0.03493777363116107,
+            "Unspliced": 0.06798088708253054
+          },
+          "descriptive_component_ci95": [
+            0.029715812266315145,
+            0.07665022013486052
+          ],
+          "gain": 0.053638417627246776
+        }
+      },
+      "components": 58,
+      "regret": {
+        "composition": {
+          "Circular": 0.48709452162960004,
+          "SCRCircular": 0.48481671101988905,
+          "Spliced": 0.42320383611224494,
+          "Unspliced": 0.4353439040920227
+        },
+        "sibling_calibrated": {
+          "Circular": 0.4089423368395359,
+          "SCRCircular": 0.356188873756302,
+          "Spliced": 0.4686495833724105,
+          "Unspliced": 0.3844895449338
+        },
+        "sibling_uncalibrated": {
+          "Circular": 0.4089423368395359,
+          "SCRCircular": 0.356188873756302,
+          "Spliced": 0.4686495833724105,
+          "Unspliced": 0.3844895449338
+        },
+        "stack": {
+          "Circular": 0.41511334651636705,
+          "SCRCircular": 0.34684777999750976,
+          "Spliced": 0.4265823864712916,
+          "Unspliced": 0.40027138544888646
+        },
+        "target_kmer": {
+          "Circular": 0.4613850303459087,
+          "SCRCircular": 0.41221110596326355,
+          "Spliced": 0.4615201601024527,
+          "Unspliced": 0.468252272531417
+        }
+      }
+    }
+  },
+  "numeric_cells": 11429,
+  "rows": 3235,
+  "scope": "Exploratory reused-source diagnostic, no promotion or confirmation claim; intervals omit training-sample uncertainty.",
+  "source_only": true
+}

@@ -1,0 +1,131 @@
+{
+  "comparisons": {
+    "fixed_stack_vs_tuned_kmer": {
+      "by_context": {
+        "Circular": 0.02345854104563874,
+        "SCRCircular": 0.08037012583728077,
+        "Spliced": 0.00530953363628446,
+        "Unspliced": 0.05682842877806835
+      },
+      "descriptive_ci95": [
+        0.0203401577355477,
+        0.061018007184507374
+      ],
+      "gain": 0.04149165732431808
+    },
+    "tuned_kmer_vs_fixed_kmer": {
+      "by_context": {
+        "Circular": 0.02281314278390292,
+        "SCRCircular": -0.015006799871526946,
+        "Spliced": 0.029628239994876626,
+        "Unspliced": 0.011152458304462197
+      },
+      "descriptive_ci95": [
+        -0.0056654348038125526,
+        0.03046901271502011
+      ],
+      "gain": 0.012146760302928699
+    },
+    "tuned_stack_vs_sibling": {
+      "by_context": {
+        "Circular": -0.0010563927847550578,
+        "SCRCircular": 0.013742315068205519,
+        "Spliced": 0.04481227449966737,
+        "Unspliced": -0.013009199970031918
+      },
+      "descriptive_ci95": [
+        -0.0031959212236302233,
+        0.026166491251126786
+      ],
+      "gain": 0.011122249203271477
+    },
+    "tuned_stack_vs_tuned_composition": {
+      "by_context": {
+        "Circular": 0.07206813507463898,
+        "SCRCircular": 0.14427785949386893,
+        "Spliced": 0.00035176563815463144,
+        "Unspliced": 0.03611801599182641
+      },
+      "descriptive_ci95": [
+        0.0382228136411164,
+        0.0865895009407328
+      ],
+      "gain": 0.06320394404962223
+    },
+    "tuned_stack_vs_tuned_kmer": {
+      "by_context": {
+        "Circular": 0.028573157937714783,
+        "SCRCircular": 0.084771347146694,
+        "Spliced": 0.008054611234832922,
+        "Unspliced": 0.059601069323122854
+      },
+      "descriptive_ci95": [
+        0.022824186423842357,
+        0.06625810907945365
+      ],
+      "gain": 0.04525004641059114
+    }
+  },
+  "components": 58,
+  "regret": {
+    "fixed_kmer": {
+      "Circular": 0.4613850303459087,
+      "SCRCircular": 0.41221110596326355,
+      "Spliced": 0.4615201601024527,
+      "Unspliced": 0.468252272531417
+    },
+    "fixed_stack": {
+      "Circular": 0.41511334651636705,
+      "SCRCircular": 0.34684777999750976,
+      "Spliced": 0.4265823864712916,
+      "Unspliced": 0.40027138544888646
+    },
+    "sibling": {
+      "Circular": 0.4089423368395359,
+      "SCRCircular": 0.356188873756302,
+      "Spliced": 0.4686495833724105,
+      "Unspliced": 0.3844895449338
+    },
+    "tuned_composition": {
+      "Circular": 0.48206686469893,
+      "SCRCircular": 0.48672441818196543,
+      "Spliced": 0.42418907451089777,
+      "Unspliced": 0.4336167608956583
+    },
+    "tuned_kmer": {
+      "Circular": 0.43857188756200577,
+      "SCRCircular": 0.42721790583479047,
+      "Spliced": 0.43189192010757604,
+      "Unspliced": 0.4570998142269548
+    },
+    "tuned_stack": {
+      "Circular": 0.409998729624291,
+      "SCRCircular": 0.34244655868809654,
+      "Spliced": 0.4238373088727431,
+      "Unspliced": 0.3974987449038319
+    }
+  },
+  "scope": "Exploratory source-only nested regularization audit; reused data; intervals exclude full training-sample uncertainty.",
+  "selected_alpha_counts": {
+    "tuned_composition": {
+      "1.0": 3,
+      "10.0": 18,
+      "100.0": 12,
+      "1000.0": 6,
+      "10000.0": 21
+    },
+    "tuned_kmer": {
+      "100.0": 25,
+      "1000.0": 22,
+      "10000.0": 13
+    },
+    "tuned_stack": {
+      "0.1": 7,
+      "1.0": 6,
+      "10.0": 27,
+      "100.0": 14,
+      "1000.0": 1,
+      "10000.0": 5
+    }
+  }
+}

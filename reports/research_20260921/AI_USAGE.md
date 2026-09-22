@@ -19,6 +19,15 @@ Prior interactive tasks requested read-only onboarding and possible next steps.
 The complete conversation/tool trace is the detailed prompt and execution log.
 No generated text should be represented as independently authored by the student.
 
+Continuation on 22 September 2026: Codex designed and implemented the fixed
+context-calibration experiment, its failed-gate access controls, the subsequent
+source-only learning-curve diagnostic, figures and public-resource inventories.
+It searched primary literature and downloaded official free speckle-localization
+and mutREL-seq resources. All scientific interpretation and submitted writing
+remain the student's responsibility. These are AI-authored technical records.
+The user instructed continued autonomous, efficient work without spending or
+scheduled tasks; no additional user permissions were requested.
+
 The assistant checked the official 2027 STS AI-use chart:
 https://sspcdn.blob.core.windows.net/files/Documents/SEP/STS/2027/Application/AI-Usage-Chart.pdf
 It permits initial code with explicit attribution/prompt logging and statistical

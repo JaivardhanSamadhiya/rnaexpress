@@ -1,0 +1,105 @@
+{
+  "both_mates_aligned_with_40_shared_Q30_bases": 649,
+  "code_sha256": "1413d9feb2a92aaf08a0682d72a4d722f646e394689d352a36e3f8d742f41a3b",
+  "discordant_pairs_excluded": 21,
+  "examples": [
+    {
+      "mate_confirmed_variants": [
+        "41T>C",
+        "76A>T",
+        "98T>A",
+        "110G>A"
+      ],
+      "read_id_sha256": "a617cebd61686b6e9a5a12b7567cf26b2f4121db4763104f725b09ca74135ea1",
+      "shared_Q30_bases": 50
+    },
+    {
+      "mate_confirmed_variants": [
+        "76A>T",
+        "101G>T"
+      ],
+      "read_id_sha256": "441a2655b6ef8ccb31fefb946a32f95be459e3676bf1ab942db9d753185ddcaa",
+      "shared_Q30_bases": 66
+    },
+    {
+      "mate_confirmed_variants": [
+        "77G>A",
+        "103T>A"
+      ],
+      "read_id_sha256": "e45cc95234341f8353f7edd0edd1bc642375dc11aa3331a396ade333dbc6169b",
+      "shared_Q30_bases": 53
+    },
+    {
+      "mate_confirmed_variants": [
+        "38A>G",
+        "45T>A"
+      ],
+      "read_id_sha256": "8292eaf65dfb9f6796af75cd7e744d1acde25bea4bde2159e79f759d5c1f100d",
+      "shared_Q30_bases": 57
+    },
+    {
+      "mate_confirmed_variants": [
+        "49T>A",
+        "100G>A"
+      ],
+      "read_id_sha256": "60e421ac2af8de72101430ba43d952387a741a67025a44006b01c22f9dc7b2e4",
+      "shared_Q30_bases": 59
+    },
+    {
+      "mate_confirmed_variants": [
+        "28G>C",
+        "66A>C"
+      ],
+      "read_id_sha256": "7aefeb85a78820732e8f7af7fb01cea626f2c434a689c8c5c754cb95fe9dd39d",
+      "shared_Q30_bases": 40
+    },
+    {
+      "mate_confirmed_variants": [
+        "33T>A",
+        "34G>A",
+        "43A>T"
+      ],
+      "read_id_sha256": "0d31ec5e2726c3a8a6abcfdc8fa86d8fb32d49abf714fd113cbb555e8488da25",
+      "shared_Q30_bases": 46
+    },
+    {
+      "mate_confirmed_variants": [
+        "68G>A",
+        "101G>A"
+      ],
+      "read_id_sha256": "8aa6fae226f83176dfc597565cf52c8aa6f75f16e015677889e556ffe67c7adb",
+      "shared_Q30_bases": 41
+    },
+    {
+      "mate_confirmed_variants": [
+        "36A>G",
+        "41T>C",
+        "43A>G"
+      ],
+      "read_id_sha256": "21b0cec49a96477859c2d2045f8fb2772f222c972518204cc7794dc0cc567909",
+      "shared_Q30_bases": 44
+    },
+    {
+      "mate_confirmed_variants": [
+        "49T>A",
+        "113C>T"
+      ],
+      "read_id_sha256": "b96747632ff85a6d7ca4c3c81affa1c7515a410d3dfbe52761908bf0b5edef48",
+      "shared_Q30_bases": 45
+    }
+  ],
+  "full_file_md5_verified": false,
+  "inspected_read_pairs": 2000,
+  "interpretation": "Multiple confirmed substitutions show co-occurrence in sampled library molecules if present; this alone cannot establish whether the authors filtered to isolated mutants when making their processed table.",
+  "mate_confirmed_substitution_counts": {
+    "0": 217,
+    "1": 226,
+    "2": 123,
+    "3": 57,
+    "4": 21,
+    "5": 5
+  },
+  "pairs_with_multiple_confirmed_substitutions": 206,
+  "scope": "Convenience prefixes, exact-seed ungapped subset alignment, Q30 on both mates. Not an unbiased library mutation-rate estimate; indels unassessed. No compartment labels or localization count outcomes used.",
+  "source_run": "SRR6308285"
+}

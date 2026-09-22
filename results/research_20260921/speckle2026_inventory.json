@@ -1,0 +1,122 @@
+{
+  "admission": "Useful mechanistic resource; plasmid DNA is not the expressed RNA. Transcript boundaries and construct-to-outcome matching must be established before any prediction. Small set of designed modules is not adequate evidence for broad gene generalization.",
+  "archive_sha256": "059cd16ae5ea92875fa3ef83fcd2c684e660d6548d3530af2403d7b7311a3cf6",
+  "crc_valid": true,
+  "invalid_constructs": [],
+  "length_range": [
+    3249,
+    5410
+  ],
+  "license": "Article XML specifies CC BY 4.0; source attribution required.",
+  "named_variant_pairs": {
+    "M_COLQ_WT__M_COLQ_MUT": {
+      "global_plasmid_edit_distance": 1,
+      "lengths": [
+        3460,
+        3460
+      ]
+    },
+    "M_SMN1__M_SMN2": {
+      "global_plasmid_edit_distance": 1,
+      "lengths": [
+        3249,
+        3249
+      ]
+    }
+  },
+  "outcome_values_read": false,
+  "plasmids": 81,
+  "prefix_counts": {
+    "F": 32,
+    "M": 44,
+    "T7": 3,
+    "U1": 2
+  },
+  "schemas": {
+    "Supplemental Table S1.xlsx": {
+      "active_content": [],
+      "sheets": [
+        {
+          "columns": 5,
+          "name": "sheet1",
+          "rows": 89,
+          "title": "Table S1: oligonucleotides used in this study"
+        }
+      ]
+    },
+    "Supplemental Table S2.xlsx": {
+      "active_content": [],
+      "sheets": [
+        {
+          "columns": 12,
+          "name": "Sheet1",
+          "rows": 34,
+          "title": "Table S2: Exon-intron junction to intron ratio"
+        }
+      ]
+    },
+    "Supplemental Table S3.xlsx": {
+      "active_content": [],
+      "sheets": [
+        {
+          "columns": 24,
+          "name": "Sheet1",
+          "rows": 30,
+          "title": "Table S3: Correlation of nuclear speckle localization between minigene and minimal constructs"
+        }
+      ]
+    },
+    "Supplemental Table S4.xlsx": {
+      "active_content": [],
+      "sheets": [
+        {
+          "columns": 7,
+          "name": "Sheet1",
+          "rows": 16,
+          "title": "Table S4: Quantification of Percent spliced in(PSI)"
+        }
+      ]
+    },
+    "Supplemental Table S5.xlsx": {
+      "active_content": [],
+      "sheets": [
+        {
+          "columns": 12,
+          "name": "Sheet1",
+          "rows": 38,
+          "title": "Table S5: Correlation between nuclear speckle localization, pre-mRNA degradation, and splicing kinetics"
+        }
+      ]
+    },
+    "Supplemental Table S6.xlsx": {
+      "active_content": [],
+      "sheets": [
+        {
+          "columns": 9,
+          "name": "Figure 1",
+          "rows": 15,
+          "title": "Table S6: Partition coefficient of all minimal constructs"
+        },
+        {
+          "columns": 18,
+          "name": "Figure 2",
+          "rows": 44,
+          "title": "Figure 2B. Partition coefficients of M3\u2019-SR-5\u2019 mutant constructs"
+        },
+        {
+          "columns": 23,
+          "name": "Figure 3",
+          "rows": 32,
+          "title": "Figure 3A-E. Partition coefficients of trajectory series A and B"
+        },
+        {
+          "columns": 15,
+          "name": "Figure 4",
+          "rows": 14,
+          "title": "Figure 4. Partition coefficients of dual-module minimal constructs "
+        }
+      ]
+    }
+  },
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12962856/"
+}
