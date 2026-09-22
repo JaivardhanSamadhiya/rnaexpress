@@ -1,0 +1,116 @@
+{
+  "accessed_cell_hash": "78bb1de7f151a77b35acf169f2ab96a4a35cb9a0857d18cf52765a3933f0d205",
+  "accessed_numeric_cells": 15044,
+  "calibration": {
+    "Circular": {
+      "components": 8,
+      "observed_target_labels": 47
+    },
+    "SCRCircular": {
+      "components": 8,
+      "observed_target_labels": 59
+    },
+    "Spliced": {
+      "components": 8,
+      "observed_target_labels": 56
+    },
+    "Unspliced": {
+      "components": 8,
+      "observed_target_labels": 47
+    }
+  },
+  "comparisons": {
+    "composition": {
+      "by_context": {
+        "Circular": 0.02259043004139589,
+        "SCRCircular": 0.20670532469515254,
+        "Spliced": 0.015725582596748326,
+        "Unspliced": 0.07746874239073168
+      },
+      "eligible_components": {
+        "Circular": 20,
+        "SCRCircular": 20,
+        "Spliced": 20,
+        "Unspliced": 20
+      },
+      "gain": 0.08062251993100711,
+      "paired_component_ci95": [
+        0.03850372376043386,
+        0.12523613067786038
+      ],
+      "passes": true
+    },
+    "random3": {
+      "by_context": {
+        "Circular": 0.015653756191239074,
+        "SCRCircular": 0.12571698807433457,
+        "Spliced": 0.08916553423696985,
+        "Unspliced": 0.06386388549628783
+      },
+      "eligible_components": {
+        "Circular": 20,
+        "SCRCircular": 20,
+        "Spliced": 20,
+        "Unspliced": 20
+      },
+      "gain": 0.07360004099970782,
+      "paired_component_ci95": [
+        0.02569787131418415,
+        0.11791970453595674
+      ],
+      "passes": true
+    },
+    "target_kmer": {
+      "by_context": {
+        "Circular": -0.042575766516017986,
+        "SCRCircular": 0.15327537694737395,
+        "Spliced": 0.05103170046388653,
+        "Unspliced": 0.01612567879977823
+      },
+      "eligible_components": {
+        "Circular": 20,
+        "SCRCircular": 20,
+        "Spliced": 20,
+        "Unspliced": 20
+      },
+      "gain": 0.04446424742375518,
+      "paired_component_ci95": [
+        -0.008907960295568994,
+        0.09265329837647454
+      ],
+      "passes": false
+    }
+  },
+  "components": 20,
+  "confirmation_opened": false,
+  "discovery_pass": false,
+  "regret": {
+    "composition": {
+      "Circular": 0.5193985838880115,
+      "SCRCircular": 0.46615806731299597,
+      "Spliced": 0.4205336971466728,
+      "Unspliced": 0.510273240616991
+    },
+    "random3": {
+      "Circular": 0.5124619100378547,
+      "SCRCircular": 0.3851697306921779,
+      "Spliced": 0.4939736487868943,
+      "Unspliced": 0.4966683837225472
+    },
+    "source_stack": {
+      "Circular": 0.4968081538466157,
+      "SCRCircular": 0.2594527426178434,
+      "Spliced": 0.40480811454992455,
+      "Unspliced": 0.4328044982262593
+    },
+    "target_kmer": {
+      "Circular": 0.4542323873305977,
+      "SCRCircular": 0.4127281195652174,
+      "Spliced": 0.45583981501381104,
+      "Unspliced": 0.44893017702603755
+    }
+  },
+  "scope": "Retrospective budget simulation, fragment selection, one MCF7 reporter study; not minimal-edit or independent-study validation.",
+  "source_training_rows": 3235,
+  "stage": "development"
+}
