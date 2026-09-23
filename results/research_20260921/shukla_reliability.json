@@ -1,0 +1,89 @@
+{
+  "accessed_numeric_cells": 1230,
+  "comparisons": {
+    "over_random": {
+      "descriptive_family_ci95": [
+        -0.08461060645181631,
+        0.08013493336719293
+      ],
+      "gain": -0.0021806687935511607
+    },
+    "over_source_kmer": {
+      "descriptive_family_ci95": [
+        -0.07887906383327664,
+        0.22913399300780082
+      ],
+      "gain": 0.06711855775077921
+    }
+  },
+  "families": 11,
+  "family_metrics": {
+    "BORG": {
+      "other_replicate_regret": 0.5179498549007174,
+      "source_kmer_regret": 0.6594749796136278,
+      "spearman": 0.02696078431372549
+    },
+    "FIRRE": {
+      "other_replicate_regret": 0.5302358345615066,
+      "source_kmer_regret": 0.4472977518495027,
+      "spearman": -0.17769464090621587
+    },
+    "LINCMKLN1_A1": {
+      "other_replicate_regret": 0.6361447740379312,
+      "source_kmer_regret": 0.6315463304837201,
+      "spearman": -0.2323232323232323
+    },
+    "MEG3": {
+      "other_replicate_regret": 0.516532832567686,
+      "source_kmer_regret": 0.31277368327035326,
+      "spearman": -0.10726817042606517
+    },
+    "NEAT1": {
+      "other_replicate_regret": 0.38020143097513753,
+      "source_kmer_regret": 0.8012286321985999,
+      "spearman": 0.2094508301404853
+    },
+    "TUG1": {
+      "other_replicate_regret": 0.3946592543710732,
+      "source_kmer_regret": 0.5087753985132603,
+      "spearman": 0.013095238095238092
+    },
+    "XLOC_002746": {
+      "other_replicate_regret": 0.3739112438122794,
+      "source_kmer_regret": 0.3999287431221947,
+      "spearman": 0.30392156862745096
+    },
+    "XLOC_005764": {
+      "other_replicate_regret": 0.7857320756098328,
+      "source_kmer_regret": 0.4113869981860427,
+      "spearman": -0.3128205128205129
+    },
+    "XLOC_006922": {
+      "other_replicate_regret": 0.253154451147061,
+      "source_kmer_regret": 0.8799795186996354,
+      "spearman": 0.2923076923076923
+    },
+    "XLOC_008174": {
+      "other_replicate_regret": 0.5100624610863221,
+      "source_kmer_regret": 0.4530618187850755,
+      "spearman": -0.18881118881118883
+    },
+    "XLOC_009702": {
+      "other_replicate_regret": 0.6254031436595154,
+      "source_kmer_regret": 0.7568376372656219,
+      "spearman": 0.1272727272727273
+    }
+  },
+  "fragments": 205,
+  "gene_sets": 12,
+  "interpretation": "Other-replicate selection measures repeatability, not a deployable sequence predictor or formal noise ceiling. Diagnostic on already-open selected fragments only; cannot authorize confirmation.",
+  "mean_cross_replicate_selection_regret": 0.5021806687935513,
+  "mean_source_kmer_regret": 0.5692992265443304,
+  "mean_within_gene_cross_replicate_spearman": -0.00417353677544505,
+  "original_discovery_still_failed": true,
+  "replicates_read": [
+    1,
+    2,
+    3
+  ]
+}

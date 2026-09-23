@@ -1,0 +1,24 @@
+{
+  "GEO_sample": "GSM2615964",
+  "author_Total_BioRep1_zero_rows": 0,
+  "closed_replicates_read": false,
+  "conclusion": "These tables cannot be related by a common positive column scale on these rows. Raw/processed correspondence unresolved; this does not identify the cause or establish an error in the original paper.",
+  "geo_Total1_zero_rows": 31,
+  "maximum_exact_prefix_reads_among_geo_zero_rows": 760,
+  "minimum_exact_prefix_reads_among_geo_zero_rows": 6,
+  "positive_geo_author_ratios_min_max": [
+    0.00044676482646704475,
+    100.53886930207345
+  ],
+  "run": "SRR5528987",
+  "scope": "Post-hoc correspondence audit of only 277 previously opened IDs and Total1. Partial raw file; complete archive validation pending.",
+  "sources": {
+    "SRR5528987.first16MiB.gz": "26968e303d2619c78da7e41a8b7ea8e46c9bc40e9fd54b533e6d7a47407838ca",
+    "shukla2018_author_raw_counts.tsv": "2efe412a2efab050d85d7cec1443694f515745c7acfa22a7470cd807af2d8256",
+    "shukla2018_counts.tsv.gz": "f6f6b1a2e0f8f7289e61c257c9cda741e46b85995157fcc77b20d0c29cdb31f1",
+    "shukla2018_normalize.R": "2ac981ca496d2d61fadd4f9b92258fe9e335933bdda03c06f516ea158e0d997c",
+    "shukla2018_total1_sample": "48f4fde16888cc28661821e4cce423e03cbec855c500dae02ef9f8e05583e938"
+  },
+  "spearman_author_vs_geo": 0.34256355110417624,
+  "spearman_prefix_exact_vs_geo": 0.13082143967150492
+}

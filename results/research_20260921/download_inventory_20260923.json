@@ -1,0 +1,197 @@
+{
+  "cost": 0,
+  "created_utc": "2026-09-23T09:27:11.249192+00:00",
+  "files": [
+    {
+      "bytes": 16777216,
+      "file": "data/external/research_20260921/HRR1883393_f1.first16MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883393_f1.first16MiB.gz.receipt.json",
+      "sha256": "9e7481b12fd5052caf9d3d191436d08b71be5fc1152e8cb9cafb96de743c7f10",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883393/HRR1883393_f1.fq.gz"
+    },
+    {
+      "bytes": 16777216,
+      "file": "data/external/research_20260921/HRR1883393_r2.first16MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883393_r2.first16MiB.gz.receipt.json",
+      "sha256": "fcaa9ef3044af5e4ffe9b4cf66326cd493ab354f09969c4a2c1e0c9e31869977",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883393/HRR1883393_r2.fq.gz"
+    },
+    {
+      "bytes": 16777216,
+      "file": "data/external/research_20260921/HRR1883397_f1.first16MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883397_f1.first16MiB.gz.receipt.json",
+      "sha256": "6f2056bac8acf4606bb35c24448dc592323809164d6ff7c70bcdc5a45799f9b1",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883397/HRR1883397_f1.fq.gz"
+    },
+    {
+      "bytes": 2097152,
+      "file": "data/external/research_20260921/HRR1883397_f1.first2MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883397_f1.first2MiB.gz.receipt.json",
+      "sha256": "fb2a0fd095bdd79f8373238dc4e50f6fdaf3e30ff087fa805694c44823553acb",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883397/HRR1883397_f1.fq.gz"
+    },
+    {
+      "bytes": 16777216,
+      "file": "data/external/research_20260921/HRR1883397_r2.first16MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883397_r2.first16MiB.gz.receipt.json",
+      "sha256": "e0ed36382eb5534a2e43a0e405f034b97a299d41f7438fdc58e17c876e1f520d",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883397/HRR1883397_r2.fq.gz"
+    },
+    {
+      "bytes": 2097152,
+      "file": "data/external/research_20260921/HRR1883397_r2.first2MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883397_r2.first2MiB.gz.receipt.json",
+      "sha256": "fc142b1ba3f418805a10069dc8c42b6f6a77a948a82a890610aef7178a4b8e87",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883397/HRR1883397_r2.fq.gz"
+    },
+    {
+      "bytes": 16777216,
+      "file": "data/external/research_20260921/HRR1883401_f1.first16MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883401_f1.first16MiB.gz.receipt.json",
+      "sha256": "87c8f31f7ae3fd822dfc5c1828c7a3c7f9665ed8558c9c2bd22736a84eed3292",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883401/HRR1883401_f1.fq.gz"
+    },
+    {
+      "bytes": 16777216,
+      "file": "data/external/research_20260921/HRR1883401_r2.first16MiB.gz",
+      "full_archive_MD5_verified": false,
+      "partial": true,
+      "receipt": "data/external/research_20260921/HRR1883401_r2.first16MiB.gz.receipt.json",
+      "sha256": "63b125dbfe71af38d9416ae14ade9e5eff68f43f97c797b023a864c9f7a24944",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/HRR1883401/HRR1883401_r2.fq.gz"
+    },
+    {
+      "bytes": 195,
+      "file": "data/external/research_20260921/seers_branches",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_branches.receipt.json",
+      "sha256": "0928e03b9e90b950135a5c50f5bce9618fa986b21e7593070a8b3d03fdda91c7",
+      "url": "https://api.github.com/repos/gao-lab/SEERS/branches"
+    },
+    {
+      "bytes": 3362,
+      "file": "data/external/research_20260921/seers_combine.R",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_combine.R.receipt.json",
+      "sha256": "d00e5d6d1ceeb2fd2e19b49da0ce4958fb7e65f9280ca00374ef16eff6ae5c3d",
+      "url": "https://raw.githubusercontent.com/gao-lab/SEERS/d014bedc3abc032d6151c870d1fb5d519756eabb/SEERS_data_processing/combine_dna_cyt_nuc.R"
+    },
+    {
+      "bytes": 37238,
+      "file": "data/external/research_20260921/seers_gsa_metadata",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_gsa_metadata.receipt.json",
+      "sha256": "9688bd3915edcc76194a7e7d2a4b09697f8f989de81ef4e23ab8e64ec9fd60ea",
+      "url": "https://ngdc.cncb.ac.cn/gsa-human/browse/HRA008408"
+    },
+    {
+      "bytes": 61206,
+      "file": "data/external/research_20260921/seers_gsa_runs",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_gsa_runs.receipt.json",
+      "sha256": "06efc33b0702bc3fc8f1fa348bcb4d9b643f32bcc3cfc409fa8db996cb290d20",
+      "url": "https://ngdc.cncb.ac.cn/gsa-human/ajaxb/runinstudy?accession=HRA008408&pageNo=1&pageSize=200"
+    },
+    {
+      "bytes": 19042,
+      "file": "data/external/research_20260921/seers_L6_biosample",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_L6_biosample.receipt.json",
+      "sha256": "67f19357103a529f997939daa9d67a6e61bf00eb5cc308ee39c592c15f9c7d04",
+      "url": "https://ngdc.cncb.ac.cn/biosample/browse/SAMC4114749"
+    },
+    {
+      "bytes": 1919,
+      "file": "data/external/research_20260921/seers_Nn_pp.R",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_Nn_pp.R.receipt.json",
+      "sha256": "077d3b30a051343e4937107befc46150891c6a37582f62367d23c5b8024f68a6",
+      "url": "https://raw.githubusercontent.com/gao-lab/SEERS/d014bedc3abc032d6151c870d1fb5d519756eabb/SEERS_data_processing/Nn_pp.R"
+    },
+    {
+      "bytes": 14400,
+      "file": "data/external/research_20260921/seers_raw_checksums",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_raw_checksums.receipt.json",
+      "sha256": "f541e74bb10e90d342561e24481d1daf449fb94fa6da7a159613471e80e270ed",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/md5sum.txt"
+    },
+    {
+      "bytes": 23698,
+      "file": "data/external/research_20260921/seers_raw_directory",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_raw_directory.receipt.json",
+      "sha256": "2497f2fff5e32c3632466b4c757222185a9c6278636d48e4bbedcfb1b6cc79fb",
+      "url": "https://download.cncb.ac.cn/gsa-human/HRA008408/"
+    },
+    {
+      "bytes": 2,
+      "file": "data/external/research_20260921/seers_releases",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/seers_releases.receipt.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://api.github.com/repos/gao-lab/SEERS/releases"
+    },
+    {
+      "bytes": 728424,
+      "file": "data/external/research_20260921/shukla2018_author_raw_counts.tsv",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/shukla2018_author_raw_counts.tsv.receipt.json",
+      "sha256": "2efe412a2efab050d85d7cec1443694f515745c7acfa22a7470cd807af2d8256",
+      "url": "https://raw.githubusercontent.com/cshukla/oligoGames/c5b4966f0fc367af49f887e008aaaa19a1199972/inst/extdata/allTranscriptsCounts_Raw.tsv"
+    },
+    {
+      "bytes": 1746,
+      "file": "data/external/research_20260921/shukla2018_normalize.R",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/shukla2018_normalize.R.receipt.json",
+      "sha256": "2ac981ca496d2d61fadd4f9b92258fe9e335933bdda03c06f516ea158e0d997c",
+      "url": "https://raw.githubusercontent.com/cshukla/oligoGames/c5b4966f0fc367af49f887e008aaaa19a1199972/R/normCounts.R"
+    },
+    {
+      "bytes": 4373,
+      "file": "data/external/research_20260921/shukla2018_total1_sample",
+      "full_archive_MD5_verified": false,
+      "partial": false,
+      "receipt": "data/external/research_20260921/shukla2018_total1_sample.receipt.json",
+      "sha256": "48f4fde16888cc28661821e4cce423e03cbec855c500dae02ef9f8e05583e938",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2615964&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 581039199,
+      "file": "data/external/research_20260921/SRR5528987.fastq.gz",
+      "full_archive_MD5_verified": true,
+      "partial": false,
+      "receipt": "data/external/research_20260921/SRR5528987.fastq.gz.receipt.json",
+      "sha256": "25ce6c1ed5fc23f200ac8787c72fa8f97d81404169417f73289a21640530ea37",
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR552/007/SRR5528987/SRR5528987.fastq.gz"
+    }
+  ],
+  "raw_binaries_excluded_from_git": true,
+  "total_bytes": 686792404
+}

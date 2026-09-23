@@ -1,0 +1,233 @@
+{
+  "biological_confirmation": false,
+  "descriptive_overall_spearman": {
+    "ccc": 0.022411100570242506,
+    "srle_kmer123": 0.07539911660921515,
+    "srle_pair": -0.0011540681113655382
+  },
+  "eligible_groups": 5,
+  "eligible_sequences": 25,
+  "excluded_groups": [
+    {
+      "group": "10_10_12_13",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "10_11_12_12",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "10_14_9_12",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "10_7_16_12",
+      "remaining_candidates": 0
+    },
+    {
+      "group": "11_12_10_12",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "11_12_12_10",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "11_16_6_12",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "12_13_8_12",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "5_10_20_10",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "5_14_15_11",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "5_6_23_11",
+      "remaining_candidates": 2
+    },
+    {
+      "group": "5_9_24_7",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "6_11_15_13",
+      "remaining_candidates": 0
+    },
+    {
+      "group": "6_12_17_10",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "6_7_22_10",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "7_10_18_10",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "7_11_19_8",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "7_13_14_11",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "7_13_18_7",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "7_16_11_11",
+      "remaining_candidates": 2
+    },
+    {
+      "group": "7_7_20_11",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "7_7_22_9",
+      "remaining_candidates": 2
+    },
+    {
+      "group": "7_8_18_12",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "7_8_22_8",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "7_9_21_8",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "8_10_18_9",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "8_11_16_10",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "8_12_12_13",
+      "remaining_candidates": 1
+    },
+    {
+      "group": "8_12_16_9",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "8_14_13_10",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "8_16_12_9",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "8_8_16_13",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "9_10_13_13",
+      "remaining_candidates": 1
+    },
+    {
+      "group": "9_10_14_12",
+      "remaining_candidates": 2
+    },
+    {
+      "group": "9_11_16_9",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "9_12_14_10",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "9_12_15_9",
+      "remaining_candidates": 2
+    },
+    {
+      "group": "9_13_12_11",
+      "remaining_candidates": 4
+    },
+    {
+      "group": "9_13_13_10",
+      "remaining_candidates": 3
+    },
+    {
+      "group": "9_14_14_8",
+      "remaining_candidates": 4
+    }
+  ],
+  "exploratory_signal": false,
+  "fraction_QC": [
+    {
+      "both_Q30": 85185,
+      "candidate_reads": 6370,
+      "discordant": 17,
+      "full_archive_MD5_verified": false,
+      "paired_records": 422643,
+      "prefix_sha256": {
+        "HRR1883393_f1.first16MiB.gz": "9e7481b12fd5052caf9d3d191436d08b71be5fc1152e8cb9cafb96de743c7f10",
+        "HRR1883393_r2.first16MiB.gz": "fcaa9ef3044af5e4ffe9b4cf66326cd493ab354f09969c4a2c1e0c9e31869977"
+      },
+      "purpose": "Exploratory localization counts under frozen screen; generic prefix receipt purpose is superseded by this record.",
+      "run": "HRR1883393"
+    },
+    {
+      "both_Q30": 110847,
+      "candidate_reads": 8996,
+      "discordant": 9,
+      "full_archive_MD5_verified": false,
+      "paired_records": 430010,
+      "prefix_sha256": {
+        "HRR1883401_f1.first16MiB.gz": "87c8f31f7ae3fd822dfc5c1828c7a3c7f9665ed8558c9c2bd22736a84eed3292",
+        "HRR1883401_r2.first16MiB.gz": "63b125dbfe71af38d9416ae14ade9e5eff68f43f97c797b023a864c9f7a24944"
+      },
+      "purpose": "Exploratory localization counts under frozen screen; generic prefix receipt purpose is superseded by this record.",
+      "run": "HRR1883401"
+    }
+  ],
+  "mean_regret": {
+    "ccc": 0.5580973601880779,
+    "cctccc": 0.5,
+    "random": 0.5,
+    "srle_kmer123": 0.44949137877039214,
+    "srle_pair": 0.5078930753321854
+  },
+  "primary_comparisons": {
+    "ccc": {
+      "descriptive_group_ci95": [
+        -0.11666238352717524,
+        0.4196868671469779
+      ],
+      "mean_gain": 0.10860598141768567
+    },
+    "cctccc": {
+      "descriptive_group_ci95": [
+        -0.14353632280564615,
+        0.28447385786990387
+      ],
+      "mean_gain": 0.05050862122960784
+    },
+    "random": {
+      "descriptive_group_ci95": [
+        -0.14353632280564615,
+        0.2844738578699039
+      ],
+      "mean_gain": 0.05050862122960785
+    }
+  },
+  "scope": "Exploratory old-protocol archive, one biological sample, partial RNA files. Not biological confirmation.",
+  "sealed_data_accessed": false
+}

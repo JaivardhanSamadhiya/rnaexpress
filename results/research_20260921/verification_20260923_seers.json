@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "src/research_20260921",
+        "-t",
+        ".",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stderr": "......................................\n----------------------------------------------------------------------\nRan 38 tests in 0.567s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "freezes": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "files": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "files": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "files": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "files": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "files": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "files": 5
+    }
+  },
+  "original_changed": [],
+  "original_files_checked": 228,
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "safe_legacy_checks": "See verification_20260923.json; not rerun because only isolated research code changed.",
+  "time_utc": "2026-09-23T09:26:15.142988+00:00"
+}

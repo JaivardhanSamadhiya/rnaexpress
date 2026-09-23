@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "src/research_20260921",
+        "-t",
+        ".",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stderr": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 0.602s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "src.mechanism_v2.run_pipeline",
+        "audit"
+      ],
+      "exit_code": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\rnaexpress\\src\\mechanism_v2\\run_pipeline.py\", line 121, in <module>\n    main()\n  File \"D:\\rnaexpress\\src\\mechanism_v2\\run_pipeline.py\", line 23, in main\n    preserve()\n  File \"D:\\rnaexpress\\src\\mechanism_v2\\preservation.py\", line 25, in preserve\n    verify_record(record)\n  File \"D:\\rnaexpress\\src\\mechanism_v2\\preservation.py\", line 15, in verify_record\n    raise ValueError(f'Invalid artifact/size: {record[\"path\"]}')\nValueError: Invalid artifact/size: src/analysis/analyze_finalshot_grouped_gates.py\n",
+      "stdout": ""
+    },
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "src.mechanism_v2.run_pipeline",
+        "test"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "........................................................................ [ 63%]\n.........................................                                [100%]\n------ generated xml file: D:\\rnaexpress\\results\\mechanism_v2\\tests.xml -------\n113 passed in 9.51s\n"
+    }
+  ],
+  "freezes": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "files": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "files": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "files": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "files": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "files": 5
+    }
+  },
+  "original_changed": [],
+  "original_files_checked": 228,
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "time_utc": "2026-09-23T08:58:53.800880+00:00"
+}
