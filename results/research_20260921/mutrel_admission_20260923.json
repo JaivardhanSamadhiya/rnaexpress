@@ -1,0 +1,25 @@
+{
+  "admission": "Not admitted for isolated-mutation intervention scoring. Co-occurrence filtering and barcode-to-fraction mapping remain unresolved.",
+  "archive_metadata": "One paired run, two application reads, no supplied index reads or submitted-file download links. XML records have no recovered fraction barcode mapping.",
+  "caption_arithmetic_note": "Caption states 469 overall, but its 374 substitutions plus 85 deletions sum to 459; table agrees with the component counts.",
+  "files": {
+    "data/external/research_20260921/mutrel_experiment.xml": "1e9ca0313c3c7c62f859d1f803506827e2755bc040c1012aa025d0fd46c521e2",
+    "data/external/research_20260921/mutrel_run.xml": "761c8e0af0903f3cd67e215a474ab8501b939834943956869ff354701dd12fe0",
+    "data/external/research_20260921/mutrel_sample.xml": "39707bfb1a3545cc90da147661426729dc37fc1a7e6bb804811355b6dd14603d",
+    "data/external/research_20260921/mutrel_sample_table.xlsx": "aacb4272d095399eb074ab6cb12443306e00a50eab3bde3dd573974aab688034",
+    "data/external/research_20260921/mutrel_submitted.json": "029fb1bec098984e1df08f06623fdf67b93a615338c397fb055aef7d294b9bdd"
+  },
+  "internal_event_entries": 459,
+  "internal_mutation_types": {
+    "deletion": 85,
+    "substitution": 374
+  },
+  "internal_positions_one_based": [
+    19,
+    143
+  ],
+  "numeric_compartment_counts_read": false,
+  "prefix_structure": "Observed forward reads begin GATGTC + T + 5AI exon-junction primer; reverse-oriented prefixes include ACTGAC/TGCTGA/CAGATG/GTACCT before the NXF1 reverse-primer region. These are sequence observations, not assigned compartment labels.",
+  "published_components_match": true,
+  "sample_table": "Official Supplementary Table 1 supplies reporter, cell type and insert size, but no barcode-to-fraction mapping."
+}

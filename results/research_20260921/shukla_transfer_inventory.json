@@ -1,0 +1,38 @@
+{
+  "excluded_source_components": {
+    "FENDRR": [
+      "named_target_family"
+    ],
+    "NEAT1": [
+      "95pct_global_sequence_similarity",
+      "named_target_family",
+      "shared_40nt_tract"
+    ],
+    "PINT": [
+      "95pct_global_sequence_similarity",
+      "shared_40nt_tract"
+    ],
+    "TERC": [
+      "95pct_global_sequence_similarity",
+      "named_target_family",
+      "shared_40nt_tract"
+    ],
+    "TERF2": [
+      "shared_40nt_tract"
+    ],
+    "XIST": [
+      "named_target_family"
+    ]
+  },
+  "scope": "External study pilot of fragment selection; not minimal edits, novel mechanism, or same-assay confirmation.",
+  "source_accessed_hash": "aae20919e2fda023d037bab24adf496fd51bba8657563f492b11a804db8f6dd6",
+  "source_accessed_numeric_cells": 8571,
+  "source_components": 55,
+  "source_context": "Unspliced HBB, MCF7; existing source groups only",
+  "source_rows": 2023,
+  "target_context": "fsSox2, HeLa; nuclear/whole-cell abundance",
+  "target_families_with_10_candidate_gene_set": 12,
+  "target_gene_sets": 23,
+  "target_numeric_outcomes_read": false,
+  "target_rows": 330
+}

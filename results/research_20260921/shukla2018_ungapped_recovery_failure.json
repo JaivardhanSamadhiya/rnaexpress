@@ -1,0 +1,18 @@
+{
+  "DANCR_demo_vs_metadata_lengths": [
+    904,
+    855
+  ],
+  "FIRRE_demo_length": 2928,
+  "FIRRE_reference_mismatches": 157,
+  "FIRRE_reference_positions_compared": 1479,
+  "XIST_demo_vs_metadata_lengths": [
+    19275,
+    19280
+  ],
+  "admission": false,
+  "intermediate_file": "results/research_20260921/shukla2018_tile90_consensus.csv",
+  "interpretation": "Many raw-read differences include apparent indels; high within-barcode consensus does not prove the intended oligo sequence. Reference-assisted admission is a separately recorded method.",
+  "numeric_localization_outcomes_read": false,
+  "reason": "Ungapped overlap assembly failed author-reference validation; no recovered full-length insert table admitted."
+}

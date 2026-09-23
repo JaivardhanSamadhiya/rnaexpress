@@ -1,0 +1,20 @@
+{
+  "decision": "Do not use as same-endpoint nuclear/cytoplasmic confirmation. Construct intervals recovered but true transcript ends/cryptic splicing and measurement mapping remain unresolved. No exact di-/trinucleotide count collisions support the considered representation-collision analysis.",
+  "exact_kmer_count_collision_groups": {
+    "1": [
+      [
+        "M_3SR",
+        "M_3SRweak5"
+      ]
+    ],
+    "2": [],
+    "3": []
+  },
+  "length_range": [
+    217,
+    797
+  ],
+  "minimal_constructs": 44,
+  "outcome_values_read": false,
+  "source_sha256": "059cd16ae5ea92875fa3ef83fcd2c684e660d6548d3530af2403d7b7311a3cf6"
+}

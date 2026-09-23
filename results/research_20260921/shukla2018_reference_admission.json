@@ -1,0 +1,394 @@
+{
+  "admission_rule": "RefSeq v1 length exact, or only trailing As removed to metadata length. Nonterminal unique barcode. At least five Q20 insert/Q30 barcode reads exactly match last90, comprising >=50% of such reads.",
+  "admitted_genes": 23,
+  "admitted_tiles": 330,
+  "candidate_genes": 23,
+  "code_sha256": "71df47b51c2912c5a755e58c5e782166dd6258563b36bda6e8f3be030c34cae1",
+  "complete_prefix_reads": 293064,
+  "files": {
+    "data/external/research_20260921/SRR5528987.first16MiB.gz": "26968e303d2619c78da7e41a8b7ea8e46c9bc40e9fd54b533e6d7a47407838ca",
+    "data/external/research_20260921/shukla2018_counts.tsv.gz": "f6f6b1a2e0f8f7289e61c257c9cda741e46b85995157fcc77b20d0c29cdb31f1",
+    "data/external/research_20260921/shukla2018_oligoMeta.tsv": "10485eb1ac2830991dafbbaeb3b8415219fe8eacaae93d1bf565f8bd14544dad",
+    "data/external/research_20260921/shukla2018_refseq_v1.fasta": "dbd36253067e1187e9f0abb3c45fce1f5af50e19fdc5e876245f252d88c6aafc"
+  },
+  "genes": {
+    "AB010885": {
+      "admitted_tiles": 23,
+      "candidate_tiles": 273,
+      "exact_suffix90_reads": 2742,
+      "metadata_length": 2846,
+      "name": "BORG",
+      "quality_reads": 6000,
+      "reference_length": 2846,
+      "status": "exact_metadata_length"
+    },
+    "DB2.2_TCONS_00023484": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "name": "XLOC_005151",
+      "quality_reads": 0,
+      "status": "no_version1_reference"
+    },
+    "ENST00000606034.1": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "name": "ENST00000606034.1",
+      "quality_reads": 0,
+      "status": "no_version1_reference"
+    },
+    "NR_001564": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 19280,
+      "name": "XIST",
+      "quality_reads": 0,
+      "reference_length": 19271,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_001566": {
+      "admitted_tiles": 2,
+      "candidate_tiles": 34,
+      "exact_suffix90_reads": 55,
+      "metadata_length": 451,
+      "name": "TERC",
+      "quality_reads": 147,
+      "reference_length": 451,
+      "status": "exact_metadata_length"
+    },
+    "NR_002323": {
+      "admitted_tiles": 33,
+      "candidate_tiles": 699,
+      "exact_suffix90_reads": 5573,
+      "metadata_length": 7104,
+      "name": "TUG1",
+      "quality_reads": 11716,
+      "reference_length": 7115,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_002578": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 632,
+      "name": "GAS5",
+      "quality_reads": 0,
+      "reference_length": 656,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_002728": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 91671,
+      "name": "kcnq1ot1",
+      "quality_reads": 0,
+      "reference_length": 595,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_002819": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 8708,
+      "name": "MALAT1",
+      "quality_reads": 0,
+      "reference_length": 8352,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_003367": {
+      "admitted_tiles": 16,
+      "candidate_tiles": 180,
+      "exact_suffix90_reads": 2152,
+      "metadata_length": 1918,
+      "name": "XLOC_006922",
+      "quality_reads": 5258,
+      "reference_length": 1918,
+      "status": "exact_metadata_length"
+    },
+    "NR_003529": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 1676,
+      "name": "Anril",
+      "quality_reads": 0,
+      "reference_length": 3834,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_015353": {
+      "admitted_tiles": 15,
+      "candidate_tiles": 277,
+      "exact_suffix90_reads": 1624,
+      "metadata_length": 2886,
+      "name": "XLOC_008174",
+      "quality_reads": 4766,
+      "reference_length": 2886,
+      "status": "exact_metadata_length"
+    },
+    "NR_015395": {
+      "admitted_tiles": 2,
+      "candidate_tiles": 68,
+      "exact_suffix90_reads": 600,
+      "metadata_length": 793,
+      "name": "XLOC_L2_008203",
+      "quality_reads": 1009,
+      "reference_length": 809,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_015431": {
+      "admitted_tiles": 14,
+      "candidate_tiles": 283,
+      "exact_suffix90_reads": 1416,
+      "metadata_length": 2948,
+      "name": "lincMKLN1_A1",
+      "quality_reads": 3074,
+      "reference_length": 2964,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_023915": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 2280,
+      "name": "XLOC_011185",
+      "quality_reads": 0,
+      "reference_length": 4498,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_024031": {
+      "admitted_tiles": 8,
+      "candidate_tiles": 74,
+      "exact_suffix90_reads": 1211,
+      "metadata_length": 855,
+      "name": "ANCR",
+      "quality_reads": 2472,
+      "reference_length": 855,
+      "status": "exact_metadata_length"
+    },
+    "NR_024412": {
+      "admitted_tiles": 4,
+      "candidate_tiles": 101,
+      "exact_suffix90_reads": 422,
+      "metadata_length": 1127,
+      "name": "NR_024412",
+      "quality_reads": 865,
+      "reference_length": 1143,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_026757": {
+      "admitted_tiles": 5,
+      "candidate_tiles": 178,
+      "exact_suffix90_reads": 307,
+      "metadata_length": 1894,
+      "name": "XLOC_011226",
+      "quality_reads": 972,
+      "reference_length": 1894,
+      "status": "exact_metadata_length"
+    },
+    "NR_026807": {
+      "admitted_tiles": 16,
+      "candidate_tiles": 282,
+      "exact_suffix90_reads": 830,
+      "metadata_length": 2933,
+      "name": "XLOC_005764",
+      "quality_reads": 1710,
+      "reference_length": 2933,
+      "status": "exact_metadata_length"
+    },
+    "NR_026975": {
+      "admitted_tiles": 19,
+      "candidate_tiles": 281,
+      "exact_suffix90_reads": 2764,
+      "metadata_length": 2928,
+      "name": "FIRRE(HG)",
+      "quality_reads": 5818,
+      "reference_length": 2951,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_026976": {
+      "admitted_tiles": 40,
+      "candidate_tiles": 476,
+      "exact_suffix90_reads": 5067,
+      "metadata_length": 4872,
+      "name": "FIRRE(MM)",
+      "quality_reads": 10533,
+      "reference_length": 4889,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_028045": {
+      "admitted_tiles": 9,
+      "candidate_tiles": 209,
+      "exact_suffix90_reads": 602,
+      "metadata_length": 2208,
+      "name": "XLOC_010017",
+      "quality_reads": 1956,
+      "reference_length": 2208,
+      "status": "exact_metadata_length"
+    },
+    "NR_028272": {
+      "admitted_tiles": 31,
+      "candidate_tiles": 362,
+      "exact_suffix90_reads": 2250,
+      "metadata_length": 3735,
+      "name": "NEAT1",
+      "quality_reads": 4084,
+      "reference_length": 3756,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_028301": {
+      "admitted_tiles": 24,
+      "candidate_tiles": 316,
+      "exact_suffix90_reads": 2516,
+      "metadata_length": 3278,
+      "name": "XLOC_002746",
+      "quality_reads": 5399,
+      "reference_length": 3278,
+      "status": "exact_metadata_length"
+    },
+    "NR_029435": {
+      "admitted_tiles": 9,
+      "candidate_tiles": 234,
+      "exact_suffix90_reads": 743,
+      "metadata_length": 2457,
+      "name": "NR_029435",
+      "quality_reads": 1175,
+      "reference_length": 2457,
+      "status": "exact_metadata_length"
+    },
+    "NR_033358": {
+      "admitted_tiles": 21,
+      "candidate_tiles": 161,
+      "exact_suffix90_reads": 4297,
+      "metadata_length": 1722,
+      "name": "Meg3",
+      "quality_reads": 6915,
+      "reference_length": 1735,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_033770": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 2090,
+      "name": "XLOC_012599",
+      "quality_reads": 0,
+      "reference_length": 2479,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_034106": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 650,
+      "name": "XLOC_011950",
+      "quality_reads": 0,
+      "reference_length": 935,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_036444": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "metadata_length": 206,
+      "name": "lincFOXF1",
+      "quality_reads": 0,
+      "reference_length": 2693,
+      "status": "reference_length_not_resolved"
+    },
+    "NR_038903": {
+      "admitted_tiles": 2,
+      "candidate_tiles": 56,
+      "exact_suffix90_reads": 380,
+      "metadata_length": 673,
+      "name": "XLOC_009233",
+      "quality_reads": 549,
+      "reference_length": 673,
+      "status": "exact_metadata_length"
+    },
+    "NR_039993": {
+      "admitted_tiles": 3,
+      "candidate_tiles": 61,
+      "exact_suffix90_reads": 940,
+      "metadata_length": 730,
+      "name": "XLOC_004456",
+      "quality_reads": 1633,
+      "reference_length": 739,
+      "status": "terminal_polyA_only_trim_to_metadata_length"
+    },
+    "NR_040001": {
+      "admitted_tiles": 9,
+      "candidate_tiles": 94,
+      "exact_suffix90_reads": 733,
+      "metadata_length": 1058,
+      "name": "XLOC_002408",
+      "quality_reads": 1282,
+      "reference_length": 1058,
+      "status": "exact_metadata_length"
+    },
+    "NR_040245": {
+      "admitted_tiles": 14,
+      "candidate_tiles": 178,
+      "exact_suffix90_reads": 2239,
+      "metadata_length": 1895,
+      "name": "XLOC_009702",
+      "quality_reads": 4868,
+      "reference_length": 1895,
+      "status": "exact_metadata_length"
+    },
+    "NR_044993": {
+      "admitted_tiles": 11,
+      "candidate_tiles": 183,
+      "exact_suffix90_reads": 509,
+      "metadata_length": 1942,
+      "name": "XLOC_010514",
+      "quality_reads": 1523,
+      "reference_length": 1942,
+      "status": "exact_metadata_length"
+    },
+    "TCONS_00005148": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "name": "XLOC_002094",
+      "quality_reads": 0,
+      "status": "no_version1_reference"
+    },
+    "TCONS_00007523": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "name": "XLOC_003526",
+      "quality_reads": 0,
+      "status": "no_version1_reference"
+    },
+    "TCONS_00010926": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "name": "XLOC_004803",
+      "quality_reads": 0,
+      "status": "no_version1_reference"
+    },
+    "uc001byq.3": {
+      "admitted_tiles": 0,
+      "candidate_tiles": 0,
+      "exact_suffix90_reads": 0,
+      "name": "lincSFPQ",
+      "quality_reads": 0,
+      "status": "no_version1_reference"
+    }
+  },
+  "genes_with_at_least_20_admitted_tiles": 6,
+  "limitations": [
+    "First20 bases reference-derived, not directly verified on each barcode.",
+    "Selection favors constructs sufficiently represented in one total-RNA prefix.",
+    "Read counts are QC support, not independent molecules or biological replicates.",
+    "Published outcome counts may include synthesis/sequence variants sharing a barcode.",
+    "Not all original genes admitted. Original full oligo map remains unavailable."
+  ],
+  "metadata_genes": 38,
+  "numeric_localization_outcomes_read": false
+}
