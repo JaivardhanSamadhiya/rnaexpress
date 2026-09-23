@@ -1,0 +1,33 @@
+{
+  "both_mates_45nt_Q30_with_exact_anchors": 11343,
+  "code_sha256": "6fe84101741c120dbc49163250b4fca254ea989fdcabaf5def30629894c535ab",
+  "complete_records_by_mate": [
+    53415,
+    54989
+  ],
+  "concordant_pairs": 11343,
+  "discordant_high_quality_pairs": 0,
+  "full_archive_md5_verified": false,
+  "gzip_members_by_mate": [
+    304,
+    314
+  ],
+  "last_gzip_member_complete": [
+    false,
+    false
+  ],
+  "limitations": [
+    "Partial DNA run only; sequence counts are exploratory QC.",
+    "R1-R4 biological independence and original versus revised RT method unresolved.",
+    "No endpoint experiment admitted or independent novelty established."
+  ],
+  "run": "HRR1883397",
+  "scope": "DNA sequence QC only; no localization outcomes accessed.",
+  "source_files": {
+    "HRR1883397_f1.first2MiB.gz": "fb2a0fd095bdd79f8373238dc4e50f6fdaf3e30ff087fa805694c44823553acb",
+    "HRR1883397_r2.first2MiB.gz": "fc142b1ba3f418805a10069dc8c42b6f6a77a948a82a890610aef7178a4b8e87"
+  },
+  "synchronized_pairs": 53415,
+  "unique_concordant_inserts": 2701,
+  "unique_inserts_with_at_least_5_pairs": 821
+}

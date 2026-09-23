@@ -1,0 +1,24 @@
+{
+  "RNA_outcomes_read": false,
+  "created_utc": "2026-09-23T09:24:35.228661+00:00",
+  "files": {
+    "data/external/research_20260921/HRR1883397_f1.first16MiB.gz": "6f2056bac8acf4606bb35c24448dc592323809164d6ff7c70bcdc5a45799f9b1",
+    "data/external/research_20260921/HRR1883397_r2.first16MiB.gz": "e0ed36382eb5534a2e43a0e405f034b97a299d41f7438fdc58e17c876e1f520d",
+    "data/external/research_20260921/seers_L6_biosample": "67f19357103a529f997939daa9d67a6e61bf00eb5cc308ee39c592c15f9c7d04",
+    "data/external/research_20260921/seers_gsa_runs": "06efc33b0702bc3fc8f1fa348bcb4d9b643f32bcc3cfc409fa8db996cb290d20",
+    "data/external/research_20260921/seers_raw_checksums": "f541e74bb10e90d342561e24481d1daf449fb94fa6da7a159613471e80e270ed",
+    "reports/research_20260921/seers_prefix_transfer_spec.md": "9606c817a9aaec31202af402481e305a4d941ee19284ddaaeb0e1956a94697b6",
+    "results/research_20260921/robustness_predictions.csv": "8b337f7d7d4910c10049e33b780d97ee5a8982bf3335305626ed58d1baadf362",
+    "results/research_20260921/seers_dna_16MiB_inserts.tsv": "8a112822a8a1bafd33ab846489fabba9e3d8c4f63600e81962922016c9581895",
+    "results/research_20260921/seers_dna_16MiB_qc.json": "0fce05b7751dcf88398be60564d4f108b7077b2f8688eb5eb55cb60eeee2979b",
+    "results/research_20260921/seers_prefix_transfer_predictions.csv": "c1c1a0e10badb5d71772498b17dfe93449db61db275e243a8cabaa76f6984036",
+    "src/research_20260921/common.py": "a3ca8380bd8c624209dab319ed212fc3b88a6afa0fff618ae03dac1b44028732",
+    "src/research_20260921/mutrel_read_qc.py": "1413d9feb2a92aaf08a0682d72a4d722f646e394689d352a36e3f8d742f41a3b",
+    "src/research_20260921/seers_dna_expand.py": "109f4ac2d12c066a8d7548812ef563b045ab0325b145a9af299b4c0562a5c3cd",
+    "src/research_20260921/seers_dna_qc.py": "6fe84101741c120dbc49163250b4fca254ea989fdcabaf5def30629894c535ab",
+    "src/research_20260921/seers_prefix_transfer.py": "9f84195d705ddebd3ddaf412061779996a7404305c709fc57efc086cbec4c9ee",
+    "src/research_20260921/sirloin_transfer.py": "cede255a67ff6aab4d89226ddfb8e2824996600ec9d107d2937386b464e1e9ef",
+    "src/research_20260921/test_seers_dna_qc.py": "d8f89233fec674f58846a86b24788f44f047ebcc8c3115ec818dff139e815031",
+    "src/research_20260921/test_seers_prefix_transfer.py": "1ae2754287eb0a81a9011a55adf3d0c709502d2856391414d7d9a7fb33fd3d39"
+  }
+}

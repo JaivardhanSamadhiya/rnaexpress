@@ -1,0 +1,42 @@
+{
+  "L6_distinct_biosamples": [
+    "SAMC4114749"
+  ],
+  "L6_paired_runs": 12,
+  "L6_run_titles": [
+    "L6-T1-C1CR-R1-P1-S1",
+    "L6-T1-C1CR-R2-P1-S1",
+    "L6-T1-C1CR-R3-P1-S1",
+    "L6-T1-C1CR-R4-P1-S1",
+    "L6-T1-C1ND-R1-P1-S1",
+    "L6-T1-C1ND-R2-P1-S1",
+    "L6-T1-C1ND-R3-P1-S1",
+    "L6-T1-C1ND-R4-P1-S1",
+    "L6-T1-C1NR-R1-P1-S1",
+    "L6-T1-C1NR-R2-P1-S1",
+    "L6-T1-C1NR-R3-P1-S1",
+    "L6-T1-C1NR-R4-P1-S1"
+  ],
+  "RNA_outcomes_accessed": false,
+  "access": "Archive explicitly Open Access; anonymous official HTTPS; no payment or credentials used",
+  "archive": "https://ngdc.cncb.ac.cn/gsa-human/browse/HRA008408",
+  "biological_sample": "SAMC4114749 / HRS1343431",
+  "collection_date": "2021-07-21",
+  "github": "https://github.com/gao-lab/SEERS",
+  "interpretation": "Do not treat R1-R4 as independent biological replicates: all map to one sample explicitly described as one biological replicate. Exact technical procedure remains unresolved.",
+  "primary_prior_art": "https://www.biorxiv.org/content/10.1101/2025.06.09.658412v2.full",
+  "processed_files_found": false,
+  "protocol_gap": "Archive release precedes revised manuscript processing and updated data filenames. Do not assume current processed-test results describe this older raw archive.",
+  "release_date": "2024-08-28",
+  "sample_description": "One of the biological replicates of the SEERS experiment containing ~1,000 N45s.",
+  "sample_title": "1k-biorep1",
+  "sources": {
+    "seers_L6_biosample": "67f19357103a529f997939daa9d67a6e61bf00eb5cc308ee39c592c15f9c7d04",
+    "seers_Nn_pp.R": "077d3b30a051343e4937107befc46150891c6a37582f62367d23c5b8024f68a6",
+    "seers_combine.R": "d00e5d6d1ceeb2fd2e19b49da0ce4958fb7e65f9280ca00374ef16eff6ae5c3d",
+    "seers_gsa_metadata": "9688bd3915edcc76194a7e7d2a4b09697f8f989de81ef4e23ab8e64ec9fd60ea",
+    "seers_gsa_runs": "06efc33b0702bc3fc8f1fa348bcb4d9b643f32bcc3cfc409fa8db996cb290d20",
+    "seers_raw_checksums": "f541e74bb10e90d342561e24481d1daf449fb94fa6da7a159613471e80e270ed"
+  },
+  "status": "DNA metadata/QC admitted; localization endpoint not yet admitted"
+}

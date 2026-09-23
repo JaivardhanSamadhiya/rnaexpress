@@ -1,0 +1,25 @@
+{
+  "code_sha256": "109f4ac2d12c066a8d7548812ef563b045ab0325b145a9af299b4c0562a5c3cd",
+  "complete_records_by_mate": [
+    434506,
+    447119
+  ],
+  "concordant_pairs": 104437,
+  "decoder_sha256": "6fe84101741c120dbc49163250b4fca254ea989fdcabaf5def30629894c535ab",
+  "discordant_pairs": 6,
+  "exact_composition_groups_with_at_least_5_supported_inserts": 45,
+  "full_archive_MD5_verified": false,
+  "gzip_members_by_mate": [
+    2476,
+    2547
+  ],
+  "high_quality_pairs": 104443,
+  "inserts_supported_by_at_least_5_pairs": 2927,
+  "scope": "Exploratory DNA-only 16 MiB prefixes, expanded after initial 2 MiB QC; no RNA outcomes.",
+  "source_sha256": {
+    "HRR1883397_f1.first16MiB.gz": "6f2056bac8acf4606bb35c24448dc592323809164d6ff7c70bcdc5a45799f9b1",
+    "HRR1883397_r2.first16MiB.gz": "e0ed36382eb5534a2e43a0e405f034b97a299d41f7438fdc58e17c876e1f520d"
+  },
+  "supported_inserts_in_those_groups": 241,
+  "unique_inserts": 4885
+}
