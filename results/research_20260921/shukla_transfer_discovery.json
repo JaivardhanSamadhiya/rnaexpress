@@ -1,0 +1,62 @@
+{
+  "accessed_cells_sha256": "c6be550c143dabcf368270390ba8f4edc7f65b74d62cb127b42f4d6a8ae96a81",
+  "accessed_numeric_cells": 1662,
+  "comparisons": {
+    "ccc": {
+      "by_replicate": {
+        "1": -0.1418866858701637,
+        "2": 0.00548355244208582,
+        "3": -0.12241620593301565
+      },
+      "descriptive_family_ci95": [
+        -0.2497055585739272,
+        0.07361054132866929
+      ],
+      "passes": false,
+      "regret_gain": -0.0862731131203645
+    },
+    "random": {
+      "by_replicate": {
+        "1": -0.06186429888985876,
+        "2": 0.00839235908687409,
+        "3": -0.15442573983000646
+      },
+      "descriptive_family_ci95": [
+        -0.17461911870643798,
+        0.035267161145103684
+      ],
+      "passes": false,
+      "regret_gain": -0.06929922654433038
+    },
+    "source_composition": {
+      "by_replicate": {
+        "1": -0.04789085376309135,
+        "2": -0.011592218229776647,
+        "3": -0.09363504890106383
+      },
+      "descriptive_family_ci95": [
+        -0.12029823220018797,
+        0.014047526363437313
+      ],
+      "passes": false,
+      "regret_gain": -0.051039373631310614
+    }
+  },
+  "confirmation_pass": null,
+  "discovery_pass": false,
+  "eligible_families": 11,
+  "eligible_fragments": 205,
+  "eligible_gene_sets": 12,
+  "interpretation": "External study fragment-selection pilot; QC-selected subset. Family bootstrap excludes source-fit uncertainty. No minimal-edit or new-mechanism claim.",
+  "regret": {
+    "ccc": 0.4830261134239658,
+    "source_composition": 0.5182598529130197,
+    "source_kmer": 0.5692992265443303
+  },
+  "replicates_read": [
+    1,
+    2,
+    3
+  ],
+  "stage": "discovery"
+}
