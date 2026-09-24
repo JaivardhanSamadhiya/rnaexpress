@@ -1,0 +1,183 @@
+{
+  "8h": {
+    "all_models": {
+      "additive": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.06398506880295625,
+          "regret": 0.39587966775802497
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.030774865560350688,
+          "regret": 0.45379735352704226
+        }
+      },
+      "interaction": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.04375512558052345,
+          "regret": 0.4322983737682431
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.03450967322288002,
+          "regret": 0.4676274861767676
+        }
+      },
+      "pattern": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.04925473117530032,
+          "regret": 0.4243543802296314
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.019989744956442346,
+          "regret": 0.45936490291203297
+        }
+      },
+      "quadratic": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.06840214652214914,
+          "regret": 0.390012726862917
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.02888925061016864,
+          "regret": 0.46680350567562184
+        }
+      }
+    },
+    "original_regrets_reproduced": true,
+    "other_replicates_selection_regret": 0.3630201541004259,
+    "within_panel_replicate_correlations": {
+      "1-2": {
+        "mean_GA_rho": 0.25632135721421434,
+        "median_GA_rho": 0.28095238095238095
+      },
+      "1-3": {
+        "mean_GA_rho": 0.13704301650730225,
+        "median_GA_rho": 0.2
+      },
+      "2-3": {
+        "mean_GA_rho": 0.25960914085914083,
+        "median_GA_rho": 0.3035714285714286
+      }
+    }
+  },
+  "8h_coherent_pattern_permutation": {
+    "draws": 5000,
+    "interpretation": "Post-hoc global-pattern score randomization; not a confirmatory p-value or training-uncertainty interval.",
+    "models": {
+      "pattern": {
+        "null_mean_regret": 0.49956908470044026,
+        "null_regret_quantiles_025_50_975": [
+          0.4311740555639386,
+          0.4993428143040086,
+          0.5661244680018187
+        ],
+        "observed_regret": 0.44185964157083224,
+        "one_sided_Monte_Carlo_tail_area": 0.046790641871625675
+      },
+      "quadratic": {
+        "null_mean_regret": 0.4991923089596749,
+        "null_regret_quantiles_025_50_975": [
+          0.43147717694360327,
+          0.49964222362994737,
+          0.567432470005831
+        ],
+        "observed_regret": 0.4284081162692695,
+        "one_sided_Monte_Carlo_tail_area": 0.019396120775844832
+      }
+    },
+    "unique_intron_patterns": 45
+  },
+  "development": {
+    "all_models": {
+      "additive": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.04127635786263999,
+          "regret": 0.4328611489639858
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.04133543759110268,
+          "regret": 0.4508805169835538
+        }
+      },
+      "interaction": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.04065632564304285,
+          "regret": 0.4333685547462745
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.042376606906714055,
+          "regret": 0.4394131325321196
+        }
+      },
+      "pattern": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.05748974820291657,
+          "regret": 0.39861234789253597
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.038127307827821734,
+          "regret": 0.4399394067487515
+        }
+      },
+      "quadratic": {
+        "cytoplasmic": {
+          "log2_ratio_gain_vs_uniform": 0.06496188084228605,
+          "regret": 0.3976113247262009
+        },
+        "nuclear": {
+          "log2_ratio_gain_vs_uniform": 0.04858906531968504,
+          "regret": 0.43798085004676335
+        }
+      }
+    },
+    "original_regrets_reproduced": true,
+    "other_replicates_selection_regret": 0.41942591743572594,
+    "within_panel_replicate_correlations": {
+      "1-2": {
+        "mean_GA_rho": 0.12278411241919118,
+        "median_GA_rho": 0.189158667419537
+      },
+      "1-3": {
+        "mean_GA_rho": -0.0210593980614441,
+        "median_GA_rho": -0.07142857142857144
+      },
+      "2-3": {
+        "mean_GA_rho": 0.2381659410988796,
+        "median_GA_rho": 0.25
+      }
+    }
+  },
+  "original_confirmation_outcomes_read": false,
+  "other_assay_outcomes_read": false,
+  "scope": "Post-hoc diagnostics; no model fitting or new outcome access; both original verdicts unchanged.",
+  "target_barcode_count_distribution_per_genotype": {
+    "1": 177,
+    "2": 25,
+    "3": 5
+  },
+  "target_design": {
+    "full_transcript_identity_established": false,
+    "insert_lengths": [
+      1703
+    ],
+    "panels_with_identical_reconstructed_insert": 28,
+    "qualification": "Expressed 3-prime UTR barcodes differ; insert reconstruction assumes intended splicing.",
+    "target_genotypes_reconstructed": 207
+  },
+  "target_source_overlap": {
+    "absent_from_transfection_1": {
+      "genotypes": 0
+    },
+    "confirmation": {
+      "GA_patterns": 0,
+      "genotypes": 0
+    },
+    "development": {
+      "GA_patterns": 7,
+      "genotypes": 45
+    },
+    "train": {
+      "GA_patterns": 21,
+      "genotypes": 162
+    }
+  }
+}

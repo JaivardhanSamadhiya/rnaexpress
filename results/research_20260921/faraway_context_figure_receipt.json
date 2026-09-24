@@ -1,0 +1,60 @@
+{
+  "context_posthoc_uniform_comparisons": {
+    "Circular": {
+      "descriptive_component_ci95": [
+        0.0020019578599078528,
+        0.08871596284340821
+      ],
+      "gain_over_uniform": 0.04304254465782168
+    },
+    "SCRCircular": {
+      "descriptive_component_ci95": [
+        0.005192285228493496,
+        0.08511120672618869
+      ],
+      "gain_over_uniform": 0.04398822971232884
+    },
+    "Spliced": {
+      "descriptive_component_ci95": [
+        -0.005361851639403246,
+        0.061726616133729845
+      ],
+      "gain_over_uniform": 0.02739840208876442
+    },
+    "Unspliced": {
+      "descriptive_component_ci95": [
+        -0.051504015871074574,
+        0.018617018774890838
+      ],
+      "gain_over_uniform": -0.01805499692136566
+    },
+    "average": {
+      "descriptive_component_ci95": [
+        0.06746587352622176,
+        0.16319423256479934
+      ],
+      "gain_over_uniform": 0.11473447873472745
+    },
+    "composition_maximin": {
+      "descriptive_component_ci95": [
+        -0.009346874699063912,
+        0.057409211350390024
+      ],
+      "gain_over_uniform": 0.024009054079759503
+    },
+    "maximin": {
+      "descriptive_component_ci95": [
+        0.0415870048486463,
+        0.13337546449287235
+      ],
+      "gain_over_uniform": 0.08654107334391617
+    }
+  },
+  "files": {
+    "faraway_context_summary.png": "99bbce0578c2792594238ca9545d84fa5d7aecb0824bfd1e4048fc254e78c392",
+    "faraway_context_summary.svg": "ef836d3d776ac3b1da2b6ada52b369c3f67ccfc5d07afe8576195e9a9f968650"
+  },
+  "fits_performed": false,
+  "matplotlib": "3.10.8",
+  "source_numeric_outcomes_read": false
+}

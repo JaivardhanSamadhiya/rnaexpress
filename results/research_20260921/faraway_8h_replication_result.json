@@ -1,0 +1,66 @@
+{
+  "comparisons": {
+    "additive": {
+      "descriptive_GA_ci95": [
+        0.007814733612061234,
+        0.1422722275291253
+      ],
+      "gain_over_random": 0.07516148935746642,
+      "replicate_gains": [
+        0.06468287281059411,
+        0.08554341890952576,
+        0.07525817635227942
+      ]
+    },
+    "interaction": {
+      "descriptive_GA_ci95": [
+        -0.017662071405133855,
+        0.1159327494015793
+      ],
+      "gain_over_random": 0.05003707002749466,
+      "replicate_gains": [
+        0.058488119107039584,
+        0.07051418789977597,
+        0.021108903075668418
+      ]
+    },
+    "pattern": {
+      "descriptive_GA_ci95": [
+        0.009860920993640325,
+        0.10752227641092123
+      ],
+      "gain_over_random": 0.058140358429167795,
+      "replicate_gains": [
+        0.05739823412222212,
+        0.084899991831093,
+        0.03212284933418826
+      ]
+    },
+    "quadratic": {
+      "descriptive_GA_ci95": [
+        0.00461374959515311,
+        0.13916302376491238
+      ],
+      "gain_over_random": 0.07159188373073058,
+      "replicate_gains": [
+        0.06060791012605872,
+        0.0853904941798763,
+        0.06877724688625668
+      ]
+    }
+  },
+  "eligible_GA_patterns": 28,
+  "eligible_genotypes": 207,
+  "mean_regret": {
+    "additive": 0.4248385106425336,
+    "interaction": 0.4499629299725053,
+    "pattern": 0.44185964157083213,
+    "quadratic": 0.42840811626926945
+  },
+  "numeric_cells_read": 2178,
+  "original_confirmation_GA_outcomes_read": false,
+  "original_interaction_gate_still_failed": true,
+  "other_condition_or_assay_outcomes_read": false,
+  "scope": "Secondary hypothesis selected after development; fixed models on separate 8-hour collection; one protein context, possibly overlapping genotypes.",
+  "secondary_hypothesis_supported": true
+}

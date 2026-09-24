@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "src/research_20260921",
+        "-t",
+        ".",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stderr": ".................................................\n----------------------------------------------------------------------\nRan 49 tests in 0.894s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "freezes": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "files": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "files": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "files": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "files": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "files": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "files": 5
+    }
+  },
+  "git_head_before_checkpoint_commit": "3fa014344a5176c6d0fc87ad6fc55ebcd56e216c",
+  "original_changed": [],
+  "original_files_checked": 228,
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "safe_legacy_checks": "Earlier verification_20260923.json: 113 safe tests passed; pre-existing preservation mismatch. Not rerun because only isolated research code changed.",
+  "time_utc": "2026-09-24T05:53:06.344096+00:00"
+}

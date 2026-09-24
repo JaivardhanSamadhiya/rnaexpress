@@ -1,0 +1,232 @@
+{
+  "any_new_outcomes_opened": false,
+  "comparisons": {
+    "Circular": {
+      "descriptive_component_ci95": [
+        -0.01755304509928613,
+        0.1012357351780823
+      ],
+      "gain": 0.0434985286860945
+    },
+    "SCRCircular": {
+      "descriptive_component_ci95": [
+        -0.02043237808207483,
+        0.10404252115951526
+      ],
+      "gain": 0.04255284363158735
+    },
+    "Spliced": {
+      "descriptive_component_ci95": [
+        0.0049741228808348895,
+        0.11292290940390355
+      ],
+      "gain": 0.05914267125515176
+    },
+    "Unspliced": {
+      "descriptive_component_ci95": [
+        0.04654812173312754,
+        0.16076218954694138
+      ],
+      "gain": 0.10459607026528182
+    },
+    "average": {
+      "descriptive_component_ci95": [
+        -0.0638171038871884,
+        0.0053718875260361796
+      ],
+      "gain": -0.02819340539081126
+    },
+    "composition_maximin": {
+      "descriptive_component_ci95": [
+        0.00714067622984543,
+        0.11688732783629131
+      ],
+      "gain": 0.06253201926415666
+    },
+    "uniform": {
+      "descriptive_component_ci95": [
+        0.0415870048486463,
+        0.13337546449287238
+      ],
+      "gain": 0.0865410733439162
+    }
+  },
+  "complete_case_rows": 2383,
+  "directional_summary": {
+    "cytoplasmic": {
+      "Circular": {
+        "regret": 0.43309590220991656,
+        "top_quartile_all_contexts": 0.038461538461538464,
+        "top_quartile_feasible": 0.40384615384615385
+      },
+      "SCRCircular": {
+        "regret": 0.4486999884179759,
+        "top_quartile_all_contexts": 0.019230769230769232,
+        "top_quartile_feasible": 0.40384615384615385
+      },
+      "Spliced": {
+        "regret": 0.4396263783685951,
+        "top_quartile_all_contexts": 0.019230769230769232,
+        "top_quartile_feasible": 0.40384615384615385
+      },
+      "Unspliced": {
+        "regret": 0.5177193797036552,
+        "top_quartile_all_contexts": 0.0,
+        "top_quartile_feasible": 0.40384615384615385
+      },
+      "average": {
+        "regret": 0.3565540446770314,
+        "top_quartile_all_contexts": 0.04807692307692308,
+        "top_quartile_feasible": 0.40384615384615385
+      },
+      "composition_maximin": {
+        "regret": 0.46529028208917667,
+        "top_quartile_all_contexts": 0.0,
+        "top_quartile_feasible": 0.40384615384615385
+      },
+      "maximin": {
+        "regret": 0.37438729792771874,
+        "top_quartile_all_contexts": 0.0673076923076923,
+        "top_quartile_feasible": 0.40384615384615385
+      },
+      "uniform": {
+        "regret": 0.48014302606951564,
+        "top_quartile_all_contexts": 0.016511872700833246,
+        "top_quartile_feasible": 0.40384615384615385
+      }
+    },
+    "nuclear": {
+      "Circular": {
+        "regret": 0.4651845695622749,
+        "top_quartile_all_contexts": 0.0673076923076923,
+        "top_quartile_feasible": 0.5384615384615384
+      },
+      "SCRCircular": {
+        "regret": 0.4476891132452012,
+        "top_quartile_all_contexts": 0.0673076923076923,
+        "top_quartile_feasible": 0.5384615384615384
+      },
+      "Spliced": {
+        "regret": 0.4899423785417109,
+        "top_quartile_all_contexts": 0.04807692307692308,
+        "top_quartile_feasible": 0.5384615384615384
+      },
+      "Unspliced": {
+        "regret": 0.502756175226911,
+        "top_quartile_all_contexts": 0.019230769230769232,
+        "top_quartile_feasible": 0.5384615384615384
+      },
+      "average": {
+        "regret": 0.3983425589413485,
+        "top_quartile_all_contexts": 0.08653846153846154,
+        "top_quartile_feasible": 0.5384615384615384
+      },
+      "composition_maximin": {
+        "regret": 0.4710571708391392,
+        "top_quartile_all_contexts": 0.05448717948717948,
+        "top_quartile_feasible": 0.5384615384615384
+      },
+      "maximin": {
+        "regret": 0.4368961164722837,
+        "top_quartile_all_contexts": 0.0625,
+        "top_quartile_feasible": 0.5384615384615384
+      },
+      "uniform": {
+        "regret": 0.5042225350183192,
+        "top_quartile_all_contexts": 0.022847222308764275,
+        "top_quartile_feasible": 0.5384615384615384
+      }
+    }
+  },
+  "eligible_components": 52,
+  "eligible_gene_library_sets": 56,
+  "excluded_sets": [
+    {
+      "complete_candidates": 6,
+      "component": "ASAP1",
+      "gene": "circASAP1",
+      "library": "circLib",
+      "metadata_candidates": 12,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 1,
+      "component": "CCNL1",
+      "gene": "Ccnl1",
+      "library": "nucLib",
+      "metadata_candidates": 12,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 4,
+      "component": "CHKB",
+      "gene": "Chkb",
+      "library": "nucLib",
+      "metadata_candidates": 5,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 6,
+      "component": "GSE1",
+      "gene": "circGSE1",
+      "library": "circLib",
+      "metadata_candidates": 11,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 9,
+      "component": "IFT46",
+      "gene": "circIFT46",
+      "library": "circLib",
+      "metadata_candidates": 10,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 8,
+      "component": "LENG8",
+      "gene": "Leng8",
+      "library": "nucLib",
+      "metadata_candidates": 8,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 6,
+      "component": "LINC-CHD2",
+      "gene": "linc-Chd2",
+      "library": "nucLib",
+      "metadata_candidates": 58,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 7,
+      "component": "NXF1",
+      "gene": "Nxf1",
+      "library": "nucLib",
+      "metadata_candidates": 7,
+      "reason": "fewer_than_ten_complete"
+    },
+    {
+      "complete_candidates": 9,
+      "component": "UGP2",
+      "gene": "circUGP2",
+      "library": "circLib",
+      "metadata_candidates": 12,
+      "reason": "fewer_than_ten_complete"
+    }
+  ],
+  "mean_robust_regret": {
+    "Circular": 0.44914023588609575,
+    "SCRCircular": 0.4481945508315886,
+    "Spliced": 0.4647843784551531,
+    "Unspliced": 0.5102377774652831,
+    "average": 0.37744830180919,
+    "composition_maximin": 0.4681737264641578,
+    "maximin": 0.40564170720000126,
+    "uniform": 0.4921827805439173
+  },
+  "numeric_cells_read": 11429,
+  "promising_source_only_criterion": false,
+  "scope": "Exploratory source-only cross-validation; existing source outcomes reused. No independent validation or promotion.",
+  "source_components": 61,
+  "source_rows": 3235
+}
