@@ -1,0 +1,17 @@
+{
+  "archive_md5": "591291d31db03888856f11dbfb6d0981",
+  "bases": 382186856,
+  "bytes": 341076082,
+  "full_gzip_and_fastq_validated": true,
+  "provenance_files": {
+    "data\\external\\research_20260921\\faraway2025_longread_ena": "321e9cbd3af6ac22fe0e38d2e2f00e34c6ddc89600e883ba87db96fc69b6a69a",
+    "data\\external\\research_20260921\\faraway2025_longread_sdrf": "4b4b5f895662506a130332742f4bc87de949074c91cd843855e675e683ea743e",
+    "reports\\research_20260921\\faraway_dna_provenance_spec.md": "40f2b75ad84c54136dd5171a7eab6ffc643da9018a0948fe13119db8e92f41a7",
+    "src\\research_20260921\\faraway_dna_download.py": "96fa8777c66d5c30849d619536455de3744e78a1108224d71a3bf8023484847b"
+  },
+  "reads": 231531,
+  "retrieved_utc": "2026-09-24T06:22:55.181188+00:00",
+  "scope": "DNA-only genotype provenance; no RNA outcome files accessed.",
+  "sha256": "51407474c6e357cef28f6e7802291e7d06916f4a19da848fe421eb93d8f75586",
+  "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR120/011/ERR12019311/ERR12019311.fastq.gz"
+}
