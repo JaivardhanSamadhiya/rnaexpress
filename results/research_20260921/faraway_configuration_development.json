@@ -1,0 +1,68 @@
+{
+  "accessed_numeric_cells": 3312,
+  "comparisons": {
+    "additive": {
+      "descriptive_GA_ci95": [
+        -0.054853592249924074,
+        0.06703511094033475
+      ],
+      "mean_gain": 0.005479989334572715,
+      "replicate_gains": [
+        0.030454075668543964,
+        -0.010520147481705272,
+        -0.0034939601831205504
+      ]
+    },
+    "pattern": {
+      "descriptive_GA_ci95": [
+        -0.08214481078122558,
+        0.04863192394482226
+      ],
+      "mean_gain": -0.017114966318553398,
+      "replicate_gains": [
+        -0.008239823486539706,
+        0.05092977784056543,
+        -0.09403485330968592
+      ]
+    },
+    "quadratic": {
+      "descriptive_GA_ci95": [
+        -0.0571669436775997,
+        0.019222534288816668
+      ],
+      "mean_gain": -0.018594756252714964,
+      "replicate_gains": [
+        0.0053946974419378305,
+        -0.032486712872264616,
+        -0.028692253327818103
+      ]
+    },
+    "random": {
+      "descriptive_GA_ci95": [
+        0.004720622861273429,
+        0.12443275489072157
+      ],
+      "mean_gain": 0.0636091563608029,
+      "replicate_gains": [
+        0.10317101360529277,
+        0.06920874176745677,
+        0.018447713709659194
+      ]
+    }
+  },
+  "confirmation_opened": false,
+  "eligible_GA_patterns": 25,
+  "eligible_panels": 26,
+  "excluded_panels": [],
+  "mean_regret": {
+    "additive": 0.44187083297376983,
+    "interaction": 0.4363908436391971,
+    "pattern": 0.4192758773206437,
+    "quadratic": 0.41779608738648216,
+    "random": 0.5
+  },
+  "other_assay_outcomes_read": false,
+  "passed": false,
+  "scope": "Held-out synonymous GA-patterns in one reporter protein context; design-based RNA identity; processed outcomes.",
+  "stage": "development"
+}
