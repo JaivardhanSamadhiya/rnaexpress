@@ -1,0 +1,30 @@
+{
+  "admission_decision": "Suspend biological interpretation of this processed endpoint until raw/processed correspondence is independently documented. Original failed gate remains failed.",
+  "author_mapping_observation": "Unique-barcode branch sums matching-barcode reads; positive column scaling alone cannot explain positive raw counts mapped to zero.",
+  "checks": {
+    "ENA_GEO_sample_identity_matches": true,
+    "example_barcodes_unique_in_identifier_inventory": true,
+    "example_exact_reads_independently_validated": 31,
+    "header_derived_Total1_column_index": 7,
+    "independent_prefix_recount_matches": 277,
+    "own_parsing_bug_identified": false,
+    "prefix_gzip_members": 1,
+    "saved_GEO_values_match": 277
+  },
+  "created_utc": "2026-09-23T20:22:44.676150+00:00",
+  "full_scan_repeated_by_reviewer": false,
+  "not_established": [
+    "Cause of discrepancy",
+    "An error in the publication",
+    "Complete original construct identity; first20nt reference-derived",
+    "Relationship of four-replicate demo table to six-replicate GEO table"
+  ],
+  "scope": "Independent second-agent review of existing audit; only previously opened 277 IDs, Total1, raw prefix and examples.",
+  "sources": {
+    "shukla2018_mapping.py": "9ba538b58ff0b8e95289574cf742b4a482ee29eeec5eab461c2d0ead89319f88",
+    "shukla2018_mapping_R": "0f5d9a6b816797cdc2589bd21115e2ca124c5e4a84f6995c78128eab1ebf19fc",
+    "shukla2018_normalize.R": "2ac981ca496d2d61fadd4f9b92258fe9e335933bdda03c06f516ea158e0d997c",
+    "shukla2018_total1_sample": "48f4fde16888cc28661821e4cce423e03cbec855c500dae02ef9f8e05583e938",
+    "shukla2018_vignette": "c0deca7819251ed50aef9c806b582d9f69384b7fa386db39fcb55acc002506e2"
+  }
+}

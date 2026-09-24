@@ -1,0 +1,128 @@
+{
+  "candidate_genotypes": 1563,
+  "decision_panels_by_partition": {
+    "confirmation": 33,
+    "development": 26,
+    "train": 93
+  },
+  "eligible_GA_patterns": 125,
+  "eligible_panels": 152,
+  "example_GA_poor_mismatches": 427,
+  "exon_removal_audit": [
+    {
+      "intron_length": 104,
+      "linked_exonic_substitutions": 0,
+      "position": 1,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 118,
+      "linked_exonic_substitutions": 0,
+      "position": 2,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 206,
+      "linked_exonic_substitutions": 0,
+      "position": 3,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 289,
+      "linked_exonic_substitutions": 0,
+      "position": 4,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 83,
+      "linked_exonic_substitutions": 0,
+      "position": 5,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 87,
+      "linked_exonic_substitutions": 0,
+      "position": 6,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 95,
+      "linked_exonic_substitutions": 0,
+      "position": 7,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 364,
+      "linked_exonic_substitutions": 0,
+      "position": 8,
+      "tag": "Opt"
+    },
+    {
+      "intron_length": 104,
+      "linked_exonic_substitutions": 1,
+      "position": 1,
+      "tag": "DeO"
+    },
+    {
+      "intron_length": 118,
+      "linked_exonic_substitutions": 0,
+      "position": 2,
+      "tag": "DeO"
+    },
+    {
+      "intron_length": 206,
+      "linked_exonic_substitutions": 0,
+      "position": 3,
+      "tag": "DeO"
+    },
+    {
+      "intron_length": 289,
+      "linked_exonic_substitutions": 0,
+      "position": 4,
+      "tag": "DeO"
+    },
+    {
+      "intron_length": 83,
+      "linked_exonic_substitutions": 0,
+      "position": 5,
+      "tag": "DeO"
+    },
+    {
+      "intron_length": 87,
+      "linked_exonic_substitutions": 0,
+      "position": 6,
+      "tag": "DeO"
+    },
+    {
+      "intron_length": 95,
+      "linked_exonic_substitutions": 1,
+      "position": 7,
+      "tag": "DeO"
+    },
+    {
+      "intron_length": 364,
+      "linked_exonic_substitutions": 0,
+      "position": 8,
+      "tag": "DeO"
+    }
+  ],
+  "files": {
+    "data\\external\\research_20260921\\faraway2025_supptable_2.xlsx": "58ebef8dc2966752da45dfe4b4c1824901a6af17d1ae65f8faa4938bde8fcd57",
+    "data\\external\\research_20260921\\faraway2025_supptable_3.xlsx": "e99bd2951ff4339916002a76b72d1a1adde2a2dc5a72ed26e1cbf8829da62760",
+    "src\\research_20260921\\faraway_design.py": "851b19230d5c21474debe901fae51500e9bca9f83c8f6dc4bee6d46596fcbe76"
+  },
+  "partition_GA_patterns": {
+    "confirmation": 25,
+    "development": 25,
+    "train": 206
+  },
+  "protein_amino_acids_excluding_stop": 545,
+  "protein_identity_count": 1,
+  "restrictions": [
+    "Only transfection_1 admitted for prospective numeric-access protocol.",
+    "Other assay outcomes and halflife sheet remain unopened.",
+    "Example GA-poor sequence does not match ordered-fragment assembly; use ordered-fragment design and declare reconstruction limit."
+  ],
+  "scope": "Outcome-free construction and partition audit; predicted exon removal is design-based, not raw-read confirmation.",
+  "unique_genotypes": 7909
+}

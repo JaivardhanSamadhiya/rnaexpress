@@ -1,0 +1,338 @@
+{
+  "Q30_counts_and_metrics_reproduced": true,
+  "endpoint_Q20_Q30_spearman_all_241": 0.7385984216483135,
+  "files": {
+    "reports\\research_20260921\\seers_quality_audit_spec.md": "8ba7945a6a8a061f72b3016ece38d3fa4c30fbe62fa1cd8362abd8bc7c45923c",
+    "src\\research_20260921\\seers_quality_audit.py": "12d62c4a3780cc6ca7ea1944579d8c49e6fed314cdd995bcfdaaba1a42327878"
+  },
+  "fixed_original_cohort": {
+    "0": {
+      "eligible_groups": 5,
+      "eligible_sequences": 25,
+      "mean_regret": {
+        "ccc": 0.4454400758829894,
+        "cctccc": 0.5,
+        "random": 0.5,
+        "srle_kmer123": 0.31723971993723443,
+        "srle_pair": 0.41673309797416885
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.05689307626030236,
+            0.3132937881518122
+          ],
+          "mean_gain": 0.1282003559457549
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.05111177721231717,
+            0.3891333722577374
+          ],
+          "mean_gain": 0.1827602800627656
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.05111177721231717,
+            0.3891333722577374
+          ],
+          "mean_gain": 0.1827602800627656
+        }
+      }
+    },
+    "20": {
+      "eligible_groups": 5,
+      "eligible_sequences": 25,
+      "mean_regret": {
+        "ccc": 0.5788492085219692,
+        "cctccc": 0.5,
+        "random": 0.5,
+        "srle_kmer123": 0.4660771267287906,
+        "srle_pair": 0.53320440021129
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.11156858581197955,
+            0.4232944504476988
+          ],
+          "mean_gain": 0.1127720817931787
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.22675353045116903,
+            0.32659507581361114
+          ],
+          "mean_gain": 0.033922873271209394
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.22675353045116897,
+            0.32659507581361114
+          ],
+          "mean_gain": 0.03392287327120942
+        }
+      }
+    },
+    "25": {
+      "eligible_groups": 5,
+      "eligible_sequences": 25,
+      "mean_regret": {
+        "ccc": 0.5788492085219692,
+        "cctccc": 0.5,
+        "random": 0.5,
+        "srle_kmer123": 0.4660771267287906,
+        "srle_pair": 0.53320440021129
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.11156858581197955,
+            0.4232944504476988
+          ],
+          "mean_gain": 0.1127720817931787
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.22675353045116903,
+            0.32659507581361114
+          ],
+          "mean_gain": 0.033922873271209394
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.22675353045116897,
+            0.32659507581361114
+          ],
+          "mean_gain": 0.03392287327120942
+        }
+      }
+    },
+    "30": {
+      "eligible_groups": 5,
+      "eligible_sequences": 25,
+      "mean_regret": {
+        "ccc": 0.5580973601880779,
+        "cctccc": 0.5,
+        "random": 0.5,
+        "srle_kmer123": 0.44949137877039214,
+        "srle_pair": 0.5078930753321854
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.11666238352717524,
+            0.4196868671469779
+          ],
+          "mean_gain": 0.10860598141768567
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.14353632280564615,
+            0.28447385786990387
+          ],
+          "mean_gain": 0.05050862122960784
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.14353632280564615,
+            0.2844738578699039
+          ],
+          "mean_gain": 0.05050862122960785
+        }
+      }
+    }
+  },
+  "fraction_QC": [
+    {
+      "all_quality_discordant_pairs": 14277,
+      "candidate_pairs_by_quality": {
+        "0": 23091,
+        "20": 16079,
+        "25": 16079,
+        "30": 6370
+      },
+      "paired_records": 422643,
+      "run": "HRR1883393"
+    },
+    {
+      "all_quality_discordant_pairs": 10974,
+      "candidate_pairs_by_quality": {
+        "0": 24052,
+        "20": 18387,
+        "25": 18387,
+        "30": 8996
+      },
+      "paired_records": 430010,
+      "run": "HRR1883401"
+    }
+  ],
+  "levels": [
+    0,
+    20,
+    25,
+    30
+  ],
+  "original_screen_still_inconclusive": true,
+  "quality_specific_cohorts": {
+    "0": {
+      "eligible_groups": 24,
+      "eligible_sequences": 126,
+      "mean_regret": {
+        "ccc": 0.4456753528220307,
+        "cctccc": 0.5033076324872194,
+        "random": 0.5,
+        "srle_kmer123": 0.5584697417060334,
+        "srle_pair": 0.5776523322976945
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.24713225737021433,
+            0.01196574527549408
+          ],
+          "mean_gain": -0.11279438888400273
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.16910635784206698,
+            0.0561718311335996
+          ],
+          "mean_gain": -0.05516210921881396
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.1695714750174756,
+            0.04616434596703692
+          ],
+          "mean_gain": -0.0584697417060334
+        }
+      }
+    },
+    "20": {
+      "eligible_groups": 20,
+      "eligible_sequences": 104,
+      "mean_regret": {
+        "ccc": 0.4726748105026484,
+        "cctccc": 0.5090703537529802,
+        "random": 0.5,
+        "srle_kmer123": 0.591787742456013,
+        "srle_pair": 0.5460162621956693
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.2687717639071349,
+            0.046718121981814284
+          ],
+          "mean_gain": -0.11911293195336463
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.22334139710698916,
+            0.0634646702889323
+          ],
+          "mean_gain": -0.08271738870303287
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.22662157366562502,
+            0.047811734671096576
+          ],
+          "mean_gain": -0.09178774245601302
+        }
+      }
+    },
+    "25": {
+      "eligible_groups": 20,
+      "eligible_sequences": 104,
+      "mean_regret": {
+        "ccc": 0.4726748105026484,
+        "cctccc": 0.5090703537529802,
+        "random": 0.5,
+        "srle_kmer123": 0.591787742456013,
+        "srle_pair": 0.5460162621956693
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.2687717639071349,
+            0.046718121981814284
+          ],
+          "mean_gain": -0.11911293195336463
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.22334139710698916,
+            0.0634646702889323
+          ],
+          "mean_gain": -0.08271738870303287
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.22662157366562502,
+            0.047811734671096576
+          ],
+          "mean_gain": -0.09178774245601302
+        }
+      }
+    },
+    "30": {
+      "eligible_groups": 5,
+      "eligible_sequences": 25,
+      "mean_regret": {
+        "ccc": 0.5580973601880779,
+        "cctccc": 0.5,
+        "random": 0.5,
+        "srle_kmer123": 0.44949137877039214,
+        "srle_pair": 0.5078930753321854
+      },
+      "primary_comparisons": {
+        "ccc": {
+          "descriptive_group_ci95": [
+            -0.11666238352717524,
+            0.4196868671469779
+          ],
+          "mean_gain": 0.10860598141768567
+        },
+        "cctccc": {
+          "descriptive_group_ci95": [
+            -0.14353632280564615,
+            0.28447385786990387
+          ],
+          "mean_gain": 0.05050862122960784
+        },
+        "random": {
+          "descriptive_group_ci95": [
+            -0.14353632280564615,
+            0.2844738578699039
+          ],
+          "mean_gain": 0.05050862122960785
+        }
+      }
+    }
+  },
+  "retention": {
+    "cytoplasm": {
+      "Q20_supported_sequences": 199,
+      "Q30_Q20_fraction_quantiles": [
+        0.0,
+        0.3191181953765846,
+        0.3870967741935484,
+        0.48106591865357645,
+        0.75
+      ]
+    },
+    "nucleus": {
+      "Q20_supported_sequences": 207,
+      "Q30_Q20_fraction_quantiles": [
+        0.043478260869565216,
+        0.3875120889748549,
+        0.5,
+        0.5681349288219517,
+        0.9090909090909091
+      ]
+    }
+  },
+  "scope": "Post-hoc quality sensitivity; same already-open prefixes; no independent confirmation."
+}

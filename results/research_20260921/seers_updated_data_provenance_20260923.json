@@ -1,0 +1,98 @@
+{
+  "admission": {
+    "allowed_interpretation": "The existing raw-prefix experiment can only describe the documented older single-biological-sample archive. Any read-quality sensitivity is post-hoc and must preserve the original screen verdict.",
+    "independent_biological_replicates_for_L6_R1_to_R4": false,
+    "public_free_trustworthy_archive": true,
+    "reason": "The one linked raw archive has a 2024 last-modification timestamp and the L6 sample dates to 2021, while Method2 began in August 2025. There is no demonstrated sequence/sample-level link to the 2026 CSVs.",
+    "reconstructs_2026_processed_benchmark": false,
+    "updated_method2_identity_established": false
+  },
+  "author_repository": {
+    "branches": [
+      "main"
+    ],
+    "commit": "d014bedc3abc032d6151c870d1fb5d519756eabb",
+    "releases": [],
+    "required_csvs": [
+      "TALE_train_data_260312.csv",
+      "3pL6-A549-T1.csv"
+    ],
+    "root_and_model_readmes": "Both say source tables are distributed separately; neither supplies a retrieval URL.",
+    "tags": [],
+    "training_notebook": "Only source cells inspected for filenames, paths, and download URLs. CSV_PATH and INDEPENDENT_A549_CSV_PATH are local filenames. No data downloader or hosted URL found."
+  },
+  "conclusion": "No updated processed-data download or newer linked raw archive was found in the checked official resources. Absence from this bounded search is not proof of universal unavailability.",
+  "date_utc": "2026-09-23",
+  "failed_metadata_endpoint": {
+    "accepted_as_scientific_evidence": false,
+    "bytes": 0,
+    "file": "seers_provenance_biorxiv_api_20260923"
+  },
+  "official_project_related_archives": {
+    "HRA008408": {
+      "createTime": "2024-08-27T17:10:15",
+      "isControlledAccess": 0,
+      "isFilePublic": 1,
+      "modifyTime": "2024-08-28T19:25:21",
+      "releaseStateString": "Public",
+      "releaseTime": "2024-08-28T19:25:21"
+    },
+    "accessions": [
+      "HRA008408"
+    ],
+    "hra_total_count": 1,
+    "omix_total_count": 0,
+    "project": "PRJCA029014"
+  },
+  "primary_preprint_methods": {
+    "L6_biological_sampling": "Single 10-cm dish.",
+    "method2_change": "Gene-specific reverse transcription; authors report mitigation of the Method1 internal oligo(dT) strand-invasion artifact involving poly(A)/A-rich sequences.",
+    "method2_start": "August 2025 onward",
+    "repeat_sampling": "Multiple nucleic-acid subsamplings, library preparations and sequencing runs are explicitly technical replicates.",
+    "retrieval": "Methods read through web search indexing of the primary bioRxiv full-text page. Direct browser tool returned 403; direct HTTP returned 429. No bypass attempted.",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658412v2.full"
+  },
+  "purpose": "Bounded read-only search for updated public SEERS data; no per-sequence RNA outcomes inspected, no downloaded code executed, no models deserialized.",
+  "receipts": [
+    {
+      "bytes": 18869,
+      "path": "data/external/research_20260921/seers_provenance_bioproject_20260923",
+      "sha256": "5e0c3dcdf7c9d927eb30c784411641958e296ebc327d7f6871a588638da5ba39"
+    },
+    {
+      "bytes": 0,
+      "path": "data/external/research_20260921/seers_provenance_biorxiv_api_20260923",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2,
+      "path": "data/external/research_20260921/seers_provenance_github_tags_20260923",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "bytes": 3309,
+      "path": "data/external/research_20260921/seers_provenance_legacy_readme_20260923",
+      "sha256": "d587c7932d2c7e8bf560f573723ac6afa5e168e3a2da1b63e1bfd1ef2bf476ba"
+    },
+    {
+      "bytes": 1310,
+      "path": "data/external/research_20260921/seers_provenance_model_readme_20260923",
+      "sha256": "89c01761527ad36f94b8f739447cc75f5af5e3ac6b8a8679a59ca930010c47f8"
+    },
+    {
+      "bytes": 3092,
+      "path": "data/external/research_20260921/seers_provenance_project_hra_20260923",
+      "sha256": "1d8de3f25f3b2463c707e8f4a2013f1e7e16ba95ffd186f4883de36d84d778b4"
+    },
+    {
+      "bytes": 30,
+      "path": "data/external/research_20260921/seers_provenance_project_omix_20260923",
+      "sha256": "b7dec77d606b66200e68b3353064ac112cdd6a719819712c7e804ba11c027ba8"
+    },
+    {
+      "bytes": 103365,
+      "path": "data/external/research_20260921/seers_provenance_training_notebook_20260923",
+      "sha256": "4a9e39c5f1c6286cc89f6adbbaf0bd4c217d4834ca81aaf63c2f64f45e4da86a"
+    }
+  ]
+}

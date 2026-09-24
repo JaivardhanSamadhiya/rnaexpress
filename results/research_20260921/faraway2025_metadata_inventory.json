@@ -1,0 +1,70 @@
+{
+  "code_sha256": "f857f2234b8ed637662f06d4f7baaa48a31a78c8b7af4fd623e65092a43e50aa",
+  "scope": "Only construct identities, intron/GA design, time and replicate metadata; all localization and stability outcomes unopened.",
+  "sheet_inventory": {
+    "clk_vs_dmso": {
+      "barcode_ids": 391,
+      "condition_replicate_unique_genotypes": {
+        "clk/1": 377,
+        "clk/2": 377,
+        "clk/3": 377,
+        "dmso/1": 377,
+        "dmso/2": 377,
+        "dmso/3": 377
+      },
+      "metadata_rows": 2346,
+      "unique_genotypes": 377
+    },
+    "dox_timepoints": {
+      "barcode_ids": 571,
+      "condition_replicate_unique_genotypes": {
+        "12h dox/1": 548,
+        "12h dox/2": 548,
+        "12h dox/3": 548,
+        "4h dox/1": 548,
+        "4h dox/2": 548,
+        "4h dox/3": 548,
+        "8h dox/1": 548,
+        "8h dox/2": 548,
+        "8h dox/3": 548
+      },
+      "metadata_rows": 5139,
+      "unique_genotypes": 548
+    },
+    "transfection_1": {
+      "barcode_ids": 10770,
+      "condition_replicate_unique_genotypes": {
+        "16h/1": 7909,
+        "16h/2": 7909,
+        "16h/3": 7909
+      },
+      "metadata_rows": 32310,
+      "unique_genotypes": 7909
+    },
+    "transfection_2": {
+      "barcode_ids": 2680,
+      "condition_replicate_unique_genotypes": {
+        "16 hr/1": 2276,
+        "16 hr/2": 2276,
+        "16 hr/3": 2276,
+        "8 hr/1": 2276,
+        "8 hr/2": 2276,
+        "8 hr/3": 2276
+      },
+      "metadata_rows": 16077,
+      "unique_genotypes": 2276
+    }
+  },
+  "source_sha256": "e99bd2951ff4339916002a76b72d1a1adde2a2dc5a72ed26e1cbf8829da62760",
+  "transfection2_metadata_overlap": {
+    "16 hr": {
+      "metadata_keys_shared_with_transfection1": 9,
+      "rows": 8037
+    },
+    "8 hr": {
+      "metadata_keys_shared_with_transfection1": 9,
+      "rows": 8040
+    }
+  },
+  "warning": "Barcode IDs are sheet-specific. Shared genotype or metadata keys across sheets are not independent biological observations; compare sample provenance."
+}
