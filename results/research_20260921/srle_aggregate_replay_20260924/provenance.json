@@ -1,0 +1,26 @@
+{
+  "aggregation": "One row per original composition class, replicate, model and direction; classes retain original sorted order; sequence identifiers omitted.",
+  "bootstrap": {
+    "classes_per_draw": 60,
+    "draws": 2000,
+    "generator": "numpy.random.default_rng / PCG64",
+    "numpy_version": "1.26.4",
+    "pairing": "Identical indices across models and replicates",
+    "seed": 20260921
+  },
+  "builder_sha256": "03fde155dd5eec7f046369d30173e11fc96d8a3461372bdca24f9f99dd5b55d9",
+  "date": "2026-09-24",
+  "downloads": 0,
+  "historical_freeze_gap": "raw_swap_freeze.json omitted robustness_predictions.csv and imported modules. The later checkpoint hash includes the former; this cannot retroactively expand the prospective freeze.",
+  "kind": "anonymized aggregate arithmetic replay",
+  "models_fit": 0,
+  "no_new_outcomes": true,
+  "original_artifacts": {
+    "results/research_20260921/raw_swap_evaluation.csv": "7aff528234b2dff858d4d87fad4dbeee8fe709a8c4fe343705955ab3d2e46a69",
+    "results/research_20260921/raw_swap_freeze.json": "e180b077248f95b409fe581e25db1f3e9e06d5cf1234b609de9190e7c568c5e4",
+    "results/research_20260921/raw_swap_result.json": "fb1fab6b5bb60a439ac5f43ec5ac0a0e264a76c7e6cf466dd6ff91e49c13de19",
+    "results/research_20260921/robustness_predictions.csv": "8b337f7d7d4910c10049e33b780d97ee5a8982bf3335305626ed58d1baadf362"
+  },
+  "original_checkpoint_sha256": "bc35263bda2d97cf27d7e2eca0f2902fbb76d7afba0d531a85a25335124c4e12",
+  "scope_limit": "Reproduces aggregate arithmetic, not training, candidate construction, raw counts, or independent biological validation."
+}

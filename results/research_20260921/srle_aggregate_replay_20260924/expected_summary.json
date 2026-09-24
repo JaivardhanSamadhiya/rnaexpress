@@ -1,0 +1,122 @@
+{
+  "composition_classes": 60,
+  "parents": 592,
+  "removed_low_count_parent_count": 17,
+  "replicates": {
+    "1": {
+      "models": {
+        "composition": {
+          "by_direction": {
+            "-1": -0.0831952160854729,
+            "1": 0.0831952160854729
+          },
+          "gain_ci": [
+            -1.4717139573602442e-18,
+            6.008512756387375e-18
+          ],
+          "oriented_nrs_change": 0.0,
+          "regret_gain_over_uniform": 2.3073662409647798e-18
+        },
+        "kmer123": {
+          "by_direction": {
+            "-1": 0.2255795548286068,
+            "1": 0.21423646718985162
+          },
+          "gain_ci": [
+            0.15268594264595048,
+            0.2809345539072023
+          ],
+          "oriented_nrs_change": 0.11612062919365397,
+          "regret_gain_over_uniform": 0.21990801100922922
+        },
+        "position_additive": {
+          "by_direction": {
+            "-1": 0.13334333665026374,
+            "1": 0.11037988980145462
+          },
+          "gain_ci": [
+            0.05693380036241984,
+            0.1824205188886159
+          ],
+          "oriented_nrs_change": 0.05797952334887146,
+          "regret_gain_over_uniform": 0.12186161322585919
+        },
+        "position_pair": {
+          "by_direction": {
+            "-1": 0.2435207099551304,
+            "1": 0.21853154292015228
+          },
+          "gain_ci": [
+            0.16398707898665896,
+            0.28941564149823085
+          ],
+          "oriented_nrs_change": 0.1157167392229116,
+          "regret_gain_over_uniform": 0.23102612643764128
+        }
+      },
+      "pair_minus_kmer123_ci": [
+        -0.0435228766282484,
+        0.068476431591568
+      ],
+      "pair_minus_kmer123_gain": 0.011118115428412116
+    },
+    "2": {
+      "models": {
+        "composition": {
+          "by_direction": {
+            "-1": -0.11112617508762551,
+            "1": 0.11112617508762551
+          },
+          "gain_ci": [
+            -3.6650771661341807e-19,
+            5.7253237670328815e-18
+          ],
+          "oriented_nrs_change": 0.0,
+          "regret_gain_over_uniform": 2.701796009394649e-18
+        },
+        "kmer123": {
+          "by_direction": {
+            "-1": 0.2211281016028805,
+            "1": 0.22144227532790772
+          },
+          "gain_ci": [
+            0.15839614133746457,
+            0.27968571718102697
+          ],
+          "oriented_nrs_change": 0.10983494898059437,
+          "regret_gain_over_uniform": 0.2212851884653941
+        },
+        "position_additive": {
+          "by_direction": {
+            "-1": 0.07973972861562219,
+            "1": 0.07547793387092293
+          },
+          "gain_ci": [
+            0.007802317451274026,
+            0.14385567802437768
+          ],
+          "oriented_nrs_change": 0.05478997836364661,
+          "regret_gain_over_uniform": 0.07760883124327256
+        },
+        "position_pair": {
+          "by_direction": {
+            "-1": 0.2548994467630309,
+            "1": 0.25194253463590094
+          },
+          "gain_ci": [
+            0.19642504918018724,
+            0.3073514234162959
+          ],
+          "oriented_nrs_change": 0.11961739041267014,
+          "regret_gain_over_uniform": 0.2534209906994659
+        }
+      },
+      "pair_minus_kmer123_ci": [
+        -0.023785124051070687,
+        0.09397116641852594
+      ],
+      "pair_minus_kmer123_gain": 0.032135802234071816
+    }
+  },
+  "scope": "post hoc consistency of aggregate-derived choices in constituent replicates"
+}

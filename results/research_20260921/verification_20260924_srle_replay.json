@@ -1,0 +1,99 @@
+{
+  "artifacts": {
+    "results/research_20260921/srle_aggregate_figure_receipt_20260924_v3.json": "251e77b36cb3c8ca1cae01fe310fa9cced81012dc089cf2f5554d237e4dd721f",
+    "results/research_20260921/srle_aggregate_package_receipt_20260924.json": "76fb0a8af86c03deb25aeb6428a1b17e3fb6d6deb9c2b3fb33aeadc2286adbd0",
+    "results/research_20260921/srle_aggregate_replay_20260924.zip": "d81cdcd9f6ecdbbd9d98806514de5931bfec0b0f8bcbbaea808af06cd3c1a7f3",
+    "results/research_20260921/srle_aggregate_replay_result_20260924.json": "4c39b1535487dfeecdb26150180efd23310972e698be246f74f3bfcebf393b82",
+    "results/research_20260921/srle_aggregate_summary_20260924_v3.png": "42acbfc8ecc024afc03b62e4ab919b1ebf9bae6459f0adc24972f11ad9f8825c",
+    "results/research_20260921/srle_aggregate_summary_20260924_v3.svg": "bb0416338295da1b43262a7486b17ce959e43ed91aadaace720c9d9d7ada4974",
+    "results/research_20260921/srle_standalone_verification_20260924.json": "1e52a7763d747f9e00a58511cb00145b11ffcaba60d22a9db71f27c797403aff",
+    "results/research_20260921/verification_20260924_dna.json": "d89d457b61260b125967a15dd4b4f31da507229ac535dcd882eb4cbdd333fa52"
+  },
+  "checks": [
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "src/research_20260921",
+        "-t",
+        ".",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stderr": "........................................................\n----------------------------------------------------------------------\nRan 56 tests in 1.217s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "figure_visual_check": "v3 passed; v1 legend overlaps data, v2 introduced a label encoding defect. Earlier versions retained and superseded. No numeric data changed.",
+  "freezes": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "files": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "files": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "files": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "files": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "files": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "files": 5
+    }
+  },
+  "git_head_before_commit": "f80a75315788ff8583168b514cf12cc9bbfbe30b",
+  "models_fit": 0,
+  "new_outcome_rows": 0,
+  "original_changed": [],
+  "original_files_checked": 228,
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "safe_legacy_checks": "Earlier 113 safe tests and pre-existing historical preservation mismatch retained; no broad pytest.",
+  "spending": 0,
+  "time_utc": "2026-09-24T17:53:58.860381+00:00"
+}

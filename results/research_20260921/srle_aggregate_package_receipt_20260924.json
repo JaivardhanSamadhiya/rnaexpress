@@ -1,0 +1,17 @@
+{
+  "bytes": 145042,
+  "member_hashes": {
+    "README.md": "a1d8f528c9463ccbe1942a5934486e2e16020a39c8398583a8369b6ed1ef119c",
+    "bootstrap_indices.csv": "b0cce508ccddacf5c956aa8c9a9fc474aa5278b5fbb29d92529f1e789b25cf9e",
+    "evidence_ledger.md": "b01e16f45398a8b1f26a18455bb4ada1230f50b67ee8879c58889d38e4e56feb",
+    "expected_summary.json": "0b157d9ede5682234ebd47e58464846a4d9929e3698952aabc5874049b8a220c",
+    "group_metrics.csv": "922cab43864cb705dce63b93d23602264be394c75b29217d74f073169a2cf623",
+    "integrity.json": "909845854ec2d260c62b43934a7720437e118be519fa2951858ac124b60140e6",
+    "provenance.json": "6286846c36e2d1c344135875b66932339217ce9f9a8aa9af9a680936c8aa4d25",
+    "replay.py": "7ec465dd41b8ecda8ec5aaf1fe19300ace235cf3d6b658baacf7206a2f8a8713"
+  },
+  "replay_result_sha256": "4c39b1535487dfeecdb26150180efd23310972e698be246f74f3bfcebf393b82",
+  "scope": "Reproduces aggregate arithmetic, not training, candidate construction, raw counts, or independent biological validation.",
+  "status": "PASS",
+  "zip_sha256": "d81cdcd9f6ecdbbd9d98806514de5931bfec0b0f8bcbbaea808af06cd3c1a7f3"
+}

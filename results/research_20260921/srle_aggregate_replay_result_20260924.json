@@ -1,0 +1,131 @@
+{
+  "aggregate_rows": 960,
+  "bootstrap_draws": 2000,
+  "max_absolute_difference": 1.1102230246251565e-16,
+  "numeric_values_compared": 57,
+  "scope": "Arithmetic replay only; no new experiment or model fitting.",
+  "status": "PASS",
+  "summary": {
+    "composition_classes": 60,
+    "parents": 592,
+    "removed_low_count_parent_count": 17,
+    "replicates": {
+      "1": {
+        "models": {
+          "composition": {
+            "by_direction": {
+              "-1": -0.0831952160854729,
+              "1": 0.08319521608547288
+            },
+            "gain_ci": [
+              -4.2620069797684285e-18,
+              4.706867139319134e-18
+            ],
+            "oriented_nrs_change": 0.0,
+            "regret_gain_over_uniform": 1.5707038426544323e-19
+          },
+          "kmer123": {
+            "by_direction": {
+              "-1": 0.22557955482860678,
+              "1": 0.2142364671898516
+            },
+            "gain_ci": [
+              0.15268594264595048,
+              0.28093455390720234
+            ],
+            "oriented_nrs_change": 0.11612062919365397,
+            "regret_gain_over_uniform": 0.2199080110092292
+          },
+          "position_additive": {
+            "by_direction": {
+              "-1": 0.13334333665026374,
+              "1": 0.1103798898014546
+            },
+            "gain_ci": [
+              0.05693380036241984,
+              0.18242051888861588
+            ],
+            "oriented_nrs_change": 0.057979523348871465,
+            "regret_gain_over_uniform": 0.12186161322585919
+          },
+          "position_pair": {
+            "by_direction": {
+              "-1": 0.24352070995513037,
+              "1": 0.21853154292015226
+            },
+            "gain_ci": [
+              0.16398707898665893,
+              0.2894156414982308
+            ],
+            "oriented_nrs_change": 0.1157167392229116,
+            "regret_gain_over_uniform": 0.23102612643764128
+          }
+        },
+        "pair_minus_kmer123_ci": [
+          -0.04352287662824837,
+          0.06847643159156801
+        ],
+        "pair_minus_kmer123_gain": 0.011118115428412114
+      },
+      "2": {
+        "models": {
+          "composition": {
+            "by_direction": {
+              "-1": -0.11112617508762551,
+              "1": 0.11112617508762551
+            },
+            "gain_ci": [
+              -1.6097332702012313e-18,
+              4.991397707211765e-18
+            ],
+            "oriented_nrs_change": 0.0,
+            "regret_gain_over_uniform": 1.664233125206956e-18
+          },
+          "kmer123": {
+            "by_direction": {
+              "-1": 0.2211281016028805,
+              "1": 0.2214422753279077
+            },
+            "gain_ci": [
+              0.1583961413374646,
+              0.27968571718102686
+            ],
+            "oriented_nrs_change": 0.10983494898059436,
+            "regret_gain_over_uniform": 0.22128518846539408
+          },
+          "position_additive": {
+            "by_direction": {
+              "-1": 0.07973972861562215,
+              "1": 0.07547793387092293
+            },
+            "gain_ci": [
+              0.007802317451274026,
+              0.14385567802437768
+            ],
+            "oriented_nrs_change": 0.05478997836364661,
+            "regret_gain_over_uniform": 0.07760883124327254
+          },
+          "position_pair": {
+            "by_direction": {
+              "-1": 0.25489944676303083,
+              "1": 0.25194253463590094
+            },
+            "gain_ci": [
+              0.19642504918018724,
+              0.3073514234162959
+            ],
+            "oriented_nrs_change": 0.11961739041267012,
+            "regret_gain_over_uniform": 0.2534209906994659
+          }
+        },
+        "pair_minus_kmer123_ci": [
+          -0.02378512405107069,
+          0.09397116641852596
+        ],
+        "pair_minus_kmer123_gain": 0.032135802234071816
+      }
+    },
+    "scope": "post hoc consistency of aggregate-derived choices in constituent replicates"
+  },
+  "tolerance": 1e-12
+}

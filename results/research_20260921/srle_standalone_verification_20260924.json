@@ -1,0 +1,18 @@
+{
+  "arguments": [
+    "-I",
+    "-S",
+    "-B",
+    "-u",
+    "D:\\rnaexpress\\data\\interim\\research_20260921\\srle_replay_independent_check_20260924\\replay.py"
+  ],
+  "exit_code": 0,
+  "max_absolute_difference": 1.1102230246251565e-16,
+  "numeric_values_compared": 57,
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "scope": "Fresh extraction, isolated Python, no site packages; arithmetic-only replay; 54 statistics and 3 metadata numbers compared.",
+  "status": "PASS",
+  "stderr": "",
+  "time_utc": "2026-09-24T17:52:04.604756+00:00",
+  "zip_sha256": "d81cdcd9f6ecdbbd9d98806514de5931bfec0b0f8bcbbaea808af06cd3c1a7f3"
+}
