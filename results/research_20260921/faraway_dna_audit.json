@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "DNA_reads": 231531,
+    "exact_flank_unique_barcode_Q10_reads": 11898,
+    "extracted_barcode_exactly_in_published_list_reads": 5533,
+    "pilot_ambiguous_segment_score": 93,
+    "pilot_barcode_reads": 713,
+    "pilot_complete_genotype_reads": 351,
+    "pilot_dispersed_segment_anchors": 37,
+    "pilot_insufficient_segment_anchors": 37,
+    "pilot_low_segment_alignment_quality": 195
+  },
+  "distinct_extracted_barcodes": 10434,
+  "distinct_extracted_barcodes_in_published_list": 4699,
+  "files": {
+    "data/external/research_20260921/ERR12019311.fastq.gz": "51407474c6e357cef28f6e7802291e7d06916f4a19da848fe421eb93d8f75586",
+    "data/external/research_20260921/faraway2025_plasmid_barcodes": "01aa1a363bd2521f5a0201966fbb86ad1df48422edb19bc6869ad9ea2104daec",
+    "data/external/research_20260921/faraway2025_supptable_2.xlsx": "58ebef8dc2966752da45dfe4b4c1824901a6af17d1ae65f8faa4938bde8fcd57",
+    "src/research_20260921/faraway_dna_audit.py": "e7884e5233d7ca33580ab46ae1fd37cabab36ceb6ef8b19a2305dd43d027fb88"
+  },
+  "pilot_barcodes_with_multiple_called_genotypes": 0,
+  "pilot_distinct_complete_barcodes": 349,
+  "pilot_distinct_complete_genotypes": 343,
+  "published_barcode_list_unique": 28902,
+  "published_numeric_barcode_IDs_reconstructed": false,
+  "scope": "DNA-only provenance feasibility audit. Exact barcode flanks/Q10; first 5000 records for genotype alignment; no RNA outcome access.",
+  "versions": {
+    "biopython": "1.88",
+    "numpy": "1.26.4"
+  }
+}

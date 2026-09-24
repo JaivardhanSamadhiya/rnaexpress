@@ -1,0 +1,41 @@
+{
+  "all_barcode_counts_reproduced": true,
+  "barcodes_with_conflicting_genotype_calls": 14,
+  "distinct_passing_barcodes": 5381,
+  "distinct_passing_genotypes": 4606,
+  "eight_segment_passing_reads": 5833,
+  "files": {
+    "data/external/research_20260921/ERR12019311.fastq.gz": "51407474c6e357cef28f6e7802291e7d06916f4a19da848fe421eb93d8f75586",
+    "data/interim/research_20260921/dna_runtime/Bio/Align/_pairwisealigner.cp312-win_amd64.pyd": "b86e014b343f54482cdb822ff8f3618742ac96e483a4f185c81dfba9fa327dda",
+    "reports/research_20260921/faraway_dna_full_audit_spec.md": "d22007d2e2d924d851eb427e1ca2e4420ddbae1464547be5c06c173fb8436b91",
+    "results/research_20260921/faraway_dna_audit.json": "f43cbdf4a2d447887c2d1686f9e2e07851a4cf1f98256e573f3a87aea461702a",
+    "results/research_20260921/faraway_dna_barcode_inventory.csv": "7c7dd3b729ed02e3f357141648b920f4d6ab10d2f48260a0c95b07807f1ae0a5",
+    "results/research_20260921/faraway_dna_pilot_calls.csv": "b07708d9244d914bb7e89f16d901dbefdb7668f46a846575980f21f0393f172a",
+    "src/research_20260921/faraway_design.py": "851b19230d5c21474debe901fae51500e9bca9f83c8f6dc4bee6d46596fcbe76",
+    "src/research_20260921/faraway_dna_audit.py": "e7884e5233d7ca33580ab46ae1fd37cabab36ceb6ef8b19a2305dd43d027fb88",
+    "src/research_20260921/faraway_dna_full_audit.py": "c85e8816f831b18ab5fc5b51a18dc1db003dea905f46c2c24dd7f9223caa1341"
+  },
+  "new_RNA_outcomes_read": false,
+  "numeric_assay_barcode_IDs_resolved": false,
+  "original_genotypes_with_any_call": 2514,
+  "qualifying_barcode_reads": 11898,
+  "reads": 231531,
+  "rejection_and_pilot_counts": {
+    "ambiguous_segment_score": 1468,
+    "dispersed_segment_anchors": 634,
+    "insufficient_segment_anchors": 729,
+    "low_segment_alignment_quality": 2872,
+    "pilot_ambiguous_segment_score": 93,
+    "pilot_barcode_reads": 713,
+    "pilot_complete_genotype_reads": 351,
+    "pilot_dispersed_segment_anchors": 37,
+    "pilot_insufficient_segment_anchors": 37,
+    "pilot_low_segment_alignment_quality": 195,
+    "remaining_eight_segment_calls": 5482
+  },
+  "repeat_supported_barcodes": 37,
+  "repeat_supported_genotypes": 37,
+  "scope": "DNA-only full-file audit; unchanged pilot filters; eight-segment calls are not verified intact molecules.",
+  "target_8h_genotypes_with_any_call": 89,
+  "target_8h_genotypes_with_repeat_supported_barcode": 2
+}

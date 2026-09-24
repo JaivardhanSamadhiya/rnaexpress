@@ -1,0 +1,42 @@
+{
+  "DNA_barcode_to_numeric_ID_mapping_resolved": false,
+  "files": {
+    "data/external/research_20260921/faraway2025_transfection_firstexperiment_ratios.tsv": "2cb77c11f9bb4a2a4ac114c86eae65436fdf953473be924f8d10a6c8ffc3f3d3",
+    "data/external/research_20260921/faraway2025_transfection_timepoints_ratios.tsv": "6178404676454bd65c50dbcabb88f47b6747f9513e003d6b0502a21d347f7340",
+    "reports/research_20260921/faraway_processed_correspondence_spec.md": "96dcd3b8f79c3634072fc017adee5629407a14019618f624d898751d5a690fed",
+    "src/research_20260921/faraway_processed_correspondence.py": "1faba8c5be558b91e5af4ca9aacd08096fda902e68797e0c0276eb4e4bf1d01c"
+  },
+  "new_outcome_rows_opened": false,
+  "results": {
+    "8h": {
+      "max_abs_log2_ratio_difference": 1.3003487175922146e-14,
+      "metadata_keys_only_native": 0,
+      "metadata_keys_only_workbook": 0,
+      "native_metadata_rows": 16077,
+      "native_time_labels": [
+        "16 hr",
+        "8 hr"
+      ],
+      "numeric_cells_parsed_from_native": 2178,
+      "numeric_rows_compared": 726,
+      "rows_equal_within_1e_10": 726,
+      "shared_keys_with_different_genotype": 0,
+      "workbook_metadata_rows": 16077
+    },
+    "development": {
+      "max_abs_log2_ratio_difference": 1.3072876114961218e-14,
+      "metadata_keys_only_native": 0,
+      "metadata_keys_only_workbook": 0,
+      "native_metadata_rows": 32310,
+      "native_time_labels": [
+        "16 hr"
+      ],
+      "numeric_cells_parsed_from_native": 3312,
+      "numeric_rows_compared": 1104,
+      "rows_equal_within_1e_10": 1104,
+      "shared_keys_with_different_genotype": 0,
+      "workbook_metadata_rows": 32310
+    }
+  },
+  "scope": "Already-open development and 8-hour outcome rows only; remaining file inspection metadata-only."
+}

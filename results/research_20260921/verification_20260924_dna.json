@@ -1,0 +1,156 @@
+{
+  "audits": {
+    "faraway_dna_audit.json": {
+      "changed": [],
+      "files": 4
+    },
+    "faraway_dna_full_audit.json": {
+      "changed": [],
+      "files": 9
+    },
+    "faraway_processed_correspondence.json": {
+      "changed": [],
+      "files": 4
+    }
+  },
+  "checks": [
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "src/research_20260921",
+        "-t",
+        ".",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stderr": ".....................................................\n----------------------------------------------------------------------\nRan 53 tests in 1.329s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "download_receipts": {
+    "ERR12019311.fastq.gz.receipt.json": {
+      "asset": "data/external/research_20260921/ERR12019311.fastq.gz",
+      "asset_sha256": "51407474c6e357cef28f6e7802291e7d06916f4a19da848fe421eb93d8f75586",
+      "provenance": {
+        "changed": [],
+        "files": 4
+      },
+      "sha256": "a86cb7e956a8f11446a887518d5068491ea409361fd1ce3e23aea865e04a4858"
+    },
+    "faraway2025_transfection_firstexperiment_ratios.tsv.header.txt.receipt.json": {
+      "asset": "data/external/research_20260921/faraway2025_transfection_firstexperiment_ratios.tsv.header.txt",
+      "asset_sha256": "5a590386c26b55996748edee66200fd5534489e3ef3b5c01604b871d25dd2c24",
+      "provenance": {
+        "changed": [],
+        "files": 0
+      },
+      "sha256": "e0a47b27f90383c4dc7aab52bd0f47a3c4dd2cbf01d4d22d70cac6664d74b206"
+    },
+    "faraway2025_transfection_firstexperiment_ratios.tsv.receipt.json": {
+      "asset": "data/external/research_20260921/faraway2025_transfection_firstexperiment_ratios.tsv",
+      "asset_sha256": "2cb77c11f9bb4a2a4ac114c86eae65436fdf953473be924f8d10a6c8ffc3f3d3",
+      "provenance": {
+        "changed": [],
+        "files": 0
+      },
+      "sha256": "ec74e08531fc980736dc29bd94f4e60b8954e3370626ffd81c841e20c9d11484"
+    },
+    "faraway2025_transfection_timepoints_ratios.tsv.header.txt.receipt.json": {
+      "asset": "data/external/research_20260921/faraway2025_transfection_timepoints_ratios.tsv.header.txt",
+      "asset_sha256": "e34b2fd31295a0c814e73dab81fe1bc8957f0d62f5de0411cd2d399204476a0e",
+      "provenance": {
+        "changed": [],
+        "files": 0
+      },
+      "sha256": "83d8871cb271f87a7f7e698e918cc5ce813bb21e8437ae0969e2b69f1eede946"
+    },
+    "faraway2025_transfection_timepoints_ratios.tsv.receipt.json": {
+      "asset": "data/external/research_20260921/faraway2025_transfection_timepoints_ratios.tsv",
+      "asset_sha256": "6178404676454bd65c50dbcabb88f47b6747f9513e003d6b0502a21d347f7340",
+      "provenance": {
+        "changed": [],
+        "files": 0
+      },
+      "sha256": "c82553824a7ab80790b135a288bf38b3d03f5888ae11d100b587dd9c6ec4773f"
+    }
+  },
+  "freezes": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "files": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "files": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "files": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "files": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "files": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "files": 5
+    }
+  },
+  "git_head_before_checkpoint_commit": "3ff287f2fbaaebd1c4be35e72f6356cda8bc3533",
+  "original_changed": [],
+  "original_files_checked": 228,
+  "outputs": {
+    "results/research_20260921/faraway_dna_audit.json": "f43cbdf4a2d447887c2d1686f9e2e07851a4cf1f98256e573f3a87aea461702a",
+    "results/research_20260921/faraway_dna_barcode_inventory.csv": "7c7dd3b729ed02e3f357141648b920f4d6ab10d2f48260a0c95b07807f1ae0a5",
+    "results/research_20260921/faraway_dna_full_audit.json": "25b5ca127583423c0b966d1d80157879f22e0cd5ad74a4e457a52005a79db536",
+    "results/research_20260921/faraway_dna_full_barcode_associations.csv": "8b8eb4b35fe24fb4a0e204e450d6df969f1263678006e67cd5645b0c486c56fe",
+    "results/research_20260921/faraway_dna_full_calls.csv": "9e1673d0b40094c94bec0c6d68ac0055d30121e30e7455eb4f8c675914c233e0",
+    "results/research_20260921/faraway_dna_pilot_alignments.csv": "9ca24084e277c85dd4a4047bcbabf680e2900fd9c36a27bb55329f364ee515fa",
+    "results/research_20260921/faraway_dna_pilot_calls.csv": "b07708d9244d914bb7e89f16d901dbefdb7668f46a846575980f21f0393f172a",
+    "results/research_20260921/faraway_processed_correspondence.json": "26c3752c49c44964d68deb7034dc143a0a75e6982d646fe30c55e296ceb2da24"
+  },
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "safe_legacy_checks": "Earlier verification_20260923.json: 113 safe tests passed; pre-existing preservation mismatch. Not rerun because only isolated research code changed.",
+  "time_utc": "2026-09-24T17:44:12.969174+00:00"
+}
