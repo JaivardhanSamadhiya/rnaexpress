@@ -1,0 +1,71 @@
+{
+  "builder_sha256": "b9cc376e3165e33836cd78c2eab9a28f2232875f9bf338d3286f664ecc766484",
+  "fresh_extraction_directory": "D:\\rnaexpress\\data\\interim\\research_20260921\\srle_risk_replay_fresh_20260924",
+  "member_sha256": {
+    "README.md": "43e552f8c616b725fbc982d11f806142e1a8e8dc9bd1dd311ef06d9169f719e1",
+    "bootstrap_indices.csv": "b0cce508ccddacf5c956aa8c9a9fc474aa5278b5fbb29d92529f1e789b25cf9e",
+    "fixed_groups.csv": "0b487fa862f9bf2dc6e9f6abdaebd62528ac41df9ef0e5c374743d21acf1f6c5",
+    "fixed_pairs.csv": "d9b93a94a675a9a4e31f37742ba339422a47d44364307f075c77bb1b45046f73",
+    "fixed_result.json": "e32881e75074551e76b1f7b32d925dd2364dd6f65ab056b81e0195d8829f71d2",
+    "fixed_spec.md": "a8e117ca368e64a3b80a62e8350a4df15cdd0c30a7b03bac646ea3c46b2745cb",
+    "integrity.json": "53907b1920f256d818568ddc54384893a13bb8b3780b67a7bc27af4e40c28b4e",
+    "provenance.json": "a1630b8a8501227b0e7efa3e0953e7cf72e08bdfb212dda1df2cb19791dee8e2",
+    "replay.py": "8b621b4d84259b73e681798ca5aeccfd83f40d526552551982221a5102018330",
+    "uniform_groups.csv": "bcc50ddbd5a845e0c099149009d0ffce1fefe0622dd6ddf370e104d0c38142d5",
+    "uniform_pairs.csv": "3754b9ba11eef6c1aed11fcb47bb32d8b59e7d55d77fc1507678dfdbb5b8020b",
+    "uniform_result.json": "0ab692ced989bdf36477e651bcdeb5a82c88319251c2fb96070549054da536fb",
+    "uniform_spec.md": "59ab21a74467642715ca5c97077b42a377d3eb230aeb443caeee2f4327488993"
+  },
+  "replay_source_sha256": "8b621b4d84259b73e681798ca5aeccfd83f40d526552551982221a5102018330",
+  "scope": "Aggregation arithmetic only; not independent biological validation.",
+  "standalone_command": [
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "D:\\rnaexpress\\data\\interim\\research_20260921\\srle_risk_replay_fresh_20260924\\replay.py"
+  ],
+  "standalone_validation_sha256": "25180403345a139b89ce859f73f5f81e7f1dc2221562fd7d6552859b7afa0495",
+  "status": "PASS",
+  "validation": {
+    "absolute_tolerance": 1e-12,
+    "bootstrap_draws": 2000,
+    "ci_endpoints_checked": 684,
+    "class_balanced_cohorts": 30,
+    "classes_per_cohort": 60,
+    "classes_per_draw": 60,
+    "csv_rows": {
+      "fixed_groups.csv": 960,
+      "fixed_pairs.csv": 480,
+      "uniform_groups.csv": 240,
+      "uniform_pairs.csv": 120
+    },
+    "directions": [
+      -1,
+      1
+    ],
+    "estimates_checked": 342,
+    "fixed_statistics": 152,
+    "integrity_members_checked": 12,
+    "max_absolute_discrepancy": 3.3306690738754696e-16,
+    "models": [
+      "composition",
+      "kmer123",
+      "position_additive",
+      "position_pair"
+    ],
+    "numeric_comparisons": 1026,
+    "parents_per_cohort": 592,
+    "replicates": [
+      1,
+      2
+    ],
+    "scope": "Aggregation arithmetic only; conditional posthoc shared-experiment summaries.",
+    "status": "PASS",
+    "uniform_statistics": 190
+  },
+  "zip_bytes": 181591,
+  "zip_members": 13,
+  "zip_path": "results/research_20260921/srle_risk_replay_20260924.zip",
+  "zip_sha256": "b4f79a6d3483dcdf4f56e0bfdb9bf5f8899c2337c07bcdc663c3dd00d6a179bd"
+}

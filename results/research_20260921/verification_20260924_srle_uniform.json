@@ -1,0 +1,153 @@
+{
+  "artifacts": {
+    "results/research_20260921/srle_risk_replay_20260924.zip": "b4f79a6d3483dcdf4f56e0bfdb9bf5f8899c2337c07bcdc663c3dd00d6a179bd",
+    "results/research_20260921/srle_risk_replay_receipt_20260924.json": "00a1ee8a5e7fc7394abb86f0fc900784d3b93a426a38b61edbcf6cf0b0a6a83b",
+    "results/research_20260921/srle_risk_replay_validation_20260924.json": "25180403345a139b89ce859f73f5f81e7f1dc2221562fd7d6552859b7afa0495",
+    "results/research_20260921/srle_risk_standalone_validation_20260924.json": "25180403345a139b89ce859f73f5f81e7f1dc2221562fd7d6552859b7afa0495",
+    "results/research_20260921/srle_uniform_risk_20260924.png": "79ff38ffb8c6cb833cbaf523dff74f7f1dde43d97bdcafdc8ddd9f515194da88",
+    "results/research_20260921/srle_uniform_risk_20260924.svg": "1b0ee2ade27477afa052fc593875719d0bdf43deffb711c8cc8c8e9b5de37789",
+    "results/research_20260921/srle_uniform_risk_figure_receipt_20260924.json": "e36bc261f4f501b1ff1afdf3cc58c530a6fa28a61b7c77ef64d378e7ed54b17a",
+    "results/research_20260921/srle_uniform_risk_groups_20260924.csv": "bcc50ddbd5a845e0c099149009d0ffce1fefe0622dd6ddf370e104d0c38142d5",
+    "results/research_20260921/srle_uniform_risk_independent_verification_20260924.json": "55f9179580bdb44c6187d068d3cbba22250a7854a0c4c7e9a946ed2572394e2f",
+    "results/research_20260921/srle_uniform_risk_pairs_20260924.csv": "3754b9ba11eef6c1aed11fcb47bb32d8b59e7d55d77fc1507678dfdbb5b8020b",
+    "results/research_20260921/srle_uniform_risk_result_20260924.json": "0ab692ced989bdf36477e651bcdeb5a82c88319251c2fb96070549054da536fb"
+  },
+  "choices_changed": 0,
+  "downloads": 0,
+  "external_messages_sent": 0,
+  "freezes": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "files": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "files": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "files": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "files": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "files": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "files": 5
+    },
+    "srle_fixed_choice_risk_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "srle_uniform_risk_freeze.json": {
+      "changed": [],
+      "files": 15
+    }
+  },
+  "gates_changed": 0,
+  "git_head_before_result_commit": "ba5845a89adcf9f46e3b277e6e88f87dd433f489",
+  "independent_uniform_replay": {
+    "maximum_absolute_difference": 1.1102230246251565e-16,
+    "numeric_values": 570
+  },
+  "models_fit": 0,
+  "new_outcome_rows": 0,
+  "original": {
+    "changed": [],
+    "files": 228
+  },
+  "original_snapshot_sha256": "700c448f664b3a8677a42403abdfda475b6b2629423cccf136338023fec5c56c",
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "reports": {
+    "reports/research_20260921/srle_uniform_risk_checkpoint_20260924.md": "01e522d9b1dd71ad7a0aca1bc45fbf9cc608a6d789570abbe3a5039056a1565e",
+    "reports/research_20260921/srle_uniform_risk_independent_review_20260924.md": "6b5d2137a0000094e5fd73f7253147486bbd6ea597e58c15d10dc44d4aa78471"
+  },
+  "safe_legacy_checks": "Earlier 113 safe tests retained; pre-existing historical preservation mismatch unchanged; no unfiltered pytest.",
+  "scheduled_tasks_created": 0,
+  "spending": 0,
+  "standalone_package": {
+    "bytes": 181591,
+    "fresh_isolated_execution": [
+      "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "D:\\rnaexpress\\data\\interim\\research_20260921\\srle_risk_replay_fresh_20260924\\replay.py"
+    ],
+    "maximum_absolute_difference": 3.3306690738754696e-16,
+    "members": 13,
+    "numeric_values": 1026,
+    "uniform_spec_matches_committed_freeze": true,
+    "zip_sha256": "b4f79a6d3483dcdf4f56e0bfdb9bf5f8899c2337c07bcdc663c3dd00d6a179bd"
+  },
+  "tests": {
+    "command": [
+      "-u",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "src/research_20260921",
+      "-t",
+      ".",
+      "-p",
+      "test_*.py"
+    ],
+    "execution": "Executed once during this checkpoint, before packaging; result captured from tool session 40048.",
+    "exit_code": 0,
+    "reported_seconds": 4.787,
+    "stderr": ".................................................................\n----------------------------------------------------------------------\nRan 65 tests in 4.787s\n\nOK\n",
+    "tests_passed": 65
+  },
+  "time_utc": "2026-09-25T06:00:46.313823+00:00",
+  "uniform_reconstruction": {
+    "candidate_count_max": 7,
+    "candidate_count_min": 2,
+    "candidate_count_sum_over_parents": 1744,
+    "candidate_roster_sha256": "68bb5d3c4ab5a27c27f3c9d42d61683e350252032e4a4ddda9f20f4690f0a92b",
+    "max_directed_change_reconstruction_error": 2.220446049250313e-16,
+    "max_regret_gain_reconstruction_error": 2.7755575615628914e-16,
+    "original_parents": 609,
+    "retained_classes": 60,
+    "retained_parents": 592
+  },
+  "visual_check": "PNG inspected at full chart scale; all five comparators, percentages, direction panels, descriptive intervals and scope notes legible without overlap."
+}

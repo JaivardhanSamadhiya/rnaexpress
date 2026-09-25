@@ -1,0 +1,37 @@
+{
+  "absolute_tolerance": 1e-12,
+  "bootstrap_draws": 2000,
+  "ci_endpoints_checked": 684,
+  "class_balanced_cohorts": 30,
+  "classes_per_cohort": 60,
+  "classes_per_draw": 60,
+  "csv_rows": {
+    "fixed_groups.csv": 960,
+    "fixed_pairs.csv": 480,
+    "uniform_groups.csv": 240,
+    "uniform_pairs.csv": 120
+  },
+  "directions": [
+    -1,
+    1
+  ],
+  "estimates_checked": 342,
+  "fixed_statistics": 152,
+  "integrity_members_checked": 12,
+  "max_absolute_discrepancy": 3.3306690738754696e-16,
+  "models": [
+    "composition",
+    "kmer123",
+    "position_additive",
+    "position_pair"
+  ],
+  "numeric_comparisons": 1026,
+  "parents_per_cohort": 592,
+  "replicates": [
+    1,
+    2
+  ],
+  "scope": "Aggregation arithmetic only; conditional posthoc shared-experiment summaries.",
+  "status": "PASS",
+  "uniform_statistics": 190
+}

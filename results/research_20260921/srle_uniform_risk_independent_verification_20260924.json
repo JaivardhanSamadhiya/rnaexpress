@@ -1,0 +1,1388 @@
+{
+  "aggregate_rows": {
+    "policy_groups": 960,
+    "policy_pairs": 480,
+    "uniform_groups": 240,
+    "uniform_pairs": 120
+  },
+  "bootstrap": {
+    "arithmetic": "stdlib math.fsum means; explicit linear-interpolation quantiles",
+    "classes_per_draw": 60,
+    "draws": 2000,
+    "generator": "default_rng / PCG64",
+    "numpy_rng_version": "1.26.4",
+    "seed": 20260921
+  },
+  "checks": {
+    "cohort_counts_match_all_models_directions_replicates": true,
+    "new_export_hashes_match_result": true,
+    "paired_frechet_marginal_bounds": true,
+    "paired_minimum_bounds": true,
+    "prior_export_hashes_match_previous_review": true,
+    "sign_category_partitions": true,
+    "uniform_direction_sign_symmetry": true,
+    "uniform_loss_identity": true,
+    "uniform_threshold_symmetry": true,
+    "unique_complete_keys": true
+  },
+  "composition_classes": 60,
+  "estimates_recomputed": 190,
+  "input_sha256": {
+    "results/research_20260921/srle_fixed_choice_risk_groups_20260924.csv": "0b487fa862f9bf2dc6e9f6abdaebd62528ac41df9ef0e5c374743d21acf1f6c5",
+    "results/research_20260921/srle_fixed_choice_risk_pairs_20260924.csv": "d9b93a94a675a9a4e31f37742ba339422a47d44364307f075c77bb1b45046f73",
+    "results/research_20260921/srle_uniform_risk_groups_20260924.csv": "bcc50ddbd5a845e0c099149009d0ffce1fefe0622dd6ddf370e104d0c38142d5",
+    "results/research_20260921/srle_uniform_risk_pairs_20260924.csv": "3754b9ba11eef6c1aed11fcb47bb32d8b59e7d55d77fc1507678dfdbb5b8020b",
+    "results/research_20260921/srle_uniform_risk_result_20260924.json": "0ab692ced989bdf36477e651bcdeb5a82c88319251c2fb96070549054da536fb"
+  },
+  "interval_endpoints_recomputed": 380,
+  "largest_discrepancy": {
+    "absolute_difference": 1.1102230246251565e-16,
+    "actual": 0.5054543560734532,
+    "part": "estimate",
+    "reported": 0.5054543560734533,
+    "statistic": "uniform.direction-1.replicate1.fraction_negative"
+  },
+  "limitations": [
+    "Anonymous aggregates cannot independently verify candidate-set reconstruction or original pair identities.",
+    "Intervals are descriptive and conditional on the existing models and shared experiment.",
+    "No independent biological validation or original-table provenance is established."
+  ],
+  "max_absolute_difference": 1.1102230246251565e-16,
+  "numeric_values_compared": 570,
+  "parents": 592,
+  "recomputed_summaries": {
+    "composition_minus_uniform.direction-1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "composition_minus_uniform.direction-1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        0.004395694482343792,
+        0.09844812676649481
+      ],
+      "estimate": 0.05132047152949932
+    },
+    "composition_minus_uniform.direction-1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.05217990506471409,
+        0.028038562252433764
+      ],
+      "estimate": -0.012809024488885596
+    },
+    "composition_minus_uniform.direction-1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        -0.07852787668350168,
+        0.004448328831662121
+      ],
+      "estimate": -0.038511447040613704
+    },
+    "composition_minus_uniform.direction-1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        -0.06016446978963868,
+        -0.012394189926863353
+      ],
+      "estimate": -0.035989606146168814
+    },
+    "composition_minus_uniform.direction-1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.11111109554026222,
+        -0.017972371185912866
+      ],
+      "estimate": -0.06658999873583207
+    },
+    "composition_minus_uniform.direction-1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        0.007313564277158031,
+        0.08299656750464034
+      ],
+      "estimate": 0.045978552080635414
+    },
+    "composition_minus_uniform.direction-1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        0.016826907757879973,
+        0.10044516568019173
+      ],
+      "estimate": 0.05877476125983071
+    },
+    "composition_minus_uniform.direction-1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "composition_minus_uniform.direction-1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        -0.10044516568019171,
+        -0.01682690775788007
+      ],
+      "estimate": -0.0587747612598307
+    },
+    "composition_minus_uniform.direction-1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        -0.06452585432243411,
+        -0.012419825319981212
+      ],
+      "estimate": -0.038847171858579915
+    },
+    "composition_minus_uniform.direction-1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        0.002671025740678301,
+        0.035169766053124905
+      ],
+      "estimate": 0.018372617535456784
+    },
+    "composition_minus_uniform.direction-1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.06268414543918016,
+        0.006406844747652034
+      ],
+      "estimate": -0.02805615920858976
+    },
+    "composition_minus_uniform.direction-1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        0.0031521097382555775,
+        0.09218699144412679
+      ],
+      "estimate": 0.04854378345420012
+    },
+    "composition_minus_uniform.direction-1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.015898956992081978,
+        0.0756776755796287
+      ],
+      "estimate": 0.03105715731028232
+    },
+    "composition_minus_uniform.direction-1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "composition_minus_uniform.direction-1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        -0.0756776755796287,
+        0.015898956992081978
+      ],
+      "estimate": -0.031057157310282305
+    },
+    "composition_minus_uniform.direction-1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        -0.06519733122129365,
+        -0.018151540161177086
+      ],
+      "estimate": -0.04131573072275544
+    },
+    "composition_minus_uniform.direction-1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        0.005208810022073205,
+        0.03657710997426122
+      ],
+      "estimate": 0.02091626431952951
+    },
+    "composition_minus_uniform.direction1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "composition_minus_uniform.direction1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        -0.07852787668350168,
+        0.004448328831662121
+      ],
+      "estimate": -0.038511447040613704
+    },
+    "composition_minus_uniform.direction1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.05217990506471409,
+        0.028038562252433764
+      ],
+      "estimate": -0.012809024488885596
+    },
+    "composition_minus_uniform.direction1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.004395694482343792,
+        0.09844812676649481
+      ],
+      "estimate": 0.05132047152949932
+    },
+    "composition_minus_uniform.direction1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        0.020309418784183634,
+        0.06770693008167113
+      ],
+      "estimate": 0.04417329643516655
+    },
+    "composition_minus_uniform.direction1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.007313564277158031,
+        0.08299656750464034
+      ],
+      "estimate": 0.045978552080635414
+    },
+    "composition_minus_uniform.direction1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.11111109554026222,
+        -0.017972371185912866
+      ],
+      "estimate": -0.06658999873583207
+    },
+    "composition_minus_uniform.direction1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        -0.10044516568019171,
+        -0.01682690775788007
+      ],
+      "estimate": -0.0587747612598307
+    },
+    "composition_minus_uniform.direction1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "composition_minus_uniform.direction1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.016826907757879973,
+        0.10044516568019173
+      ],
+      "estimate": 0.05877476125983071
+    },
+    "composition_minus_uniform.direction1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        0.012419825319981157,
+        0.06452585432243411
+      ],
+      "estimate": 0.038847171858579915
+    },
+    "composition_minus_uniform.direction1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.03436604804442681,
+        -0.00472735878184001
+      ],
+      "estimate": -0.020474554323123128
+    },
+    "composition_minus_uniform.direction1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.0031521097382555775,
+        0.09218699144412679
+      ],
+      "estimate": 0.04854378345420012
+    },
+    "composition_minus_uniform.direction1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.06268414543918016,
+        0.006406844747652034
+      ],
+      "estimate": -0.02805615920858976
+    },
+    "composition_minus_uniform.direction1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.0756776755796287,
+        0.015898956992081978
+      ],
+      "estimate": -0.031057157310282305
+    },
+    "composition_minus_uniform.direction1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "composition_minus_uniform.direction1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        -0.015898956992081978,
+        0.0756776755796287
+      ],
+      "estimate": 0.03105715731028232
+    },
+    "composition_minus_uniform.direction1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        0.01815154016117708,
+        0.06519733122129365
+      ],
+      "estimate": 0.04131573072275544
+    },
+    "composition_minus_uniform.direction1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.03206069732826993,
+        -0.009014277646271884
+      ],
+      "estimate": -0.020399466403225937
+    },
+    "kmer123_minus_uniform.direction-1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "kmer123_minus_uniform.direction-1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        -0.17946478749709655,
+        -0.09965274820986626
+      ],
+      "estimate": -0.14083718023231911
+    },
+    "kmer123_minus_uniform.direction-1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.04352360088150018,
+        0.034092041300392
+      ],
+      "estimate": -0.005869019278047049
+    },
+    "kmer123_minus_uniform.direction-1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.1152793585658169,
+        0.179028750181146
+      ],
+      "estimate": 0.14670619951036618
+    },
+    "kmer123_minus_uniform.direction-1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        0.0914362339325995,
+        0.1402033805509214
+      ],
+      "estimate": 0.11625632750486564
+    },
+    "kmer123_minus_uniform.direction-1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.11746464156984991,
+        0.19713376027907278
+      ],
+      "estimate": 0.1569946373071373
+    },
+    "kmer123_minus_uniform.direction-1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.16937241910096076,
+        -0.10259683087938298
+      ],
+      "estimate": -0.13461990116365116
+    },
+    "kmer123_minus_uniform.direction-1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        -0.19140654716714614,
+        -0.12090669811573458
+      ],
+      "estimate": -0.15572691376267764
+    },
+    "kmer123_minus_uniform.direction-1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "kmer123_minus_uniform.direction-1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.12090669811573458,
+        0.1914065471671461
+      ],
+      "estimate": 0.15572691376267767
+    },
+    "kmer123_minus_uniform.direction-1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        0.09562208146016139,
+        0.1417873080078072
+      ],
+      "estimate": 0.11855694515374715
+    },
+    "kmer123_minus_uniform.direction-1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.06946768384299772,
+        -0.042302702499059014
+      ],
+      "estimate": -0.05532546146075838
+    },
+    "kmer123_minus_uniform.direction-1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.06734964640169502,
+        0.1404309257781827
+      ],
+      "estimate": 0.10306320291077235
+    },
+    "kmer123_minus_uniform.direction-1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.17872902584105707,
+        -0.09777877785794453
+      ],
+      "estimate": -0.13798057104932104
+    },
+    "kmer123_minus_uniform.direction-1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.169859630123927,
+        -0.09054806768655728
+      ],
+      "estimate": -0.13181646598000765
+    },
+    "kmer123_minus_uniform.direction-1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "kmer123_minus_uniform.direction-1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.0905480676865573,
+        0.169859630123927
+      ],
+      "estimate": 0.13181646598000765
+    },
+    "kmer123_minus_uniform.direction-1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        0.08282804114090467,
+        0.13310853978684034
+      ],
+      "estimate": 0.10811397489237826
+    },
+    "kmer123_minus_uniform.direction-1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.07109836754921782,
+        -0.040654440818838046
+      ],
+      "estimate": -0.05575550779902425
+    },
+    "kmer123_minus_uniform.direction1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "kmer123_minus_uniform.direction1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        -0.17609984891651556,
+        -0.10828934748122249
+      ],
+      "estimate": -0.1416070358653692
+    },
+    "kmer123_minus_uniform.direction1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.05158652028719737,
+        0.027961208780930995
+      ],
+      "estimate": -0.01102695547764992
+    },
+    "kmer123_minus_uniform.direction1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.1081144145579215,
+        0.19775310123903872
+      ],
+      "estimate": 0.1526339913430191
+    },
+    "kmer123_minus_uniform.direction1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        0.0913064220745852,
+        0.13253943347795596
+      ],
+      "estimate": 0.1124696106052536
+    },
+    "kmer123_minus_uniform.direction1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.11466882417929293,
+        0.18736428807111094
+      ],
+      "estimate": 0.14906541352166353
+    },
+    "kmer123_minus_uniform.direction1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.18644001902803986,
+        -0.1062277602027602
+      ],
+      "estimate": -0.146707272665606
+    },
+    "kmer123_minus_uniform.direction1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        -0.19456956754183316,
+        -0.11799847862560543
+      ],
+      "estimate": -0.15538286611793556
+    },
+    "kmer123_minus_uniform.direction1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "kmer123_minus_uniform.direction1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.11799847862560538,
+        0.19456956754183316
+      ],
+      "estimate": 0.15538286611793556
+    },
+    "kmer123_minus_uniform.direction1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        0.09150540277235396,
+        0.13559809724620422
+      ],
+      "estimate": 0.11368431323356078
+    },
+    "kmer123_minus_uniform.direction1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.06593333262557041,
+        -0.03922321010371681
+      ],
+      "estimate": -0.052199636635655286
+    },
+    "kmer123_minus_uniform.direction1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.10364257095142512,
+        0.18489074118397036
+      ],
+      "estimate": 0.1451009330946831
+    },
+    "kmer123_minus_uniform.direction1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.14643193483310668,
+        -0.07565202970030227
+      ],
+      "estimate": -0.10931290092366482
+    },
+    "kmer123_minus_uniform.direction1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.17985340116191678,
+        -0.09736195857672424
+      ],
+      "estimate": -0.13885816109045276
+    },
+    "kmer123_minus_uniform.direction1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "kmer123_minus_uniform.direction1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.09736195857672421,
+        0.17985340116191675
+      ],
+      "estimate": 0.1388581610904528
+    },
+    "kmer123_minus_uniform.direction1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        0.08553613903749704,
+        0.1372338644957428
+      ],
+      "estimate": 0.11155592306881047
+    },
+    "kmer123_minus_uniform.direction1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.060610482555443324,
+        -0.03491655100731203
+      ],
+      "estimate": -0.04711401855182802
+    },
+    "position_additive_minus_uniform.direction-1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_additive_minus_uniform.direction-1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        -0.13043238576623994,
+        -0.048690258944373524
+      ],
+      "estimate": -0.09107714474311696
+    },
+    "position_additive_minus_uniform.direction-1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.020418288707177594,
+        0.05894509893077602
+      ],
+      "estimate": 0.01817103403283959
+    },
+    "position_additive_minus_uniform.direction-1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.032654651525172364,
+        0.11103741025949361
+      ],
+      "estimate": 0.07290611071027737
+    },
+    "position_additive_minus_uniform.direction-1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        0.03548563221088195,
+        0.08175461875705294
+      ],
+      "estimate": 0.058797124278517084
+    },
+    "position_additive_minus_uniform.direction-1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.05116326634399552,
+        0.12923067281869363
+      ],
+      "estimate": 0.090675460342127
+    },
+    "position_additive_minus_uniform.direction-1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.12173863633858426,
+        -0.056392299332611875
+      ],
+      "estimate": -0.089573650346567
+    },
+    "position_additive_minus_uniform.direction-1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        -0.1359529878194722,
+        -0.05642465943393026
+      ],
+      "estimate": -0.09782455686032074
+    },
+    "position_additive_minus_uniform.direction-1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_additive_minus_uniform.direction-1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.05642465943393026,
+        0.13595298781947218
+      ],
+      "estimate": 0.09782455686032075
+    },
+    "position_additive_minus_uniform.direction-1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        0.03971175629187462,
+        0.08631516588880447
+      ],
+      "estimate": 0.0643079066067522
+    },
+    "position_additive_minus_uniform.direction-1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.04689561260690852,
+        -0.022046063031217422
+      ],
+      "estimate": -0.034529072004170595
+    },
+    "position_additive_minus_uniform.direction-1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.02249935270972598,
+        0.09132535409870479
+      ],
+      "estimate": 0.05659367706624652
+    },
+    "position_additive_minus_uniform.direction-1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.14002413480423895,
+        -0.0558816434221643
+      ],
+      "estimate": -0.0981912777808611
+    },
+    "position_additive_minus_uniform.direction-1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.1064085661820818,
+        -0.023508918803033383
+      ],
+      "estimate": -0.06615869859307358
+    },
+    "position_additive_minus_uniform.direction-1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_additive_minus_uniform.direction-1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.02350891880303339,
+        0.1064085661820818
+      ],
+      "estimate": 0.06615869859307359
+    },
+    "position_additive_minus_uniform.direction-1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        0.03299840934698888,
+        0.07853391175162323
+      ],
+      "estimate": 0.05618059063818349
+    },
+    "position_additive_minus_uniform.direction-1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.04546829792778389,
+        -0.017949739010522
+      ],
+      "estimate": -0.031711205017423354
+    },
+    "position_additive_minus_uniform.direction1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_additive_minus_uniform.direction1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        -0.09090837016378683,
+        -0.007495912748516932
+      ],
+      "estimate": -0.04974816711066711
+    },
+    "position_additive_minus_uniform.direction1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.06791486708379069,
+        0.00977873534323184
+      ],
+      "estimate": -0.029854531451059225
+    },
+    "position_additive_minus_uniform.direction1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.029732001685300293,
+        0.12624713715746702
+      ],
+      "estimate": 0.07960269856172635
+    },
+    "position_additive_minus_uniform.direction1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        0.027845893813407737,
+        0.07636840999590501
+      ],
+      "estimate": 0.052815921587553084
+    },
+    "position_additive_minus_uniform.direction1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.036793484964109974,
+        0.11473593654609278
+      ],
+      "estimate": 0.0763056979286146
+    },
+    "position_additive_minus_uniform.direction1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.1078327389046139,
+        -0.02733470975398059
+      ],
+      "estimate": -0.06801508753592087
+    },
+    "position_additive_minus_uniform.direction1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        -0.11898645342858016,
+        -0.03207788724874663
+      ],
+      "estimate": -0.07592813257986868
+    },
+    "position_additive_minus_uniform.direction1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_additive_minus_uniform.direction1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.03207788724874661,
+        0.11898645342858012
+      ],
+      "estimate": 0.07592813257986869
+    },
+    "position_additive_minus_uniform.direction1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        0.025994213236717092,
+        0.07641588155353689
+      ],
+      "estimate": 0.05165114009099071
+    },
+    "position_additive_minus_uniform.direction1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.03184587041786158,
+        -0.0062330234631724395
+      ],
+      "estimate": -0.01956279700580686
+    },
+    "position_additive_minus_uniform.direction1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.04259815957961791,
+        0.13224298437673437
+      ],
+      "estimate": 0.08818896928688597
+    },
+    "position_additive_minus_uniform.direction1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.08236459984749046,
+        -0.01362808857005907
+      ],
+      "estimate": -0.04832675050001438
+    },
+    "position_additive_minus_uniform.direction1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.10064917550813385,
+        -0.005870487344445752
+      ],
+      "estimate": -0.05342273309252476
+    },
+    "position_additive_minus_uniform.direction1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_additive_minus_uniform.direction1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.005870487344445681,
+        0.10064917550813386
+      ],
+      "estimate": 0.05342273309252477
+    },
+    "position_additive_minus_uniform.direction1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        0.027358901586611358,
+        0.07864346645771951
+      ],
+      "estimate": 0.05339936608910974
+    },
+    "position_additive_minus_uniform.direction1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.03350642619366184,
+        -0.007744694112635296
+      ],
+      "estimate": -0.020929545892416728
+    },
+    "position_pair_minus_uniform.direction-1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_pair_minus_uniform.direction-1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        -0.21962797493787076,
+        -0.15010404422930462
+      ],
+      "estimate": -0.18425825838256393
+    },
+    "position_pair_minus_uniform.direction-1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.0023594560352199214,
+        0.07862980687329635
+      ],
+      "estimate": 0.037366310207282434
+    },
+    "position_pair_minus_uniform.direction-1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.11252019521373686,
+        0.18084243333826663
+      ],
+      "estimate": 0.1468919481752815
+    },
+    "position_pair_minus_uniform.direction-1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        0.1035970620435214,
+        0.14700057980316913
+      ],
+      "estimate": 0.1251474390261117
+    },
+    "position_pair_minus_uniform.direction-1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.12480097568326737,
+        0.1995439224741307
+      ],
+      "estimate": 0.1617669259752593
+    },
+    "position_pair_minus_uniform.direction-1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.18930436761926345,
+        -0.12220533537064787
+      ],
+      "estimate": -0.15428977989602988
+    },
+    "position_pair_minus_uniform.direction-1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        -0.202466377748409,
+        -0.13688822257699862
+      ],
+      "estimate": -0.17005629657122714
+    },
+    "position_pair_minus_uniform.direction-1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_pair_minus_uniform.direction-1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.13688822257699865,
+        0.202466377748409
+      ],
+      "estimate": 0.17005629657122714
+    },
+    "position_pair_minus_uniform.direction-1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        0.10203871862456643,
+        0.14559009483691598
+      ],
+      "estimate": 0.12392071761335441
+    },
+    "position_pair_minus_uniform.direction-1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.07190662580599778,
+        -0.044587766779897314
+      ],
+      "estimate": -0.057805307130493075
+    },
+    "position_pair_minus_uniform.direction-1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.08218685187369217,
+        0.15435659630171777
+      ],
+      "estimate": 0.11710923018596629
+    },
+    "position_pair_minus_uniform.direction-1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.21705335336923876,
+        -0.14402827954067537
+      ],
+      "estimate": -0.1794673057652224
+    },
+    "position_pair_minus_uniform.direction-1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.19547227890165386,
+        -0.1274707751970252
+      ],
+      "estimate": -0.1610939099866183
+    },
+    "position_pair_minus_uniform.direction-1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_pair_minus_uniform.direction-1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.1274707751970252,
+        0.1954722789016539
+      ],
+      "estimate": 0.16109390998661832
+    },
+    "position_pair_minus_uniform.direction-1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        0.09982011326971248,
+        0.1445908160033919
+      ],
+      "estimate": 0.1219195795810106
+    },
+    "position_pair_minus_uniform.direction-1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.07804827347796314,
+        -0.051590948449136934
+      ],
+      "estimate": -0.06499123428188211
+    },
+    "position_pair_minus_uniform.direction1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_pair_minus_uniform.direction1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        -0.1608272317420234,
+        -0.0924149387726471
+      ],
+      "estimate": -0.12702849249515916
+    },
+    "position_pair_minus_uniform.direction1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        -0.09020896933891726,
+        -0.011653992771631677
+      ],
+      "estimate": -0.05072739238642016
+    },
+    "position_pair_minus_uniform.direction1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.14080281743911954,
+        0.2156763932286849
+      ],
+      "estimate": 0.17775588488157934
+    },
+    "position_pair_minus_uniform.direction1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        0.09026435207827462,
+        0.13165166882525245
+      ],
+      "estimate": 0.11129702855608162
+    },
+    "position_pair_minus_uniform.direction1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.11698942568426944,
+        0.18505672523849606
+      ],
+      "estimate": 0.1503279842842343
+    },
+    "position_pair_minus_uniform.direction1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.17487914999737916,
+        -0.1000298849106141
+      ],
+      "estimate": -0.13707913614163614
+    },
+    "position_pair_minus_uniform.direction1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        -0.18817452466097428,
+        -0.12129305669125116
+      ],
+      "estimate": -0.15497262281185892
+    },
+    "position_pair_minus_uniform.direction1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_pair_minus_uniform.direction1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.12129305669125114,
+        0.18817452466097428
+      ],
+      "estimate": 0.15497262281185892
+    },
+    "position_pair_minus_uniform.direction1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        0.08593885689922652,
+        0.1277433224740174
+      ],
+      "estimate": 0.10751276083246879
+    },
+    "position_pair_minus_uniform.direction1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.06409043510157401,
+        -0.039675143198988495
+      ],
+      "estimate": -0.05196541665567828
+    },
+    "position_pair_minus_uniform.direction1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.1451463416810813,
+        0.21194108377926085
+      ],
+      "estimate": 0.17904078336786672
+    },
+    "position_pair_minus_uniform.direction1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        -0.14528203538873677,
+        -0.07860112864148455
+      ],
+      "estimate": -0.11140103886596942
+    },
+    "position_pair_minus_uniform.direction1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        -0.18546269637095159,
+        -0.11412683905600574
+      ],
+      "estimate": -0.14981175456487958
+    },
+    "position_pair_minus_uniform.direction1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "position_pair_minus_uniform.direction1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.11412683905600574,
+        0.18546269637095156
+      ],
+      "estimate": 0.14981175456487958
+    },
+    "position_pair_minus_uniform.direction1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        0.09467244526302819,
+        0.13871804654365488
+      ],
+      "estimate": 0.11731520124432966
+    },
+    "position_pair_minus_uniform.direction1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        -0.060401034360252286,
+        -0.036440105965791024
+      ],
+      "estimate": -0.048054225050878724
+    },
+    "uniform.direction-1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "uniform.direction-1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        0.356258027997594,
+        0.4287781308718288
+      ],
+      "estimate": 0.3920905302773358
+    },
+    "uniform.direction-1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        0.19911758292376347,
+        0.2928260397556404
+      ],
+      "estimate": 0.24519840439909885
+    },
+    "uniform.direction-1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.32386689191980855,
+        0.4009463268444518
+      ],
+      "estimate": 0.3627110653235653
+    },
+    "uniform.direction-1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        -0.11895822828895226,
+        -0.04491286361429456
+      ],
+      "estimate": -0.08836998896613626
+    },
+    "uniform.direction-1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.3377409265310307,
+        0.41389417860303274
+      ],
+      "estimate": 0.376318997360664
+    },
+    "uniform.direction-1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        0.33620001529912985,
+        0.4167026575450013
+      ],
+      "estimate": 0.37652248392040055
+    },
+    "uniform.direction-1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        0.4746496998959759,
+        0.5404086101629851
+      ],
+      "estimate": 0.5054543560734532
+    },
+    "uniform.direction-1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "uniform.direction-1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.4595913898370148,
+        0.5253503001040241
+      ],
+      "estimate": 0.49454564392654665
+    },
+    "uniform.direction-1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        -0.022977379800687557,
+        0.048321323357705614
+      ],
+      "estimate": 0.007616890400539428
+    },
+    "uniform.direction-1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        0.1115198242650806,
+        0.14258420055263876
+      ],
+      "estimate": 0.12646979154063887
+    },
+    "uniform.direction-1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.29613246508539043,
+        0.37440976301636886
+      ],
+      "estimate": 0.3352277468801775
+    },
+    "uniform.direction-1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        0.341764341050539,
+        0.41404902064370813
+      ],
+      "estimate": 0.37599949579741243
+    },
+    "uniform.direction-1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        0.49164448882810863,
+        0.5578037870530318
+      ],
+      "estimate": 0.5239251088803172
+    },
+    "uniform.direction-1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "uniform.direction-1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.44219621294696815,
+        0.5083555111718913
+      ],
+      "estimate": 0.47607489111968276
+    },
+    "uniform.direction-1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        -0.028398457805896293,
+        0.04208395533987936
+      ],
+      "estimate": 0.0023358395995850736
+    },
+    "uniform.direction-1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        0.11655431552455879,
+        0.14689544176760277
+      ],
+      "estimate": 0.13089247251736755
+    },
+    "uniform.direction1.paired.fraction_involving_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "uniform.direction1.paired.fraction_negative_both": {
+      "descriptive_ci95": [
+        0.32386689191980855,
+        0.4009463268444518
+      ],
+      "estimate": 0.3627110653235653
+    },
+    "uniform.direction1.paired.fraction_opposite_signs": {
+      "descriptive_ci95": [
+        0.19911758292376347,
+        0.2928260397556404
+      ],
+      "estimate": 0.24519840439909885
+    },
+    "uniform.direction1.paired.fraction_positive_both": {
+      "descriptive_ci95": [
+        0.356258027997594,
+        0.4287781308718288
+      ],
+      "estimate": 0.3920905302773358
+    },
+    "uniform.direction1.paired.mean_smaller_directed_change": {
+      "descriptive_ci95": [
+        -0.138967243434774,
+        -0.06194773176798997
+      ],
+      "estimate": -0.09832271896626077
+    },
+    "uniform.direction1.replicate1.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.33620001529912985,
+        0.4167026575450013
+      ],
+      "estimate": 0.37652248392040055
+    },
+    "uniform.direction1.replicate1.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        0.3377409265310307,
+        0.41389417860303274
+      ],
+      "estimate": 0.376318997360664
+    },
+    "uniform.direction1.replicate1.fraction_negative": {
+      "descriptive_ci95": [
+        0.4595913898370148,
+        0.5253503001040241
+      ],
+      "estimate": 0.49454564392654665
+    },
+    "uniform.direction1.replicate1.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "uniform.direction1.replicate1.fraction_positive": {
+      "descriptive_ci95": [
+        0.4746496998959759,
+        0.5404086101629851
+      ],
+      "estimate": 0.5054543560734532
+    },
+    "uniform.direction1.replicate1.mean_directed_change": {
+      "descriptive_ci95": [
+        -0.04832132335770564,
+        0.02297737980068754
+      ],
+      "estimate": -0.007616890400539428
+    },
+    "uniform.direction1.replicate1.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        0.10947136988459978,
+        0.1688395643434992
+      ],
+      "estimate": 0.1340866819411783
+    },
+    "uniform.direction1.replicate2.fraction_benefit_at_least_0_1": {
+      "descriptive_ci95": [
+        0.341764341050539,
+        0.41404902064370813
+      ],
+      "estimate": 0.37599949579741243
+    },
+    "uniform.direction1.replicate2.fraction_harm_at_least_0_1": {
+      "descriptive_ci95": [
+        0.29613246508539043,
+        0.37440976301636886
+      ],
+      "estimate": 0.3352277468801775
+    },
+    "uniform.direction1.replicate2.fraction_negative": {
+      "descriptive_ci95": [
+        0.44219621294696815,
+        0.5083555111718913
+      ],
+      "estimate": 0.47607489111968276
+    },
+    "uniform.direction1.replicate2.fraction_numerical_tie": {
+      "descriptive_ci95": [
+        0.0,
+        0.0
+      ],
+      "estimate": 0.0
+    },
+    "uniform.direction1.replicate2.fraction_positive": {
+      "descriptive_ci95": [
+        0.49164448882810863,
+        0.5578037870530318
+      ],
+      "estimate": 0.5239251088803172
+    },
+    "uniform.direction1.replicate2.mean_directed_change": {
+      "descriptive_ci95": [
+        -0.0420839553398794,
+        0.028398457805896216
+      ],
+      "estimate": -0.0023358395995850736
+    },
+    "uniform.direction1.replicate2.mean_loss_including_zero": {
+      "descriptive_ci95": [
+        0.10686524909434299,
+        0.1692181412413457
+      ],
+      "estimate": 0.1332283121169526
+    }
+  },
+  "scope": "Independent arithmetic and consistency review of anonymous exports only; no sequence-level cohort reconstruction or new experiment.",
+  "status": "PASS",
+  "tolerance": 1e-12
+}
