@@ -1,0 +1,30 @@
+{
+  "choices_changed": false,
+  "created_utc": "2026-09-25T05:46:44.139562+00:00",
+  "files": {
+    "reports/research_20260921/srle_uniform_risk_spec_20260924.md": "59ab21a74467642715ca5c97077b42a377d3eb230aeb443caeee2f4327488993",
+    "results/research_20260921/checkpoint_receipt.json": "bc35263bda2d97cf27d7e2eca0f2902fbb76d7afba0d531a85a25335124c4e12",
+    "results/research_20260921/raw_replication_scores.csv": "facfcc7b9a286911b965c63c0c0c0c7d730275459c7abaa16c2d0752222f08b5",
+    "results/research_20260921/raw_swap_evaluation.csv": "7aff528234b2dff858d4d87fad4dbeee8fe709a8c4fe343705955ab3d2e46a69",
+    "results/research_20260921/raw_swap_result.json": "fb1fab6b5bb60a439ac5f43ec5ac0a0e264a76c7e6cf466dd6ff91e49c13de19",
+    "results/research_20260921/robustness_predictions.csv": "8b337f7d7d4910c10049e33b780d97ee5a8982bf3335305626ed58d1baadf362",
+    "results/research_20260921/robustness_swap_predictions.csv": "177afe068781f8412e50b4484ca313db6c81d89a113c9538a89a9428bfc822b3",
+    "results/research_20260921/srle_fixed_choice_risk_freeze.json": "9f84584c0cd9f49f9f6f097bbbac7ab9b975671005bbf6ef4be51bb0428e4300",
+    "results/research_20260921/srle_fixed_choice_risk_groups_20260924.csv": "0b487fa862f9bf2dc6e9f6abdaebd62528ac41df9ef0e5c374743d21acf1f6c5",
+    "results/research_20260921/srle_fixed_choice_risk_pairs_20260924.csv": "d9b93a94a675a9a4e31f37742ba339422a47d44364307f075c77bb1b45046f73",
+    "results/research_20260921/srle_fixed_choice_risk_result_20260924.json": "e32881e75074551e76b1f7b32d925dd2364dd6f65ab056b81e0195d8829f71d2",
+    "src/research_20260921/common.py": "a3ca8380bd8c624209dab319ed212fc3b88a6afa0fff618ae03dac1b44028732",
+    "src/research_20260921/srle_fixed_choice_risk.py": "0824f04735231e9ff3380d6ac91ad8dcb1a653c907fd00c261641453453f3cdc",
+    "src/research_20260921/srle_uniform_risk.py": "6db08d997d99767113f3312b7d462ea0e22319bfd9669bf6a1572d3b0f1cef38",
+    "src/research_20260921/test_srle_uniform_risk.py": "380657debc9bcfa3339fbef389c9d43b5c8c6af52bb9b6598e8a7d7c134e7b94"
+  },
+  "models_fit": 0,
+  "new_outcomes": false,
+  "review": "Independent pre-execution source/spec review; five synthetic tests passed; nonfinite archived-statistic rejection verified.",
+  "scope": "Post hoc exact missing-comparator check on already-open outcomes; not independent biological confirmation.",
+  "stop_rule": "After this required comparator, no further same-data search to strengthen the apparent positive.",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3"
+  }
+}
