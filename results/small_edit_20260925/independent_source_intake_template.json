@@ -1,0 +1,42 @@
+{
+  "status": "UNFILLED_NOT_ADMITTED",
+  "purpose": "Outcome-blind metadata review; not authorization to access outcomes",
+  "source_identity": {
+    "publication_doi": null,
+    "official_accession": null,
+    "official_metadata_url": null,
+    "free_access_evidence": null,
+    "reuse_terms": null,
+    "expected_download_bytes": null,
+    "file_manifest_and_checksums": null
+  },
+  "independence": {
+    "original_experiment_id": null,
+    "prior_inventory_comparison": null,
+    "sample_library_overlap": null,
+    "parent_gene_reporter_overlap": null,
+    "prior_outcome_exposure": null,
+    "evidence_references": null,
+    "review_disposition": null
+  },
+  "measurement": {
+    "experimentally_declared_parent_mutant_lineage": null,
+    "exact_sequences_and_coordinate_manifest": null,
+    "same_context_reference_definition": null,
+    "endpoint_scale_and_direction": null,
+    "paired_effect_formula": null,
+    "biological_replicate_identity": null,
+    "uncertainty_definition": null,
+    "magnitude_compatibility": null,
+    "direction_compatibility": null,
+    "ranking_compatibility": null
+  },
+  "design_counts_by_size_and_context": null,
+  "independent_grouping_rule": null,
+  "candidate_sets_from_design_metadata": null,
+  "protected_or_unadmitted_source_check": null,
+  "metadata_only_review_record": null,
+  "target_specific_protocol_commit": null,
+  "outcome_access_authorized": false,
+  "evaluation_authorized": false
+}

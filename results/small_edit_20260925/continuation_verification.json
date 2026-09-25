@@ -1,0 +1,122 @@
+{
+  "checks": "Source hashes/Git blob IDs, JSON validity, local script syntax, archive preservation; no new model test claim",
+  "created_utc": "2026-09-25T23:57:23.632495+00:00",
+  "downloaded": [
+    {
+      "bytes": 1795,
+      "git_blob": null,
+      "path": "data/external/research_20260921/srle_provenance_continuation_20260925/2255946636e755c1551f81c4ce32270ce5616f63.tree.json",
+      "sha256": "63b34f9a568b825ed07982bc3b2172f84ee249dfdfc57369f6e552c6b2ef4379",
+      "url": "https://api.github.com/repos/lysovosyl/SRLE-seq/git/trees/2255946636e755c1551f81c4ce32270ce5616f63?recursive=1"
+    },
+    {
+      "bytes": 7978,
+      "git_blob": "8de217f358a08525bcb1eeb6f2cfba3c706fd567",
+      "path": "data/external/research_20260921/srle_provenance_continuation_20260925/earlier_kmer_location_analysis.py",
+      "sha256": "58c4be9bbf43b7082740b8addc9ae4e04c7dc4662e71acf0eacbddacb1c6b970",
+      "url": "https://api.github.com/repos/lysovosyl/SRLE-seq/git/blobs/8de217f358a08525bcb1eeb6f2cfba3c706fd567"
+    },
+    {
+      "bytes": 3735,
+      "git_blob": "32db446b8cf79f1d3dd80ae717703168a6d49dce",
+      "path": "data/external/research_20260921/srle_provenance_continuation_20260925/historical_analyse_kmer_library.py",
+      "sha256": "a68b80fce36c2a2dc8023373b10a4337c92f942e06c73cc485d98ea946ed4ec9",
+      "url": "https://api.github.com/repos/lysovosyl/SRLE-seq/git/blobs/32db446b8cf79f1d3dd80ae717703168a6d49dce"
+    },
+    {
+      "bytes": 4010,
+      "git_blob": "7a5f9befe8f8740c0e75d84612ea44fa31d70795",
+      "path": "data/external/research_20260921/srle_provenance_continuation_20260925/historical_library_split.py",
+      "sha256": "8a819880d71f54846d6076e751c73fc36fd68c5d10bafcf74225c87d87811ab6",
+      "url": "https://api.github.com/repos/lysovosyl/SRLE-seq/git/blobs/7a5f9befe8f8740c0e75d84612ea44fa31d70795"
+    }
+  ],
+  "downloaded_code_executed": false,
+  "models_fit": 0,
+  "new_artifacts": {
+    "reports/small_edit_20260925/independent_confirmation_admission.md": "a377c6359d10f74e4706c49c78f8e435dcf3d90d09632a9b93190e72338e6bde",
+    "reports/small_edit_20260925/provenance_continuation_findings.md": "ff13aa55cd0637269dc7c607622d27ab7862c698b7449af40101efd778a78edb",
+    "reports/small_edit_20260925/provenance_continuation_scope.md": "642cd137ad263044d1ed46551eccf106fb972d84cf50162bb2789c956d012462",
+    "results/small_edit_20260925/independent_source_intake_template.json": "056cc5425fcdcbc96bbce3033d154e35c61ddcfa88ec5f9838130649d0b80856",
+    "src/small_edit_20260925/provenance_continuation.py": "dd617c3efd1a74c2df9b220aeab4c1d72c68a17f5b489f7e8604588706054b49",
+    "src/small_edit_20260925/verify_continuation.py": "5cf7c616ae6f15d3e55148f700e3b280592275968332f45f71bc1d1c405a1156"
+  },
+  "new_dataset_discovery": false,
+  "new_source_admitted": false,
+  "outcomes_loaded": 0,
+  "prediction_freeze_unchanged": true,
+  "preservation": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "checked": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "checked": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "checked": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "checked": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "checked": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "checked": 5
+    },
+    "srle_fixed_choice_risk_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "srle_uniform_risk_freeze.json": {
+      "changed": [],
+      "checked": 15
+    },
+    "tracked_source_snapshot.json": {
+      "changed": [],
+      "checked": 228
+    }
+  },
+  "prior_bundle_member_files_unchanged": 70,
+  "prior_bundle_sha256_unchanged": "e829f487b6071d92b1d7a9843c96a987481c9c05888f4b619a7d35e85b929e55",
+  "provenance_status": "PARTIAL",
+  "status": "PASS"
+}
