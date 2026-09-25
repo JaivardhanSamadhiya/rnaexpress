@@ -1,0 +1,20 @@
+{
+  "choices_changed": false,
+  "created_utc": "2026-09-25T00:02:07.446400+00:00",
+  "files": {
+    "reports/research_20260921/srle_fixed_choice_risk_spec_20260924.md": "a8e117ca368e64a3b80a62e8350a4df15cdd0c30a7b03bac646ea3c46b2745cb",
+    "results/research_20260921/checkpoint_receipt.json": "bc35263bda2d97cf27d7e2eca0f2902fbb76d7afba0d531a85a25335124c4e12",
+    "results/research_20260921/raw_swap_evaluation.csv": "7aff528234b2dff858d4d87fad4dbeee8fe709a8c4fe343705955ab3d2e46a69",
+    "results/research_20260921/raw_swap_result.json": "fb1fab6b5bb60a439ac5f43ec5ac0a0e264a76c7e6cf466dd6ff91e49c13de19",
+    "src/research_20260921/common.py": "a3ca8380bd8c624209dab319ed212fc3b88a6afa0fff618ae03dac1b44028732",
+    "src/research_20260921/srle_fixed_choice_risk.py": "0824f04735231e9ff3380d6ac91ad8dcb1a653c907fd00c261641453453f3cdc",
+    "src/research_20260921/test_srle_fixed_choice_risk.py": "2867d549ddf2f7f8a1d79538d85e84f7c2cbb345a11a1bdd2b2191b6f36f28f2"
+  },
+  "new_outcomes": false,
+  "review": "Independent source/spec review completed; numerical ties now contribute zero loss, with negative-near-zero synthetic test. Four synthetic tests passed before freeze.",
+  "scope": "Post hoc descriptive risk audit; all source results already open. This is a code/spec freeze before diagnostic execution, not prospective biological confirmation.",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3"
+  }
+}
