@@ -1,0 +1,15 @@
+dataset,edit_size_band,variant_context_measurements,distinct_parent_mutant_pairs,unique_parents,unique_genes,contexts,variants_per_parent_min,variants_per_parent_median,variants_per_parent_max,parent_contexts_with_2_candidates,effect_variance_descriptive,effect_uncertainty_available,span_le6_measurements,minimum_alignment_distance_differs,independence_note
+mikl_gse173098,1,26,13,13,11,2,1,1.0,1,0,1.408791817772999,26,26,0,parent/gene clustering required; already exposed source
+mikl_gse173098,2,296,148,144,73,2,1,1.0,2,8,0.7192104249240228,296,292,0,parent/gene clustering required; already exposed source
+mikl_gse173098,3,1334,667,636,161,2,1,1.0,3,60,0.7096714572812312,1334,1210,40,parent/gene clustering required; already exposed source
+mikl_gse173098,4-6,17944,8972,5052,221,2,1,1.0,10,4390,0.7212303477334508,17944,9416,3362,parent/gene clustering required; already exposed source
+mikl_gse173098,>6,4200,2100,1628,183,2,1,1.0,6,672,0.8629385682594042,4200,0,1518,parent/gene clustering required; already exposed source
+moffatt_gse334718,1,13,7,2,2,3,1,3.5,6,2,0.3003360004103631,13,13,0,parent/gene clustering required; already exposed source
+moffatt_gse334718,2,522,313,6,6,7,39,52.5,71,21,1.4426551646516157,522,511,0,parent/gene clustering required; already exposed source
+moffatt_gse334718,3,1522,968,7,7,7,1,172.0,250,21,1.2301030797591206,1522,1517,616,parent/gene clustering required; already exposed source
+moffatt_gse334718,4-6,12054,7756,8,8,9,1,1138.5,1626,34,1.289326649311657,12054,9691,5869,parent/gene clustering required; already exposed source
+moffatt_gse334718,>6,50920,37248,10,10,10,33,3129.5,9252,53,1.2352381271975146,50920,0,49148,parent/gene clustering required; already exposed source
+sirloin,1,227,227,2,2,1,65,113.5,162,2,0.09766803004299941,0,227,0,two parents only
+srle,2,1744,1744,592,1,1,2,3.0,7,592,0.10979116398663802,0,1744,0,"single shared reporter, overlapping neighborhoods"
+tdp43_gse288185,4-6,2086,2086,2086,16,1,1,1.0,1,0,0.02102014773650271,0,2086,405,parent/gene clustering required; already exposed source
+tdp43_gse288185,>6,2480,2480,2480,15,1,1,1.0,1,0,0.5850811969747907,0,0,1179,parent/gene clustering required; already exposed source

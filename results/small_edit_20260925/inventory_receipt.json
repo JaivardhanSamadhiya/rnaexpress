@@ -1,0 +1,33 @@
+{
+  "distance_discrepancies_are_metric_definitions_not_source_errors": true,
+  "excluded_sources": {
+    "Arora": "tiled alternatives; no declared paired small edit reference",
+    "Faraway": "intron configuration and barcodes; not admitted small RNA-sequence substitutions",
+    "SEERS": "random inserts; no declared parent-mutant mapping; failed/inconclusive prior screen",
+    "Shukla": "tiled alternatives; raw/processed mapping unresolved",
+    "Wen": "unadmitted RNA/outcome mapping",
+    "astrocyte": "sealed",
+    "context2022": "tiled/context alternatives; no admitted same-context small-mutant lineage",
+    "external_stability": "wrong endpoint; admission failed",
+    "mutREL": "unadmitted mutation-event semantics",
+    "nzip": "quarantined uncertified truth"
+  },
+  "inputs": {
+    "results/research_20260921/raw_replication_scores.csv": "facfcc7b9a286911b965c63c0c0c0c7d730275459c7abaa16c2d0752222f08b5",
+    "results/research_20260921/robustness_predictions.csv": "8b337f7d7d4910c10049e33b780d97ee5a8982bf3335305626ed58d1baadf362",
+    "results/research_20260921/sirloin_transfer_predictions.csv": "feac4b638bee7d639619c955c06e92267611b7b4e8920ea658d1139f768f8179",
+    "results/v4_phaseA/common_intervention_outcomes.csv.gz": "d95829f1693f9e407071a15ec4a823ef0437e46f566eed8a6c912c59eebd0aa3",
+    "results/v4_phaseA/mikl_interventions.csv.gz": "daf5c035afb16e9dbbf90714c595c0e733f4eec70f2191d475b78c20e9f29bcc",
+    "results/v4_phaseB/model_candidate_rows.csv.gz": "4e2339e1845147a14076bd8db9105a60ac91c59607c718212b59199f3ec0fd4c"
+  },
+  "outputs": {
+    "mikl_existing_fold_eligible.csv.gz": "1c450199918fcb903669640a681516f4dfca691bfcea5719501135746f1022c8",
+    "minimum_distance_counts.csv": "2d067f49e6e4ba53761f4e5b3874cb15ecd3130f30890d9fbf638ea6f5f42954",
+    "small_edit_pairs.csv.gz": "b56d9ce9712776ba477fcb8231d7d431c0dce895c2ed1054f1a1767360e482fd",
+    "small_edit_size_counts.csv": "3b3238944508d7708a10186ef0f8e75f952a6e80809e26e79ecd736fa979ea67"
+  },
+  "pairs": 95368,
+  "prediction_eligible_mikl_genes": 189,
+  "prediction_eligible_mikl_measurements": 19438,
+  "status": "PASS"
+}

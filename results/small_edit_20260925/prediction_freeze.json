@@ -1,0 +1,43 @@
+{
+  "alpha_grid": [
+    10,
+    100
+  ],
+  "bootstrap_draws": 2000,
+  "created_utc": "2026-09-25T18:28:18.404323+00:00",
+  "files": {
+    "reports/small_edit_20260925/small_edit_prediction_protocol.md": "779003b0b9516171975ad1e47125d2d7c841cae0169d2481178352eb503223c8",
+    "results/small_edit_20260925/inventory_receipt.json": "a3bb3d554cb723f612f838b2034d4043cdf02d259c19ee4dc63e5e88efc08903",
+    "results/small_edit_20260925/mikl_existing_fold_eligible.csv.gz": "1c450199918fcb903669640a681516f4dfca691bfcea5719501135746f1022c8",
+    "src/small_edit_20260925/__init__.py": "bbaeeed43d655f160ab4bfd1a183b8c9cab820602e149c8034c255ce4926ad54",
+    "src/small_edit_20260925/common.py": "7a1427ef5681781e011d0939f7f3bb52bcf1a8d988557906d50c536035d28bf1",
+    "src/small_edit_20260925/evaluate.py": "5ec601ba2c9091d3989826b659dc8c6beb713c5a8908e7acdbb612dfe61b60cc",
+    "src/small_edit_20260925/features.py": "65cf3c9dbf1d596e4a7d36c3d9db32d6124ed836696a3777e64c952b28564c8b",
+    "src/small_edit_20260925/inventory.py": "c461c61a148a040e6a083f9abde186d8c5b6879748f84c14028f0149859206c5",
+    "src/small_edit_20260925/predict.py": "296db8017e0c00d524efb4a36f521cc929547f6ce8291defe4500f7a527b6bb5",
+    "src/small_edit_20260925/test_small_edit.py": "89c9ae1df34d586c7cb78622aa66c7b26148160f69624f13b61d8d0bd7ef586c"
+  },
+  "models": [
+    "no_change",
+    "train_mean",
+    "edit_size",
+    "edit_position",
+    "composition",
+    "delta_AU",
+    "delta_1mer",
+    "delta_2mer",
+    "delta_3mer",
+    "delta123",
+    "local_window",
+    "motifs",
+    "random_projection",
+    "paired"
+  ],
+  "new_external_confirmation": false,
+  "primary_families": [
+    "delta123",
+    "paired"
+  ],
+  "seed": 20260925,
+  "status": "Exploratory exposed-data size-stratified study; fixed before new fitting"
+}
