@@ -1,0 +1,7 @@
+software:
+  bowtie: /mnt/dfc_data1/home/linyusen/miniconda3/envs/lys/bin/bowtie
+  samtools: /mnt/dfc_data1/software/anaconda2/envs/samtools-1.9/bin/samtools
+  pear: /mnt/dfc_data1/home/linyusen/miniconda3/envs/lys/bin/pear
+database:
+  genome_index: /mnt/dfc_data2/project/linyusen/database/02_hg/hg38/bowtie_index/hg38
+

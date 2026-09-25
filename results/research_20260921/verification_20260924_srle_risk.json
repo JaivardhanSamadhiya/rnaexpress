@@ -1,0 +1,152 @@
+{
+  "artifacts": {
+    "results/research_20260921/srle_fixed_choice_risk_20260924.png": "e2b9cc8e5db1594baff50011398b5f8632f9db5674b62a4498812ef9928944ec",
+    "results/research_20260921/srle_fixed_choice_risk_20260924.svg": "cef2f3dd2f68ada78ea4341b1f8c764aaecbfb4affcc0ee5e5bfc4084a7f6ab9",
+    "results/research_20260921/srle_fixed_choice_risk_figure_receipt_20260924.json": "6a4c2e0ed0a29a5e2b147679fb20531b7609c7f17198991a895d69ba1be68080",
+    "results/research_20260921/srle_fixed_choice_risk_groups_20260924.csv": "0b487fa862f9bf2dc6e9f6abdaebd62528ac41df9ef0e5c374743d21acf1f6c5",
+    "results/research_20260921/srle_fixed_choice_risk_pairs_20260924.csv": "d9b93a94a675a9a4e31f37742ba339422a47d44364307f075c77bb1b45046f73",
+    "results/research_20260921/srle_fixed_choice_risk_result_20260924.json": "e32881e75074551e76b1f7b32d925dd2364dd6f65ab056b81e0195d8829f71d2"
+  },
+  "checks": [
+    {
+      "arguments": [
+        "-u",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "src/research_20260921",
+        "-t",
+        ".",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "stderr": "............................................................\n----------------------------------------------------------------------\nRan 60 tests in 1.487s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "choices_changed": 0,
+  "freezes": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "files": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "files": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "files": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "files": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "files": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "files": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "files": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "files": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "files": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "files": 5
+    },
+    "srle_fixed_choice_risk_freeze.json": {
+      "changed": [],
+      "files": 7
+    }
+  },
+  "git_head_before_result_commit": "f9219b1882775662862d171f9f496cca99b91056",
+  "models_fit": 0,
+  "new_outcome_rows": 0,
+  "original": {
+    "changed": [],
+    "files": 228
+  },
+  "pinned_public_source_files": [
+    {
+      "bytes": 327,
+      "path": "data/external/research_20260921/srle_pinned_config_yaml_20260924",
+      "receipt_sha256": "77e1cee4e96f5265b2c66762e1c0fa91f2bb8f7af808205a8bcda423eedd4211",
+      "sha256": "79b228dc0f65960de92bdfde106d8820186c8171d7a42628e04816b297d830d8"
+    },
+    {
+      "bytes": 5796,
+      "path": "data/external/research_20260921/srle_pinned_kmer_diversity_evaluation_py_20260924",
+      "receipt_sha256": "6706600515e009fb812754df4cb66df3bf0bd0fd4c1f6e8ce00ef6587311a970",
+      "sha256": "f71d919e3c65a12564d9ce934f3655be2a4b2620ee76216d0969583ab810d56b"
+    },
+    {
+      "bytes": 4010,
+      "path": "data/external/research_20260921/srle_pinned_library_split_py_20260924",
+      "receipt_sha256": "7cce5244daf3f76c3270f5ab27d841f49009f59987adcdb041df6d5379f10114",
+      "sha256": "8a819880d71f54846d6076e751c73fc36fd68c5d10bafcf74225c87d87811ab6"
+    },
+    {
+      "bytes": 1098,
+      "path": "data/external/research_20260921/srle_pinned_LICENSE_txt_20260924",
+      "receipt_sha256": "6c779fae812e003b7263585be0832d08cac69a606985cad69262d27ee528fe7b",
+      "sha256": "6386fcfaef9212e5deca3df67db2ac8d117381d5c1e9f9f7848d74be08a56293"
+    },
+    {
+      "bytes": 9418,
+      "path": "data/external/research_20260921/srle_pinned_randomfrag_diversity_evaluation_py_20260924",
+      "receipt_sha256": "62eadb4890ebbe638f528d4fcf2876fd15d53261bbda82436afe92a84ea28f20",
+      "sha256": "15b89b0cc93a7a24c79d5bf6a27316f8cedff84e81966031df39c71425140617"
+    },
+    {
+      "bytes": 12550,
+      "path": "data/external/research_20260921/srle_pinned_randomfrag_location_analysis_py_20260924",
+      "receipt_sha256": "4ed6d6600c53eb20333b2e4c8814000ab2ee45c59eb1f41b668c604d34db3d97",
+      "sha256": "c55ca9ef31dbd7b10e95dac8bf6f2978bbbc4c6dbcfd2ff7842a7d36e72b62a9"
+    },
+    {
+      "bytes": 16787,
+      "path": "data/external/research_20260921/srle_pinned_README_md_20260924",
+      "receipt_sha256": "53278920fe7176500391d7a1a03347323d9af715c0626507b0c5a3da3e55b3ea",
+      "sha256": "3c6db9767c9f071e2ddb1f301b29c67addeeac27e7787defbdf51ef30fdddf45"
+    }
+  ],
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "risk_files_verified": true,
+  "safe_legacy_checks": "Earlier113 safe tests retained; existing historical preservation mismatch unchanged; no unrestricted pytest.",
+  "source_download_bytes": 49986,
+  "source_files_executed": 0,
+  "spending": 0,
+  "time_utc": "2026-09-25T00:09:33.583931+00:00",
+  "visual_check": "PNG inspected; labels, percentages, legend and scope notes legible without overlap."
+}

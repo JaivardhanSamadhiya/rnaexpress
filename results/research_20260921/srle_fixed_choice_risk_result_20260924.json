@@ -1,0 +1,1189 @@
+{
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 20260921,
+    "unit": "composition class"
+  },
+  "choices_changed": 0,
+  "classes": 60,
+  "direction_labels": {
+    "-1": "decrease NRS",
+    "1": "increase NRS"
+  },
+  "files": {
+    "reports/research_20260921/srle_fixed_choice_risk_spec_20260924.md": "a8e117ca368e64a3b80a62e8350a4df15cdd0c30a7b03bac646ea3c46b2745cb",
+    "results/research_20260921/checkpoint_receipt.json": "bc35263bda2d97cf27d7e2eca0f2902fbb76d7afba0d531a85a25335124c4e12",
+    "results/research_20260921/raw_swap_evaluation.csv": "7aff528234b2dff858d4d87fad4dbeee8fe709a8c4fe343705955ab3d2e46a69",
+    "results/research_20260921/raw_swap_result.json": "fb1fab6b5bb60a439ac5f43ec5ac0a0e264a76c7e6cf466dd6ff91e49c13de19",
+    "src/research_20260921/srle_fixed_choice_risk.py": "0824f04735231e9ff3380d6ac91ad8dcb1a653c907fd00c261641453453f3cdc"
+  },
+  "fixed_descriptive_scale": 0.1,
+  "freeze_sha256": "9f84584c0cd9f49f9f6f097bbbac7ab9b975671005bbf6ef4be51bb0428e4300",
+  "gates_changed": 0,
+  "max_difference_recombined_archived_mean": 2.7755575615628914e-17,
+  "models": {
+    "composition": {
+      "-1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.38301241094939004,
+              0.5032901154015738
+            ],
+            "estimate": 0.44341100180683507
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.17167703068536397,
+              0.2946594463021545
+            ],
+            "estimate": 0.23238937991021327
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.2681316017316017,
+              0.3857663203309036
+            ],
+            "estimate": 0.3241996182829516
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              -0.1655565949582126,
+              -0.07428112820008444
+            ],
+            "estimate": -0.12435959511230509
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.25491097047242883,
+                0.36933199765126845
+              ],
+              "estimate": 0.3097289986248319
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.36647202265327267,
+                0.4765040519665519
+              ],
+              "estimate": 0.422501036001036
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.5111030662624411,
+                0.6181654863654863
+              ],
+              "estimate": 0.5642291173332838
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.38183451363451365,
+                0.4888969337375587
+              ],
+              "estimate": 0.4357708826667159
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                -0.07316145453265024,
+                0.019721828797572814
+              ],
+              "estimate": -0.031230281458040486
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.12221733109449923,
+                0.16990491679466438
+              ],
+              "estimate": 0.1448424090760957
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.2529276249213749,
+                0.36316632811632815
+              ],
+              "estimate": 0.3071715876715876
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.36896421225379555,
+                0.4809050419102502
+              ],
+              "estimate": 0.42454327925161256
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.49411894714082216,
+                0.612547714631048
+              ],
+              "estimate": 0.5549822661905994
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.3874522853689521,
+                0.5058810528591778
+              ],
+              "estimate": 0.44501773380940046
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                -0.08169439189442251,
+                0.009595680190965164
+              ],
+              "estimate": -0.03897989112317037
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.12964102029061714,
+                0.1768027854541854
+              ],
+              "estimate": 0.15180873683689708
+            }
+          }
+        }
+      },
+      "1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.2681316017316017,
+              0.3857663203309036
+            ],
+            "estimate": 0.3241996182829516
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.17167703068536397,
+              0.2946594463021545
+            ],
+            "estimate": 0.23238937991021327
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.38301241094939004,
+              0.5032901154015738
+            ],
+            "estimate": 0.44341100180683507
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              -0.10426664985688576,
+              -0.008068513378043877
+            ],
+            "estimate": -0.05414942253109423
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.36647202265327267,
+                0.4765040519665519
+              ],
+              "estimate": 0.422501036001036
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.25491097047242883,
+                0.36933199765126845
+              ],
+              "estimate": 0.3097289986248319
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.38183451363451365,
+                0.4888969337375587
+              ],
+              "estimate": 0.4357708826667159
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.5111030662624411,
+                0.6181654863654863
+              ],
+              "estimate": 0.5642291173332838
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                -0.019721828797572855,
+                0.07316145453265024
+              ],
+              "estimate": 0.031230281458040486
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.08477935633309128,
+                0.15128799749416696
+              ],
+              "estimate": 0.11361212761805518
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.36896421225379555,
+                0.4809050419102502
+              ],
+              "estimate": 0.42454327925161256
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.2529276249213749,
+                0.36316632811632815
+              ],
+              "estimate": 0.3071715876715876
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.3874522853689521,
+                0.5058810528591778
+              ],
+              "estimate": 0.44501773380940046
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.49411894714082216,
+                0.612547714631048
+              ],
+              "estimate": 0.5549822661905994
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                -0.009595680190965218,
+                0.0816943918944225
+              ],
+              "estimate": 0.03897989112317037
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.08337915556349335,
+                0.1501213995117121
+              ],
+              "estimate": 0.11282884571372667
+            }
+          }
+        }
+      }
+    },
+    "kmer123": {
+      "-1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.20552964123068287,
+              0.3048364751375167
+            ],
+            "estimate": 0.25125335004501675
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.17883133012820512,
+              0.30196432780182775
+            ],
+            "estimate": 0.23932938512105179
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.4511608838692172,
+              0.567273553992304
+            ],
+            "estimate": 0.5094172648339315
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              -0.01105096695770194,
+              0.07232897719974282
+            ],
+            "estimate": 0.02788633853872937
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.47227219973313717,
+                0.5958092152831739
+              ],
+              "estimate": 0.5333136346678014
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.19811533853877603,
+                0.28694407238209313
+              ],
+              "estimate": 0.24190258275674942
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.3026964219422553,
+                0.40278988997114
+              ],
+              "estimate": 0.34972744231077557
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.59721011002886,
+                0.6973035780577446
+              ],
+              "estimate": 0.6502725576892242
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.09061184028319204,
+                0.16673083197924807
+              ],
+              "estimate": 0.12617383555428657
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.05897607379807525,
+                0.08449870303183048
+              ],
+              "estimate": 0.07114433007988048
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.3825304970492471,
+                0.49771189666814664
+              ],
+              "estimate": 0.4382909497909498
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.18833262385762387,
+                0.29190360099005924
+              ],
+              "estimate": 0.23801892474809141
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.3428062710052293,
+                0.4454445055330471
+              ],
+              "estimate": 0.39210864290030956
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.5545554944669527,
+                0.6571937289947706
+              ],
+              "estimate": 0.6078913570996904
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.07356972874350574,
+                0.1520914526873184
+              ],
+              "estimate": 0.11044981449196332
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.05890256696234147,
+                0.0943356783796617
+              ],
+              "estimate": 0.07513696471834329
+            }
+          }
+        }
+      },
+      "1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.18151387509095843,
+              0.2655175997998915
+            ],
+            "estimate": 0.2211040294581961
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.17852109187109186,
+              0.2968957905520405
+            ],
+            "estimate": 0.23417144892144895
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.48268191756160506,
+              0.604789465838945
+            ],
+            "estimate": 0.5447245216203549
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              -0.03942891801245359,
+              0.06018678210310319
+            ],
+            "estimate": 0.014146891638992817
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.468243281949532,
+                0.5863385991323491
+              ],
+              "estimate": 0.525587897442064
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.18389205855872523,
+                0.2787093797406297
+              ],
+              "estimate": 0.22961172469505803
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.28958752744169414,
+                0.38942032032396606
+              ],
+              "estimate": 0.3391627778086111
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.6105796796760338,
+                0.7104124725583061
+              ],
+              "estimate": 0.6608372221913886
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.053066735010388104,
+                0.1479035079801557
+              ],
+              "estimate": 0.10606742283302135
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.05651727263230647,
+                0.12253474391380732
+              ],
+              "estimate": 0.08188704530552302
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.4660765097171347,
+                0.5747487298581049
+              ],
+              "estimate": 0.5211004288920955
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.17966174442841107,
+                0.27244769104352434
+              ],
+              "estimate": 0.22591484595651262
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.2880894371831871,
+                0.39093752485939975
+              ],
+              "estimate": 0.33721673002922997
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.6090624751406002,
+                0.7119105628168126
+              ],
+              "estimate": 0.66278326997077
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.056422895893192604,
+                0.1520769887727139
+              ],
+              "estimate": 0.10922008346922539
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.058199942992523845,
+                0.12483127969362548
+              ],
+              "estimate": 0.08611429356512461
+            }
+          }
+        }
+      }
+    },
+    "position_additive": {
+      "-1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.24586428317053316,
+              0.3579994551166425
+            ],
+            "estimate": 0.30101338553421886
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.1949873796342546,
+              0.3387957517020017
+            ],
+            "estimate": 0.26336943843193844
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.3787067423317423,
+              0.49218140231681895
+            ],
+            "estimate": 0.43561717603384265
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              -0.06614396351729955,
+              0.016385595429706856
+            ],
+            "estimate": -0.029572864687619185
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.40382703434682593,
+                0.52912728849083
+              ],
+              "estimate": 0.466994457702791
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.24133691482128983,
+                0.3356716420153919
+              ],
+              "estimate": 0.28694883357383355
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.36068039699498033,
+                0.4579257615070114
+              ],
+              "estimate": 0.4076297992131324
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.5420742384929884,
+                0.6393196030050198
+              ],
+              "estimate": 0.5923702007868674
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.039114713793830684,
+                0.11165044223924946
+              ],
+              "estimate": 0.07192479700729162
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.07568756257808833,
+                0.10971218624077073
+              ],
+              "estimate": 0.09194071953646826
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.3372353587384837,
+                0.44675942159692156
+              ],
+              "estimate": 0.39182142394642394
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.22468467470029968,
+                0.33379266701662536
+              ],
+              "estimate": 0.27780821801655137
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.40603010879937956,
+                0.511877235553798
+              ],
+              "estimate": 0.45776641028724363
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.4881227644462019,
+                0.5939698912006204
+              ],
+              "estimate": 0.5422335897127564
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.02439800009327835,
+                0.09888789626826583
+              ],
+              "estimate": 0.05851643023776857
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.08198393156607596,
+                0.11764487431713895
+              ],
+              "estimate": 0.09918126749994419
+            }
+          }
+        }
+      },
+      "1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.2615413315850816,
+              0.3687653994153993
+            ],
+            "estimate": 0.31296289821289824
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.16984315173638093,
+              0.2662550974295766
+            ],
+            "estimate": 0.21534387294803964
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.4128648889690556,
+              0.529730297673006
+            ],
+            "estimate": 0.4716932288390622
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              -0.0987274380830198,
+              0.0011307676466339532
+            ],
+            "estimate": -0.045506797378707685
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.39348642354944435,
+                0.5076049137783513
+              ],
+              "estimate": 0.45282818184901513
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.26318811953864035,
+                0.35771232317065643
+              ],
+              "estimate": 0.3083039098247431
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.3676526977459269,
+                0.4771932278369778
+              ],
+              "estimate": 0.418617511346678
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.5228067721630222,
+                0.632347302254073
+              ],
+              "estimate": 0.5813824886533219
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                -0.010279825574476265,
+                0.08703276993694262
+              ],
+              "estimate": 0.044034249690451284
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.08632568769368738,
+                0.1559869652031723
+              ],
+              "estimate": 0.11452388493537144
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.4092180505451338,
+                0.521330183531746
+              ],
+              "estimate": 0.4641884650842984
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.23942089016307766,
+                0.3400002076434367
+              ],
+              "estimate": 0.28690099638016303
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.3662370336839087,
+                0.48229959461834454
+              ],
+              "estimate": 0.42265215802715794
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.5177004053816553,
+                0.6337629663160913
+              ],
+              "estimate": 0.577347841972842
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                -0.0004234978756016367,
+                0.09565249529392997
+              ],
+              "estimate": 0.05106352648952466
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.08100527703067237,
+                0.1508699305282947
+              ],
+              "estimate": 0.11229876622453588
+            }
+          }
+        }
+      }
+    },
+    "position_pair": {
+      "-1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.1622207511816887,
+              0.256071898009398
+            ],
+            "estimate": 0.2078322718947719
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.21162396735209235,
+              0.3506922227849312
+            ],
+            "estimate": 0.2825647146063813
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.45075637930742096,
+              0.5686712818238858
+            ],
+            "estimate": 0.5096030134988468
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              0.002497275643409748,
+              0.07823388434341527
+            ],
+            "estimate": 0.03677745005997543
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.47694415075665075,
+                0.5995600064287564
+              ],
+              "estimate": 0.5380859233359234
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.1789883486883487,
+                0.26660204633329626
+              ],
+              "estimate": 0.2222327040243707
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.29031856060606065,
+                0.3881296353916146
+              ],
+              "estimate": 0.3353980595022261
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.6118703646083855,
+                0.7096814393939395
+              ],
+              "estimate": 0.6646019404977738
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.09812187063521788,
+                0.16983221930115702
+              ],
+              "estimate": 0.13153760801389383
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.05534930240103231,
+                0.08298991504042809
+              ],
+              "estimate": 0.06866448441014579
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.3940798858934276,
+                0.5129544454966329
+              ],
+              "estimate": 0.4523369770661437
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.1537563767251267,
+                0.24362162444037444
+              ],
+              "estimate": 0.19653219003219002
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.3165218907828282,
+                0.41333514234607976
+              ],
+              "estimate": 0.3628311988936989
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.5866648576539202,
+                0.6834781092171717
+              ],
+              "estimate": 0.637168801106301
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.08796911587044978,
+                0.1649248178980613
+              ],
+              "estimate": 0.12425541918059566
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.053046606628496994,
+                0.08097428626424041
+              ],
+              "estimate": 0.06590123823548541
+            }
+          }
+        }
+      },
+      "1": {
+        "paired_replicates": {
+          "fraction_involving_tie": {
+            "descriptive_ci95": [
+              0.0,
+              0.0
+            ],
+            "estimate": 0.0
+          },
+          "fraction_negative_both": {
+            "descriptive_ci95": [
+              0.19248315812274144,
+              0.284114668606856
+            ],
+            "estimate": 0.23568257282840616
+          },
+          "fraction_opposite_signs": {
+            "descriptive_ci95": [
+              0.14423306662473329,
+              0.24954009686301348
+            ],
+            "estimate": 0.19447101201267866
+          },
+          "fraction_positive_both": {
+            "descriptive_ci95": [
+              0.5147238808645058,
+              0.6241610698329447
+            ],
+            "estimate": 0.5698464151589151
+          },
+          "mean_smaller_directed_change": {
+            "descriptive_ci95": [
+              -0.038511965500429714,
+              0.05660860656105655
+            ],
+            "estimate": 0.012974309589820838
+          }
+        },
+        "replicates": {
+          "1": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.46699851652976654,
+                0.5835302135171929
+              ],
+              "estimate": 0.5268504682046349
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.1939933369100036,
+                0.28622772482147485
+              ],
+              "estimate": 0.2392398612190279
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.2965572019801186,
+                0.385646910959411
+              ],
+              "estimate": 0.3395730211146877
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.614353089040589,
+                0.7034427980198814
+              ],
+              "estimate": 0.6604269788853121
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.04626836360822584,
+                0.13934520273652143
+              ],
+              "estimate": 0.09989587043192935
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.056816086659186034,
+                0.12258827167337072
+              ],
+              "estimate": 0.08212126528550004
+            }
+          },
+          "2": {
+            "fraction_benefit_at_least_0_1": {
+              "descriptive_ci95": [
+                0.5047720861314611,
+                0.6077546827015576
+              ],
+              "estimate": 0.5550402791652792
+            },
+            "fraction_harm_at_least_0_1": {
+              "descriptive_ci95": [
+                0.17940791870166867,
+                0.2695364883958634
+              ],
+              "estimate": 0.223826708014208
+            },
+            "fraction_negative": {
+              "descriptive_ci95": [
+                0.27899801356051346,
+                0.37327393902393896
+              ],
+              "estimate": 0.3262631365548032
+            },
+            "fraction_numerical_tie": {
+              "descriptive_ci95": [
+                0.0,
+                0.0
+              ],
+              "estimate": 0.0
+            },
+            "fraction_positive": {
+              "descriptive_ci95": [
+                0.626726060976061,
+                0.7210019864394863
+              ],
+              "estimate": 0.6737368634451968
+            },
+            "mean_directed_change": {
+              "descriptive_ci95": [
+                0.06484568596747711,
+                0.15460870719954042
+              ],
+              "estimate": 0.11497936164474458
+            },
+            "mean_loss_including_zero": {
+              "descriptive_ci95": [
+                0.058515516862244536,
+                0.12332922229783282
+              ],
+              "estimate": 0.08517408706607389
+            }
+          }
+        }
+      }
+    }
+  },
+  "models_fit": 0,
+  "new_outcomes": false,
+  "output_hashes": {
+    "results/research_20260921/srle_fixed_choice_risk_groups_20260924.csv": "0b487fa862f9bf2dc6e9f6abdaebd62528ac41df9ef0e5c374743d21acf1f6c5",
+    "results/research_20260921/srle_fixed_choice_risk_pairs_20260924.csv": "d9b93a94a675a9a4e31f37742ba339422a47d44364307f075c77bb1b45046f73"
+  },
+  "parents": 592,
+  "scope": "Post hoc descriptive risk/consistency audit of already-open fixed decisions; no new validation.",
+  "sequence_identifiers_exported": false,
+  "source_rows": 9472,
+  "tie_tolerance": 1e-12
+}
