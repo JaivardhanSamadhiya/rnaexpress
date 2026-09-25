@@ -1,0 +1,40 @@
+{
+  "count_eligibility": "all four admitted libraries >=20; unchanged",
+  "created_utc": "2026-09-25T10:52:46.422826+00:00",
+  "inputs": {
+    "data/external/research_20260921/srle_epmc_supplement": "ff42cc9b5d7f0bb703369370cfc29c1d51614bca677294a2ffbb3bbec61344a9",
+    "data/external/research_20260921/srle_gsa_runs_all": "c102edb0bac484c019b828f9c216e75419f9c78e723d3587571af7e3f9ff27de",
+    "data/external/research_20260921/srle_reads/HRR3059160_f1.fq.gz.receipt.json": "b3d5f144897db01c6028899560e0960997a4b93682906b0dea57ec6da509560f",
+    "data/external/research_20260921/srle_reads/HRR3059160_r2.fq.gz.receipt.json": "e766afd4fb8098b78e13f4ded53e69b43a2b7e98fea281376d99ae324914d18e",
+    "data/external/research_20260921/srle_reads/HRR3059161_f1.fq.gz.receipt.json": "e4e9f37c148e462c04861d5e00969dada8c07f65d6b5925af9517b7b9b3b8960",
+    "data/external/research_20260921/srle_reads/HRR3059161_r2.fq.gz.receipt.json": "1e6f4a6a78ebe9e1d3394963080ea8fbc1b6081b61e83efe9ad3f2f8fc8cc72c",
+    "data/external/research_20260921/srle_reads/HRR3059163_f1.fq.gz.receipt.json": "bb33ab819ca0278ee8b85d6c7bf8997e48ff0f8a453e49108cfe3199c1ff3354",
+    "data/external/research_20260921/srle_reads/HRR3059163_r2.fq.gz.receipt.json": "3cdb4c49f29b607e066b5fb2ac765ce074192bd7c0c51298c43aca5227bc6f6b",
+    "data/external/research_20260921/srle_reads/HRR3059164_f1.fq.gz.receipt.json": "a5c5784c468b982218b06d65dc73b235e282618dde0db20047561ee323613218",
+    "data/external/research_20260921/srle_reads/HRR3059164_r2.fq.gz.receipt.json": "8fc53f91592e6d92ed324b56c69409ff2fc14e49516653a7a4e40de82d470994",
+    "reports/research_20260921/provenance_work_scope_20260925.md": "f2a650ae763f18fb1fdbdc7d5795206fd2022c00f62ead83bfed68c2bffbf188",
+    "results/research_20260921/pilot_a_predictions.csv": "569f070dee200c0bc71663335d2cffef4de3406e91beef59ceecd73bc38a053e",
+    "results/research_20260921/raw_counts_qc.json": "f88bfaadd6734f72ac8425831b725fcb06f5519490947de0ee8fc900c3bb07f4",
+    "results/research_20260921/raw_replication_scores.csv": "facfcc7b9a286911b965c63c0c0c0c7d730275459c7abaa16c2d0752222f08b5",
+    "results/research_20260921/raw_sixmer_counts.csv": "22655b4c911522adb9e11e5e45ddb4abe9d5be72d370df14f0b15fa3967c5b00",
+    "results/research_20260921/robustness_predictions.csv": "8b337f7d7d4910c10049e33b780d97ee5a8982bf3335305626ed58d1baadf362",
+    "src/research_20260921/evidence_io_20260925.py": "b6224daa76eb649e44648a959d2bc03e7616550fc3576412a936e131ce6421f7",
+    "src/research_20260921/pilots.py": "cc93686c94e264da80ad4d453a3844e661ee4d8c0136f8a4e69390ab71b45ac5",
+    "src/research_20260921/raw_counts.py": "8e2c3078762f3c19de31c2be1138f3883316f0ebb56a1ba736b211c14bc0f766",
+    "src/research_20260921/srle_measurement_lineage_20260925.py": "49e41ec26dea6db2df3c2c27d33d5790c7e2c375192eb7b83f237be539f53ebb"
+  },
+  "missing_rep3": "no score/count inference",
+  "normalization": "per-library accepted depth plus 4096*0.5",
+  "pseudocount": 0.5,
+  "runs": {
+    "Cyto1": "HRR3059160",
+    "Cyto2": "HRR3059161",
+    "Cyto3": "HRR3059162",
+    "Nuc1": "HRR3059163",
+    "Nuc2": "HRR3059164",
+    "Nuc3": "HRR3059165"
+  },
+  "seed": null,
+  "status": "posthoc measurement audit, no biological gate or optimization",
+  "tolerance": 1e-12
+}

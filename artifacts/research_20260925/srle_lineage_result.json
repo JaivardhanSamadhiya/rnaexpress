@@ -1,0 +1,43 @@
+{
+  "accepted_fragments": 30267389,
+  "author_raw_to_Table5_reconstruction": "UNRESOLVED",
+  "config_sha256": "fed17df8484bd57c9693b86a9813d26a415b5abe0ec796dfdbecfbc215a67f45",
+  "count_eligible_sequences": 4069,
+  "determination": "PARTIAL",
+  "lineage_rows": 24576,
+  "local_saved_count_arithmetic": "PASS",
+  "outputs": {
+    "srle_measurement_lineage.csv": "2a08f18f0abd92d4ecfdbba4cd7c6d3aebdbf02d52c5def8940c1b4e463ad108",
+    "srle_samples.csv": "739d211f12cf60f34dc1a58874d434e372782219180959051b9fb79c0c4431b0"
+  },
+  "published_table_mapping": "PASS",
+  "quantified_libraries": 4,
+  "raw_files_rehashed": 8,
+  "read_pairs": 33010339,
+  "replicate_arithmetic_max_absolute_errors": {
+    "1": 0.0,
+    "2": 0.0
+  },
+  "replicate_vs_published_aggregate": {
+    "1": {
+      "interpretation": "Different quantities; no equality expected or normalization selected",
+      "max_absolute_difference": 3.4081163297269783,
+      "mean_absolute_difference": 0.1823386680887319
+    },
+    "2": {
+      "interpretation": "Different quantities; no equality expected or normalization selected",
+      "max_absolute_difference": 2.35289300731637,
+      "mean_absolute_difference": 0.18071067997859466
+    }
+  },
+  "scope": "Fresh calculation from saved counts; raw files integrity-checked, not recounted; not independent biology",
+  "sequences": 4096,
+  "table_mapping_max_absolute_errors": {
+    "archived_raw_score_published": 0.0,
+    "pilot": 0.0,
+    "robustness": 0.0
+  },
+  "test_sequences": 862,
+  "unquantified_libraries": 2,
+  "workbook_sha256": "4a128c2542914d948866ba6500a043b11f10585726500d5e1ecfa389e2e73cc4"
+}

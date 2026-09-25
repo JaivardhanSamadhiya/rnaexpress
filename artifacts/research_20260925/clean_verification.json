@@ -1,0 +1,321 @@
+{
+  "models_fit": 0,
+  "new_outcomes": 0,
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "portable_replays": {
+    "srle_aggregate_replay_20260924.zip": {
+      "aggregate_rows": 960,
+      "bootstrap_draws": 2000,
+      "max_absolute_difference": 1.1102230246251565e-16,
+      "numeric_values_compared": 57,
+      "scope": "Arithmetic replay only; no new experiment or model fitting.",
+      "status": "PASS",
+      "summary": {
+        "composition_classes": 60,
+        "parents": 592,
+        "removed_low_count_parent_count": 17,
+        "replicates": {
+          "1": {
+            "models": {
+              "composition": {
+                "by_direction": {
+                  "-1": -0.0831952160854729,
+                  "1": 0.08319521608547288
+                },
+                "gain_ci": [
+                  -4.2620069797684285e-18,
+                  4.706867139319134e-18
+                ],
+                "oriented_nrs_change": 0.0,
+                "regret_gain_over_uniform": 1.5707038426544323e-19
+              },
+              "kmer123": {
+                "by_direction": {
+                  "-1": 0.22557955482860678,
+                  "1": 0.2142364671898516
+                },
+                "gain_ci": [
+                  0.15268594264595048,
+                  0.28093455390720234
+                ],
+                "oriented_nrs_change": 0.11612062919365397,
+                "regret_gain_over_uniform": 0.2199080110092292
+              },
+              "position_additive": {
+                "by_direction": {
+                  "-1": 0.13334333665026374,
+                  "1": 0.1103798898014546
+                },
+                "gain_ci": [
+                  0.05693380036241984,
+                  0.18242051888861588
+                ],
+                "oriented_nrs_change": 0.057979523348871465,
+                "regret_gain_over_uniform": 0.12186161322585919
+              },
+              "position_pair": {
+                "by_direction": {
+                  "-1": 0.24352070995513037,
+                  "1": 0.21853154292015226
+                },
+                "gain_ci": [
+                  0.16398707898665893,
+                  0.2894156414982308
+                ],
+                "oriented_nrs_change": 0.1157167392229116,
+                "regret_gain_over_uniform": 0.23102612643764128
+              }
+            },
+            "pair_minus_kmer123_ci": [
+              -0.04352287662824837,
+              0.06847643159156801
+            ],
+            "pair_minus_kmer123_gain": 0.011118115428412114
+          },
+          "2": {
+            "models": {
+              "composition": {
+                "by_direction": {
+                  "-1": -0.11112617508762551,
+                  "1": 0.11112617508762551
+                },
+                "gain_ci": [
+                  -1.6097332702012313e-18,
+                  4.991397707211765e-18
+                ],
+                "oriented_nrs_change": 0.0,
+                "regret_gain_over_uniform": 1.664233125206956e-18
+              },
+              "kmer123": {
+                "by_direction": {
+                  "-1": 0.2211281016028805,
+                  "1": 0.2214422753279077
+                },
+                "gain_ci": [
+                  0.1583961413374646,
+                  0.27968571718102686
+                ],
+                "oriented_nrs_change": 0.10983494898059436,
+                "regret_gain_over_uniform": 0.22128518846539408
+              },
+              "position_additive": {
+                "by_direction": {
+                  "-1": 0.07973972861562215,
+                  "1": 0.07547793387092293
+                },
+                "gain_ci": [
+                  0.007802317451274026,
+                  0.14385567802437768
+                ],
+                "oriented_nrs_change": 0.05478997836364661,
+                "regret_gain_over_uniform": 0.07760883124327254
+              },
+              "position_pair": {
+                "by_direction": {
+                  "-1": 0.25489944676303083,
+                  "1": 0.25194253463590094
+                },
+                "gain_ci": [
+                  0.19642504918018724,
+                  0.3073514234162959
+                ],
+                "oriented_nrs_change": 0.11961739041267012,
+                "regret_gain_over_uniform": 0.2534209906994659
+              }
+            },
+            "pair_minus_kmer123_ci": [
+              -0.02378512405107069,
+              0.09397116641852596
+            ],
+            "pair_minus_kmer123_gain": 0.032135802234071816
+          }
+        },
+        "scope": "post hoc consistency of aggregate-derived choices in constituent replicates"
+      },
+      "tolerance": 1e-12
+    },
+    "srle_risk_replay_20260924.zip": {
+      "absolute_tolerance": 1e-12,
+      "bootstrap_draws": 2000,
+      "ci_endpoints_checked": 684,
+      "class_balanced_cohorts": 30,
+      "classes_per_cohort": 60,
+      "classes_per_draw": 60,
+      "csv_rows": {
+        "fixed_groups.csv": 960,
+        "fixed_pairs.csv": 480,
+        "uniform_groups.csv": 240,
+        "uniform_pairs.csv": 120
+      },
+      "directions": [
+        -1,
+        1
+      ],
+      "estimates_checked": 342,
+      "fixed_statistics": 152,
+      "integrity_members_checked": 12,
+      "max_absolute_discrepancy": 3.3306690738754696e-16,
+      "models": [
+        "composition",
+        "kmer123",
+        "position_additive",
+        "position_pair"
+      ],
+      "numeric_comparisons": 1026,
+      "parents_per_cohort": 592,
+      "replicates": [
+        1,
+        2
+      ],
+      "scope": "Aggregation arithmetic only; conditional posthoc shared-experiment summaries.",
+      "status": "PASS",
+      "uniform_statistics": 190
+    }
+  },
+  "prediction_replay": {
+    "checked_scalar_or_array_fields": 19,
+    "cohort_classes": 70,
+    "cohort_rows": 855,
+    "inputs": {
+      "pilot_a_predictions.csv": "569f070dee200c0bc71663335d2cffef4de3406e91beef59ceecd73bc38a053e",
+      "pilot_a_result.json": "24674ee056efcca792b826b0720bf0d7423b1444a176d7a8c76a35ccc1308c33",
+      "robustness_predictions.csv": "8b337f7d7d4910c10049e33b780d97ee5a8982bf3335305626ed58d1baadf362",
+      "robustness_result.json": "c63b53583d642092092f95e1b858af5d93e8299aafdcb496465d4f8d069968c2"
+    },
+    "max_absolute_difference": 0.0,
+    "models": {
+      "composition": {
+        "error_reduction_ci": [
+          0.0,
+          0.0
+        ],
+        "error_reduction_vs_composition": 0.0,
+        "regret_gain": 0.0
+      },
+      "kmer123": {
+        "error_reduction_ci": [
+          0.21501424208552242,
+          0.3292549983854898
+        ],
+        "error_reduction_vs_composition": 0.2736629108837828,
+        "regret_gain": 0.2686183021441415
+      },
+      "position_additive": {
+        "error_reduction_ci": [
+          0.045544846921876186,
+          0.11057058144987865
+        ],
+        "error_reduction_vs_composition": 0.07617704900002831,
+        "regret_gain": 0.17625918599404694
+      },
+      "position_pair": {
+        "error_reduction_ci": [
+          0.20450599534555075,
+          0.3402062272618836
+        ],
+        "error_reduction_vs_composition": 0.270428705752478,
+        "regret_gain": 0.25516974002571463
+      }
+    },
+    "scope": "Saved prediction and split replay, including original RNG stream; no refitting",
+    "status": "PASS"
+  },
+  "preservation": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "checked": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "checked": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "checked": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "checked": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "checked": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "checked": 5
+    },
+    "srle_fixed_choice_risk_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "srle_uniform_risk_freeze.json": {
+      "changed": [],
+      "checked": 15
+    },
+    "tracked_source_snapshot.json": {
+      "changed": [],
+      "checked": 228
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scope": "Computation verification, not an independent experiment or training reproduction",
+  "script_sha256": "42705501ad55aaa3c68ed6d6d92b20815df7024683779f0d4cc37c52b1f40e1f",
+  "status": "PASS",
+  "test_modules": [
+    "test_context_boundaries",
+    "test_context_calibration",
+    "test_context_robust_selection",
+    "test_faraway_8h_scope",
+    "test_faraway_configuration",
+    "test_faraway_dna_audit",
+    "test_faraway_processed_correspondence",
+    "test_followup",
+    "test_measurement_lineage_20260925",
+    "test_mutrel_qc",
+    "test_pilots",
+    "test_raw_counts",
+    "test_seers_dna_qc",
+    "test_seers_prefix_transfer",
+    "test_shukla_recovery",
+    "test_shukla_transfer",
+    "test_sirloin",
+    "test_srle_aggregate_replay",
+    "test_srle_fixed_choice_risk",
+    "test_srle_uniform_risk"
+  ],
+  "tests": 69
+}

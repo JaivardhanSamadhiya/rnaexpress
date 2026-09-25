@@ -1,0 +1,10 @@
+{
+  "decision": "NO QUALIFIED RESOURCE IN REVIEWED EXISTING INVENTORY",
+  "external_evaluation_run": false,
+  "external_protocol_frozen": false,
+  "future_admission": "Requires authoritative measured-variant mapping, matching endpoint, enough independent contexts and a documented no-development-exposure scope before freezing an evaluation.",
+  "global_search_exhaustive": false,
+  "inventory_rows": 16,
+  "new_discovery": "BLOCKED BY PRIOR AUTOMATIC REVIEW; NOT RETRIED",
+  "reason": "All reviewed resources have prior exposure, unresolved mapping, incompatible endpoint or inadequate units. Closed subsets do not establish a genuinely new resource."
+}
