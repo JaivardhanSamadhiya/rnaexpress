@@ -1,0 +1,106 @@
+{
+  "coefficient_records": 130,
+  "decision_replay_max_error": 0.0,
+  "models_fit": 0,
+  "new_outcomes": 0,
+  "parent_gene_and_all_allele_overlap": false,
+  "prediction_freeze_sha256": "8da1ff9df206945f041a3a9fdffd77900c8cb6ce682f2a2273dc3cc73c291ccc",
+  "prediction_replay_max_error": 0.0,
+  "preservation": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "checked": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "checked": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "checked": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "checked": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "checked": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "checked": 5
+    },
+    "srle_fixed_choice_risk_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "srle_uniform_risk_freeze.json": {
+      "changed": [],
+      "checked": 15
+    },
+    "tracked_source_snapshot.json": {
+      "changed": [],
+      "checked": 228
+    }
+  },
+  "rows": 19438,
+  "scope": "Saved-coefficient replay and scoped tests; not independent biological confirmation",
+  "status": "PASS",
+  "test_modules": [
+    "src.research_20260921.test_context_boundaries",
+    "src.research_20260921.test_context_calibration",
+    "src.research_20260921.test_context_robust_selection",
+    "src.research_20260921.test_faraway_8h_scope",
+    "src.research_20260921.test_faraway_configuration",
+    "src.research_20260921.test_faraway_dna_audit",
+    "src.research_20260921.test_faraway_processed_correspondence",
+    "src.research_20260921.test_followup",
+    "src.research_20260921.test_measurement_lineage_20260925",
+    "src.research_20260921.test_mutrel_qc",
+    "src.research_20260921.test_pilots",
+    "src.research_20260921.test_raw_counts",
+    "src.research_20260921.test_seers_dna_qc",
+    "src.research_20260921.test_seers_prefix_transfer",
+    "src.research_20260921.test_shukla_recovery",
+    "src.research_20260921.test_shukla_transfer",
+    "src.research_20260921.test_sirloin",
+    "src.research_20260921.test_srle_aggregate_replay",
+    "src.research_20260921.test_srle_fixed_choice_risk",
+    "src.research_20260921.test_srle_uniform_risk",
+    "src.small_edit_20260925.test_small_edit"
+  ],
+  "tests": 76
+}

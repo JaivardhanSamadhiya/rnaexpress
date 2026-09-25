@@ -1,0 +1,21 @@
+dataset,replicate,model,pairs,pearson,spearman,sign_accuracy,direction_auroc_score,mae,rmse,magnitude_limitation
+sirloin,1,ccc,223,-0.01006007601670029,0.014813976429203478,0.09865470852017937,0.5159385113268609,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,1,cctccc,223,0.26264528231284945,0.24339859763427765,0.13004484304932734,0.5829692556634305,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,1,composition,223,,,0.0,0.5,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,1,srle_kmer123,223,0.07161627870822553,0.08960169330124486,0.4977578475336323,0.48389967637540454,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,1,srle_measured,223,0.03309729928319574,0.07229859584119672,0.484304932735426,0.5092233009708738,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,1,srle_pair,223,0.12352635880989662,0.15141238291462508,0.5291479820627802,0.5322815533980582,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,2,ccc,223,0.02492718390456016,0.07129828194419277,0.10762331838565023,0.5286380286380286,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,2,cctccc,223,0.31575015219950225,0.3023901511781604,0.13901345291479822,0.5863719613719613,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,2,composition,223,,,0.0,0.5,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,2,srle_kmer123,223,-0.07709102123535125,-0.10035039042886576,0.452914798206278,0.4206626706626707,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,2,srle_measured,223,-0.1494762455364044,-0.11683540523226622,0.4663677130044843,0.44488844488844487,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+sirloin,2,srle_pair,223,0.005974564214497911,-0.0377443426770781,0.4663677130044843,0.456959706959707,,,source log score and target ratio differences not calibrated; magnitude metrics omitted
+srle,1,composition,1744,,,0.0,0.5,0.27006424036464904,0.34356304599148096,same score units; descriptive repeated experiment
+srle,1,kmer123,1744,0.6091586322475757,0.6074886183302342,0.7305045871559633,0.8103758237624986,0.20647156333627656,0.2724851359337723,same score units; descriptive repeated experiment
+srle,1,position_additive,1744,0.28862688048222046,0.2920845841450223,0.6152522935779816,0.6449591850422748,0.25635275255568696,0.3290183610133626,same score units; descriptive repeated experiment
+srle,1,position_pair,1744,0.5873417263924343,0.5975409673257238,0.7104357798165137,0.7976335609817684,0.21054130245445335,0.2780855854283503,same score units; descriptive repeated experiment
+srle,2,composition,1744,,,0.0,0.5,0.27726942335992333,0.36580628189653147,same score units; descriptive repeated experiment
+srle,2,kmer123,1744,0.5965530685618318,0.5951518451257009,0.7029816513761468,0.774899222053437,0.21928932709285537,0.2938549327430404,same score units; descriptive repeated experiment
+srle,2,position_additive,1744,0.26065792252274744,0.27063024191291374,0.6083715596330275,0.6414876337403908,0.26625643622388767,0.35316842307949353,same score units; descriptive repeated experiment
+srle,2,position_pair,1744,0.5873369432442697,0.5862040304280811,0.7012614678899083,0.7755910223782938,0.222027779077697,0.29619672976819633,same score units; descriptive repeated experiment
