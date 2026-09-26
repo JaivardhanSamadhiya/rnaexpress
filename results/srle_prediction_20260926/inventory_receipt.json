@@ -1,0 +1,27 @@
+{
+  "anchors": 592,
+  "biological_contexts": 1,
+  "biological_family_ids_available": false,
+  "candidate_edges": 1744,
+  "candidate_groups": 60,
+  "component_basis": "complete ACGT^6 library; any sequence reaches AAAAAA by single-base steps",
+  "constituent_replicate_pairs": 2,
+  "full_sequence_available": false,
+  "independent_biological_parent_contexts": 1,
+  "independent_candidate_edges": "not established; overlapping and reversed edges",
+  "inputs": {
+    "results/research_20260921/raw_replication_scores.csv": "facfcc7b9a286911b965c63c0c0c0c7d730275459c7abaa16c2d0752222f08b5",
+    "results/research_20260921/raw_swap_evaluation.csv": "7aff528234b2dff858d4d87fad4dbeee8fe709a8c4fe343705955ab3d2e46a69",
+    "results/research_20260921/robustness_predictions.csv": "8b337f7d7d4910c10049e33b780d97ee5a8982bf3335305626ed58d1baadf362",
+    "results/research_20260921/robustness_result.json": "c63b53583d642092092f95e1b858af5d93e8299aafdcb496465d4f8d069968c2"
+  },
+  "outputs": {
+    "artifacts/small_edit_20260925/srle_observation_inventory.csv": "36c2486c888da53897499c7524b379e20281123496d1796a60bb9beea8279b3b",
+    "results/srle_prediction_20260926/sequence_inventory.csv": "c89d929b7acde7bfb052b3318ab7222915cf58f3014222241c9c232b6c934056",
+    "results/srle_prediction_20260926/split_inventory.csv": "c87a980af7dc74a29651bd7fdb9cae13bb3de72d75feb4a895ed6927d1e41dfc"
+  },
+  "score_groups": 70,
+  "scored_sequences": 855,
+  "sequences": 4096,
+  "whole_library_hamming_one_connected_components": 1
+}
