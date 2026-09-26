@@ -1,0 +1,15 @@
+{
+  "biological_contexts": 1,
+  "candidate_rows": 73248,
+  "decision_rows": 28416,
+  "files": {
+    "artifacts/small_edit_20260925/srle_candidate_selection.csv": "0e5a9d0ac06f54ad2af47befd2507491ede40bdfbce1d8e05056f93e27136eba",
+    "results/srle_prediction_20260926/decision_metrics.csv": "7a87bdc3333806d8cbe0538e1bb18436ad870eb2a5084fa03d7d247d815c2d1e",
+    "results/srle_prediction_20260926/prediction_comparisons.csv": "e93ff7396263a7514204944355ff55a7df0fd7b212cabea2f7dd66c104c4ee0d",
+    "results/srle_prediction_20260926/prediction_metrics.csv": "1a7178b51db078ab3695746a63cba6b6b94a4619d4682fc684265e66152a2f7d"
+  },
+  "historical_choices_reproduced": 9472,
+  "models_reselected": false,
+  "scope": "Exploratory fixed sequence-group audit on already-exposed data; no independent validation",
+  "status": "PASS"
+}

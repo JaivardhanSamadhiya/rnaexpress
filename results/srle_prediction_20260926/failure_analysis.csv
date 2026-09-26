@@ -1,0 +1,24 @@
+factor,level,candidate_edges,groups,mae,direction_error,scope
+magnitude_bin,<=0.1,388,48,0.28798629567063205,0.48711340206185566,descriptive overlapping edges; no filter or threshold is used to change main results
+magnitude_bin,0.1-0.25,467,52,0.3342850970915434,0.45610278372591007,descriptive overlapping edges; no filter or threshold is used to change main results
+magnitude_bin,0.25-0.5,555,50,0.3647458954365792,0.41621621621621624,descriptive overlapping edges; no filter or threshold is used to change main results
+magnitude_bin,>0.5,334,41,0.5864383588264597,0.3203592814371258,descriptive overlapping edges; no filter or threshold is used to change main results
+replicate_difference_bin,<=0.1,679,56,0.36527054779179186,0.44624447717231225,descriptive overlapping edges; no filter or threshold is used to change main results
+replicate_difference_bin,0.1-0.25,568,58,0.37928307303656883,0.3926056338028169,descriptive overlapping edges; no filter or threshold is used to change main results
+replicate_difference_bin,0.25-0.5,401,45,0.4020108973397638,0.4114713216957606,descriptive overlapping edges; no filter or threshold is used to change main results
+replicate_difference_bin,>0.5,96,25,0.43225364175679104,0.5104166666666666,descriptive overlapping edges; no filter or threshold is used to change main results
+C_count,0,155,13,0.3433439757929702,0.4064516129032258,descriptive overlapping edges; no filter or threshold is used to change main results
+C_count,1,686,18,0.4019615557446983,0.44314868804664725,descriptive overlapping edges; no filter or threshold is used to change main results
+C_count,2,537,13,0.3988285500039439,0.3947858472998138,descriptive overlapping edges; no filter or threshold is used to change main results
+C_count,3,297,10,0.3404759462213317,0.45454545454545453,descriptive overlapping edges; no filter or threshold is used to change main results
+C_count,4,63,5,0.31445596696278144,0.38095238095238093,descriptive overlapping edges; no filter or threshold is used to change main results
+C_count,5,6,1,0.34787501500216456,0.3333333333333333,descriptive overlapping edges; no filter or threshold is used to change main results
+CCC_any,False,1583,57,0.3851782563184661,0.4245104232469994,descriptive overlapping edges; no filter or threshold is used to change main results
+CCC_any,True,161,14,0.3504163175475976,0.422360248447205,descriptive overlapping edges; no filter or threshold is used to change main results
+changed_position_span,2,580,58,0.3591095714296953,0.4224137931034483,descriptive overlapping edges; no filter or threshold is used to change main results
+changed_position_span,3,447,46,0.39473699468321255,0.4250559284116331,descriptive overlapping edges; no filter or threshold is used to change main results
+changed_position_span,4,381,54,0.40474208258855715,0.4435695538057743,descriptive overlapping edges; no filter or threshold is used to change main results
+changed_position_span,5,222,46,0.39697402129617604,0.42792792792792794,descriptive overlapping edges; no filter or threshold is used to change main results
+changed_position_span,6,114,34,0.3428794090410909,0.35964912280701755,descriptive overlapping edges; no filter or threshold is used to change main results
+replicate_disagreement,0.0,1350,60,0.38638825341064537,0.4177777777777778,descriptive overlapping edges; no filter or threshold is used to change main results
+replicate_disagreement,1.0,394,50,0.3668275755657965,0.4467005076142132,descriptive overlapping edges; no filter or threshold is used to change main results

@@ -1,0 +1,18 @@
+{
+  "fits_with_shared_split": 141,
+  "freeze_sha256": "c2fd8b29803779b8be3189eda36f941cc6bde9638b27d4b48ff8fc0f70ef3ba9",
+  "heldout_prediction_rows": 17955,
+  "historical_replay": {
+    "composition_max_error": 0.0,
+    "error_reduction": 0.2704287057524779,
+    "expected_error_reduction": 0.270428705752478,
+    "kmer123_max_error": 0.0,
+    "position_additive_max_error": 0.0,
+    "position_pair_max_error": 0.0
+  },
+  "outputs": {
+    "artifacts/small_edit_20260925/srle_heldout_predictions.csv": "c9ad4e3c4336cfd010da0845047d3357db8cae4f488657e567d44c82ca4d870c",
+    "results/srle_prediction_20260926/fitted_parameters.json": "748180d219bbed45c27e6d731cf3af61c0b39557c72d433b07b6b2f375768675"
+  },
+  "status": "PASS"
+}

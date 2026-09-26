@@ -1,0 +1,84 @@
+{
+  "candidate_decisions_verified": 24864,
+  "candidate_regret_max_error": 0.0,
+  "coefficient_replay_max_error": 0.0,
+  "independent_metric_max_error": 8.881784197001252e-16,
+  "new_models_fit": 0,
+  "prediction_rows": 17955,
+  "prior_bundle_files_unchanged": 70,
+  "protected_manifests": {
+    "context_calibration_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "context_learning_curve_freeze.json": {
+      "changed": [],
+      "checked": 6
+    },
+    "context_regularization_audit_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "context_robust_selection_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "faraway_8h_replication_freeze.json": {
+      "changed": [],
+      "checked": 9
+    },
+    "faraway_configuration_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "pilot_freeze.json": {
+      "changed": [],
+      "checked": 12
+    },
+    "raw_counts_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "raw_swap_freeze.json": {
+      "changed": [],
+      "checked": 4
+    },
+    "robustness_freeze.json": {
+      "changed": [],
+      "checked": 2
+    },
+    "seers_prefix_transfer_freeze.json": {
+      "changed": [],
+      "checked": 18
+    },
+    "shukla_reliability_freeze.json": {
+      "changed": [],
+      "checked": 8
+    },
+    "shukla_transfer_freeze.json": {
+      "changed": [],
+      "checked": 19
+    },
+    "sirloin_transfer_freeze.json": {
+      "changed": [],
+      "checked": 5
+    },
+    "srle_fixed_choice_risk_freeze.json": {
+      "changed": [],
+      "checked": 7
+    },
+    "srle_uniform_risk_freeze.json": {
+      "changed": [],
+      "checked": 15
+    },
+    "tracked_source_snapshot.json": {
+      "changed": [],
+      "checked": 228
+    }
+  },
+  "purged_global_levenshtein_lower_bound": 3,
+  "scope": "Computation checks and synthetic/scoped tests, not independent biological validation",
+  "status": "PASS",
+  "tests": 82,
+  "whole_biological_context_overlap": 1
+}
