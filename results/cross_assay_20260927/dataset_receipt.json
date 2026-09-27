@@ -1,0 +1,20 @@
+{
+  "canonical_sha256": "f57c8bc22c37717887980fc5bf0948bf7520b4b4459522e97ca2762625adfe57",
+  "directions": "Both +/-1 evaluated; canonical rank is destination-increase; decrease rank is 1-rank",
+  "inputs": {
+    "artifacts\\generalization_20260926\\GSE330741_mapped_outcomes.csv": "f31a38ec6d03de3317d7f0c1b1aaaf8586277e2512b9512c027606da8b6cc08a",
+    "results\\small_edit_20260925\\small_edit_pairs.csv.gz": "b56d9ce9712776ba477fcb8231d7d431c0dce895c2ed1054f1a1767360e482fd"
+  },
+  "new_protected_outcomes_opened": false,
+  "physical_edit_scope": "1-6 corresponding-coordinate substitutions; indel/padding families secondary only; larger edits remain in inventory",
+  "primary_rows": 26258,
+  "primary_studies": [
+    "astrocyte_gse330741",
+    "mikl_gse173098",
+    "moffatt_gse334718",
+    "srle"
+  ],
+  "rows": 41752,
+  "sequence_grouping": "same gene symbol or exact any-allele match; no proximity threshold, no assertion of paralog independence",
+  "status": "PASS"
+}

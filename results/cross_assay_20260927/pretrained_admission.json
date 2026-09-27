@@ -1,0 +1,18 @@
+{
+  "cache": "data\\interim\\mechanism_v2\\bert_pooled_allele_delta.npy",
+  "covered_rows": 20474,
+  "covered_studies": {
+    "mikl_gse173098": 13725,
+    "moffatt_gse334718": 6749
+  },
+  "definition": "fixed-projection CLS+mean mutant embedding minus reference embedding; distinct from contextual delta",
+  "missing_core_studies": [
+    "astrocyte_gse330741",
+    "srle"
+  ],
+  "provenance_limit": "archived mixed Torch/OpenVINO frozen inference, inherited equivalence limitations; no complete pretrained sequence audit for new studies",
+  "scope": "restricted two-study secondary comparator after simple models; no training new encoder; no missing-vector fill",
+  "sha256": "a5c4205abae55dff9db20d29bcb3627298f70dcc4c4171a2ac5cd0c674b76a88",
+  "source_design_sha256": "a7e651e4a2a1ccf6d16ea43c6da8de384901df9a15cdf82208c2235315989835",
+  "universal_four_study_model_eligible": false
+}

@@ -1,0 +1,31 @@
+{
+  "chosen_candidate_replays": 308,
+  "fresh_outer_model_fits": 84,
+  "historical_bundles": [
+    {
+      "archive_sha256": "b08d51f0fa2e4d1b5f2c801bf5514ca7fbe724e64c399b1857d05d567be69bb0",
+      "preserved_files": 119,
+      "receipt": "artifacts/srle_synthesis_20260926/delivery_receipt.json"
+    },
+    {
+      "archive_sha256": "e829f487b6071d92b1d7a9843c96a987481c9c05888f4b619a7d35e85b929e55",
+      "preserved_files": 70,
+      "receipt": "artifacts/small_edit_20260925/delivery_receipt.json"
+    },
+    {
+      "archive_sha256": "52ef1ebfbf9c1f0d114f2bc3b67e981afba9adb1eacb6aa8c1d0ac84b9c11db7",
+      "preserved_files": 41,
+      "receipt": "artifacts/small_edit_20260925/srle_prediction_delivery_receipt.json"
+    }
+  ],
+  "max_prediction_replay_error": 0.0,
+  "parent_model_metric_replays": 154,
+  "prefit_hashes_unchanged": 37,
+  "prefit_source_predictions_replayed": 4553,
+  "primary_uncertainty_replays": 2,
+  "protected_data_opened": false,
+  "raw_or_source_outcomes_reopened": false,
+  "scientific_model_selection_repeated": false,
+  "status": "PASS",
+  "tests": 12
+}

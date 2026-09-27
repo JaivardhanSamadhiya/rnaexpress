@@ -1,0 +1,125 @@
+{
+  "abstention": {
+    "policy": "accept only if min(selected-candidate desired-sign probability, candidate-set-feasibility probability)>=0.8",
+    "threshold_selection": "none; all thresholds fixed now; conditional risk always accompanies coverage",
+    "thresholds": [
+      0,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "training": "separate L2 logistic direction and feasibility heads, training studies only; rank score alone is not calibrated effect"
+  },
+  "core_studies": [
+    "astrocyte_gse330741",
+    "mikl_gse173098",
+    "moffatt_gse334718",
+    "srle"
+  ],
+  "excluded": "N-zip, TDP EV5, reserved SIRLOIN replicate3/4/NucLibB, reserved Arora/Shukla, unadmitted/corrupted sources",
+  "gate": {
+    "any_study_avoidable_wrong_worsening_max": 0.05,
+    "any_study_regret_worsening_max": 0.05,
+    "benchmark": "per held study strongest simple baseline by lowest observed macro regret; ties fewer avoidable failures then lexical; conservative comparator envelope, not a trained model",
+    "bootstrap": "5000 Bayesian component bootstrap draws using shared Exponential(1) weights, normalized within each study; one-component studies degenerate; descriptive",
+    "bootstrap_macro_gain_lower_min": -0.01,
+    "core_studies_required": 4,
+    "leave_best_study_out_gain_min": 0.0,
+    "macro_avoidable_wrong_worsening_max": 0.02,
+    "macro_regret_gain_min": 0.02,
+    "max_share_positive_gain_from_one_study": 0.6,
+    "studies_gain_at_least_0_02_required": 3
+  },
+  "labels": "within-parent preferences; positive is toward each assay-defined destination; no cross-assay raw-effect pooling",
+  "models": {
+    "composition": [
+      "composition",
+      "pooled"
+    ],
+    "delta2": [
+      "delta2",
+      "pooled"
+    ],
+    "hierarchical": [
+      "kmer123",
+      "hierarchical"
+    ],
+    "interaction_10": [
+      "interaction_10",
+      "pooled"
+    ],
+    "interaction_25": [
+      "interaction_25",
+      "pooled"
+    ],
+    "interaction_3": [
+      "interaction_3",
+      "pooled"
+    ],
+    "interaction_50": [
+      "interaction_50",
+      "pooled"
+    ],
+    "interaction_full": [
+      "interaction_full",
+      "pooled"
+    ],
+    "kmer123": [
+      "kmer123",
+      "pooled"
+    ],
+    "meta_shrink": [
+      "kmer123",
+      "meta"
+    ],
+    "metadata": [
+      "metadata",
+      "pooled"
+    ]
+  },
+  "no_new_independent_data_until_gate": true,
+  "outer_holdout": "whole study including all cell/reporters/families; purge all held biological components/exact alleles from every training source",
+  "pair_cap_per_context": 256,
+  "pair_sampling": "deterministic uniform unordered pairs without replacement, chosen before labels; every pair has an implicit preference and all pairs enter ordering evaluation",
+  "parent_holdout": "three fixed component folds; single-component SRLE ineligible; all same-gene and exact allele matches co-grouped",
+  "preference_ties": "truth ties omitted; prediction ties half credit; lexical candidate ties for selection",
+  "primary_metric": "equal-study, equal biological-component, equal parent/context/direction normalized selected-candidate regret",
+  "regularization": 0.05,
+  "residual_regularization_multiplier": 10,
+  "scaler": "training-only weighted mean/std; zero variance scale1",
+  "secondary": {
+    "domain": "projection versus nuclear; no outcome-derived reorientation",
+    "family": "same endpoint class only; no eligible source for held SRLE within core, report ineligible",
+    "locality": "span<=6 sensitivity, fixed predictions only; candidate sets must retain >=2 distinct outcomes",
+    "pretrained": "frozen cached 3UTRBERT pooled allele delta; restricted two-study Mikl/Moffatt comparison on identical complete-context covered rows; no zero filling or absent-encoder substitution",
+    "sirloin": "discovery replicate1/2 only, no training in primary study grid",
+    "size_bands": [
+      "1",
+      "2-3",
+      "4-6"
+    ]
+  },
+  "seed": 20260927,
+  "selection": {
+    "composite": "macro_regret + 0.25*macro_avoidable_wrong + 0.05*fraction_studies_harmed + 0.10*worst_study_regret",
+    "eligible": "must pass every gate component",
+    "none_pass": "NO-GO; no new dataset discovery; no final generalizable deployment model",
+    "tie": "within1e-12 fewer features, then lexical name"
+  },
+  "simple_baselines": [
+    "uniform",
+    "metadata",
+    "composition"
+  ],
+  "weights": "equal study, then connected gene/exact-allele component, then parent-context, then sampled preference",
+  "windows": [
+    3,
+    10,
+    25,
+    50,
+    "full"
+  ]
+}
