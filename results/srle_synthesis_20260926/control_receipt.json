@@ -1,0 +1,10 @@
+{
+  "controls": 34,
+  "label_column_permutation_note": "renaming features and their coefficients leaves predictions identical; not a null",
+  "position_shuffle_note": "retains nonadjacent sequence-order information; not an information-free null",
+  "ridge_fits": 2040,
+  "seed_retries": 0,
+  "status": "PASS",
+  "test_labels_in_training_permutation": false,
+  "training_partitions": 60
+}

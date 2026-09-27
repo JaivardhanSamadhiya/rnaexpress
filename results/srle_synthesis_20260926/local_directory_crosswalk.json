@@ -1,0 +1,26 @@
+{
+  "aliases": {
+    "data/external/3utrbert": "Model weights/resources, not measured edit cohort",
+    "data/external/RNAloc_MPRA": "Mikl design/mapping repository, already exposed GSE173098; reports/v2_5_mikl_xgboost_pretraining_protocol.md",
+    "data/external/mechanism_v2": "Existing resource audit and stability reads; stability not localization",
+    "data/external/research_20260921": "Existing Faraway/Shukla/SRLE cached resources and provenance; no new archive opened",
+    "data/external/splicebert": "Model weights/resources, not measured edit cohort",
+    "data/external/transformers": "Software/model cache, not independently measured outcomes",
+    "data/raw/PMC12864922_figure4": "TDP localization; source ID documented in reports/v3_tdp_source_data_audit.md",
+    "data/raw/PMC12864922_supplementary": "TDP source; potentially protected EV5 members not opened",
+    "data/raw/TaliaferroLab_OligoPools": "Existing design repository; identities cannot establish a new measured outcome experiment; members not opened",
+    "data/raw/finalshot_resource_audit": "Historical model/resource audit, no new measured cohort inferred",
+    "data/raw/phaseB2_aux_audit": "Historical auxiliary resource audit; no new source admission",
+    "data/raw/tdp43_mm10_gene_slices": "TDP sequence reference resource, not new measured experiment"
+  },
+  "external_top_level_names": [
+    "3utrbert",
+    "RNAloc_MPRA",
+    "mechanism_v2",
+    "research_20260921",
+    "splicebert",
+    "transformers"
+  ],
+  "finding": "No additional admitted untouched experiment established; uninspected members remain unknown/protected, not silently certified absent",
+  "scope": "Safe top-level names plus existing reports; no raw archive contents or protected outcomes opened"
+}

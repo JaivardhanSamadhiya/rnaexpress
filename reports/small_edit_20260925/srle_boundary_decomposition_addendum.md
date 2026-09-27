@@ -1,0 +1,7 @@
+# Additional coefficient identity, recorded before calculation
+
+The frozen dinucleotide decomposition gives opposite signs to several reversed pairs. This motivates a purely algebraic audit of whether the count model uses endpoint position information encoded in adjacency counts. This is a secondary interpretation added after the original controls, not a new fit, feature selection, primary test, or mechanism claim.
+
+For each frozen 4x4 dinucleotide coefficient matrix B, use its unique unweighted two-way decomposition: grand mean g, row effects r=mean_row(B)-g, column effects c=mean_column(B)-g, interaction I=B-g-r-c. For equal-composition six-mers, the difference of the additive contribution is exactly minus the change in r at the last base minus the change in c at the first base; the shared total base counts cancel. Reconstruct the complete prediction as endpoint-encoded contribution plus interaction contribution. Report their distributions, covariance, errors and descriptive associations for every original link. Do not treat correlated components as independently causal, substitute a component for the frozen predictor, or tune/retrain it. Comparisons with outcomes are exposed descriptive diagnostics only.
+
+Also numerically verify that permuting the feature columns and their coefficients together leaves predictions identical. This is an identity, not an outcome-destroying null.

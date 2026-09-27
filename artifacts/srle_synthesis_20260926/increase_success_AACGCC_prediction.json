@@ -1,0 +1,56 @@
+{
+  "candidates": [
+    {
+      "candidate": "ACCGAC",
+      "changed_positions": [
+        2,
+        5
+      ],
+      "cohort_wrong_both_rate": 0.2668262247012247,
+      "direction": "increase",
+      "domain_status": "IN_FROZEN_SRLE_CATALOG",
+      "model": "kmer123",
+      "predicted_effect": 0.5273642663159613,
+      "predicted_rank": 1,
+      "recommended": true,
+      "risk_scope": "Class-balanced historical SRLE cohort rate; not this candidate probability",
+      "uncertainty": "Not individually calibrated"
+    },
+    {
+      "candidate": "AACCCG",
+      "changed_positions": [
+        4,
+        6
+      ],
+      "cohort_wrong_both_rate": 0.2668262247012247,
+      "direction": "increase",
+      "domain_status": "IN_FROZEN_SRLE_CATALOG",
+      "model": "kmer123",
+      "predicted_effect": 0.2548069308586689,
+      "predicted_rank": 2,
+      "recommended": false,
+      "risk_scope": "Class-balanced historical SRLE cohort rate; not this candidate probability",
+      "uncertainty": "Not individually calibrated"
+    },
+    {
+      "candidate": "AGCACC",
+      "changed_positions": [
+        2,
+        4
+      ],
+      "cohort_wrong_both_rate": 0.2668262247012247,
+      "direction": "increase",
+      "domain_status": "IN_FROZEN_SRLE_CATALOG",
+      "model": "kmer123",
+      "predicted_effect": -0.033712188751702954,
+      "predicted_rank": 3,
+      "recommended": false,
+      "risk_scope": "Class-balanced historical SRLE cohort rate; not this candidate probability",
+      "uncertainty": "Not individually calibrated"
+    }
+  ],
+  "domain_statement": "Evaluated only in the SRLE-derived composition-preserving two-position edit task, one HBB reporter context; exploratory held-out replay. Generalization to other genes, reporters, cell types or assays is not established.",
+  "experimental_outcomes_used_for_ranking": false,
+  "mode": "frozen_heldout_prediction_replay",
+  "parent": "AACGCC"
+}

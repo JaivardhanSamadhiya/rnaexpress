@@ -1,0 +1,56 @@
+[
+  {
+    "caption": "Lexical first nonzero \u03942-mer example, not selected for outcome. DNA T encoding denotes the local RNA sequence. Only two positions change. Outcomes are revealed after frozen scoring; the original roster itself was historically coverage/outcome-conditioned.",
+    "figure": "figure01_task",
+    "png": "artifacts\\srle_synthesis_20260926\\figure01_task.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure01_task.svg"
+  },
+  {
+    "caption": "All 1,744 directed links. Same axes expose pair-model overdispersion. Composition predicts zero effect. Fixed original held-out scores; no recalibration.",
+    "figure": "figure02_quantitative",
+    "png": "artifacts\\srle_synthesis_20260926\\figure02_quantitative.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure02_quantitative.svg"
+  },
+  {
+    "caption": "Original 95% descriptive composition-class intervals. Every fixed label null displayed; jitter is deterministic display spacing, not data. Shuffled positions retain other order information and are a representation control.",
+    "figure": "figure03_features_controls",
+    "png": "artifacts\\srle_synthesis_20260926\\figure03_features_controls.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure03_features_controls.svg"
+  },
+  {
+    "caption": "Coefficient IQRs describe overlapping fits, not confidence intervals. Centering all 16 weights preserves predictions because \u03942-mer counts sum to zero. Contributions depend on representation and covariance; they are not mechanisms. Boundary/interaction decomposition is saved separately.",
+    "figure": "figure04_order_structure",
+    "png": "artifacts\\srle_synthesis_20260926\\figure04_order_structure.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure04_order_structure.svg"
+  },
+  {
+    "caption": "ECDFs weight decisions equally; uniform is the exact within-set candidate mixture. Mean/interval panel weights composition classes equally. These are different explicit weighting conventions; the pooled median is zero for both sequence selectors, but worst-choice mass remains.",
+    "figure": "figure05_recommendation",
+    "png": "artifacts\\srle_synthesis_20260926\\figure05_recommendation.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure05_recommendation.svg"
+  },
+  {
+    "caption": "Both directions, 1,184 decisions per selector. Correct/wrong published rates use the author target; wrong-both uses constituent raw replicates. The 16.6% forced-choice floor depends on the measured roster and does not establish a biological ceiling.",
+    "figure": "figure06_failures",
+    "png": "artifacts\\srle_synthesis_20260926\\figure06_failures.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure06_failures.svg"
+  },
+  {
+    "caption": "Exact feature-distance levels, no selected cutoff. The 2-mer gain is 6.5% at distance 4 and 16.2% at distance 6. These correlated descriptive strata do not establish monotonic generalization, and sequence distances >3 are untested.",
+    "figure": "figure07_similarity",
+    "png": "artifacts\\srle_synthesis_20260926\\figure07_similarity.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure07_similarity.svg"
+  },
+  {
+    "caption": "Predetermined median average replicate-regret examples within each correct-both/wrong-both direction subgroup. Selection was not optimized for the author aggregate, which can disagree with constituents. All candidates shown; a requested direction is not guaranteed by a forced ranking.",
+    "figure": "figure08_examples",
+    "png": "artifacts\\srle_synthesis_20260926\\figure08_examples.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure08_examples.svg"
+  },
+  {
+    "caption": "All five prediction/design-only signals, both selectors, all five fixed coverages. Lexical ties can dominate coarse distance signals. Class composition changes with coverage; selected thresholds are not independently validated or deployed. Intervals and denominators are in confidence_coverage.csv.",
+    "figure": "figure09_confidence",
+    "png": "artifacts\\srle_synthesis_20260926\\figure09_confidence.png",
+    "svg": "artifacts\\srle_synthesis_20260926\\figure09_confidence.svg"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "acquisition_dataset_labels": [
+    "Arora",
+    "Astrocyte SN-MPRA",
+    "Mikl",
+    "Moffatt 2026 candidate lock",
+    "N-zip",
+    "SRLE-seq"
+  ],
+  "acquisition_manifest_rows": 14,
+  "archives_opened": 0,
+  "file_inventory_rows": 203,
+  "metadata_inputs": {
+    "artifacts/research_20260925/validation_resource_inventory.csv": "edf7001c763dc00556dd7826d34b167042a68e602cab08dfb3fc0cf81718838f",
+    "data/manifests/acquisition_manifest.csv": "0bdeef4019e050815883c14e9ab00d7d6f2b0d8669d2cbd8ed69e1fd9c0891bb",
+    "data/manifests/file_inventory.csv": "4b170f2ce772e418b5cdd470ee792667abd0f44b299e365a5ab4adbd5aa7b8d0",
+    "reports/small_edit_20260925/independent_confirmation_admission.md": "a377c6359d10f74e4706c49c78f8e435dcf3d90d09632a9b93190e72338e6bde",
+    "reports/small_edit_20260925/small_edit_dataset_inventory.md": "2ebb8976b692fee7141eb1c2f5c738a28a023bb05cda90ef9532fb455b2bedd5",
+    "results/small_edit_20260925/inventory_receipt.json": "a3bb3d554cb723f612f838b2034d4043cdf02d259c19ee4dc63e5e88efc08903"
+  },
+  "new_external_requests": 0,
+  "protected_or_reserved_files_opened": 0,
+  "qualifying_untouched_resources": 0,
+  "raw_top_level_directory_names_only": [
+    "PMC12864922_figure4",
+    "PMC12864922_supplementary",
+    "TaliaferroLab_OligoPools",
+    "arora_gse183192",
+    "astrocyte_gse330741",
+    "finalshot_resource_audit",
+    "gse288185_metadata",
+    "mikl_gse173098",
+    "moffatt_gse334718",
+    "nzip",
+    "phaseB2_aux_audit",
+    "srle_seq",
+    "tdp43_mm10_gene_slices"
+  ],
+  "resources_classified": 16,
+  "scope": "Complete 16-resource admitted/exposure catalog plus central manifest and safe directory-name cross-check. Unknown/protected members not inspected. No claim of global dataset absence.",
+  "status": "PASS"
+}

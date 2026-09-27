@@ -1,0 +1,5 @@
+scheme,direction,model,comparator,metric,gain,ci_low,ci_high,fraction_groups_improved,statistical_groups,biological_contexts
+purged_composition_holdout,0,2mer,kmer123,published_regret,-0.0330856687057018,-0.1119099878087741,0.0412381040482333,0.4333333333333333,60,1
+purged_composition_holdout,0,2mer,kmer123,rep1_regret,-0.0474910246056552,-0.1233572028597246,0.0272657319077679,0.35,60,1
+purged_composition_holdout,0,2mer,kmer123,rep2_regret,-0.0265176679169566,-0.0989646438278459,0.043029831312795,0.4333333333333333,60,1
+purged_composition_holdout,0,2mer,kmer123,wrong_both,-0.0312177494573327,-0.0742552198380323,0.0097804984849255,0.2833333333333333,60,1
