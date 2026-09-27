@@ -1,0 +1,7 @@
+claim,status,level,evidence,limitation
+Strict within-SRLE edit prediction,SUPPORTED_FROZEN,1,reports/small_edit_20260925/small_edit_final_synthesis.md,"one reporter, not broad biological transfer"
+Old GSE330741 zero-shot transfer,FROZEN_FAILURE_PRESERVED,0,reports/generalization_20260926/GSE330741_zero_shot_results.md,now development knowledge; never untouched again
+Multi-assay ranking transfer development gate,NO-GO,0,results/cross_assay_20260927/gate_verdict.json,already-exposed sources; passing would permit discovery only
+Generalizable model selected,NONE,0,reports/cross_assay_20260927/model_selection_verdict.md,no target-specific rescue or selected subgroup
+Untouched biological validation,NOT_RUN,4,reports/cross_assay_20260927/generalizable_predictor_status.md,conditional on development gate; no new outcomes opened
+Universal molecular mechanism,NOT_ESTABLISHED,0,reports/cross_assay_20260927/universal_feature_analysis.md,predictive associations and heterogeneous endpoints are not mechanism

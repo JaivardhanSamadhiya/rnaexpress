@@ -1,0 +1,16 @@
+{
+  "executed_code_sha256": "10bd3f088ea61d4450dccaf5c977774a0c3d3e0546c5f5c43e5bbf5cf887bce9",
+  "figure_visual_review": "Seven PNG/SVG figures inspected through contact sheet; figure 7 annotation spacing corrected and rechecked.",
+  "gzip_exact_round_trips": [
+    "artifacts/cross_assay_20260927/canonical_interventions.csv",
+    "artifacts/cross_assay_20260927/leave_one_assay_out_predictions.csv",
+    "artifacts/cross_assay_20260927/candidate_rankings.csv",
+    "artifacts/cross_assay_20260927/secondary_predictions.csv",
+    "results/cross_assay_20260927/decision_metrics.csv"
+  ],
+  "independent_macro_regret_checks": 48,
+  "macro_regret_max_error": 1.1102230246251565e-16,
+  "minimum_distinct_candidates": 2,
+  "primary_duplicate_candidate_sequences": 0,
+  "status": "PASS"
+}

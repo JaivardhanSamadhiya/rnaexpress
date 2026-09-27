@@ -1,0 +1,32 @@
+{
+  "fresh_fit_max_prediction_error": 0.0,
+  "fresh_model_fits": 8,
+  "historical_bundles_unchanged": [
+    {
+      "members_unchanged": 93,
+      "receipt": "artifacts/generalization_20260926/delivery_receipt.json"
+    },
+    {
+      "members_unchanged": 119,
+      "receipt": "artifacts/srle_synthesis_20260926/delivery_receipt.json"
+    },
+    {
+      "members_unchanged": 70,
+      "receipt": "artifacts/small_edit_20260925/delivery_receipt.json"
+    },
+    {
+      "members_unchanged": 41,
+      "receipt": "artifacts/small_edit_20260925/srle_prediction_delivery_receipt.json"
+    }
+  ],
+  "independent_direction_decision_checks": 119592,
+  "prefit_hashes_unchanged": 36,
+  "pretrained_exact_ID_vector_checks": 20474,
+  "scoped_tests": 11,
+  "score_replay_max_error": 0.0,
+  "score_replays": 288838,
+  "status": "PASS",
+  "test_or_gate_modified": false,
+  "unrelated_user_files_unchanged": 33,
+  "whole_study_purge_checks": 4
+}

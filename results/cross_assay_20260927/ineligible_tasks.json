@@ -1,0 +1,15 @@
+[
+  {
+    "held": "srle",
+    "reason": "one biological context; no independent parent holdout",
+    "stage": "held_parent",
+    "status": "INELIGIBLE"
+  },
+  {
+    "held": "srle",
+    "reason": "No disjoint multi-context training pool",
+    "stage": "family_transfer",
+    "status": "INELIGIBLE",
+    "test_rows": 1744
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "caption": "Primary candidates have 1\u20136 changed bases; span may be larger. Repeated cell/reporter measurements are not independent experiments. All inputs are development-exposed.",
+    "figure": "figure01_systems_and_edits"
+  },
+  {
+    "caption": "Regret is lower-is-better; gain is positive-is-better. Every held assay is visible. The conservative baseline envelope chooses the best simple comparator within each study solely for evaluation.",
+    "figure": "figure02_held_assay_comparison"
+  },
+  {
+    "caption": "The displayed model is the fixed-composite descriptive leader, not a validated substitute if the gate failed. SRLE lacks independent held-parent evaluation and is not imputed. Feature gains average only eligible stages.",
+    "figure": "figure03_generalization_gap"
+  },
+  {
+    "caption": "Overall wrong-direction risk is retained alongside avoidable/unavoidable/neutral-only categories. Curves use a fixed threshold grid; open circles mark the predeclared 0.8 policy. Zero-coverage risk is missing, not zero.",
+    "figure": "figure04_failure_and_abstention"
+  },
+  {
+    "caption": "Coefficient sign reversals limit universality; regularized correlated coefficients are not molecular mechanisms. Residual contributions are allowed only for known exposed training studies, never whole-study transfer.",
+    "figure": "figure05_feature_heterogeneity"
+  },
+  {
+    "caption": "Sensitivity subsets cannot replace the main gate. Nuclear SRLE has no same-family core training study; missing family performance remains missing. Different-domain transfer and same-family transfer are distinct hypotheses.",
+    "figure": "figure06_edit_size_and_domain"
+  },
+  {
+    "caption": "The pretrained test is restricted to two studies and does not fulfill full-grid evidence. Lowest average regret alone is not the selection criterion; consistency and harm checks remain required.",
+    "figure": "figure07_pretrained_and_verdict"
+  }
+]

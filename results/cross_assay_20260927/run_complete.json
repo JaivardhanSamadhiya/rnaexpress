@@ -1,0 +1,24 @@
+{
+  "decision_rows": 508866,
+  "folds": 24,
+  "held_assay_predictions": 288838,
+  "ineligible_tasks": [
+    {
+      "held": "srle",
+      "reason": "one biological context; no independent parent holdout",
+      "stage": "held_parent",
+      "status": "INELIGIBLE"
+    },
+    {
+      "held": "srle",
+      "reason": "No disjoint multi-context training pool",
+      "stage": "family_transfer",
+      "status": "INELIGIBLE",
+      "test_rows": 1744
+    }
+  ],
+  "no_independent_validation": true,
+  "no_new_source_outcomes": true,
+  "rank_rows": 965542,
+  "status": "PASS"
+}

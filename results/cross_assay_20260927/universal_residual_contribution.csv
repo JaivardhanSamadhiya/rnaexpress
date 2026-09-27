@@ -1,0 +1,8 @@
+stage,dataset,full_score_regret,universal_only_regret,residual_regret_gain,fraction_universal_regret_removed,interpretation
+held_parent,astrocyte_gse330741,0.5052518480019021,0.5052518480019021,0.0,0.0,"predictive contribution on exposed within-assay/held-parent data, not variance or causal attribution"
+held_parent,mikl_gse173098,0.5049222024301171,0.5049222024301171,0.0,0.0,"predictive contribution on exposed within-assay/held-parent data, not variance or causal attribution"
+held_parent,moffatt_gse334718,0.4939011143653655,0.4939011143653655,0.0,0.0,"predictive contribution on exposed within-assay/held-parent data, not variance or causal attribution"
+within_assay,astrocyte_gse330741,0.3802024069012263,0.3802024069012263,0.0,0.0,"predictive contribution on exposed within-assay/held-parent data, not variance or causal attribution"
+within_assay,mikl_gse173098,0.4142508495032811,0.4142546096217289,3.7601184477709104e-06,9.076829467762382e-06,"predictive contribution on exposed within-assay/held-parent data, not variance or causal attribution"
+within_assay,moffatt_gse334718,0.3842747249495362,0.3842747249495362,0.0,0.0,"predictive contribution on exposed within-assay/held-parent data, not variance or causal attribution"
+within_assay,srle,0.1629593529811642,0.1629593529811642,0.0,0.0,"predictive contribution on exposed within-assay/held-parent data, not variance or causal attribution"
