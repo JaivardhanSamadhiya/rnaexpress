@@ -1,0 +1,116 @@
+{
+  "bootstrap_draws": 10000,
+  "candidate_set": "all prefit-admitted mapped SNPs with finite mutant/WT effects and >=2 matched positive CPM replicate pairs; no outcome sign/range filtering",
+  "candidate_tie": "lexical element ID",
+  "coefficient_comparison": {
+    "gauge": "subtract grand mean; secondary remove row/column additive terms",
+    "model_b": "delta2",
+    "permutations": 4096,
+    "scope": "descriptive feature-label permutations; no causal or independent-context p-value",
+    "seed": 20260926
+  },
+  "constant_prediction_spearman": "operational no-ranking skill = 0, flagged not mathematical correlation",
+  "constant_target": "stop parent ranking branch; keep status, never drop silently",
+  "directions": [
+    -1,
+    1
+  ],
+  "exposure": "PARTIALLY EXPOSED",
+  "no_abstention": true,
+  "parent_nuisance": "centered training-parent indicators for all learned B feature models; unseen parent has all-zero nuisance features",
+  "position_features": [
+    "(position_1based-1)/189",
+    "normalized_position_squared",
+    "first_or_last_position"
+  ],
+  "qc": {
+    "author_drop_all_replicate": 16,
+    "author_drop_snin_replicate": 10,
+    "effect_size_filter": false,
+    "exclude_parent": "slc1a2.1_2621_2681",
+    "fdr_filter": false,
+    "finite_mutant_and_wt_score_required": true,
+    "min_candidates_per_parent": 100,
+    "min_eligible_parents": 5,
+    "min_matched_positive_cpm_replicates": 2,
+    "min_overlap_components": 4,
+    "no_repair_of_ambiguous_mapping": true
+  },
+  "seed": 20260926,
+  "source_commit": "4bd5154",
+  "source_to_target_sign": 1,
+  "stop_after": "one A evaluation, locked B evaluation and prespecified diagnostics; no rescue or GSE334718 outcomes",
+  "strong_success": {
+    "candidate_regret_gain_lower_bound": 0,
+    "candidate_regret_gain_vs_uniform_min": 0.02,
+    "majority_parents_improved": true,
+    "one_sided_overlap_block_signflip_p_max": 0.05,
+    "paired_advantage_over_each_required_baseline_lower_bound": 0,
+    "positive_cluster_bootstrap_lower_bound": true,
+    "positive_mean_rho": true,
+    "qualification": "not pristine untouched; 7 elements, 5 overlap components, 2 genes; no breadth claim",
+    "wrong_direction_not_increased": true
+  },
+  "study": "GSE330741",
+  "target": {
+    "column": "snin_ctxin_logFC",
+    "effect": "mutant processed normalized logFC minus matched exact 190nt WT processed normalized logFC",
+    "magnitude_transfer_calibrated": false,
+    "negative": "SNP decreases that enrichment versus WT",
+    "normalization": "log2(CPM+1) minus per-element-group fraction/replicate median; author REML mixed model fraction contrast",
+    "positive": "SNP increases synaptoneurosome input relative to cortical input versus its WT",
+    "sheet": "S8_lib2_results_summary"
+  },
+  "test_a_models": [
+    "no_change",
+    "srle_composition",
+    "srle_delta_AU",
+    "srle_substitution",
+    "srle_2mer_order_only",
+    "srle_2mer_full",
+    "srle_3mer_full",
+    "srle_kmer123_full"
+  ],
+  "test_a_primary_metric": "mean parent Spearman signed rank correlation",
+  "test_a_primary_model": "srle_2mer_full",
+  "test_a_required_baselines": [
+    "no_change",
+    "srle_composition",
+    "srle_delta_AU",
+    "srle_substitution"
+  ],
+  "test_a_source_partition": {
+    "held_group": "original_hash",
+    "scheme": "sequence_holdout"
+  },
+  "test_b_inner": "same parent/overlap exclusion within outer training only",
+  "test_b_inner_selection": "mean parent MSE; ties prefer larger alpha",
+  "test_b_intercept": true,
+  "test_b_models": [
+    "no_change",
+    "training_mean",
+    "delta_AU",
+    "delta1",
+    "substitution",
+    "position",
+    "substitution_composition",
+    "substitution_position",
+    "simple_full",
+    "delta2",
+    "delta3",
+    "kmer123",
+    "simple_full_delta2",
+    "simple_full_delta2_delta3"
+  ],
+  "test_b_outer": "leave-one-parent-out, purge all overlapping same-gene parent intervals from training",
+  "test_b_primary_comparator": "simple_full",
+  "test_b_primary_metric": "paired mean parent Spearman advantage",
+  "test_b_primary_model": "simple_full_delta2",
+  "test_b_ridge_alphas": [
+    1.0,
+    10.0,
+    100.0
+  ],
+  "test_b_secondary_outer": "leave-one-gene-out for simple_full and simple_full_delta2 only; fixed alpha10; two genes descriptive",
+  "top_k": 5
+}

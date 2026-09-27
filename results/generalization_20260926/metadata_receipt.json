@@ -1,0 +1,25 @@
+{
+  "eligible_overlap_components": 5,
+  "eligible_parents": 7,
+  "eligible_snvs_before_outcomes": 3984,
+  "genes": 2,
+  "historical_exposure": "3 source result rows before 2026-08-26T11:52:44Z; September23/24 literature excerpts; source workbook previously loaded for mapping/completeness; no documented outcome-driven fitting",
+  "mutation_lane_files": 106,
+  "new_incidental_exposure": "During metadata filtering of cached paper, a tiling-library aggregate CDF p-value sentence was returned; no mutation outcome value or quantitative heatmap opened; not used in model choices",
+  "original_data_files_unchanged": true,
+  "parents": 8,
+  "raw_archive_names_only": 163,
+  "source_inputs": {
+    "data/frozen/astrocyte_external_features.csv.gz": "43d4e7dd2d96f603afd4a4e2af51a784923a5eb5f53e99dc8b3e14bbf3071827",
+    "data/frozen/astrocyte_pairing_audit.json": "260eaef408804a86c64d1254a225fbb8db6386774a455267b5f1aaf6378062e8",
+    "data/frozen/external_manifest.json": "fea8d6a5169921a0b1e0d020b80ba7f685c3a366ebc06c435155985952003ede",
+    "data/raw/astrocyte_gse330741/PMC13142395.html": "dfd923f1002b673bc03db43a6a1321372a64c81aed5118e109796e5fff62b0f9",
+    "data/raw/astrocyte_gse330741/code/SN_MPRA_followup_manuscript_code.Rmd": "fccb539a12a138f06b17f583a15394ff07f9f8fcd3513adb1cbe90f7eba18f6f",
+    "data/raw/astrocyte_gse330741/code/localization_mpra_functions.R": "02e216f6238985bdea0a1847b7276c21c69e047aa723194acdd1e75a9d6785ab",
+    "results/srle_prediction_20260926/fitted_parameters.json": "748180d219bbed45c27e6d731cf3af61c0b39557c72d433b07b6b2f375768675",
+    "results/srle_prediction_20260926/sequence_inventory.csv": "c89d929b7acde7bfb052b3318ab7222915cf58f3014222241c9c232b6c934056"
+  },
+  "status": "PASS",
+  "variant_outcomes_opened_this_phase": false,
+  "workbook_read_this_phase": false
+}

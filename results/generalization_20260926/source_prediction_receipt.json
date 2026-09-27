@@ -1,0 +1,21 @@
+{
+  "features": "unchanged raw overlapping full-insert 1/2/3-mer counts; unchanged regions cancel in differences",
+  "models": [
+    "no_change",
+    "srle_composition",
+    "srle_delta_AU",
+    "srle_substitution",
+    "srle_2mer_order_only",
+    "srle_2mer_full",
+    "srle_3mer_full",
+    "srle_kmer123_full"
+  ],
+  "no_parameter_refitting_of_primary": true,
+  "prediction_sha256": "2c1bcaa2f6118a930c44392d813b1fda51d1c2d3a82ed9b0939e2262e7397d64",
+  "rows": 4553,
+  "sign": 1,
+  "source_training_sequences": 3234,
+  "status": "PASS",
+  "support_warning": "190nt composition-changing SNPs are outside demonstrated 6nt composition-preserving support; mathematically defined extrapolation",
+  "target_outcome_accessed": false
+}
