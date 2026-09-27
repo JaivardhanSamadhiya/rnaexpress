@@ -1,0 +1,35 @@
+{
+  "all_design_rows": 4553,
+  "eligible_parents": 7,
+  "eligible_snps": 3984,
+  "exact_author_REML_reconstructed": false,
+  "genes": 2,
+  "mapped_outcome_sha256": "f31a38ec6d03de3317d7f0c1b1aaaf8586277e2512b9512c027606da8b6cc08a",
+  "opened_utc": "2026-09-27T06:10:06.336429+00:00",
+  "other_endpoint_fields_selected": false,
+  "overlap_components": 5,
+  "paired_replicate_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "qc_counts": {
+    "EXCLUDED_BY_PREFIT_RULE": 569,
+    "VERIFIED": 3984
+  },
+  "raw_to_processed_note": "Source author code traces median normalization and REML; paired CPM contrasts reconstructed diagnostically; full author coefficient production not certified exact",
+  "status": "PASS",
+  "target": "author normalized localization mutant minus exact190nt WT",
+  "target_tuning": false
+}

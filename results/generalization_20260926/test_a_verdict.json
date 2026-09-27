@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "candidate_superiority_uniform": true,
+    "positive_primary_rho": false,
+    "rank_advantage_no_change": false,
+    "rank_advantage_srle_composition": false,
+    "rank_advantage_srle_delta_AU": false,
+    "rank_advantage_srle_substitution": false
+  },
+  "exposure": "PARTIALLY EXPOSED; no untouched-confirmation claim",
+  "genes": 2,
+  "interpretation": "partial/uncertain signal",
+  "overlap_components": 5,
+  "parents": 7,
+  "primary": "srle_2mer_full",
+  "snps": 3984,
+  "stage": "test_a",
+  "strong_success": false,
+  "test_b_run_allowed": true
+}

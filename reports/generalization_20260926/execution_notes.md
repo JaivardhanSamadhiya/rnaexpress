@@ -1,0 +1,7 @@
+# Execution notes (append-only history)
+
+The freeze record's human-readable timestamp mislabeled a PowerShell-localized time as UTC. The authoritative manifest contains `2026-09-27T06:09:01.773608+00:00`, equivalent to September 26 at 23:09:01 America/Los_Angeles. Both prefit commits (`0b100d3`, `5ae6d4a`) preceded the first current-analysis mutation access recorded at approximately 06:10 UTC. This documentation error changes no hash, sequence, prediction, protocol or access order. The committed freeze record is preserved rather than silently replaced.
+
+The reveal passed the fixed mapping and QC rules: 3,984 verified SNPs, seven parents, five nonoverlap components, two genes. The 569 SNPs from the author-excluded poor-cloning parent remain listed with their prespecified exclusion. No additional SNPs were excluded. Fourteen author-retained matched replicate labels are represented. The author mixed-model endpoint was used exactly as frozen; paired CPM contrasts are a diagnostic reconstruction, not certified exact reproduction of the author REML pipeline.
+
+Test A ran once from the precomputed predictions. Its primary mean parent Spearman was 0.050952 with descriptive component-bootstrap interval [-0.003111, 0.138983]. It failed the frozen strong-success criterion. The separately recorded candidate superiority check passed against uniform, which cannot rescue failed primary/baseline checks. The frozen protocol therefore permits Test B. No model, sign, metric or candidate-set revision was made after reveal.
