@@ -1,0 +1,26 @@
+[
+  {
+    "caption": "Historical SRLE interval is across composition classes in one reporter, not biological replicates. The new assay admits seven parent elements and does not pass either primary generalization criterion.",
+    "figure": "figure01_design_and_claims"
+  },
+  {
+    "caption": "Every admitted SNP is plotted, separated by parent. Prediction and measurement scales represent different endpoints and are not calibrated. No pooled-SNP significance claim is made.",
+    "figure": "figure02_zero_shot_scatter"
+  },
+  {
+    "caption": "B removes the whole held parent and every overlapping parent from training. Four parents improve with 2-mer context, three worsen; the paired increment fails the frozen criterion.",
+    "figure": "figure03_parent_rank_generalization"
+  },
+  {
+    "caption": "Both directions are averaged within parent. B primary regret improves in all seven parents versus uniform; 5/14 selections still have the wrong measured sign. Bootstrap bars use five overlap components; the simple-baseline exact regret p is 0.0625.",
+    "figure": "figure04_candidate_choice"
+  },
+  {
+    "caption": "Grand-mean centered coefficient correlation is \u22120.471. Removing row/column additive terms gives interaction r=0.457 (descriptive feature-label p=0.0913). The plots do not establish a shared mechanism. Gene holdout is secondary and only two folds exist.",
+    "figure": "figure05_cross_assay_features"
+  },
+  {
+    "caption": "Every deterministic primary selection is shown, without selecting favorable examples. Positive bars satisfy the requested measured direction; negative bars fail. Seven A and five B choices fail.",
+    "figure": "figure06_successes_and_failures"
+  }
+]

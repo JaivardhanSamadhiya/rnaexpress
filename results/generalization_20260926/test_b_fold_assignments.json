@@ -1,0 +1,104 @@
+[
+  {
+    "held_n": 570,
+    "held_parent": "slc1a2.1_3281_3381",
+    "purged_parents": [],
+    "training_n": 3414,
+    "training_parents": [
+      "slc1a2.1_3641_3721",
+      "slc1a2.1_3781_3841",
+      "slc1a2.1_4181_4281",
+      "sparc_1041_1121",
+      "sparc_661_761",
+      "sparc_901_981"
+    ]
+  },
+  {
+    "held_n": 570,
+    "held_parent": "slc1a2.1_3641_3721",
+    "purged_parents": [
+      "slc1a2.1_3781_3841"
+    ],
+    "training_n": 2844,
+    "training_parents": [
+      "slc1a2.1_3281_3381",
+      "slc1a2.1_4181_4281",
+      "sparc_1041_1121",
+      "sparc_661_761",
+      "sparc_901_981"
+    ]
+  },
+  {
+    "held_n": 570,
+    "held_parent": "slc1a2.1_3781_3841",
+    "purged_parents": [
+      "slc1a2.1_3641_3721"
+    ],
+    "training_n": 2844,
+    "training_parents": [
+      "slc1a2.1_3281_3381",
+      "slc1a2.1_4181_4281",
+      "sparc_1041_1121",
+      "sparc_661_761",
+      "sparc_901_981"
+    ]
+  },
+  {
+    "held_n": 570,
+    "held_parent": "slc1a2.1_4181_4281",
+    "purged_parents": [],
+    "training_n": 3414,
+    "training_parents": [
+      "slc1a2.1_3281_3381",
+      "slc1a2.1_3641_3721",
+      "slc1a2.1_3781_3841",
+      "sparc_1041_1121",
+      "sparc_661_761",
+      "sparc_901_981"
+    ]
+  },
+  {
+    "held_n": 570,
+    "held_parent": "sparc_1041_1121",
+    "purged_parents": [
+      "sparc_901_981"
+    ],
+    "training_n": 2848,
+    "training_parents": [
+      "slc1a2.1_3281_3381",
+      "slc1a2.1_3641_3721",
+      "slc1a2.1_3781_3841",
+      "slc1a2.1_4181_4281",
+      "sparc_661_761"
+    ]
+  },
+  {
+    "held_n": 568,
+    "held_parent": "sparc_661_761",
+    "purged_parents": [],
+    "training_n": 3416,
+    "training_parents": [
+      "slc1a2.1_3281_3381",
+      "slc1a2.1_3641_3721",
+      "slc1a2.1_3781_3841",
+      "slc1a2.1_4181_4281",
+      "sparc_1041_1121",
+      "sparc_901_981"
+    ]
+  },
+  {
+    "held_n": 566,
+    "held_parent": "sparc_901_981",
+    "purged_parents": [
+      "sparc_1041_1121"
+    ],
+    "training_n": 2848,
+    "training_parents": [
+      "slc1a2.1_3281_3381",
+      "slc1a2.1_3641_3721",
+      "slc1a2.1_3781_3841",
+      "slc1a2.1_4181_4281",
+      "sparc_661_761"
+    ]
+  }
+]

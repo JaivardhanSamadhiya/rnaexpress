@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "candidate_superiority_simple_full": true,
+    "candidate_superiority_uniform": true,
+    "positive_primary_rho": true,
+    "rank_advantage_simple_full": false
+  },
+  "exposure": "PARTIALLY EXPOSED; no untouched-confirmation claim",
+  "genes": 2,
+  "interpretation": "partial/uncertain signal",
+  "overlap_components": 5,
+  "parents": 7,
+  "primary": "simple_full_delta2",
+  "snps": 3984,
+  "stage": "test_b",
+  "strong_success": false,
+  "test_b_run_allowed": false
+}
