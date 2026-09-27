@@ -1,0 +1,70 @@
+{
+  "commits": {
+    "0023b01": {
+      "paths": [
+        "artifacts/small_edit_20260925/srle_observation_inventory.csv",
+        "reports/small_edit_20260925/srle_small_edit_prediction_protocol.md",
+        "results/srle_prediction_20260926/.gitattributes",
+        "results/srle_prediction_20260926/evaluation_freeze.json",
+        "results/srle_prediction_20260926/inventory_receipt.json",
+        "results/srle_prediction_20260926/sequence_inventory.csv",
+        "results/srle_prediction_20260926/split_inventory.csv",
+        "src/srle_prediction_20260926/.gitattributes",
+        "src/srle_prediction_20260926/__init__.py",
+        "src/srle_prediction_20260926/core.py",
+        "src/srle_prediction_20260926/evaluate.py",
+        "src/srle_prediction_20260926/fit.py",
+        "src/srle_prediction_20260926/inventory.py",
+        "src/srle_prediction_20260926/test_prediction.py"
+      ],
+      "working_tree_files_matching": 14
+    },
+    "e5b9288": {
+      "paths": [
+        "artifacts/small_edit_20260925/.gitignore",
+        "artifacts/small_edit_20260925/srle_prediction_delivery_receipt.json",
+        "artifacts/small_edit_20260925/srle_small_edit_prediction_figure.png",
+        "artifacts/small_edit_20260925/srle_small_edit_prediction_figure.svg",
+        "reports/small_edit_20260925/srle_final_predictive_claim.md",
+        "reports/small_edit_20260925/srle_prediction_reproduction.md",
+        "reports/small_edit_20260925/srle_small_edit_prediction_results.md",
+        "results/srle_prediction_20260926/decision_comparisons.csv",
+        "results/srle_prediction_20260926/decision_metrics.csv",
+        "results/srle_prediction_20260926/evaluation_receipt.json",
+        "results/srle_prediction_20260926/example_choices.csv",
+        "results/srle_prediction_20260926/failure_analysis.csv",
+        "results/srle_prediction_20260926/figure_receipt.json",
+        "results/srle_prediction_20260926/fit_receipt.json",
+        "results/srle_prediction_20260926/prediction_comparisons.csv",
+        "results/srle_prediction_20260926/prediction_metrics.csv",
+        "results/srle_prediction_20260926/scoped_tests.txt",
+        "results/srle_prediction_20260926/split_performance.csv",
+        "results/srle_prediction_20260926/verification_receipt.json",
+        "src/srle_prediction_20260926/figure.py",
+        "src/srle_prediction_20260926/package.py",
+        "src/srle_prediction_20260926/report.py",
+        "src/srle_prediction_20260926/verify.py"
+      ],
+      "working_tree_files_matching": 23
+    }
+  },
+  "fresh_ridge_fits": 846,
+  "fresh_training_partitions": 141,
+  "historical_score_error_reduction": 0.2704287057524779,
+  "max_fresh_prediction_error": 0.0,
+  "new_models_searched": 0,
+  "predictions": 17955,
+  "prior_bundle_files_checked": 41,
+  "scope": "Fresh fixed reconstruction only; separate new outputs",
+  "status": "PASS",
+  "strict_2mer_ci": [
+    0.010011286575468549,
+    0.19993585473201866
+  ],
+  "strict_2mer_effect_mse_reduction": 0.10192902960964512,
+  "strict_kmer123_regret": 0.31966759428688296,
+  "strict_kmer123_wrong_both": 0.2668262247012247,
+  "strict_pair_mse_reduction": -0.5962407565343009,
+  "tests": 82,
+  "uniform_regret": 0.5
+}
