@@ -1,0 +1,19 @@
+{
+  "feature": "interaction_3",
+  "features": 246,
+  "finite_replicate_rows": 100430,
+  "historical_training_pairs": 23471,
+  "missing_paired_replicate_assays": [
+    "moffatt_gse334718"
+  ],
+  "pair_roster": 23563,
+  "replicate_rows": 127603,
+  "rows": 26258,
+  "source_files": {
+    "artifacts/cross_assay_20260927/canonical_interventions.csv": "f57c8bc22c37717887980fc5bf0948bf7520b4b4459522e97ca2762625adfe57",
+    "artifacts/cross_assay_20260927/features.npz": "39c900d3f0ebd2948d77276e906550e9e2dd9b992cc2f6b5a7af015cdb58945b",
+    "results/cross_assay_20260927/fold_manifest.json": "c492d24c421440b7799efcce6dfa02144cb6cebd78a6c7bf09f9e5c114da3314",
+    "results/cross_assay_20260927/model_row_index.csv": "1f56e83f56c82f881d2e58c395a54eae77673884081828d808682f02bbd6e453"
+  },
+  "status": "PASS"
+}

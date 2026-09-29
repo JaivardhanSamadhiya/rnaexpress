@@ -1,0 +1,49 @@
+{
+  "comparative_fits_run": false,
+  "files": {
+    "artifacts/probabilistic_ranking_20260928/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "artifacts/probabilistic_ranking_20260928/.gitignore": "2ec48cf934ae98e5296cf58d205d4d48b4d81aee8a92066089ff81aa1b8cdd60",
+    "artifacts/probabilistic_ranking_20260928/data.npz": "cb27c2eb878c944c8c464b711432e5fd958a5dc188147d8e9480f161d1677f00",
+    "artifacts/probabilistic_ranking_20260928/replicate_candidate_measurements.csv": "52e1241929c9ecc5970c93de2766b539e4b25148a75a498f1f68a6ac7f48f8ba",
+    "artifacts/probabilistic_ranking_20260928/replicate_candidate_measurements.csv.gz": "593505e5112e2b06b397af8c66c4f7505bf271777e9759886d97c6177a3c4172",
+    "artifacts/probabilistic_ranking_20260928/replicate_pairwise_evidence.csv": "48ee580f2d5dfc38a674775b529bbc261067cc68606f2efde655525bb57bcf67",
+    "artifacts/probabilistic_ranking_20260928/replicate_pairwise_evidence.csv.gz": "c59d6e8acfd169aea90c704eb0c94741d14f425e50f3d9a726c609ded9f51437",
+    "reports/probabilistic_ranking_20260928/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/probabilistic_ranking_20260928/probabilistic_targets.md": "0b88c31022a09c32a31a4582cbb1c8a4e38212616d448e4fd9b570f1d44bf202",
+    "reports/probabilistic_ranking_20260928/protocol.md": "c604ea62efc17d88a77821e3c03058cfdc515d9309c473ec3912c7506772d048",
+    "reports/probabilistic_ranking_20260928/replicate_reconstruction.md": "31adaa71f203d6c08c6cacd16be1f5cf7b48940f40092859421340875f583e28",
+    "results/probabilistic_ranking_20260928/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+    "results/probabilistic_ranking_20260928/candidate_index.csv.gz": "2e27544e9d3d03b4d1e094236a5aa82f79dfb696a3f2bc6f64443d960e0dc6c8",
+    "results/probabilistic_ranking_20260928/initial_state.json": "1e1d695f6a4da6726d0eafadd6fb0e85426b0956347c2021f50cd1b00d254d93",
+    "results/probabilistic_ranking_20260928/prefit_tests.txt": "c8f83d9202591271790847a59a548042ee134e2cf86e9aaa3f15316ba6eee718",
+    "results/probabilistic_ranking_20260928/preparation_receipt.json": "3cf8912b81dfae233542b772e23679f84b2d48bd3e59a236e4f128aca2b35de7",
+    "src/probabilistic_ranking_20260928/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/probabilistic_ranking_20260928/common.py": "827454e9375374bb76afc2e49f141fc21fe40e54cf02b1b116ad71d687944c49",
+    "src/probabilistic_ranking_20260928/evaluate.py": "18ae49156f35307a8c45f81a41f87b664c6fc7fb84ad0200999bd7af384c0ce5",
+    "src/probabilistic_ranking_20260928/freeze.py": "63baeb39d70c661a72c8b5b63e2896782973bbe958e6b016c5cf5e41b4d58926",
+    "src/probabilistic_ranking_20260928/gate.py": "a96ddb40c3ae3a646b9bdaa97de60c3fe85f005e5385514119572844d663219f",
+    "src/probabilistic_ranking_20260928/models.py": "9809e2cd8e7a3bdfa124f73718bd6c97bd3932e457ab60886f72a0747ba46d89",
+    "src/probabilistic_ranking_20260928/prepare.py": "301e1ac24adceb33d0727b69bd39cbbdb6a8d3e26119b32f993d07582e5bc611",
+    "src/probabilistic_ranking_20260928/run.py": "f002fb380d74f236993122fa00bd548ea3cdb781a4b3da21a639a92f767752cd",
+    "src/probabilistic_ranking_20260928/test_scoped.py": "ef02cb530f585536b5f1d4d67ce97a02783f3ccfc8d9f80f8945995f40ffaf18"
+  },
+  "fixed_representation": "interaction_3",
+  "new_external_data_allowed": false,
+  "primary_models": [
+    "H0",
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "protocol_commit": "1c1f387",
+  "secondary_models": [
+    "Hraw",
+    "P2_weighted",
+    "Partial",
+    "H0_pairfree",
+    "P2_pairfree",
+    "P3_hetero"
+  ],
+  "tests": 9
+}
