@@ -1,0 +1,55 @@
+{
+  "absolute_benefit_abstention": "NOT_IDENTIFIED_BY_PAIRWISE_PROBABILITIES",
+  "checks": [
+    {
+      "brier_gain": 0.03493933702803559,
+      "dataset": "astrocyte_gse330741",
+      "ece": 0.055330111585893,
+      "logloss_gain": 0.09361735383370973,
+      "model": "P1",
+      "passes": false
+    },
+    {
+      "brier_gain": 0.013638042305180675,
+      "dataset": "mikl_gse173098",
+      "ece": 0.07396059478240355,
+      "logloss_gain": 0.03184169397506209,
+      "model": "P1",
+      "passes": false
+    },
+    {
+      "brier_gain": 0.03564796555979027,
+      "dataset": "astrocyte_gse330741",
+      "ece": 0.05122171210669601,
+      "logloss_gain": 0.09515006908315682,
+      "model": "P2",
+      "passes": false
+    },
+    {
+      "brier_gain": 0.017008964675813087,
+      "dataset": "mikl_gse173098",
+      "ece": 0.054990434437751305,
+      "logloss_gain": 0.03910224053478395,
+      "model": "P2",
+      "passes": false
+    },
+    {
+      "brier_gain": 0.024237341155513625,
+      "dataset": "astrocyte_gse330741",
+      "ece": 0.1005842185172528,
+      "logloss_gain": 0.06901679579967523,
+      "model": "P3",
+      "passes": false
+    },
+    {
+      "brier_gain": 0.013688655197630295,
+      "dataset": "mikl_gse173098",
+      "ece": 0.06673330732615226,
+      "logloss_gain": 0.03208922193639974,
+      "model": "P3",
+      "passes": false
+    }
+  ],
+  "eligible_models": [],
+  "status": "NOT_RUN_CALIBRATION_REQUIREMENTS_NOT_MET"
+}

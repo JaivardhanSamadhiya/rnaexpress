@@ -1,0 +1,30 @@
+[
+  {
+    "caption": "Moffatt lacks admitted paired replicate contrasts. Repeatability comes from the frozen failure audit; support histograms use the current matched historical training-pair roster.",
+    "figure": "figure01_replicates_and_support"
+  },
+  {
+    "caption": "H0/P1/P2 share candidates and sequence features; targets can differ due to replicate uncertainty and raw-versus-author processing. The Hraw control separates those explanations.",
+    "figure": "figure02_hard_and_soft_targets"
+  },
+  {
+    "caption": "Fixed ten-bin reliability curves. Moffatt uses aggregate labels only and cannot establish replicated probability calibration. Pair probabilities do not imply absolute benefit over WT.",
+    "figure": "figure03_calibration"
+  },
+  {
+    "caption": "Lower regret and positive gain are better. Primary supervision methods share the fixed interaction_3 representation and original study/component balance. A pooled gain alone cannot pass.",
+    "figure": "figure04_transfer_and_gains"
+  },
+  {
+    "caption": "Stacked categories sum to overall wrong direction. Replicate ambiguity overlaps these categories and is reported separately, never used to erase errors.",
+    "figure": "figure05_wrong_direction"
+  },
+  {
+    "caption": "The reliability association has n=3 and is not mechanistic proof. Secondary variants cannot rescue a failed primary supervision gate.",
+    "figure": "figure06_reliability_and_secondary"
+  },
+  {
+    "caption": "All bars use matched candidate subsets and raw held-replicate targets. The measured-replicate reference is neither deployable nor a theoretical maximum.",
+    "figure": "figure07_matched_reproducibility"
+  }
+]

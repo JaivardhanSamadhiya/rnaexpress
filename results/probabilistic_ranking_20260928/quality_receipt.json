@@ -1,0 +1,16 @@
+{
+  "code_sha256": "fee53c3eb0a0e2cf69545d2d5319d854d0fe1ffa38256006bea0e74f057ea5c0",
+  "constant_probability_reference": "analytic postfit context only; no gate change",
+  "figure_visual_review": "Seven figures and contact sheet inspected; reliability-plot labels adjusted and rechecked.",
+  "gzip_roundtrips": [
+    "artifacts/probabilistic_ranking_20260928/replicate_candidate_measurements.csv",
+    "artifacts/probabilistic_ranking_20260928/replicate_pairwise_evidence.csv",
+    "artifacts/probabilistic_ranking_20260928/pairwise_probabilities.csv",
+    "artifacts/probabilistic_ranking_20260928/candidate_rankings.csv",
+    "results/probabilistic_ranking_20260928/candidate_index.csv",
+    "results/probabilistic_ranking_20260928/decision_metrics.csv",
+    "results/probabilistic_ranking_20260928/predictions.csv",
+    "results/probabilistic_ranking_20260928/matched_raw_replicate_decisions.csv"
+  ],
+  "status": "PASS"
+}

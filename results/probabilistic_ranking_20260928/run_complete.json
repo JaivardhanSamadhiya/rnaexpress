@@ -1,0 +1,24 @@
+{
+  "candidate_rank_rows": 525160,
+  "decision_rows": 234064,
+  "fits": 96,
+  "fold_jobs": 22,
+  "new_independent_data": false,
+  "primary_models": [
+    "H0",
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "probability_rows": 235630,
+  "raw_replicate_decisions": 314160,
+  "secondary_models": [
+    "Hraw",
+    "P2_weighted",
+    "Partial",
+    "H0_pairfree",
+    "P2_pairfree",
+    "P3_hetero"
+  ],
+  "status": "PASS"
+}
