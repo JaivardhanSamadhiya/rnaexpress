@@ -1,0 +1,22 @@
+{
+  "analytic_checks": 5,
+  "gate_changed": false,
+  "new_datasets": 0,
+  "new_model_fits": 0,
+  "prefit_hashes_unchanged": 36,
+  "primary_rows": 26258,
+  "prior_bundle_members_unchanged": 319,
+  "replicate_choice_rows": 31416,
+  "replicate_pair_context_rows": 15704,
+  "representation_context_rows": 27180,
+  "source_hashes": {
+    "artifacts/cross_assay_20260927/canonical_interventions.csv": "f57c8bc22c37717887980fc5bf0948bf7520b4b4459522e97ca2762625adfe57",
+    "artifacts/cross_assay_20260927/features.npz": "39c900d3f0ebd2948d77276e906550e9e2dd9b992cc2f6b5a7af015cdb58945b",
+    "reports/failure_audit_20260928/protocol.md": "a18f48349ccb082e9d9a4e1f7a5992247523af0da69e8ced1f6a155d61d21190",
+    "results/cross_assay_20260927/gate_verdict.json": "65d002a60f2b99e1d0f488cfa76cf52485a498a54860cb28a17031aebc42a7a3",
+    "results/cross_assay_20260927/model_row_index.csv": "1f56e83f56c82f881d2e58c395a54eae77673884081828d808682f02bbd6e453",
+    "src/failure_audit_20260928/run.py": "a4e9292038922eb338c35ea1af17d3c9e0dc5fa8c23b6d6f999ec7a669fa107d"
+  },
+  "status": "PASS",
+  "unrelated_modified_files_unchanged": 33
+}
