@@ -62,7 +62,7 @@ def run():
     assert sha256(ROOT/delivery['archive'])==delivery['sha256']
     assert readj(OLD/'gate_verdict.json')['new_dataset_discovery_allowed'] is False
     inputs={p.relative_to(ROOT).as_posix():sha256(p) for p in [ART/'canonical_interventions.csv',ART/'features.npz',OLD/'model_row_index.csv',OLD/'gate_verdict.json',REP/'protocol.md',Path(__file__)]}
-    jsave(OUT/'input_manifest.json',{'inputs':inputs,'base_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'retrospective_exposed_diagnosis':True})
+    jsave(OUT/'input_manifest_optimized.json',{'inputs':inputs,'base_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'retrospective_exposed_diagnosis':True,'execution_note':'Initial run stopped during feature diagnostics to avoid repeatedly decompressing the same arrays; earlier replicate tables preserved and checked for exact equality on rerun.'})
     count=tests();f=pd.read_csv(ART/'canonical_interventions.csv',low_memory=False);f=f[f.primary_eligible].reset_index(drop=True)
     pairs=[];choices=[];aggregation=[];availability=[]
     for (study,context),g in f.groupby(['dataset','parent_context_id']):
@@ -91,7 +91,9 @@ def run():
     pm=macro(pa,['ordering_agreement','spearman']);cm=macro(ch,['regret','uniform_regret','wrong_direction','correct_direction']);am=macro(ag,['ordering_agreement','spearman'])
     csv('replicate_pair_summary.csv',pm);csv('replicate_choice_summary.csv',cm);csv('processed_vs_raw_summary.csv',am)
     print('Replicate diagnostics complete',flush=True)
-    idx=pd.read_csv(OLD/'model_row_index.csv');frame=pd.read_csv(ART/'canonical_interventions.csv',low_memory=False).set_index('intervention_id').loc[idx.intervention_id].reset_index();core=frame.primary_eligible.to_numpy();xs=np.load(ART/'features.npz');schema=readj(OLD/'feature_schema.json')['columns'];support=[];dims=[];collisions=[]
+    idx=pd.read_csv(OLD/'model_row_index.csv');frame=pd.read_csv(ART/'canonical_interventions.csv',low_memory=False).set_index('intervention_id').loc[idx.intervention_id].reset_index();core=frame.primary_eligible.to_numpy()
+    with np.load(ART/'features.npz') as archive:xs={name:archive[name] for name in MODELS}
+    schema=readj(OLD/'feature_schema.json')['columns'];support=[];dims=[];collisions=[]
     for study in sorted(f.dataset.unique()):
         te=core&frame.dataset.eq(study).to_numpy();tr=purge(frame,core&frame.dataset.ne(study).to_numpy(),te);train=frame[tr];test=frame[te]
         assert not set(train.biological_component)&set(test.biological_component)
