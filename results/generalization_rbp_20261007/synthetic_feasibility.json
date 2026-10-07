@@ -1,0 +1,115 @@
+{
+  "catalog_manifest_sha256": "89e91477f4554538ce3bddc9018e680803e90d417b1f52ca2ae1d4f9bda86839",
+  "feasibility_limit": "Sixteen synthetic alleles only; excludes actual source neighborhoods, persistence, inner fits and reused ensemble cache memory. No full-core timing claim.",
+  "float32_26258_by_1930_storage_bytes_arithmetic_only": 202711760,
+  "float32_26258_by_3614_storage_bytes_arithmetic_only": 379585648,
+  "human_rbps": 185,
+  "median_seconds_by_length": {
+    "150": 0.013080799999443116,
+    "190": 0.015497599997615907,
+    "260": 0.01785559999916586,
+    "46": 0.008980350005003856
+  },
+  "project_data_loaded": false,
+  "project_features_computed": false,
+  "protected_outcomes_opened": false,
+  "public_binding_metadata_only": true,
+  "raw_feature_columns": 1684,
+  "raw_plus_accessibility_total_with_base": 3614,
+  "raw_total_with_base": 1930,
+  "score_plan_sha256": "c999cb18747fd094635e92e9803855882dede295e27f24e9d3de74b0a9cc50f5",
+  "source_sha256": {
+    "benchmark.py": "489d9c8f383a1bd554f6ce53a95e8b8e1c6d0a8f7a589d3dd7ee563c12ed7a9f",
+    "catalog.py": "a9185c85ce6a18f063e5cf70f7abb76b5ca696afbbba45a0ff747cf919079a24",
+    "prepare_catalog.py": "5b93a0fed4a017cb53eeec12a381fdf144bf75c03cd2508dd770efa000bfe9f9",
+    "scoring.py": "f0e49440bcb6aaedb1622679a54a9259ace7f0ed478b7be1feac314cab9063d7",
+    "test_scoring.py": "c25ec106cda3c1b24646be6060dad80b7fb3d0a6b45e1a8dfb94c7c48123668a"
+  },
+  "status": "SYNTHETIC_SCORING_AND_PUBLIC_METADATA_PASS",
+  "supervised_models_fit": 0,
+  "synthetic_alleles": 16,
+  "tests_passed": 4,
+  "timings": [
+    {
+      "length_nt": 46,
+      "pair": 0,
+      "seconds": 0.010636899998644367
+    },
+    {
+      "length_nt": 46,
+      "pair": 0,
+      "seconds": 0.008300400004372932
+    },
+    {
+      "length_nt": 46,
+      "pair": 1,
+      "seconds": 0.009660300005634781
+    },
+    {
+      "length_nt": 46,
+      "pair": 1,
+      "seconds": 0.007823600004485343
+    },
+    {
+      "length_nt": 150,
+      "pair": 0,
+      "seconds": 0.013184999996155966
+    },
+    {
+      "length_nt": 150,
+      "pair": 0,
+      "seconds": 0.012546099998871796
+    },
+    {
+      "length_nt": 150,
+      "pair": 1,
+      "seconds": 0.012976600002730265
+    },
+    {
+      "length_nt": 150,
+      "pair": 1,
+      "seconds": 0.015493200000491925
+    },
+    {
+      "length_nt": 190,
+      "pair": 0,
+      "seconds": 0.016763699997682124
+    },
+    {
+      "length_nt": 190,
+      "pair": 0,
+      "seconds": 0.016465999993670266
+    },
+    {
+      "length_nt": 190,
+      "pair": 1,
+      "seconds": 0.014529200001561549
+    },
+    {
+      "length_nt": 190,
+      "pair": 1,
+      "seconds": 0.014027299999725074
+    },
+    {
+      "length_nt": 260,
+      "pair": 0,
+      "seconds": 0.017987799998081755
+    },
+    {
+      "length_nt": 260,
+      "pair": 0,
+      "seconds": 0.019237799999245908
+    },
+    {
+      "length_nt": 260,
+      "pair": 1,
+      "seconds": 0.017723400000249967
+    },
+    {
+      "length_nt": 260,
+      "pair": 1,
+      "seconds": 0.016889200000150595
+    }
+  ],
+  "unique_pfms": 421
+}

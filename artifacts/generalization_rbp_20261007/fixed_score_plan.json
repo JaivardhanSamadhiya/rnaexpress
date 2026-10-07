@@ -1,0 +1,35 @@
+{
+  "SRLE_context": "Certified author20+6+20 local synthesis window; not complete mature HBB",
+  "accessibility_candidate": "Window specificity score times arithmetic mean of per-base ensemble unpaired marginals; same pools; not joint opening probability",
+  "accessibility_off_control": "Exactly same scores/pools with all unpaired marginals set to one",
+  "accessible_dimensions": 1684,
+  "affected_pool": "Union of complete motif windows overlapping any changed nucleotide, identical corresponding start coordinates for parent and mutant",
+  "allele_feature": "Mutant pool summary minus corresponding parent pool summary",
+  "background_ACGU": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "biological_fit_authorized": false,
+  "catalog_manifest_sha256": "89e91477f4554538ce3bddc9018e680803e90d417b1f52ca2ae1d4f9bda86839",
+  "empty_pool": "Zero; complete motif windows only, no sequence padding",
+  "feature_order": "Lexical representative motif ID, then global_mean/global_max/affected_mean/affected_max",
+  "fixed_pseudocount_per_probability": 0.0001,
+  "full_project_feature_generation_authorized": false,
+  "global_pool": "All complete forward-strand motif windows in exact available encoded allele",
+  "motif_inclusion": "Official human main evidence table; D protein plus experimental motif type; nonempty supplied PFM; exact normalized-matrix dedup",
+  "other_context": "Exact admitted inserts; no invented full transcript",
+  "outcome_selection": false,
+  "raw_dimensions": 1684,
+  "representation_routes_proposed": [
+    "corrected_base246+raw1684",
+    "corrected_base246+raw1684+accessible1684"
+  ],
+  "reverse_complement_scanning": false,
+  "score": "exp(mean_position(log(((row_normalized_PFM+1e-4)/(1+4e-4))/0.25)))",
+  "score_interpretation": "Geometric-mean likelihood ratio to uniform background; computational specificity proxy, not physical affinity or occupancy",
+  "selection_proposed": "Same whole-assay/component/allele purge and source-only nested L2 .005/.05/.5, training-pair RMS; future separate root freeze required",
+  "unique_pfms": 421,
+  "version": "direct_human_experimental_pfm_v1"
+}

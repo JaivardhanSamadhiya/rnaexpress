@@ -1,0 +1,12 @@
+{
+  "biological_data_loaded": false,
+  "counts": {
+    "Empty PFM member in official export": 40,
+    "No PFM member in official export": 20
+  },
+  "handling": "Exclude empty or absent matrices with motif ID and explicit reason; do not impute any matrix; preserve official archive unchanged",
+  "initial_guard_failure": "Official direct-evidence archive contains empty PFM text files; initial parser rejected first empty file",
+  "models_fit": 0,
+  "phase": "Public catalog metadata parsing, before synthetic scoring",
+  "project_features_computed": false
+}

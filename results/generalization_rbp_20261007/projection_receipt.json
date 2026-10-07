@@ -1,0 +1,24 @@
+{
+  "draw": "Independent Gaussian default float64 in pool order, /sqrt64, then cast float32",
+  "files": {
+    "artifacts/generalization_rbp_20261007/projection_affected_max.npy": "732d3d18cf1b2974a16d38c51865643eaad818a3110ee4d2c961df13708d749d",
+    "artifacts/generalization_rbp_20261007/projection_affected_mean.npy": "23d9a569020cb4d70260ea48ef3dbfa149214f75df46aa84932d55db6824e401",
+    "artifacts/generalization_rbp_20261007/projection_global_max.npy": "131cd0abfcd4935e1a1967f8fb10a7ace1a29429ab57f7c7804df09b7e48dc43",
+    "artifacts/generalization_rbp_20261007/projection_global_mean.npy": "fb4c5399a7d13a32324c45955cbf9e3efc2a13283386f5822999c3b2de2e8bbd"
+  },
+  "outcomes_used": false,
+  "pool_order": [
+    "global_mean",
+    "global_max",
+    "affected_mean",
+    "affected_max"
+  ],
+  "project_features_built": false,
+  "raw_access_use_same_matrices": true,
+  "seed": 20261007,
+  "shape_per_pool": [
+    421,
+    64
+  ],
+  "status": "PASS"
+}

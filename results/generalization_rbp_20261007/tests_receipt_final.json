@@ -1,0 +1,25 @@
+{
+  "biological_fits": 0,
+  "project_data_loaded": false,
+  "project_features_built": false,
+  "scope": "Synthetic projection, independent motif arithmetic, evidence, paired controls and request roster only",
+  "source_hashes": {
+    "benchmark.py": "489d9c8f383a1bd554f6ce53a95e8b8e1c6d0a8f7a589d3dd7ee563c12ed7a9f",
+    "catalog.py": "a9185c85ce6a18f063e5cf70f7abb76b5ca696afbbba45a0ff747cf919079a24",
+    "common.py": "2f6be1a99726313fb56d08540859add2c3ec03c8de8d07c5a582583d93e8b25c",
+    "engine.py": "708b3e7c1a3093c0e0fed224c5c1b0f300aa33879dcf08e8225454c724f0d587",
+    "freeze.py": "41ae3a3901f6b64370c5fa57a8348717ef78f919be33a585dcb4eea1decc5e24",
+    "gate.py": "39560964b6829a0a74539579b80ceacd517681c5fe7c74525cc6308c56d62e9d",
+    "prepare_catalog.py": "5b93a0fed4a017cb53eeec12a381fdf144bf75c03cd2508dd770efa000bfe9f9",
+    "production.py": "967e2b157ad807760e3efcd770707aa4a445e690e6a0a0fe2afda557d59cdacb",
+    "projection.py": "eaa190b58e510df07bfd9672f9effb6b6d49534c47ced3bbb45894fc29784982",
+    "routes.py": "0bae9d10747d4aa75d78c259383bc87912ed98eee7600ac75ec3297e43248c2b",
+    "scoring.py": "f0e49440bcb6aaedb1622679a54a9259ace7f0ed478b7be1feac314cab9063d7",
+    "test_experiment.py": "611bdaa87e230e139a106e154fed4b2af667945d49e255d782d387698af040ac",
+    "test_scoring.py": "c25ec106cda3c1b24646be6060dad80b7fb3d0a6b45e1a8dfb94c7c48123668a",
+    "tests.py": "14bf4d06917ac21956f2928c15a2fc38faa143ddc4158cff9cfb38c70d1d4e04",
+    "verify.py": "8ebc407fd670c7ddc2f06ff2a77ecfc6495eb05e2c05aa9624f669deca0c39f4"
+  },
+  "status": "PASS",
+  "tests": 8
+}
