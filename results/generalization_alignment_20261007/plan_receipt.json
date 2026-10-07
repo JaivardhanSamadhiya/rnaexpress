@@ -1,0 +1,140 @@
+{
+  "configurations": {
+    "base": [
+      {
+        "id": "base_l2_005",
+        "penalty": 0.005,
+        "scaling": "pair"
+      },
+      {
+        "id": "base_l2_05",
+        "penalty": 0.05,
+        "scaling": "pair"
+      },
+      {
+        "id": "base_l2_5",
+        "penalty": 0.5,
+        "scaling": "pair"
+      }
+    ],
+    "bert": [
+      {
+        "id": "bert_l2_005",
+        "penalty": 0.005,
+        "scaling": "pair"
+      },
+      {
+        "id": "bert_l2_05",
+        "penalty": 0.05,
+        "scaling": "pair"
+      },
+      {
+        "id": "bert_l2_5",
+        "penalty": 0.5,
+        "scaling": "pair"
+      }
+    ],
+    "combined": [
+      {
+        "id": "combined_l2_005",
+        "penalty": 0.005,
+        "scaling": "pair"
+      },
+      {
+        "id": "combined_l2_05",
+        "penalty": 0.05,
+        "scaling": "pair"
+      },
+      {
+        "id": "combined_l2_5",
+        "penalty": 0.5,
+        "scaling": "pair"
+      }
+    ],
+    "lookup": [
+      {
+        "id": "lookup_l2_005",
+        "penalty": 0.005,
+        "scaling": "pair"
+      },
+      {
+        "id": "lookup_l2_05",
+        "penalty": 0.05,
+        "scaling": "pair"
+      },
+      {
+        "id": "lookup_l2_5",
+        "penalty": 0.5,
+        "scaling": "pair"
+      }
+    ],
+    "raw": [
+      {
+        "id": "raw_l2_005",
+        "penalty": 0.005,
+        "scaling": "pair"
+      },
+      {
+        "id": "raw_l2_05",
+        "penalty": 0.05,
+        "scaling": "pair"
+      },
+      {
+        "id": "raw_l2_5",
+        "penalty": 0.5,
+        "scaling": "pair"
+      }
+    ],
+    "structure": [
+      {
+        "id": "structure_l2_005",
+        "penalty": 0.005,
+        "scaling": "pair"
+      },
+      {
+        "id": "structure_l2_05",
+        "penalty": 0.05,
+        "scaling": "pair"
+      },
+      {
+        "id": "structure_l2_5",
+        "penalty": 0.5,
+        "scaling": "pair"
+      }
+    ]
+  },
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "endpoint_rows": {
+    "nuclear_cytoplasmic": 1744,
+    "projection": 24514
+  },
+  "endpoint_signs": {
+    "nuclear_cytoplasmic": -1.0,
+    "projection": 1.0
+  },
+  "fitting_started": false,
+  "new_feature_extraction": false,
+  "observed_data_followup": true,
+  "original_row_identity_sha256": "62a5ce3f5f6772ff5ce28c03aa77b5661a1ac8fdd004ee25b04ab43aca219607",
+  "outcomes_loaded": false,
+  "prefit_freeze_ready": false,
+  "row_ids_sha256": "f04a8fe31976c913c1167c1b51f21d6c556928c63c2c334377d3cf2e897b187a",
+  "rows": 26258,
+  "shapes": {
+    "base": 246,
+    "bert": 502,
+    "combined": 518,
+    "lookup": 502,
+    "raw": 251,
+    "structure": 262
+  },
+  "source_arrays": {
+    "base": "artifacts/generalization_next_20261007/base_model_features.npz",
+    "bert": "artifacts/generalization_next_20261007/bert_model_features.npz",
+    "combined": "artifacts/generalization_next_20261007/combined_model_features.npz",
+    "lookup": "artifacts/generalization_next_20261007/lookup_model_features.npz",
+    "raw": "artifacts/generalization_next_20261007/raw_model_features.npz",
+    "structure": "artifacts/generalization_next_20261007/structure_model_features.npz"
+  },
+  "status": "PASS"
+}
