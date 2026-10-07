@@ -1,0 +1,47 @@
+{
+  "PFMs": 421,
+  "ViennaRNA": "2.7.2",
+  "files": {
+    "artifacts/generalization_rbp_20261007/direct_human_manifest.json": "89e91477f4554538ce3bddc9018e680803e90d417b1f52ca2ae1d4f9bda86839",
+    "artifacts/generalization_rbp_20261007/projection_affected_max.npy": "732d3d18cf1b2974a16d38c51865643eaad818a3110ee4d2c961df13708d749d",
+    "artifacts/generalization_rbp_20261007/projection_affected_mean.npy": "23d9a569020cb4d70260ea48ef3dbfa149214f75df46aa84932d55db6824e401",
+    "artifacts/generalization_rbp_20261007/projection_global_max.npy": "131cd0abfcd4935e1a1967f8fb10a7ace1a29429ab57f7c7804df09b7e48dc43",
+    "artifacts/generalization_rbp_20261007/projection_global_mean.npy": "fb4c5399a7d13a32324c45955cbf9e3efc2a13283386f5822999c3b2de2e8bbd",
+    "data/interim/mechanism_v2/runtime/RNA/RNA.py": "a8dab82efec718e2c5bc77767ff17f1f9b91bbfcabb2313ffe4ced1855389406",
+    "data/interim/mechanism_v2/runtime/RNA/_RNA.cp312-win_amd64.pyd": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+    "data/interim/mechanism_v2/runtime/RNA/__init__.py": "57393341520925355f766c68dea057ebf699317b99bf84f802344522c493327d",
+    "data/interim/mechanism_v2/runtime/numpy/__init__.py": "150b19558caf78c0e3cc6994ec652399e972595ca649cea1a69c801ef23e4b1c",
+    "results/generalization_rbp_20261007/projection_receipt.json": "e95e3d3fafeff08fcbbddf01f3f87ec6a90ec1991d39419db47491fcaa6750e7",
+    "src/generalization_next_20261007/route_structure.py": "07fcc17553f7a48160b2b47c7c6e265707941659431f22dac79dab3911d02548",
+    "src/generalization_rbp_20261007/catalog.py": "a9185c85ce6a18f063e5cf70f7abb76b5ca696afbbba45a0ff747cf919079a24",
+    "src/generalization_rbp_20261007/projection.py": "eaa190b58e510df07bfd9672f9effb6b6d49534c47ced3bbb45894fc29784982",
+    "src/generalization_rbp_20261007/scoring.py": "f0e49440bcb6aaedb1622679a54a9259ace7f0ed478b7be1feac314cab9063d7"
+  },
+  "labels_read": false,
+  "models_fit": 0,
+  "motif_width_range": [
+    4,
+    25
+  ],
+  "numpy": "1.26.4",
+  "project_alleles_folded": false,
+  "projection_shapes": [
+    [
+      421,
+      64
+    ],
+    [
+      421,
+      64
+    ],
+    [
+      421,
+      64
+    ],
+    [
+      421,
+      64
+    ]
+  ],
+  "status": "PASS"
+}

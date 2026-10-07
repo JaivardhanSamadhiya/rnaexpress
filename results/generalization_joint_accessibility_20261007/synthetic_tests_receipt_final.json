@@ -1,0 +1,43 @@
+{
+  "ViennaRNA_version": "2.7.2",
+  "elapsed_seconds": 17.808825699998124,
+  "models_fit": 0,
+  "numeric_threads": 1,
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.2.3",
+  "project_alleles_folded": false,
+  "project_outcomes_read": false,
+  "receipts": {
+    "preparation_receipt.json": "c2b3bff67c2ae0f3eb394411c042660967f3c9f65665d041ae7bde22a0cf7d3b",
+    "synthetic_feasibility_receipt.json": "f1668acf7f5171f1f6430b5b08e6cc528b7d89856bcb6090897e628ff5b35530",
+    "synthetic_long_interval_validation.json": "d87d3d42ce880cad1616c0db5f2d9db667d69c6bf62c436a6615f1910bff18b6",
+    "synthetic_pool_benchmark_receipt.json": "b77640fbcdd183378a50760bf2f7cbb24435fa24c43b863f6c6cee8a16457802"
+  },
+  "report_hashes": {
+    "feasibility_protocol.md": "1ded7ae2032141951461bd17081b99f16a2ea40ad340642d7e1db237ccf2a579",
+    "protocol.md": "923570b8825294c0fc1b3a6c69ecbc9fcc000bc110161d16dd78b33c736f93a4"
+  },
+  "runtime_binding_sha256": "0519259b8bfff886319196693b1cc99369f3130de99cd534063d3d5830e58be5",
+  "source_hashes": {
+    "__init__.py": "7b438a9ec0dbac93c79b7da7b51157cabdb6c152969fdf88adf1bc09692d43bd",
+    "assemble.py": "2b5b76f195aabe01482f52c3900111ef244fe87157b94a973a969d329cf8c6ea",
+    "benchmark.py": "17be0e3a4c78ee1cfa41f879c6969aa150b6b6330c5353c972340ce6e1d7b876",
+    "common.py": "a5329550baf183fe1a22cb5b647cb1af3661ab3c6b678f20482c20e72147ab1b",
+    "control_reuse.py": "b6e7e17ede01700e01c879850a836c8659b8dc71dadba77c970f1499fbaafb62",
+    "engine.py": "b2db781030213efd8d1de2ceeb8a316fb2083006e532f707325677f9dae6fc90",
+    "feasibility.py": "6af41c4c0f5a035c5268c303a19df08cdbbb6d4027c3d82064a1f35b65710b1a",
+    "freeze.py": "5d5c8238585e7566807b4522dc6eb9ea762089aee56272e9a71c2f3ae187c4cc",
+    "gate.py": "8a736283cd66a15d5062359a7ebc13c0d2e8ff8130280c88d8cff1fc7f04203e",
+    "prepare.py": "0d9a55edb5efd6228bd2ef9578ac55d32be1bb2089f0ffb5ea27eeda43b2efb3",
+    "production.py": "27d4e8ed9e23cd6de3e6e54388361c4beb092b81210945a6b264976598d7b799",
+    "routes.py": "f4fc673aedfc89ad959c3bc5d3b50a1657c1660c0e1e04a48fb29c3a3170a4d1",
+    "runtime.py": "8d5807962d8a533503ea0efc4758de12d07f5a73f45dc1fbba528b8405464c1b",
+    "scoring.py": "dcbf7328d0e44d289d84084112d132c335a896e1fcf553070c7ca98ec2fbbe40",
+    "tests.py": "482d36e77487f258ad9586dc1f32df20d0de488f63d22eeaa0cfd71a68284b64",
+    "validation.py": "559129fd20af6f75732d195995c72877f3327bb4cf0a19fcdec4bcf3dba1fa4c",
+    "verify.py": "ff4e890f8d00c81ec806617188edc5a96029fdcd7850a273d39cbf694c3d0bf0"
+  },
+  "status": "PASS",
+  "synthetic_interval_checks": 372,
+  "tests": 22
+}
