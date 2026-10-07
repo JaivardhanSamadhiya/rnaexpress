@@ -1,0 +1,1645 @@
+{
+  "archive": "artifacts/generalization_20261007/parallel_generalization_evidence.zip",
+  "bytes": 45409127,
+  "crc_and_member_hashes_verified": true,
+  "files": 408,
+  "gate": "NO-GO",
+  "manifest": {
+    "artifacts/generalization_20261007/.gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    "artifacts/generalization_20261007/.gitignore": {
+      "bytes": 6,
+      "sha256": "15093ccf76e1aa623e0fe9d23172fa6cdf29131a772d2eb49bae10708e1e6434"
+    },
+    "artifacts/generalization_20261007/coverage_features.npz": {
+      "bytes": 3160928,
+      "sha256": "038a64c83c7427cb1b5775e216148c90e6b67260fa4544aae2b6afbae6450a72"
+    },
+    "artifacts/generalization_20261007/decision_metrics.csv.gz": {
+      "bytes": 2767652,
+      "sha256": "692aaf07182b3bde675343b01ee3f66d6eefcf2f05a373af62527482a13baf6f"
+    },
+    "artifacts/generalization_20261007/endpoint_auxiliary.csv.gz": {
+      "bytes": 24402,
+      "sha256": "c2e0196d931a2fa0b154b861a914e8a775d0a8232b9d1cb7bd7cf044f5091170"
+    },
+    "artifacts/generalization_20261007/endpoint_auxiliary_features.npz": {
+      "bytes": 16306,
+      "sha256": "6785efce6c609f3e6b740d97891f4a10492c8ba90200d24e2b807a7c3e5c4fca"
+    },
+    "artifacts/generalization_20261007/endpoint_features.npz": {
+      "bytes": 3164172,
+      "sha256": "deebba77e8e33896a54980a594d9725946042c64a0febf2e3fb59d2ca76036e6"
+    },
+    "artifacts/generalization_20261007/held_assay_regret.png": {
+      "bytes": 147987,
+      "sha256": "b7d212274939c99ed650cdf997b080424216da91f064189f0aa5185d5a434279"
+    },
+    "artifacts/generalization_20261007/held_assay_regret.svg": {
+      "bytes": 75947,
+      "sha256": "f79c8552f4efc56f8ee1663924578a1a82615334b1c8d9184c74ec392bc7e5ec"
+    },
+    "artifacts/generalization_20261007/macro_comparison.csv": {
+      "bytes": 453,
+      "sha256": "642de1692b843e8bf5c346517cd724756ae25d5862d2f1ccef41b35d95507850"
+    },
+    "artifacts/generalization_20261007/mechanism_features.npz": {
+      "bytes": 8839572,
+      "sha256": "d51f275e71bebe4e706016d986e460e11e095253bcf468766098e1089fb8e85a"
+    },
+    "artifacts/generalization_20261007/model_comparison.csv": {
+      "bytes": 3248,
+      "sha256": "c4ff9a84430c917bb0611e862d603bc6d7911f1810f60ea681b5866c39473772"
+    },
+    "artifacts/generalization_20261007/pair_coverage.csv": {
+      "bytes": 416,
+      "sha256": "9eea646f2365fae5d041b66cbd62061b1feae572822019c2a564114e86de491d"
+    },
+    "artifacts/generalization_20261007/reporter_context_metadata.json": {
+      "bytes": 8753,
+      "sha256": "e7ee4fea706d3b7e611f63d491304cfe835efcd3c9b6a9a4f0282abf384f725c"
+    },
+    "artifacts/generalization_20261007/representation_features.npz": {
+      "bytes": 5733833,
+      "sha256": "24c7348ef3cd4857b5669bfc344d4d7abf48fc9392b09a7ac4c715f33f8e27b8"
+    },
+    "artifacts/generalization_20261007/scaling_features.npz": {
+      "bytes": 3160928,
+      "sha256": "038a64c83c7427cb1b5775e216148c90e6b67260fa4544aae2b6afbae6450a72"
+    },
+    "artifacts/generalization_20261007/source_selected_configurations.csv": {
+      "bytes": 1292,
+      "sha256": "af42d3454bd5df7d5664c87c780fa07be61a23289391e0c84e69f4fa23553b6a"
+    },
+    "reports/generalization_20261007/.gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    "reports/generalization_20261007/context_diagnostic.md": {
+      "bytes": 2805,
+      "sha256": "33bc9a87bf735d3bae51019f4f24f364062cb7cd0bb78329bcd834bc46157aa4"
+    },
+    "reports/generalization_20261007/final_status.md": {
+      "bytes": 2224,
+      "sha256": "5e7ad92b3d3f93185c9bed2790c1eccb1fbe62f0fca370882872a3bbc5d1bbcc"
+    },
+    "reports/generalization_20261007/gate_verdict.md": {
+      "bytes": 3812,
+      "sha256": "bc071dd4642c097f03fb568a7e9ad3249dd8357f24366469746cacd3bc2b2f92"
+    },
+    "reports/generalization_20261007/historical_review.md": {
+      "bytes": 18676,
+      "sha256": "fc6a5e843e4e3c8787f4bda684dfec22e93e6f748922b51fc3696ca4058135b4"
+    },
+    "reports/generalization_20261007/independent_audit.md": {
+      "bytes": 9789,
+      "sha256": "dac3acaca8495776e45aeceeed83ab966ef17dd8f4fca07263db50820f94eabd"
+    },
+    "reports/generalization_20261007/literature_addendum.md": {
+      "bytes": 2412,
+      "sha256": "cd59fb940f22a6db0ea1c9fa9a27e2fd3bc895e1ca461fdebe10a30b3d59b476"
+    },
+    "reports/generalization_20261007/literature_routes.md": {
+      "bytes": 16158,
+      "sha256": "62046cf95b4338a84d658ff323edd568d8900e7c8f085ffb4b04e6c97072b922"
+    },
+    "reports/generalization_20261007/matched_control_protocol.md": {
+      "bytes": 4203,
+      "sha256": "1c7d8ca1328f23a76f5e2b0caae2c86fbe64112c9150161e53fdfb02865c00e3"
+    },
+    "reports/generalization_20261007/protocol.md": {
+      "bytes": 9486,
+      "sha256": "a14cc20d7ffcd7ba3c4bfda314bffcde11d0832ec14098ae82b7cb4febcb77fa"
+    },
+    "reports/generalization_20261007/reporter_context_audit.md": {
+      "bytes": 7611,
+      "sha256": "1becb4cc38b253434b89e3beeddfea3584b87222348398ead382a62c3bd111a2"
+    },
+    "reports/generalization_20261007/representation_feasibility.md": {
+      "bytes": 10779,
+      "sha256": "506982fc28b6c44a04ff1f7b2767fa565d4db540e42292e8669e9cabdf3b6c24"
+    },
+    "reports/generalization_20261007/reproducibility.md": {
+      "bytes": 1394,
+      "sha256": "016ebd5c117fe4bc299a011a8026b590ccddccaa28b22142083e0737760b4fc7"
+    },
+    "reports/generalization_20261007/results.md": {
+      "bytes": 8244,
+      "sha256": "dba65aaa852fb309b193f28942d70b1c688e5ca890d0fbbd9fb433072ecdad4b"
+    },
+    "results/generalization_20261007/.gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    "results/generalization_20261007/baseline_decisions.csv": {
+      "bytes": 2749336,
+      "sha256": "1a49a6348eedfc713959e724ecc11415e91645728510a8d997d3e1d3673127b9"
+    },
+    "results/generalization_20261007/context_diagnostic_candidates.csv.gz": {
+      "bytes": 577437,
+      "sha256": "e5f113db5c878848da3aa64c3c8e90023c9e9fbceaa77310f3794a3d9e2dd5e3"
+    },
+    "results/generalization_20261007/context_diagnostic_component_macro.csv": {
+      "bytes": 20126,
+      "sha256": "0f50f493bc15239230cc94ebefa00e296b155a8086b1d8303b171ceef2ae9a30"
+    },
+    "results/generalization_20261007/context_diagnostic_gene_macro.csv": {
+      "bytes": 18066,
+      "sha256": "de6760233c66fef002a94b700912d60be62b40f359763d5bc6c9f4ac82108c67"
+    },
+    "results/generalization_20261007/context_diagnostic_pair_evidence.csv.gz": {
+      "bytes": 335805,
+      "sha256": "28f6be566e47ef0a68b702ac129293add9df2c294e76864bddb71d73f450cb3b"
+    },
+    "results/generalization_20261007/context_diagnostic_parent_sets.csv": {
+      "bytes": 301679,
+      "sha256": "9aa5297330942f0d7a587551a0e3043d5a72a87b1eb8bfb0919fd459876adf50"
+    },
+    "results/generalization_20261007/context_diagnostic_receipt.json": {
+      "bytes": 1890,
+      "sha256": "d2dc3d3dcb3a8ad09f446c0e0325ba1bed596e3e5528c55382cbe66933aaeccc"
+    },
+    "results/generalization_20261007/context_diagnostic_summary.csv": {
+      "bytes": 1266,
+      "sha256": "6e6fafbbc16004dff20d51e2493d99e6ce9d47ecbf1b8a4e0860a61bdc7c3aa5"
+    },
+    "results/generalization_20261007/coverage/comparison.csv": {
+      "bytes": 786,
+      "sha256": "09a35ef5b1dc29c95670dafec35ce6adfb806e2a2e15e9f70376f74561e2f0b8"
+    },
+    "results/generalization_20261007/coverage/decisions.csv": {
+      "bytes": 2815552,
+      "sha256": "17814c9de919cdc63961d66e10b5d4c19a4ab729b552c239250f9f24d3274c4a"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__mikl_gse173098_connected_erm_l2_0.005.json": {
+      "bytes": 13048,
+      "sha256": "58f50302377df033c2373c6787e4e8f0402692c55502fe5afa49729b26f89554"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__mikl_gse173098_connected_erm_l2_0.05.json": {
+      "bytes": 13141,
+      "sha256": "2d5cec3fddcb16bcc14e328957f6b96eb8b66fa67399f354cbc3e013f3baa9da"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__mikl_gse173098_connected_erm_l2_0.5.json": {
+      "bytes": 13273,
+      "sha256": "0a774e5a925d1879e9e8bd6eacc4a18a9c9bbb60af601728c9e05baa812fa15f"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__mikl_gse173098_connected_robust_l2_0.005.json": {
+      "bytes": 13053,
+      "sha256": "88d3c97991bc9d6aaa10d0402f5fe8c00bf38197d676ce5e22c53050226d4c16"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__mikl_gse173098_connected_robust_l2_0.05.json": {
+      "bytes": 13146,
+      "sha256": "91f06e2b52c0f3a158e43525576f9e2406079dad5a03ef4bac1a4c3975700b09"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__mikl_gse173098_connected_robust_l2_0.5.json": {
+      "bytes": 13288,
+      "sha256": "76718f39c9d404bb0f1a5765c4fa170d199fcd718b46369a33ea77afd60c7f16"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__mikl_gse173098_historical_pairs_l2_05.json": {
+      "bytes": 13124,
+      "sha256": "5ca82d6e180edaf64aa9aa9b093b8a329d128076227f1644c7a98d6ba322c821"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__moffatt_gse334718_connected_erm_l2_0.005.json": {
+      "bytes": 17335,
+      "sha256": "fe0fcd5b5c186e04ebc1d5d23069aabbdec85e2353a0c42c52a18127854104c1"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__moffatt_gse334718_connected_erm_l2_0.05.json": {
+      "bytes": 17444,
+      "sha256": "19a8a88587fe17e07840b5a3377583b01bb8073d644fe592cdc5dcd016068e9b"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__moffatt_gse334718_connected_erm_l2_0.5.json": {
+      "bytes": 17606,
+      "sha256": "f6287e37dc283d3cff8bda07ba8b5659f4153e4b39c517ee74dadbaf7ba45bd8"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__moffatt_gse334718_connected_robust_l2_0.005.json": {
+      "bytes": 17369,
+      "sha256": "0aef8d8f21f48cf42dc0eabbcbf356f5ee8ce4725b2abfd2207ed9225d53ca6f"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__moffatt_gse334718_connected_robust_l2_0.05.json": {
+      "bytes": 17458,
+      "sha256": "91be3f00890da636c359d501e5bb5701bf1ccd33d68c65bbf4ef7255434e159e"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__moffatt_gse334718_connected_robust_l2_0.5.json": {
+      "bytes": 17614,
+      "sha256": "5c5052b00adaf0d5bc45a46dc67bbe852e51fc891f42ef90d3b32808bd38678b"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__moffatt_gse334718_historical_pairs_l2_05.json": {
+      "bytes": 17448,
+      "sha256": "3af41204996a79fb55402c829fc526c55bab475cbf64e6e79a8c558def64799a"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__srle_connected_erm_l2_0.005.json": {
+      "bytes": 17580,
+      "sha256": "bb3d9e22add8fc4b96db8ce796f04e5ef625e93dec72ed5f9089f54989e410e0"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__srle_connected_erm_l2_0.05.json": {
+      "bytes": 17640,
+      "sha256": "2ae56d984bbf8d6e05225d45b60b9ad34e02ee0aca69984441d5c5766889cb6f"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__srle_connected_erm_l2_0.5.json": {
+      "bytes": 17716,
+      "sha256": "f45f61dc25616dd5e0a4f35f367715a54c22fbc2b7bd49bbf2359371c9f7d3c8"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__srle_connected_robust_l2_0.005.json": {
+      "bytes": 17606,
+      "sha256": "3b8fa855de9132c7fa3e6dff4eeafc1de157ffd105a3e6f03fa141c3b4e101d2"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__srle_connected_robust_l2_0.05.json": {
+      "bytes": 17634,
+      "sha256": "18ef3959e450ccbe93680692609728442be34496dacb01fcbff0b4d0dae49259"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__srle_connected_robust_l2_0.5.json": {
+      "bytes": 17712,
+      "sha256": "454f973a8f22f31928d444dfde487d1085564283f4eab1e70437d463b387c21e"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__inner__srle_historical_pairs_l2_05.json": {
+      "bytes": 17670,
+      "sha256": "b42d2903425c61d212ecf21ada2328a3a1f26b191bacb1b47559061063a89e33"
+    },
+    "results/generalization_20261007/coverage/fits/astrocyte_gse330741__outer_connected_erm_l2_0.5.json": {
+      "bytes": 17775,
+      "sha256": "c8088f2d789fab98b04b3b6a630b32a031967a2954675697e842b90e35d68620"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__astrocyte_gse330741_connected_erm_l2_0.005.json": {
+      "bytes": 13048,
+      "sha256": "58f50302377df033c2373c6787e4e8f0402692c55502fe5afa49729b26f89554"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__astrocyte_gse330741_connected_erm_l2_0.05.json": {
+      "bytes": 13141,
+      "sha256": "2d5cec3fddcb16bcc14e328957f6b96eb8b66fa67399f354cbc3e013f3baa9da"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__astrocyte_gse330741_connected_erm_l2_0.5.json": {
+      "bytes": 13273,
+      "sha256": "0a774e5a925d1879e9e8bd6eacc4a18a9c9bbb60af601728c9e05baa812fa15f"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__astrocyte_gse330741_connected_robust_l2_0.005.json": {
+      "bytes": 13053,
+      "sha256": "88d3c97991bc9d6aaa10d0402f5fe8c00bf38197d676ce5e22c53050226d4c16"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__astrocyte_gse330741_connected_robust_l2_0.05.json": {
+      "bytes": 13146,
+      "sha256": "91f06e2b52c0f3a158e43525576f9e2406079dad5a03ef4bac1a4c3975700b09"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__astrocyte_gse330741_connected_robust_l2_0.5.json": {
+      "bytes": 13288,
+      "sha256": "76718f39c9d404bb0f1a5765c4fa170d199fcd718b46369a33ea77afd60c7f16"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__astrocyte_gse330741_historical_pairs_l2_05.json": {
+      "bytes": 13124,
+      "sha256": "5ca82d6e180edaf64aa9aa9b093b8a329d128076227f1644c7a98d6ba322c821"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__moffatt_gse334718_connected_erm_l2_0.005.json": {
+      "bytes": 12994,
+      "sha256": "eb5135b3d63714f0c9906cb3d25e9d47b8d6caeb0c6912149d1c5bff98e4cc0d"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__moffatt_gse334718_connected_erm_l2_0.05.json": {
+      "bytes": 13084,
+      "sha256": "6d5837afe65a01604ee800d27af40e36d17453e4ed073ecb57b63229c48d7ea2"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__moffatt_gse334718_connected_erm_l2_0.5.json": {
+      "bytes": 13209,
+      "sha256": "1dda138aa40544c3bca7abc03e9799bca96cda702b42693163b7fa109f7ce885"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__moffatt_gse334718_connected_robust_l2_0.005.json": {
+      "bytes": 12989,
+      "sha256": "2c77b3f542445dd1ac5cc9c1823930cbc283f0eea396ee3b5a9108354abb85a5"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__moffatt_gse334718_connected_robust_l2_0.05.json": {
+      "bytes": 13080,
+      "sha256": "1505660fa616f1d41f032c159a7bf0f588ef29ce2c608fa4b591656cd32f3ddc"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__moffatt_gse334718_connected_robust_l2_0.5.json": {
+      "bytes": 13203,
+      "sha256": "2593b17940192b1ddec9315d2d166aa3bd5c886a2425852dc6d86632240ce8d9"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__moffatt_gse334718_historical_pairs_l2_05.json": {
+      "bytes": 13041,
+      "sha256": "bd86f2547077f03f4f9598fc93e6f56ab29fe14474c1c290e834c52bf53f9ae0"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__srle_connected_erm_l2_0.005.json": {
+      "bytes": 13158,
+      "sha256": "51212891c2f7607677b2950529e27e64aabe8b5522b2c654f8e3a39e61d288d1"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__srle_connected_erm_l2_0.05.json": {
+      "bytes": 13245,
+      "sha256": "7054beeb7eea6b03c8feedbd09ceee7e27143fd6afa6b558d84d75ce207f28ba"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__srle_connected_erm_l2_0.5.json": {
+      "bytes": 13344,
+      "sha256": "41cfd02653da86f3facc8a76fa6339099eaddab745a42308c944628cc8351903"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__srle_connected_robust_l2_0.005.json": {
+      "bytes": 13168,
+      "sha256": "51510f8538ba07a1a99bd4eb69d64b143aa4d9f3730e10bc843f1673b597f1e9"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__srle_connected_robust_l2_0.05.json": {
+      "bytes": 13241,
+      "sha256": "5e8444ac819a0f38f8fa753b43c03e09f63e4be20e13e843393715cb3db90897"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__srle_connected_robust_l2_0.5.json": {
+      "bytes": 13345,
+      "sha256": "a8c34fac932f50361e83e9184f82df6978f597ae8faf3ccf151929f3966d623c"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__inner__srle_historical_pairs_l2_05.json": {
+      "bytes": 13218,
+      "sha256": "0c60b688f47221d152556a5edf3e0ed23fb7a878ecb5290b99f34d71869ed80c"
+    },
+    "results/generalization_20261007/coverage/fits/mikl_gse173098__outer_historical_pairs_l2_05.json": {
+      "bytes": 13229,
+      "sha256": "db562cf2accb52e947b8800e2b53baa2dfc201b67db48f07de41456bc153561e"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__astrocyte_gse330741_connected_erm_l2_0.005.json": {
+      "bytes": 17335,
+      "sha256": "fe0fcd5b5c186e04ebc1d5d23069aabbdec85e2353a0c42c52a18127854104c1"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__astrocyte_gse330741_connected_erm_l2_0.05.json": {
+      "bytes": 17444,
+      "sha256": "19a8a88587fe17e07840b5a3377583b01bb8073d644fe592cdc5dcd016068e9b"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__astrocyte_gse330741_connected_erm_l2_0.5.json": {
+      "bytes": 17606,
+      "sha256": "f6287e37dc283d3cff8bda07ba8b5659f4153e4b39c517ee74dadbaf7ba45bd8"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__astrocyte_gse330741_connected_robust_l2_0.005.json": {
+      "bytes": 17369,
+      "sha256": "0aef8d8f21f48cf42dc0eabbcbf356f5ee8ce4725b2abfd2207ed9225d53ca6f"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__astrocyte_gse330741_connected_robust_l2_0.05.json": {
+      "bytes": 17458,
+      "sha256": "91be3f00890da636c359d501e5bb5701bf1ccd33d68c65bbf4ef7255434e159e"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__astrocyte_gse330741_connected_robust_l2_0.5.json": {
+      "bytes": 17614,
+      "sha256": "5c5052b00adaf0d5bc45a46dc67bbe852e51fc891f42ef90d3b32808bd38678b"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__astrocyte_gse330741_historical_pairs_l2_05.json": {
+      "bytes": 17448,
+      "sha256": "3af41204996a79fb55402c829fc526c55bab475cbf64e6e79a8c558def64799a"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__mikl_gse173098_connected_erm_l2_0.005.json": {
+      "bytes": 12994,
+      "sha256": "eb5135b3d63714f0c9906cb3d25e9d47b8d6caeb0c6912149d1c5bff98e4cc0d"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__mikl_gse173098_connected_erm_l2_0.05.json": {
+      "bytes": 13084,
+      "sha256": "6d5837afe65a01604ee800d27af40e36d17453e4ed073ecb57b63229c48d7ea2"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__mikl_gse173098_connected_erm_l2_0.5.json": {
+      "bytes": 13209,
+      "sha256": "1dda138aa40544c3bca7abc03e9799bca96cda702b42693163b7fa109f7ce885"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__mikl_gse173098_connected_robust_l2_0.005.json": {
+      "bytes": 12989,
+      "sha256": "2c77b3f542445dd1ac5cc9c1823930cbc283f0eea396ee3b5a9108354abb85a5"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__mikl_gse173098_connected_robust_l2_0.05.json": {
+      "bytes": 13080,
+      "sha256": "1505660fa616f1d41f032c159a7bf0f588ef29ce2c608fa4b591656cd32f3ddc"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__mikl_gse173098_connected_robust_l2_0.5.json": {
+      "bytes": 13203,
+      "sha256": "2593b17940192b1ddec9315d2d166aa3bd5c886a2425852dc6d86632240ce8d9"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__mikl_gse173098_historical_pairs_l2_05.json": {
+      "bytes": 13041,
+      "sha256": "bd86f2547077f03f4f9598fc93e6f56ab29fe14474c1c290e834c52bf53f9ae0"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__srle_connected_erm_l2_0.005.json": {
+      "bytes": 17482,
+      "sha256": "2ca8bd4a0ae24a11a70d54406148341ac314e1ac66e7730fa1fa4110bda0965a"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__srle_connected_erm_l2_0.05.json": {
+      "bytes": 17593,
+      "sha256": "fc4f7e06c9d13c13d64927726b30ea76b10d8717de80fa2e5f7ff0bc0471dfaf"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__srle_connected_erm_l2_0.5.json": {
+      "bytes": 17681,
+      "sha256": "a207eb563f701e11ec759167b2aec1ceab582b85a68703209f0999bd8f482568"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__srle_connected_robust_l2_0.005.json": {
+      "bytes": 17505,
+      "sha256": "b38cfe2a81b1572b2695a2685604d83b91ec8bb66140599cee909dc8554b3ddd"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__srle_connected_robust_l2_0.05.json": {
+      "bytes": 17575,
+      "sha256": "cbb62caa0a8ef69418b59324685874b68eea0469fd137883641426f32266f333"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__srle_connected_robust_l2_0.5.json": {
+      "bytes": 17680,
+      "sha256": "3433795b350550a7792449882faa6681bbb7e891a1783cf9efa8f616940dab96"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__inner__srle_historical_pairs_l2_05.json": {
+      "bytes": 17575,
+      "sha256": "8b17cd158725af2ebd139014b210462750af03dfd8781b63a17fc0df31bb4e31"
+    },
+    "results/generalization_20261007/coverage/fits/moffatt_gse334718__outer_connected_robust_l2_0.5.json": {
+      "bytes": 17748,
+      "sha256": "7f2604302c3179fac1a482b2f89d89ae5c95d5cad6090594cb2e527a2ca5c9fb"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__astrocyte_gse330741_connected_erm_l2_0.005.json": {
+      "bytes": 17580,
+      "sha256": "bb3d9e22add8fc4b96db8ce796f04e5ef625e93dec72ed5f9089f54989e410e0"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__astrocyte_gse330741_connected_erm_l2_0.05.json": {
+      "bytes": 17640,
+      "sha256": "2ae56d984bbf8d6e05225d45b60b9ad34e02ee0aca69984441d5c5766889cb6f"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__astrocyte_gse330741_connected_erm_l2_0.5.json": {
+      "bytes": 17716,
+      "sha256": "f45f61dc25616dd5e0a4f35f367715a54c22fbc2b7bd49bbf2359371c9f7d3c8"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__astrocyte_gse330741_connected_robust_l2_0.005.json": {
+      "bytes": 17606,
+      "sha256": "3b8fa855de9132c7fa3e6dff4eeafc1de157ffd105a3e6f03fa141c3b4e101d2"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__astrocyte_gse330741_connected_robust_l2_0.05.json": {
+      "bytes": 17634,
+      "sha256": "18ef3959e450ccbe93680692609728442be34496dacb01fcbff0b4d0dae49259"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__astrocyte_gse330741_connected_robust_l2_0.5.json": {
+      "bytes": 17712,
+      "sha256": "454f973a8f22f31928d444dfde487d1085564283f4eab1e70437d463b387c21e"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__astrocyte_gse330741_historical_pairs_l2_05.json": {
+      "bytes": 17670,
+      "sha256": "b42d2903425c61d212ecf21ada2328a3a1f26b191bacb1b47559061063a89e33"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__mikl_gse173098_connected_erm_l2_0.005.json": {
+      "bytes": 13158,
+      "sha256": "51212891c2f7607677b2950529e27e64aabe8b5522b2c654f8e3a39e61d288d1"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__mikl_gse173098_connected_erm_l2_0.05.json": {
+      "bytes": 13245,
+      "sha256": "7054beeb7eea6b03c8feedbd09ceee7e27143fd6afa6b558d84d75ce207f28ba"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__mikl_gse173098_connected_erm_l2_0.5.json": {
+      "bytes": 13344,
+      "sha256": "41cfd02653da86f3facc8a76fa6339099eaddab745a42308c944628cc8351903"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__mikl_gse173098_connected_robust_l2_0.005.json": {
+      "bytes": 13168,
+      "sha256": "51510f8538ba07a1a99bd4eb69d64b143aa4d9f3730e10bc843f1673b597f1e9"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__mikl_gse173098_connected_robust_l2_0.05.json": {
+      "bytes": 13241,
+      "sha256": "5e8444ac819a0f38f8fa753b43c03e09f63e4be20e13e843393715cb3db90897"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__mikl_gse173098_connected_robust_l2_0.5.json": {
+      "bytes": 13345,
+      "sha256": "a8c34fac932f50361e83e9184f82df6978f597ae8faf3ccf151929f3966d623c"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__mikl_gse173098_historical_pairs_l2_05.json": {
+      "bytes": 13218,
+      "sha256": "0c60b688f47221d152556a5edf3e0ed23fb7a878ecb5290b99f34d71869ed80c"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__moffatt_gse334718_connected_erm_l2_0.005.json": {
+      "bytes": 17482,
+      "sha256": "2ca8bd4a0ae24a11a70d54406148341ac314e1ac66e7730fa1fa4110bda0965a"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__moffatt_gse334718_connected_erm_l2_0.05.json": {
+      "bytes": 17593,
+      "sha256": "fc4f7e06c9d13c13d64927726b30ea76b10d8717de80fa2e5f7ff0bc0471dfaf"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__moffatt_gse334718_connected_erm_l2_0.5.json": {
+      "bytes": 17681,
+      "sha256": "a207eb563f701e11ec759167b2aec1ceab582b85a68703209f0999bd8f482568"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__moffatt_gse334718_connected_robust_l2_0.005.json": {
+      "bytes": 17505,
+      "sha256": "b38cfe2a81b1572b2695a2685604d83b91ec8bb66140599cee909dc8554b3ddd"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__moffatt_gse334718_connected_robust_l2_0.05.json": {
+      "bytes": 17575,
+      "sha256": "cbb62caa0a8ef69418b59324685874b68eea0469fd137883641426f32266f333"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__moffatt_gse334718_connected_robust_l2_0.5.json": {
+      "bytes": 17680,
+      "sha256": "3433795b350550a7792449882faa6681bbb7e891a1783cf9efa8f616940dab96"
+    },
+    "results/generalization_20261007/coverage/fits/srle__inner__moffatt_gse334718_historical_pairs_l2_05.json": {
+      "bytes": 17575,
+      "sha256": "8b17cd158725af2ebd139014b210462750af03dfd8781b63a17fc0df31bb4e31"
+    },
+    "results/generalization_20261007/coverage/fits/srle__outer_connected_robust_l2_0.05.json": {
+      "bytes": 17787,
+      "sha256": "638a9852b7ba4bac31f8de22a28a5688e0670d958b5bc84c881d81347e76083e"
+    },
+    "results/generalization_20261007/coverage/folds.json": {
+      "bytes": 19118,
+      "sha256": "a31661f85842c15925c063e125e11b6bd757beba83a6b31b3a409e43d2c8608f"
+    },
+    "results/generalization_20261007/coverage/inner_selection.csv": {
+      "bytes": 12482,
+      "sha256": "d23008c8acdd21eb2a200c6418a9063d0e8bc3f3609075e3ef0032832cb92376"
+    },
+    "results/generalization_20261007/coverage/predictions.csv.gz": {
+      "bytes": 650196,
+      "sha256": "34de1444b4daf5ec6d8e2bed0944ec0144251163cffa594555fc8cb24ff5cbe3"
+    },
+    "results/generalization_20261007/coverage/run_complete.json": {
+      "bytes": 321,
+      "sha256": "ee1b77ec308041c79ae4392448e697f8536c01a91e9d75e48fae6841c823f4a9"
+    },
+    "results/generalization_20261007/coverage_feature_receipt.json": {
+      "bytes": 1087,
+      "sha256": "579c795ea900ce88f74f15c2de24eabddf4bbc9ceb897fef932a641d818aea2f"
+    },
+    "results/generalization_20261007/endpoint/comparison.csv": {
+      "bytes": 801,
+      "sha256": "12d907e4a55fc081fed84df11a5c4af4227b7609aafba82ac5d43d26d9e2d9e1"
+    },
+    "results/generalization_20261007/endpoint/decisions.csv": {
+      "bytes": 2814637,
+      "sha256": "162ddce718b3364f9257c42b1251f2b6fa8716cf2065b4c32fcb1ba7f70c5124"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__mikl_gse173098_endpoint_l2_005.json": {
+      "bytes": 88344,
+      "sha256": "1df98755c7701d1a7df4b9ffc734b25ea3970f4d699beb7910067ffc269c44d2"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__mikl_gse173098_endpoint_l2_05.json": {
+      "bytes": 88510,
+      "sha256": "50901f39d532b3a2947946f912c7015dd74fda9e4ab46820a3934f1850a28414"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__mikl_gse173098_endpoint_l2_5.json": {
+      "bytes": 88757,
+      "sha256": "c7f2db8e51f3aa96c7ef9aa1e386bf84fc667eba611c458061220957402a947e"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__moffatt_gse334718_endpoint_l2_005.json": {
+      "bytes": 97627,
+      "sha256": "062eed5bc9b72be49d4a67e286179f30603e8309ab324ad3f58ef85ebe129c45"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__moffatt_gse334718_endpoint_l2_05.json": {
+      "bytes": 97787,
+      "sha256": "58df34a5686f2018ed3070ff598a7685013d88bff9e6834288f71fa976b7396f"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__moffatt_gse334718_endpoint_l2_5.json": {
+      "bytes": 98017,
+      "sha256": "8cdcf1868bf4755df1317f570b760e6d08794709781800978352ee3650f83a50"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__srle_endpoint_l2_005.json": {
+      "bytes": 97757,
+      "sha256": "51aa203940e770fdeca970b67640ec31df7009a71ef650422d57f22de0e54634"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__srle_endpoint_l2_05.json": {
+      "bytes": 97922,
+      "sha256": "9c5766bf6c221af46c7d4ca63ad995c5e3565bf13c0910d627e8a874525bdc78"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__inner__srle_endpoint_l2_5.json": {
+      "bytes": 98115,
+      "sha256": "c812785fdca794c4e0ea18ab6d2ac01420162577aaac79c498475309bec7027a"
+    },
+    "results/generalization_20261007/endpoint/fits/astrocyte_gse330741__outer_endpoint_l2_005.json": {
+      "bytes": 98115,
+      "sha256": "84e5307487e1781ce1e926647d132badd7a56fd39055ba9f28b8c0762c3f0fe5"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__astrocyte_gse330741_endpoint_l2_005.json": {
+      "bytes": 88344,
+      "sha256": "1df98755c7701d1a7df4b9ffc734b25ea3970f4d699beb7910067ffc269c44d2"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__astrocyte_gse330741_endpoint_l2_05.json": {
+      "bytes": 88510,
+      "sha256": "50901f39d532b3a2947946f912c7015dd74fda9e4ab46820a3934f1850a28414"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__astrocyte_gse330741_endpoint_l2_5.json": {
+      "bytes": 88757,
+      "sha256": "c7f2db8e51f3aa96c7ef9aa1e386bf84fc667eba611c458061220957402a947e"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__moffatt_gse334718_endpoint_l2_005.json": {
+      "bytes": 88343,
+      "sha256": "1a1319e0ef205641d9f9ada18bbb0ee6f58175777c25c41e9321630ed328790d"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__moffatt_gse334718_endpoint_l2_05.json": {
+      "bytes": 88538,
+      "sha256": "b376020a3faf49eccd3bffba1d7480e6ce0404ff1cfa4fade0bd28ff7bd88929"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__moffatt_gse334718_endpoint_l2_5.json": {
+      "bytes": 88778,
+      "sha256": "6051bfeff189b0d8673a2752bf86acb5d06d3309ffdbe946d41398e02a19547b"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__srle_endpoint_l2_005.json": {
+      "bytes": 88333,
+      "sha256": "148e1c93af30f2c9cfdf90256b8f88b86f6ecf9d6ca244e2c01e9e323c220b4c"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__srle_endpoint_l2_05.json": {
+      "bytes": 88487,
+      "sha256": "fdf62fa0c9ab0bb642248fb5ded7f2806d713ffa5a3935ee339f96c3efdfedec"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__inner__srle_endpoint_l2_5.json": {
+      "bytes": 88666,
+      "sha256": "6663a3de95417e9e4c0dd69d6ffb37854c8fae7295ce40b153752720f1970628"
+    },
+    "results/generalization_20261007/endpoint/fits/mikl_gse173098__outer_endpoint_l2_005.json": {
+      "bytes": 88690,
+      "sha256": "a69a4f3dbbbebf0030736d0c73b129702185407213be398407268b4012b0641e"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__astrocyte_gse330741_endpoint_l2_005.json": {
+      "bytes": 97627,
+      "sha256": "062eed5bc9b72be49d4a67e286179f30603e8309ab324ad3f58ef85ebe129c45"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__astrocyte_gse330741_endpoint_l2_05.json": {
+      "bytes": 97787,
+      "sha256": "58df34a5686f2018ed3070ff598a7685013d88bff9e6834288f71fa976b7396f"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__astrocyte_gse330741_endpoint_l2_5.json": {
+      "bytes": 98017,
+      "sha256": "8cdcf1868bf4755df1317f570b760e6d08794709781800978352ee3650f83a50"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__mikl_gse173098_endpoint_l2_005.json": {
+      "bytes": 88343,
+      "sha256": "1a1319e0ef205641d9f9ada18bbb0ee6f58175777c25c41e9321630ed328790d"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__mikl_gse173098_endpoint_l2_05.json": {
+      "bytes": 88538,
+      "sha256": "b376020a3faf49eccd3bffba1d7480e6ce0404ff1cfa4fade0bd28ff7bd88929"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__mikl_gse173098_endpoint_l2_5.json": {
+      "bytes": 88778,
+      "sha256": "6051bfeff189b0d8673a2752bf86acb5d06d3309ffdbe946d41398e02a19547b"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__srle_endpoint_l2_005.json": {
+      "bytes": 97602,
+      "sha256": "0602323cc2a77522791048bdef5a91419098335cfbbad3228a51bca2ea2abcf2"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__srle_endpoint_l2_05.json": {
+      "bytes": 97803,
+      "sha256": "8d3e5d429acbb43ee33fa8bce83754c2cd5d0fbf5f95f68bebfad6dbe8d88b3a"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__inner__srle_endpoint_l2_5.json": {
+      "bytes": 97991,
+      "sha256": "2cab31db1a0f44d45f07c6242ef7dce1f7da0e5a46684cc4b69bb19729dc24fa"
+    },
+    "results/generalization_20261007/endpoint/fits/moffatt_gse334718__outer_endpoint_l2_005.json": {
+      "bytes": 97960,
+      "sha256": "3fda1ad3b2e0b1b68e70ccca9c7a70239dfcc3c04b0195c718f68d87cea4eba2"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__astrocyte_gse330741_endpoint_l2_005.json": {
+      "bytes": 97757,
+      "sha256": "51aa203940e770fdeca970b67640ec31df7009a71ef650422d57f22de0e54634"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__astrocyte_gse330741_endpoint_l2_05.json": {
+      "bytes": 97922,
+      "sha256": "9c5766bf6c221af46c7d4ca63ad995c5e3565bf13c0910d627e8a874525bdc78"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__astrocyte_gse330741_endpoint_l2_5.json": {
+      "bytes": 98115,
+      "sha256": "c812785fdca794c4e0ea18ab6d2ac01420162577aaac79c498475309bec7027a"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__mikl_gse173098_endpoint_l2_005.json": {
+      "bytes": 88333,
+      "sha256": "148e1c93af30f2c9cfdf90256b8f88b86f6ecf9d6ca244e2c01e9e323c220b4c"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__mikl_gse173098_endpoint_l2_05.json": {
+      "bytes": 88487,
+      "sha256": "fdf62fa0c9ab0bb642248fb5ded7f2806d713ffa5a3935ee339f96c3efdfedec"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__mikl_gse173098_endpoint_l2_5.json": {
+      "bytes": 88666,
+      "sha256": "6663a3de95417e9e4c0dd69d6ffb37854c8fae7295ce40b153752720f1970628"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__moffatt_gse334718_endpoint_l2_005.json": {
+      "bytes": 97602,
+      "sha256": "0602323cc2a77522791048bdef5a91419098335cfbbad3228a51bca2ea2abcf2"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__moffatt_gse334718_endpoint_l2_05.json": {
+      "bytes": 97803,
+      "sha256": "8d3e5d429acbb43ee33fa8bce83754c2cd5d0fbf5f95f68bebfad6dbe8d88b3a"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__inner__moffatt_gse334718_endpoint_l2_5.json": {
+      "bytes": 97991,
+      "sha256": "2cab31db1a0f44d45f07c6242ef7dce1f7da0e5a46684cc4b69bb19729dc24fa"
+    },
+    "results/generalization_20261007/endpoint/fits/srle__outer_endpoint_l2_005.json": {
+      "bytes": 98032,
+      "sha256": "6d40cbf27442897d92103e9735c33e55fce79d2db5ac8a729cfdaafea22637bf"
+    },
+    "results/generalization_20261007/endpoint/folds.json": {
+      "bytes": 17944,
+      "sha256": "f777f3a0fcf8f3ec71c12abaa9cc6f68e4c6ee5d9b5917b3e21659991670a153"
+    },
+    "results/generalization_20261007/endpoint/inner_selection.csv": {
+      "bytes": 5101,
+      "sha256": "1acb3e9cd0601a571d8f07c9b4eb7d7a65a17cab979354f4aa1f7af07bdbf3fd"
+    },
+    "results/generalization_20261007/endpoint/predictions.csv.gz": {
+      "bytes": 645083,
+      "sha256": "3bb08aca2e4776ac6d547f93b8060870b53a966017ca37d2dbd6254ecd4a1933"
+    },
+    "results/generalization_20261007/endpoint/run_complete.json": {
+      "bytes": 321,
+      "sha256": "0c4af682f887f550f1bf09e45f32919e32f8420de07ad413fc404305c9e8913c"
+    },
+    "results/generalization_20261007/endpoint_auxiliary_core_exclusion.csv.gz": {
+      "bytes": 748218,
+      "sha256": "1b1f27e01877e5d208053b5ad48a3b978c57e7f98b74fba1a805749fc71c581b"
+    },
+    "results/generalization_20261007/endpoint_auxiliary_feature_receipt.json": {
+      "bytes": 993,
+      "sha256": "bbd925fdc38688bdb210d3f447bdef88988bafaa282dd4f9d274a29cd3b2b9bd"
+    },
+    "results/generalization_20261007/endpoint_feature_receipt.json": {
+      "bytes": 392,
+      "sha256": "0e5fbb5167c06804d5955d9cd2a6e953b3ef208b71f4c09be48ff5f7524364e4"
+    },
+    "results/generalization_20261007/gate_verdict.json": {
+      "bytes": 10565,
+      "sha256": "0270a6d6dac35ddcd57dedc6b2bbcb292e5c1b2f2064caa15705a1b1bfae1720"
+    },
+    "results/generalization_20261007/initial_state.json": {
+      "bytes": 4667,
+      "sha256": "3db2ca9eb083e688af3de360e56bc10c08f0268458dc0270893acb10a7ff9918"
+    },
+    "results/generalization_20261007/matched_control/comparison.csv": {
+      "bytes": 825,
+      "sha256": "a06ae2bbf03d5b27d4762c3852d3c75c1f1207c86e9ec380017d257113bc0d6f"
+    },
+    "results/generalization_20261007/matched_control/comparison_vs_enriched.csv": {
+      "bytes": 3479,
+      "sha256": "f3bc298d079c7c0b54ea0a1c5cf81c70e775e637f40afb0a36d99ae0ee933690"
+    },
+    "results/generalization_20261007/matched_control/decisions.csv": {
+      "bytes": 2956081,
+      "sha256": "7864409e37269c7b63fb749d7090f143b7bd2fb68cf959497bd7155271d6b40d"
+    },
+    "results/generalization_20261007/matched_control/fits/astrocyte_gse330741_pair_005.json": {
+      "bytes": 43077,
+      "sha256": "3adf382b0a6704472c0fb48b0786e9b6f32f683018cdb07dcbccfe75eef276a1"
+    },
+    "results/generalization_20261007/matched_control/fits/mikl_gse173098_pair_05.json": {
+      "bytes": 34499,
+      "sha256": "b6fc5427bb81200512d690e50b50666b6c439f851296d6eab608550eab822db4"
+    },
+    "results/generalization_20261007/matched_control/fits/moffatt_gse334718_pair_05.json": {
+      "bytes": 43086,
+      "sha256": "98c6b3b405e175c442b20c56430372a8ce7dfc74323ac432f94b08a982c6a9d3"
+    },
+    "results/generalization_20261007/matched_control/fits/srle_pair_005.json": {
+      "bytes": 43293,
+      "sha256": "950b0a2bcf6ad7d99570e9bc14589157e87175e6089859666d3980a22601b12b"
+    },
+    "results/generalization_20261007/matched_control/folds.json": {
+      "bytes": 18031,
+      "sha256": "94973f8edab481cb1729467f014ee3aad166614b595f956e7a0c200ac2218b72"
+    },
+    "results/generalization_20261007/matched_control/input_manifest.json": {
+      "bytes": 2846,
+      "sha256": "96357efdc192cb46d3b30d3a2b0d72d846e81d35e6b1f9362357c6628d0efbf1"
+    },
+    "results/generalization_20261007/matched_control/paired_gain.csv.gz": {
+      "bytes": 330542,
+      "sha256": "d00ab92afe9cd7f74e9e8826c6f42721e3b1e497938a969b1c431cf94574684e"
+    },
+    "results/generalization_20261007/matched_control/predictions.csv.gz": {
+      "bytes": 647446,
+      "sha256": "f068be1581fa2b40a5cdcb27fc492092ac387ec03eb28001ea382abd9c8ee92a"
+    },
+    "results/generalization_20261007/matched_control/run_complete.json": {
+      "bytes": 574,
+      "sha256": "15f36cd123270824ae61c961479a7cc8bcf1d4b7d2d47ab6746c4f04495c26db"
+    },
+    "results/generalization_20261007/mechanism/comparison.csv": {
+      "bytes": 790,
+      "sha256": "caaf20e12e72be7e67adc322ee01e2960bf962744d36d9dba4a8b6fe4f519140"
+    },
+    "results/generalization_20261007/mechanism/decisions.csv": {
+      "bytes": 2825360,
+      "sha256": "4e6fd05e855867cbd07c49aa40ba2bcf8b4f77be638e17ca34d26a8092ad0f0a"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__mikl_gse173098_mechanism_l2_005.json": {
+      "bytes": 51495,
+      "sha256": "760413343a7d37cccc4dd06885921319ad616056809f5b55c94bf16f651c4670"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__mikl_gse173098_mechanism_l2_05.json": {
+      "bytes": 51668,
+      "sha256": "abbcb8b9e7486cbfdcd075d22e51a84dd67051e5b39c110ff00dc72a94b6def5"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__mikl_gse173098_mechanism_l2_5.json": {
+      "bytes": 51847,
+      "sha256": "ff694ed65acaf110eeaff1ebfc7094a9652315d446183585d4f465f97118629d"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__moffatt_gse334718_mechanism_l2_005.json": {
+      "bytes": 60597,
+      "sha256": "ed6277fd711fb9e93a6c599895f79baf268df410dfd104d855d094ef5d23fb2a"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__moffatt_gse334718_mechanism_l2_05.json": {
+      "bytes": 60769,
+      "sha256": "fd269455ca69d21fb2358a82c2b12da249d81ffdd6858d703a1a3dee7bc413a6"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__moffatt_gse334718_mechanism_l2_5.json": {
+      "bytes": 60965,
+      "sha256": "5a9af5391250bccea440da1dffa598b40cb37bc2eef3730baeb60947210be0f2"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__srle_mechanism_l2_005.json": {
+      "bytes": 60927,
+      "sha256": "c079d96ef6e8d608db74b5a50f605bcd025fe30763992e8bb8ffd8e1635c2ade"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__srle_mechanism_l2_05.json": {
+      "bytes": 61043,
+      "sha256": "4c67005f468d66d3ccbc1bfa215cccf0e1fffe0531a8586dbb7ec838a8a404e0"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__inner__srle_mechanism_l2_5.json": {
+      "bytes": 61189,
+      "sha256": "1d89d489e94d6e1400adfd38989d56a9f269d8a246bc4c0b538f8cad2a6a685e"
+    },
+    "results/generalization_20261007/mechanism/fits/astrocyte_gse330741__outer_mechanism_l2_5.json": {
+      "bytes": 61340,
+      "sha256": "ff5c6a2859733872f1bb3f35399ebf9c94731ec06d6da52433678bf18faea29d"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__astrocyte_gse330741_mechanism_l2_005.json": {
+      "bytes": 51495,
+      "sha256": "760413343a7d37cccc4dd06885921319ad616056809f5b55c94bf16f651c4670"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__astrocyte_gse330741_mechanism_l2_05.json": {
+      "bytes": 51668,
+      "sha256": "abbcb8b9e7486cbfdcd075d22e51a84dd67051e5b39c110ff00dc72a94b6def5"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__astrocyte_gse330741_mechanism_l2_5.json": {
+      "bytes": 51847,
+      "sha256": "ff694ed65acaf110eeaff1ebfc7094a9652315d446183585d4f465f97118629d"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__moffatt_gse334718_mechanism_l2_005.json": {
+      "bytes": 52160,
+      "sha256": "5342320c4fe65b658c066d4a1539ce3eb79a8c9a858afbba8e1633f760bd24e3"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__moffatt_gse334718_mechanism_l2_05.json": {
+      "bytes": 52290,
+      "sha256": "9ced2ba0e6224002e05f8b8c8f9b12ca15ad56e59205aa2379108c0c55869996"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__moffatt_gse334718_mechanism_l2_5.json": {
+      "bytes": 52489,
+      "sha256": "03346bde00550f3656e29f51dd662187b436b3ec5f62e34befb27e093868f72f"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__srle_mechanism_l2_005.json": {
+      "bytes": 52208,
+      "sha256": "3f66a96ea291a90358a6d8a7911226dfdb4d4a8cf3976a8b0673a835f2854380"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__srle_mechanism_l2_05.json": {
+      "bytes": 52319,
+      "sha256": "ed52bd7ea7a3909b1b1bf13310735985668b76ee215738ed30352e9b46e274b4"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__inner__srle_mechanism_l2_5.json": {
+      "bytes": 52496,
+      "sha256": "cf8d993d1120b87482cad6e1daea047452fe73c579ef7daf7884cc51ac442c70"
+    },
+    "results/generalization_20261007/mechanism/fits/mikl_gse173098__outer_mechanism_l2_005.json": {
+      "bytes": 52214,
+      "sha256": "c7c5a0e6019643bf5fa589496b71a6c186d7b3aa12477d47ba030e757f78a301"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__astrocyte_gse330741_mechanism_l2_005.json": {
+      "bytes": 60597,
+      "sha256": "ed6277fd711fb9e93a6c599895f79baf268df410dfd104d855d094ef5d23fb2a"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__astrocyte_gse330741_mechanism_l2_05.json": {
+      "bytes": 60769,
+      "sha256": "fd269455ca69d21fb2358a82c2b12da249d81ffdd6858d703a1a3dee7bc413a6"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__astrocyte_gse330741_mechanism_l2_5.json": {
+      "bytes": 60965,
+      "sha256": "5a9af5391250bccea440da1dffa598b40cb37bc2eef3730baeb60947210be0f2"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__mikl_gse173098_mechanism_l2_005.json": {
+      "bytes": 52160,
+      "sha256": "5342320c4fe65b658c066d4a1539ce3eb79a8c9a858afbba8e1633f760bd24e3"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__mikl_gse173098_mechanism_l2_05.json": {
+      "bytes": 52290,
+      "sha256": "9ced2ba0e6224002e05f8b8c8f9b12ca15ad56e59205aa2379108c0c55869996"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__mikl_gse173098_mechanism_l2_5.json": {
+      "bytes": 52489,
+      "sha256": "03346bde00550f3656e29f51dd662187b436b3ec5f62e34befb27e093868f72f"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__srle_mechanism_l2_005.json": {
+      "bytes": 60767,
+      "sha256": "aa14057ad1f33302eb780ad760b7619a16983313dcb32d4c866fa5a3e75d719a"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__srle_mechanism_l2_05.json": {
+      "bytes": 60930,
+      "sha256": "3fbd95efa4e9f60cd7f646805adb89057701870fcb49fec152f58edc9027dcbf"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__inner__srle_mechanism_l2_5.json": {
+      "bytes": 61105,
+      "sha256": "83f4b828b7ef988eff92bf6b11dda3e2aa6d12695ed17865dfb0065808aa4c9e"
+    },
+    "results/generalization_20261007/mechanism/fits/moffatt_gse334718__outer_mechanism_l2_005.json": {
+      "bytes": 60830,
+      "sha256": "05ab1cb2e791f705508180fde4156f26845c89428136dbd5552bb7336b8ade24"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__astrocyte_gse330741_mechanism_l2_005.json": {
+      "bytes": 60927,
+      "sha256": "c079d96ef6e8d608db74b5a50f605bcd025fe30763992e8bb8ffd8e1635c2ade"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__astrocyte_gse330741_mechanism_l2_05.json": {
+      "bytes": 61043,
+      "sha256": "4c67005f468d66d3ccbc1bfa215cccf0e1fffe0531a8586dbb7ec838a8a404e0"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__astrocyte_gse330741_mechanism_l2_5.json": {
+      "bytes": 61189,
+      "sha256": "1d89d489e94d6e1400adfd38989d56a9f269d8a246bc4c0b538f8cad2a6a685e"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__mikl_gse173098_mechanism_l2_005.json": {
+      "bytes": 52208,
+      "sha256": "3f66a96ea291a90358a6d8a7911226dfdb4d4a8cf3976a8b0673a835f2854380"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__mikl_gse173098_mechanism_l2_05.json": {
+      "bytes": 52319,
+      "sha256": "ed52bd7ea7a3909b1b1bf13310735985668b76ee215738ed30352e9b46e274b4"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__mikl_gse173098_mechanism_l2_5.json": {
+      "bytes": 52496,
+      "sha256": "cf8d993d1120b87482cad6e1daea047452fe73c579ef7daf7884cc51ac442c70"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__moffatt_gse334718_mechanism_l2_005.json": {
+      "bytes": 60767,
+      "sha256": "aa14057ad1f33302eb780ad760b7619a16983313dcb32d4c866fa5a3e75d719a"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__moffatt_gse334718_mechanism_l2_05.json": {
+      "bytes": 60930,
+      "sha256": "3fbd95efa4e9f60cd7f646805adb89057701870fcb49fec152f58edc9027dcbf"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__inner__moffatt_gse334718_mechanism_l2_5.json": {
+      "bytes": 61105,
+      "sha256": "83f4b828b7ef988eff92bf6b11dda3e2aa6d12695ed17865dfb0065808aa4c9e"
+    },
+    "results/generalization_20261007/mechanism/fits/srle__outer_mechanism_l2_05.json": {
+      "bytes": 61293,
+      "sha256": "04d33ecbc51903f04496a59463da89430a309885695255b44b130eca4657173a"
+    },
+    "results/generalization_20261007/mechanism/folds.json": {
+      "bytes": 17951,
+      "sha256": "ff34a82a2e35b646817219ba393001733d7c78f169f1501f318bb4c0f6032f5a"
+    },
+    "results/generalization_20261007/mechanism/inner_selection.csv": {
+      "bytes": 5132,
+      "sha256": "6f9c776906e9b14bc21a870bb16f4db210939984e1b54748cd89c389340f6a36"
+    },
+    "results/generalization_20261007/mechanism/predictions.csv.gz": {
+      "bytes": 645655,
+      "sha256": "3d223490c9b5c3e27e23a536ac2f4fcf0a905eeb339db05e0901a1d60b388dd2"
+    },
+    "results/generalization_20261007/mechanism/run_complete.json": {
+      "bytes": 322,
+      "sha256": "99d5e32a309cb633e53030aa74d3cf8e2d70c9d15718ae62e422a6efe0ad8ab3"
+    },
+    "results/generalization_20261007/mechanism_feature_receipt.json": {
+      "bytes": 395,
+      "sha256": "48985af70c17f2d0047536a5202e8fcdfeed7e57e51f78a9fbfbf9b6e9c41958"
+    },
+    "results/generalization_20261007/pair_coverage.csv": {
+      "bytes": 1581953,
+      "sha256": "8969112f1f7f0f1d0ae185c09bd3893d0306da45fb58804df0eb724d063224cf"
+    },
+    "results/generalization_20261007/prefit_manifest.json": {
+      "bytes": 5812,
+      "sha256": "1d69e9c0784940c7f14af6c510a1ce3d8499faf49cad4c76441b7193f216e37d"
+    },
+    "results/generalization_20261007/prepare_receipt.json": {
+      "bytes": 271,
+      "sha256": "0dc530cd645773fef9379536b53507d45e97bd18825c6806f648c46db49e69d3"
+    },
+    "results/generalization_20261007/quality_receipt.json": {
+      "bytes": 533,
+      "sha256": "65b512e2ee2dc6674994ed0ad078d0c9bb254a3d25307479f971348264d12b54"
+    },
+    "results/generalization_20261007/representation/comparison.csv": {
+      "bytes": 843,
+      "sha256": "84ccf7d760b59191eb78c427cd26fd4c3b36ba20870f9734add0df95f685adc4"
+    },
+    "results/generalization_20261007/representation/decisions.csv": {
+      "bytes": 2873827,
+      "sha256": "ca492fce3b2b42b69b74a6722d8ef39ec9088770c9e0f5619bddfd71fac24be5"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__mikl_gse173098_ordered_456_l2_0.005.json": {
+      "bytes": 337569,
+      "sha256": "d6d87d80680d0c25d17155077575904c3f077b1ef2be4899b21053508b3edbcf"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__mikl_gse173098_ordered_456_l2_0.05.json": {
+      "bytes": 339665,
+      "sha256": "f97324deef9b3e54403ac3a42d4997bb27a72fb188407c0ada2c85403f64bc35"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__mikl_gse173098_ordered_456_l2_0.5.json": {
+      "bytes": 342429,
+      "sha256": "d14fbdf0e47107d2cb2b874397dc32d94bd63a769989dbd5edba46881680f45f"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__moffatt_gse334718_ordered_456_l2_0.005.json": {
+      "bytes": 351271,
+      "sha256": "1cb0d20c600de25bae454cbcee9f1f74adda59acff2753d07f8e1926487f1911"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__moffatt_gse334718_ordered_456_l2_0.05.json": {
+      "bytes": 353536,
+      "sha256": "e1e44a3c5eba289efbf3be534230e735ba8970895908a0d9f07d8ef65dd9efa5"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__moffatt_gse334718_ordered_456_l2_0.5.json": {
+      "bytes": 356291,
+      "sha256": "7b5527cf1041b34270907598d276a5ca39503de928302bd0a6353f8b23dac1d9"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__srle_ordered_456_l2_0.005.json": {
+      "bytes": 351529,
+      "sha256": "cf8560f81020a09d9d0166bb432a8e9c17c8205fff9acd1a6ee85603696f3f0f"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__srle_ordered_456_l2_0.05.json": {
+      "bytes": 353642,
+      "sha256": "a64b1fc61bab9dc24f6e584123854145c673ce2177a6f6bb7cb0f66d51acf369"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__inner__srle_ordered_456_l2_0.5.json": {
+      "bytes": 355864,
+      "sha256": "e65c2e4710f6dac0834b2807f1e428c5848fadaeb9bdbd505a72b2825ca8254a"
+    },
+    "results/generalization_20261007/representation/fits/astrocyte_gse330741__outer_ordered_456_l2_0.05.json": {
+      "bytes": 353625,
+      "sha256": "dc69cc34b70c25f4361c3db079d5e073e8e1bf1de6d2570aa772d7d3b9fd0861"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__astrocyte_gse330741_ordered_456_l2_0.005.json": {
+      "bytes": 337569,
+      "sha256": "d6d87d80680d0c25d17155077575904c3f077b1ef2be4899b21053508b3edbcf"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__astrocyte_gse330741_ordered_456_l2_0.05.json": {
+      "bytes": 339665,
+      "sha256": "f97324deef9b3e54403ac3a42d4997bb27a72fb188407c0ada2c85403f64bc35"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__astrocyte_gse330741_ordered_456_l2_0.5.json": {
+      "bytes": 342429,
+      "sha256": "d14fbdf0e47107d2cb2b874397dc32d94bd63a769989dbd5edba46881680f45f"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__moffatt_gse334718_ordered_456_l2_0.005.json": {
+      "bytes": 332280,
+      "sha256": "97ef597836f7fd0438b7e864df5df0972216d3b6b6ee04ad0ef831447a501bae"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__moffatt_gse334718_ordered_456_l2_0.05.json": {
+      "bytes": 333979,
+      "sha256": "51105ae2e42b720b9dd0435ba9c97e9d6a905ec9fe833a39c02d053f7958d5eb"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__moffatt_gse334718_ordered_456_l2_0.5.json": {
+      "bytes": 336361,
+      "sha256": "1024418e92c267ce50662098754ef7e8054c7b89da3ceb8d30764aeb7adb6eda"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__srle_ordered_456_l2_0.005.json": {
+      "bytes": 341106,
+      "sha256": "a05756465ac5a567cbbc73dc766240f2a93175968d3ed28a9187aca1fce97b76"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__srle_ordered_456_l2_0.05.json": {
+      "bytes": 343609,
+      "sha256": "1ba02752a36174d1bc4b290c4cb04d66023dbb132ad314da9cb2fd93b18e88ab"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__inner__srle_ordered_456_l2_0.5.json": {
+      "bytes": 346197,
+      "sha256": "e5a7689dd044bde7f273580e616bcad589cf86f0174549aa45386f4d7d85335a"
+    },
+    "results/generalization_20261007/representation/fits/mikl_gse173098__outer_ordered_456_l2_0.05.json": {
+      "bytes": 344209,
+      "sha256": "4e0a3b0b8a159c39e0ccf2ca8ffc3790b8535517ef59d07003f64ba4505dcaed"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__astrocyte_gse330741_ordered_456_l2_0.005.json": {
+      "bytes": 351271,
+      "sha256": "1cb0d20c600de25bae454cbcee9f1f74adda59acff2753d07f8e1926487f1911"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__astrocyte_gse330741_ordered_456_l2_0.05.json": {
+      "bytes": 353536,
+      "sha256": "e1e44a3c5eba289efbf3be534230e735ba8970895908a0d9f07d8ef65dd9efa5"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__astrocyte_gse330741_ordered_456_l2_0.5.json": {
+      "bytes": 356291,
+      "sha256": "7b5527cf1041b34270907598d276a5ca39503de928302bd0a6353f8b23dac1d9"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__mikl_gse173098_ordered_456_l2_0.005.json": {
+      "bytes": 332280,
+      "sha256": "97ef597836f7fd0438b7e864df5df0972216d3b6b6ee04ad0ef831447a501bae"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__mikl_gse173098_ordered_456_l2_0.05.json": {
+      "bytes": 333979,
+      "sha256": "51105ae2e42b720b9dd0435ba9c97e9d6a905ec9fe833a39c02d053f7958d5eb"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__mikl_gse173098_ordered_456_l2_0.5.json": {
+      "bytes": 336361,
+      "sha256": "1024418e92c267ce50662098754ef7e8054c7b89da3ceb8d30764aeb7adb6eda"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__srle_ordered_456_l2_0.005.json": {
+      "bytes": 351202,
+      "sha256": "3eff6edffe4619a2a5a76affaa0d4bc46ba5f4257b813c29332937a86b58ad14"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__srle_ordered_456_l2_0.05.json": {
+      "bytes": 353408,
+      "sha256": "ad92eeea3c702dcf465c08cf2b716fc6db5b21f67fdffd86164d93a41d2a4b61"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__inner__srle_ordered_456_l2_0.5.json": {
+      "bytes": 355876,
+      "sha256": "540c3bffc4a57c69feea701cd959eac2661b774c13c05f7169fa28703ad507a1"
+    },
+    "results/generalization_20261007/representation/fits/moffatt_gse334718__outer_ordered_456_l2_0.005.json": {
+      "bytes": 351063,
+      "sha256": "70a4ac8acc434feab9caa81536eeb3db359856caa5ac0545b5d3a8cc3f141de6"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__astrocyte_gse330741_ordered_456_l2_0.005.json": {
+      "bytes": 351529,
+      "sha256": "cf8560f81020a09d9d0166bb432a8e9c17c8205fff9acd1a6ee85603696f3f0f"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__astrocyte_gse330741_ordered_456_l2_0.05.json": {
+      "bytes": 353642,
+      "sha256": "a64b1fc61bab9dc24f6e584123854145c673ce2177a6f6bb7cb0f66d51acf369"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__astrocyte_gse330741_ordered_456_l2_0.5.json": {
+      "bytes": 355864,
+      "sha256": "e65c2e4710f6dac0834b2807f1e428c5848fadaeb9bdbd505a72b2825ca8254a"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__mikl_gse173098_ordered_456_l2_0.005.json": {
+      "bytes": 341106,
+      "sha256": "a05756465ac5a567cbbc73dc766240f2a93175968d3ed28a9187aca1fce97b76"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__mikl_gse173098_ordered_456_l2_0.05.json": {
+      "bytes": 343609,
+      "sha256": "1ba02752a36174d1bc4b290c4cb04d66023dbb132ad314da9cb2fd93b18e88ab"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__mikl_gse173098_ordered_456_l2_0.5.json": {
+      "bytes": 346197,
+      "sha256": "e5a7689dd044bde7f273580e616bcad589cf86f0174549aa45386f4d7d85335a"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__moffatt_gse334718_ordered_456_l2_0.005.json": {
+      "bytes": 351202,
+      "sha256": "3eff6edffe4619a2a5a76affaa0d4bc46ba5f4257b813c29332937a86b58ad14"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__moffatt_gse334718_ordered_456_l2_0.05.json": {
+      "bytes": 353408,
+      "sha256": "ad92eeea3c702dcf465c08cf2b716fc6db5b21f67fdffd86164d93a41d2a4b61"
+    },
+    "results/generalization_20261007/representation/fits/srle__inner__moffatt_gse334718_ordered_456_l2_0.5.json": {
+      "bytes": 355876,
+      "sha256": "540c3bffc4a57c69feea701cd959eac2661b774c13c05f7169fa28703ad507a1"
+    },
+    "results/generalization_20261007/representation/fits/srle__outer_ordered_456_l2_0.005.json": {
+      "bytes": 351819,
+      "sha256": "dd7990e11c2b2a1a485e979acb7bdfc5c49e90c62023cdd60c81d7d53ffb101d"
+    },
+    "results/generalization_20261007/representation/folds.json": {
+      "bytes": 18013,
+      "sha256": "757702bf1714763e0d4d637fb09301166d4f3eab2e162f54d832cb32461bfe94"
+    },
+    "results/generalization_20261007/representation/inner_selection.csv": {
+      "bytes": 5278,
+      "sha256": "61848f814cae27c4ab37c0ac70bdecd8f53cfa01029a73ea3f2c469a63488a05"
+    },
+    "results/generalization_20261007/representation/predictions.csv.gz": {
+      "bytes": 647397,
+      "sha256": "eb604b24384a49330e90c214ca8b4e314e76c5bbcc89e62b675db8ebb8d21ae7"
+    },
+    "results/generalization_20261007/representation/run_complete.json": {
+      "bytes": 327,
+      "sha256": "7f8d781a22beb593ab997a19881ec7d4b528a9816114c5e80e01b5e70ddd4eb7"
+    },
+    "results/generalization_20261007/representation_feature_receipt.json": {
+      "bytes": 407,
+      "sha256": "84acf6f59f8ca132bd12e7c5d9f850f69af50b99500f74135e1831b98d0ed70a"
+    },
+    "results/generalization_20261007/row_index.csv.gz": {
+      "bytes": 461214,
+      "sha256": "0f343712dfc90abd1c6033f29f10e3eef63c1e7977a7fef9ef5c5ee6680fc58f"
+    },
+    "results/generalization_20261007/runtime_receipt.json": {
+      "bytes": 509,
+      "sha256": "f143521401729027b484b91d3687c822e4906315aa7334440be2a371fddb7115"
+    },
+    "results/generalization_20261007/scaling/comparison.csv": {
+      "bytes": 798,
+      "sha256": "bf72d30a6d7ada37f21b02c19cdd251e69ef7f9c233d4ddceb446447b08789de"
+    },
+    "results/generalization_20261007/scaling/decisions.csv": {
+      "bytes": 2803790,
+      "sha256": "a01c7599949966d59804d21d7ffc6783dc922560e56780156e7a1569038b2f93"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__mikl_gse173098_candidate_005.json": {
+      "bytes": 34284,
+      "sha256": "31fd40e8af990d86d5e7423404fff831f8e6ee91277ff52e19f3d9714867541f"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__mikl_gse173098_candidate_05.json": {
+      "bytes": 34365,
+      "sha256": "8e492af6af407b6d738d1876ccc7e5bd9022a274dad84506e0f5f716f698096a"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__mikl_gse173098_candidate_5.json": {
+      "bytes": 34511,
+      "sha256": "a8ea8d4fe526ecd1cd4c8f52799ae5a2bca2e047ec3eeac445f96614f89aa749"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__mikl_gse173098_pair_005.json": {
+      "bytes": 34194,
+      "sha256": "f671cdfa4d1b30913c72519ca17b989c657d8d35782d67304ae76f001ed9c2c2"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__mikl_gse173098_pair_05.json": {
+      "bytes": 34284,
+      "sha256": "6015bae884321df8068fcac36cfcd3286313488c8c536a15669f79b542a1af88"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__mikl_gse173098_pair_5.json": {
+      "bytes": 34427,
+      "sha256": "7d910f322fdff3daa0c757b1e49b64742f1036f9f9a36f118ddcfc2424faa18e"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__moffatt_gse334718_candidate_005.json": {
+      "bytes": 42839,
+      "sha256": "d29c2a10c1a9db276f5a2e96830c30c3772f8b9bbcb0972d4f18880f3e321f45"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__moffatt_gse334718_candidate_05.json": {
+      "bytes": 42935,
+      "sha256": "12e2f78710c1d2a03090a0b58a1c89cf634520d060fd7deff10e4011a434426f"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__moffatt_gse334718_candidate_5.json": {
+      "bytes": 43097,
+      "sha256": "3079376ba77bc8d9e71abf2809260b864e6623b1ea44b7b92eb13bc0be3376ce"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__moffatt_gse334718_pair_005.json": {
+      "bytes": 42761,
+      "sha256": "b56fafab079c196bf1e1d73617f2fd9c706da5d048dbcb6074d7d2c878275cc8"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__moffatt_gse334718_pair_05.json": {
+      "bytes": 42858,
+      "sha256": "7adf849714056f2e0f6563389e9b0750cafb6999034884b331174885f3ec22ba"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__moffatt_gse334718_pair_5.json": {
+      "bytes": 43023,
+      "sha256": "06e6c0769fd2ff07c7db23e46bb419a7c8295da395a30ced17f6622a84f6cf67"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__srle_candidate_005.json": {
+      "bytes": 43129,
+      "sha256": "33b6f70cac7727987773d00ef0d3f70a7efb2fae9f05cb025256c0899fcb51b2"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__srle_candidate_05.json": {
+      "bytes": 43185,
+      "sha256": "b953b7cd84ae723030fedee8163e63920d8fa7ca5afb3d8c3527072d310bb1fe"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__srle_candidate_5.json": {
+      "bytes": 43271,
+      "sha256": "280d2348467b2426866990df02fb7530a167e84ba1fa0ee34d470c1ffe5d697c"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__srle_pair_005.json": {
+      "bytes": 43029,
+      "sha256": "49d79b5d4156bbc6c35018077b08a9fc70e357d47dd6ac7fa1ca2d570d274979"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__srle_pair_05.json": {
+      "bytes": 43097,
+      "sha256": "0d854a7482eb9790a05fff2f19ef04f7f4e8735300bf643a521da95607d6c1e7"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__inner__srle_pair_5.json": {
+      "bytes": 43195,
+      "sha256": "73cb8ed5db977b2a9977e5c4bd94793ba0ab156a88630607483f94c18d7284db"
+    },
+    "results/generalization_20261007/scaling/fits/astrocyte_gse330741__outer_candidate_005.json": {
+      "bytes": 43136,
+      "sha256": "86d12d3d79202ec67f8bfccd36656666fb2645aad05a98f18b5fcedba71305fd"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__astrocyte_gse330741_candidate_005.json": {
+      "bytes": 34284,
+      "sha256": "31fd40e8af990d86d5e7423404fff831f8e6ee91277ff52e19f3d9714867541f"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__astrocyte_gse330741_candidate_05.json": {
+      "bytes": 34365,
+      "sha256": "8e492af6af407b6d738d1876ccc7e5bd9022a274dad84506e0f5f716f698096a"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__astrocyte_gse330741_candidate_5.json": {
+      "bytes": 34511,
+      "sha256": "a8ea8d4fe526ecd1cd4c8f52799ae5a2bca2e047ec3eeac445f96614f89aa749"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__astrocyte_gse330741_pair_005.json": {
+      "bytes": 34194,
+      "sha256": "f671cdfa4d1b30913c72519ca17b989c657d8d35782d67304ae76f001ed9c2c2"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__astrocyte_gse330741_pair_05.json": {
+      "bytes": 34284,
+      "sha256": "6015bae884321df8068fcac36cfcd3286313488c8c536a15669f79b542a1af88"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__astrocyte_gse330741_pair_5.json": {
+      "bytes": 34427,
+      "sha256": "7d910f322fdff3daa0c757b1e49b64742f1036f9f9a36f118ddcfc2424faa18e"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__moffatt_gse334718_candidate_005.json": {
+      "bytes": 34356,
+      "sha256": "81e26c8539969c46d090f4221923f458645dcea962ddebd3727543c78ee48cbc"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__moffatt_gse334718_candidate_05.json": {
+      "bytes": 34440,
+      "sha256": "732641c391c635d05628b4f3a2149cb711a86291948a78b137645f721579601a"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__moffatt_gse334718_candidate_5.json": {
+      "bytes": 34542,
+      "sha256": "f51fc3d8a2f5e6aa337519bb45c3e119adb91e3a4e12e9895556b5f4720c2d5d"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__moffatt_gse334718_pair_005.json": {
+      "bytes": 34238,
+      "sha256": "cf4a032782a8d4c0057c987afec8067dc7f87bad08be512027455bedd2edabb2"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__moffatt_gse334718_pair_05.json": {
+      "bytes": 34337,
+      "sha256": "dbc254e9c91719f23cef1471bba964a9498c5b9a07991ff5e3bba2529f1b678e"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__moffatt_gse334718_pair_5.json": {
+      "bytes": 34467,
+      "sha256": "f029665fa84ecd61e38b141c28dd296ee4d341154d87a3675cea89b4b789b85d"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__srle_candidate_005.json": {
+      "bytes": 34410,
+      "sha256": "c7ffbe2d13de30bba508b60a35d4a638c9670c3c741d73f795ad14707a1b5dd7"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__srle_candidate_05.json": {
+      "bytes": 34485,
+      "sha256": "c6d66afbd9a750645c595529dd35c1ca4d68b2ab93c354575049e66e03855a33"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__srle_candidate_5.json": {
+      "bytes": 34556,
+      "sha256": "aa8edcf2d9f8737a36c664a38321258884703219eeadd36609e404eaa9079470"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__srle_pair_005.json": {
+      "bytes": 34341,
+      "sha256": "ae83c4dad057e288e56bfb03c0c3eca81a0da2608ff8b9e618f3fb65bb994370"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__srle_pair_05.json": {
+      "bytes": 34398,
+      "sha256": "6c7072f12547d5973d50e10151f0dd0d6a4534c665e874ebf42cbc294b973a67"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__inner__srle_pair_5.json": {
+      "bytes": 34482,
+      "sha256": "2f654e0c3d705715fa10c3b0c2321d7ec3c35cc8966ea42aadcc6252e9d1b29b"
+    },
+    "results/generalization_20261007/scaling/fits/mikl_gse173098__outer_candidate_05.json": {
+      "bytes": 34568,
+      "sha256": "7780b76de322ee09af4d8ff2f6f9073132e35defe834217e241fb666b392edde"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__astrocyte_gse330741_candidate_005.json": {
+      "bytes": 42839,
+      "sha256": "d29c2a10c1a9db276f5a2e96830c30c3772f8b9bbcb0972d4f18880f3e321f45"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__astrocyte_gse330741_candidate_05.json": {
+      "bytes": 42935,
+      "sha256": "12e2f78710c1d2a03090a0b58a1c89cf634520d060fd7deff10e4011a434426f"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__astrocyte_gse330741_candidate_5.json": {
+      "bytes": 43097,
+      "sha256": "3079376ba77bc8d9e71abf2809260b864e6623b1ea44b7b92eb13bc0be3376ce"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__astrocyte_gse330741_pair_005.json": {
+      "bytes": 42761,
+      "sha256": "b56fafab079c196bf1e1d73617f2fd9c706da5d048dbcb6074d7d2c878275cc8"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__astrocyte_gse330741_pair_05.json": {
+      "bytes": 42858,
+      "sha256": "7adf849714056f2e0f6563389e9b0750cafb6999034884b331174885f3ec22ba"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__astrocyte_gse330741_pair_5.json": {
+      "bytes": 43023,
+      "sha256": "06e6c0769fd2ff07c7db23e46bb419a7c8295da395a30ced17f6622a84f6cf67"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__mikl_gse173098_candidate_005.json": {
+      "bytes": 34356,
+      "sha256": "81e26c8539969c46d090f4221923f458645dcea962ddebd3727543c78ee48cbc"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__mikl_gse173098_candidate_05.json": {
+      "bytes": 34440,
+      "sha256": "732641c391c635d05628b4f3a2149cb711a86291948a78b137645f721579601a"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__mikl_gse173098_candidate_5.json": {
+      "bytes": 34542,
+      "sha256": "f51fc3d8a2f5e6aa337519bb45c3e119adb91e3a4e12e9895556b5f4720c2d5d"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__mikl_gse173098_pair_005.json": {
+      "bytes": 34238,
+      "sha256": "cf4a032782a8d4c0057c987afec8067dc7f87bad08be512027455bedd2edabb2"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__mikl_gse173098_pair_05.json": {
+      "bytes": 34337,
+      "sha256": "dbc254e9c91719f23cef1471bba964a9498c5b9a07991ff5e3bba2529f1b678e"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__mikl_gse173098_pair_5.json": {
+      "bytes": 34467,
+      "sha256": "f029665fa84ecd61e38b141c28dd296ee4d341154d87a3675cea89b4b789b85d"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__srle_candidate_005.json": {
+      "bytes": 42997,
+      "sha256": "0410dff7a8e367f32c9f1bc50cfd50393c8ac77258577b91b93db1acfcf64818"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__srle_candidate_05.json": {
+      "bytes": 43098,
+      "sha256": "35b0b00def081b33d467e8e0441e5d2585597eb7f1b5f845c04a92fcc86aab43"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__srle_candidate_5.json": {
+      "bytes": 43172,
+      "sha256": "ab37e0410b26d1052751454962829828058d3930c67eb7615f35b9e0193a8141"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__srle_pair_005.json": {
+      "bytes": 42890,
+      "sha256": "4e94d04261a02da1cd9e7341ed8366aa52c5e5e14cad800ba4a8aacde4835c4b"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__srle_pair_05.json": {
+      "bytes": 42994,
+      "sha256": "541c27a0a6780fbd212be1cb4996095c5798c4a92259c72b22b285f65bcb6a2c"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__inner__srle_pair_5.json": {
+      "bytes": 43087,
+      "sha256": "f8d867f664f4e81e7cbf48764b30b8160513ce4d42f9d83123d90a7644579274"
+    },
+    "results/generalization_20261007/scaling/fits/moffatt_gse334718__outer_candidate_05.json": {
+      "bytes": 43149,
+      "sha256": "d2295d2b1f46eeb45a33f96e716bb44b4f5c1f18b62fcdf216e476bb1c4bb20d"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__astrocyte_gse330741_candidate_005.json": {
+      "bytes": 43129,
+      "sha256": "33b6f70cac7727987773d00ef0d3f70a7efb2fae9f05cb025256c0899fcb51b2"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__astrocyte_gse330741_candidate_05.json": {
+      "bytes": 43185,
+      "sha256": "b953b7cd84ae723030fedee8163e63920d8fa7ca5afb3d8c3527072d310bb1fe"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__astrocyte_gse330741_candidate_5.json": {
+      "bytes": 43271,
+      "sha256": "280d2348467b2426866990df02fb7530a167e84ba1fa0ee34d470c1ffe5d697c"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__astrocyte_gse330741_pair_005.json": {
+      "bytes": 43029,
+      "sha256": "49d79b5d4156bbc6c35018077b08a9fc70e357d47dd6ac7fa1ca2d570d274979"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__astrocyte_gse330741_pair_05.json": {
+      "bytes": 43097,
+      "sha256": "0d854a7482eb9790a05fff2f19ef04f7f4e8735300bf643a521da95607d6c1e7"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__astrocyte_gse330741_pair_5.json": {
+      "bytes": 43195,
+      "sha256": "73cb8ed5db977b2a9977e5c4bd94793ba0ab156a88630607483f94c18d7284db"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__mikl_gse173098_candidate_005.json": {
+      "bytes": 34410,
+      "sha256": "c7ffbe2d13de30bba508b60a35d4a638c9670c3c741d73f795ad14707a1b5dd7"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__mikl_gse173098_candidate_05.json": {
+      "bytes": 34485,
+      "sha256": "c6d66afbd9a750645c595529dd35c1ca4d68b2ab93c354575049e66e03855a33"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__mikl_gse173098_candidate_5.json": {
+      "bytes": 34556,
+      "sha256": "aa8edcf2d9f8737a36c664a38321258884703219eeadd36609e404eaa9079470"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__mikl_gse173098_pair_005.json": {
+      "bytes": 34341,
+      "sha256": "ae83c4dad057e288e56bfb03c0c3eca81a0da2608ff8b9e618f3fb65bb994370"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__mikl_gse173098_pair_05.json": {
+      "bytes": 34398,
+      "sha256": "6c7072f12547d5973d50e10151f0dd0d6a4534c665e874ebf42cbc294b973a67"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__mikl_gse173098_pair_5.json": {
+      "bytes": 34482,
+      "sha256": "2f654e0c3d705715fa10c3b0c2321d7ec3c35cc8966ea42aadcc6252e9d1b29b"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__moffatt_gse334718_candidate_005.json": {
+      "bytes": 42997,
+      "sha256": "0410dff7a8e367f32c9f1bc50cfd50393c8ac77258577b91b93db1acfcf64818"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__moffatt_gse334718_candidate_05.json": {
+      "bytes": 43098,
+      "sha256": "35b0b00def081b33d467e8e0441e5d2585597eb7f1b5f845c04a92fcc86aab43"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__moffatt_gse334718_candidate_5.json": {
+      "bytes": 43172,
+      "sha256": "ab37e0410b26d1052751454962829828058d3930c67eb7615f35b9e0193a8141"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__moffatt_gse334718_pair_005.json": {
+      "bytes": 42890,
+      "sha256": "4e94d04261a02da1cd9e7341ed8366aa52c5e5e14cad800ba4a8aacde4835c4b"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__moffatt_gse334718_pair_05.json": {
+      "bytes": 42994,
+      "sha256": "541c27a0a6780fbd212be1cb4996095c5798c4a92259c72b22b285f65bcb6a2c"
+    },
+    "results/generalization_20261007/scaling/fits/srle__inner__moffatt_gse334718_pair_5.json": {
+      "bytes": 43087,
+      "sha256": "f8d867f664f4e81e7cbf48764b30b8160513ce4d42f9d83123d90a7644579274"
+    },
+    "results/generalization_20261007/scaling/fits/srle__outer_pair_005.json": {
+      "bytes": 43293,
+      "sha256": "950b0a2bcf6ad7d99570e9bc14589157e87175e6089859666d3980a22601b12b"
+    },
+    "results/generalization_20261007/scaling/folds.json": {
+      "bytes": 18460,
+      "sha256": "23f02609d3dfcf100f1f4de2a6b235b4d90d6ab98d122c204a9d91ef948c7052"
+    },
+    "results/generalization_20261007/scaling/inner_selection.csv": {
+      "bytes": 9776,
+      "sha256": "ea7ef5be6525df9519582fc4fee4be30d2a97295a0f72f565b13bfbb37e7c3bf"
+    },
+    "results/generalization_20261007/scaling/predictions.csv.gz": {
+      "bytes": 644210,
+      "sha256": "880ccf8f7e3b3c961817026f8e04bdbea5097b9211379e59b19c5ed924bdf864"
+    },
+    "results/generalization_20261007/scaling/run_complete.json": {
+      "bytes": 320,
+      "sha256": "312c26f2b91ba533c6b93778146740403eb075c8f2dde80ce04cc43879d88242"
+    },
+    "results/generalization_20261007/scaling_feature_receipt.json": {
+      "bytes": 725,
+      "sha256": "ca657739b959b9aefa4579b930dc64b460da22bfaab8fcb69fdaf22ae2f96203"
+    },
+    "results/generalization_20261007/tests_receipt.json": {
+      "bytes": 562,
+      "sha256": "6d3bc2538654ac69b2518fa2aa8de221e5cc84b8e79f455a29f6eeb2651d6025"
+    },
+    "results/generalization_20261007/tests_receipt_final.json": {
+      "bytes": 672,
+      "sha256": "ab8d4b0f7bdf9a64a98deb11e727019a16d3baccdf7768a719f283ca1f5d921e"
+    },
+    "results/generalization_20261007/verification_receipt.json": {
+      "bytes": 470,
+      "sha256": "08686629e0794b82ce66df1b8b7fa198e9af7006022fbd829617ef56f3b42f65"
+    },
+    "src/generalization_20261007/.gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    "src/generalization_20261007/__init__.py": {
+      "bytes": 81,
+      "sha256": "b9d039c5c85bd7280ca81bc47f2d1f7bc21ce65f82c981ffb6c9e410a09268a9"
+    },
+    "src/generalization_20261007/common.py": {
+      "bytes": 4510,
+      "sha256": "5707393cbf51333db925ef5c66b9e949f8eeafcafa131d55747534a5b2661840"
+    },
+    "src/generalization_20261007/context_diagnostic.py": {
+      "bytes": 16850,
+      "sha256": "a94f9244782a4e12cfedf7ed72575502687f098f286cfbcbe24099b6d56de0d1"
+    },
+    "src/generalization_20261007/engine.py": {
+      "bytes": 4682,
+      "sha256": "aa828de3c60eb3322ad24dfe961ed24c371fb6480d7e394291a943b6414b2bb0"
+    },
+    "src/generalization_20261007/freeze.py": {
+      "bytes": 1206,
+      "sha256": "78d8aae62cffd46d311d6ab72b6b445b7c3cd914059618c2da204f2bd7e06b78"
+    },
+    "src/generalization_20261007/gate.py": {
+      "bytes": 4780,
+      "sha256": "05bc194b86d8c60a1482fb479f0e5f1d98624021e0c91d25e9acd500d46f8731"
+    },
+    "src/generalization_20261007/matched_control.py": {
+      "bytes": 10840,
+      "sha256": "f3381b7eb6e8dcd2e15f0efc0db4e4b0a1580f720ba2cce1cda5f7d617b0689b"
+    },
+    "src/generalization_20261007/package.py": {
+      "bytes": 2219,
+      "sha256": "dc2e2e97848d1c4a2533c35319e5bd57f538843f6e7e67170ac76c5bd9962929"
+    },
+    "src/generalization_20261007/prepare.py": {
+      "bytes": 2586,
+      "sha256": "277e42278b82895d3a584064b7a4613fdf807c727655a7c171ced035f9d6e787"
+    },
+    "src/generalization_20261007/report.py": {
+      "bytes": 13062,
+      "sha256": "d288d2e6d0f55ab23dd9144d4f4ca5210362e573037442f1e2ecd5e9798fd8a3"
+    },
+    "src/generalization_20261007/reporter_context_audit.py": {
+      "bytes": 6479,
+      "sha256": "a4f82604487eba2215fe442224965a7407c819a4c4cf7569e99b99666ce514e6"
+    },
+    "src/generalization_20261007/route_coverage.py": {
+      "bytes": 4417,
+      "sha256": "4e1e1e29c86f75645f75ac81c4d746a057bad7a09059f97ae1deabd06b705f58"
+    },
+    "src/generalization_20261007/route_endpoint.py": {
+      "bytes": 8738,
+      "sha256": "0ac1c6de64f209c1843d0233ca079ede5fe7c203043ae46b28fc29a107c1aee8"
+    },
+    "src/generalization_20261007/route_mechanism.py": {
+      "bytes": 7805,
+      "sha256": "25cede490d980fc81aedaddd2345149c982ccbabb1c6767ec462f2876e6dce39"
+    },
+    "src/generalization_20261007/route_representation.py": {
+      "bytes": 9490,
+      "sha256": "dc0b656f6ef3e0f7c3a3630eab963c645ce264d5d8be45b56a61587f535606ef"
+    },
+    "src/generalization_20261007/route_scaling.py": {
+      "bytes": 3960,
+      "sha256": "3457184c701ced91a69ce5747d1c809c5180e4ff5897af6927827c7ab710fdea"
+    },
+    "src/generalization_20261007/test_coverage.py": {
+      "bytes": 2232,
+      "sha256": "e2e0ab8362ab4c45fb150136ddbffd9bbf7304893c3d0b8f22c59123cb3341db"
+    },
+    "src/generalization_20261007/test_endpoint.py": {
+      "bytes": 3432,
+      "sha256": "e267f96b33bb99337f94cda3c7a194e2d99def10cb5b49d921f46b7aff07a6cd"
+    },
+    "src/generalization_20261007/test_mechanism.py": {
+      "bytes": 4117,
+      "sha256": "50fb34696a1888d8e23b052f4381b97f891b8b82ab2a4499bdf62e6d1c7cc6a6"
+    },
+    "src/generalization_20261007/test_representation.py": {
+      "bytes": 4574,
+      "sha256": "f4e6b888181c9ed1bd32602a3bf4fbb59d6a83258b78367ac5d65a2dbc836244"
+    },
+    "src/generalization_20261007/test_scaling.py": {
+      "bytes": 2589,
+      "sha256": "27a65efbe3bba144e69b1a4410dfd4b885568d8b29a8ec8e7577e2699c7bbd02"
+    },
+    "src/generalization_20261007/tests.py": {
+      "bytes": 834,
+      "sha256": "7cf449039915468b27a43cba13ba7d9a03e5fd403a08b28f4a1fda7b2b2e20d1"
+    },
+    "src/generalization_20261007/verify.py": {
+      "bytes": 5846,
+      "sha256": "f3a32730244f61beac6853cd52162624e03d0fb76c67aa012ab7cd0b9e28eb82"
+    }
+  },
+  "original_canonical_data": "Prior verified evidence archives remain prerequisite inputs",
+  "self_contained_runtime": false,
+  "sha256": "44de74c2889fb11135c153ed521e74c5fe5effdd7d206f0bd1e0a86b9b8404e4",
+  "status": "PASS"
+}
