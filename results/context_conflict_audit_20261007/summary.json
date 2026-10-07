@@ -1,0 +1,68 @@
+{
+  "coverage": {
+    "mikl_gse173098": {
+      "core_components": 187,
+      "core_contexts": 4825,
+      "core_rows": 13781,
+      "exact_shared_menus": 2408,
+      "excluded_contexts": 9,
+      "excluded_rows": 21,
+      "matched_components": 187,
+      "matched_contexts": 4816,
+      "matched_rows": 13760
+    },
+    "moffatt_gse334718": {
+      "core_components": 6,
+      "core_contexts": 12,
+      "core_rows": 6749,
+      "exact_shared_menus": 0,
+      "excluded_contexts": 12,
+      "excluded_rows": 6749,
+      "matched_components": 0,
+      "matched_contexts": 0,
+      "matched_rows": 0
+    }
+  },
+  "cross_menu_allele_repetition": {
+    "mikl_gse173098": {
+      "candidate_occurrences": 6880,
+      "mutant_sequences_in_multiple_menus": 0,
+      "parent_mutant_pairs_in_multiple_menus": 0,
+      "unique_mutant_sequences": 6880,
+      "unique_parent_mutant_pairs": 6880
+    },
+    "moffatt_gse334718": {
+      "candidate_occurrences": 0,
+      "mutant_sequences_in_multiple_menus": 0,
+      "parent_mutant_pairs_in_multiple_menus": 0,
+      "unique_mutant_sequences": 0,
+      "unique_parent_mutant_pairs": 0
+    }
+  },
+  "invalid_matched_menus": [],
+  "scope": "exposed identical menus only; relaxed menu-wise empirical lower bound, not noise/Bayes/causal ceiling",
+  "studies": {
+    "mikl_gse173098": {
+      "component_weighted_constant_score_regret": 0.5,
+      "component_weighted_minimum_pooled_regret": 0.21070262106135249,
+      "component_weighted_numerical_conflict_fraction": 0.5773254672562887,
+      "components": 187,
+      "components_with_any_numerical_conflict": 171,
+      "exact_zero_feasible_menus": 881,
+      "max_menu_minimum_regret": 0.5,
+      "menus": 2408,
+      "numerical_conflict_menus": 1527,
+      "per_context_regret_at_selected_shared_pair": {
+        "CAD": 0.21168524379485532,
+        "Neuro-2a": 0.2097199983278497
+      },
+      "status": "DESCRIPTIVE ONLY"
+    },
+    "moffatt_gse334718": {
+      "menus": 0,
+      "status": "NO EXACT IDENTICAL MENUS: no outcome arithmetic"
+    }
+  },
+  "tolerance": 1e-12,
+  "weights": "directions and contexts equal per menu; menus equal within component; components equal within study"
+}

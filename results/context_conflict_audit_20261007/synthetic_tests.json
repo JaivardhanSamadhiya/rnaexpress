@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tests": 7,
+  "command": "bundled Python -u -m unittest src.context_conflict_audit_20261007.test_audit",
+  "synthetic_only": true,
+  "source_sha256": {
+    "src/context_conflict_audit_20261007/audit.py": "2321bead057df6f88faa186bc145d2cb1b87cace80740d978591ce4978683d40",
+    "src/context_conflict_audit_20261007/test_audit.py": "65ac9f919b08234e40217f9470e70be5acc4a0fc777c9806c957165878d45cb8"
+  }
+}
