@@ -1,0 +1,12 @@
+{
+  "authorization_bypass_attempted": false,
+  "conversion_started": false,
+  "downloaded": false,
+  "http_status": 403,
+  "inference_started": false,
+  "metadata_only_receipt_preserved": true,
+  "reason": "Forbidden",
+  "stage": "Official published CPU wheel GET before runtime/model use",
+  "unsafe_load_attempted": false,
+  "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp312-cp312-win_amd64.whl"
+}

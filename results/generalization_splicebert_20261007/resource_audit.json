@@ -1,0 +1,87 @@
+{
+  "architecture": {
+    "_name_or_path": "../../SpliceBERT-paper/SpliceBERT-1024nt.tmp",
+    "architectures": [
+      "BertForMaskedLM"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "classifier_dropout": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 512,
+    "initializer_range": 0.02,
+    "intermediate_size": 2048,
+    "layer_norm_eps": 1e-12,
+    "max_position_embeddings": 1026,
+    "model_type": "bert",
+    "num_attention_heads": 16,
+    "num_hidden_layers": 6,
+    "output_hidden_states": true,
+    "pad_token_id": 0,
+    "position_embedding_type": "absolute",
+    "torch_dtype": "float32",
+    "transformers_version": "4.24.0",
+    "type_vocab_size": 2,
+    "use_cache": true,
+    "vocab_size": 10
+  },
+  "archive_actual_md5": "a51911d7d59fa6f0b07db4abaa820d84",
+  "archive_bytes": 217605407,
+  "archive_published_md5": "a51911d7d59fa6f0b07db4abaa820d84",
+  "archive_sha256": "2d07fb041c3784a538559c368805ae84ca3daeb888772aa3bbe82f48dd576662",
+  "author_archive_identity": "All selected checkpoint/tokenizer members byte-identical",
+  "author_license_sha256": "3cca180f2830fc54b994468cc06abc8a4437b413678b9ab5d607b73d3cd1b872",
+  "author_license_url": "https://raw.githubusercontent.com/chenkenbio/SpliceBERT/main/LICENSE",
+  "author_repository": "https://github.com/chenkenbio/SpliceBERT",
+  "cached_files": {
+    "config.json": {
+      "bytes": 685,
+      "sha256": "51ea51e42951f18cc1d3455d7111fe0a41cebad476ba8314afc161a0e956303e"
+    },
+    "pytorch_model.bin": {
+      "bytes": 78883755,
+      "sha256": "2ad91428c318e6c49233154073ca7a35f5f7899c9f4be3444775bae3dba0149d"
+    },
+    "special_tokens_map.json": {
+      "bytes": 125,
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3"
+    },
+    "tokenizer.json": {
+      "bytes": 2792,
+      "sha256": "b380c8c93ba20313c0c0239b8c70f0c67253028ca76cfda4f55b46049abe4fa3"
+    },
+    "tokenizer_config.json": {
+      "bytes": 457,
+      "sha256": "a8f9a3828553689c1cb215689fc82af7551c1bb6ba642606612e834fda0c607c"
+    },
+    "vocab.txt": {
+      "bytes": 41,
+      "sha256": "ba67bacb61d3de7d57e11e04ba59020a2cc67dbedbd9ae65715117b9fd4f30bc"
+    }
+  },
+  "checkpoint_variant": "SpliceBERT.1024nt",
+  "comparative_scope": "Future four-core whole-assay utility ranking only; no localization transfer claimed yet",
+  "public_free": true,
+  "repository_license": "BSD-3-Clause",
+  "scope": "Safe metadata and archive-member hashing only; no pickle/model execution",
+  "short_sequence_limitation": "Author warns below64nt may fail; SRLE certified available context46nt is OOD; no fabricated padding/backbone",
+  "status": "PASS",
+  "vocabulary": [
+    "[PAD]",
+    "[UNK]",
+    "[CLS]",
+    "[SEP]",
+    "[MASK]",
+    "N",
+    "A",
+    "C",
+    "G",
+    "T"
+  ],
+  "zenodo_access_right": "open",
+  "zenodo_license": {
+    "id": "cc-by-4.0"
+  },
+  "zenodo_metadata_sha256": "fe0fe05c60d9a1a11a5d65e9cba66dc1d6a0b350562340e23afd3eda2703dfbe",
+  "zenodo_model_release": "https://zenodo.org/records/7995778"
+}

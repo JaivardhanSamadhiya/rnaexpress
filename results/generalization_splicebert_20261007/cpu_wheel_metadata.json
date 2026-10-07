@@ -1,0 +1,25 @@
+{
+  "GET_access_checked": false,
+  "HEAD_error": {
+    "http_status": 403,
+    "reason": "Forbidden"
+  },
+  "bytes_from_HEAD": null,
+  "download_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.6.0%2Bcpu-cp312-cp312-win_amd64.whl",
+  "downloaded": false,
+  "final_url": null,
+  "heavy_work_guard": "No conversion or inference until fresh headroom inventory and root start signal",
+  "imported": false,
+  "license_source": "https://github.com/pytorch/pytorch/blob/v2.6.0/LICENSE",
+  "official_index": "https://download.pytorch.org/whl/cpu/torch/",
+  "official_index_sha256": "db92418a2ac71bd8b8567d10d04574aae40ac61b544a641b27fd7b27f5149964",
+  "package": "torch",
+  "planned_loading": "Local author-verified checkpoint only, torch.load(weights_only=True,map_location=cpu); no remote code",
+  "public_free": true,
+  "published_sha256": "4027d982eb2781c93825ab9527f17fbbb12dbabf422298e4b954be60016f87d8",
+  "selection": "Pinned official CPU CPython3.12 Windows wheel supporting restricted weights_only load; no latest-version claim",
+  "status": "METADATA_ONLY",
+  "system_install_modified": false,
+  "version": "2.6.0+cpu",
+  "wheel_filename": "torch-2.6.0+cpu-cp312-cp312-win_amd64.whl"
+}

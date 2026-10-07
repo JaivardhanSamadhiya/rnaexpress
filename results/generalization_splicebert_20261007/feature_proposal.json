@@ -1,0 +1,21 @@
+{
+  "PCA": false,
+  "checkpoint_variant": "SpliceBERT.1024nt",
+  "comparative_fit_guard": "Separate committed prefit manifest; fixed3L2 source-only nested whole-assay selection, original allele/component purge, unchanged gate",
+  "fine_tuning": false,
+  "full_production_guard": "Require committed namespace-specific production manifest, fresh RAM/disk admission, runtime/model hashes, synthetic tokenizer/numerical/batch benchmarks",
+  "global_pool": "last-layer mean single-base tokens only, excludes CLS/SEP/padding; mutant minus parent",
+  "global_projection_sha256": "01bdafe6523d4a411139bfdcfdb61e135f11e3992409a4258d8662f373f299ee",
+  "hidden_dimensions": 512,
+  "local_pool": "mean corresponding last-layer single-base tokens exactly at all changed nucleotide positions; mutant minus parent",
+  "local_projection_sha256": "a5db6349b5efc9885f1f1c38b1534ce51cd9bbc75f288a9b1be529b4560d8ec6",
+  "lookup_control": "A/C/G/T vocabulary order one-hot first4of512, same projections/pools; rank<=4 per block",
+  "outcomes_used": false,
+  "projected_changed_base": 128,
+  "projected_global": 128,
+  "projection": "default_rng(20261007), global then local float64 standard_normal((512,128))/sqrt(128), cast float32",
+  "required_controls": "Correctedbase246; matched single-base noncontextuallookup256; report comparison to3UTRBERT separately without claiming corpus/tokenizationcausality",
+  "scope": "Prospective outcome-free representation preparation only; no encoder execution",
+  "sequence_context": "Same original26258core IDs; exact150/190/260nt inserts and certifiedSRLE20+6+20 context46nt",
+  "short_sequence_domain_gap": "Author trained64-1024nt;46ntSRLE is OOD. Do not fabricate padding or omit SRLE to claimfour-assay generalization"
+}
