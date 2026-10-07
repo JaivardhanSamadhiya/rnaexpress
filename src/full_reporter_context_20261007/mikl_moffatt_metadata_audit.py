@@ -116,6 +116,7 @@ def main():
                ROOT / 'data/external/RNAloc_MPRA/mapping_barcodes_and_umis.ipynb',
                ROOT / 'data/raw/moffatt_gse334718/code/LE_SHAPE_Summary/basic_structure_mutation.qmd',
                ROOT / 'data/raw/moffatt_gse334718/code/LE_SHAPE_Summary/shaped_based_oligo_design.qmd', Path(__file__)]
+    sources.extend(sorted((ROOT / 'artifacts/full_reporter_context_20261007/reporter_sequence_metadata').glob('*.*')))
     receipt = {'status': 'PASS metadata and conditional DNA construction only', 'date': '2026-10-07',
                'outcome_columns_read': False, 'raw_counts_read': False, 'protected_outcomes_read': False,
                'biological_fits': False, 'complete_mature_RNA_certified': False,

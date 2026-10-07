@@ -1,0 +1,15 @@
+!Sample_title = Mutation MPRA, Firefly, Neurite Rep1
+!Sample_source_name_ch1 = CAD
+!Sample_characteristics_ch1 = cell line: CAD
+!Sample_characteristics_ch1 = genotype: Mutation MPRA, Firefly, Neurite
+!Sample_molecule_ch1 = polyA RNA
+!Sample_extract_protocol_ch1 = RNA was extracted from soma and neurite fractions using a QuickRNA micro kit (Zymo).
+!Sample_extract_protocol_ch1 = Targeted sequencing libraries, with UMIs, were constructed through RT-PCR of an amplicon of the reporter transcript used in the MPRA. To minimize effects due to a particular reporter RNA, two reporters RNAs were used. One encoded GFP while the other encoded firefly luciferase.
+!Sample_data_processing = MPRA oligos were extracted from sequencing reads and aligned against known oligo sequences using bowtie2. UMI deduplication was performed to minimize contributions from differences in PCR amplification efficiency.
+!Sample_data_processing = Assembly: mm10
+!Sample_data_processing = Supplementary files format and content: For each oligo, the number of reads containing that oligo and the number of unique UMIs seen in those reads are reported.
+!Sample_instrument_model = Illumina NovaSeq X
+!Sample_library_selection = cDNA
+!Sample_library_source = transcriptomic
+!Sample_library_strategy = RNA-Seq
+!Sample_supplementary_file_1 = ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9795nnn/GSM9795683/suppl/GSM9795683_mutation_FFN1.umis.txt.gz

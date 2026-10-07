@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "baseline_commit": "26e41bf",
+  "tracked_diff_scope": "Metadata relocation source hashes/path update plus companion-note links only",
+  "certificate_biological_and_conditional_DNA_values_unchanged": true,
+  "certificate_sources_checked": 16,
+  "added_metadata_sources": [
+    "artifacts\\full_reporter_context_20261007\\reporter_sequence_metadata\\GSM9795683_protocol_metadata.txt",
+    "artifacts\\full_reporter_context_20261007\\reporter_sequence_metadata\\GSM9795683_protocol_receipt.json",
+    "artifacts\\full_reporter_context_20261007\\reporter_sequence_metadata\\GSM9795691_protocol_metadata.txt",
+    "artifacts\\full_reporter_context_20261007\\reporter_sequence_metadata\\GSM9795691_protocol_receipt.json"
+  ],
+  "changed_existing_source_hashes": [
+    "src\\full_reporter_context_20261007\\mikl_moffatt_metadata_audit.py"
+  ],
+  "tracked": {
+    "artifacts/full_reporter_context_20261007/mikl_moffatt_metadata_certificate.json": {
+      "baseline_sha256": "70c490c89569d61cd5b81c8730c903df733efdbcdd9a5b8bcf6e9b00f0d543d8",
+      "current_sha256": "08e7976c985b017667cefcc40288631206783615daab4268c82f9a2f5b75a663"
+    },
+    "reports/full_reporter_context_20261007/feasibility.md": {
+      "baseline_sha256": "47b2c2b87dd67be453042c89c05068669e4be15d9d80b793374428da3ab094a3",
+      "current_sha256": "ad7f94b63bd099532e4e1440ae1dfcb5713e64cda5117bd959c5f767a2b4e639"
+    },
+    "reports/full_reporter_context_20261007/mikl_moffatt_context_notes.md": {
+      "baseline_sha256": "8df1eb7885010ae203f182bb5e2f631d1a5f5c12b1c81c9515708df45415ef18",
+      "current_sha256": "93fbd5c74382c6cf9636e3f80de29b723ff8f2ca178a9f4e1422a9971a8b2ad8"
+    },
+    "src/full_reporter_context_20261007/mikl_moffatt_metadata_audit.py": {
+      "baseline_sha256": "4e8b7af98abb6ace9c17f895a0c153fe82fbafce68002281afee925ecd3d554a",
+      "current_sha256": "9706db65555595f5c89654345860bd90505e6cb68ba454f6ddb18a87ebbe4dfc"
+    }
+  },
+  "relocated_metadata": {
+    "artifacts/full_reporter_context_20261007/reporter_sequence_metadata/GSM9795683_protocol_metadata.txt": {
+      "sha256": "b3954290cfc07edeefecc3b35b35fbe7bfd3f11c0a135a941b07933fe7c18e60",
+      "bytes": 1431
+    },
+    "artifacts/full_reporter_context_20261007/reporter_sequence_metadata/GSM9795683_protocol_receipt.json": {
+      "sha256": "9551a23fe9775f7273b8ac4a8d9cc8f42ec6d9df42c5661fe1b01c4324005061",
+      "bytes": 398
+    },
+    "artifacts/full_reporter_context_20261007/reporter_sequence_metadata/GSM9795691_protocol_metadata.txt": {
+      "sha256": "9b76632fb7a43b0acf4770cf01bed598a0ecd61435227447d5987a4c998a4b53",
+      "bytes": 1424
+    },
+    "artifacts/full_reporter_context_20261007/reporter_sequence_metadata/GSM9795691_protocol_receipt.json": {
+      "sha256": "f3c058168cb1125396cca76be26654da0dc6dc86d59a80d048a8e83768a31371",
+      "bytes": 398
+    }
+  },
+  "former_metadata_directory_state": "empty directory preserved",
+  "raw_count_files_opened": false,
+  "metadata_audit_pipeline_rerun": false,
+  "fits": 0,
+  "frozen_reference_review": {
+    "direct_reference_scan": "PASS no changed reporter paths in any of eight existing generation manifests",
+    "manifests": {
+      "results/generalization_20261007/prefit_manifest.json": "1d69e9c0784940c7f14af6c510a1ce3d8499faf49cad4c76441b7193f216e37d",
+      "results/generalization_next_20261007/feature_production_manifest.json": "450522fe3d0261dd5fa873b2e3481ab158f1ad636df3fcaa92c1b449ce398ff1",
+      "results/generalization_next_20261007/prefit_manifest.json": "93b78aa2f49998a77c2a61ceddb4c4da78e4236e4a81f54608abf0b2d9508e36",
+      "results/generalization_rbp_20261007/feature_production_manifest.json": "8f16350e5291bb4533ced2d5d4079b6018a37c1c5414e4669d1b078e88fe55f8",
+      "results/generalization_splicebert_20261007/backend_preparation_manifest.json": "d290e0a49cf5dac130f4f0d4a9be859c61ebad991a004bc83b013cf07da5c21b",
+      "results/generalization_polarity_20261007/prefit_manifest.json": "bbf41350987ae8c2ce49b64889ccfc5591b642331b03d9452a54ff824ae9cc42",
+      "results/generalization_crosscell_20261007/prefit_manifest.json": "547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345",
+      "results/generalization_alignment_20261007/prefit_manifest.json": "09b49fb7594fb1761142869443c1eb108665113f5b1aa5071458ece176b24039"
+    }
+  },
+  "date": "2026-10-07",
+  "role": "ADDITIVE_RELOCATION_PROVENANCE_ONLY",
+  "authorized_changes": [
+    "Audit script adds the relocated protocol-metadata source glob only",
+    "Certificate adds four protocol-file SHA entries and refreshes the audit-script SHA only",
+    "Independent note replaces former metadata directory path only",
+    "Companion feasibility report adds links to existing independent note/certificate only"
+  ],
+  "attribution": "Relocation bookkeeping originated in the earlier authorized metadata move; companion feasibility cross-reference is part of that coordinated documentation, not a new biological conclusion.",
+  "preservation_boundary": "No current tracked file changed during this review. Former empty directory preserved. No running frozen source, matrix, label, checkpoint, model, gate or protected outcome altered."
+}
