@@ -1,0 +1,16 @@
+{
+  "evaluation_manifest_sha256": "92ab2b6ce6e807215f74412362f4514b81cb5760ae6a44afe1244d87f315bbad",
+  "new_fits": 0,
+  "reused_outer_predictors": 42,
+  "scope": "Gene generalization conditional on represented cell; same-data development",
+  "status": "PASS",
+  "tracks": [
+    "simple",
+    "base",
+    "raw",
+    "structure",
+    "lookup",
+    "bert",
+    "combined"
+  ]
+}

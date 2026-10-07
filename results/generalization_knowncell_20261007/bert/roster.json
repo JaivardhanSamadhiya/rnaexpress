@@ -1,0 +1,86 @@
+[
+  {
+    "configuration": {
+      "id": "pair_005",
+      "penalty": 0.005,
+      "scaling": "pair"
+    },
+    "fold": 0,
+    "source_checkpoint": "results/generalization_crosscell_20261007/bert/fits/CAD_to_N2A__fold0__outer_pair_005.json",
+    "source_checkpoint_sha256": "c06caf1ef9a6db5485a96204a2887b6c91e5ab99d35a47be4abe6712afe7057a",
+    "source_task": "CAD_to_N2A",
+    "target_ids_sha256": "399d727dd9fd35cc07e550a87746f5ab360622495ae67ec7a63d280263f57708",
+    "target_rows": 2790,
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "pair_005",
+      "penalty": 0.005,
+      "scaling": "pair"
+    },
+    "fold": 1,
+    "source_checkpoint": "results/generalization_crosscell_20261007/bert/fits/CAD_to_N2A__fold1__outer_pair_005.json",
+    "source_checkpoint_sha256": "0259b12376b80566b410da627dea9325485169430084caf183f672bfae47c7f3",
+    "source_task": "CAD_to_N2A",
+    "target_ids_sha256": "eff05e6b792aeea781aef4974b3ee17acc939724f4d1609f9d33c2e656d8632a",
+    "target_rows": 2639,
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "pair_5",
+      "penalty": 0.5,
+      "scaling": "pair"
+    },
+    "fold": 2,
+    "source_checkpoint": "results/generalization_crosscell_20261007/bert/fits/CAD_to_N2A__fold2__outer_pair_5.json",
+    "source_checkpoint_sha256": "3897152df400007f47a01995484578b359c94caaa755c39ab29e5e65a19ff214",
+    "source_task": "CAD_to_N2A",
+    "target_ids_sha256": "2a29149053a5ad391410e86c6c5298f5cee23cc520acfe1c6ffc53a71215c9c1",
+    "target_rows": 1460,
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "pair_005",
+      "penalty": 0.005,
+      "scaling": "pair"
+    },
+    "fold": 0,
+    "source_checkpoint": "results/generalization_crosscell_20261007/bert/fits/N2A_to_CAD__fold0__outer_pair_005.json",
+    "source_checkpoint_sha256": "427216aef0d276a0d7076e995ce3381f7fa9c83a236f1c60ac83b74f5e63977c",
+    "source_task": "N2A_to_CAD",
+    "target_ids_sha256": "80e95c5c54b8f0dca17b742eb9da931b7ba595b4766a5578c8b503646d019a6f",
+    "target_rows": 2788,
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "id": "pair_005",
+      "penalty": 0.005,
+      "scaling": "pair"
+    },
+    "fold": 1,
+    "source_checkpoint": "results/generalization_crosscell_20261007/bert/fits/N2A_to_CAD__fold1__outer_pair_005.json",
+    "source_checkpoint_sha256": "5d24bd0b2a0ffbb5e7fc3ae93290b776c46218960182b9b4d28dca6a5b065578",
+    "source_task": "N2A_to_CAD",
+    "target_ids_sha256": "ca63d3633191103127399801cb09f59657c7e54a0ffd68e6fb8078dd6ef0030c",
+    "target_rows": 2641,
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "id": "pair_5",
+      "penalty": 0.5,
+      "scaling": "pair"
+    },
+    "fold": 2,
+    "source_checkpoint": "results/generalization_crosscell_20261007/bert/fits/N2A_to_CAD__fold2__outer_pair_5.json",
+    "source_checkpoint_sha256": "7dba2422e4703a7047678b41bc611bd95965c853690356a8002bb1174c2708ba",
+    "source_task": "N2A_to_CAD",
+    "target_ids_sha256": "e95531e41dc676870fdbd2a2c2b1f9fe0017cdb11c875de4a778e3155c833b6f",
+    "target_rows": 1463,
+    "task": "N2A_known"
+  }
+]

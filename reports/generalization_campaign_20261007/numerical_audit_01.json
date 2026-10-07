@@ -1,0 +1,2597 @@
+{
+  "audit_time_utc": "2026-10-07T23:52:27.716442+00:00",
+  "checks": {
+    "calculations": 316,
+    "declared_tolerance": 1e-12,
+    "errors": [
+      {
+        "calculation": "NEXT base macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT base simple_gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT base H0_gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT base shared_component_interval",
+        "maximum_error": 2.7755575615628914e-17
+      },
+      {
+        "calculation": "NEXT base astrocyte_gse330741",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT base mikl_gse173098",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT base moffatt_gse334718",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT base srle",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT raw macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT raw simple_gain",
+        "maximum_error": 2.7755575615628914e-17
+      },
+      {
+        "calculation": "NEXT raw H0_gain",
+        "maximum_error": 2.7755575615628914e-17
+      },
+      {
+        "calculation": "NEXT raw shared_component_interval",
+        "maximum_error": 1.3877787807814457e-17
+      },
+      {
+        "calculation": "NEXT raw astrocyte_gse330741",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT raw mikl_gse173098",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "NEXT raw moffatt_gse334718",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT raw srle",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT structure macro",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "NEXT structure simple_gain",
+        "maximum_error": 2.7755575615628914e-17
+      },
+      {
+        "calculation": "NEXT structure H0_gain",
+        "maximum_error": 2.7755575615628914e-17
+      },
+      {
+        "calculation": "NEXT structure shared_component_interval",
+        "maximum_error": 1.9081958235744878e-17
+      },
+      {
+        "calculation": "NEXT structure astrocyte_gse330741",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT structure mikl_gse173098",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "NEXT structure moffatt_gse334718",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT structure srle",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT lookup macro",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "NEXT lookup simple_gain",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "NEXT lookup H0_gain",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "NEXT lookup shared_component_interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT lookup astrocyte_gse330741",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "NEXT lookup mikl_gse173098",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "NEXT lookup moffatt_gse334718",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "NEXT lookup srle",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT bert macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT bert simple_gain",
+        "maximum_error": 1.3877787807814457e-17
+      },
+      {
+        "calculation": "NEXT bert H0_gain",
+        "maximum_error": 1.3877787807814457e-17
+      },
+      {
+        "calculation": "NEXT bert shared_component_interval",
+        "maximum_error": 1.5612511283791264e-17
+      },
+      {
+        "calculation": "NEXT bert astrocyte_gse330741",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "NEXT bert mikl_gse173098",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT bert moffatt_gse334718",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT bert srle",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT combined macro",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "NEXT combined simple_gain",
+        "maximum_error": 4.163336342344337e-17
+      },
+      {
+        "calculation": "NEXT combined H0_gain",
+        "maximum_error": 4.163336342344337e-17
+      },
+      {
+        "calculation": "NEXT combined shared_component_interval",
+        "maximum_error": 2.0816681711721685e-17
+      },
+      {
+        "calculation": "NEXT combined astrocyte_gse330741",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT combined mikl_gse173098",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT combined moffatt_gse334718",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "NEXT combined srle",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "NEXT structure/raw incremental",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "NEXT incremental per_assay",
+        "maximum_error": 9.8879238130678e-17
+      },
+      {
+        "calculation": "NEXT bert/base incremental",
+        "maximum_error": 1.3877787807814457e-17
+      },
+      {
+        "calculation": "NEXT incremental per_assay",
+        "maximum_error": 8.326672684688674e-17
+      },
+      {
+        "calculation": "NEXT bert/lookup incremental",
+        "maximum_error": 1.3877787807814457e-17
+      },
+      {
+        "calculation": "NEXT incremental per_assay",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "NEXT combined/structure incremental",
+        "maximum_error": 2.7755575615628914e-17
+      },
+      {
+        "calculation": "NEXT incremental per_assay",
+        "maximum_error": 9.063930161978817e-17
+      },
+      {
+        "calculation": "NEXT combined/bert incremental",
+        "maximum_error": 2.42861286636753e-17
+      },
+      {
+        "calculation": "NEXT incremental per_assay",
+        "maximum_error": 1.0408340855860843e-16
+      },
+      {
+        "calculation": "crosscell simple macro",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "crosscell simple percell",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "crosscell simple percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell raw macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell raw percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell raw percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell lookup macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell lookup percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell lookup percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell simple/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell simple/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell simple/base leavebest",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell simple/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell simple/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell simple/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell base/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell raw/base gain",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell raw/base interval",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell raw/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 8.673617379884035e-19
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell raw/simple gain",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell raw/simple interval",
+        "maximum_error": 1.5178830414797062e-18
+      },
+      {
+        "calculation": "crosscell raw/simple leavebest",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure/base interval",
+        "maximum_error": 2.6020852139652106e-18
+      },
+      {
+        "calculation": "crosscell structure/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 6.505213034913027e-19
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure/simple leavebest",
+        "maximum_error": 8.673617379884035e-19
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure/raw gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell structure/raw interval",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell structure/raw leavebest",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell lookup/base gain",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell lookup/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell lookup/base leavebest",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell lookup/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell lookup/simple interval",
+        "maximum_error": 8.673617379884035e-19
+      },
+      {
+        "calculation": "crosscell lookup/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert/base gain",
+        "maximum_error": 5.204170427930421e-18
+      },
+      {
+        "calculation": "crosscell bert/base interval",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell bert/base leavebest",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert/simple interval",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell bert/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert/lookup gain",
+        "maximum_error": 8.673617379884035e-19
+      },
+      {
+        "calculation": "crosscell bert/lookup interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell bert/lookup leavebest",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined/base gain",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell combined/base interval",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell combined/base leavebest",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined/simple gain",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell combined/simple interval",
+        "maximum_error": 1.3877787807814457e-17
+      },
+      {
+        "calculation": "crosscell combined/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined/bert gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined/bert interval",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell combined/bert leavebest",
+        "maximum_error": 1.734723475976807e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell combined/structure gain",
+        "maximum_error": 8.673617379884035e-19
+      },
+      {
+        "calculation": "crosscell combined/structure interval",
+        "maximum_error": 6.938893903907228e-18
+      },
+      {
+        "calculation": "crosscell combined/structure leavebest",
+        "maximum_error": 3.469446951953614e-18
+      },
+      {
+        "calculation": "crosscell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "crosscell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell simple macro",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "knowncell simple percell",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "knowncell simple percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell base macro",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "knowncell base percell",
+        "maximum_error": 5.551115123125783e-17
+      },
+      {
+        "calculation": "knowncell base percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert macro",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "knowncell bert percell",
+        "maximum_error": 1.1102230246251565e-16
+      },
+      {
+        "calculation": "knowncell bert percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined percell",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell simple/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell simple/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell simple/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell simple/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell simple/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell simple/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell base/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell base/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell base/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell base/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell base/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell base/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell raw/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/raw gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/raw interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell structure/raw leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell lookup/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/lookup gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/lookup interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell bert/lookup leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/base gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/base interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/base leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/simple gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/simple interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/simple leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/bert gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/bert interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/bert leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/structure gain",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/structure interval",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell combined/structure leavebest",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell fold weighting",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm macro",
+        "maximum_error": 0.0
+      },
+      {
+        "calculation": "knowncell wrongharm task",
+        "maximum_error": 0.0
+      }
+    ],
+    "maximum_discrepancy": 1.1102230246251565e-16
+  },
+  "digest_scope": "Observed postfit bytes; not retroactive creation-time certification",
+  "new_models_fit": 0,
+  "observed_input_sha256": {
+    "artifacts/cross_assay_20260927/model_comparison.csv": "d4885cbe82a985fcfb26fc74858758ef0daadb2cb70d59dcf1c8586a2b56be58",
+    "reports/generalization_crosscell_20261007/protocol.md": "786398734eeb5841927c80a786ecbb9f999d171c99e49b832c0091437bd0a162",
+    "reports/generalization_knowncell_20261007/protocol.md": "ee3a08dc69e399ab14629e5a43e371e232448a656992403e1a4734f914e79092",
+    "reports/generalization_next_20261007/protocol.md": "4b35a03e789b89827d8f59f34f6745935a2f24556a0c65f285bd9b2ef0e8a8a5",
+    "results/cross_assay_20260927/decision_metrics.csv": "697739a0839fd76605b28be40a3f77ab5f84d631e39e84b4456f25707fcf21f9",
+    "results/generalization_crosscell_20261007/base/comparison.csv": "9a8e69ebc54047d7ec1dd5899b66514dd62cbcec75b889905ae9dd26f8451824",
+    "results/generalization_crosscell_20261007/base/decisions.csv": "dc7fc7f0c55554395e4fd7c79c76b8201e1b4085a500ccbcb77d819ca2e19391",
+    "results/generalization_crosscell_20261007/bert/comparison.csv": "edebc42f595ecd18d41fa4763ffa4ae1d2477204c009b130300f8a4883792a0d",
+    "results/generalization_crosscell_20261007/bert/decisions.csv": "162cba69f4d45382a632c4eee562ffbcf30dd5f0c58556f431dabd9e0c9da355",
+    "results/generalization_crosscell_20261007/combined/comparison.csv": "93be703ab975b671011b52f47c43f778826e7558c02dea5e4db2f6f52187385c",
+    "results/generalization_crosscell_20261007/combined/decisions.csv": "0b2a41f2cdac4d8fb03b4af6da452f40423dff725313ad137532315442180121",
+    "results/generalization_crosscell_20261007/gate_verdict.json": "0e2e37b3c9568d7e4a599ba3e2dc05b81e3daa2da27b023d4ade8b3156e559f8",
+    "results/generalization_crosscell_20261007/lookup/comparison.csv": "1318f0529fa76f7bcbc94dfb62ad1b3082a135cd70a6a69cb66e538fdc1da0e1",
+    "results/generalization_crosscell_20261007/lookup/decisions.csv": "b99dbc86028f2fc7c5dcf93bb05c2e62eff0c6ebab014cd68df80d58feb9e7ac",
+    "results/generalization_crosscell_20261007/prefit_manifest.json": "547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345",
+    "results/generalization_crosscell_20261007/raw/comparison.csv": "82489e052e9d9cb610186591cec6593b4ad00bf051dfcaca5a60dd89b2564cf8",
+    "results/generalization_crosscell_20261007/raw/decisions.csv": "531c5613e209bbf05647e19fc97a9ddb170ce8d289a16e07275493b5c425d959",
+    "results/generalization_crosscell_20261007/simple/comparison.csv": "d709bb70d9b1588d05cbcc06f25b92ba0aa3919fb1c3e0466f0ff603565b83bf",
+    "results/generalization_crosscell_20261007/simple/decisions.csv": "e206874aa30ac60cbf0008a4077d5c483d4b5cf999c7cf324dc7397b901fa11b",
+    "results/generalization_crosscell_20261007/structure/comparison.csv": "983bcd79b76e186afc2f5ca1b8b8a21ce53f77259a1b50d535bae8bbe195dc77",
+    "results/generalization_crosscell_20261007/structure/decisions.csv": "e1b0bbfde5d1dff919c7cbe1f0d228d2b8158378a99a0a6854b9447fdfedf87f",
+    "results/generalization_crosscell_20261007/verification_receipt.json": "ead548d40fba205ab63f22430813ab84c4a4dec8a836422603bf6b31a2bb69e9",
+    "results/generalization_knowncell_20261007/base/comparison.csv": "64c8bc374bb82288310be20cc68e3586182fcaee530aff671cdc108a2e7b91ad",
+    "results/generalization_knowncell_20261007/base/decisions.csv": "1893d3e6b86d92685194f15c5c886ae138cb3e038554f007ccfcc22c5be94fba",
+    "results/generalization_knowncell_20261007/bert/comparison.csv": "c2acae0b87a424dd6d9226b47d7a522db11b6f671c7f1052a6188abb7927dbd2",
+    "results/generalization_knowncell_20261007/bert/decisions.csv": "5525c8259919e48cc60f0ca57f03b42e650cbc3bc1ce65b8773b95eea39b2095",
+    "results/generalization_knowncell_20261007/combined/comparison.csv": "ee2715c0ab53d1b7a61e39811af1f28b7508095e5d944782ab0a38deb3553c16",
+    "results/generalization_knowncell_20261007/combined/decisions.csv": "dfc0e3e84d6f32f6265ff0ed38719a924c61093174a7e780dce54f005c74247d",
+    "results/generalization_knowncell_20261007/evaluation_manifest.json": "92ab2b6ce6e807215f74412362f4514b81cb5760ae6a44afe1244d87f315bbad",
+    "results/generalization_knowncell_20261007/gate_verdict.json": "aff3732a2490b21f3301cfca2fcebfcecdede64deace37da1d2004c1088599cb",
+    "results/generalization_knowncell_20261007/lookup/comparison.csv": "464040f4ea1b97e1980a883069397f0b9ba6920223f6e911352112cfc6c16edb",
+    "results/generalization_knowncell_20261007/lookup/decisions.csv": "a3d6fdc50223edf97cbc3921bfe4a9db611cf232a9142648a6b49d449bb52eb2",
+    "results/generalization_knowncell_20261007/raw/comparison.csv": "633c0d31a1856d1ffe98a980d8ec6bf52d5092ec0b5f820ab0ca97b2a904b3c7",
+    "results/generalization_knowncell_20261007/raw/decisions.csv": "0df6fd9128b8ad06ad60f98e848552e94d219699f4da318e64e19c4db0674e0f",
+    "results/generalization_knowncell_20261007/simple/comparison.csv": "d3fd17c032d35279f149326d55939a8ffc4d9371b1f2818a368c18b675d7e9f5",
+    "results/generalization_knowncell_20261007/simple/decisions.csv": "c11c0fd1c0ac9ea6d418b9ebb7394e9be018813c9e04776d9b15d659b1894319",
+    "results/generalization_knowncell_20261007/structure/comparison.csv": "8aef4e5d26c660ee705d446d355cc10f722115bba181b05a6fcec16ae9d1e4b7",
+    "results/generalization_knowncell_20261007/structure/decisions.csv": "b97f64b109d2bff8d8df4b14d9abe83403b4d102e61264f5275833481ebf4c84",
+    "results/generalization_knowncell_20261007/verification_receipt.json": "6e9b502a94a09d6ae0e53bd827785c72b5804d15df2b5efde2875baf2cc524a8",
+    "results/generalization_next_20261007/base/comparison.csv": "230f1af5ba1d83295627123d672d9a54a9b75f49d994a731c6ad795ad4bf33e5",
+    "results/generalization_next_20261007/base/decisions.csv": "be975dff345307f61892b26259ec174071b1352c20c681afc2360c0a88a5af51",
+    "results/generalization_next_20261007/bert/comparison.csv": "f6dbf59934170889f3d46241a850b256eb9f13ff8886775cba51c776ad61571b",
+    "results/generalization_next_20261007/bert/decisions.csv": "6c51e630a04547880e367f6e136729162dcebdcb0bcd2aa9de2ae22704477e83",
+    "results/generalization_next_20261007/canonical_source_only_replay.json": "29dd9d34e05888be2bd7277cd91be1052c66a0a4763b2fe0dd8c2ec25896eff7",
+    "results/generalization_next_20261007/combined/comparison.csv": "4412b0ab557b08d25b72e286586921460f04ceb440839403c8526f7a387ad65c",
+    "results/generalization_next_20261007/combined/decisions.csv": "46b2cf1acd37f25f4a5746106e435740abbfc0532d667321ed2f918d7f796bea",
+    "results/generalization_next_20261007/gate_verdict.json": "388ac9f1a55de9455db7eed9bc248ede267d9e39a884b8d457c0726c6cc3f3d8",
+    "results/generalization_next_20261007/lookup/comparison.csv": "effc9eb5fa08960e3f47e73a740f44b600b0ced92f484cbaff67c75825872bb9",
+    "results/generalization_next_20261007/lookup/decisions.csv": "12af31c8ba7cd1898b0c7d638a9038ff0e016a9e66d6bd9dcfbe886fa9ac91be",
+    "results/generalization_next_20261007/prefit_manifest.json": "93b78aa2f49998a77c2a61ceddb4c4da78e4236e4a81f54608abf0b2d9508e36",
+    "results/generalization_next_20261007/raw/comparison.csv": "c3fd829221d109eb5fd5c5e929e1ddeca858a75b09191608538120bf554f7bf7",
+    "results/generalization_next_20261007/raw/decisions.csv": "cbc6a08c52769c6fe46d5e6071e4c6d13b6a217acf4d82f6bf3403751b2d241e",
+    "results/generalization_next_20261007/structure/comparison.csv": "12b32dae9c754868ffc4c081378053dd878799a929ccb83d7f69a6704e792a87",
+    "results/generalization_next_20261007/structure/decisions.csv": "0fb251d55766c6c959b7ee72d3a9a2796d4035c941ef2956bd4d7c92659f6df0",
+    "results/generalization_next_20261007/verification_receipt.json": "0af406489543c94473ea911f6fdf689ab90f1d0f3f7b75b21d3d3412aae1e488",
+    "src/generalization_crosscell_20261007/bootstrap.py": "0fb64d3c59ace2fc63b42450e990c26d7314c982fca793919eadc5a3a25e65e0",
+    "src/generalization_crosscell_20261007/gate.py": "7bc3f7d6506fa1f7939f238ead6d99c44987dba78f01c71952b2553a3c76f823",
+    "src/generalization_knowncell_20261007/canonical_paired_contrast.py": "6f13fed1d1d1620941762d88385883426c985a9ea98df63a839dc1323e6d3220",
+    "src/generalization_knowncell_20261007/gate.py": "5d0f9f98d623c6f86412af483d9b92cfa5f932f2adcca56f1a1e585432d31446",
+    "src/generalization_knowncell_20261007/verify.py": "8b424434f562156cbb9c320a183cb88c685281aa266e19bf439f653d926c2955",
+    "src/generalization_next_20261007/bootstrap.py": "0fb64d3c59ace2fc63b42450e990c26d7314c982fca793919eadc5a3a25e65e0",
+    "src/generalization_next_20261007/gate_shared.py": "bc7c3e32a16e9a5d300b422b35d94248b886692fe3a1a67bcd1a202a71382157",
+    "src/modeling/finalshot_models.py": "82225a1468eee632806e8a25ae977588f32ff578b6d48ef36932cf73479b6357"
+  },
+  "phases": {
+    "NEXT": {
+      "old_H0_regret": {
+        "astrocyte_gse330741": 0.4698716900787144,
+        "mikl_gse173098": 0.5171843069281292,
+        "moffatt_gse334718": 0.4485105424040504,
+        "srle": 0.5173435416832495
+      },
+      "old_simple_model": {
+        "astrocyte_gse330741": "uniform",
+        "mikl_gse173098": "composition",
+        "moffatt_gse334718": "uniform",
+        "srle": "uniform"
+      },
+      "old_simple_regret": {
+        "astrocyte_gse330741": 0.5,
+        "mikl_gse173098": 0.4874726822661491,
+        "moffatt_gse334718": 0.5,
+        "srle": 0.5
+      },
+      "reported_gate": "NO-GO",
+      "table": [
+        {
+          "component_counts": {
+            "astrocyte_gse330741": 2,
+            "mikl_gse173098": 187,
+            "moffatt_gse334718": 6,
+            "srle": 1
+          },
+          "leave_best_assay_out_gain": -0.038677817014630744,
+          "macro_regret": 0.5122548486768033,
+          "mean_gain_vs_H0": -0.024027328403267406,
+          "mean_gain_vs_simple": -0.015386678110266006,
+          "paired_descriptive_interval": [
+            -0.035618239286242796,
+            0.005478469052194192
+          ],
+          "per_assay_gain_vs_simple": {
+            "astrocyte_gse330741": -0.0571623402326642,
+            "mikl_gse173098": -0.028162065734294417,
+            "moffatt_gse334718": 0.05448673860282821,
+            "srle": -0.030709045076933617
+          },
+          "per_assay_regret": {
+            "astrocyte_gse330741": 0.5571623402326642,
+            "mikl_gse173098": 0.5156347480004435,
+            "moffatt_gse334718": 0.4455132613971718,
+            "srle": 0.5307090450769336
+          },
+          "positive_gain_share": 1.0,
+          "reported_failed_checks": [
+            "Mikl_SRLE_harm_at_most_0_01_vs_both",
+            "any_assay_harm_vs_simple_at_most_0_05",
+            "descriptive_bootstrap_lower_at_least_minus_0_01",
+            "leave_best_assay_out_positive",
+            "macro_gain_vs_simple_at_least_0_02",
+            "macro_regret_at_most_0_468",
+            "max_positive_gain_share_at_most_0_60",
+            "three_assays_gain_vs_H0_at_least_0_01",
+            "three_assays_gain_vs_simple_at_least_0_02"
+          ],
+          "reported_pass": false,
+          "track": "base"
+        },
+        {
+          "component_counts": {
+            "astrocyte_gse330741": 2,
+            "mikl_gse173098": 187,
+            "moffatt_gse334718": 6,
+            "srle": 1
+          },
+          "leave_best_assay_out_gain": -0.02277397140866298,
+          "macro_regret": 0.5003269644723274,
+          "mean_gain_vs_H0": -0.012099444198791581,
+          "mean_gain_vs_simple": -0.0034587939057901806,
+          "paired_descriptive_interval": [
+            -0.02577415851202163,
+            0.01918221909475426
+          ],
+          "per_assay_gain_vs_simple": {
+            "astrocyte_gse330741": -0.004920801897680738,
+            "mikl_gse173098": -0.018827182424053734,
+            "moffatt_gse334718": 0.05448673860282821,
+            "srle": -0.04457392990425446
+          },
+          "per_assay_regret": {
+            "astrocyte_gse330741": 0.5049208018976807,
+            "mikl_gse173098": 0.5062998646902028,
+            "moffatt_gse334718": 0.4455132613971718,
+            "srle": 0.5445739299042545
+          },
+          "positive_gain_share": 1.0,
+          "reported_failed_checks": [
+            "Mikl_SRLE_harm_at_most_0_01_vs_both",
+            "descriptive_bootstrap_lower_at_least_minus_0_01",
+            "leave_best_assay_out_positive",
+            "macro_gain_vs_simple_at_least_0_02",
+            "macro_regret_at_most_0_468",
+            "max_positive_gain_share_at_most_0_60",
+            "three_assays_gain_vs_H0_at_least_0_01",
+            "three_assays_gain_vs_simple_at_least_0_02"
+          ],
+          "reported_pass": false,
+          "track": "raw"
+        },
+        {
+          "component_counts": {
+            "astrocyte_gse330741": 2,
+            "mikl_gse173098": 187,
+            "moffatt_gse334718": 6,
+            "srle": 1
+          },
+          "leave_best_assay_out_gain": -0.033978726651477366,
+          "macro_regret": 0.5164847607715133,
+          "mean_gain_vs_H0": -0.028257240497977454,
+          "mean_gain_vs_simple": -0.019616590204976053,
+          "paired_descriptive_interval": [
+            -0.0348625764545397,
+            -0.005779793782079667
+          ],
+          "per_assay_gain_vs_simple": {
+            "astrocyte_gse330741": -0.04035088273867804,
+            "mikl_gse173098": -0.029958184210620853,
+            "moffatt_gse334718": 0.02346981913452789,
+            "srle": -0.03162711300513321
+          },
+          "per_assay_regret": {
+            "astrocyte_gse330741": 0.540350882738678,
+            "mikl_gse173098": 0.51743086647677,
+            "moffatt_gse334718": 0.4765301808654721,
+            "srle": 0.5316271130051332
+          },
+          "positive_gain_share": 1.0,
+          "reported_failed_checks": [
+            "Mikl_SRLE_harm_at_most_0_01_vs_both",
+            "descriptive_bootstrap_lower_at_least_minus_0_01",
+            "each_avoidable_harm_at_most_0_05_vs_both",
+            "leave_best_assay_out_positive",
+            "macro_avoidable_harm_at_most_0_02_vs_both",
+            "macro_gain_vs_simple_at_least_0_02",
+            "macro_regret_at_most_0_468",
+            "max_positive_gain_share_at_most_0_60",
+            "three_assays_gain_vs_H0_at_least_0_01",
+            "three_assays_gain_vs_simple_at_least_0_02"
+          ],
+          "reported_pass": false,
+          "track": "structure"
+        },
+        {
+          "component_counts": {
+            "astrocyte_gse330741": 2,
+            "mikl_gse173098": 187,
+            "moffatt_gse334718": 6,
+            "srle": 1
+          },
+          "leave_best_assay_out_gain": -0.011926378362377624,
+          "macro_regret": 0.5026727775675469,
+          "mean_gain_vs_H0": -0.014445257294011055,
+          "mean_gain_vs_simple": -0.005804607001009654,
+          "paired_descriptive_interval": [
+            -0.03722368904212603,
+            0.026454730364104805
+          ],
+          "per_assay_gain_vs_simple": {
+            "astrocyte_gse330741": 0.012560707083094258,
+            "mikl_gse173098": -0.0065829081069534445,
+            "moffatt_gse334718": -0.01262257045466797,
+            "srle": -0.01657365652551146
+          },
+          "per_assay_regret": {
+            "astrocyte_gse330741": 0.48743929291690574,
+            "mikl_gse173098": 0.49405559037310254,
+            "moffatt_gse334718": 0.512622570454668,
+            "srle": 0.5165736565255115
+          },
+          "positive_gain_share": 1.0,
+          "reported_failed_checks": [
+            "Mikl_SRLE_harm_at_most_0_01_vs_both",
+            "descriptive_bootstrap_lower_at_least_minus_0_01",
+            "leave_best_assay_out_positive",
+            "macro_gain_vs_simple_at_least_0_02",
+            "macro_regret_at_most_0_468",
+            "max_positive_gain_share_at_most_0_60",
+            "three_assays_gain_vs_H0_at_least_0_01",
+            "three_assays_gain_vs_simple_at_least_0_02"
+          ],
+          "reported_pass": false,
+          "track": "lookup"
+        },
+        {
+          "component_counts": {
+            "astrocyte_gse330741": 2,
+            "mikl_gse173098": 187,
+            "moffatt_gse334718": 6,
+            "srle": 1
+          },
+          "leave_best_assay_out_gain": 0.0037969805014507565,
+          "macro_regret": 0.4681852174445725,
+          "mean_gain_vs_H0": 0.020042302828963382,
+          "mean_gain_vs_simple": 0.028682953121964783,
+          "paired_descriptive_interval": [
+            0.01473197863005311,
+            0.04252319599526716
+          ],
+          "per_assay_gain_vs_simple": {
+            "astrocyte_gse330741": 0.10334087098350686,
+            "mikl_gse173098": -0.02931695625106895,
+            "moffatt_gse334718": 0.041397668436414625,
+            "srle": -0.0006897706809934068
+          },
+          "per_assay_regret": {
+            "astrocyte_gse330741": 0.39665912901649314,
+            "mikl_gse173098": 0.516789638517218,
+            "moffatt_gse334718": 0.4586023315635854,
+            "srle": 0.5006897706809934
+          },
+          "positive_gain_share": 0.7139830994403641,
+          "reported_failed_checks": [
+            "Mikl_SRLE_harm_at_most_0_01_vs_both",
+            "macro_regret_at_most_0_468",
+            "max_positive_gain_share_at_most_0_60",
+            "three_assays_gain_vs_H0_at_least_0_01",
+            "three_assays_gain_vs_simple_at_least_0_02"
+          ],
+          "reported_pass": false,
+          "track": "bert"
+        },
+        {
+          "component_counts": {
+            "astrocyte_gse330741": 2,
+            "mikl_gse173098": 187,
+            "moffatt_gse334718": 6,
+            "srle": 1
+          },
+          "leave_best_assay_out_gain": -0.010860990180617092,
+          "macro_regret": 0.47826182509727944,
+          "mean_gain_vs_H0": 0.00996569517625645,
+          "mean_gain_vs_simple": 0.01860634546925785,
+          "paired_descriptive_interval": [
+            0.004730677785550957,
+            0.03194016561800312
+          ],
+          "per_assay_gain_vs_simple": {
+            "astrocyte_gse330741": 0.10700835241888268,
+            "mikl_gse173098": -0.03356852753769862,
+            "moffatt_gse334718": -0.0031974355505968166,
+            "srle": 0.004182992546444164
+          },
+          "per_assay_regret": {
+            "astrocyte_gse330741": 0.3929916475811173,
+            "mikl_gse173098": 0.5210412098038477,
+            "moffatt_gse334718": 0.5031974355505968,
+            "srle": 0.49581700745355584
+          },
+          "positive_gain_share": 0.962380232492479,
+          "reported_failed_checks": [
+            "Mikl_SRLE_harm_at_most_0_01_vs_both",
+            "each_avoidable_harm_at_most_0_05_vs_both",
+            "leave_best_assay_out_positive",
+            "macro_gain_vs_simple_at_least_0_02",
+            "macro_regret_at_most_0_468",
+            "max_positive_gain_share_at_most_0_60",
+            "three_assays_gain_vs_H0_at_least_0_01",
+            "three_assays_gain_vs_simple_at_least_0_02"
+          ],
+          "reported_pass": false,
+          "track": "combined"
+        }
+      ]
+    },
+    "crosscell": {
+      "independently_reconstructed_comparisons": [
+        {
+          "control": "base",
+          "macro_wrong_harm": -0.002183672246013255,
+          "mean_gain": 0.018928907524289645,
+          "paired_descriptive_interval": [
+            -0.0013149985411853235,
+            0.03995637005820059
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": 0.0034053636401280324,
+            "N2A_to_CAD": 0.034452451408451254
+          },
+          "remaining_gene_weighted_gain": 0.00694159506010727,
+          "removed_best_fold": 0,
+          "track": "simple"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.0,
+          "mean_gain": 0.0,
+          "paired_descriptive_interval": [
+            0.0,
+            0.0
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": 0.0,
+            "N2A_to_CAD": 0.0
+          },
+          "remaining_gene_weighted_gain": 0.0,
+          "removed_best_fold": 0,
+          "track": "simple"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.0,
+          "mean_gain": 0.0,
+          "paired_descriptive_interval": [
+            0.0,
+            0.0
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": 0.0,
+            "N2A_to_CAD": 0.0
+          },
+          "remaining_gene_weighted_gain": 0.0,
+          "removed_best_fold": 0,
+          "track": "base"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.002183672246013255,
+          "mean_gain": -0.018928907524289645,
+          "paired_descriptive_interval": [
+            -0.03995637005820059,
+            0.0013149985411853228
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.0034053636401280324,
+            "N2A_to_CAD": -0.034452451408451254
+          },
+          "remaining_gene_weighted_gain": -0.025522372498222867,
+          "removed_best_fold": 2,
+          "track": "base"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.0034842889224038966,
+          "mean_gain": -0.005254421717381734,
+          "paired_descriptive_interval": [
+            -0.019885776253271155,
+            0.008430714158906914
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.010472050585059987,
+            "N2A_to_CAD": -3.679284970348255e-05
+          },
+          "remaining_gene_weighted_gain": -0.007144438845020895,
+          "removed_best_fold": 0,
+          "track": "raw"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.005667961168417151,
+          "mean_gain": -0.024183329241671377,
+          "paired_descriptive_interval": [
+            -0.049369157328844324,
+            -0.0012623176210662076
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.01387741422518802,
+            "N2A_to_CAD": -0.034489244258154736
+          },
+          "remaining_gene_weighted_gain": -0.03168894281499221,
+          "removed_best_fold": 2,
+          "track": "raw"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": -0.0017724794715644982,
+          "mean_gain": 0.017080133421491457,
+          "paired_descriptive_interval": [
+            0.002925309767367412,
+            0.032556796044815414
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": 0.009411010859298352,
+            "N2A_to_CAD": 0.024749255983684566
+          },
+          "remaining_gene_weighted_gain": 0.010874577411108923,
+          "removed_best_fold": 0,
+          "track": "structure"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.0004111927744487572,
+          "mean_gain": -0.0018487741027981837,
+          "paired_descriptive_interval": [
+            -0.025446582941372288,
+            0.021637037120343327
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": 0.006005647219170319,
+            "N2A_to_CAD": -0.009703195424766687
+          },
+          "remaining_gene_weighted_gain": -0.007234376449353434,
+          "removed_best_fold": 1,
+          "track": "structure"
+        },
+        {
+          "control": "raw",
+          "macro_wrong_harm": -0.005256768393968395,
+          "mean_gain": 0.022334555138873193,
+          "paired_descriptive_interval": [
+            0.0075548992872193806,
+            0.03922141319749589
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": 0.01988306144435834,
+            "N2A_to_CAD": 0.024786048833388048
+          },
+          "remaining_gene_weighted_gain": 0.0180782160083241,
+          "removed_best_fold": 1,
+          "track": "structure"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.0028245291987118674,
+          "mean_gain": -0.004894670329149167,
+          "paired_descriptive_interval": [
+            -0.023086976445254013,
+            0.013838429996086053
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.008235028904323769,
+            "N2A_to_CAD": -0.0015543117539745656
+          },
+          "remaining_gene_weighted_gain": -0.012267351269910347,
+          "removed_best_fold": 0,
+          "track": "lookup"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.0050082014447251225,
+          "mean_gain": -0.023823577853438808,
+          "paired_descriptive_interval": [
+            -0.046923684934289486,
+            -0.0016586488674109699
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.011640392544451804,
+            "N2A_to_CAD": -0.03600676316242581
+          },
+          "remaining_gene_weighted_gain": -0.026192333670888673,
+          "removed_best_fold": 2,
+          "track": "lookup"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.013195129678904457,
+          "mean_gain": -0.0019301570263728241,
+          "paired_descriptive_interval": [
+            -0.028119724978795786,
+            0.02509009620587521
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.020047012082488852,
+            "N2A_to_CAD": 0.016186698029743204
+          },
+          "remaining_gene_weighted_gain": -0.009898639029602226,
+          "removed_best_fold": 0,
+          "track": "bert"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.015378801924917713,
+          "mean_gain": -0.020859064550662464,
+          "paired_descriptive_interval": [
+            -0.05064442601810104,
+            0.008710430499099617
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.02345237572261688,
+            "N2A_to_CAD": -0.018265753378708047
+          },
+          "remaining_gene_weighted_gain": -0.025140599445779586,
+          "removed_best_fold": 1,
+          "track": "bert"
+        },
+        {
+          "control": "lookup",
+          "macro_wrong_harm": 0.010370600480192588,
+          "mean_gain": 0.0029645133027763433,
+          "paired_descriptive_interval": [
+            -0.021741958918774586,
+            0.028170624795834168
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.011811983178165076,
+            "N2A_to_CAD": 0.017741009783717763
+          },
+          "remaining_gene_weighted_gain": 0.00041971969023235807,
+          "removed_best_fold": 1,
+          "track": "bert"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.008800930520891917,
+          "mean_gain": 0.011560615457442382,
+          "paired_descriptive_interval": [
+            -0.016039327430543766,
+            0.039798793153518155
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.009226813843679403,
+            "N2A_to_CAD": 0.03234804475856417
+          },
+          "remaining_gene_weighted_gain": -0.000520793269691372,
+          "removed_best_fold": 0,
+          "track": "combined"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.010984602766905173,
+          "mean_gain": -0.007368292066847261,
+          "paired_descriptive_interval": [
+            -0.03714385212631462,
+            0.022409372398199283
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.012632177483807436,
+            "N2A_to_CAD": -0.002104406649887085
+          },
+          "remaining_gene_weighted_gain": -0.012651608877438075,
+          "removed_best_fold": 1,
+          "track": "combined"
+        },
+        {
+          "control": "bert",
+          "macro_wrong_harm": -0.0043941991580125385,
+          "mean_gain": 0.013490772483815201,
+          "paired_descriptive_interval": [
+            -0.0001997914775301524,
+            0.027209840754251008
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": 0.010820198238809442,
+            "N2A_to_CAD": 0.016161346728820962
+          },
+          "remaining_gene_weighted_gain": 0.00937784575991085,
+          "removed_best_fold": 0,
+          "track": "combined"
+        },
+        {
+          "control": "structure",
+          "macro_wrong_harm": 0.010573409992456415,
+          "mean_gain": -0.0055195179640490765,
+          "paired_descriptive_interval": [
+            -0.031770465483463066,
+            0.021763166365848626
+          ],
+          "per_task_gain": {
+            "CAD_to_N2A": -0.018637824702977753,
+            "N2A_to_CAD": 0.007598788774879599
+          },
+          "remaining_gene_weighted_gain": -0.011395370680800298,
+          "removed_best_fold": 0,
+          "track": "combined"
+        }
+      ],
+      "reported_gate": "NO-GO",
+      "table": [
+        {
+          "component_counts": {
+            "CAD_to_N2A": 187,
+            "N2A_to_CAD": 187
+          },
+          "gain_vs_base": 0.018928907524289645,
+          "gain_vs_simple": 0.0,
+          "macro_regret": 0.4932252117656105,
+          "per_task_regret": {
+            "CAD_to_N2A": 0.49895470306625817,
+            "N2A_to_CAD": 0.48749572046496287
+          },
+          "reported_failed_checks": [
+            "base_each_cell_gain_at_least_0_005",
+            "base_paired_bootstrap_lower_above_zero",
+            "mean_normalized_regret_at_most_0_48",
+            "simple_each_cell_gain_at_least_0_005",
+            "simple_mean_gain_at_least_0_01",
+            "simple_paired_bootstrap_lower_above_zero",
+            "simple_positive_after_removing_best_gene_fold"
+          ],
+          "reported_pass": false,
+          "track": "simple"
+        },
+        {
+          "component_counts": {
+            "CAD_to_N2A": 187,
+            "N2A_to_CAD": 187
+          },
+          "gain_vs_base": 0.0,
+          "gain_vs_simple": -0.018928907524289645,
+          "macro_regret": 0.5121541192899002,
+          "per_task_regret": {
+            "CAD_to_N2A": 0.5023600667063861,
+            "N2A_to_CAD": 0.5219481718734141
+          },
+          "reported_failed_checks": [
+            "base_each_cell_gain_at_least_0_005",
+            "base_mean_gain_at_least_0_01",
+            "base_paired_bootstrap_lower_above_zero",
+            "base_positive_after_removing_best_gene_fold",
+            "both_crossed_cells_improve_uniform",
+            "mean_normalized_regret_at_most_0_48",
+            "simple_each_cell_gain_at_least_0_005",
+            "simple_mean_gain_at_least_0_01",
+            "simple_paired_bootstrap_lower_above_zero",
+            "simple_positive_after_removing_best_gene_fold"
+          ],
+          "reported_pass": false,
+          "track": "base"
+        },
+        {
+          "component_counts": {
+            "CAD_to_N2A": 187,
+            "N2A_to_CAD": 187
+          },
+          "gain_vs_base": -0.005254421717381736,
+          "gain_vs_simple": -0.024183329241671374,
+          "macro_regret": 0.517408541007282,
+          "per_task_regret": {
+            "CAD_to_N2A": 0.5128321172914462,
+            "N2A_to_CAD": 0.5219849647231176
+          },
+          "reported_failed_checks": [
+            "base_each_cell_gain_at_least_0_005",
+            "base_mean_gain_at_least_0_01",
+            "base_paired_bootstrap_lower_above_zero",
+            "base_positive_after_removing_best_gene_fold",
+            "both_crossed_cells_improve_uniform",
+            "mean_normalized_regret_at_most_0_48",
+            "simple_each_cell_gain_at_least_0_005",
+            "simple_mean_gain_at_least_0_01",
+            "simple_paired_bootstrap_lower_above_zero",
+            "simple_positive_after_removing_best_gene_fold"
+          ],
+          "reported_pass": false,
+          "track": "raw"
+        },
+        {
+          "component_counts": {
+            "CAD_to_N2A": 187,
+            "N2A_to_CAD": 187
+          },
+          "gain_vs_base": 0.017080133421491457,
+          "gain_vs_simple": -0.0018487741027981837,
+          "macro_regret": 0.4950739858684087,
+          "per_task_regret": {
+            "CAD_to_N2A": 0.49294905584708776,
+            "N2A_to_CAD": 0.4971989158897296
+          },
+          "reported_failed_checks": [
+            "mean_normalized_regret_at_most_0_48",
+            "simple_each_cell_gain_at_least_0_005",
+            "simple_mean_gain_at_least_0_01",
+            "simple_paired_bootstrap_lower_above_zero",
+            "simple_positive_after_removing_best_gene_fold"
+          ],
+          "reported_pass": false,
+          "track": "structure"
+        },
+        {
+          "component_counts": {
+            "CAD_to_N2A": 187,
+            "N2A_to_CAD": 187
+          },
+          "gain_vs_base": -0.004894670329149169,
+          "gain_vs_simple": -0.023823577853438808,
+          "macro_regret": 0.5170487896190493,
+          "per_task_regret": {
+            "CAD_to_N2A": 0.5105950956107099,
+            "N2A_to_CAD": 0.5235024836273887
+          },
+          "reported_failed_checks": [
+            "base_each_cell_gain_at_least_0_005",
+            "base_mean_gain_at_least_0_01",
+            "base_paired_bootstrap_lower_above_zero",
+            "base_positive_after_removing_best_gene_fold",
+            "both_crossed_cells_improve_uniform",
+            "mean_normalized_regret_at_most_0_48",
+            "simple_each_cell_gain_at_least_0_005",
+            "simple_mean_gain_at_least_0_01",
+            "simple_paired_bootstrap_lower_above_zero",
+            "simple_positive_after_removing_best_gene_fold"
+          ],
+          "reported_pass": false,
+          "track": "lookup"
+        },
+        {
+          "component_counts": {
+            "CAD_to_N2A": 187,
+            "N2A_to_CAD": 187
+          },
+          "gain_vs_base": -0.001930157026372819,
+          "gain_vs_simple": -0.020859064550662464,
+          "macro_regret": 0.514084276316273,
+          "per_task_regret": {
+            "CAD_to_N2A": 0.522407078788875,
+            "N2A_to_CAD": 0.505761473843671
+          },
+          "reported_failed_checks": [
+            "base_each_cell_gain_at_least_0_005",
+            "base_mean_gain_at_least_0_01",
+            "base_paired_bootstrap_lower_above_zero",
+            "base_positive_after_removing_best_gene_fold",
+            "both_crossed_cells_improve_uniform",
+            "lookup_feature_mean_gain_at_least_0_01",
+            "mean_normalized_regret_at_most_0_48",
+            "simple_each_cell_gain_at_least_0_005",
+            "simple_mean_gain_at_least_0_01",
+            "simple_paired_bootstrap_lower_above_zero",
+            "simple_positive_after_removing_best_gene_fold"
+          ],
+          "reported_pass": false,
+          "track": "bert"
+        },
+        {
+          "component_counts": {
+            "CAD_to_N2A": 187,
+            "N2A_to_CAD": 187
+          },
+          "gain_vs_base": 0.011560615457442379,
+          "gain_vs_simple": -0.007368292066847262,
+          "macro_regret": 0.5005935038324577,
+          "per_task_regret": {
+            "CAD_to_N2A": 0.5115868805500655,
+            "N2A_to_CAD": 0.48960012711484996
+          },
+          "reported_failed_checks": [
+            "base_each_cell_gain_at_least_0_005",
+            "base_paired_bootstrap_lower_above_zero",
+            "base_positive_after_removing_best_gene_fold",
+            "both_crossed_cells_improve_uniform",
+            "mean_normalized_regret_at_most_0_48",
+            "simple_each_cell_gain_at_least_0_005",
+            "simple_mean_gain_at_least_0_01",
+            "simple_paired_bootstrap_lower_above_zero",
+            "simple_positive_after_removing_best_gene_fold",
+            "structure_feature_mean_gain_at_least_0_01",
+            "structure_feature_positive_after_best_fold_removed"
+          ],
+          "reported_pass": false,
+          "track": "combined"
+        }
+      ]
+    },
+    "knowncell": {
+      "independently_reconstructed_comparisons": [
+        {
+          "control": "base",
+          "macro_wrong_harm": -0.0050348424510512045,
+          "mean_gain": 0.002497348729417672,
+          "paired_descriptive_interval": [
+            -0.019193588028466445,
+            0.023784676128346
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.026809790934819805,
+            "N2A_known": 0.03180448839365515
+          },
+          "remaining_gene_weighted_gain": -0.008401569946440857,
+          "removed_best_fold": 0,
+          "track": "simple"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.0,
+          "mean_gain": 0.0,
+          "paired_descriptive_interval": [
+            0.0,
+            0.0
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.0,
+            "N2A_known": 0.0
+          },
+          "remaining_gene_weighted_gain": 0.0,
+          "removed_best_fold": 0,
+          "track": "simple"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.0,
+          "mean_gain": 0.0,
+          "paired_descriptive_interval": [
+            0.0,
+            0.0
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.0,
+            "N2A_known": 0.0
+          },
+          "remaining_gene_weighted_gain": 0.0,
+          "removed_best_fold": 0,
+          "track": "base"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.0050348424510512045,
+          "mean_gain": -0.002497348729417672,
+          "paired_descriptive_interval": [
+            -0.023784676128346022,
+            0.01919358802846643
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.026809790934819805,
+            "N2A_known": -0.03180448839365515
+          },
+          "remaining_gene_weighted_gain": -0.010187217859408803,
+          "removed_best_fold": 2,
+          "track": "base"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.00904176568822073,
+          "mean_gain": -0.02223592718568206,
+          "paired_descriptive_interval": [
+            -0.03712357177229539,
+            -0.009079060654736007
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.044401137459464904,
+            "N2A_known": -7.071691189921753e-05
+          },
+          "remaining_gene_weighted_gain": -0.028829879964274066,
+          "removed_best_fold": 2,
+          "track": "raw"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.014076608139271933,
+          "mean_gain": -0.024733275915099724,
+          "paired_descriptive_interval": [
+            -0.04855765055348802,
+            -0.0008610226661655208
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.01759134652464509,
+            "N2A_known": -0.031875205305554356
+          },
+          "remaining_gene_weighted_gain": -0.039017097823682866,
+          "removed_best_fold": 2,
+          "track": "raw"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.00683563021162221,
+          "mean_gain": -0.01700778261280298,
+          "paired_descriptive_interval": [
+            -0.032019465414450984,
+            -0.0024030619775147993
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.019440285554686146,
+            "N2A_known": -0.014575279670919816
+          },
+          "remaining_gene_weighted_gain": -0.025559423852149068,
+          "removed_best_fold": 1,
+          "track": "structure"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.011870472662673414,
+          "mean_gain": -0.01950513134222065,
+          "paired_descriptive_interval": [
+            -0.042439855264519266,
+            0.003763786988329203
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.0073695053801336625,
+            "N2A_known": -0.04637976806457496
+          },
+          "remaining_gene_weighted_gain": -0.028013707733813353,
+          "removed_best_fold": 2,
+          "track": "structure"
+        },
+        {
+          "control": "raw",
+          "macro_wrong_harm": -0.0022061354765985208,
+          "mean_gain": 0.005228144572879076,
+          "paired_descriptive_interval": [
+            -0.00917405082926877,
+            0.0214504601861539
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.02496085190477875,
+            "N2A_known": -0.014504562759020598
+          },
+          "remaining_gene_weighted_gain": -0.007653847398434489,
+          "removed_best_fold": 1,
+          "track": "structure"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": -0.0036864525964192285,
+          "mean_gain": -0.015533527723897201,
+          "paired_descriptive_interval": [
+            -0.03342996591294985,
+            0.0023568688314059456
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.03770233801410729,
+            "N2A_known": 0.006635282566312884
+          },
+          "remaining_gene_weighted_gain": -0.018076242789931054,
+          "removed_best_fold": 1,
+          "track": "lookup"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.0013483898546319765,
+          "mean_gain": -0.01803087645331487,
+          "paired_descriptive_interval": [
+            -0.041189047433061475,
+            0.003406559556668704
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.010892547079287482,
+            "N2A_known": -0.025169205827342257
+          },
+          "remaining_gene_weighted_gain": -0.024339451957070574,
+          "removed_best_fold": 2,
+          "track": "lookup"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.005521554862822891,
+          "mean_gain": -0.012230120920897284,
+          "paired_descriptive_interval": [
+            -0.03737963532261349,
+            0.015274680907757694
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.027734321677428193,
+            "N2A_known": 0.0032740798356336244
+          },
+          "remaining_gene_weighted_gain": -0.018815506896498548,
+          "removed_best_fold": 0,
+          "track": "bert"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.010556397313874094,
+          "mean_gain": -0.014727469650314948,
+          "paired_descriptive_interval": [
+            -0.04184135360282489,
+            0.013756431627628334
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.0009245307426083777,
+            "N2A_known": -0.028530408558021518
+          },
+          "remaining_gene_weighted_gain": -0.019546868031447794,
+          "removed_best_fold": 2,
+          "track": "bert"
+        },
+        {
+          "control": "lookup",
+          "macro_wrong_harm": 0.009208007459242116,
+          "mean_gain": 0.0033034068029999183,
+          "paired_descriptive_interval": [
+            -0.021245358679861204,
+            0.029809193833543742
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.009968016336679094,
+            "N2A_known": -0.0033612027306792573
+          },
+          "remaining_gene_weighted_gain": -0.004269110961425252,
+          "removed_best_fold": 0,
+          "track": "bert"
+        },
+        {
+          "control": "base",
+          "macro_wrong_harm": 0.011629683603526078,
+          "mean_gain": -0.008290976576728188,
+          "paired_descriptive_interval": [
+            -0.035298559342716876,
+            0.019758548900280865
+          ],
+          "per_task_gain": {
+            "CAD_known": -0.015459770282550762,
+            "N2A_known": -0.0011221828709056137
+          },
+          "remaining_gene_weighted_gain": -0.01128629754309858,
+          "removed_best_fold": 0,
+          "track": "combined"
+        },
+        {
+          "control": "simple",
+          "macro_wrong_harm": 0.016664526054577283,
+          "mean_gain": -0.010788325306145855,
+          "paired_descriptive_interval": [
+            -0.03838380063068025,
+            0.018293098528900202
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.011350020652269043,
+            "N2A_known": -0.03292667126456075
+          },
+          "remaining_gene_weighted_gain": -0.016219455332275208,
+          "removed_best_fold": 2,
+          "track": "combined"
+        },
+        {
+          "control": "bert",
+          "macro_wrong_harm": 0.006108128740703191,
+          "mean_gain": 0.003939144344169095,
+          "paired_descriptive_interval": [
+            -0.007911660950002444,
+            0.017826929612084683
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.01227455139487743,
+            "N2A_known": -0.00439626270653924
+          },
+          "remaining_gene_weighted_gain": 0.0011722395603252446,
+          "removed_best_fold": 1,
+          "track": "combined"
+        },
+        {
+          "control": "structure",
+          "macro_wrong_harm": 0.004794053391903869,
+          "mean_gain": 0.008716806036074795,
+          "paired_descriptive_interval": [
+            -0.01565054274011335,
+            0.034975961245394614
+          ],
+          "per_task_gain": {
+            "CAD_known": 0.003980515272135385,
+            "N2A_known": 0.013453096800014205
+          },
+          "remaining_gene_weighted_gain": -0.00409901967876584,
+          "removed_best_fold": 0,
+          "track": "combined"
+        }
+      ],
+      "reported_gate": "NO-GO",
+      "table": [
+        {
+          "component_counts": {
+            "CAD_known": 187,
+            "N2A_known": 187
+          },
+          "gain_vs_base": 0.002497348729417672,
+          "gain_vs_simple": 0.0,
+          "macro_regret": 0.49743796593734824,
+          "per_task_regret": {
+            "CAD_known": 0.500446197486628,
+            "N2A_known": 0.4944297343880685
+          },
+          "reported_failed_checks": [
+            "base_bootstrap_lower_positive",
+            "base_each_cell_gain_0_005",
+            "base_leave_best_fold_positive",
+            "base_mean_gain_0_01",
+            "each_known_cell_below_uniform",
+            "macro_regret_at_most_0_48",
+            "simple_bootstrap_lower_positive",
+            "simple_each_cell_gain_0_005",
+            "simple_leave_best_fold_positive",
+            "simple_mean_gain_0_01"
+          ],
+          "reported_pass": false,
+          "track": "simple"
+        },
+        {
+          "component_counts": {
+            "CAD_known": 187,
+            "N2A_known": 187
+          },
+          "gain_vs_base": 0.0,
+          "gain_vs_simple": -0.002497348729417672,
+          "macro_regret": 0.49993531466676594,
+          "per_task_regret": {
+            "CAD_known": 0.47363640655180816,
+            "N2A_known": 0.5262342227817237
+          },
+          "reported_failed_checks": [
+            "base_bootstrap_lower_positive",
+            "base_each_cell_gain_0_005",
+            "base_leave_best_fold_positive",
+            "base_mean_gain_0_01",
+            "each_known_cell_below_uniform",
+            "macro_regret_at_most_0_48",
+            "simple_bootstrap_lower_positive",
+            "simple_each_cell_gain_0_005",
+            "simple_leave_best_fold_positive",
+            "simple_mean_gain_0_01"
+          ],
+          "reported_pass": false,
+          "track": "base"
+        },
+        {
+          "component_counts": {
+            "CAD_known": 187,
+            "N2A_known": 187
+          },
+          "gain_vs_base": -0.02223592718568206,
+          "gain_vs_simple": -0.024733275915099724,
+          "macro_regret": 0.522171241852448,
+          "per_task_regret": {
+            "CAD_known": 0.518037544011273,
+            "N2A_known": 0.5263049396936229
+          },
+          "reported_failed_checks": [
+            "base_bootstrap_lower_positive",
+            "base_each_cell_gain_0_005",
+            "base_leave_best_fold_positive",
+            "base_mean_gain_0_01",
+            "each_known_cell_below_uniform",
+            "macro_regret_at_most_0_48",
+            "simple_bootstrap_lower_positive",
+            "simple_each_cell_gain_0_005",
+            "simple_leave_best_fold_positive",
+            "simple_mean_gain_0_01"
+          ],
+          "reported_pass": false,
+          "track": "raw"
+        },
+        {
+          "component_counts": {
+            "CAD_known": 187,
+            "N2A_known": 187
+          },
+          "gain_vs_base": -0.01700778261280298,
+          "gain_vs_simple": -0.01950513134222065,
+          "macro_regret": 0.5169430972795689,
+          "per_task_regret": {
+            "CAD_known": 0.4930766921064943,
+            "N2A_known": 0.5408095024526435
+          },
+          "reported_failed_checks": [
+            "base_bootstrap_lower_positive",
+            "base_each_cell_gain_0_005",
+            "base_leave_best_fold_positive",
+            "base_mean_gain_0_01",
+            "each_known_cell_below_uniform",
+            "macro_regret_at_most_0_48",
+            "raw_information_leave_best_positive",
+            "raw_information_mean_0_01",
+            "simple_bootstrap_lower_positive",
+            "simple_each_cell_gain_0_005",
+            "simple_leave_best_fold_positive",
+            "simple_mean_gain_0_01"
+          ],
+          "reported_pass": false,
+          "track": "structure"
+        },
+        {
+          "component_counts": {
+            "CAD_known": 187,
+            "N2A_known": 187
+          },
+          "gain_vs_base": -0.015533527723897201,
+          "gain_vs_simple": -0.01803087645331487,
+          "macro_regret": 0.515468842390663,
+          "per_task_regret": {
+            "CAD_known": 0.5113387445659154,
+            "N2A_known": 0.5195989402154108
+          },
+          "reported_failed_checks": [
+            "base_bootstrap_lower_positive",
+            "base_each_cell_gain_0_005",
+            "base_leave_best_fold_positive",
+            "base_mean_gain_0_01",
+            "each_known_cell_below_uniform",
+            "macro_regret_at_most_0_48",
+            "simple_bootstrap_lower_positive",
+            "simple_each_cell_gain_0_005",
+            "simple_leave_best_fold_positive",
+            "simple_mean_gain_0_01"
+          ],
+          "reported_pass": false,
+          "track": "lookup"
+        },
+        {
+          "component_counts": {
+            "CAD_known": 187,
+            "N2A_known": 187
+          },
+          "gain_vs_base": -0.012230120920897284,
+          "gain_vs_simple": -0.014727469650314948,
+          "macro_regret": 0.5121654355876633,
+          "per_task_regret": {
+            "CAD_known": 0.5013707282292363,
+            "N2A_known": 0.5229601429460901
+          },
+          "reported_failed_checks": [
+            "base_bootstrap_lower_positive",
+            "base_each_cell_gain_0_005",
+            "base_leave_best_fold_positive",
+            "base_mean_gain_0_01",
+            "each_known_cell_below_uniform",
+            "lookup_information_leave_best_positive",
+            "lookup_information_mean_0_01",
+            "macro_regret_at_most_0_48",
+            "simple_bootstrap_lower_positive",
+            "simple_each_cell_gain_0_005",
+            "simple_leave_best_fold_positive",
+            "simple_mean_gain_0_01"
+          ],
+          "reported_pass": false,
+          "track": "bert"
+        },
+        {
+          "component_counts": {
+            "CAD_known": 187,
+            "N2A_known": 187
+          },
+          "gain_vs_base": -0.008290976576728188,
+          "gain_vs_simple": -0.010788325306145855,
+          "macro_regret": 0.508226291243494,
+          "per_task_regret": {
+            "CAD_known": 0.48909617683435885,
+            "N2A_known": 0.5273564056526293
+          },
+          "reported_failed_checks": [
+            "base_bootstrap_lower_positive",
+            "base_each_cell_gain_0_005",
+            "base_leave_best_fold_positive",
+            "base_mean_gain_0_01",
+            "bert_information_mean_0_01",
+            "each_known_cell_below_uniform",
+            "macro_regret_at_most_0_48",
+            "simple_bootstrap_lower_positive",
+            "simple_each_cell_gain_0_005",
+            "simple_leave_best_fold_positive",
+            "simple_mean_gain_0_01",
+            "structure_information_leave_best_positive",
+            "structure_information_mean_0_01"
+          ],
+          "reported_pass": false,
+          "track": "combined"
+        }
+      ]
+    }
+  },
+  "protected_outcomes_read": false,
+  "runtime": {
+    "numerical_threads": 1,
+    "numpy": "1.26.4",
+    "pandas": "2.2.3"
+  },
+  "scope": "Exposed completed NEXT/crosscell/knowncell result metrics only; no fitting or candidate-truth/model-array reads",
+  "status": "NUMERICAL_SUMMARY_AND_SHARED_COMPONENT_BOOTSTRAP_PASS",
+  "within_source_limits": [
+    "Repeatedly exposed development data and multiple prespecified routes; no independent confirmation",
+    "Four-assay equal-source aggregate contains only2 Astro,6 Moffatt,1 SRLE biological components versus187 Mikl genes",
+    "Shared-component intervals omit author measurement/count uncertainty and new-assay uncertainty; descriptive only",
+    "Known-cell reuses the same42crosscell source models; it adds no independent fitted evidence",
+    "Same-cell and crossed-state main menus/ties can differ; causal state interpretation needs the separately declared canonical paired diagnostic",
+    "No result establishes novel mechanism, calibrated localization probability or STS outcome"
+  ]
+}

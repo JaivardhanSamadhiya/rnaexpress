@@ -1,0 +1,447 @@
+{
+  "criteria_changed_after_results": false,
+  "future_probabilities": "No calibrated probability or absolute-benefit claim; no abstention is tested",
+  "independent_confirmation": false,
+  "multiple_routes": "Six declared comparisons on repeatedly exposed data; controls cannot support an informed-route claim; development filter only",
+  "status": "NO-GO",
+  "tracks": [
+    {
+      "assays_harmed_vs_H0": 2,
+      "assays_helped_vs_H0": 2,
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": false,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": false,
+        "each_avoidable_harm_at_most_0_05_vs_both": true,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": true,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "gain_ci": [
+        -0.03561823928624278,
+        0.00547846905219422
+      ],
+      "historical_gate_passes": false,
+      "incremental_comparisons": [],
+      "informed_route": false,
+      "macro_gain_vs_H0": -0.024027328403267406,
+      "macro_gain_vs_simple": -0.015386678110266006,
+      "macro_regret": 0.5122548486768033,
+      "passes": false,
+      "per_assay": [
+        {
+          "avoidable_wrong": 0.5208333333333333,
+          "dataset": "astrocyte_gse330741",
+          "gain_vs_H0": -0.08729065015394982,
+          "gain_vs_simple": -0.0571623402326642,
+          "regret": 0.5571623402326642
+        },
+        {
+          "avoidable_wrong": 0.1954079202443385,
+          "dataset": "mikl_gse173098",
+          "gain_vs_H0": 0.0015495589276857125,
+          "gain_vs_simple": -0.028162065734294417,
+          "regret": 0.5156347480004435
+        },
+        {
+          "avoidable_wrong": 0.3333333333333333,
+          "dataset": "moffatt_gse334718",
+          "gain_vs_H0": 0.002997281006878627,
+          "gain_vs_simple": 0.05448673860282821,
+          "regret": 0.4455132613971718
+        },
+        {
+          "avoidable_wrong": 0.2837837837837837,
+          "dataset": "srle",
+          "gain_vs_H0": -0.013365503393684142,
+          "gain_vs_simple": -0.030709045076933617,
+          "regret": 0.5307090450769336
+        }
+      ],
+      "track": "base",
+      "worst_harm_vs_H0": 0.08729065015394982
+    },
+    {
+      "assays_harmed_vs_H0": 2,
+      "assays_helped_vs_H0": 2,
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": true,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": false,
+        "each_avoidable_harm_at_most_0_05_vs_both": true,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": true,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "gain_ci": [
+        -0.02577415851202162,
+        0.019182219094754274
+      ],
+      "historical_gate_passes": false,
+      "incremental_comparisons": [],
+      "informed_route": false,
+      "macro_gain_vs_H0": -0.012099444198791554,
+      "macro_gain_vs_simple": -0.003458793905790153,
+      "macro_regret": 0.5003269644723274,
+      "passes": false,
+      "per_assay": [
+        {
+          "avoidable_wrong": 0.5208333333333333,
+          "dataset": "astrocyte_gse330741",
+          "gain_vs_H0": -0.03504911181896636,
+          "gain_vs_simple": -0.004920801897680738,
+          "regret": 0.5049208018976807
+        },
+        {
+          "avoidable_wrong": 0.1963818711397274,
+          "dataset": "mikl_gse173098",
+          "gain_vs_H0": 0.010884442237926506,
+          "gain_vs_simple": -0.018827182424053623,
+          "regret": 0.5062998646902027
+        },
+        {
+          "avoidable_wrong": 0.3333333333333333,
+          "dataset": "moffatt_gse334718",
+          "gain_vs_H0": 0.002997281006878627,
+          "gain_vs_simple": 0.05448673860282821,
+          "regret": 0.4455132613971718
+        },
+        {
+          "avoidable_wrong": 0.2905405405405405,
+          "dataset": "srle",
+          "gain_vs_H0": -0.027230388221004986,
+          "gain_vs_simple": -0.04457392990425446,
+          "regret": 0.5445739299042545
+        }
+      ],
+      "track": "raw",
+      "worst_harm_vs_H0": 0.03504911181896636
+    },
+    {
+      "assays_harmed_vs_H0": 4,
+      "assays_helped_vs_H0": 0,
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": true,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": false,
+        "each_avoidable_harm_at_most_0_05_vs_both": false,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": false,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "gain_ci": [
+        -0.0348625764545397,
+        -0.005779793782079648
+      ],
+      "historical_gate_passes": false,
+      "incremental_comparisons": [
+        {
+          "checks": {
+            "incremental_leave_best_assay_out_positive": false,
+            "macro_incremental_gain_at_least_0_01": false
+          },
+          "comparator": "raw",
+          "mean_gain": -0.016157796299185928,
+          "passes": false,
+          "per_assay_gain": {
+            "astrocyte_gse330741": -0.0354300808409973,
+            "mikl_gse173098": -0.01113100178656734,
+            "moffatt_gse334718": -0.03101691946830032,
+            "srle": 0.01294681689912125
+          }
+        }
+      ],
+      "informed_route": true,
+      "macro_gain_vs_H0": -0.02825724049797748,
+      "macro_gain_vs_simple": -0.01961659020497608,
+      "macro_regret": 0.5164847607715134,
+      "passes": false,
+      "per_assay": [
+        {
+          "avoidable_wrong": 0.5833333333333333,
+          "dataset": "astrocyte_gse330741",
+          "gain_vs_H0": -0.07047919265996366,
+          "gain_vs_simple": -0.04035088273867804,
+          "regret": 0.540350882738678
+        },
+        {
+          "avoidable_wrong": 0.1969861423193658,
+          "dataset": "mikl_gse173098",
+          "gain_vs_H0": -0.0002465595486408345,
+          "gain_vs_simple": -0.029958184210620964,
+          "regret": 0.5174308664767701
+        },
+        {
+          "avoidable_wrong": 0.4166666666666667,
+          "dataset": "moffatt_gse334718",
+          "gain_vs_H0": -0.028019638461421692,
+          "gain_vs_simple": 0.02346981913452789,
+          "regret": 0.4765301808654721
+        },
+        {
+          "avoidable_wrong": 0.2787162162162162,
+          "dataset": "srle",
+          "gain_vs_H0": -0.014283571321883737,
+          "gain_vs_simple": -0.03162711300513321,
+          "regret": 0.5316271130051332
+        }
+      ],
+      "track": "structure",
+      "worst_harm_vs_H0": 0.07047919265996366
+    },
+    {
+      "assays_harmed_vs_H0": 2,
+      "assays_helped_vs_H0": 2,
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": true,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": false,
+        "each_avoidable_harm_at_most_0_05_vs_both": true,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": true,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "gain_ci": [
+        -0.03722368904212603,
+        0.026454730364104805
+      ],
+      "historical_gate_passes": false,
+      "incremental_comparisons": [],
+      "informed_route": false,
+      "macro_gain_vs_H0": -0.014445257294010999,
+      "macro_gain_vs_simple": -0.0058046070010095985,
+      "macro_regret": 0.5026727775675468,
+      "passes": false,
+      "per_assay": [
+        {
+          "avoidable_wrong": 0.4375,
+          "dataset": "astrocyte_gse330741",
+          "gain_vs_H0": -0.01756760283819131,
+          "gain_vs_simple": 0.012560707083094313,
+          "regret": 0.4874392929169057
+        },
+        {
+          "avoidable_wrong": 0.2008952669495933,
+          "dataset": "mikl_gse173098",
+          "gain_vs_H0": 0.02312871655502674,
+          "gain_vs_simple": -0.006582908106953389,
+          "regret": 0.4940555903731025
+        },
+        {
+          "avoidable_wrong": 0.4583333333333333,
+          "dataset": "moffatt_gse334718",
+          "gain_vs_H0": -0.06411202805061744,
+          "gain_vs_simple": -0.012622570454667859,
+          "regret": 0.5126225704546679
+        },
+        {
+          "avoidable_wrong": 0.2626689189189189,
+          "dataset": "srle",
+          "gain_vs_H0": 0.000769885157738015,
+          "gain_vs_simple": -0.01657365652551146,
+          "regret": 0.5165736565255115
+        }
+      ],
+      "track": "lookup",
+      "worst_harm_vs_H0": 0.06411202805061744
+    },
+    {
+      "assays_harmed_vs_H0": 1,
+      "assays_helped_vs_H0": 3,
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": true,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": true,
+        "each_avoidable_harm_at_most_0_05_vs_both": true,
+        "leave_best_assay_out_positive": true,
+        "macro_avoidable_harm_at_most_0_02_vs_both": true,
+        "macro_gain_vs_simple_at_least_0_02": true,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "gain_ci": [
+        0.014731978630053126,
+        0.042523195995267174
+      ],
+      "historical_gate_passes": false,
+      "incremental_comparisons": [
+        {
+          "checks": {
+            "incremental_leave_best_assay_out_positive": true,
+            "macro_incremental_gain_at_least_0_01": true
+          },
+          "comparator": "base",
+          "mean_gain": 0.0440696312322308,
+          "passes": true,
+          "per_assay_gain": {
+            "astrocyte_gse330741": 0.16050321121617112,
+            "mikl_gse173098": -0.0011548905167745316,
+            "moffatt_gse334718": -0.013089070166413586,
+            "srle": 0.03001927439594021
+          }
+        },
+        {
+          "checks": {
+            "incremental_leave_best_assay_out_positive": true,
+            "macro_incremental_gain_at_least_0_01": true
+          },
+          "comparator": "lookup",
+          "mean_gain": 0.034487560122974395,
+          "passes": true,
+          "per_assay_gain": {
+            "astrocyte_gse330741": 0.0907801639004126,
+            "mikl_gse173098": -0.02273404814411556,
+            "moffatt_gse334718": 0.054020238891082484,
+            "srle": 0.015883885844518053
+          }
+        }
+      ],
+      "informed_route": true,
+      "macro_gain_vs_H0": 0.020042302828963396,
+      "macro_gain_vs_simple": 0.028682953121964797,
+      "macro_regret": 0.4681852174445725,
+      "passes": false,
+      "per_assay": [
+        {
+          "avoidable_wrong": 0.375,
+          "dataset": "astrocyte_gse330741",
+          "gain_vs_H0": 0.07321256106222129,
+          "gain_vs_simple": 0.10334087098350692,
+          "regret": 0.3966591290164931
+        },
+        {
+          "avoidable_wrong": 0.2008927997148123,
+          "dataset": "mikl_gse173098",
+          "gain_vs_H0": 0.0003946684109111809,
+          "gain_vs_simple": -0.02931695625106895,
+          "regret": 0.516789638517218
+        },
+        {
+          "avoidable_wrong": 0.4166666666666667,
+          "dataset": "moffatt_gse334718",
+          "gain_vs_H0": -0.010091789159534958,
+          "gain_vs_simple": 0.041397668436414625,
+          "regret": 0.4586023315635854
+        },
+        {
+          "avoidable_wrong": 0.2550675675675675,
+          "dataset": "srle",
+          "gain_vs_H0": 0.016653771002256068,
+          "gain_vs_simple": -0.0006897706809934068,
+          "regret": 0.5006897706809934
+        }
+      ],
+      "track": "bert",
+      "worst_harm_vs_H0": 0.010091789159534958
+    },
+    {
+      "assays_harmed_vs_H0": 2,
+      "assays_helped_vs_H0": 2,
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": true,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": true,
+        "each_avoidable_harm_at_most_0_05_vs_both": false,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": true,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "gain_ci": [
+        0.004730677785550962,
+        0.03194016561800314
+      ],
+      "historical_gate_passes": false,
+      "incremental_comparisons": [
+        {
+          "checks": {
+            "incremental_leave_best_assay_out_positive": true,
+            "macro_incremental_gain_at_least_0_01": true
+          },
+          "comparator": "structure",
+          "mean_gain": 0.038222935674233974,
+          "passes": true,
+          "per_assay_gain": {
+            "astrocyte_gse330741": 0.14735923515756072,
+            "mikl_gse173098": -0.0036103433270776586,
+            "moffatt_gse334718": -0.026667254685124597,
+            "srle": 0.03581010555157743
+          }
+        },
+        {
+          "checks": {
+            "incremental_leave_best_assay_out_positive": false,
+            "macro_incremental_gain_at_least_0_01": false
+          },
+          "comparator": "bert",
+          "mean_gain": -0.010076607652706904,
+          "passes": false,
+          "per_assay_gain": {
+            "astrocyte_gse330741": 0.0036674814353757634,
+            "mikl_gse173098": -0.004251571286629674,
+            "moffatt_gse334718": -0.04459510398701133,
+            "srle": 0.0048727632274376265
+          }
+        }
+      ],
+      "informed_route": true,
+      "macro_gain_vs_H0": 0.009965695176256492,
+      "macro_gain_vs_simple": 0.018606345469257893,
+      "macro_regret": 0.4782618250972793,
+      "passes": false,
+      "per_assay": [
+        {
+          "avoidable_wrong": 0.4375,
+          "dataset": "astrocyte_gse330741",
+          "gain_vs_H0": 0.07688004249759706,
+          "gain_vs_simple": 0.10700835241888268,
+          "regret": 0.3929916475811173
+        },
+        {
+          "avoidable_wrong": 0.2002625431259331,
+          "dataset": "mikl_gse173098",
+          "gain_vs_H0": -0.003856902875718493,
+          "gain_vs_simple": -0.03356852753769862,
+          "regret": 0.5210412098038477
+        },
+        {
+          "avoidable_wrong": 0.5,
+          "dataset": "moffatt_gse334718",
+          "gain_vs_H0": -0.05468689314654629,
+          "gain_vs_simple": -0.0031974355505967056,
+          "regret": 0.5031974355505967
+        },
+        {
+          "avoidable_wrong": 0.2491554054054054,
+          "dataset": "srle",
+          "gain_vs_H0": 0.021526534229693695,
+          "gain_vs_simple": 0.00418299254644422,
+          "regret": 0.4958170074535558
+        }
+      ],
+      "track": "combined",
+      "worst_harm_vs_H0": 0.05468689314654629
+    }
+  ]
+}

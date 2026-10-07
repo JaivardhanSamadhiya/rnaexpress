@@ -1,0 +1,348 @@
+{
+  "biological_confirmation": false,
+  "causal_cell_state_claim": false,
+  "changes_no_gate": true,
+  "new_fits": 0,
+  "objective": "crossed-state regret minus same-state regret, identical frozen source predictor",
+  "scope": "Exact full menus only, equal directions/menus within gene, then genes/cells",
+  "selects_nothing": true,
+  "status": "DESCRIPTIVE",
+  "tracks": [
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.0356269712565073,
+        0.02479697366166513
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.0050835111947237395,
+      "paired_menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.003249412741189032,
+        "N2A_known": -0.006917609648258448
+      },
+      "stratum": "all_exact_menus",
+      "track": "simple"
+    },
+    {
+      "components": 162,
+      "descriptive_ci": [
+        -0.053047361211501866,
+        0.04141456220017493
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.006062774438797255,
+      "paired_menus": 760,
+      "per_known_cell": {
+        "CAD_known": 0.03792011589092747,
+        "N2A_known": -0.05004566476852198
+      },
+      "stratum": "lexical_order_equal",
+      "track": "simple"
+    },
+    {
+      "components": 169,
+      "descriptive_ci": [
+        -0.029994281173031094,
+        0.03311480650860852
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.0027112003392252954,
+      "paired_menus": 1648,
+      "per_known_cell": {
+        "CAD_known": -0.004499821377235762,
+        "N2A_known": 0.009922222055686353
+      },
+      "stratum": "lexical_order_different",
+      "track": "simple"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.025617891610881148,
+        0.04575358446917181
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.011031106531190027,
+      "paired_menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.02700909542400994,
+        "N2A_known": -0.004946882361629885
+      },
+      "stratum": "all_exact_menus",
+      "track": "base"
+    },
+    {
+      "components": 162,
+      "descriptive_ci": [
+        -0.03208832002432965,
+        0.06354656387805675
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.014761735394600514,
+      "paired_menus": 760,
+      "per_known_cell": {
+        "CAD_known": 0.06553508795483924,
+        "N2A_known": -0.036011617165638214
+      },
+      "stratum": "lexical_order_equal",
+      "track": "base"
+    },
+    {
+      "components": 169,
+      "descriptive_ci": [
+        -0.024942335233318652,
+        0.05105334482176185
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.013705224895621412,
+      "paired_menus": 1648,
+      "per_known_cell": {
+        "CAD_known": 0.030595703896229346,
+        "N2A_known": -0.0031852541049865197
+      },
+      "stratum": "lexical_order_different",
+      "track": "base"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.04076561474671458,
+        0.02797966397546967
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.005950777241953244,
+      "paired_menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.006927963045097117,
+        "N2A_known": -0.004973591438809371
+      },
+      "stratum": "all_exact_menus",
+      "track": "raw"
+    },
+    {
+      "components": 162,
+      "descriptive_ci": [
+        -0.04367579842801183,
+        0.047536619766534345
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.0010288616428774447,
+      "paired_menus": 760,
+      "per_known_cell": {
+        "CAD_known": 0.036535870387139756,
+        "N2A_known": -0.034478147101384866
+      },
+      "stratum": "lexical_order_equal",
+      "track": "raw"
+    },
+    {
+      "components": 169,
+      "descriptive_ci": [
+        -0.04816652913275644,
+        0.03430334994069788
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.005347368536528062,
+      "paired_menus": 1648,
+      "per_known_cell": {
+        "CAD_known": -0.0038337800801913724,
+        "N2A_known": -0.006860956992864753
+      },
+      "stratum": "lexical_order_different",
+      "track": "raw"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.05888775022401446,
+        0.010458422562840042
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.023056897535876687,
+      "paired_menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.0017203541769882705,
+        "N2A_known": -0.0443934408947651
+      },
+      "stratum": "all_exact_menus",
+      "track": "structure"
+    },
+    {
+      "components": 162,
+      "descriptive_ci": [
+        -0.04929186472342856,
+        0.05482740665976488
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.0024181854598586683,
+      "paired_menus": 760,
+      "per_known_cell": {
+        "CAD_known": 0.054768791447714515,
+        "N2A_known": -0.04993242052799718
+      },
+      "stratum": "lexical_order_equal",
+      "track": "structure"
+    },
+    {
+      "components": 169,
+      "descriptive_ci": [
+        -0.0701332223731166,
+        0.0053313812597823584
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.03081542296989918,
+      "paired_menus": 1648,
+      "per_known_cell": {
+        "CAD_known": -0.005907835856132281,
+        "N2A_known": -0.05572301008366608
+      },
+      "stratum": "lexical_order_different",
+      "track": "structure"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.032322524438153956,
+        0.032052385207428244
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.00031320415572235437,
+      "paired_menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.002492685319795835,
+        "N2A_known": 0.0031190936312405436
+      },
+      "stratum": "all_exact_menus",
+      "track": "lookup"
+    },
+    {
+      "components": 162,
+      "descriptive_ci": [
+        -0.051213863438208475,
+        0.04657994039332606
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.003144861749355181,
+      "paired_menus": 760,
+      "per_known_cell": {
+        "CAD_known": 0.04681558787041779,
+        "N2A_known": -0.053105311369128154
+      },
+      "stratum": "lexical_order_equal",
+      "track": "lookup"
+    },
+    {
+      "components": 169,
+      "descriptive_ci": [
+        -0.033192189286567315,
+        0.04720198885280395
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.0076212856987408345,
+      "paired_menus": 1648,
+      "per_known_cell": {
+        "CAD_known": 0.002491312851979405,
+        "N2A_known": 0.012751258545502265
+      },
+      "stratum": "lexical_order_different",
+      "track": "lookup"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.02947401914580884,
+        0.03202330504761331
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.001554070016323057,
+      "paired_menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.02133583190949015,
+        "N2A_known": -0.018227691876844036
+      },
+      "stratum": "all_exact_menus",
+      "track": "bert"
+    },
+    {
+      "components": 162,
+      "descriptive_ci": [
+        -0.06622304263186199,
+        0.025274900611563907
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.01988284742145813,
+      "paired_menus": 760,
+      "per_known_cell": {
+        "CAD_known": 0.010586068717646427,
+        "N2A_known": -0.05035176356056269
+      },
+      "stratum": "lexical_order_equal",
+      "track": "bert"
+    },
+    {
+      "components": 169,
+      "descriptive_ci": [
+        -0.01931909623161223,
+        0.0526403207388184
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": 0.018319052529432205,
+      "paired_menus": 1648,
+      "per_known_cell": {
+        "CAD_known": 0.04938975816498211,
+        "N2A_known": -0.012751653106117698
+      },
+      "stratum": "lexical_order_different",
+      "track": "bert"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.03831861568334376,
+        0.02180758147445406
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.008424334623722347,
+      "paired_menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.021946471936897582,
+        "N2A_known": -0.038795141184342276
+      },
+      "stratum": "all_exact_menus",
+      "track": "combined"
+    },
+    {
+      "components": 162,
+      "descriptive_ci": [
+        -0.06841038688921952,
+        0.019477186562090958
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.024294427185158493,
+      "paired_menus": 760,
+      "per_known_cell": {
+        "CAD_known": 0.010912828339383878,
+        "N2A_known": -0.05950168270970087
+      },
+      "stratum": "lexical_order_equal",
+      "track": "combined"
+    },
+    {
+      "components": 169,
+      "descriptive_ci": [
+        -0.04517302394620234,
+        0.03716051752853325
+      ],
+      "lexical_order_mismatched_menus": 1648,
+      "mean_known_advantage": -0.0029520920803963197,
+      "paired_menus": 1648,
+      "per_known_cell": {
+        "CAD_known": 0.027343709954260904,
+        "N2A_known": -0.03324789411505354
+      },
+      "stratum": "lexical_order_different",
+      "track": "combined"
+    }
+  ]
+}

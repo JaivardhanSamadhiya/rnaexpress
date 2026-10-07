@@ -1,0 +1,114 @@
+{
+  "all_paired_feature_bytes_equal": true,
+  "biological_confirmation": false,
+  "causal_cell_state_claim": false,
+  "evaluation_manifest_sha256": "92ab2b6ce6e807215f74412362f4514b81cb5760ae6a44afe1244d87f315bbad",
+  "main_gate_and_original_id_policy_unchanged": true,
+  "maximum_independent_score_error": 7.105427357601002e-15,
+  "new_fits": 0,
+  "predictor_calls": 42,
+  "selects_nothing": true,
+  "shape_policy": "one identical ordered candidate matrix per source checkpoint/fold",
+  "status": "DESCRIPTIVE",
+  "tie_policy": "exact score tie, shared lexical mutant sequence",
+  "tracks": [
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.0356269712565073,
+        0.02479697366166513
+      ],
+      "mean_known_advantage": -0.005083511194723738,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.0032494127411890283,
+        "N2A_known": -0.006917609648258448
+      },
+      "track": "simple"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.025617891610881148,
+        0.04575358446917181
+      ],
+      "mean_known_advantage": 0.011031106531190027,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.02700909542400994,
+        "N2A_known": -0.004946882361629885
+      },
+      "track": "base"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.04076561474671458,
+        0.02797966397546967
+      ],
+      "mean_known_advantage": -0.005950777241953244,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.006927963045097117,
+        "N2A_known": -0.004973591438809371
+      },
+      "track": "raw"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.05888775022401446,
+        0.01045842256284004
+      ],
+      "mean_known_advantage": -0.02305689753587669,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.0017203541769882705,
+        "N2A_known": -0.04439344089476511
+      },
+      "track": "structure"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.032322524438153956,
+        0.032052385207428244
+      ],
+      "mean_known_advantage": 0.000313204155722352,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.002492685319795835,
+        "N2A_known": 0.003119093631240539
+      },
+      "track": "lookup"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.02947401914580884,
+        0.03202330504761331
+      ],
+      "mean_known_advantage": 0.0015540700163230604,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.021335831909490156,
+        "N2A_known": -0.018227691876844036
+      },
+      "track": "bert"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.03831861568334376,
+        0.02180758147445406
+      ],
+      "mean_known_advantage": -0.008424334623722347,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.021946471936897582,
+        "N2A_known": -0.038795141184342276
+      },
+      "track": "combined"
+    }
+  ]
+}
