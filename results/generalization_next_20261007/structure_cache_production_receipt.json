@@ -1,0 +1,21 @@
+{
+  "cached_at_start": 0,
+  "config_sha256": "8f78a2adf6cb27492cac4be2c852bddfd45d230bea6045d93748ee2da6cfdba8",
+  "elapsed_seconds": 5194.832949800002,
+  "folded_this_run": 18220,
+  "full_core_feature_matrix_built": false,
+  "models_fit": 0,
+  "outcomes_used": false,
+  "previous_prefit_files_unchanged": 45,
+  "protocol_sha256": "450522fe3d0261dd5fa873b2e3481ab158f1ad636df3fcaa92c1b449ce398ff1",
+  "role": "UNSUPERVISED_SEQUENCE_ONLY_FEATURE_PRODUCTION",
+  "status": "PASS",
+  "sum_worker_fold_seconds": 9441.632543700238,
+  "unique_alleles": 18220,
+  "worker_peak_working_set_bytes": {
+    "21952": 155516928,
+    "5612": 159756288
+  },
+  "worker_threads": 1,
+  "workers": 2
+}

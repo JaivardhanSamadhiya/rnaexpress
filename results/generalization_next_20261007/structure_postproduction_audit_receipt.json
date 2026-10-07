@@ -1,0 +1,225 @@
+{
+  "allele_counts_by_length": {
+    "150": 9318,
+    "190": 3991,
+    "260": 4169,
+    "46": 742
+  },
+  "audit_source_sha256": "600e3076d2592f9d18631c4127a12b0a8c6cff9db2dd00fb64619cc783f9eea4",
+  "config_sha256": "8f78a2adf6cb27492cac4be2c852bddfd45d230bea6045d93748ee2da6cfdba8",
+  "elapsed_seconds": 558.1485075999954,
+  "existing_cache_entries_modified": false,
+  "fresh_fold_count": 32,
+  "fresh_fold_selection": "First8 ascending sequence SHA256 independently within46/150/190/260nt",
+  "fresh_folds": [
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "001f6e856e1edf0dd73131f6c4961137dcd577c638a6cdb1cfcdd7d57d92213d",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "007276008426a3955a0a8db89f564c00da305b4181c760e8d04e27b2e878ee8c",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "009b31395d3b9d982b5abbf13168ada5384870ab8fd2781835e9791233f66296",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "00b2d29b4373696c8f02a7b4355e702421fda68b753b936621019a3fb73e9411",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "00cdf3bbec5a10e2e6f2867868449714807f9ccf5d0f38cedafc82278fe8f21e",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "010387e02ef681640f400022b2901c9923786c7eb6993baf40909c97a5665057",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "014153207cfb88af27d88b013b8efb544d5f8238ee2e0f2cb779d4f0a4a15d81",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 46,
+      "sequence_sha256": "0159ade30cefcd1e3e0768df214bd39b16d9cb4d2f08fae46612d9c60b732ec2",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "000bae23b988f99fc620090fa2e08908c2f9a9534a5c8fc6d7b4d0d65cd919b3",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "000c61f063ddca22a5000a11c0748c7572423170a81dc4bfd04a7454c097d7c4",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "000ca4c78d8803110474d04fdf074bbd2d33d840ebe075b4a7a74dfa3ac53dcf",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "00191a6b14e5d01300c769aadcdab147bea10ff39c26b3901c0df9b0bcc1900e",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "001ec6655fad4d9df3c023c845f7c4bb7c99d6ae37815e24707b39064a9be9d4",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "00213cf74da7390036ed115115cf0c752eafcab0fbf9a150f06f0028371741b6",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "00222892fb176582b01f8bee9a67e53f31ba7064fa2ee9cdbbbe880451bc44b4",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 150,
+      "sequence_sha256": "003810fab75aa069834d7eaf49fb584316915dd397d376e4ec7a73157285c9b1",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "002729dbb2bdd578d4f31687595ecdd08f7798c4abb9f01dbef891bd77f28242",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "002d326222645136e5ed3530ea65db9b3902ff33a0881eb507adce39020de3d6",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "0037b5ead83e9164a6fc3797c41e52a3a39dfe44acd4a39757727c9e66862e61",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "005080e3a0838006e9f48c4e20f5084d83315b56accb6b566c6c6cfecc4af279",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "00558aaea58cf21da7155f2b899905b927250d6f1b70254cce5c3abe9509a357",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "005618e5bd3c73e458f5521199a57c5017560a3ea9017aedd8a60405c0d4d284",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "007bc679482d861803ed11bf0b7e59e6dc9e4799f969cd0908f8563d51dbb964",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 190,
+      "sequence_sha256": "00852a1665b47b28de67abeaab57ab51669e8dad232b6e789a390b68b593df0d",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "0000e9d1e9ad71cf844304cfaa5604cfb18a0a877a59f9f15b6267da59f1e960",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "003a78cf0f704150ef9699fb2069e644044cc6d1e908b8516d78b15f8299650a",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "004df3e7c62e79b2f8ac7ba2386bff6a1c18a40bdd6fe8a4ee83110d87fb5275",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "0059a93ebd2d822f93d1f98dc9bbab827a5776a0fa20734a4c2c71d04e352ba0",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "007913739065617c4e065e6ec2dc1893971f6b0990a8858ed1f26e5cb30f0e32",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "009002ef4b3b198000b2b36709ebe5896f14d8b0c77247f28c3a94f2f6fb9985",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "00926d3c4e0bf44c9720529c64e3c445c950bfb176b567a44f6a269d70067f9f",
+      "vectors_exactly_equal": true
+    },
+    {
+      "energy_exactly_equal": true,
+      "length_nt": 260,
+      "sequence_sha256": "0092e8cec81b41d6c3dca53246500ae7ad997308754e3ef21dd465dde8b1d58d",
+      "vectors_exactly_equal": true
+    }
+  ],
+  "index_path": "artifacts/generalization_next_20261007/structure_postproduction_sha256_index.json",
+  "index_sha256": "cef336f45616a5464bed1c32a7d8d777f555983f18d3999a7d7f77b0d11f61b3",
+  "inventory_sha256": "b31b4545104ea3266d9215e351a879dfec7644c58b7b7fb50829212899615313",
+  "limitation": "No producer creation sidecars existed. This index pins bytes observed now; 32 exact fresh folds do not prove historical integrity or refold all18220 alleles.",
+  "models_fit": 0,
+  "numerical_threads": 1,
+  "outcomes_used": false,
+  "protocol_sha256": "1041250afac2d48a34bb2795c01b22046bfe37ef8caa483eb462b99cced881aa",
+  "retrospective_creation_proof": false,
+  "row_ids_sha256": "f04a8fe31976c913c1167c1b51f21d6c556928c63c2c334377d3cf2e897b187a",
+  "rows": 26258,
+  "scope": "POST_PRODUCTION_IDENTITY_NUMERIC_AND_SAMPLED_FRESH_FOLD_AUDIT",
+  "source_production_receipt_sha256": "ce9b9a6f01741a80b47fb67ce889cfa4a14bc8f12b97d0e92db496b11bdda72c",
+  "status": "PASS",
+  "tests_receipt_sha256": "c6305a7fed7e998bb3b130c971e9d3b4284308f9537c362cb35b0be6f6f5ff8c",
+  "unique_alleles": 18220,
+  "workers": 1
+}

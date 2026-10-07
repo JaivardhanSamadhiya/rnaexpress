@@ -1,0 +1,28 @@
+{
+  "arrays_identical_to_unflipped_next": true,
+  "dimensions": {
+    "base": 246,
+    "bert": 502,
+    "combined": 518,
+    "lookup": 502,
+    "raw": 251,
+    "structure": 262
+  },
+  "feature_extraction": false,
+  "original_row_identity_sha256": "62a5ce3f5f6772ff5ce28c03aa77b5661a1ac8fdd004ee25b04ab43aca219607",
+  "outcomes_loaded": false,
+  "ready_for_separate_prefit_freeze": true,
+  "row_index_sha256": "88a8d813cce28f22b0fd0eac7b785e84dda97f3e28844f74de4240d9ad485746",
+  "rows": 26258,
+  "source_files": {
+    "artifacts/generalization_next_20261007/base_model_features.npz": "cf7d79d6b1a0efa3228fbcbe8c61b0e712c2fb630f9c1ef9302dcf83f152693c",
+    "artifacts/generalization_next_20261007/bert_model_features.npz": "eee4fe9c5f1c608b9974c1725b0e9a5b8ccae861cd242c79bb2772f43be9eb82",
+    "artifacts/generalization_next_20261007/combined_model_features.npz": "3cab7e604ecddece7e57340efd388a295c6314e6387abf3689e20f4cfdb51198",
+    "artifacts/generalization_next_20261007/lookup_model_features.npz": "2d0df3d838faa660e6641ad9c1208db2266e8f70509fb2e41ab4cd55d170318c",
+    "artifacts/generalization_next_20261007/raw_model_features.npz": "a49d7a2d41e3288a1e5f3bac92fc139968d31095da1b98efa6c728021127eb9f",
+    "artifacts/generalization_next_20261007/structure_model_features.npz": "0b3879eaf593c9ef78917b24c165ce501be88ebd7d5c361f27a98298850ba1b1"
+  },
+  "source_prepare_receipt_sha256": "564dcf073e4d1b29ccd1881cfef5426596612eb707cf949e5d10f496cfbc7826",
+  "status": "PASS",
+  "supervised_fits": 0
+}

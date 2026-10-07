@@ -1,0 +1,529 @@
+{
+  "batch_size": 8,
+  "bert_features_sha256": "163fcfeb5f20c5f13f7d02d88dab6ca69ecc894dc378dbdc5dcd257b6c11dffe",
+  "columns_per_route": 256,
+  "compact_shards": [
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0000.npz",
+      "sha256": "6796655772f6a59cd74fd032d076414f5799964ced66e0bee7166b6a00215d07",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0000.json",
+      "sidecar_sha256": "df78aa08627e23cfd73fd1315a43a12f57572b6ba69aeef56a1dc3c77fc602d1"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0001.npz",
+      "sha256": "061e9fcbeeaee6981a271635f74b7e17a02e7164655389987d3d2fa4a4aaabe2",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0001.json",
+      "sidecar_sha256": "55694e4b93d8f6136cf24db599e5212ed9cec9f89cf0d5ee523b4891ce571cfd"
+    },
+    {
+      "alleles": 230,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0002.npz",
+      "sha256": "0a586563342a1d7c128e18af0f18dbfe82053dc443bac17f442a41213d311ff5",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0002.json",
+      "sidecar_sha256": "99f250df98a9f69fc81600c2e9c9495623912e8a3707a79668769224ae6a384e"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0003.npz",
+      "sha256": "77d63cf5f09a00bcbc7685962f60843de9d369491903ff38d47d5063188aaacd",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0003.json",
+      "sidecar_sha256": "55ebaa9af94298eae3101b356dafb3bb14a6ece6f97158b5c1232b43d282ff35"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0004.npz",
+      "sha256": "461dca681651530c2e6009a7aaa85263c0d62a98c5240a38672df09851f272bf",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0004.json",
+      "sidecar_sha256": "bd8d2ae11c2fc2176847f56cbb9a356b10c109b147047019bd7d8a2d113e9343"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0005.npz",
+      "sha256": "0490e0cd5fbdd686fab5e8ecace58162aa0323f35c8fdf70d9e14e19771e6b63",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0005.json",
+      "sidecar_sha256": "ec81f17e516b55d3510c009c93bc391ac07edf07ad4f4ee56edfc601578306a2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0006.npz",
+      "sha256": "5005435d633792621385bcd85a6f51006b203ba7a9a601c524fa24c47cfce2f6",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0006.json",
+      "sidecar_sha256": "83d191fbe59fb86de348a98e456851b39ea4338cabe2bbfacc36759a3b4b846b"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0007.npz",
+      "sha256": "16153734609815efbdd9fbe31ce65a62532b84c6bf2d4107a88e350570bb8c13",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0007.json",
+      "sidecar_sha256": "2add599e49148708742d2dd28708af0c1709e43e5385aa265753053f804180f2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0008.npz",
+      "sha256": "4d2cc1b3ff24e7776bbab4ab3e1ee4675645f45d0582c25d0e3e3447aab293d0",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0008.json",
+      "sidecar_sha256": "51592c4c0b2fa90d7a6ec6177859af1347a158d218ae372a4d32cb5715b87f1d"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0009.npz",
+      "sha256": "e54243d2df17c2f1436f9dda5b5adec4a0bc754f0f8a7426b3f62f04338ae8b1",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0009.json",
+      "sidecar_sha256": "3b08e5dfc6fffca573200542ad0ed3115c51091a145b61c0de2f6a6e4f4983cd"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0010.npz",
+      "sha256": "b000c1ace03a9870bf2f4b0e47f3a093d373f53e4964dbb2e371516683c2f064",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0010.json",
+      "sidecar_sha256": "44e992ebc8e853e4a4009d5140b3a4e1c84c6544a8226e750c424f37491e5e10"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0011.npz",
+      "sha256": "093df6c808e06aecd42c6e5e675a1d517bde64eb6f5c01b6a37083d4e9fdfbcb",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0011.json",
+      "sidecar_sha256": "e8759b02e1add6138cc04c98c5a727b6eb942bbb42a5512b1ee07cbee6c7d569"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0012.npz",
+      "sha256": "fde72de639fb673d1493a7c654261540a13d9d20dd0f8566f9314bab0e2c760e",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0012.json",
+      "sidecar_sha256": "d549901f4d03bca85a3185cac012fffea49fcc537c0d9beea52ffaa7675f5bab"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0013.npz",
+      "sha256": "e43193bb4fbd6de2d6fe68c5bd840e289fb98365a83e685c9d0688ab63f52930",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0013.json",
+      "sidecar_sha256": "faa8a5d46831c9fa1cd4aac1aff5e8e9b5cff30436499c13fcb72ec45beaead0"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0014.npz",
+      "sha256": "acc4e5c9d0b374c163ec3096cd0f6538255df1e5f438290bf151c70ebcf2b454",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0014.json",
+      "sidecar_sha256": "dd022dee1cb36239e47f363b951bd080dc05d3fb1f4dfece9c73da3c41a6ec6a"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0015.npz",
+      "sha256": "101b2aeb8765b3235c3aae7cd0e05354342a617753165fb26f71f6a7ec964bc7",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0015.json",
+      "sidecar_sha256": "83f74a98803ee7f0458287af1bee53da47886d882768a6e3a049098163dd1248"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0016.npz",
+      "sha256": "a8b53be701a92b9594ce448dc9c0e23e741942b9e2342da31fdb2c9e04729823",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0016.json",
+      "sidecar_sha256": "c81f3ceb82c27fff94c88b5790f218e34a66c2463a136f30178e7a5eb6f6b2aa"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0017.npz",
+      "sha256": "ef8de8b6e938b3a9a09a31ea0b46936c64705f8b4e0d36975afcf8184ae78eb7",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0017.json",
+      "sidecar_sha256": "722529233d971a98603652e7f623908f167b7dbf3f459e597a99d00ed1e5384f"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0018.npz",
+      "sha256": "a5a681fa7bf86a8828734a53617f99d68c3e90418e057fd5ea05dda3fc5c7a15",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0018.json",
+      "sidecar_sha256": "2c28bf984119c66dadfdfd92b2438e9ef4f680ee02001929cd691421d0844e75"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0019.npz",
+      "sha256": "bf673d5264aeee8e467e9cfe4e9963fe7f6f451f3a6c73b40e6b66a895981a0d",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0019.json",
+      "sidecar_sha256": "e1f5193df9ad7c8b2f471b007b755967329e9cd68390ab8be99dc2e2d1ebdf15"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0020.npz",
+      "sha256": "bd5fa5b733465cdca6ce1e9472dafa22586d85c2ca76e6edb33a5bc8a04cea0c",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0020.json",
+      "sidecar_sha256": "7c6d6bb710d8c8435da132d50295ae9d05698e8b08cb2ce2eac30c958637adf7"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0021.npz",
+      "sha256": "1b9e9a72aec08e3acbbd06d137cddacc8f7bbffa5852d73eae73778aa2a58faa",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0021.json",
+      "sidecar_sha256": "2c45243381c63c69bca82c791271072beea72a930be797a620a9308cd5e92f4e"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0022.npz",
+      "sha256": "77b7f13f6f6707126ff0668097e9b84fb0fd0565f4f79ef36c84ed5d64587be4",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0022.json",
+      "sidecar_sha256": "edd2a0f8d805438f27390520e82f2b61731af6f393c484ec996155431d4d74c7"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0023.npz",
+      "sha256": "5341570cf2c0abd41c30b636553b9aa619094c5982f16259732aef01f69da133",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0023.json",
+      "sidecar_sha256": "f8adb8d7ce01ee9a8dabe833690bbc03f3e749cb0faee0251c742485216ecfb7"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0024.npz",
+      "sha256": "d8693b683812d344745f66314dac9bf6e45c15eb2c70578c1244e4a52e190a7d",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0024.json",
+      "sidecar_sha256": "ab85df57f16e4b00075492051be974f66791d3efabbfb0eab0d094525889659b"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0025.npz",
+      "sha256": "62cd2023b91ee153562366f8d93ec10836daa89c5bda8c08b05269844c7c64bd",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0025.json",
+      "sidecar_sha256": "53c18d388920e7e6cd2ac638bd14c6ab42158eb80405f6f07ffd49dfb33978af"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0026.npz",
+      "sha256": "df0fa253e315c073cd153054bea9dc0e1ecb8f453b04d388736424a62a66e7a7",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0026.json",
+      "sidecar_sha256": "7d34c5e219dab6efd682c2ac82c586f27d7fbd95bd8f134f2089936abab438b8"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0027.npz",
+      "sha256": "410620108a7534d5016319d4040fdf8822fa69fa4d0d9624f001f1c4a839f90f",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0027.json",
+      "sidecar_sha256": "04f980baf2d30660c7a193157828d553a2c185066d6e61c9381c425ca42b40e5"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0028.npz",
+      "sha256": "170f81403c30bcd96dd60dd586e4e4f7cf8613c737b2ac6631a4dec9db92ec68",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0028.json",
+      "sidecar_sha256": "e3d21cbd38ba06dcec6ae5f2b9122c5eac2781c03bbc6b54ca8e7aa612e9cafd"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0029.npz",
+      "sha256": "c0334ae748843b1827abdd70eb64d69b38a4c86b76801f56e2b7990f768b17f0",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0029.json",
+      "sidecar_sha256": "d1ce883522428463ca5190c8b48c0eb31391c54566e47ecb00bbe4559ee04fe1"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0030.npz",
+      "sha256": "3bbec80f27e65270f55a5bf7402f2e262cc5eadd7ada7d5858e89a03c791a388",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0030.json",
+      "sidecar_sha256": "d690df439f782b01d03c95d1767d059e40c5a8176b8ba1eef200e215a9586942"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0031.npz",
+      "sha256": "1fc61c050f45867d0a84dbf894f5d6553ff8f4792d15cf51b4b7623aadfcd0aa",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0031.json",
+      "sidecar_sha256": "afcb237127d2533c10e06295df984cff64d3e7104df15b183fb0c724614a727c"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0032.npz",
+      "sha256": "328752911ea7ed73e1170ad977bbc1b5ffba10e11b42b60af0d9cc05a6114f72",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0032.json",
+      "sidecar_sha256": "0f7e1d6e69ead321c6a5aad50947d2ae281b6b533e6204fe89f7d6232c7762f3"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0033.npz",
+      "sha256": "87e66bd6371a7914f53adfa9599390b57d2e4ee7701f96f3f4822216dfc80775",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0033.json",
+      "sidecar_sha256": "16d10ead5ddb37984260f07f24948c68c463ff2992596cafdd3800976c85272b"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0034.npz",
+      "sha256": "0a4a425c6cf29068357e742898b03595078a981f1e1814319dc92d8b71a7f936",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0034.json",
+      "sidecar_sha256": "6efc20b3eac1050472e6bc1fd2b7be750fc5fafb3c6de5043ac20d8709dbcc0b"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0035.npz",
+      "sha256": "492bec2bf2240725e1ff8299c082ff22ce4ca53e5b1ee74b1032b31c7953bb33",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0035.json",
+      "sidecar_sha256": "ef5655b5b015b0e4622c6b47cdf8cd2b7f2764d7395cbc2c341263f7fae2ae5a"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0036.npz",
+      "sha256": "33ead373278257ff4233e5a465a91b17e062145fd1389f546bdcd72f7021a259",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0036.json",
+      "sidecar_sha256": "78d0990b9b19631d8ed973a45bfd95afadc96bfca342a9482f23143c04c97e93"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0037.npz",
+      "sha256": "8291abc1eb8b8f1f87223ec3823fd443e80ae5b961787958313fcb63cff926b3",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0037.json",
+      "sidecar_sha256": "a44f739ca53ad4d3bb6ee2bf83e290c35dc2c3c6828c187d04d0c32fe79dff56"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0038.npz",
+      "sha256": "bf328cce7781f94f4d4e2885a6ccb79e26512398df536bfa8214f4d411e7b02e",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0038.json",
+      "sidecar_sha256": "a9da6bda3a22070b3710af7b5c204b00a0f96be4c45deec42ad972fd4cae2471"
+    },
+    {
+      "alleles": 102,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0039.npz",
+      "sha256": "0cf780dca1627c44c3d5f665634693bd548bcec9d0b5984e8a1f36a05022dd4d",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0039.json",
+      "sidecar_sha256": "6d766c16aefb993f1aae1d5a6520456b62c28056c81b317dfc771b9b7e9c04f7"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0040.npz",
+      "sha256": "e2e233653fddbb8954559438f36a2fe4b59bc302d03d1e23abc89af77561b162",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0040.json",
+      "sidecar_sha256": "24c59fead39f79ffb46ef6c0cda9ebcf4849300574dce5c0a91fa011104650ec"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0041.npz",
+      "sha256": "f3afb5b5f1a2b1922e178abba15dde65e2a3a09e466ec90676bb7b52f79f2b70",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0041.json",
+      "sidecar_sha256": "4ac9cafa534a44376f3faa690c3003a9778e71241f35bb559b5b9afd7244d2a0"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0042.npz",
+      "sha256": "f802c2e9f7e3dc37b866c1a3cc165dcfe4f963e35ea0a4e375b8c64b39c2a9a8",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0042.json",
+      "sidecar_sha256": "ef7939fe69d19144b785e09ff944d2cefae4ccf3316d011f0f8dc61787d4ab0b"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0043.npz",
+      "sha256": "a3fd558c410ad7a8d66a86e862e5182e1a09cee18cc9daa68285e1f3581e4c22",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0043.json",
+      "sidecar_sha256": "9f3f0c97299f45750c76d27ff8026b249f22aaffa6f14d7b3fe83367f69745c2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0044.npz",
+      "sha256": "f6d68e32ae8ebd57e1762c83be982e6f475a857f526fd5a4f044bb8d7a4f7b8e",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0044.json",
+      "sidecar_sha256": "d74c0c11bac5b930d19d914ff0fc4d29f52e9364880ec7cfa1b5b4c1bdf51304"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0045.npz",
+      "sha256": "7ff66a7da1e88766dd7dfbb8e03eebcc3aaa5a6276468d302c153290ebf36d0c",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0045.json",
+      "sidecar_sha256": "e863b5dec0bd3a7b498f654b33a5f7f42bf1d4f544286352b50d927a1ffd9a58"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0046.npz",
+      "sha256": "9f494b86df093e297104dffbabb9415131362f5733107ad7bf58b3cc77959101",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0046.json",
+      "sidecar_sha256": "cd58b17a1693c2758b05e05a5befc0da3a63e8254073f78db5d4593e2aed8c05"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0047.npz",
+      "sha256": "a4cce47ae04ea32b7136216179884d5bd365679c589129c3f4ec2f110ab6c713",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0047.json",
+      "sidecar_sha256": "d315a203df372564c2d3863772cc4e4f840b4a010b8964d49e46f5db8a63148c"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0048.npz",
+      "sha256": "f0a11aa73cbb6563eabd797923375e15db6c8de02f84da6066ba2ed03cf95971",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0048.json",
+      "sidecar_sha256": "74e13c5ceaaa63998e1bc124db633f976cfc1774154d2737f9d934db0ec9a8c5"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0049.npz",
+      "sha256": "ab52bdc2efb724d8c15b74557f443168f677181b2fe94be9a221631a13f44bc9",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0049.json",
+      "sidecar_sha256": "f017d3d0f94e2155d38cda5efa603023243f7d489aff8e84fab31bfd8e237557"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0050.npz",
+      "sha256": "4a00187b08ce46d5aef792c20e96f512b9731858d344b17e93b9c893b8604ebc",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0050.json",
+      "sidecar_sha256": "84531c3ee679971ba560e008498b11780ab239a08df128fce33c67ca0ee20938"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0051.npz",
+      "sha256": "43107f111f0e7ae04e88ec4dfc69ebb916f8bf5c3197a5aab29da611680e8cfc",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0051.json",
+      "sidecar_sha256": "96345c7519949776c6fed06f4ac87d9366fbe5c9396ccf8b81a7c6b4cb958410"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0052.npz",
+      "sha256": "4678ac4101d92c56743013df03a216472fa75a3f709dc2734d6ec4c18002bcc0",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0052.json",
+      "sidecar_sha256": "7ac0fa6eb7efca01d7f18fa94694b6f197a35b8faa798c8d904dd0e19c85a48d"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0053.npz",
+      "sha256": "f59e5bb4175a9020c3316656f0347e1a3b422de927980d1706fe67f984425786",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0053.json",
+      "sidecar_sha256": "0ccf5d0ed8676b0d45a958a197c010367783bf4c58ea67ac0b430d0034b99aea"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0054.npz",
+      "sha256": "9346a075bb7675e38185ddf7a2dfd7b60b9e605e7db34c65beceb5b49f45e421",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0054.json",
+      "sidecar_sha256": "c89bf921a07d16ad309075e524db47d8d19069bd1a671a2f85f8a2ee45f6e2a5"
+    },
+    {
+      "alleles": 151,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0055.npz",
+      "sha256": "30476b882f8264026cd8ecb7bca3130f383f4fb9fac57b9487d37658114f435e",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0055.json",
+      "sidecar_sha256": "e55e9154da26d69c450fb017662ce8b853b47bdd44dd065614800a7924883d70"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0056.npz",
+      "sha256": "e2a7a8c5bb0fe7d5bed4ccb7caea90920450a375c8fb4e948ec475d4679e8560",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0056.json",
+      "sidecar_sha256": "b880072ecd2438d365c86636c899bc9a25238eb8c4c055542eaac0d4d744d386"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0057.npz",
+      "sha256": "acfe7ecffebf65a8b6604a33969930fe171ffe458d3979598721836ec0afcbe1",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0057.json",
+      "sidecar_sha256": "977493a8da1e803bf61dd756707ee6839b7d0e2cf3cf1cc7a8393bc6c2896dd1"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0058.npz",
+      "sha256": "ff7180b1915a492ef27aadd01e86abaf98133346da72dda7c49e828fb95724ad",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0058.json",
+      "sidecar_sha256": "2a0c726fc07f1fc07cbcf13b8d6ad31eda9f592e96829ac8037a957a60fe8174"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0059.npz",
+      "sha256": "a7f399dc73b23b05b8d2154edc58a2926258e0a43c9214d84ab106859b2c63d6",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0059.json",
+      "sidecar_sha256": "272b2e23c86ad45961d52806248248e254db5b82c2ce3cd22ad6abbdfbb6b569"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0060.npz",
+      "sha256": "6ca9cf55019e980ea9fb9ce7cb949c43caf9a4ba96512eb4e9b1477af2d84b28",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0060.json",
+      "sidecar_sha256": "41943144c53b70d188e45a6977b93b178a233e4706112c4086c801623dc27e3f"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0061.npz",
+      "sha256": "282bcb049287eebebcf647a2daddce9050ae56cf6ba245f29af949509da06978",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0061.json",
+      "sidecar_sha256": "0882312f1aa7541573fe1bc48fe1244a290863c663cbe516fab1d61a5c011af4"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0062.npz",
+      "sha256": "085d08f67418b64c88c95ca23c78ce088c2c210471a5b14d77a6df7a8e3c2a83",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0062.json",
+      "sidecar_sha256": "3898cc04d24e02f377438d76d85ba61ebbf5a31493a99ff209f2655a8be4eaea"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0063.npz",
+      "sha256": "abcd4d5e6d467c2b04a0bc10bd42598e375254b8c314bbbe7e506f50e228362c",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0063.json",
+      "sidecar_sha256": "6b77d4c64d8862a8b636e3fcf226e221b21eacd254a4899e29f100c0e6b7d517"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0064.npz",
+      "sha256": "2e76348008ca788a7a37e286d31e557e8cbc22caa6090e41224fbcfc0bd4f431",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0064.json",
+      "sidecar_sha256": "fecc0c232d9cd57c3ec865781c378d28337d1bc79b1a5b3b123e9560f76b14f3"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0065.npz",
+      "sha256": "09af5f46fb61ec3bc24bd83d5b61b7d2b49bcde28ea524fd8c3d3798b881ff59",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0065.json",
+      "sidecar_sha256": "928db1a38cd86a7f23765a0720e380eea3cf61708980fe9584d0320da1cacc8a"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0066.npz",
+      "sha256": "9d6165858b34eb4da9e8b57b66b9a230bedd9391f5e8caba633a9551492b8447",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0066.json",
+      "sidecar_sha256": "f34fd01fb2adb7be283d56a8c2d67b4fb3c26669a2859245224941b602bfe2a9"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0067.npz",
+      "sha256": "b772b0fc46d849ff939e91d6c19547b3a6d2b17f8bedfb968055f8e531e9bbc8",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0067.json",
+      "sidecar_sha256": "5cd975af73218c8992b4f129d17e664ba17cef6a699af00730dbd6fdbc6335c2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0068.npz",
+      "sha256": "a80f03176d12c6b34c5bc8f27ba71ed459cff0fc25470f8bf1af4b636fc91dc0",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0068.json",
+      "sidecar_sha256": "ccf04ecf3b6af2f18cb9968082d345c857ceb7f9fc6cd53c1931c237b45ec5f2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0069.npz",
+      "sha256": "b48c0cefd7ae2e6b2ad5ad41203f3ab2bdb56a5d8351ce194bd4eab563e00515",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0069.json",
+      "sidecar_sha256": "d5dc75a4266f39afab67b7dbcd9eae0704129896676ccf0f69a448ef08d2ae8f"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0070.npz",
+      "sha256": "baea93ee1949d770f26304b5b0f6b28b8408a1401175ef26a89226954741c9a5",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0070.json",
+      "sidecar_sha256": "c79ef2ccccd692d1b424c89d58ea4a8071050c0ffb44b05745209d59e33cdb8b"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0071.npz",
+      "sha256": "1bb4362c18ddd912e5c035a8174fa1aeaca9cef771280a5616afaada735a40ad",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0071.json",
+      "sidecar_sha256": "22bf1143fa850f432992321db8fa68a4b0dd7e3c4420c6783867f944f5d3edef"
+    },
+    {
+      "alleles": 73,
+      "path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0072.npz",
+      "sha256": "f71e73d26dd13db6510ff5b9a24896393c76229d4f2a72ac8b16d44410dc5c35",
+      "sidecar_path": "artifacts/generalization_next_20261007/bert_compact_cache/shard_0072.json",
+      "sidecar_sha256": "b78d9ad74edb9536ee22a81e4b64b3efae8675f95f43abfd9dd004e862da85d8"
+    }
+  ],
+  "elapsed_seconds": 6930.791112399995,
+  "lookup_features_sha256": "35e6e2a74fea75d6db09074979a3a56a98c377a85c7e0cede793c47a31efc4ae",
+  "required_projected_token_vectors": 147876,
+  "row_identity_sha256": "b3409375921c56aa738cc83381f0d5212e5f35dd82d8e1895636ca91ea7dce57",
+  "rows": 26258,
+  "scope": "outcome-free frozen feature production; no supervised fitting",
+  "sequence_inventory_sha256": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+  "spec_sha256": "ba60a84e6584e61e171c0f5cbff73bccded9dcac62a38dc196e7d6cef8ba0d87",
+  "status": "PASS",
+  "threads": 4,
+  "unique_alleles": 18220
+}
