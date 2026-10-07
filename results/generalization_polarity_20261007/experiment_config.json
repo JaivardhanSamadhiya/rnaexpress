@@ -1,0 +1,36 @@
+{
+  "auxiliary_rows": 0,
+  "checkpoint_count": 80,
+  "columns": 247,
+  "configurations": [
+    {
+      "id": "pair_005",
+      "penalty": 0.005,
+      "scaling": "pair"
+    },
+    {
+      "id": "pair_05",
+      "penalty": 0.05,
+      "scaling": "pair"
+    },
+    {
+      "id": "pair_5",
+      "penalty": 0.5,
+      "scaling": "pair"
+    }
+  ],
+  "endpoint_signs": {
+    "nuclear_cytoplasmic": -1.0,
+    "projection": 1.0
+  },
+  "fitted_columns": 246,
+  "independent_confirmation": false,
+  "numerical_threads": 1,
+  "rows": 26258,
+  "sign_selection_from_outcomes": false,
+  "source_only_selection": true,
+  "tracks": [
+    "unflipped",
+    "polarity"
+  ]
+}

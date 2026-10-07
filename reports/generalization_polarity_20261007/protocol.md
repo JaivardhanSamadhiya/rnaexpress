@@ -1,0 +1,41 @@
+# Fixed compartment-polarity development comparison
+
+Written before any comparative fitting in this namespace on 7 October 2026. This is a separately frozen, exposed-data hypothesis, informed by past failures. It does not amend any earlier protocol, orientation, result, gate, or exposure status. No independent confirmation is claimed.
+
+## Biological question and fixed orientation
+
+Could imposing a fixed cytoplasmic-routing orientation improve small-edit utility transfer across known projection and nuclear/cytoplasmic endpoints? Canonical metadata maps **projection → +1** and **nuclear_cytoplasmic → −1**. No study-specific exception, correlation-derived sign, target calibration or alternative sign search is permitted. Unknown endpoint classes stop the route; source identity is not a fallback.
+
+Two tracks use identical 247-column matrices: corrected interaction_3 base246 and one metadata column containing the declared sign. Both rankers fit only the first 246 columns. The metadata sign is not a learned coefficient. **Unflipped247** trains original within-context preferences and returns its fitted utility unchanged. **Polarity247** transforms a copy of training effects by the known sign before constructing preferences, then returns fitted utility multiplied by the same known sign at inference. Evaluation always uses the original measured endpoint and both requested increase/decrease directions. Sign is constant within every candidate set, so the sampled pair roster, ties, weights and pair-RMS support are identical.
+
+The study reuses exactly 26,258 admitted intervention IDs: Astrocyte 3,984, Mikl 13,781, Moffatt 6,749 and SRLE 1,744. There are no added auxiliary rows, new labels, changed eligibility rules or dropped sources. The corrected base is the exact previously prepared and hashed `artifacts/generalization_next_20261007/base_features.npz`: SRLE features use the certified 20+6+20 local oligo construction context; all other baseline rows are unchanged. This is not a complete mature reporter transcript. The row-index hash and baseline receipt are checked before preparing the shared matrix. Original unwrapped parent/mutant alleles remain in every frame for the established global purge.
+
+## Interpretation limits
+
+The nuclear endpoint's reciprocal-ratio orientation is algebraic; its equivalence to distal transport is a biological hypothesis. Cytoplasmic availability is necessary for distal cytoplasmic transport but does not necessarily determine a projection ratio. For illustration, if cytoplasmic amount is C, distal amount D=pC and cytoplasmic soma amount S=(1−p)C, D/S=p/(1−p): increasing export while holding p fixed leaves this ratio unchanged. Actual soma and SN/cortex operational fractions are more complex. Neither export=transport nor equal physical fluxes is claimed. [Primary HNRNPK/SIRLOIN evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC6047738/), [primary CNBP/KIF1C transport evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC12002053/).
+
+Only SRLE supplies a core nuclear endpoint; endpoint is therefore confounded with source. For the outer held-SRLE fold, all training endpoints have sign +1. Both tracks must have identical selected penalties and fitted coefficients, with exactly opposite SRLE scores. This is a prospectively declared endpoint inversion, not a learned nuclear head or independently established mechanism. The other folds can test the changed pooled training constraint. A successful comparison would be development evidence requiring further compatible independent confirmation.
+
+## Training and source-only selection
+
+Reuse the reviewed convex signed-preference logistic ranker and outcome-independent historical pair roster capped at 256 unordered pairs per context, using the inherited pair-sampling seed20260927. Omit only exact truth ties. Weight each source, biological component and parent/context equally. Use training-only pair-RMS scaling; unsupported columns get zero coefficients. Fixed L2 penalties in tie order are **0.005, 0.05, 0.5**. Optimizer: zero initialization, L-BFGS-B max500, ftol1e−11, gtol1e−7. No intercept, source coefficient, feature selection or absolute-effect calibration is fitted. Use one numerical thread.
+
+For each whole-assay outer holdout, purge all biological components and exact original alleles touching that assay from every other source. Within the allowed source pool, hold out each source assay, purge again, fit each fixed penalty and select mean source-assay normalized regret, evaluated after converting scores to that source's original endpoint. Ties within 1e−12 follow the fixed penalty order. Fit the chosen penalty on all allowed outer sources, then predict the excluded assay. Forty checkpoints per track, **80 total**. No outer outcome chooses a penalty, sign, representation or calibration.
+
+Selection uses highest original-endpoint score for increase and lowest for decrease, with lexical intervention-ID ties. Evaluate normalized regret, wrong direction and avoidable/unavoidable/neutral-only alternatives, best/top-five recovery and tie-aware pair order. Aggregate equally by directions/context, biological component and source. Store every score and decision, including failures. Candidate utility is not a calibrated absolute localization change or a benefit probability.
+
+## Frozen gate and incremental comparison
+
+Retain the strict historical development checks: macro regret ≤0.468; macro gain versus the strongest old simple comparator ≥0.02; at least three sources gain ≥0.02 versus that comparator and at least three gain ≥0.01 versus old H0; Mikl/SRLE harm ≤0.01 versus both; any-source simple-comparator regret harm ≤0.05; macro avoidable-wrong harm ≤0.02 and each-source harm ≤0.05 versus both; positive mean gain after removing the best source; no source provides >60% of positive gains; descriptive bootstrap lower gain bound ≥−0.01.
+
+Only polarity can support the new hypothesis, and only if it passes every strict check **and** its equal-source macro regret gain over matched unflipped is ≥0.01, with positive incremental mean after removing the best source. The unflipped track remains a control. Report both tracks, all source results and every failed check. No best outer sign or direction is selected.
+
+The 5,000-draw descriptive Bayesian component bootstrap uses one Exponential(1) draw per global biological component, shared across all sources in which that component occurs, then normalized within each source. Seed20261007. This respects shared components but does not estimate uncertainty over an unlimited population of experiments; one-reporter SRLE and two-gene astrocyte uncertainty remain limited. No bootstrap or gate formula changes after results.
+
+## Freeze, verification and protected boundaries
+
+Prepare only the shared sequence/metadata array, row mapping, fixed configuration and scoped synthetic tests. Hash all namespace source, input matrices, protocol, dependencies, baseline receipt, original core roster, historical comparators and tests into `prefit_manifest.json`; commit it before either biological fit command. Every fit checks the committed manifest and uses immutable checkpoints tied to its prefit hash. Preserve 45 older frozen files, the earlier evidence bundles and original user changes.
+
+Scoped tests verify endpoint semantics, rejection of unsupported/mixed endpoint contexts, pair/weight/scaling equivalence, label transformation without metadata mutation, uniform-sign equivalence, projection-only training equivalence with known nuclear-score inversion, original-allele purge and shared component-bootstrap draws. Toy optimizations use synthetic labels only. Postfit verification independently replays coefficients/scores, source-only selection, IDs/components, extreme choices, original-truth regrets and the SRLE inversion identity. No unfiltered pytest.
+
+N-zip outcomes, TDP EV5 stability, reserved SIRLOIN C3/4 and all B, reserved Arora/Shukla outcomes, the 22 unused context-confirmation groups, reserved Faraway conditions/perturbations/stability and unadmitted sources stay closed. No spending, external contact, scheduled tasks, new localization labels or source-dependent sign search is authorized by this study.
