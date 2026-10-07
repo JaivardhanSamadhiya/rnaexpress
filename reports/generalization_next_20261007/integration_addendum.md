@@ -1,0 +1,9 @@
+# Prefit integration audit
+
+Written after the extraction freeze and before any new supervised fit or comparative score. Production-frozen files remain byte-identical; these additive helpers will be pinned by the separate prefit manifest.
+
+The production-frozen assembler validates row identities but did not independently compare the projected feature files with their producer receipt checksums. `assemble_verified.py` performs those checks and verifies all compact encoder shard checksums before calling the original assembler. The diagnostic runner's existing-checkpoint path omitted rechecking saved training-ID and permuted-label hashes; `permutation_verified.py` checks those hashes and the fixed configuration before any resume. Neither change affects feature definitions, training choices or scientific thresholds.
+
+An independent review also found the inherited bootstrap drew independent component weights per assay, despite describing them as shared. One biological component occurs in two studies. The new primary `gate_shared.py` uses one exponential draw per unique biological component, shared across assays and normalized separately within each assay. Equal-assay weighting,5,000draws,seed20261007 and every numeric gate threshold remain unchanged. This repair precedes new results. Original gate files and historical verdicts remain preserved; all prior primary tracks already failed numerical regret/distributed-gain requirements, so the earlier NO-GO did not depend on this descriptive interval calculation.
+
+Primary post-extraction commands are `assemble_verified`, `freeze prefit`, six `engine` tracks, `gate_shared`, `verify` and `permutation_verified`. The legacy production-frozen `gate.py` is retained for provenance and is not the new primary verdict producer. These are repeatedly exposed development experiments; none is independent biological confirmation.
