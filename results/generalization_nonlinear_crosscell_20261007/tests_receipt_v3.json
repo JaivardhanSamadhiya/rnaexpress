@@ -1,0 +1,29 @@
+{
+  "canonical_ties_source_reselection_checked": true,
+  "decision_dataset_component_full_roster_checked": true,
+  "gene_cell_masks_reused": true,
+  "prior_six_test_receipt_preserved": true,
+  "prior_v2_receipt_preserved": true,
+  "project_outcome_columns_read": false,
+  "real_estimator_fits": 0,
+  "ridge_linear_solve_mocked": true,
+  "scope": "Synthetic tree arithmetic and mocked-fitting only",
+  "shared_bootstrap_unequal_fold_weighting_checked": true,
+  "sidecar_corruption_orphans_checked": true,
+  "source_hashes": {
+    "__init__.py": "63d815fc23100736c16da5f3238a2b0e51d5794881598fe9cbbbb89a0cc60d26",
+    "bootstrap.py": "0fb64d3c59ace2fc63b42450e990c26d7314c982fca793919eadc5a3a25e65e0",
+    "common.py": "4939de60957799f54d8e57413d92062427a35799af6fb65dd71f3522434a88bb",
+    "engine.py": "cb755195dfc59b3d9f9d015a2701f0ad7d18d593245d6b71f640d2b4839a5bdb",
+    "freeze.py": "401891ab39570c4232fa4ae9c3c018f41d22368e91676bb9b8f1773becf6bdb0",
+    "gate.py": "79a7af62cc77fe68dde125979b6474ea6aa11a0879223724721fd0dd7ccc23e0",
+    "prepare.py": "afe68fcb4be0e08f2298ffd56256654481fc49784d215a39db72df083b2b1a21",
+    "ridge.py": "241fe87b0223cbd71c43a5e3d921ec75ec68bb1f3f8acf7c6a32530ee495a609",
+    "routes.py": "9b7b849c9da6d2fec0ca181715d69deb824bc583f775acbd816be3698ca27772",
+    "splits.py": "a905192ab51bd1bb80c813132855fdfb83f7df21e931d260deec9e446fc56173",
+    "tests.py": "825922c55a488f54c34fa1179112b84500a15e84b6ab9670f094cafcb0316dc4",
+    "verify.py": "dd77dc276cd655ed93223def4de31a691f29fa470a9f5d9e97d7572d5d41369f"
+  },
+  "status": "PASS",
+  "tests": 10
+}

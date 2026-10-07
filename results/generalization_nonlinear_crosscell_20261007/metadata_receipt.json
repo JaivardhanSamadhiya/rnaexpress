@@ -1,0 +1,61 @@
+{
+  "components": 187,
+  "configurations": [
+    {
+      "id": "hgb_7",
+      "max_leaf_nodes": 7
+    },
+    {
+      "id": "hgb_15",
+      "max_leaf_nodes": 15
+    },
+    {
+      "id": "hgb_31",
+      "max_leaf_nodes": 31
+    }
+  ],
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "estimator_fits": 0,
+  "exact_linear_masks_reused": true,
+  "fixed_parameters": {
+    "categorical_features": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "loss": "squared_error",
+    "max_bins": 64,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 200,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "random_state": 20261007,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "new_features_extracted": 0,
+  "original_alleles_retained": true,
+  "outcome_columns_read": false,
+  "row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "rows": 13781,
+  "status": "PASS",
+  "tracks": [
+    "simple",
+    "base",
+    "raw",
+    "structure",
+    "lookup",
+    "bert",
+    "combined"
+  ],
+  "widths": {
+    "base": 246,
+    "bert": 502,
+    "combined": 518,
+    "lookup": 502,
+    "raw": 251,
+    "simple": 102,
+    "structure": 262
+  }
+}

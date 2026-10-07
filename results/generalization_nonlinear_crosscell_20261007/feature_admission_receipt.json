@@ -1,0 +1,43 @@
+{
+  "estimator_fits": 0,
+  "feature_hashes": {
+    "base": "7be5aeb3a65190d1e0a60d0d5decd9854c01dfb9770d86cd440187bd6f28f57c",
+    "bert": "92184e4da9436a6e3f38312510f907b76bfe5c92d88d20c970a7a096a503be85",
+    "combined": "98669c4950a4c4e073de0bf5570e6d618a5e115f35506ce6d75e77d78e47a9e0",
+    "lookup": "28ccc3fe4d1267917bc8bede4e48bedbabe0362d5bad63c38c49deced9cf1800",
+    "raw": "a545320afdc5d0cb64ebe4a89a6f2835e9a1c25337cbe92167599ca2b573ee62",
+    "simple": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6",
+    "structure": "191f08f95103752137d249d7e7443012f675721cf5a20d0c2bcc34fe8f676b76"
+  },
+  "feature_paths": {
+    "base": "artifacts/generalization_crosscell_20261007/base_model_features.npz",
+    "bert": "artifacts/generalization_crosscell_20261007/bert_model_features.npz",
+    "combined": "artifacts/generalization_crosscell_20261007/combined_model_features.npz",
+    "lookup": "artifacts/generalization_crosscell_20261007/lookup_model_features.npz",
+    "raw": "artifacts/generalization_crosscell_20261007/raw_model_features.npz",
+    "simple": "artifacts/generalization_crosscell_20261007/simple_model_features.npz",
+    "structure": "artifacts/generalization_crosscell_20261007/structure_model_features.npz"
+  },
+  "linear_prefit_sha256": "547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345",
+  "outcome_columns_read": false,
+  "row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "rows": 13781,
+  "same_immutable_arrays_reused": true,
+  "status": "PASS",
+  "widths": {
+    "hgb/base": 246,
+    "hgb/bert": 502,
+    "hgb/combined": 518,
+    "hgb/lookup": 502,
+    "hgb/raw": 251,
+    "hgb/simple": 102,
+    "hgb/structure": 262,
+    "ridge/base": 246,
+    "ridge/bert": 502,
+    "ridge/combined": 518,
+    "ridge/lookup": 502,
+    "ridge/raw": 251,
+    "ridge/simple": 102,
+    "ridge/structure": 262
+  }
+}
