@@ -1,0 +1,21 @@
+{
+  "candidate_scores_replayed": 52516,
+  "code_sha256": "26b6bb194b404e1037df268e3c23c8466bce1e703d71d69f0e90eac129f4e17c",
+  "historical_H0_decisions_reproduced": 10872,
+  "inner_checkpoints_and_original_truth_regret_replayed": 72,
+  "maximum_score_error": 0.0,
+  "models": 80,
+  "prior_bundle_members_unchanged": [
+    319,
+    28,
+    276,
+    408
+  ],
+  "selected_decisions_checked": 21744,
+  "source_only_folds_checked": true,
+  "source_only_selection_checked": true,
+  "srle_inversion_identity_checked": true,
+  "status": "PASS",
+  "training_orientation_hashes_checked": true,
+  "unrelated_modified_files_unchanged": 33
+}

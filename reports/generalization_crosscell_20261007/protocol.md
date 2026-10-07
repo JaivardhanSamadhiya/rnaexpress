@@ -1,0 +1,39 @@
+# Gene- and allele-excluded crossed-cell candidate selection
+
+Prospective development proposal/preparation dated 7 October 2026. No fits in this namespace are authorized until its complete inputs, code, tests and protocol are reviewed and separately committed by root. The four-source strict gate and all earlier NO-GO results remain unchanged. These are repeatedly exposed measurements, not independent confirmation.
+
+## Distinct question and historical limitation
+
+Can the six already specified sequence representations rank small edits for an unseen gene in a different mouse neuronal cell line, with no target-cell outcome in fitting or selection? Both cells use the same Mikl projection endpoint and reporter family, reducing the nuclear-versus-projection mismatch. A positive result would establish only this narrower compatible-endpoint transfer.
+
+The original FinalShot `transfer_masks` separated CAD and Neuro-2a within Mikl but did not remove the tested target genes or exact alleles from the outer source-cell fit. Its nested source selection used biological folds. Thus those transfers withheld target-cell outcomes while retaining corresponding source-cell gene/allele measurements. This is a different estimand from the proposed double holdout. Preserved cell-transfer mean ContextValue was rank −0.00468 and regret −0.00129; the old Gate E failed. This limitation does not revise old results. [Original masks/runner](D:/rnaexpress/src/analysis/run_finalshot_direct_transfers.py), [M3 runner](D:/rnaexpress/src/analysis/run_finalshot_m3_transfers.py), [recorded results](D:/rnaexpress/reports/finalshot_transfer_results.md).
+
+The new cohort is exactly the 13,781 previously admitted Mikl small-substitution rows, with 6,889 CAD and 6,892 Neuro-2a rows, 187 global biological components, and the inherited gene/component folds 0/1/2. No outcome-based subset, seed, fold or candidate change is made. Every tested target row receives one out-of-fold prediction. Original alleles, genes and canonical group identities are retained.
+
+## Fixed splits and source-only selection
+
+For CAD→Neuro-2a, outer fold k tests only Neuro-2a rows in gene fold k. Training uses only CAD rows outside k, globally excludes all tested target components/genes and explicitly checks no tested target parent or mutant allele remains. Reverse the cell roles for Neuro-2a→CAD. All target-cell outcomes are absent from fitting and selection. Exact-allele exclusion refers to the tested target gene fold; removing every sequence from the entire other cell would erase the paired source cohort and would answer a different question.
+
+Both cells have fold component counts 71/67/49. Metadata-only checks found no exact tested-target allele remaining in the permitted source training pools. A source pool has two remaining gene folds. Each fixed penalty is trained on one and predicts the other, purging validation components/genes/alleles again. Concatenate these source-only out-of-fold predictions and score equal-component candidate regret across the complete source pool, rather than averaging unequal-size fold scores. Select minimum regret, ties within1e−12 following the fixed penalty order. Target-cell labels never select a setting.
+
+Seven tracks: **simple102, base246, raw251, structure262, lookup502, bert502, combined518**. The six existing next-generation matrices are reused without new extraction or changes to feature physics, model layers, projections, sequence context or windows. The simple comparator is exactly the corrected baseline prefix102: metadata18 plus overlapping 1–3mer deltas84, independently certified by exact feature/name equality in synthetic cases. Every matrix is joined through the original 26,258-row identity certificate and then sliced to the same Mikl roster. No expression-weighted feature, source ID or cell vector is added.
+
+All tracks use the reviewed pairwise logistic utility fitter, outcome-blind historical cap256 pair roster, source/component/context weights, training-only pair-RMS and unsupported-column zero rule. L2 is fixed at0.005/0.05/0.5; zero initialization, L-BFGS-B max500, ftol1e−11, gtol1e−7. One numerical thread. Six outer tasks (two cells × three folds), six inner fits and one selected outer fit each: **42 checkpoints per track,294 total**. Checkpoints are immutable and bound to configuration, source IDs/effects and the committed prefit hash.
+
+## Fixed compatible-cell gate
+
+Only structure, bert and combined can support the new information claim; simple, base, raw and lookup are controls. Both requested endpoint increase/decrease directions are always retained and averaged equally within parent/context, then equally by component and crossed cell. No favorable direction is selected.
+
+Require every condition: equal-cell mean normalized regret≤0.48; each crossed cell improves exact uniform expectation0.5; mean incremental regret gain≥0.01 and each crossed-cell gain≥0.005 versus **both** source-selected base and additive simple; paired 95% bootstrap gain lower bound>0 versus both; wrong-direction macro harm≤0.02 and each-cell harm≤0.05 versus both; positive gain after removing the best gene fold versus both controls.
+
+Also require the fixed information comparisons: structure versus raw, bert versus lookup, and combined versus structure and bert. Each requires mean incremental regret gain≥0.01 and positive gain after removing the best gene fold. These comparisons prevent new-model benefit from being attributed to structure or contextual pretraining when its matched raw control accounts for it.
+
+Use5,000 Exponential(1) Bayesian bootstrap draws, seed20261007, one weight per global gene/component shared across both crossed cells and normalized within each cell. Report the descriptive paired 95% interval; repeated variants/cells are not independent genes. Best-fold removal uses the largest equal-cell mean component gain, ties preferring the smallest fold ID, then recomputes the gain over all remaining components with equal-cell/equal-component weighting. Folds have unequal component counts and are not given equal weight. Gate formulas/thresholds never change after fitting.
+
+## Integrity and claim limits
+
+Prepare metadata/purge controls now. Matrix preparation waits for a complete, committed next-generation prefit manifest and checks each source feature hash, dimensions and common baseline columns. Commit a separate namespace prefit manifest before any biological fit. Independently replay all252 inner and42 outer models, source-only selection, original allele/gene exclusions, scores, extreme choices and original-endpoint regrets. Preserve every failed track and direction. No unfiltered pytest, money, scheduled work, new labels or protected outcome access.
+
+Sequence-only inputs cannot distinguish identical edits with reproducibly opposite cell preferences. The prior matched-edit context diagnostic therefore remains a limitation, not proof that a more complex representation will solve it. This experiment tests transferable ranking information; it does not measure trans-RBP state, identify a transport mechanism or certify universal RNA-localization generalization. Public sequence pretraining may include natural target UTRs. Missing full reporter processing, shared assay/batches and two-cell breadth remain explicit.
+
+The coRBP resource provides an independent possible HEK293T protein-context prior, not CAD/Neuro-2a measurements: the primary study used APEX-OOPS to profile RNA-associated proteins in HEK293T and supplies processed compartment data/PRIDE accessions. It could ground a future compartment hypothesis; it cannot repair missing matched neural signatures or provide RNA edit-response confirmation. Its article uses CC BY-NC-ND4.0. No coRBP files were downloaded here. [Primary coRBP source](https://www.nature.com/articles/s41467-026-71511-y).

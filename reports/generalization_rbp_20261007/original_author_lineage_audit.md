@@ -1,0 +1,315 @@
+# Original author lineage audit
+
+The admitted Mikl, Moffatt mutation and Astrocyte coefficients agree with their original author files. Every tested parent and mutant sequence also passes independent author-metadata reconstruction. This is source fidelity, not complete reproduction of the authors' measurement pipelines.
+
+No frozen table, model, eligibility rule or gate was changed. No stability, protected confirmation, nonadmitted numeric outcome or other Astrocyte endpoint was selected. Mikl and Moffatt CSV numeric reads use admitted row IDs plus exact Mikl WT barcode rows; Astrocyte XML extraction restricts numerical cells to admitted elements and exact WTs.
+
+## mikl
+
+```json
+{
+  "effects": {
+    "CAD": {
+      "delta_max_absolute_error": 8.881784197001252e-16,
+      "rows": 6889
+    },
+    "Neuro-2a": {
+      "delta_max_absolute_error": 8.881784197001252e-16,
+      "rows": 6892
+    }
+  },
+  "fixed_examples": [
+    {
+      "author_index": "16614",
+      "author_mutant": -0.415646453442367,
+      "author_parent_mean": -0.0271720934499151,
+      "canonical_delta": -0.3884743599924519,
+      "cell": "CAD",
+      "mutant_id": "mikl:16505:4ffe14feb8ecb817",
+      "mutant_sequence_sha256": "4ffe14feb8ecb817d8397ff8d0fe7c1f22df0c8061179a22cd2904a2ac17deb4",
+      "parent_rows_0based": [
+        2701
+      ],
+      "parent_sequence_sha256": "a067a0411286d389db7f926bf70d95e40a53dba69ab908ba29fc3309ce22b8de",
+      "source_row_0based": 16505
+    },
+    {
+      "author_index": "16616",
+      "author_mutant": -0.125058260806962,
+      "author_parent_mean": -0.3908398251476449,
+      "canonical_delta": 0.2657815643406829,
+      "cell": "CAD",
+      "mutant_id": "mikl:16507:61377ca2c2ca532b",
+      "mutant_sequence_sha256": "61377ca2c2ca532b30358ef509aa7d69eb9a2dd224073864904e6eaf9702776d",
+      "parent_rows_0based": [
+        2702
+      ],
+      "parent_sequence_sha256": "2cabf82a5e3f559ca3f1195cd11c6e74dcaea35262bfdee635e170aab7874ecc",
+      "source_row_0based": 16507
+    },
+    {
+      "author_index": "16606",
+      "author_mutant": 0.7461086334008041,
+      "author_parent_mean": 0.414080881399742,
+      "canonical_delta": 0.3320277520010621,
+      "cell": "CAD",
+      "mutant_id": "mikl:16497:b22a2f4d1579acc1",
+      "mutant_sequence_sha256": "b22a2f4d1579acc17906704e9c0cf4ab5a4090444c103744e35b25786ea9bda2",
+      "parent_rows_0based": [
+        2692
+      ],
+      "parent_sequence_sha256": "1f690e58579e71a8e690fc3e8f96ba0eee532a5ef56823eb9a71b9b83c73af74",
+      "source_row_0based": 16497
+    },
+    {
+      "author_index": "16615",
+      "author_mutant": 0.000699828927982744,
+      "author_parent_mean": 0.170586181667314,
+      "canonical_delta": -0.1698863527393313,
+      "cell": "Neuro-2a",
+      "mutant_id": "mikl:16506:3e307c6341982354",
+      "mutant_sequence_sha256": "3e307c6341982354aad9453a2f47682bd50e544d846632bb3647f76d9b5f41d3",
+      "parent_rows_0based": [
+        2701
+      ],
+      "parent_sequence_sha256": "a067a0411286d389db7f926bf70d95e40a53dba69ab908ba29fc3309ce22b8de",
+      "source_row_0based": 16506
+    },
+    {
+      "author_index": "16617",
+      "author_mutant": -0.0137912515921599,
+      "author_parent_mean": -0.107456514065287,
+      "canonical_delta": 0.0936652624731271,
+      "cell": "Neuro-2a",
+      "mutant_id": "mikl:16508:2606c55948c3fecf",
+      "mutant_sequence_sha256": "2606c55948c3fecfa1bdcb27d2748cd0bf29f3d02755737444064e4031bf0d97",
+      "parent_rows_0based": [
+        2702
+      ],
+      "parent_sequence_sha256": "2cabf82a5e3f559ca3f1195cd11c6e74dcaea35262bfdee635e170aab7874ecc",
+      "source_row_0based": 16508
+    },
+    {
+      "author_index": "16606",
+      "author_mutant": 0.45475096849549,
+      "author_parent_mean": 0.181895516025909,
+      "canonical_delta": 0.272855452469581,
+      "cell": "Neuro-2a",
+      "mutant_id": "mikl:16497:b22a2f4d1579acc1",
+      "mutant_sequence_sha256": "b22a2f4d1579acc17906704e9c0cf4ab5a4090444c103744e35b25786ea9bda2",
+      "parent_rows_0based": [
+        2692
+      ],
+      "parent_sequence_sha256": "1f690e58579e71a8e690fc3e8f96ba0eee532a5ef56823eb9a71b9b83c73af74",
+      "source_row_0based": 16497
+    }
+  ],
+  "nonfinite_author_parent_entries_counted_per_admitted_cell_candidate": {
+    "CAD": 0,
+    "Neuro-2a": 0
+  },
+  "numeric_author_rows_selected": 9642,
+  "numeric_columns": [
+    "logFC(neurite/soma) - CAD",
+    "logFC(neurite/soma) - Neuro-2a"
+  ],
+  "parent_barcode_construct_counts": {
+    "1": 6126,
+    "2": 643,
+    "3": 25,
+    "4": 107
+  },
+  "rows": 13781,
+  "source_metadata_rows": 47347,
+  "unique_mutants": 6901,
+  "unique_semantic_parent_and_150nt_insert": "PASS"
+}
+```
+
+## moffatt
+
+```json
+{
+  "WT_normalization_author_pipeline_reconstructed": false,
+  "effects": {
+    "Firefly": {
+      "maximum_absolute_error": 8.881784197001252e-16,
+      "rows": 2847
+    },
+    "GFP": {
+      "maximum_absolute_error": 8.881784197001252e-16,
+      "rows": 3902
+    }
+  },
+  "fixed_examples": [
+    {
+      "author_effect": 0.8038258505441308,
+      "canonical_delta": 0.8038258505441308,
+      "mutant_id": "cdc42_191:195_3+mut",
+      "mutant_sequence_sha256": "5c15f2f290e83007944f2b4e6f81a1f7417deb59a301454026e4c0bdcca1100e",
+      "original_csv_row_0based": 13108,
+      "parent_sequence_sha256": "139c4882daa7dfbf012c1a463d21076843e8e7d35ee52912c4dc135d78c1bdef",
+      "reporter": "GFP"
+    },
+    {
+      "author_effect": 2.5275244490658557,
+      "canonical_delta": 2.527524449065856,
+      "mutant_id": "gdf11_240:244_3+mut",
+      "mutant_sequence_sha256": "ddce2dec86dac1fa94116eb3334fbdb6c76ed70cc502739f4d2165d62cdf0803",
+      "original_csv_row_0based": 10712,
+      "parent_sequence_sha256": "36e73539d1acd4413e3e1072562098393ce68280e289b4e966e985a09a34ac5f",
+      "reporter": "GFP"
+    },
+    {
+      "author_effect": 2.4068741638035305,
+      "canonical_delta": 2.4068741638035305,
+      "mutant_id": "net1_176:180_3+mut",
+      "mutant_sequence_sha256": "132942bfe1dcf5e6e8ca2469b5710b5ae12924546b67b818ba6970c25ca27349",
+      "original_csv_row_0based": 9456,
+      "parent_sequence_sha256": "a99e16ae7c3711f8ed155495b69998e0a7ca017d377e53a2aaaa28b9fe672e89",
+      "reporter": "GFP"
+    },
+    {
+      "author_effect": 0.14291269564858716,
+      "canonical_delta": 0.1429126956485871,
+      "mutant_id": "cdc42_102:106_2+mut",
+      "mutant_sequence_sha256": "f9b071e686e3011c85ecd3397382dfc3be663cbcde21c7af3b387164f8a1fae7",
+      "original_csv_row_0based": 8689,
+      "parent_sequence_sha256": "139c4882daa7dfbf012c1a463d21076843e8e7d35ee52912c4dc135d78c1bdef",
+      "reporter": "Firefly"
+    },
+    {
+      "author_effect": -0.8758149712538957,
+      "canonical_delta": -0.8758149712538957,
+      "mutant_id": "gdf11_35:39_1+mut",
+      "mutant_sequence_sha256": "4582663d90d477bbd04a96047a5571fba0b3f9817b34524c263d4ca6830dcfc5",
+      "original_csv_row_0based": 8286,
+      "parent_sequence_sha256": "36e73539d1acd4413e3e1072562098393ce68280e289b4e966e985a09a34ac5f",
+      "reporter": "Firefly"
+    },
+    {
+      "author_effect": 1.3721233507430333,
+      "canonical_delta": 1.3721233507430333,
+      "mutant_id": "net1_140:144_1+mut",
+      "mutant_sequence_sha256": "a6b272ae7e67c68310f2cdd3f81ff71f5835b09ca8b542c9b4dba205c73c2fd4",
+      "original_csv_row_0based": 9781,
+      "parent_sequence_sha256": "a99e16ae7c3711f8ed155495b69998e0a7ca017d377e53a2aaaa28b9fe672e89",
+      "reporter": "Firefly"
+    }
+  ],
+  "limitation": "Author processed normalized coefficients copied correctly; mutation-library WT/control normalization and paired mutant-WT raw uncertainty not independently reproduced.",
+  "mutation_dictionary_exact_inserts_and_outcome_free_parent_consensus": "PASS",
+  "numeric_author_rows_selected": 4163,
+  "numeric_columns": [
+    "log2fc_gfp",
+    "log2fc_ff"
+  ],
+  "parents": 6,
+  "rows": 6749
+}
+```
+
+## astrocyte
+
+```json
+{
+  "exact_WT_design_join": "PASS",
+  "fixed_examples": [
+    {
+      "author_WT_coefficient": -0.243965892,
+      "author_mutant_coefficient": -0.005057129,
+      "canonical_delta": 0.238908763,
+      "mutant_design_excel_row": 605,
+      "mutant_id": "slc1a2.1_3281_3381_a100c",
+      "mutant_result_excel_row": 605,
+      "parent_id": "slc1a2.1_3281_3381",
+      "parent_result_excel_row": 604
+    },
+    {
+      "author_WT_coefficient": -0.340102494,
+      "author_mutant_coefficient": 0.066114237,
+      "canonical_delta": 0.406216731,
+      "mutant_design_excel_row": 1202,
+      "mutant_id": "slc1a2.1_3641_3721_a104c",
+      "mutant_result_excel_row": 1202,
+      "parent_id": "slc1a2.1_3641_3721",
+      "parent_result_excel_row": 1201
+    },
+    {
+      "author_WT_coefficient": -0.479386172,
+      "author_mutant_coefficient": -0.207491103,
+      "canonical_delta": 0.271895069,
+      "mutant_design_excel_row": 1798,
+      "mutant_id": "slc1a2.1_3781_3841_a101c",
+      "mutant_result_excel_row": 1798,
+      "parent_id": "slc1a2.1_3781_3841",
+      "parent_result_excel_row": 1797
+    },
+    {
+      "author_WT_coefficient": -0.306511689,
+      "author_mutant_coefficient": -0.284787083,
+      "canonical_delta": 0.0217246059999999,
+      "mutant_design_excel_row": 2393,
+      "mutant_id": "slc1a2.1_4181_4281_a101c",
+      "mutant_result_excel_row": 2393,
+      "parent_id": "slc1a2.1_4181_4281",
+      "parent_result_excel_row": 2392
+    },
+    {
+      "author_WT_coefficient": -0.316102515,
+      "author_mutant_coefficient": -0.59571821,
+      "canonical_delta": -0.279615695,
+      "mutant_design_excel_row": 2990,
+      "mutant_id": "sparc_1041_1121_a100c",
+      "mutant_result_excel_row": 2990,
+      "parent_id": "sparc_1041_1121",
+      "parent_result_excel_row": 2989
+    },
+    {
+      "author_WT_coefficient": -0.233336358,
+      "author_mutant_coefficient": -0.155027071,
+      "canonical_delta": 0.078309287,
+      "mutant_design_excel_row": 3586,
+      "mutant_id": "sparc_661_761_a101c",
+      "mutant_result_excel_row": 3586,
+      "parent_id": "sparc_661_761",
+      "parent_result_excel_row": 3585
+    },
+    {
+      "author_WT_coefficient": -0.303076351,
+      "author_mutant_coefficient": -0.114043782,
+      "canonical_delta": 0.189032569,
+      "mutant_design_excel_row": 4181,
+      "mutant_id": "sparc_901_981_a100c",
+      "mutant_result_excel_row": 4181,
+      "parent_id": "sparc_901_981",
+      "parent_result_excel_row": 4180
+    }
+  ],
+  "limitation": "Published per-element REML coefficients verified against exact WT; original raw-count median normalization and REML coefficient production not independently rerun.",
+  "maximum_absolute_errors": {
+    "delta": 2.220446049250313e-16,
+    "mutant": 9.71445146547012e-17,
+    "parent": 0.0
+  },
+  "numeric_author_rows_selected": 3991,
+  "numeric_columns": [
+    "snin_ctxin_logFC"
+  ],
+  "rows": 3984,
+  "worksheet_allowlist": [
+    "S6_mutagenesis_lib_seq_info",
+    "S8_lib2_results_summary"
+  ]
+}
+```
+
+## Remaining confidence gaps
+
+- SRLE not reopened; its original count-to-author-table chain remains partial
+- Matching author coefficients does not certify their estimator, causal interpretation, clone identity or complete reporter processing
+- Mikl author barcode-averaged parent coefficients and raw pseudocounted replicate differences are different estimators
+- Moffatt known omitted-WT note is sufficiency-specific; not evidence of a mutation-library error
+- Astro exact author REML processing and Moffatt mutation WT normalization remain unresolved
+
+Exact file and code hashes are recorded in `results/generalization_rbp_20261007/original_author_lineage_audit.json`. Metadata examples use the lexical first intervention in each sorted parent (first three parents per Mikl cell/Moffatt reporter; all seven Astrocyte parents), fixed independently of effect values. No result-driven example selection was used.

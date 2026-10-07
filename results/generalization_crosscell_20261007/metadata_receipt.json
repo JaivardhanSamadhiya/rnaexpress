@@ -1,0 +1,45 @@
+{
+  "components": 187,
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "gene_and_exact_allele_exclusions_checked": true,
+  "original_alleles_retained": true,
+  "outcome_columns_read": false,
+  "project_fits_run": false,
+  "row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "rows": 13781,
+  "source_only_inner_folds_checked": true,
+  "status": "PASS",
+  "tasks": {
+    "CAD_to_N2A": [
+      "CAD",
+      "Neuro-2a"
+    ],
+    "N2A_to_CAD": [
+      "Neuro-2a",
+      "CAD"
+    ]
+  },
+  "tracks": [
+    "simple",
+    "base",
+    "raw",
+    "structure",
+    "lookup",
+    "bert",
+    "combined"
+  ],
+  "widths": {
+    "base": 246,
+    "bert": 502,
+    "combined": 518,
+    "lookup": 502,
+    "raw": 251,
+    "simple": 102,
+    "structure": 262
+  }
+}
