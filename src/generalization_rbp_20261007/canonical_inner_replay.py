@@ -12,6 +12,9 @@ import importlib
 import json
 import os
 
+# Original engines import this bootstrap before NumPy/Pandas. Preserve that
+# library resolution before importing the additive legacy arithmetic helpers.
+from src.research_20260921 import common as _research_runtime_bootstrap
 from .inner_replay import (
     np, pd, checked_model, ids_hash, reconstructed_purge, selected_index,
     check_checkpoint,
@@ -250,7 +253,12 @@ def run(mode):
         "maximum_independent_arithmetic_error": maximum_error, "score_tolerance": SCORE_ATOL,
         "regret_tolerance": REGRET_ATOL, "lexical_ties_use": "canonical original scorer, no epsilon score ties",
         "numerical_threads": 1, "batch_rows_independent_only": BATCH_ROWS, "prefit_manifest_sha256": prefit_sha,
+        "runtime_import_order": "Original research bootstrap before NumPy/Pandas",
+        "loaded_numeric_libraries": {"numpy_version": np.__version__, "numpy_file": str(Path(np.__file__).resolve()),
+            "numpy_init_sha256": common.sha256(np.__file__), "pandas_version": pd.__version__,
+            "pandas_file": str(Path(pd.__file__).resolve()), "pandas_init_sha256": common.sha256(pd.__file__)},
         "replay_source_sha256": common.sha256(helper), "legacy_helpers_sha256": common.sha256(legacy_helper),
+        "runtime_bootstrap_sha256": common.sha256(_research_runtime_bootstrap.__file__),
         "replay_source_pinned_in_target_prefit_manifest": manifest["files"].get(helper.relative_to(common.ROOT).as_posix()) == common.sha256(helper),
         "parsed_model_input_provenance_scope": "Original target freeze and saved checkpoint identity; no retroactive creation-time certificate added",
         "files": files, "inner": records, "outer": outer_records, "selections": selections,

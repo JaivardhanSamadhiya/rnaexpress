@@ -1,0 +1,20 @@
+{
+  "files": {
+    "reports/generalization_rbp_20261007/canonical_inner_replay_plan.md": "69d5ecb3734ad90c95e107b862826af89c71b598aaac123afdb375b6c113c034",
+    "src/generalization_rbp_20261007/canonical_inner_replay.py": "64093f096b37d6df1e24d3d0685be6b079156f66631986010bd6f40ce1683f70",
+    "src/generalization_rbp_20261007/inner_replay.py": "79db2226c72546a71ff155cc155a18285ea74b0092847862b29f187c0f989454",
+    "src/generalization_rbp_20261007/test_canonical_inner_replay.py": "183495e0f69c962cced23ed53e5f6cbceb2c92fd05f13991fe97767f2268785e",
+    "src/research_20260921/common.py": "a3ca8380bd8c624209dab319ed212fc3b88a6afa0fff618ae03dac1b44028732"
+  },
+  "models_fit": 0,
+  "numpy_file": "D:\\rnaexpress\\data\\interim\\mechanism_v2\\runtime\\numpy\\__init__.py",
+  "numpy_version": "1.26.4",
+  "pandas_file": "D:\\rnaexpress\\data\\interim\\mechanism_v2\\runtime\\pandas\\__init__.py",
+  "pandas_version": "2.2.3",
+  "project_model_replay": false,
+  "project_outcomes_read": false,
+  "runtime_import_order": "Original research bootstrap before NumPy/Pandas",
+  "scope": "Synthetic canonical-shape arithmetic, ties, polarity, choice, weighting, original allele purge and fixed selection only",
+  "status": "PASS",
+  "tests": 6
+}
