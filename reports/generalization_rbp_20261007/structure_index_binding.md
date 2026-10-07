@@ -1,0 +1,3 @@
+# Additive structure index binding
+
+The frozen accessible motif producer is unchanged. Run its additive `production_verified` wrapper after the independently committed next-generation structure audit passes. Before and after accessible extraction, it validates all 18,220 source files against the immutable observed-byte index, binds the index and audit hashes, and records a separate receipt. This strengthens source-byte correspondence while explicitly retaining the absence of historical per-file creation receipts. The RBP prefit freeze includes this wrapper, plan and resulting receipt before any comparative fitting.
