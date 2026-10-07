@@ -1,0 +1,8 @@
+{
+  "biological_inference_performed": false,
+  "cause": "Existing tokenizers 0.19.1 lacked a CPython 3.12 native extension",
+  "error": "ModuleNotFoundError: No module named 'tokenizers.tokenizers'",
+  "repair": "Official CPython 3.12 wheel extracted to new namespace runtime only",
+  "stage": "AutoTokenizer import, before encoder construction and inference",
+  "supervised_fitting_performed": false
+}

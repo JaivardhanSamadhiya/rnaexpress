@@ -1,0 +1,56 @@
+{
+  "RNA_extension_path": "D:\\rnaexpress\\data\\interim\\mechanism_v2\\runtime\\RNA\\_RNA.cp312-win_amd64.pyd",
+  "RNA_extension_sha256": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+  "RNA_module_path": "D:\\rnaexpress\\data\\interim\\mechanism_v2\\runtime\\RNA\\__init__.py",
+  "RNA_module_sha256": "57393341520925355f766c68dea057ebf699317b99bf84f802344522c493327d",
+  "RNA_version": "2.7.2",
+  "benchmark_role": "SYNTHETIC_FEATURE_QA_AND_TIMING_ONLY",
+  "cached_summary_memory_bytes_estimate": 78577488,
+  "code_sha256": {
+    "benchmark_structure.py": "d8cdfa6db6670fe17065336066eb9b9ff6a9e345cc18a34230db6f6ccd983010",
+    "bert_backend_probe.py": "66ecefe00f2cbd02b96375e9588625ff86c3f653f41efa1daaea36f8b079ac18",
+    "bert_provenance.py": "33b6b4304f200f5086732b6a3ea632df0b9468f277e7f6b018c4619f8010565d",
+    "route_structure.py": "88b3140e0aa1aebd6c87580e740ac44c5c33a6369ebda4c6e517a58101f3f6cf",
+    "test_structure.py": "db5d17076546f8c448a06adf2b10e77bd7356c9cc5b6c7c7d502fb26fd2a9e58"
+  },
+  "config_sha256": "f208684bb5a08795c2783bfb6b2b88dc76eeee12c7851514b1efb17a35256fd5",
+  "context_metadata_sha256": "e7ee4fea706d3b7e611f63d491304cfe835efcd3c9b6a9a4f0282abf384f725c",
+  "estimate_limit": "timing extrapolation from ten synthetic alleles per length; not guaranteed actual data runtime or total Python feature/persistence cost",
+  "full_core_features_built": false,
+  "maximum_seconds_by_length": {
+    "150": 0.1782493999999133,
+    "190": 0.30264549999992596,
+    "260": 0.5432673999966937,
+    "46": 0.03132019999611657
+  },
+  "median_seconds_by_length": {
+    "150": 0.16172115000154008,
+    "190": 0.255234449999989,
+    "260": 0.5143016000001808,
+    "46": 0.02872830000342219
+  },
+  "models_fit": 0,
+  "outcomes_used": false,
+  "previous_prefit_files_unchanged": 45,
+  "protected_outcomes_opened": false,
+  "serial_fold_time_median_seconds_estimate": 4690.9981346675995,
+  "serial_fold_time_sample_maximum_seconds_estimate": 5156.907478682231,
+  "source_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "status": "PASS",
+  "synthetic_alleles": 40,
+  "synthetic_lengths_nt": [
+    46,
+    150,
+    190,
+    260
+  ],
+  "synthetic_pairs": 20,
+  "tests_passed": 4,
+  "unique_alleles_by_length": {
+    "150": 9318,
+    "190": 3991,
+    "260": 4169,
+    "46": 742
+  },
+  "unique_encoded_core_alleles": 18220
+}

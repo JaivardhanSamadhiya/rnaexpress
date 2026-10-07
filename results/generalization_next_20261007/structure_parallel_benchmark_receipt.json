@@ -1,0 +1,63 @@
+{
+  "benchmark_worker_counts": [
+    2,
+    4
+  ],
+  "comparisons": [
+    {
+      "exact_array_and_energy_parity": true,
+      "maximum_absolute_difference": 0.0,
+      "median_fold_seconds_by_length_under_contention": {
+        "150": 0.19141474999923958,
+        "190": 0.30332985000131885,
+        "260": 0.6242228000010073,
+        "46": 0.03429264999795123
+      },
+      "speedup_vs_current_serial": 1.491600953749858,
+      "sum_worker_peak_working_set_bytes": 109281280,
+      "wall_seconds_including_spawn": 6.593718900003296,
+      "weighted_core_fold_seconds_divided_by_workers_estimate": 2811.0110356754285,
+      "worker_peak_working_set_bytes": {
+        "26152": 54697984,
+        "716": 54583296
+      },
+      "workers": 2
+    },
+    {
+      "exact_array_and_energy_parity": true,
+      "maximum_absolute_difference": 0.0,
+      "median_fold_seconds_by_length_under_contention": {
+        "150": 0.22173634999489877,
+        "190": 0.33865044999765814,
+        "260": 0.6617780000051425,
+        "46": 0.04182654999749502
+      },
+      "speedup_vs_current_serial": 2.3435216936519505,
+      "sum_worker_peak_working_set_bytes": 217595904,
+      "wall_seconds_including_spawn": 4.196759700003895,
+      "weighted_core_fold_seconds_divided_by_workers_estimate": 1551.9202593281752,
+      "worker_peak_working_set_bytes": {
+        "13960": 54181888,
+        "16608": 54431744,
+        "17244": 54300672,
+        "8724": 54681600
+      },
+      "workers": 4
+    }
+  ],
+  "config_sha256": "8f78a2adf6cb27492cac4be2c852bddfd45d230bea6045d93748ee2da6cfdba8",
+  "current_serial_wall_seconds": 9.83519740000338,
+  "estimate_limit": "40 synthetic folds; weighted medians assume balanced scheduling and exclude per-file writes/validation; not guaranteed data runtime",
+  "fixed_production_workers": 2,
+  "full_core_folds": 0,
+  "models_fit": 0,
+  "parallel_cache_code_sha256": "6ead62e0f6336e41051b7367b6b6d33a16145330f6307cc135f9a667f650785e",
+  "parent_peak_working_set_bytes": 133574656,
+  "previous_prefit_files_unchanged": 45,
+  "role": "SYNTHETIC_SPAWN_PARALLEL_BENCHMARK_ONLY",
+  "route_code_sha256": "07fcc17553f7a48160b2b47c7c6e265707941659431f22dac79dab3911d02548",
+  "status": "PASS",
+  "synthetic_alleles": 40,
+  "tests_passed": 6,
+  "worker_threads": 1
+}

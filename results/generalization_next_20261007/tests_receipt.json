@@ -1,0 +1,19 @@
+{
+  "code_hashes": {
+    "test_bert": "d3bb2598a994316f54eb189d57b058ad0815afabbcc0c38bf5090c0992d83e54",
+    "test_common": "d18cd67ba8f6762bc71488f8e6d24ae479a542d84063eaac7fe25808b1023537",
+    "test_structure": "e6dfc9936b4d43648118adba89c28c6f6e8b50885fb387a6ea0bfeb1d3985f9d",
+    "test_structure_cache": "ae6d1b6d9b1c2137d9240e17e671e5cb98436bda16b2a84191b500a97a440409"
+  },
+  "modules": [
+    "test_common",
+    "test_structure",
+    "test_structure_cache",
+    "test_bert"
+  ],
+  "research_outcomes_used": false,
+  "runner": "stdlib unittest; bundled Python lacks pytest",
+  "status": "PASS",
+  "tests": 14,
+  "unfiltered_pytest": false
+}

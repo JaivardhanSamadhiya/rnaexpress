@@ -1,0 +1,321 @@
+{
+  "estimate_limitations": "Synthetic CPU estimate excludes biological row assembly, checkpoint initialization, IO, and concurrent-load changes; add 20% planning margin",
+  "estimated_core_inference_seconds": 3921.960654864636,
+  "fixed_admission": "all hidden values allclose to singleton two-thread reference rtol=2e-5 atol=2e-5",
+  "repetitions": 3,
+  "roster_sha256": "2e27544e9d3d03b4d1e094236a5aa82f79dfb696a3f2bc6f64443d960e0dc6c8",
+  "scope": "Synthetic-only batching admission; no supervised fitting or biological inference",
+  "selected_batch_size": 8,
+  "selected_threads": 4,
+  "selection": "Lowest estimated inference runtime among numerically admitted settings, fixed ties by threads then batch",
+  "settings": [
+    {
+      "batch_size": 1,
+      "core_inference_seconds_estimate": 7804.685136473272,
+      "initialization_seconds": 2.5151696000029915,
+      "length_timings": {
+        "150": {
+          "median_seconds_per_allele": 0.35441801249999116,
+          "repeat_seconds": [
+            2.8434672000003047,
+            2.756519800001115,
+            2.8353440999999293
+          ],
+          "synthetic_alleles": 8
+        },
+        "190": {
+          "median_seconds_per_allele": 0.45424718749927706,
+          "repeat_seconds": [
+            3.6339774999942165,
+            3.6531900000045425,
+            3.6247871999948984
+          ],
+          "synthetic_alleles": 8
+        },
+        "260": {
+          "median_seconds_per_allele": 0.625013412500266,
+          "repeat_seconds": [
+            5.04200149999815,
+            4.959596799999417,
+            5.000107300002128
+          ],
+          "synthetic_alleles": 8
+        },
+        "46": {
+          "median_seconds_per_allele": 0.11271786250017612,
+          "repeat_seconds": [
+            1.0161972000059905,
+            0.901742900001409,
+            0.8932799999965937
+          ],
+          "synthetic_alleles": 8
+        }
+      },
+      "max_hidden_abs_error": 0.0,
+      "memory": {
+        "peak_rss": 1058578432,
+        "rss": 1058578432
+      },
+      "numerical_pass": true,
+      "threads": 2
+    },
+    {
+      "batch_size": 4,
+      "core_inference_seconds_estimate": 7656.979768029274,
+      "initialization_seconds": 2.5151696000029915,
+      "length_timings": {
+        "150": {
+          "median_seconds_per_allele": 0.34371126250061934,
+          "repeat_seconds": [
+            2.602725000004284,
+            2.7496901000049547,
+            2.780124500000966
+          ],
+          "synthetic_alleles": 8
+        },
+        "190": {
+          "median_seconds_per_allele": 0.4484414124999603,
+          "repeat_seconds": [
+            3.6023799999966286,
+            3.5875312999996822,
+            3.5443187999990187
+          ],
+          "synthetic_alleles": 8
+        },
+        "260": {
+          "median_seconds_per_allele": 0.6200180124997132,
+          "repeat_seconds": [
+            4.748866599999019,
+            4.960144099997706,
+            4.990545900000143
+          ],
+          "synthetic_alleles": 8
+        },
+        "46": {
+          "median_seconds_per_allele": 0.10740357499980746,
+          "repeat_seconds": [
+            0.8592285999984597,
+            0.8484427000003052,
+            0.8619189000019105
+          ],
+          "synthetic_alleles": 8
+        }
+      },
+      "max_hidden_abs_error": 0.0,
+      "memory": {
+        "peak_rss": 1127985152,
+        "rss": 1121587200
+      },
+      "numerical_pass": true,
+      "threads": 2
+    },
+    {
+      "batch_size": 8,
+      "core_inference_seconds_estimate": 7519.651076102295,
+      "initialization_seconds": 2.5151696000029915,
+      "length_timings": {
+        "150": {
+          "median_seconds_per_allele": 0.34574828750010056,
+          "repeat_seconds": [
+            2.799812400000519,
+            2.7659863000008045,
+            2.7027622000023257
+          ],
+          "synthetic_alleles": 8
+        },
+        "190": {
+          "median_seconds_per_allele": 0.4344523625004513,
+          "repeat_seconds": [
+            3.5506469999963883,
+            3.47561890000361,
+            3.339868499999284
+          ],
+          "synthetic_alleles": 8
+        },
+        "260": {
+          "median_seconds_per_allele": 0.595991687499918,
+          "repeat_seconds": [
+            4.834149100002833,
+            4.767933499999344,
+            4.610441700002411
+          ],
+          "synthetic_alleles": 8
+        },
+        "46": {
+          "median_seconds_per_allele": 0.10698087499986286,
+          "repeat_seconds": [
+            0.8578933000026154,
+            0.8463934999963385,
+            0.8558469999989029
+          ],
+          "synthetic_alleles": 8
+        }
+      },
+      "max_hidden_abs_error": 0.0,
+      "memory": {
+        "peak_rss": 1181970432,
+        "rss": 1167437824
+      },
+      "numerical_pass": true,
+      "threads": 2
+    },
+    {
+      "batch_size": 1,
+      "core_inference_seconds_estimate": 4491.29691266374,
+      "initialization_seconds": 2.3472382000036305,
+      "length_timings": {
+        "150": {
+          "median_seconds_per_allele": 0.19697386250027193,
+          "repeat_seconds": [
+            1.5033122000022558,
+            1.636374399997294,
+            1.5757909000021755
+          ],
+          "synthetic_alleles": 8
+        },
+        "190": {
+          "median_seconds_per_allele": 0.2635082750002766,
+          "repeat_seconds": [
+            2.108066200002213,
+            1.977842899999814,
+            2.1621464999989257
+          ],
+          "synthetic_alleles": 8
+        },
+        "260": {
+          "median_seconds_per_allele": 0.3737357374993735,
+          "repeat_seconds": [
+            2.989885899994988,
+            3.559368900001573,
+            2.6986281000063173
+          ],
+          "synthetic_alleles": 8
+        },
+        "46": {
+          "median_seconds_per_allele": 0.06216798750028829,
+          "repeat_seconds": [
+            0.54155560000072,
+            0.4973439000023063,
+            0.49705030000041006
+          ],
+          "synthetic_alleles": 8
+        }
+      },
+      "max_hidden_abs_error": 0.0,
+      "memory": {
+        "peak_rss": 1181970432,
+        "rss": 1064292352
+      },
+      "numerical_pass": true,
+      "threads": 4
+    },
+    {
+      "batch_size": 4,
+      "core_inference_seconds_estimate": 4131.83502287109,
+      "initialization_seconds": 2.3472382000036305,
+      "length_timings": {
+        "150": {
+          "median_seconds_per_allele": 0.19386767499963753,
+          "repeat_seconds": [
+            1.5509413999971002,
+            1.6134728999968502,
+            1.493151399998169
+          ],
+          "synthetic_alleles": 8
+        },
+        "190": {
+          "median_seconds_per_allele": 0.23469401249985822,
+          "repeat_seconds": [
+            2.0582128999958513,
+            1.8775520999988657,
+            1.8657472999984748
+          ],
+          "synthetic_alleles": 8
+        },
+        "260": {
+          "median_seconds_per_allele": 0.3230753124998955,
+          "repeat_seconds": [
+            2.5918998999986798,
+            2.584602499999164,
+            2.5142084999970393
+          ],
+          "synthetic_alleles": 8
+        },
+        "46": {
+          "median_seconds_per_allele": 0.056349387500631565,
+          "repeat_seconds": [
+            0.4504118999975617,
+            0.4507951000050525,
+            0.4598595999996178
+          ],
+          "synthetic_alleles": 8
+        }
+      },
+      "max_hidden_abs_error": 0.0,
+      "memory": {
+        "peak_rss": 1181970432,
+        "rss": 1125568512
+      },
+      "numerical_pass": true,
+      "threads": 4
+    },
+    {
+      "batch_size": 8,
+      "core_inference_seconds_estimate": 3921.960654864636,
+      "initialization_seconds": 2.3472382000036305,
+      "length_timings": {
+        "150": {
+          "median_seconds_per_allele": 0.1766743875004977,
+          "repeat_seconds": [
+            1.438653199998953,
+            1.4133951000039815,
+            1.4121876999997767
+          ],
+          "synthetic_alleles": 8
+        },
+        "190": {
+          "median_seconds_per_allele": 0.2279028875000222,
+          "repeat_seconds": [
+            1.751939499998116,
+            1.8794204000005266,
+            1.8232231000001775
+          ],
+          "synthetic_alleles": 8
+        },
+        "260": {
+          "median_seconds_per_allele": 0.3174774499993873,
+          "repeat_seconds": [
+            2.4843546000047354,
+            2.5398195999950985,
+            2.5421529000013834
+          ],
+          "synthetic_alleles": 8
+        },
+        "46": {
+          "median_seconds_per_allele": 0.057391912499952014,
+          "repeat_seconds": [
+            0.4591352999996161,
+            0.4391892999992706,
+            0.47070820000226377
+          ],
+          "synthetic_alleles": 8
+        }
+      },
+      "max_hidden_abs_error": 0.0,
+      "memory": {
+        "peak_rss": 1185951744,
+        "rss": 1171562496
+      },
+      "numerical_pass": true,
+      "threads": 4
+    }
+  ],
+  "status": "PASS",
+  "unique_alleles_by_length": {
+    "46": 742,
+    "150": 9318,
+    "190": 3991,
+    "260": 4169
+  },
+  "unique_core_alleles": 18220
+}

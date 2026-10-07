@@ -1,0 +1,52 @@
+{
+  "GU_closures": true,
+  "GU_pairs": true,
+  "SRLE_input": "certified20ntleft+exact6mer+certified20ntright,46nt; not complete mature HBB",
+  "SRLE_metadata_sha256": "e7ee4fea706d3b7e611f63d491304cfe835efcd3c9b6a9a4f0282abf384f725c",
+  "ViennaRNA_version": "2.7.2",
+  "additional_columns": 11,
+  "base_columns": 246,
+  "circular": false,
+  "dangles": 2,
+  "feature_names": [
+    "delta_changed_site_mean_unpaired",
+    "delta_changed_site_min_unpaired",
+    "delta_changed_site_max_unpaired",
+    "delta_neighborhood_mean_unpaired",
+    "delta_changed_site_mean_pairing_entropy_bits",
+    "delta_changed_site_mean_expected_pairing_distance_fraction",
+    "delta_neighborhood_accessible_AG_nucleotide_fraction",
+    "delta_neighborhood_accessible_AG_dinucleotide_density",
+    "delta_neighborhood_accessible_GA_dinucleotide_density",
+    "delta_neighborhood_accessible_CCTCCC_density",
+    "delta_neighborhood_max_CCTCCC_accessibility"
+  ],
+  "feature_neighborhood": "union of corresponding-coordinate changed sites +/-10nt; truncate to exact input bounds; no padding",
+  "maximum_pair_span": "unrestricted within exact available input",
+  "minimum_loop_size": 3,
+  "motif_accessibility": "arithmetic mean of per-base unpaired marginals across the complete motif; not joint opening probability",
+  "normalization": "actual neighborhood nucleotide count or eligible fully-contained motif-start count",
+  "other_input": "exact admitted insert sequence, not fabricated whole reporter",
+  "outcome_inputs": false,
+  "parameter_set": "explicit RNA Turner2004",
+  "partition_ensemble": "global equilibrium partition function of exact insert/local construction sequence",
+  "physical_folds_alone_claim": false,
+  "salt_M": 1.021,
+  "selection": "future source-only nested selection; no target-label tuning",
+  "supervised_configurations": [
+    {
+      "id": "structure_l2_005",
+      "penalty": 0.005
+    },
+    {
+      "id": "structure_l2_05",
+      "penalty": 0.05
+    },
+    {
+      "id": "structure_l2_5",
+      "penalty": 0.5
+    }
+  ],
+  "temperature_C": 37.0,
+  "version": "local_ensemble_accessibility_v1"
+}

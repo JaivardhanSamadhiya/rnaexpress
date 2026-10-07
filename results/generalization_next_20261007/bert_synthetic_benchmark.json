@@ -1,0 +1,158 @@
+{
+  "backend": "OpenVINO CPU, f32 inference hint, two threads",
+  "checkpoint_sha256": "7aca71823ab74771006be1030d9e7239220bba40a16858575929a02e6d2a7471",
+  "devices_available": [
+    "CPU",
+    "GPU"
+  ],
+  "features": "1536 native dimensions: global nucleotide-token mean allele delta + affected3mer token mean delta",
+  "full_core_18220_alleles_seconds_naive_estimate": 6177.027301004542,
+  "hidden_batch_padding_max_abs_error": 2.053380012512207e-05,
+  "initialization_seconds": 11.888166099997761,
+  "input_port_aliases": [
+    [
+      "input_ids"
+    ],
+    [
+      "29",
+      "attention_mask"
+    ],
+    [
+      "token_type_ids"
+    ]
+  ],
+  "ir_bin_sha256": "63e177acf4dd90bff703cb67b719eae8f3ed2afb130f3399d46ead32980b4680",
+  "ir_constant_element_types": {
+    "f32": 212,
+    "i32": 28,
+    "i64": 104
+  },
+  "ir_xml_sha256": "a7783057679ab1f4259e043c3c36e22bf8a9100dd20cd0ab2a0acc6809d29d34",
+  "lengths": [
+    46,
+    150,
+    190,
+    260
+  ],
+  "openvino_version": "2026.3.1-22476-759c5a6ab8c-releases/2026/3",
+  "padding_pass": true,
+  "paired_delta_pass": true,
+  "paired_feature_batch_max_abs_error": 4.351139068603516e-06,
+  "repeat_hidden_max_abs_error": 0.0,
+  "scope": "synthetic resource/inference benchmark; no biological outcomes or supervised fitting",
+  "singleton_allele_timings": [
+    {
+      "allele": 0,
+      "length": 46,
+      "seconds": 0.2817813000001479
+    },
+    {
+      "allele": 1,
+      "length": 46,
+      "seconds": 0.1106900000013411
+    },
+    {
+      "allele": 2,
+      "length": 46,
+      "seconds": 0.1115946999998414
+    },
+    {
+      "allele": 3,
+      "length": 46,
+      "seconds": 0.11048590000427794
+    },
+    {
+      "allele": 4,
+      "length": 46,
+      "seconds": 0.11210050000227056
+    },
+    {
+      "allele": 5,
+      "length": 46,
+      "seconds": 0.1123585000023013
+    },
+    {
+      "allele": 6,
+      "length": 46,
+      "seconds": 0.11536360000172863
+    },
+    {
+      "allele": 7,
+      "length": 46,
+      "seconds": 0.10866749999695458
+    },
+    {
+      "allele": 8,
+      "length": 150,
+      "seconds": 0.37212279999948805
+    },
+    {
+      "allele": 9,
+      "length": 150,
+      "seconds": 0.3746742000002996
+    },
+    {
+      "allele": 10,
+      "length": 150,
+      "seconds": 0.37256360000174027
+    },
+    {
+      "allele": 11,
+      "length": 150,
+      "seconds": 0.35370830000465503
+    },
+    {
+      "allele": 12,
+      "length": 190,
+      "seconds": 0.4652466000043205
+    },
+    {
+      "allele": 13,
+      "length": 190,
+      "seconds": 0.46274009999615373
+    },
+    {
+      "allele": 14,
+      "length": 190,
+      "seconds": 0.43128299999807496
+    },
+    {
+      "allele": 15,
+      "length": 190,
+      "seconds": 0.40027899999404326
+    },
+    {
+      "allele": 16,
+      "length": 260,
+      "seconds": 0.6832180999990669
+    },
+    {
+      "allele": 17,
+      "length": 260,
+      "seconds": 0.6161324999993667
+    },
+    {
+      "allele": 18,
+      "length": 260,
+      "seconds": 0.5817108999981428
+    },
+    {
+      "allele": 19,
+      "length": 260,
+      "seconds": 0.6037699000007706
+    }
+  ],
+  "srle_context_metadata_sha256": "e7ee4fea706d3b7e611f63d491304cfe835efcd3c9b6a9a4f0282abf384f725c",
+  "srle_scope": "author-certified local 20+6+20 synthesis window, not entire mature RNA",
+  "status": "PASS",
+  "synthetic_alleles": 20,
+  "synthetic_pairs": 10,
+  "tokenizer_hashes": {
+    "config.json": "0c97fdab625e5de0b5c9dc4ca8c60272dba85e5169fd62367667c1043dc5d035",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "tokenizer_config.json": "ec70da9a619641c3b56e62cb949b8a07f2fdafdb8389b2c72649fb235a5580b3",
+    "vocab.txt": "ad559eeecdffde808141184b9ea77f9f71597e11224fc33355d0ca380dd90bb0"
+  },
+  "torch_cross_backend_equivalence": "NOT_RETESTED_TORCH_UNAVAILABLE",
+  "total_singleton_inference_seconds": 6.780491000004986
+}
