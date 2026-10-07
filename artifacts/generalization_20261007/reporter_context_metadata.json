@@ -1,0 +1,208 @@
+{
+  "biological_fitting": false,
+  "counter_source": {
+    "path": "src/research_20260921/raw_counts.py",
+    "patterns": [
+      "ATCACTAAGC([ACGT]{6})ATCATAATCA",
+      "TGATTATGAT([ACGT]{6})GCTTAGTGAT"
+    ],
+    "raw_reads_reopened": false,
+    "sha256": "8e2c3078762f3c19de31c2be1138f3883316f0ebb56a1ba736b211c14bc0f766"
+  },
+  "local_design": {
+    "certification_scope": "author oligo design and overlap orientation; not complete mature reporter RNA",
+    "downstream_linearization_primer_overlap_match": true,
+    "existing_counter_10nt_flank_match": true,
+    "genomic_HBB_reverse_primer_overlap_match": true,
+    "left_20nt_dna": "GCCCACAAGTATCACTAAGC",
+    "length_nt": 46,
+    "randomized_insert_length": 6,
+    "reverse_oligo_complement_match": true,
+    "right_20nt_dna": "ATCATAATCAGCCATACCAC",
+    "rna_template": "GCCCACAAGUAUCACUAAGCNNNNNNAUCAUAAUCAGCCAUACCAC",
+    "template_dna": "GCCCACAAGTATCACTAAGCNNNNNNATCATAATCAGCCATACCAC"
+  },
+  "metadata_correction": {
+    "historical_annotation_modified": false,
+    "historical_canonical_annotation": "MCF7",
+    "official_screen_cell": "HEK293T",
+    "per_clone_splice_state_certified": false,
+    "screen_construct": "article describes intron-containing HBB for subsequent main experiments"
+  },
+  "new_downloads": false,
+  "opened_supplement_members": [
+    "Supplement Table1.xlsx",
+    "Supplement Table2.xlsx"
+  ],
+  "outcome_workbooks_opened": false,
+  "primer_metadata": {
+    "Gibson_6mer_Random_F": {
+      "author_description": "For constructing random 6-mer sequences flanked by homologous arms on both ends.",
+      "excel_row": 24,
+      "sequence_5prime_to_3prime_dna": "GCCCACAAGTATCACTAAGCNNNNNNATCATAATCAGCCATACCAC",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "Gibson_6mer_Random_R": {
+      "author_description": "For constructing random 6-mer sequences flanked by homologous arms on both ends.",
+      "excel_row": 25,
+      "sequence_5prime_to_3prime_dna": "GTGGTATGGCTGATTATGATNNNNNNGCTTAGTGATACTTGTGGGC",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "HBB Homo_Arm Primers F": {
+      "author_description": "For adding the upstream homologous arm to the HBB DNA sequence.",
+      "excel_row": 9,
+      "sequence_5prime_to_3prime_dna": "GCTTCGAATTCTGCAGTCGAACATTTGCTTCTGACACAACTGTGT",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "HBB Homo_Arm Primers R": {
+      "author_description": "For adding the downstream homologous arm to the HBB DNA sequence.",
+      "excel_row": 10,
+      "sequence_5prime_to_3prime_dna": "GATCTAGAGTCGCGGCCGCTGCTTAGTGATACTTGTGGGCCAG",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "HBB Primers F": {
+      "author_description": "For obtaining unspliced HBB DNA sequences with introns from the human genome.",
+      "excel_row": 3,
+      "sequence_5prime_to_3prime_dna": "ACATTTGCTTCTGACACAACTGTGT",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "HBB Primers R": {
+      "author_description": "For obtaining unspliced HBB DNA sequences with introns from the human genome.",
+      "excel_row": 4,
+      "sequence_5prime_to_3prime_dna": "GCTTAGTGATACTTGTGGGCCAG",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "HBB_qPCR F": {
+      "author_description": "RT-qPCR primer",
+      "excel_row": 9,
+      "sequence_5prime_to_3prime_dna": "AGAAGTCTGCCGTTACTGCC",
+      "source_member": "Supplement Table2.xlsx",
+      "source_sheet": "Table S2"
+    },
+    "HBB_qPCR R": {
+      "author_description": "RT-qPCR primer",
+      "excel_row": 10,
+      "sequence_5prime_to_3prime_dna": "AGCCTTCACCTTAGGGTTGC",
+      "source_member": "Supplement Table2.xlsx",
+      "source_sheet": "Table S2"
+    },
+    "N1 linear Primers F": {
+      "author_description": "For PCR linearization of the N1 plasmid.",
+      "excel_row": 15,
+      "sequence_5prime_to_3prime_dna": "AGCGGCCGCGACTCTAGA",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "N1 linear Primers R": {
+      "author_description": "For PCR linearization of the N2 plasmid.",
+      "excel_row": 16,
+      "sequence_5prime_to_3prime_dna": "TCGACTGCAGAATTCGAAGCT",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "N1-HBB linear Primers F": {
+      "author_description": "For PCR linearization of the N1-HBB plasmid.",
+      "excel_row": 21,
+      "sequence_5prime_to_3prime_dna": "ATCATAATCAGCCATACCACATTTGT",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "N1-HBB linear Primers R": {
+      "author_description": "For PCR linearization of the N1-HBB plasmid.",
+      "excel_row": 22,
+      "sequence_5prime_to_3prime_dna": "GCTTAGTGATACTTGTGGGCCAG",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "N1-HBB-spliced linear Primers R": {
+      "author_description": "For PCR linearization of the N1-HBB(spliced) plasmid.",
+      "excel_row": 23,
+      "sequence_5prime_to_3prime_dna": "TTAGTGATACTTGTGGGCCAGGG",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "eGFP_qPCR F": {
+      "author_description": "RT-qPCR primer",
+      "excel_row": 11,
+      "sequence_5prime_to_3prime_dna": "ATCATGGCCGACAAGCAGAA",
+      "source_member": "Supplement Table2.xlsx",
+      "source_sheet": "Table S2"
+    },
+    "eGFP_qPCR R": {
+      "author_description": "RT-qPCR primer",
+      "excel_row": 12,
+      "sequence_5prime_to_3prime_dna": "CTCGATGTTGTGGCGGATCT",
+      "source_member": "Supplement Table2.xlsx",
+      "source_sheet": "Table S2"
+    },
+    "spliced HBB Homo_Arm Primers F": {
+      "author_description": "For adding the upstream homologous arm to the HBB cDNA sequence.",
+      "excel_row": 11,
+      "sequence_5prime_to_3prime_dna": "GCTTCGAATTCTGCAGTCGAACATTTGCTTCTGACACAACTGTGTTC",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "spliced HBB Homo_Arm Primers R": {
+      "author_description": "For adding the downstream homologous arm to the HBB cDNA sequence.",
+      "excel_row": 12,
+      "sequence_5prime_to_3prime_dna": "GATCTAGAGTCGCGGCCGCTTTAGTGATACTTGTGGGCCAGGGC",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "spliced HBB Primers F": {
+      "author_description": "For obtaining spliced HBB cDNA sequences without introns from human whole blood.",
+      "excel_row": 5,
+      "sequence_5prime_to_3prime_dna": "ACATTTGCTTCTGACACAACTGTGTTC",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    },
+    "spliced HBB Primers R": {
+      "author_description": "For obtaining spliced HBB cDNA sequences without introns from human whole blood.",
+      "excel_row": 6,
+      "sequence_5prime_to_3prime_dna": "TTAGTGATACTTGTGGGCCAGGGC",
+      "source_member": "Supplement Table1.xlsx",
+      "source_sheet": "Table S1"
+    }
+  },
+  "replicate3_read": false,
+  "source_files": {
+    "Supplement Table1.xlsx": {
+      "bytes": 13588,
+      "scope": "published primer/oligo metadata only",
+      "sha256": "fd619f934c027f875f087a689a05ab2ee8b7e00a075604cd7d7f70f22e172ff0",
+      "sheet": "Table S1"
+    },
+    "Supplement Table2.xlsx": {
+      "bytes": 10497,
+      "scope": "published primer/oligo metadata only",
+      "sha256": "2acdd90425f4ab9c70a74587c301b71f229c32373b5bbca2fd8ae100fa577bae",
+      "sheet": "Table S2"
+    },
+    "srle_article": {
+      "original_retrieved_utc": "2026-09-21T06:40:27.112609+00:00",
+      "path": "data/external/research_20260921/srle_article",
+      "public_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13191086/fullTextXML",
+      "sha256": "12401286a3de1fa15a2910aaea8806a97ce993521ff09b7c772f4121c67ecb3c"
+    },
+    "srle_epmc_supplement": {
+      "original_retrieved_utc": "2026-09-21T06:41:58.449950+00:00",
+      "path": "data/external/research_20260921/srle_epmc_supplement",
+      "public_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13191086/supplementaryFiles",
+      "sha256": "ff42cc9b5d7f0bb703369370cfc29c1d51614bca677294a2ffbb3bbec61344a9"
+    }
+  },
+  "status": "LOCAL_SYNTHESIS_DESIGN_CONTEXT_VERIFIED_FULL_TRANSCRIPT_UNRESOLVED",
+  "unresolved": [
+    "actual amplified donor allele/clone sequence",
+    "complete final backbone and insertion junctions",
+    "experiment-specific transcription start and 3prime cleavage endpoints",
+    "pre-mRNA versus mature isoforms in both measured fractions",
+    "per-clone cryptic splicing/sequence verification"
+  ]
+}

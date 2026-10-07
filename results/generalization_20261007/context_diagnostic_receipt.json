@@ -1,0 +1,44 @@
+{
+  "code_sha256": "a94f9244782a4e12cfedf7ed72575502687f098f286cfbcbe24099b6d56de0d1",
+  "independence_claim": false,
+  "inventory": [
+    {
+      "ambiguous_alias_rows_excluded": 0,
+      "dataset": "mikl_gse173098",
+      "input_rows": 13781,
+      "left_context": "CAD",
+      "left_unique_edits": 6889,
+      "matched_edits": 6880,
+      "right_context": "Neuro-2a",
+      "right_unique_edits": 6892
+    },
+    {
+      "ambiguous_alias_rows_excluded": 0,
+      "dataset": "moffatt_gse334718",
+      "input_rows": 6749,
+      "left_context": "GFP",
+      "left_unique_edits": 3902,
+      "matched_edits": 2586,
+      "right_context": "Firefly",
+      "right_unique_edits": 2847
+    }
+  ],
+  "matched_candidate_rows": 9466,
+  "matched_parent_sets": 2414,
+  "missing_replicates": "Moffatt has no admitted paired contrast records; reproducibility unavailable",
+  "models_fit": 0,
+  "pair_evidence_rows": 8331,
+  "prefit_files_unchanged": 45,
+  "prospective_confirmation": false,
+  "replicate_pairing": "candidateA-minus-candidateB in corresponding recorded within-context slots only; CAD and Neuro2a slots are not paired to each other",
+  "reserved_outcomes_opened": false,
+  "role": "POSTFIT_DESCRIPTIVE_DIAGNOSTIC_NOT_MODEL_SELECTION",
+  "source_sha256": {
+    "artifacts/probabilistic_ranking_20260928/data.npz": "cb27c2eb878c944c8c464b711432e5fd958a5dc188147d8e9480f161d1677f00",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d"
+  },
+  "status": "PASS",
+  "summary_denominators": "support fractions conditional on both contexts meeting support; gene/component macros average parent-set fractions, omitting unavailable values",
+  "support_rule": "at least two finite within-context contrast slots; Beta(.5,.5) posterior tail >=.9 or <=.1; ties tolerance1e-12 receive half credit",
+  "tests_passed": 2
+}
