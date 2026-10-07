@@ -1,0 +1,27 @@
+{
+  "SVG_same_figure_object_as_PNG": true,
+  "date": "2026-10-07",
+  "files_sha256": {
+    "artifacts\\context_conflict_audit_20261007\\observed_context_conflict.png": "86ff75254f85e17834747775e83fc211e4056ec3781af01d0dca75c80cde9040",
+    "artifacts\\context_conflict_audit_20261007\\observed_context_conflict.svg": "44e5caeda1146fe9a15cd7d690c936f3df0d5be9d0b3028974284572b1d3c784",
+    "artifacts\\context_conflict_audit_20261007\\plot_manifest.json": "1d5b10c8503bcf2d66c3b8d589a9db80cad35b1a7b010046067142b1d7daa1bb",
+    "src\\context_conflict_audit_20261007\\plot.py": "850a3cf2d8e49a3779736b0d08202bb6a6c04a269966570712f5cf865a76e046"
+  },
+  "model_fits": false,
+  "pinned_audit_plan_preserved": true,
+  "png_pixels": [
+    4050,
+    1920
+  ],
+  "protected_outcomes_read": false,
+  "status": "PASS visual and format inspection",
+  "svg_XML_valid": true,
+  "visual_checks": [
+    "No clipping or overlapping annotation after one layout repair",
+    "Component-weighted ECDF separated from raw unweighted menu counts",
+    "Oracle/descriptive label and predictor/noise-floor exclusion visible",
+    "All 187 components and no Moffatt exact menus explicitly reported"
+  ],
+  "visual_tool": "view_image",
+  "visually_inspected_png": "artifacts\\context_conflict_audit_20261007\\observed_context_conflict.png"
+}

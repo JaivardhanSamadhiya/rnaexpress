@@ -1,0 +1,27 @@
+{
+  "Moffatt_exact_menus": 0,
+  "complete_mature_RNA_claim": false,
+  "components": 187,
+  "figure_kind": "component-weighted ECDF plus unweighted raw counts",
+  "files_sha256": {
+    "artifacts\\context_conflict_audit_20261007\\observed_context_conflict.png": "86ff75254f85e17834747775e83fc211e4056ec3781af01d0dca75c80cde9040",
+    "artifacts\\context_conflict_audit_20261007\\observed_context_conflict.svg": "44e5caeda1146fe9a15cd7d690c936f3df0d5be9d0b3028974284572b1d3c784"
+  },
+  "inputs_sha256": {
+    "results\\context_conflict_audit_20261007\\menus.csv": "3d269040d1cbc58df76a6673a36d3965cbd2a8c9977c9abab61a1b9975be1d63",
+    "results\\context_conflict_audit_20261007\\replay.json": "a306deb1f472f7c3d61cdc1ab89cd85bbb642026c1e1e9b0d7eff40adf5cf33b",
+    "results\\context_conflict_audit_20261007\\summary.json": "431d6f6f7062eaa1dd4de78eaf3ae0d7af3f0458f2a5cd376db70c680bc981ee",
+    "src\\context_conflict_audit_20261007\\plot.py": "850a3cf2d8e49a3779736b0d08202bb6a6c04a269966570712f5cf865a76e046"
+  },
+  "matplotlib_version": "3.10.8",
+  "model_fits": false,
+  "noise_floor_claim": false,
+  "prediction_claim": false,
+  "protected_outcomes_read": false,
+  "python": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "raw_conflict_menus": 1527,
+  "raw_exact_zero_menus": 881,
+  "status": "RENDERED; visual inspection pending",
+  "weighted_conflict_fraction": 0.5773254672562887,
+  "weighted_mean_regret": 0.2107026210613525
+}
