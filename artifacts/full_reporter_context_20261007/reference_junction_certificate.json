@@ -1,0 +1,220 @@
+{
+  "EGFP_complete_CDS_removed_by_reference_design": true,
+  "HBB_cDNA_amplicon_native_3UTR_retained_nt": 0,
+  "HBB_canonical_reference_exon_join_equals_NM_000518_5": true,
+  "HBB_canonical_reference_exons": [
+    [
+      70545,
+      70686
+    ],
+    [
+      70817,
+      71039
+    ],
+    [
+      71890,
+      72152
+    ]
+  ],
+  "HBB_genomic_amplicon_after_annotated_reference_splicing": {
+    "NM_000518_5_interval_1based": [
+      1,
+      496
+    ],
+    "length_nt": 496,
+    "native_3UTR_retained_nt": 2,
+    "sequence_sha256": "a265de55accdad958ba6c6a6774e4230a030555609d542d2d53ddda2422079b9"
+  },
+  "HBB_native_reference_polyA_signal": "regulatory      602..607\n                     /regulatory_class=\"polyA_signal_sequence\"\n                     /gene=\"HBB\"\n                     /gene_synonym=\"beta-globin; CD113t-C; ECYT6\"\n                     /note=\"hexamer: AATAAA\"",
+  "HBB_native_reference_polyA_site": "polyA_site      628\n                     /gene=\"HBB\"\n                     /gene_synonym=\"beta-globin; CD113t-C; ECYT6\"\n                     /note=\"major polyA site\"",
+  "HBB_reference_CDS_1based": [
+    51,
+    494
+  ],
+  "HBB_reference_cDNA_amplicon": {
+    "end": 494,
+    "length_nt": 494,
+    "scope": "NM_000518.5 sequence between exact author primers; actual donor cDNA unverified",
+    "sequence_sha256": "f505d709343a0f6276a26bb1ef68997f527c545a5d7a58dde627f354c523427e",
+    "start": 1
+  },
+  "HBB_reference_genomic_amplicon": {
+    "end": 72020,
+    "length_nt": 1476,
+    "scope": "NG_000007.3 sequence between exact author primers; actual donor allele unverified",
+    "sequence_sha256": "efef4961a2cfb7b38f7ac19b0a8c5851a4ee4ce48a3aff94884bf4add7f7b46f",
+    "start": 70545
+  },
+  "N1_linearization_reference_removed_interval": [
+    644,
+    1398
+  ],
+  "author_primer_certificate_sha256": "e7ee4fea706d3b7e611f63d491304cfe835efcd3c9b6a9a4f0282abf384f725c",
+  "coordinate_convention": "All intervals 1-based inclusive in pinned accession orientation",
+  "fits_run": false,
+  "full_author_clone_sequence_certified": false,
+  "full_expressed_pre_or_mature_RNA_certified": false,
+  "inference": "The 46nt library oligo bridges HBB-to-vector; its right arm is downstream vector sequence, not native HBB UTR.",
+  "library_left_arm_is_HBB_amplicon_endpoint": true,
+  "library_right_arm_absent_from_HBB_references": true,
+  "library_right_arm_unique_vector_match": [
+    {
+      "end_1based_inclusive": 1435,
+      "start_1based": 1416
+    }
+  ],
+  "native_HBB_reference_polyA_signal_and_site_outside_both_cloning_amplicons": true,
+  "outcomes_opened": false,
+  "primer_mappings": {
+    "NG_000007.3": {
+      "HBB Primers F": {
+        "oligo_plus_hits": [
+          {
+            "end_1based_inclusive": 70569,
+            "start_1based": 70545
+          }
+        ],
+        "oligo_reverse_complement_hits": []
+      },
+      "HBB Primers R": {
+        "oligo_plus_hits": [],
+        "oligo_reverse_complement_hits": [
+          {
+            "end_1based_inclusive": 72020,
+            "start_1based": 71998
+          }
+        ]
+      },
+      "HBB_qPCR F": {
+        "oligo_plus_hits": [
+          {
+            "end_1based_inclusive": 70636,
+            "start_1based": 70617
+          }
+        ],
+        "oligo_reverse_complement_hits": []
+      },
+      "HBB_qPCR R": {
+        "oligo_plus_hits": [],
+        "oligo_reverse_complement_hits": [
+          {
+            "end_1based_inclusive": 63499,
+            "start_1based": 63480
+          },
+          {
+            "end_1based_inclusive": 70913,
+            "start_1based": 70894
+          }
+        ]
+      }
+    },
+    "NM_000518.5": {
+      "HBB Primers F": {
+        "oligo_plus_hits": [
+          {
+            "end_1based_inclusive": 25,
+            "start_1based": 1
+          }
+        ],
+        "oligo_reverse_complement_hits": []
+      },
+      "HBB Primers R": {
+        "oligo_plus_hits": [],
+        "oligo_reverse_complement_hits": [
+          {
+            "end_1based_inclusive": 496,
+            "start_1based": 474
+          }
+        ]
+      },
+      "HBB_qPCR F": {
+        "oligo_plus_hits": [
+          {
+            "end_1based_inclusive": 92,
+            "start_1based": 73
+          }
+        ],
+        "oligo_reverse_complement_hits": []
+      },
+      "HBB_qPCR R": {
+        "oligo_plus_hits": [],
+        "oligo_reverse_complement_hits": [
+          {
+            "end_1based_inclusive": 239,
+            "start_1based": 220
+          }
+        ]
+      },
+      "spliced HBB Primers F": {
+        "oligo_plus_hits": [
+          {
+            "end_1based_inclusive": 27,
+            "start_1based": 1
+          }
+        ],
+        "oligo_reverse_complement_hits": []
+      },
+      "spliced HBB Primers R": {
+        "oligo_plus_hits": [],
+        "oligo_reverse_complement_hits": [
+          {
+            "end_1based_inclusive": 494,
+            "start_1based": 471
+          }
+        ]
+      }
+    },
+    "U55762.1": {
+      "N1 linear Primers F": {
+        "oligo_plus_hits": [
+          {
+            "end_1based_inclusive": 1416,
+            "start_1based": 1399
+          }
+        ],
+        "oligo_reverse_complement_hits": []
+      },
+      "N1 linear Primers R": {
+        "oligo_plus_hits": [],
+        "oligo_reverse_complement_hits": [
+          {
+            "end_1based_inclusive": 643,
+            "start_1based": 623
+          }
+        ]
+      },
+      "N1-HBB linear Primers F": {
+        "oligo_plus_hits": [
+          {
+            "end_1based_inclusive": 1441,
+            "start_1based": 1416
+          }
+        ],
+        "oligo_reverse_complement_hits": []
+      }
+    }
+  },
+  "production_inputs_changed": false,
+  "reference_EGFP_CDS": [
+    679,
+    1398
+  ],
+  "source_reference_records": {
+    "NG_000007.3": {
+      "genbank_sha256": "9e79c513f0d7e5d8ab5fe2c8eda40fdd378e4597f8263cf83265c0337e930e93",
+      "length_nt": 81706,
+      "sequence_sha256": "3cd23d9a2112f3e0b076e58935d8fa8a02877740d188135087df05320a4aa3b3"
+    },
+    "NM_000518.5": {
+      "genbank_sha256": "c114b998f526a13ce7029a484f7d2679de9bc9f50a533d6e86ce5e644ca6c5d9",
+      "length_nt": 628,
+      "sequence_sha256": "9e811fb12c639fc6610265da635ebbf31521b62410132c6e19dfd0192bd194f3"
+    },
+    "U55762.1": {
+      "genbank_sha256": "bf6a633fce38b828ed369628f45bed5755db623fac938772bcf9efd3f5f2481d",
+      "length_nt": 4733,
+      "sequence_sha256": "63918e4dcae6eed7f21a2d430f8b24a7172acc9a174e307d933550034189efde"
+    }
+  },
+  "status": "REFERENCE_AND_AUTHOR_DESIGN_JUNCTIONS_CERTIFIED_NOT_EXPRESSED_TRANSCRIPT"
+}

@@ -1,0 +1,23 @@
+{
+  "construction_reference39_doi": "10.1007/s11427-023-2594-3",
+  "methods_summary": {
+    "assembly": "PCR linearization and Gibson assembly of amplified genomic HBB or spliced blood cDNA",
+    "backbone": "pEGFP-N1 (Clontech)",
+    "cell_fractionation": "HEK293T nuclear and cytoplasmic fractions",
+    "library": "Random six-base insert placed downstream of the HBB coding region using TableS1 overlaps",
+    "sequencing_scope": "RNA reverse transcription followed by PCR of six-mer and its local flanks; transcript ends and splice junctions are not sequenced by this design"
+  },
+  "outcomes_opened": false,
+  "sections": [
+    {
+      "paragraph_count": 1,
+      "section": "Subcellular fractionation of HEK293T cells"
+    },
+    {
+      "paragraph_count": 1,
+      "section": "Plasmid library construction"
+    }
+  ],
+  "source_sha256": "12401286a3de1fa15a2910aaea8806a97ce993521ff09b7c772f4121c67ecb3c",
+  "status": "AUTHOR_METADATA_ONLY"
+}

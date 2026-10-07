@@ -1,0 +1,152 @@
+{
+  "status": "PASS metadata and conditional DNA construction only",
+  "date": "2026-10-07",
+  "outcome_columns_read": false,
+  "raw_counts_read": false,
+  "protected_outcomes_read": false,
+  "biological_fits": false,
+  "complete_mature_RNA_certified": false,
+  "source_sha256": {
+    "data\\raw\\mikl_gse173098\\supplementary\\files\\SupplementaryData_NAR_Final\\SupplementaryTables\\TableS2.csv": "c3b3257976af7cd2253aa5503a8a53f374e5730fe012f2320f449eee06d67ee3",
+    "results\\probabilistic_ranking_20260928\\candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+    "results\\v4_phaseA\\mikl_interventions.csv.gz": "daf5c035afb16e9dbbf90714c595c0e733f4eec70f2191d475b78c20e9f29bcc",
+    "data\\external\\RNAloc_MPRA\\dataframes\\library_varseq_FINAL.csv": "cabb3b6d5fe4755d06a2ecf5475f56693355a5d5d9a94aba726dc806c8f36eae",
+    "data\\raw\\moffatt_gse334718\\supplementary\\supplementary_file_1.txt": "202c019bfbd91e0a5d4f94da2b2b340e4f76ceda10d7c73f75f08090d346195e",
+    "data\\external\\RNAloc_MPRA\\example_data\\examplefastqfile_R2_001.fastq.gz": "c2761082047fd201834a2f24f13799d8926ee112352e599c49c188be3bbd03bb",
+    "data\\raw\\mikl_gse173098\\PMC9561380.html": "1d0b3a02d7097b1af0c215eb02073a3e12e97f53da559f7c46d84065f251c05c",
+    "data\\external\\RNAloc_MPRA\\LibraryDesign.ipynb": "1434be13ae30d94619b06c9df19a75c0a2d111c85d9f59b39f5f262ee8de3720",
+    "data\\external\\RNAloc_MPRA\\mapping_barcodes_and_umis.ipynb": "3cea4982d799e57838b7ccca17a3b5f60fb602b5b9fda4f877bc83699575ad14",
+    "data\\raw\\moffatt_gse334718\\code\\LE_SHAPE_Summary\\basic_structure_mutation.qmd": "0651f15af0a1124077d1e323799540fcdf12ecdb9e4805ce92c15020803e3521",
+    "data\\raw\\moffatt_gse334718\\code\\LE_SHAPE_Summary\\shaped_based_oligo_design.qmd": "2ceefb26924820a6559856567e148bc596a040d30292ff1b6a6208aa0bc4ebc0",
+    "src\\full_reporter_context_20261007\\mikl_moffatt_metadata_audit.py": "4e8b7af98abb6ace9c17f895a0c153fe82fbafce68002281afee925ecd3d554a"
+  },
+  "Mikl": {
+    "layout": [
+      18,
+      12,
+      150,
+      18
+    ],
+    "constants": {
+      "WT_scanning50": {
+        "prefix18": [
+          "CGAAATGGGCCGCATTGC"
+        ],
+        "suffix18": [
+          "CACTGCGGCTGATGACGA"
+        ],
+        "count": 13753
+      },
+      "mutant_scanning50": {
+        "prefix18": [
+          "GACAGATGCGCCGTGGAT"
+        ],
+        "suffix18": [
+          "AGCCACCCGATCCAATGC"
+        ],
+        "count": 12909
+      }
+    },
+    "admitted_unique_mutants": 6901,
+    "full198_min_distance_range": [
+      35,
+      47
+    ],
+    "full198_max_distance_range": [
+      35,
+      47
+    ],
+    "any_same_barcode_parent_mutants": 0,
+    "prefix18_hamming": 15,
+    "suffix18_hamming": 14,
+    "WT_cut": {
+      "PCR_sense_length": 224,
+      "site_starts0": [
+        4,
+        212
+      ],
+      "sense_cut_offsets0": [
+        6,
+        218
+      ],
+      "retained_sense_strand_length": 212,
+      "restored_local_DNA_length": 216,
+      "variable_interval0_halfopen": [
+        39,
+        189
+      ],
+      "restored_template": "GGCGCGCCa + prefix18 + barcode12 + variable150 + suffix18 + tCCTGCAGG",
+      "forward_primer": "cacaGGCGCGCCaCGAAATGGGCCGCATTGC",
+      "reverse_primer": "cacaCCTGCAGGaTCGTCATCAGCCGCAGTG",
+      "condition": "same-site oriented reference digestion/ligation, no subsequent sequence change; not mature RNA"
+    },
+    "mutant_cut": {
+      "PCR_sense_length": 224,
+      "site_starts0": [
+        4,
+        212
+      ],
+      "sense_cut_offsets0": [
+        6,
+        218
+      ],
+      "retained_sense_strand_length": 212,
+      "restored_local_DNA_length": 216,
+      "variable_interval0_halfopen": [
+        39,
+        189
+      ],
+      "restored_template": "GGCGCGCCa + prefix18 + barcode12 + variable150 + suffix18 + tCCTGCAGG",
+      "forward_primer": "cacaGGCGCGCCaGACAGATGCGCCGTGGAT",
+      "reverse_primer": "cacaCCTGCAGGaGCATTGGATCGGGTGGCT",
+      "condition": "same-site oriented reference digestion/ligation, no subsequent sequence change; not mature RNA"
+    },
+    "author_prototype_dictionary": {
+      "rows": 47989,
+      "barcode_length": 14,
+      "slice0_halfopen": [
+        16,
+        30
+      ],
+      "not_exact_measured_library": true
+    },
+    "fixed_first3_example_R2_sequences": [
+      {
+        "fixed_index0": 0,
+        "sequence": "ATGCAGAGCGCACCCGTCCGAGCTAAGGCGCGCCACGACATGGGCCGCATTGCCTAAAACGCGACCTGCACCAT",
+        "anchor_start0": 5
+      },
+      {
+        "fixed_index0": 1,
+        "sequence": "AACGCGAGGGGAGCCGGGCGTGCTAGGGGGCGCCGGGTCGTGGGGGGGATTGGGATGTGCCTTGGGGGGCGGTG",
+        "anchor_start0": -1
+      },
+      {
+        "fixed_index0": 2,
+        "sequence": "ACCTGAGCGCACCCGTCCGAGCTAAGGCGCGCCACGAAATGGGCCGCATTGCAGATGTCCGACTAAAAAAAAAG",
+        "anchor_start0": 4
+      }
+    ],
+    "example_sample_RNA_or_DNA_identity_certified": false
+  },
+  "Moffatt": {
+    "mutation_records": 17294,
+    "synthesis_length": 300,
+    "central_variable_length": 260,
+    "PCR_handle_left": {
+      "GCTTCGATATCCGCATGCTA": 17294
+    },
+    "PCR_handle_right": {
+      "CTCTTGCGGTCGCACTAGTG": 17294
+    },
+    "retained_in_mature_RNA_certified": false
+  },
+  "primary_URLs": [
+    "https://doi.org/10.1093/nar/gkac806",
+    "https://github.com/martinmikl/RNAloc_MPRA",
+    "https://www.thermofisher.com/order/catalog/product/ER1891",
+    "https://www.thermofisher.com/order/catalog/product/ER1191",
+    "https://doi.org/10.64898/2026.06.09.731215",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334718"
+  ]
+}
