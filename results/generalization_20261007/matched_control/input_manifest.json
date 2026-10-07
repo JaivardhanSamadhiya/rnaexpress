@@ -1,0 +1,43 @@
+{
+  "configuration_order": [
+    {
+      "id": "pair_005",
+      "penalty": 0.005,
+      "scaling": "pair"
+    },
+    {
+      "id": "pair_05",
+      "penalty": 0.05,
+      "scaling": "pair"
+    },
+    {
+      "id": "pair_5",
+      "penalty": 0.5,
+      "scaling": "pair"
+    }
+  ],
+  "files": {
+    "artifacts/generalization_20261007/scaling_features.npz": "038a64c83c7427cb1b5775e216148c90e6b67260fa4544aae2b6afbae6450a72",
+    "reports/generalization_20261007/matched_control_protocol.md": "1c7d8ca1328f23a76f5e2b0caae2c86fbe64112c9150161e53fdfb02865c00e3",
+    "results/generalization_20261007/mechanism/comparison.csv": "caaf20e12e72be7e67adc322ee01e2960bf962744d36d9dba4a8b6fe4f519140",
+    "results/generalization_20261007/mechanism/decisions.csv": "4e6fd05e855867cbd07c49aa40ba2bcf8b4f77be638e17ca34d26a8092ad0f0a",
+    "results/generalization_20261007/mechanism/predictions.csv.gz": "3d223490c9b5c3e27e23a536ac2f4fcf0a905eeb339db05e0901a1d60b388dd2",
+    "results/generalization_20261007/mechanism/run_complete.json": "99d5e32a309cb633e53030aa74d3cf8e2d70c9d15718ae62e422a6efe0ad8ab3",
+    "results/generalization_20261007/prefit_manifest.json": "1d69e9c0784940c7f14af6c510a1ce3d8499faf49cad4c76441b7193f216e37d",
+    "results/generalization_20261007/representation/comparison.csv": "84ccf7d760b59191eb78c427cd26fd4c3b36ba20870f9734add0df95f685adc4",
+    "results/generalization_20261007/representation/decisions.csv": "ca492fce3b2b42b69b74a6722d8ef39ec9088770c9e0f5619bddfd71fac24be5",
+    "results/generalization_20261007/representation/predictions.csv.gz": "eb604b24384a49330e90c214ca8b4e314e76c5bbcc89e62b675db8ebb8d21ae7",
+    "results/generalization_20261007/representation/run_complete.json": "7f8d781a22beb593ab997a19881ec7d4b528a9816114c5e80e01b5e70ddd4eb7",
+    "results/generalization_20261007/scaling/inner_selection.csv": "ea7ef5be6525df9519582fc4fee4be30d2a97295a0f72f565b13bfbb37e7c3bf",
+    "results/generalization_20261007/scaling/run_complete.json": "312c26f2b91ba533c6b93778146740403eb075c8f2dde80ce04cc43879d88242",
+    "src/cross_assay_20260927/models.py": "a7d43f49c37e0e2a86e5c9c64cbf97bca78aabab36a007f10f886fb916d54d71",
+    "src/generalization_20261007/common.py": "5707393cbf51333db925ef5c66b9e949f8eeafcafa131d55747534a5b2661840",
+    "src/generalization_20261007/engine.py": "aa828de3c60eb3322ad24dfe961ed24c371fb6480d7e394291a943b6414b2bb0",
+    "src/generalization_20261007/matched_control.py": "f3381b7eb6e8dcd2e15f0efc0db4e4b0a1580f720ba2cce1cda5f7d617b0689b",
+    "src/generalization_20261007/route_scaling.py": "3457184c701ced91a69ce5747d1c809c5180e4ff5897af6927827c7ab710fdea"
+  },
+  "fitting_allowed_only_after_manifest_commit": true,
+  "historical_results_changed": false,
+  "primary_gate_eligibility": false,
+  "purpose": "postfit descriptive family-matched pair-normalized short-feature control"
+}
