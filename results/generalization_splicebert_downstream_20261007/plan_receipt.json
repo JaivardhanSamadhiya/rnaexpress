@@ -1,0 +1,43 @@
+{
+  "alleles_per_length": {
+    "150": 9318,
+    "190": 3991,
+    "260": 4169,
+    "46": 742
+  },
+  "encoded_row_identity_sha256": "b3409375921c56aa738cc83381f0d5212e5f35dd82d8e1895636ca91ea7dce57",
+  "encoder_imported": false,
+  "files": {
+    "artifacts/generalization_next_20261007/encoded_sequence_inventory.csv.gz": "b31b4545104ea3266d9215e351a879dfec7644c58b7b7fb50829212899615313",
+    "artifacts/generalization_next_20261007/sequence_inventory.csv.gz": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+    "artifacts/generalization_splicebert_20261007/global_projection.npy": "01bdafe6523d4a411139bfdcfdb61e135f11e3992409a4258d8662f373f299ee",
+    "artifacts/generalization_splicebert_20261007/local_projection.npy": "a5db6349b5efc9885f1f1c38b1534ce51cd9bbc75f288a9b1be529b4560d8ec6"
+  },
+  "models_fit": 0,
+  "original_metadata_identity_sha256": "78767b17e63bb4fb769a2aca3012b9048ce2b080813b226c3a4e2208751136a1",
+  "outcomes_read": false,
+  "project_features_extracted": 0,
+  "required_projected_tokens": 92878,
+  "row_index_sha256": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+  "rows": 26258,
+  "scope": "Metadata/projection planning only; no encoder or feature extraction",
+  "shapes": {
+    "base": 246,
+    "combined": 518,
+    "lookup": 502,
+    "raw": 251,
+    "splicebert": 502,
+    "structure": 262
+  },
+  "spec_sha256": "d03407faf5fdb07f36736a66d45f02935d098432ad732ad8ba503d03767fc010",
+  "status": "PASS",
+  "tracks": [
+    "base",
+    "raw",
+    "structure",
+    "lookup",
+    "splicebert",
+    "combined"
+  ],
+  "unique_alleles": 18220
+}

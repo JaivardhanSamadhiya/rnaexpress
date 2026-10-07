@@ -1,0 +1,22 @@
+{
+  "actual_model_imports": 0,
+  "models_fit": 0,
+  "outcomes_read": false,
+  "project_allele_inference": 0,
+  "scope": "Synthetic arithmetic/token/cache/guard tests only",
+  "source_hashes": {
+    "__init__.py": "7e73310c03bd16456c014b97bdf79728a907ce9257a160f6f1510b1889f0825a",
+    "assemble.py": "326746aa257141342e821cae2a221a5e22796609a68fa45bb03f2a1dd67fd872",
+    "common.py": "bb08c1a3d417e942df7089a037e00d96173af33d8b0996ce5136635a243c5175",
+    "engine.py": "44535c2f465de48921413bbf7446d3832d17a1f1ed68280e1f40fad65b4d807f",
+    "freeze.py": "63ee54e52184ae8fdd65e04fd0f2ea308feb09abc6ae7849a0ac3213cbd9ceb7",
+    "gate.py": "c1827a10adb392a2718052ef74e548606b1c900ccf329525d243eaa9ba32e70c",
+    "prepare.py": "ecd26bafc6fd48c3cebab06d683818360933734b0376be2060c58aae5960ba44",
+    "producer.py": "a942d5b32e1580b191f00ac82dac015e96983d61e9b3ab15156c34d09276a3b5",
+    "routes.py": "a4902badcf8851a5d2ebca9edc83cbf148c8c4417d354d10f086651ab95c422c",
+    "tests.py": "183e6aaee2b8695b176a4ce5d9920de11f20b28fde03f98c1eff11cb05e95579",
+    "verify.py": "96a7dd4588c6bed7594feefe3e8b42b746e1a5802f6861ab66cd46b99e2a7b00"
+  },
+  "status": "PASS",
+  "tests": 13
+}
