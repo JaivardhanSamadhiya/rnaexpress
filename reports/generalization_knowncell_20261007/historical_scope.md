@@ -1,0 +1,9 @@
+# Historical scope audit
+
+Read-only report/source audit precedes this follow-up. `reports/v2_5_mikl_xgboost_pretraining_results.md` already reports gene-held-out intact localization classifiers over 35,428 sequences/304 genes (mean AUC .753700; .774603/.732797). That question concerns absolute localization, rather than selecting extrema of candidate edits.
+
+`reports/finalshot_mikl_matched_mechanism.md` describes nested held-gene context models over 120 genes/1,600 motif-matched subsets with at least four candidates and a ContextValue of .01785 versus geometry. The experiment omitted the planned two-candidate cap, conflicting with minimum-four subsets, and failed distributed/small-edit gates. Its positive aggregate value cannot be interpreted as an unqualified successful gate.
+
+`reports/generalization_20261007/historical_review.md` claims C016–20 record known-parent Moffatt absolute AUC .9503 versus composition .9306, unstable/worse rich unseen-gene transfer, and across-gene Mikl edit-direction AUC .7051 versus AU .6942 while incremental/source-transfer gates failed. C021–25 use one HBB reporter and do not establish unseen-gene generalization. These are previously reported exposed verdicts, not a re-execution or complete author-pipeline validation here.
+
+Known-cell held-gene RNA localization prediction and edit ranking have therefore already been attempted. The distinct contribution of the new evaluation is a matched diagnostic: the **same** fixed source-cell models, source-only configurations, full candidate menus and modern information controls are assessed with gene shift alone versus gene-plus-cell shift. Any favorable result must retain this conditional, same-data development scope. Novel biological mechanism and independent generalization would still require further evidence.

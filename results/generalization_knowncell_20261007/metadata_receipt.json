@@ -1,0 +1,54 @@
+{
+  "components": 187,
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "coverage": [
+    {
+      "components": 187,
+      "rows": 6889,
+      "task": "CAD_known"
+    },
+    {
+      "components": 187,
+      "rows": 6892,
+      "task": "N2A_known"
+    }
+  ],
+  "exact_paired_menus": 2408,
+  "features_opened": false,
+  "fits": 0,
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "lexical_pair_order_mismatches": 1648,
+  "models_opened": false,
+  "outcome_columns_read": false,
+  "paired_components": 187,
+  "paired_rows": 13760,
+  "row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "rows": 13781,
+  "source_prefit_sha256": "547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345",
+  "status": "PASS",
+  "tasks": {
+    "CAD_known": [
+      "CAD",
+      "CAD_to_N2A"
+    ],
+    "N2A_known": [
+      "Neuro-2a",
+      "N2A_to_CAD"
+    ]
+  },
+  "tracks": [
+    "simple",
+    "base",
+    "raw",
+    "structure",
+    "lookup",
+    "bert",
+    "combined"
+  ],
+  "unmatched_contexts": 9,
+  "unmatched_rows": 21
+}
