@@ -1,0 +1,82 @@
+{
+  "edge_notes": [
+    {
+      "close_allele_pairs": 2,
+      "distance": 27,
+      "distinct4mers_a": 87,
+      "distinct4mers_b": 83,
+      "fold_a": 0,
+      "fold_b": 0,
+      "gene_a": "colec12",
+      "gene_b": "arpc1b",
+      "hamming": 95
+    },
+    {
+      "close_allele_pairs": 1,
+      "distance": 30,
+      "distinct4mers_a": 87,
+      "distinct4mers_b": 87,
+      "fold_a": 0,
+      "fold_b": 2,
+      "gene_a": "colec12",
+      "gene_b": "agtrap",
+      "hamming": 91
+    },
+    {
+      "close_allele_pairs": 15,
+      "distance": 26,
+      "distinct4mers_a": 26,
+      "distinct4mers_b": 15,
+      "fold_a": 0,
+      "fold_b": 0,
+      "gene_a": "colec12",
+      "gene_b": "cdk15",
+      "hamming": 55
+    },
+    {
+      "close_allele_pairs": 2,
+      "distance": 30,
+      "distinct4mers_a": 83,
+      "distinct4mers_b": 92,
+      "fold_a": 0,
+      "fold_b": 2,
+      "gene_a": "arpc1b",
+      "gene_b": "agtrap",
+      "hamming": 106
+    }
+  ],
+  "fits": 0,
+  "graph_receipt_sha256": "a4fb230cb8d46b9351f49b9888acb06285d01c4ee486d49f812282dad5d294ce",
+  "independent_adjacency_closure_components": 184,
+  "independent_split_counts": 18,
+  "outcomes_read": 0,
+  "random_sequence_pairs_independent_dp": 100,
+  "runtime": {
+    "block": 64,
+    "cdist": "rapidfuzz.process_cpp",
+    "distance_scorer": "rapidfuzz.distance.metrics_cpp_avx2",
+    "dtype": "int16",
+    "files": {
+      "data/interim/mechanism_v2/runtime/rapidfuzz-3.14.1.dist-info/METADATA": "621c880c177a095c37a9e247495ef6b428ee39c0f0fe68d3d6749919f998fd82",
+      "data/interim/mechanism_v2/runtime/rapidfuzz-3.14.1.dist-info/licenses/LICENSE": "f34ccdffdff56fc417785915eedf18601d5479755df3c472b2c754c29802d683",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/__init__.py": "0eaa709d28361d4ce37785d6252e6308edd769ebae1affd00dde60af5e68b79b",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/distance/Levenshtein.py": "50918b72cf5d5cbdb990e8db8ba4ce0941d77fab86325193592a2dc515dfdc95",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/distance/metrics_cpp_avx2.cp312-win_amd64.pyd": "a88751ccbd214dc5ea45a329e78c375a78ee1576768624922f9a0995074d63ae",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process.py": "272953fad6018703f9ebaa74ccef8ed994f4a7ed245b77025206e70823a855c4",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process_cpp.py": "b805db1ddfd4546d3239a16f55b64a819cd02e90d6b5e209c42b18e8c79444a5",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process_cpp_impl.cp312-win_amd64.pyd": "163c2d3561ae868c9b58dbe4727072bbcf7daa86642bf654c5b479247b9d5fc4"
+    },
+    "native_cdist": "rapidfuzz.process_cpp_impl",
+    "processor": null,
+    "score_cutoff": 30,
+    "version": "3.14.1",
+    "weights": [
+      1,
+      1,
+      1
+    ],
+    "workers": 1
+  },
+  "status": "PASS",
+  "witness_edges_independent_dp": 4
+}

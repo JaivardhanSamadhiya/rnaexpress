@@ -1,0 +1,477 @@
+{
+  "all_outer_inner_support_nonempty": true,
+  "cross_gene_exact_shared_alleles": 0,
+  "cross_gene_nonidentical_close_allele_pairs": 20,
+  "cutoff": 30,
+  "direct_gene_edges": 4,
+  "elapsed_seconds": 36.174890200003574,
+  "fits": 0,
+  "largest_family": 4,
+  "length": 150,
+  "metadata_rows": 13781,
+  "metadata_sha256": "5cc4dff0999d08bc7854dc14bce356ed8fa53ba1f8be017e61d80c84470e38e6",
+  "native_distance_elements": 43710244,
+  "no_outcomes_read": true,
+  "original_gene_components": 187,
+  "output_hashes": {
+    "artifacts/generalization_similarity_crosscell_20261007/direct_gene_edges.csv": "2b9ad63d1ef3b318ba6c8d4a7176f31723fd196244cca74e3c887fa4f6ffeb3b",
+    "artifacts/generalization_similarity_crosscell_20261007/original_allele_inventory.csv.gz": "dbdbc278fdd36b98420b73e33684acd09a6bf1f1a1d5945ec5571fb0d34289d4",
+    "artifacts/generalization_similarity_crosscell_20261007/similarity_components.csv": "73db1b974a70ca3d7fb06012a3df3079c10c31143f9173ab4f7dd2ae5dd8c951",
+    "results/generalization_similarity_crosscell_20261007/split_support.csv": "b5a0fe24f360332780e059f2f4fbb888fbf8d29e3287d1e12a5849e93958aef4"
+  },
+  "preanalysis_manifest_sha256": "95815a7837a3d4dc01e5ae6ca8676575e08ec90c92cf4885241834814c341de5",
+  "runtime": {
+    "block": 64,
+    "cdist": "rapidfuzz.process_cpp",
+    "distance_scorer": "rapidfuzz.distance.metrics_cpp_avx2",
+    "dtype": "int16",
+    "files": {
+      "data/interim/mechanism_v2/runtime/rapidfuzz-3.14.1.dist-info/METADATA": "621c880c177a095c37a9e247495ef6b428ee39c0f0fe68d3d6749919f998fd82",
+      "data/interim/mechanism_v2/runtime/rapidfuzz-3.14.1.dist-info/licenses/LICENSE": "f34ccdffdff56fc417785915eedf18601d5479755df3c472b2c754c29802d683",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/__init__.py": "0eaa709d28361d4ce37785d6252e6308edd769ebae1affd00dde60af5e68b79b",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/distance/Levenshtein.py": "50918b72cf5d5cbdb990e8db8ba4ce0941d77fab86325193592a2dc515dfdc95",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/distance/metrics_cpp_avx2.cp312-win_amd64.pyd": "a88751ccbd214dc5ea45a329e78c375a78ee1576768624922f9a0995074d63ae",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process.py": "272953fad6018703f9ebaa74ccef8ed994f4a7ed245b77025206e70823a855c4",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process_cpp.py": "b805db1ddfd4546d3239a16f55b64a819cd02e90d6b5e209c42b18e8c79444a5",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process_cpp_impl.cp312-win_amd64.pyd": "163c2d3561ae868c9b58dbe4727072bbcf7daa86642bf654c5b479247b9d5fc4"
+    },
+    "native_cdist": "rapidfuzz.process_cpp_impl",
+    "processor": null,
+    "score_cutoff": 30,
+    "version": "3.14.1",
+    "weights": [
+      1,
+      1,
+      1
+    ],
+    "workers": 1
+  },
+  "similarity_components": 184,
+  "source_hashes": {
+    "src/generalization_similarity_crosscell_20261007/__init__.py": "2e9d0ca3f2da703279552b4af5f8084b31efbc8cf056f1a27815613b8b90212b",
+    "src/generalization_similarity_crosscell_20261007/common.py": "fbbcf20543a0412469883b4ddf21594c6641d7c8cde2ec957c3609a44611783f",
+    "src/generalization_similarity_crosscell_20261007/graph.py": "872cb60273380f697962e7a0ae399329d9ebcd9cfb3d8e47791726e4059585ba",
+    "src/generalization_similarity_crosscell_20261007/prepare.py": "0fa73f8f695a2c12a962b6116f7cb9419cd17fd1330d1ce318e22dd24880b38e",
+    "src/generalization_similarity_crosscell_20261007/splits.py": "54337e470c57520b8e8c73fa3ead335aec15903f9d3b39fa5e8d62c5332494c7",
+    "src/generalization_similarity_crosscell_20261007/tests.py": "82acc12cb10039721332a79cd301d5abd5249ecb8d372d1dfb10cc7c46f7b6c5"
+  },
+  "split_audits": [
+    {
+      "after": {
+        "components": 115,
+        "contexts": 1424,
+        "genes": 115,
+        "rows": 4073,
+        "similarity_families": 115
+      },
+      "before_rows": 4099,
+      "inner_fold": null,
+      "outer_fold": 0,
+      "removed_rows": 26,
+      "scope": "outer",
+      "target": {
+        "components": 71,
+        "contexts": 976,
+        "genes": 71,
+        "rows": 2788,
+        "similarity_families": 69
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 48,
+        "contexts": 522,
+        "genes": 48,
+        "rows": 1434,
+        "similarity_families": 48
+      },
+      "before_rows": 1434,
+      "inner_fold": 1,
+      "outer_fold": 0,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 67,
+        "contexts": 902,
+        "genes": 67,
+        "rows": 2639,
+        "similarity_families": 67
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 67,
+        "contexts": 902,
+        "genes": 67,
+        "rows": 2639,
+        "similarity_families": 67
+      },
+      "before_rows": 2639,
+      "inner_fold": 2,
+      "outer_fold": 0,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 48,
+        "contexts": 522,
+        "genes": 48,
+        "rows": 1434,
+        "similarity_families": 48
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 120,
+        "contexts": 1510,
+        "genes": 120,
+        "rows": 4250,
+        "similarity_families": 117
+      },
+      "before_rows": 4250,
+      "inner_fold": null,
+      "outer_fold": 1,
+      "removed_rows": 0,
+      "scope": "outer",
+      "target": {
+        "components": 67,
+        "contexts": 903,
+        "genes": 67,
+        "rows": 2641,
+        "similarity_families": 67
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 48,
+        "contexts": 522,
+        "genes": 48,
+        "rows": 1434,
+        "similarity_families": 48
+      },
+      "before_rows": 1460,
+      "inner_fold": 0,
+      "outer_fold": 1,
+      "removed_rows": 26,
+      "scope": "inner",
+      "target": {
+        "components": 71,
+        "contexts": 977,
+        "genes": 71,
+        "rows": 2790,
+        "similarity_families": 69
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 68,
+        "contexts": 942,
+        "genes": 68,
+        "rows": 2704,
+        "similarity_families": 68
+      },
+      "before_rows": 2790,
+      "inner_fold": 2,
+      "outer_fold": 1,
+      "removed_rows": 86,
+      "scope": "inner",
+      "target": {
+        "components": 49,
+        "contexts": 533,
+        "genes": 49,
+        "rows": 1460,
+        "similarity_families": 49
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 135,
+        "contexts": 1844,
+        "genes": 135,
+        "rows": 5343,
+        "similarity_families": 135
+      },
+      "before_rows": 5429,
+      "inner_fold": null,
+      "outer_fold": 2,
+      "removed_rows": 86,
+      "scope": "outer",
+      "target": {
+        "components": 49,
+        "contexts": 534,
+        "genes": 49,
+        "rows": 1463,
+        "similarity_families": 49
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 67,
+        "contexts": 902,
+        "genes": 67,
+        "rows": 2639,
+        "similarity_families": 67
+      },
+      "before_rows": 2639,
+      "inner_fold": 0,
+      "outer_fold": 2,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 68,
+        "contexts": 942,
+        "genes": 68,
+        "rows": 2704,
+        "similarity_families": 68
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 68,
+        "contexts": 942,
+        "genes": 68,
+        "rows": 2704,
+        "similarity_families": 68
+      },
+      "before_rows": 2704,
+      "inner_fold": 1,
+      "outer_fold": 2,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 67,
+        "contexts": 902,
+        "genes": 67,
+        "rows": 2639,
+        "similarity_families": 67
+      },
+      "task": "CAD_to_N2A",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 115,
+        "contexts": 1426,
+        "genes": 115,
+        "rows": 4078,
+        "similarity_families": 115
+      },
+      "before_rows": 4104,
+      "inner_fold": null,
+      "outer_fold": 0,
+      "removed_rows": 26,
+      "scope": "outer",
+      "target": {
+        "components": 71,
+        "contexts": 977,
+        "genes": 71,
+        "rows": 2790,
+        "similarity_families": 69
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 48,
+        "contexts": 523,
+        "genes": 48,
+        "rows": 1437,
+        "similarity_families": 48
+      },
+      "before_rows": 1437,
+      "inner_fold": 1,
+      "outer_fold": 0,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 67,
+        "contexts": 903,
+        "genes": 67,
+        "rows": 2641,
+        "similarity_families": 67
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 67,
+        "contexts": 903,
+        "genes": 67,
+        "rows": 2641,
+        "similarity_families": 67
+      },
+      "before_rows": 2641,
+      "inner_fold": 2,
+      "outer_fold": 0,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 48,
+        "contexts": 523,
+        "genes": 48,
+        "rows": 1437,
+        "similarity_families": 48
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 120,
+        "contexts": 1510,
+        "genes": 120,
+        "rows": 4251,
+        "similarity_families": 117
+      },
+      "before_rows": 4251,
+      "inner_fold": null,
+      "outer_fold": 1,
+      "removed_rows": 0,
+      "scope": "outer",
+      "target": {
+        "components": 67,
+        "contexts": 902,
+        "genes": 67,
+        "rows": 2639,
+        "similarity_families": 67
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 48,
+        "contexts": 523,
+        "genes": 48,
+        "rows": 1437,
+        "similarity_families": 48
+      },
+      "before_rows": 1463,
+      "inner_fold": 0,
+      "outer_fold": 1,
+      "removed_rows": 26,
+      "scope": "inner",
+      "target": {
+        "components": 71,
+        "contexts": 976,
+        "genes": 71,
+        "rows": 2788,
+        "similarity_families": 69
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 68,
+        "contexts": 941,
+        "genes": 68,
+        "rows": 2702,
+        "similarity_families": 68
+      },
+      "before_rows": 2788,
+      "inner_fold": 2,
+      "outer_fold": 1,
+      "removed_rows": 86,
+      "scope": "inner",
+      "target": {
+        "components": 49,
+        "contexts": 534,
+        "genes": 49,
+        "rows": 1463,
+        "similarity_families": 49
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 135,
+        "contexts": 1844,
+        "genes": 135,
+        "rows": 5343,
+        "similarity_families": 135
+      },
+      "before_rows": 5429,
+      "inner_fold": null,
+      "outer_fold": 2,
+      "removed_rows": 86,
+      "scope": "outer",
+      "target": {
+        "components": 49,
+        "contexts": 533,
+        "genes": 49,
+        "rows": 1460,
+        "similarity_families": 49
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 67,
+        "contexts": 903,
+        "genes": 67,
+        "rows": 2641,
+        "similarity_families": 67
+      },
+      "before_rows": 2641,
+      "inner_fold": 0,
+      "outer_fold": 2,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 68,
+        "contexts": 941,
+        "genes": 68,
+        "rows": 2702,
+        "similarity_families": 68
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    },
+    {
+      "after": {
+        "components": 68,
+        "contexts": 941,
+        "genes": 68,
+        "rows": 2702,
+        "similarity_families": 68
+      },
+      "before_rows": 2702,
+      "inner_fold": 1,
+      "outer_fold": 2,
+      "removed_rows": 0,
+      "scope": "inner",
+      "target": {
+        "components": 67,
+        "contexts": 903,
+        "genes": 67,
+        "rows": 2641,
+        "similarity_families": 67
+      },
+      "task": "N2A_to_CAD",
+      "viable": true
+    }
+  ],
+  "status": "PASS",
+  "unique_alleles": 9318,
+  "unordered_nonidentical_allele_pairs_exhaustively_checked": 43407903
+}

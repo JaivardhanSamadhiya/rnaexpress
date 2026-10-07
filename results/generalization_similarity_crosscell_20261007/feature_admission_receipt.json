@@ -1,0 +1,64 @@
+{
+  "checkpoint_adoption": false,
+  "feature_files": {
+    "artifacts/generalization_crosscell_20261007/base_model_features.npz": "7be5aeb3a65190d1e0a60d0d5decd9854c01dfb9770d86cd440187bd6f28f57c",
+    "artifacts/generalization_crosscell_20261007/bert_model_features.npz": "92184e4da9436a6e3f38312510f907b76bfe5c92d88d20c970a7a096a503be85",
+    "artifacts/generalization_crosscell_20261007/combined_model_features.npz": "98669c4950a4c4e073de0bf5570e6d618a5e115f35506ce6d75e77d78e47a9e0",
+    "artifacts/generalization_crosscell_20261007/lookup_model_features.npz": "28ccc3fe4d1267917bc8bede4e48bedbabe0362d5bad63c38c49deced9cf1800",
+    "artifacts/generalization_crosscell_20261007/raw_model_features.npz": "a545320afdc5d0cb64ebe4a89a6f2835e9a1c25337cbe92167599ca2b573ee62",
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6",
+    "artifacts/generalization_crosscell_20261007/structure_model_features.npz": "191f08f95103752137d249d7e7443012f675721cf5a20d0c2bcc34fe8f676b76"
+  },
+  "graph_receipt_sha256": "a4fb230cb8d46b9351f49b9888acb06285d01c4ee486d49f812282dad5d294ce",
+  "native_distance_runtime": {
+    "block": 64,
+    "cdist": "rapidfuzz.process_cpp",
+    "distance_scorer": "rapidfuzz.distance.metrics_cpp_avx2",
+    "dtype": "int16",
+    "files": {
+      "data/interim/mechanism_v2/runtime/rapidfuzz-3.14.1.dist-info/METADATA": "621c880c177a095c37a9e247495ef6b428ee39c0f0fe68d3d6749919f998fd82",
+      "data/interim/mechanism_v2/runtime/rapidfuzz-3.14.1.dist-info/licenses/LICENSE": "f34ccdffdff56fc417785915eedf18601d5479755df3c472b2c754c29802d683",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/__init__.py": "0eaa709d28361d4ce37785d6252e6308edd769ebae1affd00dde60af5e68b79b",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/distance/Levenshtein.py": "50918b72cf5d5cbdb990e8db8ba4ce0941d77fab86325193592a2dc515dfdc95",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/distance/metrics_cpp_avx2.cp312-win_amd64.pyd": "a88751ccbd214dc5ea45a329e78c375a78ee1576768624922f9a0995074d63ae",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process.py": "272953fad6018703f9ebaa74ccef8ed994f4a7ed245b77025206e70823a855c4",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process_cpp.py": "b805db1ddfd4546d3239a16f55b64a819cd02e90d6b5e209c42b18e8c79444a5",
+      "data/interim/mechanism_v2/runtime/rapidfuzz/process_cpp_impl.cp312-win_amd64.pyd": "163c2d3561ae868c9b58dbe4727072bbcf7daa86642bf654c5b479247b9d5fc4"
+    },
+    "native_cdist": "rapidfuzz.process_cpp_impl",
+    "processor": null,
+    "score_cutoff": 30,
+    "version": "3.14.1",
+    "weights": [
+      1,
+      1,
+      1
+    ],
+    "workers": 1
+  },
+  "outcome_columns_read": false,
+  "project_fits": 0,
+  "rosters": 18,
+  "row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "rows": 13781,
+  "status": "PASS",
+  "tracks": [
+    "simple",
+    "base",
+    "raw",
+    "structure",
+    "lookup",
+    "bert",
+    "combined"
+  ],
+  "upstream_manifest_sha256": "547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345",
+  "widths": {
+    "base": 246,
+    "bert": 502,
+    "combined": 518,
+    "lookup": 502,
+    "raw": 251,
+    "simple": 102,
+    "structure": 262
+  }
+}

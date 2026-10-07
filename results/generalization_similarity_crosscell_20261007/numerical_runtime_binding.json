@@ -1,0 +1,20 @@
+{
+  "files": {
+    "data/interim/mechanism_v2/runtime/numpy.libs/libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll": "57b87772bf676b5c2d718c79dddc9f039d79ec3319fee1398cc305adff7b69e5",
+    "data/interim/mechanism_v2/runtime/numpy/__init__.py": "150b19558caf78c0e3cc6994ec652399e972595ca649cea1a69c801ef23e4b1c",
+    "data/interim/mechanism_v2/runtime/numpy/core/_multiarray_umath.cp312-win_amd64.pyd": "5d4f44389d1b4e9aa62af63b716a0d4266dbb56fefa9bf27831f85b695994da5",
+    "data/interim/mechanism_v2/runtime/scipy.libs/libscipy_openblas-5b1ec8b915dfb81d11cebc0788069d2d.dll": "9964f8937b7e0307c7384073568731bc977816768aef9348906e8cce596254d5",
+    "data/interim/mechanism_v2/runtime/scipy/__init__.py": "49b485270370f581b5858d214d4d8cf1c4ee4d3d8def7ca68d1412a80b5d48f2",
+    "data/interim/mechanism_v2/runtime/scipy/optimize/_lbfgsb.cp312-win_amd64.pyd": "a8faf04e84000f345971a1b01092da23a49ddd90d91ae05e7ad262415472febc",
+    "data/interim/mechanism_v2/runtime/scipy/optimize/_lbfgsb_py.py": "7d5910e6ac3a7dd4ae73f2f13871d4e47cff6ca66dc9e60591a28701f295b222",
+    "data/interim/mechanism_v2/runtime/scipy/optimize/_optimize.py": "c5c5aa02d28a21abf8546ce7aeb10bf4e955083b6b1f371f5c20ddfe763ee85b",
+    "data/interim/mechanism_v2/runtime/scipy/special/_ufuncs.cp312-win_amd64.pyd": "1e059d71a0c4c86a7dd4b62c6ce2e80cebcdb04a60513c966e797575f7b64482",
+    "data/interim/mechanism_v2/runtime/threadpoolctl.py": "12fb9526b6a74d2e686b7ec148dc165c3587999b14fa86984aa180e10802400b"
+  },
+  "numerical_threads": 1,
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "threadpoolctl": "3.6.0"
+  }
+}
