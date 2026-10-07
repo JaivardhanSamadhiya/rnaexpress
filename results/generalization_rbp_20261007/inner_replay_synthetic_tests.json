@@ -1,0 +1,13 @@
+{
+  "additive_post_production_freeze": true,
+  "biological_fits": 0,
+  "files": {
+    "reports/generalization_rbp_20261007/inner_replay_plan.md": "0ead502efde3fd2e2308a20538a6f450e1c6cab21ddfc73d6d6a7ae276ce3f52",
+    "src/generalization_rbp_20261007/inner_replay.py": "79db2226c72546a71ff155cc155a18285ea74b0092847862b29f187c0f989454",
+    "src/generalization_rbp_20261007/test_inner_replay.py": "315d28f723cc6d9d03b28ddd36730c85ff673b12246050e8a9916b11281ed4c3"
+  },
+  "project_data_loaded": false,
+  "status": "PASS",
+  "tests": 4,
+  "validation_command": "-u -m unittest src.generalization_rbp_20261007.test_inner_replay"
+}

@@ -1,0 +1,107 @@
+{
+  "limitations": [
+    "SRLE raw-to-author-table chain remains partial",
+    "Moffatt paired mutant-minus-WT replicates remain absent",
+    "Author aggregate effects need not equal mean pseudocounted raw contrasts",
+    "Local table agreement does not certify physical clone identity or complete reporter processing"
+  ],
+  "local_source_hashes": {
+    "artifacts/generalization_20260926/GSE330741_mapped_outcomes.csv": "f31a38ec6d03de3317d7f0c1b1aaaf8586277e2512b9512c027606da8b6cc08a",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+    "results/research_20260921/raw_replication_scores.csv": "facfcc7b9a286911b965c63c0c0c0c7d730275459c7abaa16c2d0752222f08b5",
+    "results/v4_phaseA/mikl_interventions.csv.gz": "daf5c035afb16e9dbbf90714c595c0e733f4eec70f2191d475b78c20e9f29bcc",
+    "results/v4_phaseA/moffatt_interventions.csv.gz": "54e1ed30702f878ef5894b35dd7e9b184355f051f25e5571243d7764e434272b"
+  },
+  "models_fit": 0,
+  "protected_outcomes_opened": false,
+  "rows_checked": 26258,
+  "scope": "Independent preserved-table lineage and numeric arithmetic; not author raw pipeline reproduction",
+  "source_checks": {
+    "astrocyte": {
+      "columns": {
+        "measured_delta": {
+          "maximum_absolute_error": 2.220446049250313e-16
+        },
+        "measured_mutant_localization": {
+          "maximum_absolute_error": 9.71445146547012e-17
+        },
+        "measured_parent_localization": {
+          "maximum_absolute_error": 0.0
+        },
+        "mutant_sequence": {
+          "exact_matches": 3984
+        },
+        "parent_sequence": {
+          "exact_matches": 3984
+        }
+      },
+      "rows": 3984
+    },
+    "mikl_CAD": {
+      "columns": {
+        "measured_delta": {
+          "maximum_absolute_error": 8.881784197001252e-16
+        },
+        "mutant_sequence": {
+          "exact_matches": 6889
+        },
+        "parent_sequence": {
+          "exact_matches": 6889
+        }
+      },
+      "rows": 6889
+    },
+    "mikl_Neuro-2a": {
+      "columns": {
+        "measured_delta": {
+          "maximum_absolute_error": 8.881784197001252e-16
+        },
+        "mutant_sequence": {
+          "exact_matches": 6892
+        },
+        "parent_sequence": {
+          "exact_matches": 6892
+        }
+      },
+      "rows": 6892
+    },
+    "moffatt_Firefly": {
+      "columns": {
+        "measured_delta": {
+          "maximum_absolute_error": 4.440892098500626e-16
+        },
+        "mutant_sequence": {
+          "exact_matches": 2847
+        },
+        "parent_sequence": {
+          "exact_matches": 2847
+        }
+      },
+      "rows": 2847
+    },
+    "moffatt_GFP": {
+      "columns": {
+        "measured_delta": {
+          "maximum_absolute_error": 4.440892098500626e-16
+        },
+        "mutant_sequence": {
+          "exact_matches": 3902
+        },
+        "parent_sequence": {
+          "exact_matches": 3902
+        }
+      },
+      "rows": 3902
+    },
+    "srle": {
+      "maximum_absolute_errors": {
+        "measured_delta": 2.220446049250313e-16,
+        "measured_mutant_localization": 2.220446049250313e-16,
+        "measured_parent_localization": 2.220446049250313e-16
+      },
+      "rows": 1744
+    }
+  },
+  "source_sha256": "5d7ff1bdb65914be5afe350b3cd77022f863e1c1a72102cf1280e26446866143",
+  "status": "PASS"
+}
