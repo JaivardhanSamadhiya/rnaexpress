@@ -1,0 +1,23 @@
+{
+  "built_before_fitting": true,
+  "configurations": [
+    {
+      "id": "endpoint_l2_005",
+      "penalty": 0.005
+    },
+    {
+      "id": "endpoint_l2_05",
+      "penalty": 0.05
+    },
+    {
+      "id": "endpoint_l2_5",
+      "penalty": 0.5
+    }
+  ],
+  "sha256": "deebba77e8e33896a54980a594d9725946042c64a0febf2e3fb59d2ca76036e6",
+  "shape": [
+    26258,
+    247
+  ],
+  "sparse": false
+}

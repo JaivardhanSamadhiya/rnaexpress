@@ -1,0 +1,23 @@
+{
+  "built_before_fitting": true,
+  "configurations": [
+    {
+      "id": "mechanism_l2_005",
+      "penalty": 0.005
+    },
+    {
+      "id": "mechanism_l2_05",
+      "penalty": 0.05
+    },
+    {
+      "id": "mechanism_l2_5",
+      "penalty": 0.5
+    }
+  ],
+  "sha256": "d51f275e71bebe4e706016d986e460e11e095253bcf468766098e1089fb8e85a",
+  "shape": [
+    26258,
+    371
+  ],
+  "sparse": false
+}

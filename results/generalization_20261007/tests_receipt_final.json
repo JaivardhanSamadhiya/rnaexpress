@@ -1,0 +1,19 @@
+{
+  "code_hashes": {
+    "test_coverage": "e2e0ab8362ab4c45fb150136ddbffd9bbf7304893c3d0b8f22c59123cb3341db",
+    "test_endpoint": "e267f96b33bb99337f94cda3c7a194e2d99def10cb5b49d921f46b7aff07a6cd",
+    "test_mechanism": "50fb34696a1888d8e23b052f4381b97f891b8b82ab2a4499bdf62e6d1c7cc6a6",
+    "test_representation": "f4e6b888181c9ed1bd32602a3bf4fbb59d6a83258b78367ac5d65a2dbc836244",
+    "test_scaling": "27a65efbe3bba144e69b1a4410dfd4b885568d8b29a8ec8e7577e2699c7bbd02"
+  },
+  "modules": [
+    "test_scaling",
+    "test_representation",
+    "test_mechanism",
+    "test_coverage",
+    "test_endpoint"
+  ],
+  "status": "PASS",
+  "tests": 28,
+  "unfiltered_pytest": false
+}

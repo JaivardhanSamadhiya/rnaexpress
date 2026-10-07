@@ -1,0 +1,23 @@
+{
+  "built_before_fitting": true,
+  "configurations": [
+    {
+      "id": "ordered_456_l2_0.005",
+      "penalty": 0.005
+    },
+    {
+      "id": "ordered_456_l2_0.05",
+      "penalty": 0.05
+    },
+    {
+      "id": "ordered_456_l2_0.5",
+      "penalty": 0.5
+    }
+  ],
+  "sha256": "24c7348ef3cd4857b5669bfc344d4d7abf48fc9392b09a7ac4c715f33f8e27b8",
+  "shape": [
+    26258,
+    5622
+  ],
+  "sparse": true
+}

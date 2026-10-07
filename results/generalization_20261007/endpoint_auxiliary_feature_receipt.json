@@ -1,0 +1,21 @@
+{
+  "auxiliary_components": 2,
+  "auxiliary_parent_ids": [
+    "Jpx_9",
+    "NICN1_53"
+  ],
+  "auxiliary_parents": 2,
+  "auxiliary_rows": 223,
+  "built_before_fitting": true,
+  "core_rows": 26258,
+  "exclusion_metadata_has_outcomes": false,
+  "files": {
+    "artifacts/generalization_20261007/endpoint_auxiliary.csv.gz": "c2e0196d931a2fa0b154b861a914e8a775d0a8232b9d1cb7bd7cf044f5091170",
+    "artifacts/generalization_20261007/endpoint_auxiliary_features.npz": "6785efce6c609f3e6b740d97891f4a10492c8ba90200d24e2b807a7c3e5c4fca",
+    "results/generalization_20261007/endpoint_auxiliary_core_exclusion.csv.gz": "1b1f27e01877e5d208053b5ad48a3b978c57e7f98b74fba1a805749fc71c581b"
+  },
+  "new_or_reserved_outcomes_opened": false,
+  "source": "artifacts/cross_assay_20260927/canonical_interventions.csv",
+  "source_sha256": "f57c8bc22c37717887980fc5bf0948bf7520b4b4459522e97ca2762625adfe57",
+  "use": "Previously exposed secondary SIRLOIN C1/C2 rows; nuclear head training only; never evaluated"
+}

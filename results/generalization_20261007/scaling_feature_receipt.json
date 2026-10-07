@@ -1,0 +1,41 @@
+{
+  "built_before_fitting": true,
+  "configurations": [
+    {
+      "id": "candidate_005",
+      "penalty": 0.005,
+      "scaling": "candidate"
+    },
+    {
+      "id": "candidate_05",
+      "penalty": 0.05,
+      "scaling": "candidate"
+    },
+    {
+      "id": "candidate_5",
+      "penalty": 0.5,
+      "scaling": "candidate"
+    },
+    {
+      "id": "pair_005",
+      "penalty": 0.005,
+      "scaling": "pair"
+    },
+    {
+      "id": "pair_05",
+      "penalty": 0.05,
+      "scaling": "pair"
+    },
+    {
+      "id": "pair_5",
+      "penalty": 0.5,
+      "scaling": "pair"
+    }
+  ],
+  "sha256": "038a64c83c7427cb1b5775e216148c90e6b67260fa4544aae2b6afbae6450a72",
+  "shape": [
+    26258,
+    246
+  ],
+  "sparse": false
+}

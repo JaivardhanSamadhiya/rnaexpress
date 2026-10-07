@@ -1,0 +1,53 @@
+{
+  "built_before_fitting": true,
+  "configurations": [
+    {
+      "coverage": "historical",
+      "id": "historical_pairs_l2_05",
+      "penalty": 0.05,
+      "robust": false
+    },
+    {
+      "coverage": "connected",
+      "id": "connected_erm_l2_0.005",
+      "penalty": 0.005,
+      "robust": false
+    },
+    {
+      "coverage": "connected",
+      "id": "connected_erm_l2_0.05",
+      "penalty": 0.05,
+      "robust": false
+    },
+    {
+      "coverage": "connected",
+      "id": "connected_erm_l2_0.5",
+      "penalty": 0.5,
+      "robust": false
+    },
+    {
+      "coverage": "connected",
+      "id": "connected_robust_l2_0.005",
+      "penalty": 0.005,
+      "robust": true
+    },
+    {
+      "coverage": "connected",
+      "id": "connected_robust_l2_0.05",
+      "penalty": 0.05,
+      "robust": true
+    },
+    {
+      "coverage": "connected",
+      "id": "connected_robust_l2_0.5",
+      "penalty": 0.5,
+      "robust": true
+    }
+  ],
+  "sha256": "038a64c83c7427cb1b5775e216148c90e6b67260fa4544aae2b6afbae6450a72",
+  "shape": [
+    26258,
+    246
+  ],
+  "sparse": false
+}
