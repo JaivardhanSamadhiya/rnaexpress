@@ -1,0 +1,992 @@
+{
+  "all_annotation_column_names": [
+    "tileID",
+    "group",
+    "mutType",
+    "ms2",
+    "mutLoc"
+  ],
+  "annotation_RObject_nodes": 462,
+  "column_metadata": {
+    "group": {
+      "levels": [
+        "WT",
+        "Control",
+        "Single",
+        "Stem"
+      ],
+      "ordered": false,
+      "type": "factor"
+    },
+    "mutLoc": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    },
+    "mutType": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    },
+    "tileID": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    }
+  },
+  "exported_allowlist_columns": [
+    "tileID",
+    "group",
+    "mutType",
+    "mutLoc"
+  ],
+  "parent_mutant_ancestry_admitted": false,
+  "rows": [
+    {
+      "group": "Control",
+      "mutLoc": "-1",
+      "mutType": "Negative",
+      "tileID": "ms2-4x:1"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "11",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:2"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "0",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:3"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "0",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:4"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "11",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:5"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "0",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:6"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "11",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:7"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "0",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:8"
+    },
+    {
+      "group": "Control",
+      "mutLoc": "11",
+      "mutType": "Positive",
+      "tileID": "ms2-4x:9"
+    },
+    {
+      "group": "WT",
+      "mutLoc": "0",
+      "mutType": "WT",
+      "tileID": "ms2-4x:10"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "1",
+      "mutType": "AtoC",
+      "tileID": "ms2-4x:11"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "1",
+      "mutType": "AtoG",
+      "tileID": "ms2-4x:12"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "1",
+      "mutType": "AtoT",
+      "tileID": "ms2-4x:13"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "2",
+      "mutType": "CtoA",
+      "tileID": "ms2-4x:14"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "2",
+      "mutType": "CtoG",
+      "tileID": "ms2-4x:15"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "2",
+      "mutType": "CtoT",
+      "tileID": "ms2-4x:16"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "3",
+      "mutType": "AtoC",
+      "tileID": "ms2-4x:17"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "3",
+      "mutType": "AtoG",
+      "tileID": "ms2-4x:18"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "3",
+      "mutType": "AtoT",
+      "tileID": "ms2-4x:19"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "4",
+      "mutType": "TtoA",
+      "tileID": "ms2-4x:20"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "4",
+      "mutType": "TtoC",
+      "tileID": "ms2-4x:21"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "4",
+      "mutType": "TtoG",
+      "tileID": "ms2-4x:22"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "5",
+      "mutType": "GtoA",
+      "tileID": "ms2-4x:23"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "5",
+      "mutType": "GtoC",
+      "tileID": "ms2-4x:24"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "5",
+      "mutType": "GtoT",
+      "tileID": "ms2-4x:25"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "6",
+      "mutType": "AtoC",
+      "tileID": "ms2-4x:26"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "6",
+      "mutType": "AtoG",
+      "tileID": "ms2-4x:27"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "6",
+      "mutType": "AtoT",
+      "tileID": "ms2-4x:28"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "7",
+      "mutType": "GtoA",
+      "tileID": "ms2-4x:29"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "7",
+      "mutType": "GtoC",
+      "tileID": "ms2-4x:30"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "7",
+      "mutType": "GtoT",
+      "tileID": "ms2-4x:31"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "8",
+      "mutType": "GtoA",
+      "tileID": "ms2-4x:32"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "8",
+      "mutType": "GtoC",
+      "tileID": "ms2-4x:33"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "8",
+      "mutType": "GtoT",
+      "tileID": "ms2-4x:34"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "9",
+      "mutType": "AtoC",
+      "tileID": "ms2-4x:35"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "9",
+      "mutType": "AtoG",
+      "tileID": "ms2-4x:36"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "9",
+      "mutType": "AtoT",
+      "tileID": "ms2-4x:37"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "10",
+      "mutType": "TtoA",
+      "tileID": "ms2-4x:38"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "10",
+      "mutType": "TtoC",
+      "tileID": "ms2-4x:39"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "10",
+      "mutType": "TtoG",
+      "tileID": "ms2-4x:40"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "11",
+      "mutType": "TtoA",
+      "tileID": "ms2-4x:41"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "11",
+      "mutType": "TtoC",
+      "tileID": "ms2-4x:42"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "11",
+      "mutType": "TtoG",
+      "tileID": "ms2-4x:43"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "12",
+      "mutType": "AtoC",
+      "tileID": "ms2-4x:44"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "12",
+      "mutType": "AtoG",
+      "tileID": "ms2-4x:45"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "12",
+      "mutType": "AtoT",
+      "tileID": "ms2-4x:46"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "13",
+      "mutType": "CtoA",
+      "tileID": "ms2-4x:47"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "13",
+      "mutType": "CtoG",
+      "tileID": "ms2-4x:48"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "13",
+      "mutType": "CtoT",
+      "tileID": "ms2-4x:49"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "14",
+      "mutType": "CtoA",
+      "tileID": "ms2-4x:50"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "14",
+      "mutType": "CtoG",
+      "tileID": "ms2-4x:51"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "14",
+      "mutType": "CtoT",
+      "tileID": "ms2-4x:52"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "15",
+      "mutType": "CtoA",
+      "tileID": "ms2-4x:53"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "15",
+      "mutType": "CtoG",
+      "tileID": "ms2-4x:54"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "15",
+      "mutType": "CtoT",
+      "tileID": "ms2-4x:55"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "16",
+      "mutType": "AtoC",
+      "tileID": "ms2-4x:56"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "16",
+      "mutType": "AtoG",
+      "tileID": "ms2-4x:57"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "16",
+      "mutType": "AtoT",
+      "tileID": "ms2-4x:58"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "17",
+      "mutType": "TtoA",
+      "tileID": "ms2-4x:59"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "17",
+      "mutType": "TtoC",
+      "tileID": "ms2-4x:60"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "17",
+      "mutType": "TtoG",
+      "tileID": "ms2-4x:61"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "18",
+      "mutType": "GtoA",
+      "tileID": "ms2-4x:62"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "18",
+      "mutType": "GtoC",
+      "tileID": "ms2-4x:63"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "18",
+      "mutType": "GtoT",
+      "tileID": "ms2-4x:64"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "19",
+      "mutType": "TtoA",
+      "tileID": "ms2-4x:65"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "19",
+      "mutType": "TtoC",
+      "tileID": "ms2-4x:66"
+    },
+    {
+      "group": "Single",
+      "mutLoc": "19",
+      "mutType": "TtoG",
+      "tileID": "ms2-4x:67"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:1",
+      "mutType": "3p",
+      "tileID": "ms2-4x:68"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:1",
+      "mutType": "5p",
+      "tileID": "ms2-4x:69"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:1",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:70"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:2",
+      "mutType": "3p",
+      "tileID": "ms2-4x:71"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:2",
+      "mutType": "5p",
+      "tileID": "ms2-4x:72"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:2",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:73"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:3",
+      "mutType": "3p",
+      "tileID": "ms2-4x:74"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:3",
+      "mutType": "5p",
+      "tileID": "ms2-4x:75"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:3",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:76"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:4",
+      "mutType": "3p",
+      "tileID": "ms2-4x:77"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:4",
+      "mutType": "5p",
+      "tileID": "ms2-4x:78"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:4",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:79"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:5",
+      "mutType": "3p",
+      "tileID": "ms2-4x:80"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:5",
+      "mutType": "5p",
+      "tileID": "ms2-4x:81"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:5",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:82"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:6",
+      "mutType": "3p",
+      "tileID": "ms2-4x:83"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:6",
+      "mutType": "5p",
+      "tileID": "ms2-4x:84"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:6",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:85"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:7",
+      "mutType": "5p",
+      "tileID": "ms2-4x:86"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:7",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:87"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:8",
+      "mutType": "3p",
+      "tileID": "ms2-4x:88"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:8",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:89"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:9",
+      "mutType": "3p",
+      "tileID": "ms2-4x:90"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:9",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:91"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:10",
+      "mutType": "5p",
+      "tileID": "ms2-4x:92"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:10",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:93"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:11",
+      "mutType": "3p",
+      "tileID": "ms2-4x:94"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:11",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:95"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:12",
+      "mutType": "3p",
+      "tileID": "ms2-4x:96"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:12",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:97"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:13",
+      "mutType": "3p",
+      "tileID": "ms2-4x:98"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:13",
+      "mutType": "5p",
+      "tileID": "ms2-4x:99"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:13",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:100"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:14",
+      "mutType": "5p",
+      "tileID": "ms2-4x:101"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:14",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:102"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:15",
+      "mutType": "5p",
+      "tileID": "ms2-4x:103"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:15",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:104"
+    },
+    {
+      "group": "Stem",
+      "mutLoc": "stem:16",
+      "mutType": "compensatory",
+      "tileID": "ms2-4x:105"
+    }
+  ],
+  "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_ms2_raw.Rdata"
+}

@@ -1,0 +1,33 @@
+{
+  "DOI": "10.1093/nar/gkae929",
+  "allowed_next_stage": "ZIP byte signature/SHA/CRC/member names only; no worksheet cells or data values in this stage",
+  "archive_member_cap": 100,
+  "article_license": "CC BY-NC 4.0; noncommercial research with attribution; do not assume unrelated rights",
+  "article_results_already_exposed_by_primary_literature_read": true,
+  "maximum_requests": 2,
+  "models_fit": 0,
+  "numerical_outcomes_semantically_analyzed": false,
+  "paid_access_or_purchase_allowed": false,
+  "per_response_byte_cap": 8388608,
+  "problems_to_resolve": [
+    "PRELibB Methods target<6000 vs Results6294",
+    "IRF2BP1 Methods vs IGF2BP1 Results",
+    "S3 baseline designs and S4 sequence IDs, actual columns not certified"
+  ],
+  "public_primary_host_only": true,
+  "requests": [
+    {
+      "reason": "Official PMC author supplement",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11602169/bin/gkae929_supplemental_files.zip"
+    },
+    {
+      "reason": "Exact official publisher href; only if first endpoint does not return ZIP bytes",
+      "url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/52/21/10.1093_nar_gkae929/1/gkae929_supplemental_files.zip?Expires=2147483647&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&Signature=cYDQCVXD2ks~MaOpmySZ7FEyEfDCHJCa5KFAEJ8GnsZ8LQeMk2MY-ARTJmXgNu3-IJdTNaXR3j8PFpOxaUUGwbuAQzWtRGLqKEZZhkOXyKjktD8i0-UTHpPbhQlHazx1lsshKVrlggPVQ8eva9kUA9zVtnCXCVT7Esd5a3aWDg00gq62QfSfDFRWtD6Q~rlYrfCxECN017C9~CSR-7UodsqXa5X1XsipMajb4h2dq6I1A0qL3eCU~-rmfSmM~J-rgf3z1vaIacI~3fwHh8J7hks2VHQRPFuLwVQ~1wTo39wtZHZUNf5O7zjFcYu7piN9tAy0JH9v0xohO0peZCJdhA__"
+    }
+  ],
+  "root_commit_before_download": true,
+  "source_article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11602169/",
+  "status": "FIXED_FREE_PRIMARY_SUPPLEMENT_ARCHIVE_METADATA_ACQUISITION_ONLY",
+  "total_uncompressed_cap": 104857600,
+  "unseen_confirmation_set_claim": false
+}

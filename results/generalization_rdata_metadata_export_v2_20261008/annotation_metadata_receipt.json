@@ -1,0 +1,244 @@
+{
+  "R_expressions_evaluated": false,
+  "count_arrays_internally_parsed": true,
+  "count_values_analyzed_or_exported": false,
+  "files": {
+    "results/generalization_rdata_metadata_export_v2_20261008/git_CTCF_raw_annotation_metadata.json": "9579fe0b5e650f66c5b4a46b2dae111b0220d2d88b5bc4318d4023303acdc2a4",
+    "results/generalization_rdata_metadata_export_v2_20261008/git_PUM2_raw_annotation_metadata.json": "cb06d0d5c2424e56e63ea567063f63b36bccbbd61fc3624c31ccbcf713907d2d",
+    "results/generalization_rdata_metadata_export_v2_20261008/git_WRAP53_raw_annotation_metadata.json": "0237f0a494a0c2e6a07873fe6d53334d098ffa1192250f5735195e63833d0d7e",
+    "results/generalization_rdata_metadata_export_v2_20261008/git_hTR_raw_annotation_metadata.json": "e63420875f3c9edc622d9c6d989b4fb1d7eece7ec0a933dba14f5c13b19e7917",
+    "results/generalization_rdata_metadata_export_v2_20261008/git_ms2_raw_annotation_metadata.json": "727cf99659f7417d66e60750c0de6753728873b35b92a633b4c572b084ef5f72"
+  },
+  "metadata_parse_manifest_sha256": "d173d8d751e9c95f98caa1691502aab6e7fa2fe6e7cfc782930edc7891439066",
+  "models_fit": 0,
+  "new_localization_outcomes_read": false,
+  "original_failed_parser_preserved": true,
+  "parent_pair_admission": false,
+  "records": [
+    {
+      "all_annotation_column_names": [
+        "tileID",
+        "gene_name",
+        "gene_id",
+        "start",
+        "end",
+        "size",
+        "energy",
+        "clip"
+      ],
+      "ancestry_admitted": false,
+      "annotation_RObject_nodes": 2989,
+      "annotation_rows": 985,
+      "count_analysis_or_export": false,
+      "elapsed_seconds": 4.8439999999973224,
+      "exported_columns": [
+        "tileID"
+      ],
+      "global_structural_names_and_types": [
+        {
+          "name": "fastqc",
+          "type": "VEC"
+        },
+        {
+          "name": "oligo.count",
+          "type": "VEC"
+        },
+        {
+          "name": "tile.annot",
+          "type": "VEC"
+        }
+      ],
+      "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_CTCF_raw.Rdata",
+      "whole_count_arrays_internally_materialized": true,
+      "whole_global_RObject_node_count_measured": false
+    },
+    {
+      "all_annotation_column_names": [
+        "gene_name",
+        "gene_id",
+        "gene_size",
+        "start",
+        "end",
+        "tileID",
+        "size",
+        "gc",
+        "pre.num",
+        "pre.width",
+        "pre.mm.num",
+        "pre.mm.width"
+      ],
+      "ancestry_admitted": false,
+      "annotation_RObject_nodes": 4839,
+      "annotation_rows": 1599,
+      "count_analysis_or_export": false,
+      "elapsed_seconds": 3.6560000000026776,
+      "exported_columns": [
+        "tileID"
+      ],
+      "global_structural_names_and_types": [
+        {
+          "name": "fastqc",
+          "type": "VEC"
+        },
+        {
+          "name": "oligo.count",
+          "type": "VEC"
+        },
+        {
+          "name": "tile.annot",
+          "type": "VEC"
+        }
+      ],
+      "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_PUM2_raw.Rdata",
+      "whole_count_arrays_internally_materialized": true,
+      "whole_global_RObject_node_count_measured": false
+    },
+    {
+      "all_annotation_column_names": [
+        "tileID",
+        "type",
+        "mutation",
+        "idx",
+        "gc"
+      ],
+      "ancestry_admitted": false,
+      "annotation_RObject_nodes": 248,
+      "annotation_rows": 55,
+      "count_analysis_or_export": false,
+      "elapsed_seconds": 0.1880000000091968,
+      "exported_columns": [
+        "tileID",
+        "type",
+        "mutation",
+        "idx"
+      ],
+      "global_structural_names_and_types": [
+        {
+          "name": "fastqc",
+          "type": "VEC"
+        },
+        {
+          "name": "oligo.count",
+          "type": "VEC"
+        },
+        {
+          "name": "tile.annot",
+          "type": "VEC"
+        }
+      ],
+      "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_WRAP53_raw.Rdata",
+      "whole_count_arrays_internally_materialized": true,
+      "whole_global_RObject_node_count_measured": false
+    },
+    {
+      "all_annotation_column_names": [
+        "tileID",
+        "coord",
+        "region",
+        "type",
+        "mutation",
+        "bpLoc5prime",
+        "bpLoc3prime"
+      ],
+      "ancestry_admitted": false,
+      "annotation_RObject_nodes": 3730,
+      "annotation_rows": 614,
+      "count_analysis_or_export": false,
+      "elapsed_seconds": 0.7969999999913853,
+      "exported_columns": [
+        "tileID",
+        "type",
+        "mutation",
+        "coord",
+        "region",
+        "bpLoc5prime",
+        "bpLoc3prime"
+      ],
+      "global_structural_names_and_types": [
+        {
+          "name": "fastqc",
+          "type": "VEC"
+        },
+        {
+          "name": "tile.annot",
+          "type": "VEC"
+        },
+        {
+          "name": "oligo.count",
+          "type": "VEC"
+        }
+      ],
+      "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_hTR_raw.Rdata",
+      "whole_count_arrays_internally_materialized": true,
+      "whole_global_RObject_node_count_measured": false
+    },
+    {
+      "all_annotation_column_names": [
+        "tileID",
+        "group",
+        "mutType",
+        "ms2",
+        "mutLoc"
+      ],
+      "ancestry_admitted": false,
+      "annotation_RObject_nodes": 462,
+      "annotation_rows": 105,
+      "count_analysis_or_export": false,
+      "elapsed_seconds": 1.562000000005355,
+      "exported_columns": [
+        "tileID",
+        "group",
+        "mutType",
+        "mutLoc"
+      ],
+      "global_structural_names_and_types": [
+        {
+          "name": "fastqc",
+          "type": "VEC"
+        },
+        {
+          "name": "tile.annot",
+          "type": "VEC"
+        },
+        {
+          "name": "oligo.count",
+          "type": "VEC"
+        },
+        {
+          "name": "stem.table",
+          "type": "VEC"
+        }
+      ],
+      "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_ms2_raw.Rdata",
+      "whole_count_arrays_internally_materialized": true,
+      "whole_global_RObject_node_count_measured": false
+    }
+  ],
+  "runtime": {
+    "custom_partial_package_named_rdata": true,
+    "loaded_parser_sources": {
+      "rdata.missing": {
+        "path": "data/interim/generalization_rdata_metadata_feasibility_20261008/rdata/missing.py",
+        "sha256": "3dc865f024087eede60ace41661530eb4414aef707c7edc32618e175c3f13b71"
+      },
+      "rdata.parser": {
+        "path": "data/interim/generalization_rdata_metadata_feasibility_20261008/rdata/parser/__init__.py",
+        "sha256": "48a0266220819aa9be2828521b18c493b58cbb0f71ad4ac8ce294f2cdb673577"
+      },
+      "rdata.parser._parser": {
+        "path": "data/interim/generalization_rdata_metadata_feasibility_20261008/rdata/parser/_parser.py",
+        "sha256": "30a08111170362ea8f1f9b9a66a5957e6fda3b19737e636a443c1b4b1cb6064e"
+      }
+    },
+    "numpy_init_origin_is_not_a_full_native_DLL_attestation": true,
+    "numpy_init_sha256": "150b19558caf78c0e3cc6994ec652399e972595ca649cea1a69c801ef23e4b1c",
+    "numpy_origin": "data/interim/mechanism_v2/runtime/numpy/__init__.py",
+    "numpy_version": "1.26.4",
+    "pinned_python_contract_verified": true,
+    "stock_conversion_executed": false,
+    "stock_rdata_initializer_executed": false
+  },
+  "status": "PASS_AUTHOR_ANNOTATION_METADATA_ONLY_ANCESTRY_NOT_YET_ADMITTED",
+  "stock_class_conversion": false,
+  "whole_global_RObject_node_count_measured": false
+}

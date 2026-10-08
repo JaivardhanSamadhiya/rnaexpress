@@ -1,0 +1,3967 @@
+{
+  "all_annotation_column_names": [
+    "tileID",
+    "gene_name",
+    "gene_id",
+    "start",
+    "end",
+    "size",
+    "energy",
+    "clip"
+  ],
+  "annotation_RObject_nodes": 2989,
+  "column_metadata": {
+    "tileID": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    }
+  },
+  "exported_allowlist_columns": [
+    "tileID"
+  ],
+  "parent_mutant_ancestry_admitted": false,
+  "rows": [
+    {
+      "tileID": "TSIX_1"
+    },
+    {
+      "tileID": "TSIX_2"
+    },
+    {
+      "tileID": "TSIX_3"
+    },
+    {
+      "tileID": "TSIX_4"
+    },
+    {
+      "tileID": "TSIX_5"
+    },
+    {
+      "tileID": "TSIX_6"
+    },
+    {
+      "tileID": "TSIX_7"
+    },
+    {
+      "tileID": "TSIX_8"
+    },
+    {
+      "tileID": "TSIX_9"
+    },
+    {
+      "tileID": "TSIX_10"
+    },
+    {
+      "tileID": "TSIX_11"
+    },
+    {
+      "tileID": "TSIX_12"
+    },
+    {
+      "tileID": "TSIX_13"
+    },
+    {
+      "tileID": "TSIX_14"
+    },
+    {
+      "tileID": "TSIX_15"
+    },
+    {
+      "tileID": "TSIX_16"
+    },
+    {
+      "tileID": "TSIX_17"
+    },
+    {
+      "tileID": "TSIX_18"
+    },
+    {
+      "tileID": "TSIX_19"
+    },
+    {
+      "tileID": "TSIX_20"
+    },
+    {
+      "tileID": "TSIX_21"
+    },
+    {
+      "tileID": "TSIX_22"
+    },
+    {
+      "tileID": "TSIX_23"
+    },
+    {
+      "tileID": "TSIX_24"
+    },
+    {
+      "tileID": "TSIX_25"
+    },
+    {
+      "tileID": "TSIX_26"
+    },
+    {
+      "tileID": "TSIX_27"
+    },
+    {
+      "tileID": "TSIX_28"
+    },
+    {
+      "tileID": "TSIX_29"
+    },
+    {
+      "tileID": "TSIX_30"
+    },
+    {
+      "tileID": "TSIX_31"
+    },
+    {
+      "tileID": "TSIX_32"
+    },
+    {
+      "tileID": "TSIX_33"
+    },
+    {
+      "tileID": "TSIX_34"
+    },
+    {
+      "tileID": "TSIX_35"
+    },
+    {
+      "tileID": "TSIX_36"
+    },
+    {
+      "tileID": "TSIX_37"
+    },
+    {
+      "tileID": "TSIX_38"
+    },
+    {
+      "tileID": "TSIX_39"
+    },
+    {
+      "tileID": "TSIX_40"
+    },
+    {
+      "tileID": "TSIX_41"
+    },
+    {
+      "tileID": "TSIX_42"
+    },
+    {
+      "tileID": "TSIX_43"
+    },
+    {
+      "tileID": "TSIX_44"
+    },
+    {
+      "tileID": "TSIX_45"
+    },
+    {
+      "tileID": "TSIX_46"
+    },
+    {
+      "tileID": "TSIX_47"
+    },
+    {
+      "tileID": "TSIX_48"
+    },
+    {
+      "tileID": "TSIX_49"
+    },
+    {
+      "tileID": "TSIX_50"
+    },
+    {
+      "tileID": "TSIX_51"
+    },
+    {
+      "tileID": "TSIX_52"
+    },
+    {
+      "tileID": "TSIX_53"
+    },
+    {
+      "tileID": "TSIX_54"
+    },
+    {
+      "tileID": "TSIX_55"
+    },
+    {
+      "tileID": "TSIX_56"
+    },
+    {
+      "tileID": "TSIX_57"
+    },
+    {
+      "tileID": "TSIX_58"
+    },
+    {
+      "tileID": "TSIX_59"
+    },
+    {
+      "tileID": "TSIX_60"
+    },
+    {
+      "tileID": "TSIX_61"
+    },
+    {
+      "tileID": "TSIX_62"
+    },
+    {
+      "tileID": "TSIX_63"
+    },
+    {
+      "tileID": "TSIX_64"
+    },
+    {
+      "tileID": "TSIX_65"
+    },
+    {
+      "tileID": "TSIX_66"
+    },
+    {
+      "tileID": "TSIX_67"
+    },
+    {
+      "tileID": "TSIX_68"
+    },
+    {
+      "tileID": "TSIX_69"
+    },
+    {
+      "tileID": "TSIX_70"
+    },
+    {
+      "tileID": "TSIX_71"
+    },
+    {
+      "tileID": "TSIX_72"
+    },
+    {
+      "tileID": "TSIX_73"
+    },
+    {
+      "tileID": "TSIX_74"
+    },
+    {
+      "tileID": "TSIX_75"
+    },
+    {
+      "tileID": "TSIX_76"
+    },
+    {
+      "tileID": "TSIX_77"
+    },
+    {
+      "tileID": "TSIX_78"
+    },
+    {
+      "tileID": "TSIX_79"
+    },
+    {
+      "tileID": "TSIX_80"
+    },
+    {
+      "tileID": "TSIX_81"
+    },
+    {
+      "tileID": "TSIX_82"
+    },
+    {
+      "tileID": "TSIX_83"
+    },
+    {
+      "tileID": "TSIX_84"
+    },
+    {
+      "tileID": "TSIX_85"
+    },
+    {
+      "tileID": "TSIX_86"
+    },
+    {
+      "tileID": "TSIX_87"
+    },
+    {
+      "tileID": "TSIX_88"
+    },
+    {
+      "tileID": "TSIX_89"
+    },
+    {
+      "tileID": "TSIX_90"
+    },
+    {
+      "tileID": "TSIX_91"
+    },
+    {
+      "tileID": "TSIX_92"
+    },
+    {
+      "tileID": "TSIX_93"
+    },
+    {
+      "tileID": "TSIX_94"
+    },
+    {
+      "tileID": "TSIX_95"
+    },
+    {
+      "tileID": "TSIX_96"
+    },
+    {
+      "tileID": "TSIX_97"
+    },
+    {
+      "tileID": "TSIX_98"
+    },
+    {
+      "tileID": "TSIX_99"
+    },
+    {
+      "tileID": "TSIX_100"
+    },
+    {
+      "tileID": "TSIX_101"
+    },
+    {
+      "tileID": "TSIX_102"
+    },
+    {
+      "tileID": "TSIX_103"
+    },
+    {
+      "tileID": "TSIX_104"
+    },
+    {
+      "tileID": "TSIX_105"
+    },
+    {
+      "tileID": "TSIX_106"
+    },
+    {
+      "tileID": "TSIX_107"
+    },
+    {
+      "tileID": "TSIX_108"
+    },
+    {
+      "tileID": "TSIX_109"
+    },
+    {
+      "tileID": "TSIX_110"
+    },
+    {
+      "tileID": "TSIX_111"
+    },
+    {
+      "tileID": "TSIX_112"
+    },
+    {
+      "tileID": "TSIX_113"
+    },
+    {
+      "tileID": "TSIX_114"
+    },
+    {
+      "tileID": "TSIX_115"
+    },
+    {
+      "tileID": "TSIX_116"
+    },
+    {
+      "tileID": "TSIX_117"
+    },
+    {
+      "tileID": "TSIX_118"
+    },
+    {
+      "tileID": "TSIX_119"
+    },
+    {
+      "tileID": "TSIX_120"
+    },
+    {
+      "tileID": "TSIX_121"
+    },
+    {
+      "tileID": "TSIX_122"
+    },
+    {
+      "tileID": "TSIX_123"
+    },
+    {
+      "tileID": "TSIX_124"
+    },
+    {
+      "tileID": "TSIX_125"
+    },
+    {
+      "tileID": "TSIX_126"
+    },
+    {
+      "tileID": "TSIX_127"
+    },
+    {
+      "tileID": "TSIX_128"
+    },
+    {
+      "tileID": "TSIX_129"
+    },
+    {
+      "tileID": "TSIX_130"
+    },
+    {
+      "tileID": "TSIX_131"
+    },
+    {
+      "tileID": "TSIX_132"
+    },
+    {
+      "tileID": "TSIX_133"
+    },
+    {
+      "tileID": "TSIX_134"
+    },
+    {
+      "tileID": "TSIX_135"
+    },
+    {
+      "tileID": "TSIX_136"
+    },
+    {
+      "tileID": "TSIX_137"
+    },
+    {
+      "tileID": "TSIX_138"
+    },
+    {
+      "tileID": "TSIX_139"
+    },
+    {
+      "tileID": "TSIX_140"
+    },
+    {
+      "tileID": "TSIX_141"
+    },
+    {
+      "tileID": "TSIX_142"
+    },
+    {
+      "tileID": "TSIX_143"
+    },
+    {
+      "tileID": "TSIX_144"
+    },
+    {
+      "tileID": "TSIX_145"
+    },
+    {
+      "tileID": "TSIX_146"
+    },
+    {
+      "tileID": "TSIX_147"
+    },
+    {
+      "tileID": "TSIX_148"
+    },
+    {
+      "tileID": "TSIX_149"
+    },
+    {
+      "tileID": "TSIX_150"
+    },
+    {
+      "tileID": "TSIX_151"
+    },
+    {
+      "tileID": "TSIX_152"
+    },
+    {
+      "tileID": "TSIX_153"
+    },
+    {
+      "tileID": "TSIX_154"
+    },
+    {
+      "tileID": "TSIX_155"
+    },
+    {
+      "tileID": "TSIX_156"
+    },
+    {
+      "tileID": "TSIX_157"
+    },
+    {
+      "tileID": "TSIX_158"
+    },
+    {
+      "tileID": "TSIX_159"
+    },
+    {
+      "tileID": "TSIX_160"
+    },
+    {
+      "tileID": "TSIX_161"
+    },
+    {
+      "tileID": "TSIX_162"
+    },
+    {
+      "tileID": "TSIX_163"
+    },
+    {
+      "tileID": "TSIX_164"
+    },
+    {
+      "tileID": "TSIX_165"
+    },
+    {
+      "tileID": "TSIX_166"
+    },
+    {
+      "tileID": "TSIX_167"
+    },
+    {
+      "tileID": "TSIX_168"
+    },
+    {
+      "tileID": "TSIX_169"
+    },
+    {
+      "tileID": "TSIX_170"
+    },
+    {
+      "tileID": "TSIX_171"
+    },
+    {
+      "tileID": "TSIX_172"
+    },
+    {
+      "tileID": "TSIX_173"
+    },
+    {
+      "tileID": "TSIX_174"
+    },
+    {
+      "tileID": "TSIX_175"
+    },
+    {
+      "tileID": "TSIX_176"
+    },
+    {
+      "tileID": "TSIX_177"
+    },
+    {
+      "tileID": "TSIX_178"
+    },
+    {
+      "tileID": "TSIX_179"
+    },
+    {
+      "tileID": "TSIX_180"
+    },
+    {
+      "tileID": "TSIX_181"
+    },
+    {
+      "tileID": "TSIX_182"
+    },
+    {
+      "tileID": "TSIX_183"
+    },
+    {
+      "tileID": "TSIX_184"
+    },
+    {
+      "tileID": "TSIX_185"
+    },
+    {
+      "tileID": "TSIX_186"
+    },
+    {
+      "tileID": "TSIX_187"
+    },
+    {
+      "tileID": "TSIX_188"
+    },
+    {
+      "tileID": "TSIX_189"
+    },
+    {
+      "tileID": "TSIX_190"
+    },
+    {
+      "tileID": "TSIX_191"
+    },
+    {
+      "tileID": "TSIX_192"
+    },
+    {
+      "tileID": "TSIX_193"
+    },
+    {
+      "tileID": "TSIX_194"
+    },
+    {
+      "tileID": "TSIX_195"
+    },
+    {
+      "tileID": "TSIX_196"
+    },
+    {
+      "tileID": "TSIX_197"
+    },
+    {
+      "tileID": "TSIX_198"
+    },
+    {
+      "tileID": "TSIX_199"
+    },
+    {
+      "tileID": "TSIX_200"
+    },
+    {
+      "tileID": "TSIX_201"
+    },
+    {
+      "tileID": "TSIX_202"
+    },
+    {
+      "tileID": "TSIX_203"
+    },
+    {
+      "tileID": "TSIX_204"
+    },
+    {
+      "tileID": "TSIX_205"
+    },
+    {
+      "tileID": "TSIX_206"
+    },
+    {
+      "tileID": "TSIX_207"
+    },
+    {
+      "tileID": "TSIX_208"
+    },
+    {
+      "tileID": "TSIX_209"
+    },
+    {
+      "tileID": "TSIX_210"
+    },
+    {
+      "tileID": "TSIX_211"
+    },
+    {
+      "tileID": "TSIX_212"
+    },
+    {
+      "tileID": "TSIX_213"
+    },
+    {
+      "tileID": "TSIX_214"
+    },
+    {
+      "tileID": "TSIX_215"
+    },
+    {
+      "tileID": "TSIX_216"
+    },
+    {
+      "tileID": "TSIX_217"
+    },
+    {
+      "tileID": "TSIX_218"
+    },
+    {
+      "tileID": "TSIX_219"
+    },
+    {
+      "tileID": "TSIX_220"
+    },
+    {
+      "tileID": "TSIX_221"
+    },
+    {
+      "tileID": "TSIX_222"
+    },
+    {
+      "tileID": "TSIX_223"
+    },
+    {
+      "tileID": "TSIX_224"
+    },
+    {
+      "tileID": "TSIX_225"
+    },
+    {
+      "tileID": "TSIX_226"
+    },
+    {
+      "tileID": "TSIX_227"
+    },
+    {
+      "tileID": "TSIX_228"
+    },
+    {
+      "tileID": "TSIX_229"
+    },
+    {
+      "tileID": "TSIX_230"
+    },
+    {
+      "tileID": "TSIX_231"
+    },
+    {
+      "tileID": "TSIX_232"
+    },
+    {
+      "tileID": "TSIX_233"
+    },
+    {
+      "tileID": "TSIX_234"
+    },
+    {
+      "tileID": "TSIX_235"
+    },
+    {
+      "tileID": "TSIX_236"
+    },
+    {
+      "tileID": "TSIX_237"
+    },
+    {
+      "tileID": "TSIX_238"
+    },
+    {
+      "tileID": "TSIX_239"
+    },
+    {
+      "tileID": "TSIX_240"
+    },
+    {
+      "tileID": "TSIX_241"
+    },
+    {
+      "tileID": "TSIX_242"
+    },
+    {
+      "tileID": "TSIX_243"
+    },
+    {
+      "tileID": "TSIX_244"
+    },
+    {
+      "tileID": "TSIX_245"
+    },
+    {
+      "tileID": "TSIX_246"
+    },
+    {
+      "tileID": "TSIX_247"
+    },
+    {
+      "tileID": "TSIX_248"
+    },
+    {
+      "tileID": "TSIX_249"
+    },
+    {
+      "tileID": "TSIX_250"
+    },
+    {
+      "tileID": "TSIX_251"
+    },
+    {
+      "tileID": "TSIX_252"
+    },
+    {
+      "tileID": "TSIX_253"
+    },
+    {
+      "tileID": "TSIX_254"
+    },
+    {
+      "tileID": "TSIX_255"
+    },
+    {
+      "tileID": "TSIX_256"
+    },
+    {
+      "tileID": "TSIX_257"
+    },
+    {
+      "tileID": "TSIX_258"
+    },
+    {
+      "tileID": "TSIX_259"
+    },
+    {
+      "tileID": "TSIX_260"
+    },
+    {
+      "tileID": "TSIX_261"
+    },
+    {
+      "tileID": "TSIX_262"
+    },
+    {
+      "tileID": "TSIX_263"
+    },
+    {
+      "tileID": "TSIX_264"
+    },
+    {
+      "tileID": "TSIX_265"
+    },
+    {
+      "tileID": "TSIX_266"
+    },
+    {
+      "tileID": "TSIX_267"
+    },
+    {
+      "tileID": "TSIX_268"
+    },
+    {
+      "tileID": "TSIX_269"
+    },
+    {
+      "tileID": "TSIX_270"
+    },
+    {
+      "tileID": "TSIX_271"
+    },
+    {
+      "tileID": "TSIX_272"
+    },
+    {
+      "tileID": "TSIX_273"
+    },
+    {
+      "tileID": "TSIX_274"
+    },
+    {
+      "tileID": "TSIX_275"
+    },
+    {
+      "tileID": "TSIX_276"
+    },
+    {
+      "tileID": "TSIX_277"
+    },
+    {
+      "tileID": "TSIX_278"
+    },
+    {
+      "tileID": "TSIX_279"
+    },
+    {
+      "tileID": "TSIX_280"
+    },
+    {
+      "tileID": "TSIX_281"
+    },
+    {
+      "tileID": "TSIX_282"
+    },
+    {
+      "tileID": "TSIX_283"
+    },
+    {
+      "tileID": "TSIX_284"
+    },
+    {
+      "tileID": "TSIX_285"
+    },
+    {
+      "tileID": "TSIX_286"
+    },
+    {
+      "tileID": "TSIX_287"
+    },
+    {
+      "tileID": "TSIX_288"
+    },
+    {
+      "tileID": "TSIX_289"
+    },
+    {
+      "tileID": "TSIX_290"
+    },
+    {
+      "tileID": "TSIX_291"
+    },
+    {
+      "tileID": "TSIX_292"
+    },
+    {
+      "tileID": "TSIX_293"
+    },
+    {
+      "tileID": "TSIX_294"
+    },
+    {
+      "tileID": "TSIX_295"
+    },
+    {
+      "tileID": "TSIX_296"
+    },
+    {
+      "tileID": "TSIX_297"
+    },
+    {
+      "tileID": "TSIX_298"
+    },
+    {
+      "tileID": "TSIX_299"
+    },
+    {
+      "tileID": "TSIX_300"
+    },
+    {
+      "tileID": "TSIX_301"
+    },
+    {
+      "tileID": "TSIX_302"
+    },
+    {
+      "tileID": "TSIX_303"
+    },
+    {
+      "tileID": "TSIX_304"
+    },
+    {
+      "tileID": "TSIX_305"
+    },
+    {
+      "tileID": "TSIX_306"
+    },
+    {
+      "tileID": "TSIX_307"
+    },
+    {
+      "tileID": "TSIX_308"
+    },
+    {
+      "tileID": "TSIX_309"
+    },
+    {
+      "tileID": "TSIX_310"
+    },
+    {
+      "tileID": "TSIX_311"
+    },
+    {
+      "tileID": "TSIX_312"
+    },
+    {
+      "tileID": "TSIX_313"
+    },
+    {
+      "tileID": "TSIX_314"
+    },
+    {
+      "tileID": "TSIX_315"
+    },
+    {
+      "tileID": "TSIX_316"
+    },
+    {
+      "tileID": "TSIX_317"
+    },
+    {
+      "tileID": "TSIX_318"
+    },
+    {
+      "tileID": "TSIX_319"
+    },
+    {
+      "tileID": "TSIX_320"
+    },
+    {
+      "tileID": "TSIX_321"
+    },
+    {
+      "tileID": "TSIX_322"
+    },
+    {
+      "tileID": "TSIX_323"
+    },
+    {
+      "tileID": "TSIX_324"
+    },
+    {
+      "tileID": "TSIX_325"
+    },
+    {
+      "tileID": "TSIX_326"
+    },
+    {
+      "tileID": "TSIX_327"
+    },
+    {
+      "tileID": "TSIX_328"
+    },
+    {
+      "tileID": "TSIX_329"
+    },
+    {
+      "tileID": "TSIX_330"
+    },
+    {
+      "tileID": "TSIX_331"
+    },
+    {
+      "tileID": "TSIX_332"
+    },
+    {
+      "tileID": "TSIX_333"
+    },
+    {
+      "tileID": "TSIX_334"
+    },
+    {
+      "tileID": "TSIX_335"
+    },
+    {
+      "tileID": "TSIX_336"
+    },
+    {
+      "tileID": "TSIX_337"
+    },
+    {
+      "tileID": "TSIX_338"
+    },
+    {
+      "tileID": "TSIX_339"
+    },
+    {
+      "tileID": "TSIX_340"
+    },
+    {
+      "tileID": "TSIX_341"
+    },
+    {
+      "tileID": "TSIX_342"
+    },
+    {
+      "tileID": "TSIX_343"
+    },
+    {
+      "tileID": "TSIX_344"
+    },
+    {
+      "tileID": "TSIX_345"
+    },
+    {
+      "tileID": "TSIX_346"
+    },
+    {
+      "tileID": "TSIX_347"
+    },
+    {
+      "tileID": "TSIX_348"
+    },
+    {
+      "tileID": "TSIX_349"
+    },
+    {
+      "tileID": "TSIX_350"
+    },
+    {
+      "tileID": "TSIX_351"
+    },
+    {
+      "tileID": "TSIX_352"
+    },
+    {
+      "tileID": "TSIX_353"
+    },
+    {
+      "tileID": "TSIX_354"
+    },
+    {
+      "tileID": "TSIX_355"
+    },
+    {
+      "tileID": "TSIX_356"
+    },
+    {
+      "tileID": "TSIX_357"
+    },
+    {
+      "tileID": "TSIX_358"
+    },
+    {
+      "tileID": "TSIX_359"
+    },
+    {
+      "tileID": "TSIX_360"
+    },
+    {
+      "tileID": "TSIX_361"
+    },
+    {
+      "tileID": "TSIX_362"
+    },
+    {
+      "tileID": "TSIX_363"
+    },
+    {
+      "tileID": "TSIX_364"
+    },
+    {
+      "tileID": "TSIX_365"
+    },
+    {
+      "tileID": "TSIX_366"
+    },
+    {
+      "tileID": "TSIX_367"
+    },
+    {
+      "tileID": "TSIX_368"
+    },
+    {
+      "tileID": "TSIX_369"
+    },
+    {
+      "tileID": "TSIX_370"
+    },
+    {
+      "tileID": "TSIX_371"
+    },
+    {
+      "tileID": "TSIX_372"
+    },
+    {
+      "tileID": "TSIX_373"
+    },
+    {
+      "tileID": "TSIX_374"
+    },
+    {
+      "tileID": "TSIX_375"
+    },
+    {
+      "tileID": "TSIX_376"
+    },
+    {
+      "tileID": "TSIX_377"
+    },
+    {
+      "tileID": "TSIX_378"
+    },
+    {
+      "tileID": "TSIX_379"
+    },
+    {
+      "tileID": "TSIX_380"
+    },
+    {
+      "tileID": "TSIX_381"
+    },
+    {
+      "tileID": "TSIX_382"
+    },
+    {
+      "tileID": "TSIX_383"
+    },
+    {
+      "tileID": "TSIX_384"
+    },
+    {
+      "tileID": "TSIX_385"
+    },
+    {
+      "tileID": "TSIX_386"
+    },
+    {
+      "tileID": "TSIX_387"
+    },
+    {
+      "tileID": "TSIX_388"
+    },
+    {
+      "tileID": "TSIX_389"
+    },
+    {
+      "tileID": "TSIX_390"
+    },
+    {
+      "tileID": "TSIX_391"
+    },
+    {
+      "tileID": "TSIX_392"
+    },
+    {
+      "tileID": "TSIX_393"
+    },
+    {
+      "tileID": "TSIX_394"
+    },
+    {
+      "tileID": "TSIX_395"
+    },
+    {
+      "tileID": "TSIX_396"
+    },
+    {
+      "tileID": "TSIX_397"
+    },
+    {
+      "tileID": "TSIX_398"
+    },
+    {
+      "tileID": "TSIX_399"
+    },
+    {
+      "tileID": "TSIX_400"
+    },
+    {
+      "tileID": "TSIX_401"
+    },
+    {
+      "tileID": "TSIX_402"
+    },
+    {
+      "tileID": "TSIX_403"
+    },
+    {
+      "tileID": "TSIX_404"
+    },
+    {
+      "tileID": "TSIX_405"
+    },
+    {
+      "tileID": "TSIX_406"
+    },
+    {
+      "tileID": "TSIX_407"
+    },
+    {
+      "tileID": "TSIX_408"
+    },
+    {
+      "tileID": "TSIX_409"
+    },
+    {
+      "tileID": "TSIX_410"
+    },
+    {
+      "tileID": "TSIX_411"
+    },
+    {
+      "tileID": "TSIX_412"
+    },
+    {
+      "tileID": "TSIX_413"
+    },
+    {
+      "tileID": "TSIX_414"
+    },
+    {
+      "tileID": "TSIX_415"
+    },
+    {
+      "tileID": "TSIX_416"
+    },
+    {
+      "tileID": "TSIX_417"
+    },
+    {
+      "tileID": "TSIX_418"
+    },
+    {
+      "tileID": "TSIX_419"
+    },
+    {
+      "tileID": "TSIX_420"
+    },
+    {
+      "tileID": "TSIX_421"
+    },
+    {
+      "tileID": "TSIX_422"
+    },
+    {
+      "tileID": "TSIX_423"
+    },
+    {
+      "tileID": "TSIX_424"
+    },
+    {
+      "tileID": "TSIX_425"
+    },
+    {
+      "tileID": "TSIX_426"
+    },
+    {
+      "tileID": "TSIX_427"
+    },
+    {
+      "tileID": "TSIX_428"
+    },
+    {
+      "tileID": "TSIX_429"
+    },
+    {
+      "tileID": "TSIX_430"
+    },
+    {
+      "tileID": "TSIX_431"
+    },
+    {
+      "tileID": "TSIX_432"
+    },
+    {
+      "tileID": "TSIX_433"
+    },
+    {
+      "tileID": "TSIX_434"
+    },
+    {
+      "tileID": "TSIX_435"
+    },
+    {
+      "tileID": "TSIX_436"
+    },
+    {
+      "tileID": "TSIX_437"
+    },
+    {
+      "tileID": "TSIX_438"
+    },
+    {
+      "tileID": "TSIX_439"
+    },
+    {
+      "tileID": "TSIX_440"
+    },
+    {
+      "tileID": "TSIX_441"
+    },
+    {
+      "tileID": "TSIX_442"
+    },
+    {
+      "tileID": "TSIX_443"
+    },
+    {
+      "tileID": "TSIX_444"
+    },
+    {
+      "tileID": "TSIX_445"
+    },
+    {
+      "tileID": "TSIX_446"
+    },
+    {
+      "tileID": "TSIX_447"
+    },
+    {
+      "tileID": "TSIX_448"
+    },
+    {
+      "tileID": "TSIX_449"
+    },
+    {
+      "tileID": "TSIX_450"
+    },
+    {
+      "tileID": "TSIX_451"
+    },
+    {
+      "tileID": "TSIX_452"
+    },
+    {
+      "tileID": "TSIX_453"
+    },
+    {
+      "tileID": "TSIX_454"
+    },
+    {
+      "tileID": "TSIX_455"
+    },
+    {
+      "tileID": "TSIX_456"
+    },
+    {
+      "tileID": "TSIX_457"
+    },
+    {
+      "tileID": "TSIX_458"
+    },
+    {
+      "tileID": "TSIX_459"
+    },
+    {
+      "tileID": "TSIX_460"
+    },
+    {
+      "tileID": "TSIX_461"
+    },
+    {
+      "tileID": "TSIX_462"
+    },
+    {
+      "tileID": "TSIX_463"
+    },
+    {
+      "tileID": "TSIX_464"
+    },
+    {
+      "tileID": "TSIX_465"
+    },
+    {
+      "tileID": "TSIX_466"
+    },
+    {
+      "tileID": "TSIX_467"
+    },
+    {
+      "tileID": "TSIX_468"
+    },
+    {
+      "tileID": "TSIX_469"
+    },
+    {
+      "tileID": "TSIX_470"
+    },
+    {
+      "tileID": "TSIX_471"
+    },
+    {
+      "tileID": "TSIX_472"
+    },
+    {
+      "tileID": "TSIX_473"
+    },
+    {
+      "tileID": "TSIX_474"
+    },
+    {
+      "tileID": "XIST_1"
+    },
+    {
+      "tileID": "XIST_2"
+    },
+    {
+      "tileID": "XIST_3"
+    },
+    {
+      "tileID": "XIST_4"
+    },
+    {
+      "tileID": "XIST_5"
+    },
+    {
+      "tileID": "XIST_6"
+    },
+    {
+      "tileID": "XIST_7"
+    },
+    {
+      "tileID": "XIST_8"
+    },
+    {
+      "tileID": "XIST_9"
+    },
+    {
+      "tileID": "XIST_10"
+    },
+    {
+      "tileID": "XIST_11"
+    },
+    {
+      "tileID": "XIST_12"
+    },
+    {
+      "tileID": "XIST_13"
+    },
+    {
+      "tileID": "XIST_14"
+    },
+    {
+      "tileID": "XIST_15"
+    },
+    {
+      "tileID": "XIST_16"
+    },
+    {
+      "tileID": "XIST_17"
+    },
+    {
+      "tileID": "XIST_18"
+    },
+    {
+      "tileID": "XIST_19"
+    },
+    {
+      "tileID": "XIST_20"
+    },
+    {
+      "tileID": "XIST_21"
+    },
+    {
+      "tileID": "XIST_22"
+    },
+    {
+      "tileID": "XIST_23"
+    },
+    {
+      "tileID": "XIST_24"
+    },
+    {
+      "tileID": "XIST_25"
+    },
+    {
+      "tileID": "XIST_26"
+    },
+    {
+      "tileID": "XIST_27"
+    },
+    {
+      "tileID": "XIST_28"
+    },
+    {
+      "tileID": "XIST_29"
+    },
+    {
+      "tileID": "XIST_30"
+    },
+    {
+      "tileID": "XIST_31"
+    },
+    {
+      "tileID": "XIST_32"
+    },
+    {
+      "tileID": "XIST_33"
+    },
+    {
+      "tileID": "XIST_34"
+    },
+    {
+      "tileID": "XIST_35"
+    },
+    {
+      "tileID": "XIST_36"
+    },
+    {
+      "tileID": "XIST_37"
+    },
+    {
+      "tileID": "XIST_38"
+    },
+    {
+      "tileID": "XIST_39"
+    },
+    {
+      "tileID": "XIST_40"
+    },
+    {
+      "tileID": "XIST_41"
+    },
+    {
+      "tileID": "XIST_42"
+    },
+    {
+      "tileID": "XIST_43"
+    },
+    {
+      "tileID": "XIST_44"
+    },
+    {
+      "tileID": "XIST_45"
+    },
+    {
+      "tileID": "XIST_46"
+    },
+    {
+      "tileID": "XIST_47"
+    },
+    {
+      "tileID": "XIST_48"
+    },
+    {
+      "tileID": "XIST_49"
+    },
+    {
+      "tileID": "XIST_50"
+    },
+    {
+      "tileID": "XIST_51"
+    },
+    {
+      "tileID": "XIST_52"
+    },
+    {
+      "tileID": "XIST_53"
+    },
+    {
+      "tileID": "XIST_54"
+    },
+    {
+      "tileID": "XIST_55"
+    },
+    {
+      "tileID": "XIST_56"
+    },
+    {
+      "tileID": "XIST_57"
+    },
+    {
+      "tileID": "XIST_58"
+    },
+    {
+      "tileID": "XIST_59"
+    },
+    {
+      "tileID": "XIST_60"
+    },
+    {
+      "tileID": "XIST_61"
+    },
+    {
+      "tileID": "XIST_62"
+    },
+    {
+      "tileID": "XIST_63"
+    },
+    {
+      "tileID": "XIST_64"
+    },
+    {
+      "tileID": "XIST_65"
+    },
+    {
+      "tileID": "XIST_66"
+    },
+    {
+      "tileID": "XIST_67"
+    },
+    {
+      "tileID": "XIST_68"
+    },
+    {
+      "tileID": "XIST_69"
+    },
+    {
+      "tileID": "XIST_70"
+    },
+    {
+      "tileID": "XIST_71"
+    },
+    {
+      "tileID": "XIST_72"
+    },
+    {
+      "tileID": "XIST_73"
+    },
+    {
+      "tileID": "XIST_74"
+    },
+    {
+      "tileID": "XIST_75"
+    },
+    {
+      "tileID": "XIST_76"
+    },
+    {
+      "tileID": "XIST_77"
+    },
+    {
+      "tileID": "XIST_78"
+    },
+    {
+      "tileID": "XIST_79"
+    },
+    {
+      "tileID": "XIST_80"
+    },
+    {
+      "tileID": "XIST_81"
+    },
+    {
+      "tileID": "XIST_82"
+    },
+    {
+      "tileID": "XIST_83"
+    },
+    {
+      "tileID": "XIST_84"
+    },
+    {
+      "tileID": "XIST_85"
+    },
+    {
+      "tileID": "XIST_86"
+    },
+    {
+      "tileID": "XIST_87"
+    },
+    {
+      "tileID": "XIST_88"
+    },
+    {
+      "tileID": "XIST_89"
+    },
+    {
+      "tileID": "XIST_90"
+    },
+    {
+      "tileID": "XIST_91"
+    },
+    {
+      "tileID": "XIST_92"
+    },
+    {
+      "tileID": "XIST_93"
+    },
+    {
+      "tileID": "XIST_94"
+    },
+    {
+      "tileID": "XIST_95"
+    },
+    {
+      "tileID": "XIST_96"
+    },
+    {
+      "tileID": "XIST_97"
+    },
+    {
+      "tileID": "XIST_98"
+    },
+    {
+      "tileID": "XIST_99"
+    },
+    {
+      "tileID": "XIST_100"
+    },
+    {
+      "tileID": "XIST_101"
+    },
+    {
+      "tileID": "XIST_102"
+    },
+    {
+      "tileID": "XIST_103"
+    },
+    {
+      "tileID": "XIST_104"
+    },
+    {
+      "tileID": "XIST_105"
+    },
+    {
+      "tileID": "XIST_106"
+    },
+    {
+      "tileID": "XIST_107"
+    },
+    {
+      "tileID": "XIST_108"
+    },
+    {
+      "tileID": "XIST_109"
+    },
+    {
+      "tileID": "XIST_110"
+    },
+    {
+      "tileID": "XIST_111"
+    },
+    {
+      "tileID": "XIST_112"
+    },
+    {
+      "tileID": "XIST_113"
+    },
+    {
+      "tileID": "XIST_114"
+    },
+    {
+      "tileID": "XIST_115"
+    },
+    {
+      "tileID": "XIST_116"
+    },
+    {
+      "tileID": "XIST_117"
+    },
+    {
+      "tileID": "XIST_118"
+    },
+    {
+      "tileID": "XIST_119"
+    },
+    {
+      "tileID": "XIST_120"
+    },
+    {
+      "tileID": "XIST_121"
+    },
+    {
+      "tileID": "XIST_122"
+    },
+    {
+      "tileID": "XIST_123"
+    },
+    {
+      "tileID": "XIST_124"
+    },
+    {
+      "tileID": "XIST_125"
+    },
+    {
+      "tileID": "XIST_126"
+    },
+    {
+      "tileID": "XIST_127"
+    },
+    {
+      "tileID": "XIST_128"
+    },
+    {
+      "tileID": "XIST_129"
+    },
+    {
+      "tileID": "XIST_130"
+    },
+    {
+      "tileID": "XIST_131"
+    },
+    {
+      "tileID": "XIST_132"
+    },
+    {
+      "tileID": "XIST_133"
+    },
+    {
+      "tileID": "XIST_134"
+    },
+    {
+      "tileID": "XIST_135"
+    },
+    {
+      "tileID": "XIST_136"
+    },
+    {
+      "tileID": "XIST_137"
+    },
+    {
+      "tileID": "XIST_138"
+    },
+    {
+      "tileID": "XIST_139"
+    },
+    {
+      "tileID": "XIST_140"
+    },
+    {
+      "tileID": "XIST_141"
+    },
+    {
+      "tileID": "XIST_142"
+    },
+    {
+      "tileID": "XIST_143"
+    },
+    {
+      "tileID": "XIST_144"
+    },
+    {
+      "tileID": "XIST_145"
+    },
+    {
+      "tileID": "XIST_146"
+    },
+    {
+      "tileID": "XIST_147"
+    },
+    {
+      "tileID": "XIST_148"
+    },
+    {
+      "tileID": "XIST_149"
+    },
+    {
+      "tileID": "XIST_150"
+    },
+    {
+      "tileID": "XIST_151"
+    },
+    {
+      "tileID": "XIST_152"
+    },
+    {
+      "tileID": "XIST_153"
+    },
+    {
+      "tileID": "XIST_154"
+    },
+    {
+      "tileID": "XIST_155"
+    },
+    {
+      "tileID": "XIST_156"
+    },
+    {
+      "tileID": "XIST_157"
+    },
+    {
+      "tileID": "XIST_158"
+    },
+    {
+      "tileID": "XIST_159"
+    },
+    {
+      "tileID": "XIST_160"
+    },
+    {
+      "tileID": "XIST_161"
+    },
+    {
+      "tileID": "XIST_162"
+    },
+    {
+      "tileID": "XIST_163"
+    },
+    {
+      "tileID": "XIST_164"
+    },
+    {
+      "tileID": "XIST_165"
+    },
+    {
+      "tileID": "XIST_166"
+    },
+    {
+      "tileID": "XIST_167"
+    },
+    {
+      "tileID": "XIST_168"
+    },
+    {
+      "tileID": "XIST_169"
+    },
+    {
+      "tileID": "XIST_170"
+    },
+    {
+      "tileID": "XIST_171"
+    },
+    {
+      "tileID": "XIST_172"
+    },
+    {
+      "tileID": "XIST_173"
+    },
+    {
+      "tileID": "XIST_174"
+    },
+    {
+      "tileID": "XIST_175"
+    },
+    {
+      "tileID": "XIST_176"
+    },
+    {
+      "tileID": "XIST_177"
+    },
+    {
+      "tileID": "XIST_178"
+    },
+    {
+      "tileID": "XIST_179"
+    },
+    {
+      "tileID": "XIST_180"
+    },
+    {
+      "tileID": "XIST_181"
+    },
+    {
+      "tileID": "XIST_182"
+    },
+    {
+      "tileID": "XIST_183"
+    },
+    {
+      "tileID": "XIST_184"
+    },
+    {
+      "tileID": "XIST_185"
+    },
+    {
+      "tileID": "XIST_186"
+    },
+    {
+      "tileID": "XIST_187"
+    },
+    {
+      "tileID": "XIST_188"
+    },
+    {
+      "tileID": "XIST_189"
+    },
+    {
+      "tileID": "XIST_190"
+    },
+    {
+      "tileID": "XIST_191"
+    },
+    {
+      "tileID": "XIST_192"
+    },
+    {
+      "tileID": "XIST_193"
+    },
+    {
+      "tileID": "XIST_194"
+    },
+    {
+      "tileID": "XIST_195"
+    },
+    {
+      "tileID": "XIST_196"
+    },
+    {
+      "tileID": "XIST_197"
+    },
+    {
+      "tileID": "XIST_198"
+    },
+    {
+      "tileID": "XIST_199"
+    },
+    {
+      "tileID": "XIST_200"
+    },
+    {
+      "tileID": "XIST_201"
+    },
+    {
+      "tileID": "XIST_202"
+    },
+    {
+      "tileID": "XIST_203"
+    },
+    {
+      "tileID": "XIST_204"
+    },
+    {
+      "tileID": "XIST_205"
+    },
+    {
+      "tileID": "XIST_206"
+    },
+    {
+      "tileID": "XIST_207"
+    },
+    {
+      "tileID": "XIST_208"
+    },
+    {
+      "tileID": "XIST_209"
+    },
+    {
+      "tileID": "XIST_210"
+    },
+    {
+      "tileID": "XIST_211"
+    },
+    {
+      "tileID": "XIST_212"
+    },
+    {
+      "tileID": "XIST_213"
+    },
+    {
+      "tileID": "XIST_214"
+    },
+    {
+      "tileID": "XIST_215"
+    },
+    {
+      "tileID": "XIST_216"
+    },
+    {
+      "tileID": "XIST_217"
+    },
+    {
+      "tileID": "XIST_218"
+    },
+    {
+      "tileID": "XIST_219"
+    },
+    {
+      "tileID": "XIST_220"
+    },
+    {
+      "tileID": "XIST_221"
+    },
+    {
+      "tileID": "XIST_222"
+    },
+    {
+      "tileID": "XIST_223"
+    },
+    {
+      "tileID": "XIST_224"
+    },
+    {
+      "tileID": "XIST_225"
+    },
+    {
+      "tileID": "XIST_226"
+    },
+    {
+      "tileID": "XIST_227"
+    },
+    {
+      "tileID": "XIST_228"
+    },
+    {
+      "tileID": "XIST_229"
+    },
+    {
+      "tileID": "XIST_230"
+    },
+    {
+      "tileID": "XIST_231"
+    },
+    {
+      "tileID": "XIST_232"
+    },
+    {
+      "tileID": "XIST_233"
+    },
+    {
+      "tileID": "XIST_234"
+    },
+    {
+      "tileID": "XIST_235"
+    },
+    {
+      "tileID": "XIST_236"
+    },
+    {
+      "tileID": "XIST_237"
+    },
+    {
+      "tileID": "XIST_238"
+    },
+    {
+      "tileID": "XIST_239"
+    },
+    {
+      "tileID": "XIST_240"
+    },
+    {
+      "tileID": "XIST_241"
+    },
+    {
+      "tileID": "XIST_242"
+    },
+    {
+      "tileID": "XIST_243"
+    },
+    {
+      "tileID": "XIST_244"
+    },
+    {
+      "tileID": "XIST_245"
+    },
+    {
+      "tileID": "XIST_246"
+    },
+    {
+      "tileID": "XIST_247"
+    },
+    {
+      "tileID": "MBP_1"
+    },
+    {
+      "tileID": "MBP_2"
+    },
+    {
+      "tileID": "MBP_3"
+    },
+    {
+      "tileID": "MBP_4"
+    },
+    {
+      "tileID": "MBP_5"
+    },
+    {
+      "tileID": "MBP_6"
+    },
+    {
+      "tileID": "MBP_7"
+    },
+    {
+      "tileID": "MBP_8"
+    },
+    {
+      "tileID": "MBP_9"
+    },
+    {
+      "tileID": "MBP_10"
+    },
+    {
+      "tileID": "MBP_11"
+    },
+    {
+      "tileID": "MBP_12"
+    },
+    {
+      "tileID": "MBP_13"
+    },
+    {
+      "tileID": "MBP_14"
+    },
+    {
+      "tileID": "MBP_15"
+    },
+    {
+      "tileID": "MBP_16"
+    },
+    {
+      "tileID": "MBP_17"
+    },
+    {
+      "tileID": "MBP_18"
+    },
+    {
+      "tileID": "MBP_19"
+    },
+    {
+      "tileID": "MBP_20"
+    },
+    {
+      "tileID": "MBP_21"
+    },
+    {
+      "tileID": "MBP_22"
+    },
+    {
+      "tileID": "MBP_23"
+    },
+    {
+      "tileID": "MBP_24"
+    },
+    {
+      "tileID": "MBP_25"
+    },
+    {
+      "tileID": "MBP_26"
+    },
+    {
+      "tileID": "MBP_27"
+    },
+    {
+      "tileID": "MBP_28"
+    },
+    {
+      "tileID": "MBP_29"
+    },
+    {
+      "tileID": "MBP_30"
+    },
+    {
+      "tileID": "MBP_31"
+    },
+    {
+      "tileID": "MBP_32"
+    },
+    {
+      "tileID": "MBP_33"
+    },
+    {
+      "tileID": "MBP_34"
+    },
+    {
+      "tileID": "MBP_35"
+    },
+    {
+      "tileID": "MBP_36"
+    },
+    {
+      "tileID": "MBP_37"
+    },
+    {
+      "tileID": "MBP_38"
+    },
+    {
+      "tileID": "MBP_39"
+    },
+    {
+      "tileID": "MBP_40"
+    },
+    {
+      "tileID": "MBP_41"
+    },
+    {
+      "tileID": "MBP_42"
+    },
+    {
+      "tileID": "MBP_43"
+    },
+    {
+      "tileID": "MBP_44"
+    },
+    {
+      "tileID": "MBP_45"
+    },
+    {
+      "tileID": "MBP_46"
+    },
+    {
+      "tileID": "MBP_47"
+    },
+    {
+      "tileID": "MBP_48"
+    },
+    {
+      "tileID": "MBP_49"
+    },
+    {
+      "tileID": "MBP_50"
+    },
+    {
+      "tileID": "MBP_51"
+    },
+    {
+      "tileID": "MBP_52"
+    },
+    {
+      "tileID": "MBP_53"
+    },
+    {
+      "tileID": "MBP_54"
+    },
+    {
+      "tileID": "MBP_55"
+    },
+    {
+      "tileID": "MBP_56"
+    },
+    {
+      "tileID": "MBP_57"
+    },
+    {
+      "tileID": "MBP_58"
+    },
+    {
+      "tileID": "MBP_59"
+    },
+    {
+      "tileID": "MBP_60"
+    },
+    {
+      "tileID": "MBP_61"
+    },
+    {
+      "tileID": "MBP_62"
+    },
+    {
+      "tileID": "MBP_63"
+    },
+    {
+      "tileID": "MBP_64"
+    },
+    {
+      "tileID": "MBP_65"
+    },
+    {
+      "tileID": "MBP_66"
+    },
+    {
+      "tileID": "MBP_67"
+    },
+    {
+      "tileID": "MBP_68"
+    },
+    {
+      "tileID": "MBP_69"
+    },
+    {
+      "tileID": "MBP_70"
+    },
+    {
+      "tileID": "MBP_71"
+    },
+    {
+      "tileID": "MBP_72"
+    },
+    {
+      "tileID": "MBP_73"
+    },
+    {
+      "tileID": "MBP_74"
+    },
+    {
+      "tileID": "MBP_75"
+    },
+    {
+      "tileID": "MBP_76"
+    },
+    {
+      "tileID": "MBP_77"
+    },
+    {
+      "tileID": "MBP_78"
+    },
+    {
+      "tileID": "MBP_79"
+    },
+    {
+      "tileID": "MBP_80"
+    },
+    {
+      "tileID": "MBP_81"
+    },
+    {
+      "tileID": "MBP_82"
+    },
+    {
+      "tileID": "MBP_83"
+    },
+    {
+      "tileID": "MBP_84"
+    },
+    {
+      "tileID": "MBP_85"
+    },
+    {
+      "tileID": "MBP_86"
+    },
+    {
+      "tileID": "MBP_87"
+    },
+    {
+      "tileID": "FIRRE_1"
+    },
+    {
+      "tileID": "FIRRE_2"
+    },
+    {
+      "tileID": "FIRRE_3"
+    },
+    {
+      "tileID": "FIRRE_4"
+    },
+    {
+      "tileID": "FIRRE_5"
+    },
+    {
+      "tileID": "FIRRE_6"
+    },
+    {
+      "tileID": "FIRRE_7"
+    },
+    {
+      "tileID": "FIRRE_8"
+    },
+    {
+      "tileID": "FIRRE_9"
+    },
+    {
+      "tileID": "FIRRE_10"
+    },
+    {
+      "tileID": "FIRRE_11"
+    },
+    {
+      "tileID": "FIRRE_12"
+    },
+    {
+      "tileID": "FIRRE_13"
+    },
+    {
+      "tileID": "FIRRE_14"
+    },
+    {
+      "tileID": "FIRRE_15"
+    },
+    {
+      "tileID": "FIRRE_16"
+    },
+    {
+      "tileID": "FIRRE_17"
+    },
+    {
+      "tileID": "FIRRE_18"
+    },
+    {
+      "tileID": "FIRRE_19"
+    },
+    {
+      "tileID": "FIRRE_20"
+    },
+    {
+      "tileID": "FIRRE_21"
+    },
+    {
+      "tileID": "FIRRE_22"
+    },
+    {
+      "tileID": "FIRRE_23"
+    },
+    {
+      "tileID": "FIRRE_24"
+    },
+    {
+      "tileID": "FIRRE_25"
+    },
+    {
+      "tileID": "FIRRE_26"
+    },
+    {
+      "tileID": "FIRRE_27"
+    },
+    {
+      "tileID": "FIRRE_28"
+    },
+    {
+      "tileID": "FIRRE_29"
+    },
+    {
+      "tileID": "FIRRE_30"
+    },
+    {
+      "tileID": "FIRRE_31"
+    },
+    {
+      "tileID": "FIRRE_32"
+    },
+    {
+      "tileID": "FIRRE_33"
+    },
+    {
+      "tileID": "FIRRE_34"
+    },
+    {
+      "tileID": "FIRRE_35"
+    },
+    {
+      "tileID": "FIRRE_36"
+    },
+    {
+      "tileID": "FIRRE_37"
+    },
+    {
+      "tileID": "FIRRE_38"
+    },
+    {
+      "tileID": "FIRRE_39"
+    },
+    {
+      "tileID": "FIRRE_40"
+    },
+    {
+      "tileID": "FIRRE_41"
+    },
+    {
+      "tileID": "FIRRE_42"
+    },
+    {
+      "tileID": "FIRRE_43"
+    },
+    {
+      "tileID": "FIRRE_44"
+    },
+    {
+      "tileID": "FIRRE_45"
+    },
+    {
+      "tileID": "FIRRE_46"
+    },
+    {
+      "tileID": "FIRRE_47"
+    },
+    {
+      "tileID": "FIRRE_48"
+    },
+    {
+      "tileID": "FIRRE_49"
+    },
+    {
+      "tileID": "FIRRE_50"
+    },
+    {
+      "tileID": "FIRRE_51"
+    },
+    {
+      "tileID": "FIRRE_52"
+    },
+    {
+      "tileID": "PPIA_1"
+    },
+    {
+      "tileID": "PPIA_2"
+    },
+    {
+      "tileID": "PPIA_3"
+    },
+    {
+      "tileID": "PPIA_4"
+    },
+    {
+      "tileID": "PPIA_5"
+    },
+    {
+      "tileID": "PPIA_6"
+    },
+    {
+      "tileID": "PPIA_7"
+    },
+    {
+      "tileID": "PPIA_8"
+    },
+    {
+      "tileID": "PPIA_9"
+    },
+    {
+      "tileID": "PPIA_10"
+    },
+    {
+      "tileID": "PPIA_11"
+    },
+    {
+      "tileID": "PPIA_12"
+    },
+    {
+      "tileID": "PPIA_13"
+    },
+    {
+      "tileID": "PPIA_14"
+    },
+    {
+      "tileID": "PPIA_15"
+    },
+    {
+      "tileID": "PPIA_16"
+    },
+    {
+      "tileID": "PPIA_17"
+    },
+    {
+      "tileID": "PPIA_18"
+    },
+    {
+      "tileID": "PPIA_19"
+    },
+    {
+      "tileID": "PPIA_20"
+    },
+    {
+      "tileID": "PPIA_21"
+    },
+    {
+      "tileID": "PPIA_22"
+    },
+    {
+      "tileID": "PPIA_23"
+    },
+    {
+      "tileID": "PPIA_24"
+    },
+    {
+      "tileID": "PPIA_25"
+    },
+    {
+      "tileID": "PPIA_26"
+    },
+    {
+      "tileID": "PPIA_27"
+    },
+    {
+      "tileID": "PPIA_28"
+    },
+    {
+      "tileID": "PPIA_29"
+    },
+    {
+      "tileID": "PPIA_30"
+    },
+    {
+      "tileID": "WRAP53_1"
+    },
+    {
+      "tileID": "WRAP53_2"
+    },
+    {
+      "tileID": "WRAP53_3"
+    },
+    {
+      "tileID": "WRAP53_4"
+    },
+    {
+      "tileID": "WRAP53_5"
+    },
+    {
+      "tileID": "WRAP53_6"
+    },
+    {
+      "tileID": "WRAP53_7"
+    },
+    {
+      "tileID": "WRAP53_8"
+    },
+    {
+      "tileID": "WRAP53_9"
+    },
+    {
+      "tileID": "WRAP53_10"
+    },
+    {
+      "tileID": "WRAP53_11"
+    },
+    {
+      "tileID": "WRAP53_12"
+    },
+    {
+      "tileID": "WRAP53_13"
+    },
+    {
+      "tileID": "WRAP53_14"
+    },
+    {
+      "tileID": "WRAP53_15"
+    },
+    {
+      "tileID": "WRAP53_16"
+    },
+    {
+      "tileID": "WRAP53_17"
+    },
+    {
+      "tileID": "WRAP53_18"
+    },
+    {
+      "tileID": "WRAP53_19"
+    },
+    {
+      "tileID": "WRAP53_20"
+    },
+    {
+      "tileID": "WRAP53_21"
+    },
+    {
+      "tileID": "WRAP53_22"
+    },
+    {
+      "tileID": "WRAP53_23"
+    },
+    {
+      "tileID": "WRAP53_24"
+    },
+    {
+      "tileID": "WRAP53_25"
+    },
+    {
+      "tileID": "WRAP53_26"
+    },
+    {
+      "tileID": "WRAP53_27"
+    },
+    {
+      "tileID": "WRAP53_28"
+    },
+    {
+      "tileID": "SRA1_1"
+    },
+    {
+      "tileID": "SRA1_2"
+    },
+    {
+      "tileID": "SRA1_3"
+    },
+    {
+      "tileID": "SRA1_4"
+    },
+    {
+      "tileID": "SRA1_5"
+    },
+    {
+      "tileID": "SRA1_6"
+    },
+    {
+      "tileID": "SRA1_7"
+    },
+    {
+      "tileID": "SRA1_8"
+    },
+    {
+      "tileID": "SRA1_9"
+    },
+    {
+      "tileID": "SRA1_10"
+    },
+    {
+      "tileID": "SRA1_11"
+    },
+    {
+      "tileID": "SRA1_12"
+    },
+    {
+      "tileID": "SRA1_13"
+    },
+    {
+      "tileID": "SRA1_14"
+    },
+    {
+      "tileID": "SRA1_15"
+    },
+    {
+      "tileID": "SRA1_16"
+    },
+    {
+      "tileID": "SRA1_17"
+    },
+    {
+      "tileID": "SRA1_18"
+    },
+    {
+      "tileID": "SRA1_19"
+    },
+    {
+      "tileID": "SRA1_20"
+    },
+    {
+      "tileID": "SRA1_21"
+    },
+    {
+      "tileID": "SRA1_22"
+    },
+    {
+      "tileID": "SRA1_23"
+    },
+    {
+      "tileID": "SRA1_24"
+    },
+    {
+      "tileID": "SRA1_25"
+    },
+    {
+      "tileID": "SRA1_26"
+    },
+    {
+      "tileID": "GAPDH_1"
+    },
+    {
+      "tileID": "GAPDH_2"
+    },
+    {
+      "tileID": "GAPDH_3"
+    },
+    {
+      "tileID": "GAPDH_4"
+    },
+    {
+      "tileID": "GAPDH_5"
+    },
+    {
+      "tileID": "GAPDH_6"
+    },
+    {
+      "tileID": "GAPDH_7"
+    },
+    {
+      "tileID": "GAPDH_8"
+    },
+    {
+      "tileID": "GAPDH_9"
+    },
+    {
+      "tileID": "GAPDH_10"
+    },
+    {
+      "tileID": "GAPDH_11"
+    },
+    {
+      "tileID": "GAPDH_12"
+    },
+    {
+      "tileID": "GAPDH_13"
+    },
+    {
+      "tileID": "GAPDH_14"
+    },
+    {
+      "tileID": "GAPDH_15"
+    },
+    {
+      "tileID": "GAPDH_16"
+    },
+    {
+      "tileID": "GAPDH_17"
+    },
+    {
+      "tileID": "GAPDH_18"
+    },
+    {
+      "tileID": "GAPDH_19"
+    },
+    {
+      "tileID": "GAPDH_20"
+    },
+    {
+      "tileID": "JPX_1"
+    },
+    {
+      "tileID": "JPX_2"
+    },
+    {
+      "tileID": "JPX_3"
+    },
+    {
+      "tileID": "JPX_4"
+    },
+    {
+      "tileID": "JPX_5"
+    },
+    {
+      "tileID": "JPX_6"
+    },
+    {
+      "tileID": "JPX_7"
+    },
+    {
+      "tileID": "JPX_8"
+    },
+    {
+      "tileID": "JPX_9"
+    },
+    {
+      "tileID": "JPX_10"
+    },
+    {
+      "tileID": "JPX_11"
+    },
+    {
+      "tileID": "JPX_12"
+    },
+    {
+      "tileID": "JPX_13"
+    },
+    {
+      "tileID": "JPX_14"
+    },
+    {
+      "tileID": "JPX_15"
+    },
+    {
+      "tileID": "JPX_16"
+    },
+    {
+      "tileID": "JPX_17"
+    },
+    {
+      "tileID": "JPX_18"
+    },
+    {
+      "tileID": "JPX_19"
+    },
+    {
+      "tileID": "JPX_20"
+    },
+    {
+      "tileID": "JPX_21"
+    }
+  ],
+  "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_CTCF_raw.Rdata"
+}

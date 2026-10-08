@@ -1,0 +1,592 @@
+{
+  "all_annotation_column_names": [
+    "tileID",
+    "type",
+    "mutation",
+    "idx",
+    "gc"
+  ],
+  "annotation_RObject_nodes": 248,
+  "column_metadata": {
+    "idx": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    },
+    "mutation": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    },
+    "tileID": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    },
+    "type": {
+      "character_gp": [
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "type": "string"
+    }
+  },
+  "exported_allowlist_columns": [
+    "tileID",
+    "type",
+    "mutation",
+    "idx"
+  ],
+  "parent_mutant_ancestry_admitted": false,
+  "rows": [
+    {
+      "idx": "0",
+      "mutation": "none",
+      "tileID": "wt_1",
+      "type": "wt"
+    },
+    {
+      "idx": "0",
+      "mutation": "none",
+      "tileID": "ctrl_1",
+      "type": "ctrl"
+    },
+    {
+      "idx": "1:2",
+      "mutation": "5p",
+      "tileID": "stem_1",
+      "type": "stem"
+    },
+    {
+      "idx": "149:150",
+      "mutation": "3p",
+      "tileID": "stem_2",
+      "type": "stem"
+    },
+    {
+      "idx": "1:2,149:150",
+      "mutation": "compensatory",
+      "tileID": "stem_3",
+      "type": "stem"
+    },
+    {
+      "idx": "6:10",
+      "mutation": "5p",
+      "tileID": "stem_4",
+      "type": "stem"
+    },
+    {
+      "idx": "141:145",
+      "mutation": "3p",
+      "tileID": "stem_5",
+      "type": "stem"
+    },
+    {
+      "idx": "6:10,141:145",
+      "mutation": "compensatory",
+      "tileID": "stem_6",
+      "type": "stem"
+    },
+    {
+      "idx": "14:19",
+      "mutation": "5p",
+      "tileID": "stem_7",
+      "type": "stem"
+    },
+    {
+      "idx": "134:139",
+      "mutation": "3p",
+      "tileID": "stem_8",
+      "type": "stem"
+    },
+    {
+      "idx": "14:19,134:139",
+      "mutation": "compensatory",
+      "tileID": "stem_9",
+      "type": "stem"
+    },
+    {
+      "idx": "22:25",
+      "mutation": "5p",
+      "tileID": "stem_10",
+      "type": "stem"
+    },
+    {
+      "idx": "128:131",
+      "mutation": "3p",
+      "tileID": "stem_11",
+      "type": "stem"
+    },
+    {
+      "idx": "22:25,128:131",
+      "mutation": "compensatory",
+      "tileID": "stem_12",
+      "type": "stem"
+    },
+    {
+      "idx": "31:35",
+      "mutation": "5p",
+      "tileID": "stem_13",
+      "type": "stem"
+    },
+    {
+      "idx": "90:94",
+      "mutation": "3p",
+      "tileID": "stem_14",
+      "type": "stem"
+    },
+    {
+      "idx": "31:35,90:94",
+      "mutation": "compensatory",
+      "tileID": "stem_15",
+      "type": "stem"
+    },
+    {
+      "idx": "39:42",
+      "mutation": "5p",
+      "tileID": "stem_16",
+      "type": "stem"
+    },
+    {
+      "idx": "85:88",
+      "mutation": "3p",
+      "tileID": "stem_17",
+      "type": "stem"
+    },
+    {
+      "idx": "39:42,85:88",
+      "mutation": "compensatory",
+      "tileID": "stem_18",
+      "type": "stem"
+    },
+    {
+      "idx": "45:48",
+      "mutation": "5p",
+      "tileID": "stem_19",
+      "type": "stem"
+    },
+    {
+      "idx": "81:84",
+      "mutation": "3p",
+      "tileID": "stem_20",
+      "type": "stem"
+    },
+    {
+      "idx": "45:48,81:84",
+      "mutation": "compensatory",
+      "tileID": "stem_21",
+      "type": "stem"
+    },
+    {
+      "idx": "50:54",
+      "mutation": "5p",
+      "tileID": "stem_22",
+      "type": "stem"
+    },
+    {
+      "idx": "75:79",
+      "mutation": "3p",
+      "tileID": "stem_23",
+      "type": "stem"
+    },
+    {
+      "idx": "50:54,75:79",
+      "mutation": "compensatory",
+      "tileID": "stem_24",
+      "type": "stem"
+    },
+    {
+      "idx": "56:62",
+      "mutation": "5p",
+      "tileID": "stem_25",
+      "type": "stem"
+    },
+    {
+      "idx": "66:72",
+      "mutation": "3p",
+      "tileID": "stem_26",
+      "type": "stem"
+    },
+    {
+      "idx": "56:62,66:72",
+      "mutation": "compensatory",
+      "tileID": "stem_27",
+      "type": "stem"
+    },
+    {
+      "idx": "96:101",
+      "mutation": "5p",
+      "tileID": "stem_28",
+      "type": "stem"
+    },
+    {
+      "idx": "116:121",
+      "mutation": "3p",
+      "tileID": "stem_29",
+      "type": "stem"
+    },
+    {
+      "idx": "96:101,116:121",
+      "mutation": "compensatory",
+      "tileID": "stem_30",
+      "type": "stem"
+    },
+    {
+      "idx": "102:105",
+      "mutation": "5p",
+      "tileID": "stem_31",
+      "type": "stem"
+    },
+    {
+      "idx": "110:113",
+      "mutation": "3p",
+      "tileID": "stem_32",
+      "type": "stem"
+    },
+    {
+      "idx": "102:105,110:113",
+      "mutation": "compensatory",
+      "tileID": "stem_33",
+      "type": "stem"
+    },
+    {
+      "idx": "2:5",
+      "mutation": "complement",
+      "tileID": "single_1",
+      "type": "single"
+    },
+    {
+      "idx": "10:13",
+      "mutation": "complement",
+      "tileID": "single_2",
+      "type": "single"
+    },
+    {
+      "idx": "19:22",
+      "mutation": "complement",
+      "tileID": "single_3",
+      "type": "single"
+    },
+    {
+      "idx": "26:30",
+      "mutation": "complement",
+      "tileID": "single_4",
+      "type": "single"
+    },
+    {
+      "idx": "35:38",
+      "mutation": "complement",
+      "tileID": "single_5",
+      "type": "single"
+    },
+    {
+      "idx": "42:45",
+      "mutation": "complement",
+      "tileID": "single_6",
+      "type": "single"
+    },
+    {
+      "idx": "47:50",
+      "mutation": "complement",
+      "tileID": "single_7",
+      "type": "single"
+    },
+    {
+      "idx": "53:56",
+      "mutation": "complement",
+      "tileID": "single_8",
+      "type": "single"
+    },
+    {
+      "idx": "62:65",
+      "mutation": "complement",
+      "tileID": "single_9",
+      "type": "single"
+    },
+    {
+      "idx": "72:75",
+      "mutation": "complement",
+      "tileID": "single_10",
+      "type": "single"
+    },
+    {
+      "idx": "78:81",
+      "mutation": "complement",
+      "tileID": "single_11",
+      "type": "single"
+    },
+    {
+      "idx": "87:90",
+      "mutation": "complement",
+      "tileID": "single_12",
+      "type": "single"
+    },
+    {
+      "idx": "93:96",
+      "mutation": "complement",
+      "tileID": "single_13",
+      "type": "single"
+    },
+    {
+      "idx": "106:109",
+      "mutation": "complement",
+      "tileID": "single_14",
+      "type": "single"
+    },
+    {
+      "idx": "113:116",
+      "mutation": "complement",
+      "tileID": "single_15",
+      "type": "single"
+    },
+    {
+      "idx": "122:127",
+      "mutation": "complement",
+      "tileID": "single_16",
+      "type": "single"
+    },
+    {
+      "idx": "131:134",
+      "mutation": "complement",
+      "tileID": "single_17",
+      "type": "single"
+    },
+    {
+      "idx": "138:141",
+      "mutation": "complement",
+      "tileID": "single_18",
+      "type": "single"
+    },
+    {
+      "idx": "145:148",
+      "mutation": "complement",
+      "tileID": "single_19",
+      "type": "single"
+    },
+    {
+      "idx": "151:157",
+      "mutation": "complement",
+      "tileID": "single_20",
+      "type": "single"
+    }
+  ],
+  "source_zip_member": "taeyoungh-MPRNA-IP-5747c25/RawData/git_WRAP53_raw.Rdata"
+}
