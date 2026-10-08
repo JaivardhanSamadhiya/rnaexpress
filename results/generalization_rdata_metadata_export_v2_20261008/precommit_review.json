@@ -1,0 +1,27 @@
+{
+  "all_33_user_modifications_preserved": true,
+  "count_values_analyzed": false,
+  "edge_cap": 1000000,
+  "independent_agent_review": "reasoning only; no filesystem or runtime execution",
+  "models_fit": 0,
+  "old_decompression_memory_wall_row_column_string_guards_preserved": true,
+  "old_frozen_model_or_feature_guard_lowered": false,
+  "original_500000_node_cap_applied_to_metadata_subtree_in_separate_version": true,
+  "original_parser_failure": "RObject node cap exceeded before first export",
+  "original_worker_peak_bytes": 267665408,
+  "original_worker_seconds": 6.3439999999973224,
+  "review_recommendations_addressed": [
+    "global name/cycle/root contracts",
+    "cycle versus shared DAG",
+    "edge and vector bounds",
+    "equal unexported column lengths",
+    "literal selected design fields only",
+    "compact row names",
+    "unrelated globals do not affect export",
+    "failure preserved and frozen before parsing"
+  ],
+  "source_ancestry_admitted": false,
+  "status": "PASS_ROOT_PRECOMMIT_SOURCE_REVIEW_AND_REASONING_REVIEW_ONLY",
+  "total_global_node_count_claimed": false,
+  "whole_file_and_count_arrays_remain_internally_parsed": true
+}

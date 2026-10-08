@@ -1,0 +1,19 @@
+{
+  "author_data_parsed": false,
+  "command": "bundled Python -B -u -m src.generalization_rdata_metadata_export_v2_20261008.tests",
+  "elapsed_seconds": 0.005,
+  "independent_execution": false,
+  "models_fit": 0,
+  "observed_by_root": true,
+  "source_files": {
+    "src/generalization_rdata_metadata_export_v2_20261008/__init__.py": "cc2d42f2697da178369ed4fbe9dd7a96168d40e4b965d50ab569c932aa0d1d8d",
+    "src/generalization_rdata_metadata_export_v2_20261008/common.py": "12f9fb4371ea171370ea272d85e23af52a6c62be9cb3b4425a0d1c94b8820102",
+    "src/generalization_rdata_metadata_export_v2_20261008/metadata.py": "e77e345f7e7bb8eed3f52dda7ae0bb4d625178580b3517d10261d84cc8f2c3a9",
+    "src/generalization_rdata_metadata_export_v2_20261008/pilot.py": "c9009333fac7a721ca0e418de95c3886972700d8888b49365c3db5683c238639",
+    "src/generalization_rdata_metadata_export_v2_20261008/produce.py": "171deebd25dc8d75773f52e6fc10babf2aa30c3543c38bd2669fa7d0e413a712",
+    "src/generalization_rdata_metadata_export_v2_20261008/supervise.py": "eb31ecd79e407724fc86f456f2069283885907f798f3f74a1eeeaa6eb2b02e93",
+    "src/generalization_rdata_metadata_export_v2_20261008/tests.py": "b2975d21088247ed3b9370918a31fc19035c718e79b7af2ae175e5a101784320"
+  },
+  "status": "PASS_22_INVENTED_METADATA_CONTRACT_TESTS",
+  "tests": 22
+}

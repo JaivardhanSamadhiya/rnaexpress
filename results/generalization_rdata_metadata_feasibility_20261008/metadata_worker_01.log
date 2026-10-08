@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\rnaexpress\src\generalization_rdata_metadata_feasibility_20261008\produce.py", line 71, in <module>
+    if __name__=="__main__":run("--root-start" in sys.argv[1:])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_rdata_metadata_feasibility_20261008\produce.py", line 39, in run
+    nodes=object_count(parsed.object);global_objects=decode.pairs(parsed.object)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_rdata_metadata_feasibility_20261008\produce.py", line 19, in object_count
+    seen.add(id(current));assert len(seen)<=500000,"RObject node cap exceeded"
+                                 ^^^^^^^^^^^^^^^^^
+AssertionError: RObject node cap exceeded

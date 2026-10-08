@@ -1,0 +1,16 @@
+# Additive v2 annotation export, 8 October 2026
+
+The original frozen whole-graph run stopped before exporting any rows: its 500,000 RObject count was exceeded on the first sorted CTCF member. The supervisor observed 267,665,408 bytes peak working set in 6.344 seconds, exit 1. This is a resource/traversal admission failure, not a biological negative or a successful annotation audit. Original source, manifest, log and supervisor receipt remain unchanged.
+
+This separate version deliberately changes traversal scope. Stock rdata1.1.0 still parses the complete source file and internally materializes numeric count arrays; no count values are analyzed, printed or exported. The 500,000-node limit now applies to the entire literal tile.annot subtree, including all its attributes and references, at most1,000,000 edges and at most10,000 entries per metadata vector, with active-path cycle and executable/unsafe RObject rejection. All dataframe columns must have the same length and scalar STR/INT/REAL/LGL shape; only allowlisted columns are exported. Root global binding names are decoded with the existing 10,000-binding bound. No total global object count is claimed. This is not a selective-byte parser or an unchanged original admission.
+
+Keep original 64 MiB decompression limit, 5,000 annotation rows, 50 columns, 10,000-byte strings, exact source hashes, ALTREP expansion disabled, empty callback map, fresh metadata caller 1.3 GiB, one isolated worker at most 768 MiB observed working set and 180 seconds. No frozen 3 GiB feature/model resource guard is altered.
+
+The allowlist contains tileID, group, mutType, mutLoc, type, mutation, idx, coord and three additional author-design fields explicitly used by original nar_manuscript.Rmd lines339â€“345: region, bpLoc5prime, bpLoc3prime. Only mutLoc, idx and the two bpLoc fields permit unclassed INT or exactly integral finite REAL values of magnitude at most2^53; missing numeric values remain null. REAL NA and NaN both become null, with this loss of distinction recorded. Reject fractional/nonfinite finite-design values and numeric tile IDs. These fields are sequence design coordinates, never binding counts; types remain recorded.
+
+Twenty-two invented metadata tests and two official tiny packaged fixtures must pass. Freeze all original dependencies and failed-run bytes plus v2 source, protocol and receipts before parsing author data. Stop on any failure, preserve partial outputs, no automatic retry, inferred ancestry, whole-dataframe conversion, R execution or stock package initializer. The failure-driven scope change needs explicit root review and an independent reasoning review; that review is not an independent filesystem/runtime audit.
+
+A PASS only recovers source annotation metadata for later author-rule ancestry and exact physical RNA sequence/layout certification. No mutant-parent pairs, binding supervision, numerical outcomes, localization predictions or model fits are admitted here. A single WT family and four repeated MS2 hairpins cannot become independent genes or single physical edits by naming them differently.
+
+Official package: https://github.com/vnmabus/rdata and https://pypi.org/pypi/rdata/1.1.0/json .
+Author source: https://zenodo.org/records/10633325 ; study: https://pmc.ncbi.nlm.nih.gov/articles/PMC11162807/ .
