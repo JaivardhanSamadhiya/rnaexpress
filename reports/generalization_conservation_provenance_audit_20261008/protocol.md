@@ -1,0 +1,5 @@
+# Additive conservation missing-reason provenance audit
+
+After the existing extraction and independent site/whole-parent replay complete, reconstruct all3,003fixed response statuses, pinned expected headers, source metadata groups, missing reasons and per-site query-key assignments from original raw bodies/transport receipts. Bind the exact15,132site scores/reasons/keys and distinguish20pilot reuses from2,983remaining responses and newly issued requests. Recalculate total acquired bytes including preserved schemas/pilots. Fail rather than changing rows, receipts, source headers or errors. No network requests, feature production, localization outcome access or model fitting.
+
+The strict envelope parser is deliberately shared with preserved producer code. This audit closes omitted provenance-field bindings; it is not an independent envelope-parser certification or physical SQL/provider snapshot/full precision certification. Existing independent interval/site/parent reconstruction remains required.

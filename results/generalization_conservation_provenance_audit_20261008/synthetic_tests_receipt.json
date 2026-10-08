@@ -1,0 +1,14 @@
+{
+  "models_fit": 0,
+  "network_requests": 0,
+  "numeric_imports": 0,
+  "output": "test_absent_body_default_reason (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_absent_body_default_reason) ... ok\ntest_empty_arrays_are_missing_values_not_bad_headers (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_empty_arrays_are_missing_values_not_bad_headers) ... ok\ntest_header_drift_preserves_failure (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_header_drift_preserves_failure) ... ok\ntest_invalid_json_bound_as_unavailable (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_invalid_json_bound_as_unavailable) ... ok\ntest_non200_cannot_admit_body (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_non200_cannot_admit_body) ... ok\ntest_query_bindings_and_interval_missing (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_query_bindings_and_interval_missing) ... ok\ntest_real_zero_available (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_real_zero_available) ... ok\ntest_transport_failure_cannot_admit_body (src.generalization_conservation_provenance_audit_20261008.tests.MissingReasonContracts.test_transport_failure_cannot_admit_body) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.001s\n\nOK\n",
+  "project_data_reads": 0,
+  "source_files": {
+    "src/generalization_conservation_provenance_audit_20261008/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/generalization_conservation_provenance_audit_20261008/audit.py": "1235e295881da8c17c109ae7b02bc33348ce2be3855f01ba927673e5942928d6",
+    "src/generalization_conservation_provenance_audit_20261008/tests.py": "a9e4bc3dc9f4988402331fa1ffa2c215d127f4da1ac828ce828ac5e4f98756a1"
+  },
+  "status": "PASS",
+  "tests": 8
+}

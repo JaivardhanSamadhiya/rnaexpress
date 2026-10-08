@@ -1,0 +1,20 @@
+{
+  "account_or_payment": false,
+  "max_response_bytes": 2000000,
+  "max_total_bytes": 4000000,
+  "no_counts_outcomes_or_models": true,
+  "no_data_files_requested": true,
+  "no_retries": true,
+  "scope": "New2026MPRNA-IP protocol repository inventories; not2024mutation ancestry",
+  "status": "FIXED_PUBLIC_METADATA_ONLY_REQUESTS",
+  "urls": [
+    {
+      "name": "zenodo_19680142_record.json",
+      "url": "https://zenodo.org/api/records/19680142"
+    },
+    {
+      "name": "GSE315146_supplement_inventory.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE315nnn/GSE315146/suppl/"
+    }
+  ]
+}
