@@ -1,0 +1,32 @@
+{
+  "binding_resource_already_exposed_development": true,
+  "feature_columns": [
+    "no_flip_no_c1c2",
+    "coupled_consecutive",
+    "released_csv",
+    "fit_region_truncated"
+  ],
+  "files": {
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term1.csv": "9fd526a86877f6a351dcfd367305fdd56c8c4c58abe2093ffc9da5d4e0ab58f5",
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term2_double.csv": "b1525f6fefe7fa71c978672bbf365ab16f951f57eb97093088ff8d8da7ed87cf",
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term2_single.csv": "4009bfa0a8e4dfc239ca7bbe49a60ba2140e4570d428748803793b04bd8be250",
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term3.csv": "943746b2d6a5bd805c1a76bc1c7c4532f3000ac5fc001b1bd33da0a304fd1b6b",
+    "reports/generalization_pum2_fixed_math_20261008/feature_protocol.md": "caaaef450d167aa9a96a8f152d85d44f52f9ca4fe3376cbbc1cda23d8a4b202c",
+    "reports/generalization_pum2_fixed_math_20261008/protocol.md": "52f94a173c9c6c30d26ce3bd27443725b414e20d53f47115aae446c9ab954b92",
+    "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json": "65e32e40f252981a7d6d910b9c17069e4e436f07e8438ea6cbb2b761a9fdbf23",
+    "results/generalization_prelib_point_ancestry_20261008/parent_template_metadata_v2.json": "d07296aec270c91421b2f027f020f299835e0c9c5d6c1abd1fc257a5a75271d3",
+    "results/generalization_prelib_point_ancestry_20261008/reconstructed_point_design_relations_v2.json": "5ba19d8207c1ced58502f4be8b60a5e586cb374a93e8ec4815f33da40c96bd87",
+    "results/generalization_pum2_fixed_math_20261008/mathematical_verification_receipt.json": "ec82530441d67fada4a73bb2eb5b459a011a54bd085f7e9acd20f851f1e8eb6f",
+    "results/generalization_pum2_parameter_metadata_20261008/acquisition_receipt_v2.json": "da4cadf5fdf3d122d3ef49920137024c10313239457667ca7c46228dd2592d19",
+    "src/generalization_pum2_fixed_math_20261008/model.py": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81",
+    "src/generalization_pum2_fixed_math_20261008/produce_features.py": "c142e44fe8c5669a7fa2f07142fa5c683ec71cbbd339e6f77136017ab50c3fc9",
+    "src/generalization_pum2_fixed_math_20261008/tests.py": "d7c3f7a49238bffa31ef9ca9860f1f65f7791b739ab76ed6e936d45cd2e005b5"
+  },
+  "fresh_RAM_floor_GiB": 3,
+  "models_fit": 0,
+  "parents": "results/generalization_prelib_point_ancestry_20261008/parent_template_metadata_v2.json",
+  "points": "results/generalization_prelib_point_ancestry_20261008/reconstructed_point_design_relations_v2.json",
+  "source_design": "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json",
+  "status": "FROZEN_FOUR_FIXED_PUM2_FRAGMENT_FEATURES_NO_OUTCOME_INPUTS",
+  "training_pairs_admitted": 0
+}
