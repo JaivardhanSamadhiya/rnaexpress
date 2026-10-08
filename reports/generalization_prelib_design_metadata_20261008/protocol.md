@@ -1,0 +1,7 @@
+# PRELib fixed source design fields only
+
+Use exact frozen header inventory and SHA-bound official supplement. Whitelist TableS1: Subset,Group,Number of oligos; TableS2: Subset,ID,Sequence,Category; TableS3: Name,Number of oligos,Baseline sequence; TableS4: ID,Sequence. Exclude plasmid in S4 because its meaning is uncertified and may be numerical measurement. Exclude GC, all predicted occupancy, l2fc, raw and normalized count columns; they are not parent metadata.
+
+Only selected XML cells are semantically decoded after checking exact row1 names. Entire worksheet XML/shared-string bytes are loaded internally; no nonselected numeric values are decoded, analyzed or exported. Selected formulas, unexpected types, invalid integer design counts, >7000 exported rows, >10000 Excel row index, >10000-char selected text or source/hash discrepancies fail. Design oligo totals are library metadata, not molecule counts. Preserve source Excel rows and literal sequences/IDs; no case/length correction or ambiguity replacement.
+
+Freeze code, protocol, header receipt and input hashes before row export. Output has no parent inference, training pair admission, numerical labels, models or localization confirmation. Subsequent author-rule ancestry and exact sequence changes need an independent metadata protocol; nearest sequence parents are forbidden. Keep all rows even if a sequence is non-ACGT or disagrees with the article's advertised size/gene names. Printed article results are already exposed.

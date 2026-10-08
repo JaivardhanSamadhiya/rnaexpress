@@ -1,0 +1,789 @@
+{
+  "archive_sha256": "1df27b97bad94fa4d7c16d4be1884ea7c4bf7e0fe6c937f1165048b1216308ca",
+  "design_rows_exported": 0,
+  "models_fit": 0,
+  "numerical_outcome_analysis": false,
+  "parent_pairs_admitted": 0,
+  "source_manifest_sha256": "eecbefddb149790b4097943bf8bc8c2e04f5814c808e2e7b7209126b98cd5a94",
+  "status": "PASS_BOUNDED_WORKBOOK_SHEET_AND_ROW1_HEADER_INVENTORY_ONLY",
+  "whole_worksheet_XML_bytes_loaded_but_only_header_row_semantically_traversed": true,
+  "workbooks": [
+    {
+      "bundle_member": "TableS1_PRELibA_design.xlsx",
+      "formula_or_external_link_execution": false,
+      "numerical_outcome_values_analyzed": false,
+      "shared_strings_loaded_internally": true,
+      "shared_strings_reported_except_row1_headers": false,
+      "sheets": [
+        {
+          "headers": [
+            {
+              "cell": "A1",
+              "type": "shared_string_header",
+              "value": "Subset"
+            },
+            {
+              "cell": "B1",
+              "type": "shared_string_header",
+              "value": "Group"
+            },
+            {
+              "cell": "C1",
+              "type": "shared_string_header",
+              "value": "Number of oligos"
+            }
+          ],
+          "later_rows_semantically_traversed": false,
+          "name": "Sheet1",
+          "row1_present": true,
+          "worksheet_member": "xl/worksheets/sheet1.xml"
+        }
+      ],
+      "workbook_sha256": "e2b378db27e25ae3028f451b70e313e3777f51ab830788c3bf73eda1e8339d9b"
+    },
+    {
+      "bundle_member": "TableS2_PRELibA.xlsx",
+      "formula_or_external_link_execution": false,
+      "numerical_outcome_values_analyzed": false,
+      "shared_strings_loaded_internally": true,
+      "shared_strings_reported_except_row1_headers": false,
+      "sheets": [
+        {
+          "headers": [
+            {
+              "cell": "A1",
+              "type": "shared_string_header",
+              "value": "Subset"
+            },
+            {
+              "cell": "B1",
+              "type": "shared_string_header",
+              "value": "ID"
+            },
+            {
+              "cell": "C1",
+              "type": "shared_string_header",
+              "value": "Sequence"
+            },
+            {
+              "cell": "D1",
+              "type": "shared_string_header",
+              "value": "GC_content"
+            },
+            {
+              "cell": "E1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP.l2fc"
+            },
+            {
+              "cell": "F1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP.l2fc"
+            },
+            {
+              "cell": "G1",
+              "type": "shared_string_header",
+              "value": "PUM_IP.l2fc"
+            },
+            {
+              "cell": "H1",
+              "type": "shared_string_header",
+              "value": "siPUM.l2fc"
+            },
+            {
+              "cell": "I1",
+              "type": "shared_string_header",
+              "value": "HCT_siPUM.l2fc"
+            },
+            {
+              "cell": "J1",
+              "type": "shared_string_header",
+              "value": "Expression.l2fc"
+            },
+            {
+              "cell": "K1",
+              "type": "shared_string_header",
+              "value": "siFAM120a.l2fc"
+            },
+            {
+              "cell": "L1",
+              "type": "shared_string_header",
+              "value": "FAM120a_IP.l2fc"
+            },
+            {
+              "cell": "M1",
+              "type": "shared_string_header",
+              "value": "OE_PUM1.l2fc"
+            },
+            {
+              "cell": "N1",
+              "type": "shared_string_header",
+              "value": "OE_PUM2.l2fc"
+            },
+            {
+              "cell": "O1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD.l2fc"
+            },
+            {
+              "cell": "P1",
+              "type": "shared_string_header",
+              "value": "Mean_Prediced_Occupancy"
+            },
+            {
+              "cell": "Q1",
+              "type": "shared_string_header",
+              "value": "Max_Prediced_Occupancy"
+            },
+            {
+              "cell": "R1",
+              "type": "shared_string_header",
+              "value": "Category"
+            },
+            {
+              "cell": "S1",
+              "type": "shared_string_header",
+              "value": "FAM120a_IP_1.raw"
+            },
+            {
+              "cell": "T1",
+              "type": "shared_string_header",
+              "value": "FAM120a_IP_2.raw"
+            },
+            {
+              "cell": "U1",
+              "type": "shared_string_header",
+              "value": "Input_1.raw"
+            },
+            {
+              "cell": "V1",
+              "type": "shared_string_header",
+              "value": "Input_2.raw"
+            },
+            {
+              "cell": "W1",
+              "type": "shared_string_header",
+              "value": "Input_3.raw"
+            },
+            {
+              "cell": "X1",
+              "type": "shared_string_header",
+              "value": "Input_4.raw"
+            },
+            {
+              "cell": "Y1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_1.raw"
+            },
+            {
+              "cell": "Z1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_2.raw"
+            },
+            {
+              "cell": "AA1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_3.raw"
+            },
+            {
+              "cell": "AB1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_4.raw"
+            },
+            {
+              "cell": "AC1",
+              "type": "shared_string_header",
+              "value": "OE_PUM1_1.raw"
+            },
+            {
+              "cell": "AD1",
+              "type": "shared_string_header",
+              "value": "OE_PUM1_2.raw"
+            },
+            {
+              "cell": "AE1",
+              "type": "shared_string_header",
+              "value": "OE_PUM2_1.raw"
+            },
+            {
+              "cell": "AF1",
+              "type": "shared_string_header",
+              "value": "OE_PUM2_2.raw"
+            },
+            {
+              "cell": "AG1",
+              "type": "shared_string_header",
+              "value": "pcDNA_1.raw"
+            },
+            {
+              "cell": "AH1",
+              "type": "shared_string_header",
+              "value": "pcDNA_2.raw"
+            },
+            {
+              "cell": "AI1",
+              "type": "shared_string_header",
+              "value": "pcDNA_3.raw"
+            },
+            {
+              "cell": "AJ1",
+              "type": "shared_string_header",
+              "value": "pcDNA_4.raw"
+            },
+            {
+              "cell": "AK1",
+              "type": "shared_string_header",
+              "value": "plasmid_1.raw"
+            },
+            {
+              "cell": "AL1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_1.raw"
+            },
+            {
+              "cell": "AM1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_2.raw"
+            },
+            {
+              "cell": "AN1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_1.raw"
+            },
+            {
+              "cell": "AO1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_2.raw"
+            },
+            {
+              "cell": "AP1",
+              "type": "shared_string_header",
+              "value": "siFAM120a_1.raw"
+            },
+            {
+              "cell": "AQ1",
+              "type": "shared_string_header",
+              "value": "siFAM120a_2.raw"
+            },
+            {
+              "cell": "AR1",
+              "type": "shared_string_header",
+              "value": "siFAM120a_3.raw"
+            },
+            {
+              "cell": "AS1",
+              "type": "shared_string_header",
+              "value": "siNT_1.raw"
+            },
+            {
+              "cell": "AT1",
+              "type": "shared_string_header",
+              "value": "siNT_2.raw"
+            },
+            {
+              "cell": "AU1",
+              "type": "shared_string_header",
+              "value": "siNT_3.raw"
+            },
+            {
+              "cell": "AV1",
+              "type": "shared_string_header",
+              "value": "siNT_4.raw"
+            },
+            {
+              "cell": "AW1",
+              "type": "shared_string_header",
+              "value": "siNT_5.raw"
+            },
+            {
+              "cell": "AX1",
+              "type": "shared_string_header",
+              "value": "siNT_6.raw"
+            },
+            {
+              "cell": "AY1",
+              "type": "shared_string_header",
+              "value": "siNT_7.raw"
+            },
+            {
+              "cell": "AZ1",
+              "type": "shared_string_header",
+              "value": "siNT_8.raw"
+            },
+            {
+              "cell": "BA1",
+              "type": "shared_string_header",
+              "value": "siPUM_1.raw"
+            },
+            {
+              "cell": "BB1",
+              "type": "shared_string_header",
+              "value": "siPUM_2.raw"
+            },
+            {
+              "cell": "BC1",
+              "type": "shared_string_header",
+              "value": "siPUM_3.raw"
+            },
+            {
+              "cell": "BD1",
+              "type": "shared_string_header",
+              "value": "siPUM_4.raw"
+            },
+            {
+              "cell": "BE1",
+              "type": "shared_string_header",
+              "value": "siPUM_5.raw"
+            },
+            {
+              "cell": "BF1",
+              "type": "shared_string_header",
+              "value": "siPUM_6.raw"
+            },
+            {
+              "cell": "BG1",
+              "type": "shared_string_header",
+              "value": "siPUM_7.raw"
+            },
+            {
+              "cell": "BH1",
+              "type": "shared_string_header",
+              "value": "FAM120a_IP_1.normalized"
+            },
+            {
+              "cell": "BI1",
+              "type": "shared_string_header",
+              "value": "FAM120a_IP_2.normalized"
+            },
+            {
+              "cell": "BJ1",
+              "type": "shared_string_header",
+              "value": "Input_1.normalized"
+            },
+            {
+              "cell": "BK1",
+              "type": "shared_string_header",
+              "value": "Input_2.normalized"
+            },
+            {
+              "cell": "BL1",
+              "type": "shared_string_header",
+              "value": "Input_3.normalized"
+            },
+            {
+              "cell": "BM1",
+              "type": "shared_string_header",
+              "value": "Input_4.normalized"
+            },
+            {
+              "cell": "BN1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_1.normalized"
+            },
+            {
+              "cell": "BO1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_2.normalized"
+            },
+            {
+              "cell": "BP1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_3.normalized"
+            },
+            {
+              "cell": "BQ1",
+              "type": "shared_string_header",
+              "value": "OE_NORAD_4.normalized"
+            },
+            {
+              "cell": "BR1",
+              "type": "shared_string_header",
+              "value": "OE_PUM1_1.normalized"
+            },
+            {
+              "cell": "BS1",
+              "type": "shared_string_header",
+              "value": "OE_PUM1_2.normalized"
+            },
+            {
+              "cell": "BT1",
+              "type": "shared_string_header",
+              "value": "OE_PUM2_1.normalized"
+            },
+            {
+              "cell": "BU1",
+              "type": "shared_string_header",
+              "value": "OE_PUM2_2.normalized"
+            },
+            {
+              "cell": "BV1",
+              "type": "shared_string_header",
+              "value": "pcDNA_1.normalized"
+            },
+            {
+              "cell": "BW1",
+              "type": "shared_string_header",
+              "value": "pcDNA_2.normalized"
+            },
+            {
+              "cell": "BX1",
+              "type": "shared_string_header",
+              "value": "pcDNA_3.normalized"
+            },
+            {
+              "cell": "BY1",
+              "type": "shared_string_header",
+              "value": "pcDNA_4.normalized"
+            },
+            {
+              "cell": "BZ1",
+              "type": "shared_string_header",
+              "value": "plasmid_1.normalized"
+            },
+            {
+              "cell": "CA1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_1.normalized"
+            },
+            {
+              "cell": "CB1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_2.normalized"
+            },
+            {
+              "cell": "CC1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_1.normalized"
+            },
+            {
+              "cell": "CD1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_2.normalized"
+            },
+            {
+              "cell": "CE1",
+              "type": "shared_string_header",
+              "value": "siFAM120a_1.normalized"
+            },
+            {
+              "cell": "CF1",
+              "type": "shared_string_header",
+              "value": "siFAM120a_2.normalized"
+            },
+            {
+              "cell": "CG1",
+              "type": "shared_string_header",
+              "value": "siFAM120a_3.normalized"
+            },
+            {
+              "cell": "CH1",
+              "type": "shared_string_header",
+              "value": "siNT_1.normalized"
+            },
+            {
+              "cell": "CI1",
+              "type": "shared_string_header",
+              "value": "siNT_2.normalized"
+            },
+            {
+              "cell": "CJ1",
+              "type": "shared_string_header",
+              "value": "siNT_3.normalized"
+            },
+            {
+              "cell": "CK1",
+              "type": "shared_string_header",
+              "value": "siNT_4.normalized"
+            },
+            {
+              "cell": "CL1",
+              "type": "shared_string_header",
+              "value": "siNT_5.normalized"
+            },
+            {
+              "cell": "CM1",
+              "type": "shared_string_header",
+              "value": "siNT_6.normalized"
+            },
+            {
+              "cell": "CN1",
+              "type": "shared_string_header",
+              "value": "siNT_7.normalized"
+            },
+            {
+              "cell": "CO1",
+              "type": "shared_string_header",
+              "value": "siNT_8.normalized"
+            },
+            {
+              "cell": "CP1",
+              "type": "shared_string_header",
+              "value": "siPUM_1.normalized"
+            },
+            {
+              "cell": "CQ1",
+              "type": "shared_string_header",
+              "value": "siPUM_2.normalized"
+            },
+            {
+              "cell": "CR1",
+              "type": "shared_string_header",
+              "value": "siPUM_3.normalized"
+            },
+            {
+              "cell": "CS1",
+              "type": "shared_string_header",
+              "value": "siPUM_4.normalized"
+            },
+            {
+              "cell": "CT1",
+              "type": "shared_string_header",
+              "value": "siPUM_5.normalized"
+            },
+            {
+              "cell": "CU1",
+              "type": "shared_string_header",
+              "value": "siPUM_6.normalized"
+            },
+            {
+              "cell": "CV1",
+              "type": "shared_string_header",
+              "value": "siPUM_7.normalized"
+            }
+          ],
+          "later_rows_semantically_traversed": false,
+          "name": "Sheet1",
+          "row1_present": true,
+          "worksheet_member": "xl/worksheets/sheet1.xml"
+        }
+      ],
+      "workbook_sha256": "c399a70f524a75b678c4a862277c4a1011208674c27cff4f628df6bc4c3370d9"
+    },
+    {
+      "bundle_member": "TableS3_PRELibB_design.xlsx",
+      "formula_or_external_link_execution": false,
+      "numerical_outcome_values_analyzed": false,
+      "shared_strings_loaded_internally": true,
+      "shared_strings_reported_except_row1_headers": false,
+      "sheets": [
+        {
+          "headers": [
+            {
+              "cell": "A1",
+              "type": "shared_string_header",
+              "value": "Name"
+            },
+            {
+              "cell": "B1",
+              "type": "shared_string_header",
+              "value": "Number of oligos"
+            },
+            {
+              "cell": "C1",
+              "type": "shared_string_header",
+              "value": "Baseline sequence"
+            }
+          ],
+          "later_rows_semantically_traversed": false,
+          "name": "Sheet1",
+          "row1_present": true,
+          "worksheet_member": "xl/worksheets/sheet1.xml"
+        }
+      ],
+      "workbook_sha256": "7c5e6eafd6c2f12a17830a76e1ccb41e131c338e99ba773d72db23e64b2c78a8"
+    },
+    {
+      "bundle_member": "TableS4_PRELibB.xlsx",
+      "formula_or_external_link_execution": false,
+      "numerical_outcome_values_analyzed": false,
+      "shared_strings_loaded_internally": true,
+      "shared_strings_reported_except_row1_headers": false,
+      "sheets": [
+        {
+          "headers": [
+            {
+              "cell": "A1",
+              "type": "shared_string_header",
+              "value": "ID"
+            },
+            {
+              "cell": "B1",
+              "type": "shared_string_header",
+              "value": "plasmid"
+            },
+            {
+              "cell": "C1",
+              "type": "shared_string_header",
+              "value": "Sequence"
+            },
+            {
+              "cell": "D1",
+              "type": "shared_string_header",
+              "value": "GC_content"
+            },
+            {
+              "cell": "E1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP.l2fc"
+            },
+            {
+              "cell": "F1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP.l2fc"
+            },
+            {
+              "cell": "G1",
+              "type": "shared_string_header",
+              "value": "PUM_IP.l2fc"
+            },
+            {
+              "cell": "H1",
+              "type": "shared_string_header",
+              "value": "siPUM.l2fc"
+            },
+            {
+              "cell": "I1",
+              "type": "shared_string_header",
+              "value": "siFAM120a.l2fc"
+            },
+            {
+              "cell": "J1",
+              "type": "shared_string_header",
+              "value": "Mean_Prediced_Occupancy"
+            },
+            {
+              "cell": "K1",
+              "type": "shared_string_header",
+              "value": "Max_Prediced_Occupancy"
+            },
+            {
+              "cell": "L1",
+              "type": "shared_string_header",
+              "value": "Input_1.raw"
+            },
+            {
+              "cell": "M1",
+              "type": "shared_string_header",
+              "value": "Input_2.raw"
+            },
+            {
+              "cell": "N1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_1.raw"
+            },
+            {
+              "cell": "O1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_2.raw"
+            },
+            {
+              "cell": "P1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_1.raw"
+            },
+            {
+              "cell": "Q1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_2.raw"
+            },
+            {
+              "cell": "R1",
+              "type": "shared_string_header",
+              "value": "siFAM120A_1.raw"
+            },
+            {
+              "cell": "S1",
+              "type": "shared_string_header",
+              "value": "siFAM120A_2.raw"
+            },
+            {
+              "cell": "T1",
+              "type": "shared_string_header",
+              "value": "siNT_1.raw"
+            },
+            {
+              "cell": "U1",
+              "type": "shared_string_header",
+              "value": "siNT_2.raw"
+            },
+            {
+              "cell": "V1",
+              "type": "shared_string_header",
+              "value": "siPUM_1.raw"
+            },
+            {
+              "cell": "W1",
+              "type": "shared_string_header",
+              "value": "siPUM_2.raw"
+            },
+            {
+              "cell": "X1",
+              "type": "shared_string_header",
+              "value": "Input_1.normalized"
+            },
+            {
+              "cell": "Y1",
+              "type": "shared_string_header",
+              "value": "Input_2.normalized"
+            },
+            {
+              "cell": "Z1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_1.normalized"
+            },
+            {
+              "cell": "AA1",
+              "type": "shared_string_header",
+              "value": "PUM1_IP_2.normalized"
+            },
+            {
+              "cell": "AB1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_1.normalized"
+            },
+            {
+              "cell": "AC1",
+              "type": "shared_string_header",
+              "value": "PUM2_IP_2.normalized"
+            },
+            {
+              "cell": "AD1",
+              "type": "shared_string_header",
+              "value": "siFAM120A_1.normalized"
+            },
+            {
+              "cell": "AE1",
+              "type": "shared_string_header",
+              "value": "siFAM120A_2.normalized"
+            },
+            {
+              "cell": "AF1",
+              "type": "shared_string_header",
+              "value": "siNT_1.normalized"
+            },
+            {
+              "cell": "AG1",
+              "type": "shared_string_header",
+              "value": "siNT_2.normalized"
+            },
+            {
+              "cell": "AH1",
+              "type": "shared_string_header",
+              "value": "siPUM_1.normalized"
+            },
+            {
+              "cell": "AI1",
+              "type": "shared_string_header",
+              "value": "siPUM_2.normalized"
+            }
+          ],
+          "later_rows_semantically_traversed": false,
+          "name": "PRELibB.nice",
+          "row1_present": true,
+          "worksheet_member": "xl/worksheets/sheet1.xml"
+        }
+      ],
+      "workbook_sha256": "13a847404686cd033819f875e57cd30f3ca20b946860891204332ce027ff5f9b"
+    }
+  ]
+}
