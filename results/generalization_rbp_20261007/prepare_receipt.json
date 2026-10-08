@@ -1,0 +1,26 @@
+{
+  "cache_index_sha256": {
+    "access": "588780e75debb04013191233e39aafb6b429b88c1b82eb254093a49f0ac7da90",
+    "raw": "eea5bfd64d95aaa7d312287c8cc4ad45c638b45b99deb36a46467a65238ad393"
+  },
+  "dimensions": {
+    "access": 758,
+    "base": 246,
+    "raw": 502
+  },
+  "files": {
+    "artifacts/generalization_rbp_20261007/access_model_features.npz": "cd1056fbcddb291ff70b74d7d071fd9ff8b5f3394438abf96d19ccfa378a9c8f",
+    "artifacts/generalization_rbp_20261007/access_projected_delta.npz": "4f3c34ce1992584e2d510f414571f7766fed6b637edacc9fbf6fc652f4a6d524",
+    "artifacts/generalization_rbp_20261007/base_model_features.npz": "cf7d79d6b1a0efa3228fbcbe8c61b0e712c2fb630f9c1ef9302dcf83f152693c",
+    "artifacts/generalization_rbp_20261007/model_row_index.csv.gz": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+    "artifacts/generalization_rbp_20261007/raw_model_features.npz": "0d2826b11e2aa2c5e555337a8bd513c53e64fc7a05dfba4259f6128e7e4755b8",
+    "artifacts/generalization_rbp_20261007/raw_projected_delta.npz": "be0bddd934f5d898989e5c7489273893e22f54e0c3e3c8afaa32163b949967a2"
+  },
+  "original_alleles_used_for_purge": true,
+  "outcomes_used_for_features": false,
+  "production_manifest_sha256": "8f16350e5291bb4533ced2d5d4079b6018a37c1c5414e4669d1b078e88fe55f8",
+  "row_ids_sha256": "f04a8fe31976c913c1167c1b51f21d6c556928c63c2c334377d3cf2e897b187a",
+  "rows": 26258,
+  "status": "PASS",
+  "structure_production_receipt_sha256": "ce9b9a6f01741a80b47fb67ce889cfa4a14bc8f12b97d0e92db496b11bdda72c"
+}

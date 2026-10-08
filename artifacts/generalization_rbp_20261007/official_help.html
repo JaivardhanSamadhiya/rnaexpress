@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Help page for Cis-BP</title>
+</head>
+<body>
+    <table width="900">
+        <tr>
+            <td><center><img src="images/Cis-BP_logo1.png" alt="CisBP-RNA"></center></td>
+    </tr>
+    <tr>
+    <td>
+    <H3 style="color: #02656A"><u>Introduction</u></H3>
+The Catalog of Inferred Sequence Binding Proteins of RNA (CISBP-RNA) is a library of RNA binding protein (RBP) motifs and specificities. The data is organized in a user friendly manner for ease of searching, browsing, and downloading. CISBP-RNA also includes built-in web tools for scanning a DNA sequence for putative RBP binding sites, predicting the binding motif of a given RBP, and identifying a putative RBP for a given motif.
+<H3 style="color: #02656A"><u>Searching or browsing for RBPs</u></H3>
+Searching and browsing capability is available for users interested in a specific RBP, organism, data source, or RBP family. To search for a specific RBP by name or identifier, simply enter the search string into the box at the top of the home page labeled "By Identifier", and press the GO! button. Wildcards (denoted as '*') are accepted, and the search is case insensitive. For example, a search for "puf*" will return all RBPs whose name begins with "puf", in any organism. A spreadsheet file containing the search/browse results can be obtained by clicking on "Download excel spreadsheet (csv text format)" at the top of the page.
+
+Searches can be restricted by using the pulldown bars under the text box. For example, all mouse RRM family RBPs whose names start with "Elav" can be found by entering "elav*" in the search box, selecting "Mus_musculus" under the "Species" pulldown menu, and selecting "RRM" under the "Domain Type" pulldown menu. To browse all mouse RRM family RBPs, simply remove the "elav*" search string from the search box. The "Motif evidence" pulldown menu offers several options to restrict to or browse RBPs with specific motif evidences. Motif evidences indicate how the motif for a given RBP was determined. "Direct" indicates that the motif was directly determined for the RBP using an experimental assay. "Inferred" indicates that the motif was determined indirectly, by inferring the motif from a RBP with a similar RNA binding domain that has experimental evidence. For example, the human YB-1 RBP has a motif that has been directly determined using an RNAcompete assay, so its motif status is "Direct". The zebra fish (Danio rerio) yb1 RBP has not had its motif directly determined, but its DNA binding domain is identical to the human YB-1 RBP, so its motif can be indirectly inferred to be similar to the directly-determined human motif.
+<H3 style="color: #02656A"><u>The RBP download cart</u></H3>
+Throughout CISBP-RNA, you will find buttons for adding RBPs to your cart. The CISBP-RNA cart acts in a similar manner to popular shopping websites such as Amazon, allowing the user to browse and search for RBPs, and add interesting RBPs to the cart for later use. RBPs can be added to (or removed from) the cart individually, or in groups (depending on the corresponding button). At any time, the user can view the contents of the cart by clicking on the "Download cart" button in the left navigation window. The cart contains information on its current contents, as well as links to the individual RBP pages. The cart can be emptied by clicking on the "Remove all RBPs from the cart" link at the top.  Data for the current RBPs contained in the cart can be obtained by clicking on the "Download RBPs in cart" link. Doing so opens a page allowing the user to download information such as sequence logos (in .png format), E and Z-scores (which provide comprehensive scores for all possible 7 base sequences and are available only for RNAcompete data), Position Frequency Matrices (in simple text format), and information about the corresponding RBPs (tab-delimited text format). Clicking on "Download Archive" initiates the downloading of a zipped archive containing the relevant files. Be aware that E- and Z-score files are large, and hence might take a while to download when many RBPs are contained in the cart.
+RBP pages
+Each of the 62,000+ RBPs contained in CISBP-RNA has its own page, which can be arrived it using the search and browse capabilities discussed above. At the top of each RBP page is the name, organism, and RBP family for the given RBP. Each RBP page is divided into several different sections, which are outlined below.
+
+
+<H3 style="color: #02656A"><u>RBP information</u></H3>
+The "RBP information" section provides further information about the RBP, and links to external databases. Clicking on the "Pfam ID" or "Interpro ID" opens a new window for the corresponding domain database. Clicking on the "Gene ID" opens a link to the corresponding organism's genomic database (e.g. SGD for Saccharomyces cerevisiae, WormBase for Caenorhabditis elegans, etc). Clicking on the "Sequence source" opens a link to the corresponding database from which the given RBP's amino acid sequence was obtained.
+
+
+</br></br><b>Directly determined binding motifs</b></br>
+This section contains information about the binding motif(s) that have been directly experimentally determined for the given RBP. Sequence logos are displayed that summarize the binding preferences for the given RBP. Clicking on a sequence logo provides a popup window with the corresponding position frequency matrix (PFM). Under "Type/Study/Study ID", information is provided about the technology used to generate the motif (i.e. RNAcompete, SELEX, CLIP-Seq, etc). A link is also provided to Pubmed for the publication that the data was obtained from, along with the ID used in the study.
+
+
+</br></br><b>Motifs from related RBPs</b></br>
+This section provides motifs obtained for related RBPs, i.e. RBPs with RNA binding domains that are similar to the given RBP. The format is similar to that of the "Directly determined binding motifs" section, with a few differences. For one, clicking on the name of the RBP takes the user directly to the CISBP-RNA page for the corresponding related RBP. Second, the 
+"RBD Identity" column contains values indicating the degree of similarity of the corresponding RBP to the current RBP. A value of 1 means that the corresponding RBP has identical amino acid sequences in its DNA binding domain (based on ClustalOmega alignments, see our publication for more details). 
+<br></br>
+The final column indicated the Joint Protein Ligand Embedding (JPLE) score. JPLE is an improvement upon the "RBD Identity" homology modeling approach that learns associations between protein sequence patterns and RNA sequence specificity, represented by 7-mer Z-scores from RNAcompete. Trained on 355 RNAcompete constructs containing only RRM and/or KH domains, JPLE learns a joint embedding of protein peptide vectors and RNA 7-mer scores. At inference, it embeds a protein sequence into this joint latent space and reconstructs the RNA-binding Z-score profile using the nearest RNAcompete profiles.
+<br></br>
+The embedding distance (e-dist), the cosine distance between the inferred protein and its closest RNAcompete-trained protein, serves as a confidence metric, analogous to sequence identity. At an e-dist of 0.2, JPLE achieves an average profile reconstruction accuracy of PCC = 0.748 and a recall of 67.6%. Reconstructed profiles are converted into PWMs using the same method as in Ray et al. 2013.
+<br></br>
+Different RBP families have different identity thresholds for consideration as an indirect motif; the threshold for the corresponding family is indicated at the bottom of this section, and only RBPs exceeding this threshold are displayed.
+<br></br>
+Beyond RNA profile reconstruction, the JPLE latent space also enables interpretation of peptide sequence contributions. Weighted reconstructed profiles are mapped back onto the domain sequence to compute residue importance scores, indicating the predicted contribution of each amino acid to RNA binding. These scores, which are provided in the "RNA contacting residues" section, provide users with insights into the predicted importance of residues for the proteins RNA specificity.
+
+
+</br></br><b>Domains</b></br>
+This section provides information about the RNA binding domain(s) of the corresponding RBP. At the top, a schematic indicates the location of each RNA binding domain for each isoform of the corresponding RBP. Below, a table indicates the precise location of each domain, along with its corresponding amino acid sequence and HMMER domain detection e-values (which were used to computationally identify the domains).
+
+
+</br></br><b>Links</b></br>
+This section provides links to other RBPs from the same organism, or from the same RBP family.
+
+<H3 style="color: #02656A"><u>Bulk downloads</u></H3>
+The bulk downloads section can be reached via the left navigation toolbar. Pre-compiled zip files are available containing bulk downloads of various subsets of the data (and the entire dataset). Users can obtain all data for a specific organism or RBP family, including sequence logos, E- and Z-scores, Position Frequency Matrices, and RBP information (see above "The RBP download cart" section for more information).
+
+<H3 style="color: #02656A"><u>Tools</u></H3>
+<b><u>RNA Scan tool</b></u></br>
+This tool allows the user to input an RNA sequence (or sequences) in multiple formats and scan for putative RBP binding sites for any organism, using one of three different scoring systems.
+</br></br><b>Accepted input formats (max 8000 base limit):</b></br>
+	<ol>
+	<li><b>Plain text</b></br>
+	<i>AUCAUUCAUUCAGGACU...</i>
+	</li>
+	<li><b>Fasta</b></br>
+		<i>>Header</br>
+		AGUAGCUGAGCUAUCA...</i>
+		</li>
+
+	<li>
+	<b>Multi-fasta</b></br>
+	<i>>Header 1</br>
+	AGUGCAUGCACA....</br>
+	>Header 2</br>
+	AUCAUUUAUCUAUCUCGC</br></i>
+	</li>
+	</ol>
+</br></br><b>Scoring system options:</b></br>
+<ol>
+	<li><b>7 mers - E-scores</b></br>
+	This option is only available for RBPs that have been characterized using RNAcompete assays (or RBPs with inferred motifs from an RNAcompete assay).  For these RBPs, each sequence is scanned for subsequences with E-score 7-mer scores exceeding the chosen threshold (minimum possible threshold is 0.45).  See Ray et al. Nature 2013 (PMID 23846655) for more information on E-scores.
+	</li>
+
+	<li><b>PWMs - Energy</b></br>
+	This option scores each position in each sequence with all PWMs, using an energy-based scoring method.   A description of this scoring scheme is provided in Zhao and Stormo 2011 Nature Biotech (PMID 21654662).
+	</li>
+
+	<li>
+	<b>PWMs - Log Odds</b></br>
+	This option scores each position in each sequence with all PWMs, using a standard log odds scoring method.   A description of this scoring scheme is provided in Stormo 1990 Methods Enzymol (PMID 2179676).
+	</li>
+	</ol>
+	
+<b><u>Protein Scan</u></b><br>
+This tool takes an amino acid sequence as input (without a ">" fasta-style header), identifies any putative RNA binding domains (RBDs) it contains (using the same methods as Ray et al., Nature 2013), and compares these RBDs to all RBDs in the CisBP-RNA database to predict the recognized RNA motif. The results page depicts all identified RBDs, along with their corresponding HMMER E-values. It then presents a ranked list of possible RNA motifs the protein might recognize, in descending order (based on RBD %Identity), along with links to the corresponding RBPs' webpages.
+<br><br>
+<b><u>Motif Scan</u></b><br>
+This tool takes an RNA motif as input, and compares it to all motifs in the database, in order to identify the RBP(s) that might recognize it. Motif comparisons are made using the TomTom algorithm. Three input types are allowed: (1) A PFM (in CisBP-RNA format); (2) a multi-sequence alignment, in fasta format (the positions are tallied at each position to create a PFM); and (3) IUPAC nucleic acid ambiguity codes (which are converted to a PFM based on the definition of each letter). By default, the input motif is aligned at all positions to all motifs in the database (in both orientations).
+<br>
+<H3 style="color: #02656A"><u>Citation</u></H3>
+Sasse, A., Ray, D., Laverty, K.U. et al. A resource of RNA-binding protein motifs across eukaryotes reveals evolutionary dynamics and gene-regulatory function. Nat Biotechnol (2025). <a href="https://doi.org/10.1038/s41587-025-02733-6">https://doi.org/10.1038/s41587-025-02733-6</a>
+<br><br>
+Ray D, Kazan H, Cook KB, Weirauch MT, Najafabadi HS, Li X, Gueroussov S, Albu M, Zheng H, Yang A, Na H, Irimia M, Matzat LH, Dale RK, Smith SA, Yarosh CA, Kelly SM, Nabet B, Mecenas D, Li W, Laishram RS, Qiao M, Lipshitz HD, Piano F, Corbett AH, Carstens RP, Frey BJ, Anderson RA, Lynch KW, Penalva LO, Lei EP, Fraser AG, Blencowe BJ, Morris QD, Hughes TR. <a href="http://www.nature.com/nature/journal/v499/n7457/full/nature12311.html">A compendium of RNA-binding motifs for decoding gene regulation.</a> <i>Nature</i>. 2013 Jul 11;499(7457):172-7. doi: 10.1038/nature12311. PubMed PMID: 23846655.
+            </td>
+            </tr>
+</table>
+</body>
+</html>
