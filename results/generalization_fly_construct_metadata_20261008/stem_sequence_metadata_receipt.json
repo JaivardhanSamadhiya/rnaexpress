@@ -1,0 +1,406 @@
+{
+  "K10_substitution_metadata": [
+    {
+      "WT": "TLS",
+      "exact_table_edits": [
+        {
+          "alternate": "G",
+          "reference": "U",
+          "table_stem_position0": 22
+        },
+        {
+          "alternate": "C",
+          "reference": "A",
+          "table_stem_position0": 35
+        }
+      ],
+      "full_injected_parent_mutant_certificate": false,
+      "mutant": "TLS-GCED2",
+      "numerical_localization_outcomes_admitted": false,
+      "substitution_count": 2
+    },
+    {
+      "WT": "TLS",
+      "exact_table_edits": [
+        {
+          "alternate": "G",
+          "reference": "U",
+          "table_stem_position0": 13
+        },
+        {
+          "alternate": "G",
+          "reference": "U",
+          "table_stem_position0": 14
+        },
+        {
+          "alternate": "C",
+          "reference": "A",
+          "table_stem_position0": 45
+        },
+        {
+          "alternate": "C",
+          "reference": "A",
+          "table_stem_position0": 46
+        }
+      ],
+      "full_injected_parent_mutant_certificate": false,
+      "mutant": "TLS-2xGCED1",
+      "numerical_localization_outcomes_admitted": false,
+      "substitution_count": 4
+    },
+    {
+      "WT": "TLS",
+      "exact_table_edits": [
+        {
+          "alternate": "G",
+          "reference": "U",
+          "table_stem_position0": 13
+        },
+        {
+          "alternate": "G",
+          "reference": "U",
+          "table_stem_position0": 14
+        },
+        {
+          "alternate": "G",
+          "reference": "U",
+          "table_stem_position0": 22
+        },
+        {
+          "alternate": "C",
+          "reference": "A",
+          "table_stem_position0": 35
+        },
+        {
+          "alternate": "C",
+          "reference": "A",
+          "table_stem_position0": 45
+        },
+        {
+          "alternate": "C",
+          "reference": "A",
+          "table_stem_position0": 46
+        }
+      ],
+      "full_injected_parent_mutant_certificate": false,
+      "mutant": "TLS-2xGCED1+GCED2",
+      "numerical_localization_outcomes_admitted": false,
+      "substitution_count": 6
+    }
+  ],
+  "injected_sequence_certification_pending": true,
+  "localization_models_fit": 0,
+  "metadata_recipe_sha256": "aaabb4a9beeefd7a2155065d51fabab6165e65a5c94d9af4163aaed5f6930d4e",
+  "native_stem_reference_bindings": [
+    {
+      "author_injected_native_span1": [
+        1608,
+        3061
+      ],
+      "exact_forward_reference_start0_matches": [
+        2215
+      ],
+      "native_span_length": 1454,
+      "reference_version": "AY060415.1",
+      "reported_injected_length": 1490,
+      "stem_label": "TLS",
+      "stem_native_length": 60,
+      "stem_source_sequence_is_not_complete_injected_sequence": true,
+      "terminal_or_context_length_difference": 36
+    },
+    {
+      "author_injected_native_span1": [
+        1185,
+        1845
+      ],
+      "exact_forward_reference_start0_matches": [
+        1275
+      ],
+      "native_span_length": 661,
+      "reference_version": "X15905.1",
+      "reported_injected_length": 730,
+      "stem_label": "hSL1",
+      "stem_native_length": 66,
+      "stem_source_sequence_is_not_complete_injected_sequence": true,
+      "terminal_or_context_length_difference": 69
+    },
+    {
+      "author_injected_native_span1": [
+        2932,
+        3498
+      ],
+      "exact_forward_reference_start0_matches": [
+        3336
+      ],
+      "native_span_length": 567,
+      "reference_version": "M14954.2",
+      "reported_injected_length": 573,
+      "stem_label": "ILS",
+      "stem_native_length": 58,
+      "stem_source_sequence_is_not_complete_injected_sequence": true,
+      "terminal_or_context_length_difference": 6
+    },
+    {
+      "author_injected_native_span1": [
+        1702,
+        2536
+      ],
+      "exact_forward_reference_start0_matches": [
+        2140
+      ],
+      "native_span_length": 835,
+      "reference_version": "NM_169159.4",
+      "reported_injected_length": 839,
+      "stem_label": "bcdSLV (EM)",
+      "stem_native_length": 57,
+      "stem_source_sequence_is_not_complete_injected_sequence": true,
+      "terminal_or_context_length_difference": 4
+    },
+    {
+      "author_injected_native_span1": [
+        1,
+        1718
+      ],
+      "exact_forward_reference_start0_matches": [
+        406
+      ],
+      "native_span_length": 1718,
+      "reference_version": "NM_057220.3",
+      "reported_injected_length": 1718,
+      "stem_label": "GLS (EM)",
+      "stem_native_length": 63,
+      "stem_source_sequence_is_not_complete_injected_sequence": true,
+      "terminal_or_context_length_difference": 0
+    }
+  ],
+  "numerical_source_workbooks_opened": false,
+  "post_acquisition_metadata_recipe_not_prospective_outcome_protocol": true,
+  "references": {
+    "AY060415": {
+      "length": 3068,
+      "record_sha256": "1846a0ff1301d03e8872756f297bff4010ba09ccec1e2d13b2994e45d212aa19",
+      "version": "AY060415.1"
+    },
+    "M14954.2": {
+      "length": 6231,
+      "record_sha256": "35bc414c937a474de88046b27849ebdb42d4be104983dc1a9a444c0dab727a55",
+      "version": "M14954.2"
+    },
+    "NM_057220.3": {
+      "length": 1718,
+      "record_sha256": "bda96100294b837017455fe33f3f0f77e137d8b62eb8aa035a8cd484a86f68e3",
+      "version": "NM_057220.3"
+    },
+    "NM_169159.4": {
+      "length": 2536,
+      "record_sha256": "cc70820aac99f8a575bd75754d5bcab437f94f02b48f6eb839a6439e66474aec",
+      "version": "NM_169159.4"
+    },
+    "X15905": {
+      "length": 1976,
+      "record_sha256": "6ec9f873b795ea30d7cca067e0415c8d8b18712530a38cd59da058860f79b450",
+      "version": "X15905.1"
+    }
+  },
+  "sequence_table_pdf_page": 16,
+  "sequence_table_printed_page": 15,
+  "sequences": {
+    "2NUE RNA": {
+      "length": 48,
+      "non_native_lowercase_positions0": [
+        0,
+        1
+      ],
+      "source_sequence_with_case": "aaGGGACAAGCGCAAGGUCAUUCGCAAGAGUGGCCUUGCGCUUGUCCC"
+    },
+    "GLS (EM)": {
+      "length": 63,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "AGUAAUUUUCGUGCUCUCAACAAUUGUCGCCGUCACAGAUUGUUGUUCGAGCCGAAUCUUACU"
+    },
+    "GLS (MST)": {
+      "length": 65,
+      "non_native_lowercase_positions0": [
+        0,
+        1
+      ],
+      "source_sequence_with_case": "aaAGUAAUUUUCGUGCUCUCAACAAUUGUCGCCGUCACAGAUUGUUGUUCGAGCCGAAUCUUACU"
+    },
+    "GLS\u2206b": {
+      "length": 62,
+      "non_native_lowercase_positions0": [
+        0,
+        1
+      ],
+      "source_sequence_with_case": "aaAGUAAUUUUCGGCUCUCAACAAUUGUCGCCGUCACAGAUUGUUGCGAGCCGAAUCUUACU"
+    },
+    "ILS": {
+      "length": 60,
+      "non_native_lowercase_positions0": [
+        0,
+        1
+      ],
+      "source_sequence_with_case": "aaUGCACACCUCCCUCGUCACUCUUGAUUUUUCAAGAGCCUUCGAUCGAGUAGGUGUGCA"
+    },
+    "ILS\u2206b": {
+      "length": 52,
+      "non_native_lowercase_positions0": [
+        0,
+        1
+      ],
+      "source_sequence_with_case": "aaUGCACACCUCUCGUCACUCUUGAUUUUUCAAGAGUGACGAGAGGUGUGCA"
+    },
+    "KSE": {
+      "length": 55,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "AAACCCAAUUGAACAUAUAGUGGAAUUAUUAUUAUCAAUGGGGAAUAUUUAACCC"
+    },
+    "TLS": {
+      "length": 60,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGAUUGUAUUUUUAAAUUAAUUCUUAAAAACUACAAAUUAAGAUCACUCU"
+    },
+    "TLS-2xGCED1": {
+      "length": 60,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGAGGGUAUUUUUAAAUUAAUUCUUAAAAACUACACCUUAAGAUCACUCU"
+    },
+    "TLS-2xGCED1+GCED2": {
+      "length": 60,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGAGGGUAUUUUGAAAUUAAUUCUUCAAAACUACACCUUAAGAUCACUCU"
+    },
+    "TLS-AUED1/ED2": {
+      "length": 60,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGAAUGUAUUUUAAAAUUAAUUCUUUAAAACUACAAUUUAAGAUCACUCU"
+    },
+    "TLS-CGED1/ED2": {
+      "length": 60,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGACUGUAUUUUCAAAUUAAUUCUUGAAAACUACAAGUUAAGAUCACUCU"
+    },
+    "TLS-GCED1/ED2": {
+      "length": 60,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGAGUGUAUUUUGAAAUUAAUUCUUCAAAACUACAACUUAAGAUCACUCU"
+    },
+    "TLS-GCED2": {
+      "length": 60,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGAUUGUAUUUUGAAAUUAAUUCUUCAAAACUACAAAUUAAGAUCACUCU"
+    },
+    "TLS-KSE": {
+      "length": 145,
+      "non_native_lowercase_positions0": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "source_sequence_with_case": "gucaaagcuuacCUUGAUUGUAUUUUUAAAUUAAUUCUUAAAAACUACAAAUUAAGuugcaaacaugcgaauccuaaacucgguucacaacuucCCCAAUUGAACAUAUAGUGGAAUUAUUAUUAUCAAUGGGGAAUAUgcuagc"
+    },
+    "TLS\u2206b": {
+      "length": 58,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UUACACCACUUGAUUGUAUUUUUAAAUUAAUUCUUAAAAAUACAAUUAAGAUCACUCU"
+    },
+    "bcdSLV (EM)": {
+      "length": 57,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "AAAUGUUUCUCUUGGGCGUAAUCUCAUACAAUGAUUACCCUUAAAGAUCGAACAUUU"
+    },
+    "bcdSLV (MST)": {
+      "length": 59,
+      "non_native_lowercase_positions0": [
+        0,
+        1
+      ],
+      "source_sequence_with_case": "aaAAAUGUUUCUCUUGGGCGUAAUCUCAUACAAUGAUUACCCUUAAAGAUCGAACAUUU"
+    },
+    "bcdSLV\u2206b": {
+      "length": 55,
+      "non_native_lowercase_positions0": [
+        0,
+        1
+      ],
+      "source_sequence_with_case": "aaAAAUGUUUCUCUUGGGGUAAUCUCAUACAAUGAUUACCCUAAGAUGAACAUUU"
+    },
+    "hSL1": {
+      "length": 66,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UGCGCGUAGACAUUUCACAUCAUUCGCCGGGAUUGCGCAAAUGUUGCUUUGAAGUGUUGCAAACAU"
+    },
+    "hSL1-hSL2": {
+      "length": 151,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "GCGCAUGCGCGUAGACAUUUCACAUCAUUCGCCGGGAUUGCGCAAAUGUUGCUUUGAAGUGUUGCAAACAUGCGAAUCCUAAACUCGGUUCACAACUUCGUUGGCUUAGUUUCCUGGCUUAUAUCCUGGAAACCCGUCGACGAGGCUAAGG"
+    },
+    "hSL1\u2206b": {
+      "length": 62,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "UGCGCGUAGACAUUUCACAUCAUUCGCCGGGAUUGGCAAAUGUUGUGAAGUGUUGCAAACAU"
+    },
+    "hSL2": {
+      "length": 52,
+      "non_native_lowercase_positions0": [],
+      "source_sequence_with_case": "AACUUCGUUGGCUUAGUUUCCUGGCUUAUAUCCUGGAAACCCGUCGACGAGG"
+    }
+  },
+  "source_supplement_sha256": "7f08267355d75ad4b16647ee7a8d3eb359578481da357389a598acf044b028d0",
+  "source_table_visually_reviewed": true,
+  "status": "PASS_AUTHOR_STEM_SEQUENCE_METADATA_NOT_FULL_INJECTION_ADMISSION",
+  "visual_table_render_sha256": "6bef7372944b7008476b4c57a4fc9cc34035840d7eee18dd912a10106c9a627c"
+}

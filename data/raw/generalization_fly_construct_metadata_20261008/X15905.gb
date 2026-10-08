@@ -1,0 +1,93 @@
+LOCUS       X15905                  1976 bp    mRNA    linear   INV 12-SEP-1993
+DEFINITION  Drosophila melanogaster mRNA for hairy gene.
+ACCESSION   X15905 X16632
+VERSION     X15905.1
+KEYWORDS    hairy gene; segmentation gene; transcriptional regulator.
+SOURCE      Drosophila melanogaster (fruit fly)
+  ORGANISM  Drosophila melanogaster
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Altocrustacea;
+            Allotriocarida; Hexapoda; Insecta; Pterygota; Neoptera; Eumetabola;
+            Endopterygota; Aparaglossata; Panorpida; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 1976)
+  AUTHORS   Rushlow,C.A., Hogan,A., Pinchin,S.M., Howe,K.M., Lardelli,M. and
+            Ish-Horowicz,D.
+  TITLE     The Drosophila hairy protein acts in both segmentation and bristle
+            patterning and shows homology to N-myc
+  JOURNAL   EMBO J. 8 (10), 3095-3103 (1989)
+   PUBMED   2479541
+REFERENCE   2  (bases 1 to 1976)
+  AUTHORS   Ish-Horowicz,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-1989) Ish-Horowicz D., Imperial Cancer Research
+            Fund, ICRF Developmental Biology Unit, Zoology Department, South
+            Parks Road, Oxford OX1 3PS
+COMMENT     For genomic sequence see x15904.
+FEATURES             Location/Qualifiers
+     source          1..1976
+                     /organism="Drosophila melanogaster"
+                     /mol_type="mRNA"
+                     /strain="Ore-R"
+                     /db_xref="taxon:7227"
+                     /map="66D"
+     CDS             147..1160
+                     /note="unnamed protein product; hairy gene product (AA
+                     1-337)"
+                     /codon_start=1
+                     /protein_id="CAA34019.1"
+                     /db_xref="FLYBASE:FBgn0001168"
+                     /db_xref="GOA:P14003"
+                     /db_xref="InterPro:IPR001092"
+                     /db_xref="InterPro:IPR003650"
+                     /db_xref="InterPro:IPR011598"
+                     /db_xref="InterPro:IPR018352"
+                     /db_xref="UniProtKB/Swiss-Prot:P14003"
+                     /translation="MVTGVTAANMTNVLGTAVVPAQLKETPLKSDRRSNKPIMEKRRR
+                     ARINNCLNELKTLILDATKKDPARHSKLEKADILEKTVKHLQELQRQQAAMQQAADPK
+                     IVNKFKAGFADCVNEVSRFPGIEPAQRRRLLQHLSNCINGVKTELHQQQRQQQQQSIH
+                     AQMLPSPPSSPEQDSQQGAAAPYLFGIQQTASGYFLPNGMQVIPTKLPNGSIALVLPQ
+                     SLPQQQQQQLLQHQQQQQQLAVAAAAAAAAAAQQQPMLVSMPQRTASTGSASSHSSAG
+                     YESAPGSSSSCSYAPSSPANSSYEPMDIKPSVIQRVPMEQQPLSLVIKKQIKEEEQPW
+                     RPW"
+     variation       1020
+                     /note="U is C in genomic sequence"
+     variation       1508
+                     /note="G is A in genomic sequence"
+     variation       1581
+                     /note="C is T in genomic sequence"
+ORIGIN      
+        1 aaaaaaaaaa aaaaactgac aacttgagtt attctaaaaa aagcaaaaaa gcagtgaact
+       61 tatattgcaa agagcagcaa attcagattt gctgccaagt gaaaaccaaa ctgtgcctca
+      121 aactcaacaa acaatatctg accgaaatgg ttaccggcgt aacagcagcc aacatgacca
+      181 acgttctggg caccgccgtt gtgccggccc agctcaagga gacgccgctc aaaagtgacc
+      241 gtcggtcgaa caagcccatc atggagaaac gccgacgtgc ccgtattaac aactgtctca
+      301 atgaactcaa gactctgatt ctggatgcca ccaaaaaaga cccggctcgc cactccaaat
+      361 tggaaaaggc cgacattctg gagaagacag taaagcatct gcaggagctg cagcgccagc
+      421 aggcagccat gcagcaggcc gccgatccca agattgtgaa caaattcaag gccggattcg
+      481 ccgactgtgt gaacgaggtt agccgctttc ccggcatcga gcccgcccag cgtcgtcgcc
+      541 tgctacagca cctgagcaac tgcatcaatg gcgttaagac agagctgcac cagcagcagc
+      601 gccagcagca acagcagtcc atccacgccc agatgctgcc ctcgccgccc agctcgccgg
+      661 agcaggatag ccagcaggga gcagcggcac cctacctctt tggtatccag cagacggcca
+      721 gcggttactt tctgcccaat ggcatgcagg tgatccccac caagctgccc aacggtagca
+      781 ttgccctcgt gttgccccag agcctgcccc agcagcagca gcaacagttg ctgcagcacc
+      841 aacagcagca gcagcaactc gccgtcgcag cagcagcagc ggccgcagca gcagcacaac
+      901 agcaacccat gttggttagc atgccccagc gtacagccag caccggatcc gccagctcgc
+      961 actcctccgc cggatacgag tcggcgcccg gaagcagcag cagctgcagc tacgccccgt
+     1021 ccagtccggc caactctagc tacgagccca tggacatcaa gccatcggtc atccagcgcg
+     1081 tgcccatgga acagcagccc ctgtcgctgg tgatcaagaa gcagatcaag gaggaggagc
+     1141 agccctggcg gccctggtag agggtgtctg catatgcata tcatatagca tagccacccc
+     1201 tatcgaatct cccgctttta agactgaccc cccacaactc atccaactca cacacatgcg
+     1261 caggcgttgt gcgcatgcgc gtagacattt cacatcattc gccgggattg cgcaaatgtt
+     1321 gctttgaagt gttgcaaaca tgcgaatcct aaactcggtt cacaacttcg ttggcttagt
+     1381 ttcctggctt atatcctgga aacccgtcga cgaggctaag gaccttcatc agacgcaccc
+     1441 acacacaaac acacacacgc aaacgttgtt ataatttatt tattattata ttatgtaatc
+     1501 gatttgagag aacggtattc taccaggaca tcgccaaact acctcagtcc aagtacttgg
+     1561 tgttgaattg cctcatgtat catgtattac tctttgaata acagcaaatc agcaaaagtc
+     1621 ttccaaacac agaaaatgaa aatgcgaaaa taagcacctg aaaagctgaa atacttttta
+     1681 tgaaaaagat aaacgcaaaa gcataactct tacacatagt cgtacatctc catttaagta
+     1741 taggttttgt accatagcca gctaagccgc ttagggtttc tctcgctctt aagtctaatc
+     1801 aaagaataat tatatttata aaacacacaa atctattcgt aaggccacgt gatatagtga
+     1861 acataatgag cttctaagaa aacaaaacaa gaatttgatg caagcaaaag caaaaaaatc
+     1921 aacaagaaag aaaaaacaaa caaacaacac actaaaaaga aataaattta aaagat
+//
+

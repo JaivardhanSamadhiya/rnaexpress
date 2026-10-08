@@ -1,0 +1,316 @@
+LOCUS       NM_169159               2536 bp    mRNA    linear   INV 26-DEC-2023
+DEFINITION  Drosophila melanogaster bicoid (bcd), transcript variant E, mRNA.
+ACCESSION   NM_169159
+VERSION     NM_169159.4
+DBLINK      BioProject: PRJNA164
+            BioSample: SAMN02803731
+KEYWORDS    RefSeq.
+SOURCE      Drosophila melanogaster (fruit fly)
+  ORGANISM  Drosophila melanogaster
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Altocrustacea;
+            Allotriocarida; Hexapoda; Insecta; Pterygota; Neoptera; Eumetabola;
+            Endopterygota; Aparaglossata; Panorpida; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 2536)
+  AUTHORS   Matthews,B.B., Dos Santos,G., Crosby,M.A., Emmert,D.B., St
+            Pierre,S.E., Gramates,L.S., Zhou,P., Schroeder,A.J., Falls,K.,
+            Strelets,V., Russo,S.M. and Gelbart,W.M.
+  CONSRTM   FlyBase Consortium
+  TITLE     Gene Model Annotations for Drosophila melanogaster: Impact of
+            High-Throughput Data
+  JOURNAL   G3 (Bethesda) 5 (8), 1721-1736 (2015)
+   PUBMED   26109357
+REFERENCE   2  (bases 1 to 2536)
+  AUTHORS   Crosby,M.A., Gramates,L.S., Dos Santos,G., Matthews,B.B., St
+            Pierre,S.E., Zhou,P., Schroeder,A.J., Falls,K., Emmert,D.B.,
+            Russo,S.M. and Gelbart,W.M.
+  CONSRTM   FlyBase Consortium
+  TITLE     Gene Model Annotations for Drosophila melanogaster: The
+            Rule-Benders
+  JOURNAL   G3 (Bethesda) 5 (8), 1737-1749 (2015)
+   PUBMED   26109356
+REFERENCE   3  (bases 1 to 2536)
+  AUTHORS   Hoskins,R.A., Carlson,J.W., Wan,K.H., Park,S., Mendez,I.,
+            Galle,S.E., Booth,B.W., Pfeiffer,B.D., George,R.A., Svirskas,R.,
+            Krzywinski,M., Schein,J., Accardo,M.C., Damia,E., Messina,G.,
+            Mendez-Lago,M., de Pablos,B., Demakova,O.V., Andreyeva,E.N.,
+            Boldyreva,L.V., Marra,M., Carvalho,A.B., Dimitri,P., Villasante,A.,
+            Zhimulev,I.F., Rubin,G.M., Karpen,G.H. and Celniker,S.E.
+  TITLE     The Release 6 reference sequence of the Drosophila melanogaster
+            genome
+  JOURNAL   Genome Res 25 (3), 445-458 (2015)
+   PUBMED   25589440
+REFERENCE   4  (bases 1 to 2536)
+  AUTHORS   Hoskins,R.A., Carlson,J.W., Kennedy,C., Acevedo,D., Evans-Holm,M.,
+            Frise,E., Wan,K.H., Park,S., Mendez-Lago,M., Rossi,F.,
+            Villasante,A., Dimitri,P., Karpen,G.H. and Celniker,S.E.
+  TITLE     Sequence finishing and mapping of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1625-1628 (2007)
+   PUBMED   17569867
+REFERENCE   5  (bases 1 to 2536)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  TITLE     The Release 5.1 annotation of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1586-1591 (2007)
+   PUBMED   17569856
+  REMARK    Erratum:[Science. 2007 Sep 7;317(5843):1325]
+REFERENCE   6  (bases 1 to 2536)
+  AUTHORS   Quesneville,H., Bergman,C.M., Andrieu,O., Autard,D., Nouaud,D.,
+            Ashburner,M. and Anxolabehere,D.
+  TITLE     Combined evidence annotation of transposable elements in genome
+            sequences
+  JOURNAL   PLoS Comput Biol 1 (2), 166-175 (2005)
+   PUBMED   16110336
+REFERENCE   7  (bases 1 to 2536)
+  AUTHORS   Hoskins,R.A., Smith,C.D., Carlson,J.W., Carvalho,A.B., Halpern,A.,
+            Kaminker,J.S., Kennedy,C., Mungall,C.J., Sullivan,B.A.,
+            Sutton,G.G., Yasuhara,J.C., Wakimoto,B.T., Myers,E.W.,
+            Celniker,S.E., Rubin,G.M. and Karpen,G.H.
+  TITLE     Heterochromatic sequences in a Drosophila whole-genome shotgun
+            assembly
+  JOURNAL   Genome Biol 3 (12), RESEARCH0085 (2002)
+   PUBMED   12537574
+REFERENCE   8  (bases 1 to 2536)
+  AUTHORS   Kaminker,J.S., Bergman,C.M., Kronmiller,B., Carlson,J.,
+            Svirskas,R., Patel,S., Frise,E., Wheeler,D.A., Lewis,S.E.,
+            Rubin,G.M., Ashburner,M. and Celniker,S.E.
+  TITLE     The transposable elements of the Drosophila melanogaster
+            euchromatin: a genomics perspective
+  JOURNAL   Genome Biol 3 (12), RESEARCH0084 (2002)
+   PUBMED   12537573
+REFERENCE   9  (bases 1 to 2536)
+  AUTHORS   Misra,S., Crosby,M.A., Mungall,C.J., Matthews,B.B., Campbell,K.S.,
+            Hradecky,P., Huang,Y., Kaminker,J.S., Millburn,G.H., Prochnik,S.E.,
+            Smith,C.D., Tupy,J.L., Whitfied,E.J., Bayraktaroglu,L.,
+            Berman,B.P., Bettencourt,B.R., Celniker,S.E., de Grey,A.D.,
+            Drysdale,R.A., Harris,N.L., Richter,J., Russo,S., Schroeder,A.J.,
+            Shu,S.Q., Stapleton,M., Yamada,C., Ashburner,M., Gelbart,W.M.,
+            Rubin,G.M. and Lewis,S.E.
+  TITLE     Annotation of the Drosophila melanogaster euchromatic genome: a
+            systematic review
+  JOURNAL   Genome Biol 3 (12), RESEARCH0083 (2002)
+   PUBMED   12537572
+REFERENCE   10 (bases 1 to 2536)
+  AUTHORS   Celniker,S.E., Wheeler,D.A., Kronmiller,B., Carlson,J.W.,
+            Halpern,A., Patel,S., Adams,M., Champe,M., Dugan,S.P., Frise,E.,
+            Hodgson,A., George,R.A., Hoskins,R.A., Laverty,T., Muzny,D.M.,
+            Nelson,C.R., Pacleb,J.M., Park,S., Pfeiffer,B.D., Richards,S.,
+            Sodergren,E.J., Svirskas,R., Tabor,P.E., Wan,K., Stapleton,M.,
+            Sutton,G.G., Venter,C., Weinstock,G., Scherer,S.E., Myers,E.W.,
+            Gibbs,R.A. and Rubin,G.M.
+  TITLE     Finishing a whole-genome shotgun: release 3 of the Drosophila
+            melanogaster euchromatic genome sequence
+  JOURNAL   Genome Biol 3 (12), RESEARCH0079 (2002)
+   PUBMED   12537568
+REFERENCE   11 (bases 1 to 2536)
+  AUTHORS   Adams,M.D., Celniker,S.E., Holt,R.A., Evans,C.A., Gocayne,J.D.,
+            Amanatides,P.G., Scherer,S.E., Li,P.W., Hoskins,R.A., Galle,R.F.,
+            George,R.A., Lewis,S.E., Richards,S., Ashburner,M., Henderson,S.N.,
+            Sutton,G.G., Wortman,J.R., Yandell,M.D., Zhang,Q., Chen,L.X.,
+            Brandon,R.C., Rogers,Y.H., Blazej,R.G., Champe,M., Pfeiffer,B.D.,
+            Wan,K.H., Doyle,C., Baxter,E.G., Helt,G., Nelson,C.R., Gabor,G.L.,
+            Abril,J.F., Agbayani,A., An,H.J., Andrews-Pfannkoch,C., Baldwin,D.,
+            Ballew,R.M., Basu,A., Baxendale,J., Bayraktaroglu,L., Beasley,E.M.,
+            Beeson,K.Y., Benos,P.V., Berman,B.P., Bhandari,D., Bolshakov,S.,
+            Borkova,D., Botchan,M.R., Bouck,J., Brokstein,P., Brottier,P.,
+            Burtis,K.C., Busam,D.A., Butler,H., Cadieu,E., Center,A.,
+            Chandra,I., Cherry,J.M., Cawley,S., Dahlke,C., Davenport,L.B.,
+            Davies,P., de Pablos,B., Delcher,A., Deng,Z., Mays,A.D., Dew,I.,
+            Dietz,S.M., Dodson,K., Doup,L.E., Downes,M., Dugan-Rocha,S.,
+            Dunkov,B.C., Dunn,P., Durbin,K.J., Evangelista,C.C., Ferraz,C.,
+            Ferriera,S., Fleischmann,W., Fosler,C., Gabrielian,A.E., Garg,N.S.,
+            Gelbart,W.M., Glasser,K., Glodek,A., Gong,F., Gorrell,J.H., Gu,Z.,
+            Guan,P., Harris,M., Harris,N.L., Harvey,D., Heiman,T.J.,
+            Hernandez,J.R., Houck,J., Hostin,D., Houston,K.A., Howland,T.J.,
+            Wei,M.H., Ibegwam,C., Jalali,M., Kalush,F., Karpen,G.H., Ke,Z.,
+            Kennison,J.A., Ketchum,K.A., Kimmel,B.E., Kodira,C.D., Kraft,C.,
+            Kravitz,S., Kulp,D., Lai,Z., Lasko,P., Lei,Y., Levitsky,A.A.,
+            Li,J., Li,Z., Liang,Y., Lin,X., Liu,X., Mattei,B., McIntosh,T.C.,
+            McLeod,M.P., McPherson,D., Merkulov,G., Milshina,N.V., Mobarry,C.,
+            Morris,J., Moshrefi,A., Mount,S.M., Moy,M., Murphy,B., Murphy,L.,
+            Muzny,D.M., Nelson,D.L., Nelson,D.R., Nelson,K.A., Nixon,K.,
+            Nusskern,D.R., Pacleb,J.M., Palazzolo,M., Pittman,G.S., Pan,S.,
+            Pollard,J., Puri,V., Reese,M.G., Reinert,K., Remington,K.,
+            Saunders,R.D., Scheeler,F., Shen,H., Shue,B.C., Siden-Kiamos,I.,
+            Simpson,M., Skupski,M.P., Smith,T., Spier,E., Spradling,A.C.,
+            Stapleton,M., Strong,R., Sun,E., Svirskas,R., Tector,C., Turner,R.,
+            Venter,E., Wang,A.H., Wang,X., Wang,Z.Y., Wassarman,D.A.,
+            Weinstock,G.M., Weissenbach,J., Williams,S.M., WoodageT,
+            Worley,K.C., Wu,D., Yang,S., Yao,Q.A., Ye,J., Yeh,R.F.,
+            Zaveri,J.S., Zhan,M., Zhang,G., Zhao,Q., Zheng,L., Zheng,X.H.,
+            Zhong,F.N., Zhong,W., Zhou,X., Zhu,S., Zhu,X., Smith,H.O.,
+            Gibbs,R.A., Myers,E.W., Rubin,G.M. and Venter,J.C.
+  TITLE     The genome sequence of Drosophila melanogaster
+  JOURNAL   Science 287 (5461), 2185-2195 (2000)
+   PUBMED   10731132
+REFERENCE   12 (bases 1 to 2536)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Pfeiffer,B., Frise,E., George,R.,
+            Hoskins,R., Stapleton,M., Pacleb,J., Park,S., Svirskas,R.,
+            Smith,E., Yu,C. and Rubin,G.
+  CONSRTM   Berkeley Drosophila Genome Project
+  TITLE     Drosophila melanogaster release 4 sequence
+  JOURNAL   Unpublished
+REFERENCE   13 (bases 1 to 2536)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-DEC-2023) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   14 (bases 1 to 2536)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-DEC-2023) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   15 (bases 1 to 2536)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2022) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   16 (bases 1 to 2536)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-2020) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   17 (bases 1 to 2536)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-2019) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   18 (bases 1 to 2536)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAY-2018) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   19 (bases 1 to 2536)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2016) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   20 (bases 1 to 2536)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2015) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   21 (bases 1 to 2536)
+  AUTHORS   Celniker,S., Carlson,J., Kennedy,C., Wan,K., Frise,E., Hoskins,R.,
+            Park,S., Svirskas,R. and Karpen,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One #Cyclotron RoadOne
+            Cyclotron Road, MS 64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   22 (bases 1 to 2536)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Frise,E., Hoskins,R., Park,S.,
+            Svirskas,R. and Rubin,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One Cyclotron Road, MS
+            64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   23 (bases 1 to 2536)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  CONSRTM   Drosophila Heterochromatin Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2006) Drosophila Heterochromatin Genome Project,
+            Ernest Orlando Lawrence Berkeley National Laboratory, 1 Cyclotron
+            Road, Mailstop 64-121, Berkeley, CA 94720, USA
+REFERENCE   24 (bases 1 to 2536)
+  AUTHORS   Adams,M.D., Celniker,S.E., Gibbs,R.A., Rubin,G.M. and Venter,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAR-2000) Celera Genomics, 45 West Gude Drive,
+            Rockville, MD 20850, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by FlyBase. This
+            record is derived from an annotated genomic sequence (NT_033777).
+            
+            On Jul 15, 2014 this sequence version replaced NM_169159.3.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: FlyBase
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Release 6.54
+            URL                 :: http://flybase.org
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2536
+                     /organism="Drosophila melanogaster"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:7227"
+                     /chromosome="3R"
+                     /genotype="y[1]; Gr22b[1] Gr22d[1] cn[1] CG33964[R4.2]
+                     bw[1] sp[1]; LysC[1] MstProx[1] GstD5[1] Rh6[1]"
+     gene            1..2536
+                     /gene="bcd"
+                     /locus_tag="Dmel_CG1034"
+                     /gene_synonym="Bcd; BCD; BG:DS00276.7; bic; Bicoid;
+                     CG1034; Dm-Bcd; Dmel\CG1034; mum; prd4"
+                     /note="bicoid"
+                     /map="84A5-84A5"
+                     /db_xref="FLYBASE:FBgn0000166"
+                     /db_xref="GeneID:40830"
+     CDS             446..1702
+                     /gene="bcd"
+                     /locus_tag="Dmel_CG1034"
+                     /gene_synonym="Bcd; BCD; BG:DS00276.7; bic; Bicoid;
+                     CG1034; Dm-Bcd; Dmel\CG1034; mum; prd4"
+                     /note="CG1034 gene product from transcript CG1034-RE;
+                     CG1034-PE; bcd-PE; PRD gene 4; multimorph; bicoid"
+                     /codon_start=1
+                     /product="bicoid, isoform E"
+                     /protein_id="NP_731113.2"
+                     /db_xref="FLYBASE:FBpp0081166"
+                     /db_xref="GeneID:40830"
+                     /db_xref="FLYBASE:FBgn0000166"
+                     /translation="MPKPDVFPSEELPDSLVMRRPRRTRTTFTSSQIAELEQHFLQGR
+                     YLTAPRLADLSAKLALGTAQVKIWFKNRRRRHKIQSDQHKDQSYEGMPLSPGMKQSDG
+                     DPPSLQTLSLGGGATPNALTPSPTPSTPTAHMTEHYSESFNAYYNYNGGHNHAQANRH
+                     MHMQYPSGGGPGPGSTNVNGGQFFQQQQVHNHQQQLHHQGNHVPHQMQQQQQQAQQQQ
+                     YHHFDFQQKQASACRVLVKDEPEADYNFNSSYYMRSGMSGATASASAVARGAASPGSE
+                     VYEPLTPKNDESPSLCGIGIGGPCAIAVGETEAADDMDDGTSKKTTLQILEPLKGLDK
+                     SCDDGSSDDMSTGIRALAGTGNRGAAFAKFGKPSPPQGPQPPLGMGGVAMGESNQYQC
+                     TMDTIMQAYNPHRNAAGNSQFAYCFN"
+ORIGIN      
+        1 catccctaaa taacggcact ctgcagatgc gaagcagtgg atcgcaaaaa cgcaaaatgt
+       61 gggcgaaata agttcgcgag cgtctcgaaa gtaaccggtt actgaaaata caagaaagtt
+      121 tccacactcc tttgccattt ttccgcgcgg cgcttggaaa ttcgtaaaga taacgcggcg
+      181 gagtgtttgg ggaaaatggc gcaaccgccg ccagatcaaa acttttacca tcatccgctg
+      241 ccccacacgc acacacatcc gcatccgcac tcccatccgc atccgcactc gcatccgcac
+      301 ccacatcacc aacatccgca gcttcagttg ccgccacaat tccgaaatcc cttcgatttg
+      361 tgtacccctt gattctttga agcttttcga tgagcgaacg ggagcgataa actacaacta
+      421 catacgtccg tatctgccca accagatgcc caagccagat gtctttccct cagaggagct
+      481 gcccgactct ctggtgatgc ggcgaccacg tcgcacccgc accactttta ccagctctca
+      541 aatagcagag ctggagcagc actttctgca gggacgatac ctcacagccc cccgacttgc
+      601 ggatctgtca gcgaaactag ccctgggcac agcccaggtg aagatatggt ttaagaaccg
+      661 tcggcgtcgt cacaagatcc aatcggatca gcacaaggac cagtcctacg aggggatgcc
+      721 tctctcgccg ggtatgaaac agagcgatgg cgatcccccc agcttgcaga ctcttagctt
+      781 gggtggagga gccacgccca acgctttgac tccgtcaccc acgccctcaa cgcccactgc
+      841 acacatgacg gagcactaca gcgagtcatt caacgcctac tacaactaca atggaggcca
+      901 caatcacgcc caggccaatc gtcacatgca catgcagtat ccttccggag gggggccagg
+      961 acctgggtcg accaatgtca atggcggcca gttcttccag cagcagcagg tccataatca
+     1021 ccagcagcaa ctgcaccacc agggcaacca cgtgccgcac cagatgcagc agcagcaaca
+     1081 gcaggctcag cagcagcaat accatcactt tgacttccag caaaagcaag ccagcgcctg
+     1141 tcgcgtcctg gtcaaggacg aaccggaggc cgactacaac ttcaacagct cgtactacat
+     1201 gcgatcggga atgtctggcg ccactgcatc ggcatccgct gtggcccgag gcgctgcctc
+     1261 gccgggctcc gaggtctacg agccattaac acccaagaat gacgaaagtc cgagtctgtg
+     1321 tggcatcggc atcggcggac cttgcgccat cgccgttggc gagacggagg cggccgacga
+     1381 catggacgac ggaacgagca agaagacgac gctacagatc ttggagcctt tgaagggtct
+     1441 ggacaagagc tgcgacgatg gcagtagcga cgacatgagc accggaataa gagccttagc
+     1501 aggaaccgga aatcgtggag cggcatttgc caaatttggc aagccttcgc ccccacaagg
+     1561 ccctcagccg cccctcggaa tggggggcgt ggccatgggc gaatcgaacc aatatcaatg
+     1621 cacgatggat acgataatgc aagcgtataa tccccatcgg aacgccgcgg gcaactcgca
+     1681 gtttgcctac tgcttcaatt agcctggatg agaggcgtgt tagagagttt cattagcttt
+     1741 aggttaacca ctgttgttcc tgattgtaca aataccaagt gattgtagat atctacgcgt
+     1801 agaaagttag gtctagtcct aagatccgtg taaatggttc ccagggaagt tttatgtact
+     1861 agcctagtca gcaggccgca cggattccag tgcatatctt agtgatactc cagttaactc
+     1921 tatactttcc ctgcaatacg ctattcgcct tagatgtatc tgggtggctg ctccactaaa
+     1981 gcccgggaat atgcaaccag ttacatttga ggccatttgg gcttaagcgt attccatgga
+     2041 aagttatcgt cccacatttc ggaaattata ttccgagcca gcaagaaaat cttctctgtt
+     2101 acaatttgac atagctaaaa actgtactaa tcaaaatgaa aaatgtttct cttgggcgta
+     2161 atctcataca atgattaccc ttaaagatcg aacatttaaa caataatatt tgatatgata
+     2221 ttttcaattt ctatgctatg ccaaagtgtc tgacataatc aaacatttgc gcattctttg
+     2281 accaagaata gtcagcaaat tgtattttca atcaatgcag accatttgtt tcagattcgg
+     2341 agattttttg ctgccaaacg gaataactat catagctcac attctattta catcactaag
+     2401 aagagcattg caatctgtta ggcctcaagt ttaattttaa aatgctgcac ctttgatgtt
+     2461 gtctctttaa gctttgtatt tttaattacg aaaatatata agaactactc tactcgggta
+     2521 aattgtgact aactac
+//
+

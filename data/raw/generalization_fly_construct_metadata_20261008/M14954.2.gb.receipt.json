@@ -1,0 +1,19 @@
+{
+  "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+  "bytes": 12546,
+  "content_type": "text/plain",
+  "failure": null,
+  "filename": "M14954.2.gb",
+  "http_status": 200,
+  "kind": "genbank",
+  "request_retried": false,
+  "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=M14954.2&rettype=gb&retmode=text",
+  "response_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=M14954.2&rettype=gb&retmode=text",
+  "sha256": "35bc414c937a474de88046b27849ebdb42d4be104983dc1a9a444c0dab727a55",
+  "source_headers": {
+    "Content-Length": null,
+    "Content-Type": "text/plain",
+    "ETag": null,
+    "Last-Modified": null
+  }
+}

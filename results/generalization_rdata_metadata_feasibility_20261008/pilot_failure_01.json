@@ -1,0 +1,9 @@
+{
+  "author_archives_parsed": false,
+  "correction": "Preserve original pilot, use separate v2 pilot requiring the actual documented integer-valued fixture and identical values [1,2,3]",
+  "dataframe_class_factor_values_passed": true,
+  "failure": "Expected data.frame value fixture type REAL; official fixture uses INT",
+  "scientific_counts_analyzed": false,
+  "status": "TINY_FIXTURE_TYPE_EXPECTATION_FAILED_BEFORE_AUTHOR_PARSING",
+  "test_vector_known_values_passed": true
+}

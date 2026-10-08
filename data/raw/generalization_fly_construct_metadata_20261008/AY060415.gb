@@ -1,0 +1,122 @@
+LOCUS       AY060415                3068 bp    mRNA    linear   INV 05-NOV-2001
+DEFINITION  Drosophila melanogaster LD37240 full length cDNA.
+ACCESSION   AY060415
+VERSION     AY060415.1
+KEYWORDS    FLI_CDNA.
+SOURCE      Drosophila melanogaster (fruit fly)
+  ORGANISM  Drosophila melanogaster
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Altocrustacea;
+            Allotriocarida; Hexapoda; Insecta; Pterygota; Neoptera; Eumetabola;
+            Endopterygota; Aparaglossata; Panorpida; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (bases 1 to 3068)
+  AUTHORS   Stapleton,M., Brokstein,P., Hong,L., Agbayani,A., Carlson,J.,
+            Champe,M., Chavez,C., Dorsett,V., Farfan,D., Frise,E., George,R.,
+            Gonzalez,M., Guarin,H., Li,P., Liao,G., Miranda,A., Mungall,C.J.,
+            Nunoo,J., Pacleb,J., Paragas,V., Park,S., Phouanenavong,S., Wan,K.,
+            Yu,C., Lewis,S.E., Rubin,G.M. and Celniker,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-2001) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One Cyclotron Road,
+            Berkeley, CA 94720, USA
+COMMENT     Sequence submitted by:
+            Berkeley Drosophila Genome Project
+            Lawrence Berkeley National Laboratory
+            Berkeley, CA 94720
+            This clone was sequenced as part of a high-throughput process to
+            sequence clones from Drosophila Gene Collection 1 (Rubin et al.,
+            Science 2000). The sequence has been subjected to integrity checks
+            for sequence accuracy, presence of a polyA tail and contiguity
+            within 100 kb in the genome. Thus we believe the sequence to
+            reflect accurately this particular cDNA clone.  However, there are
+            artifacts associated with the generation of cDNA clones that may
+            have not been detected in our initial analyses such as internal
+            priming, priming from contaminating genomic DNA, retained introns
+            due to reverse transcription of unspliced precursor RNAs, and
+            reverse transcriptase errors that result in single base changes.
+            For further information about this sequence, including its location
+            and relationship to other sequences, please visit our Web site
+            (http://fruitfly.berkeley.edu) or send email to
+            cdna@fruitfly.berkeley.edu.
+FEATURES             Location/Qualifiers
+     source          1..3068
+                     /organism="Drosophila melanogaster"
+                     /mol_type="mRNA"
+                     /strain="y; cn bw sp"
+                     /db_xref="taxon:7227"
+                     /map="2F1-2F1"
+     gene            1..3068
+                     /gene="fs(1)K10"
+                     /note="alignment with genomic scaffold AE003423"
+                     /db_xref="FLYBASE:FBgn0000810"
+     CDS             153..1544
+                     /gene="fs(1)K10"
+                     /note="Longest ORF"
+                     /codon_start=1
+                     /product="LD37240p"
+                     /protein_id="AAL25454.1"
+                     /db_xref="FLYBASE:FBgn0000810"
+                     /translation="MVSKNQFYQNWTMQSQQQHPHQMQQQFQQQQQPNLQHRNNQSNN
+                     NNCNNNPRAAAAPYRKPFRSGKINSGPGGNGNGNRVNGNNQMMFSSSQMPSDPLYIDF
+                     SSPPPGFKHNQVGSPKKKSMKGIKQQQHPSPNQQQPPSPNQQQHPSPNQQQHPSPNQQ
+                     QHPNSNQQQHLSPNQQQGKMNNQNNNHMNQSQQPFNNQMNGSDWQRHPGNNPNQIRGG
+                     FNGFQRGPPPNRPPPRLMMGPPMGPMGPGPRGPGPMGPGGPYPQMPFPPPVPGMRGPG
+                     PMGPMGGPPPPPPPLFMRRNGPGPGPMMGVPPPMHMMGPRMPPRGIPPVGPYGPMNMN
+                     GGRIMKPNPKLIKQVVKGKSSIKTLKNLINQYPIEKPWVTDEIRSEHDKKVDIENRLK
+                     GHKDDELFAQYKGQRDKFVSLYEAAREEYLKQEAATVKAKDAKSDKDKNAISSQSAAP
+                     KAGSAKDATIPNP"
+ORIGIN      
+        1 gcaatcgatt catcgtaata ttttcaatat aagtttttgt gacaaatagg cgtgcaacat
+       61 tttagatcca tctgctcccc gcctgtcgtt tcggcttggc tcctctgctc gagtcctgaa
+      121 cccccgtttt cagtgaaatc cagctacctg caatggtgtc caagaaccaa ttctatcaga
+      181 actggaccat gcagtcgcag cagcagcacc cgcaccaaat gcagcaacag tttcagcaac
+      241 agcagcagcc aaatctgcag caccgcaaca accagagcaa caataataat tgcaacaata
+      301 atccccgcgc agctgcggct ccgtatagaa aaccgtttcg ttcgggcaaa attaactccg
+      361 gaccaggagg aaatgggaat ggtaacaggg tcaacggtaa caatcagatg atgttttcct
+      421 ccagccaaat gccgagcgat cccctgtaca ttgacttcag cagcccgcca ccaggattca
+      481 aacacaatca ggtaggcagt cccaagaaga agtctatgaa gggcatcaaa cagcagcagc
+      541 atcccagtcc gaaccagcag cagcctccca gtccgaacca gcagcagcat cccagtccga
+      601 accagcagca gcatcccagt ccgaaccagc agcagcatcc caattcgaac cagcagcagc
+      661 atctcagtcc gaaccagcag cagggcaaga tgaacaacca gaacaacaat catatgaacc
+      721 agtcgcagca gcccttcaac aatcagatga acggaagcga ttggcagcgc catccgggca
+      781 acaatcccaa tcagattcgc ggtggcttta atggattcca acgcgggccg cctccgaacc
+      841 gtcctcctcc acgcctcatg atgggtccgc caatgggtcc gatgggcccc ggaccacggg
+      901 gacccggacc gatgggccct ggaggacctt acccgcaaat gcctttcccg ccaccggtgc
+      961 ctggtatgcg cggtcccgga cccatgggcc ccatgggtgg accaccaccg ccgccgccac
+     1021 cgctctttat gcgtcgcaac ggacccggtc caggtcctat gatgggtgtc ccaccgccca
+     1081 tgcacatgat gggtccacgg atgccgccgc ggggaattcc accggtcgga ccttatggac
+     1141 caatgaacat gaatggcggc cggataatga agcccaatcc caagctaatc aagcaggtgg
+     1201 tgaaaggcaa gagcagcata aagacactaa agaacctgat caatcagtat cccatcgaaa
+     1261 agccctgggt aacggacgag atacgcagcg agcacgacaa gaaggtggac atcgagaaca
+     1321 gattgaaggg ccacaaagac gacgagctct tcgctcagta caagggccag cgggacaagt
+     1381 tcgttagtct ctacgaagcg gcgcgggaag agtatctcaa gcaggaggca gccactgtca
+     1441 aggccaagga tgccaagtca gacaaagaca aaaacgcaat ttcaagtcag agcgcagccc
+     1501 ctaaggccgg aagcgctaaa gatgcaacaa ttccaaatcc ctaggcagcc aatgcaaccg
+     1561 aatccgaata ccgaatcaat cgaatcgaac cgactaaaga agaggtcggt cgactcacag
+     1621 aactaaatgt aaacttaaac tttaaaccaa tgagcaattc aaaactaaaa ctaacagcga
+     1681 gcaacagcaa gagtctgaca attgaagacg aatataactc aaaaccccga ctcctatatc
+     1741 ggatatacgt atacacaatc gtaatccgag gaggcgccgc ctttgtcaca cgttgctttt
+     1801 gcgactgaga actgagctta gaacgataat gtagcaacaa atacaaaccc agcgataata
+     1861 atgtgggcga aactctagta atagcgataa aaatttagat tgcgaatcga ttcacttgtc
+     1921 taacgtaacc tagcgtaacg taaagtagag tattgaaatg taaccgtaac gtaacgtaac
+     1981 gtaccagttt cctattcgaa aactatttgt tgttcaattc taagttgcag ccatttcaag
+     2041 tatgtgtaca caatttatga cacgccctta cctatatatg tatgcatata tattgatata
+     2101 tatatatata taaattattt tcctattcgt tgcccgagtg cgtgggcgcg acataattga
+     2161 aacagagtgg ccggatccta agcactctgg cataaatcac actgtaggcc ttagattaca
+     2221 ccacttgatt gtatttttaa attaattctt aaaaactaca aattaagatc actctgtgaa
+     2281 cgtgtgctcg atggtgtgca tctacggatt tgtttttgtg ttctttttcc ccacccaacc
+     2341 ccgtccctga cccaattccg ctgttctctt taccgacttg tagattaatc acgctcttga
+     2401 tcttcatgac cggatccacc tgacaagtaa cgccaaagca gccccactta gcggaatagt
+     2461 agagcctagg ggacccaacg taaaaactct agtatagcac caatctccca accagttaac
+     2521 attataccta aacccatggt caagagtaaa catttctgcc tttgaagttg agaacacaat
+     2581 taagcatccc ctggttaaac ctgacattca tacttgttaa tagcgccata aacatagcac
+     2641 caatttcgaa gaaatcagtt aaaagcaatt agcaattagc aattagcaat aactctgctg
+     2701 acttcaaaac gagaagagtt acaagtattt gtaaggcaca gtttatagac caccgacggc
+     2761 tcgttagggc tcgtcatgta actaagcgcg gtgaaaccca attgaacata tagtggaatt
+     2821 attattatca atggggaata tttaaccctc aggtagcaaa gtaatttaat tgcaaataga
+     2881 gagtcctaag actaaataat atatttaaaa atctggccct ttgaccttgc ttgtcaggtg
+     2941 catttgggtt caatcgtaag ttgcttctat ataaacactt tccccatccc cgcaataatg
+     3001 aagaataccg cagaataaag agagatttgc aacaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     3061 aaaaaaaa
+//
+

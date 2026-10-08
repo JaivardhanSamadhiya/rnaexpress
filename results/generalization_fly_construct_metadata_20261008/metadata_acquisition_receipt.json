@@ -1,0 +1,160 @@
+{
+  "acquired_bytes": 32980327,
+  "localization_models_fit": 0,
+  "metadata_manifest_sha256": "dd081e45f3dbdf095e4b30f14756374ddbc5aaa02b5a8d19a0e8774082b8f3e9",
+  "no_credentials_or_fee": true,
+  "numeric_source_workbooks_downloaded": false,
+  "protected_project_sources_read": false,
+  "publication_qualitative_results_already_exposed": true,
+  "records": [
+    {
+      "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+      "bytes": 32845488,
+      "content_type": "application/pdf",
+      "failure": null,
+      "filename": "supplement_information.pdf",
+      "http_status": 200,
+      "kind": "pdf",
+      "receipt_path": "data/raw/generalization_fly_construct_metadata_20261008/supplement_information.pdf.receipt.json",
+      "receipt_sha256": "cb278220a14d6e19eec6dd468bd7752ecb3494e6be610146522026e3f8ba9a24",
+      "request_retried": false,
+      "requested_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-026-01794-8/MediaObjects/41594_2026_1794_MOESM1_ESM.pdf",
+      "response_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-026-01794-8/MediaObjects/41594_2026_1794_MOESM1_ESM.pdf",
+      "sha256": "7f08267355d75ad4b16647ee7a8d3eb359578481da357389a598acf044b028d0",
+      "source_headers": {
+        "Content-Length": "32845488",
+        "Content-Type": "application/pdf",
+        "ETag": "\"88c009a357537c1b4ceb41af67ba369c\"",
+        "Last-Modified": "Fri, 01 May 2026 15:11:20 GMT"
+      }
+    },
+    {
+      "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+      "bytes": 74173,
+      "content_type": "application/pdf",
+      "failure": null,
+      "filename": "reporting_summary.pdf",
+      "http_status": 200,
+      "kind": "pdf",
+      "receipt_path": "data/raw/generalization_fly_construct_metadata_20261008/reporting_summary.pdf.receipt.json",
+      "receipt_sha256": "adcd7dbcb49a9da94b4760034a5b3dfb8bf9a34018ff70c812f85a44e21dcd6f",
+      "request_retried": false,
+      "requested_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-026-01794-8/MediaObjects/41594_2026_1794_MOESM2_ESM.pdf",
+      "response_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-026-01794-8/MediaObjects/41594_2026_1794_MOESM2_ESM.pdf",
+      "sha256": "1e2979dcc1b17d1270522fe001849bd2e2a3c8894e995215a8f96b3c6bd7a7fa",
+      "source_headers": {
+        "Content-Length": "74173",
+        "Content-Type": "application/pdf",
+        "ETag": "\"43c45f60112e099b105e8691f144d9bf\"",
+        "Last-Modified": "Wed, 29 Apr 2026 16:22:30 GMT"
+      }
+    },
+    {
+      "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+      "bytes": 7812,
+      "content_type": "text/plain",
+      "failure": null,
+      "filename": "AY060415.gb",
+      "http_status": 200,
+      "kind": "genbank",
+      "receipt_path": "data/raw/generalization_fly_construct_metadata_20261008/AY060415.gb.receipt.json",
+      "receipt_sha256": "f6718ab036cf0de55c8e0295d2fd51da58f067b31c15537608612fb89551949c",
+      "request_retried": false,
+      "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY060415&rettype=gb&retmode=text",
+      "response_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY060415&rettype=gb&retmode=text",
+      "sha256": "1846a0ff1301d03e8872756f297bff4010ba09ccec1e2d13b2994e45d212aa19",
+      "source_headers": {
+        "Content-Length": null,
+        "Content-Type": "text/plain",
+        "ETag": null,
+        "Last-Modified": null
+      }
+    },
+    {
+      "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+      "bytes": 5429,
+      "content_type": "text/plain",
+      "failure": null,
+      "filename": "X15905.gb",
+      "http_status": 200,
+      "kind": "genbank",
+      "receipt_path": "data/raw/generalization_fly_construct_metadata_20261008/X15905.gb.receipt.json",
+      "receipt_sha256": "56774262907b815683b5170ef0a1454c556eb217c60c4c4aaaa75383dfb44b1f",
+      "request_retried": false,
+      "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=X15905&rettype=gb&retmode=text",
+      "response_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=X15905&rettype=gb&retmode=text",
+      "sha256": "6ec9f873b795ea30d7cca067e0415c8d8b18712530a38cd59da058860f79b450",
+      "source_headers": {
+        "Content-Length": null,
+        "Content-Type": "text/plain",
+        "ETag": null,
+        "Last-Modified": null
+      }
+    },
+    {
+      "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+      "bytes": 12546,
+      "content_type": "text/plain",
+      "failure": null,
+      "filename": "M14954.2.gb",
+      "http_status": 200,
+      "kind": "genbank",
+      "receipt_path": "data/raw/generalization_fly_construct_metadata_20261008/M14954.2.gb.receipt.json",
+      "receipt_sha256": "7da6c4fdc428081b3833a9980ee5596a07cde8353cf49fee08998dd59a794ee8",
+      "request_retried": false,
+      "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=M14954.2&rettype=gb&retmode=text",
+      "response_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=M14954.2&rettype=gb&retmode=text",
+      "sha256": "35bc414c937a474de88046b27849ebdb42d4be104983dc1a9a444c0dab727a55",
+      "source_headers": {
+        "Content-Length": null,
+        "Content-Type": "text/plain",
+        "ETag": null,
+        "Last-Modified": null
+      }
+    },
+    {
+      "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+      "bytes": 17964,
+      "content_type": "text/plain",
+      "failure": null,
+      "filename": "NM_169159.4.gb",
+      "http_status": 200,
+      "kind": "genbank",
+      "receipt_path": "data/raw/generalization_fly_construct_metadata_20261008/NM_169159.4.gb.receipt.json",
+      "receipt_sha256": "b9d3237a34739b144081ee86c4f486ca1329148272e38bd900aa868e69b4a6d8",
+      "request_retried": false,
+      "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_169159.4&rettype=gb&retmode=text",
+      "response_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_169159.4&rettype=gb&retmode=text",
+      "sha256": "cc70820aac99f8a575bd75754d5bcab437f94f02b48f6eb839a6439e66474aec",
+      "source_headers": {
+        "Content-Length": null,
+        "Content-Type": "text/plain",
+        "ETag": null,
+        "Last-Modified": null
+      }
+    },
+    {
+      "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+      "bytes": 16915,
+      "content_type": "text/plain",
+      "failure": null,
+      "filename": "NM_057220.3.gb",
+      "http_status": 200,
+      "kind": "genbank",
+      "receipt_path": "data/raw/generalization_fly_construct_metadata_20261008/NM_057220.3.gb.receipt.json",
+      "receipt_sha256": "db7e874eb3c33b979f741fc4077cfe8be97014418bfd87bef708361c234285e8",
+      "request_retried": false,
+      "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_057220.3&rettype=gb&retmode=text",
+      "response_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_057220.3&rettype=gb&retmode=text",
+      "sha256": "bda96100294b837017455fe33f3f0f77e137d8b62eb8aa035a8cd484a86f68e3",
+      "source_headers": {
+        "Content-Length": null,
+        "Content-Type": "text/plain",
+        "ETag": null,
+        "Last-Modified": null
+      }
+    }
+  ],
+  "requests": 7,
+  "status": "COMPLETED_FIXED_CONSTRUCT_METADATA_REQUESTS"
+}

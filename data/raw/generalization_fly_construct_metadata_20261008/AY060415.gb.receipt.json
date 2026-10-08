@@ -1,0 +1,19 @@
+{
+  "admission": "PUBLIC_CONSTRUCT_METADATA_BYTES",
+  "bytes": 7812,
+  "content_type": "text/plain",
+  "failure": null,
+  "filename": "AY060415.gb",
+  "http_status": 200,
+  "kind": "genbank",
+  "request_retried": false,
+  "requested_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY060415&rettype=gb&retmode=text",
+  "response_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY060415&rettype=gb&retmode=text",
+  "sha256": "1846a0ff1301d03e8872756f297bff4010ba09ccec1e2d13b2994e45d212aa19",
+  "source_headers": {
+    "Content-Length": null,
+    "Content-Type": "text/plain",
+    "ETag": null,
+    "Last-Modified": null
+  }
+}
