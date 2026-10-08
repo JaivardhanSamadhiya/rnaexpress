@@ -1,0 +1,3 @@
+# Metadata preparation guard correction before admission
+
+The first metadata-only preparation attempt stopped before creating a row index, request manifest or preparation receipt. The new, not-yet-frozen guard expected the precision receipt status `PASS`; the unchanged committed feasibility precision receipt uses the more specific `PASS_FIXED_ABSOLUTE_PRECISION`. The new guard now requires that exact existing status and additionally rehashes its file map. No native backend, features, outcomes or models were imported/read, and no extraction or fitting occurred. No old feasibility source, receipt or result was edited. This is a schema-integration correction before the new production freeze, not a tolerance or method change.

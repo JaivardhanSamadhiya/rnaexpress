@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_INVENTED_TEST_FIXTURE_LAYOUT_PRESERVED",
+  "test_count": 18,
+  "failed_test": "test_success_and_oversize_mock_responses_are_immutable",
+  "cause": "An inserted test split the earlier orphan-cache fixture; its deliberate changed-receipt assertion was accidentally inside the successful immutable-cache test and correctly triggered preservation rejection.",
+  "correction_scope": "Move the orphan-fixture assertions back into their original test; no production rule or tolerance change.",
+  "actual_remote_requests": 0,
+  "project_outcomes_read": false,
+  "models_fit": 0
+}

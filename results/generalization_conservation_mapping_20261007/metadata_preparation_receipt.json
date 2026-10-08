@@ -1,0 +1,62 @@
+{
+  "canonical_identity_fields_only": [
+    "intervention_id",
+    "gene_transcript",
+    "parent_id",
+    "mutant_id"
+  ],
+  "conservation_values_read": false,
+  "eligible_region_bases": 11275607,
+  "features_loaded": false,
+  "files": {
+    "artifacts/generalization_next_20261007/sequence_inventory.csv.gz": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+    "data/external/RNAloc_MPRA/Datasets/mouse_3utrs.txt": "d10fbab46fee335121728cf2234fe53325d4478397445d9b5801ff146337b4c8",
+    "data/external/RNAloc_MPRA/LibraryDesign.ipynb": "1434be13ae30d94619b06c9df19a75c0a2d111c85d9f59b39f5f262ee8de3720",
+    "data/frozen/astrocyte_external_features.csv.gz": "43d4e7dd2d96f603afd4a4e2af51a784923a5eb5f53e99dc8b3e14bbf3071827",
+    "data/raw/mikl_gse173098/supplementary/files/SupplementaryData_NAR_Final/SupplementaryTables/TableS2.csv": "c3b3257976af7cd2253aa5503a8a53f374e5730fe012f2320f449eee06d67ee3",
+    "results/generalization_next_20261007/prefit_manifest.json": "93b78aa2f49998a77c2a61ceddb4c4da78e4236e4a81f54608abf0b2d9508e36",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+    "results/v4_phaseA/mikl_interventions.csv.gz": "daf5c035afb16e9dbbf90714c595c0e733f4eec70f2191d475b78c20e9f29bcc"
+  },
+  "full_author_transcript_candidates_recomputed_exactly": true,
+  "full_parent_context_menus": 5436,
+  "models_fit": 0,
+  "new_remote_requests": 0,
+  "new_requests_planned": 350,
+  "original_parents": 3022,
+  "original_rows": 26258,
+  "outcomes_read": false,
+  "parent_status_by_dataset": {
+    "astrocyte_gse330741": {
+      "multiple_source_transcript_occurrences": 1,
+      "no_exact_source_utr": 2,
+      "one_source_transcript_occurrence": 4
+    },
+    "mikl_gse173098": {
+      "multiple_source_transcript_occurrences": 935,
+      "one_source_transcript_occurrence": 1482
+    },
+    "moffatt_gse334718": {
+      "no_exact_source_utr": 6
+    },
+    "srle": {
+      "synthetic_no_native_coordinates": 592
+    }
+  },
+  "pilot_responses_reused": 8,
+  "region_status_counts": {
+    "eligible": 179,
+    "fixed_region_cap_or_invalid_interval": 10,
+    "unsupported_fixed_author_chromosome": 3
+  },
+  "regions": 192,
+  "sequence_fields_only": [
+    "intervention_id",
+    "dataset",
+    "biological_component",
+    "parent_context_id",
+    "parent_sequence",
+    "mutant_sequence"
+  ],
+  "status": "PASS_COMPLETE_METADATA_ONLY_PREPARATION"
+}

@@ -1,0 +1,2703 @@
+[
+  {
+    "key": [
+      "chr1",
+      19208913,
+      19238576
+    ],
+    "planned_status": "eligible",
+    "region_bases": 29663,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=19208913;end=19238576;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=19208913;end=19238576"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      21398402,
+      21961942
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 563540,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr1",
+      39367841,
+      39371911
+    ],
+    "planned_status": "eligible",
+    "region_bases": 4070,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=39367841;end=39371911;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=39367841;end=39371911"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      45311537,
+      45349706
+    ],
+    "planned_status": "eligible",
+    "region_bases": 38169,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=45311537;end=45349706;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=45311537;end=45349706"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      54472993,
+      54557684
+    ],
+    "planned_status": "eligible",
+    "region_bases": 84691,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=54472993;end=54557684;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=54472993;end=54557684"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      58113129,
+      58200698
+    ],
+    "planned_status": "eligible",
+    "region_bases": 87569,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=58113129;end=58200698;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=58113129;end=58200698"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      59256905,
+      59352993
+    ],
+    "planned_status": "eligible",
+    "region_bases": 96088,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=59256905;end=59352993;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=59256905;end=59352993"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      66175272,
+      66442583
+    ],
+    "planned_status": "eligible",
+    "region_bases": 267311,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=66175272;end=66442583;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=66175272;end=66442583"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      79794196,
+      79861180
+    ],
+    "planned_status": "eligible",
+    "region_bases": 66984,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=79794196;end=79861180;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=79794196;end=79861180"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      84992689,
+      85270566
+    ],
+    "planned_status": "eligible",
+    "region_bases": 277877,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=84992689;end=85270566;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=84992689;end=85270566"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      86045862,
+      86055456
+    ],
+    "planned_status": "eligible",
+    "region_bases": 9594,
+    "reuse": {
+      "knownGene": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_knownGene.json.receipt.json",
+        "receipt_sha256": "4deab85d3403eb06aafebcf2833b1bc5ec870340b182e7435d8c860aeeb5db46",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_knownGene.json",
+        "response_sha256": "7894ccd7c8d3e02be76f6874b2ae630ded228c505fb2cc9efc5dd0acbf7bebf0"
+      },
+      "sequence": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_sequence.json.receipt.json",
+        "receipt_sha256": "f26dbcfb06d22f466a33da3ac217318cfdecec944219955160f64ff2299d7134",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_sequence.json",
+        "response_sha256": "76e7973c09558a5612624c42c0274aa4fc1e3a97f5822a2113ad0465ee5c3fc2"
+      }
+    },
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=86045862;end=86055456;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=86045862;end=86055456"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      92950864,
+      92986391
+    ],
+    "planned_status": "eligible",
+    "region_bases": 35527,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=92950864;end=92986391;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=92950864;end=92986391"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      93015463,
+      93101951
+    ],
+    "planned_status": "eligible",
+    "region_bases": 86488,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=93015463;end=93101951;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=93015463;end=93101951"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      125867621,
+      125913101
+    ],
+    "planned_status": "eligible",
+    "region_bases": 45480,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=125867621;end=125913101;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=125867621;end=125913101"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      132509426,
+      132543256
+    ],
+    "planned_status": "eligible",
+    "region_bases": 33830,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=132509426;end=132543256;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=132509426;end=132543256"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      150100030,
+      150108227
+    ],
+    "planned_status": "eligible",
+    "region_bases": 8197,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=150100030;end=150108227;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=150100030;end=150108227"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      163245118,
+      163313710
+    ],
+    "planned_status": "eligible",
+    "region_bases": 68592,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=163245118;end=163313710;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=163245118;end=163313710"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      171632402,
+      171653035
+    ],
+    "planned_status": "eligible",
+    "region_bases": 20633,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=171632402;end=171653035;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=171632402;end=171653035"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      171839696,
+      171890718
+    ],
+    "planned_status": "eligible",
+    "region_bases": 51022,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=171839696;end=171890718;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=171839696;end=171890718"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      175880580,
+      175913489
+    ],
+    "planned_status": "eligible",
+    "region_bases": 32909,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=175880580;end=175913489;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=175880580;end=175913489"
+    }
+  },
+  {
+    "key": [
+      "chr1",
+      189728267,
+      189876695
+    ],
+    "planned_status": "eligible",
+    "region_bases": 148428,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=189728267;end=189876695;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=189728267;end=189876695"
+    }
+  },
+  {
+    "key": [
+      "chr10",
+      4611592,
+      5005614
+    ],
+    "planned_status": "eligible",
+    "region_bases": 394022,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr10;start=4611592;end=5005614;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr10;start=4611592;end=5005614"
+    }
+  },
+  {
+    "key": [
+      "chr10",
+      73099341,
+      74649737
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 1550396,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr10",
+      80583653,
+      80590341
+    ],
+    "planned_status": "eligible",
+    "region_bases": 6688,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr10;start=80583653;end=80590341;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr10;start=80583653;end=80590341"
+    }
+  },
+  {
+    "key": [
+      "chr10",
+      81176630,
+      81182498
+    ],
+    "planned_status": "eligible",
+    "region_bases": 5868,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr10;start=81176630;end=81182498;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr10;start=81176630;end=81182498"
+    }
+  },
+  {
+    "key": [
+      "chr10",
+      94198719,
+      94221443
+    ],
+    "planned_status": "eligible",
+    "region_bases": 22724,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr10;start=94198719;end=94221443;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr10;start=94198719;end=94221443"
+    }
+  },
+  {
+    "key": [
+      "chr10",
+      116275522,
+      116389535
+    ],
+    "planned_status": "eligible",
+    "region_bases": 114013,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr10;start=116275522;end=116389535;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr10;start=116275522;end=116389535"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      3895239,
+      3901296
+    ],
+    "planned_status": "eligible",
+    "region_bases": 6057,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=3895239;end=3901296;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=3895239;end=3901296"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      11814100,
+      11898144
+    ],
+    "planned_status": "eligible",
+    "region_bases": 84044,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=11814100;end=11898144;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=11814100;end=11898144"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      44617316,
+      45008091
+    ],
+    "planned_status": "eligible",
+    "region_bases": 390775,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=44617316;end=45008091;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=44617316;end=45008091"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      53427921,
+      53430831
+    ],
+    "planned_status": "eligible",
+    "region_bases": 2910,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=53427921;end=53430831;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=53427921;end=53430831"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      55394499,
+      55423183
+    ],
+    "planned_status": "eligible",
+    "region_bases": 28684,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=55394499;end=55423183;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=55394499;end=55423183"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      70016941,
+      70047522
+    ],
+    "planned_status": "eligible",
+    "region_bases": 30581,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=70016941;end=70047522;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=70016941;end=70047522"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      72241988,
+      72267222
+    ],
+    "planned_status": "eligible",
+    "region_bases": 25234,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=72241988;end=72267222;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=72241988;end=72267222"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      80154104,
+      80178958
+    ],
+    "planned_status": "eligible",
+    "region_bases": 24854,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=80154104;end=80178958;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=80154104;end=80178958"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      83002157,
+      83020810
+    ],
+    "planned_status": "eligible",
+    "region_bases": 18653,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=83002157;end=83020810;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=83002157;end=83020810"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      83409136,
+      83421039
+    ],
+    "planned_status": "eligible",
+    "region_bases": 11903,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=83409136;end=83421039;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=83409136;end=83421039"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      94936223,
+      94953042
+    ],
+    "planned_status": "eligible",
+    "region_bases": 16819,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=94936223;end=94953042;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=94936223;end=94953042"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      94991034,
+      95006899
+    ],
+    "planned_status": "eligible",
+    "region_bases": 15865,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=94991034;end=95006899;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=94991034;end=95006899"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      101769741,
+      101785371
+    ],
+    "planned_status": "eligible",
+    "region_bases": 15630,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=101769741;end=101785371;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=101769741;end=101785371"
+    }
+  },
+  {
+    "key": [
+      "chr11",
+      106394649,
+      106487852
+    ],
+    "planned_status": "eligible",
+    "region_bases": 93203,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr11;start=106394649;end=106487852;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr11;start=106394649;end=106487852"
+    }
+  },
+  {
+    "key": [
+      "chr12",
+      100199434,
+      100209814
+    ],
+    "planned_status": "eligible",
+    "region_bases": 10380,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr12;start=100199434;end=100209814;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr12;start=100199434;end=100209814"
+    }
+  },
+  {
+    "key": [
+      "chr13",
+      15463234,
+      15730026
+    ],
+    "planned_status": "eligible",
+    "region_bases": 266792,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr13;start=15463234;end=15730026;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr13;start=15463234;end=15730026"
+    }
+  },
+  {
+    "key": [
+      "chr13",
+      25056003,
+      25210706
+    ],
+    "planned_status": "eligible",
+    "region_bases": 154703,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr13;start=25056003;end=25210706;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr13;start=25056003;end=25210706"
+    }
+  },
+  {
+    "key": [
+      "chr13",
+      54371348,
+      54383917
+    ],
+    "planned_status": "eligible",
+    "region_bases": 12569,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr13;start=54371348;end=54383917;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr13;start=54371348;end=54383917"
+    }
+  },
+  {
+    "key": [
+      "chr13",
+      58545398,
+      58610877
+    ],
+    "planned_status": "eligible",
+    "region_bases": 65479,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr13;start=58545398;end=58610877;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr13;start=58545398;end=58610877"
+    }
+  },
+  {
+    "key": [
+      "chr13",
+      114818235,
+      114832275
+    ],
+    "planned_status": "eligible",
+    "region_bases": 14040,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr13;start=114818235;end=114832275;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr13;start=114818235;end=114832275"
+    }
+  },
+  {
+    "key": [
+      "chr13",
+      114953095,
+      115101964
+    ],
+    "planned_status": "eligible",
+    "region_bases": 148869,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr13;start=114953095;end=115101964;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr13;start=114953095;end=115101964"
+    }
+  },
+  {
+    "key": [
+      "chr14",
+      24487124,
+      24496959
+    ],
+    "planned_status": "eligible",
+    "region_bases": 9835,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr14;start=24487124;end=24496959;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr14;start=24487124;end=24496959"
+    }
+  },
+  {
+    "key": [
+      "chr14",
+      34219594,
+      34230420
+    ],
+    "planned_status": "eligible",
+    "region_bases": 10826,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr14;start=34219594;end=34230420;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr14;start=34219594;end=34230420"
+    }
+  },
+  {
+    "key": [
+      "chr14",
+      60963874,
+      61046490
+    ],
+    "planned_status": "eligible",
+    "region_bases": 82616,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr14;start=60963874;end=61046490;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr14;start=60963874;end=61046490"
+    }
+  },
+  {
+    "key": [
+      "chr14",
+      75845092,
+      75848525
+    ],
+    "planned_status": "eligible",
+    "region_bases": 3433,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr14;start=75845092;end=75848525;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr14;start=75845092;end=75848525"
+    }
+  },
+  {
+    "key": [
+      "chr14",
+      75955008,
+      75966206
+    ],
+    "planned_status": "eligible",
+    "region_bases": 11198,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr14;start=75955008;end=75966206;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr14;start=75955008;end=75966206"
+    }
+  },
+  {
+    "key": [
+      "chr14",
+      116925314,
+      117976544
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 1051230,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr15",
+      4026382,
+      4155344
+    ],
+    "planned_status": "eligible",
+    "region_bases": 128962,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=4026382;end=4155344;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=4026382;end=4155344"
+    }
+  },
+  {
+    "key": [
+      "chr15",
+      5116644,
+      5119140
+    ],
+    "planned_status": "eligible",
+    "region_bases": 2496,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=5116644;end=5119140;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=5116644;end=5119140"
+    }
+  },
+  {
+    "key": [
+      "chr15",
+      10177237,
+      10349180
+    ],
+    "planned_status": "eligible",
+    "region_bases": 171943,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=10177237;end=10349180;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=10177237;end=10349180"
+    }
+  },
+  {
+    "key": [
+      "chr15",
+      58094043,
+      58135082
+    ],
+    "planned_status": "eligible",
+    "region_bases": 41039,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=58094043;end=58135082;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=58094043;end=58135082"
+    }
+  },
+  {
+    "key": [
+      "chr15",
+      81872308,
+      81915133
+    ],
+    "planned_status": "eligible",
+    "region_bases": 42825,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=81872308;end=81915133;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=81872308;end=81915133"
+    }
+  },
+  {
+    "key": [
+      "chr15",
+      83089505,
+      83116674
+    ],
+    "planned_status": "eligible",
+    "region_bases": 27169,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=83089505;end=83116674;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=83089505;end=83116674"
+    }
+  },
+  {
+    "key": [
+      "chr15",
+      89499622,
+      89560261
+    ],
+    "planned_status": "eligible",
+    "region_bases": 60639,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=89499622;end=89560261;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=89499622;end=89560261"
+    }
+  },
+  {
+    "key": [
+      "chr15",
+      96287517,
+      96404992
+    ],
+    "planned_status": "eligible",
+    "region_bases": 117475,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr15;start=96287517;end=96404992;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr15;start=96287517;end=96404992"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      4480215,
+      4541816
+    ],
+    "planned_status": "eligible",
+    "region_bases": 61601,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=4480215;end=4541816;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=4480215;end=4541816"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      10835058,
+      10892966
+    ],
+    "planned_status": "eligible",
+    "region_bases": 57908,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=10835058;end=10892966;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=10835058;end=10892966"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      17233571,
+      17263430
+    ],
+    "planned_status": "eligible",
+    "region_bases": 29859,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=17233571;end=17263430;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=17233571;end=17263430"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      21953816,
+      21995663
+    ],
+    "planned_status": "eligible",
+    "region_bases": 41847,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=21953816;end=21995663;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=21953816;end=21995663"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      23224739,
+      23360350
+    ],
+    "planned_status": "eligible",
+    "region_bases": 135611,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=23224739;end=23360350;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=23224739;end=23360350"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      25683762,
+      25892102
+    ],
+    "planned_status": "eligible",
+    "region_bases": 208340,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=25683762;end=25892102;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=25683762;end=25892102"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      35926510,
+      35939151
+    ],
+    "planned_status": "eligible",
+    "region_bases": 12641,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=35926510;end=35939151;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=35926510;end=35939151"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      38598339,
+      38713274
+    ],
+    "planned_status": "eligible",
+    "region_bases": 114935,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=38598339;end=38713274;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=38598339;end=38713274"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      42875880,
+      43642602
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 766722,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr16",
+      56690331,
+      56717450
+    ],
+    "planned_status": "eligible",
+    "region_bases": 27119,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=56690331;end=56717450;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=56690331;end=56717450"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      57624257,
+      57754737
+    ],
+    "planned_status": "eligible",
+    "region_bases": 130480,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=57624257;end=57754737;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=57624257;end=57754737"
+    }
+  },
+  {
+    "key": [
+      "chr16",
+      98001309,
+      98082450
+    ],
+    "planned_status": "eligible",
+    "region_bases": 81141,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr16;start=98001309;end=98082450;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr16;start=98001309;end=98082450"
+    }
+  },
+  {
+    "key": [
+      "chr17",
+      5410869,
+      5440259
+    ],
+    "planned_status": "eligible",
+    "region_bases": 29390,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr17;start=5410869;end=5440259;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr17;start=5410869;end=5440259"
+    }
+  },
+  {
+    "key": [
+      "chr17",
+      24073679,
+      24150924
+    ],
+    "planned_status": "eligible",
+    "region_bases": 77245,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr17;start=24073679;end=24150924;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr17;start=24073679;end=24150924"
+    }
+  },
+  {
+    "key": [
+      "chr17",
+      27655508,
+      27711482
+    ],
+    "planned_status": "eligible",
+    "region_bases": 55974,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr17;start=27655508;end=27711482;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr17;start=27655508;end=27711482"
+    }
+  },
+  {
+    "key": [
+      "chr17",
+      28351514,
+      28365222
+    ],
+    "planned_status": "eligible",
+    "region_bases": 13708,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr17;start=28351514;end=28365222;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr17;start=28351514;end=28365222"
+    }
+  },
+  {
+    "key": [
+      "chr17",
+      40875481,
+      40880559
+    ],
+    "planned_status": "eligible",
+    "region_bases": 5078,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr17;start=40875481;end=40880559;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr17;start=40875481;end=40880559"
+    }
+  },
+  {
+    "key": [
+      "chr17",
+      45523433,
+      45542680
+    ],
+    "planned_status": "eligible",
+    "region_bases": 19247,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr17;start=45523433;end=45542680;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr17;start=45523433;end=45542680"
+    }
+  },
+  {
+    "key": [
+      "chr17",
+      56277475,
+      56292873
+    ],
+    "planned_status": "eligible",
+    "region_bases": 15398,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr17;start=56277475;end=56292873;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr17;start=56277475;end=56292873"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      9707594,
+      9882644
+    ],
+    "planned_status": "eligible",
+    "region_bases": 175050,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=9707594;end=9882644;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=9707594;end=9882644"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      15389495,
+      15410982
+    ],
+    "planned_status": "eligible",
+    "region_bases": 21487,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=15389495;end=15410982;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=15389495;end=15410982"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      31942996,
+      31949636
+    ],
+    "planned_status": "eligible",
+    "region_bases": 6640,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=31942996;end=31949636;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=31942996;end=31949636"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      35614603,
+      35627244
+    ],
+    "planned_status": "eligible",
+    "region_bases": 12641,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=35614603;end=35627244;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=35614603;end=35627244"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      36742331,
+      36744557
+    ],
+    "planned_status": "eligible",
+    "region_bases": 2226,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=36742331;end=36744557;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=36742331;end=36744557"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      60925617,
+      60988152
+    ],
+    "planned_status": "eligible",
+    "region_bases": 62535,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=60925617;end=60988152;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=60925617;end=60988152"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      65430937,
+      65479067
+    ],
+    "planned_status": "eligible",
+    "region_bases": 48130,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=65430937;end=65479067;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=65430937;end=65479067"
+    }
+  },
+  {
+    "key": [
+      "chr18",
+      77456109,
+      77565161
+    ],
+    "planned_status": "eligible",
+    "region_bases": 109052,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr18;start=77456109;end=77565161;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr18;start=77456109;end=77565161"
+    }
+  },
+  {
+    "key": [
+      "chr19",
+      4711166,
+      4752360
+    ],
+    "planned_status": "eligible",
+    "region_bases": 41194,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=4711166;end=4752360;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr19;start=4711166;end=4752360"
+    }
+  },
+  {
+    "key": [
+      "chr19",
+      7215152,
+      7217616
+    ],
+    "planned_status": "eligible",
+    "region_bases": 2464,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=7215152;end=7217616;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr19;start=7215152;end=7217616"
+    }
+  },
+  {
+    "key": [
+      "chr19",
+      18930604,
+      19111196
+    ],
+    "planned_status": "eligible",
+    "region_bases": 180592,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=18930604;end=19111196;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr19;start=18930604;end=19111196"
+    }
+  },
+  {
+    "key": [
+      "chr19",
+      24999533,
+      25202432
+    ],
+    "planned_status": "eligible",
+    "region_bases": 202899,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=24999533;end=25202432;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr19;start=24999533;end=25202432"
+    }
+  },
+  {
+    "key": [
+      "chr19",
+      44548571,
+      44555440
+    ],
+    "planned_status": "eligible",
+    "region_bases": 6869,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=44548571;end=44555440;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr19;start=44548571;end=44555440"
+    }
+  },
+  {
+    "key": [
+      "chr19",
+      46312086,
+      46327156
+    ],
+    "planned_status": "eligible",
+    "region_bases": 15070,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=46312086;end=46327156;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr19;start=46312086;end=46327156"
+    }
+  },
+  {
+    "key": [
+      "chr19",
+      59902883,
+      59943654
+    ],
+    "planned_status": "eligible",
+    "region_bases": 40771,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=59902883;end=59943654;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr19;start=59902883;end=59943654"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      22940072,
+      23040241
+    ],
+    "planned_status": "eligible",
+    "region_bases": 100169,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=22940072;end=23040241;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=22940072;end=23040241"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      25054354,
+      25062881
+    ],
+    "planned_status": "eligible",
+    "region_bases": 8527,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=25054354;end=25062881;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=25054354;end=25062881"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      25192965,
+      25196886
+    ],
+    "planned_status": "eligible",
+    "region_bases": 3921,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=25192965;end=25196886;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=25192965;end=25196886"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      25291180,
+      25319187
+    ],
+    "planned_status": "eligible",
+    "region_bases": 28007,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=25291180;end=25319187;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=25291180;end=25319187"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      49619297,
+      49774778
+    ],
+    "planned_status": "eligible",
+    "region_bases": 155481,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=49619297;end=49774778;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=49619297;end=49774778"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      77009901,
+      77170636
+    ],
+    "planned_status": "eligible",
+    "region_bases": 160735,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=77009901;end=77170636;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=77009901;end=77170636"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      79255425,
+      79333123
+    ],
+    "planned_status": "eligible",
+    "region_bases": 77698,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=79255425;end=79333123;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=79255425;end=79333123"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      92383675,
+      92401263
+    ],
+    "planned_status": "eligible",
+    "region_bases": 17588,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=92383675;end=92401263;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=92383675;end=92401263"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      102658658,
+      102790784
+    ],
+    "planned_status": "eligible",
+    "region_bases": 132126,
+    "reuse": {
+      "knownGene": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_knownGene.json.receipt.json",
+        "receipt_sha256": "13129e6c94ba8b1bf20cb2d530d23d144db54386fb51157ee3c3b607c2e1d7c7",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_knownGene.json",
+        "response_sha256": "5f2a2eee3f1a77100496105b6b18e15f455c8627068decbf38b0e49efd5fa814"
+      },
+      "sequence": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_sequence.json.receipt.json",
+        "receipt_sha256": "c4847a9e2e9c44396f616fb2af15c294b1cba787bf2c2457810787f4c5de5212",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_sequence.json",
+        "response_sha256": "2e55344723d93fc72ebf1e0c5b391230aea1bbc42ab978e4bbf7df94b6aa05a6"
+      }
+    },
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=102658658;end=102790784;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=102658658;end=102790784"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      109674699,
+      109727007
+    ],
+    "planned_status": "eligible",
+    "region_bases": 52308,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=109674699;end=109727007;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=109674699;end=109727007"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      115863063,
+      116065839
+    ],
+    "planned_status": "eligible",
+    "region_bases": 202776,
+    "reuse": {
+      "knownGene": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_knownGene.json.receipt.json",
+        "receipt_sha256": "c59a3b349deaffeb0e22055cb0d48a2d89c74fcc2aed1f34fd87622eef9fce90",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_knownGene.json",
+        "response_sha256": "950998ca4934f1a5be6737f007217e2504b52269bc0927f42a11e002cf47b6de"
+      },
+      "sequence": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_sequence.json.receipt.json",
+        "receipt_sha256": "eff678268e1292db59bbaaa497f133237fd8067e5308dceb2d86fdd8cdd1cb09",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_sequence.json",
+        "response_sha256": "969dbe664d6f8afc6f8db0338a5903f6e4607e66402b63fcb8b6eaffa167eb01"
+      }
+    },
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=115863063;end=116065839;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=115863063;end=116065839"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      118779718,
+      118811293
+    ],
+    "planned_status": "eligible",
+    "region_bases": 31575,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=118779718;end=118811293;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=118779718;end=118811293"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      121289599,
+      121310832
+    ],
+    "planned_status": "eligible",
+    "region_bases": 21233,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=121289599;end=121310832;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=121289599;end=121310832"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      121956000,
+      122013642
+    ],
+    "planned_status": "eligible",
+    "region_bases": 57642,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=121956000;end=122013642;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=121956000;end=122013642"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      131234062,
+      131248025
+    ],
+    "planned_status": "eligible",
+    "region_bases": 13963,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=131234062;end=131248025;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=131234062;end=131248025"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      136501909,
+      136562091
+    ],
+    "planned_status": "eligible",
+    "region_bases": 60182,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=136501909;end=136562091;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=136501909;end=136562091"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      148404465,
+      148408188
+    ],
+    "planned_status": "eligible",
+    "region_bases": 3723,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=148404465;end=148408188;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=148404465;end=148408188"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      157560077,
+      157562522
+    ],
+    "planned_status": "eligible",
+    "region_bases": 2445,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=157560077;end=157562522;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=157560077;end=157562522"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      173737510,
+      173784339
+    ],
+    "planned_status": "eligible",
+    "region_bases": 46829,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=173737510;end=173784339;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=173737510;end=173784339"
+    }
+  },
+  {
+    "key": [
+      "chr2",
+      180725262,
+      180742280
+    ],
+    "planned_status": "eligible",
+    "region_bases": 17018,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=180725262;end=180742280;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=180725262;end=180742280"
+    }
+  },
+  {
+    "key": [
+      "chr3",
+      49892525,
+      50443614
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 551089,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr3",
+      101855775,
+      101924453
+    ],
+    "planned_status": "eligible",
+    "region_bases": 68678,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr3;start=101855775;end=101924453;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr3;start=101855775;end=101924453"
+    }
+  },
+  {
+    "key": [
+      "chr3",
+      102153582,
+      102204693
+    ],
+    "planned_status": "eligible",
+    "region_bases": 51111,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr3;start=102153582;end=102204693;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr3;start=102153582;end=102204693"
+    }
+  },
+  {
+    "key": [
+      "chr3",
+      129677564,
+      129755316
+    ],
+    "planned_status": "eligible",
+    "region_bases": 77752,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr3;start=129677564;end=129755316;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr3;start=129677564;end=129755316"
+    }
+  },
+  {
+    "key": [
+      "chr3",
+      141465215,
+      141834924
+    ],
+    "planned_status": "eligible",
+    "region_bases": 369709,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr3;start=141465215;end=141834924;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr3;start=141465215;end=141834924"
+    }
+  },
+  {
+    "key": [
+      "chr3",
+      142530341,
+      142550149
+    ],
+    "planned_status": "eligible",
+    "region_bases": 19808,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr3;start=142530341;end=142550149;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr3;start=142530341;end=142550149"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      3831333,
+      3835665
+    ],
+    "planned_status": "eligible",
+    "region_bases": 4332,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=3831333;end=3835665;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=3831333;end=3835665"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      11958183,
+      11966452
+    ],
+    "planned_status": "eligible",
+    "region_bases": 8269,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=11958183;end=11966452;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=11958183;end=11966452"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      40203772,
+      40239828
+    ],
+    "planned_status": "eligible",
+    "region_bases": 36056,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=40203772;end=40239828;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=40203772;end=40239828"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      48279759,
+      48431954
+    ],
+    "planned_status": "eligible",
+    "region_bases": 152195,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=48279759;end=48431954;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=48279759;end=48431954"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      62448652,
+      62470896
+    ],
+    "planned_status": "eligible",
+    "region_bases": 22244,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=62448652;end=62470896;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=62448652;end=62470896"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      63214003,
+      63334991
+    ],
+    "planned_status": "eligible",
+    "region_bases": 120988,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=63214003;end=63334991;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=63214003;end=63334991"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      123183226,
+      123194701
+    ],
+    "planned_status": "eligible",
+    "region_bases": 11475,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=123183226;end=123194701;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=123183226;end=123194701"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      128583538,
+      128610098
+    ],
+    "planned_status": "eligible",
+    "region_bases": 26560,
+    "reuse": {
+      "knownGene": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_knownGene.json.receipt.json",
+        "receipt_sha256": "919891a0e04c7cc038bad9111b0670115b1f5da96fa1aff8544060dae72b1fe5",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_knownGene.json",
+        "response_sha256": "bc57b1102156cd8a2cce7d3497e7c8e6c6cdc031dddccee2586d70457e2f0baa"
+      },
+      "sequence": {
+        "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_sequence.json.receipt.json",
+        "receipt_sha256": "f56f54c45fa0ee5b5cf719fd08aa4369b759d9531d73c64903727da5c5c652db",
+        "response": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_sequence.json",
+        "response_sha256": "18e4f6691e9f2854bea430d0e0630cb11ca25b55675245f9e49fc20966efbeab"
+      }
+    },
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=128583538;end=128610098;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=128583538;end=128610098"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      132110725,
+      132144486
+    ],
+    "planned_status": "eligible",
+    "region_bases": 33761,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=132110725;end=132144486;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=132110725;end=132144486"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      137319695,
+      137357720
+    ],
+    "planned_status": "eligible",
+    "region_bases": 38025,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=137319695;end=137357720;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=137319695;end=137357720"
+    }
+  },
+  {
+    "key": [
+      "chr4",
+      148077060,
+      148088031
+    ],
+    "planned_status": "eligible",
+    "region_bases": 10971,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=148077060;end=148088031;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=148077060;end=148088031"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      19227035,
+      20704792
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 1477757,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr5",
+      66016548,
+      66173118
+    ],
+    "planned_status": "eligible",
+    "region_bases": 156570,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=66016548;end=66173118;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=66016548;end=66173118"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      71569748,
+      71658308
+    ],
+    "planned_status": "eligible",
+    "region_bases": 88560,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=71569748;end=71658308;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=71569748;end=71658308"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      73322198,
+      73341028
+    ],
+    "planned_status": "eligible",
+    "region_bases": 18830,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=73322198;end=73341028;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=73322198;end=73341028"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      93181932,
+      93206495
+    ],
+    "planned_status": "eligible",
+    "region_bases": 24563,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=93181932;end=93206495;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=93181932;end=93206495"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      96070332,
+      96164171
+    ],
+    "planned_status": "eligible",
+    "region_bases": 93839,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=96070332;end=96164171;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=96070332;end=96164171"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      137105643,
+      137116209
+    ],
+    "planned_status": "eligible",
+    "region_bases": 10566,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=137105643;end=137116209;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=137105643;end=137116209"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      142903114,
+      142906754
+    ],
+    "planned_status": "eligible",
+    "region_bases": 3640,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=142903114;end=142906754;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=142903114;end=142906754"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      145114214,
+      145130705
+    ],
+    "planned_status": "eligible",
+    "region_bases": 16491,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=145114214;end=145130705;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=145114214;end=145130705"
+    }
+  },
+  {
+    "key": [
+      "chr5",
+      146832889,
+      146837032
+    ],
+    "planned_status": "eligible",
+    "region_bases": 4143,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr5;start=146832889;end=146837032;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr5;start=146832889;end=146837032"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      14901348,
+      15441977
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 540629,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr6",
+      56069803,
+      56652487
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 582684,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr6",
+      65671589,
+      65712326
+    ],
+    "planned_status": "eligible",
+    "region_bases": 40737,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=65671589;end=65712326;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=65671589;end=65712326"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      67238175,
+      67297736
+    ],
+    "planned_status": "eligible",
+    "region_bases": 59561,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=67238175;end=67297736;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=67238175;end=67297736"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      71543796,
+      71582609
+    ],
+    "planned_status": "eligible",
+    "region_bases": 38813,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=71543796;end=71582609;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=71543796;end=71582609"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      84571413,
+      84593908
+    ],
+    "planned_status": "eligible",
+    "region_bases": 22495,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=84571413;end=84593908;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=84571413;end=84593908"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      126708328,
+      126740674
+    ],
+    "planned_status": "eligible",
+    "region_bases": 32346,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=126708328;end=126740674;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=126708328;end=126740674"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      127125161,
+      127152193
+    ],
+    "planned_status": "eligible",
+    "region_bases": 27032,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=127125161;end=127152193;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=127125161;end=127152193"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      145931640,
+      145965223
+    ],
+    "planned_status": "eligible",
+    "region_bases": 33583,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=145931640;end=145965223;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=145931640;end=145965223"
+    }
+  },
+  {
+    "key": [
+      "chr6",
+      146108298,
+      146502223
+    ],
+    "planned_status": "eligible",
+    "region_bases": 393925,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr6;start=146108298;end=146502223;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr6;start=146108298;end=146502223"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      4690603,
+      4715997
+    ],
+    "planned_status": "eligible",
+    "region_bases": 25394,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=4690603;end=4715997;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=4690603;end=4715997"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      13035119,
+      13038275
+    ],
+    "planned_status": "eligible",
+    "region_bases": 3156,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=13035119;end=13038275;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=13035119;end=13038275"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      15917207,
+      15922402
+    ],
+    "planned_status": "eligible",
+    "region_bases": 5195,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=15917207;end=15922402;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=15917207;end=15922402"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      24884370,
+      24889806
+    ],
+    "planned_status": "eligible",
+    "region_bases": 5436,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=24884370;end=24889806;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=24884370;end=24889806"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      29134850,
+      29153961
+    ],
+    "planned_status": "eligible",
+    "region_bases": 19111,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=29134850;end=29153961;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=29134850;end=29153961"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      44310252,
+      44360572
+    ],
+    "planned_status": "eligible",
+    "region_bases": 50320,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=44310252;end=44360572;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=44310252;end=44360572"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      45163948,
+      45176142
+    ],
+    "planned_status": "eligible",
+    "region_bases": 12194,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=45163948;end=45176142;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=45163948;end=45176142"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      45457943,
+      45459884
+    ],
+    "planned_status": "eligible",
+    "region_bases": 1941,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=45457943;end=45459884;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=45457943;end=45459884"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      101421690,
+      101512827
+    ],
+    "planned_status": "eligible",
+    "region_bases": 91137,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=101421690;end=101512827;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=101421690;end=101512827"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      108934416,
+      108942951
+    ],
+    "planned_status": "eligible",
+    "region_bases": 8535,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=108934416;end=108942951;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=108934416;end=108942951"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      119607025,
+      119662515
+    ],
+    "planned_status": "eligible",
+    "region_bases": 55490,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=119607025;end=119662515;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=119607025;end=119662515"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      144838082,
+      144844436
+    ],
+    "planned_status": "eligible",
+    "region_bases": 6354,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=144838082;end=144844436;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=144838082;end=144844436"
+    }
+  },
+  {
+    "key": [
+      "chr7",
+      144929930,
+      144939925
+    ],
+    "planned_status": "eligible",
+    "region_bases": 9995,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr7;start=144929930;end=144939925;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr7;start=144929930;end=144939925"
+    }
+  },
+  {
+    "key": [
+      "chr8",
+      12873805,
+      13020905
+    ],
+    "planned_status": "eligible",
+    "region_bases": 147100,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr8;start=12873805;end=13020905;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr8;start=12873805;end=13020905"
+    }
+  },
+  {
+    "key": [
+      "chr8",
+      39005844,
+      39165114
+    ],
+    "planned_status": "eligible",
+    "region_bases": 159270,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr8;start=39005844;end=39165114;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr8;start=39005844;end=39165114"
+    }
+  },
+  {
+    "key": [
+      "chr8",
+      70698948,
+      70700616
+    ],
+    "planned_status": "eligible",
+    "region_bases": 1668,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr8;start=70698948;end=70700616;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr8;start=70698948;end=70700616"
+    }
+  },
+  {
+    "key": [
+      "chr8",
+      107942643,
+      108961630
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 1018987,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chr8",
+      113697125,
+      113848738
+    ],
+    "planned_status": "eligible",
+    "region_bases": 151613,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr8;start=113697125;end=113848738;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr8;start=113697125;end=113848738"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      14784653,
+      14837123
+    ],
+    "planned_status": "eligible",
+    "region_bases": 52470,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=14784653;end=14837123;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=14784653;end=14837123"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      35184550,
+      35200291
+    ],
+    "planned_status": "eligible",
+    "region_bases": 15741,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=35184550;end=35200291;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=35184550;end=35200291"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      35570283,
+      35690318
+    ],
+    "planned_status": "eligible",
+    "region_bases": 120035,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=35570283;end=35690318;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=35570283;end=35690318"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      37544491,
+      37552904
+    ],
+    "planned_status": "eligible",
+    "region_bases": 8413,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=37544491;end=37552904;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=37544491;end=37552904"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      42412315,
+      42507809
+    ],
+    "planned_status": "eligible",
+    "region_bases": 95494,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=42412315;end=42507809;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=42412315;end=42507809"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      43221234,
+      43239911
+    ],
+    "planned_status": "eligible",
+    "region_bases": 18677,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=43221234;end=43239911;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=43221234;end=43239911"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      45929618,
+      45936058
+    ],
+    "planned_status": "eligible",
+    "region_bases": 6440,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=45929618;end=45936058;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=45929618;end=45936058"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      50751077,
+      50752354
+    ],
+    "planned_status": "eligible",
+    "region_bases": 1277,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=50751077;end=50752354;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=50751077;end=50752354"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      86765922,
+      86880654
+    ],
+    "planned_status": "eligible",
+    "region_bases": 114732,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=86765922;end=86880654;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=86765922;end=86880654"
+    }
+  },
+  {
+    "key": [
+      "chr9",
+      120127688,
+      120132369
+    ],
+    "planned_status": "eligible",
+    "region_bases": 4681,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr9;start=120127688;end=120132369;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr9;start=120127688;end=120132369"
+    }
+  },
+  {
+    "key": [
+      "chrCHR_MG190_MG3751_PATCH",
+      70698948,
+      70700616
+    ],
+    "planned_status": "unsupported_fixed_author_chromosome",
+    "region_bases": 1668,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chrCHR_MG74_PATCH",
+      58094043,
+      58135082
+    ],
+    "planned_status": "unsupported_fixed_author_chromosome",
+    "region_bases": 41039,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chrCHR_WSB_EIJ_MMCHR11_CTG3",
+      83002606,
+      83021265
+    ],
+    "planned_status": "unsupported_fixed_author_chromosome",
+    "region_bases": 18659,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chrX",
+      10252304,
+      10321024
+    ],
+    "planned_status": "eligible",
+    "region_bases": 68720,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chrX;start=10252304;end=10321024;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chrX;start=10252304;end=10321024"
+    }
+  },
+  {
+    "key": [
+      "chrX",
+      59062144,
+      59568071
+    ],
+    "planned_status": "fixed_region_cap_or_invalid_interval",
+    "region_bases": 505927,
+    "reuse": {},
+    "urls": {}
+  },
+  {
+    "key": [
+      "chrX",
+      70343068,
+      70365084
+    ],
+    "planned_status": "eligible",
+    "region_bases": 22016,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chrX;start=70343068;end=70365084;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chrX;start=70343068;end=70365084"
+    }
+  },
+  {
+    "key": [
+      "chrX",
+      71815923,
+      71839757
+    ],
+    "planned_status": "eligible",
+    "region_bases": 23834,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chrX;start=71815923;end=71839757;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chrX;start=71815923;end=71839757"
+    }
+  },
+  {
+    "key": [
+      "chrX",
+      101640059,
+      101684351
+    ],
+    "planned_status": "eligible",
+    "region_bases": 44292,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chrX;start=101640059;end=101684351;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chrX;start=101640059;end=101684351"
+    }
+  },
+  {
+    "key": [
+      "chrX",
+      101849384,
+      102092055
+    ],
+    "planned_status": "eligible",
+    "region_bases": 242671,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chrX;start=101849384;end=102092055;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chrX;start=101849384;end=102092055"
+    }
+  },
+  {
+    "key": [
+      "chrX",
+      143285673,
+      143394262
+    ],
+    "planned_status": "eligible",
+    "region_bases": 108589,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chrX;start=143285673;end=143394262;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chrX;start=143285673;end=143394262"
+    }
+  },
+  {
+    "key": [
+      "chrX",
+      153139980,
+      153171943
+    ],
+    "planned_status": "eligible",
+    "region_bases": 31963,
+    "reuse": {},
+    "urls": {
+      "knownGene": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chrX;start=153139980;end=153171943;maxItemsOutput=10000",
+      "sequence": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chrX;start=153139980;end=153171943"
+    }
+  }
+]

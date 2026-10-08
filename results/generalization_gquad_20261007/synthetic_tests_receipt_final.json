@@ -1,0 +1,40 @@
+{
+  "attribute_hashes": {
+    "artifacts/generalization_gquad_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_gquad_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_gquad_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_gquad_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  "labels_read": false,
+  "models_fit": 0,
+  "models_read": false,
+  "native_or_numeric_packages_imported": false,
+  "preparation_receipt_sha256": "fc114132963417c7dc9514710225589fd15ccf6ed7b6797c7260b3393124a41d",
+  "project_alleles_folded": 0,
+  "project_features_computed": false,
+  "report_hashes": {
+    "reports/generalization_gquad_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_gquad_20261007/preparation_incident.md": "0caea0f3072d34edda448ba46c354cb71682e3acc146370112271825b3c72be8",
+    "reports/generalization_gquad_20261007/protocol.md": "a7ff6b82c5f2256611476b47cc9392ac73069896cbaaa2a61ee1a628c1675d72"
+  },
+  "source_hashes": {
+    "__init__.py": "fab002ea87c6030bee395df18b4ee653a26c211b93c1b5cd6947a76d4551967c",
+    "assemble.py": "0cda9bb543aed5cb3c9385fe0ab4e7b595022d7e22be1642b5232773f1feea3b",
+    "common.py": "d7ba27d8ddd1864f448b13826ebf83485baff810212b539c6d9a7582c7fa468a",
+    "engine.py": "ed6c9cfbe9e1c7d3cb9a213b55da06757c2facbcfa80cb9f21ce67d705897bd1",
+    "freeze.py": "7be25b1d7cb29bebe1bcb70435941d96f990e988e8c2932b83d4d9d75a5b5d15",
+    "gate.py": "7c9d031ffe1f540a442d427bcefb53c6d2f2e3f27f6da8aeeb60747e54eff00e",
+    "guards.py": "9c746401083a816504b05587b7764801073baced71ca4934f59f670e45fd7a67",
+    "prepare.py": "bf1ce6b8a02dd9ebcd60a8bc9a7726c68a3a7c84f8543bc7be2302ac24c10447",
+    "production.py": "8d53657efab96857ee83d170ade21fcb52767c58053f5277f5e9960686a54d3a",
+    "routes.py": "c2f2030b92d10411b0fac983a6567e516855ce7b27686884492ca2a3e2ba62c2",
+    "spec.py": "1083446494d6c56af94436525464018245648463482c4aee6d1758413720d336",
+    "tests.py": "b70cb48399a8eff9b188f625dbf8aa96cb6a738dc9878e7e30aa62e2a6c210f7",
+    "verify.py": "3a3bf0aa92d2784060800aaa7f6c19a59a8f2219aaa46044abb137cdcaf6b528"
+  },
+  "source_modules": 13,
+  "status": "PASS",
+  "stdlib_only": true,
+  "test_output": "test_complete_one_two_layer_box (src.generalization_gquad_20261007.tests.Tests.test_complete_one_two_layer_box) ... ok\ntest_endpoint_policy_is_exact (src.generalization_gquad_20261007.tests.Tests.test_endpoint_policy_is_exact) ... ok\ntest_first_creation_digest_tamper_or_orphan (src.generalization_gquad_20261007.tests.Tests.test_first_creation_digest_tamper_or_orphan) ... ok\ntest_fresh_resource_floors_mocked (src.generalization_gquad_20261007.tests.Tests.test_fresh_resource_floors_mocked) ... ok\ntest_full_namespace_AST (src.generalization_gquad_20261007.tests.Tests.test_full_namespace_AST) ... ok\ntest_half_open_boundaries (src.generalization_gquad_20261007.tests.Tests.test_half_open_boundaries) ... ok\ntest_immutable_output (src.generalization_gquad_20261007.tests.Tests.test_immutable_output) ... ok\ntest_incremental_gate_concentration_and_exact (src.generalization_gquad_20261007.tests.Tests.test_incremental_gate_concentration_and_exact) ... ok\ntest_layers_bounds (src.generalization_gquad_20261007.tests.Tests.test_layers_bounds) ... ok\ntest_linker_and_multiple_changes_count_once (src.generalization_gquad_20261007.tests.Tests.test_linker_and_multiple_changes_count_once) ... ok\ntest_linker_bound_and_disruption (src.generalization_gquad_20261007.tests.Tests.test_linker_bound_and_disruption) ... ok\ntest_log_before_delta_and_reversal (src.generalization_gquad_20261007.tests.Tests.test_log_before_delta_and_reversal) ... ok\ntest_negative_all_production_lengths (src.generalization_gquad_20261007.tests.Tests.test_negative_all_production_lengths) ... ok\ntest_no_edit_delta_zero (src.generalization_gquad_20261007.tests.Tests.test_no_edit_delta_zero) ... ok\ntest_overlapping_boxes_are_separate (src.generalization_gquad_20261007.tests.Tests.test_overlapping_boxes_are_separate) ... ok\ntest_path_normalization_collision_rejected (src.generalization_gquad_20261007.tests.Tests.test_path_normalization_collision_rejected) ... ok\ntest_position_validation (src.generalization_gquad_20261007.tests.Tests.test_position_validation) ... ok\ntest_requests_coordinates_union_exact (src.generalization_gquad_20261007.tests.Tests.test_requests_coordinates_union_exact) ... ok\ntest_selection_order_fixed_tolerance (src.generalization_gquad_20261007.tests.Tests.test_selection_order_fixed_tolerance) ... ok\ntest_shapes_and_fixed_grid (src.generalization_gquad_20261007.tests.Tests.test_shapes_and_fixed_grid) ... ok\ntest_strict_gate_matches_original_function (src.generalization_gquad_20261007.tests.Tests.test_strict_gate_matches_original_function) ... ok\ntest_three_layers_and_DNA_RNA_parity (src.generalization_gquad_20261007.tests.Tests.test_three_layers_and_DNA_RNA_parity) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.349s\n\nOK\n",
+  "tests": 22
+}

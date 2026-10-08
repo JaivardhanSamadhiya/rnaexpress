@@ -1,0 +1,22 @@
+{
+  "alleles": 18220,
+  "backend_feasibility_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+  "estimated_cost_excludes_raw_scan_IO_hashing_and_fits": true,
+  "fold_only_estimate_minutes": 77.11406108662398,
+  "fold_only_with_50pct_margin_minutes": 115.67109162993597,
+  "labels_read": false,
+  "models_fit": 0,
+  "models_read": false,
+  "ordinary_structure_metadata": {
+    "actual_cache_bytes_rehashed": false,
+    "audit_sha256": "2590e476f75ff88518c96ae79747c21300c831797347942dd2d1c2b22f7b516e",
+    "files": 18220,
+    "index_sha256": "cef336f45616a5464bed1c32a7d8d777f555983f18d3999a7d7f77b0d11f61b3"
+  },
+  "precision_receipt_sha256": "675a4fba1e40fd1b7b12083a767c34e5a874baf7d74097f18a106da57d674bbe",
+  "project_alleles_folded": 0,
+  "row_index_sha256": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+  "rows": 26258,
+  "sequence_request_manifest_sha256": "41c2fa21a571e4a6b1509f870c035a0add72a59fd1f1e6ba4e3a186b11b647b7",
+  "status": "PASS"
+}
