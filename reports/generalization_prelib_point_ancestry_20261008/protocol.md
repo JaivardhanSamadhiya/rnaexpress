@@ -1,0 +1,9 @@
+# Literal point-edit ancestry reconstruction only
+
+Outcome-free, fixed16 WT/mPRE backgrounds across eight native template fragments. Use the literal parent prefix and one unique baseline row whose second source-ID token is outside Mut/4mer/6mer/10mer/ReplaceMer. Require every point row to have the literal prefix:Mut:position:ref->alt syntax, one physical1-based substitution, exact reference and alternate, fixed140nt ACGT window. No nearest-sequence parent selection. All whole-source ID collisions are preserved; point parents/children must have unique IDs.
+
+Template prefixes come from author TableS4 IDs; cross-check parent whole-sequence identity with TableS2 and TableS3. This is reconstructed author ID hierarchy, not an explicit author parent-pointer table or independent genomic lineage certificate. Keep APIS1 literal in prefixes; nominal AP1S1 grouping is supplied by TableS2/TableS3, not silently renamed source IDs. TableS3 mPRE NORAD NRU3 baseline description repeats the WT sequence; preserve and expose this discrepancy rather than silently fixing it. Genes are nominal metadata groups: two NORAD fragments and WT/mPRE variants share a single NORAD lineage, leaving seven nominal lineages.
+
+Three invented coordinate/identity tests must PASS. Freeze source, protocol and all design hashes before full point audit. Preserve all rows, collisions and coordinate failures. Source cohort6293 rows differs from TableS3 total6294;49 duplicated IDs each have different sequences. Do not deduplicate IDs, fabricate the missing sequence, choose labels or admit ambiguous kmer joins.
+
+Only metadata reconstruction passes are counted. No binding/repression/count outcome values are decoded or exported, no training pairs or models admitted. Later supervision needs explicit outcome-row identity/provenance, replicate normalization, reporter-context scope and source-only split/purge controls. Passing this stage cannot validate localization generalization or novelty.
