@@ -1,0 +1,134 @@
+stream,track,unit,normalized_regret,origin,stream_gate
+generalization_next_20261007,simple,astrocyte_gse330741,0.5,Frozen best historical simple per assay,NO-GO
+generalization_next_20261007,simple,mikl_gse173098,0.4874726822661491,Frozen best historical simple per assay,NO-GO
+generalization_next_20261007,simple,moffatt_gse334718,0.5,Frozen best historical simple per assay,NO-GO
+generalization_next_20261007,simple,srle,0.5,Frozen best historical simple per assay,NO-GO
+generalization_next_20261007,simple,macro,0.49686817056653726,Frozen best historical simple per assay,NO-GO
+generalization_next_20261007,base,astrocyte_gse330741,0.5571623402326642,Declared fitted track,NO-GO
+generalization_next_20261007,base,mikl_gse173098,0.5156347480004435,Declared fitted track,NO-GO
+generalization_next_20261007,base,moffatt_gse334718,0.4455132613971718,Declared fitted track,NO-GO
+generalization_next_20261007,base,srle,0.5307090450769336,Declared fitted track,NO-GO
+generalization_next_20261007,base,macro,0.5122548486768033,Declared fitted track,NO-GO
+generalization_next_20261007,raw,astrocyte_gse330741,0.5049208018976807,Declared fitted track,NO-GO
+generalization_next_20261007,raw,mikl_gse173098,0.5062998646902027,Declared fitted track,NO-GO
+generalization_next_20261007,raw,moffatt_gse334718,0.4455132613971718,Declared fitted track,NO-GO
+generalization_next_20261007,raw,srle,0.5445739299042545,Declared fitted track,NO-GO
+generalization_next_20261007,raw,macro,0.5003269644723274,Declared fitted track,NO-GO
+generalization_next_20261007,structure,astrocyte_gse330741,0.540350882738678,Declared fitted track,NO-GO
+generalization_next_20261007,structure,mikl_gse173098,0.5174308664767701,Declared fitted track,NO-GO
+generalization_next_20261007,structure,moffatt_gse334718,0.4765301808654721,Declared fitted track,NO-GO
+generalization_next_20261007,structure,srle,0.5316271130051332,Declared fitted track,NO-GO
+generalization_next_20261007,structure,macro,0.5164847607715134,Declared fitted track,NO-GO
+generalization_next_20261007,lookup,astrocyte_gse330741,0.4874392929169057,Declared fitted track,NO-GO
+generalization_next_20261007,lookup,mikl_gse173098,0.4940555903731025,Declared fitted track,NO-GO
+generalization_next_20261007,lookup,moffatt_gse334718,0.5126225704546679,Declared fitted track,NO-GO
+generalization_next_20261007,lookup,srle,0.5165736565255115,Declared fitted track,NO-GO
+generalization_next_20261007,lookup,macro,0.5026727775675468,Declared fitted track,NO-GO
+generalization_next_20261007,bert,astrocyte_gse330741,0.3966591290164931,Declared fitted track,NO-GO
+generalization_next_20261007,bert,mikl_gse173098,0.516789638517218,Declared fitted track,NO-GO
+generalization_next_20261007,bert,moffatt_gse334718,0.4586023315635854,Declared fitted track,NO-GO
+generalization_next_20261007,bert,srle,0.5006897706809934,Declared fitted track,NO-GO
+generalization_next_20261007,bert,macro,0.4681852174445725,Declared fitted track,NO-GO
+generalization_next_20261007,combined,astrocyte_gse330741,0.3929916475811173,Declared fitted track,NO-GO
+generalization_next_20261007,combined,mikl_gse173098,0.5210412098038477,Declared fitted track,NO-GO
+generalization_next_20261007,combined,moffatt_gse334718,0.5031974355505967,Declared fitted track,NO-GO
+generalization_next_20261007,combined,srle,0.4958170074535558,Declared fitted track,NO-GO
+generalization_next_20261007,combined,macro,0.4782618250972793,Declared fitted track,NO-GO
+generalization_crosscell_20261007,simple,CAD_to_N2A,0.49895470306625805,Declared fitted track,NO-GO
+generalization_crosscell_20261007,simple,N2A_to_CAD,0.48749572046496287,Declared fitted track,NO-GO
+generalization_crosscell_20261007,simple,macro,0.49322521176561046,Declared fitted track,NO-GO
+generalization_crosscell_20261007,base,CAD_to_N2A,0.5023600667063861,Declared fitted track,NO-GO
+generalization_crosscell_20261007,base,N2A_to_CAD,0.5219481718734141,Declared fitted track,NO-GO
+generalization_crosscell_20261007,base,macro,0.5121541192899002,Declared fitted track,NO-GO
+generalization_crosscell_20261007,raw,CAD_to_N2A,0.5128321172914462,Declared fitted track,NO-GO
+generalization_crosscell_20261007,raw,N2A_to_CAD,0.5219849647231176,Declared fitted track,NO-GO
+generalization_crosscell_20261007,raw,macro,0.517408541007282,Declared fitted track,NO-GO
+generalization_crosscell_20261007,structure,CAD_to_N2A,0.49294905584708776,Declared fitted track,NO-GO
+generalization_crosscell_20261007,structure,N2A_to_CAD,0.4971989158897296,Declared fitted track,NO-GO
+generalization_crosscell_20261007,structure,macro,0.4950739858684087,Declared fitted track,NO-GO
+generalization_crosscell_20261007,lookup,CAD_to_N2A,0.5105950956107099,Declared fitted track,NO-GO
+generalization_crosscell_20261007,lookup,N2A_to_CAD,0.5235024836273887,Declared fitted track,NO-GO
+generalization_crosscell_20261007,lookup,macro,0.5170487896190493,Declared fitted track,NO-GO
+generalization_crosscell_20261007,bert,CAD_to_N2A,0.522407078788875,Declared fitted track,NO-GO
+generalization_crosscell_20261007,bert,N2A_to_CAD,0.505761473843671,Declared fitted track,NO-GO
+generalization_crosscell_20261007,bert,macro,0.514084276316273,Declared fitted track,NO-GO
+generalization_crosscell_20261007,combined,CAD_to_N2A,0.5115868805500655,Declared fitted track,NO-GO
+generalization_crosscell_20261007,combined,N2A_to_CAD,0.48960012711484996,Declared fitted track,NO-GO
+generalization_crosscell_20261007,combined,macro,0.5005935038324577,Declared fitted track,NO-GO
+generalization_knowncell_20261007,simple,CAD_known,0.5004461974866279,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,simple,N2A_known,0.4944297343880685,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,simple,macro,0.4974379659373482,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,base,CAD_known,0.4736364065518081,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,base,N2A_known,0.5262342227817237,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,base,macro,0.4999353146667659,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,raw,CAD_known,0.518037544011273,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,raw,N2A_known,0.5263049396936229,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,raw,macro,0.522171241852448,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,structure,CAD_known,0.4930766921064943,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,structure,N2A_known,0.5408095024526435,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,structure,macro,0.5169430972795689,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,lookup,CAD_known,0.5113387445659154,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,lookup,N2A_known,0.5195989402154108,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,lookup,macro,0.515468842390663,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,bert,CAD_known,0.5013707282292362,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,bert,N2A_known,0.5229601429460901,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,bert,macro,0.5121654355876631,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,combined,CAD_known,0.48909617683435885,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,combined,N2A_known,0.5273564056526293,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_knowncell_20261007,combined,macro,0.508226291243494,Same frozen crosscell predictor; zero new fits,NO-GO
+generalization_alignment_20261007,simple,astrocyte_gse330741,0.5,Frozen best historical simple per assay,NO-GO
+generalization_alignment_20261007,simple,mikl_gse173098,0.4874726822661491,Frozen best historical simple per assay,NO-GO
+generalization_alignment_20261007,simple,moffatt_gse334718,0.5,Frozen best historical simple per assay,NO-GO
+generalization_alignment_20261007,simple,srle,0.5,Frozen best historical simple per assay,NO-GO
+generalization_alignment_20261007,simple,macro,0.49686817056653726,Frozen best historical simple per assay,NO-GO
+generalization_alignment_20261007,base,astrocyte_gse330741,0.4777745809550185,Declared fitted track,NO-GO
+generalization_alignment_20261007,base,mikl_gse173098,0.474277124686958,Declared fitted track,NO-GO
+generalization_alignment_20261007,base,moffatt_gse334718,0.4718798902362855,Declared fitted track,NO-GO
+generalization_alignment_20261007,base,srle,0.4692909549230664,Declared fitted track,NO-GO
+generalization_alignment_20261007,base,macro,0.47330563770033207,Declared fitted track,NO-GO
+generalization_alignment_20261007,raw,astrocyte_gse330741,0.4777745809550185,Declared fitted track,NO-GO
+generalization_alignment_20261007,raw,mikl_gse173098,0.4739519439506576,Declared fitted track,NO-GO
+generalization_alignment_20261007,raw,moffatt_gse334718,0.4561895004167535,Declared fitted track,NO-GO
+generalization_alignment_20261007,raw,srle,0.4554260700957455,Declared fitted track,NO-GO
+generalization_alignment_20261007,raw,macro,0.4658355238545438,Declared fitted track,NO-GO
+generalization_alignment_20261007,structure,astrocyte_gse330741,0.4695033686518827,Declared fitted track,NO-GO
+generalization_alignment_20261007,structure,mikl_gse173098,0.474914367458909,Declared fitted track,NO-GO
+generalization_alignment_20261007,structure,moffatt_gse334718,0.5139546222817438,Declared fitted track,NO-GO
+generalization_alignment_20261007,structure,srle,0.4683728869948668,Declared fitted track,NO-GO
+generalization_alignment_20261007,structure,macro,0.4816863113468506,Declared fitted track,NO-GO
+generalization_alignment_20261007,lookup,astrocyte_gse330741,0.5183725214240035,Declared fitted track,NO-GO
+generalization_alignment_20261007,lookup,mikl_gse173098,0.4852731088446521,Declared fitted track,NO-GO
+generalization_alignment_20261007,lookup,moffatt_gse334718,0.4963437481909818,Declared fitted track,NO-GO
+generalization_alignment_20261007,lookup,srle,0.4834263434744885,Declared fitted track,NO-GO
+generalization_alignment_20261007,lookup,macro,0.4958539304835315,Declared fitted track,NO-GO
+generalization_alignment_20261007,bert,astrocyte_gse330741,0.5231368098322764,Declared fitted track,NO-GO
+generalization_alignment_20261007,bert,mikl_gse173098,0.4895309594936525,Declared fitted track,NO-GO
+generalization_alignment_20261007,bert,moffatt_gse334718,0.4121234274784649,Declared fitted track,NO-GO
+generalization_alignment_20261007,bert,srle,0.4993102293190066,Declared fitted track,NO-GO
+generalization_alignment_20261007,bert,macro,0.4810253565308501,Declared fitted track,NO-GO
+generalization_alignment_20261007,combined,astrocyte_gse330741,0.4863779198352788,Declared fitted track,NO-GO
+generalization_alignment_20261007,combined,mikl_gse173098,0.4897688436671149,Declared fitted track,NO-GO
+generalization_alignment_20261007,combined,moffatt_gse334718,0.4553241211373451,Declared fitted track,NO-GO
+generalization_alignment_20261007,combined,srle,0.5041829925464442,Declared fitted track,NO-GO
+generalization_alignment_20261007,combined,macro,0.4839134692965458,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,simple,CAD_to_N2A,0.508748043191166,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,simple,N2A_to_CAD,0.4933238748479046,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,simple,macro,0.5010359590195352,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,base,CAD_to_N2A,0.4995037211795952,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,base,N2A_to_CAD,0.522022624030637,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,base,macro,0.5107631726051161,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,raw,CAD_to_N2A,0.49195254577373415,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,raw,N2A_to_CAD,0.5227934528083987,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,raw,macro,0.5073729992910665,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,structure,CAD_to_N2A,0.4943162766997618,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,structure,N2A_to_CAD,0.5104162340577806,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,structure,macro,0.5023662553787712,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,lookup,CAD_to_N2A,0.5152592325297941,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,lookup,N2A_to_CAD,0.5221133379618926,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,lookup,macro,0.5186862852458434,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,bert,CAD_to_N2A,0.5161852813396496,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,bert,N2A_to_CAD,0.5049769615615689,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,bert,macro,0.5105811214506093,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,combined,CAD_to_N2A,0.5150617368016457,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,combined,N2A_to_CAD,0.48715988160714513,Declared fitted track,NO-GO
+generalization_similarity_crosscell_20261007,combined,macro,0.5011108092043954,Declared fitted track,NO-GO
