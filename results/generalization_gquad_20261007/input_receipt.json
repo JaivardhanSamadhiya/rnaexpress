@@ -1,0 +1,41 @@
+{
+  "encoded_metadata_sha256": "6b801e948d3349014307b57cd40f22d2faacb0e63cc4ffc2204bf3340ab7ef75",
+  "feature_paths": {
+    "base": "artifacts/generalization_next_20261007/base_model_features.npz",
+    "combined": "artifacts/generalization_gquad_20261007/combined_model_features.npz",
+    "ordinary_raw": "artifacts/generalization_gquad_20261007/ordinary_raw_model_features.npz",
+    "physical": "artifacts/generalization_gquad_20261007/physical_model_features.npz",
+    "raw": "artifacts/generalization_gquad_20261007/raw_model_features.npz"
+  },
+  "features_receipt_sha256": "375ec8edfd884e42ffd8096c5d31544a985173acf44318f6ce8b6da7b5fe8af9",
+  "files": {
+    "artifacts/generalization_gquad_20261007/combined_model_features.npz": "12e4cf05152d19254e7ff4d87500f00d0582b5f2591cc270824ae3f298d9b339",
+    "artifacts/generalization_gquad_20261007/ordinary_raw_model_features.npz": "6035c90277a3b668ef198156b124913afe99eb807d1bcacc9158373e2f9b4d66",
+    "artifacts/generalization_gquad_20261007/physical_model_features.npz": "64ad1a5843e6ced3e88fde8f9c7ee2ecf5ed6cf5d833ae34169e9589d4b13937",
+    "artifacts/generalization_gquad_20261007/physics_delta_block.npz": "e2919b55c3b35aeb9eb005a4eace8a0df378faef64f66b0a82030ec4beece89b",
+    "artifacts/generalization_gquad_20261007/raw_delta_block.npz": "4765357902d9ff0cf836fbfc04b293e8ac85813fa4ba895ae0bb283571db374a",
+    "artifacts/generalization_gquad_20261007/raw_model_features.npz": "90793da5cb693ddda6502762f0403c25a5f15e8da54445dc4bd6bac6c8516692",
+    "artifacts/generalization_next_20261007/base_model_features.npz": "cf7d79d6b1a0efa3228fbcbe8c61b0e712c2fb630f9c1ef9302dcf83f152693c"
+  },
+  "models_fit": 0,
+  "ordinary_structure_rehashed_unchanged": {
+    "actual_cache_bytes_rehashed": true,
+    "audit_sha256": "2590e476f75ff88518c96ae79747c21300c831797347942dd2d1c2b22f7b516e",
+    "files": 18220,
+    "index_sha256": "cef336f45616a5464bed1c32a7d8d777f555983f18d3999a7d7f77b0d11f61b3"
+  },
+  "original_metadata_sha256": "78767b17e63bb4fb769a2aca3012b9048ce2b080813b226c3a4e2208751136a1",
+  "outcomes_read": false,
+  "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+  "row_index_sha256": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+  "rows": 26258,
+  "shapes": {
+    "base": 246,
+    "combined": 276,
+    "ordinary_raw": 274,
+    "physical": 260,
+    "raw": 258
+  },
+  "source_control_prefit_manifest_sha256": "93b78aa2f49998a77c2a61ceddb4c4da78e4236e4a81f54608abf0b2d9508e36",
+  "status": "PASS"
+}

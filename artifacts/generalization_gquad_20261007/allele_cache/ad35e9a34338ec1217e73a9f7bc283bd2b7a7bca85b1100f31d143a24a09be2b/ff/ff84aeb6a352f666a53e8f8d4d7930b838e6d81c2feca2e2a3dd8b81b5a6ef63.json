@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    12,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    2.5649493574615367,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "99420af1f361625dc3a556df310801f779f398a2de6a0e22ef583172b21de03f",
+    "sequence_sha256": "ff84aeb6a352f666a53e8f8d4d7930b838e6d81c2feca2e2a3dd8b81b5a6ef63",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "72"
+  ],
+  "length": 190,
+  "local_counts": [
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      1.9459101490553132,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": -3.814697265625e-06,
+    "modeled_at_least_one_GQ_probability": 6.189448111793252e-06,
+    "off": {
+      "G_kcal_mol": -41.90543746948242,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -37.70000076293945,
+      "mfe_structure": "..(((..((((((..(((...(((((((.(..(((((..(((((((.(((....)))..)))))))..))).))..).)))))))..)))..))..))))..))).(((.(((((..((((.....))))...((.(((..((((............))))..))).)).))))).)))...........",
+      "pf_scale": 1.411256676908185,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -41.90544128417969,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -37.70000076293945,
+      "mfe_structure": "..(((..((((((..(((...(((((((.(..(((((..(((((((.(((....)))..)))))))..))).))..).)))))))..)))..))..))))..))).(((.(((((..((((.....))))...((.(((..((((............))))..))).)).))))).)))...........",
+      "pf_scale": 1.411256676908185,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    -3.814697265625e-06,
+    6.189448111793252e-06
+  ],
+  "sequence": "CAGTTCACTGCCCTCGCCCTTCCCTTTCCTTTCGTTTCATTGCTTAAGAGACTGCTTAGTAAGTGGCCAAATCGTTAAGAGGGGGTTGGCTTGGAAGCAGATAACAGGAGATCTTAACTATCAGTAATAGCCAGTCTCACCGCCTCACACCATAATCAGGCAATGACACAGAGATGTTTAAAAACAACGT"
+}

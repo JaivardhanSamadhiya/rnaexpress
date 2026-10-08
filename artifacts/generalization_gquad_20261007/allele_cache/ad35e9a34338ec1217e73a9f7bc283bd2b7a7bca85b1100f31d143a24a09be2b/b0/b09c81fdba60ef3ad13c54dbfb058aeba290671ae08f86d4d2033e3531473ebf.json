@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    12,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    2.5649493574615367,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "92126ccca0f2ca2b1185caf3ad6b98d2b1652edb2394a2d526dd2552730307ed",
+    "sequence_sha256": "b09c81fdba60ef3ad13c54dbfb058aeba290671ae08f86d4d2033e3531473ebf",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "45"
+  ],
+  "length": 190,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": -0.009433746337890625,
+    "modeled_at_least_one_GQ_probability": 0.015190002691172322,
+    "off": {
+      "G_kcal_mol": -40.54853820800781,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -36.400001525878906,
+      "mfe_structure": "..(((..((((((..(((...(((((((.....(((((.........))))).(((........)))...........)))))))..)))..))..))))..))).(((.(((((..((((.....))))...((.(((..((((............))))..))).)).))))).)))...........",
+      "pf_scale": 1.3945920491492922,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -40.5579719543457,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -36.400001525878906,
+      "mfe_structure": "..(((..((((((..(((...(((((((.....(((((.........))))).(((........)))...........)))))))..)))..))..))))..))).(((.(((((..((((.....))))...((.(((..((((............))))..))).)).))))).)))...........",
+      "pf_scale": 1.3945920491492922,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    -0.009433746337890625,
+    0.015190002691172322
+  ],
+  "sequence": "CAGTTCACTGCCCTCGCCCTTCCCTTTCCTTTCGTTTCATTGCTTCAGAGACTGCTTAGTAAGTGGCCAAATAGTTAAGAGGGGGTTGGCTTGGAAGCAGATAACAGGAGATCTTAACTATCAGTAATAGCCAGTCTCACCGCCTCACACCATAATCAGGCAATGACACAGAGATGTTTAAAAACAACGT"
+}

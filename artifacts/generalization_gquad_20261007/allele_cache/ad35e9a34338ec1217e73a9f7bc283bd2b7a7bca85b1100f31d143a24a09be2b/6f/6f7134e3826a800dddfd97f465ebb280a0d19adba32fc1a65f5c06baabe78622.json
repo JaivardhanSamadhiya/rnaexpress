@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    198,
+    4,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    5.293304824724492,
+    1.6094379124341003,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "87acdf7e4671e831fb6dc665568689baa7c1d60366150569ba80b0e853c9dccc",
+    "sequence_sha256": "6f7134e3826a800dddfd97f465ebb280a0d19adba32fc1a65f5c06baabe78622",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "22,23,24,25,26"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      138,
+      4,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      4.9344739331306915,
+      1.6094379124341003,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": -7.62939453125e-05,
+    "modeled_at_least_one_GQ_probability": 0.0001237816837452606,
+    "off": {
+      "G_kcal_mol": -41.040283203125,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -37.70000076293945,
+      "mfe_structure": "........(((((...(((((((.((.(((....((....)).((((((..((((((......)))))).))))))....(((((......)))))..........))).)).)))))))))))).(((((....)))))..........",
+      "pf_scale": 1.5470378722514533,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -41.04035949707031,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -37.70000076293945,
+      "mfe_structure": "........(((((...(((((((.((.(((....((....)).((((((..((((((......)))))).))))))....(((((......)))))..........))).)).)))))))))))).(((((....)))))..........",
+      "pf_scale": 1.5470378722514533,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    -7.62939453125e-05,
+    0.0001237816837452606
+  ],
+  "sequence": "CAGAAACATCTAGCATGGGGTTAGTCAGGTGGGACGGGAGCGGTGGGGTCAGTCATTCTCCAAAATGATCACCCCAGACAAAGGCATTTGGGCCTTCTTATAGGGAGCCAGGGTAACTCTCTAGAAGGATTAGGTAATCTAAAATTTCAT"
+}

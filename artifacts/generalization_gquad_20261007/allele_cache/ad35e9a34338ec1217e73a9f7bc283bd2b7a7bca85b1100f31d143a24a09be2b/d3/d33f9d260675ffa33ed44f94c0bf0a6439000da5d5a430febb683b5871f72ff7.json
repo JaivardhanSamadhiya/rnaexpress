@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    1.0986122886681098,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "164e8b97a68a12f4a3b4185bdd1fe6a25b1ee6a2c88a632f842f7dbf9ecea617",
+    "sequence_sha256": "d33f9d260675ffa33ed44f94c0bf0a6439000da5d5a430febb683b5871f72ff7",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "26,27,29,30,31"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": 0.0,
+    "modeled_at_least_one_GQ_probability": 0.0,
+    "off": {
+      "G_kcal_mol": -59.45068359375,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -58.0,
+      "mfe_structure": "...((.((((((((.(((((((......)))..................(((((.((((....)))))))))...(((.(.((((((((....((....))..)))))))).).)))((((......))))...)))).)))))))).))",
+      "pf_scale": 1.9567705810467348,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -59.45068359375,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -58.0,
+      "mfe_structure": "...((.((((((((.(((((((......)))..................(((((.((((....)))))))))...(((.(.((((((((....((....))..)))))))).).)))((((......))))...)))).)))))))).))",
+      "pf_scale": 1.9567705810467348,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    0.0,
+    0.0
+  ],
+  "sequence": "GGAGGGTTGCTGTCGCACTAGCACCTGAGCTCCACCAACTAGATTATTATCAGGTACAGAATCCTGTCCTGAACCTGGGCAAGGCTGGAGGTACTGTAGAGAATCCAGCTTGGGCCACTGCTTCCATGTAGAGAAGTGGGACAGCAGGCC"
+}

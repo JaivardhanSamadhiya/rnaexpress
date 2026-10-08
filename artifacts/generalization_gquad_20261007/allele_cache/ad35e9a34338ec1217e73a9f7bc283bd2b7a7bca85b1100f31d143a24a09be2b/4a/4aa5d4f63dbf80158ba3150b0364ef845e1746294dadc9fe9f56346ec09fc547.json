@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    12,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    2.5649493574615367,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "ca45998c5f1ec1d4b1b9284f34fa0e1af3cfd3b8080bb862c92847ef6bd4d22f",
+    "sequence_sha256": "4aa5d4f63dbf80158ba3150b0364ef845e1746294dadc9fe9f56346ec09fc547",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "109"
+  ],
+  "length": 190,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": -0.014598846435546875,
+    "modeled_at_least_one_GQ_probability": 0.02340875408044736,
+    "off": {
+      "G_kcal_mol": -40.29622268676758,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -34.900001525878906,
+      "mfe_structure": "(((....)))..................((((.((.(((((((((......((((((...))))))............((((.(((.((((.((..((.((((..(((....)))...)))).)).....))))))..))).))))...........))))))))).)))))).((((....))))....",
+      "pf_scale": 1.375607994925751,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -40.310821533203125,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -34.900001525878906,
+      "mfe_structure": "(((....)))..................((((.((.(((((((((......((((((...))))))............((((.(((.((((.((..((.((((..(((....)))...)))).)).....))))))..))).))))...........))))))))).)))))).((((....))))....",
+      "pf_scale": 1.375607994925751,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    -0.014598846435546875,
+    0.02340875408044736
+  ],
+  "sequence": "CAGTTCACTGCCCTCGCCCTTCCCTTTCCTTTCGTTTCATTGCTTAAGAGACTGCTTAGTAAGTGGCCAAATAGTTAAGAGGGGGTTGGCTTGGAAGCAGATAACAGGAAATCTTAACTATCAGTAATAGCCAGTCTCACCGCCTCACACCATAATCAGGCAATGACACAGAGATGTTTAAAAACAACGT"
+}

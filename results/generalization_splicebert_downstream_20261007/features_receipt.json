@@ -1,0 +1,546 @@
+{
+  "SRLE46nt_OOD": true,
+  "backend_receipt_sha256": "ff73e01f7fbdb4c5f7e338ff4f477009fa2951f3fd71f3dc7769dd541702f2d9",
+  "batch_size": 2,
+  "cache_index_sha256": "a39da27c1021664e9d05e24daabdbeb22e6c3d6a64bb0ad1825ac1fa3832d2ab",
+  "columns": 256,
+  "compact_shards": [
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0000.npz",
+      "sha256": "bacf1ecdea635eaef8b170156151c9c339da775669056b66d675f3aa0aa1ba79",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0000.json",
+      "sidecar_sha256": "916c6e4bcd4298c2227c03e698edfd73a454aff2cf2f9bc1c9fe65add0580c21"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0001.npz",
+      "sha256": "93acad12f997a269bd686d8e8eefb028bedf49abb57e19965b662600825772cf",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0001.json",
+      "sidecar_sha256": "2e32336f3e3099c31c0938b8953a7716659aa9f122d89540c890e3ab1439bb18"
+    },
+    {
+      "alleles": 230,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0002.npz",
+      "sha256": "3f6208ec009ce0c44027fcd3b0f48bc96a86b50f24eedf787ff840f0dacfa76e",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0002.json",
+      "sidecar_sha256": "af5d49fbc64c4d19084c197db97afc02081b3a663c2ef45466afdfc11b466ec4"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0003.npz",
+      "sha256": "67db3807378f03529a01e99ca5f7bac0c8689818c0089d0277294895fe59608b",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0003.json",
+      "sidecar_sha256": "d10eb39f6f44dbb8bae93a73c3a0f28b56f6d19b4b9f7a1e695e5ae6dc8094f9"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0004.npz",
+      "sha256": "e892e8b00e47eb3188ec86167b333d3ce149fb9da44fad5edc4ef78280be029e",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0004.json",
+      "sidecar_sha256": "b27d01e0179930bbb68efeeacd490864a2c6a63b5d69c4d9ab86e95c1507143f"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0005.npz",
+      "sha256": "d6bb8fee6168b507085c3facf0fb2aa76063bb55be64bc636b838eb72c0ac606",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0005.json",
+      "sidecar_sha256": "fe9a2ba3afd860b6bc17372ff990ad5e457738bb8993e3911c66185ada8f7ebf"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0006.npz",
+      "sha256": "efe151ac97efb2fea058faf24549e318f9745d5bf2473f72c79f59813a5d52e7",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0006.json",
+      "sidecar_sha256": "71c052c0bfcd958e4a6a8e0f25184926c14407bc4534a8183a3205c1bf9839bf"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0007.npz",
+      "sha256": "ae8cf7f204a98369552afe0944ab69bbae42968b759431fa84a9eaf1f36abbe8",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0007.json",
+      "sidecar_sha256": "a2d9c97cb4c1a2d4e66a00f837ccbac7e63cb66dc1e75bd3186926d65e5f88cd"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0008.npz",
+      "sha256": "be099083586a77572cd8d76a9bc70c31ee1b506e6390e190b7c6209f1a97a200",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0008.json",
+      "sidecar_sha256": "6925dc206ff77a7fc398a5a29663d5ffd8addd5e44d2952390770e0d7d02ab01"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0009.npz",
+      "sha256": "6b4ad98a5decfe2282c43b6eb54c56ed1657b015c004d1a9c2f0928f22ff92c2",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0009.json",
+      "sidecar_sha256": "e8c4f4b866ed0d19e089556f8e88701b283458d175f515dcae993c7e7034d511"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0010.npz",
+      "sha256": "4de8f4a1b4198070a23872b5901469a1d56ae10c4cd118b9390825a717fe3105",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0010.json",
+      "sidecar_sha256": "a32e325b3ddba2f3a43285580b9bbf6256cfdeb86dac8bbf4b13fae54882ed05"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0011.npz",
+      "sha256": "8b0ae8a6c896a83b273d829991fa75b300b660d2ae2a8ad85761d1198be7491d",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0011.json",
+      "sidecar_sha256": "a4d2e4772163786ed9da2d9ae987c40d142c7ec14dc6f63f8e2f6da85f88ae4c"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0012.npz",
+      "sha256": "fb3ca8e9ae39a148f9c953714ba474a16f8637a9761fe84f483fc06742020187",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0012.json",
+      "sidecar_sha256": "7b4d55207a5a99fa4f125b9bfe2c9f1600fbacb9fef43bc32899e52993db610c"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0013.npz",
+      "sha256": "c4d9ad188b1de46642f9a2b130d6cd89aa08778a07ece3f539de3c3423d8d14e",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0013.json",
+      "sidecar_sha256": "ef96d0c8bd1ff45270059812f57a045bf9212eccc8d62fc850b2721698cc99dc"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0014.npz",
+      "sha256": "8659db74f8995f1fc7a4e20b22daaa3479fabf2cbff02bb67718082356ec7744",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0014.json",
+      "sidecar_sha256": "7c16a72a33b5dc0782147da397bece28216721064ea1e288b497a12a0ecb58df"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0015.npz",
+      "sha256": "9efda190a15d382be8761a95eac326b1de4c80639b243decb87dd3df1d7dd050",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0015.json",
+      "sidecar_sha256": "7861f175a68136cb9bea594d6d50abdb5861251f35c445d0fdda4fde35995990"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0016.npz",
+      "sha256": "5e972c3caedd13bd50e6cb96b455996cafa6fc7f9fb0190ccca4d957d01a267d",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0016.json",
+      "sidecar_sha256": "8e00821530cb0095306abad1105c7137d6df7eabf480d03e4890bdfd2b0af882"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0017.npz",
+      "sha256": "10f41c96eee996fa3e902a875c7243a751ea756d463805ccb10ca477800ebd82",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0017.json",
+      "sidecar_sha256": "b036803ed68aba6d43208105e512a55943635098f3c11a739402e555dfafda44"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0018.npz",
+      "sha256": "e6353aa6cab9d58b397704dd5e9a565e088f8a74bbf901cd1792101aa102cd3b",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0018.json",
+      "sidecar_sha256": "0009efe57b2b4f93b31501e3149cd9f16d8ae01b23a57d6b85e72625ff1c1d6d"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0019.npz",
+      "sha256": "0d80b824aacc84f57003aa379cb1c7ddda147fc6075b274a7564bff676f381c0",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0019.json",
+      "sidecar_sha256": "da2fec7dfeb3f05be3e17f37eef654bc3bb88e68db805a3b50ac60700825795e"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0020.npz",
+      "sha256": "9a0fc9736c91d4bf6e026a719d46dead567cc89d82deeb2c6ba4729c677cbf4e",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0020.json",
+      "sidecar_sha256": "6b95b838c90d8bd815cf1577d9c9bb9ebb5d9d302c819f3c4aa85a6c3164cc51"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0021.npz",
+      "sha256": "b2cefa4aab58e7eaf490eba4abd3ef449aa5f02acbb87f257d6d3f4c1a09edc1",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0021.json",
+      "sidecar_sha256": "a77be49a54e3e63e384b1b4f31862eed4c4042bac13bb482463917d717b7f4fc"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0022.npz",
+      "sha256": "e885f60d043e603e11a59d8244f5081939833349d6802315569ed8ed2598c336",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0022.json",
+      "sidecar_sha256": "2690eb444823ddba031d9ea16cf3247081331f1e5e6b9514cde01b390968253d"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0023.npz",
+      "sha256": "7376d4110b85b2ea48d17b60ad99e43b89d5669c5cdf0e24350239540643b067",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0023.json",
+      "sidecar_sha256": "e5ca06359b9bca95fab8325781a58a44eae10a6af5f5003762a92b7e18182a02"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0024.npz",
+      "sha256": "bdff0acfe89523eb847362e42af7e0fabd9fda5085946554aba61a26b7e1d5b9",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0024.json",
+      "sidecar_sha256": "faf68711f48207973e22bf260de58616214111f62f1ac6ea9de1e943e4a18ef4"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0025.npz",
+      "sha256": "f0712e6cfec366f226174cb72cf86d43212c755233f219a8bf909366c195147c",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0025.json",
+      "sidecar_sha256": "35864fe0e8be6370d3661d955dbed5dbd860e3f535d998fa7e7d0425f5238359"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0026.npz",
+      "sha256": "7a8adef8a8acd4352e14b5ffcdfb71a61645cba1befe1acd56e6c3fb0c54ea6b",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0026.json",
+      "sidecar_sha256": "6cec50ced05afdc636f095b9ab517aa21283992e1accd61a76ae5f5841a81d29"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0027.npz",
+      "sha256": "ce79240a0f3d03c82b893e35101f1b854706bac196d2752e8ad6e6e53684a4cc",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0027.json",
+      "sidecar_sha256": "b607d4d970340896532e455fe5d1c66f4bfbc959dfe49cc73825f109fbb8b657"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0028.npz",
+      "sha256": "d848eca16bb97a4aee556474e50822358dc12c6d5fcc56573294936add155cef",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0028.json",
+      "sidecar_sha256": "5139f27a003d6dc19a56ba1ee91a56a817a004f4469b6f2fe5aaa9b2a3367a57"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0029.npz",
+      "sha256": "547c161656ffb4ec8c7a3ff631ac3b00723ad843780a3d56abe727a348d29d5a",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0029.json",
+      "sidecar_sha256": "f1e5d44786ca92f287d9ac26e059e51adbe7520c99931af2614b2d716280bf93"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0030.npz",
+      "sha256": "e23137dedc940e08cde8f828c73dfd0e10a9c2fe2e2a5540f6c87a7ae52071a6",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0030.json",
+      "sidecar_sha256": "bb449eefe5a962b61463c3bc29c52407856476596de73283a967441859ede764"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0031.npz",
+      "sha256": "3073fea91e504d20b86ad0ee5315e61c5cb8b0de9d20125548276ba829f753fd",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0031.json",
+      "sidecar_sha256": "2727ff72fe93830e242ed2204dc2b6fd1c4ded90367d4d027b2498affb59611c"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0032.npz",
+      "sha256": "2691c3b5d6062495e374d476feb79e4a29b184f408503d5942149ddc28b8455d",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0032.json",
+      "sidecar_sha256": "01631dd8dc72a9104fd2410dddbd9827111c7d1ef102a02645523c55739c5c66"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0033.npz",
+      "sha256": "363c49b059b55d67b64695a342cb23b966f4eec018952832f53c805219e39923",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0033.json",
+      "sidecar_sha256": "1323a570ed1fa854b02c88ff505fda3101e3555133ac9effe4421ee1cc54ca90"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0034.npz",
+      "sha256": "e22c617c14c5ae1ef83fa7e1838bcd86bdd220474a7c3e0c83d5f06a28d0796b",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0034.json",
+      "sidecar_sha256": "2f919eaed60be9850c032ac23028deb89fa79ef10df2c46b4f04167a41124f0f"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0035.npz",
+      "sha256": "1e58eff9d7ee7226ae2dd6019bd2d3c2dcb541fb6ccf05e9bdb245d15a0845e4",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0035.json",
+      "sidecar_sha256": "0c125c709cea292636c9988649b22e683b950f95a6889d8deba865d9417939ad"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0036.npz",
+      "sha256": "d00c4594e9793ce1b48e087470fc2f3c3b91847557206a18512e330f3fc61f79",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0036.json",
+      "sidecar_sha256": "26c5bf3a4de5c0967ac21932a8f055a19fb89465d62491a32a7dbae2e804bf7a"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0037.npz",
+      "sha256": "67bb594c17f35e8d7a1e1dc63956b1f510c12658b7a42d8c40be74fbe76485ec",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0037.json",
+      "sidecar_sha256": "4cbbb4c9a3db5a769c70265d9de70276592249bafacae06c1020bd1a8569a3fb"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0038.npz",
+      "sha256": "579ca5dc3856f4b000a8dd4a06e001cfa3501110d5d6f5f616b215fab23451bb",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0038.json",
+      "sidecar_sha256": "3d2c4cd4099f580873c44db4432f9699f8d73ac9d0dbe4070f7d37c7d852db4a"
+    },
+    {
+      "alleles": 102,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0039.npz",
+      "sha256": "2305cc0152e499c57627620454145db735b50f6d7b4f9f0d335b6c5f78526f3c",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0039.json",
+      "sidecar_sha256": "b60000907116d0659ddb7ddc9c6fa9e678420c5b3c327f94a423e744dcfde18c"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0040.npz",
+      "sha256": "4e6b47d597706d0ec75a0f4548c8de9e61681c526f385c10d297645f24bcfd98",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0040.json",
+      "sidecar_sha256": "73a8e92d975c19de4b073f2fde6d38c64d5dd19a0e3df9bc3ad919773812d902"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0041.npz",
+      "sha256": "48936d848f1fbf62f15b5993adccefc00cf2d9b4dff6e2b6fe0744e1956895af",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0041.json",
+      "sidecar_sha256": "b08b5498cb35d400e72f890af6bd45d29f5df360dc92cad6ff0cace31b650e9a"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0042.npz",
+      "sha256": "057fd21a5ed8133983c23d1e471a9f5cdeb5dce9d95b555b7963956d0d120ed4",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0042.json",
+      "sidecar_sha256": "810cb1e72883b8e0346c706ba76baa3c9a759b91257ff271e2362de4c0bf5ec5"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0043.npz",
+      "sha256": "144ab87c2dff877eb9b6e8b30f16eb16cc670aac7a52e3b04862b059233b8cf6",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0043.json",
+      "sidecar_sha256": "2bd5021d992b0b649a711f1cba5d2d2eb9d7a447a4f33f55a26a9ab3c455ea70"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0044.npz",
+      "sha256": "690a2ad17376b233cea9a38259569f156f5b1f721cec516e7cad135fc5ac7f55",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0044.json",
+      "sidecar_sha256": "2d3c0cccdd140440f2396960b38f6ab2a9982f7da2180a3beed7e998654bcc26"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0045.npz",
+      "sha256": "818342b97e68a3c74e9149124dcfcb50ffaa9b33339159b891b4678af7de9699",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0045.json",
+      "sidecar_sha256": "523209e075177de6938ad44f7933f02714e011d632a78733bb73a1943e7da1f2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0046.npz",
+      "sha256": "ee4b3c46bae4df492bc1a8cceb2b6ccccdbc6a0891eea0eac4e06d52ef82a90a",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0046.json",
+      "sidecar_sha256": "e61164e99a7d170b3a0777d4f2c9f2f7d5233ca614f9df518cda738fa095cfa3"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0047.npz",
+      "sha256": "c5211a710d5bc87b658079ab48f4704d456e7183db7502305bd70392121846f0",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0047.json",
+      "sidecar_sha256": "eb2dcdbdf48e7fea966e293cc843a081156bacb3579794d2c8cfca1bb433707a"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0048.npz",
+      "sha256": "816ebc78a59c4a7b61cded4aa33356df2a7b5f93b5ba09413ca0522d3be4dc23",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0048.json",
+      "sidecar_sha256": "03039cd657c1ba72f4b380e9f96a064a37b21ebb263647d8ef427510c9b67001"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0049.npz",
+      "sha256": "057ae7f41de248b95ffbaf8be770ff861829fadbe7340ab1d1f38072b0486786",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0049.json",
+      "sidecar_sha256": "673bcfc939e01d2c17ab99b8d99cc49c4dd07cddc7245ef5f7769ff0bf726713"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0050.npz",
+      "sha256": "7e5f1e461b0f9ca3fe742c6e745cd79c01786244c6500f215dc9bfb676313145",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0050.json",
+      "sidecar_sha256": "3b4ac94fcc98b7ad9f5a67248392f4e9462a9312d4312b62ae9d6f2aa820ce83"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0051.npz",
+      "sha256": "e0871072c65c61360cfed35c6d5e5d5921570e23ed66b9115dc79f2c87ac4201",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0051.json",
+      "sidecar_sha256": "1c6fc30a81f78c9a45e3bee7d35e592fa2ab8507e67af751666de9f0e67f799a"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0052.npz",
+      "sha256": "92af5f4eeb200600ad36d33c74bfdbc1a32b916143a8a823e7228deea66f339f",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0052.json",
+      "sidecar_sha256": "0c2265bbe205e14f2432471b6630b8d6b32d218893f272912bc863e14f963f72"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0053.npz",
+      "sha256": "18f5a097896479c8b86d9120e55529b0d20e9d08ad5541ffc4a6564c230b4ed3",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0053.json",
+      "sidecar_sha256": "43aad76251f1e6da5906c11970dd6cd4fe46d728dea3808baa073366074f8d12"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0054.npz",
+      "sha256": "cbbc940ad6aa19e783209b9b4b7cdd29fd877e278c2ed3314095d9e3847f875a",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0054.json",
+      "sidecar_sha256": "29826c50145a96dfdfb24feb3f1f0a12ad1c95e8367539033611cfde72a3940a"
+    },
+    {
+      "alleles": 151,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0055.npz",
+      "sha256": "4efeb9f11bfedb08cd33fdcbc7d4ae91aa31555dae25309c549d1af1aade6256",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0055.json",
+      "sidecar_sha256": "eaec4a7c689a2af47a263ec83d883c99643f5a57aa4ef2fa55450559a1497c1b"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0056.npz",
+      "sha256": "ea350dfa014895ea88c6207b65a34ea9803d98abea19891992ee6de47da02437",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0056.json",
+      "sidecar_sha256": "6afccd05d3262e5f9c7de586ffc0b1525835d9ce9883e3f356d6043ff75a5d81"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0057.npz",
+      "sha256": "cb86257872f4f0681937062f3dae0bca243e0e626042c5637b078b74d607c047",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0057.json",
+      "sidecar_sha256": "ee8e197d1207b58c4532f7c9ae276f7d08fb4d180e91b748bb2b122251a6fd0c"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0058.npz",
+      "sha256": "31d17115f14ca5bea58c179f5fbac318f93921e6dd3f574f05cc642f5c1067ef",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0058.json",
+      "sidecar_sha256": "8f0d901eb7edcefc4f6b83de76c8184f7cc78c4cb78f53888199de71da319081"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0059.npz",
+      "sha256": "060eb45d09e97a8c0f0bfdc40e27916cf2d9d6ee13aafa8937568dc6c439a6d3",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0059.json",
+      "sidecar_sha256": "8e9debe6c97d7ec9c5553e2a8da86df932fb475a679ecf05ce59f769f1d52b5d"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0060.npz",
+      "sha256": "f040db53e893e63f9d5a81cdf496c43270b7c100f5e49d80c23c39058a3e8a9d",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0060.json",
+      "sidecar_sha256": "171f07f4e9b4b6ba3a833a348f5004fc1c4f64ae4af1a9a601438f3552e52ed6"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0061.npz",
+      "sha256": "15dfa964f010cb7b907c0bd632910a51914ed5a9bd6bedbb0d8b49f783e3b811",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0061.json",
+      "sidecar_sha256": "6729cde30dc51b5dc927f533d6eae8991d3044a468ec27c706131ff85963ddd2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0062.npz",
+      "sha256": "17d00406f1e0658732f517bb1f0ad9fee875807328e2c8a8e09dcc1fe7c7938f",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0062.json",
+      "sidecar_sha256": "03f477c6adb60dcae4fadcbf6083cad8da522142287596d280a7c92292e842b2"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0063.npz",
+      "sha256": "1ce87b509316b8b5bc253fa001e2a33416160b18e89cd32ef1a9027df9dd25f6",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0063.json",
+      "sidecar_sha256": "59c53ddb99ebe9fda0ed08aae6fdb2d9b2698baec66219e548c19566ae9d4811"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0064.npz",
+      "sha256": "ff7588fc4ab76f1419e5bae8c06189f0fe574d967f738b899b57ef40be8c50a8",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0064.json",
+      "sidecar_sha256": "432a3d6b35cec364044999bba198aa072f728a26fce3b32796b989a9d7d08996"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0065.npz",
+      "sha256": "9ad737329ee0eb991223d463711b59a7881e25b88a5dafe3c222b03fb6a17e90",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0065.json",
+      "sidecar_sha256": "e6471d39e966226f3f13d6cfd6b7418b10242af8f42b3cc5b4ee73fb6b695198"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0066.npz",
+      "sha256": "806aeee07c9b261488574f8a6d152fe6c8ca1d7a27c5bbcc4fa985b0b3c6d9dc",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0066.json",
+      "sidecar_sha256": "cabd370d92d56a62f5699f7a9661ad85ec4ba6fe432ab35277c848f7b76cc045"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0067.npz",
+      "sha256": "3bd8e21f443b82875b4c8c2493c75489638f29be65d9d49c55966e4a7cdcc01f",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0067.json",
+      "sidecar_sha256": "a2e13118403f45aa635e404bb68255236267b5b250aec3fa67228d8a78c69beb"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0068.npz",
+      "sha256": "9c04e2b4e7a23c2524d98e9334508c5140d4ec55274257d51015b749842bcb2a",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0068.json",
+      "sidecar_sha256": "294a8d9b9fddd050d7d1902476dc48535713d1043164f34c135982e8e18048f8"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0069.npz",
+      "sha256": "2f4f92175df5e67b7d079e85c0bd3608c980c3e707687cdc6904c47d5f820c56",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0069.json",
+      "sidecar_sha256": "8206997990cedb5bde102feebfefdcb71e11d53752bbebd5610d9d6df64326d4"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0070.npz",
+      "sha256": "f966c92234b64fe88dce9b36f4951e02b2ed29ba710224001743490f137f3da3",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0070.json",
+      "sidecar_sha256": "ef2993888b4f329c7ad5fef782013898aa748cffc046d06433e80904eed61d40"
+    },
+    {
+      "alleles": 256,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0071.npz",
+      "sha256": "36423d2556045fa547bea0a222e0630b5ea4323d8c0293ae1c026e0a3e08e206",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0071.json",
+      "sidecar_sha256": "d222058cedd67d7ea372af5320e646154d97dd6b06a33727fba576399bf14a7d"
+    },
+    {
+      "alleles": 73,
+      "path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0072.npz",
+      "sha256": "f3ab5323bd482478fc003207d10f9b82f0e1183f7520f33bb1672ad3fca40630",
+      "sidecar_path": "artifacts/generalization_splicebert_downstream_20261007/compact_cache/shard_0072.json",
+      "sidecar_sha256": "f1da318c2fe350fa94780f509815f70381fc33a1ecadd597bdc360aa1a43b2f1"
+    }
+  ],
+  "elapsed_seconds": 2367.506941700005,
+  "encoded_row_identity_sha256": "b3409375921c56aa738cc83381f0d5212e5f35dd82d8e1895636ca91ea7dce57",
+  "headroom_before_import": {
+    "available_RAM_bytes": 3411009536,
+    "model_conversion_or_inference_started": false,
+    "proposed_minimum_disk_free_bytes": 5368709120,
+    "proposed_minimum_free_RAM_bytes_before_model_work": 3221225472,
+    "requires_fresh_check_at_start": true,
+    "resource_admission_now": true,
+    "timestamp_UTC": "2026-10-08T01:52:00.197579+00:00",
+    "total_RAM_bytes": 16805040128,
+    "workspace_disk_free_bytes": 1418627907584
+  },
+  "lookup_features_sha256": "bc091a7ab63f8133e21763636d4d521250c140f667fbe34b25cff2afabf6610a",
+  "models_fit": 0,
+  "original_metadata_identity_sha256": "78767b17e63bb4fb769a2aca3012b9048ce2b080813b226c3a4e2208751136a1",
+  "outcomes_used": false,
+  "production_manifest_sha256": "f9af6b84ae296b5f6222f76a8105b7fefbf60707015ba0e9d079c3340e23fe67",
+  "required_projected_tokens": 92878,
+  "rows": 26258,
+  "scope": "Outcome-free single-base feature production; no fitting",
+  "spec_sha256": "d03407faf5fdb07f36736a66d45f02935d098432ad732ad8ba503d03767fc010",
+  "splicebert_features_sha256": "0877aea6b3da519ea2420a4459b3983912b804a79ebaa2e18fc9979f03ec8d6b",
+  "status": "PASS",
+  "threads": 2,
+  "unique_alleles": 18220
+}

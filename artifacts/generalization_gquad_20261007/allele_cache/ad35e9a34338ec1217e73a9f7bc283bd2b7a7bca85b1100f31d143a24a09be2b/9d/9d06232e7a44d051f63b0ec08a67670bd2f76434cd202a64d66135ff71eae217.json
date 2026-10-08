@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "dd42c2f2618a55364ecb9aae9ae1c3c87b7690ac190085fbfe931c3f535550f9",
+    "sequence_sha256": "9d06232e7a44d051f63b0ec08a67670bd2f76434cd202a64d66135ff71eae217",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "15,17,18,19,20,21"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": 0.0,
+    "modeled_at_least_one_GQ_probability": 0.0,
+    "off": {
+      "G_kcal_mol": -34.18556213378906,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -31.0,
+      "mfe_structure": ".........((((((((((...))))))..((((..........)))).((((((.....(((........))).(((((.((...)).)))))...((((((........)))))).................))))))...))))...",
+      "pf_scale": 1.4316045022784871,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -34.18556213378906,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -31.0,
+      "mfe_structure": ".........((((((((((...))))))..((((..........)))).((((((.....(((........))).(((((.((...)).)))))...((((((........)))))).................))))))...))))...",
+      "pf_scale": 1.4316045022784871,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    0.0,
+    0.0
+  ],
+  "sequence": "ACAATTTAAGCTGCAGTCAACTTGACTGAATAGGAAAAAACTAACCTGAGTTTGGAAACTTCAGATAAGATTGATGCTCAGTTTCAAAGTGAGCCACCAGTACCAAACCCAGTGCTGACGCGTAACTTCCTCTCCCAAGCACACAGCCCA"
+}

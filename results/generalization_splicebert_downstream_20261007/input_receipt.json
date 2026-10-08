@@ -1,0 +1,37 @@
+{
+  "encoded_row_identity_sha256": "b3409375921c56aa738cc83381f0d5212e5f35dd82d8e1895636ca91ea7dce57",
+  "feature_paths": {
+    "base": "artifacts/generalization_next_20261007/base_model_features.npz",
+    "combined": "artifacts/generalization_splicebert_downstream_20261007/combined_model_features.npz",
+    "lookup": "artifacts/generalization_splicebert_downstream_20261007/lookup_model_features.npz",
+    "raw": "artifacts/generalization_next_20261007/raw_model_features.npz",
+    "splicebert": "artifacts/generalization_splicebert_downstream_20261007/splicebert_model_features.npz",
+    "structure": "artifacts/generalization_next_20261007/structure_model_features.npz"
+  },
+  "features_receipt_sha256": "bdf501c32c247c73e9593928f0a60cfa5a3278a03b185a827862fb649f1583e0",
+  "files": {
+    "artifacts/generalization_next_20261007/base_model_features.npz": "cf7d79d6b1a0efa3228fbcbe8c61b0e712c2fb630f9c1ef9302dcf83f152693c",
+    "artifacts/generalization_next_20261007/raw_model_features.npz": "a49d7a2d41e3288a1e5f3bac92fc139968d31095da1b98efa6c728021127eb9f",
+    "artifacts/generalization_next_20261007/structure_model_features.npz": "0b3879eaf593c9ef78917b24c165ce501be88ebd7d5c361f27a98298850ba1b1",
+    "artifacts/generalization_splicebert_downstream_20261007/combined_model_features.npz": "31fde1817186457550ae7b91c26b2c3a6e800f4137f1cf12cf1eb4056ffef885",
+    "artifacts/generalization_splicebert_downstream_20261007/lookup_model_features.npz": "2a8761aa630052557e5ab0bd2fba1671e4df3be8865ff57e1db01b7aa6c7f69a",
+    "artifacts/generalization_splicebert_downstream_20261007/splicebert_model_features.npz": "0f132b8bc9d8f9d7d2ead4b0eadd6ab9bfbb5eb813bef361eb2187b0d42fc3e2"
+  },
+  "models_fit": 0,
+  "original_metadata_identity_sha256": "78767b17e63bb4fb769a2aca3012b9048ce2b080813b226c3a4e2208751136a1",
+  "outcomes_read": false,
+  "production_manifest_sha256": "f9af6b84ae296b5f6222f76a8105b7fefbf60707015ba0e9d079c3340e23fe67",
+  "row_index_sha256": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+  "rows": 26258,
+  "shapes": {
+    "base": 246,
+    "combined": 518,
+    "lookup": 502,
+    "raw": 251,
+    "splicebert": 502,
+    "structure": 262
+  },
+  "source_control_prefit_manifest_sha256": "93b78aa2f49998a77c2a61ceddb4c4da78e4236e4a81f54608abf0b2d9508e36",
+  "source_controls_byte_identical": true,
+  "status": "PASS"
+}

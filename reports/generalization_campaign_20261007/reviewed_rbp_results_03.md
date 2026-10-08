@@ -1,0 +1,21 @@
+# Independently reviewed RBP transfer results
+
+All three declared RBP tracks remain NO-GO. Accessibility improves over the raw-motif route on all four exposed assays, but does not satisfy the unchanged generalization gate or establish a biological binding mechanism.
+
+| Track | Macro regret (lower better) | Gain vs best simple | Gain vs historical H0 | Verdict |
+|---|---:|---:|---:|---|
+| base | 0.512255 | -0.015387 | -0.024027 | NO-GO |
+| raw | 0.526923 | -0.030055 | -0.038696 | NO-GO |
+| access | 0.487635 | +0.009233 | +0.000593 | NO-GO |
+
+The accessibility-vs-raw mean improvement is0.039289, with assay gains Astro0.004098, Mikl0.002051, Moffatt0.054657 and SRLE0.096349. Its fixed incremental check passes, including positive gain after the best assay is removed. However, raw was a poor comparator: its mean regret0.526923 is worse than base0.512255, and its gain versus the historical simple controls has a wholly negative reported95% descriptive interval[-0.044981,-0.014785]. Accessibility mostly repairs this deterioration; the improvement does not make the whole-assay task pass.
+
+Accessibility macro regret0.487635 exceeds the required0.468, and mean simple-control gain0.009233 is below0.02. Its reported descriptive interval[-0.015770,0.034185] includes zero and its lower bound fails even the declared permissive-0.01 threshold. Only Astro and Moffatt improve versus the strongest simple controls; Mikl is worse by0.033720 and SRLE by0.032315. Only Astro improves versus historical H0. Positive gain concentration is above60%, and removing Astro leaves negative mean gain versus simple. Thus breadth, concentration, distributed gain and protected Mikl/SRLE harm criteria fail. This interval is conditional on repeatedly exposed assays and fixed controls; it is not independent confirmation or a probability of future success.
+
+Accessibility improves over its freshly fit base by0.024620 macro, but that descriptive gain is concentrated in Astro. The other three assays all worsen relative to base, and removing Astro makes that contrast negative. Four-positive gains versus raw therefore cannot support a four-source improvement over the stronger available comparators. The declared matched accessibility comparator remains raw; this additional contrast explains the practical limits without changing any selector or verdict.
+
+Equal-assay macro summaries first average each decision direction/context within biological component, then average components. The full10,872 decision rows per track share exactly the same dataset/component/context/direction roster. This audit independently reconstructs every point comparison column, historical simple/H0 summaries, categorical wrong-direction partition, all eleven historical gate booleans, incremental checks and final eligibility. It hash-binds the completed120-model canonical replay and original verification receipts; it does not rerun models, parse coefficients, or treat aggregate arithmetic as author-level label proof. The reported shared-component exponential bootstrap source was inspected: one weight per global component is reused across studies, normalized within each assay, then four assays have equal weight. Bootstrap draws/percentiles were not independently resimulated in this stdlib audit; the existing CI bytes and their gate inequalities are explicitly bound.
+
+Raw PFMs are direct human in-vitro specificity priors applied to mouse and engineered reporters. Marginal nucleotide unpairing is an isolated RNA ensemble proxy, not joint site opening or cell-specific RBP occupancy. Random projection compresses motifs and prevents individual-protein causal attribution. No new biological study, wet-lab evidence, localization probability, evolutionary-homology guarantee or cell-state measurement is added. The postfit cell-axis follow-up remains a separate repeatedly exposed development evaluation; it cannot rescue these frozen whole-assay results.
+
+All input/source/decision/gate hashes are observed postfit audit bindings, not retroactive creation-time certifications. No old source, protocol, output, model or threshold was modified; no fit, protected outcome or feature/model-parameter read occurred. The numerical JSON receipt records exact reconstructed values, failed criteria, coverage, provenance and confidence limits.

@@ -1,0 +1,363 @@
+{
+  "all_three_complete_decision_rosters_equal": true,
+  "boolean_checks_checked": 45,
+  "bootstrap_draws_independently_resimulated": false,
+  "bootstrap_limit": "Reported percentiles are hash-bound outputs; their gate inequality was independently checked. No fresh NumPy draw simulation performed by this stdlib audit.",
+  "bootstrap_source_inspected": true,
+  "canonical_checkpoint_replay_receipt_bound": true,
+  "criteria_or_old_files_changed": false,
+  "descriptive_comparisons": {
+    "access_vs_base_descriptive": {
+      "leave_best_assay_gain": -0.007372687665160434,
+      "mean_gain": 0.024620123738820818,
+      "per_assay_gain": {
+        "astrocyte_gse330741": 0.12059855795076457,
+        "mikl_gse173098": -0.005558041735376995,
+        "moffatt_gse334718": -0.014954364911228646,
+        "srle": -0.0016056563488756614
+      }
+    }
+  },
+  "features_or_model_parameters_read": false,
+  "historical_comparison_missing_field": "neutral_only_alternative_wrong is reconstructed from original decision CSV but is absent from the historical comparison schema; no fabricated old-column parity claim",
+  "maximum_absolute_numeric_error": 2.220446049250313e-16,
+  "new_models_fitted": 0,
+  "numeric_values_checked": 32922,
+  "observed_input_sha256_postfit_not_creation_binding": {
+    "artifacts/cross_assay_20260927/model_comparison.csv": "d4885cbe82a985fcfb26fc74858758ef0daadb2cb70d59dcf1c8586a2b56be58",
+    "reports/generalization_rbp_20261007/protocol.md": "cebf65ab13045cab768168b60c889a6456a03ffe0e88274fd5c1e2b4094e0e82",
+    "results/cross_assay_20260927/decision_metrics.csv": "697739a0839fd76605b28be40a3f77ab5f84d631e39e84b4456f25707fcf21f9",
+    "results/generalization_rbp_20261007/access/comparison.csv": "79936891ee0dcc23d5fb7b61c62da9f800d30bd7ad1f581c0baf0b9cdf6c71a8",
+    "results/generalization_rbp_20261007/access/decisions.csv": "c01f83a8a561fe9ce76f3d773d3ad532f24dd46cb09078f72a4a083f6ecd77c0",
+    "results/generalization_rbp_20261007/access/run_complete.json": "a0d43e375c12ec7899860a60ff3e41bc4f419562f71cc829fb15acf87757241e",
+    "results/generalization_rbp_20261007/base/comparison.csv": "230f1af5ba1d83295627123d672d9a54a9b75f49d994a731c6ad795ad4bf33e5",
+    "results/generalization_rbp_20261007/base/decisions.csv": "be975dff345307f61892b26259ec174071b1352c20c681afc2360c0a88a5af51",
+    "results/generalization_rbp_20261007/base/run_complete.json": "59beccf1cd75ba8e83e426aae62c63be87a414dc8d358f1b24c5c1ca799038ee",
+    "results/generalization_rbp_20261007/canonical_source_only_replay.json": "7674c4aa18cd5fc081f221635c3536995db8d7bac7ec9d1c472c726300b1e00c",
+    "results/generalization_rbp_20261007/feature_production_manifest.json": "8f16350e5291bb4533ced2d5d4079b6018a37c1c5414e4669d1b078e88fe55f8",
+    "results/generalization_rbp_20261007/gate_verdict.json": "531007d57b7271c83f20549e8b930a6598cd17028f882f07b694d6c183bfa6c2",
+    "results/generalization_rbp_20261007/prefit_manifest.json": "724f8bb79a25435bf1133c57d277194312de00d621fc26d91da6dc34c32e7e58",
+    "results/generalization_rbp_20261007/raw/comparison.csv": "62297c389d175d3fd39c2a24c612709eaacd195efc609487a0404eac7531e686",
+    "results/generalization_rbp_20261007/raw/decisions.csv": "d43ec23ca9d18324ead2c83cb59b4b45a730a564b8bb4dfe998ff61d1ca40e1e",
+    "results/generalization_rbp_20261007/raw/run_complete.json": "08d22dea55a3f007924924f25dce9953aee9c0873c06dc25d0636139f09b97a0",
+    "results/generalization_rbp_20261007/verification_receipt.json": "a143108a566c63281c24badd10f2352e52cb27045d6770b04acf8039e94ed580",
+    "src/generalization_20261007/common.py": "5707393cbf51333db925ef5c66b9e949f8eeafcafa131d55747534a5b2661840",
+    "src/generalization_campaign_20261007/rbp_gate_review.py": "4017a5589f0d8dc7ce58e3e23e7b1c937ad402d5116742fa6e1bfa7b7457cba8",
+    "src/generalization_next_20261007/bootstrap.py": "0fb64d3c59ace2fc63b42450e990c26d7314c982fca793919eadc5a3a25e65e0",
+    "src/generalization_rbp_20261007/common.py": "2f6be1a99726313fb56d08540859add2c3ec03c8de8d07c5a582583d93e8b25c",
+    "src/generalization_rbp_20261007/gate.py": "39560964b6829a0a74539579b80ceacd517681c5fe7c74525cc6308c56d62e9d"
+  },
+  "protected_outcomes_read": false,
+  "selected_historical_simple_controls": {
+    "astrocyte_gse330741": "uniform",
+    "mikl_gse173098": "composition",
+    "moffatt_gse334718": "uniform",
+    "srle": "uniform"
+  },
+  "status": "PASS_INDEPENDENT_RBP_POINT_METRICS_AND_GATE_ARITHMETIC",
+  "tracks": [
+    {
+      "best_assay_vs_simple": "moffatt_gse334718",
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": false,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": false,
+        "each_avoidable_harm_at_most_0_05_vs_both": true,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": true,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "components_per_assay": {
+        "astrocyte_gse330741": 2,
+        "mikl_gse173098": 187,
+        "moffatt_gse334718": 6,
+        "srle": 1
+      },
+      "decision_rows": 10872,
+      "failed_checks": [
+        "macro_regret_at_most_0_468",
+        "macro_gain_vs_simple_at_least_0_02",
+        "three_assays_gain_vs_simple_at_least_0_02",
+        "three_assays_gain_vs_H0_at_least_0_01",
+        "Mikl_SRLE_harm_at_most_0_01_vs_both",
+        "any_assay_harm_vs_simple_at_most_0_05",
+        "leave_best_assay_out_positive",
+        "max_positive_gain_share_at_most_0_60",
+        "descriptive_bootstrap_lower_at_least_minus_0_01"
+      ],
+      "gain_ci_reported_not_resimulated": [
+        -0.03561823928624278,
+        0.00547846905219422
+      ],
+      "gain_vs_H0": -0.02402732840326735,
+      "gain_vs_simple": -0.015386678110266006,
+      "historical_gate_passes": false,
+      "incremental_comparisons": [],
+      "leave_best_assay_out_gain_vs_simple": -0.038677817014630744,
+      "macro_regret": 0.5122548486768033,
+      "per_assay": {
+        "astrocyte_gse330741": {
+          "avoidable_wrong": 0.5208333333333333,
+          "best_recovery": 0.0,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.0,
+          "pairwise_accuracy": 0.49899888570901474,
+          "regret": 0.5571623402326642,
+          "top5_best_recovery": 0.0,
+          "unavoidable_wrong": 0.0,
+          "wrong_direction": 0.5208333333333333
+        },
+        "mikl_gse173098": {
+          "avoidable_wrong": 0.19540792024433856,
+          "best_recovery": 0.4245926058807014,
+          "neutral_only_alternative_wrong": 0.0010257257757202891,
+          "no_feasible_candidate": 0.3089300711699096,
+          "pairwise_accuracy": 0.48377328796388225,
+          "regret": 0.5156347480004435,
+          "top5_best_recovery": 0.9953070597809258,
+          "unavoidable_wrong": 0.30689737553695207,
+          "wrong_direction": 0.5033310215570109
+        },
+        "moffatt_gse334718": {
+          "avoidable_wrong": 0.3333333333333333,
+          "best_recovery": 0.041666666666666664,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.0,
+          "pairwise_accuracy": 0.5192330973978881,
+          "regret": 0.4455132613971718,
+          "top5_best_recovery": 0.041666666666666664,
+          "unavoidable_wrong": 0.0,
+          "wrong_direction": 0.3333333333333333
+        },
+        "srle": {
+          "avoidable_wrong": 0.28378378378378377,
+          "best_recovery": 0.35557432432432434,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.24408783783783783,
+          "pairwise_accuracy": 0.47157335907335907,
+          "regret": 0.5307090450769336,
+          "top5_best_recovery": 0.9932432432432432,
+          "unavoidable_wrong": 0.24408783783783783,
+          "wrong_direction": 0.5278716216216216
+        }
+      },
+      "positive_gain_share_vs_simple": 1.0,
+      "track": "base"
+    },
+    {
+      "best_assay_vs_simple": "astrocyte_gse330741",
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": false,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": false,
+        "each_avoidable_harm_at_most_0_05_vs_both": false,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": false,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "components_per_assay": {
+        "astrocyte_gse330741": 2,
+        "mikl_gse173098": 187,
+        "moffatt_gse334718": 6,
+        "srle": 1
+      },
+      "decision_rows": 10872,
+      "failed_checks": [
+        "macro_regret_at_most_0_468",
+        "macro_gain_vs_simple_at_least_0_02",
+        "three_assays_gain_vs_simple_at_least_0_02",
+        "three_assays_gain_vs_H0_at_least_0_01",
+        "Mikl_SRLE_harm_at_most_0_01_vs_both",
+        "any_assay_harm_vs_simple_at_most_0_05",
+        "macro_avoidable_harm_at_most_0_02_vs_both",
+        "each_avoidable_harm_at_most_0_05_vs_both",
+        "leave_best_assay_out_positive",
+        "max_positive_gain_share_at_most_0_60",
+        "descriptive_bootstrap_lower_at_least_minus_0_01"
+      ],
+      "gain_ci_reported_not_resimulated": [
+        -0.04498145536359813,
+        -0.0147851659772865
+      ],
+      "gain_vs_H0": -0.03869583161266994,
+      "gain_vs_simple": -0.030055181319668597,
+      "historical_gate_passes": false,
+      "incremental_comparisons": [
+        {
+          "comparator": "base",
+          "leave_best_gain": -0.0583915440957137,
+          "mean_gain": -0.014668503209402592,
+          "passes": false,
+          "per_assay_gain": {
+            "astrocyte_gse330741": 0.11650061944953072,
+            "mikl_gse173098": -0.007609120782735568,
+            "moffatt_gse334718": -0.06961119856075865,
+            "srle": -0.09795431294364687
+          }
+        }
+      ],
+      "leave_best_assay_out_gain_vs_simple": -0.059853001498513636,
+      "macro_regret": 0.5269233518862059,
+      "per_assay": {
+        "astrocyte_gse330741": {
+          "avoidable_wrong": 0.4375,
+          "best_recovery": 0.0,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.0,
+          "pairwise_accuracy": 0.5005608946746217,
+          "regret": 0.4406617207831335,
+          "top5_best_recovery": 0.0,
+          "unavoidable_wrong": 0.0,
+          "wrong_direction": 0.4375
+        },
+        "mikl_gse173098": {
+          "avoidable_wrong": 0.20137534053691494,
+          "best_recovery": 0.417640115549855,
+          "neutral_only_alternative_wrong": 0.0010419306047593428,
+          "no_feasible_candidate": 0.3089300711699096,
+          "pairwise_accuracy": 0.4761218788073719,
+          "regret": 0.5232438687831791,
+          "top5_best_recovery": 0.9952464489556727,
+          "unavoidable_wrong": 0.30689737553695207,
+          "wrong_direction": 0.5093146466786264
+        },
+        "moffatt_gse334718": {
+          "avoidable_wrong": 0.5416666666666666,
+          "best_recovery": 0.0,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.0,
+          "pairwise_accuracy": 0.5232668197167393,
+          "regret": 0.5151244599579304,
+          "top5_best_recovery": 0.08333333333333333,
+          "unavoidable_wrong": 0.0,
+          "wrong_direction": 0.5416666666666666
+        },
+        "srle": {
+          "avoidable_wrong": 0.33699324324324326,
+          "best_recovery": 0.2652027027027027,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.24408783783783783,
+          "pairwise_accuracy": 0.3838240025740026,
+          "regret": 0.6286633580205805,
+          "top5_best_recovery": 0.9923986486486487,
+          "unavoidable_wrong": 0.24408783783783783,
+          "wrong_direction": 0.581081081081081
+        }
+      },
+      "positive_gain_share_vs_simple": 1.0,
+      "track": "raw"
+    },
+    {
+      "best_assay_vs_simple": "astrocyte_gse330741",
+      "checks": {
+        "Mikl_SRLE_harm_at_most_0_01_vs_both": false,
+        "any_assay_harm_vs_simple_at_most_0_05": true,
+        "descriptive_bootstrap_lower_at_least_minus_0_01": false,
+        "each_avoidable_harm_at_most_0_05_vs_both": true,
+        "leave_best_assay_out_positive": false,
+        "macro_avoidable_harm_at_most_0_02_vs_both": true,
+        "macro_gain_vs_simple_at_least_0_02": false,
+        "macro_regret_at_most_0_468": false,
+        "max_positive_gain_share_at_most_0_60": false,
+        "three_assays_gain_vs_H0_at_least_0_01": false,
+        "three_assays_gain_vs_simple_at_least_0_02": false
+      },
+      "components_per_assay": {
+        "astrocyte_gse330741": 2,
+        "mikl_gse173098": 187,
+        "moffatt_gse334718": 6,
+        "srle": 1
+      },
+      "decision_rows": 10872,
+      "failed_checks": [
+        "macro_regret_at_most_0_468",
+        "macro_gain_vs_simple_at_least_0_02",
+        "three_assays_gain_vs_simple_at_least_0_02",
+        "three_assays_gain_vs_H0_at_least_0_01",
+        "Mikl_SRLE_harm_at_most_0_01_vs_both",
+        "leave_best_assay_out_positive",
+        "max_positive_gain_share_at_most_0_60",
+        "descriptive_bootstrap_lower_at_least_minus_0_01"
+      ],
+      "gain_ci_reported_not_resimulated": [
+        -0.0157702987892524,
+        0.03418467494584573
+      ],
+      "gain_vs_H0": 0.0005927953355534671,
+      "gain_vs_simple": 0.009233445628554812,
+      "historical_gate_passes": false,
+      "incremental_comparisons": [
+        {
+          "comparator": "raw",
+          "leave_best_gain": 0.02026861706604081,
+          "mean_gain": 0.03928862694822341,
+          "passes": true,
+          "per_assay_gain": {
+            "astrocyte_gse330741": 0.004097938501233855,
+            "mikl_gse173098": 0.0020510790473585727,
+            "moffatt_gse334718": 0.05465683364953,
+            "srle": 0.09634865659477121
+          }
+        }
+      ],
+      "leave_best_assay_out_gain_vs_simple": -0.008834145067960375,
+      "macro_regret": 0.48763472493798243,
+      "per_assay": {
+        "astrocyte_gse330741": {
+          "avoidable_wrong": 0.375,
+          "best_recovery": 0.0,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.0,
+          "pairwise_accuracy": 0.5067276442237516,
+          "regret": 0.4365637822818996,
+          "top5_best_recovery": 0.0,
+          "unavoidable_wrong": 0.0,
+          "wrong_direction": 0.375
+        },
+        "mikl_gse173098": {
+          "avoidable_wrong": 0.20027772778839836,
+          "best_recovery": 0.41811755592081423,
+          "neutral_only_alternative_wrong": 0.0010263852745765296,
+          "no_feasible_candidate": 0.3089300711699096,
+          "pairwise_accuracy": 0.47834481699578474,
+          "regret": 0.5211927897358205,
+          "top5_best_recovery": 0.9949431711992983,
+          "unavoidable_wrong": 0.30689737553695207,
+          "wrong_direction": 0.508201488599927
+        },
+        "moffatt_gse334718": {
+          "avoidable_wrong": 0.4583333333333333,
+          "best_recovery": 0.0,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.0,
+          "pairwise_accuracy": 0.533465757334849,
+          "regret": 0.46046762630840044,
+          "top5_best_recovery": 0.041666666666666664,
+          "unavoidable_wrong": 0.0,
+          "wrong_direction": 0.4583333333333333
+        },
+        "srle": {
+          "avoidable_wrong": 0.27280405405405406,
+          "best_recovery": 0.3530405405405405,
+          "neutral_only_alternative_wrong": 0.0,
+          "no_feasible_candidate": 0.24408783783783783,
+          "pairwise_accuracy": 0.4744530244530244,
+          "regret": 0.5323147014258093,
+          "top5_best_recovery": 0.9949324324324325,
+          "unavoidable_wrong": 0.24408783783783783,
+          "wrong_direction": 0.5168918918918919
+        }
+      },
+      "positive_gain_share_vs_simple": 0.6160734729845445,
+      "track": "access"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "accessed_utc": "2026-10-08T02:00:55.551676+00:00",
+  "account_or_payment": false,
+  "acquired_bytes": 234,
+  "bytes": 234,
+  "content_type": "application/json",
+  "failure": "HTTP_status_not_complete_200",
+  "final_url": "https://api.genome.ucsc.edu/list/schema?genome=mm10;track=chr7_phastCons60way",
+  "http_status": 400,
+  "public_free": true,
+  "scope": "Frozen native conservation metadata/values only, no phenotypes",
+  "sha256": "e884b9e1f55a7f4e32be96fb89a1b22362f61173f0ceb065316e024224401c6e",
+  "terms_url": "https://genome.ucsc.edu/license/",
+  "url": "https://api.genome.ucsc.edu/list/schema?genome=mm10;track=chr7_phastCons60way"
+}

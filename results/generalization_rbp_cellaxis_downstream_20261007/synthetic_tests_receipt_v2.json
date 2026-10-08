@@ -1,0 +1,44 @@
+{
+  "actual_test_output_summary": "Ran 25 tests in 0.229s; OK",
+  "added_peer_tests": [
+    "wrong executable before scientific imports",
+    "wrong CP312 cache tag",
+    "changed Python native SHA",
+    "exact executable/CP312 native roster",
+    "saved candidate count corruption"
+  ],
+  "attribute_hashes": {
+    "artifacts/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  "models_fit": 0,
+  "numeric_imports": 0,
+  "prior_readiness_receipt_sha256": "5ffacf2d8e82a970fc259a22fff6146db598a125b677915ca8e27d83f954c4a9",
+  "prior_review_records_preserved": true,
+  "prior_test_receipt_sha256": "6bfdbeb616e3ae25bec7cfc21c16e9ddc687ff2677e2ce6b78857114550dd4cc",
+  "project_reads": 0,
+  "protocol_sha256": "26da9ea7c95a3fd6fe315536397637d5d2361e860a0b9c481a478650214bdaf6",
+  "scientific_policy_changed": false,
+  "scoped_test_command": "Bundled Python -B -u -m src.generalization_rbp_cellaxis_downstream_20261007.tests",
+  "source_hashes": {
+    "src/generalization_rbp_cellaxis_downstream_20261007/__init__.py": "e16db7873cfb4e01f5c6a63960a53f4b764a4e2798c11f12ba90b70ddcf29d63",
+    "src/generalization_rbp_cellaxis_downstream_20261007/checkpoints.py": "dfe33c9c378589c2fc5a6f3d29573af9079ed3b220476da15da588d87a30f1b3",
+    "src/generalization_rbp_cellaxis_downstream_20261007/common.py": "87cee5b865d4b42c8df5b4ecbef8834e0dd8c3771f418ae5b30ddfce477aa828",
+    "src/generalization_rbp_cellaxis_downstream_20261007/controls.py": "81f19aedba0d3924b72a890a31d5de6d64b65a0ba3a8678982395218bcabd1fb",
+    "src/generalization_rbp_cellaxis_downstream_20261007/engine.py": "d1e42e3294028143c197842d43f7233076887ba3053e8ab1aefff7a5f755666e",
+    "src/generalization_rbp_cellaxis_downstream_20261007/evaluate.py": "357fd67a858fcab9637ae7685205bd958e10da1afe7eb8213c827399821e7a43",
+    "src/generalization_rbp_cellaxis_downstream_20261007/freeze.py": "3b1dac28dd31242f6c3c5310ee419abd68742329c7014a8854435df3c113c44f",
+    "src/generalization_rbp_cellaxis_downstream_20261007/gate.py": "cf0c7131aa45d59baa82793af94f60301ca5f4b925ab1bd5bf9647593e3019da",
+    "src/generalization_rbp_cellaxis_downstream_20261007/numeric.py": "c3f20c5fd5faec4602e0a0b30e1c3b2346bb929146bbfafa7d273a14e4ad4940",
+    "src/generalization_rbp_cellaxis_downstream_20261007/paired_contrast.py": "a1f12fbaa0fa98471abd355465bcbc45fd3d0d172dc3ad8f5ba5a15c94db650e",
+    "src/generalization_rbp_cellaxis_downstream_20261007/prepare_inputs.py": "46f511b8e48089708819ccf5f049e8efadfbb87fd2a2256ff2d997a3dfeb6705",
+    "src/generalization_rbp_cellaxis_downstream_20261007/runtime_guard.py": "c5b436159eb96f8a3dd73126dedc7c62c98016b7b50e2842f193c8fa676c99a1",
+    "src/generalization_rbp_cellaxis_downstream_20261007/tests.py": "5199e9b90498c8181bb699a14abeafdbc7dc9255971d951c0ca8e59deba647a3",
+    "src/generalization_rbp_cellaxis_downstream_20261007/verify.py": "bc07f2882ce04a9b36baaab88163aa3ff0cab97ce594908ce8998f30c243431a",
+    "src/generalization_rbp_cellaxis_downstream_20261007/verify_represented.py": "63c335e972ea053428d4b0544d1a5edb9f8ef4f70f74f257b5bd71d214383743"
+  },
+  "status": "PASS",
+  "tests": 25
+}

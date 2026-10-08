@@ -1,0 +1,38 @@
+{
+  "all_non_tied_pairs": 29788,
+  "dimensions_before_support": 246,
+  "dimensions_supported": 245,
+  "matrix_bytes": 501760,
+  "mean_sha256": "52ec661138d61e923a823a0760c4354f889e2d3eae719b611de85514692775ee",
+  "memory_after": {
+    "pagefile_bytes": 79966208,
+    "peak_pagefile_bytes": 82411520,
+    "peak_working_set_bytes": 72232960,
+    "working_set_bytes": 63926272
+  },
+  "n": 256,
+  "same_cap_RMS_for_both_arms_sha256": "a8776a57254481f003e70b79b3f429aa50fe355d85d02b64df5644e3bc0ddc5f",
+  "timings": {
+    "all": {
+      "gradient_norm": 0.506420046037174,
+      "median_seconds": 0.011742299997422379,
+      "risk": 0.7522490802461335,
+      "seconds": [
+        0.011742299997422379,
+        0.009845799999311566,
+        0.016709900002751965
+      ]
+    },
+    "cap": {
+      "gradient_norm": 0.7864088204631994,
+      "median_seconds": 0.0005757000035373494,
+      "risk": 0.7567050077860229,
+      "seconds": [
+        0.0005757000035373494,
+        0.0006103000050643459,
+        0.0005655000059050508
+      ]
+    }
+  },
+  "valid_cap_pairs": 231
+}

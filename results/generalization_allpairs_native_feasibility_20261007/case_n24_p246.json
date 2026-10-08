@@ -1,0 +1,38 @@
+{
+  "all_non_tied_pairs": 261,
+  "dimensions_before_support": 246,
+  "dimensions_supported": 245,
+  "matrix_bytes": 47040,
+  "mean_sha256": "d7221b739eca1be9bc050a310320b009ba9bec0d8ece0f60799468093106fb30",
+  "memory_after": {
+    "pagefile_bytes": 78290944,
+    "peak_pagefile_bytes": 79454208,
+    "peak_working_set_bytes": 72232960,
+    "working_set_bytes": 63315968
+  },
+  "n": 24,
+  "same_cap_RMS_for_both_arms_sha256": "7c267eeb1dadfa1a3ae09f3c7f7229515955c45290bf04bd23e88afb92d49ffb",
+  "timings": {
+    "all": {
+      "gradient_norm": 1.5585256727129433,
+      "median_seconds": 0.00042190000385744497,
+      "risk": 0.770230783494419,
+      "seconds": [
+        0.00042190000385744497,
+        0.0004978999932063743,
+        0.0004067000045324676
+      ]
+    },
+    "cap": {
+      "gradient_norm": 1.5351813144838942,
+      "median_seconds": 0.0005336999965948053,
+      "risk": 0.767176273198444,
+      "seconds": [
+        0.0005181000014999881,
+        0.0005336999965948053,
+        0.0007057999973767437
+      ]
+    }
+  },
+  "valid_cap_pairs": 243
+}

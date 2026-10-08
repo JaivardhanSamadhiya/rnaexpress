@@ -1,0 +1,78 @@
+{
+  "actual_runtime": {
+    "binary_recompiled_from_inspected_source": false,
+    "files": {
+      "data/interim/mechanism_v2/runtime/RNA/RNA.py": "a8dab82efec718e2c5bc77767ff17f1f9b91bbfcabb2313ffe4ced1855389406",
+      "data/interim/mechanism_v2/runtime/RNA/_RNA.cp312-win_amd64.pyd": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+      "data/interim/mechanism_v2/runtime/RNA/__init__.py": "57393341520925355f766c68dea057ebf699317b99bf84f802344522c493327d",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/METADATA": "4073bcbb3e3df333e6d2f8b9c5dbe2826bd76934ff57bbe76e7fad24082198c1",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/RECORD": "6a2f5705271ae7ea636c10eb2580985db6018dbdaba5d3552a89cdd64d8e7b64",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/WHEEL": "f143fdc7da6e588d0fd55fddecada831306a7de2cd9b6d424f367f3edaf43575",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/licenses/AUTHORS": "0ec9170c6eac7f29b04fb01501ffdc7a9751d99fc371d13cd48c6cdf5d753ff6",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/licenses/COPYING": "7776cce4c6155eba82ea6bcb5c108f25b9fb0f604664421bfd6da94930028d8c",
+      "reports/v2_rescue_preregistration.md": "4cdbf5749fde5fcd88c2d20e67b0044382eb010e40e018bdc28afe6588b23fc5",
+      "src/generalization_next_20261007/route_structure.py": "07fcc17553f7a48160b2b47c7c6e265707941659431f22dac79dab3911d02548",
+      "src/modeling/v2_features.py": "f47401e5a517417f059db2e1a706eab7366625b2f15408aa80af3b5fdc9f5805"
+    },
+    "installed_RECORD_matches_selected_files": true,
+    "pf_native_uses_float32": false,
+    "source_native_parity_scope": "version/package RECORD plus independent synthetic API/grammar parity; not a reproducible binary build",
+    "version": "2.7.2"
+  },
+  "alleles": 18220,
+  "birth_hashes_required": true,
+  "both_ensembles_fresh": true,
+  "cache_index_sha256": "767ca745afc61475ec0d3cffe9f73796fcbc957d326d295eeedf7f7c30a9521d",
+  "coverage_counts_only_after_production_freeze": {
+    "150": {
+      "alleles": 9318,
+      "positive_modeled_GQ_metric": 693,
+      "raw_any_box": 3820
+    },
+    "190": {
+      "alleles": 3991,
+      "positive_modeled_GQ_metric": 533,
+      "raw_any_box": 2869
+    },
+    "260": {
+      "alleles": 4169,
+      "positive_modeled_GQ_metric": 2963,
+      "raw_any_box": 4119
+    },
+    "46": {
+      "alleles": 742,
+      "positive_modeled_GQ_metric": 0,
+      "raw_any_box": 0
+    }
+  },
+  "elapsed_seconds": 7583.896628299997,
+  "encoded_metadata_sha256": "6b801e948d3349014307b57cd40f22d2faacb0e63cc4ffc2204bf3340ab7ef75",
+  "headroom_before_native_import": {
+    "fresh_free_RAM_GiB": 2.5797882080078125,
+    "fresh_free_disk_GiB": 1326.140625,
+    "one_thread": true,
+    "required_RAM_GiB": 1.0,
+    "required_disk_GiB": 1.0,
+    "stage": "production"
+  },
+  "labels_read": false,
+  "models_fit": 0,
+  "ordinary_structure_after": {
+    "actual_cache_bytes_rehashed": true,
+    "audit_sha256": "2590e476f75ff88518c96ae79747c21300c831797347942dd2d1c2b22f7b516e",
+    "files": 18220,
+    "index_sha256": "cef336f45616a5464bed1c32a7d8d777f555983f18d3999a7d7f77b0d11f61b3"
+  },
+  "ordinary_structure_before": {
+    "actual_cache_bytes_rehashed": true,
+    "audit_sha256": "2590e476f75ff88518c96ae79747c21300c831797347942dd2d1c2b22f7b516e",
+    "files": 18220,
+    "index_sha256": "cef336f45616a5464bed1c32a7d8d777f555983f18d3999a7d7f77b0d11f61b3"
+  },
+  "original_metadata_sha256": "78767b17e63bb4fb769a2aca3012b9048ce2b080813b226c3a4e2208751136a1",
+  "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+  "rows": 26258,
+  "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b",
+  "status": "PASS",
+  "threads": 1
+}

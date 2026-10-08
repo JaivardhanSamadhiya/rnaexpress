@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    12,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    2.5649493574615367,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "a89aef924ef0d083fc2d2ffda23f46ee5480301b973ecaf0cf3107054d48bee2",
+    "sequence_sha256": "5b4d27497c2a1bc197ec41958c08c194ca9a32b880de179dcba7324494e03a42",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "173"
+  ],
+  "length": 190,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": -0.00112152099609375,
+    "modeled_at_least_one_GQ_probability": 0.0018180487199773267,
+    "off": {
+      "G_kcal_mol": -43.56766891479492,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -38.599998474121094,
+      "mfe_structure": "..(((..((((((..(((.((((((((.((......((((((((.(((......)))))).)))))......))...))))))))..)))..))..))))..)))..(((((.....((((.....))))...)))))...((((............))))...........((((((....))))))..",
+      "pf_scale": 1.4229102136862528,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -43.568790435791016,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -38.599998474121094,
+      "mfe_structure": "..(((..((((((..(((.((((((((.((......((((((((.(((......)))))).)))))......))...))))))))..)))..))..))))..)))..(((((.....((((.....))))...)))))...((((............))))...........((((((....))))))..",
+      "pf_scale": 1.4229102136862528,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    -0.00112152099609375,
+    0.0018180487199773267
+  ],
+  "sequence": "CAGTTCACTGCCCTCGCCCTTCCCTTTCCTTTCGTTTCATTGCTTAAGAGACTGCTTAGTAAGTGGCCAAATAGTTAAGAGGGGGTTGGCTTGGAAGCAGATAACAGGAGATCTTAACTATCAGTAATAGCCAGTCTCACCGCCTCACACCATAATCAGGCAATGACACAGAGTTGTTTAAAAACAACGT"
+}

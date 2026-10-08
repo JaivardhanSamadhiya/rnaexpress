@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "5ec05aa55c82f4edfbe49583cb7703844eac1150e362d1aa4191fa1a5291ac99",
+    "sequence_sha256": "b3ef6e93f841459f13594ed57a1aa8b9c3944e3aec496a0c677a3ad1d9043e35",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "6,7,9,11,12"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": 0.0,
+    "modeled_at_least_one_GQ_probability": 0.0,
+    "off": {
+      "G_kcal_mol": -30.70994758605957,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -27.5,
+      "mfe_structure": "......((((((((((.((.(((....(((((.....)))))....)))..(((((...(((((...)))))......)))))(((((((........))))))))).))))))...)))).....((((((((...))))).)))....",
+      "pf_scale": 1.3747702641556543,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -30.70994758605957,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -27.5,
+      "mfe_structure": "......((((((((((.((.(((....(((((.....)))))....)))..(((((...(((((...)))))......)))))(((((((........))))))))).))))))...)))).....((((((((...))))).)))....",
+      "pf_scale": 1.3747702641556543,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    0.0,
+    0.0
+  ],
+  "sequence": "TTATTTGGTCTGCTTTCCTGGCATTAAGATGATTAATTTATTGTTTTGCGTACACTTGAGTCATTCTGTGGCCTATATAGTGTTTTTGTAACTAACTATACAAAAAGCAAAGCACATGACCCTAAGACTAAGCAAGATGTTTCAGTAGTT"
+}

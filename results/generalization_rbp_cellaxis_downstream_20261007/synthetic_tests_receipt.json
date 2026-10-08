@@ -1,0 +1,38 @@
+{
+  "attribute_hashes": {
+    "artifacts/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_rbp_cellaxis_downstream_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  "initial_preparation_sources_changed": false,
+  "models_fit": 0,
+  "models_read": false,
+  "native_calls": 0,
+  "numeric_imports": 0,
+  "outcomes_read": false,
+  "project_arrays_read": 0,
+  "project_reads": 0,
+  "protocol_sha256": "7922530c87301673d7bcb5e126fc2601b41107077888f4319d4bc20793024118",
+  "scope": "STDLIB_DUCK_ARRAY_INVENTED_AND_MOCK_ONLY",
+  "source_hashes": {
+    "src/generalization_rbp_cellaxis_downstream_20261007/__init__.py": "e16db7873cfb4e01f5c6a63960a53f4b764a4e2798c11f12ba90b70ddcf29d63",
+    "src/generalization_rbp_cellaxis_downstream_20261007/checkpoints.py": "dfe33c9c378589c2fc5a6f3d29573af9079ed3b220476da15da588d87a30f1b3",
+    "src/generalization_rbp_cellaxis_downstream_20261007/common.py": "87cee5b865d4b42c8df5b4ecbef8834e0dd8c3771f418ae5b30ddfce477aa828",
+    "src/generalization_rbp_cellaxis_downstream_20261007/controls.py": "81f19aedba0d3924b72a890a31d5de6d64b65a0ba3a8678982395218bcabd1fb",
+    "src/generalization_rbp_cellaxis_downstream_20261007/engine.py": "d1e42e3294028143c197842d43f7233076887ba3053e8ab1aefff7a5f755666e",
+    "src/generalization_rbp_cellaxis_downstream_20261007/evaluate.py": "357fd67a858fcab9637ae7685205bd958e10da1afe7eb8213c827399821e7a43",
+    "src/generalization_rbp_cellaxis_downstream_20261007/freeze.py": "356a4b322ae116282028ad0461951db9433ce38988a8937f3e991bd95985ec6a",
+    "src/generalization_rbp_cellaxis_downstream_20261007/gate.py": "cf0c7131aa45d59baa82793af94f60301ca5f4b925ab1bd5bf9647593e3019da",
+    "src/generalization_rbp_cellaxis_downstream_20261007/numeric.py": "f3a2e5b5c5f03b216c13e5c469b5f61e2046d8fb66d5fad26f37d38f73103189",
+    "src/generalization_rbp_cellaxis_downstream_20261007/paired_contrast.py": "a1f12fbaa0fa98471abd355465bcbc45fd3d0d172dc3ad8f5ba5a15c94db650e",
+    "src/generalization_rbp_cellaxis_downstream_20261007/prepare_inputs.py": "46f511b8e48089708819ccf5f049e8efadfbb87fd2a2256ff2d997a3dfeb6705",
+    "src/generalization_rbp_cellaxis_downstream_20261007/runtime_guard.py": "93f68753c8ae4413ddcfd0470004b60ad2fb8496d0c6870d73869ee861979b9f",
+    "src/generalization_rbp_cellaxis_downstream_20261007/tests.py": "b2982c470a5497472c17d58341a5c413e96ba9a1f52bba8157fa41596702f1d6",
+    "src/generalization_rbp_cellaxis_downstream_20261007/verify.py": "bc07f2882ce04a9b36baaab88163aa3ff0cab97ce594908ce8998f30c243431a",
+    "src/generalization_rbp_cellaxis_downstream_20261007/verify_represented.py": "63c335e972ea053428d4b0544d1a5edb9f8ef4f70f74f257b5bd71d214383743"
+  },
+  "status": "PASS",
+  "test_output": "test_actual_native_origin_outside_runtime_rejected_mock (__main__.Tests.test_actual_native_origin_outside_runtime_rejected_mock) ... ok\ntest_all_modules_parse_no_numeric_top_import (__main__.Tests.test_all_modules_parse_no_numeric_top_import) ... ok\ntest_birth_checkpoint_changed_digest_stops (__main__.Tests.test_birth_checkpoint_changed_digest_stops) ... ok\ntest_birth_checkpoint_missing_sidecar_stops (__main__.Tests.test_birth_checkpoint_missing_sidecar_stops) ... ok\ntest_canonical_formula_actual_values_one_full_shape (__main__.Tests.test_canonical_formula_actual_values_one_full_shape) ... ok\ntest_direct_pair_credit_truth_ties_and_score_ties (__main__.Tests.test_direct_pair_credit_truth_ties_and_score_ties) ... ok\ntest_explicit_root_start_before_manifest_read (__main__.Tests.test_explicit_root_start_before_manifest_read) ... ok\ntest_fitting_only_four_new_tracks (__main__.Tests.test_fitting_only_four_new_tracks) ... ok\ntest_fixed_source_tracks_grid_controls_reused (__main__.Tests.test_fixed_source_tracks_grid_controls_reused) ... ok\ntest_inconsistent_canonical_scorer_rejected (__main__.Tests.test_inconsistent_canonical_scorer_rejected) ... ok\ntest_independent_all_negative_neutral_positive_categories (__main__.Tests.test_independent_all_negative_neutral_positive_categories) ... ok\ntest_independent_exact_ID_tie_and_pair_recovery (__main__.Tests.test_independent_exact_ID_tie_and_pair_recovery) ... ok\ntest_independent_top5_excludes_sixth_best (__main__.Tests.test_independent_top5_excludes_sixth_best) ... ok\ntest_information_error_metrics_complete (__main__.Tests.test_information_error_metrics_complete) ... ok\ntest_manifest_alias_and_outside_rejected (__main__.Tests.test_manifest_alias_and_outside_rejected) ... ok\ntest_no_actual_numeric_import_or_project_load (__main__.Tests.test_no_actual_numeric_import_or_project_load) ... ok\ntest_no_retroactive_creation_claim_or_control_fit_call (__main__.Tests.test_no_retroactive_creation_claim_or_control_fit_call) ... ok\ntest_permitted_rounding_does_not_redefine_canonical_tie (__main__.Tests.test_permitted_rounding_does_not_redefine_canonical_tie) ... ok\ntest_resource_wrapper_before_original_import_or_call (__main__.Tests.test_resource_wrapper_before_original_import_or_call) ... ok\ntest_zero_or_nonfinite_scale_rejected (__main__.Tests.test_zero_or_nonfinite_scale_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.094s\n\nOK\n",
+  "tests": 20
+}

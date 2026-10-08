@@ -1,0 +1,109 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    12,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    2.5649493574615367,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "fd6f75699dc3f2cf72c7cbb17702f9533d4a9ba7d3f8f3a5bf37baf67f96e782",
+    "sequence_sha256": "2d540353ec3c715521f3846ce3cf0dd1016e53b7ceeb8cae121b8b59edd1f38f",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "40,42,44,45,46",
+    "97,98,99,100,101,103",
+    "98,101,102"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": 0.0,
+    "modeled_at_least_one_GQ_probability": 0.0,
+    "off": {
+      "G_kcal_mol": -33.914852142333984,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -30.5,
+      "mfe_structure": ".......(((((((.....(((...)))......)))))))...........(((((....((......((((((..(((((((....))))))))))))).....))..)))))...((((.....))))((((((.......))))))",
+      "pf_scale": 1.423343690262699,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -33.914852142333984,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -30.5,
+      "mfe_structure": ".......(((((((.....(((...)))......)))))))...........(((((....((......((((((..(((((((....))))))))))))).....))..)))))...((((.....))))((((((.......))))))",
+      "pf_scale": 1.423343690262699,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    0.0,
+    0.0
+  ],
+  "sequence": "TATATTCTACGCAGTGGATGGATATTCTTTAAATCTGTGTAAATACTTCTGCAAAGGTACTGATGCTGTAAAGTCAAACAGTTTTGTGGAACTGTGATTTTTTTTTTCCTCCTTTTTTGGTTTCCTTGGCCCCCACTTGGGTTTGGTGGG"
+}

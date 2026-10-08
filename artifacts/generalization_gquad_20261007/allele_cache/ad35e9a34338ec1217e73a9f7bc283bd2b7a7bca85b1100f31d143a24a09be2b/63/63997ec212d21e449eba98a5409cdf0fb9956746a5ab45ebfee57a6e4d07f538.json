@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    33,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    3.5263605246161616,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "99420af1f361625dc3a556df310801f779f398a2de6a0e22ef583172b21de03f",
+    "sequence_sha256": "63997ec212d21e449eba98a5409cdf0fb9956746a5ab45ebfee57a6e4d07f538",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "72"
+  ],
+  "length": 190,
+  "local_counts": [
+    [
+      27,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      3.332204510175204,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": -1.1444091796875e-05,
+    "modeled_at_least_one_GQ_probability": 1.8568229407813085e-05,
+    "off": {
+      "G_kcal_mol": -44.39870834350586,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -39.900001525878906,
+      "mfe_structure": "..(((..((((((..(((...(((((((...((((((..(((((((.(((....)))..)))))))..))))))....)))))))..)))..))..))))..))).(((.(((((..((((.....))))...((.(((..((((............))))..))).)).))))).)))...........",
+      "pf_scale": 1.4399132785286657,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -44.398719787597656,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -39.900001525878906,
+      "mfe_structure": "..(((..((((((..(((...(((((((...((((((..(((((((.(((....)))..)))))))..))))))....)))))))..)))..))..))))..))).(((.(((((..((((.....))))...((.(((..((((............))))..))).)).))))).)))...........",
+      "pf_scale": 1.4399132785286657,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    -1.1444091796875e-05,
+    1.8568229407813085e-05
+  ],
+  "sequence": "CAGTTCACTGCCCTCGCCCTTCCCTTTCCTTTCGTTTCATTGCTTAAGAGACTGCTTAGTAAGTGGCCAAATGGTTAAGAGGGGGTTGGCTTGGAAGCAGATAACAGGAGATCTTAACTATCAGTAATAGCCAGTCTCACCGCCTCACACCATAATCAGGCAATGACACAGAGATGTTTAAAAACAACGT"
+}

@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    38,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    3.6635616461296463,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "d649c801aa7c68216535280dc9325ac4a3028f7937bd4d5cb8bc3c1794432d62",
+    "sequence_sha256": "71b2c3c0755761dd752bab36ea5f0f1a8aa4dce8b60d9a97504971d8a2a5231a",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "4,5,6,7,8,9"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": 0.0,
+    "modeled_at_least_one_GQ_probability": 0.0,
+    "off": {
+      "G_kcal_mol": -45.6926383972168,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -41.70000076293945,
+      "mfe_structure": "............(((((((..(((((.(((((....))))).)))))......))).))))........(((((......)))))...((((((...))))))((((((..((((((...(((.((....)).))))))))).)))))).",
+      "pf_scale": 1.620343705172598,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -45.6926383972168,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -41.70000076293945,
+      "mfe_structure": "............(((((((..(((((.(((((....))))).)))))......))).))))........(((((......)))))...((((((...))))))((((((..((((((...(((.((....)).))))))))).)))))).",
+      "pf_scale": 1.620343705172598,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    0.0,
+    0.0
+  ],
+  "sequence": "ATGTTTTATTACGCATTCAGATGGCTGTACAACAGGTTGTAGGGCTGGTAGTATGAGGTGCTTGGGAAGTTTTGTTGGGTCAAGAAGAGAGAACTCTGTTCTCGCACCACCGGGATCTGTCCTGCAAAGTTGAAGGGATCCTTTGGTGCC"
+}

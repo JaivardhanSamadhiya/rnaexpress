@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    2762,
+    401,
+    3,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    7.924072324923417,
+    5.996452088619021,
+    1.3862943611198906,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "0c893617e3e9b8281c38a575a757d42b380343c253ab63044921fc80e1ebca7c",
+    "sequence_sha256": "3e9e258e241802f75c2fc3c8af9afe94830a507604203aa4722005c1dc242a2f",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "62,64,66,67"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      578,
+      108,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      6.361302477572996,
+      4.6913478822291435,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": -20.192035675048828,
+    "modeled_at_least_one_GQ_probability": 0.9999999999999941,
+    "off": {
+      "G_kcal_mol": -41.03438186645508,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -37.70000076293945,
+      "mfe_structure": ".(((((((((((.........)))))))))))...(((((((((.((((...((((((.(((((((((.(...).)))....(((...(((((.............)))))...))))))))).))))))...))))..)))))))))..",
+      "pf_scale": 1.5470378722514533,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -61.226417541503906,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -57.720001220703125,
+      "mfe_structure": ".(((((((............+++.+++..+++...++~)))))))((((...((((((.(((((((...(.....(((..+++..+++.....+++.....++~...)))..)...))))))).))))))...)))).............",
+      "pf_scale": 1.9504394947178363,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    -20.192035675048828,
+    0.9999999999999941
+  ],
+  "sequence": "TTTTATTTTTTTGGGAAAAGGGGAGGGATGGGTCTGGGGAGTGGGGAATGTGGGAGGGGGGTAGCGACGCAAAGGGTCAGGGGTTGGGTGTCCGGGAGCCAGGGGAGGACAGGAAATGCTGCCGCCTTCTGCAATTTATTTATTTTTTTC"
+}

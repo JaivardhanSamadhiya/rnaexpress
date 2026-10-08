@@ -1,0 +1,192 @@
+{
+  "assumes_every_sampled_pair_nontied_for_upper_bound": true,
+  "maximum_cap_pairs": 6715,
+  "maximum_pair_difference_payload_bytes_1014": 54472080,
+  "metadata_receipt_sha256": "31eb0fb59d7b02069f8906150695f828b51a8f62d7588d27318b3e541cee5614",
+  "not_total_RSS_or_native_peak_certificate": true,
+  "parameters_splits_gates_changed": false,
+  "project_labels_features_models_read": false,
+  "records": [
+    {
+      "cap_pair_upper_bound_before_truth_ties": 4958,
+      "contexts": 1435,
+      "float64_pair_difference_payload_bytes_at_1014": 40219296,
+      "fold": 0,
+      "maximum_menu_candidates": 10,
+      "stage": "outer",
+      "task": "CAD_to_N2A",
+      "training_rows": 4099
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 1622,
+      "contexts": 533,
+      "float64_pair_difference_payload_bytes_at_1014": 13157664,
+      "fold": 0,
+      "maximum_menu_candidates": 9,
+      "stage": "inner1",
+      "task": "CAD_to_N2A",
+      "training_rows": 1460
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3336,
+      "contexts": 902,
+      "float64_pair_difference_payload_bytes_at_1014": 27061632,
+      "fold": 0,
+      "maximum_menu_candidates": 10,
+      "stage": "inner2",
+      "task": "CAD_to_N2A",
+      "training_rows": 2639
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 5001,
+      "contexts": 1510,
+      "float64_pair_difference_payload_bytes_at_1014": 40568112,
+      "fold": 1,
+      "maximum_menu_candidates": 10,
+      "stage": "outer",
+      "task": "CAD_to_N2A",
+      "training_rows": 4250
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 1622,
+      "contexts": 533,
+      "float64_pair_difference_payload_bytes_at_1014": 13157664,
+      "fold": 1,
+      "maximum_menu_candidates": 9,
+      "stage": "inner0",
+      "task": "CAD_to_N2A",
+      "training_rows": 1460
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3379,
+      "contexts": 977,
+      "float64_pair_difference_payload_bytes_at_1014": 27410448,
+      "fold": 1,
+      "maximum_menu_candidates": 10,
+      "stage": "inner2",
+      "task": "CAD_to_N2A",
+      "training_rows": 2790
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 6715,
+      "contexts": 1879,
+      "float64_pair_difference_payload_bytes_at_1014": 54472080,
+      "fold": 2,
+      "maximum_menu_candidates": 10,
+      "stage": "outer",
+      "task": "CAD_to_N2A",
+      "training_rows": 5429
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3336,
+      "contexts": 902,
+      "float64_pair_difference_payload_bytes_at_1014": 27061632,
+      "fold": 2,
+      "maximum_menu_candidates": 10,
+      "stage": "inner0",
+      "task": "CAD_to_N2A",
+      "training_rows": 2639
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3379,
+      "contexts": 977,
+      "float64_pair_difference_payload_bytes_at_1014": 27410448,
+      "fold": 2,
+      "maximum_menu_candidates": 10,
+      "stage": "inner1",
+      "task": "CAD_to_N2A",
+      "training_rows": 2790
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 4962,
+      "contexts": 1437,
+      "float64_pair_difference_payload_bytes_at_1014": 40251744,
+      "fold": 0,
+      "maximum_menu_candidates": 10,
+      "stage": "outer",
+      "task": "N2A_to_CAD",
+      "training_rows": 4104
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 1625,
+      "contexts": 534,
+      "float64_pair_difference_payload_bytes_at_1014": 13182000,
+      "fold": 0,
+      "maximum_menu_candidates": 9,
+      "stage": "inner1",
+      "task": "N2A_to_CAD",
+      "training_rows": 1463
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3337,
+      "contexts": 903,
+      "float64_pair_difference_payload_bytes_at_1014": 27069744,
+      "fold": 0,
+      "maximum_menu_candidates": 10,
+      "stage": "inner2",
+      "task": "N2A_to_CAD",
+      "training_rows": 2641
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 5003,
+      "contexts": 1510,
+      "float64_pair_difference_payload_bytes_at_1014": 40584336,
+      "fold": 1,
+      "maximum_menu_candidates": 10,
+      "stage": "outer",
+      "task": "N2A_to_CAD",
+      "training_rows": 4251
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 1625,
+      "contexts": 534,
+      "float64_pair_difference_payload_bytes_at_1014": 13182000,
+      "fold": 1,
+      "maximum_menu_candidates": 9,
+      "stage": "inner0",
+      "task": "N2A_to_CAD",
+      "training_rows": 1463
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3378,
+      "contexts": 976,
+      "float64_pair_difference_payload_bytes_at_1014": 27402336,
+      "fold": 1,
+      "maximum_menu_candidates": 10,
+      "stage": "inner2",
+      "task": "N2A_to_CAD",
+      "training_rows": 2788
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 6715,
+      "contexts": 1879,
+      "float64_pair_difference_payload_bytes_at_1014": 54472080,
+      "fold": 2,
+      "maximum_menu_candidates": 10,
+      "stage": "outer",
+      "task": "N2A_to_CAD",
+      "training_rows": 5429
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3337,
+      "contexts": 903,
+      "float64_pair_difference_payload_bytes_at_1014": 27069744,
+      "fold": 2,
+      "maximum_menu_candidates": 10,
+      "stage": "inner0",
+      "task": "N2A_to_CAD",
+      "training_rows": 2641
+    },
+    {
+      "cap_pair_upper_bound_before_truth_ties": 3378,
+      "contexts": 976,
+      "float64_pair_difference_payload_bytes_at_1014": 27402336,
+      "fold": 2,
+      "maximum_menu_candidates": 10,
+      "stage": "inner1",
+      "task": "N2A_to_CAD",
+      "training_rows": 2788
+    }
+  ],
+  "status": "OUTCOME_BLIND_RESOURCE_PLANNING_ONLY"
+}

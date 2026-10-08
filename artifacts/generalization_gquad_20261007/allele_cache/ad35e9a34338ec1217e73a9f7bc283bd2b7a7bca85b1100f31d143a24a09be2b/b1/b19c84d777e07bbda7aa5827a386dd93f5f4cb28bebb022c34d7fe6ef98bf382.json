@@ -1,0 +1,75 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "391a7fdd2d65eeca8ece1ae7f62dc05e89f83ddddcd7e4c2c0f364bc3ab4402c",
+    "sequence_sha256": "b19c84d777e07bbda7aa5827a386dd93f5f4cb28bebb022c34d7fe6ef98bf382",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "122,124,125,127,128"
+  ],
+  "length": 150,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": 0.0,
+    "modeled_at_least_one_GQ_probability": 0.0,
+    "off": {
+      "G_kcal_mol": -35.28700637817383,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -33.0,
+      "mfe_structure": "((((......)))).......((((((....((((......((((((........(((........)))((((((((((((........(((((...)))))................))))))))))))))))))...)))))))))).",
+      "pf_scale": 1.4651299825949147,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -35.28700637817383,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": -33.0,
+      "mfe_structure": "((((......)))).......((((((....((((......((((((........(((........)))((((((((((((........(((((...)))))................))))))))))))))))))...)))))))))).",
+      "pf_scale": 1.4651299825949147,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    0.0,
+    0.0
+  ],
+  "sequence": "TCAATACCCCTTGAAGTTGTCCGGTAGAAGTCAGATTATTTGCCATCTATCCCTTTGAGTAAGAAATCAGGGATGTGTGCTCCTCCCCTATATCGACGATGTTCATTAAAACACCTATAGCACGCGTCCTGGTGGTCCTTCTGTTACCGA"
+}

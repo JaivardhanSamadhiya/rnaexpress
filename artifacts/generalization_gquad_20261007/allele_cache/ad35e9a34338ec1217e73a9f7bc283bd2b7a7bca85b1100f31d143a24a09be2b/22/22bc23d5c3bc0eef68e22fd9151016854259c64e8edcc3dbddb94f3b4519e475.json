@@ -1,0 +1,109 @@
+{
+  "both_ensembles_fresh": true,
+  "global_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "global_raw": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "identity": {
+    "backend_receipt_sha256": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "production_manifest_sha256": "ad35e9a34338ec1217e73a9f7bc283bd2b7a7bca85b1100f31d143a24a09be2b",
+    "request_sha256": "1a78a2421c4e4f3fa523e7b1d9167d848d10afba9b2e35f3002561e182ce46a3",
+    "sequence_sha256": "22bc23d5c3bc0eef68e22fd9151016854259c64e8edcc3dbddb94f3b4519e475",
+    "spec_sha256": "0b69875f200617f477fbce011eb456b13b42fe873aa6be50181c017c46c2511b"
+  },
+  "keys": [
+    "20,22",
+    "20,25",
+    "21,24"
+  ],
+  "length": 46,
+  "local_counts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "local_raw": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "native_measure": {
+    "G_on_minus_off": 0.0,
+    "modeled_at_least_one_GQ_probability": 0.0,
+    "off": {
+      "G_kcal_mol": -1.017024278640747,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": 0.0,
+      "mfe_structure": "..............................................",
+      "pf_scale": 1.0,
+      "pf_structure_annotation": ""
+    },
+    "on": {
+      "G_kcal_mol": -1.017024278640747,
+      "kT_kcal_mol": 0.6163207755,
+      "mfe_kcal_mol": 0.0,
+      "mfe_structure": "..............................................",
+      "pf_scale": 1.0,
+      "pf_structure_annotation": ""
+    }
+  },
+  "physics": [
+    0.0,
+    0.0
+  ],
+  "sequence": "GCCCACAAGTATCACTAAGCAATTCGATCATAATCAGCCATACCAC"
+}
