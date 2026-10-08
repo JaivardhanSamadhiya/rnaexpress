@@ -1,0 +1,27 @@
+{
+  "archive": "data/raw/generalization_prelib_metadata_acquisition_20261008/gkae929_supplemental_files.zip",
+  "design": "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json",
+  "files": {
+    "data/raw/generalization_prelib_metadata_acquisition_20261008/gkae929_supplemental_files.zip": "1df27b97bad94fa4d7c16d4be1884ea7c4bf7e0fe6c937f1165048b1216308ca",
+    "reports/generalization_prelib_alias_count_audit_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_prelib_alias_count_audit_20261008/protocol.md": "bd17aea7653abd2564587ef12738b79b611f28cf8694dccaf20bdfeab5ca8f83",
+    "results/generalization_prelib_alias_count_audit_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json": "65e32e40f252981a7d6d910b9c17069e4e436f07e8438ea6cbb2b761a9fdbf23",
+    "results/generalization_prelib_header_inventory_20261008/header_inventory_receipt.json": "3105eebfb5ba266e4659259eb9832e642fb1f3e56fe7593486ac1dbf2cfaa854",
+    "results/generalization_prelib_point_ancestry_20261008/parent_template_metadata_v2.json": "d07296aec270c91421b2f027f020f299835e0c9c5d6c1abd1fc257a5a75271d3",
+    "results/generalization_prelib_point_ancestry_20261008/reconstructed_point_design_relations_v2.json": "5ba19d8207c1ced58502f4be8b60a5e586cb374a93e8ec4815f33da40c96bd87",
+    "src/generalization_prelib_alias_count_audit_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_alias_count_audit_20261008/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/generalization_prelib_alias_count_audit_20261008/audit.py": "ba350c032f759c7999669f6d2bd150f206d91d1516f68eee56283b83c7457736",
+    "src/generalization_prelib_binding_descriptive_20261008/extract.py": "84e338e92ed0497cafb15386d20adcce81719b1434a6279b07c3e394f6a8850f",
+    "src/generalization_prelib_header_inventory_20261008/inventory.py": "bbc44fb8aac518e093251e4702b83e722ea45b8cfbf2ea371870e83e6ff2aaed"
+  },
+  "headers": "results/generalization_prelib_header_inventory_20261008/header_inventory_receipt.json",
+  "models_fit": 0,
+  "new_outside_point_count_rows": 26,
+  "parents": "results/generalization_prelib_point_ancestry_20261008/parent_template_metadata_v2.json",
+  "points": "results/generalization_prelib_point_ancestry_20261008/reconstructed_point_design_relations_v2.json",
+  "raw_count_fields_only": true,
+  "status": "FROZEN_METADATA_SELECTED_FULL_DESIGN_ALIAS_RAW_COUNT_AUDIT",
+  "training_pairs_admitted": 0
+}
