@@ -1,0 +1,85 @@
+{
+  "astro_offsets_scope": "author transcript-or-UTR offset, not genomic coordinate",
+  "author_reference_assembly": "GRCm38.p6 from LibraryDesign code cell; header omits assembly/strand/UTR exon blocks",
+  "coverage": {
+    "astrocyte_gse330741": {
+      "coordinate_certified_parents": 0,
+      "genes": 2,
+      "interventions": 3984,
+      "parent_status_counts": {
+        "multiple_source_transcript_occurrences": 1,
+        "no_exact_source_utr": 2,
+        "one_source_transcript_occurrence": 4
+      },
+      "parents": 7,
+      "scope": "Exact source-UTR transcript candidate coverage only; no genomic-vector proof yet"
+    },
+    "mikl_gse173098": {
+      "coordinate_certified_parents": 0,
+      "genes": 187,
+      "interventions": 13781,
+      "parent_status_counts": {
+        "multiple_source_transcript_occurrences": 935,
+        "one_source_transcript_occurrence": 1482
+      },
+      "parents": 2417,
+      "scope": "Exact source-UTR transcript candidate coverage only; no genomic-vector proof yet"
+    },
+    "moffatt_gse334718": {
+      "coordinate_certified_parents": 0,
+      "genes": 6,
+      "interventions": 6749,
+      "parent_status_counts": {
+        "no_exact_source_utr": 6
+      },
+      "parents": 6,
+      "scope": "Exact source-UTR transcript candidate coverage only; no genomic-vector proof yet"
+    },
+    "srle": {
+      "coordinate_certified_parents": 0,
+      "genes": 1,
+      "interventions": 1744,
+      "parent_status_counts": {
+        "synthetic_no_native_coordinates": 592
+      },
+      "parents": 592,
+      "scope": "Exact source-UTR transcript candidate coverage only; no genomic-vector proof yet"
+    }
+  },
+  "features_loaded": false,
+  "files": {
+    "artifacts/generalization_next_20261007/sequence_inventory.csv.gz": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+    "data/external/RNAloc_MPRA/Datasets/mouse_3utrs.txt": "d10fbab46fee335121728cf2234fe53325d4478397445d9b5801ff146337b4c8",
+    "data/external/RNAloc_MPRA/LibraryDesign.ipynb": "1434be13ae30d94619b06c9df19a75c0a2d111c85d9f59b39f5f262ee8de3720",
+    "data/frozen/astrocyte_external_features.csv.gz": "43d4e7dd2d96f603afd4a4e2af51a784923a5eb5f53e99dc8b3e14bbf3071827",
+    "data/raw/mikl_gse173098/supplementary/files/SupplementaryData_NAR_Final/SupplementaryTables/TableS2.csv": "c3b3257976af7cd2253aa5503a8a53f374e5730fe012f2320f449eee06d67ee3",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+    "results/v4_phaseA/mikl_interventions.csv.gz": "daf5c035afb16e9dbbf90714c595c0e733f4eec70f2191d475b78c20e9f29bcc"
+  },
+  "mikl_author_parent_semantics_verified": true,
+  "mikl_organism_metadata": [
+    "Mus musculus"
+  ],
+  "models_fit": 0,
+  "outcomes_read": false,
+  "pilot_genes_by_dataset": {
+    "astrocyte_gse330741": [
+      "slc1a2",
+      "sparc"
+    ],
+    "mikl_gse173098": [
+      "2810459m11rik",
+      "meis2",
+      "zscan20"
+    ],
+    "moffatt_gse334718": [
+      "cdc42",
+      "net1",
+      "trp53"
+    ]
+  },
+  "pilot_interventions": 5701,
+  "pilot_parents": 13,
+  "remote_coordinate_mapping_run": false,
+  "status": "PASS_METADATA_ONLY"
+}

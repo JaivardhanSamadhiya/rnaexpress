@@ -1,0 +1,331 @@
+[
+  {
+    "dataset": "mikl_gse173098",
+    "gene": "2810459m11rik",
+    "parent_id": "mikl:2810459M11Rik:1100.0:a067a0411286d389",
+    "parent_sequence": "CCCTGTGAGGAGGAGCTGCATACCTCTGAGTCACGATTCAGCTCTTTCTGTGATGATTCGGAGGGAGAGGACCCTCCCTGCTCCTGCCTCAGTTTCTTCTTGGTGATCCACAGCCTAACCCTATTCCCTCTCAGTCTCAAGTAGAAACTG",
+    "parent_sequence_sha256": "a067a0411286d389db7f926bf70d95e40a53dba69ab908ba29fc3309ce22b8de",
+    "reference_candidates": [
+      {
+        "chromosome": "1",
+        "gene": "2810459M11Rik",
+        "gene_end1": 86055456,
+        "gene_id": "ENSMUSG00000026227",
+        "gene_start1": 86045863,
+        "header": "ENSMUSG00000026227|ENSMUST00000165824|2810459M11Rik|1|86045863|86055456",
+        "sequence_sha256": "79183b1e5c353b95bec559efe8f48ec493820302cbb96afa8c2fe61d6de90bb0",
+        "transcript_id": "ENSMUST00000165824",
+        "utr_insert_end0": 1250,
+        "utr_insert_start0": 1100
+      }
+    ],
+    "status": "one_source_transcript_occurrence"
+  },
+  {
+    "dataset": "mikl_gse173098",
+    "gene": "2810459m11rik",
+    "parent_id": "mikl:2810459M11Rik:750.0:7dfdc6fbe5615be2",
+    "parent_sequence": "AGCACCAAGGAGAGGGAAAGCCAGGGTATTGGGATTCTTAGCCCCCGGACTTGTGCTAGATCTCAGGTCCTGACCCAAGTATCCTGGAGGTTCTGGAATCTTCCCTCTGAGTCTGTGAGTCACATAGGGTGAGTAAATATCTCCCACAGA",
+    "parent_sequence_sha256": "7dfdc6fbe5615be27ce68dc8703157c73939932b56f7386f3e6424f9ba0fdcc7",
+    "reference_candidates": [
+      {
+        "chromosome": "1",
+        "gene": "2810459M11Rik",
+        "gene_end1": 86055456,
+        "gene_id": "ENSMUSG00000026227",
+        "gene_start1": 86045863,
+        "header": "ENSMUSG00000026227|ENSMUST00000165824|2810459M11Rik|1|86045863|86055456",
+        "sequence_sha256": "79183b1e5c353b95bec559efe8f48ec493820302cbb96afa8c2fe61d6de90bb0",
+        "transcript_id": "ENSMUST00000165824",
+        "utr_insert_end0": 900,
+        "utr_insert_start0": 750
+      }
+    ],
+    "status": "one_source_transcript_occurrence"
+  },
+  {
+    "dataset": "mikl_gse173098",
+    "gene": "meis2",
+    "parent_id": "mikl:Meis2:1150.0:6d10e879bf4a83e3",
+    "parent_sequence": "GGGGGATAAAAAGGAGCAAGAGAATACTGTAACAAACTTCGTACAGAGTTCGGTCTTTTAATTGTTTCATGTTAGATATTCTATGTGTTTACCTCAATTGAAAAAAAAAAAAAGAATGTTTTTGCTAGTATCAGATCTGCTGTGGAATTG",
+    "parent_sequence_sha256": "6d10e879bf4a83e39a5294f07f45367a3fedfb24cc00f22ab56f0b41d497c450",
+    "reference_candidates": [
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000028639|Meis2|2|115863064|116065839",
+        "sequence_sha256": "ce0f0e17fdc654feedc092815e851e2646cf9f5a6c30c023c3f2d29488e5ff9c",
+        "transcript_id": "ENSMUST00000028639",
+        "utr_insert_end0": 977,
+        "utr_insert_start0": 827
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000102538|Meis2|2|115863064|116065839",
+        "sequence_sha256": "ce0f0e17fdc654feedc092815e851e2646cf9f5a6c30c023c3f2d29488e5ff9c",
+        "transcript_id": "ENSMUST00000102538",
+        "utr_insert_end0": 977,
+        "utr_insert_start0": 827
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000110906|Meis2|2|115863064|116065839",
+        "sequence_sha256": "275246f72c42b9edf75bac926322cfb90a5824ff82d118e27bb85d2c3ab988bd",
+        "transcript_id": "ENSMUST00000110906",
+        "utr_insert_end0": 1300,
+        "utr_insert_start0": 1150
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000110907|Meis2|2|115863064|116065839",
+        "sequence_sha256": "9737aad4927c23f0ac2aedbe8be6442ce1ab5f81d29bd3fc2078e76c8a573a6a",
+        "transcript_id": "ENSMUST00000110907",
+        "utr_insert_end0": 1300,
+        "utr_insert_start0": 1150
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000110908|Meis2|2|115863064|116065839",
+        "sequence_sha256": "9737aad4927c23f0ac2aedbe8be6442ce1ab5f81d29bd3fc2078e76c8a573a6a",
+        "transcript_id": "ENSMUST00000110908",
+        "utr_insert_end0": 1300,
+        "utr_insert_start0": 1150
+      }
+    ],
+    "status": "multiple_source_transcript_occurrences"
+  },
+  {
+    "dataset": "mikl_gse173098",
+    "gene": "meis2",
+    "parent_id": "mikl:Meis2:600.0:3d012d63b8ff7ee0",
+    "parent_sequence": "TGTACATTTCTGTTGATCACTCCGTTATGTTGCCTCAAATAGTTTTAGAAGAGAAAAAAAAAATATATCCTTGTTTTCCACACTATGTGTGTTGTTCCCAAAAGAATGACTGTCTTGGTTCATCAGTGAATTCACTATCCAGAAGAGACT",
+    "parent_sequence_sha256": "3d012d63b8ff7ee0b1863d5a322fcdb36d6f665d7ab929235fe05370c75803cf",
+    "reference_candidates": [
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000028639|Meis2|2|115863064|116065839",
+        "sequence_sha256": "ce0f0e17fdc654feedc092815e851e2646cf9f5a6c30c023c3f2d29488e5ff9c",
+        "transcript_id": "ENSMUST00000028639",
+        "utr_insert_end0": 427,
+        "utr_insert_start0": 277
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000074285|Meis2|2|115863064|116065839",
+        "sequence_sha256": "05f3e18659ba14a7fc018d83db0b92944f5c8ca39601d17c1609c61e327ebc22",
+        "transcript_id": "ENSMUST00000074285",
+        "utr_insert_end0": 750,
+        "utr_insert_start0": 600
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000102538|Meis2|2|115863064|116065839",
+        "sequence_sha256": "ce0f0e17fdc654feedc092815e851e2646cf9f5a6c30c023c3f2d29488e5ff9c",
+        "transcript_id": "ENSMUST00000102538",
+        "utr_insert_end0": 427,
+        "utr_insert_start0": 277
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000110906|Meis2|2|115863064|116065839",
+        "sequence_sha256": "275246f72c42b9edf75bac926322cfb90a5824ff82d118e27bb85d2c3ab988bd",
+        "transcript_id": "ENSMUST00000110906",
+        "utr_insert_end0": 750,
+        "utr_insert_start0": 600
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000110907|Meis2|2|115863064|116065839",
+        "sequence_sha256": "9737aad4927c23f0ac2aedbe8be6442ce1ab5f81d29bd3fc2078e76c8a573a6a",
+        "transcript_id": "ENSMUST00000110907",
+        "utr_insert_end0": 750,
+        "utr_insert_start0": 600
+      },
+      {
+        "chromosome": "2",
+        "gene": "Meis2",
+        "gene_end1": 116065839,
+        "gene_id": "ENSMUSG00000027210",
+        "gene_start1": 115863064,
+        "header": "ENSMUSG00000027210|ENSMUST00000110908|Meis2|2|115863064|116065839",
+        "sequence_sha256": "9737aad4927c23f0ac2aedbe8be6442ce1ab5f81d29bd3fc2078e76c8a573a6a",
+        "transcript_id": "ENSMUST00000110908",
+        "utr_insert_end0": 750,
+        "utr_insert_start0": 600
+      }
+    ],
+    "status": "multiple_source_transcript_occurrences"
+  },
+  {
+    "dataset": "mikl_gse173098",
+    "gene": "zscan20",
+    "parent_id": "mikl:Zscan20:1000.0:130f855f6b2d1f6a",
+    "parent_sequence": "GGCTCTGGGAAGAGTTTTAGTGACCGTGCCAACCTCAGTACCCACCAGAGAATCCATATTGGAGAGAAGCCGTACAGATGCCTGGAGTGTGGGAAGAGCTTCAATGACCCCTCTAACCTCATCACCCACCAGAGAACCCACACAGGGGAA",
+    "parent_sequence_sha256": "130f855f6b2d1f6a7a199d4ea7720255b30982cb7015e3ab6debd6729d5f1b62",
+    "reference_candidates": [
+      {
+        "chromosome": "4",
+        "gene": "Zscan20",
+        "gene_end1": 128610098,
+        "gene_id": "ENSMUSG00000061894",
+        "gene_start1": 128583539,
+        "header": "ENSMUSG00000061894|ENSMUST00000135309|Zscan20|4|128583539|128610098",
+        "sequence_sha256": "a0600e41fed0d35e3c29e8c55b38c50a48f3647d14ac2edffe9ddcddf9e79b31",
+        "transcript_id": "ENSMUST00000135309",
+        "utr_insert_end0": 1150,
+        "utr_insert_start0": 1000
+      }
+    ],
+    "status": "one_source_transcript_occurrence"
+  },
+  {
+    "dataset": "mikl_gse173098",
+    "gene": "zscan20",
+    "parent_id": "mikl:Zscan20:950.0:58c301cd63adc66b",
+    "parent_sequence": "TCTTTGCCCCGCAGCGGACCCATTCAAGTGAGAAACCCTACAAGTGTCTTGGCTCTGGGAAGAGTTTTAGTGACCGTGCCAACCTCAGTACCCACCAGAGAATCCATATTGGAGAGAAGCCGTACAGATGCCTGGAGTGTGGGAAGAGCT",
+    "parent_sequence_sha256": "58c301cd63adc66bff47b31b20e86b8162bebf624b5f031f3d79c2a4fdbc6f14",
+    "reference_candidates": [
+      {
+        "chromosome": "4",
+        "gene": "Zscan20",
+        "gene_end1": 128610098,
+        "gene_id": "ENSMUSG00000061894",
+        "gene_start1": 128583539,
+        "header": "ENSMUSG00000061894|ENSMUST00000135309|Zscan20|4|128583539|128610098",
+        "sequence_sha256": "a0600e41fed0d35e3c29e8c55b38c50a48f3647d14ac2edffe9ddcddf9e79b31",
+        "transcript_id": "ENSMUST00000135309",
+        "utr_insert_end0": 1100,
+        "utr_insert_start0": 950
+      }
+    ],
+    "status": "one_source_transcript_occurrence"
+  },
+  {
+    "dataset": "moffatt_gse334718",
+    "gene": "cdc42",
+    "parent_id": "moffatt:cdc42:139c4882daa7dfbf",
+    "parent_sequence": "AGGCTGGGATATGGGCTCTGATTGACAGGGAAGGATAGAAAAGGGGGAGCGAGGCAAGTGAGAGAGGGGAGAAGGCGGCGACGGAGCAAAGGGAGGGAAGAGGAGGTGATGTAATCAGAAGATGGATGCTAACCCGAAAAGAGGAGAGAAGGACAAAACATGTGATGAGGAGGATGCCTGAGAGGGGAGGGGAGGAGGGAGAGTGAGGCAGGGGAGAACCCAAACCCGAGAACTTTTCTCTGGGGTGGGGCTTGGGATTG",
+    "parent_sequence_sha256": "139c4882daa7dfbf012c1a463d21076843e8e7d35ee52912c4dc135d78c1bdef",
+    "reference_candidates": [],
+    "status": "no_exact_source_utr"
+  },
+  {
+    "dataset": "moffatt_gse334718",
+    "gene": "net1",
+    "parent_id": "moffatt:net1:a99e16ae7c3711f8",
+    "parent_sequence": "AAAATGACTTAGTGTATTTTAGACTACTGAAAGGAACCACAGGAAGGGTTGGGTGGAAGTTTTTGTGTTGTCTGAAAAGCAAGAGAGAAGGCAGGAGTCTGGGATAGGGAAGGGAAGGGAAGAGAAGAGAAGAGTAGCTTGTCTAAAGTAAATTGTCTGGCTGAACCAGAGGAGGAGCCAGGAGCAGCCTGGCCTGAGGGATGTAGAAAGTTGTAGAAGGCAGAGGGGATGTGAACTGTGTTTGCTTTGGTTTCTCATAC",
+    "parent_sequence_sha256": "a99e16ae7c3711f8ed155495b69998e0a7ca017d377e53a2aaaa28b9fe672e89",
+    "reference_candidates": [],
+    "status": "no_exact_source_utr"
+  },
+  {
+    "dataset": "moffatt_gse334718",
+    "gene": "trp53",
+    "parent_id": "moffatt:trp53:572aefff72c0c5eb",
+    "parent_sequence": "ATTCTCTGCCCTGGGGGCTGGGCTCCTTATTGCTGCTTAGGCCTAGAAAGTTTAAGTATGTGGAAGAGGAGAGTGAGTTGTAAGTTAGATAAGGTGAAGGGAATGGAGGGAAACAGGCAGCCTAGTGGGGGCCGCAGATGGGGACAGGTGGGTTGAGAAGTAGCAGGGAGCAGGGCATCTTGGGAGCTGGTATTGTGCTTGGTCAGAGTAGCTAAGCCCTGGTCTTAGGCCTGAGCCTGGAGTCTGCCCCCATTTCCTTT",
+    "parent_sequence_sha256": "572aefff72c0c5ebef579dab97cd510a0daaf1f661477a6c0c7da11ea8b145ee",
+    "reference_candidates": [],
+    "status": "no_exact_source_utr"
+  },
+  {
+    "dataset": "astrocyte_gse330741",
+    "gene": "slc1a2",
+    "parent_id": "slc1a2.1_3281_3381",
+    "parent_sequence": "TAAAAGACAGCTAGCCTTTTCTCCTCACTAGTCACTAGTTAGTTCGGACATTTACAGAGCAAAGGAAGGACTCCAGAATGTCTCCAGATGAAAACGAAGAAAGCACGGAACTGTGTATGAGGAATTCAGTTTATGGATCAGTCCCTGCTGGGGGATGCTGGGATCTCAGTGGTTCGCTGATTAGGGTCAA",
+    "parent_sequence_sha256": "e33c55c6e6d5f10cc47e1195cbde69aaff945aa73bec1de1f6e53f01e31ded22",
+    "reference_candidates": [
+      {
+        "chromosome": "2",
+        "gene": "Slc1a2",
+        "gene_end1": 102790784,
+        "gene_id": "ENSMUSG00000005089",
+        "gene_start1": 102658659,
+        "header": "ENSMUSG00000005089|ENSMUST00000080210|Slc1a2|2|102658659|102790784",
+        "sequence_sha256": "c68deb72888ccb66f1717ac5b9c7f9d8c9483999b82b952c9d70f59a69e2d299",
+        "transcript_id": "ENSMUST00000080210",
+        "utr_insert_end0": 3490,
+        "utr_insert_start0": 3300
+      }
+    ],
+    "status": "one_source_transcript_occurrence"
+  },
+  {
+    "dataset": "astrocyte_gse330741",
+    "gene": "slc1a2",
+    "parent_id": "slc1a2.1_4181_4281",
+    "parent_sequence": "CAGTTCACTGCCCTCGCCCTTCCCTTTCCTTTCGTTTCATTGCTTAAGAGACTGCTTAGTAAGTGGCCAAATAGTTAAGAGGGGGTTGGCTTGGAAGCAGATAACAGGAGATCTTAACTATCAGTAATAGCCAGTCTCACCGCCTCACACCATAATCAGGCAATGACACAGAGATGTTTAAAAACAACGT",
+    "parent_sequence_sha256": "92a93bca7fc0195d0cbed9dbf927326e2cdd293b4ef8ec5267e052ce486410b0",
+    "reference_candidates": [
+      {
+        "chromosome": "2",
+        "gene": "Slc1a2",
+        "gene_end1": 102790784,
+        "gene_id": "ENSMUSG00000005089",
+        "gene_start1": 102658659,
+        "header": "ENSMUSG00000005089|ENSMUST00000080210|Slc1a2|2|102658659|102790784",
+        "sequence_sha256": "c68deb72888ccb66f1717ac5b9c7f9d8c9483999b82b952c9d70f59a69e2d299",
+        "transcript_id": "ENSMUST00000080210",
+        "utr_insert_end0": 4390,
+        "utr_insert_start0": 4200
+      }
+    ],
+    "status": "one_source_transcript_occurrence"
+  },
+  {
+    "dataset": "astrocyte_gse330741",
+    "gene": "sparc",
+    "parent_id": "sparc_1041_1121",
+    "parent_sequence": "TCTTTCAAAATAAAAAGTAACAACTTAGAAACGGCTGTCCTGTCCCGGGTGATGGTATGTGTGTCTTACTCTCCGGTGCTTCGTTTTCAGGTGTGCACAAACATGGCCATACTTGTGCACAGAAGCAAACACTCCATTGTGCTTTTATACACACACACATATTCACACACTCAGACAGGGAAGATATGGC",
+    "parent_sequence_sha256": "618a49afe1d0ad25f9ae1801d02d5551665cea804d277d4701f59ab3d526e75c",
+    "reference_candidates": [],
+    "status": "no_exact_source_utr"
+  },
+  {
+    "dataset": "astrocyte_gse330741",
+    "gene": "sparc",
+    "parent_id": "sparc_901_981",
+    "parent_sequence": "ACTAATCAAGAGAAACTTCCAAGCCAACGGAATGGTCAGATCTCACAGGCTGAGAAATTGTTCCCCTCCAAGCATTTCATGAAAAAGCTGCTTCTCATTAACCATGCAAACTCTCACAGCAATGTGAAGAGCTTGACAAGTCTTTCAAAATAAAAAGTAACAACTTAGAAACGGCTGTCCTGTCCCGGGT",
+    "parent_sequence_sha256": "2af3690756efc723e568f7e522a1ca80e6e4235ea7437b527404520592dbf40d",
+    "reference_candidates": [],
+    "status": "no_exact_source_utr"
+  }
+]
