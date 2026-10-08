@@ -1,0 +1,23 @@
+{
+  "CSV_byte_cap": 65536,
+  "DOI": "10.1016/j.molcel.2019.04.012",
+  "author_repository": "https://github.com/pufmodel/Pumilio_occupancy_predictions",
+  "author_repository_explicit_license_verified": false,
+  "branch_ref_url": "https://api.github.com/repos/pufmodel/Pumilio_occupancy_predictions/git/refs/heads/master",
+  "cost": 0,
+  "localization_outcomes_read": false,
+  "maximum_requests": 5,
+  "not_author_code_redistribution_or_execution": true,
+  "paid_access_or_purchase_allowed": false,
+  "parameter_filenames": [
+    "PUM2_qMotif_term1.csv",
+    "PUM2_qMotif_term2_single.csv",
+    "PUM2_qMotif_term2_double.csv",
+    "PUM2_qMotif_term3.csv"
+  ],
+  "primary_paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6645366/",
+  "published_numerical_parameter_data_only": true,
+  "ref_byte_cap": 1048576,
+  "root_commit_before_download": true,
+  "status": "FIXED_PUBLIC_PRIMARY_PARAMETER_METADATA_ONLY"
+}

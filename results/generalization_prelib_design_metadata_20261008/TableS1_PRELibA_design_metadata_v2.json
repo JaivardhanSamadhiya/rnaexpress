@@ -1,0 +1,137 @@
+{
+  "formula_design_totals_unresolved": [
+    {
+      "cached_value_used": false,
+      "cell": "C21",
+      "field": "Number of oligos",
+      "formula_evaluated": false,
+      "formula_text": "SUM(C2:C19)"
+    }
+  ],
+  "nonselected_values_analyzed": false,
+  "parent_pairs_admitted": 0,
+  "rows": [
+    {
+      "Group": "ENCODE tiles",
+      "Number of oligos": 331,
+      "Subset": 1,
+      "source_excel_row": 2
+    },
+    {
+      "Group": "WT PAR-CLIP sequences from Hafner et al.",
+      "Number of oligos": 288,
+      "Subset": 2,
+      "source_excel_row": 3
+    },
+    {
+      "Group": "Mutated PAR-CLIP tiles",
+      "Number of oligos": 288,
+      "Subset": 3,
+      "source_excel_row": 4
+    },
+    {
+      "Group": "NORAD PREs in their original context",
+      "Number of oligos": 14,
+      "Subset": 4,
+      "source_excel_row": 5
+    },
+    {
+      "Group": "NORAD PREs in their original context, PRE mutated",
+      "Number of oligos": 14,
+      "Subset": 5,
+      "source_excel_row": 6
+    },
+    {
+      "Group": "PRE arrays (TGTACATA) separated by 0-20 bases from the spacer TTGTTGTCGAAAAT_TGTACATA_AGCCAA",
+      "Number of oligos": 21,
+      "Subset": 6,
+      "source_excel_row": 7
+    },
+    {
+      "Group": "mPRE arrays (ACAACATA) separated by 0-20 bases from the spacer TTGTTGTCGAAAAT_ACAACATA_AGCCAA",
+      "Number of oligos": 21,
+      "Subset": 7,
+      "source_excel_row": 8
+    },
+    {
+      "Group": "Arrays of all mutations of PREfull:TTGTTGTCGAAAATTGTACATAAGCCAA",
+      "Number of oligos": 84,
+      "Subset": 8,
+      "source_excel_row": 9
+    },
+    {
+      "Group": "Arrays of all mutations of mPREfull:TTGTTGTCGAAAATACAACATAAGCCAA",
+      "Number of oligos": 84,
+      "Subset": 9,
+      "source_excel_row": 10
+    },
+    {
+      "Group": "Arrays of all mutations of PREb6:TGTACATA",
+      "Number of oligos": 24,
+      "Subset": 10,
+      "source_excel_row": 11
+    },
+    {
+      "Group": "Arrays of all mutations of mPREb6:ACAACATA",
+      "Number of oligos": 24,
+      "Subset": 11,
+      "source_excel_row": 12
+    },
+    {
+      "Group": "Arrays of all mutations of PREa12:ATTGTACATAAGCCAA",
+      "Number of oligos": 48,
+      "Subset": 12,
+      "source_excel_row": 13
+    },
+    {
+      "Group": "Arrays of all mutations of mPREa12:ATACAACATAAGCCAA",
+      "Number of oligos": 48,
+      "Subset": 13,
+      "source_excel_row": 14
+    },
+    {
+      "Group": "Arrays of all mutations of NORAD_PRE9_rep7_5:TATACTGTATATATTGTATATATAACGG",
+      "Number of oligos": 84,
+      "Subset": 14,
+      "source_excel_row": 15
+    },
+    {
+      "Group": "Arrays of all mutations of NORAD_PRE10_rep8_5:ATTCAACCCTACTGTGTATATAGCGGAC",
+      "Number of oligos": 84,
+      "Subset": 15,
+      "source_excel_row": 16
+    },
+    {
+      "Group": "N-PRE arrays \u2013 Arrays of each NORAD PRE with 20 upstream and 6 downstream bases",
+      "Number of oligos": 14,
+      "Subset": 16,
+      "source_excel_row": 17
+    },
+    {
+      "Group": "N-mPRE arrays Arrays of each NORAD PREs mutated to mPRE with 20 upstream and 6 downstream bases",
+      "Number of oligos": 14,
+      "Subset": 17,
+      "source_excel_row": 18
+    },
+    {
+      "Group": "Additional sequences from NORAD",
+      "Number of oligos": 9,
+      "Subset": 18,
+      "source_excel_row": 19
+    },
+    {
+      "Group": "TOTAL",
+      "Number of oligos": null,
+      "Subset": null,
+      "source_excel_row": 21
+    }
+  ],
+  "selected_columns_only": [
+    "Subset",
+    "Group",
+    "Number of oligos"
+  ],
+  "sheet": "Sheet1",
+  "source_workbook_member": "TableS1_PRELibA_design.xlsx",
+  "source_workbook_sha256": "e2b378db27e25ae3028f451b70e313e3777f51ab830788c3bf73eda1e8339d9b"
+}

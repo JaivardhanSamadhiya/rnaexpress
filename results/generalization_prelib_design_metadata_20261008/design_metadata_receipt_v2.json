@@ -1,0 +1,71 @@
+{
+  "count_or_outcome_values_analyzed": false,
+  "files": {
+    "results/generalization_prelib_design_metadata_20261008/TableS1_PRELibA_design_metadata_v2.json": "035308648780097ebb7d9707a64fdca307810e29a97b405ffe2abd3b9ede5f01",
+    "results/generalization_prelib_design_metadata_20261008/TableS2_PRELibA_metadata_v2.json": "5dd48925a0421094bf38277a9d22b2b79139c68a639c84992784a57198528043",
+    "results/generalization_prelib_design_metadata_20261008/TableS3_PRELibB_design_metadata_v2.json": "3b78c40fbcb8e6190a468dde56becf4cddaef64f86eb58ac205b8caf2aa35dd1",
+    "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json": "65e32e40f252981a7d6d910b9c17069e4e436f07e8438ea6cbb2b761a9fdbf23"
+  },
+  "manifest_sha256": "ab3489e01529f14be93f318f47eed4fa83eb9c2a5f2a3d7921f0cf449a379d77",
+  "models_fit": 0,
+  "only_allowlisted_cells_semantically_decoded": true,
+  "parent_pairs_admitted": 0,
+  "records": [
+    {
+      "formula_totals_unresolved": 1,
+      "reported_design_oligo_count_sum": 1494,
+      "rows": 19,
+      "selected_fields": [
+        "Subset",
+        "Group",
+        "Number of oligos"
+      ],
+      "workbook": "TableS1_PRELibA_design.xlsx"
+    },
+    {
+      "formula_totals_unresolved": 0,
+      "nonliteral_ACGT_sequence_rows": 2,
+      "rows": 1494,
+      "selected_fields": [
+        "Subset",
+        "ID",
+        "Sequence",
+        "Category"
+      ],
+      "sequence_lengths": [
+        140
+      ],
+      "workbook": "TableS2_PRELibA.xlsx"
+    },
+    {
+      "formula_totals_unresolved": 0,
+      "nonliteral_ACGT_sequence_rows": 10,
+      "reported_design_oligo_count_sum": 6294,
+      "rows": 96,
+      "selected_fields": [
+        "Name",
+        "Number of oligos",
+        "Baseline sequence"
+      ],
+      "sequence_lengths": [
+        140
+      ],
+      "workbook": "TableS3_PRELibB_design.xlsx"
+    },
+    {
+      "formula_totals_unresolved": 0,
+      "nonliteral_ACGT_sequence_rows": 0,
+      "rows": 6293,
+      "selected_fields": [
+        "ID",
+        "Sequence"
+      ],
+      "sequence_lengths": [
+        140
+      ],
+      "workbook": "TableS4_PRELibB.xlsx"
+    }
+  ],
+  "shared_string_and_worksheet_bytes_internally_loaded": true,
+  "status": "PASS_PRELIB_FIXED_DESIGN_FIELDS_V2_UNEVALUATED_FORMULA_TOTAL"
+}
