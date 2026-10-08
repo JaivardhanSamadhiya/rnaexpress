@@ -1,0 +1,15 @@
+{
+  "caller_precaution_for_comparative_fits_available_GiB": 2.25,
+  "candidate_rows": 26258,
+  "comparative_fit_protocol_requires_one_thread_but_has_no_frozen_RAM_floor": true,
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "largest_feature_width": 518,
+  "maximum_cap256_non_tied_pairs_before_any_source_purges": 23563,
+  "menus": 5436,
+  "one_comparative_fit_worker_only": true,
+  "one_full_F64_matrix_bytes": 108813152,
+  "one_full_capped_pair_F64_matrix_bytes": 97645072,
+  "original_Splice_encoder_production_3GiB_guard_unchanged": true,
+  "scope": "Outcome-blind upper bounds over full admitted cohort; no label fields used, features loaded or fits started",
+  "total_process_RSS_not_certified": true
+}

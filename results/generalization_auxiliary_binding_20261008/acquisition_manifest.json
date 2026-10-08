@@ -1,0 +1,81 @@
+{
+  "GEO_data_license_not_inferred_from_code_license": true,
+  "account_or_payment": false,
+  "article_license": "CC BY-NC4.0 (article)",
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11162807/",
+  "code_license": "CC BY4.0 (explicit Zenodo metadata)",
+  "maximum_response_bytes": 12000000,
+  "maximum_total_bytes": 40000000,
+  "metadata_sources": {
+    "data/raw/generalization_auxiliary_binding_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "data/raw/generalization_auxiliary_binding_20261008/geo_supplement_directory.html": "a697ec0ab7c968f7fce0d16ad2f4da5bafa1f482e8dcbd976f6c9bdd31f9658b",
+    "data/raw/generalization_auxiliary_binding_20261008/geo_supplement_directory.html.receipt.json": "da2328575c3334e4c7c1974faf78ad8136c540fce9628bdd3a457043089b80d8",
+    "data/raw/generalization_auxiliary_binding_20261008/zenodo_code_record_10633325.json": "53b366e6b34b13fb392ec7ff1ecebebb5ad4ee8cc46637d96008d90874af94e7",
+    "data/raw/generalization_auxiliary_binding_20261008/zenodo_code_record_10633325.json.receipt.json": "e21e9e61f62f284003cc1c00f395300039ffcd921a804162e3026d12acd2fa77"
+  },
+  "no_closed_localization_tables_requested": true,
+  "no_model_fitting_authorized_by_acquisition": true,
+  "no_remote_code_execution": true,
+  "public_free": true,
+  "purpose": "Potential auxiliary RNA-protein binding supervision; never localization evaluation evidence",
+  "status": "FROZEN_AUXILIARY_BINDING_PUBLIC_ACQUISITION",
+  "urls": [
+    {
+      "filename": "GSE221537_CTCF_count.txt.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_CTCF_count.txt.gz"
+    },
+    {
+      "filename": "GSE221537_MS2_count.txt.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_MS2_count.txt.gz"
+    },
+    {
+      "filename": "GSE221537_PUM2_count.txt.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_PUM2_count.txt.gz"
+    },
+    {
+      "filename": "GSE221537_WRAP53_count.txt.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_WRAP53_count.txt.gz"
+    },
+    {
+      "filename": "GSE221537_ctcf_oligoPool.fasta.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_ctcf_oligoPool.fasta.gz"
+    },
+    {
+      "filename": "GSE221537_hTR_count.txt.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_hTR_count.txt.gz"
+    },
+    {
+      "filename": "GSE221537_hTR_oligoPool.fasta.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_hTR_oligoPool.fasta.gz"
+    },
+    {
+      "filename": "GSE221537_ms2_4x_oligoPool.fasta.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_ms2_4x_oligoPool.fasta.gz"
+    },
+    {
+      "filename": "GSE221537_pum2_oligoPool.fasta.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_pum2_oligoPool.fasta.gz"
+    },
+    {
+      "filename": "GSE221537_wrap53mt_oligoPool.fasta.gz",
+      "source": "NCBI GEO public primary deposit",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE221nnn/GSE221537/suppl/GSE221537_wrap53mt_oligoPool.fasta.gz"
+    },
+    {
+      "expected_bytes": 4043879,
+      "filename": "MPRNA-IP-v1.0.0.zip",
+      "published_md5": "4419127faa8532251cd87f54c12b66f4",
+      "source": "Author-linked Zenodo version10633325, CC BY4.0",
+      "url": "https://zenodo.org/api/records/10633325/files/taeyoungh/MPRNA-IP-v1.0.0.zip/content"
+    }
+  ]
+}
