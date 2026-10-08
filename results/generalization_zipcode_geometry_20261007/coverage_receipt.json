@@ -1,0 +1,123 @@
+{
+  "Mikl_unit_scope": "whole-gene biological components per committed crosscell metadata contract",
+  "design_files": 13,
+  "design_freeze_sha256": "c8c8033f9863526a3cac87d14f11c16cce1d7233cd6e1e54750ea1487fcbaded",
+  "input_files": {
+    "artifacts/generalization_next_20261007/encoded_sequence_inventory.csv.gz": "b31b4545104ea3266d9215e351a879dfec7644c58b7b7fb50829212899615313",
+    "artifacts/generalization_next_20261007/sequence_inventory.csv.gz": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8"
+  },
+  "other_unit_scope": "supplied conservative biological components; no invented gene-symbol mapping",
+  "outcomes_read": false,
+  "paired_geometry_edit_support": [
+    {
+      "biological_components": 2,
+      "condition": "geometry_changed",
+      "dataset": "astrocyte_gse330741",
+      "parent_contexts": 2,
+      "rows": 7,
+      "scope": "original",
+      "unique_allele_pairs": 7,
+      "unique_mutant_sequences": 7,
+      "unique_parent_sequences": 2
+    },
+    {
+      "biological_components": 17,
+      "condition": "geometry_changed",
+      "dataset": "mikl_gse173098",
+      "parent_contexts": 50,
+      "rows": 50,
+      "scope": "original",
+      "unique_allele_pairs": 25,
+      "unique_mutant_sequences": 25,
+      "unique_parent_sequences": 25
+    },
+    {
+      "biological_components": 3,
+      "condition": "geometry_changed",
+      "dataset": "moffatt_gse334718",
+      "parent_contexts": 6,
+      "rows": 11,
+      "scope": "original",
+      "unique_allele_pairs": 9,
+      "unique_mutant_sequences": 9,
+      "unique_parent_sequences": 3
+    },
+    {
+      "biological_components": 0,
+      "condition": "geometry_changed",
+      "dataset": "srle",
+      "parent_contexts": 0,
+      "rows": 0,
+      "scope": "original",
+      "unique_allele_pairs": 0,
+      "unique_mutant_sequences": 0,
+      "unique_parent_sequences": 0
+    },
+    {
+      "biological_components": 2,
+      "condition": "geometry_changed",
+      "dataset": "astrocyte_gse330741",
+      "parent_contexts": 2,
+      "rows": 7,
+      "scope": "encoded",
+      "unique_allele_pairs": 7,
+      "unique_mutant_sequences": 7,
+      "unique_parent_sequences": 2
+    },
+    {
+      "biological_components": 17,
+      "condition": "geometry_changed",
+      "dataset": "mikl_gse173098",
+      "parent_contexts": 50,
+      "rows": 50,
+      "scope": "encoded",
+      "unique_allele_pairs": 25,
+      "unique_mutant_sequences": 25,
+      "unique_parent_sequences": 25
+    },
+    {
+      "biological_components": 3,
+      "condition": "geometry_changed",
+      "dataset": "moffatt_gse334718",
+      "parent_contexts": 6,
+      "rows": 11,
+      "scope": "encoded",
+      "unique_allele_pairs": 9,
+      "unique_mutant_sequences": 9,
+      "unique_parent_sequences": 3
+    },
+    {
+      "biological_components": 1,
+      "condition": "geometry_changed",
+      "dataset": "srle",
+      "parent_contexts": 7,
+      "rows": 10,
+      "scope": "encoded",
+      "unique_allele_pairs": 10,
+      "unique_mutant_sequences": 7,
+      "unique_parent_sequences": 7
+    }
+  ],
+  "parent_lengths": {
+    "encoded": {
+      "46": 1744,
+      "150": 13781,
+      "190": 3984,
+      "260": 6749
+    },
+    "original": {
+      "6": 1744,
+      "150": 13781,
+      "190": 3984,
+      "260": 6749
+    }
+  },
+  "protected_outcomes_opened": false,
+  "result_files": {
+    "results/generalization_zipcode_geometry_20261007/coverage_by_assay.csv": "76cef55e5485d99fe2da5e966d12af5fa87761bfd44b0e00d189e4c28505e6d2",
+    "results/generalization_zipcode_geometry_20261007/coverage_rows.csv.gz": "da9df583464242938c5112827970e7591ffc12fbc3ca6e2d95883bf4f47cb973"
+  },
+  "rows_per_inventory": 26258,
+  "status": "COMPLETE_DESCRIPTIVE_FEASIBILITY",
+  "supervised_fits": 0
+}

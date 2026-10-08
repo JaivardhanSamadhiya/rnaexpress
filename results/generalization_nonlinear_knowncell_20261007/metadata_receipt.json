@@ -1,0 +1,88 @@
+{
+  "components": 187,
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "coverage": [
+    {
+      "components": 187,
+      "rows": 6889,
+      "task": "CAD_known"
+    },
+    {
+      "components": 187,
+      "rows": 6892,
+      "task": "N2A_known"
+    }
+  ],
+  "feature_values_loaded": false,
+  "files": {
+    "results/generalization_nonlinear_knowncell_20261007/exact_menu_pairs.csv": "d61291b565e60c3b9e22b1c56a9e6984ec0b03b366785befd5a89b42eed09aee",
+    "results/generalization_nonlinear_knowncell_20261007/metadata_fold_audit.csv": "5715821e248b4a26cea903e5c00f8a815d9f4e062c13f313dd13359b4748852f",
+    "results/generalization_nonlinear_knowncell_20261007/row_index.csv.gz": "c37695046bee46902eeff8d87bad03557dc94f994913978b476e79bab36a3bc0",
+    "results/generalization_nonlinear_knowncell_20261007/unmatched_menu_metadata.csv": "7a3ed26bbc8785c83611fadbe010dfc580ec33c1d8c9fbcf1ce075cf59e6f934"
+  },
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "metadata_sha256": "5cc4dff0999d08bc7854dc14bce356ed8fa53ba1f8be017e61d80c84470e38e6",
+  "new_fits": 0,
+  "outcome_columns_read": false,
+  "paired_menus": 2408,
+  "paired_rows": 13760,
+  "project_model_files_opened": false,
+  "row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "rows": 13781,
+  "source_input_files": {
+    "artifacts/generalization_crosscell_20261007/base_model_features.npz": "7be5aeb3a65190d1e0a60d0d5decd9854c01dfb9770d86cd440187bd6f28f57c",
+    "artifacts/generalization_crosscell_20261007/bert_model_features.npz": "92184e4da9436a6e3f38312510f907b76bfe5c92d88d20c970a7a096a503be85",
+    "artifacts/generalization_crosscell_20261007/combined_model_features.npz": "98669c4950a4c4e073de0bf5570e6d618a5e115f35506ce6d75e77d78e47a9e0",
+    "artifacts/generalization_crosscell_20261007/lookup_model_features.npz": "28ccc3fe4d1267917bc8bede4e48bedbabe0362d5bad63c38c49deced9cf1800",
+    "artifacts/generalization_crosscell_20261007/raw_model_features.npz": "a545320afdc5d0cb64ebe4a89a6f2835e9a1c25337cbe92167599ca2b573ee62",
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6",
+    "artifacts/generalization_crosscell_20261007/structure_model_features.npz": "191f08f95103752137d249d7e7443012f675721cf5a20d0c2bcc34fe8f676b76",
+    "src/generalization_nonlinear_crosscell_20261007/__init__.py": "63d815fc23100736c16da5f3238a2b0e51d5794881598fe9cbbbb89a0cc60d26",
+    "src/generalization_nonlinear_crosscell_20261007/bootstrap.py": "0fb64d3c59ace2fc63b42450e990c26d7314c982fca793919eadc5a3a25e65e0",
+    "src/generalization_nonlinear_crosscell_20261007/common.py": "4939de60957799f54d8e57413d92062427a35799af6fb65dd71f3522434a88bb",
+    "src/generalization_nonlinear_crosscell_20261007/engine.py": "cb755195dfc59b3d9f9d015a2701f0ad7d18d593245d6b71f640d2b4839a5bdb",
+    "src/generalization_nonlinear_crosscell_20261007/freeze.py": "401891ab39570c4232fa4ae9c3c018f41d22368e91676bb9b8f1773becf6bdb0",
+    "src/generalization_nonlinear_crosscell_20261007/gate.py": "79a7af62cc77fe68dde125979b6474ea6aa11a0879223724721fd0dd7ccc23e0",
+    "src/generalization_nonlinear_crosscell_20261007/prepare.py": "afe68fcb4be0e08f2298ffd56256654481fc49784d215a39db72df083b2b1a21",
+    "src/generalization_nonlinear_crosscell_20261007/ridge.py": "241fe87b0223cbd71c43a5e3d921ec75ec68bb1f3f8acf7c6a32530ee495a609",
+    "src/generalization_nonlinear_crosscell_20261007/routes.py": "9b7b849c9da6d2fec0ca181715d69deb824bc583f775acbd816be3698ca27772",
+    "src/generalization_nonlinear_crosscell_20261007/splits.py": "a905192ab51bd1bb80c813132855fdfb83f7df21e931d260deec9e446fc56173",
+    "src/generalization_nonlinear_crosscell_20261007/tests.py": "825922c55a488f54c34fa1179112b84500a15e84b6ab9670f094cafcb0316dc4",
+    "src/generalization_nonlinear_crosscell_20261007/verify.py": "dd77dc276cd655ed93223def4de31a691f29fa470a9f5d9e97d7572d5d41369f"
+  },
+  "source_prefit_sha256": "9d3a1b89140a68ebb857512c7a87cab345e053abbd16e0156819455569e19d47",
+  "source_runtime_binding_sha256": "7a4deb9a7a9f7faa063b9cf83db48f8e8abe211f4fc7ca6947ede71c529b036a",
+  "status": "PASS",
+  "tasks": {
+    "CAD_known": [
+      "CAD",
+      "CAD_to_N2A"
+    ],
+    "N2A_known": [
+      "Neuro-2a",
+      "N2A_to_CAD"
+    ]
+  },
+  "tracks": [
+    "hgb/simple",
+    "hgb/base",
+    "hgb/raw",
+    "hgb/structure",
+    "hgb/lookup",
+    "hgb/bert",
+    "hgb/combined",
+    "ridge/simple",
+    "ridge/base",
+    "ridge/raw",
+    "ridge/structure",
+    "ridge/lookup",
+    "ridge/bert",
+    "ridge/combined"
+  ],
+  "unmatched_contexts": 9,
+  "unmatched_rows": 21
+}

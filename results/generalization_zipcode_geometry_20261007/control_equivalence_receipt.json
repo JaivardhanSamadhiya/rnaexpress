@@ -1,0 +1,29 @@
+{
+  "design_freeze_sha256": "c8c8033f9863526a3cac87d14f11c16cce1d7233cd6e1e54750ea1487fcbaded",
+  "geometry_changed_equal_nonzero_net_all_rows": true,
+  "geometry_changed_without_either_piece_count_change_rows": 0,
+  "global_changed_components": {
+    "encoded": 23,
+    "original": 22
+  },
+  "input_file": "results/generalization_zipcode_geometry_20261007/coverage_rows.csv.gz",
+  "input_sha256": "da9df583464242938c5112827970e7591ffc12fbc3ca6e2d95883bf4f47cb973",
+  "scope": "sequence_only_no_outcomes_no_fits",
+  "srle_encoded_rows": 1744,
+  "srle_observed_pairs": [
+    [
+      -3,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "srle_pair_delta_equals_three_times_isolated_A_all_rows": true,
+  "status": "PASS_DESCRIPTIVE_CONTROL_CHECK"
+}

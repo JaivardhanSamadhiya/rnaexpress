@@ -1,0 +1,36 @@
+{
+  "attributes": {
+    "artifacts/generalization_nonlinear_knowncell_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_nonlinear_knowncell_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_nonlinear_knowncell_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_nonlinear_knowncell_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  "elapsed_seconds": 1.2808667999997851,
+  "models_fit": 0,
+  "native_predictor_used_on_synthetic_JSON_only": true,
+  "numerical_threads": 1,
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.2.3",
+  "project_feature_values_loaded": false,
+  "project_models_opened": false,
+  "project_outcomes_read": false,
+  "report_hashes": {
+    "protocol.md": "f73f44627294df3c5a9acc227e3ce0c00f890bbf4ed9670f19b593f4731bb4bf"
+  },
+  "source_hashes": {
+    "__init__.py": "fcccbdd6a890ae77682e6149db4b43899f53d94a0a49c1f43f444f6dbf1a6390",
+    "canonical_paired_contrast.py": "7e32007c5d7c8386cd950be65399b52e9ad1db022e28e3dda6ff117545a88a0e",
+    "common.py": "b144ec908c4bee0aafb550e5c3235f301ae778261541ff62d76b1bcadbd1c0f7",
+    "control_replay.py": "557fadf2d382ebe0771c77b37058a6b68d84652eb4244d09b96483173a95a3da",
+    "evaluate.py": "f23cf418aa590c114078fb087df4913fee25cea0796acff836d17066f9a2b5d6",
+    "freeze.py": "046430e8b515039f955259cc671e0c3158bb462262fe899bd48389a010d449e7",
+    "gate.py": "b5130a82896862cf358a8359dd401041fce989f6a913bcb2c2e9bd554aff1108",
+    "predict.py": "33f89c735d63af2623b60d4bd78cb8fe94c44f9c3b8697755bbe2214aa3f6508",
+    "prepare.py": "64953ae35e73bedc3bf65da24fde8253dc33262fa6f2f49e76278605b11b8f78",
+    "splits.py": "f33e5c4efd429122bb977aa63489409f0df8e50bca78524aa11a489dd4ec2fd4",
+    "tests.py": "15109e2900896bd22d022be7a1d566c0c86112e8c858bfedf07c7cd617e2dbe5",
+    "verify.py": "59d12579a6ffe3d8813f373b0ba4259be280353b20f5d58ec75e6016f0648e89"
+  },
+  "status": "PASS",
+  "tests": 16
+}
