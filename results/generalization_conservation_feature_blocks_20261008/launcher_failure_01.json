@@ -1,0 +1,10 @@
+{
+  "failed_session": 40465,
+  "failure": "PowerShell Tee-Object -LiteralPath with -Append parameter set cannot be resolved",
+  "feature_production_started": false,
+  "frozen_code_or_resource_requirements_changed": false,
+  "next_action": "Separate feature-only launcher using direct stdout redirection and unchanged fresh 3 GiB producer floor",
+  "provenance_audit_sha256": "c344278cdcfd6808fc2a17741c5a65de552668dd733a05553882cf3cd67e8f53",
+  "provenance_audit_status": "PASS_ALL_SITE_QUERY_AND_MISSING_REASON_BINDINGS",
+  "status": "LAUNCHER_STDOUT_LOGGING_FAILURE_AFTER_SUCCESSFUL_PROVENANCE_AUDIT"
+}

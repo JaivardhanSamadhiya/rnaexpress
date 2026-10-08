@@ -1,0 +1,14 @@
+{
+  "accessed_utc": "2026-10-08T07:02:14.559958+00:00",
+  "account_or_payment": false,
+  "acquired_bytes": 1533,
+  "bytes": 1533,
+  "content_type": "application/json",
+  "final_url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr18;start=60985251;end=60985258;maxItemsOutput=10000",
+  "http_status": 200,
+  "public_free": true,
+  "scope": "Fixed exact-site conservation annotations; no localization outcomes",
+  "sha256": "e08362c40271c21d3526d0438009b61721affef6bcec5a2c2642a163e2058bae",
+  "terms_url": "https://genome.ucsc.edu/license/",
+  "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr18;start=60985251;end=60985258;maxItemsOutput=10000"
+}

@@ -1,0 +1,6 @@
+# Precommit scope and gate clarification
+The initial uncommitted source-only draft, its tests and design receipt are preserved byte-for-byte in uncommitted_source_draft01.zip. No matrices, labels, model outputs or fits were read or produced by this draft. No historical frozen namespace was edited.
+
+Root precommit review found that the reusable RBP cell-axis gate explicitly checks total wrong-direction harm and removal of the best gene fold, while the earlier frozen conservation feature preparation also names avoidable-wrong harm and leave-best-gene-out gain. Neither declaration is dropped. The active v2 design requires BOTH total/avoidable harm limits, and BOTH best-fold/best-individual-gene removal. Native and combined information contrasts also require both removals. Identical numeric thresholds remain .02 macro harm, .05 cell harm, and positive remaining gain. Best individual gene uses highest equal-cell component gain, with lexical component ties. This conservative clarification precedes all new feature matrices and supervised fitting.
+
+The active source-only design is design_manifest_v2.json; v2 tests/readiness receipts bind the reviewed current source. Original draft01 design/tests/readiness receipts remain preserved for provenance and are not admission receipts for the final source.
