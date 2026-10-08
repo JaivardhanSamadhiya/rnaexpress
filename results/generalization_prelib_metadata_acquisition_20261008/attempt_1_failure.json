@@ -1,0 +1,29 @@
+{
+  "attempt": 1,
+  "body_SHA256": "844c55a9f94af083763b685d214420add26dc8f45be5bd6956549e46e6007f30",
+  "bytes": 1817,
+  "error": "Response is not ZIP archive bytes",
+  "error_type": "AssertionError",
+  "headers": {
+    "Alt-Svc": "clear",
+    "Connection": "close",
+    "Content-Length": "1817",
+    "Date": "Thu, 08 Oct 2026 14:42:56 GMT",
+    "Server": "istio-envoy",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Via": "1.1 google",
+    "X-UA-Compatible": "IE=Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "content-type": "text/html; charset=utf-8",
+    "cross-origin-opener-policy": "same-origin",
+    "referrer-policy": "same-origin",
+    "set-cookie": "ncbi_sid=963948EEAC7AA533_5661SID; Domain=.nih.gov; expires=Fri, 08 Oct 2027 14:42:56 GMT; Max-Age=31536000; Path=/",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "9",
+    "x-frame-options": "DENY"
+  },
+  "http_status": 200,
+  "request_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11602169/bin/gkae929_supplemental_files.zip",
+  "response_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11602169/bin/gkae929_supplemental_files.zip",
+  "status": "FAILED_FIXED_ENDPOINT"
+}

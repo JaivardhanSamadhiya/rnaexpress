@@ -1,0 +1,95 @@
+{
+  "ID_aliases": [
+    {
+      "complete_ID_set_bijection": true,
+      "literal_rule": "fixed pool-specific namespace rewrite; numeric token unchanged",
+      "namespace_alias_explicitly_provided_by_author": false,
+      "nearest_sequence_matching": false,
+      "pool": "ms2_4x",
+      "rows": 105
+    },
+    {
+      "complete_ID_set_bijection": true,
+      "literal_rule": "identity",
+      "namespace_alias_explicitly_provided_by_author": true,
+      "nearest_sequence_matching": false,
+      "pool": "wrap53mt",
+      "rows": 55
+    },
+    {
+      "complete_ID_set_bijection": true,
+      "literal_rule": "fixed pool-specific namespace rewrite; numeric token unchanged",
+      "namespace_alias_explicitly_provided_by_author": false,
+      "nearest_sequence_matching": false,
+      "pool": "hTR",
+      "rows": 614
+    }
+  ],
+  "compensatory_quartets": 170,
+  "count_values_analyzed": false,
+  "files": {
+    "results/generalization_auxiliary_ancestry_metadata_20261008/author_design_relations.json": "8be4e466945532681d073ebb5de2cbd773695abd250eaf3a01d5a944ec83303d",
+    "results/generalization_auxiliary_ancestry_metadata_20261008/compensatory_sequence_quartets.json": "ec765b02082b2c3a749d3b8751fe896e2952d5a796db65d61714be2caf29e6ca",
+    "results/generalization_auxiliary_ancestry_metadata_20261008/unparented_annotation_rows.json": "d37843e770075ff3ef77badb67d5c93342e22dacc588be0372c8ecf2e8a8b93b"
+  },
+  "hTR_overlapping_fragments_same_split_lineage": true,
+  "mature_RNA_or_primer_boundary_source_certificate": false,
+  "metadata_completion_is_not_biological_or_training_admission": true,
+  "models_fit": 0,
+  "pools": [
+    {
+      "author_ID_relations": 57,
+      "coordinate_sequence_checked": 57,
+      "coordinate_sequence_failures": 0,
+      "equal_length_edit_histogram": {
+        "4": 57
+      },
+      "inferred_insert_1_to_6_substitutions": 57,
+      "pool": "ms2_4x",
+      "unique_parent_IDs": 1
+    },
+    {
+      "author_ID_relations": 53,
+      "coordinate_sequence_checked": 53,
+      "coordinate_sequence_failures": 3,
+      "equal_length_edit_histogram": {
+        "10": 3,
+        "12": 2,
+        "14": 1,
+        "2": 2,
+        "4": 26,
+        "5": 7,
+        "6": 5,
+        "7": 3,
+        "8": 4
+      },
+      "inferred_insert_1_to_6_substitutions": 40,
+      "pool": "wrap53mt",
+      "unique_parent_IDs": 1
+    },
+    {
+      "author_ID_relations": 501,
+      "coordinate_sequence_checked": 477,
+      "coordinate_sequence_failures": 42,
+      "equal_length_edit_histogram": {
+        "1": 210,
+        "10": 2,
+        "12": 1,
+        "14": 1,
+        "2": 105,
+        "20": 1,
+        "4": 108,
+        "8": 56,
+        "None": 17
+      },
+      "inferred_insert_1_to_6_substitutions": 423,
+      "pool": "hTR",
+      "unique_parent_IDs": 3
+    }
+  ],
+  "quartet_union_failures": 3,
+  "source_manifest_sha256": "f5a1a274b3682aff6da7fa6a1c01ab6d0eebdf4358f6ea982d0ed95baab28843",
+  "status": "COMPLETE_OUTCOME_FREE_AUTHOR_ANCESTRY_AND_INFERRED_INSERT_AUDIT",
+  "three_RNA_lineages_not_independent_parent_ID_count": true,
+  "training_pairs_admitted": 0
+}

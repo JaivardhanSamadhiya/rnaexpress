@@ -1,0 +1,104 @@
+{
+  "archive_bytes": 6840082,
+  "archive_path": "data/raw/generalization_prelib_metadata_acquisition_20261008/gkae929_supplemental_files.zip",
+  "archive_sha256": "1df27b97bad94fa4d7c16d4be1884ea7c4bf7e0fe6c937f1165048b1216308ca",
+  "attempts": [
+    {
+      "attempt": 1,
+      "body_SHA256": "844c55a9f94af083763b685d214420add26dc8f45be5bd6956549e46e6007f30",
+      "bytes": 1817,
+      "error": "Response is not ZIP archive bytes",
+      "error_type": "AssertionError",
+      "headers": {
+        "Alt-Svc": "clear",
+        "Connection": "close",
+        "Content-Length": "1817",
+        "Date": "Thu, 08 Oct 2026 14:42:56 GMT",
+        "Server": "istio-envoy",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Via": "1.1 google",
+        "X-UA-Compatible": "IE=Edge",
+        "X-XSS-Protection": "1; mode=block",
+        "content-type": "text/html; charset=utf-8",
+        "cross-origin-opener-policy": "same-origin",
+        "referrer-policy": "same-origin",
+        "set-cookie": "ncbi_sid=963948EEAC7AA533_5661SID; Domain=.nih.gov; expires=Fri, 08 Oct 2027 14:42:56 GMT; Max-Age=31536000; Path=/",
+        "x-content-type-options": "nosniff",
+        "x-envoy-upstream-service-time": "9",
+        "x-frame-options": "DENY"
+      },
+      "http_status": 200,
+      "request_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11602169/bin/gkae929_supplemental_files.zip",
+      "response_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11602169/bin/gkae929_supplemental_files.zip",
+      "status": "FAILED_FIXED_ENDPOINT"
+    },
+    {
+      "attempt": 2,
+      "body_SHA256": "1df27b97bad94fa4d7c16d4be1884ea7c4bf7e0fe6c937f1165048b1216308ca",
+      "bytes": 6840082,
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Cache-Control": "max-age=31536000",
+        "Connection": "close",
+        "Content-Length": "6840082",
+        "Content-Type": "application/zip",
+        "Date": "Thu, 08 Oct 2026 14:42:57 GMT",
+        "ETag": "\"959e7c19320f08d17c2cbd15ccd3d330\"",
+        "Last-Modified": "Wed, 27 Nov 2024 10:56:39 GMT",
+        "Server": "AmazonS3",
+        "Via": "1.1 339b50639d9b4146fda74da7c1df3f92.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "0dA7klPkPUvaYPxtmVAR9XPenAnZ2L90pNSkzjcl9Ngzd9jTIecFKg==",
+        "X-Amz-Cf-Pop": "SFO53-P9",
+        "X-Cache": "Miss from cloudfront",
+        "x-amz-replication-status": "COMPLETED",
+        "x-amz-server-side-encryption": "AES256",
+        "x-amz-version-id": "mkx7wrC8vq59i5ElAvahJ2z3jIHomOKA"
+      },
+      "http_status": 200,
+      "request_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/52/21/10.1093_nar_gkae929/1/gkae929_supplemental_files.zip?Expires=2147483647&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&Signature=cYDQCVXD2ks~MaOpmySZ7FEyEfDCHJCa5KFAEJ8GnsZ8LQeMk2MY-ARTJmXgNu3-IJdTNaXR3j8PFpOxaUUGwbuAQzWtRGLqKEZZhkOXyKjktD8i0-UTHpPbhQlHazx1lsshKVrlggPVQ8eva9kUA9zVtnCXCVT7Esd5a3aWDg00gq62QfSfDFRWtD6Q~rlYrfCxECN017C9~CSR-7UodsqXa5X1XsipMajb4h2dq6I1A0qL3eCU~-rmfSmM~J-rgf3z1vaIacI~3fwHh8J7hks2VHQRPFuLwVQ~1wTo39wtZHZUNf5O7zjFcYu7piN9tAy0JH9v0xohO0peZCJdhA__",
+      "response_url": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/52/21/10.1093_nar_gkae929/1/gkae929_supplemental_files.zip?Expires=2147483647&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA&Signature=cYDQCVXD2ks~MaOpmySZ7FEyEfDCHJCa5KFAEJ8GnsZ8LQeMk2MY-ARTJmXgNu3-IJdTNaXR3j8PFpOxaUUGwbuAQzWtRGLqKEZZhkOXyKjktD8i0-UTHpPbhQlHazx1lsshKVrlggPVQ8eva9kUA9zVtnCXCVT7Esd5a3aWDg00gq62QfSfDFRWtD6Q~rlYrfCxECN017C9~CSR-7UodsqXa5X1XsipMajb4h2dq6I1A0qL3eCU~-rmfSmM~J-rgf3z1vaIacI~3fwHh8J7hks2VHQRPFuLwVQ~1wTo39wtZHZUNf5O7zjFcYu7piN9tAy0JH9v0xohO0peZCJdhA__",
+      "status": "PASS_PRIMARY_PUBLIC_ARCHIVE_BYTES_CRC_AND_INVENTORY"
+    }
+  ],
+  "bytewise_CRC_decompression_includes_outcome_bearing_files": true,
+  "cost": 0,
+  "downloaded_numerical_supplements_not_an_untouched_holdout_claim": true,
+  "member_inventory": [
+    {
+      "CRC32": "efb5bfee",
+      "member": "PRELib supplement.pdf",
+      "stored_bytes": 2924445,
+      "uncompressed_bytes": 3000663
+    },
+    {
+      "CRC32": "1e392000",
+      "member": "TableS1_PRELibA_design.xlsx",
+      "stored_bytes": 8021,
+      "uncompressed_bytes": 10566
+    },
+    {
+      "CRC32": "b24ba82a",
+      "member": "TableS2_PRELibA.xlsx",
+      "stored_bytes": 1588588,
+      "uncompressed_bytes": 1591726
+    },
+    {
+      "CRC32": "1f7d4599",
+      "member": "TableS3_PRELibB_design.xlsx",
+      "stored_bytes": 9612,
+      "uncompressed_bytes": 12125
+    },
+    {
+      "CRC32": "e1cef81f",
+      "member": "TableS4_PRELibB.xlsx",
+      "stored_bytes": 2308604,
+      "uncompressed_bytes": 2326440
+    }
+  ],
+  "models_fit": 0,
+  "request_manifest_sha256": "83a2a2982496e8e4d18c7f86c04a5093647f5fefd5e08021ea752f67eeeb1627",
+  "source_manifest_sha256": "9c72b73d964c8f54873a2129a3075ad6238a4f879fbe6e863af2c5d1bf88df9f",
+  "status": "PASS_PRIMARY_PUBLIC_ARCHIVE_BYTES_CRC_AND_INVENTORY",
+  "training_pairs_admitted": 0,
+  "worksheet_or_count_values_semantically_analyzed": false
+}
