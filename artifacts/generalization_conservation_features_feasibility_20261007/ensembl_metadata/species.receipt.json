@@ -1,0 +1,27 @@
+{
+  "body_bytes": 404,
+  "body_sha256": "6369b8b1c373c1a998dc166d7a77544b4c34a5c0622a697edbabf0270b1d8bae",
+  "cap_bytes": 4194304,
+  "final_url": "https://grch37.rest.ensembl.org/info/species",
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Content-Length": "404",
+    "Content-Type": "application/json",
+    "Date": "Thu, 08 Oct 2026 01:10:17 GMT",
+    "Vary": "Content-Type, Origin",
+    "X-RateLimit-Limit": "55000",
+    "X-RateLimit-Period": "3600",
+    "X-RateLimit-Remaining": "54998",
+    "X-RateLimit-Reset": "2983",
+    "X-Runtime": "0.006450",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+  },
+  "http_status": 200,
+  "json_top_level": "dict",
+  "retry_count": 0,
+  "scope": "metadata_only_no_site_values",
+  "status": "PUBLIC_METADATA_RESPONSE_OBSERVED",
+  "url": "https://grch37.rest.ensembl.org/info/species",
+  "utc": "2026-10-08T01:10:14.404950+00:00"
+}

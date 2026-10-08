@@ -1,0 +1,130 @@
+{
+  "adjacent_only_intervals": 3003,
+  "aligned_base_queries": 0,
+  "all_original_edit_records": 108674,
+  "annotation_value_queries": 0,
+  "certified_edit_records_with_repeats": 66669,
+  "certified_genomic_sites": 15132,
+  "certified_menus": 4465,
+  "certified_parents": 2239,
+  "certified_rows": 15769,
+  "certified_rows_by_transcript_strand": {
+    "+": 9255,
+    "-": 6514
+  },
+  "datasets": {
+    "astrocyte_gse330741": {
+      "certified_menus": 5,
+      "certified_parents": 5,
+      "certified_rows": 2848,
+      "components_with_any_certified_row": 2,
+      "genes_with_any_certified_row": 2,
+      "original_components": 2,
+      "original_genes": 2,
+      "original_menus": 7,
+      "original_parents": 7,
+      "original_rows": 3984,
+      "parent_statuses": {
+        "no_exact_source_utr": 2,
+        "reference_site_vector_unique_complete_candidates": 5
+      },
+      "row_statuses": {
+        "no_exact_source_utr": 1136,
+        "reference_site_vector_unique_complete_candidates": 2848
+      },
+      "unresolved_anchor_reasons": {}
+    },
+    "mikl_gse173098": {
+      "certified_menus": 4460,
+      "certified_parents": 2234,
+      "certified_rows": 12921,
+      "components_with_any_certified_row": 174,
+      "genes_with_any_certified_row": 174,
+      "original_components": 187,
+      "original_genes": 187,
+      "original_menus": 4825,
+      "original_parents": 2417,
+      "original_rows": 13781,
+      "parent_statuses": {
+        "ambiguous_reference_site_vectors": 2,
+        "reference_site_vector_unique_complete_candidates": 2234,
+        "unresolved_reference_candidates": 181
+      },
+      "row_statuses": {
+        "ambiguous_reference_site_vectors": 8,
+        "reference_site_vector_unique_complete_candidates": 12921,
+        "unresolved_reference_candidates": 852
+      },
+      "unresolved_anchor_reasons": {
+        "fixed_region_cap_or_invalid_interval": 360,
+        "stable_transcript_absent_from_fixed_annotation": 1,
+        "unsupported_fixed_author_chromosome": 15
+      }
+    },
+    "moffatt_gse334718": {
+      "certified_menus": 0,
+      "certified_parents": 0,
+      "certified_rows": 0,
+      "components_with_any_certified_row": 0,
+      "genes_with_any_certified_row": 0,
+      "original_components": 6,
+      "original_genes": 6,
+      "original_menus": 12,
+      "original_parents": 6,
+      "original_rows": 6749,
+      "parent_statuses": {
+        "no_exact_source_utr": 6
+      },
+      "row_statuses": {
+        "no_exact_source_utr": 6749
+      },
+      "unresolved_anchor_reasons": {}
+    },
+    "srle": {
+      "certified_menus": 0,
+      "certified_parents": 0,
+      "certified_rows": 0,
+      "components_with_any_certified_row": 0,
+      "genes_with_any_certified_row": 0,
+      "original_components": 1,
+      "original_genes": 1,
+      "original_menus": 592,
+      "original_parents": 592,
+      "original_rows": 1744,
+      "parent_statuses": {
+        "synthetic_no_native_coordinates": 592
+      },
+      "row_statuses": {
+        "synthetic_no_native_coordinates": 1744
+      },
+      "unresolved_anchor_reasons": {}
+    }
+  },
+  "distinct_reference_alternate_site_pairs": 25593,
+  "failed_response_receipts": [],
+  "files": {
+    "results/generalization_conservation_features_feasibility_20261007/all_original_row_site_metadata.json.gz": "d18bd0356c79dee4205b93078a9336a24a0608b11354b84a164ce300218b337e",
+    "results/generalization_conservation_features_feasibility_20261007/certified_site_inventory.json": "386a254d1b5ef41077ee9fe131449806c86c92fc5e119e1b21497980b1ebdc53",
+    "results/generalization_conservation_features_feasibility_20261007/proposed_native_request_roster.json": "574e702740489e5eb9646a97810b37e7853926a49e3adce4456d05066e60243b"
+  },
+  "full_mapping_body_bytes_including_pilot_reuse": 11906209,
+  "full_mapping_new_requests": 350,
+  "full_mapping_response_count": 358,
+  "full_mapping_response_statuses": {
+    "200": 358
+  },
+  "largest_interval_bases": 320,
+  "mapping_receipt_sha256": "ae393a91e19b1394763a27d49275df078aabac5688bb33f26214b040e2d43c62",
+  "minimum_network_seconds_excluding_latency": 6306.3,
+  "minimum_request_spacing_seconds": 1.05,
+  "models_fit": 0,
+  "original_menus": 5436,
+  "original_parents": 3022,
+  "original_rows": 26258,
+  "outcomes_read": false,
+  "proposed_native_track_requests": 6006,
+  "query_roster_not_authorized_or_frozen": true,
+  "replay_receipt_sha256": "cc41a93dca06f1f528720d8ddfd24f4f4b563fc81ff244f3bf142465e4e23218",
+  "source_sha256": "1b82b1206def42d97d0e52f81ea6df9e0eb03f9070fdeb1922f0f5ea4864a7fb",
+  "status": "PASS_EXACT_COORDINATE_SITE_REQUEST_FEASIBILITY_ONLY"
+}

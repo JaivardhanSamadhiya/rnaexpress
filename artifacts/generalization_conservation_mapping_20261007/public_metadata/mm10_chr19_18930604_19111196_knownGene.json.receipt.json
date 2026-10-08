@@ -1,0 +1,13 @@
+{
+  "accessed_utc": "2026-10-08T01:05:53.430088+00:00",
+  "account_or_payment": false,
+  "bytes": 2283,
+  "content_type": "application/json",
+  "final_url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=18930604;end=19111196;maxItemsOutput=10000",
+  "http_status": 200,
+  "public_free": true,
+  "scope": "Official sequence/annotation coordinate metadata only; no scores or outcomes",
+  "sha256": "68bba260af628610b4eb830ed3cfa09ac18c365c6953ef617a04cfd9b02bb82a",
+  "terms_url": "https://genome.ucsc.edu/license/",
+  "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr19;start=18930604;end=19111196;maxItemsOutput=10000"
+}
