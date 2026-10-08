@@ -1,0 +1,20 @@
+{
+  "IR_bin_sha256": "0b8f7e244178ab0d4f93ddc7995e48bdcd47332d5480f072c3011e5dfb73fc39",
+  "IR_xml_sha256": "79604792f019a1f87518e8cddef0b3550178a2c8003894b543b3c73becea5b73",
+  "NumPy_import_receipt_sha256": "a9285521e6f098b58514c2ed8373c0e52da2b8ddcfdeb5d63dea848c9d24357b",
+  "conversion_algorithm_unchanged": true,
+  "downstream_bridge": "Original IR/parity fields preserved; repair manifest/import/compatibility receipts are additional required provenance, not substituted original-runtime certification",
+  "full_production_authorized": false,
+  "models_fit": 0,
+  "original_backend_preparation_sha256": "d290e0a49cf5dac130f4f0d4a9be859c61ebad991a004bc83b013cf07da5c21b",
+  "original_backend_source_sha256": "d4e6c55e3bec662a62341102812c675eb28f97bc63907c42ed64ac85d937810e",
+  "original_backend_synthetic_receipt_sha256": "ff73e01f7fbdb4c5f7e338ff4f477009fa2951f3fd71f3dc7769dd541702f2d9",
+  "original_guard_binding_restored": true,
+  "outcomes_read": false,
+  "project_alleles": 0,
+  "repair_preparation_sha256": "bb409cea218bb3fd3a2c4c6575622117b015cd5e521e87690eb7934800539592",
+  "source_guard_runs": 1,
+  "source_or_manifest_modified": false,
+  "status": "PASS_SYNTHETIC_BACKEND_WITH_VERIFIED_NUMPY_ORIGIN",
+  "synthetic_alleles": 16
+}

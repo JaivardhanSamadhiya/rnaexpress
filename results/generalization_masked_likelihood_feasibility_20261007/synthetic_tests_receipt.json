@@ -1,0 +1,20 @@
+{
+  "actual_model_imports": 0,
+  "actual_numeric_imports": 0,
+  "checkpoint_loads": 0,
+  "fits": 0,
+  "model_calls": 0,
+  "outcomes_read": false,
+  "plan_sha256": "4e3ac81b6b4583a3d7a72e43cafa846b4923252a56273ebdbdf72c527ab74868",
+  "project_sequences_read": 0,
+  "scope": "Standard-library masking/math and mocked head/runtime metadata only; no native certification",
+  "source_hashes": {
+    "src/generalization_masked_likelihood_feasibility_20261007/__init__.py": "9506c9be4aa3995a25702b6004de7981ca9cbd422b980f988aafe2227a662265",
+    "src/generalization_masked_likelihood_feasibility_20261007/common.py": "2ee9c8a69abc68ddfe2d063fa4ebdda6809f7b4f82ee4d526ea3a7729e940f10",
+    "src/generalization_masked_likelihood_feasibility_20261007/prepare.py": "1235454712ce60bb0cf17ba474ed6713cec175562b05510018b1128cf1d31305",
+    "src/generalization_masked_likelihood_feasibility_20261007/tests.py": "a1d47553040e643e1e72d72b22b7fac156353496d107566480d860a5a8d91da9",
+    "src/generalization_masked_likelihood_feasibility_20261007/token_math.py": "1c64bd543a3fd4b64d5b5a4fcf421374aea0d69ef143023631b1504693951b8f"
+  },
+  "status": "PASS",
+  "tests": 15
+}

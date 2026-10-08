@@ -1,0 +1,12 @@
+{
+  "status": "PRESERVED_MOCK_EXPECTATION_ROUNDOFF",
+  "test": "test_09_tail_duplicate_one_call_and_no_fake_padding",
+  "expected": 1.5,
+  "actual": 1.5000000000000004,
+  "reason": "Invented decimal common context offsets change the rounded direct logit subtraction; exact analytical equality was an overly strict mock expectation.",
+  "correction": "Compare the analytical mock score at 1e-12 tolerance; exact duplicated inputs, call counts, no padding and exact same-context reversal remain unchanged.",
+  "native_parity_thresholds_changed": false,
+  "native_imports": 0,
+  "checkpoint_loads": 0,
+  "biological_result": false
+}
