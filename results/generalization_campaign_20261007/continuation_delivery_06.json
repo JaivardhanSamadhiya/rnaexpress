@@ -1,0 +1,59 @@
+{
+  "HEAD_before_delivery": "6df63dc6d1e67d4a108daad351f81e330262e5cb",
+  "all_reserved_outcomes_remain_closed": true,
+  "background_log_snapshots": [
+    {
+      "bytes": 96,
+      "last_lines_at_snapshot": [
+        "Resume after successful extraction and provenance audit; unchanged fresh producer floor 3 GiB."
+      ],
+      "path": "logs/generalization_campaign_20261007/conservation_blocks_resume_02.log",
+      "sha256_at_snapshot": "4b2a3e4f802445909c2cb9fe663b88fac34a35d5e32c064fe062a60fbe9a2ba6",
+      "still_live_log_not_frozen": true
+    },
+    {
+      "bytes": 137,
+      "last_lines_at_snapshot": [
+        "Frozen v2 source-only conservation design; wait for feature-only PASS, then fresh resource checks. No fits authorized by this launcher."
+      ],
+      "path": "logs/generalization_campaign_20261007/conservation_downstream_admission_01.log",
+      "sha256_at_snapshot": "8a97ac35047b228aaa47f9f453158716ffe6cadd14f67c1bb318588ecfd20523",
+      "still_live_log_not_frozen": true
+    },
+    {
+      "bytes": 5688,
+      "last_lines_at_snapshot": [
+        "SpliceBERT independent inner+outer replay combined PASS",
+        "NO-GO",
+        "Comparative240 fitting, verification and frozen gate completed. Native synthetic admission now waits for 3.3 GiB caller RAM."
+      ],
+      "path": "logs/generalization_campaign_20261007/splice_comparative_serial_01.log",
+      "sha256_at_snapshot": "af6d8e4a1b95157692a87af9d937275586641de87968925ad3b94cdc6e5f7a09",
+      "still_live_log_not_frozen": true
+    }
+  ],
+  "completed_sources": {
+    "results/generalization_auxiliary_ancestry_metadata_20261008/ancestry_audit_receipt.json": "479c12cea7e6bcf162fa0803557fe8992be0110cdcdd8b19ae06bb10f5642372",
+    "results/generalization_prelib_point_ancestry_20261008/point_metadata_receipt_v2.json": "e2bb545932f853ba72f0c27499822f98f5311df6450bf85becb79dfec204406f",
+    "results/generalization_pum2_parameter_metadata_20261008/acquisition_receipt_v2.json": "da4cadf5fdf3d122d3ef49920137024c10313239457667ca7c46228dd2592d19",
+    "results/generalization_rdata_metadata_export_v2_20261008/annotation_metadata_receipt.json": "22b3b08f116ffa3a05065f3bc18e615c7d73a03ae07f2a1c859ed83c7e74108e"
+  },
+  "independent_agents_filesystem_checks_incomplete_usage_limit": true,
+  "independent_agents_reviews_are_reasoning_or_web_only": true,
+  "new_binding_or_localization_pairs_admitted": 0,
+  "new_models_fit": 0,
+  "new_point_sequence_checks_PASS": 4054,
+  "no_scheduled_tasks": true,
+  "no_spending": true,
+  "old_model_feature_resource_guards_unchanged": true,
+  "point_and_parent_sequence_identity": {
+    "audit_path": "results/generalization_prelib_point_ancestry_20261008/point_parent_sequence_alias_audit.json",
+    "audit_sha256": "d8675587bfe44e5fb01201d322e58fcf1358d46e0e4743639fc355056c27b55b",
+    "distinct_sequences": 4070,
+    "exact_aliases": 0,
+    "root_metadata_execution_not_prefit_or_independent_tool_proof": true,
+    "source_rows": 4070
+  },
+  "snapshot_utc": "2026-10-08T15:10:32.269370+00:00",
+  "status": "ROOT_CONTINUATION_06_COMPLETED_METADATA_NOT_BIOLOGICAL_PASS"
+}

@@ -1,0 +1,11 @@
+# Original MPRNA-IP ancestry metadata findings
+
+Recovered3358 annotation rows from five literal author tile.annot tables under the separately frozen v2 metadata-subtree parser:768MiB/180s cap retained, observed245174272bytes peak/11.546s. The original500000 whole-graph-node failure and all source bytes remain preserved. Whole count arrays were internally parsed; none were scientifically analyzed or exported.22 invented metadata tests and two official tiny fixtures passed.
+
+The author-rule audit has611 ID relations:57 MS2Single,53 WRAP53 variants and501 hTR relationships. Forty-seven other MS2 design/control rows and the remaining controls/random or hTR rows outside the explicit parent rules remain unparented. Descriptive equal-length1–6-substitution coverage is520:57 MS2,40 WRAP53,423hTR. MS2Single means four physical substitutions across the repeated hairpins, all declared reference/alternate checks passed. These are three RNA lineages, not five independent mutant datasets or five WT genes.
+
+The first strict audit flags3 WRAP53 compensated alleles under basewise-complement/exact-arm-union assumptions, and42 hTR4bp alleles under contiguous-nucleotide coordinate assumptions. These are NOT established author errors. The paper describes compensation as restoring putative pairing, includesGU pairing, and describes four-base-pair windows over stems. Bulges can make paired windows noncontiguous. A source paired-edge roster and precise design conventions are still needed.159 hTR quartets equal disjoint side-edit unions;3 of11 WRAP53 quartets do not. All flags remain visible; no revised certificate or biological rescue was asserted.
+
+WRAP53 IDs join literally. hTR/ms2 pool-specific numeric-token namespace rewrites are complete bijections, but remain reconstructed aliases rather than author-supplied mappings. DNA interiors and primer/barcode separation are inferred layouts, not mature reporter RNA certificates. No training pairs, count analysis, model fits or localization confirmation is admitted.
+
+Primary sources: [Lee et al2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11162807/), [author archive](https://zenodo.org/records/10633325). Independent agent paper/design interpretation is a reasoning review; no independent filesystem/runtime audit.
