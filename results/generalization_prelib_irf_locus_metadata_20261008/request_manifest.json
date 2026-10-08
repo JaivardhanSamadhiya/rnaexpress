@@ -1,0 +1,41 @@
+{
+  "cost": 0,
+  "files": {
+    "data/raw/generalization_prelib_irf_locus_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_prelib_irf_locus_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_prelib_irf_locus_metadata_20261008/protocol.md": "8c32d6d0bc46560694de9a6ab74daea14e056fd64fcfd482ba1a5c861e0138ed",
+    "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json": "65e32e40f252981a7d6d910b9c17069e4e436f07e8438ea6cbb2b761a9fdbf23",
+    "results/generalization_prelib_irf_locus_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_irf_locus_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_irf_locus_metadata_20261008/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/generalization_prelib_irf_locus_metadata_20261008/acquire.py": "6353d55ad2dea8c1cad053afada3f7bd69710e256ffb36f2afaa0c5d8410fb76"
+  },
+  "models_fit": 0,
+  "requests": [
+    {
+      "genome": "hg19",
+      "kind": "genomic_JSON",
+      "name": "hg19_chr19_interval.json",
+      "response_cap_bytes": 65536,
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr19;start=46386925;end=46387389"
+    },
+    {
+      "genome": "hg38",
+      "kind": "genomic_JSON",
+      "name": "hg38_chr19_interval.json",
+      "response_cap_bytes": 65536,
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=hg38;chrom=chr19;start=46386925;end=46387389"
+    },
+    {
+      "kind": "transcript_GenBank",
+      "name": "NM_015649.3.gb",
+      "response_cap_bytes": 131072,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_015649.3&rettype=gb&retmode=text"
+    }
+  ],
+  "source_design": "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json",
+  "source_parent_ID": "ENCODE_Pum1_IRF2BP1:ENCODE_Pum1_2:IRF2BP1|PUM2_K562_rep01|chr19:46387125-46387189|-_0_0",
+  "source_sequence_sha256": "fdf360058ba2f0c8d665382b92f7219a25e11ac147d3290e4ad51ec31a05622c",
+  "status": "FROZEN_THREE_PUBLIC_NATIVE_REFERENCE_METADATA_REQUESTS",
+  "training_pairs_admitted": 0
+}
