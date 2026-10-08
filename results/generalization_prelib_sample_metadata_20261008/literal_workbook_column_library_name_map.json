@@ -1,0 +1,88 @@
+{
+  "independent_biological_replicates_not_inferred": true,
+  "models_fit": 0,
+  "other_metadata_title_conflicts": [
+    {
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: siPUM treatment of HCT116 cells expressing PRELibA, rep1",
+      "library_name": "PRELibB.siPUM_1",
+      "reason": "PRELibB library name versus PRELibA title; expression endpoint remains closed"
+    },
+    {
+      "experiment_title": "Illumina NovaSeq 6000 sequencing: siPUM treatment of HCT116 cells expressing PRELibA, rep2",
+      "library_name": "PRELibB.siPUM_2",
+      "reason": "PRELibB library name versus PRELibA title; expression endpoint remains closed"
+    }
+  ],
+  "records": [
+    {
+      "actual_workbook_processing_replayed": false,
+      "declared_experiment_title": "Illumina NovaSeq 6000 sequencing: Input sample of U2OS cells expressing PRELibB, rep1",
+      "experiment_accession": "SRX22115703",
+      "literal_library_name": "PRELibB.Input_1",
+      "lysate_IP_input_pairing_certified": false,
+      "rep_suffix_agrees_with_title": true,
+      "run_accession": "SRR26410156",
+      "sample_accession": "SAMN37845841",
+      "source_workbook_field": "Input_1.raw"
+    },
+    {
+      "actual_workbook_processing_replayed": false,
+      "declared_experiment_title": "Illumina NovaSeq 6000 sequencing: Input sample of U2OS cells expressing PRELibB, rep2",
+      "experiment_accession": "SRX22115704",
+      "literal_library_name": "PRELibB.Input_2",
+      "lysate_IP_input_pairing_certified": false,
+      "rep_suffix_agrees_with_title": true,
+      "run_accession": "SRR26410155",
+      "sample_accession": "SAMN37845842",
+      "source_workbook_field": "Input_2.raw"
+    },
+    {
+      "actual_workbook_processing_replayed": false,
+      "declared_experiment_title": "Illumina NovaSeq 6000 sequencing: IP of PUM1 in U2OS cells expressing PRELibB, rep1",
+      "experiment_accession": "SRX22115705",
+      "literal_library_name": "PRELibB.PUM1_IP_1",
+      "lysate_IP_input_pairing_certified": false,
+      "rep_suffix_agrees_with_title": true,
+      "run_accession": "SRR26410154",
+      "sample_accession": "SAMN37845843",
+      "source_workbook_field": "PUM1_IP_1.raw"
+    },
+    {
+      "actual_workbook_processing_replayed": false,
+      "declared_experiment_title": "Illumina NovaSeq 6000 sequencing: IP of PUM1 in U2OS cells expressing PRELibB, rep2",
+      "experiment_accession": "SRX22115706",
+      "literal_library_name": "PRELibB.PUM1_IP_2",
+      "lysate_IP_input_pairing_certified": false,
+      "rep_suffix_agrees_with_title": true,
+      "run_accession": "SRR26410153",
+      "sample_accession": "SAMN37845844",
+      "source_workbook_field": "PUM1_IP_2.raw"
+    },
+    {
+      "actual_workbook_processing_replayed": false,
+      "declared_experiment_title": "Illumina NovaSeq 6000 sequencing: IP of PUM2 in U2OS cells expressing PRELibB, rep1",
+      "experiment_accession": "SRX22115707",
+      "literal_library_name": "PRELibB.PUM2_IP_1",
+      "lysate_IP_input_pairing_certified": false,
+      "rep_suffix_agrees_with_title": true,
+      "run_accession": "SRR26410152",
+      "sample_accession": "SAMN37845845",
+      "source_workbook_field": "PUM2_IP_1.raw"
+    },
+    {
+      "actual_workbook_processing_replayed": false,
+      "declared_experiment_title": "Illumina NovaSeq 6000 sequencing: IP of PUM2 in U2OS cells expressing PRELibB, rep2",
+      "experiment_accession": "SRX22115708",
+      "literal_library_name": "PRELibB.PUM2_IP_2",
+      "lysate_IP_input_pairing_certified": false,
+      "rep_suffix_agrees_with_title": true,
+      "run_accession": "SRR26410151",
+      "sample_accession": "SAMN37845846",
+      "source_workbook_field": "PUM2_IP_2.raw"
+    }
+  ],
+  "sample_metadata_receipt_sha256": "cd83788e9b0aa446ee65a4b71de6eb5e0f0e76afbf3ae234b5eb98f0decf615d",
+  "status": "COMPLETE_SIX_LITERAL_PRELIBB_RAW_COLUMN_TO_PUBLIC_LIBRARY_NAME_LINKS",
+  "suffix_matching_not_lysate_pairing_certificate": true,
+  "training_pairs_admitted": 0
+}

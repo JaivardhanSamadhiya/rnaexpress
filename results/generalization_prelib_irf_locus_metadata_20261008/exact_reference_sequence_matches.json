@@ -1,0 +1,40 @@
+[
+  {
+    "forward_exact_hits_0based": [],
+    "kind": "genomic_JSON",
+    "minus_genomic_intervals_0based_halfopen": [
+      [
+        46387084,
+        46387224
+      ]
+    ],
+    "minus_oriented_reference_exact_hits_0based": [
+      165
+    ],
+    "native_fragment_only_not_reporter_mature_context": true,
+    "query_end_exclusive": 46387389,
+    "query_start_0based": 46386925,
+    "reference": "hg19"
+  },
+  {
+    "forward_exact_hits_0based": [],
+    "kind": "genomic_JSON",
+    "minus_genomic_intervals_0based_halfopen": [],
+    "minus_oriented_reference_exact_hits_0based": [],
+    "native_fragment_only_not_reporter_mature_context": true,
+    "query_end_exclusive": 46387389,
+    "query_start_0based": 46386925,
+    "reference": "hg38"
+  },
+  {
+    "forward_exact_hits_0based": [
+      2175
+    ],
+    "kind": "transcript_GenBank",
+    "mRNA_length": 2534,
+    "native_reference_transcript_match_not_reporter_junction_or_full_mature_RNA": true,
+    "reference": "NM_015649.3",
+    "reference_gene_literal": "IRF2BP1",
+    "reverse_complement_exact_hits_0based": []
+  }
+]

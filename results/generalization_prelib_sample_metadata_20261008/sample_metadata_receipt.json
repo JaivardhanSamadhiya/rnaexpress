@@ -1,0 +1,50 @@
+{
+  "cost": 0,
+  "fields": [
+    "run_accession",
+    "experiment_accession",
+    "sample_accession",
+    "sample_alias",
+    "sample_title",
+    "experiment_title",
+    "library_name",
+    "library_strategy",
+    "library_source",
+    "library_selection",
+    "study_accession",
+    "cell_line",
+    "experimental_factor",
+    "experimental_protocol",
+    "extraction_protocol",
+    "library_construction_protocol"
+  ],
+  "http": {
+    "HTTP_status": 200,
+    "SHA256": "37e2907a7e919a98da1279fb08d2fe95aa3b6c0002c2657df68deecf11e32ca3",
+    "URL": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1028573&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csample_alias%2Csample_title%2Cexperiment_title%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Cstudy_accession%2Ccell_line%2Cexperimental_factor%2Cexperimental_protocol%2Cextraction_protocol%2Clibrary_construction_protocol&format=tsv",
+    "UTC": "2026-10-08T16:03:23.883380+00:00",
+    "bytes": 17303,
+    "headers": {
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Connection": "close",
+      "Content-Type": "text/plain",
+      "Date": "Thu, 08 Oct 2026 16:03:23 GMT",
+      "Expires": "0",
+      "Pragma": "no-cache",
+      "Transfer-Encoding": "chunked",
+      "Vary": "Origin",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "DENY",
+      "X-XSS-Protection": "0",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+    },
+    "response_URL": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1028573&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csample_alias%2Csample_title%2Cexperiment_title%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Cstudy_accession%2Ccell_line%2Cexperimental_factor%2Cexperimental_protocol%2Cextraction_protocol%2Clibrary_construction_protocol&format=tsv"
+  },
+  "manifest_sha256": "2f36304a56d60af8c24e5d2f6525c4157399b014b618faf7bfd17cb989e9d797",
+  "metadata_rows": 83,
+  "models_fit": 0,
+  "rows_sha256": "52153fb80edca2e94d965bcaaad0541f7231956b9b6f0a8ab18b3775d17b1c93",
+  "sample_pairing_not_automatically_certified": true,
+  "status": "PASS_ONE_BOUNDED_PUBLIC_ENA_SAMPLE_METADATA_REQUEST",
+  "training_pairs_admitted": 0
+}

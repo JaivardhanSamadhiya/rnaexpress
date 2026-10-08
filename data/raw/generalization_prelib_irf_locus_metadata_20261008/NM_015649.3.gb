@@ -1,0 +1,252 @@
+LOCUS       NM_015649               2534 bp    mRNA    linear   PRI 27-APR-2025
+DEFINITION  Homo sapiens interferon regulatory factor 2 binding protein 1
+            (IRF2BP1), mRNA.
+ACCESSION   NM_015649
+VERSION     NM_015649.3
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2534)
+  AUTHORS   Barysch,S.V., Stankovic-Valentin,N., Miedema,T., Karaca,S.,
+            Doppel,J., Nait Achour,T., Vasudeva,A., Wolf,L., Sticht,C.,
+            Urlaub,H. and Melchior,F.
+  TITLE     Transient deSUMOylation of IRF2BP proteins controls early
+            transcription in EGFR signaling
+  JOURNAL   EMBO Rep 22 (3), e49651 (2021)
+   PUBMED   33480129
+  REMARK    GeneRIF: Transient deSUMOylation of IRF2BP proteins controls early
+            transcription in EGFR signaling.
+REFERENCE   2  (bases 1 to 2534)
+  AUTHORS   Kimura,M.
+  TITLE     IRF2-binding protein-1 is a JDP2 ubiquitin ligase and an inhibitor
+            of ATF2-dependent transcription
+  JOURNAL   FEBS Lett 582 (19), 2833-2837 (2008)
+   PUBMED   18671972
+  REMARK    GeneRIF: IRF2-BP1 is a JDP2-binding protein enhancing the
+            polyubiquitination of JDP2 and represses ATF2-mediated
+            transcriptional activation from a CRE-containing promoter.
+REFERENCE   3  (bases 1 to 2534)
+  AUTHORS   Faresse,N., Colland,F., Ferrand,N., Prunier,C., Bourgeade,M.F. and
+            Atfi,A.
+  TITLE     Identification of PCTA, a TGIF antagonist that promotes PML
+            function in TGF-beta signalling
+  JOURNAL   EMBO J 27 (13), 1804-1815 (2008)
+   PUBMED   18511908
+  REMARK    GeneRIF: PCTA (IRF2BP1) defines a new component of the TGF-beta
+            signalling pathway that functions to facilitate Smad2
+            phosphorylation through controlling the accumulation of cPML into
+            the cytoplasm, and consequently, the assembly of Smad2-receptor
+            complex.
+REFERENCE   4  (bases 1 to 2534)
+  AUTHORS   Peng,Y.B., Yerle,M. and Liu,B.
+  TITLE     Mapping of nine porcine interferon regulatory factor genes
+  JOURNAL   Anim Genet 37 (6), 600-601 (2006)
+   PUBMED   17121613
+REFERENCE   5  (bases 1 to 2534)
+  AUTHORS   Childs,K.S. and Goodbourn,S.
+  TITLE     Identification of novel co-repressor molecules for Interferon
+            Regulatory Factor-2
+  JOURNAL   Nucleic Acids Res 31 (12), 3016-3026 (2003)
+   PUBMED   12799427
+  REMARK    GeneRIF: Identification of IRF-2 binding protein 1 and IRF-2
+            binding protein 2 as co-repressor molecules for interferon
+            regulatory factor-2.
+REFERENCE   6  (bases 1 to 2534)
+  AUTHORS   Odendahl,M., Jacobi,A., Hansen,A., Feist,E., Hiepe,F.,
+            Burmester,G.R., Lipsky,P.E., Radbruch,A. and Dorner,T.
+  TITLE     Disturbed peripheral B lymphocyte homeostasis in systemic lupus
+            erythematosus
+  JOURNAL   J Immunol 165 (10), 5970-5979 (2000)
+   PUBMED   11067960
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            DA791039.1 and AY278022.1.
+            
+            On Nov 22, 2018 this sequence version replaced NM_015649.2.
+            
+            ##Evidence-Data-START##
+            Transcript is intronless :: BC039002.1, AY278022.1 [ECO:0000345]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000302165.5/ ENSP00000307265.3
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-20                DA791039.1         30-49
+            21-2534             AY278022.1         1-2514
+FEATURES             Location/Qualifiers
+     source          1..2534
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="19"
+                     /map="19q13.32"
+     gene            1..2534
+                     /gene="IRF2BP1"
+                     /note="interferon regulatory factor 2 binding protein 1"
+                     /db_xref="GeneID:26145"
+                     /db_xref="HGNC:HGNC:21728"
+                     /db_xref="MIM:615331"
+     exon            1..2534
+                     /gene="IRF2BP1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             368..2122
+                     /gene="IRF2BP1"
+                     /EC_number="2.3.2.27"
+                     /note="IRF-2-binding protein 1; probable E3
+                     ubiquitin-protein ligase IRF2BP1; probable RING-type E3
+                     ubiquitin transferase IRF2BP1"
+                     /codon_start=1
+                     /product="interferon regulatory factor 2-binding protein
+                     1"
+                     /protein_id="NP_056464.1"
+                     /db_xref="CCDS:CCDS12678.1"
+                     /db_xref="GeneID:26145"
+                     /db_xref="HGNC:HGNC:21728"
+                     /db_xref="MIM:615331"
+                     /translation="MASVQASRRQWCYLCDLPKMPWAMVWDFSEAVCRGCVNFEGADR
+                     IELLIDAARQLKRSHVLPEGRSPGPPALKHPATKDLAAAAAQGPQLPPPQAQPQPSGT
+                     GGGVSGQDRYDRATSSGRLPLPSPALEYTLGSRLANGLGREEAVAEGARRALLGSMPG
+                     LMPPGLLAAAVSGLGSRGLTLAPGLSPARPLFGSDFEKEKQQRNADCLAELNEAMRGR
+                     AEEWHGRPKAVREQLLALSACAPFNVRFKKDHGLVGRVFAFDATARPPGYEFELKLFT
+                     EYPCGSGNVYAGVLAVARQMFHDALREPGKALASSGFKYLEYERRHGSGEWRQLGELL
+                     TDGVRSFREPAPAEALPQQYPEPAPAALCGPPPRAPSRNLAPTPRRRKASPEPEGEAA
+                     GKMTTEEQQQRHWVAPGGPYSAETPGVPSPIAALKNVAEALGHSPKDPGGGGGPVRAG
+                     GASPAASSTAQPPTQHRLVARNGEAEVSPTAGAEAVSGGGSGTGATPGAPLCCTLCRE
+                     RLEDTHFVQCPSVPGHKFCFPCSREFIKAQGPAGEVYCPSGDKCPLVGSSVPWAFMQG
+                     EIATILAGDIKVKKERDP"
+     misc_feature    545..748
+                     /gene="IRF2BP1"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8IU81.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    563..565
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:23186163, ECO:0007744|PubMed:24275569;
+                     propagated from UniProtKB/Swiss-Prot (Q8IU81.1);
+                     phosphorylation site"
+     misc_feature    740..742
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18220336,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    896..898
+                     /gene="IRF2BP1"
+                     /note="Omega-N-methylarginine.
+                     /evidence=ECO:0007744|PubMed:24129315; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); methylation site"
+     misc_feature    923..925
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    1403..1627
+                     /gene="IRF2BP1"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8IU81.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1478..1480
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    1517..1519
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    1628..1630
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648,
+                     ECO:0007744|PubMed:20068231, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    1664..1852
+                     /gene="IRF2BP1"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8IU81.1);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    1673..1675
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:17081983,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    1724..1726
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18220336,
+                     ECO:0007744|PubMed:18669648, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    1736..1738
+                     /gene="IRF2BP1"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:18669648; propagated from
+                     UniProtKB/Swiss-Prot (Q8IU81.1); phosphorylation site"
+     misc_feature    1874..2017
+                     /gene="IRF2BP1"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8IU81.1);
+                     Region: Cys-rich"
+     regulatory      2506..2511
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="IRF2BP1"
+                     /note="hexamer: AATAAA"
+     polyA_site      2534
+                     /gene="IRF2BP1"
+                     /note="major polyA site"
+ORIGIN      
+        1 gcagaagaag gaggtggagg cggcggcggc cgttgcagcg gcggcggcga gagcggcggg
+       61 agcccgaggc ggcggcgctc gcggcccatc gtggggcccg agctgtgcgc ctcggctcgg
+      121 agcccggacc gggcgggggc gccgacgtgc ctcagcctgc cttcgcgagg gaggcgggag
+      181 tgagcagaaa ggcttagggc ccagggggcg gggaaggggg gccgggcctg gatccggcgg
+      241 ggaggccgag ccggaggccg gaccgtggct cgcgctgtcc ccgggacgcg gatcgaacgt
+      301 tggcggcgcg gatcgcacgt cggcggccgg tggaacgcgg gagctgggcg gcgcgcggac
+      361 tggggccatg gcgtctgtgc aggcgtcccg ccgccagtgg tgctacctgt gcgacctgcc
+      421 caagatgccg tgggccatgg tgtgggactt cagcgaggcc gtgtgtcgcg gctgcgtgaa
+      481 cttcgagggc gcggaccgca tcgaactgct catcgatgcc gcccgccagc tcaagcgcag
+      541 ccacgtgctc cccgagggcc gctcgcccgg gcccccggcc cttaagcacc cggccaccaa
+      601 ggacctggcg gcggcagccg cacaggggcc ccagctgccg cccccgcagg cccagcccca
+      661 gccgtcaggg accggcggcg gcgtgtcggg ccaggaccgc tatgacaggg ccacatcatc
+      721 aggccgcctc cccctgccct cgcccgccct ggagtacact ctggggtccc gcctggccaa
+      781 tgggctgggc cgtgaggagg ccgtggctga gggggcgcga agggccttgc ttggctccat
+      841 gcctggcttg atgccccctg ggctgctggc agctgcagtg tctggcctgg gaagccgagg
+      901 cctgacgctg gcacccggct tgagtcctgc ccgtcccctc ttcggctccg atttcgagaa
+      961 agagaagcag cagaggaatg cggactgtct ggcagaactg aacgaggcca tgcgaggccg
+     1021 ggcagaggaa tggcacgggc gccccaaagc agtgcgggaa cagctactgg cgctgtccgc
+     1081 ctgcgccccg ttcaatgtgc gcttcaagaa ggatcacggg ctggtggggc gagtgttcgc
+     1141 cttcgatgct actgcccgtc ctccaggata cgagttcgag ctgaagctct tcaccgaata
+     1201 cccctgtggt tccggcaatg tgtacgccgg cgtcctggca gtggctcgcc agatgttcca
+     1261 cgatgctctg cgggagccgg gcaaggcact ggcttcttcg ggcttcaagt acctcgaata
+     1321 tgaacgccgg catggatcag gagaatggcg gcagctgggc gagctgctta ccgacggcgt
+     1381 ccgcagcttc cgcgagccag ctcccgcgga ggccctgccc cagcagtacc cagagccggc
+     1441 ccctgcggct ctctgtggcc cacccccgcg agccccatcc cggaacctgg cgcccacgcc
+     1501 gcgccgtcgc aaggcatccc ccgagccgga gggcgaggcg gctgggaaga tgaccaccga
+     1561 ggagcagcag caacggcact gggtggcacc cggcggcccg tactccgctg agacccctgg
+     1621 tgtgccctcg cccattgccg ccctgaagaa tgtggccgaa gccctgggcc actcacccaa
+     1681 ggaccctggc ggaggcgggg ggcctgtgcg tgcagggggc gccagccctg cagcctcctc
+     1741 cacggcccag ccgccaaccc agcatcgcct tgtggcccgc aacggcgaag cagaagtcag
+     1801 tcccacagcg ggggccgaag ctgtcagcgg gggtggcagc ggcactgggg cgacccctgg
+     1861 ggcccccctg tgctgtaccc tgtgcaggga gcggctagaa gacacccact tcgtccagtg
+     1921 cccctcggtg cccggacaca agttctgctt tccctgctcc cgggagttca tcaaggcgca
+     1981 gggcccggcc ggggaggtgt actgcccgag cggagacaag tgcccgctgg tcggctcctc
+     2041 cgtgccctgg gccttcatgc agggcgagat cgccaccatc cttgctggag acatcaaagt
+     2101 taagaaagaa cgggacccct aggctaccac tgcctccagg ctactgccct ctgccccttt
+     2161 gccacccacc gctgccgcgg ataaattatt ccctccccga cccagcccag tgccacctct
+     2221 atctgtgtac atactccctt cttccaccca gatgggtccc ctggggtaga tgcattgtgg
+     2281 gtggggggag aaagcttgtg gctcctgtcc gagggggtgt ttggggtccc ttggcccctc
+     2341 cagtttccct ctgtcctcct tggcttggct ttgctgctgc ttgtagttgg gggagaggtg
+     2401 cccccctcct ccttgagaag ggacctcctg aaaactcgct ctttataaac gaggcaaaag
+     2461 catttaattc ccaccccccc accccccgct cccttctgct ccttcaataa accgaaagat
+     2521 gggttttttt tttc
+//
+

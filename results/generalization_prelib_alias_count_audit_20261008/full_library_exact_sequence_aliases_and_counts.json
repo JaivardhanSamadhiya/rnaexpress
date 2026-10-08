@@ -1,0 +1,1622 @@
+[
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "549fea8cd130c53003c098212c1f0a83ca273e5d93f7686a4c687b47edfb94ab",
+    "source_rows": [
+      {
+        "ID": "ENCODE_Pum1_IRF2BP1:4mer:48-51",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "3233",
+            "value": 3233
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "3937",
+            "value": 3937
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1019",
+            "value": 1019
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1051",
+            "value": 1051
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "590",
+            "value": 590
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "820",
+            "value": 820
+          }
+        },
+        "source_excel_row": 1709
+      },
+      {
+        "ID": "mENCODE_Pum1_IRF2BP1:Mut:51:G->C",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "3233",
+            "value": 3233
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "3937",
+            "value": 3937
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1019",
+            "value": 1019
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1051",
+            "value": 1051
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "590",
+            "value": 590
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "820",
+            "value": 820
+          }
+        },
+        "source_excel_row": 4092
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "c5ca28116869fc0025f88cf01b8fb27efcc2b01260b5e8ba0c089d028601ed57",
+    "source_rows": [
+      {
+        "ID": "ENCODE_Pum1_IRF2BP1:Mut:51:G->C",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "3650",
+            "value": 3650
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "4065",
+            "value": 4065
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "877",
+            "value": 877
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1094",
+            "value": 1094
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "584",
+            "value": 584
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "833",
+            "value": 833
+          }
+        },
+        "source_excel_row": 1902
+      },
+      {
+        "ID": "mENCODE_Pum1_IRF2BP1:4mer:48-51",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "3650",
+            "value": 3650
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "4065",
+            "value": 4065
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "877",
+            "value": 877
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1094",
+            "value": 1094
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "584",
+            "value": 584
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "833",
+            "value": 833
+          }
+        },
+        "source_excel_row": 3899
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "1aa127eb6ed528f1272cd4da0848e72c9d1be9941ca697b5ac059c63726ccbac",
+    "source_rows": [
+      {
+        "ID": "ENCODE_Pum1_SMARCA2:4mer:50-53",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "2608",
+            "value": 2608
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2821",
+            "value": 2821
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1313",
+            "value": 1313
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1154",
+            "value": 1154
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "650",
+            "value": 650
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "891",
+            "value": 891
+          }
+        },
+        "source_excel_row": 2086
+      },
+      {
+        "ID": "mENCODE_Pum1_SMARCA2:Mut:53:G->C",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "2608",
+            "value": 2608
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2821",
+            "value": 2821
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1313",
+            "value": 1313
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1154",
+            "value": 1154
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "650",
+            "value": 650
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "891",
+            "value": 891
+          }
+        },
+        "source_excel_row": 4469
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "5d1abd2294d985075b3aacd8ac8fd4805b1a66fa92cc3e4f016a94baddd27da1",
+    "source_rows": [
+      {
+        "ID": "ENCODE_Pum1_SMARCA2:Mut:53:G->C",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "2726",
+            "value": 2726
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2996",
+            "value": 2996
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1494",
+            "value": 1494
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1351",
+            "value": 1351
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "805",
+            "value": 805
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1211",
+            "value": 1211
+          }
+        },
+        "source_excel_row": 2279
+      },
+      {
+        "ID": "mENCODE_Pum1_SMARCA2:4mer:50-53",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "2726",
+            "value": 2726
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2996",
+            "value": 2996
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1494",
+            "value": 1494
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1351",
+            "value": 1351
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "805",
+            "value": 805
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1211",
+            "value": 1211
+          }
+        },
+        "source_excel_row": 4276
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "272b810769f5c8e3df0275628425b01dd5f9cff995aa7b2a34a9dba065cf58a4",
+    "source_rows": [
+      {
+        "ID": "Hafner_APIS1:4mer:39-42",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1497",
+            "value": 1497
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2325",
+            "value": 2325
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1413",
+            "value": 1413
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1489",
+            "value": 1489
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "858",
+            "value": 858
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1125",
+            "value": 1125
+          }
+        },
+        "source_excel_row": 2450
+      },
+      {
+        "ID": "mHafner_APIS1:Mut:39:C->G",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1497",
+            "value": 1497
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2325",
+            "value": 2325
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "1413",
+            "value": 1413
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1489",
+            "value": 1489
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "858",
+            "value": 858
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "1125",
+            "value": 1125
+          }
+        },
+        "source_excel_row": 4803
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "6745390d657975d1dc381f3fcf9482375efe5ed6c5f9bbecb28f6b28e33cf234",
+    "source_rows": [
+      {
+        "ID": "Hafner_APIS1:Mut:39:C->G",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1243",
+            "value": 1243
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2543",
+            "value": 2543
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "2362",
+            "value": 2362
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "2730",
+            "value": 2730
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "4085",
+            "value": 4085
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "4707",
+            "value": 4707
+          }
+        },
+        "source_excel_row": 2613
+      },
+      {
+        "ID": "mHafner_APIS1:4mer:39-42",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1243",
+            "value": 1243
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "2543",
+            "value": 2543
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "2362",
+            "value": 2362
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "2730",
+            "value": 2730
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "4085",
+            "value": 4085
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "4707",
+            "value": 4707
+          }
+        },
+        "source_excel_row": 4640
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "018b88d9026e0e24d6068a95ff5251d1572f03fb5829f8fb346fea3dfa2fbe39",
+    "source_rows": [
+      {
+        "ID": "Hafner_HIAT1:4mer:39-42",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1",
+            "value": 1
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "30",
+            "value": 30
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "65",
+            "value": 65
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "155",
+            "value": 155
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "73",
+            "value": 73
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "89",
+            "value": 89
+          }
+        },
+        "source_excel_row": 2818
+      },
+      {
+        "ID": "mHafner_HIAT1:Mut:39:T->A",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1",
+            "value": 1
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "30",
+            "value": 30
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "65",
+            "value": 65
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "155",
+            "value": 155
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "73",
+            "value": 73
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "89",
+            "value": 89
+          }
+        },
+        "source_excel_row": 5163
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "4a9daaa58c752f4b540cb74deaac9a4fd7f1cba485009da0c418fd97ceb3a893",
+    "source_rows": [
+      {
+        "ID": "Hafner_HIAT1:Mut:39:T->A",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "10",
+            "value": 10
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "68",
+            "value": 68
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "27",
+            "value": 27
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "63",
+            "value": 63
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "58",
+            "value": 58
+          }
+        },
+        "source_excel_row": 2973
+      },
+      {
+        "ID": "mHafner_HIAT1:4mer:39-42",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "10",
+            "value": 10
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "68",
+            "value": 68
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "27",
+            "value": 27
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "63",
+            "value": 63
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "58",
+            "value": 58
+          }
+        },
+        "source_excel_row": 5008
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "ae0f6528428ead0a09690fcc502373a42798792dd55772ad9a5f2db7970dfda9",
+    "source_rows": [
+      {
+        "ID": "Hafner_HIAT1:ReplaceMer:TGTATATA:35",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 3109
+      },
+      {
+        "ID": "mHafner_HIAT1:ReplaceMer:TGTATATA:35",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 5299
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "50afe00883de734b36e60ada7f4fe43227a222bdbb83947b49e0440020ab36f8",
+    "source_rows": [
+      {
+        "ID": "Hafner_HIAT1:ReplaceMer:TGTATATA:37",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 3110
+      },
+      {
+        "ID": "mHafner_HIAT1:ReplaceMer:TGTATATA:37",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 5300
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "753db4fcdc8ff621190245f72fe48618bc2e05f7a63d0917e651ce7c733a3689",
+    "source_rows": [
+      {
+        "ID": "Hafner_HIAT1:ReplaceMer:TGTATATA:39",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 3111
+      },
+      {
+        "ID": "mHafner_HIAT1:ReplaceMer:TGTATATA:39",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 5301
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "c8c0e94e7ddb110001f29efe79747b9065bfe054cdf2507f13fff4037c97aec3",
+    "source_rows": [
+      {
+        "ID": "Hafner_MGEA5:4mer:39-42",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1205",
+            "value": 1205
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "1042",
+            "value": 1042
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "774",
+            "value": 774
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "769",
+            "value": 769
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "718",
+            "value": 718
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "923",
+            "value": 923
+          }
+        },
+        "source_excel_row": 3176
+      },
+      {
+        "ID": "mHafner_MGEA5:Mut:39:T->A",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1205",
+            "value": 1205
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "1042",
+            "value": 1042
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "774",
+            "value": 774
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "769",
+            "value": 769
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "718",
+            "value": 718
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "923",
+            "value": 923
+          }
+        },
+        "source_excel_row": 5523
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "9df7d452ec413cc39255865df2a4b26475fbfed9dab25cdae18ef6c6ad361483",
+    "source_rows": [
+      {
+        "ID": "Hafner_MGEA5:Mut:39:T->A",
+        "in_fixed_point_parent_cohort": true,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1136",
+            "value": 1136
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "997",
+            "value": 997
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "2817",
+            "value": 2817
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "3150",
+            "value": 3150
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "5159",
+            "value": 5159
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "5019",
+            "value": 5019
+          }
+        },
+        "source_excel_row": 3333
+      },
+      {
+        "ID": "mHafner_MGEA5:4mer:39-42",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "1136",
+            "value": 1136
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "997",
+            "value": 997
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "2817",
+            "value": 2817
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "3150",
+            "value": 3150
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "5159",
+            "value": 5159
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "5019",
+            "value": 5019
+          }
+        },
+        "source_excel_row": 5366
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "9ac622307c61dfbb4e7ee964886ad07e39ab6ffe4dc65f13e08ae3e68d3d25b7",
+    "source_rows": [
+      {
+        "ID": "Hafner_MGEA5:ReplaceMer:TGTATATA:35",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 3470
+      },
+      {
+        "ID": "mHafner_MGEA5:ReplaceMer:TGTATATA:35",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 5660
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "acc79e12798f1f38dbcbd9a31f0d469c30bb7a8410420adff8a8f9f4f300d606",
+    "source_rows": [
+      {
+        "ID": "Hafner_MGEA5:ReplaceMer:TGTATATA:37",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 3471
+      },
+      {
+        "ID": "mHafner_MGEA5:ReplaceMer:TGTATATA:37",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 5661
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "2a04b40415a8b22834f296ed58f69ab1262c3dba638c99ea9f905b5a44cff36a",
+    "source_rows": [
+      {
+        "ID": "Hafner_MGEA5:ReplaceMer:TGTATATA:39",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 3472
+      },
+      {
+        "ID": "mHafner_MGEA5:ReplaceMer:TGTATATA:39",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "0",
+            "value": 0
+          }
+        },
+        "source_excel_row": 5662
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "a467a8960b633f679962de33a251ae5310e505a98587f446a86727cd14ef3654",
+    "source_rows": [
+      {
+        "ID": "mPREa8:MutRepeatSpecific:10:T->C",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "104",
+            "value": 104
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "117",
+            "value": 117
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "33",
+            "value": 33
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "43",
+            "value": 43
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "15",
+            "value": 15
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "42",
+            "value": 42
+          }
+        },
+        "source_excel_row": 6056
+      },
+      {
+        "ID": "mRPEa8:RepeatSpecific:GAAAATACAACATAAGCCAA",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "104",
+            "value": 104
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "117",
+            "value": 117
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "33",
+            "value": 33
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "43",
+            "value": 43
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "15",
+            "value": 15
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "42",
+            "value": 42
+          }
+        },
+        "source_excel_row": 6170
+      }
+    ]
+  },
+  {
+    "all_six_counts_identical": true,
+    "author_count_assignment_algorithm_independently_certified": false,
+    "counts_identical_by_field": {
+      "Input_1.raw": true,
+      "Input_2.raw": true,
+      "PUM1_IP_1.raw": true,
+      "PUM1_IP_2.raw": true,
+      "PUM2_IP_1.raw": true,
+      "PUM2_IP_2.raw": true
+    },
+    "rows_are_not_independent_sequence_interventions": true,
+    "sequence_sha256": "adf188ee5f4a9d63c106eb0ba4fc8155b01d8bbf6db1de1390f25adfdb6c7fff",
+    "source_rows": [
+      {
+        "ID": "PREa8:MutRepeatSpecific:10:T->C",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "78",
+            "value": 78
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "83",
+            "value": 83
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "376",
+            "value": 376
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "511",
+            "value": 511
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "518",
+            "value": 518
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "461",
+            "value": 461
+          }
+        },
+        "source_excel_row": 6180
+      },
+      {
+        "ID": "PREa8:RepeatSpecific:GAAAATTGTACATAAGCCAA",
+        "in_fixed_point_parent_cohort": false,
+        "raw_counts": {
+          "Input_1.raw": {
+            "missing_kind": null,
+            "source_token": "78",
+            "value": 78
+          },
+          "Input_2.raw": {
+            "missing_kind": null,
+            "source_token": "83",
+            "value": 83
+          },
+          "PUM1_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "376",
+            "value": 376
+          },
+          "PUM1_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "511",
+            "value": 511
+          },
+          "PUM2_IP_1.raw": {
+            "missing_kind": null,
+            "source_token": "518",
+            "value": 518
+          },
+          "PUM2_IP_2.raw": {
+            "missing_kind": null,
+            "source_token": "461",
+            "value": 461
+          }
+        },
+        "source_excel_row": 6233
+      }
+    ]
+  }
+]

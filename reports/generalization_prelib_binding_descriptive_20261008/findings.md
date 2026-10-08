@@ -1,0 +1,19 @@
+# PRELib association-data readiness
+
+The fixed cohort contains 4,054 exactly reconstructed one-base edits, 16 WT/mPRE backgrounds and seven nominal RNA lineages. Its 4,070 unique sequences have 24,420 valid integer counts with no missing cells. The descriptive estimator and raw-count pseudocounts 0.5 and 1 were frozen before values were opened. It needs no numbered input/IP pairing. These are association measurements; no training pairs or localization claims are admitted.
+
+Separate XML/Decimal and crossed-ratio code replayed every count token and 178,376 numerical comparisons. The maximum difference was 5.66e-15; all 16 parent self-controls were zero. Producer and replay used 128 and 166 MiB peak memory, respectively. This is a separate implementation by root in the same bundled runtime, not independent agent execution. Fourteen producer and four replay tests passed.
+
+Input1 has 189 zeros, including 184 in HIAT1; Input2 has 15, all in HIAT1. Changing the fixed pseudocount reverses 64 PUM1 and 79 PUM2 effect signs. Choosing between IP columns with the same mean input changes signs for 1,235 PUM1 effects (30.5%) and 1,048 PUM2 effects (25.9%). Choosing between input columns with the same mean IP changes signs for 993 and 936 effects. These correlated sensitivity views are not biological replicate probabilities. All rows remain in every analysis.
+
+Every point mutant has fewer raw IP counts than its parent in all four columns. Consequently, raw IP-delta sign agreement is trivial in this library and cannot establish agreement of binding effects. Parent representation is much higher. Declining input or a raw IP decrease alone does not establish a denominator artifact or altered binding; IP/input normalization is necessary. The preserved component diagnostics need this qualification.
+
+The full source has 6,293 rows but 6,275 distinct DNA sequences and 18 sequence-alias groups. Ten point rows alias other designs; none of the 16 baselines do. A separately frozen metadata-selected audit opened the same six raw fields for the 36 alias rows, adding only 26 rows/156 cells. Every alias group has identical counts across all six columns, consistent with sequence-level measurements broadcast to source IDs. This does not independently certify the author's counting implementation or barcode identities. No additional independent constructs are admitted. The 49 conflicting-ID groups remain a separate issue. The point cohort itself is sequence-unique.
+
+Public ENA metadata supplies 83 study rows (17,303 bytes). Six literal PRELibB library names match the six raw workbook column labels, with U2OS/PRELibB/rep1-or-2 titles. This certifies labels, not workbook processing or shared lysate batches. Two other expression-sample titles conflict with their PRELibB library names; those outcomes remain closed. No FASTQ or read-count data were downloaded.
+
+The disputed native fragment matches exactly hg19 chr19 [46387084,46387224) on the minus strand and RefSeq NM_015649.3 [2175,2315) forward. Its identity is IRF2BP1, rather than the distinct IGF2BP1 gene. All three UCSC/NCBI response bodies and hashes are preserved. This certifies one native fragment, not the other six lineages, full reporter RNA, engineered background or original ENCODE file.
+
+Next, clarify sample/count-processing semantics and freeze auxiliary training with whole-lineage, WT/mPRE, alias and cross-resource sequence grouping. Include capacity and permuted-supervision controls. Pooling the descriptive endpoint is a finite development hypothesis; matched-replicate win fractions must not be invented. Preserve all localization gates and reserved outcomes.
+
+Sources: [PRELib study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11602169/), [ENA field documentation](https://www.ebi.ac.uk/ena/portal/api/returnFields?result=read_run), [NCBI IRF2BP1](https://www.ncbi.nlm.nih.gov/gene/26145), [UCSC API](https://genome.ucsc.edu/goldenPath/help/api.html).

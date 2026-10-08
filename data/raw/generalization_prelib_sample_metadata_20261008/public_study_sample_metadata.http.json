@@ -1,0 +1,22 @@
+{
+  "HTTP_status": 200,
+  "SHA256": "37e2907a7e919a98da1279fb08d2fe95aa3b6c0002c2657df68deecf11e32ca3",
+  "URL": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1028573&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csample_alias%2Csample_title%2Cexperiment_title%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Cstudy_accession%2Ccell_line%2Cexperimental_factor%2Cexperimental_protocol%2Cextraction_protocol%2Clibrary_construction_protocol&format=tsv",
+  "UTC": "2026-10-08T16:03:23.883380+00:00",
+  "bytes": 17303,
+  "headers": {
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Connection": "close",
+    "Content-Type": "text/plain",
+    "Date": "Thu, 08 Oct 2026 16:03:23 GMT",
+    "Expires": "0",
+    "Pragma": "no-cache",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "0",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+  },
+  "response_URL": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1028573&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession%2Csample_alias%2Csample_title%2Cexperiment_title%2Clibrary_name%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Cstudy_accession%2Ccell_line%2Cexperimental_factor%2Cexperimental_protocol%2Cextraction_protocol%2Clibrary_construction_protocol&format=tsv"
+}

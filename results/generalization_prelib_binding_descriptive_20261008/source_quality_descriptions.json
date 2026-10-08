@@ -1,0 +1,292 @@
+{
+  "diagnostics_declared_after_initial_count_exposure_not_prefit_model_evidence": true,
+  "effect_quality_by_protein": {
+    "PUM1": {
+      "IP_column_delta_strict_sign_disagreement": 0,
+      "complete_effects": 4054,
+      "effect_max": 4.686120497205113,
+      "effect_median": -0.029054048474154825,
+      "effect_min": -4.764371010244526,
+      "positive_enrichment_with_nonpositive_IP_and_negative_Input_delta": 1834,
+      "pseudocount_absolute_change_max": 0.8744674662919127,
+      "pseudocount_absolute_change_median": 0.0008648055277462596,
+      "strict_sign_reversals_between_fixed_pseudocounts": 64,
+      "these_are_source_quality_descriptions_not_biological_replication_or_significance": true
+    },
+    "PUM2": {
+      "IP_column_delta_strict_sign_disagreement": 0,
+      "complete_effects": 4054,
+      "effect_max": 4.064239395439083,
+      "effect_median": -0.026936526794854476,
+      "effect_min": -5.509472412740328,
+      "positive_enrichment_with_nonpositive_IP_and_negative_Input_delta": 1867,
+      "pseudocount_absolute_change_max": 0.80363208313707,
+      "pseudocount_absolute_change_median": 0.0015415622315986255,
+      "strict_sign_reversals_between_fixed_pseudocounts": 79,
+      "these_are_source_quality_descriptions_not_biological_replication_or_significance": true
+    }
+  },
+  "fixed_metadata_group_diagnostics": {
+    "literal_background_prefix": {
+      "Context_NORAD_PRE4_rep3_5": {
+        "source_rows": 300,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "Context_NORAD_PRE9_rep7_5": {
+        "source_rows": 299,
+        "zero_counts": {
+          "Input_1.raw": 3,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "Context_mNORAD_PRE4_rep3_5": {
+        "source_rows": 300,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "Context_mNORAD_PRE9_rep7_5": {
+        "source_rows": 299,
+        "zero_counts": {
+          "Input_1.raw": 2,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "ENCODE_Pum1_IRF2BP1": {
+        "source_rows": 270,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "ENCODE_Pum1_SMARCA2": {
+        "source_rows": 268,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "Hafner_APIS1": {
+        "source_rows": 267,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "Hafner_HIAT1": {
+        "source_rows": 210,
+        "zero_counts": {
+          "Input_1.raw": 85,
+          "Input_2.raw": 7,
+          "PUM1_IP_1.raw": 7,
+          "PUM1_IP_2.raw": 3,
+          "PUM2_IP_1.raw": 5,
+          "PUM2_IP_2.raw": 3
+        }
+      },
+      "Hafner_MGEA5": {
+        "source_rows": 211,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "Hafner_PGBD4": {
+        "source_rows": 210,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "mENCODE_Pum1_IRF2BP1": {
+        "source_rows": 270,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "mENCODE_Pum1_SMARCA2": {
+        "source_rows": 268,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "mHafner_APIS1": {
+        "source_rows": 267,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "mHafner_HIAT1": {
+        "source_rows": 210,
+        "zero_counts": {
+          "Input_1.raw": 99,
+          "Input_2.raw": 8,
+          "PUM1_IP_1.raw": 11,
+          "PUM1_IP_2.raw": 4,
+          "PUM2_IP_1.raw": 10,
+          "PUM2_IP_2.raw": 5
+        }
+      },
+      "mHafner_MGEA5": {
+        "source_rows": 211,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "mHafner_PGBD4": {
+        "source_rows": 210,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      }
+    },
+    "nominal_lineage": {
+      "AP1S1": {
+        "source_rows": 534,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "HIAT1": {
+        "source_rows": 420,
+        "zero_counts": {
+          "Input_1.raw": 184,
+          "Input_2.raw": 15,
+          "PUM1_IP_1.raw": 18,
+          "PUM1_IP_2.raw": 7,
+          "PUM2_IP_1.raw": 15,
+          "PUM2_IP_2.raw": 8
+        }
+      },
+      "IRF2BP1": {
+        "source_rows": 540,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "MGEA5": {
+        "source_rows": 422,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "NORAD": {
+        "source_rows": 1198,
+        "zero_counts": {
+          "Input_1.raw": 5,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "PGBD4": {
+        "source_rows": 420,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      },
+      "SMARCA2": {
+        "source_rows": 536,
+        "zero_counts": {
+          "Input_1.raw": 0,
+          "Input_2.raw": 0,
+          "PUM1_IP_1.raw": 0,
+          "PUM1_IP_2.raw": 0,
+          "PUM2_IP_1.raw": 0,
+          "PUM2_IP_2.raw": 0
+        }
+      }
+    }
+  },
+  "models_fit": 0,
+  "no_rows_filtered_or_reweighted": true,
+  "selected_cohort_totals_are_not_library_depth": true,
+  "training_pairs_admitted": 0
+}

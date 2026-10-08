@@ -1,0 +1,85 @@
+{
+  "HEAD_before_delivery": "32a3d628a45cf973999a10591bae6791c9c2e889",
+  "UTC": "2026-10-08T16:18:18.239888+00:00",
+  "active_owned_sessions": [
+    53365,
+    24536,
+    48392,
+    57040
+  ],
+  "agent_reviews_reasoning_or_primary_web_only": true,
+  "all33_user_file_hashes_unchanged": true,
+  "background_log_snapshots": [
+    {
+      "bytes_at_snapshot": 96,
+      "last_lines_at_snapshot": [
+        "Resume after successful extraction and provenance audit; unchanged fresh producer floor 3 GiB."
+      ],
+      "live_content_not_frozen": true,
+      "path": "logs/generalization_campaign_20261007/conservation_blocks_resume_02.log",
+      "sha256_at_snapshot": "4b2a3e4f802445909c2cb9fe663b88fac34a35d5e32c064fe062a60fbe9a2ba6"
+    },
+    {
+      "bytes_at_snapshot": 137,
+      "last_lines_at_snapshot": [
+        "Frozen v2 source-only conservation design; wait for feature-only PASS, then fresh resource checks. No fits authorized by this launcher."
+      ],
+      "live_content_not_frozen": true,
+      "path": "logs/generalization_campaign_20261007/conservation_downstream_admission_01.log",
+      "sha256_at_snapshot": "8a97ac35047b228aaa47f9f453158716ffe6cadd14f67c1bb318588ecfd20523"
+    },
+    {
+      "bytes_at_snapshot": 5688,
+      "last_lines_at_snapshot": [
+        "SpliceBERT independent inner+outer replay combined PASS",
+        "NO-GO",
+        "Comparative240 fitting, verification and frozen gate completed. Native synthetic admission now waits for 3.3 GiB caller RAM."
+      ],
+      "live_content_not_frozen": true,
+      "path": "logs/generalization_campaign_20261007/splice_comparative_serial_01.log",
+      "sha256_at_snapshot": "af6d8e4a1b95157692a87af9d937275586641de87968925ad3b94cdc6e5f7a09"
+    },
+    {
+      "bytes_at_snapshot": 147,
+      "last_lines_at_snapshot": [
+        "Frozen PUM2 four-mode features only; wait for 3.5 GiB caller RAM and no active heavy project Python; fresh producer guard remains 3 GiB; no fits."
+      ],
+      "live_content_not_frozen": true,
+      "path": "logs/generalization_campaign_20261007/pum2_fixed_features_queue_01.log",
+      "sha256_at_snapshot": "ecafb4f791a9222c14194e21f7a097ae4fe80b6ff881d7f528a9bc4c41b0d96a"
+    }
+  ],
+  "branch": "main",
+  "completed_receipt_sha256": {
+    "results/generalization_prelib_alias_count_audit_20261008/alias_audit_receipt.json": "d8155e6e6b468487d0d73baa87e878e2951179de073cf62a0b1a72c9326c43d2",
+    "results/generalization_prelib_binding_descriptive_20261008/descriptive_receipt.json": "a276c0c09de70e8e2f04b6d581ec3c6e6d6b98abe77258d1de4051efd89d67c6",
+    "results/generalization_prelib_binding_descriptive_20261008/independent_source_effect_replay_receipt.json": "70f9177516049301300e500c711b83f1aff240438c9a99dbd8bb5f0547d55b5b",
+    "results/generalization_prelib_binding_descriptive_20261008/input_sensitivity_receipt.json": "34d6a5ed3cc25b047d8aa8d324d539fe217f2ba97034f8bc5ab9082fab122a55",
+    "results/generalization_prelib_irf_locus_metadata_20261008/reference_pilot_receipt.json": "32c3fb83c49a247e605dfe5d8f1045037d495ce709231ef84f3c31546f61f83c",
+    "results/generalization_prelib_sample_metadata_20261008/sample_metadata_receipt.json": "cd83788e9b0aa446ee65a4b71de6eb5e0f0e76afbf3ae234b5eb98f0decf615d",
+    "results/generalization_pum2_fixed_math_20261008/mathematical_verification_receipt.json": "ec82530441d67fada4a73bb2eb5b459a011a54bd085f7e9acd20f851f1e8eb6f"
+  },
+  "independent_agent_filesystem_checks_incomplete_due_earlier_auto_review_account_usage_limit": true,
+  "new_biological_fits": 0,
+  "new_localization_PASS": false,
+  "new_training_pairs_admitted": 0,
+  "new_unique_invented_or_hand_calculated_tests_passed": 45,
+  "no_automations_or_external_messages": true,
+  "no_spending": true,
+  "original_scientific_resource_floors_unchanged": true,
+  "public_auxiliary_binding_resource_now_exposed_development": true,
+  "recent_commits_before_delivery": [
+    "32a3d628a Freeze all-cohort Input and IP normalization sensitivities without outcome selection",
+    "e3947c223 Freeze outcome-free four-mode PUM2 point-fragment feature production with fresh RAM guards",
+    "aadaa0ec3 Freeze metadata-selected PRELib alias count-assignment audit before additional raw cells",
+    "a8d96edb4 Freeze bounded ENA PRELib sample metadata lookup without raw sequencing outcomes",
+    "bfab29a83 Freeze bounded public IRF2BP1 native genomic and transcript identity pilot",
+    "047607dc4 Preserve complete PRELib point counts and freeze separate replay plus fixed PUM2 mathematics",
+    "2f98c0070 Freeze PRELib descriptive estimator and bounded raw-count reader before opening values",
+    "75a3099ed Preserve 4054 reconstructed point edits, sequence aliases audit and continuation findings"
+  ],
+  "report_sha256": "0fdb81d3813797f35ed94689218f7dce996067d06ec1f00ac7cc2428079e4e20",
+  "sealed_outcomes_not_opened": true,
+  "status": "ROOT_CONTINUATION_07_COMPLETE_SOURCE_AND_MATH_WORK_NOT_BIOLOGICAL_GENERALIZATION",
+  "user_files_preservation_snapshot": "results/generalization_prelib_binding_descriptive_20261008/protected_user_file_snapshot.json"
+}
