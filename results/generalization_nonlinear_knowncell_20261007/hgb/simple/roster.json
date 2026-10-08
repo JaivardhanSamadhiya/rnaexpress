@@ -1,0 +1,98 @@
+[
+  {
+    "configuration": {
+      "id": "hgb_15",
+      "max_leaf_nodes": 15
+    },
+    "fold": 0,
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/simple/fits/CAD_to_N2A__fold0__outer_hgb_15.json",
+    "source_checkpoint_sha256": "7603f93523213e70b52afc13f8ae3f54101bff7b39c30e032f5913af274638f9",
+    "source_creation_sidecar_sha256": "4b95cc82268c31df2fdcc716170262a3172e07859deda88c13ec944740138f34",
+    "source_task": "CAD_to_N2A",
+    "target_ids_sha256": "399d727dd9fd35cc07e550a87746f5ab360622495ae67ec7a63d280263f57708",
+    "target_labels_sha256": "98952b9da0e0d605b3bd2fc8d7563bb9794ecfe2cee4d7a756032da5e8761b72",
+    "target_metadata_sha256": "709f2d897660fb9e43029cff99a300d3043c39721c531ee3186730a70d2fc673",
+    "target_rows": 2790,
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_31",
+      "max_leaf_nodes": 31
+    },
+    "fold": 1,
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/simple/fits/CAD_to_N2A__fold1__outer_hgb_31.json",
+    "source_checkpoint_sha256": "ae6f33f047a8e83da8ccbbdd9a50bab9528b03a42b6a4c27b7afd0c124446110",
+    "source_creation_sidecar_sha256": "626d2e04a29beee237a855c512b0235c99309b8a86b6e019a62bcc9d0d67169a",
+    "source_task": "CAD_to_N2A",
+    "target_ids_sha256": "eff05e6b792aeea781aef4974b3ee17acc939724f4d1609f9d33c2e656d8632a",
+    "target_labels_sha256": "ae0d7b3c93b88e375e553d3784eb73a6fce64909eda454835cecb786572ff9d1",
+    "target_metadata_sha256": "bc190d139682710df736915e187263994f7dbd149cfac3a2eb7cb57dde364a25",
+    "target_rows": 2639,
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_7",
+      "max_leaf_nodes": 7
+    },
+    "fold": 2,
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/simple/fits/CAD_to_N2A__fold2__outer_hgb_7.json",
+    "source_checkpoint_sha256": "ece858df0fc6589c1f00e4167c54d6ca42dcd08f3c4793953f0cb94c55c865f6",
+    "source_creation_sidecar_sha256": "ba4c7939183f64009a6f731167fa93966301987b98906b843c1670a3a0789a82",
+    "source_task": "CAD_to_N2A",
+    "target_ids_sha256": "2a29149053a5ad391410e86c6c5298f5cee23cc520acfe1c6ffc53a71215c9c1",
+    "target_labels_sha256": "6423105a0297c7037b9b29e3f678007e2ca188e6effd94a2adb17be9066871da",
+    "target_metadata_sha256": "81fa68dacd38d163a11128c304019e692da831c23e35361a1f303b0648537f88",
+    "target_rows": 1460,
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_15",
+      "max_leaf_nodes": 15
+    },
+    "fold": 0,
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/simple/fits/N2A_to_CAD__fold0__outer_hgb_15.json",
+    "source_checkpoint_sha256": "3a9f968bed97896c0349b8854cb18a7f17535138b45cb25849dc624d9bb239ab",
+    "source_creation_sidecar_sha256": "f27646b7bd769680d435bffc10f2d88476c681bdb9f59e5b112e5a0a4272c100",
+    "source_task": "N2A_to_CAD",
+    "target_ids_sha256": "80e95c5c54b8f0dca17b742eb9da931b7ba595b4766a5578c8b503646d019a6f",
+    "target_labels_sha256": "b2af7818ab04ba80aeebc61abb3e1e1ee2917f401b82b68393a5df35a0f7f982",
+    "target_metadata_sha256": "c64243adb11af77ad1b49eb26129cd815f8c83e6e7c2fa359d730f0ab7a70cd5",
+    "target_rows": 2788,
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_31",
+      "max_leaf_nodes": 31
+    },
+    "fold": 1,
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/simple/fits/N2A_to_CAD__fold1__outer_hgb_31.json",
+    "source_checkpoint_sha256": "f4dd4341d8159af598d438f4ff40f57e9c59a9c752e3885b82fba6d3a33ae455",
+    "source_creation_sidecar_sha256": "7e15edebb7ee936296ddba29eacceb606db702aad69bc5897b68720f71155b8d",
+    "source_task": "N2A_to_CAD",
+    "target_ids_sha256": "ca63d3633191103127399801cb09f59657c7e54a0ffd68e6fb8078dd6ef0030c",
+    "target_labels_sha256": "7cc20dcf2d830a39dc0898760258b510dad4e9e6886c051999051431878b2c5e",
+    "target_metadata_sha256": "f718ed8c2f29e5c3096d6b1900f0702f5b345246739d7ae50845631dcc28e92d",
+    "target_rows": 2641,
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_7",
+      "max_leaf_nodes": 7
+    },
+    "fold": 2,
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/simple/fits/N2A_to_CAD__fold2__outer_hgb_7.json",
+    "source_checkpoint_sha256": "f7343cc9ff261d07c84b2c5a7976995b3fab196aaa544647c8431ad67fd5ce8e",
+    "source_creation_sidecar_sha256": "8dbe90e1a17da021f94bb52dec391bef0606e48f728b0d47440e86533479d36d",
+    "source_task": "N2A_to_CAD",
+    "target_ids_sha256": "e95531e41dc676870fdbd2a2c2b1f9fe0017cdb11c875de4a778e3155c833b6f",
+    "target_labels_sha256": "0383f895c815448cbf21a00ae693ced31fc9f81771c9b53952b6f840e724dd09",
+    "target_metadata_sha256": "459eb7541eb565621886606543452ce294f3108bc767671d400dde260ca1ed82",
+    "target_rows": 1463,
+    "task": "N2A_known"
+  }
+]

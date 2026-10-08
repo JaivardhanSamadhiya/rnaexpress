@@ -1,0 +1,92 @@
+[
+  {
+    "configuration": {
+      "id": "hgb_31",
+      "max_leaf_nodes": 31
+    },
+    "fold": 0,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "eac39c923e5950a16e26abe394b199ad901756d830020d547611ab287a8a31a1",
+    "rows": 2781,
+    "shared_matrix_sha256": "12d575fa5cac42f6c218a3eafae2aba714c77a34642580f2040805e222cf1a33",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/bert/fits/CAD_to_N2A__fold0__outer_hgb_31.json",
+    "source_checkpoint_sha256": "57de8ed88ceb2071380cc7ece7fe69f0db471dcba456888be9decfb7fde07723",
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_15",
+      "max_leaf_nodes": 15
+    },
+    "fold": 0,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "eac39c923e5950a16e26abe394b199ad901756d830020d547611ab287a8a31a1",
+    "rows": 2781,
+    "shared_matrix_sha256": "12d575fa5cac42f6c218a3eafae2aba714c77a34642580f2040805e222cf1a33",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/bert/fits/N2A_to_CAD__fold0__outer_hgb_15.json",
+    "source_checkpoint_sha256": "eea04161a971e3093cdc2b13e2f303591e675dfd4189cb2cf08b46501dfe5576",
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_15",
+      "max_leaf_nodes": 15
+    },
+    "fold": 1,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "c3688e90b9fecc449ce4cffd9e29d166cd59c59c6986812c794e130939a8dfcb",
+    "rows": 2639,
+    "shared_matrix_sha256": "3b4fc94c4940e01a22e17fcbc45482e5f28653adc5986c3fffa02d4d2bcba1b7",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/bert/fits/CAD_to_N2A__fold1__outer_hgb_15.json",
+    "source_checkpoint_sha256": "cf06c36a385eedf9cee4e73e84b7ad2665f8b5c7b72f5c296e8918030bd9dcdc",
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_31",
+      "max_leaf_nodes": 31
+    },
+    "fold": 1,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "c3688e90b9fecc449ce4cffd9e29d166cd59c59c6986812c794e130939a8dfcb",
+    "rows": 2639,
+    "shared_matrix_sha256": "3b4fc94c4940e01a22e17fcbc45482e5f28653adc5986c3fffa02d4d2bcba1b7",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/bert/fits/N2A_to_CAD__fold1__outer_hgb_31.json",
+    "source_checkpoint_sha256": "7410d110f2d4729e6e526347814f2f25424d75e60b05b97aa6f9632f8ed6124f",
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_7",
+      "max_leaf_nodes": 7
+    },
+    "fold": 2,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "dec37a830a4910fa8898f627e40c8bab5f7142ce9748504338ff257705536a3f",
+    "rows": 1460,
+    "shared_matrix_sha256": "c2835838d8dbdeb0cd6ad02a689f54f49d5e8a814721e9b658ff9f5433708c17",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/bert/fits/CAD_to_N2A__fold2__outer_hgb_7.json",
+    "source_checkpoint_sha256": "9954cfa0370bc9d665cd5750669f649749939089f9b9ee9960a68d5a7c6c0db5",
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "id": "hgb_15",
+      "max_leaf_nodes": 15
+    },
+    "fold": 2,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "dec37a830a4910fa8898f627e40c8bab5f7142ce9748504338ff257705536a3f",
+    "rows": 1460,
+    "shared_matrix_sha256": "c2835838d8dbdeb0cd6ad02a689f54f49d5e8a814721e9b658ff9f5433708c17",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/hgb/bert/fits/N2A_to_CAD__fold2__outer_hgb_15.json",
+    "source_checkpoint_sha256": "b8b82c6e78a1a102ec9c8d56aa7833960412fc06518036a4517a306f6fae5ee2",
+    "task": "N2A_known"
+  }
+]

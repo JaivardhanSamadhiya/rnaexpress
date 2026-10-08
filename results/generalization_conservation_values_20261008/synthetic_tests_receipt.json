@@ -1,0 +1,22 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "models_fit": 0,
+  "network_requests": 0,
+  "output": "test_candidate_in_other_cell_vetoes_entire_parent (src.generalization_conservation_values_20261008.tests.PolicyTests.test_candidate_in_other_cell_vetoes_entire_parent) ... ok\ntest_duplicate_coordinate_rejected (src.generalization_conservation_values_20261008.tests.PolicyTests.test_duplicate_coordinate_rejected) ... ok\ntest_empty_pilot_means_missing_site (src.generalization_conservation_values_20261008.tests.PolicyTests.test_empty_pilot_means_missing_site) ... ok\ntest_independent_scalar_joins_match_expansion (src.generalization_conservation_values_20261008.tests.PolicyTests.test_independent_scalar_joins_match_expansion) ... ok\ntest_missing_coordinate_vetoes_parent (src.generalization_conservation_values_20261008.tests.PolicyTests.test_missing_coordinate_vetoes_parent) ... ok\ntest_missing_is_none_not_zero (src.generalization_conservation_values_20261008.tests.PolicyTests.test_missing_is_none_not_zero) ... ok\ntest_source_header_drift_never_updates_reference (src.generalization_conservation_values_20261008.tests.PolicyTests.test_source_header_drift_never_updates_reference) ... ok\ntest_zero_score_is_available (src.generalization_conservation_values_20261008.tests.PolicyTests.test_zero_score_is_available) ... ok\ntest_birth_bound_complete_cache_has_no_retry (src.generalization_conservation_values_20261008.tests.TransportTests.test_birth_bound_complete_cache_has_no_retry) ... ok\ntest_changed_receipt_rejected (src.generalization_conservation_values_20261008.tests.TransportTests.test_changed_receipt_rejected) ... ok\ntest_exhausted_budget_refuses_network (src.generalization_conservation_values_20261008.tests.TransportTests.test_exhausted_budget_refuses_network) ... ok\ntest_non200_preserved_unavailable (src.generalization_conservation_values_20261008.tests.TransportTests.test_non200_preserved_unavailable) ... ok\ntest_unfrozen_request_rejected (src.generalization_conservation_values_20261008.tests.TransportTests.test_unfrozen_request_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.135s\n\nOK\n",
+  "project_annotation_values_read": false,
+  "scientific_modules_imported": false,
+  "source_hashes": {
+    "reports/generalization_conservation_values_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_conservation_values_20261008/protocol.md": "e2a889a853a72a8a07de50fee976c08e77e3f0b032741409b360d777e34c1a1c",
+    "src/generalization_conservation_values_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_conservation_values_20261008/__init__.py": "4aa290c90e393cd75f6dc6c73212e0f1721b8207ae8798999846a0ee7b4e35cd",
+    "src/generalization_conservation_values_20261008/common.py": "2d01b0d4220c6eea510b3851c1eef3a497de9fa97e107e70133e18dc3e9ed2e1",
+    "src/generalization_conservation_values_20261008/produce.py": "1993e7c7ec0a1384957f7d2f51f7fa8b78003611caa0d531dd2af72430f01067",
+    "src/generalization_conservation_values_20261008/replay.py": "8a128683672e0e3e91f6aa75f60f17725e0b7c303e8714274883ed05ff011699",
+    "src/generalization_conservation_values_20261008/tests.py": "b05043526fb1a4671ed0633a1efa0b1e4ae5312ba2d0897716e1e26b8e9b491b",
+    "src/generalization_conservation_values_20261008/transport.py": "66a736a3deea4f3eee65444b718a0c84c1a8ca0e59eeaa3c5871ee776685dc98"
+  },
+  "status": "PASS",
+  "tests": 13
+}

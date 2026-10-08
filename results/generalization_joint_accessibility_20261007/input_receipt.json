@@ -1,0 +1,36 @@
+{
+  "all_controls_byte_identical_to_prior_prefit": true,
+  "cache_index_sha256": "5e70c7bcf29c4c35833ec51b390379c4014c9b45043b27af1ae35c97b40ea479",
+  "creation_digests_checked": 18220,
+  "encoded_metadata_sha256": "6b801e948d3349014307b57cd40f22d2faacb0e63cc4ffc2204bf3340ab7ef75",
+  "feature_paths": {
+    "access": "artifacts/generalization_rbp_20261007/access_model_features.npz",
+    "base": "artifacts/generalization_rbp_20261007/base_model_features.npz",
+    "duplicate_marginal": "artifacts/generalization_joint_accessibility_20261007/duplicate_marginal_model_features.npz",
+    "joint": "artifacts/generalization_joint_accessibility_20261007/joint_model_features.npz",
+    "raw": "artifacts/generalization_rbp_20261007/raw_model_features.npz"
+  },
+  "files": {
+    "artifacts/generalization_joint_accessibility_20261007/duplicate_marginal_model_features.npz": "a1016bcf256031cffa93a04c2d8ea516f271b743192ca9c97fb82e3e732610f9",
+    "artifacts/generalization_joint_accessibility_20261007/joint_model_features.npz": "b05c9ce4b6ddd39ad7c9639b8c7c693fdd0a003bb798d3998fd7b948b01fb665",
+    "artifacts/generalization_joint_accessibility_20261007/joint_projected_delta.npz": "2e22627fd60bc252d676eeeddf4e8588e258d9406044db37f538aabc4ee39736",
+    "artifacts/generalization_rbp_20261007/access_model_features.npz": "cd1056fbcddb291ff70b74d7d071fd9ff8b5f3394438abf96d19ccfa378a9c8f",
+    "artifacts/generalization_rbp_20261007/base_model_features.npz": "cf7d79d6b1a0efa3228fbcbe8c61b0e712c2fb630f9c1ef9302dcf83f152693c",
+    "artifacts/generalization_rbp_20261007/raw_model_features.npz": "0d2826b11e2aa2c5e555337a8bd513c53e64fc7a05dfba4259f6128e7e4755b8",
+    "results/generalization_joint_accessibility_20261007/row_index.csv.gz": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8"
+  },
+  "joint_production_receipt_sha256": "faf91c8d54b4d356c5327489613e73c1bd9fee106558fc26f936348e82d127fc",
+  "original_metadata_sha256": "78767b17e63bb4fb769a2aca3012b9048ce2b080813b226c3a4e2208751136a1",
+  "outcomes_used_for_features": false,
+  "production_manifest_sha256": "3dc10e3a961119a7af514cc307678b07466b164388ace285c1da18fcdd679d4e",
+  "rows": 26258,
+  "shapes": {
+    "access": 758,
+    "base": 246,
+    "duplicate_marginal": 1014,
+    "joint": 1014,
+    "raw": 502
+  },
+  "source_control_prefit_sha256": "724f8bb79a25435bf1133c57d277194312de00d621fc26d91da6dc34c32e7e58",
+  "status": "PASS"
+}

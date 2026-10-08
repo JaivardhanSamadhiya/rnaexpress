@@ -1,0 +1,212 @@
+{
+  "causal_cell_state_claim": false,
+  "diagnostic_ties": "Exact score tie uses shared lexical mutant sequence",
+  "evaluation_manifest_sha256": "65b7b8db93d2e7a839432c3434e00b32a4313fe30fbe0deae6e7ca0961110604",
+  "independent_confirmation": false,
+  "main_gate_and_intervention_ID_ties_unchanged": true,
+  "matrix_shape": "One common full-menu ordered matrix per frozen source checkpoint/fold for both truths",
+  "maximum_independent_score_error": 6.106226635438361e-15,
+  "native_predictor_calls": 84,
+  "new_fits": 0,
+  "paired_feature_bytes_equal": true,
+  "selects_nothing": true,
+  "status": "DESCRIPTIVE",
+  "tracks": [
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.0010457257228878329,
+        0.053771077712419235
+      ],
+      "mean_known_advantage": 0.024914165873136565,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.028323319272486464,
+        "N2A_known": 0.021505012473786663
+      },
+      "track": "hgb/simple"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        0.00044357266384847124,
+        0.06534443491132007
+      ],
+      "mean_known_advantage": 0.03211443964569549,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.05386210641221275,
+        "N2A_known": 0.01036677287917824
+      },
+      "track": "hgb/base"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.0007096611150025017,
+        0.07046879487147197
+      ],
+      "mean_known_advantage": 0.03443237235995287,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.047713322642135375,
+        "N2A_known": 0.02115142207777036
+      },
+      "track": "hgb/raw"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.01876817416239853,
+        0.03862425649941941
+      ],
+      "mean_known_advantage": 0.009673152304599385,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.03070145238235865,
+        "N2A_known": -0.011355147773159878
+      },
+      "track": "hgb/structure"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.016787396294879225,
+        0.049758621841731715
+      ],
+      "mean_known_advantage": 0.015962199533177682,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.020034351931662094,
+        "N2A_known": 0.01189004713469327
+      },
+      "track": "hgb/lookup"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.03829665847080936,
+        0.014805193579445377
+      ],
+      "mean_known_advantage": -0.011222071339027322,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.003067783328107188,
+        "N2A_known": -0.025511926006161832
+      },
+      "track": "hgb/bert"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.0402591585540445,
+        0.010592279824428109
+      ],
+      "mean_known_advantage": -0.01516284957934782,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.00027639833168388686,
+        "N2A_known": -0.030602097490379527
+      },
+      "track": "hgb/combined"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.028186044639651627,
+        0.02361302334174876
+      ],
+      "mean_known_advantage": -0.0025982487156760298,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.0038148618201730247,
+        "N2A_known": -0.009011359251525084
+      },
+      "track": "ridge/simple"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.028428096226337036,
+        0.032119655430654204
+      ],
+      "mean_known_advantage": 0.001241199249807212,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.0018740220931554527,
+        "N2A_known": 0.004356420592769876
+      },
+      "track": "ridge/base"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.028611772190169603,
+        0.03888715902589125
+      ],
+      "mean_known_advantage": 0.004425993896033126,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.010232793045153026,
+        "N2A_known": -0.001380805253086775
+      },
+      "track": "ridge/raw"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.04222755006394565,
+        0.02056924870630082
+      ],
+      "mean_known_advantage": -0.010715693560515386,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.012060059730301116,
+        "N2A_known": -0.009371327390729657
+      },
+      "track": "ridge/structure"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.020344827802298973,
+        0.04320709138290698
+      ],
+      "mean_known_advantage": 0.010273315053896363,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": 0.01568857001927821,
+        "N2A_known": 0.004858060088514516
+      },
+      "track": "ridge/lookup"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.020495846232904895,
+        0.0357093663127148
+      ],
+      "mean_known_advantage": 0.007174580555286461,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.014282507308721645,
+        "N2A_known": 0.028631668419294567
+      },
+      "track": "ridge/bert"
+    },
+    {
+      "components": 187,
+      "descriptive_ci": [
+        -0.03474215521447894,
+        0.025198130731352714
+      ],
+      "mean_known_advantage": -0.0047815648313935455,
+      "menus": 2408,
+      "per_known_cell": {
+        "CAD_known": -0.010817840760856389,
+        "N2A_known": 0.0012547110980692983
+      },
+      "track": "ridge/combined"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "evaluation_manifest_sha256": "65b7b8db93d2e7a839432c3434e00b32a4313fe30fbe0deae6e7ca0961110604",
+  "independent_confirmation": false,
+  "new_fits": 0,
+  "original_labels_sha256": "5858946f5ff293f5e70dd3e03a31a888f0ea8e4e2adb01e072d54271cbb5c821",
+  "reused_outer_predictors": 84,
+  "status": "PASS",
+  "tracks": [
+    "hgb/simple",
+    "hgb/base",
+    "hgb/raw",
+    "hgb/structure",
+    "hgb/lookup",
+    "hgb/bert",
+    "hgb/combined",
+    "ridge/simple",
+    "ridge/base",
+    "ridge/raw",
+    "ridge/structure",
+    "ridge/lookup",
+    "ridge/bert",
+    "ridge/combined"
+  ]
+}

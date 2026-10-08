@@ -1,0 +1,2324 @@
+{
+  "evaluation_manifest_sha256": "65b7b8db93d2e7a839432c3434e00b32a4313fe30fbe0deae6e7ca0961110604",
+  "independent_confirmation": false,
+  "new_fits": 0,
+  "original_nonlinear_gate_unchanged": true,
+  "original_pairwise_known_gate_unchanged": true,
+  "scope": "Matched pointwise HGB/ridge source-checkpoint evaluation on held genes conditional on represented cell; not a new cell-conditioning method or unseen-cell confirmation",
+  "status": "NO-GO",
+  "thresholds_changed_after_performance": false,
+  "tracks": [
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": 0.027576316845494914,
+            "1": -0.008562125404823609,
+            "2": -0.01563590925348242
+          },
+          "gain_ci": [
+            -0.023484453651082267,
+            0.02969759401370838
+          ],
+          "macro_wrong_direction_harm": 0.00542100568535199,
+          "mean_gain": 0.00330532909350972,
+          "per_known_cell_gain": {
+            "CAD_known": -0.01897700469397895,
+            "N2A_known": 0.02558766288099839
+          },
+          "remaining_gain": -0.011550189271929481,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.00797689846977961,
+            "N2A_known": 0.0028651129009243693
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "gain_ci": [
+            0.0,
+            0.0
+          ],
+          "macro_wrong_direction_harm": 0.0,
+          "mean_gain": 0.0,
+          "per_known_cell_gain": {
+            "CAD_known": 0.0,
+            "N2A_known": 0.0
+          },
+          "remaining_gain": 0.0,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0,
+            "N2A_known": 0.0
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.06289515495482181,
+            "1": -0.019210518553324923,
+            "2": 0.01572910859660731
+          },
+          "gain_ci": [
+            -0.010825960277404123,
+            0.05205953206445094
+          ],
+          "macro_wrong_direction_harm": -0.00781551110092252,
+          "mean_gain": 0.021118596684242444,
+          "per_known_cell_gain": {
+            "CAD_known": 0.0005579249567891606,
+            "N2A_known": 0.041679268411695725
+          },
+          "remaining_gain": -0.004451538119301828,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.000897380204474559,
+            "N2A_known": -0.016528402406319597
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.04259112219160711,
+            "1": -0.01867693255944688,
+            "2": 0.03488894231491978
+          },
+          "gain_ci": [
+            -0.015550270369941456,
+            0.05238420724193823
+          ],
+          "macro_wrong_direction_harm": -0.0027806686498713135,
+          "mean_gain": 0.018621247954824775,
+          "per_known_cell_gain": {
+            "CAD_known": 0.027367715891608968,
+            "N2A_known": 0.009874780018040584
+          },
+          "remaining_gain": 0.003950031827139041,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.011956180793530067,
+            "N2A_known": 0.00639484349378744
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": true,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": true,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": true,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": true,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": true,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": true
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.47881671798252345,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.17527610174565078,
+          "model": "hgb/simple",
+          "pairwise_accuracy": 0.5270067882259434,
+          "regret": 0.4730784815950189,
+          "task": "CAD_known",
+          "wrong_direction": 0.4809060440304564
+        },
+        {
+          "avoidable_wrong": 0.17976281019904342,
+          "model": "hgb/simple",
+          "pairwise_accuracy": 0.5171787745098658,
+          "regret": 0.48455495437002793,
+          "task": "N2A_known",
+          "wrong_direction": 0.49090972030238456
+        }
+      ],
+      "track": "hgb/simple"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "gain_ci": [
+            0.0,
+            0.0
+          ],
+          "macro_wrong_direction_harm": 0.0,
+          "mean_gain": 0.0,
+          "per_known_cell_gain": {
+            "CAD_known": 0.0,
+            "N2A_known": 0.0
+          },
+          "remaining_gain": 0.0,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0,
+            "N2A_known": 0.0
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.027576316845494914,
+            "1": 0.008562125404823609,
+            "2": 0.01563590925348242
+          },
+          "gain_ci": [
+            -0.029697594013708396,
+            0.023484453651082256
+          ],
+          "macro_wrong_direction_harm": -0.00542100568535199,
+          "mean_gain": -0.00330532909350972,
+          "per_known_cell_gain": {
+            "CAD_known": 0.01897700469397895,
+            "N2A_known": -0.02558766288099839
+          },
+          "remaining_gain": -0.010030841260195336,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.00797689846977961,
+            "N2A_known": -0.0028651129009243693
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.0353188381093269,
+            "1": -0.01064839314850131,
+            "2": 0.03136501785008973
+          },
+          "gain_ci": [
+            -0.018484426347563646,
+            0.056042666568538166
+          ],
+          "macro_wrong_direction_harm": -0.013236516786274511,
+          "mean_gain": 0.01781326759073272,
+          "per_known_cell_gain": {
+            "CAD_known": 0.0195349296507681,
+            "N2A_known": 0.01609160553069734
+          },
+          "remaining_gain": 0.0070986511526276615,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.007079518265305054,
+            "N2A_known": -0.019393515307243966
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.015014805346112199,
+            "1": -0.01011480715462328,
+            "2": 0.05052485156840219
+          },
+          "gain_ci": [
+            -0.021774749098729042,
+            0.05134389704757322
+          ],
+          "macro_wrong_direction_harm": -0.008201674335223303,
+          "mean_gain": 0.015315918861315052,
+          "per_known_cell_gain": {
+            "CAD_known": 0.04634472058558791,
+            "N2A_known": -0.015712882862957807
+          },
+          "remaining_gain": 0.0028141963783638244,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.019933079263309676,
+            "N2A_known": 0.003529730592863068
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": true,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": true,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": true,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": true,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": true
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.4821220470760331,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.1675085470556664,
+          "model": "hgb/base",
+          "pairwise_accuracy": 0.5464991264637696,
+          "regret": 0.45410147690104,
+          "task": "CAD_known",
+          "wrong_direction": 0.47292914556067683
+        },
+        {
+          "avoidable_wrong": 0.177821177314441,
+          "model": "hgb/base",
+          "pairwise_accuracy": 0.49299317145269456,
+          "regret": 0.5101426172510263,
+          "task": "N2A_known",
+          "wrong_direction": 0.48804460740146016
+        }
+      ],
+      "track": "hgb/base"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.01108809293285825,
+            "1": 0.014733820127405805,
+            "2": -0.001946131340306408
+          },
+          "gain_ci": [
+            -0.018142190305191975,
+            0.01966202097067101
+          ],
+          "macro_wrong_direction_harm": 0.01045199894217188,
+          "mean_gain": 0.0005590958001510087,
+          "per_known_cell_gain": {
+            "CAD_known": -0.009170575903660213,
+            "N2A_known": 0.01028876750396223
+          },
+          "remaining_gain": -0.007355125282566248,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": 0.013304407041456405,
+            "N2A_known": 0.007599590842887352
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.038664409778353157,
+            "1": 0.023295945532229412,
+            "2": 0.013689777913176014
+          },
+          "gain_ci": [
+            -0.027446772424135287,
+            0.022937798205192206
+          ],
+          "macro_wrong_direction_harm": 0.005030993256819886,
+          "mean_gain": -0.002746233293358712,
+          "per_known_cell_gain": {
+            "CAD_known": 0.009806428790318733,
+            "N2A_known": -0.015298895377036157
+          },
+          "remaining_gain": -0.01728644980431209,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": 0.005327508571676788,
+            "N2A_known": 0.004734477941962982
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.024230745176468643,
+            "1": 0.004085426978904488,
+            "2": 0.029418886509783318
+          },
+          "gain_ci": [
+            -0.015348297819695598,
+            0.05290903250598434
+          ],
+          "macro_wrong_direction_harm": -0.0027845178441026314,
+          "mean_gain": 0.01837236339088373,
+          "per_known_cell_gain": {
+            "CAD_known": 0.010364353747107886,
+            "N2A_known": 0.026380373034659576
+          },
+          "remaining_gain": 0.014450047210984593,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0062248887761513485,
+            "N2A_known": -0.011793924464356611
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.003926712413253953,
+            "1": 0.004619012972782532,
+            "2": 0.048578720228095784
+          },
+          "gain_ci": [
+            -0.018987352102442036,
+            0.050241605421131326
+          ],
+          "macro_wrong_direction_harm": 0.0022503246069485723,
+          "mean_gain": 0.015875014661466062,
+          "per_known_cell_gain": {
+            "CAD_known": 0.0371741446819277,
+            "N2A_known": -0.005424115358995576
+          },
+          "remaining_gain": 0.004262829351575799,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.006628672221853275,
+            "N2A_known": 0.01112932143575042
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": true,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": true,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": true,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": true,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": true,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": true
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.48156295127588217,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.18014602151684064,
+          "model": "hgb/raw",
+          "pairwise_accuracy": 0.5364469050303006,
+          "regret": 0.46327205280470024,
+          "task": "CAD_known",
+          "wrong_direction": 0.4862335526021332
+        },
+        {
+          "avoidable_wrong": 0.1845295025601804,
+          "model": "hgb/raw",
+          "pairwise_accuracy": 0.5021060929947153,
+          "regret": 0.4998538497470641,
+          "task": "N2A_known",
+          "wrong_direction": 0.4956441982443475
+        }
+      ],
+      "track": "hgb/raw"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.00960149485040772,
+            "1": 0.009717479649768417,
+            "2": -0.027510531233166123
+          },
+          "gain_ci": [
+            -0.026372194543849942,
+            0.011713610057339317
+          ],
+          "macro_wrong_direction_harm": 0.0027117401145989035,
+          "mean_gain": -0.007372465391816067,
+          "per_known_cell_gain": {
+            "CAD_known": -0.02275316122828685,
+            "N2A_known": 0.008008230444654714
+          },
+          "remaining_gain": -0.016914351373367404,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": 0.005366868434241113,
+            "N2A_known": 5.661179495669369e-05
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.03717781169590263,
+            "1": 0.018279605054592023,
+            "2": -0.011874621979683708
+          },
+          "gain_ci": [
+            -0.03731440203690101,
+            0.01561751465650356
+          ],
+          "macro_wrong_direction_harm": -0.0027092655707530874,
+          "mean_gain": -0.010677794485325793,
+          "per_known_cell_gain": {
+            "CAD_known": -0.0037761565343079075,
+            "N2A_known": -0.01757943243634368
+          },
+          "remaining_gain": -0.02684567589511324,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": -0.0026100300355384985,
+            "N2A_known": -0.002808501105967676
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.025717343258919168,
+            "1": -0.000930913498732899,
+            "2": 0.0038544866169235945
+          },
+          "gain_ci": [
+            -0.023498737219361153,
+            0.04347913985820936
+          ],
+          "macro_wrong_direction_harm": -0.010524776671675605,
+          "mean_gain": 0.010440802198916651,
+          "per_known_cell_gain": {
+            "CAD_known": -0.0032182315775187466,
+            "N2A_known": 0.02409983597535205
+          },
+          "remaining_gain": 0.0010905055156392434,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.0017126498310639409,
+            "N2A_known": -0.01933690351228727
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.005413310495704477,
+            "1": -0.00039732750485485264,
+            "2": 0.02301432033523606
+          },
+          "gain_ci": [
+            -0.026713474335141065,
+            0.03978484656746255
+          ],
+          "macro_wrong_direction_harm": -0.005489934220624399,
+          "mean_gain": 0.00794345346949898,
+          "per_known_cell_gain": {
+            "CAD_known": 0.02359155935730106,
+            "N2A_known": -0.007704652418303099
+          },
+          "remaining_gain": 0.002592203640360457,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.014566210829068563,
+            "N2A_known": 0.0035863423878197648
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/raw_information_leave_best_positive": false,
+        "hgb/raw_information_mean_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": true,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": true,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": true,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false,
+        "pairwise/structure_information_leave_best_positive": true,
+        "pairwise/structure_information_mean_0_01": true,
+        "ridge/structure_information_leave_best_positive": true,
+        "ridge/structure_information_mean_0_01": true
+      },
+      "claim_eligible": true,
+      "information_and_matched_loss_controls": {
+        "hgb/raw": {
+          "fold_gains": {
+            "0": 0.0014865980824505269,
+            "1": -0.00501634047763739,
+            "2": -0.02556439989285972
+          },
+          "gain_ci": [
+            -0.029929242925792948,
+            0.01337983765819425
+          ],
+          "macro_wrong_direction_harm": -0.007740258827572973,
+          "mean_gain": -0.007931561191967078,
+          "per_known_cell_gain": {
+            "CAD_known": -0.013582585324626636,
+            "N2A_known": -0.0022805370593075207
+          },
+          "remaining_gain": -0.013696124196136476,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.00793753860721529,
+            "N2A_known": -0.007542979047930656
+          }
+        },
+        "pairwise/structure": {
+          "fold_gains": {
+            "0": 0.05876989419316649,
+            "1": 0.0007604967450920118,
+            "2": 0.018556522248073172
+          },
+          "gain_ci": [
+            -0.005494496607933929,
+            0.061143535708438675
+          ],
+          "macro_wrong_direction_harm": -0.01736040688329781,
+          "mean_gain": 0.027448584811719634,
+          "per_known_cell_gain": {
+            "CAD_known": 0.016222053977167396,
+            "N2A_known": 0.03867511564627187
+          },
+          "remaining_gain": 0.008277783379971987,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.010124683368974347,
+            "N2A_known": -0.024596130397621277
+          }
+        },
+        "ridge/structure": {
+          "fold_gains": {
+            "0": 0.0407000952221056,
+            "1": 0.04217291769685998,
+            "2": -0.02548715150713953
+          },
+          "gain_ci": [
+            -0.0036852980869374573,
+            0.052754958447136555
+          ],
+          "macro_wrong_direction_harm": -0.011822703318124687,
+          "mean_gain": 0.023884608677054962,
+          "per_known_cell_gain": {
+            "CAD_known": 0.02577743299447059,
+            "N2A_known": 0.021991784359639336
+          },
+          "remaining_gain": 0.013673636140997172,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": -0.007913374002909625,
+            "N2A_known": -0.01573203263333975
+          }
+        }
+      },
+      "macro_regret": 0.48949451246784925,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.17294549099957462,
+          "model": "hgb/structure",
+          "pairwise_accuracy": 0.522884638395399,
+          "regret": 0.4768546381293269,
+          "task": "CAD_known",
+          "wrong_direction": 0.4782960139949179
+        },
+        {
+          "avoidable_wrong": 0.1778777891093977,
+          "model": "hgb/structure",
+          "pairwise_accuracy": 0.5020103611320247,
+          "regret": 0.5021343868063716,
+          "task": "N2A_known",
+          "wrong_direction": 0.4881012191964169
+        }
+      ],
+      "track": "hgb/structure"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.013369019480879119,
+            "1": 0.005785842160298156,
+            "2": 0.0014138703228064242
+          },
+          "gain_ci": [
+            -0.028297318480275592,
+            0.023510731984820822
+          ],
+          "macro_wrong_direction_harm": 0.009894861502662495,
+          "mean_gain": -0.002632456217031693,
+          "per_known_cell_gain": {
+            "CAD_known": -0.03154888173851813,
+            "N2A_known": 0.026283969304454743
+          },
+          "remaining_gain": -0.007332672811040854,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": 0.013066389390071435,
+            "N2A_known": 0.006723333615253554
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.04094533632637403,
+            "1": 0.014347967565121765,
+            "2": 0.017049779576288834
+          },
+          "gain_ci": [
+            -0.03564391571389155,
+            0.024974859090770223
+          ],
+          "macro_wrong_direction_harm": 0.0044738558173105045,
+          "mean_gain": -0.005937785310541415,
+          "per_known_cell_gain": {
+            "CAD_known": -0.012571877044539187,
+            "N2A_known": 0.0006963064234563577
+          },
+          "remaining_gain": -0.014100036610937663,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.005089490920291823,
+            "N2A_known": 0.003858220714329186
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.021949818628447786,
+            "1": -0.004862550988203155,
+            "2": 0.03277888817289616
+          },
+          "gain_ci": [
+            -0.02302479508881506,
+            0.054348336164470476
+          ],
+          "macro_wrong_direction_harm": -0.0033416552836120165,
+          "mean_gain": 0.01518081137370103,
+          "per_known_cell_gain": {
+            "CAD_known": -0.012013952087750026,
+            "N2A_known": 0.042375574835152086
+          },
+          "remaining_gain": 0.008932218887030295,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.005986871124766377,
+            "N2A_known": -0.01267018169199041
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.001645785865233079,
+            "1": -0.004328964994325125,
+            "2": 0.051938721891208614
+          },
+          "gain_ci": [
+            -0.026955602533724563,
+            0.05215097508946806
+          ],
+          "macro_wrong_direction_harm": 0.0016931871674391902,
+          "mean_gain": 0.01268346264428337,
+          "per_known_cell_gain": {
+            "CAD_known": 0.014795838847069784,
+            "N2A_known": 0.010571086441496952
+          },
+          "remaining_gain": -0.0012549989723785082,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.006866689873238242,
+            "N2A_known": 0.010253064208116622
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": true,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": true,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": true,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": true,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": true
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.48475450329306485,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.18082261213300513,
+          "model": "hgb/lookup",
+          "pairwise_accuracy": 0.5116583361635533,
+          "regret": 0.48565035863955813,
+          "task": "CAD_known",
+          "wrong_direction": 0.4859955349507482
+        },
+        {
+          "avoidable_wrong": 0.1843216945304076,
+          "model": "hgb/lookup",
+          "pairwise_accuracy": 0.5238971216701501,
+          "regret": 0.4838586479465716,
+          "task": "N2A_known",
+          "wrong_direction": 0.49476794101671373
+        }
+      ],
+      "track": "hgb/lookup"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.02469187990915857,
+            "1": -0.031194647153391295,
+            "2": -0.03617980170286236
+          },
+          "gain_ci": [
+            -0.057927782845319235,
+            -0.001673083867235149
+          ],
+          "macro_wrong_direction_harm": 0.016333793491907705,
+          "mean_gain": -0.030031952493410324,
+          "per_known_cell_gain": {
+            "CAD_known": -0.06551247481210305,
+            "N2A_known": 0.005448569825282405
+          },
+          "remaining_gain": -0.03330044519584028,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.01675528354499275,
+            "N2A_known": 0.015912303438822658
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.05226819675465349,
+            "1": -0.022632521748567683,
+            "2": -0.020543892449379944
+          },
+          "gain_ci": [
+            -0.06459364032046651,
+            -0.00041063681040076145
+          ],
+          "macro_wrong_direction_harm": 0.010912787806555715,
+          "mean_gain": -0.03333728158692005,
+          "per_known_cell_gain": {
+            "CAD_known": -0.04653547011812411,
+            "N2A_known": -0.020139093055715988
+          },
+          "remaining_gain": -0.037879861787930666,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.008778385075213143,
+            "N2A_known": 0.013047190537898287
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.010626958200168332,
+            "1": -0.041843040301892606,
+            "2": -0.004814783852772628
+          },
+          "gain_ci": [
+            -0.0465224554295555,
+            0.023127928345016167
+          ],
+          "macro_wrong_direction_harm": 0.003097276705633197,
+          "mean_gain": -0.01221868490267761,
+          "per_known_cell_gain": {
+            "CAD_known": -0.045977545161334954,
+            "N2A_known": 0.021540175355979733
+          },
+          "remaining_gain": -0.026201794043212625,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.009675765279687701,
+            "N2A_known": -0.003481211868421307
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": -0.009677074563046372,
+            "1": -0.041309454308014554,
+            "2": 0.014345049865539836
+          },
+          "gain_ci": [
+            -0.04837118064966771,
+            0.019469223454450013
+          ],
+          "macro_wrong_direction_harm": 0.008132119156684402,
+          "mean_gain": -0.014716033632095275,
+          "per_known_cell_gain": {
+            "CAD_known": -0.019167754226515146,
+            "N2A_known": -0.010264313037675403
+          },
+          "remaining_gain": -0.025034824149371505,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.0031777957183169244,
+            "N2A_known": 0.019442034031685727
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/lookup_information_leave_best_positive": false,
+        "hgb/lookup_information_mean_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/bert_information_leave_best_positive": false,
+        "pairwise/bert_information_mean_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false,
+        "ridge/bert_information_leave_best_positive": false,
+        "ridge/bert_information_mean_0_01": false
+      },
+      "claim_eligible": true,
+      "information_and_matched_loss_controls": {
+        "hgb/lookup": {
+          "fold_gains": {
+            "0": -0.011322860428279452,
+            "1": -0.03698048931368945,
+            "2": -0.03759367202566878
+          },
+          "gain_ci": [
+            -0.05672328723509519,
+            -8.152321269976095e-05
+          ],
+          "macro_wrong_direction_harm": 0.006438931989245212,
+          "mean_gain": -0.027399496276378638,
+          "per_known_cell_gain": {
+            "CAD_known": -0.03396359307358493,
+            "N2A_known": -0.02083539947917234
+          },
+          "remaining_gain": -0.037239506148922095,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0036888941549213182,
+            "N2A_known": 0.009188969823569105
+          }
+        },
+        "pairwise/bert": {
+          "fold_gains": {
+            "0": 0.012097856963745225,
+            "1": -0.024123668488050504,
+            "2": 0.015499519993480662
+          },
+          "gain_ci": [
+            -0.029780698167811464,
+            0.03054616581177385
+          ],
+          "macro_wrong_direction_harm": -0.00242427815718969,
+          "mean_gain": 1.1436018219675853e-05,
+          "per_known_cell_gain": {
+            "CAD_known": -0.018243223483906765,
+            "N2A_known": 0.018266095520346116
+          },
+          "remaining_gain": -0.0054879561179237155,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.010580242858602916,
+            "N2A_known": 0.005731686544223537
+          }
+        },
+        "ridge/bert": {
+          "fold_gains": {
+            "0": -0.025061188309173397,
+            "1": 0.007689466170506741,
+            "2": -0.013289853066896366
+          },
+          "gain_ci": [
+            -0.03700156479834207,
+            0.016391557902184425
+          ],
+          "macro_wrong_direction_harm": 0.003214271723083123,
+          "mean_gain": -0.010242529073825033,
+          "per_known_cell_gain": {
+            "CAD_known": -0.02150766086627644,
+            "N2A_known": 0.0010226027186263746
+          },
+          "remaining_gain": -0.02025455975191028,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": -0.003490709456298267,
+            "N2A_known": 0.009919252902464513
+          }
+        }
+      },
+      "macro_regret": 0.5121539995694435,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.184375952750506,
+          "model": "hgb/bert",
+          "pairwise_accuracy": 0.4765805852007011,
+          "regret": 0.5196139517131431,
+          "task": "CAD_known",
+          "wrong_direction": 0.48968442910566956
+        },
+        {
+          "avoidable_wrong": 0.1937979095916117,
+          "model": "hgb/bert",
+          "pairwise_accuracy": 0.4956583303177363,
+          "regret": 0.5046940474257439,
+          "task": "N2A_known",
+          "wrong_direction": 0.5039569108402828
+        }
+      ],
+      "track": "hgb/bert"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": 0.010095152809491333,
+            "1": -0.004902084301041058,
+            "2": -0.03773276367862257
+          },
+          "gain_ci": [
+            -0.034223811314848855,
+            0.017697823225233767
+          ],
+          "macro_wrong_direction_harm": 0.010975166509429595,
+          "mean_gain": -0.007810637534483275,
+          "per_known_cell_gain": {
+            "CAD_known": -0.027554312651275812,
+            "N2A_known": 0.011933037582309262
+          },
+          "remaining_gain": -0.01877021610708842,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.012146365763864391,
+            "N2A_known": 0.0098039672549948
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.017481164036003582,
+            "1": 0.00366004110378256,
+            "2": -0.02209685442514015
+          },
+          "gain_ci": [
+            -0.038097917517134025,
+            0.018193862987618194
+          ],
+          "macro_wrong_direction_harm": 0.005554160824077602,
+          "mean_gain": -0.011115966627993,
+          "per_known_cell_gain": {
+            "CAD_known": -0.008577307957296875,
+            "N2A_known": -0.013654625298689124
+          },
+          "remaining_gain": -0.01936590427823435,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": 0.004169467294084777,
+            "N2A_known": 0.006938854354070428
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.045413990918818224,
+            "1": -0.015550477449542369,
+            "2": -0.006367745828532839
+          },
+          "gain_ci": [
+            -0.02506639635806306,
+            0.04717741909369091
+          ],
+          "macro_wrong_direction_harm": -0.002261350276844914,
+          "mean_gain": 0.01000263005624944,
+          "per_known_cell_gain": {
+            "CAD_known": -0.00801938300050772,
+            "N2A_known": 0.0280246431130066
+          },
+          "remaining_gain": -0.011671564954460764,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.005066847498559339,
+            "N2A_known": -0.009589548052249167
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.025109958155603528,
+            "1": -0.01501689145566433,
+            "2": 0.01279208788977962
+          },
+          "gain_ci": [
+            -0.027699471131816027,
+            0.0434709128129336
+          ],
+          "macro_wrong_direction_harm": 0.002773492174206292,
+          "mean_gain": 0.007505281326831778,
+          "per_known_cell_gain": {
+            "CAD_known": 0.018790407934312095,
+            "N2A_known": -0.003779845280648539
+          },
+          "remaining_gain": -0.0032699950080198976,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.007786713499445285,
+            "N2A_known": 0.01333369784785787
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": true,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/bert_information_leave_best_positive": true,
+        "hgb/bert_information_mean_0_01": true,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "hgb/structure_information_leave_best_positive": false,
+        "hgb/structure_information_mean_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": true,
+        "pairwise/combined_information_leave_best_positive": false,
+        "pairwise/combined_information_mean_0_01": true,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false,
+        "ridge/combined_information_leave_best_positive": false,
+        "ridge/combined_information_mean_0_01": false
+      },
+      "claim_eligible": true,
+      "information_and_matched_loss_controls": {
+        "hgb/bert": {
+          "fold_gains": {
+            "0": 0.0347870327186499,
+            "1": 0.02629256285235024,
+            "2": -0.0015529619757602055
+          },
+          "gain_ci": [
+            0.00032647761784320453,
+            0.045590121523486384
+          ],
+          "macro_wrong_direction_harm": -0.005358626982478112,
+          "mean_gain": 0.02222131495892705,
+          "per_known_cell_gain": {
+            "CAD_known": 0.037958162160827244,
+            "N2A_known": 0.00648446775702686
+          },
+          "remaining_gain": 0.014530229088751857,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.004608917781128364,
+            "N2A_known": -0.00610833618382786
+          }
+        },
+        "hgb/structure": {
+          "fold_gains": {
+            "0": 0.01969664765989905,
+            "1": -0.014619563950809471,
+            "2": -0.010222232445456442
+          },
+          "gain_ci": [
+            -0.026256905745219952,
+            0.026048338666158743
+          ],
+          "macro_wrong_direction_harm": 0.00826342639483069,
+          "mean_gain": -0.00043817214266720413,
+          "per_known_cell_gain": {
+            "CAD_known": -0.004801151422988967,
+            "N2A_known": 0.0039248071376545585
+          },
+          "remaining_gain": -0.0127620704701,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.006779497329623277,
+            "N2A_known": 0.009747355460038102
+          }
+        },
+        "pairwise/combined": {
+          "fold_gains": {
+            "0": 0.04881120366316661,
+            "1": -0.00672590033899268,
+            "2": 0.0082845776121326
+          },
+          "gain_ci": [
+            -0.008720215720266378,
+            0.04600050768616672
+          ],
+          "macro_wrong_direction_harm": -0.013891033880370994,
+          "mean_gain": 0.018293606632977636,
+          "per_known_cell_gain": {
+            "CAD_known": 0.00744038728204305,
+            "N2A_known": 0.02914682598391222
+          },
+          "remaining_gain": -0.0003852674113621784,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": -0.013868925487691853,
+            "N2A_known": -0.013913142273050134
+          }
+        },
+        "ridge/combined": {
+          "fold_gains": {
+            "0": 0.012006041088234205,
+            "1": 0.03048904096827436,
+            "2": -0.022327802661025794
+          },
+          "gain_ci": [
+            -0.01739838961416106,
+            0.037536080039798934
+          ],
+          "macro_wrong_direction_harm": -0.0038655108831064326,
+          "mean_gain": 0.009631723699191156,
+          "per_known_cell_gain": {
+            "CAD_known": -0.002542708329176988,
+            "N2A_known": 0.0218061557275593
+          },
+          "remaining_gain": -0.0020136117760469613,
+          "removed_best_gene_fold": 1,
+          "wrong_direction_harm": {
+            "CAD_known": 0.00028118650110733906,
+            "N2A_known": -0.008012208267320204
+          }
+        }
+      },
+      "macro_regret": 0.4899326846105164,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.17990258850679808,
+          "model": "hgb/combined",
+          "pairwise_accuracy": 0.5177701560326543,
+          "regret": 0.4816557895523158,
+          "task": "CAD_known",
+          "wrong_direction": 0.48507551132454113
+        },
+        {
+          "avoidable_wrong": 0.18765735898860983,
+          "model": "hgb/combined",
+          "pairwise_accuracy": 0.5023970789100297,
+          "regret": 0.49820957966871704,
+          "task": "N2A_known",
+          "wrong_direction": 0.497848574656455
+        }
+      ],
+      "track": "hgb/combined"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.02011197905374877,
+            "1": -0.030354011452872406,
+            "2": -0.006019308748632728
+          },
+          "gain_ci": [
+            -0.049827803488905385,
+            0.009952711836913358
+          ],
+          "macro_wrong_direction_harm": 0.018155051625045906,
+          "mean_gain": -0.020088852453698486,
+          "per_known_cell_gain": {
+            "CAD_known": -0.047757457185938476,
+            "N2A_known": 0.007579752278541504
+          },
+          "remaining_gain": -0.025084560001149378,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.02255747169528869,
+            "N2A_known": 0.013752631554803121
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.04768829589924367,
+            "1": -0.021791886048048794,
+            "2": 0.00961660050484969
+          },
+          "gain_ci": [
+            -0.0496202286900039,
+            0.0012018207913093277
+          ],
+          "macro_wrong_direction_harm": 0.01273404593969391,
+          "mean_gain": -0.02339418154720821,
+          "per_known_cell_gain": {
+            "CAD_known": -0.028780452491959537,
+            "N2A_known": -0.018007910602456885
+          },
+          "remaining_gain": -0.035115401261344714,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.014580573225509074,
+            "N2A_known": 0.010887518653878747
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.015206859055578132,
+            "1": -0.041002404601373714,
+            "2": 0.025345709101457
+          },
+          "gain_ci": [
+            -0.03639321590917795,
+            0.031819815971702255
+          ],
+          "macro_wrong_direction_harm": 0.004918534838771393,
+          "mean_gain": -0.0022755848629657655,
+          "per_known_cell_gain": {
+            "CAD_known": -0.02822252753517037,
+            "N2A_known": 0.02367135780923884
+          },
+          "remaining_gain": -0.012083145763376745,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.015477953429983636,
+            "N2A_known": -0.00564088375244085
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": -0.005097173707636564,
+            "1": -0.04046881860749567,
+            "2": 0.04450554281976947
+          },
+          "gain_ci": [
+            -0.038200543577421066,
+            0.029085627709808756
+          ],
+          "macro_wrong_direction_harm": 0.009953377289822596,
+          "mean_gain": -0.004772933592383436,
+          "per_known_cell_gain": {
+            "CAD_known": -0.0014127366003505695,
+            "N2A_known": -0.008133130584416302
+          },
+          "remaining_gain": -0.022270363622785557,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.00262439243197901,
+            "N2A_known": 0.01728236214766618
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.5022108995297316,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.19022166945380142,
+          "model": "ridge/simple",
+          "pairwise_accuracy": 0.49708572698059134,
+          "regret": 0.5018589340869785,
+          "task": "CAD_known",
+          "wrong_direction": 0.49548661725596543
+        },
+        {
+          "avoidable_wrong": 0.1908930108106998,
+          "model": "ridge/simple",
+          "pairwise_accuracy": 0.49631412323749013,
+          "regret": 0.5025628649724848,
+          "task": "N2A_known",
+          "wrong_direction": 0.5017972389562634
+        }
+      ],
+      "track": "ridge/simple"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.029287943232998576,
+            "1": -0.03834606014322685,
+            "2": -0.018211584333742606
+          },
+          "gain_ci": [
+            -0.0577866443012223,
+            -0.0031507602822172923
+          ],
+          "macro_wrong_direction_harm": 0.010591827117190396,
+          "mean_gain": -0.029631003376965157,
+          "per_known_cell_gain": {
+            "CAD_known": -0.04130756170656963,
+            "N2A_known": -0.017954445047360688
+          },
+          "remaining_gain": -0.03368572463144273,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.013755972142292853,
+            "N2A_known": 0.00742768209208794
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.056864260078493475,
+            "1": -0.029783934738403225,
+            "2": -0.002575675080260192
+          },
+          "gain_ci": [
+            -0.0605131375996171,
+            -0.006969635380538884
+          ],
+          "macro_wrong_direction_harm": 0.005170821431838406,
+          "mean_gain": -0.03293633247047489,
+          "per_known_cell_gain": {
+            "CAD_known": -0.022330557012590683,
+            "N2A_known": -0.04354210792835909
+          },
+          "remaining_gain": -0.04371656589163807,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.00577907367251324,
+            "N2A_known": 0.004562569191163571
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.006030894876328326,
+            "1": -0.04899445329172815,
+            "2": 0.013153433516347119
+          },
+          "gain_ci": [
+            -0.047111108552601595,
+            0.022077343945784925
+          ],
+          "macro_wrong_direction_harm": -0.002644689669084112,
+          "mean_gain": -0.011817735786232443,
+          "per_known_cell_gain": {
+            "CAD_known": -0.02177263205580153,
+            "N2A_known": -0.0018628395166633567
+          },
+          "remaining_gain": -0.02068431039367011,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0066764538769878016,
+            "N2A_known": -0.011965833215156025
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": -0.014273137886886384,
+            "1": -0.0484608672978501,
+            "2": 0.032313267234659576
+          },
+          "gain_ci": [
+            -0.04907254550995052,
+            0.019646800933164087
+          ],
+          "macro_wrong_direction_harm": 0.0023901527819670935,
+          "mean_gain": -0.014315084515650108,
+          "per_known_cell_gain": {
+            "CAD_known": 0.005037158879018274,
+            "N2A_known": -0.03366732791031849
+          },
+          "remaining_gain": -0.03087152825307891,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.0061771071210168236,
+            "N2A_known": 0.01095741268495101
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.5117530504529983,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.18174372178145087,
+          "model": "ridge/base",
+          "pairwise_accuracy": 0.5065476576665723,
+          "regret": 0.49540903860760965,
+          "task": "CAD_known",
+          "wrong_direction": 0.4866851177029696
+        },
+        {
+          "avoidable_wrong": 0.18545932694513256,
+          "model": "ridge/base",
+          "pairwise_accuracy": 0.4723577485294295,
+          "regret": 0.528097062298387,
+          "task": "N2A_known",
+          "wrong_direction": 0.49547228949354816
+        }
+      ],
+      "track": "ridge/base"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.032900516498946,
+            "1": -0.02690624546774468,
+            "2": -0.013346295155273172
+          },
+          "gain_ci": [
+            -0.05503934302641091,
+            0.0013618962509529089
+          ],
+          "macro_wrong_direction_harm": 0.010034768720357698,
+          "mean_gain": -0.02562900310359596,
+          "per_known_cell_gain": {
+            "CAD_known": -0.0355295087855028,
+            "N2A_known": -0.015728497421689115
+          },
+          "remaining_gain": -0.029990254476551157,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.014622606277744503,
+            "N2A_known": 0.005446931162970895
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.06047683334444091,
+            "1": -0.018344120062921063,
+            "2": 0.002289614098209247
+          },
+          "gain_ci": [
+            -0.05841162991711496,
+            -0.0005579694769512724
+          ],
+          "macro_wrong_direction_harm": 0.0046137630350057066,
+          "mean_gain": -0.028934332197105683,
+          "per_known_cell_gain": {
+            "CAD_known": -0.016552504091523854,
+            "N2A_known": -0.04131616030268751
+          },
+          "remaining_gain": -0.04002109573674649,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.006645707807964889,
+            "N2A_known": 0.002581818262046524
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.0024183216103808997,
+            "1": -0.037554638616245986,
+            "2": 0.018018722694816552
+          },
+          "gain_ci": [
+            -0.04334546234926813,
+            0.02642851353235364
+          ],
+          "macro_wrong_direction_harm": -0.003201748065916812,
+          "mean_gain": -0.007815735512863246,
+          "per_known_cell_gain": {
+            "CAD_known": -0.015994579134734708,
+            "N2A_known": 0.00036310810900821777
+          },
+          "remaining_gain": -0.016988840238778537,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.007543088012439447,
+            "N2A_known": -0.01394658414427307
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": -0.017885711152833793,
+            "1": -0.03702105262236795,
+            "2": 0.03717855641312901
+          },
+          "gain_ci": [
+            -0.04553734748932983,
+            0.023379170723858474
+          ],
+          "macro_wrong_direction_harm": 0.0018330943851343935,
+          "mean_gain": -0.010313084242280907,
+          "per_known_cell_gain": {
+            "CAD_known": 0.010815211800085107,
+            "N2A_known": -0.03144138028464692
+          },
+          "remaining_gain": -0.027176058098187333,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.005310472985565175,
+            "N2A_known": 0.008976661755833962
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.5077510501796292,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.18261035591690256,
+          "model": "ridge/raw",
+          "pairwise_accuracy": 0.5125586762856518,
+          "regret": 0.48963098568654284,
+          "task": "CAD_known",
+          "wrong_direction": 0.4875517518384213
+        },
+        {
+          "avoidable_wrong": 0.1834785760160155,
+          "model": "ridge/raw",
+          "pairwise_accuracy": 0.47451297062384257,
+          "regret": 0.5258711146727154,
+          "task": "N2A_known",
+          "wrong_direction": 0.4934915385644311
+        }
+      ],
+      "track": "ridge/raw"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.05030159007251333,
+            "1": -0.032455438047091556,
+            "2": -0.0020233797260265913
+          },
+          "gain_ci": [
+            -0.059985772964591934,
+            -0.004530759105215464
+          ],
+          "macro_wrong_direction_harm": 0.014534443432723587,
+          "mean_gain": -0.03125707406887104,
+          "per_known_cell_gain": {
+            "CAD_known": -0.04853059422275744,
+            "N2A_known": -0.013983553914984634
+          },
+          "remaining_gain": -0.041637153944228844,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.013280242437150737,
+            "N2A_known": 0.015788644428296437
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.07787790691800825,
+            "1": -0.023893312642267947,
+            "2": 0.013612529527455824
+          },
+          "gain_ci": [
+            -0.06016042510048634,
+            -0.009040992257509541
+          ],
+          "macro_wrong_direction_harm": 0.009113437747371595,
+          "mean_gain": -0.03456240316238076,
+          "per_known_cell_gain": {
+            "CAD_known": -0.0295535895287785,
+            "N2A_known": -0.03957121679598302
+          },
+          "remaining_gain": -0.05166799520442418,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.005303343967371124,
+            "N2A_known": 0.012923531527372068
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": -0.01498275196318643,
+            "1": -0.04310383119559288,
+            "2": 0.02934163812406313
+          },
+          "gain_ci": [
+            -0.04683666728224773,
+            0.02068946814999376
+          ],
+          "macro_wrong_direction_harm": 0.0012979266464490814,
+          "mean_gain": -0.013443806478138316,
+          "per_known_cell_gain": {
+            "CAD_known": -0.02899566457198934,
+            "N2A_known": 0.0021080516157127045
+          },
+          "remaining_gain": -0.028635739706456227,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.006200724171845685,
+            "N2A_known": -0.003604870878947522
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": -0.03528678472640113,
+            "1": -0.042570245201714825,
+            "2": 0.048501471842375604
+          },
+          "gain_ci": [
+            -0.0501794998388777,
+            0.01802777521481587
+          ],
+          "macro_wrong_direction_harm": 0.006332769097500282,
+          "mean_gain": -0.01594115520755599,
+          "per_known_cell_gain": {
+            "CAD_known": -0.0021858736371695355,
+            "N2A_known": -0.02969643677794244
+          },
+          "remaining_gain": -0.03882295756586503,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.0066528368261589395,
+            "N2A_known": 0.019318375021159503
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.5133791211449041,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.1813073126173594,
+          "model": "ridge/structure",
+          "pairwise_accuracy": 0.4972365276571735,
+          "regret": 0.5026320711237975,
+          "task": "CAD_known",
+          "wrong_direction": 0.4862093879978275
+        },
+        {
+          "avoidable_wrong": 0.19364203616191145,
+          "model": "ridge/structure",
+          "pairwise_accuracy": 0.47716534026833585,
+          "regret": 0.5241261711660109,
+          "task": "N2A_known",
+          "wrong_direction": 0.5038332518297566
+        }
+      ],
+      "track": "ridge/structure"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.023680201373031732,
+            "1": -0.021315103843720297,
+            "2": -0.005146317068705427
+          },
+          "gain_ci": [
+            -0.04545111678232823,
+            0.00884115351023477
+          ],
+          "macro_wrong_direction_harm": 0.008587969925689828,
+          "mean_gain": -0.017976341130380102,
+          "per_known_cell_gain": {
+            "CAD_known": -0.028533389112472798,
+            "N2A_known": -0.007419293148287404
+          },
+          "remaining_gain": -0.022531929384163134,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.006310243373652927,
+            "N2A_known": 0.010865696477726729
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.05125651821852664,
+            "1": -0.012752978438896688,
+            "2": 0.01048959218477699
+          },
+          "gain_ci": [
+            -0.04973586231564611,
+            0.008392081379387583
+          ],
+          "macro_wrong_direction_harm": 0.0031669642403378373,
+          "mean_gain": -0.02128167022388983,
+          "per_known_cell_gain": {
+            "CAD_known": -0.00955638441849386,
+            "N2A_known": -0.0330069560292858
+          },
+          "remaining_gain": -0.03256277064435848,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.0016666550961266853,
+            "N2A_known": 0.00800058357680236
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.011638636736295166,
+            "1": -0.03196349699222161,
+            "2": 0.0262187007813843
+          },
+          "gain_ci": [
+            -0.03480443677617949,
+            0.03413990653801813
+          ],
+          "macro_wrong_direction_harm": -0.004648546860584681,
+          "mean_gain": -0.00016307353964738376,
+          "per_known_cell_gain": {
+            "CAD_known": -0.008998459461704699,
+            "N2A_known": 0.008672312382409932
+          },
+          "remaining_gain": -0.009530515146390518,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.0007692748916521242,
+            "N2A_known": -0.008527818829517237
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": -0.008665396026919533,
+            "1": -0.031429910998343566,
+            "2": 0.04537853449969676
+          },
+          "gain_ci": [
+            -0.0368299033729973,
+            0.031358142367289864
+          ],
+          "macro_wrong_direction_harm": 0.0003862955904665238,
+          "mean_gain": -0.0026604222690650506,
+          "per_known_cell_gain": {
+            "CAD_known": 0.017811331473115106,
+            "N2A_known": -0.023132176011245207
+          },
+          "remaining_gain": -0.019717733005799317,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.013622835889656749,
+            "N2A_known": 0.014395427070589797
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.5000983882064133,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.17366063447531563,
+          "model": "ridge/lookup",
+          "pairwise_accuracy": 0.5194180371717271,
+          "regret": 0.48263486601351285,
+          "task": "CAD_known",
+          "wrong_direction": 0.4792393889343297
+        },
+        {
+          "avoidable_wrong": 0.18889734133077135,
+          "model": "ridge/lookup",
+          "pairwise_accuracy": 0.48097831216435155,
+          "regret": 0.5175619103993138,
+          "task": "N2A_known",
+          "wrong_direction": 0.49891030387918694
+        }
+      ],
+      "track": "ridge/lookup"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": 0.00036930840001482383,
+            "1": -0.03888411332389804,
+            "2": -0.02288994863596599
+          },
+          "gain_ci": [
+            -0.0500200249828938,
+            0.008405305996503975
+          ],
+          "macro_wrong_direction_harm": 0.013119521768824582,
+          "mean_gain": -0.019789423419585287,
+          "per_known_cell_gain": {
+            "CAD_known": -0.044004813945826615,
+            "N2A_known": 0.0044259671066560384
+          },
+          "remaining_gain": -0.032127957550547426,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.02024599300129102,
+            "N2A_known": 0.005993050536358146
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.02720700844548009,
+            "1": -0.030321987919074422,
+            "2": -0.007254039382483571
+          },
+          "gain_ci": [
+            -0.050517286427488796,
+            0.0031389362043513194
+          ],
+          "macro_wrong_direction_harm": 0.00769851608347259,
+          "mean_gain": -0.023094752513095014,
+          "per_known_cell_gain": {
+            "CAD_known": -0.025027809251847673,
+            "N2A_known": -0.021161695774342352
+          },
+          "remaining_gain": -0.028719353552225158,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.012269094531511404,
+            "N2A_known": 0.003127937635433776
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.03568814650934172,
+            "1": -0.04953250647239936,
+            "2": 0.008475069214123738
+          },
+          "gain_ci": [
+            -0.0350596228623972,
+            0.031157246225429685
+          ],
+          "macro_wrong_direction_harm": -0.00011699501744992426,
+          "mean_gain": -0.00197615582885257,
+          "per_known_cell_gain": {
+            "CAD_known": -0.024469884295058517,
+            "N2A_known": 0.020517572637353376
+          },
+          "remaining_gain": -0.02502930639791976,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.013166474735985968,
+            "N2A_known": -0.013400464770885816
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.015384113746127023,
+            "1": -0.04899892047852131,
+            "2": 0.027634902932436204
+          },
+          "gain_ci": [
+            -0.03662085618273837,
+            0.026627552349592465
+          ],
+          "macro_wrong_direction_harm": 0.004917847433601279,
+          "mean_gain": -0.004473504558270236,
+          "per_known_cell_gain": {
+            "CAD_known": 0.002339906639761301,
+            "N2A_known": -0.011286915756301773
+          },
+          "remaining_gain": -0.015874315913666,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0003129137379813435,
+            "N2A_known": 0.009522781129221215
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.5019114704956185,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.18760461398363873,
+          "model": "ridge/bert",
+          "pairwise_accuracy": 0.5025293227711242,
+          "regret": 0.49810629084686664,
+          "task": "CAD_known",
+          "wrong_direction": 0.49317513856196776
+        },
+        {
+          "avoidable_wrong": 0.18384644226997315,
+          "model": "ridge/bert",
+          "pairwise_accuracy": 0.49356618226536975,
+          "regret": 0.5057166501443703,
+          "task": "N2A_known",
+          "wrong_direction": 0.49403765793781834
+        }
+      ],
+      "track": "ridge/bert"
+    },
+    {
+      "baseline_comparisons": {
+        "hgb/base": {
+          "fold_gains": {
+            "0": -0.0019108882787428753,
+            "1": -0.03539112526931541,
+            "2": -0.015404961017596773
+          },
+          "gain_ci": [
+            -0.04770073233456063,
+            0.009676045725343247
+          ],
+          "macro_wrong_direction_harm": 0.014840677392536023,
+          "mean_gain": -0.01744236123367443,
+          "per_known_cell_gain": {
+            "CAD_known": -0.025011604322098833,
+            "N2A_known": -0.009873118145250031
+          },
+          "remaining_gain": -0.026948693818158398,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.011865179262757049,
+            "N2A_known": 0.017816175522314997
+          }
+        },
+        "hgb/simple": {
+          "fold_gains": {
+            "0": -0.029487205124237786,
+            "1": -0.0268289998644918,
+            "2": 0.000230948235885646
+          },
+          "gain_ci": [
+            -0.04781415914420885,
+            0.005131164987819784
+          ],
+          "macro_wrong_direction_harm": 0.009419671707184035,
+          "mean_gain": -0.020747690327184157,
+          "per_known_cell_gain": {
+            "CAD_known": -0.006034599628119892,
+            "N2A_known": -0.035460781026248424
+          },
+          "remaining_gain": -0.028196627208274153,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0038882807929774377,
+            "N2A_known": 0.014951062621390631
+          }
+        },
+        "pairwise/base": {
+          "fold_gains": {
+            "0": 0.033407949830584024,
+            "1": -0.04603951841781672,
+            "2": 0.015960056832492957
+          },
+          "gain_ci": [
+            -0.03415629711303066,
+            0.034788419835909884
+          ],
+          "macro_wrong_direction_harm": 0.0016041606062615157,
+          "mean_gain": 0.00037090635705829163,
+          "per_known_cell_gain": {
+            "CAD_known": -0.005476674671330724,
+            "N2A_known": 0.006218487385447307
+          },
+          "remaining_gain": -0.01985004266553074,
+          "removed_best_gene_fold": 0,
+          "wrong_direction_harm": {
+            "CAD_known": 0.0047856609974519975,
+            "N2A_known": -0.0015773397849289663
+          }
+        },
+        "pairwise/simple": {
+          "fold_gains": {
+            "0": 0.013103917067369322,
+            "1": -0.04550593242393868,
+            "2": 0.035119890550805416
+          },
+          "gain_ci": [
+            -0.03572792520684019,
+            0.03077379014542097
+          ],
+          "macro_wrong_direction_harm": 0.006639003057312719,
+          "mean_gain": -0.002126442372359382,
+          "per_known_cell_gain": {
+            "CAD_known": 0.02133311626348908,
+            "N2A_known": -0.025586001008207845
+          },
+          "remaining_gain": -0.015351589569714994,
+          "removed_best_gene_fold": 2,
+          "wrong_direction_harm": {
+            "CAD_known": -0.008067900000552625,
+            "N2A_known": 0.021345906115178063
+          }
+        }
+      },
+      "checks": {
+        "each_known_cell_below_uniform": false,
+        "hgb/base_bootstrap_lower_positive": false,
+        "hgb/base_each_cell_gain_0_005": false,
+        "hgb/base_each_cell_wrong_harm_0_05": true,
+        "hgb/base_leave_best_fold_positive": false,
+        "hgb/base_macro_wrong_harm_0_02": true,
+        "hgb/base_mean_gain_0_01": false,
+        "hgb/simple_bootstrap_lower_positive": false,
+        "hgb/simple_each_cell_gain_0_005": false,
+        "hgb/simple_each_cell_wrong_harm_0_05": true,
+        "hgb/simple_leave_best_fold_positive": false,
+        "hgb/simple_macro_wrong_harm_0_02": true,
+        "hgb/simple_mean_gain_0_01": false,
+        "macro_regret_at_most_0_48": false,
+        "pairwise/base_bootstrap_lower_positive": false,
+        "pairwise/base_each_cell_gain_0_005": false,
+        "pairwise/base_each_cell_wrong_harm_0_05": true,
+        "pairwise/base_leave_best_fold_positive": false,
+        "pairwise/base_macro_wrong_harm_0_02": true,
+        "pairwise/base_mean_gain_0_01": false,
+        "pairwise/simple_bootstrap_lower_positive": false,
+        "pairwise/simple_each_cell_gain_0_005": false,
+        "pairwise/simple_each_cell_wrong_harm_0_05": true,
+        "pairwise/simple_leave_best_fold_positive": false,
+        "pairwise/simple_macro_wrong_harm_0_02": true,
+        "pairwise/simple_mean_gain_0_01": false
+      },
+      "claim_eligible": false,
+      "information_and_matched_loss_controls": {},
+      "macro_regret": 0.4995644083097076,
+      "passes": false,
+      "per_known_cell": [
+        {
+          "avoidable_wrong": 0.1792832179515813,
+          "model": "ridge/combined",
+          "pairwise_accuracy": 0.520877492664287,
+          "regret": 0.47911308122313884,
+          "task": "CAD_known",
+          "wrong_direction": 0.4847943248234339
+        },
+        {
+          "avoidable_wrong": 0.195637352836756,
+          "model": "ridge/combined",
+          "pairwise_accuracy": 0.4801433991971664,
+          "regret": 0.5200157353962763,
+          "task": "N2A_known",
+          "wrong_direction": 0.5058607829237752
+        }
+      ],
+      "track": "ridge/combined"
+    }
+  ],
+  "verification_receipt_sha256": "3796851c08cf512c5d0e62c90f2cc7705e8a3af3ffc7821d5810bc37763158f8"
+}

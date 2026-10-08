@@ -1,0 +1,92 @@
+[
+  {
+    "configuration": {
+      "alpha": 0.5,
+      "id": "ridge_5"
+    },
+    "fold": 0,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "eac39c923e5950a16e26abe394b199ad901756d830020d547611ab287a8a31a1",
+    "rows": 2781,
+    "shared_matrix_sha256": "87b81170b2265171478480e2b4b6a65a4e9c53c0fc6c769e5e3e660ab741ad14",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/ridge/lookup/fits/CAD_to_N2A__fold0__outer_ridge_5.json",
+    "source_checkpoint_sha256": "eb03addc95e6c53f10729e0c8cb1fa55ee99ed33da21cbe971facb800863da25",
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "alpha": 0.5,
+      "id": "ridge_5"
+    },
+    "fold": 0,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "eac39c923e5950a16e26abe394b199ad901756d830020d547611ab287a8a31a1",
+    "rows": 2781,
+    "shared_matrix_sha256": "87b81170b2265171478480e2b4b6a65a4e9c53c0fc6c769e5e3e660ab741ad14",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/ridge/lookup/fits/N2A_to_CAD__fold0__outer_ridge_5.json",
+    "source_checkpoint_sha256": "3e8ecd2dfbdc488f30eafde825d44e7fa337ea5c234010ecda6036c7b34dc48b",
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "alpha": 0.005,
+      "id": "ridge_005"
+    },
+    "fold": 1,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "c3688e90b9fecc449ce4cffd9e29d166cd59c59c6986812c794e130939a8dfcb",
+    "rows": 2639,
+    "shared_matrix_sha256": "4ace5474389ad3ad6af14206dd2188182488e2a64c84a2366473d58b501e3672",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/ridge/lookup/fits/CAD_to_N2A__fold1__outer_ridge_005.json",
+    "source_checkpoint_sha256": "341c4ce0076272b8b4a09626eb2e272822cb03f1d924034893d4112a5d393be6",
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "alpha": 0.5,
+      "id": "ridge_5"
+    },
+    "fold": 1,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "c3688e90b9fecc449ce4cffd9e29d166cd59c59c6986812c794e130939a8dfcb",
+    "rows": 2639,
+    "shared_matrix_sha256": "4ace5474389ad3ad6af14206dd2188182488e2a64c84a2366473d58b501e3672",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/ridge/lookup/fits/N2A_to_CAD__fold1__outer_ridge_5.json",
+    "source_checkpoint_sha256": "4fa2ac90de52a97f770b6e04748dec36a840940555721fa9aba0bd93df902548",
+    "task": "N2A_known"
+  },
+  {
+    "configuration": {
+      "alpha": 0.5,
+      "id": "ridge_5"
+    },
+    "fold": 2,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "dec37a830a4910fa8898f627e40c8bab5f7142ce9748504338ff257705536a3f",
+    "rows": 1460,
+    "shared_matrix_sha256": "95fa33f0ecb4577f32255de8fb0a2a743020c9f0122e987e524e0aea186cd50e",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/ridge/lookup/fits/CAD_to_N2A__fold2__outer_ridge_5.json",
+    "source_checkpoint_sha256": "b7184aecc5ba83155f443be7153e472b84b815d10546306d98a9824f64ed317e",
+    "task": "CAD_known"
+  },
+  {
+    "configuration": {
+      "alpha": 0.5,
+      "id": "ridge_5"
+    },
+    "fold": 2,
+    "native_predictor_calls": 1,
+    "paired_feature_bytes_equal": true,
+    "paired_row_metadata_sha256": "dec37a830a4910fa8898f627e40c8bab5f7142ce9748504338ff257705536a3f",
+    "rows": 1460,
+    "shared_matrix_sha256": "95fa33f0ecb4577f32255de8fb0a2a743020c9f0122e987e524e0aea186cd50e",
+    "source_checkpoint": "results/generalization_nonlinear_crosscell_20261007/ridge/lookup/fits/N2A_to_CAD__fold2__outer_ridge_5.json",
+    "source_checkpoint_sha256": "30a82826008bd1087ce3ab2a9b0f12145740399ece44db44f61a77c9a47e6077",
+    "task": "N2A_known"
+  }
+]

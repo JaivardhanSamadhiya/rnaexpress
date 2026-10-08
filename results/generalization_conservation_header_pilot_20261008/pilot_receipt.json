@@ -1,0 +1,1055 @@
+{
+  "acquired_bytes_including_old_schemas": 34217,
+  "annotation_values_read": true,
+  "atomic_provider_snapshot_certified": false,
+  "available_chromosomes": 20,
+  "live_server_binary_version_certified": false,
+  "logical_output_schemas": {
+    "phastCons60way": {
+      "logical_dataTime": "2014-04-17T16:08:21",
+      "logical_dataTimeStamp": 1397776101,
+      "physical_SQL_storage_certified": false,
+      "track": "phastCons60way",
+      "trackType": "wig 0 1"
+    },
+    "phyloP60wayAll": {
+      "logical_dataTime": "2014-04-18T13:59:54",
+      "logical_dataTimeStamp": 1397854794,
+      "physical_SQL_storage_certified": false,
+      "track": "phyloP60wayAll",
+      "trackType": "wig -20 7.532"
+    }
+  },
+  "models_fit": 0,
+  "new_requests": 20,
+  "no_retries_or_alternative_pilots": true,
+  "old_failed_schema_stage_unchanged": true,
+  "outcomes_read": false,
+  "physical_SQL_storage_certified": false,
+  "pilot_manifest_sha256": "da9cd67f90d24aa81b5ebcc20e93915c2c4990915fa58fc0c7fe7b85c6e13cbb",
+  "records": [
+    {
+      "admitted_sites": 1,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr1_19235043_19235044.json",
+      "body_sha256": "5c3efb477056d3f5e69c64004c63bc7ae0746ad358d311e832dd18e5182180fd",
+      "chrom": "chr1",
+      "end0": 19235044,
+      "genome": "mm10",
+      "key": "mm10_chr1_19235043_19235044",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr1",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 19235044,
+          "start": 19235043,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr1",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 19235044,
+          "start": 19235043,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr1_19235043_19235044.json.receipt.json",
+      "response_receipt_birth_sha256": "4c52384f51e30a3be47f5b7b900d55e6d0d2de1d5e268a8b4034ea5e7cb499da",
+      "response_receipt_sha256": "6e6dc365ea883b13139dd269a6a9a215e490631ab2204fd819de0218d69ace96",
+      "score_positions": {
+        "phastCons60way": 1,
+        "phyloP60wayAll": 1
+      },
+      "start0": 19235043,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr1;start=19235043;end=19235044;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 6,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr10_4967097_4967103.json",
+      "body_sha256": "06dc34ba7e7e3dc471f3c664fe26e664ef1c4ffaeeda3c1f56501a4dea9671b3",
+      "chrom": "chr10",
+      "end0": 4967103,
+      "genome": "mm10",
+      "key": "mm10_chr10_4967097_4967103",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr10",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 4967103,
+          "start": 4967097,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr10",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 4967103,
+          "start": 4967097,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr10_4967097_4967103.json.receipt.json",
+      "response_receipt_birth_sha256": "831a77fd4d877ddc6a6ac5b473a200c9518634c72932a9c1627b8f430dba04b7",
+      "response_receipt_sha256": "4fac27b063c299b13d12fab6b2f5a6057fc80e9b72d1459029fa5444e3544342",
+      "score_positions": {
+        "phastCons60way": 6,
+        "phyloP60wayAll": 6
+      },
+      "start0": 4967097,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr10;start=4967097;end=4967103;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 2,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr11_3900025_3900027.json",
+      "body_sha256": "9c59f350c101910f03349dc256c012b31b2b20359b93b3cd352e1c1cef1d4260",
+      "chrom": "chr11",
+      "end0": 3900027,
+      "genome": "mm10",
+      "key": "mm10_chr11_3900025_3900027",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr11",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 3900027,
+          "start": 3900025,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr11",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 3900027,
+          "start": 3900025,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr11_3900025_3900027.json.receipt.json",
+      "response_receipt_birth_sha256": "ff135cd04947425b29de6e8618f23a228b19d41bd6ca550103f0d3a73d624c3f",
+      "response_receipt_sha256": "48006c8a3d1f2487893696e5b33c86e74de27113c2a98ce099c264501730d87f",
+      "score_positions": {
+        "phastCons60way": 2,
+        "phyloP60wayAll": 2
+      },
+      "start0": 3900025,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr11;start=3900025;end=3900027;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 6,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr12_100206731_100206737.json",
+      "body_sha256": "9cc32637b6cb540ebe69ac10c8b1b1a359ec71776a75b666ffb37ed902abcdf6",
+      "chrom": "chr12",
+      "end0": 100206737,
+      "genome": "mm10",
+      "key": "mm10_chr12_100206731_100206737",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr12",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 100206737,
+          "start": 100206731,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr12",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 100206737,
+          "start": 100206731,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr12_100206731_100206737.json.receipt.json",
+      "response_receipt_birth_sha256": "97a13a848d03a5a9888fd72f25de8d8792a4dd62a1e1fb6a8120259bcc0343bb",
+      "response_receipt_sha256": "98b4b8812ce2b3f4946383a8050b568648c484fe4f2ade5411d941e78a4c6936",
+      "score_positions": {
+        "phastCons60way": 6,
+        "phyloP60wayAll": 6
+      },
+      "start0": 100206731,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr12;start=100206731;end=100206737;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 6,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr13_15727311_15727317.json",
+      "body_sha256": "ac0164fa37b41e8a9aaaf7f67938f4b60ba20d6ccd52e622fe4aa68266927922",
+      "chrom": "chr13",
+      "end0": 15727317,
+      "genome": "mm10",
+      "key": "mm10_chr13_15727311_15727317",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr13",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 15727317,
+          "start": 15727311,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr13",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 15727317,
+          "start": 15727311,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr13_15727311_15727317.json.receipt.json",
+      "response_receipt_birth_sha256": "1b9166b5944e0983ca1ca8178c444d41c5c9194f2be3ef965e01e3be271307c4",
+      "response_receipt_sha256": "9ec68ee27e04ae14a6a18c80e92a85c6c99682f0e3218f857d07e7e311e32c7f",
+      "score_positions": {
+        "phastCons60way": 6,
+        "phyloP60wayAll": 6
+      },
+      "start0": 15727311,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr13;start=15727311;end=15727317;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 1,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr14_24496450_24496451.json",
+      "body_sha256": "e604be1fd5b7d43206a28c7daa79745021e894cf8565d1369e845dbead743978",
+      "chrom": "chr14",
+      "end0": 24496451,
+      "genome": "mm10",
+      "key": "mm10_chr14_24496450_24496451",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr14",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 24496451,
+          "start": 24496450,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr14",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 24496451,
+          "start": 24496450,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr14_24496450_24496451.json.receipt.json",
+      "response_receipt_birth_sha256": "61dbc4b69b9de0f90e4ba920d48b0b1dd702224e3dc60dbaa4e3d46e93021523",
+      "response_receipt_sha256": "713ccdd6bea4d6eff61e4af8d4f61cff692bc015f2536de47f2fb49ce738a417",
+      "score_positions": {
+        "phastCons60way": 0,
+        "phyloP60wayAll": 0
+      },
+      "start0": 24496450,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr14;start=24496450;end=24496451;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 6,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr15_4153892_4153898.json",
+      "body_sha256": "4a1ac54271de51250e092e326b740a27b646fed700b7589a5e0c7888143b9800",
+      "chrom": "chr15",
+      "end0": 4153898,
+      "genome": "mm10",
+      "key": "mm10_chr15_4153892_4153898",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr15",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 4153898,
+          "start": 4153892,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr15",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 4153898,
+          "start": 4153892,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr15_4153892_4153898.json.receipt.json",
+      "response_receipt_birth_sha256": "a2222e66a5671b72a4283db13535544562bb0aa6971dd48ef1b971debf25c715",
+      "response_receipt_sha256": "97d9f896bfa8b4d348fa8d8a50c8c87215491d05e85a284dc5ac9d3b1f279517",
+      "score_positions": {
+        "phastCons60way": 6,
+        "phyloP60wayAll": 6
+      },
+      "start0": 4153892,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr15;start=4153892;end=4153898;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 1,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr16_4481346_4481347.json",
+      "body_sha256": "7b60261e69e50fa0058646b41157ee4b079e3f61c92d3a07e3a84579527b27c5",
+      "chrom": "chr16",
+      "end0": 4481347,
+      "genome": "mm10",
+      "key": "mm10_chr16_4481346_4481347",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr16",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 4481347,
+          "start": 4481346,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr16",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 4481347,
+          "start": 4481346,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr16_4481346_4481347.json.receipt.json",
+      "response_receipt_birth_sha256": "62d953c5148497e8fe7294daf3d4036eeff5f910652b095d0a4b009b47db1cae",
+      "response_receipt_sha256": "3376c584451a1d12a1b4bd08eb60ba0092b31d0d722407ba4808674d77f39291",
+      "score_positions": {
+        "phastCons60way": 1,
+        "phyloP60wayAll": 1
+      },
+      "start0": 4481346,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr16;start=4481346;end=4481347;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 5,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr17_5432400_5432405.json",
+      "body_sha256": "ee9520b54583aab88d0f73408eb527002c0ee121f569bec0cf7f7f1006e288d3",
+      "chrom": "chr17",
+      "end0": 5432405,
+      "genome": "mm10",
+      "key": "mm10_chr17_5432400_5432405",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr17",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 5432405,
+          "start": 5432400,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr17",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 5432405,
+          "start": 5432400,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr17_5432400_5432405.json.receipt.json",
+      "response_receipt_birth_sha256": "9b4aceedbc76c3b9d2089109ef158820232142e6f5a767b3486720c998331cdd",
+      "response_receipt_sha256": "be05185755f957e7a33a75d8c086fa9a35d0fb8dec7013b87340da089938654f",
+      "score_positions": {
+        "phastCons60way": 5,
+        "phyloP60wayAll": 5
+      },
+      "start0": 5432400,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr17;start=5432400;end=5432405;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 5,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr18_9858750_9858755.json",
+      "body_sha256": "eb564494a01f714d713ca48c0eebfc027d632e843e0a7004bcbddd61b2084026",
+      "chrom": "chr18",
+      "end0": 9858755,
+      "genome": "mm10",
+      "key": "mm10_chr18_9858750_9858755",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr18",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 9858755,
+          "start": 9858750,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr18",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 9858755,
+          "start": 9858750,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr18_9858750_9858755.json.receipt.json",
+      "response_receipt_birth_sha256": "b1d9baa766d2de2b2b6588c35fcecd39fb2af969803190675b395bf7553bbade",
+      "response_receipt_sha256": "e24114649395075a666c273b7c7d2d48d65bd512c2358308909843db2b7d8ab3",
+      "score_positions": {
+        "phastCons60way": 5,
+        "phyloP60wayAll": 5
+      },
+      "start0": 9858750,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr18;start=9858750;end=9858755;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 2,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr19_4751755_4751757.json",
+      "body_sha256": "eb400550f9f27dbaee0b6b97ea20b56836732d36c179fa05dcf129f27d969f6e",
+      "chrom": "chr19",
+      "end0": 4751757,
+      "genome": "mm10",
+      "key": "mm10_chr19_4751755_4751757",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr19",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 4751757,
+          "start": 4751755,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr19",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 4751757,
+          "start": 4751755,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr19_4751755_4751757.json.receipt.json",
+      "response_receipt_birth_sha256": "c7690be26abfaccfa7413308c714ed36c52285f3794b6fd4a430101b4fd56b1e",
+      "response_receipt_sha256": "d03bbd625827078274b55b115a8b469b665229bfb1e8d6dc141c8d0cb30f3ec3",
+      "score_positions": {
+        "phastCons60way": 2,
+        "phyloP60wayAll": 2
+      },
+      "start0": 4751755,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr19;start=4751755;end=4751757;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 5,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr2_22940337_22940342.json",
+      "body_sha256": "453dc37b413fd5a3d015114fc6f96161b8467d96287c1bc3734cdff465e635b8",
+      "chrom": "chr2",
+      "end0": 22940342,
+      "genome": "mm10",
+      "key": "mm10_chr2_22940337_22940342",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr2",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 22940342,
+          "start": 22940337,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr2",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 22940342,
+          "start": 22940337,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr2_22940337_22940342.json.receipt.json",
+      "response_receipt_birth_sha256": "61c43fb1deb6a2783a096ca5e6b7c105a0856f2a14d85757c480b9904e874930",
+      "response_receipt_sha256": "249f1d6c3b20ef5f7aa12ccfa0ad9087c27ec04f8ce0e53c471833c07b25e035",
+      "score_positions": {
+        "phastCons60way": 5,
+        "phyloP60wayAll": 5
+      },
+      "start0": 22940337,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr2;start=22940337;end=22940342;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 7,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr3_101855981_101855988.json",
+      "body_sha256": "efb04e82301ba255a72acdd97106b0578849c2527ef1669e75d90aba5bde45ef",
+      "chrom": "chr3",
+      "end0": 101855988,
+      "genome": "mm10",
+      "key": "mm10_chr3_101855981_101855988",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr3",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 101855988,
+          "start": 101855981,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr3",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 101855988,
+          "start": 101855981,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr3_101855981_101855988.json.receipt.json",
+      "response_receipt_birth_sha256": "db659bd5628eb0fac3b72cbedd796dfa372810efdd56ec2b150cd4a9aa6e79ef",
+      "response_receipt_sha256": "d0c297cfe0db626db37d48bb81972614af173f458eb8157bac41d5b7b5b7936a",
+      "score_positions": {
+        "phastCons60way": 7,
+        "phyloP60wayAll": 7
+      },
+      "start0": 101855981,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr3;start=101855981;end=101855988;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 7,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr4_3831411_3831418.json",
+      "body_sha256": "6327f84061f209ec1f7d3b8fd59b22f736cde2dc2c4a7354efad7bc88e11fd00",
+      "chrom": "chr4",
+      "end0": 3831418,
+      "genome": "mm10",
+      "key": "mm10_chr4_3831411_3831418",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr4",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 3831418,
+          "start": 3831411,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr4",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 3831418,
+          "start": 3831411,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr4_3831411_3831418.json.receipt.json",
+      "response_receipt_birth_sha256": "c8ad1d5725aee624065c7461252536bd895ec5a581877262058f848dbf938c8f",
+      "response_receipt_sha256": "017392a6bb5b84baa4521838674dd0ea12bc48f5ae87a08b518951ae5e03b75f",
+      "score_positions": {
+        "phastCons60way": 7,
+        "phyloP60wayAll": 7
+      },
+      "start0": 3831411,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr4;start=3831411;end=3831418;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 1,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr5_66016908_66016909.json",
+      "body_sha256": "a718363262afa5495ebfb518fdcc6e71a307044fecddd316cabefae074957e06",
+      "chrom": "chr5",
+      "end0": 66016909,
+      "genome": "mm10",
+      "key": "mm10_chr5_66016908_66016909",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr5",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 66016909,
+          "start": 66016908,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr5",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 66016909,
+          "start": 66016908,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr5_66016908_66016909.json.receipt.json",
+      "response_receipt_birth_sha256": "84c0a8a3c8a2cfc44c53cbe505e243d44d5a319067ee30633ebb52f4e8b097bf",
+      "response_receipt_sha256": "597fc948b844f80826ac29736cbbc90534f819f83c045e868fb3e4a327799ed0",
+      "score_positions": {
+        "phastCons60way": 1,
+        "phyloP60wayAll": 1
+      },
+      "start0": 66016908,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr5;start=66016908;end=66016909;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 3,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr6_65706814_65706817.json",
+      "body_sha256": "baf2c0a7f75277bdbea32ef9dffcb02317f0eea94dee17075df8a01c6799ee71",
+      "chrom": "chr6",
+      "end0": 65706817,
+      "genome": "mm10",
+      "key": "mm10_chr6_65706814_65706817",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr6",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 65706817,
+          "start": 65706814,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr6",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 65706817,
+          "start": 65706814,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr6_65706814_65706817.json.receipt.json",
+      "response_receipt_birth_sha256": "c053203cab0472414a436044614020668ebfad3643a9bbfa1bb48281ff41137f",
+      "response_receipt_sha256": "490f5324f86411c00f044ae7dd63618c5675936f03fd33df76b5242dbc41c570",
+      "score_positions": {
+        "phastCons60way": 3,
+        "phyloP60wayAll": 3
+      },
+      "start0": 65706814,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr6;start=65706814;end=65706817;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 3,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr7_4715645_4715648.json",
+      "body_sha256": "8626ba4b05222f53441077caa427b81f8a72aa0d11ac58e53eab7e4d45345d8c",
+      "chrom": "chr7",
+      "end0": 4715648,
+      "genome": "mm10",
+      "key": "mm10_chr7_4715645_4715648",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr7",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 4715648,
+          "start": 4715645,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr7",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 4715648,
+          "start": 4715645,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr7_4715645_4715648.json.receipt.json",
+      "response_receipt_birth_sha256": "9c9e94c21ac46a2c66c17ce70f5622c12f703ad46b9ff3fced385c4cffdb5c1e",
+      "response_receipt_sha256": "cb04987e5690dd0fc0b3ea0a8165c500a18238532f704a336991cb49fc2c6a0b",
+      "score_positions": {
+        "phastCons60way": 3,
+        "phyloP60wayAll": 3
+      },
+      "start0": 4715645,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr7;start=4715645;end=4715648;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 7,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr8_13019130_13019137.json",
+      "body_sha256": "89588faee12f9d718a973c26ca4f9d619d04d0d5b25d844822f5ef6f26ddade0",
+      "chrom": "chr8",
+      "end0": 13019137,
+      "genome": "mm10",
+      "key": "mm10_chr8_13019130_13019137",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr8",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 13019137,
+          "start": 13019130,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr8",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 13019137,
+          "start": 13019130,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr8_13019130_13019137.json.receipt.json",
+      "response_receipt_birth_sha256": "c786efbbbf4a0152d02625c2859677d510e3385bb0b746ec89e5a0e389129d05",
+      "response_receipt_sha256": "15d220ae905c7cbf852b9640301396dcbde89f540bff85b1feb8ac678bb3058a",
+      "score_positions": {
+        "phastCons60way": 7,
+        "phyloP60wayAll": 7
+      },
+      "start0": 13019130,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr8;start=13019130;end=13019137;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 8,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr9_14834104_14834112.json",
+      "body_sha256": "734b08d9799745b71afc8dc27252454642ee8f423cdfb604977e34e296fffe32",
+      "chrom": "chr9",
+      "end0": 14834112,
+      "genome": "mm10",
+      "key": "mm10_chr9_14834104_14834112",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chr9",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 14834112,
+          "start": 14834104,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chr9",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 14834112,
+          "start": 14834104,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chr9_14834104_14834112.json.receipt.json",
+      "response_receipt_birth_sha256": "2e1bddda08ac02610f88dc38c8fa8bf83278b229139b809e8217dcc3135716f0",
+      "response_receipt_sha256": "6f9e6318c049c338fa8da76c886827b1e79f5e05b724084b31d8abcd2459689c",
+      "score_positions": {
+        "phastCons60way": 8,
+        "phyloP60wayAll": 8
+      },
+      "start0": 14834104,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chr9;start=14834104;end=14834112;maxItemsOutput=10000"
+    },
+    {
+      "admitted_sites": 1,
+      "available": true,
+      "body_path": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chrX_10319916_10319917.json",
+      "body_sha256": "33035c2678c451df7011827de8ecd8390f5e74ac15464b5381a8fa4ce5d78fdd",
+      "chrom": "chrX",
+      "end0": 10319917,
+      "genome": "mm10",
+      "key": "mm10_chrX_10319916_10319917",
+      "observed_source_headers": {
+        "phastCons60way": {
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "trackType": "wig 0 1"
+        },
+        "phyloP60wayAll": {
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "trackType": "wig -20 7.532"
+        }
+      },
+      "ordered_source_groups": [
+        {
+          "chrom": "chrX",
+          "dataTime": "2014-04-18T13:59:54",
+          "dataTimeStamp": 1397854794,
+          "end": 10319917,
+          "start": 10319916,
+          "track": "phyloP60wayAll",
+          "trackType": "wig -20 7.532"
+        },
+        {
+          "chrom": "chrX",
+          "dataTime": "2014-04-17T16:08:21",
+          "dataTimeStamp": 1397776101,
+          "end": 10319917,
+          "start": 10319916,
+          "track": "phastCons60way",
+          "trackType": "wig 0 1"
+        }
+      ],
+      "response_receipt": "artifacts/generalization_conservation_header_pilot_20261008/pilot/mm10_chrX_10319916_10319917.json.receipt.json",
+      "response_receipt_birth_sha256": "c970015a7dc1beb1a4b4c3cb901aec7ada791330d63a7d51b3171ad3e8547d9c",
+      "response_receipt_sha256": "33955fd1b89aece57579200e817557bc543b4bf8dd6bec06e59bc72fdf0e5989",
+      "score_positions": {
+        "phastCons60way": 1,
+        "phyloP60wayAll": 1
+      },
+      "start0": 10319916,
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=phyloP60wayAll,phastCons60way;chrom=chrX;start=10319916;end=10319917;maxItemsOutput=10000"
+    }
+  ],
+  "remaining_value_requests_authorized": false,
+  "status": "COMPLETED_FIXED_VALUE_HEADER_PILOT",
+  "values_are_browser_API_representation_not_original_full_precision": true
+}
