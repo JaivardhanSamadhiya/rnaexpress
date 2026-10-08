@@ -1,0 +1,23 @@
+{
+  "actual_model_imports": 0,
+  "actual_numeric_imports": 0,
+  "checkpoint_loads": 0,
+  "model_calls": 0,
+  "model_fits": 0,
+  "outcomes_read": false,
+  "plan_sha256": "cc46a3d205b6df1a47baa12f5cfbdc337ca44b297b1a6af4658da5cbcbe294a0",
+  "project_sequences_read": 0,
+  "scope": "STDLIB_MOCK_BACKEND_PREPARATION_ONLY",
+  "source_hashes": {
+    "src/generalization_masked_likelihood_backend_20261007/__init__.py": "474599b57b84e7e162565dd24fa41a0a8e124655156c0179b881c561f4721ee6",
+    "src/generalization_masked_likelihood_backend_20261007/common.py": "4cd388e389c2fe348219d0f0a729e64516d91f9d1cb7caf56fc019fba7f0ecae",
+    "src/generalization_masked_likelihood_backend_20261007/guard.py": "e41647b0047509b62ef0415df378504b4d5f70ee9c4e7af0c40e3ab458803d06",
+    "src/generalization_masked_likelihood_backend_20261007/head.py": "40904b3f77b2fb93679001f6d982b6d3044354bb2a4bded82cf44368f794008b",
+    "src/generalization_masked_likelihood_backend_20261007/prepare.py": "08eb2e6f1cb02c3036ac234b2420f050ea4aa7ddd2f0f2651010108d6f0d342e",
+    "src/generalization_masked_likelihood_backend_20261007/probe.py": "8eee0d1e61127fe2c44ba474ff45206ae6d997b6d962490cf862a9b73c24ada0",
+    "src/generalization_masked_likelihood_backend_20261007/tests.py": "9edb25cb76852d23e7ce65c0ddc30593fc0cde4ab42d90b872fffe66e2fcce9f"
+  },
+  "status": "PASS",
+  "test_output": "test_actual_head_mock_admitted_before_alias_load (__main__.Tests.test_actual_head_mock_admitted_before_alias_load) ... ok\ntest_actual_head_shape_dtype_finite_unknown_rejected (__main__.Tests.test_actual_head_shape_dtype_finite_unknown_rejected) ... ok\ntest_all_sources_parse_and_no_top_numeric_imports (__main__.Tests.test_all_sources_parse_and_no_top_numeric_imports) ... ok\ntest_complete_inventory_missing_extra_and_corrupt (__main__.Tests.test_complete_inventory_missing_extra_and_corrupt) ... ok\ntest_fresh_attempt_preserves_every_candidate (__main__.Tests.test_fresh_attempt_preserves_every_candidate) ... ok\ntest_fresh_resources_exact_floors (__main__.Tests.test_fresh_resources_exact_floors) ... ok\ntest_immutable_write_never_overwrites (__main__.Tests.test_immutable_write_never_overwrites) ... ok\ntest_inconsistent_head_alias_rejected (__main__.Tests.test_inconsistent_head_alias_rejected) ... ok\ntest_legacy_buffer_only_canonical_exact (__main__.Tests.test_legacy_buffer_only_canonical_exact) ... ok\ntest_no_numeric_imports (__main__.Tests.test_no_numeric_imports) ... ok\ntest_package_and_native_origin_is_exact (__main__.Tests.test_package_and_native_origin_is_exact) ... ok\ntest_parity_thresholds_unchanged_and_finite (__main__.Tests.test_parity_thresholds_unchanged_and_finite) ... ok\ntest_preparation_corruption_and_outside_root (__main__.Tests.test_preparation_corruption_and_outside_root) ... ok\ntest_real_tail_duplication_no_fake_padding (__main__.Tests.test_real_tail_duplication_no_fake_padding) ... ok\ntest_shared_mask_offsets_boundary_multisite_and_reversal (__main__.Tests.test_shared_mask_offsets_boundary_multisite_and_reversal) ... ok\ntest_synthetic_inventory_exact_recipe_and_metadata (__main__.Tests.test_synthetic_inventory_exact_recipe_and_metadata) ... ok\ntest_unauthorized_start_before_import_or_write (__main__.Tests.test_unauthorized_start_before_import_or_write) ... ok\ntest_union_all_changed_noedit_and_stable_math (__main__.Tests.test_union_all_changed_noedit_and_stable_math) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.382s\n\nOK\n",
+  "tests": 18
+}
