@@ -1,0 +1,26 @@
+{
+  "coverage_after_design_commit": true,
+  "coverage_precedes_fit": true,
+  "file_count": 13,
+  "files": {
+    "artifacts/generalization_next_20261007/encoded_sequence_inventory.csv.gz": "b31b4545104ea3266d9215e351a879dfec7644c58b7b7fb50829212899615313",
+    "artifacts/generalization_next_20261007/sequence_inventory.csv.gz": "59cb663d1c945fc7ce43f4b176ac5168e5c1cb5937a8d1b425ef0189ad014bc8",
+    "artifacts/generalization_zipcode_geometry_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "artifacts/generalization_zipcode_geometry_20261007/design.json": "4c9961b86f31f748a6136113e9cf782d13a2ff0a01fcebbc66a85b214cb4a57d",
+    "reports/generalization_zipcode_geometry_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_zipcode_geometry_20261007/protocol.md": "ec210cef9884473e5f119ecfc79629e7b30ed0fdcc95e794ad4fea441ef1c8c8",
+    "results/generalization_next_20261007/prefit_manifest.json": "93b78aa2f49998a77c2a61ceddb4c4da78e4236e4a81f54608abf0b2d9508e36",
+    "results/generalization_zipcode_geometry_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_zipcode_geometry_20261007/synthetic_tests_receipt_v2.json": "ce2299b44e850e53dcfd60ce70e840954a00570946a2ebbf1e0bd848a928be37",
+    "src/generalization_zipcode_geometry_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_zipcode_geometry_20261007/__init__.py": "a5405e9b414e6ecfcdfbc32ecb21319c525bbda1bee10def77f62708fe238942",
+    "src/generalization_zipcode_geometry_20261007/audit.py": "cdcb53da19cb320485a31abbf4e6abfd21ebd78daf588fd76ed02d3dd85543fc",
+    "src/generalization_zipcode_geometry_20261007/tests.py": "b9ad6367e8a00e8ccc793805510ffbe1814c1f55e51fc572021ba54adff6c5bb"
+  },
+  "initial_head": "ea75be59df859dd9ed106c0bd51f4549a672115a",
+  "primary_paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3258965/",
+  "source_outcomes_read": false,
+  "status": "FROZEN_OUTCOME_BLIND_DESIGN",
+  "supervised_fits": 0,
+  "version": 1
+}
