@@ -1,0 +1,15 @@
+{
+  "cell": "C21",
+  "exception": "AssertionError: Formula in selected metadata field",
+  "exit_code": 1,
+  "field": "Number of oligos",
+  "first_offending_workbook": "TableS1_PRELibA_design.xlsx",
+  "formula": "SUM(C2:C19)",
+  "manifest_sha256": "f3bd2be149fac3ddc754157a962edf94837e6023a2fd700372b508d04ec0874e",
+  "original_frozen_source_changed": false,
+  "outcome_values_analyzed": false,
+  "outputs_written": 0,
+  "separate_v2_may_record_metadata_formula_as_unresolved_without_evaluation": true,
+  "source_sha256": "5799ed6ae00c60ecfa6f8d625680bde5ff3ee595122470ad2ad7176adc486e82",
+  "status": "PRESERVED_FROZEN_DESIGN_METADATA_EXPORT_FAILURE"
+}

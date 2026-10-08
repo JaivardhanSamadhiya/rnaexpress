@@ -1,0 +1,46 @@
+{
+  "allowlist": {
+    "TableS1_PRELibA_design.xlsx": [
+      "Subset",
+      "Group",
+      "Number of oligos"
+    ],
+    "TableS2_PRELibA.xlsx": [
+      "Subset",
+      "ID",
+      "Sequence",
+      "Category"
+    ],
+    "TableS3_PRELibB_design.xlsx": [
+      "Name",
+      "Number of oligos",
+      "Baseline sequence"
+    ],
+    "TableS4_PRELibB.xlsx": [
+      "ID",
+      "Sequence"
+    ]
+  },
+  "files": {
+    "data/raw/generalization_prelib_metadata_acquisition_20261008/gkae929_supplemental_files.zip": "1df27b97bad94fa4d7c16d4be1884ea7c4bf7e0fe6c937f1165048b1216308ca",
+    "reports/generalization_prelib_design_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_prelib_design_metadata_20261008/protocol.md": "1dd9d94d669defe96f9ef84ef73db48597f9dfe20a239fdd89728ad8dadf63b0",
+    "reports/generalization_prelib_design_metadata_20261008/protocol_v2.md": "2a324d1606470c1bf0fe524666182167e1e2c4b18625a49e002dffee5e5abc8b",
+    "results/generalization_prelib_design_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_prelib_design_metadata_20261008/design_metadata_manifest.json": "f3bd2be149fac3ddc754157a962edf94837e6023a2fd700372b508d04ec0874e",
+    "results/generalization_prelib_design_metadata_20261008/extraction_failure_01.json": "18a2c33e80c9742eb8f787d5fe3e2ffe677a9114c9d730568aba9d9cd577c4e7",
+    "results/generalization_prelib_design_metadata_20261008/synthetic_tests_receipt_v2.json": "cd5d06edc83024017cd9462ddbb76622746887c95397179abad7eabc449afbeb",
+    "results/generalization_prelib_header_inventory_20261008/header_inventory_receipt.json": "3105eebfb5ba266e4659259eb9832e642fb1f3e56fe7593486ac1dbf2cfaa854",
+    "results/generalization_prelib_metadata_acquisition_20261008/acquisition_receipt.json": "704ce816b0e6f5f0888da3598efabddad227f6dda5d2f2684f9e42d26afd58c9",
+    "src/generalization_prelib_design_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_design_metadata_20261008/__init__.py": "bae4aca9c6e8bdb47ca4e98922403a8ed73df18769559a2497455c97bbeaf21a",
+    "src/generalization_prelib_design_metadata_20261008/extract.py": "5799ed6ae00c60ecfa6f8d625680bde5ff3ee595122470ad2ad7176adc486e82",
+    "src/generalization_prelib_design_metadata_20261008/extract_v2.py": "0ab371d98db0574bb482d44669310d52f74674faa51cff022b2ccc1e8a6aa98c",
+    "src/generalization_prelib_design_metadata_20261008/tests_v2.py": "02bbc0fb7d69b32206459d60c35bc891ad0508f0a126af5c31089a879be5288d",
+    "src/generalization_prelib_header_inventory_20261008/inventory.py": "bbc44fb8aac518e093251e4702b83e722ea45b8cfbf2ea371870e83e6ff2aaed"
+  },
+  "formula_policy": "Only design oligo totals allowed, export null and literal formula; no cache use or evaluation",
+  "models_fit": 0,
+  "status": "FROZEN_PRELIB_DESIGN_FIELDS_V2_UNEVALUATED_FORMULA_TOTAL",
+  "training_pairs_admitted": 0
+}
