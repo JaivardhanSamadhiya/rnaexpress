@@ -1,0 +1,9 @@
+# Preparation readiness
+
+The outcome-free fixed rosters and source implementation are ready for independent review. Ten stdlib source modules parse; 20 invented/mock tests cover the final source with zero network calls, outcome reads, native scientific imports or model fits. The v3 test receipt pins each source SHA and both preserved prior receipts (18 and 19 tests). All four namespaces have byte-preserving `.gitattributes` before their first freeze. Complete v1 23-file feasibility preservation is checked explicitly, including its external coordinate/metadata bindings.
+
+The design retains 26,258 intervention identities, 3,022 parents and 5,436 menus. It proposes exactly 42 metadata-only schema requests followed, under a separate observed-metadata freeze, by at most 3,003 two-track scalar requests covering the 15,132 already certified sites. All source/body/receipt creation identities, public bounds, exact physical table metadata and full-parent missingness policy are explicit in `protocol.md`.
+
+The first code/schema manifest has not yet been created or committed. No live schema or conservation value has been requested by this namespace. Neither stage can start unless its manifest exactly matches HEAD and root explicitly invokes its guarded start. Public schema failure remains unavailable; source substitution, retries and response-driven plan changes are prohibited for this generation.
+
+Source release semantics do not certify the live server binary. API wig precision remains narrower than original full-precision downloads. The extraction produces site values and all-parent availability, not supervised feature matrices; final feature definitions and deployment/generalization controls remain a separate future design. Native constraint is not alternate-base preference or a localization mechanism.

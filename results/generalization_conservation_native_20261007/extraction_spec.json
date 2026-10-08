@@ -1,0 +1,54 @@
+{
+  "certified_chromosomes": [
+    "chr1",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chrX"
+  ],
+  "cohort_rows": 26258,
+  "expected_track_types": {
+    "phastCons60way": "wig 0 1",
+    "phyloP60wayAll": "wig -20 7.532"
+  },
+  "features_or_supervised_models_produced": false,
+  "genome": "mm10",
+  "live_server_binary_version_unobserved": true,
+  "max_response_bytes": 4000000,
+  "max_total_bytes_across_both_stages": 100000000,
+  "maximum_value_requests": 3003,
+  "metadata_requests": 42,
+  "ordered_root_pairs_required": true,
+  "original_menus": 5436,
+  "parent_availability_policy": "dataset+exactparent complete across every candidate and both cells; any missing coordinate/track/site disables native covariates for entire parent",
+  "request_spacing_seconds": 1.05,
+  "retry_count": 0,
+  "row_schema": [
+    "chrom",
+    "start",
+    "end",
+    "value"
+  ],
+  "sites": 15132,
+  "timeout_seconds": 45,
+  "tracks": [
+    "phyloP60wayAll",
+    "phastCons60way"
+  ],
+  "values_are_browser_API_representation_not_original_full_precision": true
+}

@@ -1,0 +1,24 @@
+{
+  "models_fit": 0,
+  "network_calls": 0,
+  "outcomes_read": false,
+  "prior_test_receipts": {
+    "synthetic_tests_receipt.json": "86d17bfc144d61bcd5ca27f44d3177db0ed36219fa44fc6666d9879729aa9bb4",
+    "synthetic_tests_receipt_v2.json": "6bf80a39bbb4e4a1b5d84fc685535fa54e2e6608b693c909d76e7dc841af4431"
+  },
+  "project_values_read": false,
+  "source_files": {
+    "src/generalization_conservation_native_20261007/__init__.py": "6de5a801e9a6af28dca64f7e2f791773d58bac0dbb46ff04c2d273f0ff2a7bc7",
+    "src/generalization_conservation_native_20261007/common.py": "0ca4c2aeb854b9e00ec3e82629f13066566274b7a152516cfacf681659b606c0",
+    "src/generalization_conservation_native_20261007/freeze.py": "d1c76abbe26c8d1514e6a16c6a67ee045451f29a90e16a3e3fffdf1c11ef976b",
+    "src/generalization_conservation_native_20261007/metadata.py": "f47774ed2ca88c532f00451b4820dc215bb3873dba16b39541b74c3b6e3ff990",
+    "src/generalization_conservation_native_20261007/parser.py": "1f53846080ad3064649aa355b6ad344aab59f5bfe10dae32ad9619199459bbcf",
+    "src/generalization_conservation_native_20261007/prepare.py": "351e0b766e920bf5be9fb336d09dbc5ea9b0322f642be6dd556715f89a3bf173",
+    "src/generalization_conservation_native_20261007/produce.py": "f07741e3497985e20cd4dfafb4a883a8755fa62c2ea42891b07943f1c634bc74",
+    "src/generalization_conservation_native_20261007/replay.py": "5d787d713719ff1db1b37bbbf031d46894330577b1a1583590f1f41edf424a07",
+    "src/generalization_conservation_native_20261007/tests.py": "67e135029a0c52f0b7e654f3622199af97cb699be601dcdf5424578114efacbe",
+    "src/generalization_conservation_native_20261007/transport.py": "bd3d4dd0b7edf826daf2a3f3b3a02475cebd689c3bad23a85a14cf2729bf003c"
+  },
+  "status": "PASS_SCOPED_INVENTED_AND_MOCK_TESTS_ONLY",
+  "tests": 20
+}
