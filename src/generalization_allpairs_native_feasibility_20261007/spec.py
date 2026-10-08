@@ -1,0 +1,21 @@
+"""Fixed, outcome-free benchmark sizes and numerical contracts."""
+NS = 'generalization_allpairs_native_feasibility_20261007'
+SEED = 20261007
+CAP_SEED = 20260927
+CAP = 256
+BLOCK = 128
+PENALTY = .05
+SIZES = [24, 256, 1024, 2048]
+WIDTHS = [246, 251]
+REPEATS = 3
+GRADIENT_ABS_BOUND = 1e-10
+FINITE_DIFFERENCE_BOUND = 2e-8
+OPTIMIZER_COEFFICIENT_BOUND = 1e-7
+OPTIMIZER_RISK_BOUND = 1e-10
+OPTIMIZER_OPTIONS = {'maxiter': 500, 'ftol': 1e-11, 'gtol': 1e-7}
+SMALL_OPTIMIZER_SHAPE = [64, 6]
+MIN_RAM = MIN_DISK = 1024 ** 3
+MAX_WORKING_SET = 400 * 1024 ** 2
+MAX_PROBE_SECONDS = 120
+EXPECTED_NUMPY = '1.26.4'
+THREADS = '1'

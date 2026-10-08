@@ -1,0 +1,24 @@
+{
+  "files": {
+    "artifacts/generalization_allpairs_native_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_allpairs_native_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_allpairs_native_feasibility_20261007/plan.md": "a9e1ec78a80bbbf3ea1e4bac8692ea08f6a3a67a09135b8ab10d0a5fae3a6e38",
+    "results/generalization_allpairs_native_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_allpairs_native_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_allpairs_native_feasibility_20261007/__init__.py": "e8bda255cf957b80d5b89b39a905ba96c448dea6eab0104ce48a2d08b70d6211",
+    "src/generalization_allpairs_native_feasibility_20261007/common.py": "a8ad5d4ef0138f4434540676ff82e12eccd957d7c534cf8c85bf507b5ad8bde1",
+    "src/generalization_allpairs_native_feasibility_20261007/guard.py": "01bf88d61dcb5134542040840edc8584308f224a4db15360997dca12d33892b5",
+    "src/generalization_allpairs_native_feasibility_20261007/kernels.py": "a7f2a2007c7389ce64c90b06ad7bbcc1e7c653c9d1c9f27aefbfe78a36937cf0",
+    "src/generalization_allpairs_native_feasibility_20261007/prepare.py": "bf15960cae384af6b3ccbcabca0b5cea0466d1692e99b9419a2b0d411c720e90",
+    "src/generalization_allpairs_native_feasibility_20261007/probe.py": "a89bd129d6ec50feae38568ce6fcdab6cd76563b3676f45f7209b9147380f119",
+    "src/generalization_allpairs_native_feasibility_20261007/spec.py": "eb6074b18534c621f52bb5adc9ecb15bdac08fd2538fafc9374f31318c3bf537",
+    "src/generalization_allpairs_native_feasibility_20261007/tests.py": "2373906f0cf52baffc34febb10767f140df9d44e019d26a5304514e45e88dadc"
+  },
+  "native_kernels_executed": false,
+  "numerical_packages_imported": false,
+  "optimizer_calls": 0,
+  "project_data_read": false,
+  "status": "PASS_STDLIB_PREPARATION_ONLY",
+  "test_output": "test_block_upper_triangle_exact_coverage (__main__.Tests.test_block_upper_triangle_exact_coverage) ... ok\ntest_exact_ties_count_and_all_equal (__main__.Tests.test_exact_ties_count_and_all_equal) ... ok\ntest_explicit_native_start_is_mandatory (__main__.Tests.test_explicit_native_start_is_mandatory) ... ok\ntest_fixed_sizes_dimensions_and_threads (__main__.Tests.test_fixed_sizes_dimensions_and_threads) ... ok\ntest_immutable_write_preserves_existing_bytes (__main__.Tests.test_immutable_write_preserves_existing_bytes) ... ok\ntest_invented_replay_and_constant_support_column (__main__.Tests.test_invented_replay_and_constant_support_column) ... ok\ntest_manifest_cannot_grant_biological_authority (__main__.Tests.test_manifest_cannot_grant_biological_authority) ... ok\ntest_native_rng_contract_seed_and_choice_without_import (__main__.Tests.test_native_rng_contract_seed_and_choice_without_import) ... ok\ntest_no_top_level_numeric_or_biological_readers (__main__.Tests.test_no_top_level_numeric_or_biological_readers) ... ok\ntest_original_context_partition_rejects_overlap (__main__.Tests.test_original_context_partition_rejects_overlap) ... ok\ntest_resources_floor_before_import (__main__.Tests.test_resources_floor_before_import) ... ok\ntest_sampler_small_complete_large_mock_unique (__main__.Tests.test_sampler_small_complete_large_mock_unique) ... ok\ntest_tied_cap_context_never_revived (__main__.Tests.test_tied_cap_context_never_revived) ... ok\ntest_unequal_mass_stays_context_not_pair_count (__main__.Tests.test_unequal_mass_stays_context_not_pair_count) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.169s\n\nOK\n",
+  "tests": 14
+}
