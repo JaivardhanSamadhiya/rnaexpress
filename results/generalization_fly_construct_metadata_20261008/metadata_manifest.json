@@ -1,0 +1,69 @@
+{
+  "allowed_hosts": [
+    "media.springernature.com",
+    "eutils.ncbi.nlm.nih.gov"
+  ],
+  "article_public_license": "CC BY 4.0 subject to credited exceptions",
+  "downloaded_at_design": false,
+  "files": {
+    "data/raw/generalization_fly_construct_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_fly_construct_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_fly_construct_metadata_20261008/protocol.md": "1f4ff0330af0ca49ee80151bc6f0c0602767f8974527f451e8860246447508e2",
+    "results/generalization_fly_construct_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_fly_construct_metadata_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_fly_construct_metadata_20261008/__init__.py": "04578561f2f731423258e1100508a308676271bdb278019beba1f2f8d5fa463d",
+    "src/generalization_fly_construct_metadata_20261008/acquire.py": "8dad57dba13135004dba15dd712d382c35fa21bcf47f1ef1a188195724b51454"
+  },
+  "models_fit": 0,
+  "provisional_comparisons": 8,
+  "public_sources_verified": "Publisher-linked supplement URLs and official NCBI eutils; actual content and complete construct certification remain to be checked",
+  "publication_qualitative_outcomes_already_exposed": true,
+  "requests": [
+    {
+      "filename": "supplement_information.pdf",
+      "kind": "pdf",
+      "max_bytes": 41943040,
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-026-01794-8/MediaObjects/41594_2026_1794_MOESM1_ESM.pdf"
+    },
+    {
+      "filename": "reporting_summary.pdf",
+      "kind": "pdf",
+      "max_bytes": 5242880,
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41594-026-01794-8/MediaObjects/41594_2026_1794_MOESM2_ESM.pdf"
+    },
+    {
+      "filename": "AY060415.gb",
+      "kind": "genbank",
+      "max_bytes": 1048576,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=AY060415&rettype=gb&retmode=text"
+    },
+    {
+      "filename": "X15905.gb",
+      "kind": "genbank",
+      "max_bytes": 1048576,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=X15905&rettype=gb&retmode=text"
+    },
+    {
+      "filename": "M14954.2.gb",
+      "kind": "genbank",
+      "max_bytes": 1048576,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=M14954.2&rettype=gb&retmode=text"
+    },
+    {
+      "filename": "NM_169159.4.gb",
+      "kind": "genbank",
+      "max_bytes": 1048576,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_169159.4&rettype=gb&retmode=text"
+    },
+    {
+      "filename": "NM_057220.3.gb",
+      "kind": "genbank",
+      "max_bytes": 1048576,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_057220.3&rettype=gb&retmode=text"
+    }
+  ],
+  "requests_once_no_retries_or_substitutions": true,
+  "source_workbooks_excluded": true,
+  "status": "FROZEN_PUBLIC_FLY_CONSTRUCT_METADATA_ONLY",
+  "total_max_bytes": 52428800
+}

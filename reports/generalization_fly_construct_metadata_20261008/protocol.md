@@ -1,0 +1,9 @@
+# Fixed public fly construct-metadata admission audit
+
+Before any new numerical source workbook, query two publisher-linked supplementary PDFs and five official NCBI reference records for [Singh et al., 2026](https://www.nature.com/articles/s41594-026-01794-8), DOI 10.1038/s41594-026-01794-8. The publication is open access under CC BY 4.0, subject to credited third-party exceptions. All sources are official, public and free without credentials or purchases. NCBI access does not itself establish blanket licensing of third-party record content.
+
+This is metadata-only acquisition. Eight proposed contrasts (five deletions and three K10 substitutions) remain provisional until exact construct/junction, source accession/version, reference/alternate, offsets and transcription-end certificates are verified. Do not fill unexplained length differences with guessed bases or predict bulges to define deletions. Binding-only mutants are not localization truth. A richer substitution menu appears confined to one parental gene, limiting any later generalization claim. Qualitative publication outcomes were already exposed; no untouched confirmation is claimed.
+
+Acquire the exact finite manifest URLs once, with per-file/total caps and HTTPS host/path checks; preserve failure bodies/receipts, do not retry or substitute a resource. Full numerical localization source workbooks and optional microscopy workbook are excluded. Read only construct definitions/sequence tables/reporting design from acquired PDFs. No executable code, model, paid resource, install, external contact, protected old outcome or scientific fit is admitted.
+
+Exact contexts and ancestry must be certified before a later separately frozen outcome request/evaluation plan. Failure or incomplete metadata stays explicit. This metadata admission does not authorize downloading numerical workbooks or fitting models.
