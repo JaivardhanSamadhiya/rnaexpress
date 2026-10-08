@@ -1,0 +1,18 @@
+{
+  "actual_NumPy_imports": 0,
+  "actual_backend_calls": 0,
+  "actual_model_package_imports": 0,
+  "outcomes": false,
+  "project_alleles": 0,
+  "scope": "Standard-library-only synthetic/mock tests and unchanged original AST/hash contract",
+  "source_hashes": {
+    "src/generalization_splicebert_runtime_compatibility_20261007/__init__.py": "5738a0951d4ecd31e26dcac1fd4cb6d9495ff0482b93391f7284e653303a3f86",
+    "src/generalization_splicebert_runtime_compatibility_20261007/common.py": "2cdf820c395613e7ac47e7abb346e63c063626798bf4de6286615fea5b8e4573",
+    "src/generalization_splicebert_runtime_compatibility_20261007/launcher.py": "374512be8f1daca8ab08a1d0b99ddebded46fccddbd7da281d5915c18fc30dc2",
+    "src/generalization_splicebert_runtime_compatibility_20261007/prepare.py": "b4f60001279e65b24f6ad5c7ba9f460c1051633a78879ba16085f0b9da38249b",
+    "src/generalization_splicebert_runtime_compatibility_20261007/tests.py": "261cf6e6abbca10d2e8a1353e286a4d57dc5c3973d58b554b03d0205ff8d1af1"
+  },
+  "status": "PASS",
+  "supervised_fits": 0,
+  "test_count": 11
+}
