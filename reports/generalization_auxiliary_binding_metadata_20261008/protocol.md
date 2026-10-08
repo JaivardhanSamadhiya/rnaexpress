@@ -1,0 +1,9 @@
+# Public binding sequence metadata audit
+
+This additive audit reads only five public FASTAs, five count-table headers, and author analysis scripts as text from the versioned ZIP. It does not decode Rdata, analyze scientific count values, fit models, access closed localization outcomes, or execute R code.
+
+Verify every raw file against the existing acquisition receipt, count source-named tile and barcode IDs, and require all inferred tile interiors to agree across each tile's barcode copies. The DNA-layout candidate uses the observed fixed 16-nt prefix, fixed 17-nt suffix, and preceding 10-nt barcode. Named barcode sequences must match actual records where present. Standard200nt constructs then have157nt interiors, as described in Lee et al. [primary paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC11162807/). This inference is not source certification of primer boundaries, transcription start, mature RNA, orientation, or full reporter context.
+
+Source-named WRAP53 wt_1 can support a provisional sequence-distance inventory. Explicit author ancestry is still required before admitting any pairing. Do not invent parents by nearest sequence, assume hTR design numbers identify controls, equate barcode copies with independent designs, or count an MS2 four-copy hairpin mutation as one physical edit. hTR deletions and random controls require separate exclusion metadata.
+
+A later auxiliary experiment requires explicit tile.annot metadata, perrecord source sequence/boundary joins, actual equal-length1–6-substitution eligibility, exact and family overlap checks, protein/input/biological replicate identities, and a frozen normalization/aggregation/low-count protocol before outcome analysis. Binding association in HEK293T is a different endpoint from localization. Formaldehyde can capture indirect association. No untouched localization evidence or novel mechanism is certified here.

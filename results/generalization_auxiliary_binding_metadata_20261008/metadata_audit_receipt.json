@@ -1,0 +1,364 @@
+{
+  "MS2_four_tandem_hairpins_requires_actual_physical_edit_count": true,
+  "Rdata_objects_decoded": false,
+  "WRAP53_pool_one_named_WT_parent_is_not_many_independent_genes": true,
+  "archive_members": [
+    {
+      "bytes": 0,
+      "name": "taeyoungh-MPRNA-IP-5747c25/"
+    },
+    {
+      "bytes": 1075,
+      "name": "taeyoungh-MPRNA-IP-5747c25/LICENSE.md"
+    },
+    {
+      "bytes": 240,
+      "name": "taeyoungh-MPRNA-IP-5747c25/README.md"
+    },
+    {
+      "bytes": 0,
+      "name": "taeyoungh-MPRNA-IP-5747c25/RawData/"
+    },
+    {
+      "bytes": 1702657,
+      "name": "taeyoungh-MPRNA-IP-5747c25/RawData/git_CTCF_raw.Rdata"
+    },
+    {
+      "bytes": 1002673,
+      "name": "taeyoungh-MPRNA-IP-5747c25/RawData/git_PUM2_raw.Rdata"
+    },
+    {
+      "bytes": 76857,
+      "name": "taeyoungh-MPRNA-IP-5747c25/RawData/git_WRAP53_raw.Rdata"
+    },
+    {
+      "bytes": 464026,
+      "name": "taeyoungh-MPRNA-IP-5747c25/RawData/git_hTR_raw.Rdata"
+    },
+    {
+      "bytes": 500571,
+      "name": "taeyoungh-MPRNA-IP-5747c25/RawData/git_ms2_raw.Rdata"
+    },
+    {
+      "bytes": 9791,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_functions.R"
+    },
+    {
+      "bytes": 22309,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript.Rmd"
+    },
+    {
+      "bytes": 37057,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript.md"
+    },
+    {
+      "bytes": 0,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/"
+    },
+    {
+      "bytes": 0,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/"
+    },
+    {
+      "bytes": 30038,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-10-1.png"
+    },
+    {
+      "bytes": 43035,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-17-1.png"
+    },
+    {
+      "bytes": 39923,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-18-1.png"
+    },
+    {
+      "bytes": 36791,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-21-1.png"
+    },
+    {
+      "bytes": 34845,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-22-1.png"
+    },
+    {
+      "bytes": 51614,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-23-1.png"
+    },
+    {
+      "bytes": 24024,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-25-1.png"
+    },
+    {
+      "bytes": 38299,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-29-1.png"
+    },
+    {
+      "bytes": 32937,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-30-1.png"
+    },
+    {
+      "bytes": 44800,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-33-1.png"
+    },
+    {
+      "bytes": 59805,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-34-1.png"
+    },
+    {
+      "bytes": 52901,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-34-2.png"
+    },
+    {
+      "bytes": 55871,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-34-3.png"
+    },
+    {
+      "bytes": 55641,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-34-4.png"
+    },
+    {
+      "bytes": 52114,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-34-5.png"
+    },
+    {
+      "bytes": 51859,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-38-1.png"
+    },
+    {
+      "bytes": 70992,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-40-1.png"
+    },
+    {
+      "bytes": 31642,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-41-1.png"
+    },
+    {
+      "bytes": 42457,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-42-1.png"
+    },
+    {
+      "bytes": 38264,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-47-1.png"
+    },
+    {
+      "bytes": 41171,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-48-1.png"
+    },
+    {
+      "bytes": 73560,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-49-1.png"
+    },
+    {
+      "bytes": 42628,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-52-1.png"
+    },
+    {
+      "bytes": 48421,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-53-1.png"
+    },
+    {
+      "bytes": 53425,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-6-1.png"
+    },
+    {
+      "bytes": 86236,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-8-1.png"
+    },
+    {
+      "bytes": 62853,
+      "name": "taeyoungh-MPRNA-IP-5747c25/nar_manuscript_files/figure-gfm/unnamed-chunk-9-1.png"
+    }
+  ],
+  "author_analysis_text_sha256": {
+    "taeyoungh-MPRNA-IP-5747c25/nar_functions.R": "ff0e70b53e2191f41775586fd74c165789d559b9bf630d5cfb14127a0b93e961",
+    "taeyoungh-MPRNA-IP-5747c25/nar_manuscript.Rmd": "8f67321262bfb2efd83183618179f70dcd3a8fe2952a22506b794c6ccdce2e0b"
+  },
+  "author_ancestry_metadata_missing_from_plain_FASTA": true,
+  "count_headers_only": {
+    "GSE221537_CTCF_count.txt.gz": [
+      "tile",
+      "barcode",
+      "Rep1_Input",
+      "Rep1_IP",
+      "Rep2_Input",
+      "Rep2_IP",
+      "Rep3_Input",
+      "Rep3_IP"
+    ],
+    "GSE221537_MS2_count.txt.gz": [
+      "tile",
+      "barcode",
+      "MS2_1_FLAG",
+      "MS2_1_HA",
+      "MS2_1_input",
+      "MS2_2_FLAG",
+      "MS2_2_HA",
+      "MS2_2_input",
+      "MS2_3_FLAG",
+      "MS2_3_HA",
+      "MS2_3_input"
+    ],
+    "GSE221537_PUM2_count.txt.gz": [
+      "tile",
+      "barcode",
+      "PUM2A_IN",
+      "PUM2A_IP",
+      "PUM2B_IN",
+      "PUM2B_IP",
+      "PUM2C_IN",
+      "PUM2C_IP"
+    ],
+    "GSE221537_WRAP53_count.txt.gz": [
+      "tile",
+      "barcode",
+      "Rep1_Input",
+      "Rep1_IP",
+      "Rep2_Input",
+      "Rep2_IP",
+      "Rep3_Input",
+      "Rep3_IP"
+    ],
+    "GSE221537_hTR_count.txt.gz": [
+      "tile",
+      "barcode",
+      "rep1in",
+      "rep1ip",
+      "rep2in",
+      "rep2ip",
+      "rep3in",
+      "rep3ip"
+    ]
+  },
+  "files": {
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_CTCF_count.txt.gz": "acc83b9d72a7a01ea952892c62ede05e466dfe71d53fa329bd38f11b7cfedc2d",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_MS2_count.txt.gz": "d8f6ce4089915845b6c18a1efb9a2deca37488c6da7ca8382fb957381d4f85eb",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_PUM2_count.txt.gz": "d0584847e315ce81fb8d7f844d57d2265e78cecb0b4e769b3e910ce33e1462e6",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_WRAP53_count.txt.gz": "618b524299718f95a241b8f033fc6d1b9ffc4b2a2c2434e31811b762b077a2bc",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_ctcf_oligoPool.fasta.gz": "b16985dc28f8c2d419a2b400940bfc33606f57f64819ecf14d5aab3932690806",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_hTR_count.txt.gz": "7b94bafe946a9f35465264d84ade723734b9806c03385fa0e4f32942cb2d636e",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_hTR_oligoPool.fasta.gz": "a93b795c2484470f9dbfe918294fa8cbb8a4c9b03b267ae7d9ac6a19769890f8",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_ms2_4x_oligoPool.fasta.gz": "6a2d1b658e39c14a85175d648652122371b7371304da2576bf513a8eb590951f",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_pum2_oligoPool.fasta.gz": "685eb18d82daf6253f90bc540a4e8084124ca17cd56bdf992220b85fb6515564",
+    "data/raw/generalization_auxiliary_binding_20261008/GSE221537_wrap53mt_oligoPool.fasta.gz": "2d22cdac5bef8b52e1d2393483b9a6343a07e504df48f083ff24fbcfb5bfe4bf",
+    "data/raw/generalization_auxiliary_binding_20261008/MPRNA-IP-v1.0.0.zip": "4bf0cb1132ff65f0520fcb7c8d6199d10b3b78eba86fa02b4492f9852b67c48f",
+    "results/generalization_auxiliary_binding_20261008/acquisition_receipt.json": "fcee0dc36eb40d29492992252b4fa962aeae17a98ada1522ad02f942ae31d057",
+    "results/generalization_auxiliary_binding_metadata_20261008/inferred_tile_interiors.json": "5632b01be6e321fa52ea60a135d42fe97f4fe23078cc70c70af750ffbe5bcddf",
+    "results/generalization_auxiliary_binding_metadata_20261008/wrap53_provisional_distance_metadata.json": "3bbe43e29f5a5f97af36fb5f44d20c15ca0e53db60dc643a0c6cc207736cfd11"
+  },
+  "full_mature_RNA_context_certified": false,
+  "inferred_DNA_layout": {
+    "inferred_barcode_length": 10,
+    "observed_prefix": "ACTGGCCGCTTCACTG",
+    "observed_suffix": "AGATCGGAAGAGCGTCG"
+  },
+  "layout_matches_paper_157nt_for_standard_200nt_oligos": true,
+  "localization_outcomes_read": false,
+  "models_fit": 0,
+  "pools": [
+    {
+      "all_records_observed_layout": true,
+      "distinct_inferred_interiors": 985,
+      "inferred_interior_lengths": {
+        "157": 985
+      },
+      "oligos": 23640,
+      "pool": "ctcf",
+      "raw_oligo_lengths": {
+        "200": 23640
+      },
+      "source_named_barcodes_match_actual_sequence": true,
+      "source_named_tiles": 985,
+      "technical_barcode_copies_per_tile": 24,
+      "within_tile_interiors_identical": true
+    },
+    {
+      "all_records_observed_layout": true,
+      "distinct_inferred_interiors": 608,
+      "inferred_interior_lengths": {
+        "137": 1,
+        "138": 3,
+        "140": 2,
+        "143": 1,
+        "145": 1,
+        "147": 3,
+        "149": 6,
+        "156": 5,
+        "157": 592
+      },
+      "oligos": 15350,
+      "pool": "hTR",
+      "raw_oligo_lengths": {
+        "180": 25,
+        "181": 75,
+        "183": 50,
+        "186": 25,
+        "188": 25,
+        "190": 75,
+        "192": 150,
+        "199": 125,
+        "200": 14800
+      },
+      "source_named_barcodes_match_actual_sequence": false,
+      "source_named_tiles": 614,
+      "technical_barcode_copies_per_tile": 25,
+      "within_tile_interiors_identical": true
+    },
+    {
+      "all_records_observed_layout": true,
+      "distinct_inferred_interiors": 105,
+      "inferred_interior_lengths": {
+        "154": 5,
+        "156": 96,
+        "157": 4
+      },
+      "oligos": 5250,
+      "pool": "ms2_4x",
+      "raw_oligo_lengths": {
+        "197": 250,
+        "199": 4800,
+        "200": 200
+      },
+      "source_named_barcodes_match_actual_sequence": false,
+      "source_named_tiles": 105,
+      "technical_barcode_copies_per_tile": 50,
+      "within_tile_interiors_identical": true
+    },
+    {
+      "all_records_observed_layout": true,
+      "distinct_inferred_interiors": 1599,
+      "inferred_interior_lengths": {
+        "157": 1599
+      },
+      "oligos": 35178,
+      "pool": "pum2",
+      "raw_oligo_lengths": {
+        "200": 35178
+      },
+      "source_named_barcodes_match_actual_sequence": true,
+      "source_named_tiles": 1599,
+      "technical_barcode_copies_per_tile": 22,
+      "within_tile_interiors_identical": true
+    },
+    {
+      "all_records_observed_layout": true,
+      "distinct_inferred_interiors": 55,
+      "inferred_interior_lengths": {
+        "157": 55
+      },
+      "oligos": 1925,
+      "pool": "wrap53mt",
+      "raw_oligo_lengths": {
+        "200": 1925
+      },
+      "source_named_barcodes_match_actual_sequence": true,
+      "source_named_tiles": 55,
+      "technical_barcode_copies_per_tile": 35,
+      "within_tile_interiors_identical": true
+    }
+  ],
+  "scientific_binding_count_values_analyzed": false,
+  "source_certified_primer_boundaries": false,
+  "status": "PASS_AUXILIARY_SEQUENCE_METADATA_ONLY",
+  "total_oligos": 81343,
+  "total_source_named_tiles": 3358,
+  "training_pairs_admitted": 0
+}
