@@ -1,0 +1,19 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "new_models_fitted": 0,
+  "output": "test_alias_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_alias_rejected) ... ok\ntest_changed_canonical_decisions_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_changed_canonical_decisions_rejected) ... ok\ntest_changed_comparison_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_changed_comparison_rejected) ... ok\ntest_failed_audit_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_failed_audit_rejected) ... ok\ntest_hash_mutation_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_hash_mutation_rejected) ... ok\ntest_missing_comparison_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_missing_comparison_rejected) ... ok\ntest_separate_binding_allows_honest_absent_canonical_comparisons (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_separate_binding_allows_honest_absent_canonical_comparisons) ... ok\ntest_threshold_changes_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_threshold_changes_rejected) ... ok\ntest_workspace_escape_rejected (src.generalization_joint_control_admission_20261008.tests.GuardTests.test_workspace_escape_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.020s\n\nOK\n",
+  "project_data_read": false,
+  "scientific_modules_imported": false,
+  "source_sha256": {
+    "reports/generalization_joint_control_admission_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_joint_control_admission_20261008/protocol.md": "c88953ad3ccd1b81da8208deb0733c2a74c0856a4a73551492d8d970e2bca1a9",
+    "results/generalization_joint_control_admission_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_joint_control_admission_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_joint_control_admission_20261008/__init__.py": "1a0dd739ecf0414a915cd596a3d4d27bdf8ac4598a7cf7cab158899e1809cf28",
+    "src/generalization_joint_control_admission_20261008/admit.py": "f52a393c5ffe8c36e7cbb1588771ef99a977f03f3698404401d7fea6c60ebc79",
+    "src/generalization_joint_control_admission_20261008/tests.py": "7a162f8fce484e16bb19089903a28d6a90a8a31537d43ad793916006b6d4e5b9"
+  },
+  "status": "PASS",
+  "tests": 9
+}

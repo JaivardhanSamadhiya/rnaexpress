@@ -1,0 +1,37 @@
+{
+  "comparison_csv_bindings_from_separate_independent_aggregate_audit": true,
+  "files": {
+    "logs/generalization_campaign_20261007/joint_prefit_01.log": "43f06599d9746484c787d0cd73ea11bd12ad2bd319f4c700106ac93ed0087fb9",
+    "reports/generalization_joint_control_admission_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_joint_control_admission_20261008/protocol.md": "c88953ad3ccd1b81da8208deb0733c2a74c0856a4a73551492d8d970e2bca1a9",
+    "results/generalization_campaign_20261007/rbp_numerical_audit_03.json": "2fae96c249195b0e654e865a98e98e3e090e962cb64d664252ff9d3195a17dec",
+    "results/generalization_joint_control_admission_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_joint_control_admission_20261008/synthetic_tests_receipt.json": "50948bca90cc68de7515269c286e6cb09ba311afd245fb3cab6c7e0985012251",
+    "results/generalization_rbp_20261007/canonical_source_only_replay.json": "7674c4aa18cd5fc081f221635c3536995db8d7bac7ec9d1c472c726300b1e00c",
+    "results/generalization_rbp_20261007/prefit_manifest.json": "724f8bb79a25435bf1133c57d277194312de00d621fc26d91da6dc34c32e7e58",
+    "src/generalization_campaign_20261007/rbp_gate_review.py": "4017a5589f0d8dc7ce58e3e23e7b1c937ad402d5116742fa6e1bfa7b7457cba8",
+    "src/generalization_joint_accessibility_20261007/assemble.py": "2b5b76f195aabe01482f52c3900111ef244fe87157b94a973a969d329cf8c6ea",
+    "src/generalization_joint_accessibility_20261007/common.py": "a5329550baf183fe1a22cb5b647cb1af3661ab3c6b678f20482c20e72147ab1b",
+    "src/generalization_joint_accessibility_20261007/control_reuse.py": "b6e7e17ede01700e01c879850a836c8659b8dc71dadba77c970f1499fbaafb62",
+    "src/generalization_joint_accessibility_20261007/freeze.py": "5d5c8238585e7566807b4522dc6eb9ea762089aee56272e9a71c2f3ae187c4cc",
+    "src/generalization_joint_control_admission_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_joint_control_admission_20261008/__init__.py": "1a0dd739ecf0414a915cd596a3d4d27bdf8ac4598a7cf7cab158899e1809cf28",
+    "src/generalization_joint_control_admission_20261008/admit.py": "f52a393c5ffe8c36e7cbb1588771ef99a977f03f3698404401d7fea6c60ebc79",
+    "src/generalization_joint_control_admission_20261008/tests.py": "7a162f8fce484e16bb19089903a28d6a90a8a31537d43ad793916006b6d4e5b9",
+    "src/research_20260921/common.py": "a3ca8380bd8c624209dab319ed212fc3b88a6afa0fff618ae03dac1b44028732"
+  },
+  "models_fit": 0,
+  "old_receipts_and_failed_code_unchanged": true,
+  "own_files": [
+    "src/generalization_joint_control_admission_20261008/__init__.py",
+    "src/generalization_joint_control_admission_20261008/admit.py",
+    "src/generalization_joint_control_admission_20261008/tests.py",
+    "src/generalization_joint_control_admission_20261008/.gitattributes",
+    "reports/generalization_joint_control_admission_20261008/protocol.md",
+    "reports/generalization_joint_control_admission_20261008/.gitattributes",
+    "results/generalization_joint_control_admission_20261008/.gitattributes",
+    "results/generalization_joint_control_admission_20261008/synthetic_tests_receipt.json"
+  ],
+  "root_commits_and_starts_before_admission": true,
+  "status": "FROZEN_JOINT_CONTROL_ADMISSION"
+}

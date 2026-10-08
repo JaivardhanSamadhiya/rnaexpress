@@ -1,0 +1,22 @@
+{
+  "annotation_values_read": false,
+  "physical_SQL_storage_certified": false,
+  "previous_schema_stage_changed": false,
+  "status": "PASS_LOGICAL_OUTPUT_SCHEMA_ONLY",
+  "tracks": {
+    "phastCons60way": {
+      "logical_dataTime": "2014-04-17T16:08:21",
+      "logical_dataTimeStamp": 1397776101,
+      "physical_SQL_storage_certified": false,
+      "track": "phastCons60way",
+      "trackType": "wig 0 1"
+    },
+    "phyloP60wayAll": {
+      "logical_dataTime": "2014-04-18T13:59:54",
+      "logical_dataTimeStamp": 1397854794,
+      "physical_SQL_storage_certified": false,
+      "track": "phyloP60wayAll",
+      "trackType": "wig -20 7.532"
+    }
+  }
+}

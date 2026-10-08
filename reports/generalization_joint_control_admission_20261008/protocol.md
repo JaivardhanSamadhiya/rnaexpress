@@ -1,0 +1,7 @@
+# Additive admission repair for unchanged joint-accessibility controls
+
+The original joint prefit stopped with a missing `comparison.csv` key. The RBP canonical replay binds checkpoints, predictions, decisions, source selections, folds and completion records, but does not claim comparison CSV coverage. The independent aggregate audit 03 separately reconstructs the point metrics and gate arithmetic and hash-binds all three comparison CSVs and their corresponding decisions. Neither receipt is changed.
+
+The new admission requires both receipts to pass and match current bytes. It repeats the original builder's control-feature, configuration-source, admitted core, checkpoint-count, numerical-runtime and source-replay checks. Missing, mutated or conflicting bindings fail closed. All old builder code and the failed log remain intact. A new `control_reuse_receipt.json` can be created exclusively only after this design and code are committed; the original prefit then consumes it through its existing check and does not invoke the failed builder.
+
+This is a technical provenance repair with zero fits. It adds no data, changes no labels, models, splits, tie rules or gate thresholds, and is not new generalization evidence. Original control checkpoint hashes are observed postfit hashes, not retrospective birth certificates. The aggregate audit does not independently resimulate the bootstrap draws. Its separately inspected and bound bootstrap outputs remain subject to that stated limitation.
