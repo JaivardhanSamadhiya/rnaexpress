@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "D:\rnaexpress\src\generalization_joint_accessibility_20261007\freeze.py", line 39, in production
+    assert feasibility['source_sha256'][kernel_name] == sha256(SRC / 'feasibility.py'), 'Preserve tested algorithm or require a new separately named validation generation'
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'src/generalization_joint_accessibility_20261007/feasibility.py'

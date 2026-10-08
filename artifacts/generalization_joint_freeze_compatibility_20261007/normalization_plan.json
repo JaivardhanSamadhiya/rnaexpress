@@ -1,0 +1,46 @@
+{
+  "collision_rejection": "exact normalized key and Windows case-insensitive alias",
+  "hash_values_changed": false,
+  "keys_with_changed_separators": [
+    "artifacts\\generalization_rbp_20261007\\direct_human_manifest.json",
+    "data\\interim\\mechanism_v2\\runtime\\RNA\\_RNA.cp312-win_amd64.pyd",
+    "data\\interim\\mechanism_v2\\runtime\\RNA\\__init__.py",
+    "data\\interim\\mechanism_v2\\runtime\\numpy\\__init__.py",
+    "reports\\generalization_joint_accessibility_20261007\\feasibility_protocol.md",
+    "src\\generalization_joint_accessibility_20261007\\__init__.py",
+    "src\\generalization_joint_accessibility_20261007\\feasibility.py",
+    "src\\generalization_joint_accessibility_20261007\\tests.py",
+    "src\\generalization_next_20261007\\route_structure.py",
+    "src\\generalization_rbp_20261007\\scoring.py"
+  ],
+  "normalized_source_sha256": {
+    "artifacts/generalization_rbp_20261007/direct_human_manifest.json": "89e91477f4554538ce3bddc9018e680803e90d417b1f52ca2ae1d4f9bda86839",
+    "data/interim/mechanism_v2/runtime/RNA/_RNA.cp312-win_amd64.pyd": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+    "data/interim/mechanism_v2/runtime/RNA/__init__.py": "57393341520925355f766c68dea057ebf699317b99bf84f802344522c493327d",
+    "data/interim/mechanism_v2/runtime/numpy/__init__.py": "150b19558caf78c0e3cc6994ec652399e972595ca649cea1a69c801ef23e4b1c",
+    "reports/generalization_joint_accessibility_20261007/feasibility_protocol.md": "1ded7ae2032141951461bd17081b99f16a2ea40ad340642d7e1db237ccf2a579",
+    "src/generalization_joint_accessibility_20261007/__init__.py": "7b438a9ec0dbac93c79b7da7b51157cabdb6c152969fdf88adf1bc09692d43bd",
+    "src/generalization_joint_accessibility_20261007/feasibility.py": "6af41c4c0f5a035c5268c303a19df08cdbbb6d4027c3d82064a1f35b65710b1a",
+    "src/generalization_joint_accessibility_20261007/tests.py": "9398c86f3f5adf10a0def18345a8b71e637d883a644268bdabfe10b6432f499f",
+    "src/generalization_next_20261007/route_structure.py": "07fcc17553f7a48160b2b47c7c6e265707941659431f22dac79dab3911d02548",
+    "src/generalization_rbp_20261007/scoring.py": "f0e49440bcb6aaedb1622679a54a9259ace7f0ed478b7be1feac314cab9063d7"
+  },
+  "original_file_modified": false,
+  "original_freeze_invoked": false,
+  "original_keys_in_order": [
+    "artifacts\\generalization_rbp_20261007\\direct_human_manifest.json",
+    "data\\interim\\mechanism_v2\\runtime\\RNA\\_RNA.cp312-win_amd64.pyd",
+    "data\\interim\\mechanism_v2\\runtime\\RNA\\__init__.py",
+    "data\\interim\\mechanism_v2\\runtime\\numpy\\__init__.py",
+    "reports\\generalization_joint_accessibility_20261007\\feasibility_protocol.md",
+    "src\\generalization_joint_accessibility_20261007\\__init__.py",
+    "src\\generalization_joint_accessibility_20261007\\feasibility.py",
+    "src\\generalization_joint_accessibility_20261007\\tests.py",
+    "src\\generalization_next_20261007\\route_structure.py",
+    "src\\generalization_rbp_20261007\\scoring.py"
+  ],
+  "original_receipt": "results/generalization_joint_accessibility_20261007/synthetic_feasibility_receipt.json",
+  "original_receipt_sha256": "f1668acf7f5171f1f6430b5b08e6cc528b7d89856bcb6090897e628ff5b35530",
+  "other_receipt_fields_changed": false,
+  "status": "READY_SEPARATOR_ONLY_NORMALIZATION"
+}

@@ -1,0 +1,19 @@
+{
+  "actual_original_freeze_calls": 0,
+  "mock_original_freeze_delegations_only": true,
+  "models_fit": 0,
+  "numeric_or_model_imports": 0,
+  "plan_sha256": "7c74ff201dcdfe9ac73b978b384cdfe69e67c30e184bfd65be0c393912ed77a0",
+  "project_feature_values_read": false,
+  "project_outcomes_read": false,
+  "project_production_run": false,
+  "source_hashes": {
+    "src/generalization_joint_freeze_compatibility_20261007/__init__.py": "5980dfbda969123f75399f45283fb86bfa2919aae56a36bb22be8d5cdd08dcf3",
+    "src/generalization_joint_freeze_compatibility_20261007/common.py": "189fca18d6b9c6d430682a6888f08827ef79f27d764d80a17c88c4390d746a2b",
+    "src/generalization_joint_freeze_compatibility_20261007/prepare.py": "6c7a22d2053f02585f86659b5423cf31c7ff83306dcb9cb48a954260d56eb292",
+    "src/generalization_joint_freeze_compatibility_20261007/production_freeze_compatibility.py": "1cb92170570cb21bef1f4e8dbdbb854ffa1d38875226e6099f281287b38c2649",
+    "src/generalization_joint_freeze_compatibility_20261007/tests.py": "ca38e6a5100e75f074c93019fb6d0954cc7833a44a4c3be2aef919e6927fceb5"
+  },
+  "status": "PASS",
+  "tests": 18
+}
