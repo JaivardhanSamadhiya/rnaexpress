@@ -1,0 +1,684 @@
+[
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "NORAD",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "e2dc0c616121e3ae77510ce544938f47cd26c1329d69ea02571130125ea7c517",
+    "prefix": "Context_NORAD_PRE4_rep3_5",
+    "sourceA_exact_sequence_IDs": [
+      "Context:NORAD_PRE4_rep3_5"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT NORAD NRU3 sequence",
+        "design_oligos": 1,
+        "excel_row": 2
+      },
+      {
+        "Name": "Mutations in WT NORAD NRU3 sequence",
+        "design_oligos": 299,
+        "excel_row": 3
+      },
+      {
+        "Name": "4mer mutations of WT NORAD NRU3 sequence",
+        "design_oligos": 49,
+        "excel_row": 4
+      },
+      {
+        "Name": "6mer mutations of WT NORAD NRU3 sequence",
+        "design_oligos": 48,
+        "excel_row": 5
+      },
+      {
+        "Name": "10mer mutations of WT NORAD NRU3 sequence",
+        "design_oligos": 23,
+        "excel_row": 6
+      },
+      {
+        "Name": "mPRE NORAD NRU3 sequence",
+        "design_oligos": 1,
+        "excel_row": 7
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 955,
+    "source_parent_ID": "Context_NORAD_PRE4_rep3_5:Context:NORAD_PRE4_rep3_5_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "NORAD",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "f7cdbca568dd7795d2f309c5c608c908c172c12dbd9c006182e2426c5a164595",
+    "prefix": "Context_mNORAD_PRE4_rep3_5",
+    "sourceA_exact_sequence_IDs": [
+      "Context:mNORAD_PRE4_rep3_5"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "Mutations in mPRE NORAD NRU3 sequence",
+        "design_oligos": 299,
+        "excel_row": 8
+      },
+      {
+        "Name": "4mer mutations of mPRE NORAD NRU3 sequence",
+        "design_oligos": 49,
+        "excel_row": 9
+      },
+      {
+        "Name": "6mer mutations of mPRE NORAD NRU3 sequence",
+        "design_oligos": 48,
+        "excel_row": 10
+      },
+      {
+        "Name": "10mer mutations of mPRE NORAD NRU3 sequence",
+        "design_oligos": 23,
+        "excel_row": 11
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 73,
+    "source_parent_ID": "Context_mNORAD_PRE4_rep3_5:Context:mNORAD_PRE4_rep3_5_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "NORAD",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "05be5900978a2c5a5186786693ed693bec487ed6680572facbd1ae1b2298affa",
+    "prefix": "Context_NORAD_PRE9_rep7_5",
+    "sourceA_exact_sequence_IDs": [
+      "Context:NORAD_PRE9_rep7_5"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT NORAD NRU7 sequence",
+        "design_oligos": 1,
+        "excel_row": 12
+      },
+      {
+        "Name": "Mutations in WT NORAD NRU7 sequence",
+        "design_oligos": 298,
+        "excel_row": 13
+      },
+      {
+        "Name": "4mer mutations of WT NORAD NRU7 sequence",
+        "design_oligos": 49,
+        "excel_row": 14
+      },
+      {
+        "Name": "6mer mutations of WT NORAD NRU7 sequence",
+        "design_oligos": 46,
+        "excel_row": 15
+      },
+      {
+        "Name": "10mer mutations of WT NORAD NRU7 sequence",
+        "design_oligos": 20,
+        "excel_row": 16
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 1370,
+    "source_parent_ID": "Context_NORAD_PRE9_rep7_5:Context:NORAD_PRE9_rep7_5_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "NORAD",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "1df9af6391d9cdfd1fe27ee2dd54a3438e133abad2d9c67cbcefaf5c8303e708",
+    "prefix": "Context_mNORAD_PRE9_rep7_5",
+    "sourceA_exact_sequence_IDs": [
+      "Context:mNORAD_PRE9_rep7_5"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "mPRE NORAD NRU7 sequence",
+        "design_oligos": 1,
+        "excel_row": 17
+      },
+      {
+        "Name": "Mutations in mPRE NORAD NRU7 sequence",
+        "design_oligos": 298,
+        "excel_row": 18
+      },
+      {
+        "Name": "4mer mutations of mPRE NORAD NRU7 sequence",
+        "design_oligos": 49,
+        "excel_row": 19
+      },
+      {
+        "Name": "6mer mutations of mPRE NORAD NRU7 sequence",
+        "design_oligos": 46,
+        "excel_row": 20
+      },
+      {
+        "Name": "10mer mutations of mPRE NORAD NRU7 sequence",
+        "design_oligos": 20,
+        "excel_row": 21
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 488,
+    "source_parent_ID": "Context_mNORAD_PRE9_rep7_5:Context:mNORAD_PRE9_rep7_5_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "HIAT1",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "7f0a63dbc2a497408dc39e96033fd659852da618bafe6bf88d1583486341e846",
+    "prefix": "Hafner_HIAT1",
+    "sourceA_exact_sequence_IDs": [
+      "Hafner_Pum2:HIAT1|39|chr1:100548732-100548798|+_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT HIAT1 sequence",
+        "design_oligos": 1,
+        "excel_row": 22
+      },
+      {
+        "Name": "Mutations in WT HIAT1 sequence",
+        "design_oligos": 209,
+        "excel_row": 23
+      },
+      {
+        "Name": "4mer mutations of WT HIAT1 sequence",
+        "design_oligos": 42,
+        "excel_row": 24
+      },
+      {
+        "Name": "6mer mutations of WT HIAT1 sequence",
+        "design_oligos": 41,
+        "excel_row": 25
+      },
+      {
+        "Name": "10mer mutations of WT HIAT1 sequence",
+        "design_oligos": 19,
+        "excel_row": 26
+      },
+      {
+        "Name": "Placements of TGTATATA into WT HIAT1 sequence",
+        "design_oligos": 45,
+        "excel_row": 27
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 2885,
+    "source_parent_ID": "Hafner_HIAT1:Hafner_Pum2:HIAT1|39|chr1:100548732-100548798|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "HIAT1",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "539c85b86be9f7ad8b6bb2cd532ac23a59f250bd41ac5a108492044a41c64496",
+    "prefix": "mHafner_HIAT1",
+    "sourceA_exact_sequence_IDs": [
+      "mHafner_Pum2:HIAT1|39|chr1:100548732-100548798|+_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "mPRE HIAT1 sequence",
+        "design_oligos": 1,
+        "excel_row": 28
+      },
+      {
+        "Name": "Mutations in mPRE HIAT1 sequence",
+        "design_oligos": 209,
+        "excel_row": 29
+      },
+      {
+        "Name": "4mer mutations of mPRE HIAT1 sequence",
+        "design_oligos": 42,
+        "excel_row": 30
+      },
+      {
+        "Name": "6mer mutations of mPRE HIAT1 sequence",
+        "design_oligos": 41,
+        "excel_row": 31
+      },
+      {
+        "Name": "10mer mutations of mPRE HIAT1 sequence",
+        "design_oligos": 19,
+        "excel_row": 32
+      },
+      {
+        "Name": "Placements of TGTATATA into mHafner_HIAT1:1-90",
+        "design_oligos": 45,
+        "excel_row": 33
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 5075,
+    "source_parent_ID": "mHafner_HIAT1:mHafner_Pum2:HIAT1|39|chr1:100548732-100548798|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "MGEA5",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "693c53e0ac88d12706b038ee6c434b7f2e7671470039c7920c712c546d431bbd",
+    "prefix": "Hafner_MGEA5",
+    "sourceA_exact_sequence_IDs": [
+      "Hafner_Pum2:MGEA5|38|chr10:103545529-103545563|-_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT MGEA5 sequence",
+        "design_oligos": 1,
+        "excel_row": 34
+      },
+      {
+        "Name": "Mutations in WT MGEA5 sequence",
+        "design_oligos": 210,
+        "excel_row": 35
+      },
+      {
+        "Name": "4mer mutations of WT MGEA5 sequence",
+        "design_oligos": 43,
+        "excel_row": 36
+      },
+      {
+        "Name": "6mer mutations of WT MGEA5 sequence",
+        "design_oligos": 42,
+        "excel_row": 37
+      },
+      {
+        "Name": "10mer mutations of WT MGEA5 sequence",
+        "design_oligos": 20,
+        "excel_row": 38
+      },
+      {
+        "Name": "Placements of TGTATATA into WT MGEA5 sequence",
+        "design_oligos": 45,
+        "excel_row": 39
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 3245,
+    "source_parent_ID": "Hafner_MGEA5:Hafner_Pum2:MGEA5|38|chr10:103545529-103545563|-_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "MGEA5",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "c9a6a4f6870cafdae3a248426d4dbad59d9c6ee3204cd7e2bae10c20e81f83da",
+    "prefix": "mHafner_MGEA5",
+    "sourceA_exact_sequence_IDs": [
+      "mHafner_Pum2:MGEA5|38|chr10:103545529-103545563|-_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "mPRE MGEA5 sequence",
+        "design_oligos": 1,
+        "excel_row": 40
+      },
+      {
+        "Name": "Mutations in mPRE MGEA5 sequence",
+        "design_oligos": 210,
+        "excel_row": 41
+      },
+      {
+        "Name": "4mer mutations of mPRE MGEA5 sequence",
+        "design_oligos": 43,
+        "excel_row": 42
+      },
+      {
+        "Name": "6mer mutations of mPRE MGEA5 sequence",
+        "design_oligos": 42,
+        "excel_row": 43
+      },
+      {
+        "Name": "10mer mutations of mPRE MGEA5 sequence",
+        "design_oligos": 20,
+        "excel_row": 44
+      },
+      {
+        "Name": "Placements of TGTATATA into mPRE MGEA5 sequence",
+        "design_oligos": 45,
+        "excel_row": 45
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 5435,
+    "source_parent_ID": "mHafner_MGEA5:mHafner_Pum2:MGEA5|38|chr10:103545529-103545563|-_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "PGBD4",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "54789d05566dda51064a767e216014b754d330d4d87d79a79c4a9b34fdd27b49",
+    "prefix": "Hafner_PGBD4",
+    "sourceA_exact_sequence_IDs": [
+      "Hafner_Pum2:PGBD4|18|chr15:34395423-34395466|+_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT PGBD4 sequence",
+        "design_oligos": 1,
+        "excel_row": 46
+      },
+      {
+        "Name": "Mutations in WT PGBD4 sequence",
+        "design_oligos": 209,
+        "excel_row": 47
+      },
+      {
+        "Name": "4mer mutations of WT PGBD4 sequence",
+        "design_oligos": 42,
+        "excel_row": 48
+      },
+      {
+        "Name": "6mer mutations of WT PGBD4 sequence",
+        "design_oligos": 41,
+        "excel_row": 49
+      },
+      {
+        "Name": "10mer mutations of WT PGBD4 sequence",
+        "design_oligos": 20,
+        "excel_row": 50
+      },
+      {
+        "Name": "Placements of TGTATATA into WT PGBD4 sequence",
+        "design_oligos": 45,
+        "excel_row": 51
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 3604,
+    "source_parent_ID": "Hafner_PGBD4:Hafner_Pum2:PGBD4|18|chr15:34395423-34395466|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "PGBD4",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "703bb5dd8e2ca29e1149191d475968d70ba79967c1a0ca45c0be249fd8d3259e",
+    "prefix": "mHafner_PGBD4",
+    "sourceA_exact_sequence_IDs": [
+      "mHafner_Pum2:PGBD4|18|chr15:34395423-34395466|+_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "mPRE PGBD4 sequence",
+        "design_oligos": 1,
+        "excel_row": 52
+      },
+      {
+        "Name": "Mutations in mPRE PGBD4 sequence",
+        "design_oligos": 209,
+        "excel_row": 53
+      },
+      {
+        "Name": "4mer mutations of mPRE PGBD4 sequence",
+        "design_oligos": 42,
+        "excel_row": 54
+      },
+      {
+        "Name": "6mer mutations of mPRE PGBD4 sequence",
+        "design_oligos": 41,
+        "excel_row": 55
+      },
+      {
+        "Name": "10mer mutations of mPRE PGBD4 sequence",
+        "design_oligos": 20,
+        "excel_row": 56
+      },
+      {
+        "Name": "Placements of TGTATATA into mPRE PGBD4 sequence",
+        "design_oligos": 45,
+        "excel_row": 57
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 5794,
+    "source_parent_ID": "mHafner_PGBD4:mHafner_Pum2:PGBD4|18|chr15:34395423-34395466|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "AP1S1",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "ec0fdbf853b344e5fc42cbdbcf94aa4ca27ecb28ae7807bc146bef333bf976f1",
+    "prefix": "Hafner_APIS1",
+    "sourceA_exact_sequence_IDs": [
+      "Hafner_Pum2:AP1S1|35|chr7:100804143-100804187|+_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT AP1S1 sequence",
+        "design_oligos": 1,
+        "excel_row": 58
+      },
+      {
+        "Name": "Mutations in WT AP1S1 sequence",
+        "design_oligos": 266,
+        "excel_row": 59
+      },
+      {
+        "Name": "4mer mutations of WT AP1S1 sequence",
+        "design_oligos": 41,
+        "excel_row": 60
+      },
+      {
+        "Name": "6mer mutations of WT AP1S1 sequence",
+        "design_oligos": 40,
+        "excel_row": 61
+      },
+      {
+        "Name": "10mer mutations of WT AP1S1 sequence",
+        "design_oligos": 19,
+        "excel_row": 62
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 2516,
+    "source_parent_ID": "Hafner_APIS1:Hafner_Pum2:AP1S1|35|chr7:100804143-100804187|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "AP1S1",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "316d95585e42c08bcb11c54cca9836abd939ac348295c4a3a56ae383c5c55111",
+    "prefix": "mHafner_APIS1",
+    "sourceA_exact_sequence_IDs": [
+      "mHafner_Pum2:AP1S1|35|chr7:100804143-100804187|+_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "mPRE AP1S1 sequence",
+        "design_oligos": 1,
+        "excel_row": 63
+      },
+      {
+        "Name": "Mutations in mPRE AP1S1 sequence",
+        "design_oligos": 266,
+        "excel_row": 64
+      },
+      {
+        "Name": "4mer mutations of mPRE AP1S1 sequence",
+        "design_oligos": 41,
+        "excel_row": 65
+      },
+      {
+        "Name": "6mer mutations of mPRE AP1S1 sequence",
+        "design_oligos": 40,
+        "excel_row": 66
+      },
+      {
+        "Name": "10mer mutations of mPRE AP1S1 sequence",
+        "design_oligos": 19,
+        "excel_row": 67
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 4706,
+    "source_parent_ID": "mHafner_APIS1:mHafner_Pum2:AP1S1|35|chr7:100804143-100804187|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "SMARCA2",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "511d769df760ff6cb082ae52be5de23997252d42f165244e1a52eda491282e85",
+    "prefix": "ENCODE_Pum1_SMARCA2",
+    "sourceA_exact_sequence_IDs": [
+      "ENCODE_Pum1_1:SMARCA2|PUM1_K562_rep01-690|chr9:2161688-2161881|+_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT SMARCA2 sequence",
+        "design_oligos": 1,
+        "excel_row": 68
+      },
+      {
+        "Name": "Mutations in WT SMARCA2 sequence",
+        "design_oligos": 267,
+        "excel_row": 69
+      },
+      {
+        "Name": "4mer mutations of WT SMARCA2 sequence",
+        "design_oligos": 42,
+        "excel_row": 70
+      },
+      {
+        "Name": "6mer mutations of WT SMARCA2 sequence",
+        "design_oligos": 40,
+        "excel_row": 71
+      },
+      {
+        "Name": "10mer mutations of WT SMARCA2 sequence",
+        "design_oligos": 19,
+        "excel_row": 72
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 2148,
+    "source_parent_ID": "ENCODE_Pum1_SMARCA2:ENCODE_Pum1_1:SMARCA2|PUM1_K562_rep01-690|chr9:2161688-2161881|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "SMARCA2",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "d5d8717efe93d1865f4d28eebb4f584ccbd50c92dc9eeeafefd12caa96feb57e",
+    "prefix": "mENCODE_Pum1_SMARCA2",
+    "sourceA_exact_sequence_IDs": [],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "mPRE SMARCA2 sequence",
+        "design_oligos": 1,
+        "excel_row": 73
+      },
+      {
+        "Name": "Single base mutations of mPRE SMARCA2 sequence",
+        "design_oligos": 267,
+        "excel_row": 74
+      },
+      {
+        "Name": "4mer mutations of mPRE SMARCA2 sequence",
+        "design_oligos": 42,
+        "excel_row": 75
+      },
+      {
+        "Name": "6mer mutations of mPRE SMARCA2 sequence",
+        "design_oligos": 40,
+        "excel_row": 76
+      },
+      {
+        "Name": "10mer mutations of mPRE SMARCA2 sequence",
+        "design_oligos": 19,
+        "excel_row": 77
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 4338,
+    "source_parent_ID": "mENCODE_Pum1_SMARCA2:ENCODE_Pum1_1:SMARCA2|PUM1_K562_rep01-690|chr9:2161688-2161881|+_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "IRF2BP1",
+    "mPRE_background": false,
+    "parent_sequence_sha256": "fdf360058ba2f0c8d665382b92f7219a25e11ac147d3290e4ad51ec31a05622c",
+    "prefix": "ENCODE_Pum1_IRF2BP1",
+    "sourceA_exact_sequence_IDs": [
+      "ENCODE_Pum1_2:IRF2BP1|PUM2_K562_rep01|chr19:46387125-46387189|-_0"
+    ],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "WT IRF2BP1 sequence",
+        "design_oligos": 1,
+        "excel_row": 78
+      },
+      {
+        "Name": "Mutations in WT IRF2BP1 sequence",
+        "design_oligos": 269,
+        "excel_row": 79
+      },
+      {
+        "Name": "4mer mutations of WT IRF2BP1 sequence",
+        "design_oligos": 44,
+        "excel_row": 80
+      },
+      {
+        "Name": "6mer mutations of WT IRF2BP1 sequence",
+        "design_oligos": 43,
+        "excel_row": 81
+      },
+      {
+        "Name": "10mer mutations of WT IRF2BP1 sequence",
+        "design_oligos": 21,
+        "excel_row": 82
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 1777,
+    "source_parent_ID": "ENCODE_Pum1_IRF2BP1:ENCODE_Pum1_2:IRF2BP1|PUM2_K562_rep01|chr19:46387125-46387189|-_0_0"
+  },
+  {
+    "author_explicit_parent_pointer_present": false,
+    "genomic_gene_identity_independently_certified": false,
+    "lineage": "IRF2BP1",
+    "mPRE_background": true,
+    "parent_sequence_sha256": "89a638c65c4ac7001a62ab39d4374dedac0e797f7e8e471f4a91fa4a5f861496",
+    "prefix": "mENCODE_Pum1_IRF2BP1",
+    "sourceA_exact_sequence_IDs": [],
+    "sourceS3_exact_sequence_design_rows": [
+      {
+        "Name": "mPRE IRF2BP1 sequence",
+        "design_oligos": 1,
+        "excel_row": 83
+      },
+      {
+        "Name": "Mutations in mPRE IRF2BP1 sequence",
+        "design_oligos": 269,
+        "excel_row": 84
+      },
+      {
+        "Name": "4mer mutations of mPRE IRF2BP1 sequence",
+        "design_oligos": 44,
+        "excel_row": 85
+      },
+      {
+        "Name": "6mer mutations of mPRE IRF2BP1 sequence",
+        "design_oligos": 43,
+        "excel_row": 86
+      },
+      {
+        "Name": "10mer mutations of mPRE IRF2BP1 sequence",
+        "design_oligos": 21,
+        "excel_row": 87
+      }
+    ],
+    "source_ID_hierarchy_reconstructed_not_nearest_sequence": true,
+    "source_excel_row": 3967,
+    "source_parent_ID": "mENCODE_Pum1_IRF2BP1:ENCODE_Pum1_2:IRF2BP1|PUM2_K562_rep01|chr19:46387125-46387189|-_0_0"
+  }
+]

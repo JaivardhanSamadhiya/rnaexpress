@@ -1,0 +1,32 @@
+{
+  "files": {
+    "reports/generalization_prelib_point_ancestry_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_prelib_point_ancestry_20261008/protocol.md": "81e9b6276f6080d453e6dabc728cbf07c34c0fb5e03bd3445b2a348d14a9aa79",
+    "reports/generalization_prelib_point_ancestry_20261008/protocol_v2.md": "571beb57774d8d64cb0cb1ec3aa174d9977b642fa7ef2ce08817c1ecf5812492",
+    "results/generalization_prelib_design_metadata_20261008/TableS2_PRELibA_metadata_v2.json": "5dd48925a0421094bf38277a9d22b2b79139c68a639c84992784a57198528043",
+    "results/generalization_prelib_design_metadata_20261008/TableS3_PRELibB_design_metadata_v2.json": "3b78c40fbcb8e6190a468dde56becf4cddaef64f86eb58ac205b8caf2aa35dd1",
+    "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json": "65e32e40f252981a7d6d910b9c17069e4e436f07e8438ea6cbb2b761a9fdbf23",
+    "results/generalization_prelib_design_metadata_20261008/design_metadata_receipt_v2.json": "d45f255eebe907fcfaa296f6975dbd1768b44545c59b063146d0e163a31a0751",
+    "results/generalization_prelib_point_ancestry_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_prelib_point_ancestry_20261008/all_source_ID_collisions.json": "fde4a3f92795c8c60557ff9352525181d94d61dfdcca5e504dcad55561a88083",
+    "results/generalization_prelib_point_ancestry_20261008/metadata_manifest.json": "3a88711436b4d1e5f75e08ddf119753f871aa791d73f4fcb62e2ebfdf33edf34",
+    "results/generalization_prelib_point_ancestry_20261008/parent_template_metadata.json": "d07296aec270c91421b2f027f020f299835e0c9c5d6c1abd1fc257a5a75271d3",
+    "results/generalization_prelib_point_ancestry_20261008/point_metadata_receipt.json": "c3c49dde47026917740eb5f6544a5214cd469d77098f196a963d5b16075b1000",
+    "results/generalization_prelib_point_ancestry_20261008/precommit_review_v2.json": "d19608d696a192cd6171fcc24f6c235b2f309d0461627bf90c28b541075a1252",
+    "results/generalization_prelib_point_ancestry_20261008/reconstructed_point_design_relations.json": "56906852503f1a0d6c1022cab9a8ec68f33bcf5621acab44b2a8644e90d5731b",
+    "results/generalization_prelib_point_ancestry_20261008/synthetic_tests_receipt.json": "b2632597458000c489d0acf3717a7e7e7829534f6ea5b654b6853b69ec39e859",
+    "results/generalization_prelib_point_ancestry_20261008/synthetic_tests_receipt_v2.json": "00280001098b563833ee39bc2de12331905071d5cfa3b73bebeb0bb42fb0f1ae",
+    "src/generalization_prelib_point_ancestry_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_point_ancestry_20261008/__init__.py": "944f52a3805d14f6990aa6e031a5b35b9895d98d1c68fc813f6ed2ed48c77061",
+    "src/generalization_prelib_point_ancestry_20261008/audit.py": "5dd10534e9559b2fb687af8e6960fa3f382ff52d8b027769a4a900239306fa9d",
+    "src/generalization_prelib_point_ancestry_20261008/audit_v2.py": "69bd32d39749531581364469b1695129c5b3b795b6f72277e6df718592cd3ebd",
+    "src/generalization_prelib_point_ancestry_20261008/tests.py": "7eaa7cae2347f7b68412ec9034294cb27e9bc90bfb0ada2866d980dc458f2d9f",
+    "src/generalization_prelib_point_ancestry_20261008/tests_v2.py": "e05b5b0c682910f104761ecfd88277fb0b5b4d83795a14af85948b4572a7e30b"
+  },
+  "models_fit": 0,
+  "source_coordinate_zero_based": true,
+  "source_hierarchy_not_explicit_author_parent_pointer": true,
+  "status": "FROZEN_LITERAL_ZERO_BASED_POINT_RECONSTRUCTION_ONLY",
+  "training_pairs_admitted": 0,
+  "whole_mutant_equality_required": true
+}

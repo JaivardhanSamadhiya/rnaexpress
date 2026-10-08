@@ -1,0 +1,9 @@
+# Additive zero-based literal point reconstruction
+
+Preserve completed v1 metadata audit: all4054 candidates flagged under its wrong one-based source-coordinate assumption. This is a metadata-interpretation failure, not a biological NO-GO. Before v2 freeze, first three Mut alleles from each of HIAT1,NORAD NRU3 and IRF2BP1 show declared source index i at actual physical1-based position i+1. Fix zero-based source indices for all later checks; no outcome values or performance informed this correction.
+
+Strengthen unique baseline selection to fixed literal categories: Context; Hafner_Pum2/mHafner_Pum2; ENCODE_Pum1_1 for SMARCA2 and ENCODE_Pum1_2 for IRF2BP1, including their mPRE versions. Unknown categories cannot become parents. Require whole-template exact S3 matches with nominal gene-name corroboration; where S2 exact matches exist, source parent ID must end with the S2 ID plus literal _0. Never use sequence distance.
+
+Retain source coordinate0-based and standard physical coordinate1-based. Reconstruct the entire candidate by substituting exactly the declared reference/alternate base into the baseline; require exact equality,140nt ACGT length, one physical changed position, unique source IDs. Nine invented tests include coordinate endpoints, incorrect conventions, zero/multiple changes, invalidDNA/length, ambiguous baselines and WT/mPRE separation. Freeze v2 source/tests/protocol/input bytes before full audit.
+
+Reconstructed ID ancestry, not explicit source parent-pointer or genomic/mature-RNA certificate. All old flags,49 collision groups,6294-versus6293 row discrepancy and NORAD baseline discrepancy stay visible. No training pair or biological outcome admission. A later supervision decision requires audit of exact outcome-row identities and replicate processing; do not select variants using measured effect.
