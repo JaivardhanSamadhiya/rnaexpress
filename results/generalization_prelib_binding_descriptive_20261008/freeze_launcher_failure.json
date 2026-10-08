@@ -1,0 +1,7 @@
+{
+  "status": "PRECOUNT_FREEZE_LAUNCHER_FAILURE",
+  "reason": "results namespace ignored; first git add refused ignored result paths, then source certification refused uncommitted manifest",
+  "selected_count_cells_opened": 0,
+  "source_worker_started": false,
+  "repair": "Force add only exact owned namespace files, verify index, commit frozen manifest before retrying source reader"
+}
