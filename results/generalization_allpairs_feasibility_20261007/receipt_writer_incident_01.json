@@ -1,0 +1,15 @@
+{
+  "empty_receipt_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "error": "Unittest StringIO variable shadowed by opened receipt TextIOWrapper; getvalue() failed before JSON serialization",
+  "math_tests_passed": 10,
+  "model_fits": 0,
+  "numerical_imports": 0,
+  "planned_fix": "Rename receipt stream and write separate v2 receipt; no math/tolerance change",
+  "project_reads": 0,
+  "source_sha256_before_fix": {
+    "__init__.py": "8a63ee566854c351447fff47171c29ffe974e6f8cd3cd752401fe26d59f4e4cd",
+    "math_mock.py": "3ebd60923271cd4c7712d9913b3510908f7473937edb945abca4ae726ee406f6",
+    "tests.py": "53a7b7276dfe2d92ae861ab11153a35e63c23192e18bf3d29612231f7777eaa4"
+  },
+  "status": "PRESERVED_RECEIPT_WRITER_FAILURE_AFTER_TEN_MATH_TESTS_PASS"
+}

@@ -1,0 +1,26 @@
+{
+  "features_or_models_read": false,
+  "historical_source_sha256": {
+    "reports/generalization_20261007/protocol.md": "a14cc20d7ffcd7ba3c4bfda314bffcde11d0832ec14098ae82b7cb4febcb77fa",
+    "src/cross_assay_20260927/models.py": "a7d43f49c37e0e2a86e5c9c64cbf97bca78aabab36a007f10f886fb916d54d71",
+    "src/generalization_20261007/route_coverage.py": "4e1e1e29c86f75645f75ac81c4d746a057bad7a09059f97ae1deabd06b705f58",
+    "src/generalization_20261007/route_scaling.py": "3457184c701ced91a69ce5747d1c809c5180e4ff5897af6927827c7ab710fdea",
+    "src/mechanism_v2/ranking.py": "3b7a13855bef59ca0e9174cbdb2f415a3fc45b5d49e3e58c13b051f23416f53e",
+    "src/modeling/v4_decision_models.py": "e9818f7b9e0b3ac71e5261b6070845d549b23fa1fd6a1bef29268b7bf16f8421",
+    "src/probabilistic_ranking_20260928/prepare.py": "301e1ac24adceb33d0727b69bd39cbbdb6a8d3e26119b32f993d07582e5bc611"
+  },
+  "model_fits": 0,
+  "numerical_packages_imported": false,
+  "outcomes_read": false,
+  "production_or_fitting_authorized": false,
+  "project_data_read": false,
+  "source_report_sha256": {
+    "reports/generalization_allpairs_feasibility_20261007/feasibility.md": "a891fb2347f5c03a1313aef58c5c3a383de9bba29b08c4535580c431a517fb0e",
+    "src/generalization_allpairs_feasibility_20261007/__init__.py": "8a63ee566854c351447fff47171c29ffe974e6f8cd3cd752401fe26d59f4e4cd",
+    "src/generalization_allpairs_feasibility_20261007/math_mock.py": "3ebd60923271cd4c7712d9913b3510908f7473937edb945abca4ae726ee406f6",
+    "src/generalization_allpairs_feasibility_20261007/tests.py": "13752a020e40f368a8769a526fe6ed586389932c6418d2c186b4849a4f7d297c"
+  },
+  "status": "PASS_STDLIB_SYNTHETIC_OBJECTIVE_FEASIBILITY_ONLY",
+  "test_output": "test_all_vs_materialized_and_finite_difference (__main__.Tests.test_all_vs_materialized_and_finite_difference) ... ok\ntest_empty_cap_context_not_revived_by_all (__main__.Tests.test_empty_cap_context_not_revived_by_all) ... ok\ntest_exact_truth_ties_and_signed_zero (__main__.Tests.test_exact_truth_ties_and_signed_zero) ... ok\ntest_finite_parameters_and_unique_unordered_edges (__main__.Tests.test_finite_parameters_and_unique_unordered_edges) ... ok\ntest_fixed_old_cap_scaling_and_support_for_both (__main__.Tests.test_fixed_old_cap_scaling_and_support_for_both) ... ok\ntest_full_cap_equals_all_exact_small_menu (__main__.Tests.test_full_cap_equals_all_exact_small_menu) ... ok\ntest_nonuniform_masses_do_not_weight_large_menu_more (__main__.Tests.test_nonuniform_masses_do_not_weight_large_menu_more) ... ok\ntest_parent_translation_invariance (__main__.Tests.test_parent_translation_invariance) ... ok\ntest_random_invented_matrices_agree (__main__.Tests.test_random_invented_matrices_agree) ... ok\ntest_sign_reverse_and_large_margin_stability (__main__.Tests.test_sign_reverse_and_large_margin_stability) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.009s\n\nOK\n",
+  "tests": 10
+}

@@ -1,0 +1,33 @@
+{
+  "arbitrary_mixture_not_Turner_Boltzmann": true,
+  "feature_arrays_or_models_read": false,
+  "files": {
+    "artifacts/generalization_pairing_topology_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_next_20261007/protocol.md": "4b35a03e789b89827d8f59f34f6745935a2f24556a0c65f285bd9b2ef0e8a8a5",
+    "reports/generalization_pairing_topology_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_pairing_topology_feasibility_20261007/plan.md": "a8be60aceea9a068536eaf024b13b11d4a78b5fd02739e68962130358667dfd6",
+    "results/generalization_pairing_topology_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_next_20261007/route_structure.py": "07fcc17553f7a48160b2b47c7c6e265707941659431f22dac79dab3911d02548",
+    "src/generalization_next_20261007/structure_cache.py": "54e181810dc5c8c0ba5bfbd3b6577575443f4354f4288678ab3094d1a005a657",
+    "src/generalization_pairing_topology_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_pairing_topology_feasibility_20261007/__init__.py": "f64970a9c46e367596f74647bdf6e93de663bad16cbce39bf5d71569d8f6dc71",
+    "src/generalization_pairing_topology_feasibility_20261007/proof.py": "5e8ba6716a702975a40a5145dfd99fa20942e0073f08312563a43230c1b1d308",
+    "src/generalization_pairing_topology_feasibility_20261007/tests.py": "d33d99a10ae4dc4b818f2d9c500954e68956caab495c466eb16cdfb83443b025"
+  },
+  "full_float64_P_bytes": 5096996576,
+  "model_fits": 0,
+  "native_folds": 0,
+  "numeric_packages_imported": false,
+  "outcomes_read": false,
+  "primary_sources": [
+    "https://www.nature.com/articles/s41594-026-01794-8",
+    "https://www.mdpi.com/1422-0067/22/23/13021"
+  ],
+  "production_or_prefit_freeze": false,
+  "project_sequences_read": 0,
+  "root_review_required_before_any_future_extraction": true,
+  "status": "PASS_SOURCE_ONLY_INFORMATION_LOSS_PROOF",
+  "synthetic_tests": 3,
+  "test_output": "test_all_nucleotide_cache_summaries_exactly_identical (__main__.Tests.test_all_nucleotide_cache_summaries_exactly_identical) ... ok\ntest_partner_base_identity_information_lost (__main__.Tests.test_partner_base_identity_information_lost) ... ok\ntest_probability_ensembles_legal (__main__.Tests.test_probability_ensembles_legal) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+  "upper_triangle_float64_P_bytes": 2535402040
+}
