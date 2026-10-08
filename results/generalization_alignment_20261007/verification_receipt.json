@@ -1,0 +1,23 @@
+{
+  "aligned_label_hashes_checked": true,
+  "candidate_scores_replayed": 157548,
+  "checkpoints": 240,
+  "held_SRLE_exact_unflipped_model_inversion_tracks": [
+    "base",
+    "raw",
+    "structure",
+    "lookup",
+    "bert",
+    "combined"
+  ],
+  "independent_confirmation": false,
+  "inner_original_truth_regrets_replayed": 216,
+  "maximum_outer_score_error": 0.0,
+  "models_fit": 0,
+  "original_allele_and_label_hashes_checked": true,
+  "outer_targets_replayed": 24,
+  "selected_decisions_checked": 65232,
+  "source_only_configurations_reselected_from_replay": true,
+  "status": "PASS",
+  "verification_source_sha256": "b432bb3385bc674c048a2f48b9e6a22ac6ca0f23564786dccb875bbbb39884fb"
+}
