@@ -1,0 +1,25 @@
+{
+  "author_executable_code_copied_imported_or_run": false,
+  "biological_cohort_features_scored": 0,
+  "both_conventions_and_omitted_states_disclosed": true,
+  "files": {
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term1.csv": "9fd526a86877f6a351dcfd367305fdd56c8c4c58abe2093ffc9da5d4e0ab58f5",
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term2_double.csv": "b1525f6fefe7fa71c978672bbf365ab16f951f57eb97093088ff8d8da7ed87cf",
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term2_single.csv": "4009bfa0a8e4dfc239ca7bbe49a60ba2140e4570d428748803793b04bd8be250",
+    "data/raw/generalization_pum2_parameter_metadata_20261008/PUM2_qMotif_term3.csv": "943746b2d6a5bd805c1a76bc1c7c4532f3000ac5fc001b1bd33da0a304fd1b6b",
+    "reports/generalization_pum2_fixed_math_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_pum2_fixed_math_20261008/protocol.md": "52f94a173c9c6c30d26ce3bd27443725b414e20d53f47115aae446c9ab954b92",
+    "results/generalization_pum2_fixed_math_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_pum2_parameter_metadata_20261008/acquisition_receipt_v2.json": "da4cadf5fdf3d122d3ef49920137024c10313239457667ca7c46228dd2592d19",
+    "src/generalization_pum2_fixed_math_20261008/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_pum2_fixed_math_20261008/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/generalization_pum2_fixed_math_20261008/model.py": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81",
+    "src/generalization_pum2_fixed_math_20261008/tests.py": "d7c3f7a49238bffa31ef9ca9860f1f65f7791b739ab76ed6e936d45cd2e005b5"
+  },
+  "models_fit": 0,
+  "source_algorithm_review_not_pinned_code_byte_parity": true,
+  "status": "PASS_27_INVENTED_AND_HAND_CALCULATED_FIXED_PARAMETER_MATH_TESTS",
+  "temperature_C": 25,
+  "tests_passed": 27,
+  "training_pairs_admitted": 0
+}
