@@ -1,0 +1,117 @@
+{
+  "candidate_edited_site_records_checked": 1268,
+  "candidate_rows_checked": 5701,
+  "conservation_scores_read": false,
+  "direct_genomic_sequence_exon_strand_and_every_edit_replay": true,
+  "global_genome_uniqueness_or_biological_isoform_certified": false,
+  "models_fit": 0,
+  "outcomes_read": false,
+  "parent_status_by_dataset": {
+    "astrocyte_gse330741": {
+      "no_exact_source_utr": 2,
+      "reference_site_vector_unique": 2
+    },
+    "mikl_gse173098": {
+      "reference_site_vector_unique": 6
+    },
+    "moffatt_gse334718": {
+      "no_exact_source_utr": 3
+    }
+  },
+  "parents_checked": 13,
+  "pilot_mapping_receipt_sha256": "92951bb44bcbbd2284cea3bd4759f4bff70385c529ba39373ef67cf7e2a670df",
+  "public_responses_verified": [
+    {
+      "bytes": 926,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_knownGene.json.receipt.json",
+      "sha256": "7894ccd7c8d3e02be76f6874b2ae630ded228c505fb2cc9efc5dd0acbf7bebf0",
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr1;start=86045862;end=86055456;maxItemsOutput=10000"
+    },
+    {
+      "bytes": 9751,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_sequence.json.receipt.json",
+      "sha256": "76e7973c09558a5612624c42c0274aa4fc1e3a97f5822a2113ad0465ee5c3fc2",
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr1;start=86045862;end=86055456"
+    },
+    {
+      "bytes": 5561,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_knownGene.json.receipt.json",
+      "sha256": "5f2a2eee3f1a77100496105b6b18e15f455c8627068decbf38b0e49efd5fa814",
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=102658658;end=102790784;maxItemsOutput=10000"
+    },
+    {
+      "bytes": 132285,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_sequence.json.receipt.json",
+      "sha256": "2e55344723d93fc72ebf1e0c5b391230aea1bbc42ab978e4bbf7df94b6aa05a6",
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=102658658;end=102790784"
+    },
+    {
+      "bytes": 7742,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_knownGene.json.receipt.json",
+      "sha256": "950998ca4934f1a5be6737f007217e2504b52269bc0927f42a11e002cf47b6de",
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr2;start=115863063;end=116065839;maxItemsOutput=10000"
+    },
+    {
+      "bytes": 202935,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_sequence.json.receipt.json",
+      "sha256": "969dbe664d6f8afc6f8db0338a5903f6e4607e66402b63fcb8b6eaffa167eb01",
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr2;start=115863063;end=116065839"
+    },
+    {
+      "bytes": 2364,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_knownGene.json.receipt.json",
+      "sha256": "bc57b1102156cd8a2cce7d3497e7c8e6c6cdc031dddccee2586d70457e2f0baa",
+      "url": "https://api.genome.ucsc.edu/getData/track?genome=mm10;track=knownGene;chrom=chr4;start=128583538;end=128610098;maxItemsOutput=10000"
+    },
+    {
+      "bytes": 26719,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_sequence.json.receipt.json",
+      "sha256": "18e4f6691e9f2854bea430d0e0630cb11ca25b55675245f9e49fc20966efbeab",
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=mm10;chrom=chr4;start=128583538;end=128610098"
+    },
+    {
+      "bytes": 2786,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_knownGene_schema.json.receipt.json",
+      "sha256": "42468b85337fe4f61371c2478af47be9ff6298a6d7282ff01cf5d604abb308da",
+      "url": "https://api.genome.ucsc.edu/list/schema?genome=mm10;track=knownGene"
+    },
+    {
+      "bytes": 7360002,
+      "http_status": 200,
+      "receipt": "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_tracks.json.receipt.json",
+      "sha256": "b35975bb2b08e5c7a5137a62c0e9c1a105f868355af2bbcba8c4ad491dd2c2b3",
+      "url": "https://api.genome.ucsc.edu/list/tracks?genome=mm10;trackLeavesOnly=1"
+    }
+  ],
+  "replay_source_sha256": "449d6ad58b4757a4affbbb7ce97fce3241e86381c03ff6f5782fa73f307ea9f2",
+  "row_status_by_dataset": {
+    "astrocyte_gse330741": {
+      "no_exact_source_utr": 1136,
+      "reference_site_vector_unique": 1140
+    },
+    "mikl_gse173098": {
+      "reference_site_vector_unique": 24
+    },
+    "moffatt_gse334718": {
+      "no_exact_source_utr": 3401
+    }
+  },
+  "source_preservation_before_and_after": true,
+  "status": "PASS_COORDINATE_REPLAY_ONLY",
+  "transcript_match_vectors_checked": 17,
+  "unique_forward_genome_edited_sites": 434,
+  "unique_parent_strand_counts": {
+    "+": 4,
+    "-": 4
+  },
+  "v1_transport_resume_limitation": "HTTP0 receipt lacks cache bytes; original v1 resume would fail sha(path). Fresh first pilot allHTTP200; no retries performed. Any later retry requires additive corrected helper/tests/freeze."
+}

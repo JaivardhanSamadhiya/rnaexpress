@@ -1,0 +1,30 @@
+{
+  "all_admitted_source_candidate_transcript_ids_unversioned": true,
+  "all_record_chromosomes_match_request": true,
+  "annotation_records_chromosome_and_nonoverlap_checked": 42,
+  "author_reference_transcript_ids_checked": 481,
+  "feature_or_conservation_values_read": false,
+  "files": {
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_knownGene.json": "7894ccd7c8d3e02be76f6874b2ae630ded228c505fb2cc9efc5dd0acbf7bebf0",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_knownGene.json": "5f2a2eee3f1a77100496105b6b18e15f455c8627068decbf38b0e49efd5fa814",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_knownGene.json": "950998ca4934f1a5be6737f007217e2504b52269bc0927f42a11e002cf47b6de",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_knownGene.json": "bc57b1102156cd8a2cce7d3497e7c8e6c6cdc031dddccee2586d70457e2f0baa",
+    "results/generalization_conservation_feasibility_20261007/parent_reference_candidates.json": "be095014c20dee86e09073cbfdb054469558f03b302fdf3a2c8037f1703c1db1",
+    "results/generalization_conservation_feasibility_20261007/pilot_parent_metadata.json": "f6fedfc5f8d80051aa00c089f567cc6709c57b7fa626dceba95576243229ceab",
+    "results/v4_phaseA/moffatt_interventions.csv.gz": "54e1ed30702f878ef5894b35dd7e9b184355f051f25e5571243d7764e434272b"
+  },
+  "models_fit": 0,
+  "moffatt_admitted_unique_mutants": 4163,
+  "moffatt_explicit_columns": [
+    "mutant_id",
+    "organism",
+    "gene_name",
+    "parent_id"
+  ],
+  "moffatt_organism": [
+    "Mus musculus"
+  ],
+  "no_pilot_code_or_result_changed": true,
+  "outcomes_read": false,
+  "status": "PASS_METADATA_ONLY"
+}

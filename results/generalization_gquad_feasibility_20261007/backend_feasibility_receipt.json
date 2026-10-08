@@ -1,0 +1,795 @@
+{
+  "all_four_lengths": [
+    {
+      "length": 46,
+      "name": "allA46",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "..............................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "..............................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "length": 46,
+      "name": "mixed_GQ46",
+      "native": {
+        "G_on_minus_off": -17.171737670898438,
+        "modeled_at_least_one_GQ_probability": 0.999999999999206,
+        "off": {
+          "G_kcal_mol": -11.298490524291992,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -10.800000190734863,
+          "mfe_structure": "....((((.((.(((((.(.........).))))).))))))....",
+          "pf_scale": 1.5032180698511097,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -28.47022819519043,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -27.299999237060547,
+          "mfe_structure": "....((((.((.((((.++.++.++.+~...)))).))))))....",
+          "pf_scale": 2.8020264222409743,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "UGAGUGGCACGAAACGGGGAGGAGGAGGCGCUGUUCCGGUCAAUGC"
+    },
+    {
+      "length": 46,
+      "name": "mixed_disrupt46",
+      "native": {
+        "G_on_minus_off": -5.147040367126465,
+        "modeled_at_least_one_GQ_probability": 0.9997638955328443,
+        "off": {
+          "G_kcal_mol": -10.313643455505371,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -8.899999618530273,
+          "mfe_structure": "......(((.....(((((.((.(....).)).))))).....)))",
+          "pf_scale": 1.3991981484131424,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -15.460683822631836,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -14.8100004196167,
+          "mfe_structure": "(((.(((((((....++...++.++.+~)).))..))).)))....",
+          "pf_scale": 1.7488380696359223,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "UGAGUGGCACGAAACGGAGAGGAGGAGGCGCUGUUCCGGUCAAUGC"
+    },
+    {
+      "length": 150,
+      "name": "allA150",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "......................................................................................................................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "......................................................................................................................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "length": 150,
+      "name": "mixed_GQ150",
+      "native": {
+        "G_on_minus_off": -9.840850830078125,
+        "modeled_at_least_one_GQ_probability": 0.9999998836999674,
+        "off": {
+          "G_kcal_mol": -48.436771392822266,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -45.400001525878906,
+          "mfe_structure": "...((((((....(((((......)))))((.((((((((...)))))))).)).))))))((((...(((.((((((...(((.(((((((((((.((...)))).))))).).))).)))....)))..))))))....)))).....",
+          "pf_scale": 1.6912405610665273,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -58.27762222290039,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -56.0,
+          "mfe_structure": "(((.((((.(((((..((.((.(((..((((.((((((((...)))))))).))))..))).)).))..++.++.++.+~.(((.....)))((((.....))))))))).)))))))((...(((.............)))..))....",
+          "pf_scale": 1.9119952543672143,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "CCUGAGUCAUAGACUUUCGCACAGGAAAGAGGUACUGUUCUCAGGAUAGUAGCUUUGACUUCUGGGAUUGGAGGAGGAGGUGCGGCUUGCGUGGUGUGUUUUACCGUCUACGACUAGGGCGUUGUAUCCUAUCCCCAUUUACCAGCAAUU"
+    },
+    {
+      "length": 150,
+      "name": "mixed_disrupt150",
+      "native": {
+        "G_on_minus_off": -0.15975570678710938,
+        "modeled_at_least_one_GQ_probability": 0.2283380393467497,
+        "off": {
+          "G_kcal_mol": -44.16382598876953,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -40.5,
+          "mfe_structure": "...((((((....(((((......)))))((.((((((((...)))))))).)).))))))((((.....(.((((((...(((.(((((((((((.((...)))).))))).).))).)))....)))..))).).....)))).....",
+          "pf_scale": 1.5979945074282222,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -44.32358169555664,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -40.810001373291016,
+          "mfe_structure": "(((.((((.(((((...(((((((((.((((.((((((((...)))))))).))))...)))))((......++.++.++...+~)))))).((((.....))))))))).)))))))((...(((.............)))..))....",
+          "pf_scale": 1.603738368972864,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "CCUGAGUCAUAGACUUUCGCACAGGAAAGAGGUACUGUUCUCAGGAUAGUAGCUUUGACUUCUGGGAUUAGAGGAGGAGGUGCGGCUUGCGUGGUGUGUUUUACCGUCUACGACUAGGGCGUUGUAUCCUAUCCCCAUUUACCAGCAAUU"
+    },
+    {
+      "length": 190,
+      "name": "allA190",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "..............................................................................................................................................................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "..............................................................................................................................................................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "length": 190,
+      "name": "mixed_GQ190",
+      "native": {
+        "G_on_minus_off": -14.384452819824219,
+        "modeled_at_least_one_GQ_probability": 0.9999999999269028,
+        "off": {
+          "G_kcal_mol": -57.25599670410156,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -54.20000076293945,
+          "mfe_structure": "......................(((((...(((.(((.((((((..((((((.(((...((.(((((.((........)))))))..))((.(((..((....)).))).))..((((((.......(((((((.......))))))))))))))))..)))))).)))))).))).)))...)))))..",
+          "pf_scale": 1.640905004795282,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -71.64044952392578,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -68.5999984741211,
+          "mfe_structure": "......................(((((...(((.(((.((((((..(((((((((.....((......))......)))((((...((.++.++.++.+~...))))))..(((((((((.......(((((((.......)))))))))))))..))))))))).)))))).))).)))...)))))..",
+          "pf_scale": 1.8716617688862296,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "UAGUAUCACUAUAUCGCAAACACCUGUCCGUCAAGUGGGGAGCUUUGUACGAGUGAUAACCGUAAUCUCGAAAAUGCACGGAUUAAAGGGGAGGAGGAGGUAGCUGUCCACCACGGGCGAUACUAUAGCCAUAGCUUCGUCUUAUGGUUCGCCCUCGUGUCGUGCUGGUUUCGUAUAUGAAAUACAGGCC"
+    },
+    {
+      "length": 190,
+      "name": "mixed_disrupt190",
+      "native": {
+        "G_on_minus_off": -1.121978759765625,
+        "modeled_at_least_one_GQ_probability": 0.8380465146462664,
+        "off": {
+          "G_kcal_mol": -56.119117736816406,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -53.29999923706055,
+          "mfe_structure": "......................(((((...(((.(((.((((((..((((((.(((...((.(((((.((........)))))))..))...((.(((........))).))..((((((.......(((((((.......))))))))))))))))..)))))).)))))).))).)))...)))))..",
+          "pf_scale": 1.6274660489446369,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -57.24109649658203,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -54.61000061035156,
+          "mfe_structure": "......................(((((...(((.(((.((((((..(((((((((.....((......))......)))((((....++...++.++.+~.....))))..(((((((((.......(((((((.......)))))))))))))..))))))))).)))))).))).)))...)))))..",
+          "pf_scale": 1.6470639205700472,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "UAGUAUCACUAUAUCGCAAACACCUGUCCGUCAAGUGGGGAGCUUUGUACGAGUGAUAACCGUAAUCUCGAAAAUGCACGGAUUAAAGGAGAGGAGGAGGUAGCUGUCCACCACGGGCGAUACUAUAGCCAUAGCUUCGUCUUAUGGUUCGCCCUCGUGUCGUGCUGGUUUCGUAUAUGAAAUACAGGCC"
+    },
+    {
+      "length": 260,
+      "name": "allA260",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "....................................................................................................................................................................................................................................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "....................................................................................................................................................................................................................................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "length": 260,
+      "name": "mixed_GQ260",
+      "native": {
+        "G_on_minus_off": -9.5037841796875,
+        "modeled_at_least_one_GQ_probability": 0.9999997990462729,
+        "off": {
+          "G_kcal_mol": -81.35377502441406,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -77.9000015258789,
+          "mfe_structure": ".........(((((((((.......)))).))))).....((((((.((...((((......)))))).))))))(((.((((((((....(((((((.....))).....))))....))))))))..)))((((((((((((((.................)))))))))(((((((....))))))).......((((((.....)))))).(((((....))))).((((......))))........)))))...",
+          "pf_scale": 1.6823051297206062,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -90.85755920410156,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -86.9000015258789,
+          "mfe_structure": ".........(((((((((.......)))).))))).....((((((.((...((((......)))))).)))))).......((((((((.....))).............(((.((.(((...++.++.++.+~))))).))).)))))..............(((((((((((((((....))))))).......((((((.....)))))).(((((....))))).((((......))))......))))))))..",
+          "pf_scale": 1.7865047051404512,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "AACCCUAAACAUGCGCUUCUUUACUAGGCUGUAUGCAUAUUAGCUAUCCCUAGGGCAAAUAGGCCCGGCUAGCUACCUAUCCGUUACAUCUACUUGAUACUAAAUCUUGAUGAGUUGUGGUAAUGGAGGAGGAGGAUCCAUCUCGGUAACCAACCUAUAUAUUCUGGGGUGGGUUUGAUACUAAUCAGACAUCUAGAGUUCACAGGGCGUGAGCCCGGUCUCAGGACCGACGCUUAUAUCGGCGACGCUACCAUCCUACG"
+    },
+    {
+      "length": 260,
+      "name": "mixed_disrupt260",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -76.4981460571289,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -72.0,
+          "mfe_structure": ".........(((((((((.......)))).))))).....((((((.((...((((......)))))).))))))(((.((.(((((....(((((((.....))).....))))....))))).))..)))((((((((((((((.................)))))))))(((((((....))))))).......((((((.....)))))).(((((....))))).((((......))))........)))))...",
+          "pf_scale": 1.6173170362209517,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -76.4981460571289,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -72.0,
+          "mfe_structure": ".........(((((((((.......)))).))))).....((((((.((...((((......)))))).))))))(((.((.(((((....(((((((.....))).....))))....))))).))..)))((((((((((((((.................)))))))))(((((((....))))))).......((((((.....)))))).(((((....))))).((((......))))........)))))...",
+          "pf_scale": 1.6173170362209517,
+          "pf_structure_annotation": ""
+        }
+      },
+      "sequence": "AACCCUAAACAUGCGCUUCUUUACUAGGCUGUAUGCAUAUUAGCUAUCCCUAGGGCAAAUAGGCCCGGCUAGCUACCUAUCCGUUACAUCUACUUGAUACUAAAUCUUGAUGAGUUGUGGUAAUAGAGGAGGAGGAUCCAUCUCGGUAACCAACCUAUAUAUUCUGGGGUGGGUUUGAUACUAAUCAGACAUCUAGAGUUCACAGGGCGUGAGCCCGGUCUCAGGACCGACGCUUAUAUCGGCGACGCUACCAUCCUACG"
+    }
+  ],
+  "benchmark": [
+    {
+      "length": 46,
+      "mean_seconds": 0.03144396666417985,
+      "name": "allA46",
+      "two_ensemble_seconds": [
+        0.03162919999886071,
+        0.02867289999994682,
+        0.03402979999373201
+      ]
+    },
+    {
+      "length": 46,
+      "mean_seconds": 0.03250153333404645,
+      "name": "mixed_GQ46",
+      "two_ensemble_seconds": [
+        0.03337509999983013,
+        0.03232679999928223,
+        0.031802700003026985
+      ]
+    },
+    {
+      "length": 150,
+      "mean_seconds": 0.05016956666804617,
+      "name": "allA150",
+      "two_ensemble_seconds": [
+        0.04400220000388799,
+        0.05158010000013746,
+        0.05492640000011306
+      ]
+    },
+    {
+      "length": 150,
+      "mean_seconds": 0.15313463333344166,
+      "name": "mixed_GQ150",
+      "two_ensemble_seconds": [
+        0.15382339999632677,
+        0.16331780000473373,
+        0.14226269999926444
+      ]
+    },
+    {
+      "length": 190,
+      "mean_seconds": 0.08941039999869342,
+      "name": "allA190",
+      "two_ensemble_seconds": [
+        0.06489739999960875,
+        0.10752150000189431,
+        0.09581229999457719
+      ]
+    },
+    {
+      "length": 190,
+      "mean_seconds": 0.36614346666707814,
+      "name": "mixed_GQ190",
+      "two_ensemble_seconds": [
+        0.43974100000195904,
+        0.4097799000010127,
+        0.24890949999826262
+      ]
+    },
+    {
+      "length": 260,
+      "mean_seconds": 0.11388796666869894,
+      "name": "allA260",
+      "two_ensemble_seconds": [
+        0.13080900000204565,
+        0.10857380000379635,
+        0.10228110000025481
+      ]
+    },
+    {
+      "length": 260,
+      "mean_seconds": 0.41125939999862265,
+      "name": "mixed_GQ260",
+      "two_ensemble_seconds": [
+        0.4095247000004747,
+        0.401396899993415,
+        0.4228566000019782
+      ]
+    }
+  ],
+  "cost_excludes_IO_cache_birth_checks_feature_assembly_and_concurrent_contention": true,
+  "elapsed_seconds": 10.327829099995142,
+  "fold_only_extrapolation_minutes": 77.11406108662398,
+  "fold_only_with_50pct_margin_minutes": 115.67109162993597,
+  "future_production_authorized": false,
+  "independent_GQ_only_partition_checks": [
+    {
+      "name": "allA32",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        }
+      },
+      "reference": {
+        "G_kcal_mol": -0.0,
+        "Z": 1.0,
+        "admissible_patterns": 0,
+        "expected_GQ_count": 0.0,
+        "native_rule_max_relative_error": 0.0,
+        "probability_at_least_one": 0.0
+      },
+      "sequence": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "name": "one2layer",
+      "native": {
+        "G_on_minus_off": -18.0,
+        "modeled_at_least_one_GQ_probability": 0.9999999999997929,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "...........",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -18.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -18.0,
+          "mfe_structure": "++.++.++.+~",
+          "pf_scale": 17.131271160532467,
+          "pf_structure_annotation": ""
+        }
+      },
+      "reference": {
+        "G_kcal_mol": -18.000000000000128,
+        "Z": 4828566400274.946,
+        "admissible_patterns": 1,
+        "expected_GQ_count": 0.9999999999997929,
+        "native_rule_max_relative_error": 0.0,
+        "probability_at_least_one": 0.9999999999997929
+      },
+      "sequence": "GGAGGAGGAGG"
+    },
+    {
+      "name": "disrupted",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "...........",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "...........",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        }
+      },
+      "reference": {
+        "G_kcal_mol": -0.0,
+        "Z": 1.0,
+        "admissible_patterns": 0,
+        "expected_GQ_count": 0.0,
+        "native_rule_max_relative_error": 0.0,
+        "probability_at_least_one": 0.0
+      },
+      "sequence": "GAAGGAGGAGG"
+    },
+    {
+      "name": "one3layer",
+      "native": {
+        "G_on_minus_off": -36.0,
+        "modeled_at_least_one_GQ_probability": 1.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "...............",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -36.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -36.0,
+          "mfe_structure": "+++.+++.+++.++~",
+          "pf_scale": 64.49975490429446,
+          "pf_structure_annotation": ""
+        }
+      },
+      "reference": {
+        "G_kcal_mol": -36.0,
+        "Z": 2.33150534818545e+25,
+        "admissible_patterns": 17,
+        "expected_GQ_count": 1.0,
+        "native_rule_max_relative_error": 9.275601760035486e-16,
+        "probability_at_least_one": 1.0
+      },
+      "sequence": "GGGAGGGAGGGAGGG"
+    },
+    {
+      "name": "long_linker",
+      "native": {
+        "G_on_minus_off": 0.0,
+        "modeled_at_least_one_GQ_probability": 0.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": ".....................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": ".....................................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        }
+      },
+      "reference": {
+        "G_kcal_mol": -0.0,
+        "Z": 1.0,
+        "admissible_patterns": 1,
+        "expected_GQ_count": 7.632509161540735e-20,
+        "native_rule_max_relative_error": 0.0,
+        "probability_at_least_one": 0.0
+      },
+      "sequence": "GGAAAAAAAAAAAAAAAGGAAAAAAAAAAAAAAAGGAAAAAAAAAAAAAAAGG"
+    },
+    {
+      "name": "two_disjoint",
+      "native": {
+        "G_on_minus_off": -36.0,
+        "modeled_at_least_one_GQ_probability": 1.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": ".......................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -36.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -36.0,
+          "mfe_structure": "++.++.++.+~.++.++.++.+~",
+          "pf_scale": 15.140721243137696,
+          "pf_structure_annotation": ""
+        }
+      },
+      "reference": {
+        "G_kcal_mol": -36.00000000000064,
+        "Z": 2.331505348187864e+25,
+        "admissible_patterns": 70,
+        "expected_GQ_count": 1.9999999999989644,
+        "native_rule_max_relative_error": 2.9116757561866574e-22,
+        "probability_at_least_one": 1.0
+      },
+      "sequence": "GGAGGAGGAGGAGGAGGAGGAGG"
+    },
+    {
+      "name": "allG32",
+      "native": {
+        "G_on_minus_off": -108.42720031738281,
+        "modeled_at_least_one_GQ_probability": 1.0,
+        "off": {
+          "G_kcal_mol": -0.0,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": 0.0,
+          "mfe_structure": "................................",
+          "pf_scale": 1.0,
+          "pf_structure_annotation": ""
+        },
+        "on": {
+          "G_kcal_mol": -108.42720031738281,
+          "kT_kcal_mol": 0.6163207755,
+          "mfe_kcal_mol": -108.0,
+          "mfe_structure": "+++++++.+++++++.+++++++.++++++~.",
+          "pf_scale": 350.50242575931276,
+          "pf_structure_annotation": ""
+        }
+      },
+      "reference": {
+        "G_kcal_mol": -108.42720227596305,
+        "Z": 2.534779214915411e+76,
+        "admissible_patterns": 21186,
+        "expected_GQ_count": 1.0,
+        "native_rule_max_relative_error": 2.845367262339213e-14,
+        "probability_at_least_one": 1.0
+      },
+      "sequence": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+    }
+  ],
+  "labels_read": false,
+  "maximum_NEXT_gquad_off_API_energy_error": 0.0,
+  "maximum_compute_bpp_energy_parity_error": 0.0,
+  "models_fit": 0,
+  "models_read": false,
+  "nesting_certification": "source-reviewed unchanged ordinary weights plus nonnegative added GQ grammar; native synthetic corroboration",
+  "opaque_parameter_fields_not_compared_by_value": [
+    "mismatchExt",
+    "mismatchI",
+    "mismatchH",
+    "mismatchM",
+    "mismatch1nI",
+    "mismatch23I",
+    "int11",
+    "int21",
+    "int22"
+  ],
+  "opaque_parameter_independence_basis": "official flag-independent generation source plus ordinary-structure energy evaluation parity; no unsafe pointer reinterpretation",
+  "ordinary_parameter_fields_equal": [
+    "stack",
+    "hairpin",
+    "bulge",
+    "internal_loop",
+    "dangle5",
+    "dangle3",
+    "ninio",
+    "MLbase",
+    "MLintern",
+    "MLclosing",
+    "TerminalAU",
+    "DuplexInit",
+    "Tetraloop_E",
+    "Triloop_E",
+    "Hexaloop_E",
+    "SaltStack",
+    "SaltLoop",
+    "SaltMLbase",
+    "SaltMLclosing",
+    "SaltDPXInit",
+    "lxc"
+  ],
+  "ordinary_weight_checks": [
+    {
+      "max_energy_weight_error_kcal": 0.0,
+      "ordinary_structures": 20,
+      "sequence": "GGGAAACCC"
+    },
+    {
+      "max_energy_weight_error_kcal": 0.0,
+      "ordinary_structures": 70,
+      "sequence": "GGGGAAAAACCCC"
+    },
+    {
+      "max_energy_weight_error_kcal": 0.0,
+      "ordinary_structures": 507,
+      "sequence": "GGAGGAGGAGGCCCCC"
+    },
+    {
+      "max_energy_weight_error_kcal": 0.0,
+      "ordinary_structures": 39,
+      "sequence": "GCGCAUACGCGC"
+    }
+  ],
+  "prior_metadata_allele_counts_for_resource_estimate_only": {
+    "46": 742,
+    "150": 9318,
+    "190": 3991,
+    "260": 4169
+  },
+  "project_alleles_folded": 0,
+  "runtime": {
+    "binary_recompiled_from_inspected_source": false,
+    "files": {
+      "data/interim/mechanism_v2/runtime/RNA/RNA.py": "a8dab82efec718e2c5bc77767ff17f1f9b91bbfcabb2313ffe4ced1855389406",
+      "data/interim/mechanism_v2/runtime/RNA/_RNA.cp312-win_amd64.pyd": "f4527b33266412fbe23b1bc49ddb422693a5d81c3c784c69d8e2ba3d7642b7c2",
+      "data/interim/mechanism_v2/runtime/RNA/__init__.py": "57393341520925355f766c68dea057ebf699317b99bf84f802344522c493327d",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/METADATA": "4073bcbb3e3df333e6d2f8b9c5dbe2826bd76934ff57bbe76e7fad24082198c1",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/RECORD": "6a2f5705271ae7ea636c10eb2580985db6018dbdaba5d3552a89cdd64d8e7b64",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/WHEEL": "f143fdc7da6e588d0fd55fddecada831306a7de2cd9b6d424f367f3edaf43575",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/licenses/AUTHORS": "0ec9170c6eac7f29b04fb01501ffdc7a9751d99fc371d13cd48c6cdf5d753ff6",
+      "data/interim/mechanism_v2/runtime/viennarna-2.7.2.dist-info/licenses/COPYING": "7776cce4c6155eba82ea6bcb5c108f25b9fb0f604664421bfd6da94930028d8c",
+      "reports/v2_rescue_preregistration.md": "4cdbf5749fde5fcd88c2d20e67b0044382eb010e40e018bdc28afe6588b23fc5",
+      "src/generalization_next_20261007/route_structure.py": "07fcc17553f7a48160b2b47c7c6e265707941659431f22dac79dab3911d02548",
+      "src/modeling/v2_features.py": "f47401e5a517417f059db2e1a706eab7366625b2f15408aa80af3b5fdc9f5805"
+    },
+    "installed_RECORD_matches_selected_files": true,
+    "pf_native_uses_float32": false,
+    "source_native_parity_scope": "version/package RECORD plus independent synthetic API/grammar parity; not a reproducible binary build",
+    "version": "2.7.2"
+  },
+  "scope": "SYNTHETIC_BACKEND_FEASIBILITY_ONLY",
+  "source_code_and_declared_protocol": {
+    "reports/generalization_gquad_feasibility_20261007/feasibility_protocol.md": "bf7896b14142b9054bbcf4641c7c4845855acbdbba05aee8d336cfa7519e3ac7",
+    "src/generalization_gquad_feasibility_20261007/__init__.py": "6266666a63e1819f0a8022e1502d99f5c70512964674a6691062342b5968d1d5",
+    "src/generalization_gquad_feasibility_20261007/backend.py": "12a9cdae5046f9a18ccb4f0dabdc36bb5c75e9076edbb04f85401aa1d93e7087",
+    "src/generalization_gquad_feasibility_20261007/source_fetch.py": "ef3b5ef5d26fe7bd06e10b61c32cce9e6def86d8a063ee925e96e87cca7c6a3e",
+    "src/generalization_gquad_feasibility_20261007/source_fetch_recurrences.py": "07b0d04d5ebb6335327425ab17e7b3acecdf79c5a09e4988c8a26f751c065830",
+    "src/generalization_gquad_feasibility_20261007/tests.py": "82c0bcddef66c1935c3a2ed043cc31862effff76978d8fe8bf3afbd202e3e356"
+  },
+  "source_files": {
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/COPYING": "7776cce4c6155eba82ea6bcb5c108f25b9fb0f604664421bfd6da94930028d8c",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/doc/source/modules/gquads.rst": "72339b348d172628363c40a5db6a11d871e45557ccbaa31e1938c3bed03f1be5",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/doc/source/tutorial/RNAfold.rst": "ea78ea93c078be6feda4c78baf54dab3492d60e62c0c6b3bd107518980587057",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/backtrack/bt_gquad.c": "6dc867c21e329581bf3477ace59d8ca3d3c596b0e467a3314a6e56898268cf44",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/backtrack/gquad.h": "79f46d469337add1f81ce5eea2a468223b2f26b96e7c1de77e2cbda5cb68b453",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/eval_gquad.c": "95e55627b8b0f84de44b1a18be8d7209329928d98d5de2d1f9c4ea9bb21fdfbb",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/eval_structures.c": "054e8c3118d9d5aa424b6c2cee47ab3a7e55a48302916607e4bc8c17b570ca3f",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/exp_eval_exterior.c": "da58778e4775892dec4864b41a3d1d5eb57044fda73cb3eb10fbc8086319677e",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/exp_eval_hairpin.c": "7f90960331dfd3abfb265face5e5a996951b54b2dcc01a22dcf1ffbb54473289",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/exp_eval_internal.c": "1f01d3b371ec84268c3ec534e04b22ec2b0783e6e58dfcd04efe6888001b0d91",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/exp_eval_multibranch.c": "975f4a30700fb2f06ff0903ef400d4c03df80da62f9ac8c2448a9990632c0c67",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/gquad.h": "5901010e67203d5888cdb9eb1650a515186b66940edf1f9ef5a0d239dd63f8cd",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/gquad.h": "15b795f1dd06f0ed34c85fa790df5c016f43942ef97aaf8dda5e9d4434ebef92",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/intern/gquad_helpers.h": "400cc1b35306fccbe3e33ec5cfd3fb0a6b2bf1f6bea21eadc580408a72f105e5",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/mfe/gquad.h": "9d22548c86e434cb148f0ba3ac9f79e2fbe2e300afa27aefae279408f1aa581b",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/mfe/mfe_gquad.c": "f7b561c06224dbbd1f8d2e0212996b09afb69083cc1aea564a3d99ac995a7637",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/model.c": "7c6044992b7507f2e251c1e5b484eda7b6cc9de8a7e805929918d2b977e03df6",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/model.h": "722cca842f28b9e64fe067a0217c30b1e6e2714fd6c453fcfd989790a9ee6ab7",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/params/basic.h": "31985a891086dfbac52a22e6e6d7a0234c2007fc42d7f59579b62013e4186460",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/params/constants.h": "971d66b3955aa74bc0d7ad8f51f9314b725d98ef5233f4a14a6ff4678673b393",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/params/params.c": "a6da5b5038e07c6b4b0b843429115db84b6bcb8b48e51074f3180d2842358e7a",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/gquad.h": "4903efa2ce7dbc049889ac43cb0a5d2165a96265eef250407497b7832339152e",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/partfunc.c": "6b7f4d3ffcba94fc1d8e6fb8b462babc7640ffd77863f8172b333d3861e3a847",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/pf_exterior.c": "e1e74e15aa03a3de31392458b5f2db83d3a5a12f4493ac64faaef6b80e3e2564",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/pf_gquad.c": "a8effb31c66c7df688b7be48205bb8957ed4578ae7fc94a1b6bd474d7306703e",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/pf_internal.c": "8d69104e79625603d2991b7ff4cc0c3f455b4b6bfeea6efa50eeaa97d3257d9e",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/pf_multibranch.c": "816bdee49a1839f3c0727f7368385c199720e7433a196fb63e964084390008d5",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/subopt/gquad.h": "5cdfeacc770d8173ed6b9f03a0b5d3d791fc8f1e159607d8a5c4f64d070d8942",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/subopt/subopt.c": "e48d06b7acc1d4485df4a4472c54f1ba838aa0199b04e19ae3c4e3c0d0f799ae",
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/subopt/subopt_gquad.c": "27e9db77f2e7350dfe3c249f855179d9920de7d8e5d14a0610acfb6e94fed61c"
+  },
+  "spec": {
+    "API_relative_tolerance": 1e-06,
+    "GU_closures": true,
+    "GU_pairs": true,
+    "ViennaRNA": "2.7.2",
+    "betaScale": 1.0,
+    "circular": false,
+    "dangles": 2,
+    "energy_absolute_tolerance": 1e-06,
+    "event": "at least one modeled intramolecular GQ anywhere in exact input",
+    "event_absolute_tolerance": 2e-06,
+    "event_formula": "-expm1((G_on-G_off)/(native_exp_params.kT/1000))",
+    "event_formula_requires_unchanged_weight_nesting": true,
+    "event_relative_tolerance": 2e-05,
+    "in_cell_occupancy_claim": false,
+    "local_occupancy_from_bpp": false,
+    "max_bp_span": -1,
+    "min_loop_size": 3,
+    "only_ensemble_difference": "md.gquad=0 vs1",
+    "parameters": "explicit RNA Turner2004",
+    "project_production_authorized": false,
+    "random_seed": 20261007,
+    "salt_M": 1.021,
+    "supervised_fitting_authorized": false,
+    "synthetic_lengths": [
+      46,
+      150,
+      190,
+      260
+    ],
+    "temperature_C": 37.0,
+    "threads": 1,
+    "version": "synthetic_global_gquad_nesting_audit_v1"
+  },
+  "status": "PASS",
+  "synthetic_edit_forward_delta": [
+    18.0,
+    -0.9999999999997929
+  ],
+  "synthetic_edit_reverse_delta": [
+    -18.0,
+    0.9999999999997929
+  ],
+  "synthetic_no_edit_delta": [
+    0.0,
+    0.0
+  ]
+}

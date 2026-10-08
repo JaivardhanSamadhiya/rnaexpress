@@ -1,0 +1,33 @@
+{
+  "conservation_values_read": false,
+  "coordinate_unique_interventions": 1164,
+  "files": {
+    "results/generalization_conservation_feasibility_20261007/pilot_edited_site_metadata.json": "cd92d4b69826d57a98fa7dd923ee5e2ec762e346863d24e8ebbe9b183280a2b9",
+    "results/generalization_conservation_feasibility_20261007/pilot_parent_mappings.json": "378b0ee7dc534894926c0e1c0dc660f3fb1a563e10cbd9ebe78b7c81a5ce357b"
+  },
+  "interpretation": "Unique among admitted gene/transcript candidates on pinned mm10/reference bytes; not genome-wide uniqueness, final reporter/transcript-version certification, conservation direction or independent biology",
+  "models_fit": 0,
+  "outcomes_read": false,
+  "parent_status_counts": {
+    "no_exact_source_utr": 5,
+    "reference_site_vector_unique": 8
+  },
+  "pilot_design_manifest_sha256": "2013b952034f556aac3ecd31a8a937f90b3b72b5722027ea6e44713733619327",
+  "pilot_interventions": 5701,
+  "pilot_parents": 13,
+  "preservation_before_and_after": true,
+  "region_bases_downloaded": 371056,
+  "remote_reference_receipts": {
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_knownGene.json.receipt.json": "4deab85d3403eb06aafebcf2833b1bc5ec870340b182e7435d8c860aeeb5db46",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr1_86045862_86055456_sequence.json.receipt.json": "f26dbcfb06d22f466a33da3ac217318cfdecec944219955160f64ff2299d7134",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_knownGene.json.receipt.json": "13129e6c94ba8b1bf20cb2d530d23d144db54386fb51157ee3c3b607c2e1d7c7",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_102658658_102790784_sequence.json.receipt.json": "c4847a9e2e9c44396f616fb2af15c294b1cba787bf2c2457810787f4c5de5212",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_knownGene.json.receipt.json": "c59a3b349deaffeb0e22055cb0d48a2d89c74fcc2aed1f34fd87622eef9fce90",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr2_115863063_116065839_sequence.json.receipt.json": "eff678268e1292db59bbaaa497f133237fd8067e5308dceb2d86fdd8cdd1cb09",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_knownGene.json.receipt.json": "919891a0e04c7cc038bad9111b0670115b1f5da96fa1aff8544060dae72b1fe5",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_chr4_128583538_128610098_sequence.json.receipt.json": "f56f54c45fa0ee5b5cf719fd08aa4369b759d9531d73c64903727da5c5c652db",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_knownGene_schema.json.receipt.json": "8d144960d7c38244ef0c5284827d258bd28990bb43052c60297af5ccfb94d866",
+    "artifacts/generalization_conservation_feasibility_20261007/public_metadata/mm10_tracks.json.receipt.json": "10f721b18ff428aae85ef8a18e417d1dd3eff935e957d84c7740388ebe91333a"
+  },
+  "status": "COMPLETED_COORDINATE_FEASIBILITY_ONLY"
+}

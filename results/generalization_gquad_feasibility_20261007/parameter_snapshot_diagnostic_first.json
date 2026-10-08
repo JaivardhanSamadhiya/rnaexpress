@@ -1,0 +1,43 @@
+{
+  "backend_source_sha": "f6bb986d51126f5444d9d94d4b0acf608aa0816dbea1be18a560461d6629c2bc",
+  "biological_negative": false,
+  "directly_exposed_value_fields_equal": [
+    "stack",
+    "hairpin",
+    "bulge",
+    "internal_loop",
+    "dangle5",
+    "dangle3",
+    "ninio",
+    "MLbase",
+    "MLintern",
+    "MLclosing",
+    "TerminalAU",
+    "DuplexInit",
+    "Tetraloop_E",
+    "Triloop_E",
+    "Hexaloop_E",
+    "SaltStack",
+    "SaltLoop",
+    "SaltMLbase",
+    "SaltMLclosing",
+    "SaltDPXInit",
+    "lxc"
+  ],
+  "failure": "initial full snapshot compared SWIG opaque pointers by address, not ordinary parameter values; diagnostic JSON initial save also rejected opaque objects",
+  "labels_read": false,
+  "models_fit": 0,
+  "opaque_fields": [
+    "mismatchExt",
+    "mismatchI",
+    "mismatchH",
+    "mismatchM",
+    "mismatch1nI",
+    "mismatch23I",
+    "int11",
+    "int21",
+    "int22"
+  ],
+  "project_alleles_folded": 0,
+  "status": "WRAPPER_POINTER_IDENTITY_ERROR"
+}

@@ -1,0 +1,122 @@
+{
+  "labels_read": false,
+  "models_fit": 0,
+  "official_tree_sha": "1ffec79f5e258896160f7362ced8263450f371dc",
+  "project_alleles_folded": false,
+  "public_free_official_source_only": true,
+  "remote_code_executed": false,
+  "requested_tag": "v2.7.2",
+  "source_files": {
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/COPYING": {
+      "bytes": 771,
+      "git_blob_sha1": "a56387f6b457777a681fdfb52e7f7f15b47a35b0",
+      "sha256": "7776cce4c6155eba82ea6bcb5c108f25b9fb0f604664421bfd6da94930028d8c",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/COPYING"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/doc/source/modules/gquads.rst": {
+      "bytes": 614,
+      "git_blob_sha1": "9be20d608fbac2c9da9b86d0c24db459c646064e",
+      "sha256": "72339b348d172628363c40a5db6a11d871e45557ccbaa31e1938c3bed03f1be5",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/doc/source/modules/gquads.rst"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/doc/source/tutorial/RNAfold.rst": {
+      "bytes": 35205,
+      "git_blob_sha1": "07c12b5491fe0e443eaabfc74c9f4d0ed6d84d04",
+      "sha256": "ea78ea93c078be6feda4c78baf54dab3492d60e62c0c6b3bd107518980587057",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/doc/source/tutorial/RNAfold.rst"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/backtrack/bt_gquad.c": {
+      "bytes": 27128,
+      "git_blob_sha1": "90ec85a364c36338f5acdc07dee1454da4179a0f",
+      "sha256": "6dc867c21e329581bf3477ace59d8ca3d3c596b0e467a3314a6e56898268cf44",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/backtrack/bt_gquad.c"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/backtrack/gquad.h": {
+      "bytes": 4461,
+      "git_blob_sha1": "61e6148b47cee5ea8640793ee3ed964bac4b8ef8",
+      "sha256": "79f46d469337add1f81ce5eea2a468223b2f26b96e7c1de77e2cbda5cb68b453",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/backtrack/gquad.h"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/eval_gquad.c": {
+      "bytes": 16180,
+      "git_blob_sha1": "8ce6de169f7b80613ff87a839ca9052c89b6c698",
+      "sha256": "95e55627b8b0f84de44b1a18be8d7209329928d98d5de2d1f9c4ea9bb21fdfbb",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/eval/eval_gquad.c"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/eval/gquad.h": {
+      "bytes": 3306,
+      "git_blob_sha1": "52803173dced183e2054763419bcc607d002de67",
+      "sha256": "5901010e67203d5888cdb9eb1650a515186b66940edf1f9ef5a0d239dd63f8cd",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/eval/gquad.h"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/gquad.h": {
+      "bytes": 630,
+      "git_blob_sha1": "aa2b64bc9008ad68293f74f6306c0b6e8763afe9",
+      "sha256": "15b795f1dd06f0ed34c85fa790df5c016f43942ef97aaf8dda5e9d4434ebef92",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/gquad.h"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/intern/gquad_helpers.h": {
+      "bytes": 7292,
+      "git_blob_sha1": "8fc2edeadbf5bd0fe82e58aec52860efcd03d1f8",
+      "sha256": "400cc1b35306fccbe3e33ec5cfd3fb0a6b2bf1f6bea21eadc580408a72f105e5",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/intern/gquad_helpers.h"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/mfe/gquad.h": {
+      "bytes": 4343,
+      "git_blob_sha1": "709988eb9b6d39945fa5835eea4430f120e39ddb",
+      "sha256": "9d22548c86e434cb148f0ba3ac9f79e2fbe2e300afa27aefae279408f1aa581b",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/mfe/gquad.h"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/mfe/mfe_gquad.c": {
+      "bytes": 33238,
+      "git_blob_sha1": "13380c3c00b5c0daa6e0b387148c71106615c953",
+      "sha256": "f7b561c06224dbbd1f8d2e0212996b09afb69083cc1aea564a3d99ac995a7637",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/mfe/mfe_gquad.c"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/params/params.c": {
+      "bytes": 42480,
+      "git_blob_sha1": "d23547060b5d540d58234f320281f79001e2b090",
+      "sha256": "a6da5b5038e07c6b4b0b843429115db84b6bcb8b48e51074f3180d2842358e7a",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/params/params.c"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/gquad.h": {
+      "bytes": 3464,
+      "git_blob_sha1": "4354efe0ea1f76ebc71e1a60e3f78f16ea49650b",
+      "sha256": "4903efa2ce7dbc049889ac43cb0a5d2165a96265eef250407497b7832339152e",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/partfunc/gquad.h"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/partfunc.c": {
+      "bytes": 38923,
+      "git_blob_sha1": "afdd7da25abc099e021b433963a0594f4817ba55",
+      "sha256": "6b7f4d3ffcba94fc1d8e6fb8b462babc7640ffd77863f8172b333d3861e3a847",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/partfunc/partfunc.c"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/partfunc/pf_gquad.c": {
+      "bytes": 35476,
+      "git_blob_sha1": "4893932ba33f7f26e92d9025763aafb4295e6a34",
+      "sha256": "a8effb31c66c7df688b7be48205bb8957ed4578ae7fc94a1b6bd474d7306703e",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/partfunc/pf_gquad.c"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/subopt/gquad.h": {
+      "bytes": 1150,
+      "git_blob_sha1": "df8c047e3ff63f90f6db089bfd57889a810a26d3",
+      "sha256": "5cdfeacc770d8173ed6b9f03a0b5d3d791fc8f1e159607d8a5c4f64d070d8942",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/subopt/gquad.h"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/subopt/subopt.c": {
+      "bytes": 96483,
+      "git_blob_sha1": "87f4d13af784a6f229f1c68d32cd5379c8d1a519",
+      "sha256": "e48d06b7acc1d4485df4a4472c54f1ba838aa0199b04e19ae3c4e3c0d0f799ae",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/subopt/subopt.c"
+    },
+    "artifacts/generalization_gquad_feasibility_20261007/official_source/src/ViennaRNA/subopt/subopt_gquad.c": {
+      "bytes": 7419,
+      "git_blob_sha1": "0cfdb509382e64c29526f00030720d51f288ab1f",
+      "sha256": "27e9db77f2e7350dfe3c249f855179d9920de7d8e5d14a0610acfb6e94fed61c",
+      "url": "https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/1ffec79f5e258896160f7362ced8263450f371dc/src/ViennaRNA/subopt/subopt_gquad.c"
+    }
+  },
+  "status": "PASS",
+  "tree_sha256": "008e01c62e9664476b2c63ed1fef1a8a6424417ec2b9bf00a31e94b8046f6441",
+  "tree_url": "https://api.github.com/repos/ViennaRNA/ViennaRNA/git/trees/v2.7.2?recursive=1"
+}

@@ -1,0 +1,38 @@
+{
+  "AST_parses": true,
+  "backend_exhaustive_ordinary_structures": 636,
+  "files": {
+    "artifacts/generalization_gquad_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_gquad_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_gquad_feasibility_20261007/feasibility.md": "724e6b8688c4069e1c65b0e048f32fdc0cfa7f1aa4abb77ebb4e610e2e893fda",
+    "reports/generalization_gquad_feasibility_20261007/feasibility_protocol.md": "bf7896b14142b9054bbcf4641c7c4845855acbdbba05aee8d336cfa7519e3ac7",
+    "reports/generalization_gquad_feasibility_20261007/implementation_incident.md": "5bef2a1e54279b9b528b8fc746bd0e2c1bf245e8ca911d4c0276b5e6179c4119",
+    "results/generalization_gquad_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_gquad_feasibility_20261007/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_gquad_feasibility_20261007/__init__.py": "6266666a63e1819f0a8022e1502d99f5c70512964674a6691062342b5968d1d5",
+    "src/generalization_gquad_feasibility_20261007/backend.py": "12a9cdae5046f9a18ccb4f0dabdc36bb5c75e9076edbb04f85401aa1d93e7087",
+    "src/generalization_gquad_feasibility_20261007/precision.py": "b936a116820a50ceb9b5b9355166bb2e4e1c0cb55a6da80dc0563e6a7b4227b0",
+    "src/generalization_gquad_feasibility_20261007/source_fetch.py": "ef3b5ef5d26fe7bd06e10b61c32cce9e6def86d8a063ee925e96e87cca7c6a3e",
+    "src/generalization_gquad_feasibility_20261007/source_fetch_recurrences.py": "07b0d04d5ebb6335327425ab17e7b3acecdf79c5a09e4988c8a26f751c065830",
+    "src/generalization_gquad_feasibility_20261007/tests.py": "82c0bcddef66c1935c3a2ed043cc31862effff76978d8fe8bf3afbd202e3e356"
+  },
+  "labels_read": false,
+  "models_fit": 0,
+  "models_read": false,
+  "precision_synthetic_cases": 15,
+  "prior_receipts": {
+    "results/generalization_gquad_feasibility_20261007/backend_feasibility_receipt.json": "910deff9ccda32e95a0d9aa95003c25dcc22f2e6e65ea9a564732a5baaa405de",
+    "results/generalization_gquad_feasibility_20261007/official_parameter_header_receipt.json": "dd7628a8d4dc8d8851001b60dcb2eda4857bdec2f9d03b5daa78d991582f1b3c",
+    "results/generalization_gquad_feasibility_20261007/official_recurrence_source_receipt.json": "39ebb163c90006b806bcbc3b150253e9cfd46fb2bf89593abbe701ddc1fad6e4",
+    "results/generalization_gquad_feasibility_20261007/official_source_receipt.json": "8fffdbc8591f64dafcfa03578505572dbbe8083417188374c45eafba28567842",
+    "results/generalization_gquad_feasibility_20261007/parameter_snapshot_diagnostic_first.json": "2b20befc3144d1f53c9645ded4ad18bc297f8219376c9880a9fb8e638d64a2b5",
+    "results/generalization_gquad_feasibility_20261007/single_event_precision_receipt.json": "675a4fba1e40fd1b7b12083a767c34e5a874baf7d74097f18a106da57d674bbe",
+    "results/generalization_gquad_feasibility_20261007/synthetic_tests_receipt.json": "2e74428303c273ceadb5dde89da697b3e928e67aed462f3127579cc649ad87a4",
+    "results/generalization_gquad_feasibility_20261007/synthetic_tests_receipt_reviewed.json": "89d88f4e7ef2b0146972d2f158ab2348e08043e70bb660fe647cba6affdd05e0"
+  },
+  "production_authorized": false,
+  "project_alleles_folded": 0,
+  "source_modules": 6,
+  "status": "PASS_SOURCE_BINDING",
+  "synthetic_tests_passed": 18
+}
