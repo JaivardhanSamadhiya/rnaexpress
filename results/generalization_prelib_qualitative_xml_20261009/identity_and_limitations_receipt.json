@@ -1,0 +1,63 @@
+{
+  "biological_independence_certified": false,
+  "culture_transfection_harvest_batch_IDs_certified": false,
+  "explicit_shared_lysate_pairing_certified": false,
+  "further_broad_archive_pairing_search_not_justified_by_exact_record_inventory": true,
+  "library_construction_protocol_present": false,
+  "links": [
+    {
+      "experiment": "SRX22115703",
+      "experiment_title": "Input sample of U2OS cells expressing PRELibB, rep1",
+      "explicit_SRS_link": "SRS19180020",
+      "literal_library": "PRELibB.Input_1",
+      "sample": "SAMN37845841",
+      "sample_title": "Input sample of U2OS cells expressing PRELibB, rep1"
+    },
+    {
+      "experiment": "SRX22115704",
+      "experiment_title": "Input sample of U2OS cells expressing PRELibB, rep2",
+      "explicit_SRS_link": "SRS19180021",
+      "literal_library": "PRELibB.Input_2",
+      "sample": "SAMN37845842",
+      "sample_title": "Input sample of U2OS cells expressing PRELibB, rep2"
+    },
+    {
+      "experiment": "SRX22115705",
+      "experiment_title": "IP of PUM1 in U2OS cells expressing PRELibB, rep1",
+      "explicit_SRS_link": "SRS19180022",
+      "literal_library": "PRELibB.PUM1_IP_1",
+      "sample": "SAMN37845843",
+      "sample_title": "IP of PUM1 in U2OS cells expressing PRELibB, rep1"
+    },
+    {
+      "experiment": "SRX22115706",
+      "experiment_title": "IP of PUM1 in U2OS cells expressing PRELibB, rep2",
+      "explicit_SRS_link": "SRS19180023",
+      "literal_library": "PRELibB.PUM1_IP_2",
+      "sample": "SAMN37845844",
+      "sample_title": "IP of PUM1 in U2OS cells expressing PRELibB, rep2"
+    },
+    {
+      "experiment": "SRX22115707",
+      "experiment_title": "IP of PUM2 in U2OS cells expressing PRELibB, rep1",
+      "explicit_SRS_link": "SRS19180024",
+      "literal_library": "PRELibB.PUM2_IP_1",
+      "sample": "SAMN37845845",
+      "sample_title": "IP of PUM2 in U2OS cells expressing PRELibB, rep1"
+    },
+    {
+      "experiment": "SRX22115708",
+      "experiment_title": "IP of PUM2 in U2OS cells expressing PRELibB, rep2",
+      "explicit_SRS_link": "SRS19180025",
+      "literal_library": "PRELibB.PUM2_IP_2",
+      "sample": "SAMN37845846",
+      "sample_title": "IP of PUM2 in U2OS cells expressing PRELibB, rep2"
+    }
+  ],
+  "metadata_records_sha256": "c54abe8c1e53a243d90aa35eb6d0bb8e710111fc1a3a2e0dec36f9d4ef245af3",
+  "models_fit": 0,
+  "paired_sequencing_layout_is_not_input_IP_pairing": true,
+  "raw_read_or_UMI_processing_reproduced": false,
+  "root_interpretation_not_independent_agent_byte_review": true,
+  "status": "PASS_SIX_EXPLICIT_EXPERIMENT_TO_SAMPLE_AND_LIBRARY_IDENTITIES"
+}

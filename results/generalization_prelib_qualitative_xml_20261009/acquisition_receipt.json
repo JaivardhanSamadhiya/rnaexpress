@@ -1,0 +1,206 @@
+{
+  "cost": 0,
+  "elapsed_seconds": 8.875,
+  "failures": [],
+  "http_records": [
+    {
+      "SHA256": "a978ca0bf781d06a032b8617e196a169f558d5b5aabe3cb5171559418999aee0",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115703",
+      "UTC": "2026-10-09T19:10:44.322419+00:00",
+      "bytes": 2487,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:44 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115703",
+      "status": 200
+    },
+    {
+      "SHA256": "30234f2a7ea534881b6aeddd2edf94ce98c4f58b04a2efa9cd996c29a5cb12c7",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115704",
+      "UTC": "2026-10-09T19:10:45.019847+00:00",
+      "bytes": 2487,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:45 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115704",
+      "status": 200
+    },
+    {
+      "SHA256": "a0135017783c60e761fbfb300cc15ae4173e644ca1637e7a258ab2d6ee7c92e1",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115705",
+      "UTC": "2026-10-09T19:10:45.804119+00:00",
+      "bytes": 2493,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:46 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115705",
+      "status": 200
+    },
+    {
+      "SHA256": "ad84699a2216c5c6ba955f5b2a4642548a8fc34197b591240edd9dab0c11ebd6",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115706",
+      "UTC": "2026-10-09T19:10:46.510468+00:00",
+      "bytes": 2493,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:46 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115706",
+      "status": 200
+    },
+    {
+      "SHA256": "0411e66638348a557958e5325ab1919d7453170d079fa149fbd171946d58760c",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115707",
+      "UTC": "2026-10-09T19:10:47.241864+00:00",
+      "bytes": 2493,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:47 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115707",
+      "status": 200
+    },
+    {
+      "SHA256": "92a9959070274555539e64c1c5f786ed9b0ee6a1b01143790b3b2b0000428a38",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115708",
+      "UTC": "2026-10-09T19:10:47.947742+00:00",
+      "bytes": 2493,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:48 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115708",
+      "status": 200
+    },
+    {
+      "SHA256": "527374cf14be7ea426d4136d993c0bf5db2fc96b042980ac848f7b019c45be42",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845841",
+      "UTC": "2026-10-09T19:10:48.710499+00:00",
+      "bytes": 3615,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:48 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845841",
+      "status": 200
+    },
+    {
+      "SHA256": "19ff9712e2a2e98d9a401adbeaa4a6dcb0b71f0dd1484cadc928295957b6300c",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845842",
+      "UTC": "2026-10-09T19:10:49.437144+00:00",
+      "bytes": 3615,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:49 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845842",
+      "status": 200
+    },
+    {
+      "SHA256": "4d217e565abe75e7e76766599c6cee02e8f779df3bfed5b1fad1ed0d5318105f",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845843",
+      "UTC": "2026-10-09T19:10:50.084278+00:00",
+      "bytes": 3613,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:50 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845843",
+      "status": 200
+    },
+    {
+      "SHA256": "b9a531538349daeb869570db645d20152c8cd263bc26d64b3da10212153d937d",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845844",
+      "UTC": "2026-10-09T19:10:50.795860+00:00",
+      "bytes": 3613,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:51 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845844",
+      "status": 200
+    },
+    {
+      "SHA256": "9d501f3b8190afc2c7904d662af0891a2547f1cfc0b8ea6695389d62a7eadc7b",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845845",
+      "UTC": "2026-10-09T19:10:51.461015+00:00",
+      "bytes": 3613,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:51 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845845",
+      "status": 200
+    },
+    {
+      "SHA256": "32d600a6f08be9d4443bd47031b1224466890cf0eab496054031ec317fac3cc9",
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845846",
+      "UTC": "2026-10-09T19:10:52.153748+00:00",
+      "bytes": 3613,
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/xml",
+        "Date": "Fri, 09 Oct 2026 19:10:52 GMT",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Origin",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "response_URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845846",
+      "status": 200
+    }
+  ],
+  "manifest_sha256": "c2d51b05bd9d5c70076f8eef4e8d166d3e74e37a82ff47aea762bec4dab889c6",
+  "metadata_only_no_FASTQ_or_assay_count_requests": true,
+  "models_fit": 0,
+  "objects": 12,
+  "original_feature_model_floors_unchanged": true,
+  "records_sha256": "c54abe8c1e53a243d90aa35eb6d0bb8e710111fc1a3a2e0dec36f9d4ef245af3",
+  "status": "PASS_TWELVE_FIXED_METADATA_OBJECTS"
+}

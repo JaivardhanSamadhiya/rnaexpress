@@ -1,0 +1,9 @@
+{
+  "biological_labels_read_for_test": false,
+  "explanation": "ACGT order, 4 single+16 double columns, TGT3mer offset3*16+2*4+3=59, total79. Production uses named index lookup and was unchanged.",
+  "incorrect_expected_TGT_index": 67,
+  "lexicographic_actual_TGT_index": 79,
+  "models_fit": 0,
+  "status": "INVENTED_TEST_EXPECTATION_ERROR_PRESERVED_BEFORE_FITS",
+  "test": "test_feature_width_and_order"
+}

@@ -1,0 +1,35 @@
+{
+  "PRELib_sequence_rows": 4070,
+  "backgrounds": 16,
+  "canonical_datasets": {
+    "astrocyte_gse330741": 3984,
+    "mikl_gse173098": 13781,
+    "moffatt_gse334718": 6749,
+    "srle": 1744
+  },
+  "canonical_rows": 26258,
+  "cross_lineage_sequence_groups": 0,
+  "exact_sequence_match_records_including_RC": 0,
+  "genomic_identity_of_all_lineages_or_partial_overlap_homology_certified": false,
+  "literal_gene_match_records": 0,
+  "manifest_sha256": "8a3edfa95c18a57e759106162ad4dbf97787519706bc4b2788adea33d45e8422",
+  "models_fit": 0,
+  "nominal_lineages": [
+    "AP1S1",
+    "HIAT1",
+    "IRF2BP1",
+    "MGEA5",
+    "NORAD",
+    "PGBD4",
+    "SMARCA2"
+  ],
+  "numeric_outcomes_converted_or_analyzed": false,
+  "only_selected_metadata_columns_used": true,
+  "parent_fragment61_match_groups": 0,
+  "points": 4054,
+  "records_sha256": "eeda566b169a8af45cf52d97e926eb4cec6634e670382b952556e3c67da17bd7",
+  "reserved_outcomes_read": false,
+  "status": "PASS_DECLARED_METADATA_AUDIT",
+  "training_pairs_admitted": 0,
+  "whole_CSV_bytes_contain_previously_exposed_development_labels": true
+}

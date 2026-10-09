@@ -1,0 +1,1100 @@
+{
+  "links_followed": 0,
+  "lysate_pairing_not_inferred_from_suffixes_or_layout": true,
+  "only_selected_metadata_fields_decoded": true,
+  "records": [
+    {
+      "DESIGN_DESCRIPTION": "Amplicon-specific RT-PCR, as described in Lubelsky and Ulitsky Nature 2022",
+      "EXPERIMENT_ATTRIBUTES": [
+        {
+          "TAG": "ENA-STATUS",
+          "UNITS": null,
+          "VALUE": "PUBLIC"
+        }
+      ],
+      "LIBRARY_CONSTRUCTION_PROTOCOL": null,
+      "LIBRARY_LAYOUT": [
+        {
+          "attributes": {},
+          "tag": "PAIRED"
+        }
+      ],
+      "LIBRARY_NAME": "PRELibB.Input_1",
+      "POOLING_STRATEGY": null,
+      "SAMPLE_DESCRIPTOR": {
+        "attributes": {
+          "accession": "SRS19180020"
+        },
+        "identifiers": [
+          {
+            "attributes": {},
+            "tag": "PRIMARY_ID",
+            "text": "SRS19180020"
+          },
+          {
+            "attributes": {
+              "namespace": "pda|ulitskyi@gmail.com"
+            },
+            "tag": "SUBMITTER_ID",
+            "text": "PRELibB.Input_1"
+          }
+        ]
+      },
+      "STUDY_REF": {
+        "accession": "SRP466797"
+      },
+      "TITLE": "Input sample of U2OS cells expressing PRELibB, rep1",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SRX22115703"
+        },
+        {
+          "attributes": {
+            "namespace": "SUB13903632"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.Input_1"
+        }
+      ],
+      "requested_accession": "SRX22115703",
+      "returned_attributes": {
+        "accession": "SRX22115703",
+        "alias": "PRELibB.Input_1",
+        "broker_name": "NCBI",
+        "center_name": "SUB13903632"
+      }
+    },
+    {
+      "DESIGN_DESCRIPTION": "Amplicon-specific RT-PCR, as described in Lubelsky and Ulitsky Nature 2022",
+      "EXPERIMENT_ATTRIBUTES": [
+        {
+          "TAG": "ENA-STATUS",
+          "UNITS": null,
+          "VALUE": "PUBLIC"
+        }
+      ],
+      "LIBRARY_CONSTRUCTION_PROTOCOL": null,
+      "LIBRARY_LAYOUT": [
+        {
+          "attributes": {},
+          "tag": "PAIRED"
+        }
+      ],
+      "LIBRARY_NAME": "PRELibB.Input_2",
+      "POOLING_STRATEGY": null,
+      "SAMPLE_DESCRIPTOR": {
+        "attributes": {
+          "accession": "SRS19180021"
+        },
+        "identifiers": [
+          {
+            "attributes": {},
+            "tag": "PRIMARY_ID",
+            "text": "SRS19180021"
+          },
+          {
+            "attributes": {
+              "namespace": "pda|ulitskyi@gmail.com"
+            },
+            "tag": "SUBMITTER_ID",
+            "text": "PRELibB.Input_2"
+          }
+        ]
+      },
+      "STUDY_REF": {
+        "accession": "SRP466797"
+      },
+      "TITLE": "Input sample of U2OS cells expressing PRELibB, rep2",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SRX22115704"
+        },
+        {
+          "attributes": {
+            "namespace": "SUB13903632"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.Input_2"
+        }
+      ],
+      "requested_accession": "SRX22115704",
+      "returned_attributes": {
+        "accession": "SRX22115704",
+        "alias": "PRELibB.Input_2",
+        "broker_name": "NCBI",
+        "center_name": "SUB13903632"
+      }
+    },
+    {
+      "DESIGN_DESCRIPTION": "Amplicon-specific RT-PCR, as described in Lubelsky and Ulitsky Nature 2022",
+      "EXPERIMENT_ATTRIBUTES": [
+        {
+          "TAG": "ENA-STATUS",
+          "UNITS": null,
+          "VALUE": "PUBLIC"
+        }
+      ],
+      "LIBRARY_CONSTRUCTION_PROTOCOL": null,
+      "LIBRARY_LAYOUT": [
+        {
+          "attributes": {},
+          "tag": "PAIRED"
+        }
+      ],
+      "LIBRARY_NAME": "PRELibB.PUM1_IP_1",
+      "POOLING_STRATEGY": null,
+      "SAMPLE_DESCRIPTOR": {
+        "attributes": {
+          "accession": "SRS19180022"
+        },
+        "identifiers": [
+          {
+            "attributes": {},
+            "tag": "PRIMARY_ID",
+            "text": "SRS19180022"
+          },
+          {
+            "attributes": {
+              "namespace": "pda|ulitskyi@gmail.com"
+            },
+            "tag": "SUBMITTER_ID",
+            "text": "PRELibB.PUM1_IP_1"
+          }
+        ]
+      },
+      "STUDY_REF": {
+        "accession": "SRP466797"
+      },
+      "TITLE": "IP of PUM1 in U2OS cells expressing PRELibB, rep1",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SRX22115705"
+        },
+        {
+          "attributes": {
+            "namespace": "SUB13903632"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM1_IP_1"
+        }
+      ],
+      "requested_accession": "SRX22115705",
+      "returned_attributes": {
+        "accession": "SRX22115705",
+        "alias": "PRELibB.PUM1_IP_1",
+        "broker_name": "NCBI",
+        "center_name": "SUB13903632"
+      }
+    },
+    {
+      "DESIGN_DESCRIPTION": "Amplicon-specific RT-PCR, as described in Lubelsky and Ulitsky Nature 2022",
+      "EXPERIMENT_ATTRIBUTES": [
+        {
+          "TAG": "ENA-STATUS",
+          "UNITS": null,
+          "VALUE": "PUBLIC"
+        }
+      ],
+      "LIBRARY_CONSTRUCTION_PROTOCOL": null,
+      "LIBRARY_LAYOUT": [
+        {
+          "attributes": {},
+          "tag": "PAIRED"
+        }
+      ],
+      "LIBRARY_NAME": "PRELibB.PUM1_IP_2",
+      "POOLING_STRATEGY": null,
+      "SAMPLE_DESCRIPTOR": {
+        "attributes": {
+          "accession": "SRS19180023"
+        },
+        "identifiers": [
+          {
+            "attributes": {},
+            "tag": "PRIMARY_ID",
+            "text": "SRS19180023"
+          },
+          {
+            "attributes": {
+              "namespace": "pda|ulitskyi@gmail.com"
+            },
+            "tag": "SUBMITTER_ID",
+            "text": "PRELibB.PUM1_IP_2"
+          }
+        ]
+      },
+      "STUDY_REF": {
+        "accession": "SRP466797"
+      },
+      "TITLE": "IP of PUM1 in U2OS cells expressing PRELibB, rep2",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SRX22115706"
+        },
+        {
+          "attributes": {
+            "namespace": "SUB13903632"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM1_IP_2"
+        }
+      ],
+      "requested_accession": "SRX22115706",
+      "returned_attributes": {
+        "accession": "SRX22115706",
+        "alias": "PRELibB.PUM1_IP_2",
+        "broker_name": "NCBI",
+        "center_name": "SUB13903632"
+      }
+    },
+    {
+      "DESIGN_DESCRIPTION": "Amplicon-specific RT-PCR, as described in Lubelsky and Ulitsky Nature 2022",
+      "EXPERIMENT_ATTRIBUTES": [
+        {
+          "TAG": "ENA-STATUS",
+          "UNITS": null,
+          "VALUE": "PUBLIC"
+        }
+      ],
+      "LIBRARY_CONSTRUCTION_PROTOCOL": null,
+      "LIBRARY_LAYOUT": [
+        {
+          "attributes": {},
+          "tag": "PAIRED"
+        }
+      ],
+      "LIBRARY_NAME": "PRELibB.PUM2_IP_1",
+      "POOLING_STRATEGY": null,
+      "SAMPLE_DESCRIPTOR": {
+        "attributes": {
+          "accession": "SRS19180024"
+        },
+        "identifiers": [
+          {
+            "attributes": {},
+            "tag": "PRIMARY_ID",
+            "text": "SRS19180024"
+          },
+          {
+            "attributes": {
+              "namespace": "pda|ulitskyi@gmail.com"
+            },
+            "tag": "SUBMITTER_ID",
+            "text": "PRELibB.PUM2_IP_1"
+          }
+        ]
+      },
+      "STUDY_REF": {
+        "accession": "SRP466797"
+      },
+      "TITLE": "IP of PUM2 in U2OS cells expressing PRELibB, rep1",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SRX22115707"
+        },
+        {
+          "attributes": {
+            "namespace": "SUB13903632"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM2_IP_1"
+        }
+      ],
+      "requested_accession": "SRX22115707",
+      "returned_attributes": {
+        "accession": "SRX22115707",
+        "alias": "PRELibB.PUM2_IP_1",
+        "broker_name": "NCBI",
+        "center_name": "SUB13903632"
+      }
+    },
+    {
+      "DESIGN_DESCRIPTION": "Amplicon-specific RT-PCR, as described in Lubelsky and Ulitsky Nature 2022",
+      "EXPERIMENT_ATTRIBUTES": [
+        {
+          "TAG": "ENA-STATUS",
+          "UNITS": null,
+          "VALUE": "PUBLIC"
+        }
+      ],
+      "LIBRARY_CONSTRUCTION_PROTOCOL": null,
+      "LIBRARY_LAYOUT": [
+        {
+          "attributes": {},
+          "tag": "PAIRED"
+        }
+      ],
+      "LIBRARY_NAME": "PRELibB.PUM2_IP_2",
+      "POOLING_STRATEGY": null,
+      "SAMPLE_DESCRIPTOR": {
+        "attributes": {
+          "accession": "SRS19180025"
+        },
+        "identifiers": [
+          {
+            "attributes": {},
+            "tag": "PRIMARY_ID",
+            "text": "SRS19180025"
+          },
+          {
+            "attributes": {
+              "namespace": "pda|ulitskyi@gmail.com"
+            },
+            "tag": "SUBMITTER_ID",
+            "text": "PRELibB.PUM2_IP_2"
+          }
+        ]
+      },
+      "STUDY_REF": {
+        "accession": "SRP466797"
+      },
+      "TITLE": "IP of PUM2 in U2OS cells expressing PRELibB, rep2",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SRX22115708"
+        },
+        {
+          "attributes": {
+            "namespace": "SUB13903632"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM2_IP_2"
+        }
+      ],
+      "requested_accession": "SRX22115708",
+      "returned_attributes": {
+        "accession": "SRX22115708",
+        "alias": "PRELibB.PUM2_IP_2",
+        "broker_name": "NCBI",
+        "center_name": "SUB13903632"
+      }
+    },
+    {
+      "DESCRIPTION": "Input sample of U2OS cells expressing PRELibB, rep1",
+      "SAMPLE_ATTRIBUTES": [
+        {
+          "TAG": "collection_date",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "treatment",
+          "UNITS": null,
+          "VALUE": "Input sample of U2OS cells expressing PRELibB, rep1"
+        },
+        {
+          "TAG": "INSDC secondary accession",
+          "UNITS": null,
+          "VALUE": "SRS19180020"
+        },
+        {
+          "TAG": "organism",
+          "UNITS": null,
+          "VALUE": "Homo sapiens"
+        },
+        {
+          "TAG": "sex",
+          "UNITS": null,
+          "VALUE": "female"
+        },
+        {
+          "TAG": "tissue",
+          "UNITS": null,
+          "VALUE": "Bone"
+        },
+        {
+          "TAG": "isolate",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "NCBI submission package",
+          "UNITS": null,
+          "VALUE": "Human.1.0"
+        },
+        {
+          "TAG": "cell_line",
+          "UNITS": null,
+          "VALUE": "U-2 OS"
+        },
+        {
+          "TAG": "geo_loc_name",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "age",
+          "UNITS": null,
+          "VALUE": "15"
+        },
+        {
+          "TAG": "biomaterial_provider",
+          "UNITS": null,
+          "VALUE": "ATCC"
+        },
+        {
+          "TAG": "BioSampleModel",
+          "UNITS": null,
+          "VALUE": "Human"
+        },
+        {
+          "TAG": "ENA-FIRST-PUBLIC",
+          "UNITS": null,
+          "VALUE": "2024-10-03"
+        },
+        {
+          "TAG": "ENA-LAST-UPDATE",
+          "UNITS": null,
+          "VALUE": "2026-09-02"
+        }
+      ],
+      "SAMPLE_NAME": {
+        "COMMON_NAME": "human",
+        "SCIENTIFIC_NAME": "Homo sapiens",
+        "TAXON_ID": "9606"
+      },
+      "TITLE": "Input sample of U2OS cells expressing PRELibB, rep1",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SAMN37845841"
+        },
+        {
+          "attributes": {},
+          "tag": "SECONDARY_ID",
+          "text": "SRS19180020"
+        },
+        {
+          "attributes": {
+            "namespace": "BioSample"
+          },
+          "tag": "EXTERNAL_ID",
+          "text": "SAMN37845841"
+        },
+        {
+          "attributes": {
+            "namespace": "Weizmann Institute"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.Input_1"
+        }
+      ],
+      "requested_accession": "SAMN37845841",
+      "returned_attributes": {
+        "accession": "SAMN37845841",
+        "alias": "PRELibB.Input_1",
+        "broker_name": "NCBI",
+        "center_name": "Weizmann Institute"
+      }
+    },
+    {
+      "DESCRIPTION": "Input sample of U2OS cells expressing PRELibB, rep2",
+      "SAMPLE_ATTRIBUTES": [
+        {
+          "TAG": "collection_date",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "treatment",
+          "UNITS": null,
+          "VALUE": "Input sample of U2OS cells expressing PRELibB, rep2"
+        },
+        {
+          "TAG": "INSDC secondary accession",
+          "UNITS": null,
+          "VALUE": "SRS19180021"
+        },
+        {
+          "TAG": "organism",
+          "UNITS": null,
+          "VALUE": "Homo sapiens"
+        },
+        {
+          "TAG": "sex",
+          "UNITS": null,
+          "VALUE": "female"
+        },
+        {
+          "TAG": "tissue",
+          "UNITS": null,
+          "VALUE": "Bone"
+        },
+        {
+          "TAG": "isolate",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "NCBI submission package",
+          "UNITS": null,
+          "VALUE": "Human.1.0"
+        },
+        {
+          "TAG": "cell_line",
+          "UNITS": null,
+          "VALUE": "U-2 OS"
+        },
+        {
+          "TAG": "geo_loc_name",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "age",
+          "UNITS": null,
+          "VALUE": "15"
+        },
+        {
+          "TAG": "biomaterial_provider",
+          "UNITS": null,
+          "VALUE": "ATCC"
+        },
+        {
+          "TAG": "BioSampleModel",
+          "UNITS": null,
+          "VALUE": "Human"
+        },
+        {
+          "TAG": "ENA-FIRST-PUBLIC",
+          "UNITS": null,
+          "VALUE": "2024-10-03"
+        },
+        {
+          "TAG": "ENA-LAST-UPDATE",
+          "UNITS": null,
+          "VALUE": "2026-09-02"
+        }
+      ],
+      "SAMPLE_NAME": {
+        "COMMON_NAME": "human",
+        "SCIENTIFIC_NAME": "Homo sapiens",
+        "TAXON_ID": "9606"
+      },
+      "TITLE": "Input sample of U2OS cells expressing PRELibB, rep2",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SAMN37845842"
+        },
+        {
+          "attributes": {},
+          "tag": "SECONDARY_ID",
+          "text": "SRS19180021"
+        },
+        {
+          "attributes": {
+            "namespace": "BioSample"
+          },
+          "tag": "EXTERNAL_ID",
+          "text": "SAMN37845842"
+        },
+        {
+          "attributes": {
+            "namespace": "Weizmann Institute"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.Input_2"
+        }
+      ],
+      "requested_accession": "SAMN37845842",
+      "returned_attributes": {
+        "accession": "SAMN37845842",
+        "alias": "PRELibB.Input_2",
+        "broker_name": "NCBI",
+        "center_name": "Weizmann Institute"
+      }
+    },
+    {
+      "DESCRIPTION": "IP of PUM1 in U2OS cells expressing PRELibB, rep1",
+      "SAMPLE_ATTRIBUTES": [
+        {
+          "TAG": "collection_date",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "treatment",
+          "UNITS": null,
+          "VALUE": "IP of PUM1 in U2OS cells expressing PRELibB, rep1"
+        },
+        {
+          "TAG": "INSDC secondary accession",
+          "UNITS": null,
+          "VALUE": "SRS19180022"
+        },
+        {
+          "TAG": "organism",
+          "UNITS": null,
+          "VALUE": "Homo sapiens"
+        },
+        {
+          "TAG": "sex",
+          "UNITS": null,
+          "VALUE": "female"
+        },
+        {
+          "TAG": "tissue",
+          "UNITS": null,
+          "VALUE": "Bone"
+        },
+        {
+          "TAG": "isolate",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "NCBI submission package",
+          "UNITS": null,
+          "VALUE": "Human.1.0"
+        },
+        {
+          "TAG": "cell_line",
+          "UNITS": null,
+          "VALUE": "U-2 OS"
+        },
+        {
+          "TAG": "geo_loc_name",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "age",
+          "UNITS": null,
+          "VALUE": "15"
+        },
+        {
+          "TAG": "biomaterial_provider",
+          "UNITS": null,
+          "VALUE": "ATCC"
+        },
+        {
+          "TAG": "BioSampleModel",
+          "UNITS": null,
+          "VALUE": "Human"
+        },
+        {
+          "TAG": "ENA-FIRST-PUBLIC",
+          "UNITS": null,
+          "VALUE": "2024-10-03"
+        },
+        {
+          "TAG": "ENA-LAST-UPDATE",
+          "UNITS": null,
+          "VALUE": "2026-09-02"
+        }
+      ],
+      "SAMPLE_NAME": {
+        "COMMON_NAME": "human",
+        "SCIENTIFIC_NAME": "Homo sapiens",
+        "TAXON_ID": "9606"
+      },
+      "TITLE": "IP of PUM1 in U2OS cells expressing PRELibB, rep1",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SAMN37845843"
+        },
+        {
+          "attributes": {},
+          "tag": "SECONDARY_ID",
+          "text": "SRS19180022"
+        },
+        {
+          "attributes": {
+            "namespace": "BioSample"
+          },
+          "tag": "EXTERNAL_ID",
+          "text": "SAMN37845843"
+        },
+        {
+          "attributes": {
+            "namespace": "Weizmann Institute"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM1_IP_1"
+        }
+      ],
+      "requested_accession": "SAMN37845843",
+      "returned_attributes": {
+        "accession": "SAMN37845843",
+        "alias": "PRELibB.PUM1_IP_1",
+        "broker_name": "NCBI",
+        "center_name": "Weizmann Institute"
+      }
+    },
+    {
+      "DESCRIPTION": "IP of PUM1 in U2OS cells expressing PRELibB, rep2",
+      "SAMPLE_ATTRIBUTES": [
+        {
+          "TAG": "collection_date",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "treatment",
+          "UNITS": null,
+          "VALUE": "IP of PUM1 in U2OS cells expressing PRELibB, rep2"
+        },
+        {
+          "TAG": "INSDC secondary accession",
+          "UNITS": null,
+          "VALUE": "SRS19180023"
+        },
+        {
+          "TAG": "organism",
+          "UNITS": null,
+          "VALUE": "Homo sapiens"
+        },
+        {
+          "TAG": "sex",
+          "UNITS": null,
+          "VALUE": "female"
+        },
+        {
+          "TAG": "tissue",
+          "UNITS": null,
+          "VALUE": "Bone"
+        },
+        {
+          "TAG": "isolate",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "NCBI submission package",
+          "UNITS": null,
+          "VALUE": "Human.1.0"
+        },
+        {
+          "TAG": "cell_line",
+          "UNITS": null,
+          "VALUE": "U-2 OS"
+        },
+        {
+          "TAG": "geo_loc_name",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "age",
+          "UNITS": null,
+          "VALUE": "15"
+        },
+        {
+          "TAG": "biomaterial_provider",
+          "UNITS": null,
+          "VALUE": "ATCC"
+        },
+        {
+          "TAG": "BioSampleModel",
+          "UNITS": null,
+          "VALUE": "Human"
+        },
+        {
+          "TAG": "ENA-FIRST-PUBLIC",
+          "UNITS": null,
+          "VALUE": "2024-10-03"
+        },
+        {
+          "TAG": "ENA-LAST-UPDATE",
+          "UNITS": null,
+          "VALUE": "2026-09-02"
+        }
+      ],
+      "SAMPLE_NAME": {
+        "COMMON_NAME": "human",
+        "SCIENTIFIC_NAME": "Homo sapiens",
+        "TAXON_ID": "9606"
+      },
+      "TITLE": "IP of PUM1 in U2OS cells expressing PRELibB, rep2",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SAMN37845844"
+        },
+        {
+          "attributes": {},
+          "tag": "SECONDARY_ID",
+          "text": "SRS19180023"
+        },
+        {
+          "attributes": {
+            "namespace": "BioSample"
+          },
+          "tag": "EXTERNAL_ID",
+          "text": "SAMN37845844"
+        },
+        {
+          "attributes": {
+            "namespace": "Weizmann Institute"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM1_IP_2"
+        }
+      ],
+      "requested_accession": "SAMN37845844",
+      "returned_attributes": {
+        "accession": "SAMN37845844",
+        "alias": "PRELibB.PUM1_IP_2",
+        "broker_name": "NCBI",
+        "center_name": "Weizmann Institute"
+      }
+    },
+    {
+      "DESCRIPTION": "IP of PUM2 in U2OS cells expressing PRELibB, rep1",
+      "SAMPLE_ATTRIBUTES": [
+        {
+          "TAG": "collection_date",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "treatment",
+          "UNITS": null,
+          "VALUE": "IP of PUM2 in U2OS cells expressing PRELibB, rep1"
+        },
+        {
+          "TAG": "INSDC secondary accession",
+          "UNITS": null,
+          "VALUE": "SRS19180024"
+        },
+        {
+          "TAG": "organism",
+          "UNITS": null,
+          "VALUE": "Homo sapiens"
+        },
+        {
+          "TAG": "sex",
+          "UNITS": null,
+          "VALUE": "female"
+        },
+        {
+          "TAG": "tissue",
+          "UNITS": null,
+          "VALUE": "Bone"
+        },
+        {
+          "TAG": "isolate",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "NCBI submission package",
+          "UNITS": null,
+          "VALUE": "Human.1.0"
+        },
+        {
+          "TAG": "cell_line",
+          "UNITS": null,
+          "VALUE": "U-2 OS"
+        },
+        {
+          "TAG": "geo_loc_name",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "age",
+          "UNITS": null,
+          "VALUE": "15"
+        },
+        {
+          "TAG": "biomaterial_provider",
+          "UNITS": null,
+          "VALUE": "ATCC"
+        },
+        {
+          "TAG": "BioSampleModel",
+          "UNITS": null,
+          "VALUE": "Human"
+        },
+        {
+          "TAG": "ENA-FIRST-PUBLIC",
+          "UNITS": null,
+          "VALUE": "2024-10-03"
+        },
+        {
+          "TAG": "ENA-LAST-UPDATE",
+          "UNITS": null,
+          "VALUE": "2026-09-02"
+        }
+      ],
+      "SAMPLE_NAME": {
+        "COMMON_NAME": "human",
+        "SCIENTIFIC_NAME": "Homo sapiens",
+        "TAXON_ID": "9606"
+      },
+      "TITLE": "IP of PUM2 in U2OS cells expressing PRELibB, rep1",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SAMN37845845"
+        },
+        {
+          "attributes": {},
+          "tag": "SECONDARY_ID",
+          "text": "SRS19180024"
+        },
+        {
+          "attributes": {
+            "namespace": "BioSample"
+          },
+          "tag": "EXTERNAL_ID",
+          "text": "SAMN37845845"
+        },
+        {
+          "attributes": {
+            "namespace": "Weizmann Institute"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM2_IP_1"
+        }
+      ],
+      "requested_accession": "SAMN37845845",
+      "returned_attributes": {
+        "accession": "SAMN37845845",
+        "alias": "PRELibB.PUM2_IP_1",
+        "broker_name": "NCBI",
+        "center_name": "Weizmann Institute"
+      }
+    },
+    {
+      "DESCRIPTION": "IP of PUM2 in U2OS cells expressing PRELibB, rep2",
+      "SAMPLE_ATTRIBUTES": [
+        {
+          "TAG": "collection_date",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "treatment",
+          "UNITS": null,
+          "VALUE": "IP of PUM2 in U2OS cells expressing PRELibB, rep2"
+        },
+        {
+          "TAG": "INSDC secondary accession",
+          "UNITS": null,
+          "VALUE": "SRS19180025"
+        },
+        {
+          "TAG": "organism",
+          "UNITS": null,
+          "VALUE": "Homo sapiens"
+        },
+        {
+          "TAG": "sex",
+          "UNITS": null,
+          "VALUE": "female"
+        },
+        {
+          "TAG": "tissue",
+          "UNITS": null,
+          "VALUE": "Bone"
+        },
+        {
+          "TAG": "isolate",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "NCBI submission package",
+          "UNITS": null,
+          "VALUE": "Human.1.0"
+        },
+        {
+          "TAG": "cell_line",
+          "UNITS": null,
+          "VALUE": "U-2 OS"
+        },
+        {
+          "TAG": "geo_loc_name",
+          "UNITS": null,
+          "VALUE": "not applicable"
+        },
+        {
+          "TAG": "age",
+          "UNITS": null,
+          "VALUE": "15"
+        },
+        {
+          "TAG": "biomaterial_provider",
+          "UNITS": null,
+          "VALUE": "ATCC"
+        },
+        {
+          "TAG": "BioSampleModel",
+          "UNITS": null,
+          "VALUE": "Human"
+        },
+        {
+          "TAG": "ENA-FIRST-PUBLIC",
+          "UNITS": null,
+          "VALUE": "2024-10-03"
+        },
+        {
+          "TAG": "ENA-LAST-UPDATE",
+          "UNITS": null,
+          "VALUE": "2026-09-02"
+        }
+      ],
+      "SAMPLE_NAME": {
+        "COMMON_NAME": "human",
+        "SCIENTIFIC_NAME": "Homo sapiens",
+        "TAXON_ID": "9606"
+      },
+      "TITLE": "IP of PUM2 in U2OS cells expressing PRELibB, rep2",
+      "identifiers": [
+        {
+          "attributes": {},
+          "tag": "PRIMARY_ID",
+          "text": "SAMN37845846"
+        },
+        {
+          "attributes": {},
+          "tag": "SECONDARY_ID",
+          "text": "SRS19180025"
+        },
+        {
+          "attributes": {
+            "namespace": "BioSample"
+          },
+          "tag": "EXTERNAL_ID",
+          "text": "SAMN37845846"
+        },
+        {
+          "attributes": {
+            "namespace": "Weizmann Institute"
+          },
+          "tag": "SUBMITTER_ID",
+          "text": "PRELibB.PUM2_IP_2"
+        }
+      ],
+      "requested_accession": "SAMN37845846",
+      "returned_attributes": {
+        "accession": "SAMN37845846",
+        "alias": "PRELibB.PUM2_IP_2",
+        "broker_name": "NCBI",
+        "center_name": "Weizmann Institute"
+      }
+    }
+  ],
+  "whole_metadata_objects_downloaded": true
+}
