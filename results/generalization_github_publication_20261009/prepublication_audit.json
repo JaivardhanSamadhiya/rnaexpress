@@ -1,0 +1,89 @@
+{
+  "UTC": "2026-10-09T20:09:52.430806+00:00",
+  "status": "PASS_READ_ONLY_PUBLICATION_AUDIT",
+  "remote_main_before": "3a05d0e38d4570447f9cb02c0ea2d753cb97e928",
+  "local_HEAD_at_audit": "1fadecef117d6154602a035c065257229ddc94f5",
+  "remote_latest_commit_committer_date": "2026-09-15T10:44:43-07:00",
+  "ahead_count": 135,
+  "index_empty": true,
+  "remote_is_ancestor": true,
+  "remote_URL_verified": true,
+  "repo": {
+    "full_name": "JaivardhanSamadhiya/rnaexpress",
+    "private": false,
+    "fork": false,
+    "default_branch": "main",
+    "pushed_at": "2026-09-15T17:45:31Z",
+    "updated_at": "2026-09-15T17:37:07Z",
+    "visibility": "public"
+  },
+  "repository_API_error": null,
+  "authenticated_login": "JaivardhanSamadhiya",
+  "account_API_error": null,
+  "verified_emails_API_error": {
+    "HTTP_status": 404
+  },
+  "configured_author_email_account_associated": false,
+  "outgoing_authors_associated_count": 0,
+  "outgoing_authors_total_count": 135,
+  "outgoing_author_dates_min": "2026-09-20T23:50:57-07:00",
+  "outgoing_author_dates_max": "2026-10-09T12:38:23-07:00",
+  "credential_bytes_or_email_values_recorded": false,
+  "suspicious_sensitive_file_names": [],
+  "publication_batches": [
+    {
+      "target": "6e793d72385f7bc061b52c2c7aa36568acf24a9a",
+      "previous": "3a05d0e38d4570447f9cb02c0ea2d753cb97e928",
+      "commits_in_first_parent_batch": 25,
+      "introduced_blobs": 450,
+      "uncompressed_blob_bytes": 47252092,
+      "maximum_blob_bytes": 20108734
+    },
+    {
+      "target": "53553f2557fbb9a12cd2a9420694c3f327de0e3f",
+      "previous": "6e793d72385f7bc061b52c2c7aa36568acf24a9a",
+      "commits_in_first_parent_batch": 25,
+      "introduced_blobs": 893,
+      "uncompressed_blob_bytes": 389122383,
+      "maximum_blob_bytes": 43048324
+    },
+    {
+      "target": "3915e0f16d38e947894807f2cb223cc0b1c7ec08",
+      "previous": "53553f2557fbb9a12cd2a9420694c3f327de0e3f",
+      "commits_in_first_parent_batch": 25,
+      "introduced_blobs": 573,
+      "uncompressed_blob_bytes": 253058922,
+      "maximum_blob_bytes": 36287649
+    },
+    {
+      "target": "816d226f549cccf9f6b8588d4c87e2af69b1db96",
+      "previous": "3915e0f16d38e947894807f2cb223cc0b1c7ec08",
+      "commits_in_first_parent_batch": 25,
+      "introduced_blobs": 2148,
+      "uncompressed_blob_bytes": 649418221,
+      "maximum_blob_bytes": 77795508
+    },
+    {
+      "target": "bfab29a8333f0b5a5cd2b400019e705a056aca16",
+      "previous": "816d226f549cccf9f6b8588d4c87e2af69b1db96",
+      "commits_in_first_parent_batch": 25,
+      "introduced_blobs": 120366,
+      "uncompressed_blob_bytes": 1181441673,
+      "maximum_blob_bytes": 96976407
+    },
+    {
+      "target": "1fadecef117d6154602a035c065257229ddc94f5",
+      "previous": "bfab29a8333f0b5a5cd2b400019e705a056aca16",
+      "commits_in_first_parent_batch": 10,
+      "introduced_blobs": 151,
+      "uncompressed_blob_bytes": 11225022,
+      "maximum_blob_bytes": 9435038
+    }
+  ],
+  "history_rewrite": false,
+  "force_push": false,
+  "LFS_used": false,
+  "purchase_or_payment": false,
+  "local_user_changes_staged": false,
+  "source_scope": "Git object names/types/sizes and commit metadata only; no scientific outcome payloads opened"
+}

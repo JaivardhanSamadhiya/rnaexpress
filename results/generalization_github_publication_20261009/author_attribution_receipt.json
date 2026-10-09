@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-10-09T20:10:41.864860+00:00",
+  "status": "PASS_FUTURE_AUTHOR_ATTRIBUTION",
+  "authenticated_login": "JaivardhanSamadhiya",
+  "remote_commit_API_error": null,
+  "remote_commit_author_linked_to_account": true,
+  "previous_configured_email_association_proven": true,
+  "previous_configured_email_SHA256": "8e3f0c62d2950bb35e4246f447e38900f232edb7d354ecf4e04413fd58c48115",
+  "repository_local_email_changed": false,
+  "future_commits_use_verified_account_noreply_or_existing_server_linked_email": true,
+  "outgoing_backlog_author_association_proven_count": 135,
+  "outgoing_backlog_author_association_unknown_count": 0,
+  "author_emails_recorded": false,
+  "historical_commits_rewritten": false,
+  "private_email_API_limit": "The user/emails endpoint returned 404; the initial audit false booleans mean unverified association, not proof of non-association. This receipt supersedes that interpretation.",
+  "graph_limitations": "Backlog preserves original author dates. Publishing alone does not guarantee historical attribution; Graph can take 24 hours."
+}
