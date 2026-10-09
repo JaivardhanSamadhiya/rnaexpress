@@ -1,0 +1,54 @@
+{
+  "canonical_csv": "results/probabilistic_ranking_20260928/candidate_index.csv",
+  "files": {
+    "results/generalization_prelib_native_reference_20261009/independent_reference_replay_receipt.json": "058de2773f0ee66857f77798c31efdf5c1ec17f298d9b6b4ffb1a3a9fdfe0403",
+    "results/generalization_prelib_native_reference_20261009/literal_native_reference_matches.json": "06ea8dee55ea9cf6448b3945086250c5b550fe1dde63d0dec6bf85ef5ac98a5c",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+    "src/generalization_prelib_crossresource_metadata_20261009/alias_reference_audit.py": "33f80217a3037d03127d28163a0d28481d76d3e0aa7e08ee853930f3f0050d9d",
+    "src/generalization_prelib_crossresource_metadata_20261009/alias_reference_supervise.py": "4f2f20e5934454c58b1f4e26aecf600b229675f019a39203ae8d70b918039b05"
+  },
+  "models_fit": 0,
+  "numeric_outcomes_analyzed": false,
+  "reference_symbol_transcript_aliases": {
+    "AP1S1": [
+      "AP1S1",
+      "NM_001283"
+    ],
+    "HIAT1": [
+      "HIAT1",
+      "MFSD14A",
+      "NM_033055"
+    ],
+    "IRF2BP1": [
+      "IRF2BP1",
+      "NM_015649.3"
+    ],
+    "MGEA5": [
+      "MGEA5",
+      "NM_001142434",
+      "NM_012215",
+      "OGA"
+    ],
+    "NORAD": [
+      "LINC00657",
+      "NORAD",
+      "NR_027451.1",
+      "NR_027451.2"
+    ],
+    "PGBD4": [
+      "NM_152595",
+      "PGBD4"
+    ],
+    "SMARCA2": [
+      "NM_001289396",
+      "NM_001289397",
+      "NM_001289398",
+      "NM_001289399",
+      "NM_001289400",
+      "NM_003070",
+      "NM_139045",
+      "SMARCA2"
+    ]
+  },
+  "status": "FROZEN_CACHED_REFERENCE_ALIAS_METADATA_SCREEN_BEFORE_READ"
+}
