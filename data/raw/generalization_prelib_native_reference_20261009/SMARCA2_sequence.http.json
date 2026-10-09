@@ -1,0 +1,20 @@
+{
+  "SHA256": "042041d46700dab4cae2877a94a588bafeddfce98d02a8a0b9950228702d9b72",
+  "URL": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr9;start=2161388;end=2162181",
+  "UTC": "2026-10-09T19:30:51.990626+00:00",
+  "bytes": 948,
+  "headers": {
+    "Access-Control-Allow-Headers": "Range",
+    "Access-Control-Allow-Origin": "*",
+    "Connection": "close",
+    "Content-Type": "application/json",
+    "Date": "Fri, 09 Oct 2026 19:30:52 GMT",
+    "Link": "<https://genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr9;start=2161388;end=2162181>; rel=\"canonical\"",
+    "Server": "Apache/2.4.62 (Rocky Linux) OpenSSL/3.2.2 mod_fcgid/2.3.9",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "X-Content-Type-Options": "nosniff"
+  },
+  "response_URL": "https://api.genome.ucsc.edu/getData/sequence?genome=hg19;chrom=chr9;start=2161388;end=2162181",
+  "status": 200
+}

@@ -1,0 +1,256 @@
+{
+  "SMARCA2_hg38_fixed_comparison": [
+    {
+      "lineage": "SMARCA2",
+      "reference": "hg38_same_numeric_coordinate_comparison",
+      "unique_source_assembly_not_inferred": true,
+      "whole140nt_hits0based": [
+        [
+          2161706,
+          2161846
+        ]
+      ]
+    }
+  ],
+  "all_match_locations_retained": true,
+  "genomic_no_exact_match_or_unavailable": [],
+  "matches": [
+    {
+      "exact_forward140nt_intervals0based": [
+        [
+          1396,
+          1536
+        ]
+      ],
+      "full_reporter_RNA_certified": false,
+      "lineage": "NORAD",
+      "matches": 1,
+      "prefix": "Context_NORAD_PRE4_rep3_5",
+      "reference_accession": "NR_027451.1",
+      "reference_length": 5378,
+      "source_excel_row": 955
+    },
+    {
+      "exact_forward140nt_intervals0based": [
+        [
+          1400,
+          1540
+        ]
+      ],
+      "full_reporter_RNA_certified": false,
+      "lineage": "NORAD",
+      "matches": 1,
+      "prefix": "Context_NORAD_PRE4_rep3_5",
+      "reference_accession": "NR_027451.2",
+      "reference_length": 5339,
+      "source_excel_row": 955
+    },
+    {
+      "exact_forward140nt_intervals0based": [
+        [
+          2593,
+          2733
+        ]
+      ],
+      "full_reporter_RNA_certified": false,
+      "lineage": "NORAD",
+      "matches": 1,
+      "prefix": "Context_NORAD_PRE9_rep7_5",
+      "reference_accession": "NR_027451.1",
+      "reference_length": 5378,
+      "source_excel_row": 1370
+    },
+    {
+      "exact_forward140nt_intervals0based": [
+        [
+          2597,
+          2737
+        ]
+      ],
+      "full_reporter_RNA_certified": false,
+      "lineage": "NORAD",
+      "matches": 1,
+      "prefix": "Context_NORAD_PRE9_rep7_5",
+      "reference_accession": "NR_027451.2",
+      "reference_length": 5339,
+      "source_excel_row": 1370
+    },
+    {
+      "chrom": "chr1",
+      "covering_refGene_exon_annotations": [
+        {
+          "chrom": "chr1",
+          "name": "NM_033055",
+          "name2": "MFSD14A",
+          "strand": "+",
+          "txEnd": 100548929,
+          "txStart": 100503650
+        }
+      ],
+      "exact140nt_interval0based": [
+        100548728,
+        100548868
+      ],
+      "genome_assembly_uniqueness_or_full_reporter_RNA_certified": false,
+      "lineage": "HIAT1",
+      "prefix": "Hafner_HIAT1",
+      "reference": "hg19",
+      "reference_window_match_count": 1,
+      "source_excel_row": 2885,
+      "strand": "+"
+    },
+    {
+      "chrom": "chr10",
+      "covering_refGene_exon_annotations": [
+        {
+          "chrom": "chr10",
+          "name": "NM_001142434",
+          "name2": "OGA",
+          "strand": "-",
+          "txEnd": 103578222,
+          "txStart": 103544199
+        },
+        {
+          "chrom": "chr10",
+          "name": "NM_012215",
+          "name2": "OGA",
+          "strand": "-",
+          "txEnd": 103578201,
+          "txStart": 103544206
+        }
+      ],
+      "exact140nt_interval0based": [
+        103545443,
+        103545583
+      ],
+      "genome_assembly_uniqueness_or_full_reporter_RNA_certified": false,
+      "lineage": "MGEA5",
+      "prefix": "Hafner_MGEA5",
+      "reference": "hg19",
+      "reference_window_match_count": 1,
+      "source_excel_row": 3245,
+      "strand": "-"
+    },
+    {
+      "chrom": "chr15",
+      "covering_refGene_exon_annotations": [
+        {
+          "chrom": "chr15",
+          "name": "NM_152595",
+          "name2": "PGBD4",
+          "strand": "+",
+          "txEnd": 34400887,
+          "txStart": 34394283
+        }
+      ],
+      "exact140nt_interval0based": [
+        34395390,
+        34395530
+      ],
+      "genome_assembly_uniqueness_or_full_reporter_RNA_certified": false,
+      "lineage": "PGBD4",
+      "prefix": "Hafner_PGBD4",
+      "reference": "hg19",
+      "reference_window_match_count": 1,
+      "source_excel_row": 3604,
+      "strand": "+"
+    },
+    {
+      "chrom": "chr7",
+      "covering_refGene_exon_annotations": [
+        {
+          "chrom": "chr7",
+          "name": "NM_001283",
+          "name2": "AP1S1",
+          "strand": "+",
+          "txEnd": 100804557,
+          "txStart": 100797756
+        }
+      ],
+      "exact140nt_interval0based": [
+        100804125,
+        100804265
+      ],
+      "genome_assembly_uniqueness_or_full_reporter_RNA_certified": false,
+      "lineage": "AP1S1",
+      "prefix": "Hafner_APIS1",
+      "reference": "hg19",
+      "reference_window_match_count": 1,
+      "source_excel_row": 2516,
+      "strand": "+"
+    },
+    {
+      "chrom": "chr9",
+      "covering_refGene_exon_annotations": [
+        {
+          "chrom": "chr9",
+          "name": "NM_139045",
+          "name2": "SMARCA2",
+          "strand": "+",
+          "txEnd": 2193620,
+          "txStart": 2015346
+        },
+        {
+          "chrom": "chr9",
+          "name": "NM_003070",
+          "name2": "SMARCA2",
+          "strand": "+",
+          "txEnd": 2193620,
+          "txStart": 2015346
+        },
+        {
+          "chrom": "chr9",
+          "name": "NM_001289397",
+          "name2": "SMARCA2",
+          "strand": "+",
+          "txEnd": 2193620,
+          "txStart": 2015346
+        },
+        {
+          "chrom": "chr9",
+          "name": "NM_001289396",
+          "name2": "SMARCA2",
+          "strand": "+",
+          "txEnd": 2193623,
+          "txStart": 2021944
+        },
+        {
+          "chrom": "chr9",
+          "name": "NM_001289398",
+          "name2": "SMARCA2",
+          "strand": "+",
+          "txEnd": 2193620,
+          "txStart": 2157661
+        },
+        {
+          "chrom": "chr9",
+          "name": "NM_001289399",
+          "name2": "SMARCA2",
+          "strand": "+",
+          "txEnd": 2193623,
+          "txStart": 2158451
+        },
+        {
+          "chrom": "chr9",
+          "name": "NM_001289400",
+          "name2": "SMARCA2",
+          "strand": "+",
+          "txEnd": 2193623,
+          "txStart": 2158455
+        }
+      ],
+      "exact140nt_interval0based": [
+        2161706,
+        2161846
+      ],
+      "genome_assembly_uniqueness_or_full_reporter_RNA_certified": false,
+      "lineage": "SMARCA2",
+      "prefix": "ENCODE_Pum1_SMARCA2",
+      "reference": "hg19",
+      "reference_window_match_count": 1,
+      "source_excel_row": 2148,
+      "strand": "+"
+    }
+  ],
+  "no_mutant_or_engineered_reference_identity_inferred": true
+}

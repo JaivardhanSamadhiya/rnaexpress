@@ -1,0 +1,32 @@
+{
+  "SHA256": "759cc0555b5d127344f3988b5ce0fad3228c485ac0274113e923e839f770ae5e",
+  "URL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NR_027451.2&rettype=gb&retmode=text",
+  "UTC": "2026-10-09T19:30:53.209474+00:00",
+  "bytes": 15045,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+    "Alt-Svc": "clear",
+    "Cache-Control": "private",
+    "Connection": "close",
+    "Content-Disposition": "attachment; filename=\"sequence.gb\"",
+    "Content-Security-Policy": "upgrade-insecure-requests",
+    "Content-Type": "text/plain",
+    "Date": "Fri, 09 Oct 2026 19:30:52 GMT",
+    "Ncbi-Phid": "1D32B58CF038EF150000518C38E55F40.1.1.m_7",
+    "Ncbi-Sid": "8EEEAFA57015FA59_E4A3SID",
+    "Referrer-Policy": "origin-when-cross-origin",
+    "Server": "Finatra",
+    "Set-Cookie": "ncbi_sid=8EEEAFA57015FA59_E4A3SID; domain=.nih.gov; path=/; expires=Sat, 09 Oct 2027 19:30:53 GMT",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 google",
+    "X-Ratelimit-Limit": "3",
+    "X-Ratelimit-Remaining": "1",
+    "X-Ua-Compatible": "IE=Edge",
+    "X-Xss-Protection": "1; mode=block"
+  },
+  "response_URL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NR_027451.2&rettype=gb&retmode=text",
+  "status": 200
+}
