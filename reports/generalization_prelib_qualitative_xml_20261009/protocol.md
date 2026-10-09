@@ -1,0 +1,6 @@
+# Fixed qualitative sample metadata acquisition
+Twelve direct ENA XML accessions: SRX22115703..SRX22115708 and SAMN37845841..SAMN37845846. Official public free INSDC source; cite original submission PRJNA1028573. No expansion, linked requests, FASTQ, reads, assay outcomes, accounts or money. Whole XML objects may contain related links, which remain unfollowed. Only literal selected design/library/sample descriptions, attributes and identifiers are decoded.
+
+Each object has a128KiB cap and10s timeout, one attempt only; total acquisition150s. Failures and downloaded bytes are preserved. Fresh available RAM1.3GiB is required for this new small metadata reader; original feature/model3GiB floors remain unchanged. Returned identity must explicitly match the requested accession, allowing a sample SRS identity only through its explicit SAMN identifier. Sequencing PAIRED layout and rep-number suffixes cannot certify input-IP lysate pairing or independent cultures. Human review must distinguish explicit sample-level statements from generic repeated methods.
+
+Sources: [ENA Browser API](https://ena-docs.readthedocs.io/en/latest/retrieval/programmatic-access/browser-api.html), [ENA policy](https://ena-browser-docs.readthedocs.io/en/latest/about/policies.html).

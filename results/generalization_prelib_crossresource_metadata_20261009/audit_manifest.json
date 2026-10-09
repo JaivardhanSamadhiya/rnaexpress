@@ -1,0 +1,38 @@
+{
+  "canonical_csv": "results/probabilistic_ranking_20260928/candidate_index.csv",
+  "canonical_datasets": [
+    "astrocyte_gse330741",
+    "mikl_gse173098",
+    "moffatt_gse334718",
+    "srle"
+  ],
+  "design": "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json",
+  "files": {
+    "reports/generalization_prelib_crossresource_metadata_20261009/protocol.md": "2cad0036dd3b17535e8526f18040cd65842c1aea9bca0e9fd3c27c089477e15d",
+    "results/generalization_prelib_alias_count_audit_20261008/alias_audit_receipt.json": "d8155e6e6b468487d0d73baa87e878e2951179de073cf62a0b1a72c9326c43d2",
+    "results/generalization_prelib_binding_descriptive_20261008/independent_source_effect_replay_receipt.json": "70f9177516049301300e500c711b83f1aff240438c9a99dbd8bb5f0547d55b5b",
+    "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json": "65e32e40f252981a7d6d910b9c17069e4e436f07e8438ea6cbb2b761a9fdbf23",
+    "results/generalization_prelib_point_ancestry_20261008/parent_template_metadata_v2.json": "d07296aec270c91421b2f027f020f299835e0c9c5d6c1abd1fc257a5a75271d3",
+    "results/generalization_prelib_point_ancestry_20261008/reconstructed_point_design_relations_v2.json": "5ba19d8207c1ced58502f4be8b60a5e586cb374a93e8ec4815f33da40c96bd87",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+    "src/generalization_prelib_crossresource_metadata_20261009/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/generalization_prelib_crossresource_metadata_20261009/audit.py": "cdf81e0b3c71ef4571723afaed1fa335c3887e0d6028da2818b4cf4d313e8b65",
+    "src/generalization_prelib_crossresource_metadata_20261009/supervise.py": "b17f7632fb9d3ab16207a5fb549438fa96a3510bdc89b88498706385e389676c"
+  },
+  "metadata_columns": [
+    "intervention_id",
+    "dataset",
+    "parent_context_id",
+    "gene_transcript",
+    "parent_sequence",
+    "mutant_sequence",
+    "biological_component"
+  ],
+  "models_fit": 0,
+  "numeric_outcomes_analyzed": false,
+  "parents": "results/generalization_prelib_point_ancestry_20261008/parent_template_metadata_v2.json",
+  "points": "results/generalization_prelib_point_ancestry_20261008/reconstructed_point_design_relations_v2.json",
+  "status": "FROZEN_METADATA_ONLY_OVERLAP_AUDIT_BEFORE_AUXILIARY_FITS",
+  "worker_RAM_cap_MiB": 768,
+  "worker_wall_time_seconds": 180
+}

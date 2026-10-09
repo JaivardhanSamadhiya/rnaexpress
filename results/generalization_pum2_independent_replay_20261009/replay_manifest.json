@@ -1,0 +1,19 @@
+{
+  "absolute_tolerance": 1e-10,
+  "files": {
+    "reports/generalization_pum2_independent_replay_20261009/protocol.md": "82bb44b107b12feb24e3a524aee1dcc1a32f606234d274c404606cc863cbe0b8",
+    "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json": "65e32e40f252981a7d6d910b9c17069e4e436f07e8438ea6cbb2b761a9fdbf23",
+    "results/generalization_pum2_fixed_math_20261008/feature_manifest.json": "6aa45abfa11e0af9b87ffcd3072bff17a7ddc4e301b0d0ce3be4b41a83c16f2c",
+    "results/generalization_pum2_independent_replay_20261009/synthetic_tests_receipt.json": "7e6728e466acc95286e7c33c4d43d400dd353864a7d58eeed202f36959989b45",
+    "results/generalization_pum2_parameter_metadata_20261008/acquisition_receipt_v2.json": "da4cadf5fdf3d122d3ef49920137024c10313239457667ca7c46228dd2592d19",
+    "src/generalization_pum2_independent_replay_20261009/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/generalization_pum2_independent_replay_20261009/numeric.py": "31089b249a6d44e4632db6f90459ab5ffd1f37a25bb0ea8a789001bedc905142",
+    "src/generalization_pum2_independent_replay_20261009/run.py": "2ab9b1a9b2b7a03172280692efcd1dca826da7fb29952a2877f511a9670c2f14",
+    "src/generalization_pum2_independent_replay_20261009/tests.py": "943f546e7a604ff707218a93c3beb478a107763d86a595c3a74a548a1e87e368"
+  },
+  "fresh_RAM_floor_GiB": 3,
+  "labels_read": false,
+  "models_fit": 0,
+  "source_design": "results/generalization_prelib_design_metadata_20261008/TableS4_PRELibB_metadata_v2.json",
+  "status": "FROZEN_SEPARATE_ARITHMETIC_REPLAY_BEFORE_PRODUCTION_COMPARISONS"
+}

@@ -1,0 +1,26 @@
+{
+  "arms": [
+    "kmer84",
+    "kmer84_plus_releasedPUM2",
+    "kmer84_plus_duplicateTGT"
+  ],
+  "backgrounds": 16,
+  "design_sha256": "52aa2622f9813a92743b6b629f38f2261416e867b19fc85181315166f58ebd7e",
+  "inner_fits": 378,
+  "lambda_grid": [
+    0.005,
+    0.05,
+    0.5
+  ],
+  "localization_claim_admitted": false,
+  "matched_lysate_pairing_certified": false,
+  "models_fit": 0,
+  "nominal_lineages": 7,
+  "outer_fits": 21,
+  "point_rows": 4054,
+  "post_exposure_development": true,
+  "prefit_admission_pending": true,
+  "primary_protein": "PUM2",
+  "status": "FROZEN_POST_EXPOSURE_POOLED_ASSOCIATION_DEVELOPMENT_DESIGN_NO_FIT_ADMISSION",
+  "target_views_per_protein": 18
+}

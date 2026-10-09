@@ -1,0 +1,78 @@
+{
+  "cost": 0,
+  "files": {
+    "reports/generalization_prelib_qualitative_xml_20261009/protocol.md": "ec2b1c68af7206ff2e93e4939d157b5c0597b550b40fade7c63b9b38096830fc",
+    "results/generalization_prelib_qualitative_xml_20261009/synthetic_tests_receipt.json": "0eab67620a12e13fc7642bfc747b0b151f466730b0cf8e7872c8a31a16fa682c",
+    "src/generalization_prelib_qualitative_xml_20261009/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/generalization_prelib_qualitative_xml_20261009/acquire.py": "11d343a011d27b22f9d7c181a5b3d960c4c259c8c9911e8d4e10e36e4c07a4da",
+    "src/generalization_prelib_qualitative_xml_20261009/supervise.py": "95d94952dd7dd76fa1c39e760e2a0d600c04fc75bd1fc0659034a2b670b2969a",
+    "src/generalization_prelib_qualitative_xml_20261009/tests.py": "a68417b062eb188984e7db501211a5f7beab9d2fcb0e339758ed7dd77ee01d51"
+  },
+  "fresh_RAM_floor_GiB": 1.3,
+  "per_response_cap_bytes": 131072,
+  "requests": [
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115703",
+      "accession": "SRX22115703",
+      "kind": "experiment"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115704",
+      "accession": "SRX22115704",
+      "kind": "experiment"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115705",
+      "accession": "SRX22115705",
+      "kind": "experiment"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115706",
+      "accession": "SRX22115706",
+      "kind": "experiment"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115707",
+      "accession": "SRX22115707",
+      "kind": "experiment"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22115708",
+      "accession": "SRX22115708",
+      "kind": "experiment"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845841",
+      "accession": "SAMN37845841",
+      "kind": "sample"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845842",
+      "accession": "SAMN37845842",
+      "kind": "sample"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845843",
+      "accession": "SAMN37845843",
+      "kind": "sample"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845844",
+      "accession": "SAMN37845844",
+      "kind": "sample"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845845",
+      "accession": "SAMN37845845",
+      "kind": "sample"
+    },
+    {
+      "URL": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMN37845846",
+      "accession": "SAMN37845846",
+      "kind": "sample"
+    }
+  ],
+  "sample_pairing_certified": false,
+  "status": "FROZEN_TWELVE_QUALITATIVE_XML_REQUESTS_BEFORE_DOWNLOAD",
+  "total_wall_time_budget_seconds": 150
+}

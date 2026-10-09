@@ -1,0 +1,59 @@
+{
+  "caller_fresh_RAM_GiB": 3.5,
+  "files": {
+    "reports/generalization_continuation_queue_20261009/protocol.md": "f1268b31cdf61e990b7d06abf37111ffb6a538ce3c916e120db13d8136f775df",
+    "results/generalization_pum2_independent_replay_20261009/replay_manifest.json": "17e46909fd2fefd6f740c2a0e4864827a11c5e3e24d2418f74f2deb71e977de8",
+    "src/generalization_conservation_feature_blocks_20261008/produce.py": "24d34598f6a7f56fbb55038af518a03bda45e6e7cc15a9f3d4096193b4301c65",
+    "src/generalization_continuation_queue_20261009/watch.py": "b95ff07eaa5ccf345e79129342d9517ac9dc0ab4e34ee74a0b62e15cba5d654f",
+    "src/generalization_masked_likelihood_backend_20261007/probe.py": "8eee0d1e61127fe2c44ba474ff45206ae6d997b6d962490cf862a9b73c24ada0",
+    "src/generalization_pum2_fixed_math_20261008/produce_features.py": "c142e44fe8c5669a7fa2f07142fa5c683ec71cbbd339e6f77136017ab50c3fc9",
+    "src/generalization_pum2_independent_replay_20261009/run.py": "2ab9b1a9b2b7a03172280692efcd1dca826da7fb29952a2877f511a9670c2f14"
+  },
+  "maximum_wait_hours": 6,
+  "models_fit": 0,
+  "original_worker_fresh_RAM_GiB": 3,
+  "phases": [
+    {
+      "args": [
+        "--root-start"
+      ],
+      "expected_status": "PASS_CONSERVATION_FEATURE_BLOCKS_ONLY",
+      "log": "continuation_conservation_blocks_03.log",
+      "module": "src.generalization_conservation_feature_blocks_20261008.produce",
+      "name": "conservation_blocks",
+      "receipt": "results/generalization_conservation_feature_blocks_20261008/production_receipt.json"
+    },
+    {
+      "expected_status": "COMPLETE_FIXED_PUM2_POINT_FRAGMENT_FEATURES_ONLY_NOT_LOCALIZATION_OR_TRAINING_ADMISSION",
+      "log": "continuation_pum2_features_02.log",
+      "module": "src.generalization_pum2_fixed_math_20261008.produce_features",
+      "name": "pum2_features",
+      "receipt": "results/generalization_pum2_fixed_math_20261008/feature_production_receipt.json"
+    },
+    {
+      "expected_status": "PASS_ALL_PRODUCTION_ALLELES_DIRECT_CONTACT_AND_ORDINARY_PARTITION_REPLAY",
+      "log": "continuation_pum2_independent_replay_01.log",
+      "module": "src.generalization_pum2_independent_replay_20261009.run",
+      "name": "pum2_independent_replay",
+      "receipt": "results/generalization_pum2_independent_replay_20261009/independent_feature_replay_receipt.json"
+    },
+    {
+      "args": [
+        "--root-start"
+      ],
+      "expected_status": "PASS_SYNTHETIC_MASKED_LIKELIHOOD_BACKEND_ONLY",
+      "forbidden_partial_paths": [
+        "results/generalization_masked_likelihood_backend_20261007/native_attempt_incident.json",
+        "results/generalization_masked_likelihood_backend_20261007/current_numpy_import_receipt.json",
+        "artifacts/generalization_masked_likelihood_backend_20261007/mlm_head.npz",
+        "artifacts/generalization_masked_likelihood_backend_20261007/mlm_head_birth.json"
+      ],
+      "log": "continuation_masked_native_02.log",
+      "module": "src.generalization_masked_likelihood_backend_20261007.probe",
+      "name": "synthetic_masked_native",
+      "receipt": "results/generalization_masked_likelihood_backend_20261007/native_receipt.json"
+    }
+  ],
+  "scheduled_task_created": false,
+  "status": "FROZEN_ONE_SHOT_SERIAL_FEATURE_AND_SYNTHETIC_CONTINUATION_NO_FITS"
+}
