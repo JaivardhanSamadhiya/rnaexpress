@@ -1,0 +1,3 @@
+# Frozen WT metadata execution
+
+This ordinary hidden Python process waits at most120seconds for1.4GiB free physicalRAM, a stricter launch buffer than the original unchanged1.3GiB metadata guard. It then calls the already committed/reviewed two-site supervise_v3 once. The supervisor and original worker independently retain their own1.3GiB guard,256MiB working-set cap and30s wall limit. No code/manifest/data/selection/guard is patched. Audit and replay are separate launches; no automatic scientific retry, scheduler or newdata resource. Preserve all stdout/stderr, admission logs, original artifacts and parser-compatibility receipts. This driver opens no project sequence or outcome itself; the previously frozen worker scope is exactly8WTs.
