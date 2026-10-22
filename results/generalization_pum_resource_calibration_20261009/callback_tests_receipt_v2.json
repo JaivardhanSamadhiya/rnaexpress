@@ -1,0 +1,13 @@
+{
+  "UTC": "2026-10-22T05:36:38.002071+00:00",
+  "status": "PASS_3_INVENTED_CALLBACK_SCOPE_AND_TRUTHFUL_RECEIPT_TESTS",
+  "tests": 3,
+  "no_real_cohort_or_outcomes_read": true,
+  "files": {
+    "src/generalization_pum_resource_calibration_20261009/worker.py": "7c51f5636c7671aaa0fc7e1953cdb980134752a572ea46e6cc8225f7e6debff1",
+    "src/generalization_pum_resource_calibration_20261009/controller.py": "8d746053df360bb905ab39ca0a6f4bcf86be38e60c62204c9595be2528f92e57",
+    "src/generalization_pum_resource_calibration_20261009/callback_tests.py": "437947899562df4837b3582e334d0e06847ad4685e792901c07f5410d37818bc"
+  },
+  "original_modules_or_data_changed": false,
+  "peer_fixes_included": "Interpreter binding and final post-hash deadline/resource decision"
+}

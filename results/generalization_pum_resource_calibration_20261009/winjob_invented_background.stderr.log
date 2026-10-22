@@ -1,0 +1,25 @@
+test_assignment_failure_terminates_only_created_suspended_process (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_assignment_failure_terminates_only_created_suspended_process) ... ok
+test_bad_query_length_closes_job_without_child (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_bad_query_length_closes_job_without_child) ... ok
+test_changed_limits_before_resume_terminate_owned_job (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_changed_limits_before_resume_terminate_owned_job) ... ok
+test_close_idempotent_and_only_owned_handles (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_close_idempotent_and_only_owned_handles) ... ok
+test_command_validation_and_no_second_live_worker (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_command_validation_and_no_second_live_worker) ... ok
+test_exact_limits_and_accounting (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_exact_limits_and_accounting) ... ok
+test_exit_poll_and_literal_259_exit_code (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_exit_poll_and_literal_259_exit_code) ... ok
+test_failed_resource_measurement_fails_closed (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_failed_resource_measurement_fails_closed) ... ok
+test_false_membership_never_resumes (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_false_membership_never_resumes) ... ok
+test_process_memory_counter_mapping (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_process_memory_counter_mapping) ... ok
+test_suspended_hidden_assignment_verification_then_single_resume (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_suspended_hidden_assignment_verification_then_single_resume) ... ok
+test_system_commit_is_performance_counter_not_job_pagefile (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_system_commit_is_performance_counter_not_job_pagefile) ... ok
+test_unexpected_suspend_count_is_fatal (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_unexpected_suspend_count_is_fatal) ... ok
+test_win64_structures_and_pointer_offsets (src.generalization_pum_resource_calibration_20261009.winjob_tests.MockTests.test_win64_structures_and_pointer_offsets) ... ok
+test_job_close_kills_only_owned_tiny_child (src.generalization_pum_resource_calibration_20261009.winjob_tests.NativeInventedChildTests.test_job_close_kills_only_owned_tiny_child) ... ok
+test_original_git_show_source_helper_fits_active_two (src.generalization_pum_resource_calibration_20261009.winjob_tests.NativeInventedChildTests.test_original_git_show_source_helper_fits_active_two) ... ok
+test_tiny_child_real_limits_membership_and_postexit_counters (src.generalization_pum_resource_calibration_20261009.winjob_tests.NativeInventedChildTests.test_tiny_child_real_limits_membership_and_postexit_counters) ... ok
+test_numerical_payload_unchanged (src.generalization_pum_resource_calibration_20261009.callback_tests.CallbackTests.test_numerical_payload_unchanged) ... ok
+test_receipt_truthfully_discloses_override (src.generalization_pum_resource_calibration_20261009.callback_tests.CallbackTests.test_receipt_truthfully_discloses_override) ... ok
+test_restore_after_exception (src.generalization_pum_resource_calibration_20261009.callback_tests.CallbackTests.test_restore_after_exception) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.260s
+
+OK

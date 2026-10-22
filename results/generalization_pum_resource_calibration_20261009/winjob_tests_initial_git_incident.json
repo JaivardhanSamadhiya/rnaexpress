@@ -1,0 +1,17 @@
+{
+  "status": "SYNTHETIC_ONLY_ORIGINAL_GIT_HELPER_FAILED_ACTIVE_PROCESS_CAP2",
+  "tests": 17,
+  "passed": 16,
+  "failed": 1,
+  "failure": "test_original_git_show_source_helper_fits_active_two: owned invented Python child exit1",
+  "unittest_elapsed_seconds": 0.244,
+  "process_cap_bytes": 805306368,
+  "job_cap_bytes": 939524096,
+  "active_process_limit": 2,
+  "cap_widened": false,
+  "scientific_workers_executed": false,
+  "files": {
+    "src/generalization_pum_resource_calibration_20261009/winjob.py": "ba9e38bd833df53aa99687fcc2e7287e70b102968a5d35754da66ba57912bc35",
+    "src/generalization_pum_resource_calibration_20261009/winjob_tests.py": "7218182e4554c77c8c1fa3a696c2546acf040ab2e82db342ceba63e19112d7c6"
+  }
+}
