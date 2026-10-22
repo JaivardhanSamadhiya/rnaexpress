@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-10-09T20:17:16.580455+00:00",
+  "status": "PASS_46_SELECTED_INVENTED_CASE_TESTS_WITH_MEMORY_OBSERVATION",
+  "tests": 46,
+  "elapsed_seconds": 0.40599999998812564,
+  "process_memory_query_succeeded": true,
+  "peak_working_set_bytes": 25038848,
+  "peak_private_commit_bytes": 16732160,
+  "memory_before": {
+    "physical_total": 16805040128,
+    "physical_available": 697442304,
+    "commit_headroom": 4871168000
+  },
+  "memory_after": {
+    "physical_total": 16805040128,
+    "physical_available": 686112768,
+    "commit_headroom": 4868599808
+  },
+  "tested_files_SHA256": {
+    "src/generalization_pum2_fixed_math_20261008/model.py": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81",
+    "src/generalization_pum2_fixed_math_20261008/tests.py": "d7c3f7a49238bffa31ef9ca9860f1f65f7791b739ab76ed6e936d45cd2e005b5",
+    "src/generalization_pum2_independent_replay_20261009/numeric.py": "31089b249a6d44e4632db6f90459ab5ffd1f37a25bb0ea8a789001bedc905142",
+    "src/generalization_pum2_independent_replay_20261009/tests.py": "943f546e7a604ff707218a93c3beb478a107763d86a595c3a74a548a1e87e368"
+  },
+  "no_biological_sequences_or_outcomes_read": true,
+  "fixed_358_byte_public_parameter_files_used": true,
+  "scientific_production_workers_executed": false,
+  "existing_RAM_safeguards_changed": false,
+  "limitation": "Invented tests exercise 140nt states but not real cohort loading, production serialization or model training; this is not a production peak-memory bound."
+}

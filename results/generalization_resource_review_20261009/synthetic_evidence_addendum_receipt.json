@@ -1,0 +1,23 @@
+{
+  "status": "DOCUMENT_ADDENDUM_MEASURED_SYNTHETIC_ONLY_NOT_PRODUCTION_ADMISSION",
+  "files": {
+    "reports/generalization_resource_review_20261009/proposed-calibration.md": "febc87c7a4d7ba3abfdb9011dbc1c9c94aa4b749660975b693e58336c3a0a992",
+    "results/generalization_resource_review_20261009/static_review_receipt.json": "790fd4abd1ba8df4dd9a9ef7d8f3aa93dfcd485571eff654db5847d9f5efe943",
+    "results/generalization_resource_synthetic_profile_20261009/synthetic_profile_receipt.json": "1eae3a1df211c68eb334abc774613fdd51e33bc988a0d00838e73b9d66f872b2",
+    "reports/generalization_resource_review_20261009/synthetic-evidence-addendum.md": "d5e42fcebc9672a9497fee5f0a049d03f1de64724143714772ac8bb7949e8da8"
+  },
+  "tested_source_sha256": {
+    "src/generalization_pum2_fixed_math_20261008/model.py": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81",
+    "src/generalization_pum2_fixed_math_20261008/tests.py": "d7c3f7a49238bffa31ef9ca9860f1f65f7791b739ab76ed6e936d45cd2e005b5",
+    "src/generalization_pum2_independent_replay_20261009/numeric.py": "31089b249a6d44e4632db6f90459ab5ffd1f37a25bb0ea8a789001bedc905142",
+    "src/generalization_pum2_independent_replay_20261009/tests.py": "943f546e7a604ff707218a93c3beb478a107763d86a595c3a74a548a1e87e368"
+  },
+  "tested_source_actual_hashes_verified": true,
+  "profile_tests_rerun_by_reviewer": false,
+  "workers_started_by_reviewer": 0,
+  "guard_overrides": 0,
+  "scientific_imports": 0,
+  "production_peak_memory_validated": false,
+  "lowered_resource_policy_validated": false,
+  "implementation_or_execution_authorized": false
+}
