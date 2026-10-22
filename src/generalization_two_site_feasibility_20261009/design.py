@@ -1,0 +1,33 @@
+"""Rules declared before any WT sequence read. No coverage-selected spacing/threshold."""
+RULE={
+ "version":"WT_canonical_PUM_core_9contact_geometry_v1",
+ "alphabet":"Literal140nt sourceDNA; forwardRNA T->U only; no strand flip or padding",
+ "core_regex":"UGUA[ACGU]AUA",
+ "core_width":8,"mandatory_model_contact_width":9,
+ "site_qualification":"Exact published canonical8nt PRE, with an available9th consecutive-contact base",
+ "qualifying_energy_threshold":None,
+ "energy":"Published fixed coupled_consecutive9-contact bound energy; position9 conditional on position8A",
+ "parameter_commit":"28ebbad0950a8a915ee09711144d8e5bea8fa79a",
+ "temperature_K":298.15,"R_kcal_mol_K":0.0019872041,
+ "nonoverlap":"Computational9nt contact windows must be disjoint: left_start+9<=right_start",
+ "intervals":"0based halfopen; intervening_gap=right_start-(left_start+9)",
+ "spacing_grid_or_minmax_filter":None,
+ "enumerate_all_qualifying_sites_and_nonoverlapping_pairs":True,
+ "future_sparse_pair_selection":"One pair perWT: minimum sum of fixed consecutive energies, then lexicographic(left_start,right_start)",
+ "pair_ranking_is_geometry_feasibility_not_measured_binding":True,
+ "terminal8nt_core_without9th_base":"Record separately as ineligible; do not append an artificial nucleotide",
+ "WT_roster":"All8 non-mPRE literal author template rows from frozen16-parent metadata;7 nominal lineages",
+ "mutants_or_mPRE_sequences_scanned":False,
+ "conserved_positions_mean":"Only the7 fixed positions of the canonical recognition pattern; no evolutionary conservation or unchanged-site certificate",
+ "future_joint_event":"Both9nt windows simultaneously unpaired; intervening bases unconstrained, not one contiguous span",
+ "future_Q":"Q_AB=P(Aopen AND Bopen)/(P(Aopen)*P(Bopen)); no calculation in this audit",
+ "fresh_RAM_guard":"Existing PRELib native-reference metadata fresh >=1.3GiB; all original3GiB feature/model guards unchanged",
+ "scientific_runtimes_loaded":False,"folds_or_models":False,
+ "secondary_expansion":"No flipped registers/noncanonical cores/extra flanks/replacement rules admitted after coverage",
+}
+SOURCES={
+ "Becker2019":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6521599/",
+ "Becker2019_DOI":"10.1261/rna.068585.118",
+ "Jarmoskaite2019":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6645366/",
+ "PRELib2024":"https://academic.oup.com/nar/article/52/21/13402/7848851",
+}
