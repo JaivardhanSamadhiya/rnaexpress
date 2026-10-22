@@ -1,0 +1,50 @@
+ADMITTED_AFTER_ORDINARY_BACKGROUND_WAIT production 0.0
+{
+  "UTC": "2026-10-22T05:37:07.986890+00:00",
+  "status": "FAILED_PHASE_PRESERVED_NO_AUTOMATIC_RETRY",
+  "phase": "production",
+  "failure": "Failed closed: AssertionError: Approved system commit admission not met",
+  "exit_code": null,
+  "manifest_sha256": "06e1c2b1b5ceb95f5ad13aaf8e3d355c02427c03347b0a17d630878948859d1b",
+  "kernel_limits": {
+    "process_memory_limit": 805306368,
+    "job_memory_limit": 939524096,
+    "active_process_limit": 2,
+    "limit_flags": 8968
+  },
+  "job_accounting": null,
+  "peak_worker_working_set_bytes": 0,
+  "peak_worker_private_commit_bytes": 0,
+  "minimum_available_physical_bytes": 1109901312,
+  "minimum_system_commit_headroom_bytes": 2036621312,
+  "maximum_monitor_gap_seconds": 0.0,
+  "monitor_target_interval_seconds": 0.1,
+  "elapsed_seconds": 0.031000000017229468,
+  "memory_before": {
+    "physical_available": 1148526592,
+    "physical_total": 16805040128,
+    "commit_headroom": 2051055616,
+    "disk_available": 1170261671936
+  },
+  "memory_after": {
+    "physical_available": 1109901312,
+    "physical_total": 16805040128,
+    "commit_headroom": 2036621312,
+    "disk_available": 1170261147648
+  },
+  "controller_process_memory": {
+    "peak_working_set": 24113152,
+    "working_set": 22007808,
+    "peak_private_commit": 13758464,
+    "private_commit": 11583488
+  },
+  "observed_other_project_PIDs": [
+    193212
+  ],
+  "original_scientific_receipt_sha256": null,
+  "original_scientific_bytes_unchanged": true,
+  "other_worker_and_queue_guards_changed": false,
+  "only_owned_job_terminated_on_failure_or_close": true,
+  "models_fit": 0,
+  "outcomes_read": false
+}

@@ -1,0 +1,16 @@
+{
+  "UTC": "2026-10-22T05:40:05.582110+00:00",
+  "status": "REVIEWED_NO_SCIENTIFIC_CHILD_EXECUTION_IN_FIRST_ADMISSION",
+  "first_attempt_receipt_sha256": "7104707ddf1089583c1f38931bd675ea20ca4eaad06adf76db1e43bd30de97b0",
+  "failure": "System commitment fell below original approved startup budget after creating suspended process; second controller admission failed before ResumeThread",
+  "zero_background_outputs": true,
+  "no_worker_log_or_receipt": true,
+  "no_automatic_scientific_retry": true,
+  "source_or_math_change": false,
+  "manual_followup": "Separate immutable resource-attempt namespace, same original PUM functions and caps, stricter128MiB startup commit buffer, finite600s pre-admission wait",
+  "unchanged_active_process_cap": 2,
+  "unchanged_process_MiB": 768,
+  "unchanged_job_MiB": 896,
+  "unchanged_system_commit_reserve_MiB": 1024,
+  "all_other_scientific_floors_unchanged": true
+}

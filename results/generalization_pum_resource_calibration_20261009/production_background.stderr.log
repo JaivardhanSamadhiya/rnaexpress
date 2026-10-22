@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\rnaexpress\src\generalization_pum_resource_calibration_20261009\startup.py", line 23, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--phase',choices=sorted(worker.MODULES),required=True);a=p.parse_args();run(a.phase)
+                                                                                                                        ^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_pum_resource_calibration_20261009\startup.py", line 18, in run
+    print('ADMITTED_AFTER_ORDINARY_BACKGROUND_WAIT',phase,elapsed,flush=True);controller.run(phase);return
+                                                                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_pum_resource_calibration_20261009\controller.py", line 100, in run
+    assert result['status']=='PASS_OWNED_PUM_PHASE_WITH_KERNEL_LIMITS',failure
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Failed closed: AssertionError: Approved system commit admission not met

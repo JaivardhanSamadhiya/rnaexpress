@@ -1,0 +1,7 @@
+# Reviewed second resource-admission attempt
+
+The first controller stopped before ResumeThread when a fresh system-commit check failed. The suspended child was terminated within its own job. No worker log, sequence score, background file, original completion receipt or model fit exists. This is an operational admission failure, not a biological negative. Its source, receipts, PIDs and logs remain unchanged.
+
+This separately reviewed, immutable namespace performs the first actual PUM feature calculation if admitted. It imports the same already reviewed/tested Win64 utility; process/job caps768/896MiB, active2, physical512MiB admission/256MiB stop, system commit1GiB reserve and original numerical science remain unchanged. The only admission changes are STRONGER startup headroom (extra128MiB instead of32MiB) and a bounded600s ordinary background pre-admission wait. Scientific child deadline remains30minutes. No application is closed, no pagefile/OS configuration changes, and no automatic retry of a scientific child occurs.
+
+Approval is the same explicit human approval of the two original PUM functions. No scientific function has executed from the first controller, so this does not repeat a cohort or evaluation. The original control/data/gate restrictions remain intact. Original PUM receipts add truthful operational-exception provenance. Independent numerical replay remains mandatory before any feature training admission. Native helper tests are shared and pinned; cloned resource callback tests must run and new manifest commit before launch.
