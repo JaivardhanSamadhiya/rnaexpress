@@ -1,0 +1,139 @@
+{
+  "arms": [
+    "pooled",
+    "independent",
+    "joint_shrink10"
+  ],
+  "configs": [
+    {
+      "id": "pair_005",
+      "penalty": 0.005
+    },
+    {
+      "id": "pair_05",
+      "penalty": 0.05
+    },
+    {
+      "id": "pair_5",
+      "penalty": 0.5
+    }
+  ],
+  "counts": {
+    "CAD_rows": 6889,
+    "Neuro-2a_rows": 6892,
+    "all_rows": 13781,
+    "arm_checkpoints": 63,
+    "components": 187,
+    "inner_arm_checkpoints": 54,
+    "inner_optimizer_units": 72,
+    "optimizer_units": 84,
+    "outer_arm_checkpoints": 9,
+    "outer_optimizer_units": 12,
+    "paired_contexts": 4816,
+    "paired_directional_decisions": 9632,
+    "paired_menus": 2408,
+    "paired_rows": 13760,
+    "unmatched_contexts": 9,
+    "unmatched_rows": 21
+  },
+  "declared_future_inputs_not_opened": {
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": {
+      "actual_bytes_rehashed": false,
+      "declared_sha256": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6"
+    },
+    "results/probabilistic_ranking_20260928/candidate_index.csv": {
+      "actual_bytes_rehashed": false,
+      "declared_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d"
+    }
+  },
+  "files": {
+    "reports/generalization_knowncell_20261007/protocol.md": "ee3a08dc69e399ab14629e5a43e371e232448a656992403e1a4734f914e79092",
+    "reports/generalization_knowncell_joint_design_20261009/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_knowncell_joint_design_20261009/protocol.md": "448c2f5404c055421f076437d4e65cc550e993bcc7529b1cccb9cea8e78730ab",
+    "reports/generalization_model_gap_audit_20261009/audit.md": "2b9acc8c6ac7657067fd2d238e204894149c2e287cdd23874726fb31f315d803",
+    "reports/generalization_model_gap_audit_20261009/source_provenance_01.json": "10e1f964e07e0921224984d62b89c1948786c3f0417337cdad587a24c8fa86b9",
+    "reports/generalization_rbp_cellaxis_20261007/protocol.md": "7c9c716cd96872ed2fffc25a3d493c25c1644e1981f4ad6bcd3d4bbd7a7597c2",
+    "results/generalization_crosscell_20261007/metadata_receipt.json": "99bc4ad1086c0113dfcd1fdff27b7ea59755ef1bb19cc4d12c206f3e134a2e1a",
+    "results/generalization_crosscell_20261007/prefit_manifest.json": "547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345",
+    "results/generalization_knowncell_20261007/metadata_receipt.json": "e4f1f79b667cace423e5e650c39789c9879dd15713df9d8f6ae04e2e830f870f",
+    "results/generalization_knowncell_joint_design_20261009/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_knowncell_joint_design_20261009/synthetic_tests_receipt.json": "0725f36033428617f25441b0060d6ec7340cfb64b1c11dbabb47dee5947f4e42",
+    "src/cross_assay_20260927/models.py": "a7d43f49c37e0e2a86e5c9c64cbf97bca78aabab36a007f10f886fb916d54d71",
+    "src/generalization_20261007/common.py": "5707393cbf51333db925ef5c66b9e949f8eeafcafa131d55747534a5b2661840",
+    "src/generalization_20261007/route_scaling.py": "3457184c701ced91a69ce5747d1c809c5180e4ff5897af6927827c7ab710fdea",
+    "src/generalization_crosscell_20261007/bootstrap.py": "0fb64d3c59ace2fc63b42450e990c26d7314c982fca793919eadc5a3a25e65e0",
+    "src/generalization_crosscell_20261007/common.py": "232c2fd0caf2ffae9577bed3fe6ed712f51810a5f105fef9daeefd513bc0f180",
+    "src/generalization_crosscell_20261007/engine.py": "9881ef1937a4803b463e3e3f530abba40e36b21740be5cde2b6392fb880f325b",
+    "src/generalization_crosscell_20261007/gate.py": "7bc3f7d6506fa1f7939f238ead6d99c44987dba78f01c71952b2553a3c76f823",
+    "src/generalization_crosscell_20261007/prepare.py": "6eb694e035f563a2b3a0f5cbd17fc07b00d321e0c477c58a275e0928cebc87a9",
+    "src/generalization_crosscell_20261007/splits.py": "8bb23bf6652a59cd329028881ef5d2875d7ffcfcd8ec68ff42dbaca3cf52710a",
+    "src/generalization_knowncell_20261007/common.py": "dcc73f8d62692d00831622dadd27de4f949b7d1276d944f08c081ef462a20f36",
+    "src/generalization_knowncell_20261007/prepare.py": "f51ed3d45ebbf3d67f4f754cb02319173217fe9716a49ea087349da0bdf2290b",
+    "src/generalization_knowncell_20261007/splits.py": "e99fa56e737e80a381e987296bb09c0cd8c955550141c41fb810f0a78dda60c2",
+    "src/generalization_knowncell_joint_design_20261009/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_knowncell_joint_design_20261009/__init__.py": "44592d44f39aa46e6c3a29ddbdec951bf1032696ba2a5374dacf0c82f0ef55e4",
+    "src/generalization_knowncell_joint_design_20261009/contracts.py": "190be97495308f1ba00410cfc0b449a8551526c8c83ce078f976ea6564354035",
+    "src/generalization_knowncell_joint_design_20261009/freeze.py": "49a9ebfa130a259f28b1b2c72c33be4c60e53b9af7dace1e41fa18d138d15042",
+    "src/generalization_knowncell_joint_design_20261009/kernels.py": "046d18b79ddffae39c20464af4ca5fc4df644c2ed81d72a6ab1a4cbba01b1237",
+    "src/generalization_knowncell_joint_design_20261009/spec.py": "6ec18ef9bad567a74b7cb435cdb6aa535421e6bc11bcd9fd50eb7d104eac4c26",
+    "src/generalization_knowncell_joint_design_20261009/tests.py": "cac0f56d819e0e0278464623664e113a9ea70a71f5c9896fccd442cf42a9fe85",
+    "src/generalization_rbp_cellaxis_20261007/spec.py": "7410fe9dd1f39604848a390a0aec32e3fa9627e541f8d6bfaea6088ff4401a6c"
+  },
+  "gate": {
+    "bootstrap_draws": 5000,
+    "bootstrap_lower_strict_min": 0.0,
+    "bootstrap_seed": 20261007,
+    "each_cell_regret_strict_max": 0.5,
+    "gain_each_cell_min": 0.005,
+    "gain_macro_min": 0.01,
+    "leave_best_fold_gain_strict_min": 0.0,
+    "macro_regret_max": 0.48,
+    "wrong_harm_each_cell_max": 0.05,
+    "wrong_harm_macro_max": 0.02
+  },
+  "generated_utc": "2026-10-22T05:32:09.922910+00:00",
+  "metadata_columns": [
+    "intervention_id",
+    "dataset",
+    "cell_type",
+    "endpoint_class",
+    "parent_context_id",
+    "biological_component",
+    "gene_transcript",
+    "held_parent_fold",
+    "parent_sequence",
+    "mutant_sequence"
+  ],
+  "metadata_summary_row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "models_fitted": 0,
+  "no_scientific_execution_entrypoint": true,
+  "observed_git_head": "bbb683a32a597d32188821fc1879d714b0074617",
+  "original_reference_bytes_unchanged": true,
+  "policy": {
+    "PUM_resource_exception_applies": false,
+    "choice_tie": "Exact canonical scores, original intervention-ID lexical order",
+    "future_fresh_RAM_GiB": 3.0,
+    "future_numerical_threads": 1,
+    "future_workspace_disk_GiB": 1.0,
+    "independent_confirmation": false,
+    "new_scientific_entrypoints": false,
+    "novel_method": false,
+    "primary": "All exact full paired menus; equal cell/gene/menu/direction regret",
+    "scope": "Known represented cells, unseen genes, exposed Mikl development data",
+    "secondary": "All13781 rows and unmatched21 rows reported, never used to rescue gate",
+    "selection_tie": "Within1e-12 of minimum, first fixed config order .005/.05/.5",
+    "source_only_selection": "One common lambda per arm chosen from concatenated inner OOF paired decisions",
+    "status": "STATIC_DESIGN_ONLY_NO_PROJECT_INPUT_ADMISSION",
+    "training": "All source rows in both represented cells outside held gene folds",
+    "unknown_cell_generalization": false,
+    "unsupported": "Common training pair-RMS<1e-8 freezes shared and all cell coefficients0"
+  },
+  "prepared_date": "2026-10-21",
+  "project_dataset_reads": 0,
+  "project_feature_reads": 0,
+  "project_outcome_reads": 0,
+  "requires_separate_root_committed_metadata_and_FIT_admissions": true,
+  "resource_overrides": 0,
+  "scientific_runtimes_imported": false,
+  "status": "FROZEN_STATIC_JOINT_KNOWNCELL_DESIGN_NOT_PROJECT_ADMISSION"
+}

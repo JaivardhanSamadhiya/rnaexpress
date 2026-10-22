@@ -1,0 +1,12 @@
+{
+  "UTC": "2026-10-22T05:25:54.278401+00:00",
+  "status": "ADMISSION_FAILED_BEFORE_WORKER_OR_WT_READ",
+  "entrypoint": "src.generalization_two_site_feasibility_20261009.supervise_v2 audit",
+  "failed_assertion": "Bounded metadata1.3GiB floor; original feature/model3GiB unchanged",
+  "design_manifest_v2_committed_before_attempt": true,
+  "biological_sequences_or_parameters_read_by_worker": false,
+  "worker_created": false,
+  "floors_changed": false,
+  "immutable_output_paths_created": false,
+  "next_action": "Reassess fresh memory later; no retry with weakened admission"
+}

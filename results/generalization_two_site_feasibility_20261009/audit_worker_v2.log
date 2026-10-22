@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\rnaexpress\src\generalization_two_site_feasibility_20261009\audit.py", line 64, in <module>
+    if __name__=="__main__":run()
+                            ^^^^^
+  File "D:\rnaexpress\src\generalization_two_site_feasibility_20261009\audit.py", line 40, in run
+    available=metadata_guard();path,m=bind_manifest();start=time.monotonic();roster,n=load_wt();params=load_parameters()
+                                                                                      ^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_two_site_feasibility_20261009\audit.py", line 30, in load_wt
+    rows,n=selected_rows(DESIGN.read_text(encoding="utf-8"),{p["source_excel_row"] for p in parents})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_two_site_feasibility_20261009\selective_metadata.py", line 59, in selected_rows
+    j=value_end(text,i);assert text[i]=="{";columns={k:(u,v) for k,u,v in fields(text,i,j)}
+                                                                          ^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_two_site_feasibility_20261009\selective_metadata.py", line 45, in fields
+    assert whitespace(text,i+1)==end
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

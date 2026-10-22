@@ -1,0 +1,18 @@
+{
+  "actual_worker_or_native_guard_called": false,
+  "biological_values_read": false,
+  "models_fit": 0,
+  "original_design_manifest_sha256": "13f1730b4c83ac0627587c779df70bff5244be99ae36d2794df6690e0f87d3b8",
+  "original_v2_tests_receipt_sha256": "6cc9612f906da3405dabe7ce392c9b1faed7cca22f1306036e1237fa6ddabcad",
+  "parameter_values_read": false,
+  "source_files": {
+    "src/generalization_two_site_feasibility_20261009/freeze_v3.py": "4cd57f97d4605c87e913d1557847716f8e15db887296cd2e17243117dcf96fb1",
+    "src/generalization_two_site_feasibility_20261009/selective_metadata_v3.py": "7b03e82d1fbe746367be32b5bdf40a4116b8662467b81d609fffa30aa6273e4b",
+    "src/generalization_two_site_feasibility_20261009/supervise_v3.py": "bb097736a1e59e288b5e828ca5710013b0aa1813d57910eac0344236def7e7fc",
+    "src/generalization_two_site_feasibility_20261009/tests_v3.py": "ee210a55a3a4302403728901af637c23f7989aa4c248663a1f9aee9f73a1e283",
+    "src/generalization_two_site_feasibility_20261009/worker_v3.py": "3aa1ecee036ee8448f150a45ff847d5702201a26c3cc2df40c63cfd9ec6f43f3"
+  },
+  "status": "PASS_INVENTED_BOUNDED_JSON_V3",
+  "tests": 34,
+  "v2_design_manifest_sha256": "32ab208e37b5b861dfe22cf9124aa7ad10ba3e62e48750e8f152c9d567b6a382"
+}

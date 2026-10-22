@@ -1,0 +1,17 @@
+{
+  "all_existing3GiB_guards_unchanged": true,
+  "available_RAM_before_bytes": 1637470208,
+  "elapsed_seconds": 0.8290000000270084,
+  "exit_code": 1,
+  "failure": "Owned metadata worker failed",
+  "final_elapsed_check_after_completion": true,
+  "final_lifetime_peak_query_succeeded": true,
+  "log_sha256": "602240ec4b36e9215ac0b71221be2eeb74d4350fc33822329a8c187360e85889",
+  "only_owned_child_can_be_terminated": true,
+  "original_design_manifest_sha256": "13f1730b4c83ac0627587c779df70bff5244be99ae36d2794df6690e0f87d3b8",
+  "peak_working_set_bytes": 28684288,
+  "stage": "audit",
+  "status": "FAILED_WORKER_OR_BOUND",
+  "v1_supervisor_and_manifest_preserved": true,
+  "v2_design_manifest_sha256": "32ab208e37b5b861dfe22cf9124aa7ad10ba3e62e48750e8f152c9d567b6a382"
+}
