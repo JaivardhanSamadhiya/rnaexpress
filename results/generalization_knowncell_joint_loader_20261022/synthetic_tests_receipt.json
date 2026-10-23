@@ -1,0 +1,26 @@
+{
+  "actual_native_resource_probes": 0,
+  "actual_pandas_parser_calls": 0,
+  "actual_project_admissions": 0,
+  "elapsed_seconds": 0.09399999992456287,
+  "generated_utc": "2026-10-23T05:58:28.176848+00:00",
+  "models_fitted": 0,
+  "pandas_currentPython_compatibility_NOT_certified": true,
+  "project_dataset_reads": 0,
+  "project_feature_reads": 0,
+  "project_outcome_reads": 0,
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scientific_runtimes_imported": false,
+  "source_files": {
+    "src/generalization_knowncell_joint_loader_20261022/__init__.py": "974b868cc31b6f0be05d759ace333cc807bd135404109d29ef4fceb325ff86d1",
+    "src/generalization_knowncell_joint_loader_20261022/guard.py": "5a91012ce95b822e2cdd04bc2e4c90a0c1b2e01f7f203bb0c3b26ec69fcd353f",
+    "src/generalization_knowncell_joint_loader_20261022/loader.py": "456c6e938c8c6a004a3ba29b2b1ce50580de14ce6e0db2d7db7613aa319943d3",
+    "src/generalization_knowncell_joint_loader_20261022/parsers.py": "4be5e1bc8d8efa62d3165bcf3a85c925faf537c1b6c048a7a038b737d32ab231",
+    "src/generalization_knowncell_joint_loader_20261022/prepare.py": "45e9c61fcea9d0634a60ac049544a432a2ece435062d5d7c348f0e79160e4c0b",
+    "src/generalization_knowncell_joint_loader_20261022/spec.py": "899eed14b382b0f71b1eff69cd143c7928060ef7087d0f92bd4655127cd0eb70",
+    "src/generalization_knowncell_joint_loader_20261022/tests.py": "7c9697e39d4d9ca2f5d0468f4aa0d8495407a8dc3cbf9ea088f0fc47fd7f0480"
+  },
+  "status": "PASS_INVENTED_STDLIB_SELECTIVE_LOADER_CHECKS",
+  "tests": 18
+}
