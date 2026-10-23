@@ -1,0 +1,39 @@
+test_all_invalid_csv_envelopes (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_all_invalid_csv_envelopes) ... ok
+test_all_owned_sources_parse (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_all_owned_sources_parse) ... ok
+test_all_successful_metadata_cases (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_all_successful_metadata_cases) ... ok
+test_bad_row_masks (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_bad_row_masks) ... ok
+test_exact_loader_python_certificate_roster (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_exact_loader_python_certificate_roster) ... ok
+test_exact_options_and_mask (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_exact_options_and_mask) ... ok
+test_extra_python_native_certificate_is_rejected (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_extra_python_native_certificate_is_rejected) ... ok
+test_final_completion_just_after_deadline_fails (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_final_completion_just_after_deadline_fails) ... ok
+test_golden_binary_values (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_golden_binary_values) ... ok
+test_id_order_corruption_rejected (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_id_order_corruption_rejected) ... ok
+test_metadata_never_converts_invalid_unselected_value (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_metadata_never_converts_invalid_unselected_value) ... ok
+test_missing_pandas_payload_is_blocker (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_missing_pandas_payload_is_blocker) ... ok
+test_native_suffix_roster (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_native_suffix_roster) ... ok
+test_nonfinite_rejected_by_original_wrapper (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_nonfinite_rejected_by_original_wrapper) ... ok
+test_one_thread_environment (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_one_thread_environment) ... ok
+test_payload_component_selection (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_payload_component_selection) ... ok
+test_resource_start_exact_boundary (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_resource_start_exact_boundary) ... ok
+test_resource_stop_exact_boundary (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_resource_stop_exact_boundary) ... ok
+test_scientific_child_no_site_flag_is_fixed (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_scientific_child_no_site_flag_is_fixed) ... ok
+test_solver_source_not_imported_by_stdtests (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_solver_source_not_imported_by_stdtests) ... ok
+test_tricky_corpus_stays_tokens (src.generalization_knowncell_parser_profile_20261022.tests.Checks.test_tricky_corpus_stays_tokens) ... ok
+test_existing_changed_cache_rejected (__main__.CacheChecks.test_existing_changed_cache_rejected) ... ok
+test_existing_directory_not_bytecode_file (__main__.CacheChecks.test_existing_directory_not_bytecode_file) ... ok
+test_existing_outside_prefix_cache_rejected (__main__.CacheChecks.test_existing_outside_prefix_cache_rejected) ... ok
+test_existing_pinned_cache_bound_without_execution_claim (__main__.CacheChecks.test_existing_pinned_cache_bound_without_execution_claim) ... ok
+test_existing_unpinned_cache_rejected (__main__.CacheChecks.test_existing_unpinned_cache_rejected) ... ok
+test_final_resource_check_follows_provenance_hashing (__main__.CacheChecks.test_final_resource_check_follows_provenance_hashing) ... ok
+test_invalid_cache_attribute_rejected (__main__.CacheChecks.test_invalid_cache_attribute_rejected) ... ok
+test_missing_cache_is_allowed (__main__.CacheChecks.test_missing_cache_is_allowed) ... ok
+test_module_outside_scientific_prefix_is_helper_out_of_scope (__main__.CacheChecks.test_module_outside_scientific_prefix_is_helper_out_of_scope) ... ok
+test_no_cache_attribute_allowed (__main__.CacheChecks.test_no_cache_attribute_allowed) ... ok
+test_original_bootstrap_function_only_compile_no_numpy (__main__.CacheChecks.test_original_bootstrap_function_only_compile_no_numpy) ... ok
+test_sourceless_module_cache_also_bound (__main__.CacheChecks.test_sourceless_module_cache_also_bound) ... ok
+test_v2_child_and_two_proof_calls_are_fixed (__main__.CacheChecks.test_v2_child_and_two_proof_calls_are_fixed) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.800s
+
+OK

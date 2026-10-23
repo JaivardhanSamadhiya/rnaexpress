@@ -1,0 +1,26 @@
+test_all_invalid_csv_envelopes (__main__.Checks.test_all_invalid_csv_envelopes) ... ok
+test_all_owned_sources_parse (__main__.Checks.test_all_owned_sources_parse) ... ok
+test_all_successful_metadata_cases (__main__.Checks.test_all_successful_metadata_cases) ... ok
+test_bad_row_masks (__main__.Checks.test_bad_row_masks) ... ok
+test_exact_loader_python_certificate_roster (__main__.Checks.test_exact_loader_python_certificate_roster) ... ok
+test_exact_options_and_mask (__main__.Checks.test_exact_options_and_mask) ... ok
+test_extra_python_native_certificate_is_rejected (__main__.Checks.test_extra_python_native_certificate_is_rejected) ... ok
+test_final_completion_just_after_deadline_fails (__main__.Checks.test_final_completion_just_after_deadline_fails) ... ok
+test_golden_binary_values (__main__.Checks.test_golden_binary_values) ... ok
+test_id_order_corruption_rejected (__main__.Checks.test_id_order_corruption_rejected) ... ok
+test_metadata_never_converts_invalid_unselected_value (__main__.Checks.test_metadata_never_converts_invalid_unselected_value) ... ok
+test_missing_pandas_payload_is_blocker (__main__.Checks.test_missing_pandas_payload_is_blocker) ... ok
+test_native_suffix_roster (__main__.Checks.test_native_suffix_roster) ... ok
+test_nonfinite_rejected_by_original_wrapper (__main__.Checks.test_nonfinite_rejected_by_original_wrapper) ... ok
+test_one_thread_environment (__main__.Checks.test_one_thread_environment) ... ok
+test_payload_component_selection (__main__.Checks.test_payload_component_selection) ... ok
+test_resource_start_exact_boundary (__main__.Checks.test_resource_start_exact_boundary) ... ok
+test_resource_stop_exact_boundary (__main__.Checks.test_resource_stop_exact_boundary) ... ok
+test_scientific_child_no_site_flag_is_fixed (__main__.Checks.test_scientific_child_no_site_flag_is_fixed) ... ok
+test_solver_source_not_imported_by_stdtests (__main__.Checks.test_solver_source_not_imported_by_stdtests) ... ok
+test_tricky_corpus_stays_tokens (__main__.Checks.test_tricky_corpus_stays_tokens) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.017s
+
+OK
