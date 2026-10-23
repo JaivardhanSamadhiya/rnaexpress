@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-10-23T18:23:38.553351+00:00",
+  "actual_input_provenance_or_project_evaluation_complete": false,
+  "actual_optimizer_calls": 0,
+  "native_bootstrap_run": false,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "small_counts_used_only_in_invented_tests": true,
+  "sources": {
+    "src/generalization_knowncell_joint_evaluation_20261023/__init__.py": "7603b8b18a9d17d05330c72f2be273865de9beb7ecf484ec1da348146dbbe0ab",
+    "src/generalization_knowncell_joint_evaluation_20261023/evaluation.py": "7bcbda853d0d4e7e6b550153b089514a13ed7b44650b6d1afd017020c539c181",
+    "src/generalization_knowncell_joint_evaluation_20261023/prepare.py": "abda00470017ca4ffdbf60c4189cf484e2642c785c31cdb2e125668caeaf7094",
+    "src/generalization_knowncell_joint_evaluation_20261023/tests.py": "445ad644f21f492ec7e84877cde07af0737f69728b06ea03e9acc0421ac56595"
+  },
+  "status": "PASS_INVENTED_SUPPLIED_OUTER_EVALUATION_NOT_PROJECT_ADMISSION",
+  "tests": 14
+}
