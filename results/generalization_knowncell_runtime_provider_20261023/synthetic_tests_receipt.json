@@ -1,0 +1,19 @@
+{
+  "UTC": "2026-10-23T18:37:38.124372+00:00",
+  "actual_optimizer_calls": 0,
+  "actual_resource_guard_or_native_bootstrap_invoked": false,
+  "fresh_actual_provider_invocation_and_origin_acceptance_pending": true,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_runtime_provider_20261023/__init__.py": "8e6cbfe1a7d02a16ca84148e7146c4a0217db399dfb0d32e4cff03c97681ab22",
+    "src/generalization_knowncell_runtime_provider_20261023/bootstrap.py": "373b83c0efb34f32a9843404bbfd027efe7501eeb823d81eefd60d406a844631",
+    "src/generalization_knowncell_runtime_provider_20261023/contracts.py": "b4082686b4a284a3568f47d2646dea02e21d5459071bdf40ed5e80897c1d53aa",
+    "src/generalization_knowncell_runtime_provider_20261023/prepare.py": "2c9642a7415ddfa95843d4b089fa1461e6206dabcd3bd742c589affa1b6eb501",
+    "src/generalization_knowncell_runtime_provider_20261023/provider.py": "441421ae49708761cd91d36bd01182cc85a1ebba5459e30587dfc5882def56fc",
+    "src/generalization_knowncell_runtime_provider_20261023/spec.py": "98773677ae0b22051613eeaa212e7244b2b9bbd9e7ce61de6ad2c5881c0a555c",
+    "src/generalization_knowncell_runtime_provider_20261023/tests.py": "4326144aae2082e020d675ee3718a56427d95ef966a27cd7a4257240f554ea59"
+  },
+  "status": "PASS_MOCKED_REAL_RUNTIME_PROVIDER_SOURCE_NOT_NATIVE_OR_PROJECT_ADMISSION",
+  "tests": 17
+}
