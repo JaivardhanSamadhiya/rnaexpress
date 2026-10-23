@@ -1,0 +1,79 @@
+{
+  "status": "FROZEN_PRELIB_ONLY_OPERATIONAL_ADAPTER_AWAITING_EXPLICIT_APPROVAL",
+  "files": {
+    "src/generalization_prelib_bounded_execution_20261022/__init__.py": "ab7ea2922ff17acc14c4711794bdf32d0b36d12c2389c94d9cc7c24c9ea847f8",
+    "src/generalization_prelib_bounded_execution_20261022/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_bounded_execution_20261022/worker.py": "d8ad3df8b907951183023acbecc091bc6e7ca5ce5dfb97eca5cfd9819bf1561b",
+    "src/generalization_prelib_bounded_execution_20261022/supervise.py": "2122f84e77d3ec77ba58d28a0b5b50e6ef8ff531ef3dc62ff1677b065f77a54d",
+    "src/generalization_prelib_bounded_execution_20261022/tests.py": "d3aa4c54a01426678ae8ab65def9fa2f3b4b0ad2eb37c4306818231822ada1f3",
+    "src/generalization_prelib_bounded_execution_20261022/freeze.py": "a05308a267399b4543b847f6a39b7641fee47bbadc76d0ee85b90db1fa14ea65",
+    "reports/generalization_prelib_bounded_execution_20261022/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_prelib_bounded_execution_20261022/plan.md": "4fde6c5b6ae9a47344c89b930fc148292c45e7c74c2cff0fa302833b65d65841",
+    "reports/generalization_prelib_bounded_execution_20261022/source_review.md": "9aea827e83a202533e4d6cc059441da7ceded4db8cdf52db7ebf3ed628f05fc5",
+    "src/generalization_prelib_pooled_lineage_20261009/pipeline.py": "671f011aab615cc542c5d42f0415a1a759e5c7283a895f5fc5cb45cccc931a59",
+    "src/generalization_prelib_pooled_lineage_20261009/contracts.py": "bb0b800cb849752da292f271c1b43d1356270e7cfe26492e8912aa87c9f9b6c8",
+    "src/generalization_prelib_pooled_lineage_20261009/verify.py": "f477d52241294a88df40c24f776139925eed23d53823a5ee05a2e92e7116c5e1",
+    "src/generalization_current_python_20261022/attest.py": "6ef2f5caeafd587a6b61e7848f361532bfa89b9a4f61d9d5caf8ca496e0f5880",
+    "src/generalization_prelib_numpy_profile_20261022/invented.py": "534a43ca1ca8ddf8b348b12787f78117eeaecd666065f2dc4f08ccb25a82ed7a",
+    "src/generalization_prelib_numpy_profile_v2_20261022/invented.py": "94de0a4e8e2ab4de34648bea90bcb812c7f24171f46a683db0626ff2765997ff",
+    "src/generalization_splicebert_runtime_compatibility_20261007/launcher.py": "374512be8f1daca8ab08a1d0b99ddebded46fccddbd7da281d5915c18fc30dc2",
+    "src/generalization_splicebert_runtime_compatibility_20261007/common.py": "2cdf820c395613e7ac47e7abb346e63c063626798bf4de6286615fea5b8e4573",
+    "src/generalization_pum_process_probe_20261021/headless.py": "7f741f1e024243546b8ab53b65f4b5245a1fc71a7d9e6de86757bf468c1928f0",
+    "src/generalization_pum_resource_calibration_20261009/winjob.py": "3a2b470f116e87ff6233cdc8710b2703cf33b908dae68ece7fb4592227b5f741",
+    "results/generalization_current_python_20261022/current_python_inventory.json": "db59c8f19ed8fc3a4a2adcf96b240146c48ba0f1c649e2e2d48f41e5dcf45d59",
+    "results/generalization_prelib_numpy_profile_v2_20261022/preparation_manifest_reviewed.json": "b541524820b39fd6c83a290982a0a762a0071a203cdca11b1501810d476edca6",
+    "results/generalization_prelib_numpy_profile_v2_20261022/invented_numpy_receipt.json": "f3630fdede88de2b8423d6f15398947933aaf46fa7a001f923feceb4ede4c7a3",
+    "results/generalization_prelib_numpy_profile_v2_20261022/supervisor_receipt.json": "141614b27d791817499a3358727c3566e3d4e20127cf4b945f6eb03f19a3ce70",
+    "results/generalization_prelib_bounded_execution_20261022/synthetic_tests_receipt.json": "4aaef17c40ca6d6ff8e6c75b89081a5b3f91096e781c376bab79cce0de5c600c",
+    "results/generalization_prelib_bounded_execution_20261022/synthetic_tests_reviewed_receipt.json": "1ea422313069c959041d1e503bc54d2b7decc1e20364dd0493e5162171dd3a1a",
+    "results/generalization_prelib_pooled_lineage_20261009/implementation_manifest.json": "744fb3d29ffff883514f7d65d36d57c7b321e39ba0bbff1304967033929939b1",
+    "artifacts/generalization_splicebert_runtime_compatibility_20261007/scientific_runtime_receipt.json": "36d103ee3bbfff30bb1af04a3fa4f640adf61dbedddf1247ceea9d97e5bad039"
+  },
+  "scientific_files": {
+    "src/generalization_prelib_pooled_lineage_20261009/pipeline.py": "671f011aab615cc542c5d42f0415a1a759e5c7283a895f5fc5cb45cccc931a59",
+    "src/generalization_prelib_pooled_lineage_20261009/contracts.py": "bb0b800cb849752da292f271c1b43d1356270e7cfe26492e8912aa87c9f9b6c8",
+    "src/generalization_prelib_pooled_lineage_20261009/verify.py": "f477d52241294a88df40c24f776139925eed23d53823a5ee05a2e92e7116c5e1"
+  },
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_executable_sha256": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b",
+  "native_origins": {
+    "kernel32.dll": {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "sha256": "e132eba4166256e2f414b91fe7d5386590bc5ea8626aee5af9c9738383cf2ae1"
+    },
+    "psapi.dll": {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "sha256": "6c8ebe6621224d11ded0c920873d67b5255fd515e8c4ea803cd587c8232bee5c"
+    }
+  },
+  "phases": [
+    "features",
+    "prefit",
+    "fit",
+    "evaluate",
+    "verify"
+  ],
+  "biological_input_or_target_payloads_read_in_preparation": false,
+  "process_memory_cap_bytes": 805306368,
+  "job_memory_cap_bytes": 939524096,
+  "active_process_cap": 2,
+  "scientific_workers": 1,
+  "numerical_threads": 2,
+  "startup_physical_floor_bytes": 536870912,
+  "stop_physical_floor_bytes": 268435456,
+  "minimum_system_commit_reserve_bytes": 1073741824,
+  "stage_deadline_seconds": 1800,
+  "replaces_only_named_pipeline_process_local_callbacks": [
+    "fresh",
+    "numpy_runtime"
+  ],
+  "additional_scoped_bindings": {
+    "save": "Completion receipt provenance only; scientific arrays/checkpoints untouched",
+    "subprocess": "Pinned direct detached GitFacade only"
+  },
+  "all_four_module_bindings_restored": true,
+  "other_workers_guards_unchanged": true,
+  "automatic_retry_or_partial_resume": false,
+  "spending_authorized": false,
+  "user_approval_record_required_before_execution": true
+}

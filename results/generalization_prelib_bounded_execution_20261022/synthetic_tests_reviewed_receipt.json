@@ -1,0 +1,17 @@
+{
+  "status": "PASS_INVENTED_RESOURCE_BOUNDARIES_AND_SCOPED_CALLBACK_RESTORATION",
+  "test_cases": 7,
+  "reserve_rejection_subcases": 3,
+  "test_source_sha256": "d3aa4c54a01426678ae8ab65def9fa2f3b4b0ad2eb37c4306818231822ada1f3",
+  "numpy_imported": false,
+  "source_files": {
+    "src/generalization_prelib_bounded_execution_20261022/__init__.py": "ab7ea2922ff17acc14c4711794bdf32d0b36d12c2389c94d9cc7c24c9ea847f8",
+    "src/generalization_prelib_bounded_execution_20261022/worker.py": "d8ad3df8b907951183023acbecc091bc6e7ca5ce5dfb97eca5cfd9819bf1561b",
+    "src/generalization_prelib_bounded_execution_20261022/supervise.py": "2122f84e77d3ec77ba58d28a0b5b50e6ef8ff531ef3dc62ff1677b065f77a54d",
+    "src/generalization_prelib_bounded_execution_20261022/tests.py": "d3aa4c54a01426678ae8ab65def9fa2f3b4b0ad2eb37c4306818231822ada1f3",
+    "src/generalization_prelib_bounded_execution_20261022/freeze.py": "a05308a267399b4543b847f6a39b7641fee47bbadc76d0ee85b90db1fa14ea65"
+  },
+  "biological_inputs_read": false,
+  "biological_models_fit": 0,
+  "authorization_created": false
+}
