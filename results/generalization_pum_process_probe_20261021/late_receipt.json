@@ -1,0 +1,2056 @@
+{
+  "mode": "late",
+  "status": "SOURCE_ONLY_DIAGNOSTIC",
+  "failure": "ACCOUNTING_ACTIVE_EXCEEDED_TWO",
+  "exit_code": null,
+  "before": {
+    "physical_available": 1003495424,
+    "physical_total": 16805040128,
+    "commit_headroom": 2403246080,
+    "disk_available": 1170204000256
+  },
+  "after": {
+    "physical_available": 1001181184,
+    "physical_total": 16805040128,
+    "commit_headroom": 2390626304,
+    "disk_available": 1170203475968
+  },
+  "snapshots": [
+    {
+      "ns": 508413577856000,
+      "accounting": {
+        "peak_job_memory_used": 385024,
+        "peak_process_memory_used": 385024,
+        "active_processes": 1,
+        "total_processes": 1,
+        "terminated_processes": 0,
+        "user_time_100ns": 0,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413580046000,
+      "accounting": {
+        "peak_job_memory_used": 909312,
+        "peak_process_memory_used": 462848,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413581577900,
+      "accounting": {
+        "peak_job_memory_used": 909312,
+        "peak_process_memory_used": 462848,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413583035100,
+      "accounting": {
+        "peak_job_memory_used": 970752,
+        "peak_process_memory_used": 507904,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413584676700,
+      "accounting": {
+        "peak_job_memory_used": 1163264,
+        "peak_process_memory_used": 700416,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413586357000,
+      "accounting": {
+        "peak_job_memory_used": 1372160,
+        "peak_process_memory_used": 909312,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413587806500,
+      "accounting": {
+        "peak_job_memory_used": 1449984,
+        "peak_process_memory_used": 987136,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413590013200,
+      "accounting": {
+        "peak_job_memory_used": 1601536,
+        "peak_process_memory_used": 1138688,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413592014600,
+      "accounting": {
+        "peak_job_memory_used": 1691648,
+        "peak_process_memory_used": 1228800,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413593857000,
+      "accounting": {
+        "peak_job_memory_used": 1699840,
+        "peak_process_memory_used": 1236992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 0
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413595333400,
+      "accounting": {
+        "peak_job_memory_used": 1724416,
+        "peak_process_memory_used": 1236992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413596815700,
+      "accounting": {
+        "peak_job_memory_used": 1748992,
+        "peak_process_memory_used": 1236992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413598245800,
+      "accounting": {
+        "peak_job_memory_used": 3473408,
+        "peak_process_memory_used": 2236416,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413599996900,
+      "accounting": {
+        "peak_job_memory_used": 3686400,
+        "peak_process_memory_used": 2449408,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413602135000,
+      "accounting": {
+        "peak_job_memory_used": 3809280,
+        "peak_process_memory_used": 2572288,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413603991300,
+      "accounting": {
+        "peak_job_memory_used": 5476352,
+        "peak_process_memory_used": 4239360,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413605537200,
+      "accounting": {
+        "peak_job_memory_used": 5623808,
+        "peak_process_memory_used": 4386816,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413607068700,
+      "accounting": {
+        "peak_job_memory_used": 5722112,
+        "peak_process_memory_used": 4485120,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413608651600,
+      "accounting": {
+        "peak_job_memory_used": 5750784,
+        "peak_process_memory_used": 4513792,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 156250,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413610329700,
+      "accounting": {
+        "peak_job_memory_used": 5832704,
+        "peak_process_memory_used": 4595712,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413611728500,
+      "accounting": {
+        "peak_job_memory_used": 5861376,
+        "peak_process_memory_used": 4624384,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413613290300,
+      "accounting": {
+        "peak_job_memory_used": 6975488,
+        "peak_process_memory_used": 5738496,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413615065500,
+      "accounting": {
+        "peak_job_memory_used": 7041024,
+        "peak_process_memory_used": 5804032,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413616549600,
+      "accounting": {
+        "peak_job_memory_used": 7098368,
+        "peak_process_memory_used": 5861376,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413618051000,
+      "accounting": {
+        "peak_job_memory_used": 7098368,
+        "peak_process_memory_used": 5861376,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413619630200,
+      "accounting": {
+        "peak_job_memory_used": 7098368,
+        "peak_process_memory_used": 5861376,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413621146300,
+      "accounting": {
+        "peak_job_memory_used": 7118848,
+        "peak_process_memory_used": 5881856,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413623210800,
+      "accounting": {
+        "peak_job_memory_used": 7208960,
+        "peak_process_memory_used": 5971968,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413624727600,
+      "accounting": {
+        "peak_job_memory_used": 7933952,
+        "peak_process_memory_used": 6696960,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 156250
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413626109100,
+      "accounting": {
+        "peak_job_memory_used": 8097792,
+        "peak_process_memory_used": 6860800,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413627520300,
+      "accounting": {
+        "peak_job_memory_used": 8126464,
+        "peak_process_memory_used": 6889472,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413629187300,
+      "accounting": {
+        "peak_job_memory_used": 8126464,
+        "peak_process_memory_used": 6889472,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413630751600,
+      "accounting": {
+        "peak_job_memory_used": 8126464,
+        "peak_process_memory_used": 6889472,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413632360400,
+      "accounting": {
+        "peak_job_memory_used": 8200192,
+        "peak_process_memory_used": 6963200,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413633877400,
+      "accounting": {
+        "peak_job_memory_used": 8273920,
+        "peak_process_memory_used": 7036928,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413636121900,
+      "accounting": {
+        "peak_job_memory_used": 8290304,
+        "peak_process_memory_used": 7053312,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413638099400,
+      "accounting": {
+        "peak_job_memory_used": 8437760,
+        "peak_process_memory_used": 7200768,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413639554100,
+      "accounting": {
+        "peak_job_memory_used": 8474624,
+        "peak_process_memory_used": 7237632,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 312500,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413641002900,
+      "accounting": {
+        "peak_job_memory_used": 9527296,
+        "peak_process_memory_used": 8290304,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413642382800,
+      "accounting": {
+        "peak_job_memory_used": 9527296,
+        "peak_process_memory_used": 8290304,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413643821100,
+      "accounting": {
+        "peak_job_memory_used": 9588736,
+        "peak_process_memory_used": 8351744,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413645914500,
+      "accounting": {
+        "peak_job_memory_used": 9904128,
+        "peak_process_memory_used": 8667136,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413647970800,
+      "accounting": {
+        "peak_job_memory_used": 9998336,
+        "peak_process_memory_used": 8761344,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413649672600,
+      "accounting": {
+        "peak_job_memory_used": 9998336,
+        "peak_process_memory_used": 8761344,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413651143900,
+      "accounting": {
+        "peak_job_memory_used": 10104832,
+        "peak_process_memory_used": 8867840,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413652793000,
+      "accounting": {
+        "peak_job_memory_used": 10104832,
+        "peak_process_memory_used": 8867840,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413654502600,
+      "accounting": {
+        "peak_job_memory_used": 10240000,
+        "peak_process_memory_used": 9003008,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413656188800,
+      "accounting": {
+        "peak_job_memory_used": 10469376,
+        "peak_process_memory_used": 9232384,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 312500
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413657696600,
+      "accounting": {
+        "peak_job_memory_used": 10498048,
+        "peak_process_memory_used": 9261056,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413659122800,
+      "accounting": {
+        "peak_job_memory_used": 10514432,
+        "peak_process_memory_used": 9277440,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413660516900,
+      "accounting": {
+        "peak_job_memory_used": 10514432,
+        "peak_process_memory_used": 9277440,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413661856400,
+      "accounting": {
+        "peak_job_memory_used": 10600448,
+        "peak_process_memory_used": 9363456,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413663349100,
+      "accounting": {
+        "peak_job_memory_used": 10600448,
+        "peak_process_memory_used": 9363456,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413665055300,
+      "accounting": {
+        "peak_job_memory_used": 10694656,
+        "peak_process_memory_used": 9457664,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413666470000,
+      "accounting": {
+        "peak_job_memory_used": 10694656,
+        "peak_process_memory_used": 9457664,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413668102300,
+      "accounting": {
+        "peak_job_memory_used": 10899456,
+        "peak_process_memory_used": 9662464,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413669527100,
+      "accounting": {
+        "peak_job_memory_used": 10936320,
+        "peak_process_memory_used": 9699328,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413670929200,
+      "accounting": {
+        "peak_job_memory_used": 10948608,
+        "peak_process_memory_used": 9711616,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 468750,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413672371900,
+      "accounting": {
+        "peak_job_memory_used": 12013568,
+        "peak_process_memory_used": 10776576,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413673682500,
+      "accounting": {
+        "peak_job_memory_used": 12132352,
+        "peak_process_memory_used": 10895360,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413675092500,
+      "accounting": {
+        "peak_job_memory_used": 12263424,
+        "peak_process_memory_used": 11026432,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413676568500,
+      "accounting": {
+        "peak_job_memory_used": 12263424,
+        "peak_process_memory_used": 11026432,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413677980200,
+      "accounting": {
+        "peak_job_memory_used": 12263424,
+        "peak_process_memory_used": 11026432,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413679528700,
+      "accounting": {
+        "peak_job_memory_used": 12263424,
+        "peak_process_memory_used": 11026432,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413681113500,
+      "accounting": {
+        "peak_job_memory_used": 13017088,
+        "peak_process_memory_used": 11780096,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413682669300,
+      "accounting": {
+        "peak_job_memory_used": 13225984,
+        "peak_process_memory_used": 11988992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413684196600,
+      "accounting": {
+        "peak_job_memory_used": 13225984,
+        "peak_process_memory_used": 11988992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413685684600,
+      "accounting": {
+        "peak_job_memory_used": 13225984,
+        "peak_process_memory_used": 11988992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413687908300,
+      "accounting": {
+        "peak_job_memory_used": 13225984,
+        "peak_process_memory_used": 11988992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 625000,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413689794100,
+      "accounting": {
+        "peak_job_memory_used": 13225984,
+        "peak_process_memory_used": 11988992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 781250,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413691233300,
+      "accounting": {
+        "peak_job_memory_used": 13225984,
+        "peak_process_memory_used": 11988992,
+        "active_processes": 2,
+        "total_processes": 2,
+        "terminated_processes": 0,
+        "user_time_100ns": 781250,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        }
+      ]
+    },
+    {
+      "ns": 508413692672100,
+      "accounting": {
+        "peak_job_memory_used": 13225984,
+        "peak_process_memory_used": 11988992,
+        "active_processes": 3,
+        "total_processes": 3,
+        "terminated_processes": 0,
+        "user_time_100ns": 781250,
+        "kernel_time_100ns": 468750
+      },
+      "pids": [
+        191604,
+        163732,
+        193556
+      ],
+      "processes": [
+        {
+          "PID": 191604,
+          "image": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 163732,
+          "image": "C:\\Windows\\System32\\conhost.exe",
+          "wait_state": 258
+        },
+        {
+          "PID": 193556,
+          "image": "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+          "wait_state": 258
+        }
+      ]
+    }
+  ],
+  "final_accounting": {
+    "peak_job_memory_used": 13225984,
+    "peak_process_memory_used": 11988992,
+    "active_processes": 0,
+    "total_processes": 3,
+    "terminated_processes": 0,
+    "user_time_100ns": 781250,
+    "kernel_time_100ns": 468750
+  },
+  "elapsed_seconds": 0.125,
+  "child_trace_sha256": "f6cc2cc0ed5eb219b26d97a5a85e2c141d3f4d76c45e7c23023fe2c44d3e4a21",
+  "winjob_sha256": "3a2b470f116e87ff6233cdc8710b2703cf33b908dae68ece7fb4592227b5f741",
+  "probe_sha256": "73d790741f556ae39e432817862869de3cf79799a9c008d60338194b9e623053",
+  "git_sha256": "51c6331aab2426ae2df187975590587b5a10042e3423f4bc0fdcb54aeb3efab7",
+  "source_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81",
+  "kernel_caps_unchanged": true,
+  "actual_PUM_runs": 0,
+  "cohort_inputs_opened": false,
+  "project_sequences_decoded": false,
+  "models_fit": 0
+}

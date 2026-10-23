@@ -1,0 +1,59 @@
+{
+  "status": "PASS_ADDITIVE_HEADLESS_HELPER_SOURCE_AND_OWNED_NATIVE_SEQUENCE_ONLY",
+  "UTC_recorded": "2026-10-22T06:00:08.3718066Z",
+  "files": {
+    "src/generalization_pum_process_probe_20261021/headless.py": "7f741f1e024243546b8ab53b65f4b5245a1fc71a7d9e6de86757bf468c1928f0",
+    "src/generalization_pum_process_probe_20261021/headless_tests.py": "a031e21f9484a2fcbbc5734a745685ebb815f8c410721099ca6a42579c1d2494",
+    "src/generalization_pum_process_probe_20261021/probe.py": "c2326a0dae3233d0506b0fee5fa773efab5c7c5e76fc5e37915ca9da8479388c",
+    "reports/generalization_pum_process_probe_20261021/headless_resolution.md": "adef7bb73d9864d5b11bdf0f1b939a1918ed20d9ae3c5e6af9f3bc9583f712fb",
+    "results/generalization_pum_process_probe_20261021/production_headless_receipt.json": "1312ae5fefe405780f7a15a10ccdb603dc960b4f64aceae7fd215af6223ad529",
+    "results/generalization_pum_process_probe_20261021/production_headless_child.jsonl": "c95a8ea88fc6ebb9a05e90fa948ed3930c6059c96fb090310839966a770478a1",
+    "results/generalization_pum_process_probe_20261021/production_headless.stdout.log": "b6583c1122581775bba819b7256103a5440d70ba156eafc796aa96b0a96fa06a",
+    "results/generalization_pum_process_probe_20261021/production_headless.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/generalization_pum_process_probe_20261021/late_receipt.json": "ac35212f6457970967b42d62a8d32171ec7c41024973e206dc9aad3ff2f68f9e",
+    "results/generalization_pum_process_probe_20261021/detached_default_git_receipt.json": "70bb64a0af45402a3ecf31d593b108ba57ff21eed3fcdc212159c326760fc5f2",
+    "results/generalization_pum_process_probe_20261021/detached_nowindow_git_receipt.json": "7433d55dca86fcd69dbdcdf121ec33a01020fb9146114cfdb7ddabd1372f2fd3",
+    "results/generalization_pum_process_probe_20261021/detached_detached_git_receipt.json": "8daf167d0acb56cc514b6bf0bcdc62162ccb7520bff7dc16c53e8ed2c69bf575"
+  },
+  "synthetic_unit_tests": 4,
+  "synthetic_unit_failures": 0,
+  "synthetic_unit_skipped": 0,
+  "synthetic_unit_elapsed_seconds": 0.001,
+  "actual_native_source_Git_calls": 21,
+  "stdout_blobs_byte_identical": true,
+  "stdout_bytes_each": 5344,
+  "maximum_owned_active_processes": 2.0,
+  "observed_owned_images": [
+    "C:\\Program Files\\Git\\mingw64\\bin\\git.exe",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"
+  ],
+  "native_PID_snapshots": 508,
+  "native_exit_code": 0,
+  "native_elapsed_seconds": 0.9369999999762513,
+  "native_origins": {
+    "kernel32.dll": {
+      "path": "C:\\Windows\\System32\\kernel32.dll",
+      "sha256": "e132eba4166256e2f414b91fe7d5386590bc5ea8626aee5af9c9738383cf2ae1"
+    },
+    "psapi.dll": {
+      "path": "C:\\Windows\\System32\\psapi.dll",
+      "sha256": "6c8ebe6621224d11ded0c920873d67b5255fd515e8c4ea803cd587c8232bee5c"
+    }
+  },
+  "kernel_caps_unchanged": true,
+  "job_memory_cap_bytes": 939524096,
+  "process_memory_cap_bytes": 805306368,
+  "active_process_cap": 2,
+  "startup_physical_bytes": 536870912,
+  "startup_commit_headroom_bytes": 2013265920,
+  "stop_physical_bytes": 268435456,
+  "stop_commit_headroom_bytes": 1073741824,
+  "frozen_winjob_source_unchanged": true,
+  "global_subprocess_module_patched": false,
+  "PUM_producer_or_replay_runs": 0,
+  "project_data_opened": false,
+  "models_fit": 0,
+  "full_cohort_memory_safety_validated": false,
+  "root_actual_execution_freeze_required": true,
+  "git_staging_or_commits": 0
+}

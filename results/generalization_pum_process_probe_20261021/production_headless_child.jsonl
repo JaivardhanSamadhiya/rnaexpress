@@ -1,0 +1,44 @@
+{"event": "imported_frozen_worker_only", "ns": 508936421373600, "pid": 192764, "which": "C:/Program Files/Git/cmd\\git.EXE", "job": {"active": 1, "total": 1, "pids": [192764]}}
+{"event": "after_first_explicit_git", "ns": 508936463154300, "job": {"active": 1, "total": 2, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "after_late_PATH_prepend", "ns": 508936465471100, "which": "C:\\Program Files\\Git\\mingw64\\bin\\git.EXE", "job": {"active": 1, "total": 2, "pids": [192764]}}
+{"event": "before_git", "ns": 508936465508400, "index": 0, "job": {"active": 1, "total": 2, "pids": [192764]}}
+{"event": "after_git", "ns": 508936496126800, "index": 0, "job": {"active": 1, "total": 3, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936496175900, "index": 1, "job": {"active": 1, "total": 3, "pids": [192764]}}
+{"event": "after_git", "ns": 508936525446000, "index": 1, "job": {"active": 1, "total": 4, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936525515000, "index": 2, "job": {"active": 1, "total": 4, "pids": [192764]}}
+{"event": "after_git", "ns": 508936554478800, "index": 2, "job": {"active": 1, "total": 5, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936554532800, "index": 3, "job": {"active": 1, "total": 5, "pids": [192764]}}
+{"event": "after_git", "ns": 508936583172300, "index": 3, "job": {"active": 1, "total": 6, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936583236900, "index": 4, "job": {"active": 1, "total": 6, "pids": [192764]}}
+{"event": "after_git", "ns": 508936611546800, "index": 4, "job": {"active": 1, "total": 7, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936611594300, "index": 5, "job": {"active": 1, "total": 7, "pids": [192764]}}
+{"event": "after_git", "ns": 508936638615700, "index": 5, "job": {"active": 1, "total": 8, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936638663100, "index": 6, "job": {"active": 1, "total": 8, "pids": [192764]}}
+{"event": "after_git", "ns": 508936670094700, "index": 6, "job": {"active": 1, "total": 9, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936670141600, "index": 7, "job": {"active": 1, "total": 9, "pids": [192764]}}
+{"event": "after_git", "ns": 508936697161500, "index": 7, "job": {"active": 1, "total": 10, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936697212400, "index": 8, "job": {"active": 1, "total": 10, "pids": [192764]}}
+{"event": "after_git", "ns": 508936729859900, "index": 8, "job": {"active": 1, "total": 11, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936729908700, "index": 9, "job": {"active": 1, "total": 11, "pids": [192764]}}
+{"event": "after_git", "ns": 508936759270100, "index": 9, "job": {"active": 1, "total": 12, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936759317100, "index": 10, "job": {"active": 1, "total": 12, "pids": [192764]}}
+{"event": "after_git", "ns": 508936784434100, "index": 10, "job": {"active": 1, "total": 13, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936784499300, "index": 11, "job": {"active": 1, "total": 13, "pids": [192764]}}
+{"event": "after_git", "ns": 508936810501500, "index": 11, "job": {"active": 1, "total": 14, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936810549300, "index": 12, "job": {"active": 1, "total": 14, "pids": [192764]}}
+{"event": "after_git", "ns": 508936836078800, "index": 12, "job": {"active": 1, "total": 15, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936836124300, "index": 13, "job": {"active": 1, "total": 15, "pids": [192764]}}
+{"event": "after_git", "ns": 508936862269600, "index": 13, "job": {"active": 1, "total": 16, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936862336400, "index": 14, "job": {"active": 1, "total": 16, "pids": [192764]}}
+{"event": "after_git", "ns": 508936896329400, "index": 14, "job": {"active": 1, "total": 17, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936896382100, "index": 15, "job": {"active": 1, "total": 17, "pids": [192764]}}
+{"event": "after_git", "ns": 508936942906800, "index": 15, "job": {"active": 1, "total": 18, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936942986100, "index": 16, "job": {"active": 1, "total": 18, "pids": [192764]}}
+{"event": "after_git", "ns": 508936985079900, "index": 16, "job": {"active": 1, "total": 19, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508936985142500, "index": 17, "job": {"active": 1, "total": 19, "pids": [192764]}}
+{"event": "after_git", "ns": 508937124799800, "index": 17, "job": {"active": 1, "total": 20, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508937124875800, "index": 18, "job": {"active": 1, "total": 20, "pids": [192764]}}
+{"event": "after_git", "ns": 508937166028600, "index": 18, "job": {"active": 1, "total": 21, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "before_git", "ns": 508937166083300, "index": 19, "job": {"active": 1, "total": 21, "pids": [192764]}}
+{"event": "after_git", "ns": 508937201348400, "index": 19, "job": {"active": 1, "total": 22, "pids": [192764]}, "stdout_sha256": "5a68cb3f30960f8cc78cdcc7dec87325f386f4036f04399f8f967f3474005b81", "stdout_bytes": 5344}
+{"event": "COMPLETE_20_SOURCE_ONLY_HELPERS", "ns": 508937201410800, "job": {"active": 1, "total": 22, "pids": [192764]}}

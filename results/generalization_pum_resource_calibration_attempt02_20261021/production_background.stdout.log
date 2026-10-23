@@ -1,0 +1,58 @@
+ADMITTED_AFTER_ORDINARY_BACKGROUND_WAIT production 0.01600000000325963
+{
+  "UTC": "2026-10-22T05:41:46.672021+00:00",
+  "status": "FAILED_PHASE_PRESERVED_NO_AUTOMATIC_RETRY",
+  "phase": "production",
+  "failure": "Owned active-process cap exceeded",
+  "exit_code": 3758096385,
+  "manifest_sha256": "361318f10624748c7012e91d83c3aac01727233cbdc8e871c46f5bed5518b0c2",
+  "kernel_limits": {
+    "process_memory_limit": 805306368,
+    "job_memory_limit": 939524096,
+    "active_process_limit": 2,
+    "limit_flags": 8968
+  },
+  "job_accounting": {
+    "peak_job_memory_used": 14970880,
+    "peak_process_memory_used": 13729792,
+    "active_processes": 0,
+    "total_processes": 3,
+    "terminated_processes": 0,
+    "user_time_100ns": 937500,
+    "kernel_time_100ns": 781250
+  },
+  "peak_worker_working_set_bytes": 22822912,
+  "peak_worker_private_commit_bytes": 13729792,
+  "minimum_available_physical_bytes": 488169472,
+  "minimum_system_commit_headroom_bytes": 2026356736,
+  "maximum_monitor_gap_seconds": 0.125,
+  "monitor_target_interval_seconds": 0.1,
+  "elapsed_seconds": 0.375,
+  "memory_before": {
+    "physical_available": 610701312,
+    "physical_total": 16805040128,
+    "commit_headroom": 2210947072,
+    "disk_available": 1170219204608
+  },
+  "memory_after": {
+    "physical_available": 488169472,
+    "physical_total": 16805040128,
+    "commit_headroom": 2029457408,
+    "disk_available": 1170218680320
+  },
+  "controller_process_memory": {
+    "peak_working_set": 23871488,
+    "working_set": 21766144,
+    "peak_private_commit": 13504512,
+    "private_commit": 11333632
+  },
+  "observed_other_project_PIDs": [
+    192668
+  ],
+  "original_scientific_receipt_sha256": null,
+  "original_scientific_bytes_unchanged": true,
+  "other_worker_and_queue_guards_changed": false,
+  "only_owned_job_terminated_on_failure_or_close": true,
+  "models_fit": 0,
+  "outcomes_read": false
+}

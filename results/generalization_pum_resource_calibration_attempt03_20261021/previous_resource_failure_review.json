@@ -1,0 +1,13 @@
+{
+  "UTC": "2026-10-22T05:59:01.494129+00:00",
+  "status": "REVIEWED_RESOURCE_HELPER_FAILURE_NOT_BIOLOGICAL_FAILURE",
+  "previous_receipt_sha256": "43b03fecdd77f43a7c926e4037131de9386c450833471f6d4065bafbe6876111",
+  "previous_background_files": 0,
+  "previous_models_fit": 0,
+  "cause": "Owned conhost.exe consumed extra process slot; source-only process-identity probe reproduces it",
+  "fix": "DETACHED_PROCESS for scientific Python child and every pinned Git helper, preserve exact hardcap2 and memorycaps",
+  "proof": "results/generalization_pum_process_probe_20261021/production_headless_receipt.json",
+  "manual_review_before_new_attempt": true,
+  "scientific_math_source_data_modes_tolerance_changes": false,
+  "automatic_retry": false
+}

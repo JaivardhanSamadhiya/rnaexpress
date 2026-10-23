@@ -1,0 +1,130 @@
+{
+  "status": "PASS_STATIC_SOURCE_RESOURCE_REVIEW_NOT_NATIVE_CALIBRATION",
+  "prepared_local_date": "2026-10-21",
+  "source_observed_before_utc": "2026-10-22T05:54:50.5907557Z",
+  "source_observed_after_utc": "2026-10-22T05:58:23.2117778Z",
+  "git_head_before": "a3f67430915a5b6cf4f435acbaf29887ac454b03",
+  "git_head_after": "a3f67430915a5b6cf4f435acbaf29887ac454b03",
+  "source_files": {
+    "src/generalization_prelib_pooled_lineage_20261009/pipeline.py": "671f011aab615cc542c5d42f0415a1a759e5c7283a895f5fc5cb45cccc931a59",
+    "src/generalization_prelib_pooled_lineage_20261009/verify.py": "f477d52241294a88df40c24f776139925eed23d53823a5ee05a2e92e7116c5e1",
+    "src/generalization_prelib_pooled_lineage_20261009/contracts.py": "bb0b800cb849752da292f271c1b43d1356270e7cfe26492e8912aa87c9f9b6c8",
+    "src/generalization_prelib_pooled_lineage_20261009/tests.py": "fff2048d863430a35705e94df5b0ef1575a9cfddd455963da677407fc8cec2cc",
+    "reports/generalization_prelib_pooled_lineage_20261009/design.md": "52aa2622f9813a92743b6b629f38f2261416e867b19fc85181315166f58ebd7e",
+    "src/generalization_splicebert_runtime_compatibility_20261007/launcher.py": "374512be8f1daca8ab08a1d0b99ddebded46fccddbd7da281d5915c18fc30dc2",
+    "src/generalization_splicebert_runtime_compatibility_20261007/common.py": "2cdf820c395613e7ac47e7abb346e63c063626798bf4de6286615fea5b8e4573"
+  },
+  "source_files_unchanged": true,
+  "own_report_sha256": "b13d72716904cf86abe392eac7672289fb168d163f3c2af156f5649c18bd0020",
+  "attributes_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+  "source_counts": {
+    "rows": 4054,
+    "backgrounds": 16,
+    "nominal_lineages": 7,
+    "arms": 3,
+    "penalties": 3,
+    "inner_fits": 378,
+    "outer_fits": 21,
+    "outer_arm_files": 21,
+    "fresh_checks_features": 10,
+    "fresh_checks_prefit": 1,
+    "fresh_checks_fit": 403,
+    "fresh_checks_evaluate": 1,
+    "fresh_checks_verify": 24,
+    "sequential_span_lstsq": 7,
+    "fold_roster_integer_entries": 174322,
+    "fold_roster_weight_entries": 145944,
+    "all_stored_prediction_values": 231078
+  },
+  "dense_arithmetic_shapes": {
+    "kmer_matrix84": {
+      "rows": 4054,
+      "columns": 84,
+      "float64_bytes": 2724288,
+      "MiB": 2.59808349609375
+    },
+    "augmented_matrix85": {
+      "rows": 4054,
+      "columns": 85,
+      "float64_bytes": 2756720,
+      "MiB": 2.6290130615234375
+    },
+    "all_three_arm_matrices": {
+      "rows": 4054,
+      "columns": 254,
+      "float64_bytes": 8237728,
+      "MiB": 7.856109619140625
+    },
+    "four_fixed_operator_columns": {
+      "rows": 4054,
+      "columns": 4,
+      "float64_bytes": 129728,
+      "MiB": 0.12371826171875
+    },
+    "one_target_or_weight_vector": {
+      "rows": 4054,
+      "columns": 1,
+      "float64_bytes": 32432,
+      "MiB": 0.0309295654296875
+    },
+    "all18_numeric_targets": {
+      "rows": 4054,
+      "columns": 18,
+      "float64_bytes": 583776,
+      "MiB": 0.556732177734375
+    },
+    "largest_Gram_or_identity": {
+      "rows": 85,
+      "columns": 85,
+      "float64_bytes": 57800,
+      "MiB": 0.05512237548828125
+    },
+    "kmer_span_Gram": {
+      "rows": 84,
+      "columns": 84,
+      "float64_bytes": 56448,
+      "MiB": 0.0538330078125
+    },
+    "coefficient_or_scale": {
+      "rows": 85,
+      "columns": 1,
+      "float64_bytes": 680,
+      "MiB": 0.00064849853515625
+    }
+  },
+  "measured_native_peaks": false,
+  "measured_compute_seconds": false,
+  "native_calibration_run": false,
+  "NumPy_or_scientific_runtime_imported": false,
+  "project_cohort_reads": 0,
+  "project_feature_payload_reads": 0,
+  "project_outcome_payload_reads": 0,
+  "native_kernel_executions": 0,
+  "models_fitted": 0,
+  "guard_overrides": 0,
+  "PUM_production_or_replay_duplicated": false,
+  "existing_files_modified": 0,
+  "staged_or_committed": false,
+  "existing_fresh_GiB": 3,
+  "existing_numerical_threads": 2,
+  "proposed_calibration_only": {
+    "execution_authorized": false,
+    "parent_fresh_GiB": 3.5,
+    "original_child_fresh_GiB": 3,
+    "worker_private_cap_MiB": 768,
+    "job_commit_cap_MiB": 1024,
+    "system_commit_admission_GiB": 2,
+    "workspace_disk_GiB": 1,
+    "deadline_seconds": 300,
+    "active_helper_roster": "UNRESOLVED_REQUIRE_OWNED_IDENTITY_CERTIFICATE",
+    "lower_floor_exception_included": false
+  },
+  "limitations": [
+    "Payload arithmetic is not process RSS/private-commit measurement",
+    "No actual source lineage sizes or array payloads inspected",
+    "Python object overhead and native workspace remain empirical",
+    "Existing3GiB guards and2thread policy remain unchanged",
+    "PUM-only resource exception does not cover this pipeline",
+    "Source helper-process topology must be certified before native calibration"
+  ]
+}

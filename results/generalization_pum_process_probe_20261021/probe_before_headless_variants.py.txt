@@ -1,0 +1,163 @@
+"""Owned invented/source-only Git process tracing; never calls a PUM producer."""
+import argparse
+import ctypes as C
+import hashlib
+import importlib
+import json
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+import time
+from src.generalization_pum_resource_calibration_20261009 import winjob as w
+
+ROOT=w.ROOT
+OUT=ROOT/'results/generalization_pum_process_probe_20261021'
+DIRECT=Path('C:/Program Files/Git/mingw64/bin/git.exe')
+DIRECT_SHA='51c6331aab2426ae2df187975590587b5a10042e3423f4bc0fdcb54aeb3efab7'
+SOURCE='src/generalization_pum2_fixed_math_20261008/model.py'
+MODES=('late','early','drain')
+
+
+class PID_LIST(C.Structure):
+    _fields_=[('NumberOfAssignedProcesses',w.DWORD),('NumberOfProcessIdsInList',w.DWORD),
+              ('ProcessIdList',w.SIZE_T*64)]
+
+
+def source_hash(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def query(handle,kind,structure):
+    value=structure();length=w.DWORD()
+    if not w._api().QueryInformationJobObject(handle,kind,C.byref(value),C.sizeof(value),C.byref(length)):
+        raise C.WinError(C.get_last_error())
+    return value
+
+
+def pids(handle):
+    value=query(handle,3,PID_LIST)
+    if value.NumberOfAssignedProcesses!=value.NumberOfProcessIdsInList or value.NumberOfProcessIdsInList>64:
+        raise RuntimeError('Incomplete bounded owned PID roster')
+    return [int(x) for x in value.ProcessIdList[:value.NumberOfProcessIdsInList]]
+
+
+def images(handle,ids):
+    kernel=C.WinDLL('kernel32',use_last_error=True)
+    kernel.OpenProcess.argtypes=[w.DWORD,w.BOOL,w.DWORD];kernel.OpenProcess.restype=w.HANDLE
+    kernel.QueryFullProcessImageNameW.argtypes=[w.HANDLE,w.DWORD,C.POINTER(C.c_wchar),C.POINTER(w.DWORD)]
+    kernel.QueryFullProcessImageNameW.restype=w.BOOL
+    rows=[]
+    for pid in ids:
+        row={'PID':pid};process=kernel.OpenProcess(0x1000|0x100000,False,pid)
+        if not process:
+            row['open_error']=C.get_last_error();rows.append(row);continue
+        try:
+            member=w.BOOL()
+            if not w._api().IsProcessInJob(process,handle,C.byref(member)) or not member.value:
+                row['membership']='NO_LONGER_IN_OWNED_JOB';rows.append(row);continue
+            text=C.create_unicode_buffer(32768);size=w.DWORD(len(text))
+            if kernel.QueryFullProcessImageNameW(process,0,text,C.byref(size)):row['image']=text.value
+            else:row['image_error']=C.get_last_error()
+            row['wait_state']=int(w._api().WaitForSingleObject(process,0))
+            rows.append(row)
+        finally:w._api().CloseHandle(process)
+    return rows
+
+
+def self_job():
+    extended=query(None,9,w.JOBOBJECT_EXTENDED_LIMIT_INFORMATION)
+    assert extended.ProcessMemoryLimit==w.PROCESS_LIMIT and extended.JobMemoryLimit==w.JOB_LIMIT
+    assert extended.BasicLimitInformation.LimitFlags==w.LIMIT_FLAGS
+    basic=query(None,1,w.JOBOBJECT_BASIC_ACCOUNTING_INFORMATION)
+    ids=pids(None);assert os.getpid() in ids
+    return {'active':int(basic.ActiveProcesses),'total':int(basic.TotalProcesses),'pids':ids}
+
+
+def child(mode,path):
+    assert mode in MODES
+    path=Path(path).resolve();assert path.parent==OUT.resolve()
+    with path.open('x',encoding='utf8',buffering=1) as stream:
+        def record(event,**values):
+            stream.write(json.dumps({'event':event,'ns':time.perf_counter_ns(),**values})+'\n')
+        try:
+            # Import exactly the frozen operational worker, but never run its
+            # admission (which hashes cohort inputs), guard or producer callback.
+            importlib.import_module('src.generalization_pum_resource_calibration_attempt02_20261021.worker')
+            record('imported_frozen_worker_only',pid=os.getpid(),which=shutil.which('git'),job=self_job())
+            expected=source_hash(ROOT/SOURCE)
+            data=subprocess.check_output([str(DIRECT),'show','HEAD:'+SOURCE],cwd=ROOT,stderr=subprocess.STDOUT)
+            assert hashlib.sha256(data).hexdigest()==expected
+            record('after_first_explicit_git',job=self_job())
+            os.environ['PATH']=str(DIRECT.parent)+os.pathsep+os.environ['PATH']
+            assert Path(shutil.which('git')).resolve()==DIRECT.resolve()
+            record('after_late_PATH_prepend',which=shutil.which('git'),job=self_job())
+            for index in range(20):
+                if mode=='drain':
+                    end=time.monotonic()+2
+                    while self_job()['active']!=1:
+                        assert time.monotonic()<end,'Own job failed to drain before next helper'
+                        time.sleep(.001)
+                record('before_git',index=index,job=self_job())
+                data=subprocess.check_output(['git','show','HEAD:'+SOURCE],cwd=ROOT,stderr=subprocess.STDOUT)
+                assert hashlib.sha256(data).hexdigest()==expected
+                record('after_git',index=index,job=self_job())
+            record('COMPLETE_20_SOURCE_ONLY_HELPERS',job=self_job())
+        except BaseException as error:
+            record('FAILED',error=type(error).__name__+': '+str(error))
+            raise
+
+
+def ready():
+    state=w.memory()
+    assert state['physical_available']>=512*2**20 and state['commit_headroom']>=896*2**20+2**30
+    assert state['disk_available']>=2**30
+    return state
+
+
+def run(mode):
+    assert mode in MODES and source_hash(DIRECT)==DIRECT_SHA
+    OUT.mkdir(parents=True,exist_ok=True)
+    destination=OUT/(mode+'_receipt.json');trace=OUT/(mode+'_child.jsonl')
+    assert not destination.exists() and not trace.exists(),'No overwrite/automatic retry'
+    before=ready();oldpath=os.environ['PATH']
+    if mode=='early':os.environ['PATH']=str(DIRECT.parent)+os.pathsep+oldpath
+    snapshots=[];started=time.monotonic();failure=None;code=None;child_process=None
+    with w.Job() as job:
+        try:
+            child_process=job.spawn([sys.executable,'-B','-u','-m',__spec__.name,'child',mode,str(trace)],str(ROOT))
+            ready();child_process.resume()
+            while True:
+                accounting=job.accounting();ids=pids(job.handle)
+                snapshot={'ns':time.perf_counter_ns(),'accounting':accounting,'pids':ids,
+                    'processes':images(job.handle,ids)}
+                snapshots.append(snapshot)
+                state=w.memory()
+                if state['physical_available']<256*2**20 or state['commit_headroom']<2**30:
+                    failure='UNCHANGED_RESOURCE_STOP'
+                if accounting['active_processes']>2:failure='ACCOUNTING_ACTIVE_EXCEEDED_TWO'
+                if time.monotonic()-started>15:failure='BOUNDED15S_DEADLINE'
+                code=child_process.exit_code()
+                if failure:job.terminate();break
+                if code is not None:break
+                time.sleep(.001)
+            final_accounting=job.accounting()
+        finally:
+            if child_process:child_process.close()
+            os.environ['PATH']=oldpath
+    value={'mode':mode,'status':'SOURCE_ONLY_DIAGNOSTIC','failure':failure,'exit_code':code,
+        'before':before,'after':w.memory(),'snapshots':snapshots,'final_accounting':final_accounting,
+        'elapsed_seconds':time.monotonic()-started,'child_trace_sha256':source_hash(trace) if trace.exists() else None,
+        'winjob_sha256':source_hash(Path(w.__file__)),'probe_sha256':source_hash(__file__),
+        'git_sha256':DIRECT_SHA,'source_sha256':source_hash(ROOT/SOURCE),'kernel_caps_unchanged':True,
+        'actual_PUM_runs':0,'cohort_inputs_opened':False,'project_sequences_decoded':False,'models_fit':0}
+    with destination.open('x',encoding='utf8') as stream:json.dump(value,stream,indent=2)
+    print(json.dumps({key:value[key] for key in ('mode','status','failure','exit_code','final_accounting','elapsed_seconds')}),flush=True)
+
+
+if __name__=='__main__':
+    if len(sys.argv)>1 and sys.argv[1]=='child':child(sys.argv[2],sys.argv[3])
+    else:
+        parser=argparse.ArgumentParser();parser.add_argument('--mode',choices=MODES,required=True)
+        run(parser.parse_args().mode)
