@@ -1,0 +1,43 @@
+{
+  "UTC": "2026-10-23T18:14:23.998294+00:00",
+  "automatic_retry": false,
+  "biological_inputs_read": false,
+  "biological_model_fits": 0,
+  "elapsed_seconds": 21.17200000002049,
+  "exit_code": 0,
+  "failure": null,
+  "frozen_sources_unchanged": true,
+  "initially_verified_manifest_unchanged": true,
+  "invented_completion_sha256": "dfc00f70af703437b394f74fbd92f8f81e0926b82a0be5b95a01cabebd29c312",
+  "job_accounting": {
+    "active_processes": 0,
+    "kernel_time_100ns": 40468750,
+    "peak_job_memory_used": 132087808,
+    "peak_process_memory_used": 132087808,
+    "terminated_processes": 0,
+    "total_processes": 4,
+    "user_time_100ns": 37500000
+  },
+  "manifest_observed_final_sha256": "61781e1ef932a2eb36a368279d96bd52b35bf0eaf286dc8f80021e42fd5a2daa",
+  "maximum_monitor_sample_gap_seconds": 0.10999999998603016,
+  "memory_after": {
+    "commit_headroom": 8847634432,
+    "disk_available": 1169618894848,
+    "physical_available": 1305653248,
+    "physical_total": 16805040128
+  },
+  "memory_before": {
+    "commit_headroom": 8917745664,
+    "disk_available": 1169620992000,
+    "physical_available": 1288585216,
+    "physical_total": 16805040128
+  },
+  "minimum_sampled_physical_available": 1099571200,
+  "minimum_sampled_system_commit_headroom": 8757014528,
+  "numerical_threads": 1,
+  "original_scientific_guards_changed": false,
+  "peak_worker_private_commit_bytes": 132087808,
+  "peak_worker_working_set_bytes": 125784064,
+  "preparation_manifest_sha256": "61781e1ef932a2eb36a368279d96bd52b35bf0eaf286dc8f80021e42fd5a2daa",
+  "status": "PASS_BOUNDED_ONE_THREAD_INVENTED_PANDAS_SCIPY_PROFILE_V4"
+}

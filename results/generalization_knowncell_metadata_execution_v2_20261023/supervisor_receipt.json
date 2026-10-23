@@ -1,0 +1,24 @@
+{
+  "UTC": "2026-10-23T18:12:59.569351+00:00",
+  "automatic_retry": false,
+  "failure": "Original three-GiB available physical-memory floor",
+  "initial_committed_execution_manifest_sha256": "dccab5219dcc6a82e015a31e248748cef160ee2e0408105ddfd8e2a0c86e35f7",
+  "memory_before": {
+    "commit_headroom": 8802742272,
+    "disk_available": 1169622040576,
+    "physical_available": 1228759040,
+    "physical_total": 16805040128
+  },
+  "model_fits": 0,
+  "original_resource_guards_unchanged": true,
+  "project_payloads_opened": 0,
+  "source_mode": {
+    "cache_prefix_absent": true,
+    "dont_write_bytecode": true,
+    "no_site": true,
+    "normal_source_cache_reads_bypassed": true,
+    "pycache_prefix": "D:\\rnaexpress\\results\\generalization_knowncell_metadata_execution_v2_20261023\\source_cache_must_remain_absent"
+  },
+  "status": "BLOCKED_ORIGINAL_METADATA_V2_STARTUP_FLOOR_NO_WORKER",
+  "worker_started": false
+}

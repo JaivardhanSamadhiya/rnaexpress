@@ -1,0 +1,24 @@
+{
+  "actual_origin_receipt_sha256": "dc3e6a1e2f31b5d6c868de7302feb0e1e719835cc370f0eb5eacb307d08b5b2b",
+  "admission_requires_supervisor_pass": true,
+  "automatic_biological_admission": false,
+  "biological_rows_read": 0,
+  "invented_original_parser_options_and_results": "PASS_PINNED_PANDAS_DEFAULT_CSV_OPTIONS_RESULTS",
+  "model_fits": 0,
+  "old_interpreter_bitwise_parity_established": false,
+  "original_pandas_package_and_native_bytes_unchanged": true,
+  "original_pandas_version": "2.2.3",
+  "pandas_module_path": "D:\\rnaexpress\\data\\interim\\mechanism_v2\\runtime\\pandas\\__init__.py",
+  "pandas_module_sha256": "755b7c4dc96dc69da85a32fad32513cdcbe67061b1322de2bd2759db3a6690be",
+  "pandas_version": "2.2.3",
+  "preparation_manifest_sha256": "61781e1ef932a2eb36a368279d96bd52b35bf0eaf286dc8f80021e42fd5a2daa",
+  "python_cache_tag": "cpython-312",
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_native_files": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": "f91ca7e29e8b4cc9ed7a4a935c1b2558c5c8f23398cb20d7048f977aa16fce8b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": "3b33d49d879dbf3a8aa3fff1bf3859275e76c188a3adec4e7ffe728243652a87"
+  },
+  "status": "PASS_PINNED_PANDAS223_CURRENT_PYTHON_AND_INVENTED_ORIGINAL_PARSER",
+  "unchanged_package_check_scope": "Full payload at preparation; all actually imported sources/natives freshly hashed before/after cases; unused pandas/SciPy files not freshly rehashed in worker"
+}

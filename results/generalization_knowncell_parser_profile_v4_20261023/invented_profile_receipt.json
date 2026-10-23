@@ -1,0 +1,367 @@
+{
+  "actual_origin_receipt_sha256": "dc3e6a1e2f31b5d6c868de7302feb0e1e719835cc370f0eb5eacb307d08b5b2b",
+  "biological_model_fits": 0,
+  "biological_rows_read": 0,
+  "elapsed_seconds": 20.67200000002049,
+  "extra_deferred_native_contracts": {
+    "array_contract": {
+      "allow_pickle": false,
+      "npz_bytes": 232,
+      "npz_sha256": "d0cd771b1ec1eb8292e1caae651c4225070c4219b07edf1e0984258fccf97b22",
+      "project_array_reads": 0,
+      "project_wrapper_called": false,
+      "scalar_float64_bits_hex": "000000000000f43f00000000000004c00000000000000080010000000000000000000000000040430000000000000000",
+      "shape": [
+        2,
+        3
+      ],
+      "status": "PASS_INVENTED_SUPPLIED_NUMPY_NPZ_AND_ASTYPE_FLOAT_BITS"
+    },
+    "shared_bootstrap": {
+      "biological_gate_run": false,
+      "components": 187,
+      "controls": [
+        "pooled",
+        "independent"
+      ],
+      "default_numpy_quantiles_preserved": true,
+      "draws": 5000,
+      "fixed_invented_predictions_only": true,
+      "identical_draw_matrix_sha256": "e3b6bb5507a1a4ef45dc039a6762e793d1312e88af58d2a3b0a6dd11780c580a",
+      "intervals": {
+        "independent": [
+          -0.0003259309572153054,
+          0.0002069681964328521
+        ],
+        "pooled": [
+          -0.0006961255482589798,
+          0.0007069759428559587
+        ]
+      },
+      "original_function_only_compiled_not_broad_module_imported": true,
+      "original_reference_function_calls": 2,
+      "seed": 20261007,
+      "status": "PASS_INVENTED_NATIVE_SHARED_BOOTSTRAP_EXACT_CURRENT_RUNTIME_REPLAY",
+      "target_uses_one_shared_draw_matrix": true
+    }
+  },
+  "numerical_threads": 1,
+  "old_interpreter_bitwise_parity_established": false,
+  "optimizer": {
+    "biological_model_fits": 0,
+    "checks": [
+      {
+        "arm": "pooled",
+        "canonical_scalar_score_max_abs_difference": 2.456368441983159e-15,
+        "config": "pair_005",
+        "finite_difference_max_abs_difference": 3.299660544797689e-11,
+        "fitted_objective_difference": 0.0,
+        "fitted_scalar_gradient_max_abs": 1.0283944224848201e-07,
+        "gradient_max_abs_difference": 1.3877787807814457e-16,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 1
+      },
+      {
+        "arm": "pooled",
+        "canonical_scalar_score_max_abs_difference": 8.881784197001252e-16,
+        "config": "pair_05",
+        "finite_difference_max_abs_difference": 2.905836812491791e-11,
+        "fitted_objective_difference": 0.0,
+        "fitted_scalar_gradient_max_abs": 3.2525218266073446e-07,
+        "gradient_max_abs_difference": 1.3877787807814457e-16,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 1
+      },
+      {
+        "arm": "pooled",
+        "canonical_scalar_score_max_abs_difference": 3.3306690738754696e-16,
+        "config": "pair_5",
+        "finite_difference_max_abs_difference": 3.5650912777462906e-11,
+        "fitted_objective_difference": 0.0,
+        "fitted_scalar_gradient_max_abs": 1.0543982473546973e-07,
+        "gradient_max_abs_difference": 1.3877787807814457e-16,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 1
+      },
+      {
+        "arm": "independent",
+        "canonical_scalar_score_max_abs_difference": 1.7763568394002505e-15,
+        "config": "pair_005",
+        "finite_difference_max_abs_difference": 3.863366571099647e-11,
+        "fitted_objective_difference": 6.938893903907228e-18,
+        "fitted_scalar_gradient_max_abs": 1.0050382909083618e-07,
+        "gradient_max_abs_difference": 5.551115123125783e-17,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 2
+      },
+      {
+        "arm": "independent",
+        "canonical_scalar_score_max_abs_difference": 8.881784197001252e-16,
+        "config": "pair_05",
+        "finite_difference_max_abs_difference": 4.551835297572637e-11,
+        "fitted_objective_difference": 0.0,
+        "fitted_scalar_gradient_max_abs": 9.68100644246038e-08,
+        "gradient_max_abs_difference": 4.163336342344337e-17,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 2
+      },
+      {
+        "arm": "independent",
+        "canonical_scalar_score_max_abs_difference": 5.551115123125783e-16,
+        "config": "pair_5",
+        "finite_difference_max_abs_difference": 4.5581032004360367e-11,
+        "fitted_objective_difference": 0.0,
+        "fitted_scalar_gradient_max_abs": 3.484067035915443e-07,
+        "gradient_max_abs_difference": 5.551115123125783e-17,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 2
+      },
+      {
+        "arm": "joint_shrink10",
+        "canonical_scalar_score_max_abs_difference": 1.7763568394002505e-15,
+        "config": "pair_005",
+        "finite_difference_max_abs_difference": 6.862961587916772e-11,
+        "fitted_objective_difference": 6.938893903907228e-18,
+        "fitted_scalar_gradient_max_abs": 1.1162182021258904e-07,
+        "gradient_max_abs_difference": 8.326672684688674e-17,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 1
+      },
+      {
+        "arm": "joint_shrink10",
+        "canonical_scalar_score_max_abs_difference": 8.881784197001252e-16,
+        "config": "pair_05",
+        "finite_difference_max_abs_difference": 6.148645481651727e-11,
+        "fitted_objective_difference": 0.0,
+        "fitted_scalar_gradient_max_abs": 5.820973473728136e-07,
+        "gradient_max_abs_difference": 8.326672684688674e-17,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 1
+      },
+      {
+        "arm": "joint_shrink10",
+        "canonical_scalar_score_max_abs_difference": 2.7755575615628914e-16,
+        "config": "pair_5",
+        "finite_difference_max_abs_difference": 5.123421131791872e-11,
+        "fitted_objective_difference": 0.0,
+        "fitted_scalar_gradient_max_abs": 3.3807378584143266e-07,
+        "gradient_max_abs_difference": 1.6653345369377348e-16,
+        "objective_difference": 1.1102230246251565e-16,
+        "optimizer_units": 1
+      }
+    ],
+    "feature_width": 102,
+    "invented_balanced_cell_groups": 2,
+    "invented_pair_blocks": {
+      "invented_CAD_A": 16,
+      "invented_CAD_B": 16,
+      "invented_N2A_A": 16,
+      "invented_N2A_B": 16
+    },
+    "invented_pairs": 64,
+    "invented_rows": 128,
+    "optimizer_calls": [
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599452
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599452
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599452
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599453
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599453
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599453
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599453
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599453
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 102,
+        "zero_start_loss": 0.6931471805599453
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 204,
+        "zero_start_loss": 0.6931471805599452
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 204,
+        "zero_start_loss": 0.6931471805599452
+      },
+      {
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-11,
+          "gtol": 1e-07,
+          "maxiter": 500
+        },
+        "width": 204,
+        "zero_start_loss": 0.6931471805599452
+      }
+    ],
+    "project_datasets_loaded": false,
+    "same_prepared_object_all_arms": true,
+    "scipy_optimizer_units": 12,
+    "scope": "Compatibility on a small invented problem; not actual biological runtime, resource or validation certification.",
+    "seed": 20261022,
+    "status": "PASS_INVENTED_SCIPY_SOLVER_REFERENCE_AND_SCORER"
+  },
+  "pandas_admission_candidate_sha256": "923ff701e31b7c09969ff01dc63cb6560821a97176e8e85bd76cb841021c260e",
+  "parser": {
+    "Python_float_replacement_used": false,
+    "checks": [
+      {
+        "case": "tricky_lf",
+        "float64_little_endian_hex": "9a9999999999b93f333333333333d33f010000000000f03f0000000000001000ffffffffffffef7f01000000000000000000000000000080000040e59c3082c2000000000000404359f3f8c21f6ea5010000000000000440",
+        "rows": 11,
+        "stream": "StringIO"
+      },
+      {
+        "case": "tricky_lf",
+        "float64_little_endian_hex": "9a9999999999b93f333333333333d33f010000000000f03f0000000000001000ffffffffffffef7f01000000000000000000000000000080000040e59c3082c2000000000000404359f3f8c21f6ea5010000000000000440",
+        "rows": 11,
+        "stream": "BytesIO"
+      },
+      {
+        "case": "tricky_crlf",
+        "float64_little_endian_hex": "9a9999999999b93f333333333333d33f010000000000f03f0000000000001000ffffffffffffef7f01000000000000000000000000000080000040e59c3082c2000000000000404359f3f8c21f6ea5010000000000000440",
+        "rows": 11,
+        "stream": "StringIO"
+      },
+      {
+        "case": "tricky_crlf",
+        "float64_little_endian_hex": "9a9999999999b93f333333333333d33f010000000000f03f0000000000001000ffffffffffffef7f01000000000000000000000000000080000040e59c3082c2000000000000404359f3f8c21f6ea5010000000000000440",
+        "rows": 11,
+        "stream": "BytesIO"
+      },
+      {
+        "case": "first_and_last",
+        "float64_little_endian_hex": "000000000000f43f00000000000004c0",
+        "rows": 2,
+        "stream": "StringIO"
+      },
+      {
+        "case": "first_and_last",
+        "float64_little_endian_hex": "000000000000f43f00000000000004c0",
+        "rows": 2,
+        "stream": "BytesIO"
+      },
+      {
+        "case": "golden_exact_binary",
+        "float64_little_endian_hex": "000000000000f43f00000000000004c0000000000000000000000000000000800000000000004043",
+        "rows": 5,
+        "stream": "StringIO"
+      },
+      {
+        "case": "golden_exact_binary",
+        "float64_little_endian_hex": "000000000000f43f00000000000004c0000000000000000000000000000000800000000000004043",
+        "rows": 5,
+        "stream": "BytesIO"
+      }
+    ],
+    "default_float_parser_preserved": true,
+    "old_interpreter_bitwise_parity_established": false,
+    "rejected_cases": [
+      "duplicate_ids",
+      "empty_id",
+      "multiline",
+      "duplicate_header",
+      "bad_width",
+      "bad_quote",
+      "bad_float",
+      "NaN",
+      "inf",
+      "-inf",
+      "",
+      "1e309"
+    ],
+    "scope": "Golden exactly representable invented values, current original-call equivalence, row-mask and ID semantics; not old-versus-current interpreter bitwise parity.",
+    "status": "PASS_INVENTED_EXACT_DEFERRED_PARSER"
+  },
+  "preparation_manifest_sha256": "61781e1ef932a2eb36a368279d96bd52b35bf0eaf286dc8f80021e42fd5a2daa",
+  "scope": "Only invented parsing/optimizer/scoring compatibility; no biological-stage admission or full old-interpreter equivalence.",
+  "status": "PASS_INVENTED_PANDAS_SCIPY_PROFILE_CURRENT_PYTHON_V4"
+}

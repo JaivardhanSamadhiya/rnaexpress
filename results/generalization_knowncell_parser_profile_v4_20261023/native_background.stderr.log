@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_v4_20261023\supervise.py", line 119, in <module>
+    if __name__ == '__main__': run()
+                               ^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_v4_20261023\supervise.py", line 30, in run
+    admission = admitted()
+                ^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_v4_20261023\supervise.py", line 15, in admitted
+    check_thread_environment(os.environ)
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_20261022\common.py", line 83, in check_thread_environment
+    assert all(environ.get(key) == value for key, value in THREAD_ENV.items()), 'Exact one-thread UTF8/no-bytecode environment required'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Exact one-thread UTF8/no-bytecode environment required

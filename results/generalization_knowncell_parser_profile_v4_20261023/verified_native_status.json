@@ -1,0 +1,31 @@
+{
+  "UTC": "2026-10-23T18:17:37.149318+00:00",
+  "actual_project_dataset_memory_unmeasured": true,
+  "biological_model_fits": 0,
+  "elapsed_seconds": 21.17200000002049,
+  "future_loader_certificate_sha256": "923ff701e31b7c09969ff01dc63cb6560821a97176e8e85bd76cb841021c260e",
+  "future_loader_software_certificate": "results/generalization_knowncell_joint_loader_20261022/pandas_admission.json",
+  "initial_manifest_sha256": "61781e1ef932a2eb36a368279d96bd52b35bf0eaf286dc8f80021e42fd5a2daa",
+  "metadata_array_label_and_fit_admissions_granted_here": false,
+  "native_optimizer_units": 12,
+  "numerical_maxima": {
+    "canonical_scalar_score_max_abs_difference": 2.456368441983159e-15,
+    "finite_difference_max_abs_difference": 6.862961587916772e-11,
+    "fitted_objective_difference": 6.938893903907228e-18,
+    "gradient_max_abs_difference": 1.6653345369377348e-16,
+    "objective_difference": 1.1102230246251565e-16
+  },
+  "old_interpreter_bitwise_parity_established": false,
+  "original_three_GiB_project_guards_unchanged": true,
+  "peak_private_job_bytes": 132087808,
+  "project_rows_read": 0,
+  "status": "VERIFIED_CURRENT_RUNTIME_INVENTED_COMPATIBILITY_NOT_BIOLOGICAL_ADMISSION",
+  "verification_source_sha256": "89e087d481415f4ce15436604a45d520a396a6d9d1c25336e6d34bf4ce0c95ef",
+  "verified_files": {
+    "actual_origin_receipt.json": "dc3e6a1e2f31b5d6c868de7302feb0e1e719835cc370f0eb5eacb307d08b5b2b",
+    "invented_profile_receipt.json": "dfc00f70af703437b394f74fbd92f8f81e0926b82a0be5b95a01cabebd29c312",
+    "pandas_admission_candidate.json": "923ff701e31b7c09969ff01dc63cb6560821a97176e8e85bd76cb841021c260e",
+    "preparation_manifest.json": "61781e1ef932a2eb36a368279d96bd52b35bf0eaf286dc8f80021e42fd5a2daa",
+    "supervisor_receipt.json": "d7c70d0670df090a8aa388985ff35e2ada9ee53bdb06048217176787c233a9ed"
+  }
+}
