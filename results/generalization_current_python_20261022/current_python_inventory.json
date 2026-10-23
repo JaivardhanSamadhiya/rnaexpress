@@ -1,0 +1,65 @@
+{
+  "UTC": "2026-10-23T05:33:18.350787+00:00",
+  "status": "PASS_CURRENT_PYTHON_INVENTORY_UNCHANGED_PREFIX_COMPATIBILITY_PENDING",
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_cache_tag": "cpython-312",
+  "python_native_files": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": "f91ca7e29e8b4cc9ed7a4a935c1b2558c5c8f23398cb20d7048f977aa16fce8b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": "3b33d49d879dbf3a8aa3fff1bf3859275e76c188a3adec4e7ffe728243652a87"
+  },
+  "actually_loaded_python_DLLs": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": "3b33d49d879dbf3a8aa3fff1bf3859275e76c188a3adec4e7ffe728243652a87",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": "f91ca7e29e8b4cc9ed7a4a935c1b2558c5c8f23398cb20d7048f977aa16fce8b"
+  },
+  "changes_from_old_certificate": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": {
+      "old_sha256": "dd5f8d19f6755d6491ee7c4bef2fe35ddd521334cc3ca3ed8fc93ebcadf135d0",
+      "current_sha256": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": {
+      "old_sha256": "5321bba2d7f95c6bca9a19fd8e0415ca850b2cf85c8c1711c605f9932e9c2826",
+      "current_sha256": "f91ca7e29e8b4cc9ed7a4a935c1b2558c5c8f23398cb20d7048f977aa16fce8b"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": {
+      "old_sha256": "baa2a3924bc1309284d0a720ccd213f37002fbda82d5761a61ddee8c4c31f608",
+      "current_sha256": "3b33d49d879dbf3a8aa3fff1bf3859275e76c188a3adec4e7ffe728243652a87"
+    }
+  },
+  "old_runtime_receipt": "artifacts/generalization_splicebert_runtime_compatibility_20261007/scientific_runtime_receipt.json",
+  "old_runtime_receipt_sha256": "36d103ee3bbfff30bb1af04a3fa4f640adf61dbedddf1247ceea9d97e5bad039",
+  "unchanged_scientific_prefix_file_count": 10808,
+  "unchanged_numpy_native_files": {
+    "numpy.libs/libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll": "57b87772bf676b5c2d718c79dddc9f039d79ec3319fee1398cc305adff7b69e5",
+    "numpy/core/_multiarray_tests.cp312-win_amd64.pyd": "d9017d99e0b6cad2f02462420793551fe9e6b836f3a800228caaeed144a32b75",
+    "numpy/core/_multiarray_umath.cp312-win_amd64.pyd": "5d4f44389d1b4e9aa62af63b716a0d4266dbb56fefa9bf27831f85b695994da5",
+    "numpy/core/_operand_flag_tests.cp312-win_amd64.pyd": "6b2a6d51c423411bae8fecc5e739d2251abb7f82521125c68a1734e58c7ad92d",
+    "numpy/core/_rational_tests.cp312-win_amd64.pyd": "2bb8e20ef34acdb42105daaf1fb4246493f46d49b84d614ab6fefbd4e4e428ad",
+    "numpy/core/_simd.cp312-win_amd64.pyd": "9d7bfef85379008c0c28469eea756ee3d1a52983801b76d35f80e91317cb5431",
+    "numpy/core/_struct_ufunc_tests.cp312-win_amd64.pyd": "310d34efdd848e7e0e1165c8c67914c0d3f066a5dbae7c91a27cba41e05ca53a",
+    "numpy/core/_umath_tests.cp312-win_amd64.pyd": "8407002ff967c7e7e514388a6fc1cbd51b375586ef774030361094f8b357d216",
+    "numpy/fft/_pocketfft_internal.cp312-win_amd64.pyd": "f0a4df58721cb85ca35f5f3b8c47538c53d57bbcca4fc5c07a6c06ac4c5ef421",
+    "numpy/linalg/_umath_linalg.cp312-win_amd64.pyd": "7652e82c6c53249b911dde9822b71a7ecbecbc699c79475862e779a51d7f1d0f",
+    "numpy/linalg/lapack_lite.cp312-win_amd64.pyd": "4a4db19ed6cb68529fe3ed22cbbdbd90b30b6dc1ebb2817d19bba65759c173c0",
+    "numpy/random/_bounded_integers.cp312-win_amd64.pyd": "0c19ec0b3129f12df51982aace8478f8274a5b0d6a2206be1d0e1ee0227c36a4",
+    "numpy/random/_common.cp312-win_amd64.pyd": "774bf3e20e2b1ca9797deb1daccb88a776a70c8555a501454d8d900a14585134",
+    "numpy/random/_generator.cp312-win_amd64.pyd": "8979528423faffa32d4d6edddc0b3591b8fd465c7549263267c4b249e2f1d03b",
+    "numpy/random/_mt19937.cp312-win_amd64.pyd": "592238b7a62fb033724cfd745be6036700f584d6c4ee8baf83cb77788320aa49",
+    "numpy/random/_pcg64.cp312-win_amd64.pyd": "d9a1618ba4515eb6c41dcac7b99400d07e22cd56ad4f3ba94cb84dd231cf73a8",
+    "numpy/random/_philox.cp312-win_amd64.pyd": "34363add569504b32533fa65b6933feb2ba2bcf0fe10be47c55fbdad2e223df8",
+    "numpy/random/_sfc64.cp312-win_amd64.pyd": "a241dfd9d3abaeff3028ba98bd8c573d4f8c7d2990119634b4a280fc3fd33de9",
+    "numpy/random/bit_generator.cp312-win_amd64.pyd": "d335d1443e324a7a89582cc3e85bd850198eb3133c3dd38c7f55c6f609b0cfd8",
+    "numpy/random/mtrand.cp312-win_amd64.pyd": "2df309f3cc66116966484fcc466cef200aff8d2a4c8ea482d3530b5cccb89394"
+  },
+  "workspace_bundle_version_reported_by_dependency_tool": "26.1015.12040",
+  "version_source": "Codex load_workspace_dependencies response, 22 October2026 local",
+  "old_exact_python_patch_version_known": false,
+  "cause_of_binary_change_established": false,
+  "numerical_packages_imported": false,
+  "numerical_compatibility_established": false,
+  "biological_inputs_read": false,
+  "biological_models_fit": 0,
+  "original_sources_certificates_prefix_and_guards_changed": false,
+  "source_sha256": "6ef2f5caeafd587a6b61e7848f361532bfa89b9a4f61d9d5caf8ca496e0f5880"
+}

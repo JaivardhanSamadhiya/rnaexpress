@@ -1,0 +1,54 @@
+{
+  "status": "FROZEN_INVENTED_ONLY_CURRENT_PYTHON_NUMPY_CALIBRATION_V2",
+  "files": {
+    "src/generalization_prelib_numpy_profile_v2_20261022/__init__.py": "723323837cca3501099ffd217e5eb4ff72dd1e6c27e133050aa44e29dd88f89c",
+    "src/generalization_prelib_numpy_profile_v2_20261022/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_numpy_profile_v2_20261022/invented.py": "94de0a4e8e2ab4de34648bea90bcb812c7f24171f46a683db0626ff2765997ff",
+    "src/generalization_prelib_numpy_profile_v2_20261022/freeze.py": "b509c6214d7bade0b3d58bf74fbb66ac692178c895f1b3da98f90bdd28f3915b",
+    "src/generalization_prelib_numpy_profile_v2_20261022/supervise.py": "16e5ddf7b0623b4266a89cc2a567fd00b1fd3aa8ef893ef647d069d13dae59eb",
+    "reports/generalization_prelib_numpy_profile_v2_20261022/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_prelib_numpy_profile_v2_20261022/protocol.md": "0dd2adcbc16349c35fc67e586f7c0bef194d5191a1f54565262cdaeac251a7c9",
+    "reports/generalization_prelib_numpy_profile_v2_20261022/source_review.md": "1b6046a4326577b9a22f2f20858e7401b6d79728a5415dd69c90f40ee2a0fa64",
+    "src/generalization_current_python_20261022/attest.py": "6ef2f5caeafd587a6b61e7848f361532bfa89b9a4f61d9d5caf8ca496e0f5880",
+    "src/generalization_prelib_numpy_profile_20261022/invented.py": "534a43ca1ca8ddf8b348b12787f78117eeaecd666065f2dc4f08ccb25a82ed7a",
+    "src/generalization_prelib_pooled_lineage_20261009/pipeline.py": "671f011aab615cc542c5d42f0415a1a759e5c7283a895f5fc5cb45cccc931a59",
+    "src/generalization_prelib_pooled_lineage_20261009/contracts.py": "bb0b800cb849752da292f271c1b43d1356270e7cfe26492e8912aa87c9f9b6c8",
+    "src/generalization_splicebert_runtime_compatibility_20261007/launcher.py": "374512be8f1daca8ab08a1d0b99ddebded46fccddbd7da281d5915c18fc30dc2",
+    "src/generalization_splicebert_runtime_compatibility_20261007/common.py": "2cdf820c395613e7ac47e7abb346e63c063626798bf4de6286615fea5b8e4573",
+    "src/generalization_pum_process_probe_20261021/headless.py": "7f741f1e024243546b8ab53b65f4b5245a1fc71a7d9e6de86757bf468c1928f0",
+    "src/generalization_pum_resource_calibration_20261009/winjob.py": "3a2b470f116e87ff6233cdc8710b2703cf33b908dae68ece7fb4592227b5f741",
+    "artifacts/generalization_splicebert_runtime_compatibility_20261007/scientific_runtime_receipt.json": "36d103ee3bbfff30bb1af04a3fa4f640adf61dbedddf1247ceea9d97e5bad039",
+    "results/generalization_current_python_20261022/current_python_inventory.json": "db59c8f19ed8fc3a4a2adcf96b240146c48ba0f1c649e2e2d48f41e5dcf45d59",
+    "results/generalization_prelib_numpy_profile_v2_20261022/preparation_manifest.json": "7d0eca501010ef0369e6e3fc197881bfce19a323a7730be4b2fce607f00f668a"
+  },
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_executable_sha256": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b",
+  "seed": 20261022,
+  "rows": 4054,
+  "columns": [
+    84,
+    85,
+    85
+  ],
+  "penalties": [
+    0.005,
+    0.05,
+    0.5
+  ],
+  "numerical_thread_count": 2,
+  "deadline_seconds": 120,
+  "process_memory_limit_bytes": 805306368,
+  "job_memory_limit_bytes": 939524096,
+  "active_process_limit": 2,
+  "startup_physical_floor_bytes": 536870912,
+  "stop_physical_floor_bytes": 268435456,
+  "system_commit_reserve_bytes": 1073741824,
+  "project_biological_inputs_read": false,
+  "biological_guards_unchanged": true,
+  "v1_failure_preserved": true,
+  "v2_changes": [
+    "Separate current-Python inventory; old NumPy payload contract remains unchanged",
+    "Additional independent scalar-fsum RMS and support verification",
+    "Repeat loaded NumPy/Python origin checks after lazy numerical imports"
+  ]
+}

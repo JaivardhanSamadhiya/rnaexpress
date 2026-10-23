@@ -1,0 +1,11 @@
+# Invented NumPy profile v2: current bundled Python
+
+This is operational calibration only, with no biological inputs, fitting or scientific-stage guard changes. Preserve the failed v1 namespace. The current-Python inventory must be committed first. The unchanged old NumPy payload/native proof is identified separately from current interpreter provenance; the old full runtime identity does not pass.
+
+Preparation verified all10808 scientific-prefix files once, without a numerical import. Inside the bounded fresh worker, recheck the exact membership and every hash under numpy/, numpy.libs/ and numpy-1.26.4.dist-info/, plus current Python bytes and loaded DLL paths. The whole-prefix inventory remains preparation metadata: do not claim fresh rehashing of unrelated Torch/model packages inside this NumPy-only test. This avoids spending the numerical worker deadline hashing unused model runtimes.
+
+Repeat the v1 seed20261022,4054 rows, simultaneous widths84/85/85, sparse invented values, unsupported zero column83, duplicated column79, invented scalar/targets/weights, lambda.005/.05/.5, two analytic cases and rank83 weighted lstsq check at rcond1e-12. Use unchanged pipeline.ridge/predict/numerical_contract definitions without calling any biological entry or replacing fresh/numpy_runtime. Prediction parity remains1e-10 and original kernel stationarity1e-9. Add an independent math.fsum weighted RMS/support check instead of trusting returned producer scales; scale parity1e-12. Repeat loaded-file/native proofs after lazy linalg imports.
+
+One fresh detached scientific worker, at most one pinned Git helper, two numerical threads; Windows Job process cap768MiB, aggregate896MiB, active processes2, no breakaway, kill on close. Start at512MiB physical free and at least896MiB+1GiB system commitment headroom, disk1GiB; stop below256MiB physical,1GiB system commitment or256MiB disk, or after120seconds. Record actual peaks, reserves, monitoring gaps and source hashes. Never retry or overwrite a failed attempt.
+
+A pass covers only tested invented arithmetic. Real JSON/feature/roster/count loading,399-model execution, serialization and independent biological replay remain unmeasured and inadmissible under the unchanged biological runtime/floor checks. No locality/generalization or novelty claim follows.
