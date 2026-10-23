@@ -1,0 +1,25 @@
+{
+  "actual_optimizer_calls": 0,
+  "elapsed_seconds": 0.046999999904073775,
+  "full_trainer_implemented": false,
+  "generated_utc": "2026-10-23T05:41:42.131281+00:00",
+  "models_fitted": 0,
+  "project_dataset_reads": 0,
+  "project_feature_reads": 0,
+  "project_outcome_reads": 0,
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scientific_runtimes_imported": false,
+  "source_files": {
+    "src/generalization_knowncell_joint_implementation_20261022/__init__.py": "7a9f25e06bb2197a78d2607339d60c512e70c6edd33e7e101116d738be63d9f4",
+    "src/generalization_knowncell_joint_implementation_20261022/admission.py": "dbb318fcc310102e1a3dddd9397bbdf9e6f624532d0fb7ea70d9548005f8e773",
+    "src/generalization_knowncell_joint_implementation_20261022/contracts.py": "c25387a5d23005f8e00ae7ba5c6ce507c4f5a8658e5997113b8bc834c60e024e",
+    "src/generalization_knowncell_joint_implementation_20261022/kernels.py": "58d50164d4d249afb8275d20a79a597e603bfed8789a60ebbec70963af155615",
+    "src/generalization_knowncell_joint_implementation_20261022/prepare.py": "211a30c51f6da214b711504ee4ab366927c0b3433b95d6c36f6ef332b80395db",
+    "src/generalization_knowncell_joint_implementation_20261022/selection.py": "4e12353b8c86bec32db23dbbe0d6befcfcacc43c0b28d02594f672333d720701",
+    "src/generalization_knowncell_joint_implementation_20261022/spec.py": "3311891fa87d846ec09a85dac6882acae2d5d352181e648da511e97284d64ce2",
+    "src/generalization_knowncell_joint_implementation_20261022/tests.py": "b5377b090fa7b9a1a6011db65e5f153508b0fb4760a4bc9db3befb4dbb27945b"
+  },
+  "status": "PASS_INVENTED_STDLIB_IMPLEMENTATION_CHECKS",
+  "tests": 32
+}
