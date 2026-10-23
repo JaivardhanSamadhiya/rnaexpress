@@ -1,0 +1,23 @@
+test_all_unsupported_keeps_full_dimensions_zero_and_fixed_call_count (__main__.FitContractTests.test_all_unsupported_keeps_full_dimensions_zero_and_fixed_call_count) ... ok
+test_exact_optimizer_options_dimensions_counts_and_no_head_extras (__main__.FitContractTests.test_exact_optimizer_options_dimensions_counts_and_no_head_extras) ... ok
+test_independent_fitter_uses_conditional2w_and_common_lambda (__main__.FitContractTests.test_independent_fitter_uses_conditional2w_and_common_lambda) ... ok
+test_optimizer_failure_and_inactive_drift_rejected_without_clipping (__main__.FitContractTests.test_optimizer_failure_and_inactive_drift_rejected_without_clipping) ... ok
+test_all_three_global_objectives_and_gradients_match_scalar_reference (__main__.ObjectiveTests.test_all_three_global_objectives_and_gradients_match_scalar_reference) ... ok
+test_finite_difference_active_gradients (__main__.ObjectiveTests.test_finite_difference_active_gradients) ... ok
+test_large_margins_stable (__main__.ObjectiveTests.test_large_margins_stable) ... ok
+test_rejects_wrong_width_cell_mass_and_penalty (__main__.ObjectiveTests.test_rejects_wrong_width_cell_mass_and_penalty) ... ok
+test_all_arms_scores_match_scalar_reference (__main__.PredictionTests.test_all_arms_scores_match_scalar_reference) ... ok
+test_both_heads_use_full_validation_shape_before_cell_selection (__main__.PredictionTests.test_both_heads_use_full_validation_shape_before_cell_selection) ... ok
+test_changed_scaler_width_cell_and_inactive_coefficients_fail (__main__.PredictionTests.test_changed_scaler_width_cell_and_inactive_coefficients_fail) ... ok
+test_zero_coefficients_and_exact_equal_scores_remain_exact_ties (__main__.PredictionTests.test_zero_coefficients_and_exact_equal_scores_remain_exact_ties) ... ok
+test_original_pair_order_and_labels_not_filtered (__main__.PreparationTests.test_original_pair_order_and_labels_not_filtered) ... ok
+test_rejects_fractional_duplicate_reversed_and_foreign_cell_pairs (__main__.PreparationTests.test_rejects_fractional_duplicate_reversed_and_foreign_cell_pairs) ... ok
+test_rms_support_matches_scalar_reference_and_common_zero_mean (__main__.PreparationTests.test_rms_support_matches_scalar_reference_and_common_zero_mean) ... ok
+test_historical_optimizer_source_options_checked_without_import (__main__.SourceSafetyTests.test_historical_optimizer_source_options_checked_without_import) ... ok
+test_no_scientific_imports_reader_writer_bootstrap_or_execution_entrypoint (__main__.SourceSafetyTests.test_no_scientific_imports_reader_writer_bootstrap_or_execution_entrypoint) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.342s
+
+OK
+STDLIB_DEFERRED_NUMERIC_CHECKS_PASS 17 d2fa1f4ca1c18d06e612fcbac29fa5b1889720832b9a08c42f837d2567ecbd4e

@@ -1,0 +1,23 @@
+{
+  "actual_native_optimizer_calls": 0,
+  "array_double_uses_Python_loops_and_fsum_not_BLAS": true,
+  "elapsed_seconds": 0.35900000005494803,
+  "generated_utc": "2026-10-23T06:04:47.417602+00:00",
+  "models_fitted": 0,
+  "project_feature_reads": 0,
+  "project_metadata_reads": 0,
+  "project_outcome_reads": 0,
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scientific_runtime_imports": false,
+  "source_files": {
+    "src/generalization_knowncell_joint_numeric_20261022/__init__.py": "dc01e051bb49bd44462f0a8837742f5b07fdf68233d61330becdae13ec2e522f",
+    "src/generalization_knowncell_joint_numeric_20261022/fake_array.py": "60d6685521c0925242499840579f0d6f18abde249bd2734ea2d15a2640bb8f74",
+    "src/generalization_knowncell_joint_numeric_20261022/numeric.py": "3a50f32b6e5a48ab41ee0f54c08de1cd99f6b230d1ea5a867831f6a2c28a9046",
+    "src/generalization_knowncell_joint_numeric_20261022/prepare.py": "069570580c0d3ddac9f38b425aca49e91c326d143e6b29bd3270d268e585cdbd",
+    "src/generalization_knowncell_joint_numeric_20261022/spec.py": "d2423f9d8ea1e33adc5f717e03ea9be239f72958bd42612ac83a5ef73f98192e",
+    "src/generalization_knowncell_joint_numeric_20261022/tests.py": "00c762bae6ab20e1fed606a6c293d02103963bde32ee7407a75c98b0d15ca86c"
+  },
+  "status": "PASS_INVENTED_STDLIB_DEFERRED_NUMERIC_CONTRACTS_NOT_NATIVE_PARITY",
+  "tests": 17
+}
