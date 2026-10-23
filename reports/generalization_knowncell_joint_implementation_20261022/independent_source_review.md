@@ -1,0 +1,5 @@
+# Independent reference-layer review
+
+A separate source-only methods agent checked objective normalization, shrink10 with plus/minus cell coding, the independent heads' conditional2w normalization, shared pair-RMS/support rules, both-cell component purges, concatenated paired-only source OOF selection, unmatched-row prediction coverage and canonical exact ties. No concrete scientific/design contradiction was found. All eight source pins and all25 readiness pins independently matched; no tests, project payloads, scientific imports or fits were run by that reviewer.
+
+Root separately verified all25 pins and exact committed Git bytes for the12 inherited design pins before committing this companion. The recorded32 invented tests exercise the reference/contracts only. They do not certify real metadata, actual102-column feature parity, parsed effect bytes, native runtime compatibility, a numerical optimizer, checkpoint birth identities or the final bootstrap/gate implementation. Those admissions remain required before any fit. All original design/source/gate artifacts are unchanged.
