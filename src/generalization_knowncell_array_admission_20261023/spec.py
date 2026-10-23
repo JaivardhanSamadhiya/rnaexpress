@@ -1,0 +1,34 @@
+from pathlib import Path
+
+NS='generalization_knowncell_array_admission_20261023'
+ROOT=Path(__file__).resolve().parents[2]
+SRC,REP,OUT=[ROOT/name/NS for name in ('src','reports','results')]
+READY='results/'+NS+'/readiness_manifest.json'
+REQUEST='results/'+NS+'/array_request_manifest.json'
+CACHE_PREFIX=ROOT/'results/generalization_knowncell_runtime_provider_20261023/source_cache_must_remain_absent'
+METADATA_BUNDLE='results/generalization_knowncell_joint_loader_20261022/admitted_metadata.json'
+METADATA_ADMISSION_SHA='67ea3daeb2eaff94f384d4a4e79015753a265bf8f7ab76268e0caf27dd03b08c'
+CORE_SHA='773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d'
+ARRAY_CONTRACT='results/generalization_knowncell_array_contract_20261022/readiness_manifest.json'
+ARRAY_CONTRACT_SHA='7191cf5a8667533ea010f96b2af277695784e2b5b9c2be8434ec19af43ff26c3'
+SOURCE_PREFIT='results/generalization_crosscell_20261007/prefit_manifest.json'
+SOURCE_PREFIT_SHA='547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345'
+NPZ='artifacts/generalization_crosscell_20261007/simple_model_features.npz'
+NPZ_SHA='490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6'
+CREATION='results/generalization_crosscell_20261007/prepare_receipt.json'
+CREATION_SHA='41f50e2422ce2998278c9ddb9655b5f4a960c594edb82325b06e748f0ada6a2f'
+METADATA='results/generalization_crosscell_20261007/metadata_receipt.json'
+METADATA_SHA='99bc4ad1086c0113dfcd1fdff27b7ea59755ef1bb19cc4d12c206f3e134a2e1a'
+ROW_IDS_SHA='d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2'
+DECLARED_PINS={NPZ:NPZ_SHA,CREATION:CREATION_SHA,METADATA:METADATA_SHA}
+SOFTWARE_STATUS='results/generalization_knowncell_parser_profile_v4_20261023/verified_native_status.json'
+SOFTWARE_STATUS_SHA='e1938a597c18ecf144c42724371aed2c58c8a064889fef89d5ba8a767497d821'
+SOFTWARE_CERT='results/generalization_knowncell_joint_loader_20261022/pandas_admission.json'
+SOFTWARE_CERT_SHA='923ff701e31b7c09969ff01dc63cb6560821a97176e8e85bd76cb841021c260e'
+V4_ORIGIN_SHA='dc3e6a1e2f31b5d6c868de7302feb0e1e719835cc370f0eb5eacb307d08b5b2b'
+NUMPY_PATH=ROOT/'data/interim/mechanism_v2/runtime/numpy/__init__.py'
+NUMPY_SHA='150b19558caf78c0e3cc6994ec652399e972595ca649cea1a69c801ef23e4b1c'
+STATUS='PASS_EXACT_FROZEN_SIMPLE102_ROWS_VALUES_AND_ALLELE_PARITY'
+REQUEST_STATUS='FROZEN_ARRAY_ONLY_REQUEST_JOINT_KNOWNCELL_NO_LABEL_OR_FIT'
+PROVIDER_STATUS='PASS_FRESH_CURRENT_RUNTIME_ORIGINS_FOR_ARRAY_REQUEST'
+MAX_NPZ=32*2**20
