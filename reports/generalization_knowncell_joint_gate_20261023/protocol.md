@@ -1,0 +1,13 @@
+# Deferred original joint known-cell gate
+
+Source preparation only,23 October2026. No project records, arrays, labels or predictions are opened; no native scientific package is imported. The module implements the original frozen primary paired gate and component weighting. It is not an actual project gate verdict or a completed native bootstrap test.
+
+All three supplied arms must have exactly9632 primary directional decisions on all2408 complete paired menus/187 components. The original metadata contract retains13781 rows and nine unmatched contexts; unmatched results are secondary and cannot enter this primary function. Original full-roster checks, selected ID/allele/context/cell/fold identity and both-cell component coverage stop on contradictions. No intersections or repaired cohorts are accepted.
+
+The primary candidate is fixed to joint_shrink10. Both pooled and independent controls must satisfy every original comparison threshold: macro gain>=.01; each-cell gain>=.005; shared-component bootstrap lower>0; macro wrong-direction harm<=.02; each-cell harm<=.05; leave-best-fold gain>0. Harm is candidate minus control wrong-direction rate, matching original gate source. Joint macro regret must be<=.48 and each cell<.5. No target score or favorable arm changes these constants.
+
+The best fold has the largest equal-cell mean component gain; exact ties choose the smallest inherited fold ID. After removing it, recompute equal-component means over retained genes. Do not average unequal folds equally. Choices/decisions must already have been independently replayed under canonical exact scores/ID ties.
+
+native_shared_bootstrap accepts a separately admitted NumPy module and uses the original default_rng(20261007).exponential(1,size=(5000,components)) algorithm. One global draw matrix is shared across cells and both controls; normalization, sorted cells/components, matrix multiplication, incremental cell averaging and NumPy default quantiles preserve the original implementation convention. No stdlib random, model refits or source-selection resampling occurs. Native parity against the original helper remains a required invented runtime test before project execution; the source can be tested with supplied invented vectors without reading project data.
+
+Any eventual GO remains JOINT_KNOWN_CELL_DEVELOPMENT_GO only. Unknown-cell generalization, independent biological confirmation, novelty and the broader localization-generalization claim remain false in this result schema. All original3GiB/1GiB/one-thread guards and separately committed admissions remain required in the future caller. No source bootstrap, old result, gate or threshold is modified.

@@ -1,0 +1,31 @@
+{
+  "actual_NumPy_calls": 0,
+  "actual_full_shape_validator_positive_run": false,
+  "actual_native_resource_probes": 0,
+  "elapsed_seconds": 0.015999999945051968,
+  "fixture_shape": [
+    2,
+    3
+  ],
+  "generated_utc": "2026-10-23T10:35:47.927462+00:00",
+  "models_fitted": 0,
+  "project_admission_granted": false,
+  "project_array_reads": 0,
+  "project_metadata_reads": 0,
+  "project_outcome_reads": 0,
+  "public_result_status": "VALIDATED_SUPPLIED_ARRAY_BYTES_NOT_PROJECT_ADMISSION",
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scientific_runtimes_imported": false,
+  "source_files": {
+    "src/generalization_knowncell_array_contract_20261022/__init__.py": "c2ab7c11216b9c8a0566df32ecb32d9e790c062dcfdcbceacc1d13f379d5a080",
+    "src/generalization_knowncell_array_contract_20261022/envelope.py": "a6caeda53da55b472d23eb9ad017c767fa1ec743bea2f6bfa5b82d748dfa50bd",
+    "src/generalization_knowncell_array_contract_20261022/inspect_bytes.py": "c6058886025051d3247d6757beeae86f8c5d3d08f30fe41f8d93e8b1d4e05f7d",
+    "src/generalization_knowncell_array_contract_20261022/prepare.py": "c52089560033fc8d4c75597212f5fda7306a15a5caa23c9126648c2b6e63f316",
+    "src/generalization_knowncell_array_contract_20261022/spec.py": "161e630fac14250ccda8daf40409e7105e0bade24626e5879210cd7c02917c8e",
+    "src/generalization_knowncell_array_contract_20261022/tests.py": "af3cb293ddad68ec198917ec060f57de3529adc61d6798c7bf99a98af67a5e70",
+    "src/generalization_knowncell_array_contract_20261022/validate.py": "3d573e92f0f0e012f8979ef6dbfd7ea09b393f78c9cc1ba24c262b500960d438"
+  },
+  "status": "PASS_INVENTED_STDLIB_SUPPLIED_ARRAY_CONTRACT_TESTS",
+  "tests": 21
+}

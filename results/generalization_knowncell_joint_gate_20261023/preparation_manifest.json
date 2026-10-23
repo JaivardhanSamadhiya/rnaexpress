@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN_DEFERRED_PAIRED_GATE_SOURCE_NOT_NATIVE_OR_PROJECT_ADMISSION",
+  "files": {
+    "src/generalization_knowncell_joint_gate_20261023/__init__.py": "91fe4c16590e3986becb2f1e032428ac04a4b55f991d8b47adb0ebffdac85a21",
+    "src/generalization_knowncell_joint_gate_20261023/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_knowncell_joint_gate_20261023/gate.py": "ea07db79b384b604469e661dc62eb4d5090b164a69c040add74be5d9ab8a9ad2",
+    "src/generalization_knowncell_joint_gate_20261023/tests.py": "722514dc95d8f9895f0ab2e229de299f9086bd53d5e6d1b22ef02d0f5936c4b9",
+    "src/generalization_knowncell_joint_gate_20261023/freeze.py": "c3c40137972e9822f9aea79717aef3b3231b1a9aef3f9323c14cc76090843b91",
+    "reports/generalization_knowncell_joint_gate_20261023/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_knowncell_joint_gate_20261023/protocol.md": "d549e00f7d6e26f3f0694ff11a4d80785b1566932be5e1b278b9c14d98908702",
+    "results/generalization_knowncell_joint_gate_20261023/synthetic_tests_receipt.json": "32f96ca9c070a667fa69a2e68ac0a66b8a3b8e211c160c855762d3c462be8182",
+    "results/generalization_knowncell_joint_gate_20261023/synthetic_tests_reviewed_receipt.json": "c4b779999b4557f7519a89c777b951623508be087c0be8080d0f7959ee8c6ad3",
+    "results/generalization_knowncell_joint_gate_20261023/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "src/generalization_knowncell_joint_design_20261009/spec.py": "6ec18ef9bad567a74b7cb435cdb6aa535421e6bc11bcd9fd50eb7d104eac4c26",
+    "reports/generalization_knowncell_joint_design_20261009/protocol.md": "448c2f5404c055421f076437d4e65cc550e993bcc7529b1cccb9cea8e78730ab",
+    "src/generalization_knowncell_joint_implementation_20261022/contracts.py": "c25387a5d23005f8e00ae7ba5c6ce507c4f5a8658e5997113b8bc834c60e024e",
+    "src/generalization_knowncell_joint_implementation_20261022/selection.py": "4e12353b8c86bec32db23dbbe0d6befcfcacc43c0b28d02594f672333d720701",
+    "src/generalization_knowncell_joint_implementation_20261022/spec.py": "3311891fa87d846ec09a85dac6882acae2d5d352181e648da511e97284d64ce2",
+    "src/generalization_crosscell_20261007/bootstrap.py": "0fb64d3c59ace2fc63b42450e990c26d7314c982fca793919eadc5a3a25e65e0",
+    "src/generalization_knowncell_20261007/gate.py": "5d0f9f98d623c6f86412af483d9b92cfa5f932f2adcca56f1a1e585432d31446"
+  },
+  "native_bootstrap_tested": false,
+  "project_decision_payloads_read": false,
+  "project_gate_run": false,
+  "original_gate_thresholds_changed": false,
+  "original_runtime_or_resource_guards_changed": false,
+  "first8_test_receipt_preserved": true,
+  "prospective_review_changes": [
+    "Accept legitimate zero exponential weights while requiring positive row sums",
+    "Reject nonfinite primary summaries as integrity failures"
+  ]
+}
