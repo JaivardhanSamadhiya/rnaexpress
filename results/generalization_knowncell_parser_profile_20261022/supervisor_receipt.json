@@ -1,0 +1,41 @@
+{
+  "UTC": "2026-10-23T10:47:05.122521+00:00",
+  "automatic_retry": false,
+  "biological_inputs_read": false,
+  "biological_model_fits": 0,
+  "elapsed_seconds": 4.280999999959022,
+  "exit_code": 1,
+  "failure": "Completion/source integrity failed",
+  "frozen_sources_unchanged": true,
+  "invented_completion_sha256": null,
+  "job_accounting": {
+    "active_processes": 0,
+    "kernel_time_100ns": 22968750,
+    "peak_job_memory_used": 69177344,
+    "peak_process_memory_used": 69177344,
+    "terminated_processes": 0,
+    "total_processes": 4,
+    "user_time_100ns": 12812500
+  },
+  "maximum_monitor_sample_gap_seconds": 0.10999999998603016,
+  "memory_after": {
+    "commit_headroom": 9414819840,
+    "disk_available": 1169776181248,
+    "physical_available": 2485915648,
+    "physical_total": 16805040128
+  },
+  "memory_before": {
+    "commit_headroom": 9338490880,
+    "disk_available": 1169776705536,
+    "physical_available": 2465693696,
+    "physical_total": 16805040128
+  },
+  "minimum_sampled_physical_available": 2404249600,
+  "minimum_sampled_system_commit_headroom": 9331367936,
+  "numerical_threads": 1,
+  "original_scientific_guards_changed": false,
+  "peak_worker_private_commit_bytes": 69177344,
+  "peak_worker_working_set_bytes": 94109696,
+  "preparation_manifest_sha256": "41d808e2faddb49e7d1030b70429970bfdbbc999067e136d9fc44941150dacf8",
+  "status": "FAILED_INVENTED_PROFILE_PRESERVED"
+}

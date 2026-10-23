@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_20261022\worker_v2.py", line 64, in <module>
+    try: run()
+         ^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_20261022\worker_v2.py", line 15, in run
+    initial = actual_proof(np, pd, scipy, threadpoolctl, runtime, inventory)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_20261022\runtime_v2.py", line 10, in actual_proof
+    result['possible_bytecode_payload_proof']=possible_cache_proof(sys.modules,PREFIX,inventory['files'])
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_parser_profile_20261022\cache_integrity_v2.py", line 26, in possible_cache_proof
+    assert relative in expected, 'Existing bytecode cache is not pinned'
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: Existing bytecode cache is not pinned
