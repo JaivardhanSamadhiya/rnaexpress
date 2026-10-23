@@ -1,0 +1,469 @@
+{
+  "WT_native_templates": 8,
+  "WT_records": [
+    {
+      "all_nonoverlapping_pairs": [
+        {
+          "core_gap_bases": 1,
+          "intervening_bases": 0,
+          "left_contact_end_0based_exclusive": 54,
+          "left_start_0based": 45,
+          "pair_energy_sum_kcal": 0.39999999999999997,
+          "right_contact_end_0based_exclusive": 63,
+          "right_start_0based": 54
+        }
+      ],
+      "mPRE_background": false,
+      "nominal_lineage": "NORAD",
+      "nonoverlapping_pair_count": 1,
+      "prefix": "Context_NORAD_PRE4_rep3_5",
+      "same_start_unique_site_count": true,
+      "selected_pair": {
+        "core_gap_bases": 1,
+        "intervening_bases": 0,
+        "left_contact_end_0based_exclusive": 54,
+        "left_start_0based": 45,
+        "pair_energy_sum_kcal": 0.39999999999999997,
+        "right_contact_end_0based_exclusive": 63,
+        "right_start_0based": 54
+      },
+      "sequence_sha256": "e2dc0c616121e3ae77510ce544938f47cd26c1329d69ea02571130125ea7c517",
+      "site_count": 2,
+      "sites": [
+        {
+          "contact_RNA": "UGUAUAUAG",
+          "contact_end_0based_exclusive": 54,
+          "core_RNA": "UGUAUAUA",
+          "core_end_0based_exclusive": 53,
+          "fixed_consecutive_energy_kcal": -0.07,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 45
+        },
+        {
+          "contact_RNA": "UGUACAUAA",
+          "contact_end_0based_exclusive": 63,
+          "core_RNA": "UGUACAUA",
+          "core_end_0based_exclusive": 62,
+          "fixed_consecutive_energy_kcal": 0.47,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 54
+        }
+      ],
+      "source_excel_row": 955,
+      "source_parent_ID": "Context_NORAD_PRE4_rep3_5:Context:NORAD_PRE4_rep3_5_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "e2dc0c616121e3ae77510ce544938f47cd26c1329d69ea02571130125ea7c517",
+      "terminal_ineligible_cores": []
+    },
+    {
+      "all_nonoverlapping_pairs": [
+        {
+          "core_gap_bases": 1,
+          "intervening_bases": 0,
+          "left_contact_end_0based_exclusive": 54,
+          "left_start_0based": 45,
+          "pair_energy_sum_kcal": 0.0,
+          "right_contact_end_0based_exclusive": 63,
+          "right_start_0based": 54
+        }
+      ],
+      "mPRE_background": false,
+      "nominal_lineage": "NORAD",
+      "nonoverlapping_pair_count": 1,
+      "prefix": "Context_NORAD_PRE9_rep7_5",
+      "same_start_unique_site_count": true,
+      "selected_pair": {
+        "core_gap_bases": 1,
+        "intervening_bases": 0,
+        "left_contact_end_0based_exclusive": 54,
+        "left_start_0based": 45,
+        "pair_energy_sum_kcal": 0.0,
+        "right_contact_end_0based_exclusive": 63,
+        "right_start_0based": 54
+      },
+      "sequence_sha256": "05be5900978a2c5a5186786693ed693bec487ed6680572facbd1ae1b2298affa",
+      "site_count": 2,
+      "sites": [
+        {
+          "contact_RNA": "UGUAUAUAU",
+          "contact_end_0based_exclusive": 54,
+          "core_RNA": "UGUAUAUA",
+          "core_end_0based_exclusive": 53,
+          "fixed_consecutive_energy_kcal": 0.0,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 45
+        },
+        {
+          "contact_RNA": "UGUAUAUAU",
+          "contact_end_0based_exclusive": 63,
+          "core_RNA": "UGUAUAUA",
+          "core_end_0based_exclusive": 62,
+          "fixed_consecutive_energy_kcal": 0.0,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 54
+        }
+      ],
+      "source_excel_row": 1370,
+      "source_parent_ID": "Context_NORAD_PRE9_rep7_5:Context:NORAD_PRE9_rep7_5_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "05be5900978a2c5a5186786693ed693bec487ed6680572facbd1ae1b2298affa",
+      "terminal_ineligible_cores": []
+    },
+    {
+      "all_nonoverlapping_pairs": [],
+      "mPRE_background": false,
+      "nominal_lineage": "HIAT1",
+      "nonoverlapping_pair_count": 0,
+      "prefix": "Hafner_HIAT1",
+      "same_start_unique_site_count": true,
+      "selected_pair": null,
+      "sequence_sha256": "7f0a63dbc2a497408dc39e96033fd659852da618bafe6bf88d1583486341e846",
+      "site_count": 1,
+      "sites": [
+        {
+          "contact_RNA": "UGUAUAUAA",
+          "contact_end_0based_exclusive": 49,
+          "core_RNA": "UGUAUAUA",
+          "core_end_0based_exclusive": 48,
+          "fixed_consecutive_energy_kcal": 0.3,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 40
+        }
+      ],
+      "source_excel_row": 2885,
+      "source_parent_ID": "Hafner_HIAT1:Hafner_Pum2:HIAT1|39|chr1:100548732-100548798|+_0_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "7f0a63dbc2a497408dc39e96033fd659852da618bafe6bf88d1583486341e846",
+      "terminal_ineligible_cores": []
+    },
+    {
+      "all_nonoverlapping_pairs": [],
+      "mPRE_background": false,
+      "nominal_lineage": "MGEA5",
+      "nonoverlapping_pair_count": 0,
+      "prefix": "Hafner_MGEA5",
+      "same_start_unique_site_count": true,
+      "selected_pair": null,
+      "sequence_sha256": "693c53e0ac88d12706b038ee6c434b7f2e7671470039c7920c712c546d431bbd",
+      "site_count": 1,
+      "sites": [
+        {
+          "contact_RNA": "UGUAUAUAA",
+          "contact_end_0based_exclusive": 49,
+          "core_RNA": "UGUAUAUA",
+          "core_end_0based_exclusive": 48,
+          "fixed_consecutive_energy_kcal": 0.3,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 40
+        }
+      ],
+      "source_excel_row": 3245,
+      "source_parent_ID": "Hafner_MGEA5:Hafner_Pum2:MGEA5|38|chr10:103545529-103545563|-_0_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "693c53e0ac88d12706b038ee6c434b7f2e7671470039c7920c712c546d431bbd",
+      "terminal_ineligible_cores": []
+    },
+    {
+      "all_nonoverlapping_pairs": [
+        {
+          "core_gap_bases": 10,
+          "intervening_bases": 9,
+          "left_contact_end_0based_exclusive": 49,
+          "left_start_0based": 40,
+          "pair_energy_sum_kcal": 0.56,
+          "right_contact_end_0based_exclusive": 67,
+          "right_start_0based": 58
+        }
+      ],
+      "mPRE_background": false,
+      "nominal_lineage": "PGBD4",
+      "nonoverlapping_pair_count": 1,
+      "prefix": "Hafner_PGBD4",
+      "same_start_unique_site_count": true,
+      "selected_pair": {
+        "core_gap_bases": 10,
+        "intervening_bases": 9,
+        "left_contact_end_0based_exclusive": 49,
+        "left_start_0based": 40,
+        "pair_energy_sum_kcal": 0.56,
+        "right_contact_end_0based_exclusive": 67,
+        "right_start_0based": 58
+      },
+      "sequence_sha256": "54789d05566dda51064a767e216014b754d330d4d87d79a79c4a9b34fdd27b49",
+      "site_count": 2,
+      "sites": [
+        {
+          "contact_RNA": "UGUAAAUAA",
+          "contact_end_0based_exclusive": 49,
+          "core_RNA": "UGUAAAUA",
+          "core_end_0based_exclusive": 48,
+          "fixed_consecutive_energy_kcal": 0.27,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 40
+        },
+        {
+          "contact_RNA": "UGUAUAUAC",
+          "contact_end_0based_exclusive": 67,
+          "core_RNA": "UGUAUAUA",
+          "core_end_0based_exclusive": 66,
+          "fixed_consecutive_energy_kcal": 0.29,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 58
+        }
+      ],
+      "source_excel_row": 3604,
+      "source_parent_ID": "Hafner_PGBD4:Hafner_Pum2:PGBD4|18|chr15:34395423-34395466|+_0_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "54789d05566dda51064a767e216014b754d330d4d87d79a79c4a9b34fdd27b49",
+      "terminal_ineligible_cores": []
+    },
+    {
+      "all_nonoverlapping_pairs": [],
+      "mPRE_background": false,
+      "nominal_lineage": "AP1S1",
+      "nonoverlapping_pair_count": 0,
+      "prefix": "Hafner_APIS1",
+      "same_start_unique_site_count": true,
+      "selected_pair": null,
+      "sequence_sha256": "ec0fdbf853b344e5fc42cbdbcf94aa4ca27ecb28ae7807bc146bef333bf976f1",
+      "site_count": 1,
+      "sites": [
+        {
+          "contact_RNA": "UGUAAAUAU",
+          "contact_end_0based_exclusive": 49,
+          "core_RNA": "UGUAAAUA",
+          "core_end_0based_exclusive": 48,
+          "fixed_consecutive_energy_kcal": -0.03,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 40
+        }
+      ],
+      "source_excel_row": 2516,
+      "source_parent_ID": "Hafner_APIS1:Hafner_Pum2:AP1S1|35|chr7:100804143-100804187|+_0_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "ec0fdbf853b344e5fc42cbdbcf94aa4ca27ecb28ae7807bc146bef333bf976f1",
+      "terminal_ineligible_cores": []
+    },
+    {
+      "all_nonoverlapping_pairs": [],
+      "mPRE_background": false,
+      "nominal_lineage": "SMARCA2",
+      "nonoverlapping_pair_count": 0,
+      "prefix": "ENCODE_Pum1_SMARCA2",
+      "same_start_unique_site_count": true,
+      "selected_pair": null,
+      "sequence_sha256": "511d769df760ff6cb082ae52be5de23997252d42f165244e1a52eda491282e85",
+      "site_count": 0,
+      "sites": [],
+      "source_excel_row": 2148,
+      "source_parent_ID": "ENCODE_Pum1_SMARCA2:ENCODE_Pum1_1:SMARCA2|PUM1_K562_rep01-690|chr9:2161688-2161881|+_0_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "511d769df760ff6cb082ae52be5de23997252d42f165244e1a52eda491282e85",
+      "terminal_ineligible_cores": []
+    },
+    {
+      "all_nonoverlapping_pairs": [],
+      "mPRE_background": false,
+      "nominal_lineage": "IRF2BP1",
+      "nonoverlapping_pair_count": 0,
+      "prefix": "ENCODE_Pum1_IRF2BP1",
+      "same_start_unique_site_count": true,
+      "selected_pair": null,
+      "sequence_sha256": "fdf360058ba2f0c8d665382b92f7219a25e11ac147d3290e4ad51ec31a05622c",
+      "site_count": 1,
+      "sites": [
+        {
+          "contact_RNA": "UGUACAUAC",
+          "contact_end_0based_exclusive": 59,
+          "core_RNA": "UGUACAUA",
+          "core_end_0based_exclusive": 58,
+          "fixed_consecutive_energy_kcal": 0.45999999999999996,
+          "fixed_recognition_positions_0based": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "free_recognition_position_0based": 4,
+          "start_0based": 50
+        }
+      ],
+      "source_excel_row": 1777,
+      "source_parent_ID": "ENCODE_Pum1_IRF2BP1:ENCODE_Pum1_2:IRF2BP1|PUM2_K562_rep01|chr19:46387125-46387189|-_0_0",
+      "source_sequence_length": 140,
+      "source_sequence_sha256": "fdf360058ba2f0c8d665382b92f7219a25e11ac147d3290e4ad51ec31a05622c",
+      "terminal_ineligible_cores": []
+    }
+  ],
+  "WT_templates_with_qualifying_pair": 3,
+  "all_zero_and_sparse_templates_retained": true,
+  "available_RAM_before_bytes": 1533243392,
+  "design_manifest_sha256": "13f1730b4c83ac0627587c779df70bff5244be99ae36d2794df6690e0f87d3b8",
+  "elapsed_seconds": 1.1099999999860302,
+  "folds_run": 0,
+  "models_fit": 0,
+  "mutant_or_mPRE_sequence_scan": false,
+  "nominal_lineages": 7,
+  "nominal_lineages_with_qualifying_pair": 2,
+  "outcomes_read": false,
+  "rule": {
+    "R_kcal_mol_K": 0.0019872041,
+    "WT_roster": "All8 non-mPRE literal author template rows from frozen16-parent metadata;7 nominal lineages",
+    "alphabet": "Literal140nt sourceDNA; forwardRNA T->U only; no strand flip or padding",
+    "conserved_positions_mean": "Only the7 fixed positions of the canonical recognition pattern; no evolutionary conservation or unchanged-site certificate",
+    "core_regex": "UGUA[ACGU]AUA",
+    "core_width": 8,
+    "energy": "Published fixed coupled_consecutive9-contact bound energy; position9 conditional on position8A",
+    "enumerate_all_qualifying_sites_and_nonoverlapping_pairs": true,
+    "folds_or_models": false,
+    "fresh_RAM_guard": "Existing PRELib native-reference metadata fresh >=1.3GiB; all original3GiB feature/model guards unchanged",
+    "future_Q": "Q_AB=P(Aopen AND Bopen)/(P(Aopen)*P(Bopen)); no calculation in this audit",
+    "future_joint_event": "Both9nt windows simultaneously unpaired; intervening bases unconstrained, not one contiguous span",
+    "future_sparse_pair_selection": "One pair perWT: minimum sum of fixed consecutive energies, then lexicographic(left_start,right_start)",
+    "intervals": "0based halfopen; intervening_gap=right_start-(left_start+9)",
+    "mandatory_model_contact_width": 9,
+    "mutants_or_mPRE_sequences_scanned": false,
+    "nonoverlap": "Computational9nt contact windows must be disjoint: left_start+9<=right_start",
+    "pair_ranking_is_geometry_feasibility_not_measured_binding": true,
+    "parameter_commit": "28ebbad0950a8a915ee09711144d8e5bea8fa79a",
+    "qualifying_energy_threshold": null,
+    "scientific_runtimes_loaded": false,
+    "secondary_expansion": "No flipped registers/noncanonical cores/extra flanks/replacement rules admitted after coverage",
+    "site_qualification": "Exact published canonical8nt PRE, with an available9th consecutive-contact base",
+    "spacing_grid_or_minmax_filter": null,
+    "temperature_K": 298.15,
+    "terminal8nt_core_without9th_base": "Record separately as ineligible; do not append an artificial nucleotide",
+    "version": "WT_canonical_PUM_core_9contact_geometry_v1"
+  },
+  "scientific_runtime_loaded": false,
+  "semantic_sequence_rows_decoded": 8,
+  "site_counts": [
+    {
+      "pairs": 1,
+      "prefix": "Context_NORAD_PRE4_rep3_5",
+      "sites": 2
+    },
+    {
+      "pairs": 1,
+      "prefix": "Context_NORAD_PRE9_rep7_5",
+      "sites": 2
+    },
+    {
+      "pairs": 0,
+      "prefix": "Hafner_HIAT1",
+      "sites": 1
+    },
+    {
+      "pairs": 0,
+      "prefix": "Hafner_MGEA5",
+      "sites": 1
+    },
+    {
+      "pairs": 1,
+      "prefix": "Hafner_PGBD4",
+      "sites": 2
+    },
+    {
+      "pairs": 0,
+      "prefix": "Hafner_APIS1",
+      "sites": 1
+    },
+    {
+      "pairs": 0,
+      "prefix": "ENCODE_Pum1_SMARCA2",
+      "sites": 0
+    },
+    {
+      "pairs": 0,
+      "prefix": "ENCODE_Pum1_IRF2BP1",
+      "sites": 1
+    }
+  ],
+  "source_resource": "PRELibB nativeWT-only",
+  "source_rows_lexically_skipped_except_WT": 6285,
+  "status": "COMPLETE_WT_ONLY_GEOMETRY_NOT_FOLDING_OR_BINDING_OR_LOCALIZATION"
+}

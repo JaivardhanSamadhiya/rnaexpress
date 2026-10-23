@@ -1,0 +1,21 @@
+{
+  "all_existing3GiB_guards_unchanged": true,
+  "all_prior_sources_manifests_and_failed_logs_preserved": true,
+  "available_RAM_before_bytes": 1441386496,
+  "elapsed_seconds": 2.344000000040978,
+  "exit_code": 0,
+  "failure": null,
+  "final_lifetime_peak_query_succeeded": true,
+  "limits_identical_to_frozen_v2": {
+    "peak_working_set_bytes": 268435456,
+    "wall_seconds": 30.0
+  },
+  "log_sha256": "5ff2ab2bf30ff66cf12483e9238d5a515c2ebe1eb9368704171f20dd617240fe",
+  "only_owned_child_can_be_terminated": true,
+  "original_design_manifest_sha256": "13f1730b4c83ac0627587c779df70bff5244be99ae36d2794df6690e0f87d3b8",
+  "peak_working_set_bytes": 29437952,
+  "stage": "replay",
+  "status": "PASS_OWNED_STDLIB_FINAL_CAPS_V3",
+  "v2_design_manifest_sha256": "32ab208e37b5b861dfe22cf9124aa7ad10ba3e62e48750e8f152c9d567b6a382",
+  "v3_design_manifest_sha256": "2d6b47d555362c2496e4d5c804c6679fd3089fd43b73fc02e14e2c83a2286dfc"
+}
