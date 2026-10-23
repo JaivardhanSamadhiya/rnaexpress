@@ -1,0 +1,15 @@
+test_callback_three_arms_counts_full_predictions_and_fresh_each_unit (__main__.ArrayDoubleTests.test_callback_three_arms_counts_full_predictions_and_fresh_each_unit) ... ok
+test_changed_native_pool_stops_before_optimizer (__main__.ArrayDoubleTests.test_changed_native_pool_stops_before_optimizer) ... ok
+test_hashes_include_shape_values_and_reject_nonfinite (__main__.ArrayDoubleTests.test_hashes_include_shape_values_and_reject_nonfinite) ... ok
+test_low_resource_before_second_independent_unit_prevents_second_optimizer (__main__.ArrayDoubleTests.test_low_resource_before_second_independent_unit_prevents_second_optimizer) ... ok
+test_one_pool_reset_indices_original_pairs_new_cell_weights_and_common_scale (__main__.ArrayDoubleTests.test_one_pool_reset_indices_original_pairs_new_cell_weights_and_common_scale) ... ok
+test_nine_specs_retain_exact_reference_masks_and_reject_incomplete (__main__.StaticAndSelectionTests.test_nine_specs_retain_exact_reference_masks_and_reject_incomplete) ... ok
+test_no_scientific_import_or_automatic_campaign_entrypoint (__main__.StaticAndSelectionTests.test_no_scientific_import_or_automatic_campaign_entrypoint) ... ok
+test_resource_policy_unchanged_and_two_threads_rejected (__main__.StaticAndSelectionTests.test_resource_policy_unchanged_and_two_threads_rejected) ... ok
+test_selector_receives_only_source_truths_and_full_concatenated_oof_batches (__main__.StaticAndSelectionTests.test_selector_receives_only_source_truths_and_full_concatenated_oof_batches) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.145s
+
+OK
+DEFERRED_ENGINE_STDLIB_PASS 9 a924a25487b355c39909a3c10b7a9bb4436f67a3d118905668d4161c827777c8

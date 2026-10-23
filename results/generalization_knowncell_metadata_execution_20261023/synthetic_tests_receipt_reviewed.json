@@ -1,0 +1,17 @@
+{
+  "actual_owned_job_started": false,
+  "model_fits": 0,
+  "native_optimizer_calls": 0,
+  "project_payloads_read": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_metadata_execution_20261023/__init__.py": "0ad73a3eb0e13240939393782cf1e753dd249c9842da913bc31a79665b0d70c3",
+    "src/generalization_knowncell_metadata_execution_20261023/common.py": "dc5de00c0e27fdde07bbf020c9b384ea1027e67ad5f0e1a7fe7ad7b0ed6b141a",
+    "src/generalization_knowncell_metadata_execution_20261023/prepare.py": "3df8152eca71f2dab698efc0db5d85f8d0df942322203991be456e04925c5420",
+    "src/generalization_knowncell_metadata_execution_20261023/supervise.py": "afedce69e5f889e76d34510cec52638078b059233c32623d23565d0d116c7398",
+    "src/generalization_knowncell_metadata_execution_20261023/tests.py": "897585b41625d1ba2fab2c5121eddc5d0860712ebed7d147cf696319611e5eb0",
+    "src/generalization_knowncell_metadata_execution_20261023/worker.py": "49d9d010dc3ed758d180986b62019706342cbb48852b45e8cae3e57e77fbd865"
+  },
+  "status": "PASS_INVENTED_METADATA_EXECUTION_CONTROL_CHECKS",
+  "tests_run": 7
+}

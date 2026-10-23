@@ -1,0 +1,22 @@
+{
+  "PRELib_resource_exception_applies": false,
+  "PUM_resource_exception_applies": false,
+  "arrays_sequences_from_other_studies_and_protected_outcomes_admitted": false,
+  "data_pins": {
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6",
+    "results/generalization_knowncell_20261007/exact_menu_pairs.csv": "d61291b565e60c3b9e22b1c56a9e6984ec0b03b366785befd5a89b42eed09aee",
+    "results/generalization_knowncell_20261007/unmatched_menu_metadata.csv": "7a3ed26bbc8785c83611fadbe010dfc580ec33c1d8c9fbcf1ce075cf59e6f934",
+    "results/probabilistic_ranking_20260928/candidate_index.csv": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d"
+  },
+  "label_access_authorized": false,
+  "mode": "metadata",
+  "model_fitting_authorized": false,
+  "namespace": "generalization_knowncell_joint_loader_20261022",
+  "numerical_outcomes_parsed_or_retained": false,
+  "numerical_threads": 1,
+  "root_committed_manifest_and_original_floors_required": true,
+  "scope": "Mikl metadata, exact menus, inherited folds and split contradictions only",
+  "source_readiness_sha256": "fe6c3c420110870c75217bba667d17bd805d02221ea80bf92314a3a9a509f5d5",
+  "status": "FROZEN_METADATA_ADMISSION_JOINT_KNOWNCELL",
+  "whole_core_CSV_tokens_traversed": true
+}

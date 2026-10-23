@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-10-23T18:11:02.627507+00:00",
+  "actual_worker_or_job_started": false,
+  "model_fits": 0,
+  "project_payloads_read": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_metadata_execution_v2_20261023/__init__.py": "85a7ba0316bb15c414d8e8f39627219f19568cf51b65a43063d22b4a9e025b20",
+    "src/generalization_knowncell_metadata_execution_v2_20261023/common.py": "67b3b3d549f28914a985f38994f6c58ee83c42159d1abd47457998c54b418f51",
+    "src/generalization_knowncell_metadata_execution_v2_20261023/prepare.py": "903690a4cae68d4fcc4e056d06f191945f400f90837aae161444e66d0ebc18d1",
+    "src/generalization_knowncell_metadata_execution_v2_20261023/supervise.py": "b9def18f777e0e862ed8bc95387fe4dfb6d08eee6a93cc93a135c0aa58cbe3f8",
+    "src/generalization_knowncell_metadata_execution_v2_20261023/tests.py": "c764b33ed8409481130847abe4fadcfe8f1218aa6e872d7223907c0b70e9307c",
+    "src/generalization_knowncell_metadata_execution_v2_20261023/worker.py": "a1d2b970daff11fdd34132cad3070a74e50910a53dc3e72b66dd77d7383a2c77"
+  },
+  "status": "PASS_INVENTED_SOURCE_BOUND_METADATA_V2_CONTROL_CHECKS",
+  "tests": 6
+}

@@ -1,0 +1,15 @@
+{
+  "UTC": "2026-10-23T11:06:40.974483+00:00",
+  "actual_optimizer_calls": 0,
+  "full_campaign_replay_or_gate_complete": false,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_joint_replay_20261023/__init__.py": "326250c985cca160906fcfb876a69c48c7736f44a43353246b29d3a195d1a943",
+    "src/generalization_knowncell_joint_replay_20261023/arithmetic.py": "62ed6d6ec72738d8302542b058d7152d5d9e6e05f10c965aeb7c3b1388a11760",
+    "src/generalization_knowncell_joint_replay_20261023/prepare.py": "ac6e5510165f68c8e2c6d7cc68f5c4dc13531da69c85a6c66f321fae747ac6a2",
+    "src/generalization_knowncell_joint_replay_20261023/tests.py": "ba238c2e418565c0bee04a4701937c3af01387829eaeb4d6e06beaf56d1db1ed"
+  },
+  "status": "PASS_INVENTED_DEFERRED_CHECKPOINT_ARITHMETIC_REPLAY",
+  "tests": 7
+}
