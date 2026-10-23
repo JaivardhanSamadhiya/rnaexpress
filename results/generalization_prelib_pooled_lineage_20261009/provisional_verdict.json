@@ -1,0 +1,17 @@
+{
+  "evaluation_sha256": "50e157ca2a44f55a256c330f2032e1b6fddf52b81ae7f819072d966ac2221d65",
+  "independent_confirmation": false,
+  "independent_verification_pending": true,
+  "localization_generalization_pass": false,
+  "novelty_certified": false,
+  "operational_admission": {
+    "current_python_identity_is_additive_not_old_runtime_recertification": true,
+    "current_python_numpy_bootstraps": 0,
+    "execution_manifest_sha256": "3a52874df130dd4fe41470f50a3f91b68e4bc3eea6902987c7d84ffb1c5fb9a6",
+    "fresh_guard_calls": 1,
+    "original_3GiB_floor_overridden_for_this_named_stage": true,
+    "scientific_source_targets_features_weights_grid_gate_unchanged": true,
+    "stage": "evaluate"
+  },
+  "status": "NO_GO_FOR_DECLARED_POOLED_BINDING_ROBUSTNESS_CRITERION"
+}
