@@ -1,0 +1,57 @@
+{
+  "UTC": "2026-10-23T05:07:07.405808+00:00",
+  "status": "PASS_OWNED_PUM_PHASE_WITH_KERNEL_LIMITS",
+  "phase": "production",
+  "failure": null,
+  "exit_code": 0,
+  "manifest_sha256": "3b3c5e70ae72ba9d370f843510201fa5adfcbddf2544782ec60fb4fbbef38cba",
+  "kernel_limits": {
+    "process_memory_limit": 805306368,
+    "job_memory_limit": 939524096,
+    "active_process_limit": 2,
+    "limit_flags": 8968
+  },
+  "job_accounting": {
+    "peak_job_memory_used": 48828416,
+    "peak_process_memory_used": 35774464,
+    "active_processes": 0,
+    "total_processes": 3,
+    "terminated_processes": 0,
+    "user_time_100ns": 1996406250,
+    "kernel_time_100ns": 15781250
+  },
+  "peak_worker_working_set_bytes": 35422208,
+  "peak_worker_private_commit_bytes": 25550848,
+  "minimum_available_physical_bytes": 415055872,
+  "minimum_system_commit_headroom_bytes": 8763686912,
+  "maximum_monitor_gap_seconds": 0.15600000007543713,
+  "monitor_target_interval_seconds": 0.1,
+  "elapsed_seconds": 207.59400000004098,
+  "memory_before": {
+    "physical_available": 660746240,
+    "physical_total": 16805040128,
+    "commit_headroom": 8985198592,
+    "disk_available": 1170148950016
+  },
+  "memory_after": {
+    "physical_available": 1116291072,
+    "physical_total": 16805040128,
+    "commit_headroom": 9002549248,
+    "disk_available": 1170129551360
+  },
+  "controller_process_memory": {
+    "peak_working_set": 24252416,
+    "working_set": 22147072,
+    "peak_private_commit": 14024704,
+    "private_commit": 11833344
+  },
+  "observed_other_project_PIDs": [
+    102464
+  ],
+  "original_scientific_receipt_sha256": "25d88e5a0c68d6bea68affd072acce384a216c41d1f81013d31aa0044dddf84a",
+  "original_scientific_bytes_unchanged": true,
+  "other_worker_and_queue_guards_changed": false,
+  "only_owned_job_terminated_on_failure_or_close": true,
+  "models_fit": 0,
+  "outcomes_read": false
+}

@@ -1,0 +1,43 @@
+{
+  "all_existing_model_feature_floors_unchanged": false,
+  "authorized_resource_calibration_manifest_sha256": "3b3c5e70ae72ba9d370f843510201fa5adfcbddf2544782ec60fb4fbbef38cba",
+  "backgrounds": 16,
+  "binding_or_localization_labels_read": false,
+  "elapsed_seconds": 205.84399999992456,
+  "feature_manifest_sha256": "6aa45abfa11e0af9b87ffcd3072bff17a7ddc4e301b0d0ce3be4b41a83c16f2c",
+  "files": {
+    "results/generalization_pum2_fixed_math_20261008/background_00_fixed_sequence_features.json": "b0abaa59914ffd3c61ef87777e56e21812840e98ad03e0c5041846c7bd99fe87",
+    "results/generalization_pum2_fixed_math_20261008/background_01_fixed_sequence_features.json": "00b0c70ed2b1cb328db0e53e52846cf0c25bacc5b7126c1f88f09ec7b5f6fa9d",
+    "results/generalization_pum2_fixed_math_20261008/background_02_fixed_sequence_features.json": "9d6c6d672dcff4641bc0a8b4e63004b1559a33872bcf24fa11376d516688d61f",
+    "results/generalization_pum2_fixed_math_20261008/background_03_fixed_sequence_features.json": "7f294a445cd2a28ec71888d1c38e426862fee5ac9a5f0ae9b7d0faf03f7c0bab",
+    "results/generalization_pum2_fixed_math_20261008/background_04_fixed_sequence_features.json": "5b24d52f3787d59610102df3da6998cfa02a138d0d5c62d40f60df27c67d4e53",
+    "results/generalization_pum2_fixed_math_20261008/background_05_fixed_sequence_features.json": "d84b984b4fb2e33deb0ec28f497d9d72ce1e922e333128c5f476e20faf51402a",
+    "results/generalization_pum2_fixed_math_20261008/background_06_fixed_sequence_features.json": "94505782141f64d3e829d3dd8c62c40a3b25eaebb474d8cbe4ec8f26709c7aff",
+    "results/generalization_pum2_fixed_math_20261008/background_07_fixed_sequence_features.json": "76713bd64ec86efbe7f6be7760ebc20301226b7975e008d341084d859129d754",
+    "results/generalization_pum2_fixed_math_20261008/background_08_fixed_sequence_features.json": "efadcb2dfd766f5d64e903af7ebf8b70270520a3a60367494ad86711f769bf89",
+    "results/generalization_pum2_fixed_math_20261008/background_09_fixed_sequence_features.json": "51c57e613e6cfec8705713a4e13ecbc614d04579e39e50ad606eb02d7947df26",
+    "results/generalization_pum2_fixed_math_20261008/background_10_fixed_sequence_features.json": "2e47dd1c155718bf124f2b08e1d04ff90b5139193be430d83fb96619a2f3f529",
+    "results/generalization_pum2_fixed_math_20261008/background_11_fixed_sequence_features.json": "75655f8312dc4c09412d8955b503fb1135dc147f63721032b194f7ca096e9196",
+    "results/generalization_pum2_fixed_math_20261008/background_12_fixed_sequence_features.json": "a03ff467898c0316959b1400e9669d25769fd1e3394e1506177c71084d27efbd",
+    "results/generalization_pum2_fixed_math_20261008/background_13_fixed_sequence_features.json": "d2a49b4065e97fc444528eb22c90ad35aedfbe6989af784e014363e2518663e3",
+    "results/generalization_pum2_fixed_math_20261008/background_14_fixed_sequence_features.json": "6bda12cf91af3935e57a42c57728cee7c58ab1c624c7f3a9ff4346a7c02597db",
+    "results/generalization_pum2_fixed_math_20261008/background_15_fixed_sequence_features.json": "e3eee6d3094c9fc01c3958999851433f08430f01705a4b92844a7cfb68f7dd5a"
+  },
+  "fitted_biological_parameters": 0,
+  "fixed_mode_features": [
+    "no_flip_no_c1c2",
+    "coupled_consecutive",
+    "released_csv",
+    "fit_region_truncated"
+  ],
+  "independent_production_numeric_replay_pending": true,
+  "models_fit": 0,
+  "nominal_lineages": 7,
+  "point_rows": 4054,
+  "resource_admission_original_3GiB_overridden": true,
+  "scientific_code_data_modes_tolerance_unchanged": true,
+  "sequence_rows": 4070,
+  "status": "COMPLETE_FIXED_PUM2_POINT_FRAGMENT_FEATURES_ONLY_NOT_LOCALIZATION_OR_TRAINING_ADMISSION",
+  "temperature_C": 25,
+  "training_pairs_admitted": 0
+}
