@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_INVENTED_ONLY_NUMPY_CALIBRATION",
+  "files": {
+    "src/generalization_prelib_numpy_profile_20261022/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_numpy_profile_20261022/invented.py": "534a43ca1ca8ddf8b348b12787f78117eeaecd666065f2dc4f08ccb25a82ed7a",
+    "src/generalization_prelib_numpy_profile_20261022/supervise.py": "dec9a31a44185fb046125bdb7b5653478944cb5cf6c270b948ad29d015c6450c",
+    "src/generalization_prelib_numpy_profile_20261022/freeze.py": "733a56604079f1a38285fce36ed121b683309ccff2bab7b991917f232bde01f2",
+    "reports/generalization_prelib_numpy_profile_20261022/protocol.md": "6d7fe7d3e8c02fa45093a967d4f37fe0fdbae51068f4f68427b326ccb69d2dee",
+    "reports/generalization_prelib_numpy_profile_20261022/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_prelib_pooled_lineage_20261009/pipeline.py": "671f011aab615cc542c5d42f0415a1a759e5c7283a895f5fc5cb45cccc931a59",
+    "src/generalization_prelib_pooled_lineage_20261009/contracts.py": "bb0b800cb849752da292f271c1b43d1356270e7cfe26492e8912aa87c9f9b6c8",
+    "src/generalization_splicebert_runtime_compatibility_20261007/launcher.py": "374512be8f1daca8ab08a1d0b99ddebded46fccddbd7da281d5915c18fc30dc2",
+    "src/generalization_splicebert_runtime_compatibility_20261007/common.py": "2cdf820c395613e7ac47e7abb346e63c063626798bf4de6286615fea5b8e4573",
+    "src/generalization_pum_process_probe_20261021/headless.py": "7f741f1e024243546b8ab53b65f4b5245a1fc71a7d9e6de86757bf468c1928f0",
+    "src/generalization_pum_resource_calibration_20261009/winjob.py": "3a2b470f116e87ff6233cdc8710b2703cf33b908dae68ece7fb4592227b5f741",
+    "artifacts/generalization_splicebert_runtime_compatibility_20261007/scientific_runtime_receipt.json": "36d103ee3bbfff30bb1af04a3fa4f640adf61dbedddf1247ceea9d97e5bad039"
+  },
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_executable_sha256": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b",
+  "synthetic_rows": 4054,
+  "synthetic_columns": [
+    84,
+    85,
+    85
+  ],
+  "penalties": [
+    0.005,
+    0.05,
+    0.5
+  ],
+  "project_inputs_or_targets_read": false,
+  "numerical_thread_count": 2,
+  "deadline_seconds": 120,
+  "original_scientific_guards_unchanged": true
+}
