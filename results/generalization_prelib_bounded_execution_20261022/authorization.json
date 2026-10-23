@@ -1,0 +1,12 @@
+{
+  "status": "EXACT_USER_APPROVAL_RECORDED",
+  "execution_manifest_sha256": "3a52874df130dd4fe41470f50a3f91b68e4bc3eea6902987c7d84ffb1c5fb9a6",
+  "approved_phases": ["features", "prefit", "fit", "evaluate", "verify"],
+  "spending_authorized": false,
+  "source": "Direct human answer in this chat to request_user_input_async call_3e0d8620e52f460ebe6e9101c621c27d",
+  "answer_verbatim": "Approve this exact PRELib scope",
+  "resource_and_current_python_scope": "Exactly the committed execution manifest and reviewed plan; original scientific code/data/splits/tolerances/gates fixed; all other worker guards unchanged",
+  "approved_on_local_date": "2026-10-22",
+  "schedules_authorized": false,
+  "automatic_retry_or_partial_checkpoint_resumption_authorized": false
+}
