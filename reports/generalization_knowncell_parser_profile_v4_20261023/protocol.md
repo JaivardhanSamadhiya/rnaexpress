@@ -1,0 +1,11 @@
+# V4: preserve the initially Git-verified manifest identity
+
+All V1/V2 files and failures, and the unexecuted V3 source/99-pin preparation, remain byte-for-byte preserved. V4 changes only operational manifest binding. It adds no scientific cases, parameters, runtime packages, cache admissions, biological inputs or model fits.
+
+Admission captures SHA256 of the exact initially read raw manifest bytes that are compared to HEAD, returning a frozen BoundAdmission(manifest,initial_sha256). Input-file verification uses that captured manifest; require its current raw bytes still match the initial SHA after verification. The supervisor passes the literal initial SHA to the new child via required --expected-manifest-sha. The child independently compares its own raw bytes to HEAD and to that parent-bound SHA. No default or dynamically chosen expected SHA is accepted.
+
+Immediately before scientific bootstrap, a guarded call requires the same initial manifest. Check it again after bootstrap, before every output write and after completion. Every worker output records the original initial SHA. The supervisor compares completion, origin and pandas-candidate records against its retained initial SHA, and checks the final live manifest against that original identity. A changed manifest cannot redefine the expected value even if changed bytes also appear in a later HEAD. A failed final check preserves the initial SHA in the failure receipt, alongside the observed final SHA. All provenance work precedes final resource/deadline sampling.
+
+The V3 runtime bootstrap and7998-file inventory, original parser cases,12 solver units, tiny NPZ check and shared-bootstrap check are reused unchanged. One fresh child starts -S -B -u with OMP/OPENBLAS/MKL/NUMEXPR1. Job process768MiB, aggregate896MiB, active2, physical start512MiB/stop256MiB,1GiB commit reserve, disk guards and120seconds remain unchanged. No native run is authorized before root review and exact committed V4 preparation. Old-interpreter bitwise parity remains false.
+
+New tests use invented manifest bytes, temporary files and callback spies only. They reject changed manifests before bootstrap/output callbacks, parent-child identity disagreement, missing/malformed SHA arguments, different Git bytes and duplicate JSON keys. No additional scientific operation is executed during preparation.

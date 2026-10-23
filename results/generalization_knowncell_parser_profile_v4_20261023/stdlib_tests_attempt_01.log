@@ -1,0 +1,17 @@
+test_all_outputs_use_initial_field_and_no_live_expected_hash (__main__.Checks.test_all_outputs_use_initial_field_and_no_live_expected_hash) ... ok
+test_changed_manifest_prevents_bootstrap_callback (__main__.Checks.test_changed_manifest_prevents_bootstrap_callback) ... ok
+test_changed_manifest_prevents_output_callback (__main__.Checks.test_changed_manifest_prevents_output_callback) ... ok
+test_child_launch_binds_initial_identity (__main__.Checks.test_child_launch_binds_initial_identity) ... ok
+test_child_rejects_changed_bytes_even_with_consistent_new_git (__main__.Checks.test_child_rejects_changed_bytes_even_with_consistent_new_git) ... ok
+test_child_sha_argument_mandatory_and_strict (__main__.Checks.test_child_sha_argument_mandatory_and_strict) ... ok
+test_different_git_bytes_rejected (__main__.Checks.test_different_git_bytes_rejected) ... ok
+test_duplicate_json_keys_rejected (__main__.Checks.test_duplicate_json_keys_rejected) ... ok
+test_exact_verified_raw_identity_is_retained (__main__.Checks.test_exact_verified_raw_identity_is_retained) ... ok
+test_initial_identity_field_cannot_be_reassigned (__main__.Checks.test_initial_identity_field_cannot_be_reassigned) ... ok
+test_unchanged_callback_runs_once (__main__.Checks.test_unchanged_callback_runs_once) ... ok
+test_whitespace_only_raw_change_is_rejected (__main__.Checks.test_whitespace_only_raw_change_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.313s
+
+OK

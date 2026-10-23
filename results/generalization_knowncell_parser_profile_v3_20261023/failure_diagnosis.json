@@ -1,0 +1,29 @@
+{
+  "cache_evidence": [
+    {
+      "old_full_receipt_match": true,
+      "omitted_by_original_subset": true,
+      "relative_path": "__pycache__/six.cpython-312.pyc",
+      "sha256": "2fc898ba80bcfb113342227edf336e24464df508595c14fc0a7d5e8890036b39",
+      "size_bytes": 41323
+    },
+    {
+      "old_full_receipt_match": true,
+      "omitted_by_original_subset": true,
+      "relative_path": "__pycache__/threadpoolctl.cpython-312.pyc",
+      "sha256": "ec9cbda12b506fe60ba25f4a4f479750478ce6b52043dea0d3cffa8fbbb699bd",
+      "size_bytes": 58629
+    }
+  ],
+  "cache_payloads_executed": false,
+  "failed_v2_elapsed_seconds": 4.280999999959022,
+  "failure_supervisor_sha256": "cf39b15bdf3c78d45f3e5ab497bbd68c449685cae4741789d8f822e0aa5182e0",
+  "failure_worker_log_sha256": "20219a87e6074ef8dd3bd65978f8b2f16d8b504f6f55ca913c75698a8ea1751b",
+  "first_offending_module_identified_by_v2_log": false,
+  "native_retry_started": false,
+  "project_biological_inputs_read": false,
+  "scientific_packages_imported": false,
+  "stage": "initial cache proof before parser/optimizer/array/bootstrap cases",
+  "status": "VERIFIED_TWO_OLD_ROOT_CACHE_INVENTORY_OMISSIONS_NO_NATIVE_RETRY",
+  "unselected_py_cache_admitted": false
+}
