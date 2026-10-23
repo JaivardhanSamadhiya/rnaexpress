@@ -1,0 +1,5 @@
+# Independent aggregate review
+
+A separate methods agent recomputed the two reported relative MAE gains(1.836505% and1.932817%),5/7 improved lineages, all17 alternative-view gain signs, leave-best gains and the0.005903293 MAE deficit against the zero-effect predictor from the already verified aggregates. The four primary MAEs,399 models,231078 predictions, numerical replay errors, five-stage97.875-second lifetime total and147.171875MiB fit-private peak agreed. All18 receipt hashes and the report-writer source hash matched. No raw targets, features, model checkpoints, scientific imports or new fits were used for this review.
+
+No material arithmetic or scope overclaim was found. The confidence intervals in the main report are intervals for **absolute MAE gain**, not percentages. Both include zero. The unchanged final result remains NO-GO under both controls; seven lineages/shared target views, unknown biological replicate pairing, fixed-prediction bootstrap and same-root numerical replay limitations remain explicit.
