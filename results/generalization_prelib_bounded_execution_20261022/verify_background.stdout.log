@@ -1,0 +1,41 @@
+{
+  "UTC": "2026-10-23T05:50:05.778124+00:00",
+  "phase": "verify",
+  "status": "PASS_BOUNDED_ORIGINAL_PRELIB_STAGE",
+  "failure": null,
+  "exit_code": 0,
+  "elapsed_seconds": 12.030999999959022,
+  "execution_manifest_sha256": "3a52874df130dd4fe41470f50a3f91b68e4bc3eea6902987c7d84ffb1c5fb9a6",
+  "scientific_completion_sha256": "e61ddc7acdef9294ed71c7ac92ec2547288bc12104df179904552a5cd1c1e31b",
+  "worker_receipt_sha256": "e3cafb4bf878a2bdbf0d095a983a5101cf44685c99ea9231f6332958104b5974",
+  "frozen_sources_unchanged": true,
+  "peak_worker_working_set_bytes": 94048256,
+  "peak_worker_private_commit_bytes": 115384320,
+  "job_accounting": {
+    "peak_job_memory_used": 115384320,
+    "peak_process_memory_used": 115384320,
+    "active_processes": 0,
+    "total_processes": 10,
+    "terminated_processes": 0,
+    "user_time_100ns": 76875000,
+    "kernel_time_100ns": 28906250
+  },
+  "memory_before": {
+    "physical_available": 1499295744,
+    "physical_total": 16805040128,
+    "commit_headroom": 7629496320,
+    "disk_available": 1169930846208
+  },
+  "memory_after": {
+    "physical_available": 1565728768,
+    "physical_total": 16805040128,
+    "commit_headroom": 7719784448,
+    "disk_available": 1169929273344
+  },
+  "minimum_sampled_physical_available": 1361190912,
+  "minimum_sampled_system_commit_headroom": 7354949632,
+  "maximum_monitor_gap_seconds": 0.125,
+  "scientific_worker_count": 1,
+  "biological_fits_performed": null,
+  "localization_generalization_pass": false
+}
