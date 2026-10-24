@@ -1,0 +1,20 @@
+{
+  "status": "TEMPLATE_NOT_ACTUAL_INPUT_ADMISSION",
+  "invocation": "independent_metadata_verification",
+  "category": "metadata",
+  "generation_manifest_sha256": null,
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "acquisition_namespace": "generalization_knowncell_metadata_retry_20261024",
+  "acquisition_generation_manifest_sha256": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+  "acquisition_retry_authorization_sha256": null,
+  "resource_policy": null,
+  "input_pins": null,
+  "core_path": "results/probabilistic_ranking_20260928/candidate_index.csv",
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "numeric_outcome_parsing_authorized": false,
+  "array_access_authorized": false,
+  "model_fitting_authorized": false,
+  "actual_acquisition_outputs_read_to_create_this_template": false
+}

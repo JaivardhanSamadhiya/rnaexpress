@@ -1,0 +1,23 @@
+{
+  "actual_input_admission_present": false,
+  "actual_jobs": 0,
+  "actual_resource_probes": 0,
+  "guard_restore_and_monitor_source_parity": true,
+  "model_fits": 0,
+  "original_326_sources_modified": false,
+  "project_payloads_read": 0,
+  "scientific_imports": false,
+  "source_files": {
+    "src/generalization_knowncell_metadata_verification_execution_20261024/__init__.py": "1fcf350a8e8f4efa52bc57c2361097b5876b3acd3027252a81d732aad9d81b22",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/calibration.py": "f7dca882e5dd51adab89c44b091a08ed38a2a35002782aed8e0ddf552698e246",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/common.py": "756eaeaa6af20f9c26f5b5780ab29e7587dc6298ea32d76088f6165d3c9500cc",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/inputs.py": "cbccc9bd948f8f102082090e35680e29912d6b155029f13e395a9669452895ff",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/monitor.py": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/prepare.py": "1828750454ff423efc0c26127a6ca8b367bbc924281849bb12cdc7af1bb08653",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/supervise.py": "15539ddaa34f85cb0d75fcd69bfcaf5a530f7799c8740515d197fb3687f35f58",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/tests.py": "dcbdefb62f10228d69bc56d3622a6fa8674825976b708c695297d2d175c3d3c8",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/worker.py": "8a234e41684472fdd83953d451e12250c054d3b432b065a6c91cfef9623249be"
+  },
+  "status": "PASS_INVENTED_SECOND_METADATA_PRODUCTION_SOURCE_NOT_ACTUAL_EXECUTION",
+  "tests": 18
+}
