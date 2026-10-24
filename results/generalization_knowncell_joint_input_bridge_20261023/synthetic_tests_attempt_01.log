@@ -1,0 +1,24 @@
+test_actual_resource_contract_is_three_GiB_before_supplied_input_access (__main__.BridgeTests.test_actual_resource_contract_is_three_GiB_before_supplied_input_access) ... ok
+test_changed_label_bits_and_unknown_label_types_are_not_coerced (__main__.BridgeTests.test_changed_label_bits_and_unknown_label_types_are_not_coerced) ... ok
+test_changed_matrix_bits_and_nonfinite_values_are_rejected (__main__.BridgeTests.test_changed_matrix_bits_and_nonfinite_values_are_rejected) ... ok
+test_exact_original_tolist_bits_order_and_engine_hashes (__main__.BridgeTests.test_exact_original_tolist_bits_order_and_engine_hashes) ... ok
+test_mismatched_metadata_array_software_and_runtime_bindings_rejected (__main__.BridgeTests.test_mismatched_metadata_array_software_and_runtime_bindings_rejected) ... ok
+test_missing_extra_reordered_label_ids_are_rejected (__main__.BridgeTests.test_missing_extra_reordered_label_ids_are_rejected) ... ok
+test_no_guard_override_or_io_before_root_start (__main__.BridgeTests.test_no_guard_override_or_io_before_root_start) ... ok
+test_wrong_dtype_shape_or_nonordinary_array_is_rejected (__main__.BridgeTests.test_wrong_dtype_shape_or_nonordinary_array_is_rejected) ... ok
+test_wrong_parser_orientation_or_permission_rejected (__main__.BridgeTests.test_wrong_parser_orientation_or_permission_rejected) ... ok
+test_bits_hash_matches_existing_engine_header_and_preserves_negative_zero (__main__.PureContracts.test_bits_hash_matches_existing_engine_header_and_preserves_negative_zero) ... ok
+test_fresh_uses_actual_default_guard_no_injected_probe (__main__.PureContracts.test_fresh_uses_actual_default_guard_no_injected_probe) ... ok
+test_runtime_proof_old_profile_vs_fresh_binding_distinct_and_wrong_phase_rejected (__main__.PureContracts.test_runtime_proof_old_profile_vs_fresh_binding_distinct_and_wrong_phase_rejected) ... ok
+test_exact_function_AST_seed_and_globals_without_old_module_import (__main__.SamplerTests.test_exact_function_AST_seed_and_globals_without_old_module_import) ... ok
+test_factory_requires_root_before_any_resource_or_source_access (__main__.SamplerTests.test_factory_requires_root_before_any_resource_or_source_access) ... ok
+test_guard_rejects_changed_original_global_without_call (__main__.SamplerTests.test_guard_rejects_changed_original_global_without_call) ... ok
+test_low_resource_failure_precedes_original_call_and_poisons_handle (__main__.SamplerTests.test_low_resource_failure_precedes_original_call_and_poisons_handle) ... ok
+test_only_function_is_compiled_top_level_statements_never_run (__main__.SamplerTests.test_only_function_is_compiled_top_level_statements_never_run) ... ok
+test_original_cache_path_returns_unchanged_roster_and_still_guards (__main__.SamplerTests.test_original_cache_path_returns_unchanged_roster_and_still_guards) ... ok
+test_seed_duplicate_function_and_nonempty_cache_changes_rejected (__main__.SamplerTests.test_seed_duplicate_function_and_nonempty_cache_changes_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.243s
+
+OK
