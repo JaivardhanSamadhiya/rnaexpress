@@ -1,0 +1,43 @@
+{
+  "acquisition_generation_manifest_sha256": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+  "acquisition_namespace": "generalization_knowncell_metadata_retry_20261024",
+  "acquisition_retry_authorization_sha256": "7812b98434abfd0df7914aefe9c4c5ecf84ab736897e7b7617283ed44a7e2843",
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "array_access_authorized": false,
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "category": "metadata",
+  "core_path": "results/probabilistic_ranking_20260928/candidate_index.csv",
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "generation_manifest_sha256": "a02831fa2de64efa3ba0ecf5219c4389d1e7893b0a344d751b484f9bd756a232",
+  "input_pins": {
+    "results/generalization_knowncell_joint_loader_20261022/admitted_metadata.json": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+    "results/generalization_knowncell_joint_loader_20261022/metadata_admission_manifest.json": "67ea3daeb2eaff94f384d4a4e79015753a265bf8f7ab76268e0caf27dd03b08c",
+    "results/generalization_knowncell_metadata_retry_20261024/authorization.json": "7812b98434abfd0df7914aefe9c4c5ecf84ab736897e7b7617283ed44a7e2843",
+    "results/generalization_knowncell_metadata_retry_20261024/execution_manifest.json": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+    "results/generalization_knowncell_metadata_retry_20261024/metadata_attempt_birth.json": "9b1f068a4e5d4b10ad595bf9e404fcefedd0b250b9b4fb92cbb59f598630afa8",
+    "results/generalization_knowncell_metadata_retry_20261024/metadata_supervisor_receipt.json": "4cd9613290aa41495064f3bc7d61c4f0f56adc9c9523e0dea2d3f50a4719ad51",
+    "results/generalization_knowncell_metadata_retry_20261024/metadata_worker_completion.json": "59fdd1d7f3578fddef2079f423a74fa9a51d10f032bb4c1bc303145a6c6aeb6f"
+  },
+  "invocation": "independent_metadata_verification",
+  "model_fitting_authorized": false,
+  "numeric_outcome_parsing_authorized": false,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "status": "ROOT_FROZEN_ACTUAL_SECOND_METADATA_INPUT_ADMISSION"
+}
