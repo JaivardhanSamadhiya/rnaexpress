@@ -1,0 +1,18 @@
+{
+  "actual_workers": 0,
+  "model_fits": 0,
+  "native_resource_probes": 0,
+  "project_payloads": 0,
+  "sources": {
+    "src/generalization_knowncell_bounded_execution_20261023/__init__.py": "985bc2be388a9b7a51dac0bdd48d5647d6473d814c7638afc895c079ff77e604",
+    "src/generalization_knowncell_bounded_execution_20261023/calibration.py": "79651a44d4b8681f5d32da178ec022aa03b53e8bac4b9d64e10e82139e2a7c27",
+    "src/generalization_knowncell_bounded_execution_20261023/common.py": "ea7c7eda94a86c734336094fb0fe41f082aaacd301b224fddc1078d6479197fe",
+    "src/generalization_knowncell_bounded_execution_20261023/prepare.py": "8b8d72669d1feae2530fbe05ac1bab7ccb3c69970046686831d4497d899e1dd4",
+    "src/generalization_knowncell_bounded_execution_20261023/supervise.py": "6c7bbb2b15477dfb4a1f39695f0a0920694225dd2f1c128b905457b3f1a24da6",
+    "src/generalization_knowncell_bounded_execution_20261023/test_calibration.py": "063767f008441a9d059b7452dc30ca998a10e705a5cfa770ce85b599552b7ffb",
+    "src/generalization_knowncell_bounded_execution_20261023/tests.py": "f594de3ce8a9c577429be733a22914c3a46fe372883313643e19da7b0679eb03",
+    "src/generalization_knowncell_bounded_execution_20261023/worker.py": "07826c48851cf243739605fafe83d04611fc3d133ed506262c1ab3c69f4df547"
+  },
+  "status": "PASS_INVENTED_CONTROLLER_CONTRACTS_NOT_NATIVE_OR_DATA_EXECUTION",
+  "tests": 26
+}
