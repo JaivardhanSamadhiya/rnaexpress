@@ -1,0 +1,90 @@
+{
+  "UTC": "2026-10-24T07:33:13.413789+00:00",
+  "actual_probe_calls": 0,
+  "actual_worker_calls": 0,
+  "all_326_original_manifest_pins_preserved": true,
+  "approval_created": false,
+  "bytes_hashed": 5331911,
+  "calibration_function_and_class_ASTs_equal": true,
+  "diagnostic_log_files_hashed_only_not_decoded_or_displayed": [
+    "results/generalization_knowncell_bounded_execution_20261023/metadata_supervisor_launch_01.stderr.log",
+    "results/generalization_knowncell_bounded_execution_20261023/metadata_supervisor_launch_01.stdout.log",
+    "results/generalization_knowncell_bounded_execution_20261023/metadata_worker.log",
+    "results/generalization_knowncell_joint_runner_20261023/synthetic_tests_attempt_01.log",
+    "results/generalization_knowncell_joint_runner_20261023/synthetic_tests_attempt_02.log",
+    "results/generalization_knowncell_parser_profile_20261022/invented_worker.log",
+    "results/generalization_knowncell_parser_profile_20261022/stdlib_tests_attempt_01.log",
+    "results/generalization_knowncell_parser_profile_20261022/stdlib_tests_attempt_02.log",
+    "results/generalization_knowncell_parser_profile_20261022/stdlib_tests_attempt_03.log",
+    "results/generalization_knowncell_parser_profile_v3_20261023/stdlib_tests_attempt_01.log",
+    "results/generalization_knowncell_parser_profile_v3_20261023/stdlib_tests_attempt_02.log",
+    "results/generalization_knowncell_parser_profile_v4_20261023/stdlib_tests_attempt_01.log"
+  ],
+  "files_hashed": 347,
+  "frozen_source_modified": false,
+  "independent_test_definition_count": 10,
+  "manifest_relative_path": "results/generalization_knowncell_metadata_retry_20261024/execution_manifest.json",
+  "manifest_sha256": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+  "native_disk_files_hashed_not_loaded": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": "f91ca7e29e8b4cc9ed7a4a935c1b2558c5c8f23398cb20d7048f977aa16fce8b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": "3b33d49d879dbf3a8aa3fff1bf3859275e76c188a3adec4e7ffe728243652a87"
+  },
+  "native_or_scientific_imports": false,
+  "observed_required_absences": {
+    "admitted_metadata_target": true,
+    "new_authorization": true,
+    "new_birth": true,
+    "new_worker_completion": true,
+    "shared_source_cache_prefix": true
+  },
+  "own_source_hashes": {
+    "src/generalization_knowncell_metadata_retry_20261024/__init__.py": "985bc2be388a9b7a51dac0bdd48d5647d6473d814c7638afc895c079ff77e604",
+    "src/generalization_knowncell_metadata_retry_20261024/calibration.py": "11fd6fba40521c65d34c66a44586b3ec4aba273f7820f30df42655a869e5b622",
+    "src/generalization_knowncell_metadata_retry_20261024/common.py": "d4188fff5a63a02c48e001cc6c59a1531b88da68f9bf3f27d4ccadbaf0b8a10a",
+    "src/generalization_knowncell_metadata_retry_20261024/prepare.py": "32d2ab9c26171421d7bc44076bd3fef02a7756bd9b0f1a037cdfd595bbf25826",
+    "src/generalization_knowncell_metadata_retry_20261024/supervise.py": "801c3ba6a628770289996d1c902bd923b1de1088db0705dbeb1233bfba0aa36f",
+    "src/generalization_knowncell_metadata_retry_20261024/tests.py": "51e9a010353c1f1f27304f1a375352ae43a0676afb1951ae5a0a71671881b968",
+    "src/generalization_knowncell_metadata_retry_20261024/worker.py": "4e3d101e9611b0d031b76888333cc65e553521a55605d336657b2c210f96f297"
+  },
+  "pending_actual_full_size_serialization_and_independent_metadata_reconstruction": true,
+  "pin_mismatches": [],
+  "pinned_python_ASTs_parsed": 164,
+  "project_payload_reads": 0,
+  "reported_test_count": 10,
+  "resource_function_AST_equal": {
+    "relative": true,
+    "resource_failure": true,
+    "resource_policy": true,
+    "save_new": true,
+    "source_mode": true,
+    "valid_sha": true,
+    "verify_owner": true
+  },
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "same_five_resource_target_bindings": true,
+  "status": "PASS_INDEPENDENT_STATIC_CORRECTED_METADATA_RETRY_REVIEW_NOT_APPROVAL_OR_EXECUTION",
+  "supervisor_function_AST_equal": {
+    "command": true,
+    "observe": true
+  },
+  "test_receipt_sha256": "fc9b736d33d3d79a97858939ba9f75268d32536ba5a22970a69f454735c5cd45",
+  "test_receipt_source_hashes_match": true,
+  "tests_independently_rerun": false
+}

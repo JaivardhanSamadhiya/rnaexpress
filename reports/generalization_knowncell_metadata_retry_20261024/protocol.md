@@ -1,0 +1,35 @@
+# One corrected metadata acquisition, awaiting separate human approval
+
+The original resource-approved metadata attempt failed while serializing its result. The original pure `full_metadata_contract` returns a tuple of candidate sequences for each paired menu. The operational annotator accepts JSON-shaped dictionaries and lists and correctly rejected that tuple. No admitted metadata bundle or successful worker completion was saved. The failed birth, worker log, launch logs and supervisor receipt remain unchanged and pinned by this generation.
+
+This generation proposes exactly one additional metadata acquisition. It is unlaunched and unauthorized. Preparation, invented tests and a committed execution manifest do not constitute human approval. The required new answer is **Approve one corrected metadata acquisition**. Its separate committed authorization must name this new execution manifest, permit exactly one metadata invocation, bind the original resource authorization and failed supervisor receipt, and prohibit automatic retry, label access, arrays, model fitting, spending and schedules. The original eight-invocation approval is preserved as prior resource-policy evidence; it does not authorize this extra attempt.
+
+## Narrow correction
+
+Immediately after the unchanged loader returns its metadata bundle, the new worker applies `decode(canonical(bundle))` using the original sorted, finite JSON serializer. It checks that the complete original canonical bytes equal the normalized canonical bytes. Tuples consequently become JSON arrays exactly as they would under the existing serializer. The original in-memory object is not mutated. The worker separately binds canonical metadata and contract hashes before and after annotation. It never widens the annotator's tuple acceptance or changes the scientific contract.
+
+The unchanged annotation functions/classes retain their exact AST bodies and fixed five resource aliases. Only the copied namespace and metadata-only stage constants differ. The real public calibration factory resolves this generation's fixed sibling common module; it never rebinds the original common module or accepts a caller-supplied probe/module. The original pure scientific admission function and all old files remain unchanged.
+
+The copied supervisor retains its monitor, command builder, limits, startup and final checks. Its only added completion check binds the worker's serialization receipt to captured saved JSON bytes, both protected subtree hashes, original approval identifiers and row identities. This checks consistency of the source-pinned worker's terminal proof; it does not independently reconstruct the full project metadata. The latter remains a separate required verification.
+
+## Unchanged resource policy and execution boundary
+
+The prospective parent requires 512 MiB free physical RAM at startup, at least 1,920 MiB global commit headroom, and at least 1 GiB workspace disk. The owned process and aggregate job limits remain 768 MiB and 896 MiB; active processes are capped at two. Live floors remain 256 MiB free physical RAM and 1 GiB global commit headroom, with one numerical thread, 100 ms sampling and a 30-minute deadline. The existing suspended, detached, headless child is assigned and checked in the exact capped parent-owned job before resume. No breakaway, floor reduction, retry, resume, other-process termination or spending is permitted.
+
+The child proves the parent relationship, immutable birth and membership in a job; the pinned supervisor separately proves exact owned-job membership and hard limits through the creation handle. Source and authorization rechecks remain required. The new common captures original approval/failure bytes once, verifies their hashes and exact Git HEAD bytes, and parses those same captured bytes. It does not claim continuous source-write protection or every possible unobserved resource excursion between samples.
+
+All scientific rows, IDs, complete menus, source parsing, splits, contracts, hashes, features, labels, grids, losses, tolerances and gates stay unchanged. Metadata CSV traversal can pass over label text bytes; only the original explicit metadata fields are logically admitted. No numeric labels, arrays or scientific runtime are authorized in this retry. Exact four operational original-floor claims are honestly annotated false; metadata/contract values and scientific-guard claims stay unchanged.
+
+## Artifacts and status
+
+New birth, log, worker completion and supervisor receipt live only in `results/generalization_knowncell_metadata_retry_20261024`. The original absent target `results/generalization_knowncell_joint_loader_20261022/admitted_metadata.json` is retained and must still be absent at prospective birth. All writes are exclusive and durable; any new partial output consumes this one opportunity and remains preserved.
+
+A future successful worker retains `PASS_CALIBRATED_METADATA_WORKER_CALLBACKS_RESTORED`; a future successful supervisor retains `PASS_CALIBRATED_METADATA_PENDING_INDEPENDENT_RECONSTRUCTION`. Failure retains `FAILED_OR_BLOCKED_CALIBRATED_ATTEMPT_PRESERVED_NO_RETRY`. New namespace, authorization, manifest SHA and birth SHA identify this generation. Independent metadata admission must bind the new successful receipt, never promote the preserved failed original attempt.
+
+The bundle and completion both add `metadata_serialization_normalization` with status `PASS_EXACT_ORIGINAL_JSON_METADATA_SERIALIZATION_NORMALIZATION`, equal `before_canonical_sha256`/`after_canonical_sha256`, `metadata_canonical_sha256`, `contract_canonical_sha256`, `only_original_JSON_tuple_to_array_semantics=true` and `scientific_values_or_hashes_changed=false`. The completion also records the original resource manifest and authorization SHA values separately from its new execution manifest.
+
+## Preparation evidence and remaining limits
+
+Scoped standard-library tests call the original `full_metadata_contract` on a reviewed invented fixture while substituting only its fixed expected counts inside the test. They reproduce the actual tuple failure, prove exact canonical serialization equality and protected metadata semantics, preserve strict tuple/path/resource-type rejection, and exercise terminal proof mutation rejection. AST parity tests certify the copied calibration bodies, monitor, command builder and unchanged resource-policy functions. No actual calibration context, native probe, project payload, scientific import or worker runs during preparation.
+
+The original failed attempt's approximately 81.9 MiB private/job peak is historical operational evidence, not proof that this correction will pass the full-size workload. Invented tests do not certify the real 13,781-row bundle, output I/O, resource stability or independent reconstruction. Those remain pending a real additional human approval, reviewed committed source, one bounded acquisition and separate verification. This is a serialization correction with no new biological evidence.
