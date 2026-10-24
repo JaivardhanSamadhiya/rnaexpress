@@ -1,0 +1,81 @@
+{
+  "UTC": "2026-10-24T21:53:56.325865+00:00",
+  "actual_feature_reads": 0,
+  "authorization_sha256": "7812b98434abfd0df7914aefe9c4c5ecf84ab736897e7b7617283ed44a7e2843",
+  "automatic_retry": false,
+  "birth_sha256": "9b1f068a4e5d4b10ad595bf9e404fcefedd0b250b9b4fb92cbb59f598630afa8",
+  "elapsed_seconds": 7.89000000001397,
+  "execution_manifest_sha256": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+  "failure": null,
+  "independent_metadata_reconstruction_required": true,
+  "memory_after": {
+    "commit_headroom": 6867726336,
+    "disk_available": 1169291739136,
+    "physical_available": 898080768,
+    "physical_total": 16805040128
+  },
+  "memory_before": {
+    "commit_headroom": 6800281600,
+    "disk_available": 1169307992064,
+    "physical_available": 861708288,
+    "physical_total": 16805040128
+  },
+  "metadata_bundle_sha256": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+  "model_fits": 0,
+  "numerical_labels_admitted": 0,
+  "observed": {
+    "elapsed_seconds": 6.562000000034459,
+    "exit_code": 0,
+    "failure": null,
+    "final_memory_sample": {
+      "commit_headroom": 6889345024,
+      "disk_available": 1169291739136,
+      "physical_available": 922390528,
+      "physical_total": 16805040128
+    },
+    "final_process_handle_peak_sample": {
+      "peak_private_commit": 146636800,
+      "peak_working_set": 155607040,
+      "private_commit": 77824,
+      "working_set": 32768
+    },
+    "job_accounting": {
+      "active_processes": 0,
+      "kernel_time_100ns": 24062500,
+      "peak_job_memory_used": 146636800,
+      "peak_process_memory_used": 146636800,
+      "terminated_processes": 0,
+      "total_processes": 43,
+      "user_time_100ns": 37968750
+    },
+    "maximum_monitor_gap_seconds": 0.10999999998603016,
+    "minimum_sampled_commit_headroom": 6680588288,
+    "minimum_sampled_physical_available": 744837120,
+    "peak_private_commit": 146636800,
+    "peak_working_set": 155607040,
+    "samples": 66
+  },
+  "original_3GiB_resource_guard_unchanged": false,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "scientific_protocol_settings_changed": false,
+  "stage": "metadata",
+  "status": "PASS_CALIBRATED_METADATA_PENDING_INDEPENDENT_RECONSTRUCTION",
+  "worker_completion_sha256": "59fdd1d7f3578fddef2079f423a74fa9a51d10f032bb4c1bc303145a6c6aeb6f",
+  "worker_started": true
+}

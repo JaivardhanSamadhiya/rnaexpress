@@ -1,0 +1,33 @@
+{
+  "UTC": "2026-10-24T21:53:48.420866+00:00",
+  "authorization_sha256": "7812b98434abfd0df7914aefe9c4c5ecf84ab736897e7b7617283ed44a7e2843",
+  "automatic_retry": false,
+  "execution_manifest_sha256": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+  "parent_pid": 95988,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "source_mode": {
+    "cache_prefix": "D:\\rnaexpress\\results\\generalization_knowncell_runtime_provider_20261023\\source_cache_must_remain_absent",
+    "cache_prefix_absent": true,
+    "dont_write_bytecode": true,
+    "no_site": true,
+    "numerical_threads": 1
+  },
+  "stage": "metadata",
+  "status": "ONE_EXPLICIT_CALIBRATED_STAGE_OPPORTUNITY_CONSUMED"
+}

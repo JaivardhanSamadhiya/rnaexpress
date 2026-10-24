@@ -1,0 +1,52 @@
+{
+  "actual_feature_reads": 0,
+  "birth_sha256": "9b1f068a4e5d4b10ad595bf9e404fcefedd0b250b9b4fb92cbb59f598630afa8",
+  "callbacks_restored": true,
+  "execution_manifest_sha256": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+  "fresh_calibrated_guard_calls": 54,
+  "metadata_admission_sha256": "67ea3daeb2eaff94f384d4a4e79015753a265bf8f7ab76268e0caf27dd03b08c",
+  "metadata_bundle_sha256": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+  "metadata_serialization_normalization": {
+    "after_canonical_sha256": "485d602cd567abb651c33e240a82263e2a7abd916eb6890bc4035d8a958e7483",
+    "before_canonical_sha256": "485d602cd567abb651c33e240a82263e2a7abd916eb6890bc4035d8a958e7483",
+    "contract_canonical_sha256": "b7172c92b8be2c998e0ec6966f20ffe219c3388ed21380c56d061aeb309ea000",
+    "metadata_canonical_sha256": "8cd66944d6abc40a9792136aad7e8737e4b5c28a8e452cb21c51043b19450712",
+    "only_original_JSON_tuple_to_array_semantics": true,
+    "scientific_values_or_hashes_changed": false,
+    "status": "PASS_EXACT_ORIGINAL_JSON_METADATA_SERIALIZATION_NORMALIZATION"
+  },
+  "metadata_sha256": "b20281b69b3360a1e60197f5c7ed01d105642a5e79c9fb0ee4cd76001d8f2795",
+  "model_fits": 0,
+  "numerical_outcome_rows_admitted": 0,
+  "original_3GiB_resource_guard_unchanged": false,
+  "original_resource_authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "original_resource_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "scientific_packages_imported": false,
+  "scientific_protocol_settings_changed": false,
+  "source_mode": {
+    "cache_prefix": "D:\\rnaexpress\\results\\generalization_knowncell_runtime_provider_20261023\\source_cache_must_remain_absent",
+    "cache_prefix_absent": true,
+    "dont_write_bytecode": true,
+    "no_site": true,
+    "numerical_threads": 1
+  },
+  "status": "PASS_CALIBRATED_METADATA_WORKER_CALLBACKS_RESTORED"
+}
