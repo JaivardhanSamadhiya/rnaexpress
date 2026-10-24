@@ -1,0 +1,47 @@
+"""Fixed label execution paths. Actual array/run admission must arrive later."""
+from src.generalization_knowncell_metadata_verification_execution_20261024 import common as prior
+from src.generalization_knowncell_array_admission_20261023 import spec as array
+from src.generalization_knowncell_labels_runtime_20261024 import spec as runtime
+
+ROOT=prior.ROOT
+NS='generalization_knowncell_labels_execution_v2_20261024'
+OUT=ROOT/'results'/NS
+MANIFEST=OUT/'preparation_manifest.json'
+RUN_ADMISSION=OUT/'run_admission.json'
+REQUEST=runtime.REQUEST
+INVOCATION='original_pandas_label_admission'
+STAGE='labels'
+STATUS='REVIEWED_SOURCE_FOR_ONE_ORIGINAL_PANDAS_LABEL_INVOCATION_NOT_EXECUTION'
+LABEL_STATUS='PASS_CALIBRATED_ORIGINAL_PANDAS_MIKL_LABELS_NO_FIT'
+METADATA_BUNDLE=array.METADATA_BUNDLE
+METADATA_SHA='1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc'
+ARRAY_CERTIFICATE='results/generalization_knowncell_array_execution_20261024/array_admission_certificate.json'
+ARRAY_SUPERVISOR='results/generalization_knowncell_array_execution_20261024/array_supervisor_receipt.json'
+ARRAY_CERTIFICATE_SHA='8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa'
+ARRAY_SUPERVISOR_SHA='4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9'
+ARRAY_GENERATION_SHA='af482756d27d206ce900292a37e2668ad09a4b1c7e0746e2c13e4fd616b63b64'
+ARRAY_CAST_SHA='441b9cf9d46171ea6c8d35a40c62573c929243dfb5ea212c24c095fa0ec3571d'
+INDEPENDENT_REPORT=prior.REPORT.relative_to(ROOT).as_posix()
+INDEPENDENT_REPORT_SHA='978dc51f46dcefaa963fc5a6305f821a0e6c0873c360191daf1773e65b6c8c51'
+INDEPENDENT_SUPERVISOR=prior.SUPERVISOR.relative_to(ROOT).as_posix()
+INDEPENDENT_SUPERVISOR_SHA='36d624073edf87895292d5cd699adb81eee553eefe6a4957cc1e587cd347e554'
+OUTPUT=OUT/'original_pandas_label_certificate.json'
+BIRTH=OUT/'labels_attempt_birth.json'
+WORKER_LOG=OUT/'labels_worker.log'
+COMPLETION=OUT/'labels_worker_completion.json'
+SUPERVISOR=OUT/'labels_supervisor_receipt.json'
+CORE=prior.CORE
+CORE_SHA=array.CORE_SHA
+ROW_IDS_SHA=array.ROW_IDS_SHA
+NPZ_SHA=array.NPZ_SHA
+LOADER_READY='results/generalization_knowncell_joint_loader_20261022/readiness_manifest_reviewed.json'
+POLICY_SHA=prior.POLICY_SHA
+AUTH_SHA=prior.AUTH_SHA
+SCOPE_SHA=prior.SCOPE_SHA
+CACHE_PREFIX=prior.CACHE_PREFIX
+PROCESS_CAP=prior.PROCESS_CAP
+JOB_CAP=prior.JOB_CAP
+COUNT=13781
+PARSER='original_pandas_default_read_csv_low_memory_False_then_to_numpy_float'
+METADATA_CONTENT_SHA='b20281b69b3360a1e60197f5c7ed01d105642a5e79c9fb0ee4cd76001d8f2795'
+RUNTIME_PREPARATION_SHA='5406ec802555a6cb1bca3130681a14577c1100621081b8808b49b405fe97efa5'

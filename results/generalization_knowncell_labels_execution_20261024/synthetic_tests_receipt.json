@@ -1,0 +1,23 @@
+{
+  "actual_jobs": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "label_rows_admitted": 0,
+  "model_fits": 0,
+  "parser_spy_is_invented_not_native_pandas_compatibility_evidence": true,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_labels_execution_20261024/__init__.py": "5651a904e146fcd4226f62b7c92102c50fc48e9a5c41dda2a5ea7305d5e8d1fd",
+    "src/generalization_knowncell_labels_execution_20261024/admit.py": "a4d89a28aab19e5ba0c7e13b73c11ea6af21ce788ec58d24d68044b3443a6a05",
+    "src/generalization_knowncell_labels_execution_20261024/calibration.py": "815fbb472b0a84662c1647aac8a72f49fb5f31884818dd3bb43028ebe7fc6288",
+    "src/generalization_knowncell_labels_execution_20261024/common.py": "128a1844f5423f4ff8e2ed1a3e7ad2b68de90915de24381659508f5299e0a786",
+    "src/generalization_knowncell_labels_execution_20261024/prepare.py": "c602f78718d82017fb6ddf1741d7ba3a06d81b85bf677a2d3b917ae8833ccc93",
+    "src/generalization_knowncell_labels_execution_20261024/spec.py": "e7a95b208d99921e98b91bc574cfb1b52f1a337644b498cdd39446784df308d6",
+    "src/generalization_knowncell_labels_execution_20261024/supervise.py": "9dde30010dd869755b541bf1d9b57a53847acb854a74b6400b5d519859a018cc",
+    "src/generalization_knowncell_labels_execution_20261024/tests.py": "c0debac48ee35dec789234decd19e6715222d8fcdb5679ce18f8dd88d046a225",
+    "src/generalization_knowncell_labels_execution_20261024/worker.py": "24226104c80b6e6490aea64440f0b08ebc9346aa8d2a786118220f86be0d2079"
+  },
+  "status": "PASS_INVENTED_ORIGINAL_PARSER_LABEL_EXECUTION_NOT_ACTUAL_ADMISSION",
+  "tests": 9
+}
