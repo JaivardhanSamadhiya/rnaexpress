@@ -1,0 +1,30 @@
+{
+  "UTC": "2026-10-24T22:02:24.887920+00:00",
+  "actual_metadata_array_CORE_or_label_payload_reads": 0,
+  "actual_probe_provider_worker_or_job_calls": 0,
+  "actual_run_admission_present_at_review": false,
+  "calibration_AST_parity_after_only_declared_invocation_and_factory_stage_substitutions": true,
+  "concrete_blockers_found": [],
+  "full_size_runtime_resource_and_array_admission_certified": false,
+  "implementation_or_frozen_source_edits": false,
+  "original_monitor_directly_reused": true,
+  "preparation_manifest_present_at_review": false,
+  "protocol_sha256": "910c0433dd809a324f2cb12e13d1e9e818a14fa540944ab7e389028d2b009670",
+  "report_sha256": "bac70092c043c021a786e5bbff0387d9a029fac470e19ec3c0e8addd87a6cbc5",
+  "reported_tests": 13,
+  "reviewed_source_sha256": {
+    "src/generalization_knowncell_array_execution_20261024/__init__.py": "203c2ac9a088a682ba3105f88d32075db3d949b669c7e3ea60ed3102b79c3638",
+    "src/generalization_knowncell_array_execution_20261024/calibration.py": "e71ff7bb1f481f268725dc5554cccee2429e07fb6d22f451692a54fed8b0c0c7",
+    "src/generalization_knowncell_array_execution_20261024/common.py": "e6dbd0f7b3254f5b138bd15549d6f578fb11c828c02a387f612a003f375119d8",
+    "src/generalization_knowncell_array_execution_20261024/prepare.py": "0d417c19c251091a44faca6a8c2f4de0ef0e18ca3debab1d3f5330daa3b0868a",
+    "src/generalization_knowncell_array_execution_20261024/supervise.py": "6452b111d22c9ec93a5e60d1666045b0613a2e93fa190b21a5a56179c3d8a87b",
+    "src/generalization_knowncell_array_execution_20261024/tests.py": "9b3cf1ee898b655c548d07be5c6515bebe9b4450097993db278e6061ec4d4192",
+    "src/generalization_knowncell_array_execution_20261024/worker.py": "fb53ebd5424dfae28e27bfe91bab6b841cb188f3ecfc0c9590ac6fbba6c04e3b"
+  },
+  "same_five_resource_target_bindings": true,
+  "scientific_imports": false,
+  "status": "PASS_INDEPENDENT_ARRAY_CONTROLLER_SOURCE_REVIEW_NOT_ACTUAL_ARRAY_OR_RUNTIME_ADMISSION",
+  "test_receipt_sha256": "fdf1e2fe86617026f470a0349381bbacd362125ce3446b18033e1cf1cc7c341d",
+  "test_source_definitions": 13,
+  "tests_independently_rerun": false
+}

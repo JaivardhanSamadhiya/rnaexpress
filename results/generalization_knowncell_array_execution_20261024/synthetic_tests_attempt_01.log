@@ -1,0 +1,31 @@
+test_actual_input_pins_and_no_label_or_fit (__main__.Contracts.test_actual_input_pins_and_no_label_or_fit) ... ok
+test_command_pins_source_no_bytecode_and_identities (__main__.Contracts.test_command_pins_source_no_bytecode_and_identities) ... ok
+test_guard_transaction_bodies_unchanged (__main__.Contracts.test_guard_transaction_bodies_unchanged) ... ok
+test_metadata_pins_and_input_set_are_exact (__main__.Contracts.test_metadata_pins_and_input_set_are_exact) ... ok
+test_monitor_is_same_function (__main__.Contracts.test_monitor_is_same_function) ... ok
+test_new_output_paths_do_not_reuse_metadata_birth (__main__.Contracts.test_new_output_paths_do_not_reuse_metadata_birth) ... ok
+test_no_start_performs_no_probe (__main__.Contracts.test_no_start_performs_no_probe) ... ok
+test_protected_runtime_proofs_and_truthful_resource_annotation (__main__.Contracts.test_protected_runtime_proofs_and_truthful_resource_annotation) ... ERROR
+test_resource_policy_is_identical (__main__.Contracts.test_resource_policy_is_identical) ... ok
+test_startup_precedes_birth_and_job_assignment_precedes_resume (__main__.Contracts.test_startup_precedes_birth_and_job_assignment_precedes_resume) ... ok
+test_unknown_resource_claim_and_nonfinite_values_rejected (__main__.Contracts.test_unknown_resource_claim_and_nonfinite_values_rejected) ... ok
+
+======================================================================
+ERROR: test_protected_runtime_proofs_and_truthful_resource_annotation (__main__.Contracts.test_protected_runtime_proofs_and_truthful_resource_annotation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\rnaexpress\src\generalization_knowncell_array_execution_20261024\tests.py", line 91, in test_protected_runtime_proofs_and_truthful_resource_annotation
+    result=worker.assemble(session,value,'a'*64,'b'*64,'c'*64)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_array_execution_20261024\worker.py", line 43, in assemble
+    annotated=session.annotate(normalized)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_array_execution_20261024\calibration.py", line 214, in annotate
+    result['resource_calibration']['approved_policy_manifest_sha256']=self.authorization['approved_policy_manifest_sha256']
+                                                                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'approved_policy_manifest_sha256'
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.026s
+
+FAILED (errors=1)
