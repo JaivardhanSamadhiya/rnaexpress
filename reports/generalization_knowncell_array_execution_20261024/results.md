@@ -21,14 +21,14 @@ enforced. This does not establish old-interpreter bitwise parity.
 - Array certificate: `8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa`.
 - Worker completion: `73d26d13460ca38d81cc795cd81eae71089ed2566fe4327b2f69489be0e3569a`.
 - Supervisor: `4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9`.
-- Supervisor elapsed69.563s; observed child68.188s; exit0.
-- Peak private/job220,438,528bytes (210.23MiB); peak working set245,817,344bytes.
-- Minimum sampled physical availability1,542,041,600bytes; global commit
-  headroom6,375,636,992bytes. No resource/reserve or deadline violation.
--677 monitor samples, maximumgap0.110s;2084 fresh calibrated guard calls.
-  The660 sequential processes include repeated direct Git checks; active
-  process cap remained2. No surviving owned process or termination.
-- Callbacks restored; all398 source pins and all33 protected original
+- Supervisor elapsed 69.563 s; observed child 68.188 s; exit 0.
+- Peak private/job 220,438,528 bytes (210.23 MiB); peak working set 245,817,344 bytes.
+- Minimum sampled physical availability 1,542,041,600 bytes; global commit
+  headroom 6,375,636,992 bytes. No resource/reserve or deadline violation.
+- 677 monitor samples, maximum gap 0.110 s; 2084 fresh calibrated guard calls.
+  The 660 sequential processes include repeated direct Git checks; active
+  process cap remained 2. No surviving owned process or termination.
+- Callbacks restored; all 398 source pins and all 33 protected original
   user-modified files still matched after completion.
 
 No numerical outcomes were admitted and no model was fitted. The matrix was
