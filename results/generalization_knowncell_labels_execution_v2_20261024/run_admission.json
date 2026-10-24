@@ -1,0 +1,37 @@
+{
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "generation_manifest_sha256": "168409af1f862fbd46a81311c7ce58b1fade5e8e6227e8e0e371de5acf8dfe50",
+  "input_pins": {
+    "results/generalization_knowncell_array_execution_20261024/array_admission_certificate.json": "8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa",
+    "results/generalization_knowncell_array_execution_20261024/array_supervisor_receipt.json": "4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9",
+    "results/generalization_knowncell_joint_loader_20261022/admitted_metadata.json": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+    "results/generalization_knowncell_labels_execution_20261024/label_request_manifest.json": "efc36c4e335c79b61a6aa735eb1e261cc681cf16a0e1ad29debabbc95e787c19",
+    "results/generalization_knowncell_metadata_verification_execution_20261024/independent_metadata_report.json": "978dc51f46dcefaa963fc5a6305f821a0e6c0873c360191daf1773e65b6c8c51",
+    "results/generalization_knowncell_metadata_verification_execution_20261024/independent_metadata_verification_supervisor_receipt.json": "36d624073edf87895292d5cd699adb81eee553eefe6a4957cc1e587cd347e554"
+  },
+  "invocation": "original_pandas_label_admission",
+  "label_access_authorized": true,
+  "model_fitting_authorized": false,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "runtime_import_authorized": true,
+  "stage": "labels",
+  "status": "FROZEN_ORIGINAL_PANDAS_LABEL_EXECUTION_INPUT_ADMISSION"
+}

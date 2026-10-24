@@ -1,0 +1,35 @@
+{
+  "PRELib_resource_exception_applies": false,
+  "PUM_resource_exception_applies": false,
+  "array_certificate_sha256": "8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa",
+  "array_supervisor_sha256": "4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "core_sha256": "773d6145bbe4b17ff50597e47eba13f0b2977a3ddf541a1b238adcb7ff433e3d",
+  "expected_row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "generation_manifest_sha256": "168409af1f862fbd46a81311c7ce58b1fade5e8e6227e8e0e371de5acf8dfe50",
+  "invocation": "original_pandas_label_admission",
+  "label_access_authorized": true,
+  "metadata_bundle_sha256": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+  "model_fitting_authorized": false,
+  "namespace": "generalization_knowncell_labels_execution_20261024",
+  "numerical_threads": 1,
+  "provider_binding": {
+    "module": "src.generalization_knowncell_labels_runtime_20261024.provider",
+    "qualname": "provide",
+    "reviewed_deferred_only": true,
+    "source_path": "src/generalization_knowncell_labels_runtime_20261024/provider.py",
+    "source_sha256": "b98d50cadc9cd10d854a0354523915d5c77c9849801561cc9ae6ce52b1e6325c"
+  },
+  "provider_preparation_manifest_sha256": "5406ec802555a6cb1bca3130681a14577c1100621081b8808b49b405fe97efa5",
+  "resource_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "runtime_import_authorized": true,
+  "software_certificate_sha256": "923ff701e31b7c09969ff01dc63cb6560821a97176e8e85bd76cb841021c260e",
+  "software_status_sha256": "e1938a597c18ecf144c42724371aed2c58c8a064889fef89d5ba8a767497d821",
+  "source_loader_readiness_sha256": "fe6c3c420110870c75217bba667d17bd805d02221ea80bf92314a3a9a509f5d5",
+  "source_pins": {
+    "results/generalization_knowncell_joint_loader_20261022/readiness_manifest_reviewed.json": "fe6c3c420110870c75217bba667d17bd805d02221ea80bf92314a3a9a509f5d5",
+    "src/generalization_knowncell_joint_loader_20261022/loader.py": "c0f0754f9821e9c75bccc734a7721d754c3cf2b39ad399e1adaa04a30a27b899",
+    "src/generalization_knowncell_joint_loader_20261022/parsers.py": "04717e8a0031d008f9b33392ce8a45db7f17d0c1c13a0fd62b7873e60def688f"
+  },
+  "status": "FROZEN_ORIGINAL_PANDAS_LABEL_ONLY_REQUEST_NO_FIT"
+}
