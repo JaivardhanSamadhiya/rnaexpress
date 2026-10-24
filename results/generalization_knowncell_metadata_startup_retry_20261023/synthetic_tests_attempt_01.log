@@ -1,0 +1,19 @@
+test_broken_link_or_nonregular_existing_path_is_rejected (__main__.Cases.test_broken_link_or_nonregular_existing_path_is_rejected) ... ok
+test_changed_addon_manifest_cannot_redefine_initial_identity (__main__.Cases.test_changed_addon_manifest_cannot_redefine_initial_identity) ... ok
+test_duplicate_block_json_keys_rejected (__main__.Cases.test_duplicate_block_json_keys_rejected) ... ok
+test_every_old_partial_worker_path_is_rejected (__main__.Cases.test_every_old_partial_worker_path_is_rejected) ... ok
+test_exact_original_worker_command_and_no_global_rebinding (__main__.Cases.test_exact_original_worker_command_and_no_global_rebinding) ... ok
+test_fresh_post_job_floor_cannot_be_replaced_by_earlier_readiness (__main__.Cases.test_fresh_post_job_floor_cannot_be_replaced_by_earlier_readiness) ... ok
+EXPLICIT_METADATA_STARTUP_OPPORTUNITY_BLOCKED Original three-GiB available physical-memory floor
+test_low_ram_writes_separate_block_and_consumes_one_opportunity_no_job (__main__.Cases.test_low_ram_writes_separate_block_and_consumes_one_opportunity_no_job) ... ok
+test_original_block_must_have_zero_worker_and_payload (__main__.Cases.test_original_block_must_have_zero_worker_and_payload) ... ok
+test_original_resource_boundaries_are_unchanged (__main__.Cases.test_original_resource_boundaries_are_unchanged) ... ok
+test_preexisting_worker_path_prevents_new_birth_and_job (__main__.Cases.test_preexisting_worker_path_prevents_new_birth_and_job) ... ok
+test_root_start_required_before_any_admission (__main__.Cases.test_root_start_required_before_any_admission) ... ok
+test_wait_is_explicit_bounded_resource_sampling_not_worker_retry (__main__.Cases.test_wait_is_explicit_bounded_resource_sampling_not_worker_retry) ... ok
+test_wait_returns_on_first_readiness_without_launch (__main__.Cases.test_wait_returns_on_first_readiness_without_launch) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.116s
+
+OK
