@@ -1,0 +1,81 @@
+{
+  "UTC": "2026-10-24T07:16:33.604806+00:00",
+  "actual_feature_reads": 0,
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "automatic_retry": false,
+  "birth_sha256": "ce8e17c4bf6c56aeba47c1ac77c92d5e04e62bb78c7c98249d769d64b678791e",
+  "elapsed_seconds": 9.454000000027008,
+  "execution_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "failure": "AssertionError: Worker failed or did not exit",
+  "independent_metadata_reconstruction_required": true,
+  "memory_after": {
+    "commit_headroom": 6210617344,
+    "disk_available": 1169421762560,
+    "physical_available": 2286170112,
+    "physical_total": 16805040128
+  },
+  "memory_before": {
+    "commit_headroom": 6115962880,
+    "disk_available": 1169422286848,
+    "physical_available": 1805557760,
+    "physical_total": 16805040128
+  },
+  "metadata_bundle_sha256": null,
+  "model_fits": 0,
+  "numerical_labels_admitted": 0,
+  "observed": {
+    "elapsed_seconds": 7.734000000054948,
+    "exit_code": 1,
+    "failure": null,
+    "final_memory_sample": {
+      "commit_headroom": 6207459328,
+      "disk_available": 1169421762560,
+      "physical_available": 2083237888,
+      "physical_total": 16805040128
+    },
+    "final_process_handle_peak_sample": {
+      "peak_private_commit": 85864448,
+      "peak_working_set": 95330304,
+      "private_commit": 77824,
+      "working_set": 32768
+    },
+    "job_accounting": {
+      "active_processes": 0,
+      "kernel_time_100ns": 26718750,
+      "peak_job_memory_used": 85864448,
+      "peak_process_memory_used": 85864448,
+      "terminated_processes": 0,
+      "total_processes": 9,
+      "user_time_100ns": 40156250
+    },
+    "maximum_monitor_gap_seconds": 0.1720000000204891,
+    "minimum_sampled_commit_headroom": 5839155200,
+    "minimum_sampled_physical_available": 1560338432,
+    "peak_private_commit": 85864448,
+    "peak_working_set": 95330304,
+    "samples": 76
+  },
+  "original_3GiB_resource_guard_unchanged": false,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "scientific_protocol_settings_changed": false,
+  "stage": "metadata",
+  "status": "FAILED_OR_BLOCKED_CALIBRATED_ATTEMPT_PRESERVED_NO_RETRY",
+  "worker_completion_sha256": null,
+  "worker_started": true
+}

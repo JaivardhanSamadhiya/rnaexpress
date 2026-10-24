@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\supervise.py", line 190, in <module>
+    run(args.stage, root_start=args.root_start)
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\supervise.py", line 182, in run
+    assert failure is None, failure
+           ^^^^^^^^^^^^^^^
+AssertionError: AssertionError: Worker failed or did not exit

@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\worker.py", line 60, in main
+    run(args.stage, args.parent_pid, args.manifest_sha, args.birth_sha)
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\worker.py", line 24, in run
+    bundle = session.annotate(bundle)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\calibration.py", line 194, in annotate
+    result = _annotated_copy(payload,[],changes)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\calibration.py", line 113, in _annotated_copy
+    result[key] = _plain_copy(item)
+                  ^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\calibration.py", line 140, in _plain_copy
+    if isinstance(value,dict):return {key:_plain_copy(item) for key,item in value.items()}
+                                          ^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\calibration.py", line 141, in _plain_copy
+    if isinstance(value,list):return [_plain_copy(item) for item in value]
+                                      ^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\calibration.py", line 140, in _plain_copy
+    if isinstance(value,dict):return {key:_plain_copy(item) for key,item in value.items()}
+                                          ^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_bounded_execution_20261023\calibration.py", line 142, in _plain_copy
+    assert value is None or type(value) in (str,int,float,bool),'Annotate JSON receipts only, never software/data arrays'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Annotate JSON receipts only, never software/data arrays
