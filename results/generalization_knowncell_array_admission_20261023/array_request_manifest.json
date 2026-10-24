@@ -1,0 +1,35 @@
+{
+  "PRELib_resource_exception_applies": false,
+  "PUM_resource_exception_applies": false,
+  "approved_resource_authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "approved_resource_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "array_contract_sha256": "7191cf5a8667533ea010f96b2af277695784e2b5b9c2be8434ec19af43ff26c3",
+  "bounded_knowncell_calibration_required": true,
+  "data_pins": {
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6",
+    "results/generalization_crosscell_20261007/metadata_receipt.json": "99bc4ad1086c0113dfcd1fdff27b7ea59755ef1bb19cc4d12c206f3e134a2e1a",
+    "results/generalization_crosscell_20261007/prepare_receipt.json": "41f50e2422ce2998278c9ddb9655b5f4a960c594edb82325b06e748f0ada6a2f"
+  },
+  "expected_row_ids_sha256": "d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2",
+  "independent_metadata_report_sha256": "978dc51f46dcefaa963fc5a6305f821a0e6c0873c360191daf1773e65b6c8c51",
+  "label_access_authorized": false,
+  "metadata_bundle_sha256": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+  "model_fitting_authorized": false,
+  "namespace": "generalization_knowncell_array_admission_20261023",
+  "numerical_threads": 1,
+  "provider_binding": {
+    "module": "src.generalization_knowncell_runtime_provider_20261023.provider",
+    "qualname": "provide",
+    "reviewed_deferred_only": true,
+    "source_path": "src/generalization_knowncell_runtime_provider_20261023/provider.py",
+    "source_sha256": "441421ae49708761cd91d36bd01182cc85a1ebba5459e30587dfc5882def56fc"
+  },
+  "provider_preparation_manifest_sha256": "c10fd9e8f52095e2b8a5eae8b533ed4f66814090ab8844928af7c7392a18694f",
+  "reviewed_execution_generation_sha256": "af482756d27d206ce900292a37e2668ad09a4b1c7e0746e2c13e4fd616b63b64",
+  "runtime_import_authorized": true,
+  "software_certificate_sha256": "923ff701e31b7c09969ff01dc63cb6560821a97176e8e85bd76cb841021c260e",
+  "software_status_sha256": "e1938a597c18ecf144c42724371aed2c58c8a064889fef89d5ba8a767497d821",
+  "source_prefit_sha256": "547a4765e225f47c2564daa978951bc380b00933fc27220663fbe38efe8bb345",
+  "source_readiness_sha256": "19c9d099ec4a052221bd39d993239bd401fc3aa767775c347a198b9259a5687f",
+  "status": "FROZEN_ARRAY_ONLY_REQUEST_JOINT_KNOWNCELL_NO_LABEL_OR_FIT"
+}
