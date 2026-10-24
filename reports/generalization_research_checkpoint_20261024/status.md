@@ -21,7 +21,8 @@ is promised.
 | Full supplied checkpoint replay |13 invented tests,99 pins and source review complete; actual63-checkpoint replay not run |
 | Second metadata execution controller |18 invented tests and source reviews pass;382 pins; actual inputs and successful independently checked receipts committed |
 | Exact-array admission | Actual13,781x102 validation PASS;6,880 crosscell allele groups matched exact original/cast bytes; runtime origins before/after verified;210.23MiB peak |
-| Original-parser labels, FIT prefit,63/84 campaign and evaluation | Actual admission/execution remains pending; additive truthful label and prefit compatibility integration in progress |
+| Original-parser labels | Actual unchanged pandas parser PASS; all13,781 original IDs/float64 outcomes preserved;205.70MiB peak; values persisted for exact later verification |
+| FIT prefit,63/84 campaign and evaluation | Actual execution pending; truthful prefit compatibility and supplied-input/runtime integration in progress |
 
 The actual metadata loader returned after its fixed input/menu/split checks;
 the worker then rejected a legitimate tuple in its receipt-copy helper. No
@@ -40,11 +41,11 @@ completed successfully and was reviewed/committed before any array access.
 
 ## Next work, in order
 
-1. Prepare/review/freeze the original pandas-label invocation and truthful
-   calibrated label/runtime bridge; admit only the fixed outcomes after array acceptance.
-2. Complete the additive prefit compatibility projection and input bridge;
-   preserve actual calibrated provenance and every original scientific check.
-3. Freeze actual source pools and
+1. Complete/review the supplied-input and stage-runtime integration; preserve
+   precommitted static inputs separately from fresh actual owner/origin evidence.
+2. Prepare the exact nine source pools and commit the truthful calibrated FIT
+   prefit, retaining every original scientific field and declared compatibility view.
+3. Run the fixed
    FIT prefit before the fixed63-checkpoint/84-unit comparison, complete replay
    and unchanged joint-only gate. Report failure if any condition fails.
 
@@ -58,7 +59,7 @@ unfiltered pytest, paid resources, cloud, wet lab, collaborator or scheduled
 task is introduced.
 
 Real corrected serialization and independent metadata verification now pass.
-Original-parser/pool integration and full-fit/replay memory are not
+Pool integration and full-fit/replay memory are not
 yet measured. Existing label/prefit consumers need explicit truthful handling
 of the approved resource exception. A public external edit benchmark remains
 unqualified; the latest SECReTE lead has no verified data accession in the
