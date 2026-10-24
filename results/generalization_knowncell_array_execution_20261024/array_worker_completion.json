@@ -1,0 +1,42 @@
+{
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "array_reads": 1,
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "birth_sha256": "a2112f8d183a4363c62887a8930fd633482dfd0d4f96a0f87cfdbba36b112a5c",
+  "callbacks_restored": true,
+  "certificate_sha256": "8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa",
+  "fresh_calibrated_guard_calls": 2084,
+  "generation_manifest_sha256": "af482756d27d206ce900292a37e2668ad09a4b1c7e0746e2c13e4fd616b63b64",
+  "invocation": "array_admission",
+  "model_fits": 0,
+  "numerical_outcomes_admitted": 0,
+  "parent_pid": 2100,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "run_admission_sha256": "9d77731bb1cbb696fa8d309a46dea37c72898b7867dbb3976c15960ba5b63b90",
+  "source_mode": {
+    "cache_prefix": "D:\\rnaexpress\\results\\generalization_knowncell_runtime_provider_20261023\\source_cache_must_remain_absent",
+    "cache_prefix_absent": true,
+    "dont_write_bytecode": true,
+    "no_site": true,
+    "numerical_threads": 1
+  },
+  "status": "PASS_EXACT_ARRAY_WORKER_CALLBACKS_RESTORED",
+  "worker_pid": 138668
+}
