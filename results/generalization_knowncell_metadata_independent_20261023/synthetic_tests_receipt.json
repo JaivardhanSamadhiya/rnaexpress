@@ -1,0 +1,26 @@
+{
+  "UTC": "2026-10-24T07:21:41.810825+00:00",
+  "actual_metadata_verifications": 0,
+  "actual_provider_calls": 0,
+  "actual_resource_probes": 0,
+  "actual_workers": 0,
+  "approval_or_execution_admission_created": false,
+  "elapsed_seconds": 0.06702990003395826,
+  "model_fits": 0,
+  "project_payloads_read": 0,
+  "public_fullsize_positive_case_run": false,
+  "reference_builders_or_parsers_called": false,
+  "scientific_imports": false,
+  "small_counts_private_test_helper_only": true,
+  "sources": {
+    "src/generalization_knowncell_metadata_independent_20261023/__init__.py": "48b50bc3043c1c14e07be3d37e3a42d4e8a0584d29efe3d7b8c4c5928c1d8052",
+    "src/generalization_knowncell_metadata_independent_20261023/prepare.py": "f32c9c7cf382bd8668c3a9bdb2fb121decd0b511e213405d522131d45cac97ae",
+    "src/generalization_knowncell_metadata_independent_20261023/source_verify.py": "e2f8679f42cf77fccf6d39822165768e305604e3963adbe995f080ed85383923",
+    "src/generalization_knowncell_metadata_independent_20261023/spec.py": "ec427a7a4c04be7a307ca890ec0ae61311386ca0aed6919041d3fac2a8f1a1ed",
+    "src/generalization_knowncell_metadata_independent_20261023/tests.py": "1f93ffa83bde170784a75a6b00a3726a04fc58b8f2fb571fefec6f23fbb7c191",
+    "src/generalization_knowncell_metadata_independent_20261023/tests_source.py": "4c1f6336e863442e29fe361986c4add7ac6fd298d8cb2dd8ba6d007d16924257",
+    "src/generalization_knowncell_metadata_independent_20261023/verify.py": "d32802aaef5a72b3465ba3ef53a1823ff868b0c5927441efdbf177bf951d3485"
+  },
+  "status": "PASS_INVENTED_PURE_INDEPENDENT_METADATA_TESTS_NOT_ACTUAL_ADMISSION",
+  "tests": 28
+}
