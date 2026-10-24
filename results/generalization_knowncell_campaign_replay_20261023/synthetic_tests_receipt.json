@@ -1,0 +1,20 @@
+{
+  "UTC": "2026-10-24T07:17:43.224698+00:00",
+  "actual63_native_arithmetic_replays": 0,
+  "actual_input_runtime_commit_admission_or_generalization_certified": false,
+  "actual_optimizer_calls": 0,
+  "actual_provider_or_worker_calls": 0,
+  "actual_resource_probes": 0,
+  "private_stubs_used_for_roster_tests": true,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_campaign_replay_20261023/__init__.py": "43d7bb2880d912716b24e582a949d70cc9b6a255f45c3952ddb9b3ee458a0633",
+    "src/generalization_knowncell_campaign_replay_20261023/prepare.py": "f5c8286544c4272ae67a12bd82cdb0dfaf02ff08cbe0baa4f2bd89f782a37e8c",
+    "src/generalization_knowncell_campaign_replay_20261023/replay.py": "1420a4ada24b510d13be52dee1e541f4d3880c9326ad12ac979ec656295e2e3b",
+    "src/generalization_knowncell_campaign_replay_20261023/selection.py": "83c78857a4086ae636f178430caf2b66d2ad68424e734d32f08cdd1f4e83e977",
+    "src/generalization_knowncell_campaign_replay_20261023/tests.py": "8a9bd55c31029ab777cbf4c561ca0207f14a222f58130bf3453710c10991f2ac"
+  },
+  "status": "PASS_INVENTED_SUPPLIED63_REPLAY_CONTRACTS_WITH_PRIVATE_ARITHMETIC_STUBS_NOT_PROJECT_REPLAY",
+  "tests": 13
+}
