@@ -1,0 +1,40 @@
+{
+  "status": "EXACT_HUMAN_ONE_CORRECTED_METADATA_APPROVAL_RECORDED",
+  "execution_manifest_sha256": "8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd",
+  "approved_stages": [
+    "metadata"
+  ],
+  "additional_owned_invocations": 1,
+  "original_resource_execution_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "original_resource_authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "original_resource_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "failed_metadata_supervisor_receipt_sha256": "27fe3db7b708d1b81983d176378d42d7f258bc3bd5a022c636a76186351dabe5",
+  "resource_policy": {
+    "startup_physical_available": 536870912,
+    "active_physical_available": 268435456,
+    "disk_available": 1073741824,
+    "startup_commit_headroom": 2013265920,
+    "active_commit_headroom": 1073741824,
+    "process_cap": 805306368,
+    "job_cap": 939524096,
+    "active_process_cap": 2,
+    "scientific_workers": 1,
+    "numerical_threads": 1,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "automatic_retry": false,
+    "resume": false,
+    "spending_authorized": false
+  },
+  "label_access_authorized": false,
+  "array_access_authorized": false,
+  "model_fitting_authorized": false,
+  "spending_authorized": false,
+  "scientific_protocol_changes_authorized": false,
+  "automatic_retry_authorized": false,
+  "scheduled_tasks_authorized": false,
+  "question": "Approve one additional corrected metadata acquisition? The only repair normalizes the validated bundle through its existing JSON serializer before receipt annotation; tests confirm identical canonical metadata and contract bytes. No scientific rows, parsing, splits, gates, labels, arrays or models change. The same approved memory caps, reserves, one worker/thread and 30-minute limit apply. The failed attempt remains preserved, and this authorizes exactly one new attempt with no automatic retries or spending. Ten regression tests and two source reviews passed; full-size execution remains untested. Review: D:/rnaexpress/reports/generalization_knowncell_metadata_retry_20261024/protocol.md, commit c22ee2e27. Exact manifest: 8aee30b96901964bcc118a57dc2f7f4bdfd4d95ad508c811124b44f47ae44ecd.",
+  "answer": "Approve one corrected metadata acquisition",
+  "question_item_id": "[\"request_user_input_async\",\"call_126acdfae64c49e899e205492ef3393d\",0]",
+  "recorded_at_utc": "2026-10-24T21:53:20Z"
+}
