@@ -1,0 +1,45 @@
+{
+  "CORE_read_authorized": false,
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "array_reload_authorized": true,
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "data_pins": {
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6"
+  },
+  "generation_manifest_sha256": "d934fc04f562b5c07ea1ca6fad7ee86ee57635d7167ec42219dd19b2d012f8a1",
+  "input_pins": {
+    "results/generalization_knowncell_array_execution_20261024/array_admission_certificate.json": "8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa",
+    "results/generalization_knowncell_array_execution_20261024/array_supervisor_receipt.json": "4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/root_bindings_v3_prefit.json": "a7ac3e52716bd70132c0e39307a9da7c207a8e14ae1390c90feafad4970fb55c",
+    "results/generalization_knowncell_joint_loader_20261022/admitted_metadata.json": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+    "results/generalization_knowncell_labels_execution_v2_20261024/labels_supervisor_receipt.json": "e690e04c24ced2892ecfc830e4317780e9db8cb231af03ada316ca279b673056",
+    "results/generalization_knowncell_labels_execution_v2_20261024/original_pandas_label_certificate.json": "46b87936ebaf093b80f7666b64f0bd92eb73a6b753b3661b3bafa229514b78ee",
+    "results/generalization_knowncell_prefit_execution_20261024/controller_source_admission.json": "e3a63685b7455cf21b4891296554563b483f08ae549bc000c1e0b507e30894ee",
+    "results/generalization_knowncell_prefit_execution_20261024/prefit_runtime_request.json": "fcd56001400ad1d3210fa6458b2a36427eda9461016b2448e55e247182e2e0eb"
+  },
+  "invocation": "fixed_prefit",
+  "model_fitting_authorized": false,
+  "pool_preparation_authorized": true,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "runtime_import_authorized": true,
+  "saved_label_read_authorized": true,
+  "stage": "prefit",
+  "status": "FROZEN_ONE_ADMITTED_INPUT_NINE_POOL_PREFIT_RUN_NO_FIT"
+}

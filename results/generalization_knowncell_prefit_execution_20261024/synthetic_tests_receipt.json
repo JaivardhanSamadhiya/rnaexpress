@@ -1,0 +1,25 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "scientific_mask_fixture_counts_test_only": true,
+  "sources": {
+    "src/generalization_knowncell_prefit_execution_20261024/__init__.py": "fd6767757cb31e12206bb966ce649c4b1b809f60fbd0e49030d4d9a13453064b",
+    "src/generalization_knowncell_prefit_execution_20261024/build.py": "773ded5959dea59fddbd00a5751fa525fdd7708df061a94cdd26e55fdf258434",
+    "src/generalization_knowncell_prefit_execution_20261024/calibration.py": "422ea38e30dd579acfa16c754aec5492f04c184d54f91d092fc78b8b65bf71b1",
+    "src/generalization_knowncell_prefit_execution_20261024/common.py": "4f3596d9cd25552b3f65c47bf316a68b7551e5a0aa95bfe3fc98a4b36e1a0e20",
+    "src/generalization_knowncell_prefit_execution_20261024/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_prefit_execution_20261024/prepare.py": "53cbbf90cd06aa6f4b0496df704d2f26721b5457b49853f7265dafb7b07c3506",
+    "src/generalization_knowncell_prefit_execution_20261024/spec.py": "099d87b21e26cf1f9cbef2ba62b5100b9af26c639598f51c1d27a63fac4b6c5c",
+    "src/generalization_knowncell_prefit_execution_20261024/supervise.py": "19ff5323090e8ba2e1c1599a1c8b24056a4c65072d2fc8a0177005fcf0a9f1e6",
+    "src/generalization_knowncell_prefit_execution_20261024/tests.py": "5621d1f27ebf76b4291a4a6e70dbb7551de04fadecf88897cf3bca81038d7427",
+    "src/generalization_knowncell_prefit_execution_20261024/worker.py": "22ea8815035e113a13a2f7c11d10a11b89bdb397055dd4f76b80af0f1532bcd2"
+  },
+  "status": "PASS_INVENTED_PREFIT_EXECUTION_NOT_INPUT_POOL_OR_FIT_ADMISSION",
+  "tests": 14
+}

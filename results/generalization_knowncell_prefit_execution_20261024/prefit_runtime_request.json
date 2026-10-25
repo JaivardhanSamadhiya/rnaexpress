@@ -1,0 +1,29 @@
+{
+  "CORE_read_authorized": false,
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "array_reload_authorized": true,
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "controller_source_admission_sha256": "e3a63685b7455cf21b4891296554563b483f08ae549bc000c1e0b507e30894ee",
+  "generation_manifest_sha256": "d934fc04f562b5c07ea1ca6fad7ee86ee57635d7167ec42219dd19b2d012f8a1",
+  "invocation": "fixed_prefit",
+  "model_fitting_authorized": false,
+  "namespace": "generalization_knowncell_prefit_execution_20261024",
+  "numerical_threads": 1,
+  "pool_preparation_authorized": true,
+  "provider_binding": {
+    "module": "src.generalization_knowncell_prefit_runtime_20261024.provider",
+    "qualname": "provide",
+    "reviewed_deferred_only": true,
+    "source_path": "src/generalization_knowncell_prefit_runtime_20261024/provider.py",
+    "source_sha256": "ec33c9b0f0a7fa253cf29778fa9cbfae9bfcc1622cb4fa2a8925759da01be8c7"
+  },
+  "provider_preparation_manifest_sha256": "4bf2b9714c10f2bcdf913e78336ecc41fbba909218311539b25981834d01c842",
+  "runtime_import_authorized": true,
+  "saved_label_read_authorized": true,
+  "software_certificate_sha256": "923ff701e31b7c09969ff01dc63cb6560821a97176e8e85bd76cb841021c260e",
+  "software_status_sha256": "e1938a597c18ecf144c42724371aed2c58c8a064889fef89d5ba8a767497d821",
+  "stable_admitted_runtime_binding_sha256": "0c80abde4d1fa8d3b76266e5b7f1fda8feaed96d91a865385c08f4025f21454a",
+  "stage": "prefit",
+  "static_root_binding_sha256": "a7ac3e52716bd70132c0e39307a9da7c207a8e14ae1390c90feafad4970fb55c",
+  "status": "FROZEN_PREFIT_RUNTIME_AND_ADMITTED_INPUT_RELOAD_REQUEST_NO_FIT"
+}

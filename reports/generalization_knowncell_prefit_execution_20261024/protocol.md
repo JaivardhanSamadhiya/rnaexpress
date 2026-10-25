@@ -1,0 +1,31 @@
+# One admitted-input nine-pool prefit: draft for review
+
+This additive source generation prepares the original frozen pooled/independent/joint-shrink comparison without fitting it. It may later consume exactly the approved `fixed_prefit` invocation after root commits its reviewed source and exact admissions. No current metadata, NPZ, label certificate, native runtime, resource probe, numeric pool or owned worker is opened or run during source preparation. No optimizer, campaign, evaluation or gate is invoked here.
+
+## Static identities and acyclic admissions
+
+The scientific source identities are fixed across prefit and future FIT/replay: engine V2 preparation `109a2bd1...`, numeric preparation `92a430a9...`, lifecycle V2 preparation `8064cd93...`, and admitted V4 native profile `dc3e6a1e...`. They are explicit source-admission and static-binding checks. A new controller generation, actual birth or fresh proof must never replace these original scientific admission values. The actual array `after_array` proof remains the stable admitted runtime anchor, distinct from fresh prefit origin evidence.
+
+The sequence is source generation → `controller_source_admission.json` → bridge V3 `root_bindings_v3_prefit.json` → `prefit_runtime_request.json` → `run_admission.json` → actual owned birth/proofs/context. The source-only controller admission accepts exact source/runtime/bridge readiness and stable science values; it rejects request/run/static-binding/birth hashes. Root writes and commits all prospective objects before the job. Current birth and proof hashes are produced and recorded only inside the actual owned worker. No source preparation creates those admissions.
+
+## Exact admitted inputs, no CORE reread
+
+The worker will guarded-read the exact committed corrected metadata, actual array certificate/supervisor and actual labels V2 certificate/supervisor, pinned to their accepted hashes. Original labels bit hash is `5858946f...`; all 13,781 original rows, order and unmatched menus remain. The original saved JSON float list is checked and packed as `<d`; no CORE access, CSV reparse, effect recomputation, alternative labels or cohort repair occurs.
+
+Only the same admitted `simple_model_features.npz` is reloaded. The path and full SHA remain fixed. The worker uses the original `np.load(BytesIO(raw), allow_pickle=False)['features'].astype(float)` convention, sole `features` member, full `(13781,102)` native float64 shape, finite values, and exact C-order byte hash `441b9cf9...` against the actual array certificate. The bounded original guarded byte stream hashes actual read bytes. It does not reread CORE or any other assay's features or outcomes.
+
+The fixed bridge V3 receives supplied metadata/matrix/array/label bytes, the precommitted static binding, actual current-stage origin proof and separately verified actual current owner context. It checks original value bits and stable source bindings without manufacturing owner/runtime/FIT authority. The fresh prefit provider genuinely checks loaded origins and owner before the bridge and again after pool preparation. Software/native proofs and compact-hashed owner context stay protected outside operational annotation.
+
+## Original sampler and exact nine pools
+
+The worker calls the previously reviewed original-AST `GuardedSampler` factory using the accepted array-runtime anchor, not a broad import of the modeling module. Its function AST, source, original globals/seed/cache and transparent wrapper remain unchanged. Current native origins are proved separately. The unchanged `adapter_v2.prepare_pools` generates exactly the original three outer and six inner source pools from both represented cells, with original purges, whole menus, exact pair rosters, weights, shared RMS, features, labels and validation ID order. Every native pool binding is recomputed and compared after preparation. No loss/configuration/grid or criterion changes.
+
+The returned legacy prefit document remains unchanged in memory. A separate canonical copy sets only its operational `resource_exception_applies` field true and adds one top-level `prefit_execution` provenance object. Every original scientific field and pool binding must remain canonically identical. The persisted document therefore honestly records the approved calibrated resources. A transient false view is used only to run the unchanged legacy scientific validator; it is not saved as actual provenance. The future projection V2 binder is not called before this actual prefit exists and is committed. No FIT authority is returned.
+
+## Owned resource/lifecycle and outputs
+
+The same exact five resource aliases, pure admission, process/job caps, one-worker/thread, startup/live reserves, deadline, suspended owned-job assignment, headless helpers, terminal peak checks and no-retry behavior are retained. Limits remain 512/256 MiB physical, 768/896 MiB process/job, 1,920 MiB startup and 1 GiB live global commit, 1 GiB disk and 30 minutes. Real memory/performance of nine pools is not measured by invented tests; any limit failure is an operational failure, not biological evidence.
+
+New outputs are exclusive durable files under `results/generalization_knowncell_prefit_execution_20261024`: birth, log, truthful `prefit_manifest.json`, completion and supervisor. The supervisor verifies exact output/receipt hashes, original rows/label bits, nine pools, process identities, restored callbacks, source/approval/birth and final resource evidence. Any failure or partial output remains preserved; no automatic retry/resume occurs. Success still requires root review/commit and later independent fit/replay/evaluation stages.
+
+Meaningful standard-library tests use invented NPZ/native interfaces, signed-zero persisted label bits, small private scientific-mask fixture counts, exact field projection, source/run DAG schemas, original sampler/adapter forwarding and terminal proof/process mutations. These private mocks are not actual scientific-runtime, numeric-pool or input acceptance. Preparation imports every production module and pins all loaded workspace sources and regular parent initializers; missing source pins stop freezing. All original namespaces remain unchanged, and final freeze awaits root and bridge V3 source review.

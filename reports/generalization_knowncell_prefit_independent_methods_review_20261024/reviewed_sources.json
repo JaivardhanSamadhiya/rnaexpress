@@ -1,0 +1,73 @@
+{
+  "AST_sources_parsed": 31,
+  "UTC": "2026-10-25T04:51:07.390191+00:00",
+  "actual_execution_or_resource_success_certified": false,
+  "actual_metadata_array_labels_CORE_prefit_or_models_read": 0,
+  "actual_native_probe_runtime_provider_job_sampler_pool_optimizer_calls": 0,
+  "bridge69pins_rehashed": true,
+  "bridge_manifest_sha256": "67d7660c759b3aa4269640ea19b7bfb55be407a0746b57d1ac670b03ffb7cdf8",
+  "concrete_unresolved_source_logic_blockers": [],
+  "current_prefit_execution_manifest_present": false,
+  "current_prefit_runtime_manifest_present": false,
+  "full_prefit_import_closure_independently_rehashed": false,
+  "implementation_or_frozen_source_edits": false,
+  "prefit_calibration_AST_parity_with_only_declared_invocation_and_factory_stage_changes": true,
+  "receipts": {
+    "generalization_knowncell_calibrated_input_bridge_20261024": {
+      "receipt_relative_path": "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_receipt_v3_reviewed.json",
+      "receipt_sha256": "6bfb6f69a990da4494582873f6c562546b32e2e415c289c841fd83c5ddb6feb4",
+      "reported_tests": 19,
+      "source_count": 15
+    },
+    "generalization_knowncell_prefit_execution_20261024": {
+      "receipt_relative_path": "results/generalization_knowncell_prefit_execution_20261024/synthetic_tests_receipt.json",
+      "receipt_sha256": "e23b989bd80808268386c84e576c82e490af6f4f8299d7fe959bb51a2ba1d847",
+      "reported_tests": 14,
+      "source_count": 10
+    },
+    "generalization_knowncell_prefit_runtime_20261024": {
+      "receipt_relative_path": "results/generalization_knowncell_prefit_runtime_20261024/synthetic_tests_receipt.json",
+      "receipt_sha256": "c5ba9a0d53c11f9d5f6455db3917699206d1a8c5e160ef0839007b06111627cd",
+      "reported_tests": 6,
+      "source_count": 6
+    }
+  },
+  "reviewed_source_sha256": {
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/__init__.py": "d9ba82eeee245c07546c3ac844ab5dc61a12cb3b8803f2b0ac3c1aa2dd9131dd",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge.py": "0290142a1822f2d4397dd82d7ffbdcf8b40f6d183c8964e6712e78b33b4e89ea",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v2.py": "40741a710b654de4fb6a671315917bcd02cbc5b608dad962a3ba2bd99da9af9b",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v3.py": "c07c9e84d5659049d4de87d1d808decd3abb9892da454b3a74d732f011b35891",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/contracts.py": "347f329d367746a665a1d175f3048f1a21dc61205c4fd11cda9efa1fa1aa0c18",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/contracts_v3.py": "2f2d7d5ef5f81b9b1d7f18c7772109422374a2f0253ef3b8b985f0671997672a",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare.py": "e3b9dee096d803ebbc2168198a5dfd32bbe0278736fd529abb5c2af29eeef621",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v2.py": "5b43bc5c85dd4f10ed299a4bef2f24510cfd59c3f37b237c32a5fabf50c892be",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v3.py": "925b44e4716198f25d66e569a0f6d4816a8c361cdf17adc69dc394a2d767f72a",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec.py": "955c122f247146cc9bb2a116721fe6e83ce8066ce52e23e788f521015215dd74",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v2.py": "006738eeb91610a07bdc26240ab6b1f7f5769c233528fe0c4b0cdd17f8963a1d",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v3.py": "52dfac3be2ae25e2dab672ada89cef5265c71ff4c6de418a838d5e642f41cefa",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests.py": "5a912e73aa410d86d36904dc0f4336c701c500d6633b6059d035b1d870bce503",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests_v2.py": "f553d3ed0e008f67579e270a45278cc87d31d600ba133faaf74facdad8cb8b48",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests_v3.py": "9ad669ac7b7a4c211e1a4c0476605899eba800db992675a6bde23ca1849c457a",
+    "src/generalization_knowncell_prefit_execution_20261024/__init__.py": "fd6767757cb31e12206bb966ce649c4b1b809f60fbd0e49030d4d9a13453064b",
+    "src/generalization_knowncell_prefit_execution_20261024/build.py": "773ded5959dea59fddbd00a5751fa525fdd7708df061a94cdd26e55fdf258434",
+    "src/generalization_knowncell_prefit_execution_20261024/calibration.py": "422ea38e30dd579acfa16c754aec5492f04c184d54f91d092fc78b8b65bf71b1",
+    "src/generalization_knowncell_prefit_execution_20261024/common.py": "4f3596d9cd25552b3f65c47bf316a68b7551e5a0aa95bfe3fc98a4b36e1a0e20",
+    "src/generalization_knowncell_prefit_execution_20261024/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_prefit_execution_20261024/prepare.py": "53cbbf90cd06aa6f4b0496df704d2f26721b5457b49853f7265dafb7b07c3506",
+    "src/generalization_knowncell_prefit_execution_20261024/spec.py": "099d87b21e26cf1f9cbef2ba62b5100b9af26c639598f51c1d27a63fac4b6c5c",
+    "src/generalization_knowncell_prefit_execution_20261024/supervise.py": "19ff5323090e8ba2e1c1599a1c8b24056a4c65072d2fc8a0177005fcf0a9f1e6",
+    "src/generalization_knowncell_prefit_execution_20261024/tests.py": "5621d1f27ebf76b4291a4a6e70dbb7551de04fadecf88897cf3bca81038d7427",
+    "src/generalization_knowncell_prefit_execution_20261024/worker.py": "22ea8815035e113a13a2f7c11d10a11b89bdb397055dd4f76b80af0f1532bcd2",
+    "src/generalization_knowncell_prefit_runtime_20261024/__init__.py": "fd6767757cb31e12206bb966ce649c4b1b809f60fbd0e49030d4d9a13453064b",
+    "src/generalization_knowncell_prefit_runtime_20261024/contracts.py": "3f4b458aff38883c7e97dccdf6eff8f4aaa4bf69e9b09d64d1377a5ff37e46f3",
+    "src/generalization_knowncell_prefit_runtime_20261024/prepare.py": "cbd95a8965ee28bdefe4d43ab410979bb81e9013621f5d810d63ca62edd80dab",
+    "src/generalization_knowncell_prefit_runtime_20261024/provider.py": "ec33c9b0f0a7fa253cf29778fa9cbfae9bfcc1622cb4fa2a8925759da01be8c7",
+    "src/generalization_knowncell_prefit_runtime_20261024/spec.py": "9bbe649b125b8ce12c283e3589788e51770a5f733771341b85783de0abc79d9f",
+    "src/generalization_knowncell_prefit_runtime_20261024/tests.py": "bbdf6e3e8d66770bdfe57be38d3b71bd15baf75a9e84f006c493f393528fe2df"
+  },
+  "same_five_targets_and_original_monitor": true,
+  "source_allowlist_correction": "Original provider already admits src Python paths; complete actual source bytepin closure is required, no namespace expansion needed",
+  "status": "PASS_SOURCE_LOGIC_REVIEW_PENDING_FINAL_PREFIT_MANIFEST_IMPORT_CLOSURE",
+  "temporal_DAG_source_review": "generation -> source_only_controller_admission -> static_binding -> runtime_request -> run_admission -> birth -> current_origin_and_owner_context",
+  "tests_independently_rerun": false
+}
