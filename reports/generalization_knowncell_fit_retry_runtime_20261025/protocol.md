@@ -1,0 +1,7 @@
+# Fixed FIT deferred runtime
+
+The provider admits the unchanged scientific packages under the current bundled interpreter only after the fixed actual owned FIT caller passes its committed source, request, inputs, authorization, birth and Windows Job checks. It bootstraps once, retains identical NumPy/pandas/minimize/expit objects, and performs actual origin checks before the input bridge, at each of the 63 exact checkpoint positions, and after fitting. It rejects skips, reordered or repeated checkpoints, altered bindings, failed or completed-state reuse, and changed current origins.
+
+Full committed source/software admission occurs before and after fitting. At every checkpoint, cached initial evidence is usable only after the complete source/native/input byte closure and actual current owner are freshly checked against immutable original anchors. The provider itself performs zero optimizer calls and grants no independent FIT authority. Current owner/proof hashes are produced inside the actual process, never filled into prospective inputs.
+
+The same approved known-cell resource policy, absent shared source cache prefix, one numerical thread and five unchanged resource aliases apply. Current-Python compatibility does not establish old-interpreter bitwise parity. Source preparation and invented tests neither import native scientific packages nor read biological payloads or run an owned job.

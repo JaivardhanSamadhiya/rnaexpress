@@ -1,0 +1,27 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_fit_retry_execution_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_fit_retry_execution_20261025/build.py": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0",
+    "src/generalization_knowncell_fit_retry_execution_20261025/calibration.py": "8847cab33be22a3f4778cfbfc44ec54205da9cf9d64963f8fcfec63caf278a8f",
+    "src/generalization_knowncell_fit_retry_execution_20261025/common.py": "a18a6c77ecb6c04d3d6cf1e7789ea55f89f8a2d4da6b9c394c1bc6e74f4bc9a6",
+    "src/generalization_knowncell_fit_retry_execution_20261025/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_fit_retry_execution_20261025/monitor.py": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a",
+    "src/generalization_knowncell_fit_retry_execution_20261025/prepare.py": "a476ccd0adbb72ab7697b8768849699ada2480d666c3460a36f2d359d63fd5c0",
+    "src/generalization_knowncell_fit_retry_execution_20261025/projection_io.py": "e50385086a61e8ef034689bc9c429930115a5d4dff01eb3058b2421055403f38",
+    "src/generalization_knowncell_fit_retry_execution_20261025/spec.py": "02feb9f519176d383b6b4b3d4a593fad625ff473ecb1ec9ef47beb6a435c6e28",
+    "src/generalization_knowncell_fit_retry_execution_20261025/supervise.py": "9ee59636da094e49fa5e0f6dee0536d64e03f55b3eb6ca257b909905fde1a7a5",
+    "src/generalization_knowncell_fit_retry_execution_20261025/terminal.py": "49cbd3d714813ea93a4477b4f5df7042c799c39486d15ddfb2a3f68ceb2e1279",
+    "src/generalization_knowncell_fit_retry_execution_20261025/tests.py": "7666ead96c9496e970c8abc1ee74e3df3349415904b411dc4b36fa9aaf5a0c6b",
+    "src/generalization_knowncell_fit_retry_execution_20261025/worker.py": "18806c6460cc8503f57595b66432c5807bdf4488b5a360285717fe987c2c7695"
+  },
+  "status": "PASS_INVENTED_FIXED_FIT_EXECUTION_NOT_ACTUAL_FIT",
+  "tests": 16
+}

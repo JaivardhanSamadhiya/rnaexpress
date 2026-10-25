@@ -1,0 +1,5 @@
+# Additive binding path for a proposed fresh fit
+
+The first FIT attempt stopped on the physical RAM reserve. Its original static bridge binding is frozen and must remain unchanged. This additive bridge copies the complete V3 validation function without changing its AST; only its imported binding-path specification differs. The new specification allows stage `fit` only and requires a distinct fixed `root_bindings_v4_fit_retry_20261025.json` file. It retains every original V3 schema, input bit, current owner/native proof and scientific source check.
+
+No old binding, source, manifest or result is replaced. The original admitted array/label/metadata and stable scientific/runtime anchors remain identical. Current retry owner proofs remain separate from prospective static bytes. This library grants no retry, resource, runtime or FIT authority; a separately reviewed caller must check actual recorded human authorization for one additional attempt and genuine current owned-job/native state. Source preparation/tests perform no project payload, native, probe, Job or fit calls.
