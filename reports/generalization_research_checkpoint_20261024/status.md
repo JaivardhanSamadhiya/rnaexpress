@@ -1,4 +1,4 @@
-# Research checkpoint: actual metadata independently verified
+# Research checkpoint: metadata, features and original outcomes verified
 
 The objective remains reliable ranking of small RNA edits in biological
 contexts excluded from training. Novel biological generalization has not been
@@ -45,8 +45,7 @@ completed successfully and was reviewed/committed before any array access.
    precommitted static inputs separately from fresh actual owner/origin evidence.
 2. Prepare the exact nine source pools and commit the truthful calibrated FIT
    prefit, retaining every original scientific field and declared compatibility view.
-3. Run the fixed
-   FIT prefit before the fixed63-checkpoint/84-unit comparison, complete replay
+3. Run the fixed 63-checkpoint/84-unit comparison, complete independent replay
    and unchanged joint-only gate. Report failure if any condition fails.
 
 ## Preserved boundaries and remaining gaps
