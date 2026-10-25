@@ -1,4 +1,4 @@
-# Research checkpoint: metadata, features and original outcomes verified
+# Research checkpoint: actual prefit accepted; fresh fit separately approved
 
 The objective remains reliable ranking of small RNA edits in biological
 contexts excluded from training. Novel biological generalization has not been
@@ -22,7 +22,11 @@ is promised.
 | Second metadata execution controller |18 invented tests and source reviews pass;382 pins; actual inputs and successful independently checked receipts committed |
 | Exact-array admission | Actual13,781x102 validation PASS;6,880 crosscell allele groups matched exact original/cast bytes; runtime origins before/after verified;210.23MiB peak |
 | Original-parser labels | Actual unchanged pandas parser PASS; all13,781 original IDs/float64 outcomes preserved;205.70MiB peak; values persisted for exact later verification |
-| FIT prefit,63/84 campaign and evaluation | Actual execution pending; truthful prefit compatibility and supplied-input/runtime integration in progress |
+| FIT prefit | Actual nine-pool preparation accepted;124.219 seconds,395.59 MiB peak private/job memory;original scientific fields and admitted scalar bits preserved |
+| First63/84 campaign | Stopped on laptop physical-RAM reserve after46 completed checkpoints/67 recorded units;40inner/6outer;partial outputs preserved and unevaluated;no accepted campaign or scientific verdict |
+| Fresh fixed campaign | Separate actual human authorization recorded for one new full attempt;all science unchanged;additional2GiB startup floor;no resume/retry/spending |
+| Fresh-attempt replay | V2 runtime/controller source ready;6+14 invented tests;actual execution awaits an accepted complete fresh campaign |
+| Frozen evaluation controller | Source ready;6+12 invented tests;original evaluator/gate unchanged and complete results losslessly preserved;actual execution awaits accepted replay |
 
 The actual metadata loader returned after its fixed input/menu/split checks;
 the worker then rejected a legitimate tuple in its receipt-copy helper. No
@@ -41,12 +45,13 @@ completed successfully and was reviewed/committed before any array access.
 
 ## Next work, in order
 
-1. Complete/review the supplied-input and stage-runtime integration; preserve
-   precommitted static inputs separately from fresh actual owner/origin evidence.
-2. Prepare the exact nine source pools and commit the truthful calibrated FIT
-   prefit, retaining every original scientific field and declared compatibility view.
-3. Run the fixed 63-checkpoint/84-unit comparison, complete independent replay
-   and unchanged joint-only gate. Report failure if any condition fails.
+1. Complete the single separately approved fresh fit only when at least2GiB
+   physical RAM is available;preserve the failed first attempt and keep every
+   scientific setting, hard cap and live reserve unchanged.
+2. Accept the complete63-checkpoint/84-unit campaign, then run the independently
+   owned full arithmetic and source-only configuration replay without refitting.
+3. Run the unchanged complete outer evaluator and joint-only gate, preserving
+   every result and reporting GO or NO-GO honestly within the known-cell scope.
 
 ## Preserved boundaries and remaining gaps
 
@@ -57,10 +62,12 @@ unadmitted outcomes remain closed. No retuning of the failed PRELib generation,
 unfiltered pytest, paid resources, cloud, wet lab, collaborator or scheduled
 task is introduced.
 
-Real corrected serialization and independent metadata verification now pass.
-Pool integration and full-fit/replay memory are not
-yet measured. Existing label/prefit consumers need explicit truthful handling
-of the approved resource exception. A public external edit benchmark remains
+Real corrected serialization, independent metadata verification, original array
+and parser admissions, and the nine-pool prefit now pass. The first FIT process
+peaked at510.52MiB private memory without hitting its hard cap, but other system
+usage drove available physical RAM below256MiB and stopped it. Full completed
+FIT/replay/evaluation memory and performance remain unestablished. No partial
+prediction or optimizer result has been used to change settings. A public external edit benchmark remains
 unqualified; the latest SECReTE lead has no verified data accession in the
 bounded primary-source search. Novelty and broader biological transfer remain
 open research questions.

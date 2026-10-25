@@ -1,0 +1,26 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "fixture_decisions_are_invented": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_evaluation_execution_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_evaluation_execution_20261025/calibration.py": "1b9d637371854b95efa28d3b8c4e1b4d5886d88c132abfc3b3670e87c7da77e6",
+    "src/generalization_knowncell_evaluation_execution_20261025/common.py": "f68b80f6497ff11cc9ebf06113ede65a4f554afe2817488d899fc9c2c4e540bc",
+    "src/generalization_knowncell_evaluation_execution_20261025/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_evaluation_execution_20261025/monitor.py": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a",
+    "src/generalization_knowncell_evaluation_execution_20261025/prepare.py": "1fce3031982f238c3f339c8083d6b4ba6549ba598905198410b6eaf15abe5b2f",
+    "src/generalization_knowncell_evaluation_execution_20261025/results_io.py": "43c87e3a3fdd605dc541a11bccbaf19515f8d5802bec475fd8f987e0589a8bbe",
+    "src/generalization_knowncell_evaluation_execution_20261025/spec.py": "0d3bab18249d63e840bede85f9e2127452e03b49503665c7893d2432ba2fa398",
+    "src/generalization_knowncell_evaluation_execution_20261025/supervise.py": "ed0a311b1404f15b3526c540e32391b11bb3e77777a425f351feb9b5dad4e57d",
+    "src/generalization_knowncell_evaluation_execution_20261025/terminal.py": "38f021c96ea6039c17d3323726f19093149e56b111f840fa830adc06382329ac",
+    "src/generalization_knowncell_evaluation_execution_20261025/tests.py": "b73a87bb4f56f2a994ac611c0f244e5e08d1c7e8ef22991851d74aa79e03de56",
+    "src/generalization_knowncell_evaluation_execution_20261025/worker.py": "3f77ebaa3c97a334d51c0310651854fdd04c460c5a51675fb5e1c04b188b9672"
+  },
+  "status": "PASS_INVENTED_FROZEN_EVALUATION_EXECUTION_NOT_ACTUAL_EVALUATION",
+  "tests": 12
+}
