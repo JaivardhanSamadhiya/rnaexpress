@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\rnaexpress\src\generalization_knowncell_fit_execution_20261024\supervise.py", line 95, in <module>
+    args=parser.parse_args();run(args.generation_sha,args.run_admission_sha,root_start=args.root_start)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\rnaexpress\src\generalization_knowncell_fit_execution_20261024\supervise.py", line 89, in run
+    c.save_new(c.SUPERVISOR,receipt);print(receipt['status'],failure,flush=True);assert failure is None,failure
+                                                                                        ^^^^^^^^^^^^^^^
+AssertionError: Physical reserve below 256 MiB active

@@ -1,0 +1,13 @@
+# Fixed fitting attempt stopped by the system-memory reserve
+
+The single approved FIT attempt stopped after 609.766 seconds when available physical RAM fell below the approved 256 MiB live reserve. This is an operational resource failure, not a model-performance verdict. The monitor terminated the owned job; its final accounting has zero active processes. No campaign completion, worker completion or accepted lifecycle report exists. The failed directory and all partial files remain intact, with no resume or automatic retry.
+
+The process stayed below both hard caps: peak private commit/peak job memory was 535,314,432 bytes (510.52 MiB), against the approved 768 MiB process and 896 MiB job limits. Minimum sampled physical availability was 254,574,592 bytes (242.78 MiB), below the 268,435,456-byte live floor. Final physical availability sampled before cleanup was 250,830,848 bytes. Minimum global commit headroom remained 4,338,192,384 bytes, above its 1 GiB floor. The limiting condition was physical RAM availability across the laptop.
+
+Root's read-only original saved-receipt checks passed for the exact 46 completed checkpoint prefix: 40 inner checkpoints and six outer checkpoints, containing 67 recorded optimizer units. The closed partial campaign has 139 files, and 46 runtime proofs were saved. An initial root audit assumed the roster placed all inner tasks first; its count assertion failed before a receipt was written. Inspection of task/receipt metadata corrected the actual interleaved counts. No model coefficients, selected configurations, scores, regrets or performance comparisons were inspected for that correction.
+
+These incomplete checkpoints are not an accepted fit or independent replay. They cannot support a GO/NO-GO scientific conclusion. The six outer predictions remain preserved and unevaluated. No model, feature, split, parameter grid, tolerance or acceptance threshold changed. All 33 protected original modified files remain intact.
+
+Supervisor SHA-256: `7b65ac90409391891ce9c6eb63ee2f2babd6edc0e6bf89675276aca21ade4e75`. Read-only partial audit SHA-256: `4b84d9d884b97c7e5e0901ed6e58e481d9ddc538a434158c0c732a32af4ce814`.
+
+The existing human-approved scope explicitly disallows automatic retries and resume. A further complete attempt therefore requires a separate explicit authorization, preserving this directory and starting from zero in a new namespace. A conservative next launch should wait for at least 2 GiB available physical RAM, while retaining every existing hard cap, live reserve and scientific setting. No spending or app-closing action is authorized by this report.
