@@ -1,0 +1,28 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_fit_roomy_execution_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/build.py": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/calibration.py": "d0d54742c2b5f3ed51220a7dc4c2f0d977cc9e7d15a68bfe9be535ca54e72722",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/common.py": "96fefa89b4242cb726c77560ecdf5d96df3b7bab5a43f3b562f41a433228ece8",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/journal.py": "d871bd4460c2147c52c69b59eb319952889927bcc21d4e46e448cd9c72e44dc2",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/monitor.py": "dbfbd5ba7ad0f9005c4e5cf2c20b88ad09dc4626a8c77579b8cee829784d2a1a",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/prepare.py": "be2f68318a8686db4e880200ca176e571da66c7664b23f5ef061116e098d561a",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/projection_io.py": "f95b442161b1beb88ee4dd6d0a8799cc315da21a5e61d477dcc8aa39028cf12d",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/spec.py": "06c509fdfb2d3a87a5dca3985eac0c545ba1a0f945ac092224c2e56d90d24ec3",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/supervise.py": "3da8a72aedf348cd7a47b72a5470be8add573199c5a0f84007ff9f8b3a112fc7",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/terminal.py": "49cbd3d714813ea93a4477b4f5df7042c799c39486d15ddfb2a3f68ceb2e1279",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/tests.py": "8739f0a7f9ae0a4513bf46d4ba062803d4f8662c0e051a40eb7926d724ae88e5",
+    "src/generalization_knowncell_fit_roomy_execution_20261025/worker.py": "2489eeb6017982c0ea02f66cbc8eac4036fd9109fd069f8d92895addd1280906"
+  },
+  "status": "PASS_INVENTED_FIXED_FIT_EXECUTION_NOT_ACTUAL_FIT",
+  "tests": 23
+}

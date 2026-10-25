@@ -1,0 +1,147 @@
+"""One bounded invented paging probe; all changes target our suspended child."""
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import sys
+import time
+from . import working_set as w
+from src.generalization_pum_process_probe_20261021 import headless
+
+ROOT=Path(__file__).resolve().parents[2]
+OUT=ROOT/'results/generalization_owned_workingset_probe_v2_20261025'
+BYTES=384*2**20
+RESIDENT_CEILING=192*2**20
+PAGE=4096
+
+
+def write(stream,value):
+    stream.write(json.dumps(value,sort_keys=True,allow_nan=False)+'\n')
+    stream.flush();os.fsync(stream.fileno())
+
+
+def failure(memory,elapsed,*,startup=False):
+    if memory['physical_available']<(512 if startup else 256)*2**20:return 'physical reserve'
+    if memory['commit_headroom']<(1920*2**20 if startup else 2**30):return 'global commit reserve'
+    if memory['disk_available']<2**30:return 'disk reserve'
+    if elapsed>150:return '150-second diagnostic deadline'
+
+
+def child(parent):
+    assert os.getppid()==parent
+    started=time.monotonic();buffers=[]
+    for offset in range(0,BYTES,16*2**20):
+        assert failure(headless.memory(),time.monotonic()-started) is None
+        block=bytearray(16*2**20)
+        for page in range(0,len(block),PAGE):block[page]=((offset+page)//PAGE)%251
+        buffers.append(block)
+    expected=hashlib.sha256()
+    for page in range(BYTES//PAGE):expected.update(bytes([page%251])+bytes(PAGE-1))
+    checked=[]
+    for _ in range(3):
+        digest=hashlib.sha256()
+        for block in buffers:
+            assert failure(headless.memory(),time.monotonic()-started) is None
+            digest.update(block)
+        assert digest.digest()==expected.digest()
+        checked.append(digest.hexdigest())
+    for _ in range(10):
+        assert failure(headless.memory(),time.monotonic()-started) is None
+        time.sleep(1)
+    with (OUT/'toy_child.json').open('x',encoding='utf8',newline='\n') as stream:
+        write(stream,{'status':'PASS_INVENTED_384_MiB_PATTERN_THREE_EXACT_HASHES',
+            'parent_pid':parent,'child_pid':os.getpid(),'bytes':BYTES,'hashes':checked,
+            'elapsed_seconds':time.monotonic()-started,'project_payload_reads':0,'optimizer_calls':0})
+
+
+def parent():
+    started=time.monotonic();before=headless.memory()
+    assert failure(before,0,startup=True) is None
+    expected={'process_memory_limit':768*2**20,'job_memory_limit':896*2**20,
+        'active_process_limit':2,'limit_flags':headless.original.LIMIT_FLAGS}
+    source={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
+        for p in Path(__file__).parent.glob('*.py')}
+    child_process=None;cap=None;problem=None;samples=0;peak_private=peak_resident=0;minimum_physical=before['physical_available']
+    with (OUT/'parent.jsonl').open('x',encoding='utf8',newline='\n') as stream:
+        write(stream,{'status':'ONE_OWNED_TOY_PAGING_PROBE_STARTED','parent_pid':os.getpid(),
+            'source_sha256':source,'native_origins':headless.native_origins(),'memory_before':before})
+        with headless.Job() as job:
+            try:
+                assert job.limits()==expected
+                command=[sys.executable,'-S','-B','-u','-m',
+                    'src.generalization_owned_workingset_probe_v2_20261025.probe','--child',str(os.getpid())]
+                assert failure(headless.memory(),time.monotonic()-started,startup=True) is None
+                child_process=job.spawn(command,str(ROOT))
+                cap=w.apply(job,child_process)
+                write(stream,{'status':'EXACT_ADDITIONAL_RESIDENT_CAP_INSTALLED','child_pid':child_process.pid,'cap':cap})
+                child_process.resume();last=-10
+                while True:
+                    elapsed=time.monotonic()-started;state=headless.memory()
+                    problem=failure(state,elapsed)
+                    counters=headless.process_memory(child_process.process_handle);accounting=job.accounting()
+                    samples+=1;peak_private=max(peak_private,counters['peak_private_commit'])
+                    peak_resident=max(peak_resident,counters['peak_working_set'])
+                    minimum_physical=min(minimum_physical,state['physical_available'])
+                    assert peak_private<=768*2**20 and accounting['peak_job_memory_used']<=896*2**20
+                    assert counters['working_set']<=RESIDENT_CEILING and peak_resident<=RESIDENT_CEILING
+                    assert accounting['active_processes']<=2 and job.limits()==expected
+                    code=child_process.exit_code()
+                    if code is None:w.verify(job,child_process,cap)
+                    if elapsed-last>=1 or code is not None or problem:
+                        write(stream,{'elapsed_seconds':elapsed,'memory':state,'child_memory':counters,
+                            'job':accounting,'exit_code':code,'failure':problem})
+                        last=elapsed
+                    if problem:raise RuntimeError(problem)
+                    if code is not None:
+                        assert code==0,'Toy child exit '+str(code)
+                        break
+                    time.sleep(.1)
+                result=json.loads((OUT/'toy_child.json').read_bytes())
+                assert result['status']=='PASS_INVENTED_384_MiB_PATTERN_THREE_EXACT_HASHES'
+                assert len(set(result['hashes']))==1 and len(result['hashes'])==3
+                assert peak_private>BYTES and peak_resident<=RESIDENT_CEILING
+                assert result['parent_pid']==os.getpid() and result['child_pid']==child_process.pid
+            except BaseException as error:
+                problem=type(error).__name__+': '+str(error)
+                job.terminate()
+            finally:
+                if child_process is not None:
+                    try:
+                        final=headless.process_memory(child_process.process_handle)
+                        peak_private=max(peak_private,final['peak_private_commit'])
+                        peak_resident=max(peak_resident,final['peak_working_set'])
+                        accounting=job.accounting()
+                        assert peak_private<=768*2**20
+                        assert accounting['peak_job_memory_used']<=896*2**20
+                        assert peak_resident<=RESIDENT_CEILING
+                        if problem is None:assert accounting['active_processes']==0
+                        write(stream,{'status':'FINAL_OWNED_LIFETIME_COUNTERS','process':final,'job':accounting})
+                    except BaseException as error:
+                        problem=problem or type(error).__name__+': '+str(error)
+                        job.terminate()
+                    finally:child_process.close()
+        write(stream,{'status':'MANDATORY_PARENT_TELEMETRY_COMPLETE','failure':problem})
+    # No mandatory progress write/close follows the terminal check/receipt.
+    log_raw=(OUT/'parent.jsonl').read_bytes()
+    final_memory=headless.memory();elapsed=time.monotonic()-started
+    minimum_physical=min(minimum_physical,final_memory['physical_available'])
+    problem=problem or failure(final_memory,elapsed)
+    receipt={'status':'PASS_OWNED_PAGING_TOY_ONLY' if problem is None else 'FAILED_OWNED_PAGING_TOY_NO_RETRY',
+        'failure':problem,'samples':samples,'elapsed_seconds':elapsed,
+        'peak_private_commit':peak_private,'peak_working_set':peak_resident,
+        'requested_resident_maximum':w.MAXIMUM,'measured_resident_ceiling':RESIDENT_CEILING,
+        'minimum_sampled_physical_available':minimum_physical,'additional_resident_cap':cap,
+        'closed_parent_log_sha256':hashlib.sha256(log_raw).hexdigest(),'memory_after':final_memory,
+        'unchanged_job_caps':expected,'project_payload_reads':0,'optimizer_calls':0,
+        'scientific_attempts':0,'full_FIT_or_numerical_parity_established':False}
+    with (OUT/'receipt.json').open('x',encoding='utf8',newline='\n') as result_stream:write(result_stream,receipt)
+    print(receipt['status'],problem,flush=True)
+    assert problem is None,problem
+
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('--child',type=int)
+    args=parser.parse_args()
+    if args.child is None:parent()
+    else:child(args.child)

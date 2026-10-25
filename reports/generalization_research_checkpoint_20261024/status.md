@@ -94,3 +94,29 @@ unqualified;official SECReTE version/license metadata is now verified, but
 its XML request was rate-limited and no raw-data accession/replicate/library
 qualification is established. Novelty and broader biological transfer remain
 open research questions.
+
+## Continuation: keep existing tabs, investigate owned paging
+
+The user needs all existing Chrome tabs open. Do not close apps or ask again
+to close these tabs. The unused 4 GiB-startup FIT generation and its replayV3
+source are preserved; neither has an authorization/admission/birth. The user
+requested one new manual try, which remains unconsumed.
+
+The first owned working-set toy failed a strict resident peak check by 8 KiB.
+V2 requested 190 MiB with the original 192 MiB measured ceiling and passed
+12.109 seconds,384 MiB invented buffers,three exact hashes,395.97 MiB private
+commit and190.008 MiB peak resident memory. Original private/job caps and
+live reserves remain intact; no other process was changed. A separate native
+invented numerical profile is being prepared before any biological attempt.
+
+Independent review found two operational defects in the UNUSED replayV3:
+saved adverse-sample validation is incomplete,and its live clock restarts
+after setup. Preserve that frozen generation unused; the next additive
+controller must fix both before execution. No biological result or threshold
+was inspected or tuned.
+
+The immediate next three tasks are: (1) verify original numerical calculations
+under the additional owned resident cap; (2) freeze/review a separate capped
+FIT generation and use the one pending manual try only with its valid inputs
+and live reserves; (3) independently replay a complete campaign and run the
+unchanged gate. No completed63/84 campaign or new scientific positive exists.
