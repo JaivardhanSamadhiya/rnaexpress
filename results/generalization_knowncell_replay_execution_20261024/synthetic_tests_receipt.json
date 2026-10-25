@@ -1,0 +1,27 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_replay_execution_20261024/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_replay_execution_20261024/build.py": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0",
+    "src/generalization_knowncell_replay_execution_20261024/calibration.py": "2f3e874ccbdb5778dace37d3e4a4e73cf9a0a7ad3a42c41bc89396b1e7301f5f",
+    "src/generalization_knowncell_replay_execution_20261024/common.py": "9861b4ec141051588b676d5a4a47210aa60c12438780a0be18e20f1d5ed905a9",
+    "src/generalization_knowncell_replay_execution_20261024/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_replay_execution_20261024/monitor.py": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a",
+    "src/generalization_knowncell_replay_execution_20261024/prepare.py": "d928f1bf27b4fbe1718b17caf35b89354bd3c7ba2991e17d26563c0b14ecbe59",
+    "src/generalization_knowncell_replay_execution_20261024/projection_io.py": "ded99720491541e559e2d48e64aad409acdfd2d7b2230b0827a1edace0b27155",
+    "src/generalization_knowncell_replay_execution_20261024/spec.py": "619e6f4f58a00915163ab8530e5f07635165ce9ded58a6d6e62498d0f9f68f9d",
+    "src/generalization_knowncell_replay_execution_20261024/supervise.py": "2f740cab56591a32ec1ae89c2c2e2963c41970371844e9552fb19f861ae113f4",
+    "src/generalization_knowncell_replay_execution_20261024/terminal.py": "f9e727a44304d6569c5c734f0003223c8430773e60f1a53b533e9e5e93af3e43",
+    "src/generalization_knowncell_replay_execution_20261024/tests.py": "0bb73cdb201bb9f9fd0115338d95505f6d2a24e65a218557e72d1bf00ebe4431",
+    "src/generalization_knowncell_replay_execution_20261024/worker.py": "59402626d3584c81635a76e535b575b3c30e469ff9506ca0b0255498c099589f"
+  },
+  "status": "PASS_INVENTED_INDEPENDENT_REPLAY_EXECUTION_NOT_ACTUAL_REPLAY",
+  "tests": 14
+}
