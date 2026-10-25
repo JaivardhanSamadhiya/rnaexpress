@@ -1,0 +1,36 @@
+{
+  "cause": "UNKNOWN",
+  "queries": [
+    {
+      "query": {
+        "log": "Application",
+        "start": "2026-10-25T01:25:00.0000000",
+        "ids": [
+          1000,
+          1001
+        ]
+      },
+      "events": [],
+      "error": "NoMatchingEventsFound,Microsoft.PowerShell.Commands.GetWinEventCommand",
+      "message": "No events were found that match the specified selection criteria."
+    },
+    {
+      "query": {
+        "log": "System",
+        "start": "2026-10-25T01:25:00.0000000",
+        "ids": [
+          2004,
+          41,
+          1074,
+          6008
+        ]
+      },
+      "events": [],
+      "error": "NoMatchingEventsFound,Microsoft.PowerShell.Commands.GetWinEventCommand",
+      "message": "No events were found that match the specified selection criteria."
+    }
+  ],
+  "UTC": "2026-10-25T08:42:18.0210237Z",
+  "processes": [],
+  "no_events_does_not_prove_no_external_termination": true
+}

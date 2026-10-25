@@ -1,4 +1,4 @@
-# Research checkpoint: actual prefit accepted; fresh fit separately approved
+# Research checkpoint: actual prefit accepted; both fit attempts incomplete
 
 The objective remains reliable ranking of small RNA edits in biological
 contexts excluded from training. Novel biological generalization has not been
@@ -24,7 +24,7 @@ is promised.
 | Original-parser labels | Actual unchanged pandas parser PASS; all13,781 original IDs/float64 outcomes preserved;205.70MiB peak; values persisted for exact later verification |
 | FIT prefit | Actual nine-pool preparation accepted;124.219 seconds,395.59 MiB peak private/job memory;original scientific fields and admitted scalar bits preserved |
 | First63/84 campaign | Stopped on laptop physical-RAM reserve after46 completed checkpoints/67 recorded units;40inner/6outer;partial outputs preserved and unevaluated;no accepted campaign or scientific verdict |
-| Fresh fixed campaign | Separate actual human authorization recorded for one new full attempt;all science unchanged;additional2GiB startup floor;no resume/retry/spending |
+| Fresh fixed campaign | Approved additional attempt started above2GiB available RAM;14 checkpoints/14 units saved;both processes later disappeared without terminal receipts;cause unknown;no replay/evaluation or new retry authority |
 | Fresh-attempt replay | V2 runtime/controller source ready;6+14 invented tests;actual execution awaits an accepted complete fresh campaign |
 | Frozen evaluation controller | Source ready;6+12 invented tests;original evaluator/gate unchanged and complete results losslessly preserved;actual execution awaits accepted replay |
 
@@ -45,10 +45,10 @@ completed successfully and was reviewed/committed before any array access.
 
 ## Next work, in order
 
-1. Complete the single separately approved fresh fit only when at least2GiB
-   physical RAM is available;preserve the failed first attempt and keep every
-   scientific setting, hard cap and live reserve unchanged.
-2. Accept the complete63-checkpoint/84-unit campaign, then run the independently
+1. Preserve/audit both incomplete attempts, diagnose execution with a bounded
+   toy process, and prepare a concrete managed-launch proposal. The additional
+   one-attempt approval is consumed; another fit requires separate authorization.
+2. After an authorized complete63-checkpoint/84-unit campaign, run the independently
    owned full arithmetic and source-only configuration replay without refitting.
 3. Run the unchanged complete outer evaluator and joint-only gate, preserving
    every result and reporting GO or NO-GO honestly within the known-cell scope.
@@ -65,9 +65,14 @@ task is introduced.
 Real corrected serialization, independent metadata verification, original array
 and parser admissions, and the nine-pool prefit now pass. The first FIT process
 peaked at510.52MiB private memory without hitting its hard cap, but other system
-usage drove available physical RAM below256MiB and stopped it. Full completed
+usage drove available physical RAM below256MiB and stopped it. The second attempt
+has12inner/2outer saved checkpoints;no terminal receipt or matching queried
+Windows crash/resource event establishes why its supervisor and worker ended.
+Its frozen source, input pins, saved lifecycle bindings and33 protected user
+files pass a separate read-only interruption audit. Full completed
 FIT/replay/evaluation memory and performance remain unestablished. No partial
 prediction or optimizer result has been used to change settings. A public external edit benchmark remains
-unqualified; the latest SECReTE lead has no verified data accession in the
-bounded primary-source search. Novelty and broader biological transfer remain
+unqualified;official SECReTE version/license metadata is now verified, but
+its XML request was rate-limited and no raw-data accession/replicate/library
+qualification is established. Novelty and broader biological transfer remain
 open research questions.

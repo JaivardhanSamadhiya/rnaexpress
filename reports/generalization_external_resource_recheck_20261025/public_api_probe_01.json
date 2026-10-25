@@ -1,0 +1,104 @@
+{
+  "public_metadata_only": true,
+  "raw_response_not_published_or_used_as_outcomes": true,
+  "records": [
+    {
+      "UTC": "2026-10-25T08:30:33.162120+00:00",
+      "api_messages": [
+        {
+          "category": "all",
+          "status": "ok"
+        }
+      ],
+      "bytes": 5631,
+      "final_url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.12.758471",
+      "metadata": [
+        {
+          "category": "cell biology",
+          "date": "2026-10-13",
+          "doi": "10.64898/2026.10.12.758471",
+          "jatsxml": "https://www.biorxiv.org/content/early/2026/10/13/2026.10.12.758471.source.xml",
+          "license": "cc_by_nc_nd",
+          "published": "NA",
+          "server": "bioRxiv",
+          "title": "A massively parallel reporter screen defines the syntax of SECReTE, a secretion-enhancing cis regulatory targeting element, in mammalian cells",
+          "version": "1"
+        },
+        {
+          "category": "cell biology",
+          "date": "2026-10-14",
+          "doi": "10.64898/2026.10.12.758471",
+          "jatsxml": "https://www.biorxiv.org/content/early/2026/10/14/2026.10.12.758471.source.xml",
+          "license": "cc_by_nc_nd",
+          "published": "NA",
+          "server": "bioRxiv",
+          "title": "A massively parallel reporter screen defines the syntax of SECReTE, a secretion-enhancing cis regulatory targeting element, in mammalian cells",
+          "version": "2"
+        }
+      ],
+      "name": "biorxiv_api",
+      "public_endpoint_no_login_or_payment": true,
+      "sha256": "e8bc1e6e4e597b7bb3d82024a24a45223b6836294cc2e673319f7a36742100ee",
+      "status": 200,
+      "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.12.758471"
+    },
+    {
+      "UTC": "2026-10-25T08:30:33.730909+00:00",
+      "bytes": 16577,
+      "final_url": "https://api.crossref.org/works/10.64898/2026.10.12.758471",
+      "metadata": {
+        "DOI": "10.64898/2026.10.12.758471",
+        "URL": "https://doi.org/10.64898/2026.10.12.758471",
+        "license": [
+          {
+            "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  10,
+                  13
+                ]
+              ],
+              "date-time": "2026-10-13T00:00:00Z",
+              "timestamp": 1791849600000
+            }
+          }
+        ],
+        "link": [
+          {
+            "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.10.12.758471",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              10,
+              13
+            ]
+          ]
+        },
+        "resource": {
+          "primary": {
+            "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.10.12.758471"
+          }
+        },
+        "title": [
+          "A massively parallel reporter screen defines the syntax of SECReTE, a secretion-enhancing\n                  <i>cis</i>\n                  regulatory targeting element, in mammalian cells"
+        ],
+        "type": "posted-content"
+      },
+      "name": "crossref",
+      "public_endpoint_no_login_or_payment": true,
+      "sha256": "f3c7f69d667e150daa376de600139a063b18239261d90a9f74a975283bff6f83",
+      "status": 200,
+      "url": "https://api.crossref.org/works/10.64898/2026.10.12.758471"
+    }
+  ]
+}
