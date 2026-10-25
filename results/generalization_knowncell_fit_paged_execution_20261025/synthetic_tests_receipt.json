@@ -1,0 +1,30 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "draft_before_numerical_paging_profile": false,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_fit_paged_execution_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_fit_paged_execution_20261025/build.py": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0",
+    "src/generalization_knowncell_fit_paged_execution_20261025/calibration.py": "0c8f9cb27e163ba80249211b148e4bae6a1713587c105fd18b005cc7f6639a85",
+    "src/generalization_knowncell_fit_paged_execution_20261025/common.py": "f05e56c4a3aba76566524848c3f48a14e9d58151324c0d2740f7f352e0c8e0ff",
+    "src/generalization_knowncell_fit_paged_execution_20261025/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_fit_paged_execution_20261025/journal.py": "d871bd4460c2147c52c69b59eb319952889927bcc21d4e46e448cd9c72e44dc2",
+    "src/generalization_knowncell_fit_paged_execution_20261025/monitor.py": "ea276d51d60a64f8de579729a26f6aa56dab61617ea98989301b19f658cc2a79",
+    "src/generalization_knowncell_fit_paged_execution_20261025/prepare.py": "4cd34c86e7836f5ffacaf5a7244dedd1bef7b981d1f9dd29e02e0e9ebe60ef05",
+    "src/generalization_knowncell_fit_paged_execution_20261025/projection_io.py": "f9a28efed15324420adb36d81b78df7ffc5a5fac600651bd1cfc24aa41d7f76d",
+    "src/generalization_knowncell_fit_paged_execution_20261025/resident.py": "fcfb7693b60c577d13326bcd2bcb63a1dd766dce3d1fa43e14472a312bc2997e",
+    "src/generalization_knowncell_fit_paged_execution_20261025/spec.py": "5002aa5f06ffeca3541d8fc0eef8107c7028383a945c4ebff77724ee229fc621",
+    "src/generalization_knowncell_fit_paged_execution_20261025/supervise.py": "27ac74d235c9950f8c035a69fc240e5997e4564bcf1eb2cf150249414a018c2e",
+    "src/generalization_knowncell_fit_paged_execution_20261025/terminal.py": "49cbd3d714813ea93a4477b4f5df7042c799c39486d15ddfb2a3f68ceb2e1279",
+    "src/generalization_knowncell_fit_paged_execution_20261025/tests.py": "6b524d66f833b259bc5b88b188f9f18795e2e768ca747b1f7ca0f2f493079d72",
+    "src/generalization_knowncell_fit_paged_execution_20261025/worker.py": "9cf5fd573b3ad48c332b057c7f52e9ea13a02d76e394e77c879ef3ea7d125e0e"
+  },
+  "status": "PASS_INVENTED_FIXED_FIT_EXECUTION_NOT_ACTUAL_FIT",
+  "tests": 29
+}

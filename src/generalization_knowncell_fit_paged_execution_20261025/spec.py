@@ -1,0 +1,87 @@
+"""Fixed source/data paths; actual prefit/projection hashes are future inputs."""
+from src.generalization_knowncell_labels_execution_v2_20261024 import spec as labels
+from src.generalization_knowncell_metadata_verification_execution_20261024 import common as prior
+from src.generalization_knowncell_fit_paged_runtime_20261025 import spec as runtime
+ROOT=prior.ROOT
+NS='generalization_knowncell_fit_paged_execution_20261025'
+OUT=ROOT/'results'/NS
+MANIFEST=OUT/'preparation_manifest.json'
+SOURCE_ADMISSION=OUT/'controller_source_admission.json'
+RUN_ADMISSION=OUT/'run_admission.json'
+REQUEST=runtime.REQUEST
+INVOCATION='fixed_63_checkpoint_84_optimizer_unit_fit'
+STAGE='fit'
+STATUS='REVIEWED_SOURCE_FOR_ONE_FIXED63_CHECKPOINT84_UNIT_FIT_NOT_EXECUTION'
+STATIC_BINDING='results/generalization_knowncell_calibrated_input_bridge_20261024/root_bindings_v7_fit_paged_20261025.json'
+BRIDGE_READY='results/generalization_knowncell_calibrated_input_bridge_20261024/preparation_manifest_v7_fit_paged_20261025.json'
+BRIDGE_SOURCE='src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v7_fit_paged.py'
+PROJECTION_READY='results/generalization_knowncell_prefit_projection_v2_20261024/preparation_manifest.json'
+PROJECTION_READY_SHA='0e888efb4bc7b7ff0b12907bbd49b7149a1974788cfb6213a76a0071aa2b81ba'
+PROJECTION_ADMISSION='results/generalization_knowncell_prefit_projection_v2_20261024/root_prefit_admission.json'
+PREFIT='results/generalization_knowncell_prefit_execution_20261024/prefit_manifest.json'
+PREFIT_COMPLETION='results/generalization_knowncell_prefit_execution_20261024/prefit_worker_completion.json'
+PREFIT_SUPERVISOR='results/generalization_knowncell_prefit_execution_20261024/prefit_supervisor_receipt.json'
+POLICY_SHA=prior.POLICY_SHA
+AUTH_SHA=prior.AUTH_SHA
+SCOPE_SHA=prior.SCOPE_SHA
+CACHE_PREFIX=prior.CACHE_PREFIX
+PROCESS_CAP=prior.PROCESS_CAP
+JOB_CAP=prior.JOB_CAP
+METADATA_BUNDLE=labels.METADATA_BUNDLE
+METADATA_SHA=labels.METADATA_SHA
+ARRAY_CERTIFICATE=labels.ARRAY_CERTIFICATE
+ARRAY_CERTIFICATE_SHA=labels.ARRAY_CERTIFICATE_SHA
+ARRAY_SUPERVISOR=labels.ARRAY_SUPERVISOR
+ARRAY_SUPERVISOR_SHA=labels.ARRAY_SUPERVISOR_SHA
+ARRAY_CAST_SHA=labels.ARRAY_CAST_SHA
+LABEL_CERTIFICATE='results/generalization_knowncell_labels_execution_v2_20261024/original_pandas_label_certificate.json'
+LABEL_CERTIFICATE_SHA='46b87936ebaf093b80f7666b64f0bd92eb73a6b753b3661b3bafa229514b78ee'
+LABEL_SUPERVISOR='results/generalization_knowncell_labels_execution_v2_20261024/labels_supervisor_receipt.json'
+LABEL_SUPERVISOR_SHA='e690e04c24ced2892ecfc830e4317780e9db8cb231af03ada316ca279b673056'
+LABEL_BITS_SHA='5858946f5ff293f5e70dd3e03a31a888f0ea8e4e2adb01e072d54271cbb5c821'
+NPZ='artifacts/generalization_crosscell_20261007/simple_model_features.npz'
+NPZ_SHA=labels.NPZ_SHA
+ROW_IDS_SHA=labels.ROW_IDS_SHA
+OUTPUT=OUT/'fit_lifecycle_report.json'
+CAMPAIGN=OUT/'campaign'
+CHECKPOINT_PROOFS=OUT/'checkpoint_runtime_proofs'
+BIRTH=OUT/'fit_attempt_birth.json'
+WORKER_LOG=OUT/'fit_worker.log'
+COMPLETION=OUT/'fit_worker_completion.json'
+SUPERVISOR=OUT/'fit_supervisor_receipt.json'
+WORKER_SOURCE='src/'+NS+'/worker.py'
+INPUT_PINS={METADATA_BUNDLE:METADATA_SHA,ARRAY_CERTIFICATE:ARRAY_CERTIFICATE_SHA,ARRAY_SUPERVISOR:ARRAY_SUPERVISOR_SHA,
+            LABEL_CERTIFICATE:LABEL_CERTIFICATE_SHA,LABEL_SUPERVISOR:LABEL_SUPERVISOR_SHA}
+COUNT=13781
+SHAPE=(13781,102)
+RETRY_SCOPE='reports/generalization_knowncell_fit_paged_execution_20261025/approval_scope.md'
+RETRY_AUTH=OUT/'authorization.json'
+INTERRUPTED_AUDIT_SHA='de3f700ee0094edc0d9428d8a9f73b9574d34f2f156891cfffa0088a5c467fe9'
+RETRY_STARTUP_PHYSICAL=2**30
+RETRY_ANSWER='Ok I removed stuff, try it now'
+JOURNAL=OUT/'supervisor_progress.jsonl'
+FAULT_LOG=OUT/'supervisor_fault.log'
+RESIDENT_CONFIGURED_LIMIT=190*2**20
+RESIDENT_MEASURED_CEILING=192*2**20
+WORKING_SET_SOURCE='src/generalization_owned_workingset_probe_v2_20261025/working_set.py'
+WORKING_SET_SOURCE_SHA='b7d0be3c3a91e090827462c5090721c943e462e19126d9c96393b337dbc3b125'
+PAGING_TOY='results/generalization_owned_workingset_probe_v2_20261025/receipt.json'
+PAGING_TOY_SHA='69c90cd57aa203addd0a603a0a0437c01b2571d8e3bf1bdd8cf232135c1d9aa1'
+NUMERIC_PAGING_PROFILE='results/generalization_owned_paged_numeric_profile_20261025/receipt.json'
+NUMERIC_PAGING_PROFILE_SHA='9eda13d5a7e0de4d4eba58c069456f19dd1603bf804b85229380e55e090fd06f'
+NUMERIC_PAGING_REQUIRED_STATUS='PASS_OWNED_PAGED_INVENTED_NATIVE_NUMERICAL_PROFILE'
+NUMERIC_PAGING_MANIFEST='results/generalization_owned_paged_numeric_profile_20261025/preparation_manifest.json'
+NUMERIC_PAGING_MANIFEST_SHA='7ea9881afeadf5c357a80df862ae1941ba9bf49a5854f30ae53f16343a4e21d1'
+NUMERIC_PAGING_CHILD='results/generalization_owned_paged_numeric_profile_20261025/toy_child.json'
+NUMERIC_PAGING_CHILD_SHA='5b9215a0f9d35642cb70253f5dbf2e381fa748f74b3d2f055083f88811850ca1'
+NUMERIC_PAGING_JOURNAL='results/generalization_owned_paged_numeric_profile_20261025/parent.jsonl'
+NUMERIC_PAGING_JOURNAL_SHA='0c363173a51bff0c94a8bd3c843000b35c420e0d8d4860e14358f670074384c2'
+NUMERIC_PAGING_CERTIFICATE='results/generalization_owned_paged_numeric_profile_20261025/verified_native_status.json'
+NUMERIC_PAGING_CERTIFICATE_SHA='089e8fc6ea8fa43f5ef3e6c0310aa6d613d4b67d53073c8f3e2f02762b04c901'
+NUMERIC_PAGING_CERTIFY_SOURCE='artifacts/generalization_owned_paged_numeric_profile_20261025/certify.py'
+NUMERIC_PAGING_CERTIFY_SOURCE_SHA='4082a9e3f10fa0b4f6512bd0d214a4d90530bb54241f6d4a6700595b18161b61'
+STABLE_SCIENTIFIC_BINDINGS={
+    'fit_source_manifest_sha256':'109a2bd1cd7e1b62f5a7607d67b3cd5da75192e4dfb9af46b1e5cb8b0fc7436e',
+    'numeric_source_manifest_sha256':'92a430a99019ee68e6085d56afc9faca89c9e7d1f1abe965c67869fabfe9c2df',
+    'lifecycle_v2_manifest_sha256':'8064cd93128421a9cdcd3d85491c47e94b002a380ef85bd4fc70ae3c9745ea08',
+    'native_profile_receipt_sha256':runtime.PROFILE_ORIGIN_SHA}
