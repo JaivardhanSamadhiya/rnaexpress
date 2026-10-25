@@ -1,0 +1,9 @@
+# Additive replay source for the proposed fresh FIT path
+
+The unused V1 replay controller is preserved. It names the first FIT attempt, which failed, and therefore cannot legitimately accept that attempt as a completed campaign. This V2 source generation binds the separate proposed fresh-attempt paths. It grants neither a fresh FIT retry nor early replay permission; actual completed FIT hashes and exact commits remain unknown until a separately authorized run passes acceptance.
+
+Root compared every runtime/execution Python AST with V1 after only the declared own-namespace, fresh-FIT path and source-dependency hash substitutions: exact parity. Scientific verification, tolerances, nine-pool rebuild, stable plan identity, distinct current provenance and the closed 191-file roster are unchanged. The existing V3 replay static binding path is still absent and can be prospectively created for this V2 caller without overwriting any earlier binding.
+
+Six invented runtime tests and fourteen controller tests pass. Root rehashed all 176 runtime and 576 execution pins and the interpreter payloads, then checked a fresh production import closure without scientific imports. Runtime SHA-256 is `fb086e0f3a1058c5b2207d5456fb46d349686591a93336497b2d65337f2c797a`; execution SHA-256 is `042da0ec88ae041c2722129afcbeaad5cf5603406851e43fa884a3fbc556a0ca`. Root performed this final source review; no independent agent final review was available during the account usage limit.
+
+No actual input, runtime request, binding, run admission, Job, replay, native invocation or resource probe was performed during source preparation. All original sources, failed outputs and gates remain preserved. Future replay remains within the previously approved unused stage, with the original caps/reserves and no retry/resume/spending. Independent arithmetic consistency is distinct from biological confirmation or novel generalization.

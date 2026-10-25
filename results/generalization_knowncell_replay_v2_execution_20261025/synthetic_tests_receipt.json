@@ -1,0 +1,27 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_replay_v2_execution_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_replay_v2_execution_20261025/build.py": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0",
+    "src/generalization_knowncell_replay_v2_execution_20261025/calibration.py": "d0815926cdd369591dec6d544509089568090dffe31511203491ddac299d1099",
+    "src/generalization_knowncell_replay_v2_execution_20261025/common.py": "9861b4ec141051588b676d5a4a47210aa60c12438780a0be18e20f1d5ed905a9",
+    "src/generalization_knowncell_replay_v2_execution_20261025/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_replay_v2_execution_20261025/monitor.py": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a",
+    "src/generalization_knowncell_replay_v2_execution_20261025/prepare.py": "7a3cc5b428dcee60de1881e82c0f0c8606f26f69c736e1563e5a6cb203d77683",
+    "src/generalization_knowncell_replay_v2_execution_20261025/projection_io.py": "b94088cac0512af0192511bd4ee1a67708634acbdb611b700523685c8cf8acfe",
+    "src/generalization_knowncell_replay_v2_execution_20261025/spec.py": "085e0c05c09fb77672a7beae054b3edf52fb4132e09dce8fd05a44698e78c54f",
+    "src/generalization_knowncell_replay_v2_execution_20261025/supervise.py": "2f740cab56591a32ec1ae89c2c2e2963c41970371844e9552fb19f861ae113f4",
+    "src/generalization_knowncell_replay_v2_execution_20261025/terminal.py": "f9e727a44304d6569c5c734f0003223c8430773e60f1a53b533e9e5e93af3e43",
+    "src/generalization_knowncell_replay_v2_execution_20261025/tests.py": "03249269418a9a32a13317af014a0d617c916f40aa20c7e89567f2b2a22b807c",
+    "src/generalization_knowncell_replay_v2_execution_20261025/worker.py": "f41f5a04397eaa7420f279874bef7a119441638920ddf2017bb52db54d2184de"
+  },
+  "status": "PASS_INVENTED_INDEPENDENT_REPLAY_EXECUTION_NOT_ACTUAL_REPLAY",
+  "tests": 14
+}

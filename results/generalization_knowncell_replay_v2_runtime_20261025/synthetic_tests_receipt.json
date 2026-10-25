@@ -1,0 +1,18 @@
+{
+  "actual_owner_and_proofs_in_tests_are_private_mocks": true,
+  "actual_resource_probes": 0,
+  "actual_runtime_invocations": 0,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_replay_v2_runtime_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_replay_v2_runtime_20261025/contracts.py": "622befedaae82af7e56664dab24c82092473a226e497c72c1a6b8fdeb645725e",
+    "src/generalization_knowncell_replay_v2_runtime_20261025/prepare.py": "797060426b613793135e63a91d3087b76869740e73dd7a13dafdad8dd5e40c2d",
+    "src/generalization_knowncell_replay_v2_runtime_20261025/provider.py": "3a0ff108a59493228335ac34fc13b637572e41750477a7a8d8826074d27c218e",
+    "src/generalization_knowncell_replay_v2_runtime_20261025/spec.py": "9b28e17c9d49e7d563c00e773b90832e977af3976799c18d4878276c7aac63d7",
+    "src/generalization_knowncell_replay_v2_runtime_20261025/tests.py": "7a80353cf47930b4df6a5af5ba3ae459008a60c812af3b281595538c02d655fa"
+  },
+  "status": "PASS_INVENTED_INDEPENDENT_REPLAY_RUNTIME_NOT_ACTUAL_PROVIDER",
+  "tests": 6
+}
