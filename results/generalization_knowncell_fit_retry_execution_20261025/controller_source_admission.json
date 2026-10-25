@@ -1,0 +1,37 @@
+{
+  "actual_input_or_FIT_authority_granted": false,
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "bridge_readiness_sha256": "a7e90f9a06b1f5d8708a629272df24b0b4c7edabd77dbdd028a7441f2601e0bf",
+  "controller_source": "src/generalization_knowncell_fit_retry_execution_20261025/worker.py",
+  "controller_source_sha256": "18806c6460cc8503f57595b66432c5807bdf4488b5a360285717fe987c2c7695",
+  "generation_manifest_sha256": "8f30e3684125044dc1db3c9b66d05c8633fda4f4201cf1b91cf7c5c5e3c8a738",
+  "invocation": "fixed_63_checkpoint_84_optimizer_unit_fit",
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "runtime_provider_preparation_sha256": "82d057e47b14ee895e33db3e60272b056888b818a2a72ad0cfbb3be3c7a76d50",
+  "stable_scientific_source_bindings": {
+    "fit_source_manifest_sha256": "109a2bd1cd7e1b62f5a7607d67b3cd5da75192e4dfb9af46b1e5cb8b0fc7436e",
+    "lifecycle_v2_manifest_sha256": "8064cd93128421a9cdcd3d85491c47e94b002a380ef85bd4fc70ae3c9745ea08",
+    "native_profile_receipt_sha256": "dc3e6a1e2f31b5d6c868de7302feb0e1e719835cc370f0eb5eacb307d08b5b2b",
+    "numeric_source_manifest_sha256": "92a430a99019ee68e6085d56afc9faca89c9e7d1f1abe965c67869fabfe9c2df"
+  },
+  "stage": "fit",
+  "status": "REVIEWED_SOURCE_ONLY_FIXED_FIT_CONTROLLER_NOT_INPUT_OR_FIT_AUTHORITY"
+}
