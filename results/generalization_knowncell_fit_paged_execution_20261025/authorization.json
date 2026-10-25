@@ -1,0 +1,49 @@
+{
+  "D_volume_dirty_warning_not_cleared": true,
+  "UTC_recorded": "2026-10-25T20:12:54.700810+00:00",
+  "actual_question_id": [
+    "request_user_input_async",
+    "call_6e69b035c0ec4971b9ebda046e8958c7",
+    0
+  ],
+  "additional_attempts_authorized": 1,
+  "approval_scope_sha256": "7969fb0833253c6066e7f636bed4dab5ff47a3847a75e8cf99f9ebb6e3adb75f",
+  "approved_answer": "Ok I removed stuff, try it now",
+  "authorization_interpretation": "One fresh manual fixed-study try was requested and remains unused. The later keep-tabs constraint is implemented by an additional cap on only the owned suspended worker. This later resource strategy and source hash were selected and reviewed by the agent; they are not presented as a verbatim human approval of that later hash.",
+  "automatic_retry_authorized": false,
+  "browser_tabs_and_other_applications_untouched": true,
+  "continued_D_use_explicitly_requested": true,
+  "explicit_human_response_recorded": true,
+  "generation_manifest_sha256": "4a8d83023675d17cdc4af37801dc69df4b2c49d7b397a2cfd6ba1aa8b519d632",
+  "human_explicitly_approved_this_later_source_hash": false,
+  "interrupted_attempt_audit_sha256": "de3f700ee0094edc0d9428d8a9f73b9574d34f2f156891cfffa0088a5c467fe9",
+  "later_actual_answer": "I need all of these tabs open though",
+  "later_constraint_question_id": [
+    "request_user_input_async",
+    "call_84e1327580954b8187d4c44151785337",
+    0
+  ],
+  "managed_supervisor_required": true,
+  "minimum_startup_physical_available": 1073741824,
+  "owned_resident_policy": {
+    "aggregate_private_job_cap": 939524096,
+    "apply_only_to_suspended_owned_worker_before_first_resume": true,
+    "configured_owned_worker_maximum": 199229440,
+    "live_reserves_threads_and_total_deadline_unchanged": true,
+    "measured_current_and_lifetime_ceiling": 201326592,
+    "parent_or_other_application_working_sets_changed": false,
+    "private_process_cap": 805306368,
+    "recheck_native_configuration_while_worker_running": true,
+    "sample_and_final_lifetime_counter_checks_required": true
+  },
+  "paging_evidence": {
+    "numerical_paging_profile_sha256": "9eda13d5a7e0de4d4eba58c069456f19dd1603bf804b85229380e55e090fd06f",
+    "owned_working_set_toy_sha256": "69c90cd57aa203addd0a603a0a0437c01b2571d8e3bf1bdd8cf232135c1d9aa1"
+  },
+  "partial_resume_authorized": false,
+  "review_commit": "05cb6dc9722dc8506f01438d69b5a75fb18d19af",
+  "source_hash_bound_by_agent_after_review": true,
+  "spending_authorized": false,
+  "status": "EXPLICIT_HUMAN_AUTHORIZATION_ONE_PAGED_FIXED_KNOWNCELL_FIT",
+  "unused_roomy_generation_preserved_without_authority": true
+}
