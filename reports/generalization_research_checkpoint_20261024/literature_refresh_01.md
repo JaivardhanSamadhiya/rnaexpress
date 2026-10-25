@@ -1,0 +1,13 @@
+# Bounded literature refresh during the prefit run
+
+A fresh public web search on 24 October 2026 did not establish a new eligible independent RNA-edit localization benchmark. This is a bounded search result, not evidence that no such dataset exists. No new outcomes were downloaded or admitted, and no frozen scientific settings were changed.
+
+The primary [GRASP paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC13280954/) describes RNA substructure-aware graph prediction of subcellular localization. The primary [DeepLocRNA paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10879750/) already uses transfer from an RBP-binding predictor. These establish relevant prior art for structural representations and binding-derived transfer. Their search summaries do not establish independent, matched mutation-effect selection validation for this project; neither approach can simply be relabeled as a novel method here.
+
+The primary [mRNALocator-imb paper](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1861282/full) combines sequence-derived features, random forest and transformer predictions with imbalance handling. Its stated localization-classification task does not by itself establish performance on selecting unseen edits within matched candidate menus. A useful project result still needs the actual intervention-level, held-gene comparison rather than classification accuracy imported from another task.
+
+[CRISPR-TO](https://www.nature.com/articles/s41586-025-09020-z) experimentally relocates endogenous RNAs using programmable recruitment. [Recordanelles](https://www.nature.com/articles/s41587-026-03327-6) use engineered RNA recruitment in human cells. These are relevant experimental tools, but the returned material does not establish a free matched sequence-edit benchmark satisfying this project's ancestry, outcome, replication and split requirements. They do not supply a computational substitute for experimental validation.
+
+The SECReTE preprint identifier search did not recover sufficient accession/code/provenance evidence to change its earlier unqualified status. The search also rediscovered SRLE and already-known literature; previously closed or reserved study subsets remain closed. Generic search snippets incidentally named older protected literature; no linked protected outcome file was opened or used.
+
+The present fixed campaign therefore remains the immediate executable test: joint versus pooled and independent models for held genes in the two represented cell types. A positive outcome would support that bounded reused-benchmark claim only. The search provides no basis for guaranteeing complete novelty, unknown-cell generalization, causality or an STS award.

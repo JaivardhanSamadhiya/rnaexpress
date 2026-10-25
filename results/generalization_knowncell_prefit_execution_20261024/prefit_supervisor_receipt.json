@@ -1,0 +1,83 @@
+{
+  "CORE_reread": false,
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "automatic_retry": false,
+  "birth_sha256": "685d1f17e791e6aa1dd89f88e4d90e812be0232e11ba79452ffd31b313035684",
+  "campaign_started": false,
+  "elapsed_seconds": 124.21899999992456,
+  "failure": null,
+  "generation_manifest_sha256": "d934fc04f562b5c07ea1ca6fad7ee86ee57635d7167ec42219dd19b2d012f8a1",
+  "invocation": "fixed_prefit",
+  "memory_after": {
+    "commit_headroom": 6382567424,
+    "disk_available": 1168979263488,
+    "physical_available": 1382776832,
+    "physical_total": 16805040128
+  },
+  "memory_before": {
+    "commit_headroom": 6083170304,
+    "disk_available": 1168990273536,
+    "physical_available": 1295548416,
+    "physical_total": 16805040128
+  },
+  "observed": {
+    "elapsed_seconds": 122.32799999997951,
+    "exit_code": 0,
+    "failure": null,
+    "final_memory_sample": {
+      "commit_headroom": 6394122240,
+      "disk_available": 1168979263488,
+      "physical_available": 1392439296,
+      "physical_total": 16805040128
+    },
+    "final_process_handle_peak_sample": {
+      "peak_private_commit": 414810112,
+      "peak_working_set": 440197120,
+      "private_commit": 77824,
+      "working_set": 32768
+    },
+    "job_accounting": {
+      "active_processes": 0,
+      "kernel_time_100ns": 457968750,
+      "peak_job_memory_used": 414810112,
+      "peak_process_memory_used": 414810112,
+      "terminated_processes": 0,
+      "total_processes": 796,
+      "user_time_100ns": 590625000
+    },
+    "maximum_monitor_gap_seconds": 0.1559999999590218,
+    "minimum_sampled_commit_headroom": 5933424640,
+    "minimum_sampled_physical_available": 932134912,
+    "peak_private_commit": 414810112,
+    "peak_working_set": 440197120,
+    "samples": 1213
+  },
+  "optimizer_calls": 0,
+  "prefit_sha256": "1556b08726430ec5b9d9aca276687b2825ef4d076b01d7bf97ddb9d1fc3ad134",
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "run_admission_sha256": "50629ab029ddf084611304f878460a6ccaf5598d0516017116378f1de39f5b6e",
+  "scientific_protocol_settings_changed": false,
+  "source_pools_prepared": 9,
+  "stage": "prefit",
+  "status": "PASS_EXACT_NINE_POOL_PREFIT_PENDING_ROOT_REVIEW_AND_COMMIT",
+  "worker_completion_sha256": "8b492461b4f3b13ed40a0b4d56a6bf766d469d2ac563c8fe6707a0c21ed4c3eb",
+  "worker_started": true
+}

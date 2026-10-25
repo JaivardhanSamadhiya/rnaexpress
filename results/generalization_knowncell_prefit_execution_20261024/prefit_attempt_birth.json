@@ -1,0 +1,36 @@
+{
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "automatic_retry": false,
+  "generation_manifest_sha256": "d934fc04f562b5c07ea1ca6fad7ee86ee57635d7167ec42219dd19b2d012f8a1",
+  "invocation": "fixed_prefit",
+  "parent_pid": 142924,
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "run_admission_sha256": "50629ab029ddf084611304f878460a6ccaf5598d0516017116378f1de39f5b6e",
+  "source_mode": {
+    "cache_prefix": "D:\\rnaexpress\\results\\generalization_knowncell_runtime_provider_20261023\\source_cache_must_remain_absent",
+    "cache_prefix_absent": true,
+    "dont_write_bytecode": true,
+    "no_site": true,
+    "numerical_threads": 1
+  },
+  "stage": "prefit",
+  "status": "ONE_OWNED_EXACT_NINE_POOL_PREFIT_INVOCATION_CONSUMED"
+}
