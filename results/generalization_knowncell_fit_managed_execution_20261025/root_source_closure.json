@@ -1,0 +1,384 @@
+{
+  "excluded_dormant_function_bodies": [
+    [
+      "src.generalization_prelib_numpy_profile_20261022.invented",
+      "run"
+    ],
+    [
+      "src.generalization_prelib_numpy_profile_v2_20261022.invented",
+      "run"
+    ],
+    [
+      "src.generalization_splicebert_runtime_compatibility_20261007.launcher",
+      "run"
+    ]
+  ],
+  "generation_manifest_sha256": "6d2c7bfdc0d8d03290882f3a409ec92f3895b56a2778b344b9d5d77e7cbaddcb",
+  "scientific_modules_executed_native_calls_payload_reads_or_jobs": 0,
+  "scope_requires_reviewed_fixed_production_entrypoints": true,
+  "scoped_diagnostic": {
+    "dynamic_imports_separately_reviewed_as_fixed_targets": [
+      {
+        "expression": "name",
+        "line": 259,
+        "module": "src.generalization_knowncell_fit_managed_execution_20261025.calibration"
+      },
+      {
+        "expression": "'src.' + NS + '.common'",
+        "line": 276,
+        "module": "src.generalization_knowncell_fit_managed_execution_20261025.calibration"
+      },
+      {
+        "expression": "CALLER",
+        "line": 62,
+        "module": "src.generalization_knowncell_fit_managed_runtime_20261025.provider"
+      },
+      {
+        "expression": "CALLER",
+        "line": 86,
+        "module": "src.generalization_knowncell_fit_managed_runtime_20261025.provider"
+      },
+      {
+        "expression": "RUNTIME_MODULE",
+        "line": 84,
+        "module": "src.generalization_knowncell_runtime_provider_20261023.provider"
+      },
+      {
+        "expression": "name",
+        "line": 16,
+        "module": "src.generalization_knowncell_runtime_provider_20261023.bootstrap"
+      },
+      {
+        "expression": "'numpy'",
+        "line": 109,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'pandas'",
+        "line": 110,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'scipy'",
+        "line": 111,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'scipy.optimize'",
+        "line": 112,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'scipy.special'",
+        "line": 113,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'threadpoolctl'",
+        "line": 114,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      }
+    ],
+    "missing": {},
+    "module_count": 93,
+    "workspace_modules": [
+      "src.generalization_current_python_20261022",
+      "src.generalization_current_python_20261022.attest",
+      "src.generalization_knowncell_array_admission_20261023",
+      "src.generalization_knowncell_array_admission_20261023.admit",
+      "src.generalization_knowncell_array_admission_20261023.spec",
+      "src.generalization_knowncell_array_contract_20261022.envelope",
+      "src.generalization_knowncell_array_contract_20261022.inspect_bytes",
+      "src.generalization_knowncell_array_contract_20261022.spec",
+      "src.generalization_knowncell_array_contract_20261022.validate",
+      "src.generalization_knowncell_bounded_execution_20261023",
+      "src.generalization_knowncell_bounded_execution_20261023.common",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.bridge_v5_fit_managed",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.contracts",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.contracts_v3",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v2",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v3",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v5_fit_managed",
+      "src.generalization_knowncell_fit_managed_execution_20261025",
+      "src.generalization_knowncell_fit_managed_execution_20261025.build",
+      "src.generalization_knowncell_fit_managed_execution_20261025.calibration",
+      "src.generalization_knowncell_fit_managed_execution_20261025.common",
+      "src.generalization_knowncell_fit_managed_execution_20261025.inputs",
+      "src.generalization_knowncell_fit_managed_execution_20261025.journal",
+      "src.generalization_knowncell_fit_managed_execution_20261025.monitor",
+      "src.generalization_knowncell_fit_managed_execution_20261025.projection_io",
+      "src.generalization_knowncell_fit_managed_execution_20261025.spec",
+      "src.generalization_knowncell_fit_managed_execution_20261025.supervise",
+      "src.generalization_knowncell_fit_managed_execution_20261025.terminal",
+      "src.generalization_knowncell_fit_managed_execution_20261025.worker",
+      "src.generalization_knowncell_fit_managed_runtime_20261025",
+      "src.generalization_knowncell_fit_managed_runtime_20261025.contracts",
+      "src.generalization_knowncell_fit_managed_runtime_20261025.provider",
+      "src.generalization_knowncell_fit_managed_runtime_20261025.spec",
+      "src.generalization_knowncell_joint_campaign_20261023",
+      "src.generalization_knowncell_joint_campaign_20261023.contracts",
+      "src.generalization_knowncell_joint_campaign_20261023.spec",
+      "src.generalization_knowncell_joint_campaign_20261023.writer",
+      "src.generalization_knowncell_joint_campaign_20261023.writer_v2",
+      "src.generalization_knowncell_joint_design_20261009.spec",
+      "src.generalization_knowncell_joint_engine_20261023",
+      "src.generalization_knowncell_joint_engine_20261023.adapter",
+      "src.generalization_knowncell_joint_engine_20261023.adapter_v2",
+      "src.generalization_knowncell_joint_implementation_20261022",
+      "src.generalization_knowncell_joint_implementation_20261022.admission",
+      "src.generalization_knowncell_joint_implementation_20261022.contracts",
+      "src.generalization_knowncell_joint_implementation_20261022.prepare",
+      "src.generalization_knowncell_joint_implementation_20261022.selection",
+      "src.generalization_knowncell_joint_implementation_20261022.spec",
+      "src.generalization_knowncell_joint_input_bridge_20261023",
+      "src.generalization_knowncell_joint_input_bridge_20261023.contracts",
+      "src.generalization_knowncell_joint_input_bridge_20261023.sampler",
+      "src.generalization_knowncell_joint_input_bridge_20261023.spec",
+      "src.generalization_knowncell_joint_loader_20261022",
+      "src.generalization_knowncell_joint_loader_20261022.guard",
+      "src.generalization_knowncell_joint_loader_20261022.loader",
+      "src.generalization_knowncell_joint_loader_20261022.parsers",
+      "src.generalization_knowncell_joint_loader_20261022.spec",
+      "src.generalization_knowncell_joint_numeric_20261022",
+      "src.generalization_knowncell_joint_numeric_20261022.numeric",
+      "src.generalization_knowncell_joint_numeric_20261022.spec",
+      "src.generalization_knowncell_joint_runner_20261023.runner",
+      "src.generalization_knowncell_labels_execution_v2_20261024",
+      "src.generalization_knowncell_labels_execution_v2_20261024.spec",
+      "src.generalization_knowncell_labels_runtime_20261024",
+      "src.generalization_knowncell_labels_runtime_20261024.spec",
+      "src.generalization_knowncell_metadata_independent_20261023.spec",
+      "src.generalization_knowncell_metadata_verification_execution_20261024",
+      "src.generalization_knowncell_metadata_verification_execution_20261024.common",
+      "src.generalization_knowncell_parser_profile_20261022",
+      "src.generalization_knowncell_parser_profile_20261022.common",
+      "src.generalization_knowncell_parser_profile_20261022.runtime",
+      "src.generalization_knowncell_parser_profile_v3_20261023",
+      "src.generalization_knowncell_parser_profile_v3_20261023.common",
+      "src.generalization_knowncell_prefit_projection_20261024",
+      "src.generalization_knowncell_prefit_projection_20261024.projection",
+      "src.generalization_knowncell_prefit_projection_20261024.spec",
+      "src.generalization_knowncell_prefit_projection_v2_20261024",
+      "src.generalization_knowncell_prefit_projection_v2_20261024.projection",
+      "src.generalization_knowncell_prefit_projection_v2_20261024.spec",
+      "src.generalization_knowncell_runtime_provider_20261023",
+      "src.generalization_knowncell_runtime_provider_20261023.bootstrap",
+      "src.generalization_knowncell_runtime_provider_20261023.contracts",
+      "src.generalization_knowncell_runtime_provider_20261023.provider",
+      "src.generalization_knowncell_runtime_provider_20261023.spec",
+      "src.generalization_prelib_numpy_profile_20261022.invented",
+      "src.generalization_prelib_numpy_profile_v2_20261022.invented",
+      "src.generalization_pum_process_probe_20261021.headless",
+      "src.generalization_pum_resource_calibration_20261009.winjob",
+      "src.generalization_splicebert_runtime_compatibility_20261007",
+      "src.generalization_splicebert_runtime_compatibility_20261007.common",
+      "src.generalization_splicebert_runtime_compatibility_20261007.launcher"
+    ]
+  },
+  "status": "PASS_REVIEWED_FIT_FUNCTION_SCOPED_CLOSURE_NOT_UNIVERSAL_IMPORT_CLOSURE",
+  "unscoped_diagnostic": {
+    "dynamic_imports_separately_reviewed_as_fixed_targets": [
+      {
+        "expression": "name",
+        "line": 259,
+        "module": "src.generalization_knowncell_fit_managed_execution_20261025.calibration"
+      },
+      {
+        "expression": "'src.' + NS + '.common'",
+        "line": 276,
+        "module": "src.generalization_knowncell_fit_managed_execution_20261025.calibration"
+      },
+      {
+        "expression": "CALLER",
+        "line": 62,
+        "module": "src.generalization_knowncell_fit_managed_runtime_20261025.provider"
+      },
+      {
+        "expression": "CALLER",
+        "line": 86,
+        "module": "src.generalization_knowncell_fit_managed_runtime_20261025.provider"
+      },
+      {
+        "expression": "RUNTIME_MODULE",
+        "line": 84,
+        "module": "src.generalization_knowncell_runtime_provider_20261023.provider"
+      },
+      {
+        "expression": "name",
+        "line": 16,
+        "module": "src.generalization_knowncell_runtime_provider_20261023.bootstrap"
+      },
+      {
+        "expression": "'numpy'",
+        "line": 164,
+        "module": "src.generalization_splicebert_runtime_compatibility_20261007.launcher"
+      },
+      {
+        "expression": "'numpy'",
+        "line": 109,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'pandas'",
+        "line": 110,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'scipy'",
+        "line": 111,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'scipy.optimize'",
+        "line": 112,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'scipy.special'",
+        "line": 113,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'threadpoolctl'",
+        "line": 114,
+        "module": "src.generalization_knowncell_parser_profile_20261022.runtime"
+      },
+      {
+        "expression": "'numpy'",
+        "line": 43,
+        "module": "src.generalization_prelib_numpy_profile_20261022.invented"
+      },
+      {
+        "expression": "'numpy'",
+        "line": 38,
+        "module": "src.generalization_prelib_pooled_lineage_20261009.pipeline"
+      },
+      {
+        "expression": "'numpy'",
+        "line": 60,
+        "module": "src.generalization_prelib_numpy_profile_v2_20261022.invented"
+      }
+    ],
+    "missing": {
+      "src/generalization_prelib_pooled_lineage_20261009/__init__.py": {
+        "actual": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "pin": null
+      },
+      "src/generalization_prelib_pooled_lineage_20261009/contracts.py": {
+        "actual": "bb0b800cb849752da292f271c1b43d1356270e7cfe26492e8912aa87c9f9b6c8",
+        "pin": null
+      },
+      "src/generalization_prelib_pooled_lineage_20261009/pipeline.py": {
+        "actual": "671f011aab615cc542c5d42f0415a1a759e5c7283a895f5fc5cb45cccc931a59",
+        "pin": null
+      },
+      "src/generalization_splicebert_20261007/resources.py": {
+        "actual": "10ea8330caf1e2b1b0333d14d0e7d994731cfb1dc5ce5d09dc7a64f6b4d7a4fc",
+        "pin": null
+      }
+    },
+    "module_count": 98,
+    "workspace_modules": [
+      "src.generalization_current_python_20261022",
+      "src.generalization_current_python_20261022.attest",
+      "src.generalization_knowncell_array_admission_20261023",
+      "src.generalization_knowncell_array_admission_20261023.admit",
+      "src.generalization_knowncell_array_admission_20261023.spec",
+      "src.generalization_knowncell_array_contract_20261022.envelope",
+      "src.generalization_knowncell_array_contract_20261022.inspect_bytes",
+      "src.generalization_knowncell_array_contract_20261022.spec",
+      "src.generalization_knowncell_array_contract_20261022.validate",
+      "src.generalization_knowncell_bounded_execution_20261023",
+      "src.generalization_knowncell_bounded_execution_20261023.common",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.bridge_v5_fit_managed",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.contracts",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.contracts_v3",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v2",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v3",
+      "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v5_fit_managed",
+      "src.generalization_knowncell_fit_managed_execution_20261025",
+      "src.generalization_knowncell_fit_managed_execution_20261025.build",
+      "src.generalization_knowncell_fit_managed_execution_20261025.calibration",
+      "src.generalization_knowncell_fit_managed_execution_20261025.common",
+      "src.generalization_knowncell_fit_managed_execution_20261025.inputs",
+      "src.generalization_knowncell_fit_managed_execution_20261025.journal",
+      "src.generalization_knowncell_fit_managed_execution_20261025.monitor",
+      "src.generalization_knowncell_fit_managed_execution_20261025.projection_io",
+      "src.generalization_knowncell_fit_managed_execution_20261025.spec",
+      "src.generalization_knowncell_fit_managed_execution_20261025.supervise",
+      "src.generalization_knowncell_fit_managed_execution_20261025.terminal",
+      "src.generalization_knowncell_fit_managed_execution_20261025.worker",
+      "src.generalization_knowncell_fit_managed_runtime_20261025",
+      "src.generalization_knowncell_fit_managed_runtime_20261025.contracts",
+      "src.generalization_knowncell_fit_managed_runtime_20261025.provider",
+      "src.generalization_knowncell_fit_managed_runtime_20261025.spec",
+      "src.generalization_knowncell_joint_campaign_20261023",
+      "src.generalization_knowncell_joint_campaign_20261023.contracts",
+      "src.generalization_knowncell_joint_campaign_20261023.spec",
+      "src.generalization_knowncell_joint_campaign_20261023.writer",
+      "src.generalization_knowncell_joint_campaign_20261023.writer_v2",
+      "src.generalization_knowncell_joint_design_20261009.spec",
+      "src.generalization_knowncell_joint_engine_20261023",
+      "src.generalization_knowncell_joint_engine_20261023.adapter",
+      "src.generalization_knowncell_joint_engine_20261023.adapter_v2",
+      "src.generalization_knowncell_joint_implementation_20261022",
+      "src.generalization_knowncell_joint_implementation_20261022.admission",
+      "src.generalization_knowncell_joint_implementation_20261022.contracts",
+      "src.generalization_knowncell_joint_implementation_20261022.prepare",
+      "src.generalization_knowncell_joint_implementation_20261022.selection",
+      "src.generalization_knowncell_joint_implementation_20261022.spec",
+      "src.generalization_knowncell_joint_input_bridge_20261023",
+      "src.generalization_knowncell_joint_input_bridge_20261023.contracts",
+      "src.generalization_knowncell_joint_input_bridge_20261023.sampler",
+      "src.generalization_knowncell_joint_input_bridge_20261023.spec",
+      "src.generalization_knowncell_joint_loader_20261022",
+      "src.generalization_knowncell_joint_loader_20261022.guard",
+      "src.generalization_knowncell_joint_loader_20261022.loader",
+      "src.generalization_knowncell_joint_loader_20261022.parsers",
+      "src.generalization_knowncell_joint_loader_20261022.spec",
+      "src.generalization_knowncell_joint_numeric_20261022",
+      "src.generalization_knowncell_joint_numeric_20261022.numeric",
+      "src.generalization_knowncell_joint_numeric_20261022.spec",
+      "src.generalization_knowncell_joint_runner_20261023.runner",
+      "src.generalization_knowncell_labels_execution_v2_20261024",
+      "src.generalization_knowncell_labels_execution_v2_20261024.spec",
+      "src.generalization_knowncell_labels_runtime_20261024",
+      "src.generalization_knowncell_labels_runtime_20261024.spec",
+      "src.generalization_knowncell_metadata_independent_20261023.spec",
+      "src.generalization_knowncell_metadata_verification_execution_20261024",
+      "src.generalization_knowncell_metadata_verification_execution_20261024.common",
+      "src.generalization_knowncell_parser_profile_20261022",
+      "src.generalization_knowncell_parser_profile_20261022.common",
+      "src.generalization_knowncell_parser_profile_20261022.runtime",
+      "src.generalization_knowncell_parser_profile_v3_20261023",
+      "src.generalization_knowncell_parser_profile_v3_20261023.common",
+      "src.generalization_knowncell_prefit_projection_20261024",
+      "src.generalization_knowncell_prefit_projection_20261024.projection",
+      "src.generalization_knowncell_prefit_projection_20261024.spec",
+      "src.generalization_knowncell_prefit_projection_v2_20261024",
+      "src.generalization_knowncell_prefit_projection_v2_20261024.projection",
+      "src.generalization_knowncell_prefit_projection_v2_20261024.spec",
+      "src.generalization_knowncell_runtime_provider_20261023",
+      "src.generalization_knowncell_runtime_provider_20261023.bootstrap",
+      "src.generalization_knowncell_runtime_provider_20261023.contracts",
+      "src.generalization_knowncell_runtime_provider_20261023.provider",
+      "src.generalization_knowncell_runtime_provider_20261023.spec",
+      "src.generalization_prelib_numpy_profile_20261022.invented",
+      "src.generalization_prelib_numpy_profile_v2_20261022.invented",
+      "src.generalization_prelib_pooled_lineage_20261009",
+      "src.generalization_prelib_pooled_lineage_20261009.contracts",
+      "src.generalization_prelib_pooled_lineage_20261009.pipeline",
+      "src.generalization_pum_process_probe_20261021.headless",
+      "src.generalization_pum_resource_calibration_20261009.winjob",
+      "src.generalization_splicebert_20261007.backend_probe",
+      "src.generalization_splicebert_20261007.resources",
+      "src.generalization_splicebert_runtime_compatibility_20261007",
+      "src.generalization_splicebert_runtime_compatibility_20261007.common",
+      "src.generalization_splicebert_runtime_compatibility_20261007.launcher"
+    ]
+  }
+}

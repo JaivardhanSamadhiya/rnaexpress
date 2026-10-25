@@ -1,0 +1,33 @@
+{
+  "dirty_volume_warning_not_cleared": true,
+  "disk_repair_or_dismount": false,
+  "elapsed_seconds": 5.890999999945052,
+  "generation_manifest_sha256": "8f30e3684125044dc1db3c9b66d05c8633fda4f4201cf1b91cf7c5c5e3c8a738",
+  "input_and_data_sha256": {
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6",
+    "results/generalization_knowncell_array_execution_20261024/array_admission_certificate.json": "8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa",
+    "results/generalization_knowncell_array_execution_20261024/array_supervisor_receipt.json": "4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/root_bindings_v4_fit_retry_20261025.json": "ea95cb40e2cd816a3191fdadd28cecabd6f1efe836dbd3040f9028435058d7a4",
+    "results/generalization_knowncell_fit_retry_execution_20261025/controller_source_admission.json": "4709d0b96af62fee5a4de739bbe54203484018bf25157bf9719626f7e923fb74",
+    "results/generalization_knowncell_fit_retry_execution_20261025/fit_runtime_request.json": "e5e94bf031f31e35171c6e5d6d57977a91922a74c126f9503281419d089308e1",
+    "results/generalization_knowncell_joint_loader_20261022/admitted_metadata.json": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+    "results/generalization_knowncell_labels_execution_v2_20261024/labels_supervisor_receipt.json": "e690e04c24ced2892ecfc830e4317780e9db8cb231af03ada316ca279b673056",
+    "results/generalization_knowncell_labels_execution_v2_20261024/original_pandas_label_certificate.json": "46b87936ebaf093b80f7666b64f0bd92eb73a6b753b3661b3bafa229514b78ee",
+    "results/generalization_knowncell_prefit_execution_20261024/prefit_manifest.json": "1556b08726430ec5b9d9aca276687b2825ef4d076b01d7bf97ddb9d1fc3ad134",
+    "results/generalization_knowncell_prefit_execution_20261024/prefit_supervisor_receipt.json": "bc95c47be73a764141978e4ffc256cfda80ca19846d6977399214aaff0a77b1f",
+    "results/generalization_knowncell_prefit_execution_20261024/prefit_worker_completion.json": "8b492461b4f3b13ed40a0b4d56a6bf766d469d2ac563c8fe6707a0c21ed4c3eb",
+    "results/generalization_knowncell_prefit_projection_v2_20261024/root_prefit_admission.json": "10075cac07c259153d1b223a101a974be3d11f59c3f375e47aa52eef627dfd68"
+  },
+  "memory_after": {
+    "commit_headroom": 8790257664,
+    "disk_available": 1168436625408,
+    "physical_available": 2001846272,
+    "physical_total": 16805040128
+  },
+  "payloads_parsed_or_models_fitted": 0,
+  "preserved_attempt_files": 69,
+  "protected_user_files": 33,
+  "source_pins": 543,
+  "status": "PASS_RECONNECTED_DRIVE_EXACT_ADMITTED_BYTES_NOT_FILESYSTEM_REPAIR",
+  "user_statement": "Just use the D: file I accidentally disconnected my harddrive"
+}

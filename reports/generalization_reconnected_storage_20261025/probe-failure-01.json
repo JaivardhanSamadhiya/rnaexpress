@@ -1,0 +1,23 @@
+{
+  "status": "FAILED_TOY_MANAGED_PROCESS_PROBE_NOT_A_SCIENTIFIC_ATTEMPT",
+  "managed_session_id": 65128,
+  "exit_code": 1,
+  "parent_pid": 93896,
+  "child_pid": 72328,
+  "last_saved_supervisor_elapsed_seconds": 212.71899999992456,
+  "last_saved_child_elapsed_seconds": 212.10999999998603,
+  "last_saved_peak_job_memory_bytes": 11591680,
+  "failure_site": "os.fsync(stream.fileno()) in line(), called by parent()",
+  "exception": "OSError: [Errno 9] Bad file descriptor",
+  "secondary_exception": "The exception-reporting call to the same line() function also failed with OSError: [Errno 9] Bad file descriptor",
+  "explicit_terminate_call_reached_in_exception_handler": false,
+  "cleanup_path": "The secondary logging failure precedes job.terminate(); finally closes the child handles and the Job context closes its kill-on-close handle. Both processes were absent at the subsequent query.",
+  "child_exit_code_measured": false,
+  "original_logs_preserved": true,
+  "project_payload_reads": 0,
+  "optimizer_calls": 0,
+  "scientific_attempts": 0,
+  "historical_fit_interruption_cause_established": false,
+  "volume_warning_proves_physical_hardware_failure": false,
+  "new_scientific_runs_or_disk_repairs_performed": false
+}

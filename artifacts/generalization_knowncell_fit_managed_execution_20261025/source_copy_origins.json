@@ -1,0 +1,103 @@
+{
+  "base_replacements": {
+    "generalization_knowncell_fit_retry_execution_20261025": "generalization_knowncell_fit_managed_execution_20261025",
+    "generalization_knowncell_fit_retry_runtime_20261025": "generalization_knowncell_fit_managed_runtime_20261025",
+    "v4_fit_retry": "v5_fit_managed"
+  },
+  "manual_operational_review_still_required": true,
+  "originals": {
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v4_fit_retry.py": {
+      "copied_to": "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v5_fit_managed.py",
+      "sha256": "940731759468e3cc97b0ccace00083c6f99c6ff657495fbf4f00b9148b0b51c7"
+    },
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v4_fit_retry.py": {
+      "copied_to": "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v5_fit_managed.py",
+      "sha256": "ea97f05f3035c9e1c5982aa3aa79d37424e2f27053717d229159c365d102f086"
+    },
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v4_fit_retry.py": {
+      "copied_to": "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v5_fit_managed.py",
+      "sha256": "d1ded07e55b1cf48c327f4faad16ff8d710613b5040411b8c5e8d58092b6f3c1"
+    },
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests_v4_fit_retry.py": {
+      "copied_to": "src/generalization_knowncell_calibrated_input_bridge_20261024/tests_v5_fit_managed.py",
+      "sha256": "6502bebd5079ccef804cdc7f5a92b2b3f862578992fac3f45b255c31602f0020"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/__init__.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/__init__.py",
+      "sha256": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/build.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/build.py",
+      "sha256": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/calibration.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/calibration.py",
+      "sha256": "8847cab33be22a3f4778cfbfc44ec54205da9cf9d64963f8fcfec63caf278a8f"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/common.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/common.py",
+      "sha256": "35a83e0212be7ab370b44d6e83236a62a25078ee0bcad4f932164b285a50f041"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/inputs.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/inputs.py",
+      "sha256": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/monitor.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/monitor.py",
+      "sha256": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/prepare.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/prepare.py",
+      "sha256": "a476ccd0adbb72ab7697b8768849699ada2480d666c3460a36f2d359d63fd5c0"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/projection_io.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/projection_io.py",
+      "sha256": "e50385086a61e8ef034689bc9c429930115a5d4dff01eb3058b2421055403f38"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/spec.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/spec.py",
+      "sha256": "02feb9f519176d383b6b4b3d4a593fad625ff473ecb1ec9ef47beb6a435c6e28"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/supervise.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/supervise.py",
+      "sha256": "9ee59636da094e49fa5e0f6dee0536d64e03f55b3eb6ca257b909905fde1a7a5"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/terminal.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/terminal.py",
+      "sha256": "49cbd3d714813ea93a4477b4f5df7042c799c39486d15ddfb2a3f68ceb2e1279"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/tests.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/tests.py",
+      "sha256": "7666ead96c9496e970c8abc1ee74e3df3349415904b411dc4b36fa9aaf5a0c6b"
+    },
+    "src/generalization_knowncell_fit_retry_execution_20261025/worker.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_execution_20261025/worker.py",
+      "sha256": "18806c6460cc8503f57595b66432c5807bdf4488b5a360285717fe987c2c7695"
+    },
+    "src/generalization_knowncell_fit_retry_runtime_20261025/__init__.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_runtime_20261025/__init__.py",
+      "sha256": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f"
+    },
+    "src/generalization_knowncell_fit_retry_runtime_20261025/contracts.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_runtime_20261025/contracts.py",
+      "sha256": "cedbb76d122ccfa5d2d838ef2c054e9b1e85dbfb0ec1237246b80b8093cb6475"
+    },
+    "src/generalization_knowncell_fit_retry_runtime_20261025/prepare.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_runtime_20261025/prepare.py",
+      "sha256": "2d1cfb7aba4843418b328afaa0677996985346f67b84be1e7a474693490eef24"
+    },
+    "src/generalization_knowncell_fit_retry_runtime_20261025/provider.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_runtime_20261025/provider.py",
+      "sha256": "fe8097548b205219378c7dc8056f6af076b7b4e2079303d078550ca41760ae79"
+    },
+    "src/generalization_knowncell_fit_retry_runtime_20261025/spec.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_runtime_20261025/spec.py",
+      "sha256": "2185ac044742ba1e06f766a78be7738ae192d5e447bca6a54d2cb6ce9bd845e7"
+    },
+    "src/generalization_knowncell_fit_retry_runtime_20261025/tests.py": {
+      "copied_to": "src/generalization_knowncell_fit_managed_runtime_20261025/tests.py",
+      "sha256": "9345ca1e591862557815a2ef69159d82177c145f0dbf64e83c06d815f5daf1be"
+    }
+  },
+  "source_only": true
+}

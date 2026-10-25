@@ -1,0 +1,22 @@
+{
+  "command_argv": ["C:\\Windows\\System32\\chkdsk.exe", "D:"],
+  "managed_session_id": 8661,
+  "exit_code": 3,
+  "reported": [
+    "Windows found errors on the disk, but will not fix them because disk checking was run without the /F (fix) parameter.",
+    "Corruption was found while examining the volume bitmap.",
+    "Windows has checked the file system and found problems."
+  ],
+  "subsequent_volume_status": {
+    "FileSystem": "exFAT",
+    "HealthStatus": "Warning",
+    "OperationalStatus": "Full Repair Needed",
+    "dirty_query": "Volume - D: is Dirty"
+  },
+  "repair_dismount_format_or_schedule_requested": false,
+  "physical_sector_scan_performed": false,
+  "specific_project_file_corruption_established": false,
+  "historical_fit_interruption_cause_established": false,
+  "full_log": "chkdsk-read-only-01.txt",
+  "further_scientific_writes_held": true
+}

@@ -1,0 +1,218 @@
+{
+  "actual_jobs_native_probes_payload_reads_or_fits": 0,
+  "complete_scientific_function_AST_identical_to_V3": true,
+  "files": {
+    "artifacts/generalization_knowncell_joint_input_bridge_20261023/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_knowncell_calibrated_input_bridge_20261024/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_knowncell_calibrated_input_bridge_20261024/protocol.md": "287bf1d6ac835849bf76f111512d352a2e519417a71b76422841da2e51fc7e8c",
+    "reports/generalization_knowncell_calibrated_input_bridge_20261024/protocol_v2.md": "a0a3912142f561baadfbef0d82fcefeee72e221590c65854104f389d33ac0160",
+    "reports/generalization_knowncell_calibrated_input_bridge_20261024/protocol_v3.md": "7c19793d1c57a1f16911c2030b1003fb5ea6452efcc5ba4472395485a2f78c2b",
+    "reports/generalization_knowncell_calibrated_input_bridge_20261024/protocol_v5_fit_managed_20261025.md": "eed5485a805a54a07ba8ced49de06742843694d4ad8cb8e5ac0a8824d02819a1",
+    "reports/generalization_knowncell_joint_input_bridge_20261023/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_knowncell_joint_input_bridge_20261023/protocol.md": "54764937fc3b0d8058c6b89923b084a69767fc30bb2b2503deadad1ea0ef75c9",
+    "results/generalization_knowncell_array_admission_20261023/readiness_manifest.json": "19c9d099ec4a052221bd39d993239bd401fc3aa767775c347a198b9259a5687f",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/draft_source_v3_01.json": "bfaa931d18f00cd6036e620a9409538380f7efed4b5d920c8fcff90bd643c0fa",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/preparation_manifest.json": "f0b7e0b9dd3df91a76864e49fa352e3463418a4a9b7ea50d99a1cc73879a3af9",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/preparation_manifest_v2.json": "7b92ce1154c3abc208f96c0c8bc9b0129ef97d59df8273aa0f87db6cf83d4040",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/preparation_manifest_v3.json": "67d7660c759b3aa4269640ea19b7bfb55be407a0746b57d1ac670b03ffb7cdf8",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/source_import_receipt_v3.json": "0125cba217a9d90cdcfdb56695161ff71dd857a0bcf728c510930bc04485ead6",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_attempt_01.log": "e5ac5dda007ecf2acedbe0d915596e02aee70ff05e232766ef424bb339a693cf",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_attempt_v2_01.log": "1a53958793bfa3c8c6bd90fbe43916254688d8682fa9b02fbdbfafa19497dba1",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_attempt_v3_01.log": "20275e03105fcf30eab68e0fb84c40a6b8ee2bd76a33ac616ce0cb0a7e150bf4",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_attempt_v3_02.log": "67cdb8a7a93e62136529f86805e9c2875bcce8f4631fbc27433fe568facb6cb3",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_receipt.json": "ec92fbe00fe037c89f1072e5f11ac544ff06e85037f7dbc5653a62497962ded9",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_receipt_v2.json": "a15515344aaadef8bd0ccee4bc663053a2c375215ad8071f0415d7b67bc8db5b",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_receipt_v3.json": "ca5067b483a0e43b2fa52ada427d0038c47d5535dcda21e4112914279f3ccbc0",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_receipt_v3_reviewed.json": "6bfb6f69a990da4494582873f6c562546b32e2e415c289c841fd83c5ddb6feb4",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/synthetic_tests_receipt_v5_fit_managed_20261025.json": "082ddb234c4b77caac0b6d0547d0c08283c1a23382e4a7d0e0360a1bf0af9690",
+    "results/generalization_knowncell_joint_campaign_20261023/preparation_manifest_v2.json": "8064cd93128421a9cdcd3d85491c47e94b002a380ef85bd4fc70ae3c9745ea08",
+    "results/generalization_knowncell_joint_engine_20261023/preparation_manifest_v2.json": "109a2bd1cd7e1b62f5a7607d67b3cd5da75192e4dfb9af46b1e5cb8b0fc7436e",
+    "results/generalization_knowncell_joint_input_bridge_20261023/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_knowncell_joint_input_bridge_20261023/preparation_manifest.json": "1e02f7ed6993513f9147aa6703b6d52d99c04a8f1d8e2f39bb829e8a8a47f851",
+    "results/generalization_knowncell_joint_input_bridge_20261023/synthetic_tests_receipt.json": "ec6ffd8e5e989bf6014c8f51f9041506e9600bf778c4de314f7e136ac943a267",
+    "results/generalization_knowncell_joint_numeric_20261022/preparation_manifest.json": "92a430a99019ee68e6085d56afc9faca89c9e7d1f1abe965c67869fabfe9c2df",
+    "results/generalization_knowncell_runtime_provider_20261023/preparation_manifest.json": "c10fd9e8f52095e2b8a5eae8b533ed4f66814090ab8844928af7c7392a18694f",
+    "src/__init__.py": "f2119a6b4b46bae5262a99c4bba45dea895dd587b86d3edd0a7703ea6dbade19",
+    "src/cross_assay_20260927/common.py": "dfb658f9fd437bae5fef2b1ae33ae0bd9167a1b118394756bab8e81f8b6745dc",
+    "src/cross_assay_20260927/models.py": "a7d43f49c37e0e2a86e5c9c64cbf97bca78aabab36a007f10f886fb916d54d71",
+    "src/generalization_knowncell_bounded_execution_20261023/__init__.py": "985bc2be388a9b7a51dac0bdd48d5647d6473d814c7638afc895c079ff77e604",
+    "src/generalization_knowncell_bounded_execution_20261023/common.py": "ea7c7eda94a86c734336094fb0fe41f082aaacd301b224fddc1078d6479197fe",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/__init__.py": "d9ba82eeee245c07546c3ac844ab5dc61a12cb3b8803f2b0ac3c1aa2dd9131dd",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge.py": "0290142a1822f2d4397dd82d7ffbdcf8b40f6d183c8964e6712e78b33b4e89ea",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v2.py": "40741a710b654de4fb6a671315917bcd02cbc5b608dad962a3ba2bd99da9af9b",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v3.py": "c07c9e84d5659049d4de87d1d808decd3abb9892da454b3a74d732f011b35891",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v5_fit_managed.py": "b482ecfab8484309fed1bc799b9376a971a8f03bbe3363dca5796ce17acde1d9",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/contracts.py": "347f329d367746a665a1d175f3048f1a21dc61205c4fd11cda9efa1fa1aa0c18",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/contracts_v3.py": "2f2d7d5ef5f81b9b1d7f18c7772109422374a2f0253ef3b8b985f0671997672a",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare.py": "e3b9dee096d803ebbc2168198a5dfd32bbe0278736fd529abb5c2af29eeef621",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v2.py": "5b43bc5c85dd4f10ed299a4bef2f24510cfd59c3f37b237c32a5fabf50c892be",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v3.py": "925b44e4716198f25d66e569a0f6d4816a8c361cdf17adc69dc394a2d767f72a",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v5_fit_managed.py": "c8f3fb02c45e01afe7362b368f67c63f8d81576584591aa8150d373232cf8b0f",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec.py": "955c122f247146cc9bb2a116721fe6e83ce8066ce52e23e788f521015215dd74",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v2.py": "006738eeb91610a07bdc26240ab6b1f7f5769c233528fe0c4b0cdd17f8963a1d",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v3.py": "52dfac3be2ae25e2dab672ada89cef5265c71ff4c6de418a838d5e642f41cefa",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v5_fit_managed.py": "afaed1e300957493e9dc42216c5b6adedb4e3df250de473b26976aec7e4a3da5",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests.py": "5a912e73aa410d86d36904dc0f4336c701c500d6633b6059d035b1d870bce503",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests_v2.py": "f553d3ed0e008f67579e270a45278cc87d31d600ba133faaf74facdad8cb8b48",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests_v3.py": "9ad669ac7b7a4c211e1a4c0476605899eba800db992675a6bde23ca1849c457a",
+    "src/generalization_knowncell_calibrated_input_bridge_20261024/tests_v5_fit_managed.py": "7c7c759889b3783483049fa873c242736e0cdfe87cf08ab468fe53e98537b886",
+    "src/generalization_knowncell_joint_design_20261009/__init__.py": "44592d44f39aa46e6c3a29ddbdec951bf1032696ba2a5374dacf0c82f0ef55e4",
+    "src/generalization_knowncell_joint_design_20261009/spec.py": "6ec18ef9bad567a74b7cb435cdb6aa535421e6bc11bcd9fd50eb7d104eac4c26",
+    "src/generalization_knowncell_joint_implementation_20261022/__init__.py": "7a9f25e06bb2197a78d2607339d60c512e70c6edd33e7e101116d738be63d9f4",
+    "src/generalization_knowncell_joint_implementation_20261022/admission.py": "dbb318fcc310102e1a3dddd9397bbdf9e6f624532d0fb7ea70d9548005f8e773",
+    "src/generalization_knowncell_joint_implementation_20261022/contracts.py": "c25387a5d23005f8e00ae7ba5c6ce507c4f5a8658e5997113b8bc834c60e024e",
+    "src/generalization_knowncell_joint_implementation_20261022/prepare.py": "211a30c51f6da214b711504ee4ab366927c0b3433b95d6c36f6ef332b80395db",
+    "src/generalization_knowncell_joint_implementation_20261022/spec.py": "3311891fa87d846ec09a85dac6882acae2d5d352181e648da511e97284d64ce2",
+    "src/generalization_knowncell_joint_input_bridge_20261023/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_knowncell_joint_input_bridge_20261023/__init__.py": "0fb8c26c87a603e589ebb71866ecdc3557cac03a65bb880bbea7664781ce5a4a",
+    "src/generalization_knowncell_joint_input_bridge_20261023/bridge.py": "da331094439d976c9cb5fe216518ed5397f7b3756fac9f9751a5e7b4c004bb29",
+    "src/generalization_knowncell_joint_input_bridge_20261023/contracts.py": "fca5559b0790ee911fad6ca00943d9fa46940ae31f279f31d1a25f6d4a156e7a",
+    "src/generalization_knowncell_joint_input_bridge_20261023/prepare.py": "9f04b9bd84a2fd58c206371a4faff3765b4d959fbe7c66db032c29e7edf278a2",
+    "src/generalization_knowncell_joint_input_bridge_20261023/sampler.py": "61dea88f41bd557666994d45945a583678fd9f5d235851ddef20e6b04223c82c",
+    "src/generalization_knowncell_joint_input_bridge_20261023/spec.py": "544471d5bfca6abe6de873b9c76211fefff0356160788385b109fd842656887f",
+    "src/generalization_knowncell_joint_input_bridge_20261023/tests.py": "c80c5c5f3f635de664c73b3bf8a7739b5f6fdadd0d81f91215c4106f2ab926c6",
+    "src/generalization_knowncell_joint_loader_20261022/__init__.py": "974b868cc31b6f0be05d759ace333cc807bd135404109d29ef4fceb325ff86d1",
+    "src/generalization_knowncell_joint_loader_20261022/guard.py": "5a91012ce95b822e2cdd04bc2e4c90a0c1b2e01f7f203bb0c3b26ec69fcd353f",
+    "src/generalization_knowncell_joint_loader_20261022/loader.py": "c0f0754f9821e9c75bccc734a7721d754c3cf2b39ad399e1adaa04a30a27b899",
+    "src/generalization_knowncell_joint_loader_20261022/parsers.py": "04717e8a0031d008f9b33392ce8a45db7f17d0c1c13a0fd62b7873e60def688f",
+    "src/generalization_knowncell_joint_loader_20261022/spec.py": "2171af8e10b1b3568eb70ae79203e74e99dc70c45663928dc3e93c631bbc9098",
+    "src/generalization_knowncell_metadata_independent_20261023/__init__.py": "48b50bc3043c1c14e07be3d37e3a42d4e8a0584d29efe3d7b8c4c5928c1d8052",
+    "src/generalization_knowncell_metadata_independent_20261023/spec.py": "ec427a7a4c04be7a307ca890ec0ae61311386ca0aed6919041d3fac2a8f1a1ed",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/__init__.py": "1fcf350a8e8f4efa52bc57c2361097b5876b3acd3027252a81d732aad9d81b22",
+    "src/generalization_knowncell_metadata_verification_execution_20261024/common.py": "756eaeaa6af20f9c26f5b5780ab29e7587dc6298ea32d76088f6165d3c9500cc"
+  },
+  "loaded_workspace_source_modules": {
+    "__main__": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/prepare_v5_fit_managed.py",
+      "sha256": "c8f3fb02c45e01afe7362b368f67c63f8d81576584591aa8150d373232cf8b0f"
+    },
+    "src": {
+      "path": "src/__init__.py",
+      "sha256": "f2119a6b4b46bae5262a99c4bba45dea895dd587b86d3edd0a7703ea6dbade19"
+    },
+    "src.generalization_knowncell_bounded_execution_20261023": {
+      "path": "src/generalization_knowncell_bounded_execution_20261023/__init__.py",
+      "sha256": "985bc2be388a9b7a51dac0bdd48d5647d6473d814c7638afc895c079ff77e604"
+    },
+    "src.generalization_knowncell_bounded_execution_20261023.common": {
+      "path": "src/generalization_knowncell_bounded_execution_20261023/common.py",
+      "sha256": "ea7c7eda94a86c734336094fb0fe41f082aaacd301b224fddc1078d6479197fe"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/__init__.py",
+      "sha256": "d9ba82eeee245c07546c3ac844ab5dc61a12cb3b8803f2b0ac3c1aa2dd9131dd"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024.bridge_v5_fit_managed": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v5_fit_managed.py",
+      "sha256": "b482ecfab8484309fed1bc799b9376a971a8f03bbe3363dca5796ce17acde1d9"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024.contracts": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/contracts.py",
+      "sha256": "347f329d367746a665a1d175f3048f1a21dc61205c4fd11cda9efa1fa1aa0c18"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024.contracts_v3": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/contracts_v3.py",
+      "sha256": "2f2d7d5ef5f81b9b1d7f18c7772109422374a2f0253ef3b8b985f0671997672a"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024.spec": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/spec.py",
+      "sha256": "955c122f247146cc9bb2a116721fe6e83ce8066ce52e23e788f521015215dd74"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v2": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v2.py",
+      "sha256": "006738eeb91610a07bdc26240ab6b1f7f5769c233528fe0c4b0cdd17f8963a1d"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v3": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v3.py",
+      "sha256": "52dfac3be2ae25e2dab672ada89cef5265c71ff4c6de418a838d5e642f41cefa"
+    },
+    "src.generalization_knowncell_calibrated_input_bridge_20261024.spec_v5_fit_managed": {
+      "path": "src/generalization_knowncell_calibrated_input_bridge_20261024/spec_v5_fit_managed.py",
+      "sha256": "afaed1e300957493e9dc42216c5b6adedb4e3df250de473b26976aec7e4a3da5"
+    },
+    "src.generalization_knowncell_joint_design_20261009": {
+      "path": "src/generalization_knowncell_joint_design_20261009/__init__.py",
+      "sha256": "44592d44f39aa46e6c3a29ddbdec951bf1032696ba2a5374dacf0c82f0ef55e4"
+    },
+    "src.generalization_knowncell_joint_design_20261009.spec": {
+      "path": "src/generalization_knowncell_joint_design_20261009/spec.py",
+      "sha256": "6ec18ef9bad567a74b7cb435cdb6aa535421e6bc11bcd9fd50eb7d104eac4c26"
+    },
+    "src.generalization_knowncell_joint_implementation_20261022": {
+      "path": "src/generalization_knowncell_joint_implementation_20261022/__init__.py",
+      "sha256": "7a9f25e06bb2197a78d2607339d60c512e70c6edd33e7e101116d738be63d9f4"
+    },
+    "src.generalization_knowncell_joint_implementation_20261022.admission": {
+      "path": "src/generalization_knowncell_joint_implementation_20261022/admission.py",
+      "sha256": "dbb318fcc310102e1a3dddd9397bbdf9e6f624532d0fb7ea70d9548005f8e773"
+    },
+    "src.generalization_knowncell_joint_implementation_20261022.contracts": {
+      "path": "src/generalization_knowncell_joint_implementation_20261022/contracts.py",
+      "sha256": "c25387a5d23005f8e00ae7ba5c6ce507c4f5a8658e5997113b8bc834c60e024e"
+    },
+    "src.generalization_knowncell_joint_implementation_20261022.prepare": {
+      "path": "src/generalization_knowncell_joint_implementation_20261022/prepare.py",
+      "sha256": "211a30c51f6da214b711504ee4ab366927c0b3433b95d6c36f6ef332b80395db"
+    },
+    "src.generalization_knowncell_joint_implementation_20261022.spec": {
+      "path": "src/generalization_knowncell_joint_implementation_20261022/spec.py",
+      "sha256": "3311891fa87d846ec09a85dac6882acae2d5d352181e648da511e97284d64ce2"
+    },
+    "src.generalization_knowncell_joint_input_bridge_20261023": {
+      "path": "src/generalization_knowncell_joint_input_bridge_20261023/__init__.py",
+      "sha256": "0fb8c26c87a603e589ebb71866ecdc3557cac03a65bb880bbea7664781ce5a4a"
+    },
+    "src.generalization_knowncell_joint_input_bridge_20261023.contracts": {
+      "path": "src/generalization_knowncell_joint_input_bridge_20261023/contracts.py",
+      "sha256": "fca5559b0790ee911fad6ca00943d9fa46940ae31f279f31d1a25f6d4a156e7a"
+    },
+    "src.generalization_knowncell_joint_input_bridge_20261023.spec": {
+      "path": "src/generalization_knowncell_joint_input_bridge_20261023/spec.py",
+      "sha256": "544471d5bfca6abe6de873b9c76211fefff0356160788385b109fd842656887f"
+    },
+    "src.generalization_knowncell_joint_loader_20261022": {
+      "path": "src/generalization_knowncell_joint_loader_20261022/__init__.py",
+      "sha256": "974b868cc31b6f0be05d759ace333cc807bd135404109d29ef4fceb325ff86d1"
+    },
+    "src.generalization_knowncell_joint_loader_20261022.guard": {
+      "path": "src/generalization_knowncell_joint_loader_20261022/guard.py",
+      "sha256": "5a91012ce95b822e2cdd04bc2e4c90a0c1b2e01f7f203bb0c3b26ec69fcd353f"
+    },
+    "src.generalization_knowncell_joint_loader_20261022.loader": {
+      "path": "src/generalization_knowncell_joint_loader_20261022/loader.py",
+      "sha256": "c0f0754f9821e9c75bccc734a7721d754c3cf2b39ad399e1adaa04a30a27b899"
+    },
+    "src.generalization_knowncell_joint_loader_20261022.parsers": {
+      "path": "src/generalization_knowncell_joint_loader_20261022/parsers.py",
+      "sha256": "04717e8a0031d008f9b33392ce8a45db7f17d0c1c13a0fd62b7873e60def688f"
+    },
+    "src.generalization_knowncell_joint_loader_20261022.spec": {
+      "path": "src/generalization_knowncell_joint_loader_20261022/spec.py",
+      "sha256": "2171af8e10b1b3568eb70ae79203e74e99dc70c45663928dc3e93c631bbc9098"
+    },
+    "src.generalization_knowncell_metadata_independent_20261023": {
+      "path": "src/generalization_knowncell_metadata_independent_20261023/__init__.py",
+      "sha256": "48b50bc3043c1c14e07be3d37e3a42d4e8a0584d29efe3d7b8c4c5928c1d8052"
+    },
+    "src.generalization_knowncell_metadata_independent_20261023.spec": {
+      "path": "src/generalization_knowncell_metadata_independent_20261023/spec.py",
+      "sha256": "ec427a7a4c04be7a307ca890ec0ae61311386ca0aed6919041d3fac2a8f1a1ed"
+    },
+    "src.generalization_knowncell_metadata_verification_execution_20261024": {
+      "path": "src/generalization_knowncell_metadata_verification_execution_20261024/__init__.py",
+      "sha256": "1fcf350a8e8f4efa52bc57c2361097b5876b3acd3027252a81d732aad9d81b22"
+    },
+    "src.generalization_knowncell_metadata_verification_execution_20261024.common": {
+      "path": "src/generalization_knowncell_metadata_verification_execution_20261024/common.py",
+      "sha256": "756eaeaa6af20f9c26f5b5780ab29e7587dc6298ea32d76088f6165d3c9500cc"
+    }
+  },
+  "old_bindings_preserved": true,
+  "only_new_binding_path": "results/generalization_knowncell_calibrated_input_bridge_20261024/root_bindings_v5_fit_managed_20261025.json",
+  "previous_V3_manifest_sha256": "67d7660c759b3aa4269640ea19b7bfb55be407a0746b57d1ac670b03ffb7cdf8",
+  "required_bridge_module": "src.generalization_knowncell_calibrated_input_bridge_20261024.bridge_v5_fit_managed",
+  "retry_or_runtime_or_FIT_authority_granted": false,
+  "status": "SOURCE_READY_V5_MANAGED_FRESH_FIT_BINDING_PATH_NO_RETRY_OR_FIT_AUTHORITY"
+}

@@ -1,0 +1,38 @@
+{
+  "UTC": "2026-10-25T08:50:46.5562014Z",
+  "D": [
+    {
+      "DriveLetter": "D",
+      "DriveType": "Fixed",
+      "FileSystem": "exFAT",
+      "HealthStatus": "Warning",
+      "OperationalStatus": "Full Repair Needed",
+      "SizeRemaining": 1168459169792
+    }
+  ],
+  "disk": [
+    {
+      "Number": 1,
+      "BusType": "USB",
+      "PartitionStyle": "GPT",
+      "HealthStatus": "Healthy",
+      "OperationalStatus": "Online",
+      "IsReadOnly": false,
+      "IsOffline": false
+    }
+  ],
+  "C": [
+    {
+      "DriveLetter": "C",
+      "FileSystem": "NTFS",
+      "HealthStatus": "Healthy",
+      "OperationalStatus": "OK",
+      "SizeRemaining": 7254675456
+    }
+  ],
+  "dirty_query": [
+    "Volume - D: is Dirty"
+  ],
+  "repair_or_dismount_performed": false,
+  "new_scientific_attempt_started": false
+}

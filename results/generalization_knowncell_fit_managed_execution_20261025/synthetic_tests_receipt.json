@@ -1,0 +1,28 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_fit_managed_execution_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_fit_managed_execution_20261025/build.py": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0",
+    "src/generalization_knowncell_fit_managed_execution_20261025/calibration.py": "3b45c78033140dfff72acb718a925c684d983a25ff5a4b44fe8813ace6abc0c3",
+    "src/generalization_knowncell_fit_managed_execution_20261025/common.py": "e6b823c63ad82f5edcc82b70f345f73000cfcb90b5158acc88c541bde06dd1b2",
+    "src/generalization_knowncell_fit_managed_execution_20261025/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_fit_managed_execution_20261025/journal.py": "d871bd4460c2147c52c69b59eb319952889927bcc21d4e46e448cd9c72e44dc2",
+    "src/generalization_knowncell_fit_managed_execution_20261025/monitor.py": "dbfbd5ba7ad0f9005c4e5cf2c20b88ad09dc4626a8c77579b8cee829784d2a1a",
+    "src/generalization_knowncell_fit_managed_execution_20261025/prepare.py": "fe68e725ddbfa5cf31c9646f372f63c6f59952bfb51b33db09a436b8e7f5f05b",
+    "src/generalization_knowncell_fit_managed_execution_20261025/projection_io.py": "8df82c8cff2a84f258c5747c4bbdb0d2f071bd7574520bed0e5575998b83419c",
+    "src/generalization_knowncell_fit_managed_execution_20261025/spec.py": "d011f70d365da073f7435d5bb24afe5f6ef5ea4bc2baad9543aca88c8c29143b",
+    "src/generalization_knowncell_fit_managed_execution_20261025/supervise.py": "3da8a72aedf348cd7a47b72a5470be8add573199c5a0f84007ff9f8b3a112fc7",
+    "src/generalization_knowncell_fit_managed_execution_20261025/terminal.py": "49cbd3d714813ea93a4477b4f5df7042c799c39486d15ddfb2a3f68ceb2e1279",
+    "src/generalization_knowncell_fit_managed_execution_20261025/tests.py": "678281a88caeb8c3c7dbb27a7e974c4df6902e6e3b817aa9b2ffa5d3308f54e0",
+    "src/generalization_knowncell_fit_managed_execution_20261025/worker.py": "2aa2068bdf8513d43c1f9520983e2d046fed24e2f04c007cfb0f3d885a157ffe"
+  },
+  "status": "PASS_INVENTED_FIXED_FIT_EXECUTION_NOT_ACTUAL_FIT",
+  "tests": 23
+}
