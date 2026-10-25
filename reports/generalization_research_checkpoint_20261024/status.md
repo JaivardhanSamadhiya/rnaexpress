@@ -120,3 +120,11 @@ under the additional owned resident cap; (2) freeze/review a separate capped
 FIT generation and use the one pending manual try only with its valid inputs
 and live reserves; (3) independently replay a complete campaign and run the
 unchanged gate. No completed63/84 campaign or new scientific positive exists.
+
+The separate native numerical paging diagnostic now PASSES:12 unchanged
+invented optimizer units match acceptedV4 canonical bytes exactly,384MiB
+pattern buffers retain three independently checked hashes,492.63MiB peakprivate
+and190.004MiB peakresident,9.828seconds. All137frozenpins and saved native
+proofs rehash; protect33 passes. Certificate089e8fc6ea8fa43f5ef3e6c0310aa6d613d4b67d53073c8f3e2f02762b04c901.
+The full-study capped controller is being independently reviewed before one
+manual try. No biological positive,completecampaign or newbirth exists yet.
