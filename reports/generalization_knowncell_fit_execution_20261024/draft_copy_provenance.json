@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "src/generalization_knowncell_metadata_verification_execution_20261024/monitor.py": {
+      "owned_copy": "src/generalization_knowncell_fit_execution_20261024/monitor.py",
+      "source_sha256_at_copy": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a"
+    },
+    "src/generalization_knowncell_prefit_execution_20261024/build.py": {
+      "owned_copy": "src/generalization_knowncell_fit_execution_20261024/build.py",
+      "source_sha256_at_copy": "773ded5959dea59fddbd00a5751fa525fdd7708df061a94cdd26e55fdf258434"
+    },
+    "src/generalization_knowncell_prefit_execution_20261024/calibration.py": {
+      "owned_copy": "src/generalization_knowncell_fit_execution_20261024/calibration.py",
+      "source_sha256_at_copy": "422ea38e30dd579acfa16c754aec5492f04c184d54f91d092fc78b8b65bf71b1"
+    },
+    "src/generalization_knowncell_prefit_execution_20261024/common.py": {
+      "owned_copy": "src/generalization_knowncell_fit_execution_20261024/common.py",
+      "source_sha256_at_copy": "4f3596d9cd25552b3f65c47bf316a68b7551e5a0aa95bfe3fc98a4b36e1a0e20"
+    },
+    "src/generalization_knowncell_prefit_execution_20261024/inputs.py": {
+      "owned_copy": "src/generalization_knowncell_fit_execution_20261024/inputs.py",
+      "source_sha256_at_copy": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9"
+    }
+  },
+  "status": "OWNED_SOURCE_COPY_ONLY_NO_IMPORTED_MUTABLE_PREFIT_DEPENDENCY"
+}

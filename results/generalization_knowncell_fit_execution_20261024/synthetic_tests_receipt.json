@@ -1,0 +1,27 @@
+{
+  "actual_jobs": 0,
+  "actual_pools_prepared": 0,
+  "actual_provider_invocations": 0,
+  "actual_resource_probes": 0,
+  "numeric_pool_and_runtime_edges_in_tests_are_private_mocks": true,
+  "optimizer_calls": 0,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "sources": {
+    "src/generalization_knowncell_fit_execution_20261024/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_fit_execution_20261024/build.py": "e8f8ddb78941d23dc9962dd478516425ca503b7c47329fa772a6303d9e7f4cf0",
+    "src/generalization_knowncell_fit_execution_20261024/calibration.py": "f9da1260f27858222daf292d7761f9e5ea3553390ef3098e5993f672b99e0513",
+    "src/generalization_knowncell_fit_execution_20261024/common.py": "d5a462c391a502ad9cadab06ad32a34121cf293bf22d32ce14512b476d7dc378",
+    "src/generalization_knowncell_fit_execution_20261024/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_fit_execution_20261024/monitor.py": "b73103de3e7d349f34902840fa7bf6f80ed2649768de38a7f2b9287f3c0e221a",
+    "src/generalization_knowncell_fit_execution_20261024/prepare.py": "33eb77ba1064296e98096d907466db152d520825b71d14d3d82913cf8e2d45a9",
+    "src/generalization_knowncell_fit_execution_20261024/projection_io.py": "05a08915e30770f888fc1890092aa2e8628614f018d5531388bdeaeffed2407a",
+    "src/generalization_knowncell_fit_execution_20261024/spec.py": "6c52fc0e7845e1b29a2742a1de5292b4d3c6734887ee8ac90f354548571fa68b",
+    "src/generalization_knowncell_fit_execution_20261024/supervise.py": "9ee59636da094e49fa5e0f6dee0536d64e03f55b3eb6ca257b909905fde1a7a5",
+    "src/generalization_knowncell_fit_execution_20261024/terminal.py": "49cbd3d714813ea93a4477b4f5df7042c799c39486d15ddfb2a3f68ceb2e1279",
+    "src/generalization_knowncell_fit_execution_20261024/tests.py": "586ef9284bd4dd3d8306851e6f13fbb3263014af00ec6b8d08122a3ad16d29b3",
+    "src/generalization_knowncell_fit_execution_20261024/worker.py": "20c3378321b24880afcfcf7261905c833264931e2b51b95f1a8a73677c25ff08"
+  },
+  "status": "PASS_INVENTED_FIXED_FIT_EXECUTION_NOT_ACTUAL_FIT",
+  "tests": 14
+}
