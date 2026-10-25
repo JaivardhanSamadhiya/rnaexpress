@@ -1,0 +1,9 @@
+{
+  "actual_native_probe_model_or_optimizer_calls": 0,
+  "correction": "Exclude only exact inline __main__ with <stdin> before workspace file inventory; retain every actual workspace imported module",
+  "error": "Audit attempted to hash inline __main__.__file__=<stdin> after resolving it within workspace; not an actual module source file",
+  "library_source_changes": false,
+  "project_payload_reads": 0,
+  "scientific_imports": false,
+  "status": "PRESERVED_IMPORT_CLOSURE_AUDIT_SCRIPT_ERROR_NOT_LIBRARY_IMPORT_FAILURE"
+}

@@ -1,0 +1,25 @@
+{
+  "UTC": "2026-10-24T22:12:22.395559+00:00",
+  "actual_Git_calls": 0,
+  "actual_optimizer_calls": 0,
+  "actual_owner_contexts_verified": 0,
+  "actual_prefit_or_admission_created": false,
+  "actual_resource_probes": 0,
+  "initial_test_receipt_sha256": "728c9f29ba039620c33f78c4f087a132bab90ff71e860f3933362c81232cc280",
+  "invented_temporary_campaign_birth_only": true,
+  "native_or_scientific_imports": false,
+  "preserved_preparation_failure": "preparation_attempt_01_incident.json",
+  "production_context_verifiers_used": 0,
+  "production_resources_or_stage_authority_granted": false,
+  "project_payload_reads": 0,
+  "source_files": {
+    "src/generalization_knowncell_prefit_projection_20261024/__init__.py": "e3095f4a9342c56d9e27d5a8d423040b4b7c3c60307a8cdb16c941514f2ca8b5",
+    "src/generalization_knowncell_prefit_projection_20261024/prepare.py": "020389ef0d7a7d3e97bdc617da30c7916755b644700b6a7137a0a0f88467851b",
+    "src/generalization_knowncell_prefit_projection_20261024/projection.py": "f493c1934d125257ba92e83076490f8f8335e51760a2ee1e36d4366644cc4dd8",
+    "src/generalization_knowncell_prefit_projection_20261024/spec.py": "8dafb095bfd48265afe455b1f9fb0b5e297d4678f7e9c6a4d3123d5444622524",
+    "src/generalization_knowncell_prefit_projection_20261024/tests.py": "ddccdaeb2ef0445ce443034461c03e2c3e69d7621b329513d9b694fbc80fae17",
+    "src/generalization_knowncell_prefit_projection_20261024/tests_reviewed.py": "af2f3b1940ff51bf04939a6a0e3a2b38a965b8941f546d2b0a7cbb9bba913f76"
+  },
+  "status": "PASS_INVENTED_CALIBRATED_PREFIT_PROJECTION_NOT_ACTUAL_ADMISSION",
+  "tests": 15
+}
