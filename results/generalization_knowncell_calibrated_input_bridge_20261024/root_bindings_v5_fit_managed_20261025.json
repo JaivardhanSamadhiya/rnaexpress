@@ -1,0 +1,23 @@
+{
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "array_certificate_sha256": "8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa",
+  "array_supervisor_sha256": "4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "bridge_readiness_sha256": "522171b3436cfbfcb8929407f9d2b595e4ebbe12b66be120288b3198093a55ac",
+  "fit_source_manifest_sha256": "109a2bd1cd7e1b62f5a7607d67b3cd5da75192e4dfb9af46b1e5cb8b0fc7436e",
+  "label_certificate_sha256": "46b87936ebaf093b80f7666b64f0bd92eb73a6b753b3661b3bafa229514b78ee",
+  "lifecycle_v2_manifest_sha256": "8064cd93128421a9cdcd3d85491c47e94b002a380ef85bd4fc70ae3c9745ea08",
+  "metadata_bundle_sha256": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+  "namespace": "generalization_knowncell_calibrated_input_bridge_20261024",
+  "native_profile_receipt_sha256": "dc3e6a1e2f31b5d6c868de7302feb0e1e719835cc370f0eb5eacb307d08b5b2b",
+  "numeric_source_manifest_sha256": "92a430a99019ee68e6085d56afc9faca89c9e7d1f1abe965c67869fabfe9c2df",
+  "reviewed_controller_admission_sha256": "1764378c1efc07a3211ffaf3ce82eab00fa887649427cda31de19d20724a621f",
+  "reviewed_controller_source": "src/generalization_knowncell_fit_managed_execution_20261025/worker.py",
+  "reviewed_controller_source_sha256": "2aa2068bdf8513d43c1f9520983e2d046fed24e2f04c007cfb0f3d885a157ffe",
+  "reviewed_owned_caller_required": true,
+  "runtime_and_FIT_authority_granted_here": false,
+  "runtime_binding_sha256": "0c80abde4d1fa8d3b76266e5b7f1fda8feaed96d91a865385c08f4025f21454a",
+  "stage": "fit",
+  "status": "FROZEN_STATIC_ROOT_CALIBRATED_INPUT_BINDINGS_V3_NOT_FIT_PERMISSION"
+}
