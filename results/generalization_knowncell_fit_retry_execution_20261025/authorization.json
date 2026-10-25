@@ -1,0 +1,15 @@
+{
+  "actual_question": "Approve one fresh fixed known-cell fit attempt, starting only with \u22652 GiB available RAM? The first attempt stopped on the 256 MiB system-RAM reserve after 46 checkpoints; its files remain preserved. This permits exactly one complete 63-checkpoint/84-unit attempt from zero in a new namespace, with the same data, science, 768/896 MiB caps, live reserves, one worker/thread and 30-minute limit. No resume, automatic retry or spending. Please also free unused tabs/apps before launch. Review: D:/rnaexpress/reports/generalization_knowncell_fit_retry_execution_20261025/approval_scope.md (commit 4892eb6c9). Exact source manifest: 8f30e3684125044dc1db3c9b66d05c8633fda4f4201cf1b91cf7c5c5e3c8a738. Separate approval is required by your prior scope\u2019s explicit no-automatic-retry condition.",
+  "additional_attempts_authorized": 1,
+  "approval_scope_sha256": "317bb5643bd2734ed7bfd839eb60386b9c1b3c058757753fb63bf2e34b04ab6f",
+  "approved_answer": "Approve one fresh fixed known-cell fit attempt",
+  "automatic_retry_authorized": false,
+  "explicit_human_response_recorded": true,
+  "failed_supervisor_sha256": "7b65ac90409391891ce9c6eb63ee2f2babd6edc0e6bf89675276aca21ade4e75",
+  "generation_manifest_sha256": "8f30e3684125044dc1db3c9b66d05c8633fda4f4201cf1b91cf7c5c5e3c8a738",
+  "minimum_startup_physical_available": 2147483648,
+  "partial_resume_authorized": false,
+  "question_item_id": "[\"request_user_input_async\",\"call_d86c602784154bd2b856e27f30d5848e\",0]",
+  "spending_authorized": false,
+  "status": "EXPLICIT_HUMAN_AUTHORIZATION_ONE_ADDITIONAL_FIXED_KNOWNCELL_FIT"
+}
