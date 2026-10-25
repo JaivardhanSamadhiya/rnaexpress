@@ -1,0 +1,24 @@
+{
+  "actual_stage_authority_granted_here": false,
+  "additional_top_level_provenance_fields": [
+    "prefit_execution"
+  ],
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "input_admission_bindings_sha256": "bcc96ad6d357ebbafed43a83c6afde99d02fa08d1ffc1e901b65b08c92174e99",
+  "permitted_projection": {
+    "actual_value": true,
+    "legacy_view_value": false,
+    "top_level_field": "resource_exception_applies"
+  },
+  "prefit_commit": "46101eed4a050a954afaa4868a8de3fbb884ec31",
+  "prefit_owner_receipt_sha256": "bc95c47be73a764141978e4ffc256cfda80ca19846d6977399214aaff0a77b1f",
+  "prefit_relative_path": "results/generalization_knowncell_prefit_execution_20261024/prefit_manifest.json",
+  "prefit_sha256": "1556b08726430ec5b9d9aca276687b2825ef4d076b01d7bf97ddb9d1fc3ad134",
+  "projection_source_manifest_sha256": "0e888efb4bc7b7ff0b12907bbd49b7149a1974788cfb6213a76a0071aa2b81ba",
+  "runtime_binding_sha256": "0c80abde4d1fa8d3b76266e5b7f1fda8feaed96d91a865385c08f4025f21454a",
+  "schema_version": 1,
+  "scientific_settings_changed": false,
+  "status": "ROOT_FROZEN_CALIBRATED_PREFIT_COMPATIBILITY_ADMISSION"
+}
