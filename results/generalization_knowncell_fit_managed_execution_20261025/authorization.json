@@ -1,0 +1,23 @@
+{
+  "D_volume_dirty_warning_not_cleared": true,
+  "UTC_recorded": "2026-10-25T10:05:40.090541+00:00",
+  "actual_question_id": [
+    "request_user_input_async",
+    "call_b9573fcf727f44ba8de9f641b415b324",
+    0
+  ],
+  "additional_attempts_authorized": 1,
+  "approval_scope_sha256": "40f42c38cf2d02236afb2724daa38ec843645da2704a30d72cb3a38d1ebe87c8",
+  "approved_answer": "Approve one managed fresh fixed known-cell fit attempt",
+  "automatic_retry_authorized": false,
+  "continued_D_use_explicitly_requested": true,
+  "explicit_human_response_recorded": true,
+  "generation_manifest_sha256": "6d2c7bfdc0d8d03290882f3a409ec92f3895b56a2778b344b9d5d77e7cbaddcb",
+  "interrupted_attempt_audit_sha256": "2e6ca1952be52fe5bdbe154cf90d3bc6f7d000a16d2fc4d7e16ed3947e065b4a",
+  "managed_supervisor_required": true,
+  "minimum_startup_physical_available": 2147483648,
+  "partial_resume_authorized": false,
+  "review_commit": "06482be1ec92a4b38798e862e5c2f6ddd95efa43",
+  "spending_authorized": false,
+  "status": "EXPLICIT_HUMAN_AUTHORIZATION_ONE_MANAGED_FIXED_KNOWNCELL_FIT"
+}
