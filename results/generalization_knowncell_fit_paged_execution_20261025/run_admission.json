@@ -1,0 +1,73 @@
+{
+  "CORE_read_authorized": false,
+  "actual_prefit_commit": "46101eed4a050a954afaa4868a8de3fbb884ec31",
+  "approval_scope_sha256": "c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495",
+  "approved_policy_manifest_sha256": "a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9",
+  "array_reload_authorized": true,
+  "authorization_sha256": "b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3",
+  "checkpoint_count": 63,
+  "data_pins": {
+    "artifacts/generalization_crosscell_20261007/simple_model_features.npz": "490ab90c1289ea50a75ff6960b9a979f2f2bd747b1c9419ed7c085383272c8a6"
+  },
+  "generation_manifest_sha256": "4a8d83023675d17cdc4af37801dc69df4b2c49d7b397a2cfd6ba1aa8b519d632",
+  "input_pins": {
+    "results/generalization_knowncell_array_execution_20261024/array_admission_certificate.json": "8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa",
+    "results/generalization_knowncell_array_execution_20261024/array_supervisor_receipt.json": "4b81c83cbaa5b2642ee568a467f2da7dd0b4f33d9f0f3ca1870c7c15fa1a6bd9",
+    "results/generalization_knowncell_calibrated_input_bridge_20261024/root_bindings_v7_fit_paged_20261025.json": "b36029b44c360d2979b5236ddd980cb2394d7d11211ed27bccbf57c4d25af130",
+    "results/generalization_knowncell_fit_paged_execution_20261025/controller_source_admission.json": "82b65f4aa094587145da174359e63ea07b6a6d694a05c0cd0e1d557f107b045e",
+    "results/generalization_knowncell_fit_paged_execution_20261025/fit_runtime_request.json": "b1cb4096f211131d58ffe1800a80889cef676ee1d5d8b923defd5a044d2c61bf",
+    "results/generalization_knowncell_joint_loader_20261022/admitted_metadata.json": "1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc",
+    "results/generalization_knowncell_labels_execution_v2_20261024/labels_supervisor_receipt.json": "e690e04c24ced2892ecfc830e4317780e9db8cb231af03ada316ca279b673056",
+    "results/generalization_knowncell_labels_execution_v2_20261024/original_pandas_label_certificate.json": "46b87936ebaf093b80f7666b64f0bd92eb73a6b753b3661b3bafa229514b78ee",
+    "results/generalization_knowncell_prefit_execution_20261024/prefit_manifest.json": "1556b08726430ec5b9d9aca276687b2825ef4d076b01d7bf97ddb9d1fc3ad134",
+    "results/generalization_knowncell_prefit_execution_20261024/prefit_supervisor_receipt.json": "bc95c47be73a764141978e4ffc256cfda80ca19846d6977399214aaff0a77b1f",
+    "results/generalization_knowncell_prefit_execution_20261024/prefit_worker_completion.json": "8b492461b4f3b13ed40a0b4d56a6bf766d469d2ac563c8fe6707a0c21ed4c3eb",
+    "results/generalization_knowncell_prefit_projection_v2_20261024/root_prefit_admission.json": "10075cac07c259153d1b223a101a974be3d11f59c3f375e47aa52eef627dfd68"
+  },
+  "interrupted_attempt_audit_sha256": "de3f700ee0094edc0d9428d8a9f73b9574d34f2f156891cfffa0088a5c467fe9",
+  "invocation": "fixed_63_checkpoint_84_optimizer_unit_fit",
+  "managed_supervisor_required": true,
+  "minimum_startup_physical_available": 1073741824,
+  "model_fitting_authorized": true,
+  "optimizer_units": 84,
+  "owned_resident_policy": {
+    "aggregate_private_job_cap": 939524096,
+    "apply_only_to_suspended_owned_worker_before_first_resume": true,
+    "configured_owned_worker_maximum": 199229440,
+    "live_reserves_threads_and_total_deadline_unchanged": true,
+    "measured_current_and_lifetime_ceiling": 201326592,
+    "parent_or_other_application_working_sets_changed": false,
+    "private_process_cap": 805306368,
+    "recheck_native_configuration_while_worker_running": true,
+    "sample_and_final_lifetime_counter_checks_required": true
+  },
+  "paging_evidence": {
+    "numerical_paging_profile_sha256": "9eda13d5a7e0de4d4eba58c069456f19dd1603bf804b85229380e55e090fd06f",
+    "owned_working_set_toy_sha256": "69c90cd57aa203addd0a603a0a0437c01b2571d8e3bf1bdd8cf232135c1d9aa1"
+  },
+  "pool_preparation_authorized": true,
+  "projection_root_admission_commit": "28e3f8dc915378ea9837654c536dbb5759475f88",
+  "resource_policy": {
+    "active_commit_headroom": 1073741824,
+    "active_physical_available": 268435456,
+    "active_process_cap": 2,
+    "automatic_retry": false,
+    "disk_available": 1073741824,
+    "job_cap": 939524096,
+    "lifetime_seconds_per_stage": 1800,
+    "monitor_poll_seconds": 0.1,
+    "numerical_threads": 1,
+    "process_cap": 805306368,
+    "resume": false,
+    "scientific_workers": 1,
+    "spending_authorized": false,
+    "startup_commit_headroom": 2013265920,
+    "startup_physical_available": 536870912
+  },
+  "resume": false,
+  "retry_authorization_sha256": "2566cacbec02345a4c422e82f872e0987e51eec05b5829202da23ea303a167e7",
+  "runtime_import_authorized": true,
+  "saved_label_read_authorized": true,
+  "stage": "fit",
+  "status": "FROZEN_ONE_EXACT63_CHECKPOINT84_UNIT_FIT_RUN"
+}
