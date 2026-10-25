@@ -1,0 +1,10 @@
+{
+  "status": "CAPTURED_MANAGED_COMMAND_EXIT_NOT_WORKER_COMPLETION",
+  "managed_session_id": 55393,
+  "exit_code": 1,
+  "stdout_status": "FAILED_OR_BLOCKED_FIT_INVOCATION_PRESERVED_NO_RETRY",
+  "failure": "Physical reserve below 256 MiB active",
+  "traceback_terminal": "supervise.py commit_receipt: AssertionError: Physical reserve below 256 MiB active",
+  "actual_supervisor_receipt_exists": true,
+  "scientific_attempt_restarted_or_resumed": false
+}

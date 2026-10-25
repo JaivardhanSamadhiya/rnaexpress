@@ -1,4 +1,4 @@
-# Research checkpoint: actual prefit accepted; both fit attempts incomplete
+# Research checkpoint: prefit accepted; three incomplete fits preserved
 
 The objective remains reliable ranking of small RNA edits in biological
 contexts excluded from training. Novel biological generalization has not been
@@ -29,7 +29,8 @@ is promised.
 | Frozen evaluation controller | Source ready;6+12 invented tests;original evaluator/gate unchanged and complete results losslessly preserved;actual execution awaits accepted replay |
 | Reconnected D: integrity | User reports accidental disconnection and explicitly requests continued D: use;543 source pins,all admitted inputs,69 attempt files and33 protected files match;Windows volume warning remains;no disk repair |
 | Managed toy process V2 | Complete361.125-second owned diagnostic;exit0,repeated durable D: writes,11.14MiB peak;no project payload or optimizer;does not certify volume health |
-| Proposed managed fresh fit | Additive587-pin source generation;23controller+8runtime+3bridge tests;independent scientific/operational review;no actual additional authorization or scientific execution |
+| Managed fresh fit | Actual separately approved587-pin run stopped physical reserve after32checkpoints/43units;28inner/4outer;511.82MiB worker/job peak;closed journal+FAILED receipt verified;no scientific verdict |
+| New4GiB-startup proposal | User explicitly requested a new try after freeing memory;new separate output/source paths prepared with23+8+3 tests;review/freeze and4GiB floor required;no newbirth/job yet |
 
 The actual metadata loader returned after its fixed input/menu/split checks;
 the worker then rejected a legitimate tuple in its receipt-copy helper. No
@@ -48,11 +49,11 @@ completed successfully and was reviewed/committed before any array access.
 
 ## Next work, in order
 
-1. Finish actual-call-path closure review and source-bound approval for the
-   prepared managed-launch proposal. Both incomplete attempts and the failed
-   first toy probe remain preserved. The earlier one-attempt approval is
-   consumed; another fit requires separate authorization. Continue using
-   D: as explicitly directed, without claiming its dirty-volume warning cleared.
+1. Finish the reviewed new4GiB-startup generation and record the actual new
+   "try it now" answer/context. Start its one fresh full attempt only when
+   at least4GiB is available. Preserve all three incomplete attempts and the
+   failed first toy probe;no automatic retry/resume. Continue usingD: as
+   explicitly directed, without claiming its dirty-volume warning cleared.
 2. After an authorized complete63-checkpoint/84-unit campaign, run the independently
    owned full arithmetic and source-only configuration replay without refitting.
 3. Run the unchanged complete outer evaluator and joint-only gate, preserving
@@ -79,6 +80,12 @@ reported exFAT bitmap corruption. The user explicitly requested continued D:
 use;no repair/dismount was performed. Exact frozen bytes match after reconnect,
 and a distinct six-minute toy I/O/process probe passes. This does not establish
 the old interruption cause or certify whole-volume health.
+The subsequent managed attempt has a known RAM-reserve stop after490.234seconds,
+32checkpoints/43units and133.21MiB minimum available RAM, while its worker/job
+peak remained511.82MiB. Its journal and failed receipt close correctly. The
+same scientific study remains unevaluated. The user freed more applications
+and requested one new try in context of a4GiB floor;the immediate check was
+still about2GiB, so the new namespace has not consumed a birth.
 Its frozen source, input pins, saved lifecycle bindings and33 protected user
 files pass a separate read-only interruption audit. Full completed
 FIT/replay/evaluation memory and performance remain unestablished. No partial
