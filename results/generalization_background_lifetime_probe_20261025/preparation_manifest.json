@@ -1,0 +1,40 @@
+{
+  "automatic_retry": false,
+  "biological_attempts": 0,
+  "duration_seconds": 1080,
+  "files": {
+    "artifacts/generalization_background_lifetime_probe_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "reports/generalization_background_lifetime_probe_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "reports/generalization_background_lifetime_probe_20261025/protocol.md": "ec4c0f96b260715f171b09796e69e3827229d0db5f5eb7f458a4fa6ed8049b15",
+    "results/generalization_background_lifetime_probe_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "results/generalization_background_lifetime_probe_20261025/probe_before_source_review.txt": "990e8d385c3d57978ad4fa723b3f760b5c9a5965a913ff1635ce7f8ca2b7e0fa",
+    "results/generalization_background_lifetime_probe_20261025/synthetic_tests_receipt.json": "dbdc2a46ee5e8dc202ee84d442f316ca04bee8c98e7de39a44250681814adc91",
+    "results/generalization_background_lifetime_probe_20261025/synthetic_tests_receipt_before_namespace_fix.json": "9b429bc5892a1bbb52c251b70d90b01c4d90fb43ef2be262217609152ed2585d",
+    "results/generalization_background_lifetime_probe_20261025/synthetic_tests_receipt_draft.json": "b33fb0d5da6943499720bd5f69da76d84544006f035eb54d304376fed6c521aa",
+    "src/__init__.py": "f2119a6b4b46bae5262a99c4bba45dea895dd587b86d3edd0a7703ea6dbade19",
+    "src/generalization_background_lifetime_probe_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "src/generalization_background_lifetime_probe_20261025/__init__.py": "4685f061e0d1490adc5f5255639b1dbdc4a940e0bcf6fdf3f13ee6c4130d3195",
+    "src/generalization_background_lifetime_probe_20261025/prepare.py": "674bf10fb799f619770527306a42e7430371d5b61096606d5c012a2f9eaf6ecf",
+    "src/generalization_background_lifetime_probe_20261025/probe.py": "a8defed64d77fb12d82126b1034ec6b860ec6a4fea019edc303754f531285b27",
+    "src/generalization_background_lifetime_probe_20261025/tests.py": "55c02c4e428c2394909e6be0992054a1a4ccf557d265216211eae163f1ec0290",
+    "src/generalization_owned_workingset_probe_v2_20261025/__init__.py": "597e35df2236cc58a49ccdb9d6536cb26e0d709574f0c6e3c8045fea4844cd5e",
+    "src/generalization_owned_workingset_probe_v2_20261025/working_set.py": "b7d0be3c3a91e090827462c5090721c943e462e19126d9c96393b337dbc3b125",
+    "src/generalization_pum_process_probe_20261021/headless.py": "7f741f1e024243546b8ab53b65f4b5245a1fc71a7d9e6de86757bf468c1928f0",
+    "src/generalization_pum_resource_calibration_20261009/winjob.py": "3a2b470f116e87ff6233cdc8710b2703cf33b908dae68ece7fb4592227b5f741"
+  },
+  "new_native_fingerprints_for_this_stdlib_toy_only": true,
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_native_files": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": "4623dc531b0883c3e714da5cb30e9b73e12aa5145f0d92c7b191ab1dcf699dfe",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": "f0d65efd7e2bc8f036d428de0db1b4743e5ebe51f133b7a6afd10d6913b7ce60",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": "9930d881ee11a91f7fd43ab28d5305194fbd2f88ea4a07661453c6885f409afd"
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "required_absent_namespace_inits": [
+    "src/generalization_pum_process_probe_20261021/__init__.py",
+    "src/generalization_pum_resource_calibration_20261009/__init__.py"
+  ],
+  "scientific_runtime_admission_granted": false,
+  "status": "FROZEN_INVENTED_BACKGROUND_LIFETIME_PROBE_NOT_SCIENTIFIC_ADMISSION",
+  "total_deadline_seconds": 1140
+}
