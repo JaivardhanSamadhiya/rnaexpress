@@ -1,0 +1,27 @@
+{
+  "FIT_attempt_started": false,
+  "cause_beyond_observed_process_count_not_yet_proven": true,
+  "elapsed_seconds": 3.1570000000065193,
+  "enforced_active_process_ceiling": 2,
+  "files_sha256": {
+    "prefit/attempt_birth.json": "aea96682528af6550e88f1876a65cec9a22b4e8f90d4533013e16239e6663e07",
+    "prefit/launch.stderr.log": "c3f4a658725490efd93eceb3925c2be99742a850ecbd70e7ff47ca7401010a23",
+    "prefit/launch.stdout.log": "82e67ddff883689a3f89ca54652bc18f8fbd70fb33fb6a8808caad0b56530168",
+    "prefit/launch_receipt.json": "b7ad94a1d0e529ebd901539db0976ddc6c4916bc7ceb2c243501dd58dbf9e743",
+    "prefit/owned_child_identity.json": "daeae705f4b64b035147eded70af75a874436cb0404de47c220761d6e5413d73",
+    "prefit/owned_child_started.json": "345809c97c177ec001a75ea940349b3e5decf4c237af55b1776fc3725442489b",
+    "prefit/parent.jsonl": "f4aa49c75d0ff61008d464986aff204feb782d24ae12f08dfa716d9324025601",
+    "prefit/run_admission.json": "09d1a82df984efddb6b1a6d4754d357464164828d4bb5fa0bd9c6db3e5eb29b7",
+    "prefit/supervisor_receipt.json": "a89a3f0fb40543004c9d8182cf9e3e5d92b34810372cb9a1df15b8faae5798fd",
+    "prefit/worker_fault.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "final_owned_active_processes": 0,
+  "minimum_sampled_physical_available": 887341056,
+  "no_automatic_retry": true,
+  "observed_maximum_active_owned_processes": 3,
+  "prefit_attempt_consumed": true,
+  "scientific_inputs_reopened_by_this_audit": false,
+  "source_manifest_sha256": "6c9a4e569f32dd2194a443eedeb54dc68c790ed6c65a89f8b43ea00e6d44fd0d",
+  "status": "VERIFIED_STARTUP_PROCESS_COUNT_STOP_NO_PREFIT_OR_FIT_PRODUCED",
+  "worker_peak_private_commit": 20013056
+}

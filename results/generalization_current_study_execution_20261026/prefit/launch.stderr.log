@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\jaisa\rnaexpress-recovery-20261025\material_snapshot_20261025\workspace\src\generalization_current_study_execution_20261026\supervise.py", line 142, in <module>
+    args=parser.parse_args();run(c.Stage(args.stage),args.manifest_sha,root_start_authorized=args.root_start_authorized)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jaisa\rnaexpress-recovery-20261025\material_snapshot_20261025\workspace\src\generalization_current_study_execution_20261026\supervise.py", line 136, in run
+    assert problem is None,problem
+           ^^^^^^^^^^^^^^^
+AssertionError: AssertionError: 
