@@ -1,0 +1,22 @@
+{
+  "UTC": "2026-10-26T00:53:38.387920+00:00",
+  "absent_source_cache_prefix": "D:\\rnaexpress\\results\\generalization_current_python_refresh_20261025\\never_created_source_cache",
+  "biological_inputs_read": false,
+  "elapsed_seconds": 0.46899999992456287,
+  "errors": 0,
+  "failures": 0,
+  "live_software_inventory_executed": false,
+  "model_fits": 0,
+  "native_origin_probe_executed": false,
+  "scientific_packages_imported": false,
+  "source_sha256": {
+    "src/generalization_current_python_refresh_20261025/__init__.py": "c649c123a5a26609d8b074be19f1dcef91ceb846e648dd2da9c3a51ab0a1d07f",
+    "src/generalization_current_python_refresh_20261025/contracts.py": "6c96bcc8059dd7af3b34c53a3a4f6d2f28adec6bda1f2e2358eaad782d9a66ed",
+    "src/generalization_current_python_refresh_20261025/inventory.py": "d2636a9ab673188ea1746c86839c99ab701a5056d4f03c381c2981940eac60bc",
+    "src/generalization_current_python_refresh_20261025/prepare.py": "1553193337fe3e081c84ea395fe38c0887bd9743ad6131ec533e63a3f78adb2e",
+    "src/generalization_current_python_refresh_20261025/spec.py": "f5f86157511692fb6d2ae4861f39f9f29ac43f4f8455920bd23d3238d83b1150",
+    "src/generalization_current_python_refresh_20261025/tests.py": "54e8d36358911ee9343fed07e679ef1d4abac14cda5863d6f38b3b423f97d74c"
+  },
+  "status": "PASS_INVENTED_STDLIB_REFRESH_CONTRACT_TESTS_NO_LIVE_INVENTORY",
+  "tests": 14
+}

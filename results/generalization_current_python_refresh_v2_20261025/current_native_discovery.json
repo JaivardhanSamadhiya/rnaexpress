@@ -1,0 +1,562 @@
+{
+  "UTC": "2026-10-26T00:56:46.033251+00:00",
+  "actually_loaded_DLL_origins_verified": false,
+  "biological_inputs_read": false,
+  "cause_or_exact_time_of_binary_change_established": false,
+  "changed_file_count": 38,
+  "changes_from_prior_inventory": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_asyncio.pyd": {
+      "current_sha256": "ff17a8910367d6355e9ab3c164e0558c955b5d0ecd24cc972ab1eba0da2d38ae",
+      "prior_sha256": "6b9cb4b3dafdf559777a08ed0529cb8669173bc85290817b167a00668b23f8e5"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_bz2.pyd": {
+      "current_sha256": "07f4282b8c882640102e0c660ef7bd10ff8b4023a6190d91867cc0e695ac29ac",
+      "prior_sha256": "74d7400786810eebb818d34f1dbb3f5c030be84c0051970f3a9efdee9ce2d8ea"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ctypes.pyd": {
+      "current_sha256": "42b4e914ccf114983c4c115edf83992b951d640305411e71b3d5456011f78bf5",
+      "prior_sha256": "fc308aac12c2c78ee5c12b617b8bbf606758de6ef2e8846f836e7a88ffe87f44"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ctypes_test.pyd": {
+      "current_sha256": "9f2804fa62ef6eb2abbad0cffe093cd0751ac7b87901711d4d71ae514ab4ae27",
+      "prior_sha256": "5c48139394a6229e7b1c3955aaf786dd101cb9c2a753385e5fe269e6e6d1cfbf"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_decimal.pyd": {
+      "current_sha256": "3f6aa863202fcc035c1c384d530dc0d6885793f083fa490f87b0c0c175bf18dc",
+      "prior_sha256": "851d955db66b3c136e106ade17ad1709c0a8c2264dc971123798ae5f7a903e13"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_elementtree.pyd": {
+      "current_sha256": "02106387f70347d96de0df5eb85fb3342743e0c734baa136023cd91c2c5a0251",
+      "prior_sha256": "df07d9e114b99411decec48f0f9cd74002240851dd9d25118436055118a78db7"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_hashlib.pyd": {
+      "current_sha256": "22041d27ae5b78c9554f92a0c4481246cea86e2d1c1118e3ada275072c196634",
+      "prior_sha256": "60570ffbff38c8625aa104eb1156cae2673ed0519c65ba8ce299f0ea6f458816"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_lzma.pyd": {
+      "current_sha256": "5e86c9337f692d4117a8ebc4e7c554a33f9dc946961df4866e52da9f4ce1c8fd",
+      "prior_sha256": "dbb3de2695a29d50d7d969b1d262583685d3988a5c373e0cf5f5bb9fd390c2ff"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_msi.pyd": {
+      "current_sha256": "bf30a886aea26bacc1fb8aa1383e1e69206dd9a7a0525d4abffe7b57788d053e",
+      "prior_sha256": "2f3730d0ebf3add33c68cd49b7a9eedb35fcea5becfa99a99827db88c9db358d"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_multiprocessing.pyd": {
+      "current_sha256": "c0c70e70fead9e4f8e91876d4f89d3c811ca4b1c9b2dcfbc4215259c14223931",
+      "prior_sha256": "87a57a3530af0ecf24e097b2926de2f57ba63df87ae0176ec189ec2d150dea90"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_overlapped.pyd": {
+      "current_sha256": "44e1048f65319ab35ff72e52cbb810137467f44ec5e068005f538fa8a353cbfb",
+      "prior_sha256": "4aa3ceb250bbd848b4bf5a0561a7ac46469312ccf04166f48da8edbd172bc1ad"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_queue.pyd": {
+      "current_sha256": "aa432abbd45292b73be0185a1b828a8c3284671fccdc04a1fb0f1e11b6604c0f",
+      "prior_sha256": "9743937fe444e4ba22b2abb73b2dcbabc055a459bb1c4866b9bcc9c169396407"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_socket.pyd": {
+      "current_sha256": "f04ccf7e1d6157822b1714f18400d00b9a7a2dd2758e2747276236daf0da1748",
+      "prior_sha256": "ed44327a6440523e8714ef30dc4af468339fbe0cb39dad81d7fefea608259204"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_sqlite3.pyd": {
+      "current_sha256": "111d29cd8d8108a8751239a6cc9defdfca2b6d232ebc8d7fcbdebe559d2c3df9",
+      "prior_sha256": "296d11fcb452528a750f97bca64083171551ac7793e6d4299c641d8f1404dc80"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ssl.pyd": {
+      "current_sha256": "1b4c5b3d1b785fe28c7ebae62d19a9c038a14d37974287860a194257cfea021f",
+      "prior_sha256": "547e4613198632c9739b20f093aa14d0103b8969196b7d0a37dfac5905069dbe"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testbuffer.pyd": {
+      "current_sha256": "c2480296f97792a723eb250841ab4668a3f83c687bfb78dd4235cff86541c8f4",
+      "prior_sha256": "09497ba1bfa1b765924c45dcf0afdc640e5f55d94d3e67c662a26bc9e2ee3f67"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testcapi.pyd": {
+      "current_sha256": "5b987a8d4ad066e5de283932b730895423f1085d49a818940f2d035e052e7919",
+      "prior_sha256": "5915a37e857b09321d52f82e42f10bf19e8a53d2b5e4dc7e790036c9a3cac7e2"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testclinic.pyd": {
+      "current_sha256": "5c3420749cddbb69e08612cb39e6fab26798cb8d44e5aa4d12d8aa2ca2a8dbaf",
+      "prior_sha256": "017142e08e41c0b3bc5d780b12640dddd62da9e139979442f8a3976b73e0557f"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testconsole.pyd": {
+      "current_sha256": "cbce8f74b9605806ca80ba3eef634fb97b4eb4b2ee2e84a3185c78f935c0f821",
+      "prior_sha256": "e1d7a4ea295e94ff63ff09ab37c1abe968ec48351ab6dd41c738beb1fa26af04"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testimportmultiple.pyd": {
+      "current_sha256": "588aebaabda0ebb2929b1aef1a85de59bb9ee678ac969f8ce5cc8e6a5207f74d",
+      "prior_sha256": "57263bb1ae62f3b9807531926e7f363dffc8cb4f41dbf6d7d7ce285ce0482b6e"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testinternalcapi.pyd": {
+      "current_sha256": "f63a66eca84dd647a0206ae73d310d4bfc8b462c06e13752cb4041d210e48d42",
+      "prior_sha256": "42d48a71b360bbb67d9a2bebb9961cc631c3b6e1d3ead84e89a0e2045f305dfc"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testmultiphase.pyd": {
+      "current_sha256": "2d2ef5ca5584fd490a4c2e7d174d70b419bde67398a7c23decec160203114730",
+      "prior_sha256": "42732e46d44ad6fc5b0eb1ce7a067bcef1c40204bc0c423fba7d781758d4126d"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testsinglephase.pyd": {
+      "current_sha256": "2cf409a1e8cc2abebed2ad7b422792bcf1e0954262d41b46e7e98f96991f8c29",
+      "prior_sha256": "b8a81cac8fb4ed453d5623ed0957efd7b40fd6c54d53f0845e8d6ad2056dbcdb"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_tkinter.pyd": {
+      "current_sha256": "c34d48f302975f89ceb5dd145a08bb3a4ca63d9b2ba1f2fa9b9f34adf58bcc5a",
+      "prior_sha256": "d67cd476fc464bf54fdf2a41545aaa64c07c0491abbfa34daf21aabdf54b8573"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_uuid.pyd": {
+      "current_sha256": "e48fee7a734119e00c8e64ad6d56e7c479eccf068308c619a4602aad6a259676",
+      "prior_sha256": "a6bb9522afcc2833a098100960bfca94b755c39f1cf29e374d7cf551ed9e157e"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_wmi.pyd": {
+      "current_sha256": "42beb0be14949bb1d99f8fc3fe0251c1b34e95f5433d3d853c9355e4c9a50a41",
+      "prior_sha256": "8471433bbb87c9ad3581ec2c1a71b3be20a81104f1ddcaa2514e89a3a29c5b5b"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_zoneinfo.pyd": {
+      "current_sha256": "93efc2e9d62037851cb6519e0b3e3b30389c8fd355d6a66654b52c06c85c2e0d",
+      "prior_sha256": "7d87152c88744e53894ec255a2ca7a1d2d208d64ee2d674a5e11d1d865274bc0"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libcrypto-3-x64.dll": {
+      "current_sha256": "9884d06a0c01141623e402f3280edd2e9fd63393136a6bf06d9292de9aaafa9b",
+      "prior_sha256": "836cfdd01dc3252417b2880bfdd5bb8a2dbde8b5da9583c2fb7def534c5eca9f"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libffi-8.dll": {
+      "current_sha256": "e84b70ab2eb053371ebe887e1e16fa49c2dcf9d9ee99d086424ebfeb7658fe7b",
+      "prior_sha256": "9034f55feed4fd07c334b6ec77814bde51d8212ae3d71febe30592e1259ecce4"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libssl-3-x64.dll": {
+      "current_sha256": "c911f433ca6efd030dd60330584f1737ee9ddb07bcb5f06f468645064f910a44",
+      "prior_sha256": "63262035f81565bae336dc9be2f6403f1adcd6cf52d447b85c9e28352a39911e"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\pyexpat.pyd": {
+      "current_sha256": "3d82fdddc40ecfbc4ffe02d41809bfc4e96d66d1b8ea894145b17ccc2c0081b5",
+      "prior_sha256": "786a233620f13f7578003cb8a216c95969ea6df2a00c8ba86342612fac90035f"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\select.pyd": {
+      "current_sha256": "ec84eb98c544e6bc637f990400e0adb94a4cafa9f52286b66838837af70a28f1",
+      "prior_sha256": "06d9bede4d10609bcef1ae3f73d91eefb200aab5a2a94a18538cb0553f8a5ffa"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\sqlite3.dll": {
+      "current_sha256": "8e7e69961420587f20332274b9b6d5b693a0453d64b5620dee48cde467dbe837",
+      "prior_sha256": "c145910db0ee9ae8c9ee836d64fa8b891ec290642903505d85f6694f9ce15e73"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\unicodedata.pyd": {
+      "current_sha256": "4efa1ad4b8640f4a294605ba66757242615db2b6771f0bced527586653ec5e75",
+      "prior_sha256": "15de2bfd54ad85e7cc8cb3afcc2b9c23c9d7c98c94af355e3e6cc23178652c04"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\winsound.pyd": {
+      "current_sha256": "1982ff0f507e90b4e70dcf18d01b057977da62bc1441104e0518c2e7737aed5e",
+      "prior_sha256": "a03a6b876e067ca30c36fe71a3198a20ca98dba7b46aa38d920e2eb4b4038710"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": {
+      "current_sha256": "4623dc531b0883c3e714da5cb30e9b73e12aa5145f0d92c7b191ab1dcf699dfe",
+      "prior_sha256": "b07b03b9ba866a341a3c13ee69710fbc8d43d4ce2523dee13f6df5c25378d15b"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": {
+      "current_sha256": "f0d65efd7e2bc8f036d428de0db1b4743e5ebe51f133b7a6afd10d6913b7ce60",
+      "prior_sha256": "f91ca7e29e8b4cc9ed7a4a935c1b2558c5c8f23398cb20d7048f977aa16fce8b"
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": {
+      "current_sha256": "9930d881ee11a91f7fd43ab28d5305194fbd2f88ea4a07661453c6885f409afd",
+      "prior_sha256": "3b33d49d879dbf3a8aa3fff1bf3859275e76c188a3adec4e7ffe728243652a87"
+    }
+  },
+  "current_native_files": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_asyncio.pyd": "ff17a8910367d6355e9ab3c164e0558c955b5d0ecd24cc972ab1eba0da2d38ae",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_bz2.pyd": "07f4282b8c882640102e0c660ef7bd10ff8b4023a6190d91867cc0e695ac29ac",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ctypes.pyd": "42b4e914ccf114983c4c115edf83992b951d640305411e71b3d5456011f78bf5",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ctypes_test.pyd": "9f2804fa62ef6eb2abbad0cffe093cd0751ac7b87901711d4d71ae514ab4ae27",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_decimal.pyd": "3f6aa863202fcc035c1c384d530dc0d6885793f083fa490f87b0c0c175bf18dc",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_elementtree.pyd": "02106387f70347d96de0df5eb85fb3342743e0c734baa136023cd91c2c5a0251",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_hashlib.pyd": "22041d27ae5b78c9554f92a0c4481246cea86e2d1c1118e3ada275072c196634",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_lzma.pyd": "5e86c9337f692d4117a8ebc4e7c554a33f9dc946961df4866e52da9f4ce1c8fd",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_msi.pyd": "bf30a886aea26bacc1fb8aa1383e1e69206dd9a7a0525d4abffe7b57788d053e",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_multiprocessing.pyd": "c0c70e70fead9e4f8e91876d4f89d3c811ca4b1c9b2dcfbc4215259c14223931",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_overlapped.pyd": "44e1048f65319ab35ff72e52cbb810137467f44ec5e068005f538fa8a353cbfb",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_queue.pyd": "aa432abbd45292b73be0185a1b828a8c3284671fccdc04a1fb0f1e11b6604c0f",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_socket.pyd": "f04ccf7e1d6157822b1714f18400d00b9a7a2dd2758e2747276236daf0da1748",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_sqlite3.pyd": "111d29cd8d8108a8751239a6cc9defdfca2b6d232ebc8d7fcbdebe559d2c3df9",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ssl.pyd": "1b4c5b3d1b785fe28c7ebae62d19a9c038a14d37974287860a194257cfea021f",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testbuffer.pyd": "c2480296f97792a723eb250841ab4668a3f83c687bfb78dd4235cff86541c8f4",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testcapi.pyd": "5b987a8d4ad066e5de283932b730895423f1085d49a818940f2d035e052e7919",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testclinic.pyd": "5c3420749cddbb69e08612cb39e6fab26798cb8d44e5aa4d12d8aa2ca2a8dbaf",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testconsole.pyd": "cbce8f74b9605806ca80ba3eef634fb97b4eb4b2ee2e84a3185c78f935c0f821",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testimportmultiple.pyd": "588aebaabda0ebb2929b1aef1a85de59bb9ee678ac969f8ce5cc8e6a5207f74d",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testinternalcapi.pyd": "f63a66eca84dd647a0206ae73d310d4bfc8b462c06e13752cb4041d210e48d42",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testmultiphase.pyd": "2d2ef5ca5584fd490a4c2e7d174d70b419bde67398a7c23decec160203114730",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testsinglephase.pyd": "2cf409a1e8cc2abebed2ad7b422792bcf1e0954262d41b46e7e98f96991f8c29",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_tkinter.pyd": "c34d48f302975f89ceb5dd145a08bb3a4ca63d9b2ba1f2fa9b9f34adf58bcc5a",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_uuid.pyd": "e48fee7a734119e00c8e64ad6d56e7c479eccf068308c619a4602aad6a259676",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_wmi.pyd": "42beb0be14949bb1d99f8fc3fe0251c1b34e95f5433d3d853c9355e4c9a50a41",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_zoneinfo.pyd": "93efc2e9d62037851cb6519e0b3e3b30389c8fd355d6a66654b52c06c85c2e0d",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libcrypto-3-x64.dll": "9884d06a0c01141623e402f3280edd2e9fd63393136a6bf06d9292de9aaafa9b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libffi-8.dll": "e84b70ab2eb053371ebe887e1e16fa49c2dcf9d9ee99d086424ebfeb7658fe7b",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libssl-3-x64.dll": "c911f433ca6efd030dd60330584f1737ee9ddb07bcb5f06f468645064f910a44",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\pyexpat.pyd": "3d82fdddc40ecfbc4ffe02d41809bfc4e96d66d1b8ea894145b17ccc2c0081b5",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\select.pyd": "ec84eb98c544e6bc637f990400e0adb94a4cafa9f52286b66838837af70a28f1",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\sqlite3.dll": "8e7e69961420587f20332274b9b6d5b693a0453d64b5620dee48cde467dbe837",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\tcl86t.dll": "fbfd065f861ec0a90dd513bc209c56bbc23c54d2839964a0ec2df95848af7860",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\tk86t.dll": "cd2f60075064dfc2e65c88b239a970cb4bd07cb3eec7cc26fb1bf978d4356b08",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\unicodedata.pyd": "4efa1ad4b8640f4a294605ba66757242615db2b6771f0bced527586653ec5e75",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\winsound.pyd": "1982ff0f507e90b4e70dcf18d01b057977da62bc1441104e0518c2e7737aed5e",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": "4623dc531b0883c3e714da5cb30e9b73e12aa5145f0d92c7b191ab1dcf699dfe",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": "f0d65efd7e2bc8f036d428de0db1b4743e5ebe51f133b7a6afd10d6913b7ce60",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": "9930d881ee11a91f7fd43ab28d5305194fbd2f88ea4a07661453c6885f409afd",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\vcruntime140.dll": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\vcruntime140_1.dll": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f"
+  },
+  "discovery_source_sha256": "ad45d040aef44f174dbbccaf79bd4a06b89fbf027947ab9425e5eafc8b0a3f8e",
+  "elapsed_seconds": 0.10900000005494803,
+  "model_fits": 0,
+  "native_file_count": 42,
+  "native_file_metadata": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_asyncio.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:54+00:00",
+      "mtime_ns": 1792868034000000000,
+      "size_bytes": 75056
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_bz2.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:58+00:00",
+      "mtime_ns": 1792868038000000000,
+      "size_bytes": 88880
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ctypes.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:02+00:00",
+      "mtime_ns": 1792868042000000000,
+      "size_bytes": 131888
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ctypes_test.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:05+00:00",
+      "mtime_ns": 1792868045000000000,
+      "size_bytes": 40752
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_decimal.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:07+00:00",
+      "mtime_ns": 1792868047000000000,
+      "size_bytes": 263984
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_elementtree.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:11+00:00",
+      "mtime_ns": 1792868051000000000,
+      "size_bytes": 137520
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_hashlib.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:14+00:00",
+      "mtime_ns": 1792868054000000000,
+      "size_bytes": 70448
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_lzma.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:17+00:00",
+      "mtime_ns": 1792868057000000000,
+      "size_bytes": 168240
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_msi.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:19+00:00",
+      "mtime_ns": 1792868059000000000,
+      "size_bytes": 48944
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_multiprocessing.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:22+00:00",
+      "mtime_ns": 1792868062000000000,
+      "size_bytes": 39728
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_overlapped.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:25+00:00",
+      "mtime_ns": 1792868065000000000,
+      "size_bytes": 59696
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_queue.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:29+00:00",
+      "mtime_ns": 1792868069000000000,
+      "size_bytes": 36144
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_socket.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:33+00:00",
+      "mtime_ns": 1792868073000000000,
+      "size_bytes": 87344
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_sqlite3.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:35+00:00",
+      "mtime_ns": 1792868075000000000,
+      "size_bytes": 127792
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_ssl.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:38+00:00",
+      "mtime_ns": 1792868078000000000,
+      "size_bytes": 180528
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testbuffer.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:41+00:00",
+      "mtime_ns": 1792868081000000000,
+      "size_bytes": 59184
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testcapi.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:43+00:00",
+      "mtime_ns": 1792868083000000000,
+      "size_bytes": 313648
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testclinic.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:46+00:00",
+      "mtime_ns": 1792868086000000000,
+      "size_bytes": 70960
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testconsole.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:50+00:00",
+      "mtime_ns": 1792868090000000000,
+      "size_bytes": 31024
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testimportmultiple.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:53+00:00",
+      "mtime_ns": 1792868093000000000,
+      "size_bytes": 28976
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testinternalcapi.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:55+00:00",
+      "mtime_ns": 1792868095000000000,
+      "size_bytes": 55600
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testmultiphase.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:54:58+00:00",
+      "mtime_ns": 1792868098000000000,
+      "size_bytes": 43312
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_testsinglephase.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:55:01+00:00",
+      "mtime_ns": 1792868101000000000,
+      "size_bytes": 34096
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_tkinter.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:55:03+00:00",
+      "mtime_ns": 1792868103000000000,
+      "size_bytes": 70960
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_uuid.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:55:06+00:00",
+      "mtime_ns": 1792868106000000000,
+      "size_bytes": 29488
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_wmi.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:55:09+00:00",
+      "mtime_ns": 1792868109000000000,
+      "size_bytes": 41264
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\_zoneinfo.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:55:12+00:00",
+      "mtime_ns": 1792868112000000000,
+      "size_bytes": 52016
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libcrypto-3-x64.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:30+00:00",
+      "mtime_ns": 1792868010000000000,
+      "size_bytes": 8003376
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libffi-8.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:33+00:00",
+      "mtime_ns": 1792868013000000000,
+      "size_bytes": 43824
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\libssl-3-x64.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:35+00:00",
+      "mtime_ns": 1792868015000000000,
+      "size_bytes": 1599280
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\pyexpat.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:38+00:00",
+      "mtime_ns": 1792868018000000000,
+      "size_bytes": 226096
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\select.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:42+00:00",
+      "mtime_ns": 1792868022000000000,
+      "size_bytes": 34608
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\sqlite3.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:46+00:00",
+      "mtime_ns": 1792868026000000000,
+      "size_bytes": 1623344
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\tcl86t.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2024-01-01T00:00:00+00:00",
+      "mtime_ns": 1704067200000000000,
+      "size_bytes": 1866480
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\tk86t.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2024-01-01T00:00:00+00:00",
+      "mtime_ns": 1704067200000000000,
+      "size_bytes": 1541872
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\unicodedata.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:49+00:00",
+      "mtime_ns": 1792868029000000000,
+      "size_bytes": 1143600
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs\\winsound.pyd": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T18:53:51+00:00",
+      "mtime_ns": 1792868031000000000,
+      "size_bytes": 34096
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T19:00:28+00:00",
+      "mtime_ns": 1792868428000000000,
+      "size_bytes": 107312
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T19:00:31+00:00",
+      "mtime_ns": 1792868431000000000,
+      "size_bytes": 71984
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2026-10-24T19:00:34+00:00",
+      "mtime_ns": 1792868434000000000,
+      "size_bytes": 6985520
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\vcruntime140.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2024-01-01T00:00:00+00:00",
+      "mtime_ns": 1704067200000000000,
+      "size_bytes": 124544
+    },
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\vcruntime140_1.dll": {
+      "ctime_UTC": "2026-10-25T23:17:05+00:00",
+      "ctime_ns": 1792970225000000000,
+      "ctime_semantics": "Platform file metadata only; not proof of byte-change time",
+      "mtime_UTC": "2024-01-01T00:00:00+00:00",
+      "mtime_ns": 1704067200000000000,
+      "size_bytes": 49792
+    }
+  },
+  "numerical_compatibility_established": false,
+  "prior_payload_inventory_sha256": "026274a6dcb9a494c44c679cccb12a5bbdce3cdae085e37578ed877eb832c842",
+  "python_cache_tag": "cpython-312",
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "root_reported_three_anchor_hashes": {
+    "python.exe": "4623dc531b0883c3e714da5cb30e9b73e12aa5145f0d92c7b191ab1dcf699dfe",
+    "python3.dll": "f0d65efd7e2bc8f036d428de0db1b4743e5ebe51f133b7a6afd10d6913b7ce60",
+    "python312.dll": "9930d881ee11a91f7fd43ab28d5305194fbd2f88ea4a07661453c6885f409afd"
+  },
+  "scientific_packages_imported": false,
+  "scientific_payload_files_read": 0,
+  "stage_authority_granted": false,
+  "status": "DISCOVERED_CURRENT42_NATIVE_BYTE_PINS_NOT_COMPATIBILITY_OR_ORIGIN_PROOF",
+  "unchanged_file_count": 4
+}
