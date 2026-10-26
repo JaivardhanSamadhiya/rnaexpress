@@ -1,0 +1,19 @@
+{
+  "biological_payload_reads": 0,
+  "elapsed_seconds": 1080.609999999986,
+  "historical_failure_cause_known": false,
+  "independent_verifier_sha256": "a23cfe4f9f06c3cca9680dcd6263d25ecef8a3c353c0c11882bab17c4e6db298",
+  "new_native_jobs": 0,
+  "persisted_samples_verified": 1062,
+  "physical_minimum_bytes": 1280196608,
+  "private_peak_bytes": 37965824,
+  "resident_peak_bytes": 46256128,
+  "saved_files_sha256": {
+    "parent.jsonl": "d1cac0d213c8739809c0529f6ee525d6fc3d2ec2dabd641c46f2551b2f633ac4",
+    "preparation_manifest.json": "873696b41cd78a48a253fe918802f672fd760416c7ad53fc6a3aed04016dd333",
+    "receipt.json": "f5ec0c5ead722efa3fcca0ca0b7b15b328c35bc1f6f2e3954d06293b52099607",
+    "toy_child.json": "5dfe9443e5977b84359c34c6b45140590334a9a3dd540462bc0ec669b4eda17a"
+  },
+  "scientific_conclusion": false,
+  "status": "VERIFIED_SAVED_C18_MINUTE_CONTROL_NOT_BIOLOGICAL_ADMISSION"
+}
