@@ -68,15 +68,24 @@ evaluation or post-gate diagnosis. The single FIT permission is consumed.
 
 ## Ordered next steps and remaining gaps
 
-1. Diagnose the representation and decision task from admitted source and saved
-   exposed results; distinguish lost context from measurement limits without
-   claiming either is proven or repeating the same fit.
-2. Specify one materially different hypothesis and a fixed falsifiable test,
-   with competitive controls and an explicit record that current folds are
-   exposed development data. Preserve all prior negative verdicts.
+1. Establish exact reusable copies and admissions for the existing four-assay
+   features and persisted labels, without reopening CORE or protected outcomes.
+   Current known-cell input certification covers Mikl, not that full roster.
+2. Review and freeze the new menu-cost versus matched pairwise development
+   comparison, including complete gates, provenance, a bounded controller and
+   separate execution authority before fitting. Preserve all prior negatives.
 3. Establish an admissible route to independent biological confirmation and
    a precise comparison with prior work. No new dataset or protected outcome
    becomes admitted through this planning step.
+
+A distinct mathematical prototype now exists at
+`reports/generalization_menu_loss_20261026/design.md`. Its smooth menu-cost
+loss upper-bounds observed selection regret and has ten passing invented
+tests, including gradients, ties, invariances, convexity and a concrete
+pairwise-loss/selection-regret mismatch. This is an established structured-loss
+family, not a novel algorithm or RNA result. No biological input or optimizer
+was used. The proposed controlled four-assay comparison is not admitted or
+authorized; actual memory and biological benefit remain unmeasured.
 
 Do not touch historical freezes, protected/reserved outcomes, CORE after label
 admission, the original user modifications, consumed FIT attempts or their

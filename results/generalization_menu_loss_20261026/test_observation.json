@@ -1,0 +1,26 @@
+{
+  "bundled_python": "C:/Users/jaisa/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "command_flags": [
+    "-S",
+    "-B",
+    "-X",
+    "pycache_prefix=<existing absent pinned prefix>",
+    "-u",
+    "-m",
+    "src.generalization_menu_loss_20261026.tests"
+  ],
+  "exit_code_observed": 0,
+  "fits_or_refits": 0,
+  "independent_source_review_completed": false,
+  "native_or_full_data_memory_profile_certified": false,
+  "new_fit_authority": false,
+  "observed_output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.017s\n\nOK\n",
+  "project_inputs_read": false,
+  "protected_user_files_verified": 33,
+  "prototype_manifest_sha256": "9f00c7b8b03b5c96d7f0273726eb11bc0acefdaf2e1648b08325cc34a9b0463b",
+  "record_kind": "root_transcription_of_observed_scoped_unittest_tool_output",
+  "recorded_at_utc": "2026-10-26T23:14:14.795712+00:00",
+  "status": "PASS_TEN_INVENTED_MENU_LOSS_TESTS_NOT_BIOLOGICAL_EVIDENCE",
+  "tests_observed": 10,
+  "unittest_elapsed_seconds_observed": 0.017
+}

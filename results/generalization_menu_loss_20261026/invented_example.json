@@ -1,0 +1,22 @@
+{
+  "candidates": 20,
+  "fit_calls": 0,
+  "pairs": 190,
+  "predictors": {
+    "correct_middle_wrong_extrema": {
+      "menu_surrogate": 2.0712979240014513,
+      "pair_accuracy": 0.8052631578947368,
+      "pair_logistic_loss": 0.6327456384825837,
+      "score_squared_norm": 6.842105263157895,
+      "two_direction_regret": 1.0
+    },
+    "wrong_middle_correct_extrema": {
+      "menu_surrogate": 1.1663976871946473,
+      "pair_accuracy": 0.19473684210526315,
+      "pair_logistic_loss": 0.8011666911141626,
+      "score_squared_norm": 6.842105263157895,
+      "two_direction_regret": 0.0
+    }
+  },
+  "status": "INVENTED_OBJECTIVE_MISMATCH_NOT_BIOLOGICAL_EVIDENCE"
+}
