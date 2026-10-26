@@ -128,3 +128,35 @@ and190.004MiB peakresident,9.828seconds. All137frozenpins and saved native
 proofs rehash; protect33 passes. Certificate089e8fc6ea8fa43f5ef3e6c0310aa6d613d4b67d53073c8f3e2f02762b04c901.
 The full-study capped controller is being independently reviewed before one
 manual try. No biological positive,completecampaign or newbirth exists yet.
+
+## Current continuation:25 October, after the interrupted paged run
+
+The one manual new try was used. The paged worker saved63 checkpoint
+completions(54inner/9outer),84 recorded optimizer units and63 ordered runtime
+proofs; all saved declarations,701sourcepins,admitted inputs and33protected
+files validate. The full campaign-complete/report/worker/supervisor receipts
+are missing. Session90082 is unavailable; original PIDs160960/106284 are gone.
+The last journal sample is921.219seconds at13:28:48PDT; causeUNKNOWN.
+All908 recorded samples met guards,minimum available physicalRAM349.06MiB,
+peakprivate520.46MiB,resident190.01MiB. No unrecorded final state is inferred.
+No scientific score,configuration choice,gate or independent numerical replay
+has been inspected/run. This is not an accepted completed campaign.
+
+Current bundledPython still reports3.12.14, but its three executable/DLL hashes
+now differ from the frozen pins. Current-native admission correctly fails.
+Source-only historical auditing records this mismatch and grants no worker
+authority; old files/guards/manifests remain unchanged. The changed files'
+creation timestamps are16:17PDT,later than the last run sample,which does not
+explain the earlier interruption. New runtime inventory/numerical revalidation
+and an18-minute invented-only launch-lifetime diagnostic are being prepared.
+No scientific retry,resume,old-receipt repair,tab/app closing,paid resource,
+scheduled task or drive repair has been performed.
+
+ReplayV4 source review passes(770/176pins,26/6inventedtests); execution remains
+blocked on proper completedFIT evidence and current native-runtime admission.
+EvaluationV2 source drafts pass15/6inventedtests but are not finally frozen.
+Next:(1) preserve/audit the interrupted63/84 evidence and runtime drift;
+(2) verify current runtime and owned launch lifetime on invented data;
+(3) choose a reviewed,explicitly authorized route to accepted campaign closure,
+then full independent replay and unchanged gate. Novel generalization remains
+unproven; the bounded SECReTE follow-up did not qualify another benchmark.

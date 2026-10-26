@@ -1,0 +1,27 @@
+{
+  "UTC_recorded": "2026-10-25T20:16:24.281542+00:00",
+  "automatic_retry_authorized": false,
+  "birth_sha256": "991ea1cd26307c3ddeee691efd5a606a02bd084dee02565f300b81c213e81360",
+  "generation_manifest_sha256": "4a8d83023675d17cdc4af37801dc69df4b2c49d7b397a2cfd6ba1aa8b519d632",
+  "manual_attempt_consumed": true,
+  "owned_resident_cap": {
+    "after": {
+      "flags": 6,
+      "maximum": 199229440,
+      "minimum": 204800
+    },
+    "before": {
+      "flags": 10,
+      "maximum": 1413120,
+      "minimum": 204800
+    },
+    "only_suspended_owned_child_changed": true,
+    "private_and_job_caps_or_live_guards_changed": false
+  },
+  "parent_pid": 160960,
+  "partial_results_not_used_for_tuning": true,
+  "run_admission_sha256": "a38f9e98af718c333334cc005f89be287a241412538710e332dd4256fc0631b2",
+  "status": "MANAGED_SESSION_STARTED_NOT_A_COMPLETION_OR_SCIENTIFIC_VERDICT",
+  "tool_session_id": 90082,
+  "worker_pid": 106284
+}

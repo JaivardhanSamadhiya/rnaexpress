@@ -1,0 +1,3 @@
+# Deferred independent replay V4 runtime
+
+The provider changes only its own replay V4 caller/runtime paths from V3. Its actual origin checks, one-bootstrap shared software objects, before_replay/after_replay phases and original unused-stage resource policy remain fixed. The paged FIT resident policy is checked as saved FIT evidence and is not applied to the current replay worker. Source generation binds the exact paged FIT source; actual completed FIT inputs and current owned replay proofs are still prerequisites. No runtime, data, native probe, job or authority is invoked/granted by source preparation or invented tests.

@@ -1,0 +1,79 @@
+"""Fixed source/data paths; actual prefit/projection hashes are future inputs."""
+from src.generalization_knowncell_labels_execution_v2_20261024 import spec as labels
+from src.generalization_knowncell_metadata_verification_execution_20261024 import common as prior
+from src.generalization_knowncell_evaluation_v2_runtime_20261025 import spec as runtime
+ROOT=prior.ROOT
+NS='generalization_knowncell_evaluation_v2_execution_20261025'
+OUT=ROOT/'results'/NS
+MANIFEST=OUT/'preparation_manifest.json'
+SOURCE_ADMISSION=OUT/'controller_source_admission.json'
+RUN_ADMISSION=OUT/'run_admission.json'
+REQUEST=runtime.REQUEST
+INVOCATION='complete_outer_evaluation'
+STAGE='evaluation'
+STATUS='REVIEWED_SOURCE_FOR_ONE_FROZEN_OUTER_EVALUATION_NOT_EXECUTION'
+STATIC_BINDING='results/'+NS+'/evaluation_input_binding.json'
+BRIDGE_READY='results/generalization_knowncell_calibrated_input_bridge_20261024/preparation_manifest_v3.json'
+BRIDGE_READY_SHA='67d7660c759b3aa4269640ea19b7bfb55be407a0746b57d1ac670b03ffb7cdf8'
+BRIDGE_SOURCE='src/generalization_knowncell_calibrated_input_bridge_20261024/bridge_v3.py'
+PROJECTION_READY='results/generalization_knowncell_prefit_projection_v2_20261024/preparation_manifest.json'
+PROJECTION_READY_SHA='0e888efb4bc7b7ff0b12907bbd49b7149a1974788cfb6213a76a0071aa2b81ba'
+PROJECTION_ADMISSION='results/generalization_knowncell_prefit_projection_v2_20261024/root_prefit_admission.json'
+PREFIT='results/generalization_knowncell_prefit_execution_20261024/prefit_manifest.json'
+PREFIT_COMPLETION='results/generalization_knowncell_prefit_execution_20261024/prefit_worker_completion.json'
+PREFIT_SUPERVISOR='results/generalization_knowncell_prefit_execution_20261024/prefit_supervisor_receipt.json'
+POLICY_SHA=prior.POLICY_SHA
+AUTH_SHA=prior.AUTH_SHA
+SCOPE_SHA=prior.SCOPE_SHA
+CACHE_PREFIX=prior.CACHE_PREFIX
+PROCESS_CAP=prior.PROCESS_CAP
+JOB_CAP=prior.JOB_CAP
+METADATA_BUNDLE=labels.METADATA_BUNDLE
+METADATA_SHA=labels.METADATA_SHA
+ARRAY_CERTIFICATE=labels.ARRAY_CERTIFICATE
+ARRAY_CERTIFICATE_SHA=labels.ARRAY_CERTIFICATE_SHA
+ARRAY_SUPERVISOR=labels.ARRAY_SUPERVISOR
+ARRAY_SUPERVISOR_SHA=labels.ARRAY_SUPERVISOR_SHA
+ARRAY_CAST_SHA=labels.ARRAY_CAST_SHA
+LABEL_CERTIFICATE='results/generalization_knowncell_labels_execution_v2_20261024/original_pandas_label_certificate.json'
+LABEL_CERTIFICATE_SHA='46b87936ebaf093b80f7666b64f0bd92eb73a6b753b3661b3bafa229514b78ee'
+LABEL_SUPERVISOR='results/generalization_knowncell_labels_execution_v2_20261024/labels_supervisor_receipt.json'
+LABEL_SUPERVISOR_SHA='e690e04c24ced2892ecfc830e4317780e9db8cb231af03ada316ca279b673056'
+LABEL_BITS_SHA='5858946f5ff293f5e70dd3e03a31a888f0ea8e4e2adb01e072d54271cbb5c821'
+NPZ='artifacts/generalization_crosscell_20261007/simple_model_features.npz'
+NPZ_SHA=labels.NPZ_SHA
+ROW_IDS_SHA=labels.ROW_IDS_SHA
+OUTPUT=OUT/'evaluation_report.json'
+FIT_OUT='results/generalization_knowncell_fit_paged_execution_20261025/'
+FIT_GENERATION_SHA='4a8d83023675d17cdc4af37801dc69df4b2c49d7b397a2cfd6ba1aa8b519d632'
+FIT_CAMPAIGN=ROOT/FIT_OUT/'campaign'
+FIT_REPORT=FIT_OUT+'fit_lifecycle_report.json'
+FIT_COMPLETION=FIT_OUT+'fit_worker_completion.json'
+FIT_SUPERVISOR=FIT_OUT+'fit_supervisor_receipt.json'
+REPLAY_READY='results/generalization_knowncell_campaign_replay_20261023/preparation_manifest.json'
+REPLAY_READY_SHA='24080719eb17269b1924fc63cf5ce6ae75f11b64916d0bcfcbb390679fdaf9ed'
+BIRTH=OUT/'evaluation_attempt_birth.json'
+WORKER_LOG=OUT/'evaluation_worker.log'
+COMPLETION=OUT/'evaluation_worker_completion.json'
+SUPERVISOR=OUT/'evaluation_supervisor_receipt.json'
+WORKER_SOURCE='src/'+NS+'/worker.py'
+INPUT_PINS={METADATA_BUNDLE:METADATA_SHA,ARRAY_CERTIFICATE:ARRAY_CERTIFICATE_SHA,ARRAY_SUPERVISOR:ARRAY_SUPERVISOR_SHA,
+            LABEL_CERTIFICATE:LABEL_CERTIFICATE_SHA,LABEL_SUPERVISOR:LABEL_SUPERVISOR_SHA}
+COUNT=13781
+SHAPE=(13781,102)
+STABLE_SCIENTIFIC_BINDINGS={
+    'fit_source_manifest_sha256':'109a2bd1cd7e1b62f5a7607d67b3cd5da75192e4dfb9af46b1e5cb8b0fc7436e',
+    'numeric_source_manifest_sha256':'92a430a99019ee68e6085d56afc9faca89c9e7d1f1abe965c67869fabfe9c2df',
+    'lifecycle_v2_manifest_sha256':'8064cd93128421a9cdcd3d85491c47e94b002a380ef85bd4fc70ae3c9745ea08',
+    'native_profile_receipt_sha256':runtime.PROFILE_ORIGIN_SHA}
+
+REPLAY_EXECUTION_PREPARATION='results/generalization_knowncell_replay_v4_execution_20261025/preparation_manifest.json'
+REPLAY_EXECUTION_GENERATION_SHA='c98383d259f998706f6913d1b0b6eb90631b90af35e257f54732fb01eac3a4d5'
+REPLAY_REPORT='results/generalization_knowncell_replay_v4_execution_20261025/replay_report.json'
+REPLAY_COMPLETION='results/generalization_knowncell_replay_v4_execution_20261025/replay_worker_completion.json'
+REPLAY_SUPERVISOR='results/generalization_knowncell_replay_v4_execution_20261025/replay_supervisor_receipt.json'
+EVALUATION_READY='results/generalization_knowncell_joint_evaluation_20261023/preparation_manifest.json'
+EVALUATION_READY_SHA='0176b26b12e73afbd7b810adb6bff5837f2e62e0ff749e501c8e88cdbae3bd5f'
+
+EVALUATION_DATA=OUT/'full_evaluation.json.gz'
+ARRAY_RUNTIME_ANCHOR_SHA='0c80abde4d1fa8d3b76266e5b7f1fda8feaed96d91a865385c08f4025f21454a'

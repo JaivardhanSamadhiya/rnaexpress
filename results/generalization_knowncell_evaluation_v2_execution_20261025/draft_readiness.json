@@ -1,0 +1,33 @@
+{
+  "actual_admissions_created": 0,
+  "actual_jobs": 0,
+  "current_native_runtime_admission": "PENDING_NEW_REVIEW_OLD_THREE_BINARY_PINS_REPORTED_NOT_MATCHING",
+  "files": {
+    "artifacts/generalization_knowncell_evaluation_v2_execution_20261025/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "artifacts/generalization_knowncell_evaluation_v2_execution_20261025/source_copy_origins.json": "fa008c9c537d5035c256e390d8709f6a5d1ae7661f9aba08f77801ac51e3839d",
+    "reports/generalization_knowncell_evaluation_v2_execution_20261025/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "reports/generalization_knowncell_evaluation_v2_execution_20261025/protocol.md": "2801d425f60ba767870db3aaf6d605ec590b9e14172e81da94182a608cf2ef25",
+    "results/generalization_knowncell_evaluation_v2_execution_20261025/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "results/generalization_knowncell_evaluation_v2_execution_20261025/synthetic_tests_receipt.json": "e4889f7a12b7637c9a7da395c53a7d20208c11b6dade71239b23a117a771e233",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/__init__.py": "71b917915191be210866a20dd75ca5cb1f85734e6e193768b4af441f788fe63f",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/calibration.py": "932e96461f812bda4b9154a4c9e84fc2f3eee01ee1a106f8e4951b9adcf3bab5",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/common.py": "d4bd370a9f8ab7836f676848892419023da564b965ff6470683476f06cf3c8be",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/inputs.py": "ac9b0ae8dd2608f5b2ad42653094a59f338c29e56cb0c5f072c5a98fa303acf9",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/monitor.py": "cb0e7ed286771468a6fd94b570191531b6cfecc7b093e86a72080b4178eec0eb",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/prepare.py": "026a47e6accfb1d3147c633039be959dbd917c7b921642759e0bb5c99607de7a",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/results_io.py": "43c87e3a3fdd605dc541a11bccbaf19515f8d5802bec475fd8f987e0589a8bbe",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/spec.py": "f0512a848a147154851af15441cacf79c7a67302a4ada44c16d3351820c78c97",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/supervise.py": "74d9ad9066e856a54c9d01a0d447ef1ed9ca65790bc24df889eb3fef67ea324f",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/terminal.py": "9daf6d3f725aac522e1e827ae3e1257b7df788ec2e90541906d5a280989700d2",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/tests.py": "e8b904f9f339d46ee73d24f7cae49700680aba8626ecbcded974c890f651e88e",
+    "src/generalization_knowncell_evaluation_v2_execution_20261025/worker.py": "ae7d574c69f49aa1a3e2fe142b35f0a0232cf9d0f9312d05bf21316b28d7e028"
+  },
+  "final_manifests_created": false,
+  "invented_tests": 15,
+  "native_mismatch_basis": "Root reported independent current-binary check; agent did not invoke or certify native runtime",
+  "project_data_or_FIT_outcome_reads": 0,
+  "required_replay_generation_sha256": "c98383d259f998706f6913d1b0b6eb90631b90af35e257f54732fb01eac3a4d5",
+  "scientific_imports": false,
+  "status": "SOURCE_DRAFT_FOR_REVIEW_NOT_RUNTIME_OR_EXECUTION_ADMISSION"
+}

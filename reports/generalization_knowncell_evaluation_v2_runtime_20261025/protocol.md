@@ -1,0 +1,3 @@
+# Evaluation V2 deferred runtime source
+
+Own namespaces/caller paths change from the preserved original evaluation provider. The provider phases, current-owner/source/origin checks, one bootstrap and shared scientific objects retain their original logic. No provider is invoked by this preparation. Current bundled-Python native hashes no longer satisfy old native admission according to root's independent check; version equality is insufficient. Existing pins/guards stay unchanged, current native admission is pending, and no final preparation manifest or actual runtime authority is asserted. A separate reviewed runtime correction/certificate is required before any evaluation attempt.
