@@ -1,0 +1,18 @@
+{
+  "actual_fresh_inventory_read": false,
+  "errors": 0,
+  "failures": 0,
+  "native_compatibility_established": false,
+  "scientific_imports_native_jobs_biological_reads": 0,
+  "source_sha256": {
+    "src/generalization_current_numeric_refresh_20261025/__init__.py": "923652cdfbdb0f41ff70a21be7e92658638116423d0c000b838025fc1aceb339",
+    "src/generalization_current_numeric_refresh_20261025/contracts.py": "64b5ae34bd26a22a8940d692f28203aff76b6c90f9743c67bda510539ff975c7",
+    "src/generalization_current_numeric_refresh_20261025/prepare.py": "a22059d33bd256e52d73443aa7d79f037b08cfb3dfc747b2dba7b89a25c70bb1",
+    "src/generalization_current_numeric_refresh_20261025/probe.py": "ac2526f0681725308e41801a07fdf15a249ef41ab52b45e51a6dc6b167a39609",
+    "src/generalization_current_numeric_refresh_20261025/runtime.py": "393c8feb20aafff48cd289b211ef42c67d8672ea96db3e2a1831951e0a40327f",
+    "src/generalization_current_numeric_refresh_20261025/spec.py": "d73ca7d75804547fc388d9b0cb917ead0d5674c60171472e3195440a071ecd1a",
+    "src/generalization_current_numeric_refresh_20261025/tests.py": "42232bacb3726d146cce148ec658fd393ec1c1eddb44d888e661164f6262a994"
+  },
+  "status": "PASS_STDLIB_INVENTED_CURRENT42_NUMERIC_SOURCE_CONTRACTS",
+  "tests": 14
+}
