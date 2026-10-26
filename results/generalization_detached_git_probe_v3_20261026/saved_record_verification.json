@@ -1,0 +1,19 @@
+{
+  "V2_biological_authorization_or_stage_started": false,
+  "biological_inputs_read_here": false,
+  "exact_metadata_reads": 8,
+  "files_sha256": {
+    "child_completion.json": "7cf665ca571cbaa1341c51d723a8497f5db06b66241f3235361cad2eecb78eb5",
+    "child_fault.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "parent.jsonl": "15832343bc2552431ed7c89265d21d2813f749d5337308ffc5c3f4c1470c7985",
+    "preparation_manifest.json": "cba4f4585fe46fd7da9406ecf8b6f12743c37eeeb30b1a367a5d4de768d05fad",
+    "receipt.json": "430a1b4dd77be14fb6dcc01bad2597053ee2a41b0e5ecae2e05775cee278a819"
+  },
+  "maximum_active_processes": 2,
+  "maximum_owned_PID_count": 2,
+  "native_probe_rerun_here": false,
+  "old337_and_new335_static_pins_unchanged": true,
+  "persisted_samples": 103,
+  "real_Git_commands": 24,
+  "status": "VERIFIED_SAVED_REAL_DETACHED_METADATA_PROBE_NOT_BIOLOGICAL_ADMISSION"
+}

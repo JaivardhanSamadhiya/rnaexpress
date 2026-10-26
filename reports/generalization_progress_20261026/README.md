@@ -80,3 +80,14 @@ The proposed scope is
 Authorization, stage admissions and births are absent at this checkpoint.
 Preparing this source neither grants permission nor establishes full-data
 execution success. The original one-attempt no-retry condition still applies.
+
+Later checkpoint: the user approved that V1 scope. Its prefit stopped after
+3.157 seconds on an observed three-process count against its two-process
+ceiling; no new prefit or FIT was produced. The failed invocation is preserved.
+The separately reviewed V2 changes only the direct Git launch flag to the
+established detached mode. Its 335-pin source manifest is
+`9da990f95a33b3b9cef65efac864c1b36b72cdb4873239b6b5db5a3502296268`.
+A separate real metadata-only probe passed eight reads/24 Git commands with
+at most two owned processes; five PID-buffer tests also passed. This is an
+operational correction, not a biological result. V2 requires a new explicit
+answer before its corrected prefit and the still-unstarted single FIT.
