@@ -1,0 +1,43 @@
+"""Historical scientific references and separate current software identities."""
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[2]
+EXPECTED_ROOT=Path('C:/Users/jaisa/rnaexpress-recovery-20261025/material_snapshot_20261025/workspace')
+NS='generalization_current_execution_context_20261025'
+OUT=ROOT/'results'/NS
+CACHE_PREFIX=ROOT/'results/generalization_knowncell_runtime_provider_20261023/source_cache_must_remain_absent'
+PREFIX=ROOT/'data/interim/mechanism_v2/runtime'
+INVENTORY='results/generalization_cdrive_software_inventory_20261025/current_python_inventory_cdrive.json'
+INVENTORY_SHA='34ff960c2e0a69f724eff36324f72dec8c8208c48c93f6ddfd3ed7db2fa7ee33'
+PROFILE_MANIFEST='results/generalization_cdrive_numeric_profile_20261025/preparation_manifest.json'
+PROFILE_MANIFEST_SHA='d732628ebaaa1840e0f8d173fc03f359729310333fbab3794703742a86b3400b'
+PROFILE_RECEIPT='results/generalization_cdrive_numeric_profile_20261025/receipt.json'
+PROFILE_RECEIPT_SHA='d14659258b5ec76ca2c1e687a55d25352f51cc3296e5663e32bffd1fbddda527'
+PROFILE_CERTIFICATE='results/generalization_cdrive_numeric_profile_20261025/verified_current_status.json'
+PROFILE_CERTIFICATE_SHA='ff05569d74dfc37a26a3f8ed57ba05549d27dc1abdf41f1e153b8eeeeb02dfed'
+MATERIAL_VERIFICATION_SHA='a10f4a3fd85c6e24887ed0d8756d7d351c21ce4e51057ac0fc7cb56876e4d4f5'
+HISTORICAL_POLICY_SHA='a49b82f965dd6e389f908764d2bf1c331eb3441fe8a0d683b0fca2466c847ba9'
+HISTORICAL_AUTH_SHA='b67d5d45abdd6812997d3b84f6cbd5ff2abaf68cd8786638f5312d2744ab24e3'
+HISTORICAL_SCOPE_SHA='c40b929187a35199e88523ab5c6b351789c45fddb3aebe6dcf68172684ce6495'
+HISTORICAL_ARRAY_ANCHOR='0c80abde4d1fa8d3b76266e5b7f1fda8feaed96d91a865385c08f4025f21454a'
+HISTORICAL_PROFILE_ORIGIN='dc3e6a1e2f31b5d6c868de7302feb0e1e719835cc370f0eb5eacb307d08b5b2b'
+PROJECTION_SOURCE_SHA='0e888efb4bc7b7ff0b12907bbd49b7149a1974788cfb6213a76a0071aa2b81ba'
+ROW_COUNT=13781
+FEATURE_WIDTH=102
+ROW_IDS_SHA='d5a603fb35e25af47d60cc10ac41ae18458c094b855de29561cdecb5edaa0ce2'
+FEATURE_BYTES_SHA='441b9cf9d46171ea6c8d35a40c62573c929243dfb5ea212c24c095fa0ec3571d'
+LABEL_BITS_SHA='5858946f5ff293f5e70dd3e03a31a888f0ea8e4e2adb01e072d54271cbb5c821'
+DATA_PINS={
+ 'metadata':'1c00b3c49f95c003ff4b5d92096ebe908def2bbd8cd3993283c687ac9f5b19cc',
+ 'array':'8d8d39763b6c9fc226ba7f616fe891dad37556ac83694d39f10667c24aefb9fa',
+ 'labels':'46b87936ebaf093b80f7666b64f0bd92eb73a6b753b3661b3bafa229514b78ee',
+}
+STABLE_SCIENTIFIC_BINDINGS={
+ 'fit_source_manifest_sha256':'109a2bd1cd7e1b62f5a7607d67b3cd5da75192e4dfb9af46b1e5cb8b0fc7436e',
+ 'numeric_source_manifest_sha256':'92a430a99019ee68e6085d56afc9faca89c9e7d1f1abe965c67869fabfe9c2df',
+ 'lifecycle_v2_manifest_sha256':'8064cd93128421a9cdcd3d85491c47e94b002a380ef85bd4fc70ae3c9745ea08',
+ 'native_profile_receipt_sha256':HISTORICAL_PROFILE_ORIGIN,
+}
+PROCESS_CAP=768*2**20
+JOB_CAP=896*2**20
+THREAD_KEYS=('OPENBLAS_NUM_THREADS','OMP_NUM_THREADS','MKL_NUM_THREADS','NUMEXPR_NUM_THREADS')

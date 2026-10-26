@@ -1,0 +1,20 @@
+{
+  "actual63_numerical_consistency_established": false,
+  "actual_biological_payload_reads": 0,
+  "actual_native_operations": 0,
+  "actual_owned_controller_or_input_admission_ready": false,
+  "errors": 0,
+  "failures": 0,
+  "fitter_invocations_even_mocked": 0,
+  "source_sha256": {
+    "src/generalization_cdrive_checkpoint_forensics_20261026/__init__.py": "6f76b083683fcaf62a4bdf6fc411a33e1ece157398e7bf2d17295c08abc4d905",
+    "src/generalization_cdrive_checkpoint_forensics_20261026/arithmetic.py": "8206485ca16c8fe177e364110aa6a5e53ce83711e717e1e4bf27af6ee7b31eba",
+    "src/generalization_cdrive_checkpoint_forensics_20261026/declarations.py": "e2824c15dc9c0458b5447be4e6d052af2935a34c8ef020e4311a108ba98a8f75",
+    "src/generalization_cdrive_checkpoint_forensics_20261026/prepare.py": "98ecbafbcac7532fcb17df586a0fd5dc58af34f42b5e8a46191c19847b8dbc40",
+    "src/generalization_cdrive_checkpoint_forensics_20261026/spec.py": "e2a2e63cf2df6f28a45b9b8c8b847462f71fa2d38fa5938b324fa3f009c1f4e7",
+    "src/generalization_cdrive_checkpoint_forensics_20261026/supplied.py": "25c62834dfde9f0691aecbaa195da5115ad1766602dddd62f64412e218c3ad94",
+    "src/generalization_cdrive_checkpoint_forensics_20261026/tests.py": "ae23896582c4dcf4124853807a49040c79565989dfa768a845641b89c8b8426a"
+  },
+  "status": "PASS_INVENTED_FORENSIC_KERNELS_AND_SYMBOLIC_ROSTER_NOT_ACTUAL_CHECKPOINT_ANALYSIS",
+  "tests": 9
+}
