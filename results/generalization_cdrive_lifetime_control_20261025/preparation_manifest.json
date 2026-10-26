@@ -1,0 +1,37 @@
+{
+  "automatic_retry": false,
+  "biological_attempts": 0,
+  "duration_seconds": 1080,
+  "files": {
+    "artifacts/generalization_cdrive_lifetime_control_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "reports/generalization_cdrive_lifetime_control_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "reports/generalization_cdrive_lifetime_control_20261025/protocol.md": "d89d60b52855ceaabeaf10dbc7c30f846e0aeb2bc29ff034428f4cdc23de897c",
+    "results/generalization_cdrive_lifetime_control_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "results/generalization_cdrive_lifetime_control_20261025/synthetic_tests_receipt.json": "baafb1719d2b71b0f0a1cb03d9e31e207854ed58c329c70cc4c5b1d66f16edc6",
+    "src/__init__.py": "f2119a6b4b46bae5262a99c4bba45dea895dd587b86d3edd0a7703ea6dbade19",
+    "src/generalization_cdrive_lifetime_control_20261025/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "src/generalization_cdrive_lifetime_control_20261025/__init__.py": "f8593e02bb438eb8f2f77b400b1839446d4b6dca95648a4849525ec298763f75",
+    "src/generalization_cdrive_lifetime_control_20261025/prepare.py": "17b8f783b2a1e58a4a317a3616589a9ffa635284f2e10622a5ac8c8b42c57d4a",
+    "src/generalization_cdrive_lifetime_control_20261025/probe.py": "19c8e082ba86832ca9d9fbb73623fe8d0d5e91ee3afa84bd9605bdb2d98dc60b",
+    "src/generalization_cdrive_lifetime_control_20261025/tests.py": "55c02c4e428c2394909e6be0992054a1a4ccf557d265216211eae163f1ec0290",
+    "src/generalization_owned_workingset_probe_v2_20261025/__init__.py": "597e35df2236cc58a49ccdb9d6536cb26e0d709574f0c6e3c8045fea4844cd5e",
+    "src/generalization_owned_workingset_probe_v2_20261025/working_set.py": "b7d0be3c3a91e090827462c5090721c943e462e19126d9c96393b337dbc3b125",
+    "src/generalization_pum_process_probe_20261021/headless.py": "7f741f1e024243546b8ab53b65f4b5245a1fc71a7d9e6de86757bf468c1928f0",
+    "src/generalization_pum_resource_calibration_20261009/winjob.py": "3a2b470f116e87ff6233cdc8710b2703cf33b908dae68ece7fb4592227b5f741"
+  },
+  "new_native_fingerprints_for_this_stdlib_toy_only": true,
+  "python_executable": "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_native_files": {
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe": "4623dc531b0883c3e714da5cb30e9b73e12aa5145f0d92c7b191ab1dcf699dfe",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python3.dll": "f0d65efd7e2bc8f036d428de0db1b4743e5ebe51f133b7a6afd10d6913b7ce60",
+    "C:\\Users\\jaisa\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.dll": "9930d881ee11a91f7fd43ab28d5305194fbd2f88ea4a07661453c6885f409afd"
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "required_absent_namespace_inits": [
+    "src/generalization_pum_process_probe_20261021/__init__.py",
+    "src/generalization_pum_resource_calibration_20261009/__init__.py"
+  ],
+  "scientific_runtime_admission_granted": false,
+  "status": "FROZEN_INVENTED_CDRIVE_LIFETIME_CONTROL_NOT_SCIENTIFIC_ADMISSION",
+  "total_deadline_seconds": 1140
+}
