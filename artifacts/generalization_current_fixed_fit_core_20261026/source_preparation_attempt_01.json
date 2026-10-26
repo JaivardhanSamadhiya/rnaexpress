@@ -1,0 +1,9 @@
+{
+  "status": "SOURCE_PREPARATION_INVOCATION_FAILED_BEFORE_MANIFEST_NO_SCIENTIFIC_WORK",
+  "exception": "ModuleNotFoundError: No module named 'src'",
+  "cause": "Invoking the artifact script by filename placed its artifact directory on sys.path rather than the workspace root.",
+  "correction": "Invoke unchanged helper with runpy.run_path from a root python -c process.",
+  "scientific_source_changed": false,
+  "native_or_actual_data_or_optimizer_calls": 0,
+  "source_manifest_written": false
+}

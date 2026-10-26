@@ -58,10 +58,10 @@ refit or establish GO. Outer performance remains unevaluated.
 
 ## Ordered next steps and remaining gaps
 
-1. Complete and review the honest current-runtime execution path for the
-   unchanged study, retaining the now-verified historical scientific bindings.
-2. Obtain a new explicit one-attempt authorization before any fresh FIT, then
-   require real terminal closure, independent replay and the fixed gate.
+1. Obtain the new explicit authorization and run the prepared current prefit
+   followed by exactly one fresh fixed FIT, requiring real terminal closure.
+2. Independently replay a legitimately completed new campaign, then apply the
+   original benefit/harm gate without tuning on its outcomes.
 3. If the evidence supports a bounded scientific claim, qualify genuinely
    independent biological confirmation and assess novelty against comparable
    prior work. A favorable known-cell result alone cannot fill that gap.
@@ -71,3 +71,12 @@ admission, the original user modifications, consumed FIT attempts or their
 missing receipts. No automatic retry/resume, threshold changes, retrospective
 selection of favorable lineages, drive repair, app/tab closure, spending or
 scheduled task is authorized by this continuation.
+
+The new two-stage execution source is implemented and reviewed, with seven
+invented driver tests and twelve controller tests passing. Its 337-pin source
+manifest is `6c9a4e569f32dd2194a443eedeb54dc68c790ed6c65a89f8b43ea00e6d44fd0d`.
+The proposed scope is
+`reports/generalization_current_study_execution_20261026/approval_scope.md`.
+Authorization, stage admissions and births are absent at this checkpoint.
+Preparing this source neither grants permission nor establishes full-data
+execution success. The original one-attempt no-retry condition still applies.
