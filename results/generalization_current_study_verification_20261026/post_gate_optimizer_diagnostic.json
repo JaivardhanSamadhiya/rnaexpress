@@ -1,0 +1,111 @@
+{
+  "biological_feature_or_label_inputs_reopened": false,
+  "frozen_primary_verdict_unchanged": "NO-GO",
+  "models_checked": 63,
+  "new_optimizer_calls": 0,
+  "restricted_posthoc_best_fixed_arm_per_cell": {
+    "CAD": 0.49146742890192624,
+    "Neuro-2a": 0.497903470368236
+  },
+  "restricted_posthoc_macro_lower_bound": 0.4946854496350811,
+  "restriction": "Only one globally fixed existing arm per cell across all genes. Not a bound on arbitrary selectors, new models, new features or biology.",
+  "status": "EXPOSED_POST_GATE_SAVED_OPTIMIZER_DIAGNOSTIC_NOT_GATE_RESCUE",
+  "summary": {
+    "independent__inner": {
+      "all_success": true,
+      "checkpoints": 18,
+      "maximum_recorded_gradient_abs": 1.3872465233015746e-06,
+      "objective_decrease_min_median_max": [
+        0.04034996064941543,
+        0.0914769683476585,
+        0.11137013974212451
+      ],
+      "objective_min_median_max": [
+        0.5817770408178208,
+        0.6016702122122868,
+        0.6527972199105299
+      ],
+      "zero_objective": 0.6931471805599453
+    },
+    "independent__outer": {
+      "all_success": true,
+      "checkpoints": 3,
+      "maximum_recorded_gradient_abs": 7.13584032619851e-07,
+      "objective_decrease_min_median_max": [
+        0.02370962318826131,
+        0.0264174891326433,
+        0.04029239720546329
+      ],
+      "objective_min_median_max": [
+        0.652854783354482,
+        0.666729691427302,
+        0.669437557371684
+      ],
+      "zero_objective": 0.6931471805599453
+    },
+    "joint_shrink10__inner": {
+      "all_success": true,
+      "checkpoints": 18,
+      "maximum_recorded_gradient_abs": 1.289255717719373e-06,
+      "objective_decrease_min_median_max": [
+        0.02548826227368861,
+        0.06841346117273883,
+        0.1019647895031055
+      ],
+      "objective_min_median_max": [
+        0.5911823910568398,
+        0.6247337193872065,
+        0.6676589182862567
+      ],
+      "zero_objective": 0.6931471805599453
+    },
+    "joint_shrink10__outer": {
+      "all_success": true,
+      "checkpoints": 3,
+      "maximum_recorded_gradient_abs": 2.4705435722749414e-06,
+      "objective_decrease_min_median_max": [
+        0.014525053931467191,
+        0.017115973487669578,
+        0.05247168585296591
+      ],
+      "objective_min_median_max": [
+        0.6406754947069794,
+        0.6760312070722757,
+        0.6786221266284781
+      ],
+      "zero_objective": 0.6931471805599453
+    },
+    "pooled__inner": {
+      "all_success": true,
+      "checkpoints": 18,
+      "maximum_recorded_gradient_abs": 1.6568721696412492e-06,
+      "objective_decrease_min_median_max": [
+        0.021166169141376256,
+        0.05336395735691857,
+        0.06449873900696856
+      ],
+      "objective_min_median_max": [
+        0.6286484415529767,
+        0.6397832232030267,
+        0.671981011418569
+      ],
+      "zero_objective": 0.6931471805599453
+    },
+    "pooled__outer": {
+      "all_success": true,
+      "checkpoints": 3,
+      "maximum_recorded_gradient_abs": 2.7352494101889196e-07,
+      "objective_decrease_min_median_max": [
+        0.013155930378847436,
+        0.013571362153045441,
+        0.014895456084320968
+      ],
+      "objective_min_median_max": [
+        0.6782517244756243,
+        0.6795758184068998,
+        0.6799912501810979
+      ],
+      "zero_objective": 0.6931471805599453
+    }
+  }
+}

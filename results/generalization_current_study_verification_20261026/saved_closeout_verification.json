@@ -1,0 +1,53 @@
+{
+  "independent_confirmation": false,
+  "new_fit_calls": 0,
+  "novelty_certified": false,
+  "original_biological_feature_or_label_inputs_reopened": false,
+  "post_gate_optimizer_diagnostic_sha256": "ca807c7a02b52520b52c8e6db0bc841b3d0c63dcd9a8bbd963b7412a8da36b0e",
+  "primary_checks_failed": 10,
+  "primary_checks_passed": 4,
+  "primary_gate_checks": {
+    "each_cell_regret_strictly_below_0_5": false,
+    "independent_bootstrap_lower_strictly_positive": false,
+    "independent_each_cell_gain_at_least_0_005": false,
+    "independent_each_cell_wrong_harm_at_most_0_05": true,
+    "independent_leave_best_fold_gain_strictly_positive": false,
+    "independent_macro_gain_at_least_0_01": false,
+    "independent_macro_wrong_harm_at_most_0_02": true,
+    "macro_regret_at_most_0_48": false,
+    "pooled_bootstrap_lower_strictly_positive": false,
+    "pooled_each_cell_gain_at_least_0_005": false,
+    "pooled_each_cell_wrong_harm_at_most_0_05": true,
+    "pooled_leave_best_fold_gain_strictly_positive": false,
+    "pooled_macro_gain_at_least_0_01": false,
+    "pooled_macro_wrong_harm_at_most_0_02": true
+  },
+  "protected_user_modifications_verified": 33,
+  "scientific_verdict": "NO-GO",
+  "scope": "represented_known_cells_unseen_genes_exposed_development",
+  "source_files_rehashed": 364,
+  "source_manifest_sha256": "0656490251eb928609cf3b7f531d4bb0c8fd75937ced63db531eeb851dec3f2b",
+  "stages": {
+    "evaluate": {
+      "closed_telemetry_sha256": "026e04d1b94f8931e32019788d358806cb5cd644f517dda9b784baf123b06f0a",
+      "completion_sha256": "fa90c07ff4e6cdbc0230055fb749eab324b08af963e1021206022dd19849f0b2",
+      "elapsed_seconds": 19.95400000002701,
+      "receipt_sha256": "5d1f36bab81e39e03de62409c4fad56d68191b4995816d074b92f6f28d4a7ac8",
+      "report_sha256": "be53e8c02be6ae444ec67bd231532571bd97d00a4c92b4f52bc8ec15969f462a",
+      "saved_log_records": 21,
+      "terminal_owned_active_processes": 0
+    },
+    "replay": {
+      "closed_telemetry_sha256": "ce7d9cec71daaa3bd602a23d18026bcbeb6d74fc49f3455cc41f23d757c65c36",
+      "completion_sha256": "96ad2dfe1f8ba291b41ddc14bff7344207ee4df68165c1ef1f02ec71a830c2b0",
+      "elapsed_seconds": 501.73400000005495,
+      "receipt_sha256": "b1d70175ba533985b706e5f9ba6ecaf2b0d3a2661946f2eb14c49100b39f4719",
+      "report_sha256": "e5d80d7179ecf33a0103ae04dcea53b0b3191564b9585d2d466a47438eba4114",
+      "saved_log_records": 496,
+      "terminal_owned_active_processes": 0
+    }
+  },
+  "status": "PASS_SAVED_CURRENT_STUDY_CLOSEOUT_SCIENTIFIC_NO_GO",
+  "unseen_cell_generalization": false,
+  "verification_kind": "root_read_only_saved_record_rehash_not_independent_biological_replication"
+}

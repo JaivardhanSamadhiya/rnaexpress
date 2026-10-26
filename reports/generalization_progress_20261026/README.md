@@ -21,7 +21,7 @@ review and its corrections to overly strong historical conclusions.
 | Probabilistic supervision | A direct test of one uncertainty-supervision hypothesis | Macro regrets 0.5031, 0.5057 and 0.4894 versus 0.4882 for the reference; every original primary gate failed. |
 | PRELib released-PUM binding model | A small, replayed increment over fitted controls | MAE 0.465209 versus k-mer 0.473913 and duplicate-TGT 0.474378: 1.837%/1.933% gains, below 5%, with intervals crossing zero. Zero-effect MAE 0.459306 was stronger. Binding is not localization and this physics has prior art. |
 | Resources with unresolved provenance or insufficient groups | Specific admission/measurement gaps | Non-admission is not a negative biological test. Protected outcomes cannot be opened to rescue another generation. |
-| Current joint known-cell study | Accepted metadata, features, persisted labels and nine-pool prefit; all 63 checkpoint triples saved in the latest interrupted attempt | Missing campaign and supervisor closure. Earlier attempts stopped on resources or lost terminal evidence. No current accepted full replay or scientific gate verdict exists. |
+| Current joint known-cell study | A new complete 63-checkpoint/84-unit campaign, accepted arithmetic replay and unchanged evaluation; joint macro regret 0.500579 versus pooled 0.502774 and independent 0.506824 | Scientific NO-GO: ten of fourteen gates fail, both gain intervals include zero, cell gains disagree, and gains become negative after best-fold removal. Earlier interrupted campaigns remain separate and incomplete. |
 
 The verified PRELib report is
 `reports/generalization_prelib_final_report_20261022/results.md`.
@@ -53,18 +53,30 @@ All 63 checkpoints and nine source-only choices passed, with exact canonical
 scores and maximum arithmetic difference 3.553e-14. The job closed after
 490.829 seconds; its independent saved-record verification also passed.
 See `reports/generalization_cdrive_forensic_execution_20261026/observed_result.md`.
-This cannot synthesize the missing original completion receipts, run a gate,
-refit or establish GO. Outer performance remains unevaluated.
+This forensic audit cannot synthesize the missing original completion receipts,
+run a gate, refit or establish GO. It did not evaluate outer performance.
+
+The later, separately authorized corrected V2 prefit and single fresh FIT both
+completed. The new campaign has genuine closure and truthful current-runtime
+provenance. A separately owned read-only replay verified all 63 checkpoints
+and nine source-only selections, then the unchanged evaluator returned
+**NO-GO**. See
+`reports/generalization_current_study_verification_20261026/results.md`.
+All 364 verification source/static pins and saved closure records were rehashed;
+the original 33 user modifications are intact. No refit occurred during replay,
+evaluation or post-gate diagnosis. The single FIT permission is consumed.
 
 ## Ordered next steps and remaining gaps
 
-1. Obtain the new explicit authorization and run the prepared current prefit
-   followed by exactly one fresh fixed FIT, requiring real terminal closure.
-2. Independently replay a legitimately completed new campaign, then apply the
-   original benefit/harm gate without tuning on its outcomes.
-3. If the evidence supports a bounded scientific claim, qualify genuinely
-   independent biological confirmation and assess novelty against comparable
-   prior work. A favorable known-cell result alone cannot fill that gap.
+1. Diagnose the representation and decision task from admitted source and saved
+   exposed results; distinguish lost context from measurement limits without
+   claiming either is proven or repeating the same fit.
+2. Specify one materially different hypothesis and a fixed falsifiable test,
+   with competitive controls and an explicit record that current folds are
+   exposed development data. Preserve all prior negative verdicts.
+3. Establish an admissible route to independent biological confirmation and
+   a precise comparison with prior work. No new dataset or protected outcome
+   becomes admitted through this planning step.
 
 Do not touch historical freezes, protected/reserved outcomes, CORE after label
 admission, the original user modifications, consumed FIT attempts or their
@@ -77,7 +89,7 @@ invented driver tests and twelve controller tests passing. Its 337-pin source
 manifest is `6c9a4e569f32dd2194a443eedeb54dc68c790ed6c65a89f8b43ea00e6d44fd0d`.
 The proposed scope is
 `reports/generalization_current_study_execution_20261026/approval_scope.md`.
-Authorization, stage admissions and births are absent at this checkpoint.
+Authorization, stage admissions and births were absent at that preparation checkpoint.
 Preparing this source neither grants permission nor establishes full-data
 execution success. The original one-attempt no-retry condition still applies.
 
@@ -89,5 +101,7 @@ established detached mode. Its 335-pin source manifest is
 `9da990f95a33b3b9cef65efac864c1b36b72cdb4873239b6b5db5a3502296268`.
 A separate real metadata-only probe passed eight reads/24 Git commands with
 at most two owned processes; five PID-buffer tests also passed. This is an
-operational correction, not a biological result. V2 requires a new explicit
-answer before its corrected prefit and the still-unstarted single FIT.
+operational correction, not a biological result. The user subsequently approved
+V2; its corrected prefit, single fresh FIT, read-only replay and evaluation are
+now complete as recorded above. No additional fitting or automatic retry is
+authorized by that consumed scope.
