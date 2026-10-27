@@ -1,0 +1,95 @@
+{
+  "arms": {
+    "independent": {
+      "binary_implied_tie_aware_pair_accuracy": 0.49347687229933435,
+      "conditional_regret_by_menu_size": {
+        "10+": 0.5739987720692618,
+        "2": 0.5065231277006657,
+        "3": 0.5033520599977834,
+        "4": 0.5142811727705279,
+        "5-9": 0.5148894703068037
+      },
+      "exact_constant_score_menus": 0,
+      "exact_constant_score_primary_weight": 0.0,
+      "macro_regret_recomputed": 0.5068243314989828,
+      "multicandidate_current_regret_contribution": 0.1493863761308649,
+      "restricted_best_possible_regret_if_only_multicandidate_choices_change": 0.35743795536811784
+    },
+    "joint_shrink10": {
+      "binary_implied_tie_aware_pair_accuracy": 0.4977470171192221,
+      "conditional_regret_by_menu_size": {
+        "10+": 0.6286995638837812,
+        "2": 0.5022529828807779,
+        "3": 0.5036485831019304,
+        "4": 0.4629050934540797,
+        "5-9": 0.5132644583688014
+      },
+      "exact_constant_score_menus": 0,
+      "exact_constant_score_primary_weight": 0.0,
+      "macro_regret_recomputed": 0.5005789239481194,
+      "multicandidate_current_regret_contribution": 0.14615427981906598,
+      "restricted_best_possible_regret_if_only_multicandidate_choices_change": 0.35442464412905345
+    },
+    "pooled": {
+      "binary_implied_tie_aware_pair_accuracy": 0.49601355801346103,
+      "conditional_regret_by_menu_size": {
+        "10+": 0.5085346672143796,
+        "2": 0.503986441986539,
+        "3": 0.5085993509648412,
+        "4": 0.46713377251328875,
+        "5-9": 0.5094245505367052
+      },
+      "exact_constant_score_menus": 0,
+      "exact_constant_score_primary_weight": 0.0,
+      "macro_regret_recomputed": 0.5027738053562633,
+      "multicandidate_current_regret_contribution": 0.14712591189348223,
+      "restricted_best_possible_regret_if_only_multicandidate_choices_change": 0.35564789346278103
+    }
+  },
+  "cells": [
+    "CAD",
+    "Neuro-2a"
+  ],
+  "components_per_cell": {
+    "CAD": 187,
+    "Neuro-2a": 187
+  },
+  "constant_score_cause_identified": false,
+  "execution_kind": "ROOT_POST_GATE_SAVED_REPORT_SUMMARIZATION_NOT_NEW_FIT_OR_INPUT_ADMISSION",
+  "fits_or_refits": 0,
+  "frozen_primary_verdict_unchanged": "NO-GO",
+  "input_saved_report_sha256": "be53e8c02be6ae444ec67bd231532571bd97d00a4c92b4f52bc8ec15969f462a",
+  "maximum_menu_size": 10,
+  "menu_size_bins": {
+    "10+": {
+      "menus": 4,
+      "primary_weight": 0.0003253119429590018
+    },
+    "2": {
+      "menus": 2686,
+      "primary_weight": 0.7056695653576335
+    },
+    "3": {
+      "menus": 1068,
+      "primary_weight": 0.18567751924529532
+    },
+    "4": {
+      "menus": 526,
+      "primary_weight": 0.06289141767378119
+    },
+    "5-9": {
+      "menus": 532,
+      "primary_weight": 0.04543618578033101
+    }
+  },
+  "menus_per_arm": 4816,
+  "note": "Two-candidate menu regret is one minus tie-aware ordering accuracy. The proposed menu loss then changes margin/temperature, not relative cost weighting among multiple alternatives.",
+  "original_feature_or_label_inputs_reopened": false,
+  "restricted_bound_scope": "Only changes to choices in menus with more than two candidates; binary choices held fixed. Not a bound on other predictors or biology.",
+  "source_files_sha256": {
+    "src/generalization_menu_feasibility_20261026/__init__.py": "43c84752a875d2404c7c31bf1e0c9b81e347e8dcd7540b7fba9b0824c6279509",
+    "src/generalization_menu_feasibility_20261026/analyze.py": "adf4e00594cfdfa6d6c647822ad8706b6ad4c9af3a86a4ee13f71720d7cc489d",
+    "src/generalization_menu_feasibility_20261026/tests.py": "d6d3b58fdee62503a82fb4799cb859ddb0528b86df847c6adfc9e2796a28e52f"
+  },
+  "status": "POST_GATE_SAVED_MENU_FEASIBILITY_NOT_NEW_PRIMARY"
+}
