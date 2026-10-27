@@ -1,0 +1,93 @@
+{
+  "actual_input_admissions": 0,
+  "actual_project_fits": 0,
+  "file_metadata_only_inventory": [
+    {
+      "bytes": null,
+      "exists": false,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "artifacts/generalization_20261007/scaling_features.npz",
+      "root": "C:\\Users\\jaisa\\rnaexpress-recovery-20261025\\material_snapshot_20261025\\workspace"
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "artifacts/probabilistic_ranking_20260928/data.npz",
+      "root": "C:\\Users\\jaisa\\rnaexpress-recovery-20261025\\material_snapshot_20261025\\workspace"
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "results/generalization_20261007/row_index.csv.gz",
+      "root": "C:\\Users\\jaisa\\rnaexpress-recovery-20261025\\material_snapshot_20261025\\workspace"
+    },
+    {
+      "bytes": null,
+      "exists": false,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "artifacts/probabilistic_ranking_20260928/replicate_candidate_measurements.csv.gz",
+      "root": "C:\\Users\\jaisa\\rnaexpress-recovery-20261025\\material_snapshot_20261025\\workspace"
+    },
+    {
+      "bytes": 3160928,
+      "exists": true,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "artifacts/generalization_20261007/scaling_features.npz",
+      "root": "D:\\rnaexpress"
+    },
+    {
+      "bytes": 3432836,
+      "exists": true,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "artifacts/probabilistic_ranking_20260928/data.npz",
+      "root": "D:\\rnaexpress"
+    },
+    {
+      "bytes": 461214,
+      "exists": true,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "results/generalization_20261007/row_index.csv.gz",
+      "root": "D:\\rnaexpress"
+    },
+    {
+      "bytes": 3436813,
+      "exists": true,
+      "hash_or_schema_verified": false,
+      "payload_opened": false,
+      "relative_path": "artifacts/probabilistic_ranking_20260928/replicate_candidate_measurements.csv.gz",
+      "root": "D:\\rnaexpress"
+    }
+  ],
+  "historical_source_or_control_metadata_sha256": {
+    "results/generalization_20261007/prefit_manifest.json": "1d69e9c0784940c7f14af6c510a1ce3d8499faf49cad4c76441b7193f216e37d",
+    "results/probabilistic_ranking_20260928/prefit_manifest.json": "c56c6ce36fc60cb08d09e37a4000658d8cff0d1b6ec039c304436f8909d3535e",
+    "src/cross_assay_20260927/models.py": "a7d43f49c37e0e2a86e5c9c64cbf97bca78aabab36a007f10f886fb916d54d71",
+    "src/probabilistic_ranking_20260928/common.py": "827454e9375374bb76afc2e49f141fc21fe40e54cf02b1b116ad71d687944c49",
+    "src/probabilistic_ranking_20260928/prepare.py": "301e1ac24adceb33d0727b69bd39cbbdb6a8d3e26119b32f993d07582e5bc611"
+  },
+  "independent_source_review_completed": false,
+  "planned_inner_tasks": 108,
+  "planned_outer_tasks": 12,
+  "protected_user_files_verified": 33,
+  "recorded_at_utc": "2026-10-27T00:11:03.291980+00:00",
+  "scientific_verdict_unchanged": "NO-GO",
+  "status": "SOURCE_ONLY_READINESS_NOT_BIOLOGICAL_ADMISSION",
+  "test_observation": {
+    "command_module": "src.generalization_menu_comparison_core_20261026.tests",
+    "elapsed_seconds_observed": 0.028,
+    "exit_code_observed": 0,
+    "kind": "root_transcription_of_observed_scoped_unittest_output",
+    "native_scientific_imports": false,
+    "project_inputs_opened": false,
+    "tests": 14
+  }
+}

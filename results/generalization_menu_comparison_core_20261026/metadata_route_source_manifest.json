@@ -1,0 +1,31 @@
+{
+  "CORE_reads": 0,
+  "actual_archive_reads": 0,
+  "actual_data_or_fit_authority": false,
+  "actual_project_fits": 0,
+  "files": {
+    "reports/generalization_menu_comparison_core_20261026/metadata_route.md": "60905715abb3a4c798573cef87f95b60b5feca8165e6ce63d8518f927e801b8f",
+    "src/generalization_menu_comparison_core_20261026/metadata_route.py": "3cbb97c0ca1f0c43f18151f22c5583830ea5085daa1351cf7bb2ce6cdb87b676",
+    "src/generalization_menu_comparison_core_20261026/test_metadata_route.py": "29f5ca7a4b47a565407642a2eb39289e810e4ebf3b72f05945ed64a5a95807d6",
+    "src/generalization_menu_feasibility_20261026/verify_saved.py": "20037a8a23d4d4610e9a9263b325f014e557c6f7385805de09ef7eb9f30982fd"
+  },
+  "independent_source_review_completed": false,
+  "metadata_parser_tests": {
+    "elapsed_seconds_observed": 0.026,
+    "exit_code_observed": 0,
+    "record_kind": "root_transcription_of_observed_scoped_unittest_output",
+    "tests": 8
+  },
+  "numeric_outcome_parses": 0,
+  "parent_source_manifest_sha256": "be83d0a8aaddda6959475a6c86241b99624aa300fe71940e10d5b60ed4c02fd9",
+  "protected_user_files_verified": 33,
+  "recorded_at_utc": "2026-10-27T00:17:05.832915+00:00",
+  "saved_diagnostic_reproduction": {
+    "diagnostic_fields_reproduced": 13,
+    "menus_per_arm": 4816,
+    "original_feature_or_label_inputs_reopened": false,
+    "source_or_static_pins_verified": 14,
+    "status": "PASS_EXACT_SAVED_MENU_DIAGNOSTIC_REPRODUCTION"
+  },
+  "status": "FROZEN_ADDITIVE_METADATA_PARSER_AND_DIAGNOSTIC_REPRODUCER_NOT_PROJECT_ADMISSION"
+}

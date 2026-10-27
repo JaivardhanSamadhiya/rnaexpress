@@ -71,7 +71,7 @@ evaluation or post-gate diagnosis. The single FIT permission is consumed.
 1. Establish exact reusable copies and admissions for the existing four-assay
    features and persisted labels, without reopening CORE or protected outcomes.
    Current known-cell input certification covers Mikl, not that full roster.
-2. Review and freeze the new menu-cost versus matched pairwise development
+2. Review and freeze the three-arm menu-cost/margin/pairwise development
    comparison, including complete gates, provenance, a bounded controller and
    separate execution authority before fitting. Preserve all prior negatives.
 3. Establish an admissible route to independent biological confirmation and
@@ -86,6 +86,27 @@ pairwise-loss/selection-regret mismatch. This is an established structured-loss
 family, not a novel algorithm or RNA result. No biological input or optimizer
 was used. The proposed controlled four-assay comparison is not admitted or
 authorized; actual memory and biological benefit remain unmeasured.
+
+Later source/diagnostic checkpoint: saved known-cell decisions show that
+two-candidate menus carry 70.5670% of primary weight. Their joint-model implied
+ordering accuracy is 49.7747%; none of the three arms has an exactly constant
+complete-menu score. These exposed conditional values do not change the NO-GO.
+They weaken a large-menu-only explanation of failure. See
+`reports/generalization_menu_feasibility_20261026/results.md`.
+
+The comparison therefore now requires a third, matched margin-loss control:
+on binary menus it is mathematically identical to the proposed menu-cost loss.
+The data-free scalar core has 14 passing invented tests and plans 120 tasks,
+108 inner/12 outer, rather than the initial two-arm draft's 80. Four diagnostic
+tests pass, and the actual saved-report diagnosis reproduces exactly. No actual
+project fit or source-input admission has occurred.
+
+A separate metadata-only stream route is implemented with 8 passing invented
+tests. It can reconstruct the full roster from the previously frozen row index
+and repeated metadata in the existing measurement archive, without CORE or
+numeric outcome parsing. The real archives remain unopened; actual source
+admission and aggregate-label access are still unresolved. Details are in
+`reports/generalization_menu_comparison_core_20261026/metadata_route.md`.
 
 Do not touch historical freezes, protected/reserved outcomes, CORE after label
 admission, the original user modifications, consumed FIT attempts or their
