@@ -1,0 +1,62 @@
+{
+  "arms": {
+    "independent": {
+      "binary_primary_weight": 0.7056695653576353,
+      "biological_fits": 0,
+      "cell_invariant_oracle_binary_conditional_order_accuracy_ceiling": 0.7652704683883831,
+      "cell_invariant_oracle_binary_conditional_regret_floor": 0.23472953161161694,
+      "cell_invariant_oracle_binary_full_primary_contribution_floor": 0.16564148654897104,
+      "discordant_binary_contexts": 610,
+      "gate_changed": false,
+      "original_inputs_reopened": false,
+      "paired_binary_contexts": 1343,
+      "paired_contexts": 2408,
+      "saved_predictor_binary_regret_contribution": 0.35743795536811857,
+      "saved_predictor_same_order_binary_pairs": 760,
+      "scope": "Only one shared ordering per exact paired binary menu, equal paired cell mass, observed aggregate effects treated as fixed. Other menus optimistically perfect for the full-primary contribution. Oracle uses target outcomes and is not an available predictor, noise ceiling, all-model bound or causal effect.",
+      "status": "POST_GATE_PAIRED_BINARY_TRUTH_DIAGNOSTIC_NOT_CONFIRMATION",
+      "unweighted_discordant_binary_fraction": 0.45420699925539837,
+      "weighted_discordant_binary_fraction": 0.4694590632232339
+    },
+    "joint_shrink10": {
+      "binary_primary_weight": 0.7056695653576353,
+      "biological_fits": 0,
+      "cell_invariant_oracle_binary_conditional_order_accuracy_ceiling": 0.7652704683883831,
+      "cell_invariant_oracle_binary_conditional_regret_floor": 0.23472953161161694,
+      "cell_invariant_oracle_binary_full_primary_contribution_floor": 0.16564148654897104,
+      "discordant_binary_contexts": 610,
+      "gate_changed": false,
+      "original_inputs_reopened": false,
+      "paired_binary_contexts": 1343,
+      "paired_contexts": 2408,
+      "saved_predictor_binary_regret_contribution": 0.3544246441290544,
+      "saved_predictor_same_order_binary_pairs": 1110,
+      "scope": "Only one shared ordering per exact paired binary menu, equal paired cell mass, observed aggregate effects treated as fixed. Other menus optimistically perfect for the full-primary contribution. Oracle uses target outcomes and is not an available predictor, noise ceiling, all-model bound or causal effect.",
+      "status": "POST_GATE_PAIRED_BINARY_TRUTH_DIAGNOSTIC_NOT_CONFIRMATION",
+      "unweighted_discordant_binary_fraction": 0.45420699925539837,
+      "weighted_discordant_binary_fraction": 0.4694590632232339
+    },
+    "pooled": {
+      "binary_primary_weight": 0.7056695653576353,
+      "biological_fits": 0,
+      "cell_invariant_oracle_binary_conditional_order_accuracy_ceiling": 0.7652704683883831,
+      "cell_invariant_oracle_binary_conditional_regret_floor": 0.23472953161161694,
+      "cell_invariant_oracle_binary_full_primary_contribution_floor": 0.16564148654897104,
+      "discordant_binary_contexts": 610,
+      "gate_changed": false,
+      "original_inputs_reopened": false,
+      "paired_binary_contexts": 1343,
+      "paired_contexts": 2408,
+      "saved_predictor_binary_regret_contribution": 0.35564789346278186,
+      "saved_predictor_same_order_binary_pairs": 1343,
+      "scope": "Only one shared ordering per exact paired binary menu, equal paired cell mass, observed aggregate effects treated as fixed. Other menus optimistically perfect for the full-primary contribution. Oracle uses target outcomes and is not an available predictor, noise ceiling, all-model bound or causal effect.",
+      "status": "POST_GATE_PAIRED_BINARY_TRUTH_DIAGNOSTIC_NOT_CONFIRMATION",
+      "unweighted_discordant_binary_fraction": 0.45420699925539837,
+      "weighted_discordant_binary_fraction": 0.4694590632232339
+    }
+  },
+  "model_fits_or_refits": 0,
+  "original_arrays_or_label_archives_read": false,
+  "primary_verdict_unchanged": "NO-GO",
+  "saved_report_sha256": "be53e8c02be6ae444ec67bd231532571bd97d00a4c92b4f52bc8ec15969f462a"
+}

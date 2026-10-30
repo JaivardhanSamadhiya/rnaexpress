@@ -1,0 +1,21 @@
+{
+  "files": {
+    "reports/generalization_binary_cell_diagnostic_20261030/results.md": "3ab7f3075f60aebb646dc426c3ffec70a2588eb796823d53dd0bfe344cca2b4a",
+    "results/generalization_binary_cell_diagnostic_20261030/diagnostic.json": "034f4dcc29e38466c533f94b06b237cdd2f3266c12f1c8ebef5eefcc9f433cea",
+    "src/generalization_binary_cell_diagnostic_20261030/__init__.py": "60016b1014461bd74e3d0ab3fb432a31854fc8ba09d53ca04670a4f1b06eddc3",
+    "src/generalization_binary_cell_diagnostic_20261030/analyze.py": "0164b1c516c28f79addcb1da7ac08133b2672ea204a752e8cbe18365c2a6c681",
+    "src/generalization_binary_cell_diagnostic_20261030/run.py": "a75cc2387c5abd5dbf26e6074f7ad271bbaa0c33d2c4f3dbdad1e53b8c919030",
+    "src/generalization_binary_cell_diagnostic_20261030/tests.py": "f4e345edf69b0b6f1ee972b331fc9f040a86d387c8ab934b8cdf101498b85cae"
+  },
+  "parent_sequence_identity_newly_certified": false,
+  "review_scope": "Source review and independent reconstruction using only the fixed closed report; no original inputs, native scientific imports, Jobs or fits.",
+  "reviewer": "/root/menu_numeric_source_review",
+  "reviewer_reconstructed": {
+    "binary_pairs": 1343,
+    "conditional_floor": 0.2347295316116172,
+    "discordant_pairs": 610,
+    "primary_contribution_floor": 0.1656414865489708,
+    "weighted_discordance": 0.4694590632232344
+  },
+  "status": "ROOT_RECORDED_INDEPENDENT_SOURCE_AND_SAVED_REPORT_REVIEW"
+}
