@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "bytes": 3368,
+      "extracted_path": "results/generalization_menu_independent_review_20261026/historical_source/src__probabilistic_ranking_20260928__common.py.txt",
+      "historical_path": "src/probabilistic_ranking_20260928/common.py",
+      "sha256": "827454e9375374bb76afc2e49f141fc21fe40e54cf02b1b116ad71d687944c49",
+      "source_commit": "3640240580717a9a6e40945ded851806b91fc71f"
+    },
+    {
+      "bytes": 5171,
+      "extracted_path": "results/generalization_menu_independent_review_20261026/historical_source/src__probabilistic_ranking_20260928__prepare.py.txt",
+      "historical_path": "src/probabilistic_ranking_20260928/prepare.py",
+      "sha256": "301e1ac24adceb33d0727b69bd39cbbdb6a8d3e26119b32f993d07582e5bc611",
+      "source_commit": "3640240580717a9a6e40945ded851806b91fc71f"
+    },
+    {
+      "bytes": 4510,
+      "extracted_path": "results/generalization_menu_independent_review_20261026/historical_source/src__generalization_20261007__common.py.txt",
+      "historical_path": "src/generalization_20261007/common.py",
+      "sha256": "5707393cbf51333db925ef5c66b9e949f8eeafcafa131d55747534a5b2661840",
+      "source_commit": "3640240580717a9a6e40945ded851806b91fc71f"
+    },
+    {
+      "bytes": 3960,
+      "extracted_path": "results/generalization_menu_independent_review_20261026/historical_source/src__generalization_20261007__route_scaling.py.txt",
+      "historical_path": "src/generalization_20261007/route_scaling.py",
+      "sha256": "3457184c701ced91a69ce5747d1c809c5180e4ff5897af6927827c7ab710fdea",
+      "source_commit": "3640240580717a9a6e40945ded851806b91fc71f"
+    },
+    {
+      "bytes": 9014,
+      "extracted_path": "results/generalization_menu_independent_review_20261026/historical_source/src__cross_assay_20260927__dataset.py.txt",
+      "historical_path": "src/cross_assay_20260927/dataset.py",
+      "sha256": "a9cd9c0c2ab666d28a6dc021df366cc6c202394d63a8c59e73ffa632721a6d66",
+      "source_commit": "3640240580717a9a6e40945ded851806b91fc71f"
+    }
+  ],
+  "original_biological_inputs_read": false,
+  "scientific_imports": false,
+  "status": "EXACT_COMMITTED_SOURCE_TEXT_ONLY_NO_PROJECT_PAYLOADS"
+}

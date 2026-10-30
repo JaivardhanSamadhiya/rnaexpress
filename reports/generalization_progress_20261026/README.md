@@ -108,6 +108,37 @@ numeric outcome parsing. The real archives remain unopened; actual source
 admission and aggregate-label access are still unresolved. Details are in
 `reports/generalization_menu_comparison_core_20261026/metadata_route.md`.
 
+## October 29 continuation
+
+The saved independent source review confirms the menu-loss math and reproduces
+the exposed decision diagnosis within 1.111e-16. It identified a future
+integration issue in the low-level scalar API: a caller could bypass the pair
+contract and supply incomplete or misweighted source pairs. A separate bound
+reference now derives the pair roster, hierarchical weights and scaling
+internally; its six invented tests and narrow independent source review pass.
+The frozen low-level core is preserved. Any future producer must use an
+admitted source binding rather than assume the old arithmetic API supplies one.
+
+The study's interpretation is the composite full-menu objective versus the
+two fixed capped-pair objectives. Margin matching does not isolate cost use
+or sampling coverage in larger menus. No fourth arm or actual fit was added.
+CORE was not reopened; a distinct future aggregate-label admission is unresolved,
+not prohibited permanently for every possible future study by the known-cell
+post-admission rule. Existing scopes and protected outcomes remain unchanged.
+
+The bundled interpreter changed again. Of 42 previously registered native
+paths, 38 have new hashes; all 7,998 selected scientific-package files remain
+byte-identical. A fresh 42-test invented suite passes under the new interpreter,
+without NumPy/SciPy/pandas/Torch or original biological inputs. Scientific
+loading/origin/numerical compatibility is not admitted by that result. Old
+runtime receipts remain historical and cannot certify the new interpreter.
+
+Current next work starts with the new current-native profile, then exact
+four-assay input admissions, then the numerical implementation, owner and full
+scientific freeze. No new biological campaign has started. See
+`reports/generalization_menu_review_closeout_20261029/status.md` for the
+evidence-bound review synthesis, helper incidents and remaining boundaries.
+
 Do not touch historical freezes, protected/reserved outcomes, CORE after label
 admission, the original user modifications, consumed FIT attempts or their
 missing receipts. No automatic retry/resume, threshold changes, retrospective

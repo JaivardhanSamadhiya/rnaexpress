@@ -1,0 +1,7 @@
+{
+  "status": "REVIEW_HELPER_STOPPED_BEFORE_EXPOSED_REPORT_READ",
+  "reason": "The allowed saved evaluation report is 39549826 bytes, above the helper's initial 33554432-byte preflight bound.",
+  "original_inputs_or_protected_outcomes_opened": false,
+  "frozen_sources_changed": false,
+  "followup": "Use a 67108864-byte bound only for the already-authorized fixed saved-report path. No scientific rule, tolerance, cohort or model changes."
+}

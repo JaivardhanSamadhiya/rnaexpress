@@ -1,0 +1,10 @@
+{
+  "status": "REVIEW_HELPER_STOPPED_BEFORE_EVIDENCE_PERSISTENCE",
+  "reason": "runpy provided a relative __file__; relative_to(absolute ROOT) rejected the helper's own source path after the probes and exposed-report calculation.",
+  "preserved_source": "audit_source_and_saved_attempt01.py.txt",
+  "repair": "Resolve only the helper's own source path before computing its repository-relative identity.",
+  "scientific_rules_or_tolerances_changed": false,
+  "original_input_or_protected_outcome_access": false,
+  "already_exposed_saved_report_read": true,
+  "frozen_files_changed": false
+}

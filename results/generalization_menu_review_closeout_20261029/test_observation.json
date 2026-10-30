@@ -1,0 +1,27 @@
+{
+  "client_date": "2026-10-29",
+  "errors": 0,
+  "failures": 0,
+  "fits_or_refits": 0,
+  "modules": [
+    "src.generalization_menu_loss_20261026.tests",
+    "src.generalization_menu_comparison_core_20261026.tests",
+    "src.generalization_menu_comparison_core_20261026.test_metadata_route",
+    "src.generalization_menu_feasibility_20261026.tests",
+    "src.generalization_menu_bound_reference_20261026.tests"
+  ],
+  "old_runtime_receipts_modified": false,
+  "original_biological_inputs_read": false,
+  "python_runtime_files_sha256": {
+    "python.exe": "73dbf1f40507275d6fa636b49eb80b4753e313f649f52591abba86b31f1a1bce",
+    "python3.dll": "f9f5a6e43ecfad705cf7a3d21a6935914a17af9e7792cc617e286ad8a7a1c9db",
+    "python312.dll": "58afcb600bce8fbebec58970e83fc0b3e160cdb257ef90c900bd97a169f61645"
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "recorded_at_host_utc": "2026-10-30T04:04:33.755371+00:00",
+  "scientific_numpy_scipy_pandas_runtime_admitted": false,
+  "scientific_packages_imported": [],
+  "status": "PASS_INVENTED_SCOPED_TESTS_NEW_INTERPRETER_NOT_SCIENTIFIC_RUNTIME_ADMISSION",
+  "test_log_sha256": "bcd4e69925337ef7b68ba244e7b03f7ddbb02f6457a3cb211f8ba2a05465c8dd",
+  "tests": 42
+}
